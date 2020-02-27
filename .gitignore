@@ -1,0 +1,10 @@
+.DS_Store
+source
+staging
+prod
+*custom-tagging*
+*environment-variables*
+master.zip
+
+# Idea
+.idea
