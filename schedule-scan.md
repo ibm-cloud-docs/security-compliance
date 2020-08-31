@@ -1,0 +1,137 @@
+---
+
+copyright:
+  years: 2020
+lastupdated: "2020-08-31"
+
+keywords: scans, compliance, schedule scan, create scan, discovery, validation, fact collection, fact validation
+
+subcollection: security-compliance
+
+---
+
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:download: .download}
+{:external: target="_blank" .external}
+{:new_window: target="_blank"}
+{:faq: data-hd-content-type='faq'}
+{:gif: data-image-type='gif'}
+{:term: .term}
+{:important: .important}
+{:note: .note}
+{:pre: .pre}
+{:tip: .tip}
+{:preview: .preview}
+{:deprecated: .deprecated}
+{:shortdesc: .shortdesc}
+{:support: data-reuse='support'}
+{:script: data-hd-video='script'}
+{:table: .aria-labeledby="caption"}
+{:troubleshoot: data-hd-content-type='troubleshoot'}
+{:help: data-hd-content-type='help'}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
+{:tsSymptoms: .tsSymptoms}
+{:beta: .beta}
+
+
+# Scheduling a scan
+{: #schedule-scan}
+
+When you're working with {{site.data.keyword.compliance_full}}, you can run scans of specific scopes to determine resource availability, resource configuration, and a scope's adherence to regulatory controls as defined in a profile.
+{: shortdesc}
+
+
+## Understanding scan types
+{: #scan-types}
+
+Depending on what you're trying to accomplish, you might run different types of scans. Check out the following table to learn more about types of scans and when to run each type.
+
+| Scan type | Description |
+|:----------|:------------|
+| Discovery | A scope is often defined at the highest level and includes one or more resource groups. When a discovery scan is run, a list of all of the available resources in a scope is returned. |
+| Fact collection | When you collect facts, you're collecting the configuration information of the resources that were found during discovery. If any new resource configurations are found, then the scope is updated to include them. |
+| Validation | Validation scans determine a specified scope's adherence to regulatory controls by creating an attachment between that scope and profile. When a validation scan is run, the service also runs a fact collection scan before the validation occurs. |
+| Fact validation | Fact validation is run on previously collected facts. You might run a fact validation to determine whether previous configurations meet your current profile requirements. |
+{: caption="Table 1. Types of scans" caption-side="top"}
+
+## Before you begin
+{: #before-scans}
+
+Before you get started, be sure that you have the required level of access to view and schedule scans. To schedule scans, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
+
+
+## Running discovery and fact collection scans
+{: #run-discovery}
+
+You can schedule a discovery or fact collection scan by using the {{site.data.keyword.compliance_short}} UI.
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+2. In the navigation, click **Assess > Scans > Settings**. 
+3. Click **Create**. A side panel opens.
+4. Give your scan a name and description.
+5. Select **Discovery** or **Fact collection**.
+6. Select a scope and click **Next**
+7. Optional: If you selected an AWS scope, set your remediation preference.
+8. Select the frequency at which you want the scan to run.
+9. Select when you want the scan to stop. Options include never, a specific number of scans, or on a set date.
+10. Click **Create**.
+
+
+
+## Running validation scans
+{: #run-validation}
+
+You can schedule a validation scan by using the {{site.data.keyword.compliance_short}} UI.
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+2. In the navigation, click **Assess > Scans > Settings**. 
+3. Click **Create**. A side panel opens.
+4. Give your scan a name and description.
+5. Select **Validation**.
+6. Select a scope.
+7. Select the profile that you want to use validate compliance.
+
+    Be sure to select a profile that is applicable to your scope. For example, if you select an IBM scope but use an AWS profile to validate it, no results are returned as part of your scan.
+
+8. Click **Next**.
+9. If you selected an AWS scope, set your remediation preference.
+
+  <table>
+    <caption>Table 2. Remediation types</caption>
+    <tr>
+      <th>Remediation type</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>None</td>
+      <td>There is no remediation configuration in place.</td>
+    </tr>
+    <tr>
+      <td>Approved</td>
+      <td>The service must wait for approval from a user before the remediation is run.</td>
+    </tr>
+    <tr>
+      <td>Automatic</td>
+      <td>The service runs remediation immediately.</td>
+    </tr>
+  </table>
+
+10. Select the frequency at which you want the scan to run.
+11. Select when you want the scan to stop. Options include never, a specific number of scans, or on a set date.
+12. Click **Create**.
+
+
+## Running a fact validation scan
+{: #run-fact-validation}
+
+You can schedule a fact validation scan by using the {{site.data.keyword.compliance_short}} UI.
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+2. In the navigation, click **Configure > Scopes**. 
+3. Select the name of the scope that you want to scan.
+4. Optional: From the history of scans, select the scan that you want to revalidate.
+5. Click the **Validate** icon. 
+
+

@@ -1,0 +1,75 @@
+---
+
+copyright:
+  years: 2020
+lastupdated: "2020-08-31"
+
+keywords: goals, parameters, customize parameters, customize goals, security and compliance,
+
+subcollection: security-compliance
+
+---
+
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:download: .download}
+{:external: target="_blank" .external}
+{:new_window: target="_blank"}
+{:faq: data-hd-content-type='faq'}
+{:gif: data-image-type='gif'}
+{:term: .term}
+{:important: .important}
+{:note: .note}
+{:pre: .pre}
+{:tip: .tip}
+{:preview: .preview}
+{:deprecated: .deprecated}
+{:shortdesc: .shortdesc}
+{:support: data-reuse='support'}
+{:script: data-hd-video='script'}
+{:table: .aria-labeledby="caption"}
+{:troubleshoot: data-hd-content-type='troubleshoot'}
+{:help: data-hd-content-type='help'}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
+{:tsSymptoms: .tsSymptoms}
+{:beta: .beta}
+
+
+# Customizing goals
+{: #custom-goals}
+
+With the {{site.data.keyword.compliance_full}}, you can update the default parameters that are associated with the goals within each predefined profile. When you change a parameter, it affects all of the goals in that profile.
+{: shortdesc}
+
+
+## Before you begin
+{: #before-custom-goals}
+
+Before you get started, be sure that you have the required level of access to customize goal parameters. To edit parameters, you need the editor platform role or higher for the {{site.data.keyword.compliance_short}}. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
+
+
+
+## Editing goal parameters
+{: #edit-goals}
+
+To update the default parameters for the goals that you use, you can use the {{site.data.keyword.compliance_short}} UI.
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+2. In the navigation, click **Settings > Parameters**.
+3. In the **Parameters** table, select **Input config parameters**. 
+4. Click the **Edit parameters** icon.
+5. From the list of profiles, click the name of the profile that you want to update.
+
+    Each table row expands so that you can review the configuration information of each profile. 
+6. To save your changes, click **Update**.
+
+If you make an accidental change, you can click **Revert** to return all of the profiles back to default.
+{: tip}
+
+
+
+
+
+
+
