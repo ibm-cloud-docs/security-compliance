@@ -86,20 +86,6 @@ Depending on the reason that the results page is empty, you might try one or mor
 * Verify that your [rule](/docs/security-compliance?topic=security-compliance-rules#evaluate-rules) is attached to a scope.
 * Wait 24 hours for the next scan to run.
 
-## I can't create a scan
-{: #cannot-create-scan}
-{: troubleshoot}
-{: support}
-
-{: tsSymptoms}
-You cannot create a scan for an AWS scope that is being scanned against a custom profile.
-
-{: tsCauses}
-It is possible that your profile contains CVE and EOL goals and goals that are focused on specific controls.
-
-{: tsResolve}
-To resolve the issue, define two separate profiles and scans. One profile should contain CVE and EOL goals and the other should contain the goals for controls that you want to validate.
-
 
 
 ## I deleted a resource but I can still see its results
