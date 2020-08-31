@@ -1,0 +1,62 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="security-compliance" audience="platform" category="platform_services" href="/docs/security-compliance?topic=security-compliance-getting-started" product-page="https://www.ibm.com/cloud/security-compliance" console-page="/security-compliance" path="security-compliance"}
+Security and Compliance Center
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    overview.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    iam.md
+    
+    {: .topicgroup}
+    Monitoring your accounts for compliance
+
+        {: .topicgroup}
+        Preparing to monitor
+            credentials.md
+            collector.md
+
+        {: .topicgroup}
+        Configuring monitoring
+            scopes.md
+            schedule-scan.md
+            profiles.md
+            customize-goals.md
+
+        view-posture.md
+        remediation.md
+
+        {: .topicgroup}
+        Managing the service
+            tags.md 
+            audit-log.md
+            inventory.md
+        
+    {: .topicgroup}
+    Governing the use of resources
+        rules.md
+        results.md
+
+    [Gaining insights](https://{DomainName}/docs/security-advisor?topic=security-advisor-getting-started)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    {: .topicgroup}
+    APIs
+        api-setup.md
+        [Configuration](https://{DomainName}/apidocs/security-compliance/config)
+    
+    ha-dr.md
+    data-security.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    faqs.md
+    troubleshoot.md
+    limits.md
+    {: .navgroup-end}
+    
