@@ -1,6 +1,6 @@
-# IBM Cloud Security and Compliance Documentation
+# IBM Cloud Security and Compliance Center Documentation
 
-Welcome to the docs repo for Security and Compliance! Feedback and updates are always welcome.
+Welcome to the docs repo for the Security and Compliance Center! Feedback and updates are always welcome.
 
 
 To leave feedback:
