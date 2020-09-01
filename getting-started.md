@@ -42,7 +42,7 @@ subcollection: security-compliance
 {: #getting-started}
 {: toc-content-type="tutorial"}
 {: toc-services="security-compliance, vpc"}
-{: toc-completion-time="30m"}
+{: toc-completion-time="15m"}
 
 With {{site.data.keyword.compliance_full}}, you can embed security checks into your every day workflows to help monitor for security and compliance. By monitoring for risks, you can identify security vulnerabilities and quickly work to mitigate the impact and fix the issue.
 {: shortdesc}
