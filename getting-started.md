@@ -67,9 +67,9 @@ To complete the getting started tutorial, use a [Pay-As-You-Go or Subscription](
 
 Be sure that you also have the following requirements:
 
-- [{{site.data.keyword.cloud_notm}} CLI](/docs/cli?topic=cli-install-ibmcloud-cli)
-- [Docker for Mac](https://docs.docker.com/docker-for-mac/install/){: external} or [Windows](https://docs.docker.com/docker-for-windows/install/){: external}
-- A [service ID API key](/docs/account?topic=account-serviceidapikeys) with **Read** access permissions for the resources that you want to scan
+- [{{site.data.keyword.cloud_notm}} CLI](/docs/cli?topic=cli-install-ibmcloud-cli).
+- Docker for Linux. To start Docker, you can run `systemctl start docker`.
+- A [service ID API key](/docs/account?topic=account-serviceidapikeys) with **Read** access permissions for the resources that you want to scan.
 
 
 ## Verify compute requirements
