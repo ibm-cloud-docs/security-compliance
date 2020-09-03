@@ -50,7 +50,7 @@ Policies enable access to be granted at different levels. Some of the options in
 ## Assigning roles in the console
 {: #assign-roles}
 
-As an account owner, you are automatically assigned Administrator platform access to the {{site.data.keyword.compliance_short}} so that you can further assign rules and customize access policies for others. 
+As an account owner, you are automatically assigned Administrator platform access to the {{site.data.keyword.compliance_short}} so that you can further assign roles and customize access policies for others. 
 
 To assign access, you can use the **Access (IAM)** section of the console.
 

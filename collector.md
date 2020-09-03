@@ -52,7 +52,7 @@ A collector is a software module that is packaged as a Docker image. It is insta
 
 Each instance of the collector is managed by you and only applicable where you configure it to have access. The data that is collected and analyzed is specific to your account and the results of the scans are available only to you and the users that you authorize to use your account. It is your responsibility to manage the security of the deployment.
 
-If you're working with more than one cloud provider or an on-premises environment, you might need to install more than one collector. Each collector operates only within the subnets to which it belongs, so if your IT network is segmented, you might need a collector for each subset.
+If you're working with more than one cloud provider or an on-premises environment, you might need to install more than one collector. Each collector operates only within the subnets to which it belongs, so if your IT network is segmented, you might need a collector for each subnet.
 
 **How does the collector communicate with the service?**
 
