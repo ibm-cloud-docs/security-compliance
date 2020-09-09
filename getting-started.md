@@ -184,7 +184,7 @@ When you're working with the {{site.data.keyword.compliance_short}}, you can nar
 
 To discover resources, assess their configuration, and validate their compliance against a predefined profile, you can schedule a validation scan.
 
-1. On the **Scans > Settings** page of the {{site.data.keyword.compliance_short}}, click **Create**. A side panel opens.
+1. On the **Scans > Scheduled scans** page of the {{site.data.keyword.compliance_short}}, click **Schedule**. A side panel opens.
 2. Give your scan a meaningful name and description.
 3. Select **Validation**.
 4. Select the scope that you created in the previous step.

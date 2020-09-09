@@ -68,8 +68,8 @@ Before you get started, be sure that you have the required level of access to vi
 You can schedule a discovery or fact collection scan by using the {{site.data.keyword.compliance_short}} UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Assess > Scans > Settings**. 
-3. Click **Create**. A side panel opens.
+2. In the navigation, click **Assess > Scans > Scheduled scans**. 
+3. Click **Schedule**. A side panel opens.
 4. Give your scan a name and description.
 5. Select **Discovery** or **Fact collection**.
 6. Select a scope and click **Next**
@@ -86,7 +86,7 @@ You can schedule a discovery or fact collection scan by using the {{site.data.ke
 You can schedule a validation scan by using the {{site.data.keyword.compliance_short}} UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Assess > Scans > Settings**. 
+2. In the navigation, click **Assess > Scans > Scheduled scans**. 
 3. Click **Create**. A side panel opens.
 4. Give your scan a name and description.
 5. Select **Validation**.
