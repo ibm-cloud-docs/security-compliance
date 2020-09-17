@@ -1,14 +1,16 @@
 # IBM Cloud Security and Compliance Center Documentation
 
-Welcome to the docs repo for the Security and Compliance Center! Feedback and updates are always welcome.
+Welcome to the docs repo for the Security and Compliance Center! Feedback and updates are always encouraged.
+
 
 
 To leave feedback:
 
-1. If you know which changes need to be made, open a PR. If it's a suggestion for a larger update, please feel free to open an issue.
-2. If you have a an open PR ready for review, assign Shawna Guilianelli (`smguilia`) or Crystal Barragan (`Crystal-Barragan`) for review.
-3. One of us will review your suggestions with the development team and make any necessary adjustments.
-4. One of us will merge the suggested content into the repo.
+1. Open an issue in this repository.
+2. Tag Shawna Guilianelli (`smguilia`) or Crystal Barragan (`Crystal-Barragan`) for review.
+3. We will review your suggestions with the development team.
+4. We will make the changes internally and then close this issue.
+
 
 
 
