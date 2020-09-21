@@ -26,6 +26,8 @@ completion-time: 20m
 {:tip: .tip}
 {:preview: .preview}
 {:deprecated: .deprecated}
+{:beta: .beta}
+{:term: .term}
 {:shortdesc: .shortdesc}
 {:script: data-hd-video='script'}
 {:support: data-reuse='support'}
@@ -42,7 +44,6 @@ completion-time: 20m
 {:video: .video}
 {:step: data-tutorial-type='step'}
 {:tutorial: data-hd-content-type='tutorial'}
-
 
 
 # Getting started with {{site.data.keyword.compliance_short}}
