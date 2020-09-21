@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-08-31"
+lastupdated: "2020-09-21"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -10,15 +10,12 @@ subcollection: security-compliance
 
 ---
 
-{:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:download: .download}
 {:external: target="_blank" .external}
-{:new_window: target="_blank"}
 {:faq: data-hd-content-type='faq'}
 {:gif: data-image-type='gif'}
-{:term: .term}
 {:important: .important}
 {:note: .note}
 {:pre: .pre}
@@ -26,10 +23,22 @@ subcollection: security-compliance
 {:preview: .preview}
 {:deprecated: .deprecated}
 {:shortdesc: .shortdesc}
-{:support: data-reuse='support'}
 {:script: data-hd-video='script'}
+{:support: data-reuse='support'}
 {:table: .aria-labeledby="caption"}
-{:beta: .beta}
+{:troubleshoot: data-hd-content-type='troubleshoot'}
+{:help: data-hd-content-type='help'}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
+{:tsSymptoms: .tsSymptoms}
+{:java: .ph data-hd-programlang='java'}
+{:javascript: .ph data-hd-programlang='javascript'}
+{:swift: .ph data-hd-programlang='swift'}
+{:curl: .ph data-hd-programlang='curl'}
+{:video: .video}
+{:step: data-tutorial-type='step'}
+{:tutorial: data-hd-content-type='tutorial'}
+
 
 
 # Working with config rules
