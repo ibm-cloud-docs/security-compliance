@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-09-23"
 
 keywords: known limitations, rules, limits, configuration
 
@@ -59,8 +59,8 @@ When you're working with {{site.data.keyword.compliance_short}}, there are a few
 
 Review the following table to see the limits that apply to rules. 
 
-| Limit | Description |
-|---------|-------|
+| Limit   | Description |
+|---------|-----------|
 | Rule length | 4096 characters including all elements |
 | Total rules | 500 per enterprise account |
 | Rule results | Kept for 7 days.|

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-09-23"
 
 keywords: best practices security and compliance, secure development, security strategy, insights, governance
 
@@ -87,7 +87,7 @@ By creating config rules, you can standardize resource configuration across your
 
 ![The diagram shows how you can create profiles and rules, enforce them across scopes that you specify to continuously validate your resources for compliance. The information in the diagram is explained in further detail in the surrounding text.](images/config-governance.svg){: caption="Figure 1. How the configuration governance components work together" caption-side="bottom"}
 
-&ast;*Configuration governance is available for {{site.data.keyword.cloud_notm}} enterprise accounts only.*
+&ast;*Configuration governance is available for {{site.data.keyword.cloud_notm}} only.*
 
 
 ### Security insights

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-09-23"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -50,9 +50,6 @@ A config rule is a JSON document that defines the configuration of resources. Wi
 
 After you create a rule, you can monitor for configuration changes by attaching the rule to a scope, such as an account group, specific accounts, or an entire enterprise. You can further investigate noncompliant resources by reviewing your evaluation results in the {{site.data.keyword.compliance_short}} UI.
 
-To work with config rules, you must have an {{site.data.keyword.cloud_notm}} enterprise account. Currently, you can create rules for managing [public access to account resources](/docs/account?topic=account-public).
-{: note}
-
 To learn more about the different components of a rule, check out the following example.
 
 ![The image shows the components of the configuration rule, including its target, required configuration, and enforcement actions. The target represents the IBM Cloud service and resource type that you want to target. The required configuration section details the property checks and conditions that you want to apply. The enforcement actions are the actions that IBM takes on your behalf in cases of noncompliance.](images/config-rules.svg){: caption="Figure 1. Example configuration rule" caption-side="bottom"}
@@ -62,7 +59,7 @@ To learn more about the different components of a rule, check out the following 
 
 Before you get started, be sure that you have the following prerequisites.
 
-- An {{site.data.keyword.cloud_notm}} enterprise account.
+- An {{site.data.keyword.cloud_notm}} account.
 - The required level of access to view and manage rules. To create a rule, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
 
 ## Creating rules
@@ -235,7 +232,7 @@ To create an attachment for an existing rule by using the {{site.data.keyword.co
 3. From the list of rules, click the name of the rule that you want to attach.
 4. Click **Attachments**. If the rule that you selected is attached to any scopes, you see them in a table.
 5. Click **Attach** to review your attachment options.
-     1. Decide whether to apply the rule across the entire enterprise or narrow it to a specific account.
+     1. Decide whether to apply the rule across your entire enterprise or narrow it to a specific account.
      2. Review the hierarchy of the account or enterprise that you selected.
      3. If you want to exclude a scope, switch the toggle to **Yes**. Select the scopes that you want to exclude and click **Add**.
 6. Click **Attach**.
