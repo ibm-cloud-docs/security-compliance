@@ -106,15 +106,15 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
     </tr>
     <tr>
       <td>AWS Cloud</td>
-      <td>An AWS Access Key ID and Secret Access Key.</td>
+      <td>An AWS access key ID and secret access Key.</td>
     </tr>
     <tr>
       <td>GCP Cloud</td>
-      <td>An Access Key File.</td>
+      <td>A GCP access key file.</td>
     </tr>
     <tr>
       <td>IBM Cloud</td>
-      <td>An IBM Cloud API Key. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey).</td>
+      <td>An IBM Cloud API key. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey).</td>
     </tr>
     <tr>
       <td>Database</td>
