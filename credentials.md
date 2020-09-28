@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-09-28"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -93,6 +93,7 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
   * Username - PEM
 
   The type of credential that you create is dependent upon the type of resources that you want to scan.
+  {: note}
 
 5. Select a purpose for your credential. Options include **Discovery/Collection**, **Remediation**, or both.   
 6. Add the access information. Depending on the type of credential that you selected in step 4, the options on the page change. 

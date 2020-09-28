@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-23"
+lastupdated: "2020-09-28"
 
 keywords: known limitations, rules, limits, configuration
 
@@ -62,10 +62,10 @@ Review the following table to see the limits that apply to rules.
 | Limit   | Description |
 |---------|-----------|
 | Rule length | 4096 characters including all elements |
-| Total rules | 500 per enterprise account |
+| Total rules | 500 per enterprise account</br>100 per stand alone account |
 | Rule results | Kept for 7 days.|
 {: caption="Table 1. Rule limits" caption-side="top"}
-
+s
 Review the following table to see the limits that apply to each element within a rule.
 
 | Element | Limit |
