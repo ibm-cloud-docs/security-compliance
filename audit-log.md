@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-09-28"
 
 keywords: audit log, compliance, user activity, read-only events
 
@@ -42,7 +42,7 @@ subcollection: security-compliance
 {:tutorial: data-hd-content-type='tutorial'}
 
 
-# Auditing compliance activity
+# Auditing activity
 {: #audit-log}
 
 You can audit the activity that takes place in the **Automate security and compliance** section of the {{site.data.keyword.compliance_full}}.
@@ -76,17 +76,13 @@ You can view the user actions that are associated with the security and complian
   * Description
   * Status
 
-4. Optional: Click **Download report** to keep a history of your audit log.
+4. Optional: Toggle **Log read-only events** to **On**.
+    
+  A read only event is tracked every time a user completes a read action. For example, looking at a page of the service UI but taking no action would log an event.
 
+4. Optional: Keep a history of your audit log.
 
-
-## Hiding read-only events
-{: #hide-read-only}
-
-By default, audit logs are enabled for every action that is taken in the {{site.data.keyword.compliance_short}}. If you want to see the activity where a user changed something only, you can hide read-only events. A read-only event is when a user looks at a page of the service but doesn't change anything on the page. 
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Settings > Settings**.
-3. In the **Audit log settings** section, select **No**.
-4. Click **Save**.
+  1. Click **Download audit log**.
+  2. Select a start and end date. Be sure that the end date is after the start date.
+  3. Click **Download**.
 
