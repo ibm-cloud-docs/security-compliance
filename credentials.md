@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-28"
+lastupdated: "2020-09-29"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -59,8 +59,7 @@ The credentials that you provide depend upon the type of resources that you want
 
 **What level of access do my credentials need to have?**
 
-The level of access that you need depends upon the actions that you want the {{site.data.keyword.compliance_short}} to take. If you want to perform scans only, then the collector must have `read` access to your resource configurations. If you want to also initiate remediation from the {{site.data.keyword.compliance_short}}, then the credential must have `write` access.
-
+The level of access that your credentials need depends upon the actions that you want the {{site.data.keyword.compliance_short}} to take. If you only want to run scans on your resources, you must provide credentials that provide the collector `read` access to your resources. This way, the service is able to scan your resource configurations. If you also want to initiate remediation from the {{site.data.keyword.compliance_short}}, then the credentials that you provide must have `write` access.
 
 **How are my credentials stored?**
 
