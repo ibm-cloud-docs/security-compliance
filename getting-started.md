@@ -154,7 +154,7 @@ A collector is a software module that is packaged as a Docker image. It is insta
   ```
   {: codeblock}
 
-8. Change the permissions of the `inititate_collector.sh` file.
+8. Transfer the `inititate_collector.sh` file onto your virtual machine and then change the permissions to allow it to run.
 
   ```
   chmod +x initiate_collector.sh
