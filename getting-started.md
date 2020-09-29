@@ -172,7 +172,7 @@ A collector is a software module that is packaged as a Docker image. It is insta
 
   * The data path from your host machine. For example, `/root/folder_name/`.
   * No, to indicate that you don't want to run an Nmap scan.
-  * The registration key that you noted in step 5.
+  * The registration key that you noted when you downloaded the `inititate_collector.sh` file from the service UI.
 
 11. On the **Collectors** page of the {{site.data.keyword.compliance_short}}, click **Approve** in the table row that corresponds to the collector that you're working with.
 
