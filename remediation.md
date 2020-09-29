@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-09-29"
 
 keywords: remediation, aws, compliance, security, 
 
@@ -45,7 +45,7 @@ subcollection: security-compliance
 # Remediating issues
 {: #remediation}
 
-If you're working with an Amazon Web Services account, you can use the {{site.data.keyword.compliance_full}} to remediate issues that are found.
+If you're working with an Amazon Web Services (AWS) account, you can use the {{site.data.keyword.compliance_full}} to remediate issues that are found.
 {: shortdesc}
 
 

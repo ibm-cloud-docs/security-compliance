@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-09-29"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -89,10 +89,10 @@ Be sure that you also have the following requirements:
 
 | Environment | Minimum requirement | 
 |:------------|:--------------------|
-| AWS | A t-2 mini instance or the equivalent |
-| IBM | For a virtual machine: </br><ul><li><strong>Image:</strong> Red Hat Enterprise Linux, CentOS, or Ubuntu</li> <li><strong>Profile:</strong> <code>cx2-2x4</code> (2 vCPUs, 4 GB RAM, and 4GBPS </li><li><strong>Boot volume:</strong> 50 GB disk space</li></ul> </br>For a physical server: <ul><li><strong>Image:</strong> Red Hat Enterprise Linux, CentOS, or Ubuntu </li><li><strong>Processor:</strong> Intel Server Class QuadCore processor</li><li> <strong>Profile:</strong> 8 GB RAM </li><li> <strong>Boot volume</strong>50 GB Disk Space</li></ul> |
-| GCP | A standard persistent disk VM with 50 GB disk space |
-| On-premises | <strong>Image:</strong> Red Hat Enterprise Linux, CentOS, or Ubuntu </br> <strong>Processor:</strong> Intel 2-3 GHX Quad Processor </br><strong>Profile:</strong> 8 GB RAM </br><strong>Boot volume</strong>50 GB Disk Space |
+| Amazon Web Services | **Image:** Ubuntu 18.x </br>**Size:** A t-2 mini instance or the equivalent |
+| IBM Cloud | For a virtual machine: </br><ul><li><strong>Image:</strong> Red Hat Enterprise Linux, CentOS, or Ubuntu</li> <li><strong>Profile:</strong> <code>cx2-2x4</code> (2 vCPUs, 4 GB RAM, and 4GBPS </li><li><strong>Boot volume:</strong> 50 GB disk space</li></ul> </br>For a physical server: <ul><li><strong>Image:</strong> Red Hat Enterprise Linux, CentOS, or Ubuntu 18.x </li><li><strong>Processor:</strong> Intel Server Class QuadCore processor</li><li> <strong>Profile:</strong> 8 GB RAM </li><li> <strong>Boot volume</strong>50 GB Disk Space</li></ul> |
+| Google Cloud Platform | A standard persistent disk VM with 50 GB disk space |
+| On-premises | **Image:** Red Hat Enterprise Linux, CentOS, or Ubuntu 18.x </br> **Processor:** Intel 2-3 GHX Quad Processor </br>**Profile:** 8 GB RAM </br>**Boot volume:**50 GB Disk Space |
 {: caption="Table 1. Minimum requirements for installing the collector by environment" caption-side="top"}
 
 

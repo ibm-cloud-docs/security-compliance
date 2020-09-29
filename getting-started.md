@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-09-29"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -154,20 +154,27 @@ A collector is a software module that is packaged as a Docker image. It is insta
   ```
   {: codeblock}
 
-8. Install the collector by running the following command.
+8. Transfer the `inititate_collector.sh` file onto your virtual machine and then change the permissions to allow it to run.
+
+  ```
+  chmod +x initiate_collector.sh
+  ```
+  {: codeblock}
+
+9. Install the collector by running the following command.
 
   ```
   ./initiate_collector.sh
   ```
   {: codeblock}
 
-9. When prompted, enter the following information:
+10. When prompted, enter the following information:
 
   * The data path from your host machine. For example, `/root/folder_name/`.
   * No, to indicate that you don't want to run an Nmap scan.
-  * The registration key that you noted in step 5.
+  * The registration key that you noted when you downloaded the `inititate_collector.sh` file from the service UI.
 
-10. On the **Collectors** page of the {{site.data.keyword.compliance_short}}, click **Approve** in the table row that corresponds to the collector that you're working with.
+11. On the **Collectors** page of the {{site.data.keyword.compliance_short}}, click **Approve** in the table row that corresponds to the collector that you're working with.
 
 
 ## Create a scope

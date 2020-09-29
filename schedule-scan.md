@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-09-29"
 
 keywords: scans, compliance, schedule scan, create scan, discovery, validation, fact collection, fact validation
 
@@ -79,7 +79,7 @@ You can schedule a discovery or fact collection scan by using the {{site.data.ke
 4. Give your scan a name and description.
 5. Select **Discovery** or **Fact collection**.
 6. Select a scope and click **Next**
-7. Optional: If you selected an AWS scope, set your remediation preference.
+7. Optional: If you selected an Amazon Web Services (AWS) scope, set your remediation preference.
 8. Select the frequency at which you want the scan to run.
 9. Select when you want the scan to stop. Options include never, a specific number of scans, or on a set date.
 10. Click **Create**.
