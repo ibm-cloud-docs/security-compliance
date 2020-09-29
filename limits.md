@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-28"
+lastupdated: "2020-09-29"
 
 keywords: known limitations, rules, limits, configuration
 
@@ -47,6 +47,7 @@ subcollection: security-compliance
 
 {{site.data.keyword.compliance_full}} includes the following known issues and limits that might impact your experience.
 {: shortdesc}
+
 
 
 ## Limits
