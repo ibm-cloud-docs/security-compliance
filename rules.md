@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-25"
+lastupdated: "2020-09-29"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -77,10 +77,7 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
 5. Optional: Add one or more labels that you can use to organize and search for similar rules.
 6. Click **Next**.
 7. Select the service and resource kind that you want to target.
-
-  Currently, you can create rules that target the IAM Access Groups Service.
-  {: note} 
-6. Use the JSON editor to set configuration properties for the rule.
+8. Use the JSON editor to set configuration properties for the rule.
 
   The following JSON snippet shows an example rule definition that checks to ensure that [public access to account resources](/docs/account?topic=account-public) is disabled.
 
@@ -102,8 +99,8 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
   }
   ```
   {: codeblock}
-6. Click **Next**.
-7. Select the enforcement actions that you want to apply.
+9. Click **Next**.
+10. Select the enforcement actions that you want to apply.
 
   Enforcement actions define how the {{site.data.keyword.compliance_short}} reacts when a resource is created or modified and the requested configuration is not compliant with your rule. The following table describes the supported actions.
 
