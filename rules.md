@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-29"
+lastupdated: "2020-09-30"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -79,7 +79,7 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
 7. Select the service and resource kind that you want to target.
 8. Use the JSON editor to set configuration properties for the rule.
 
-  The following JSON snippet shows an example rule definition that checks to ensure that [public access to account resources](/docs/account?topic=account-public) is disabled.
+  The following JSON snippet shows an example rule definition that checks to ensure that [public access to account resources](/docs/account?topic=account-public) is disabled. 
 
   ```json
   {
@@ -99,13 +99,51 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
   }
   ```
   {: codeblock}
+
+  <table>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><code>service_name</code></td>
+      <td>The service that you want to target with your rule. You select this field from a drop-down and it is automatically populated in your definition.</td>
+    </tr>
+    <tr>
+      <td><code>resource_kind</code></td>
+      <td>A specific part of the service that you want to target.</td>
+    </tr>
+    <tr>
+      <td><code>required_config</code></td>
+      <td><p><strong>Required.</strong> The requirements that must be met to determine the your resources level of compliance in accordance with the rule.</p><p>You can use logical operators (<code>and</code>/<code>or</code>) to define multiple property checks and conditions. To define requirements for a rule, list one or more property check objects in the <code>and</code> array. To add conditions to a property check, use <code>or</code>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td><code>property</code></td>
+      <td>The individual resource configuration variable that follows the syntax <code>property_name</code>. Options are dependent upon the target that you choose and can be found in the UI.</td>
+    </tr>
+    <tr>
+      <td><code>operator</code></td>
+      <td><p>How an additional target value or property is compared to its value. There are three types of operators, <code>string</code>, <code>numeric</code>, and <code>boolean</code>.</p>
+      <p>Allowable values: <code>string_equals</code>, <code>string_not_equals</code>, <code>string_match</code>, and <code>string_not_match</code>.</p>
+      <p>Numeric options: <code>num_equals</code>, <code>num_not_equals</code>, <code>num_less_than</code>, <code>num_less_than_equals</code>, <code>num_greater_than</code>, and <code>num_greater_than_equals</code>.</p>
+      <p>Boolean options: <code>is_empty</code>, <code>is_not_empty</code>, <code>is_true</code>, and <code>is_false</code>.</p></td>
+    </tr>
+    <tr>
+      <td><code>value</code></td>
+      <td><p>The way in which you want the property to be applied. Value options differ depending on the rule that you configure.</p><p>Note: If you use a boolean operator, you do not need to input a value.</p></td>
+    </tr>
+  </table>
+
+  To see a full list of the available rule properties, operators, and values that can be used together, check out the [API docs](/apidocs/security-compliance/config#create-rules){: external}.
+  {: tip}
 9. Click **Next**.
 10. Select the enforcement actions that you want to apply.
 
   Enforcement actions define how the {{site.data.keyword.compliance_short}} reacts when a resource is created or modified and the requested configuration is not compliant with your rule. The following table describes the supported actions.
 
   <table>
-    <caption>Table 1. Enforcement actions and descriptions</caption>
+    <caption>Table 2. Enforcement actions and descriptions</caption>
     <tr>
       <th>Action</th>
       <th>Description</th>
