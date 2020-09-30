@@ -124,7 +124,7 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
     </tr>
     <tr>
       <td><code>operator</code></td>
-      <td><p>How an additional target value or property is compared to its value. There are three types of operators, <code>string</code>, <code>numeric</code>, and <code>boolean</code>.</p>
+      <td><p>How an additional target value or property is compared to its value. There are three types of operators: string, numeric, and boolean.</p>
       <p>
         <ul>
           <li>String options: <code>string_equals</code>, <code>string_not_equals</code>, <code>string_match</code>, and <code>string_not_match</code>.</li>
@@ -136,7 +136,7 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
     </tr>
     <tr>
       <td><code>value</code></td>
-      <td><p>The way in which you want the property to be applied. Value options differ depending on the rule that you configure.</p><p>Note: If you use a boolean operator, you do not need to input a value.</p></td>
+      <td><p>The way in which you want the property to be applied. Value options differ depending on the rule that you configure. If you use a boolean operator, you do not need to input a value.</td>
     </tr>
   </table>
 
