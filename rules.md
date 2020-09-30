@@ -115,7 +115,7 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
     </tr>
     <tr>
       <td><code>required_config</code></td>
-      <td><p><strong>Required.</strong> The requirements that must be met to determine the your resources level of compliance in accordance with the rule.</p><p>You can use logical operators (<code>and</code>/<code>or</code>) to define multiple property checks and conditions. To define requirements for a rule, list one or more property check objects in the <code>and</code> array. To add conditions to a property check, use <code>or</code>.</p>
+      <td><p>The requirements that must be met to determine the your resources level of compliance in accordance with the rule.</p><p>You can use logical operators (<code>and</code>/<code>or</code>) to define multiple property checks and conditions. To define requirements for a rule, list one or more property check objects in the <code>and</code> array. To add conditions to a property check, use <code>or</code>.</p>
       </td>
     </tr>
     <tr>
@@ -125,9 +125,14 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
     <tr>
       <td><code>operator</code></td>
       <td><p>How an additional target value or property is compared to its value. There are three types of operators, <code>string</code>, <code>numeric</code>, and <code>boolean</code>.</p>
-      <p>Allowable values: <code>string_equals</code>, <code>string_not_equals</code>, <code>string_match</code>, and <code>string_not_match</code>.</p>
-      <p>Numeric options: <code>num_equals</code>, <code>num_not_equals</code>, <code>num_less_than</code>, <code>num_less_than_equals</code>, <code>num_greater_than</code>, and <code>num_greater_than_equals</code>.</p>
-      <p>Boolean options: <code>is_empty</code>, <code>is_not_empty</code>, <code>is_true</code>, and <code>is_false</code>.</p></td>
+      <p>
+        <ul>
+          <li>String options: <code>string_equals</code>, <code>string_not_equals</code>, <code>string_match</code>, and <code>string_not_match</code>.</li>
+          <li>Numeric options: <code>num_equals</code>, <code>num_not_equals</code>, <code>num_less_than</code>, <code>num_less_than_equals</code>, <code>num_greater_than</code>, and <code>num_greater_than_equals</code>.</li>
+          <li>Boolean options: <code>is_empty</code>, <code>is_not_empty</code>, <code>is_true</code>, and <code>is_false</code>.</li>
+        </ul>
+      </p>
+      </td>
     </tr>
     <tr>
       <td><code>value</code></td>
