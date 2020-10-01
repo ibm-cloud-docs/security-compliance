@@ -146,7 +146,7 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
     </tr>
   </table>
 
-  To see a full list of the available rule properties, operators, and values that can be used together, check out the [API docs](/apidocs/security-compliance/config#create-rules){: external}.
+  To see a full list of the available rule properties, operators, and values that can be used together, check out the [API docs](/apidocs/security-compliance/config#create-rules).
   {: tip}
 9. Click **Next**.
 10. Select the enforcement actions that you want to apply.
