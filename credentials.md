@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-29"
+lastupdated: "2020-10-01"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -85,11 +85,13 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
 4. Choose a **Credential type** from the following options:
 
   * AWS Cloud
+  * Azure Cloud
   * GCP Cloud
   * IBM Cloud
   * Database
   * Username - password
   * Username - PEM
+  * Windows authentication
 
   The type of credential that you create is dependent upon the type of resources that you want to scan.
   {: note}
@@ -105,11 +107,15 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
     </tr>
     <tr>
       <td>AWS Cloud</td>
-      <td>An AWS access key ID and secret access Key.</td>
+      <td>An Amazon Web Services access key ID and secret access key. Your secret access key is a large binary encoded string. <br>To ensure the collector can access your AWS account, create an AWS user that has minimal read-only privileges. If you want to further restrict access, you can grant the user more granular read-only privileges by service.</td>
+    </tr>
+    <tr>
+      <td>Azure Cloud</td>
+      <td>An Azure client ID (application ID), client secret (authentication key), tenant ID, and subscription ID. <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal@get-application-id-and-authentication-key">Learn more</a>.</td>
     </tr>
     <tr>
       <td>GCP Cloud</td>
-      <td>A GCP access key file.</td>
+      <td>A Google Cloud Platform access key file. <a href="https://cloud.google.com/iam/docs/creating-managing-service-account-keys">Learn more</a>.</td>
     </tr>
     <tr>
       <td>IBM Cloud</td>
@@ -127,7 +133,14 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
       <td>Username - PEM</td>
       <td>A username and password combination and PEM file that is needed to gain access to an on-premises machine.</td>
     </tr>
+    <tr>
+      <td>Windows authentication</td>
+      <td>A username and password combination. You must also provide the type of authentication that your credential is configured to provide. Options include: Basic, Kerberos, and Negotiate. You can also choose whether to Use SSL by checking or unchecking the <strong>Use SSL</strong> box.</td>
+    </tr>
   </table>
+
+  The level of access that your credentials need depends upon the actions that you want the {{site.data.keyword.compliance_short}} to take. If you only want to run scans on your resources, you must provide credentials that provide the collector `read` access to your resources. [Learn more](#understand-credentials)
+  {: note}
 
 7. If a passphrase is configured, enter the passphrase. 
 8. Verify your information and click **Save**. The credential is added to a list of available credentials. 
@@ -140,7 +153,7 @@ To edit or delete existing credentials, select the credential that you want to m
 ## Mapping credentials to a scope
 {: #map-credentials}
 
-Occasionally, you might have a scope that requires more than one set of credentials to complete a scan. This can happen when users have credentials that are used for individual databases or servers that need to be scanned. To map credentials to your scope, complete the following steps.
+Occasionally, you might have a scope that requires the collector use more than one set of credentials to complete a scan. This can happen when users have credentials that are used for individual databases or servers that need to be scanned. To map credentials to your scope, complete the following steps.
 
 To map a credential, it must exist in the service. Before you get started, be sure to [create the credential](/docs/security-compliance?topic=security-compliance-credentials).
 {: note}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-29"
+lastupdated: "2020-10-01"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -68,7 +68,10 @@ The collector sends a regular heartbeat every minute to notify the service that 
 
 **How does the collector communicate with my resources?**
 
-To gather information about your resources, the collector must be able to connect to them by using a combination of methods, including API calls, SSH, Shell commands, and Windows PowerShell. The communication is able to occur only because the collector uses credentials that you associate with it through the {{site.data.keyword.compliance_short}} UI. To communicate with them, the collector needs to use credentials that have read access to your resources. For more information about granting that authorization, see [Managing credentials](/docs/security-compliance?topic=security-compliance-credentials).
+To gather information about your resources, the collector must be able to connect to them by using a combination of methods, including API calls, SSH, Shell commands, and Windows PowerShell. The communication is able to occur only because the collector uses credentials that you associate with it through the {{site.data.keyword.compliance_short}} UI. To communicate with them, the collector needs to use credentials that have read access to your resources. 
+
+For more information about granting that authorization, see [Managing credentials](/docs/security-compliance?topic=security-compliance-credentials).
+{: tip}
 
 
 **What happens with the data that the collector gathers?**
@@ -85,15 +88,13 @@ Before you begin, be sure that you're using a Pay-As-You-Go or Subscription [{{s
 Be sure that you also have the following requirements:
 
 - Access to the [Credentials](/docs/security-compliance?topic=security-compliance-credentials) needed to communicate with resources.
-- Access to a server on which you can install the collector. Check out the following table to see what the minimum configuration requirements are for each environment.
+- Access to a server on which you can install the collector. Check out the following table to learn about the minimum configuration requirements.
 
-| Environment | Minimum requirement | 
-|:------------|:--------------------|
-| Amazon Web Services | **Image:** Ubuntu 18.x </br>**Size:** A t-2 mini instance or the equivalent |
-| IBM Cloud | For a virtual machine: </br><ul><li><strong>Image:</strong> Red Hat Enterprise Linux, CentOS, or Ubuntu</li> <li><strong>Profile:</strong> <code>cx2-2x4</code> (2 vCPUs, 4 GB RAM, and 4GBPS </li><li><strong>Boot volume:</strong> 50 GB disk space</li></ul> </br>For a physical server: <ul><li><strong>Image:</strong> Red Hat Enterprise Linux, CentOS, or Ubuntu 18.x </li><li><strong>Processor:</strong> Intel Server Class QuadCore processor</li><li> <strong>Profile:</strong> 8 GB RAM </li><li> <strong>Boot volume</strong>50 GB Disk Space</li></ul> |
-| Google Cloud Platform | A standard persistent disk VM with 50 GB disk space |
-| On-premises | **Image:** Red Hat Enterprise Linux, CentOS, or Ubuntu 18.x </br> **Processor:** Intel 2-3 GHX Quad Processor </br>**Profile:** 8 GB RAM </br>**Boot volume:**50 GB Disk Space |
-{: caption="Table 1. Minimum requirements for installing the collector by environment" caption-side="top"}
+| Machine type | Minimum requirement | 
+|:-------------|:--------------------|
+| Virtual | <strong>Image:</strong> Red Hat Enterprise Linux, CentOS, or Ubuntu </br><strong>Profile:</strong> <code>cx2-2x4</code> (2 vCPUs, 4 GB RAM, and 4GBPS </br><strong>Boot volume:</strong> 50 GB disk space |
+| Physical | <strong>Image:</strong> Red Hat Enterprise Linux, CentOS, or Ubuntu 18.x </br><strong>Processor:</strong> Intel Server Class QuadCore processor </br><strong>Profile:</strong> 8 GB RAM </br><strong>Boot volume:</strong> 50 GB Disk Space |
+{: caption="Table 1. Minimum requirements for installing the collector" caption-side="top"}
 
 
 ## Creating a collector
@@ -194,6 +195,8 @@ Now that you have a collector, you can install it by completing the following st
   6f76237c39c8      us.icr.io/posture-management/compliance-watchtower:8495ece54142     "/watchtower --clean_"    10 seconds ago    Up 1 seconds     watch-collectors
   ```
   {: screen}
+
+If you're working with a scope that requires multiple credentials to complete a scan, be sure to [map your credentials](/docs/security-compliance?topic=security-compliance-credentials-map-credentials)
 
 
 ## Approving a collector
