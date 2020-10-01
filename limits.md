@@ -64,7 +64,7 @@ Review the following table to see the limits that apply to rules.
 |----------------|-----------|
 | Length | 4096 characters including all elements |
 | Total number | 500 per enterprise account</br>100 per stand alone account |
-| Results | Kept for 7 days.|
+| Results | Kept for 7 days |
 | Name | 32 characters |
 | Description | 256 characters |
 | Target | 1 per rule |
