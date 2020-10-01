@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-25"
+lastupdated: "2020-10-01"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -45,12 +45,18 @@ subcollection: security-compliance
 # Working with config rules
 {: #rules}
 
+
+
+
 A config rule is a JSON document that defines the configuration of resources. With the {{site.data.keyword.compliance_full}}, you can create rules for specific {{site.data.keyword.cloud_notm}} resource types to govern the way that resources in your accounts can be provisioned or configured.
 {: shortdesc}
 
 After you create a rule, you can monitor for configuration changes by attaching the rule to a scope, such as an account group, specific accounts, or an entire enterprise. You can further investigate noncompliant resources by reviewing your evaluation results in the {{site.data.keyword.compliance_short}} UI.
 
-To learn more about the different components of a rule, see [What is a rule?](/docs/security-compliance?topic=security-compliance-what-is-rule).
+To learn more about the different components of a rule, check out the following example.
+
+![The image shows the components of the configuration rule, including its target, required configuration, and enforcement actions. The target represents the IBM Cloud service and resource type that you want to target. The required configuration section details the property checks and conditions that you want to apply. The enforcement actions are the actions that IBM takes on your behalf in cases of noncompliance.](images/config-rules.svg){: caption="Figure 1. Example configuration rule" caption-side="bottom"}
+
 
 ## Before you begin
 {: #before-rules}
@@ -77,12 +83,9 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
 5. Optional: Add one or more labels that you can use to organize and search for similar rules.
 6. Click **Next**.
 7. Select the service and resource kind that you want to target.
+8. Use the JSON editor to set configuration properties for the rule.
 
-  Currently, you can create rules that target the IAM Access Groups Service.
-  {: note} 
-6. Use the JSON editor to set configuration properties for the rule.
-
-  The following JSON snippet shows an example rule definition that checks to ensure that [public access to account resources](/docs/account?topic=account-public) is disabled.
+  The following JSON snippet shows an example rule definition that checks to ensure that [public access to account resources](/docs/account?topic=account-public) is disabled. 
 
   ```json
   {
@@ -102,13 +105,56 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
   }
   ```
   {: codeblock}
-6. Click **Next**.
-7. Select the enforcement actions that you want to apply.
+
+  <table>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><code>service_name</code></td>
+      <td>The service that you want to target with your rule. You select this field from a drop-down and it is automatically populated in your definition.</td>
+    </tr>
+    <tr>
+      <td><code>resource_kind</code></td>
+      <td>A specific part of the service that you want to target.</td>
+    </tr>
+    <tr>
+      <td><code>required_config</code></td>
+      <td><p>The requirements that must be met to determine the your resources level of compliance in accordance with the rule.</p><p>You can use logical operators (<code>and</code>/<code>or</code>) to define multiple property checks and conditions. To define requirements for a rule, list one or more property check objects in the <code>and</code> array. To add conditions to a property check, use <code>or</code>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td><code>property</code></td>
+      <td>The individual resource configuration variable that follows the syntax <code>property_name</code>. Options are dependent upon the target that you choose and can be found in the UI.</td>
+    </tr>
+    <tr>
+      <td><code>operator</code></td>
+      <td><p>How an additional target value or property is compared to its value. There are three types of operators: string, numeric, and boolean.</p>
+      <p>
+        <ul>
+          <li>String options: <code>string_equals</code>, <code>string_not_equals</code>, <code>string_match</code>, and <code>string_not_match</code>.</li>
+          <li>Numeric options: <code>num_equals</code>, <code>num_not_equals</code>, <code>num_less_than</code>, <code>num_less_than_equals</code>, <code>num_greater_than</code>, and <code>num_greater_than_equals</code>.</li>
+          <li>Boolean options: <code>is_empty</code>, <code>is_not_empty</code>, <code>is_true</code>, and <code>is_false</code>.</li>
+        </ul>
+      </p>
+      </td>
+    </tr>
+    <tr>
+      <td><code>value</code></td>
+      <td><p>The way in which you want the property to be applied. Value options differ depending on the rule that you configure. If you use a boolean operator, you do not need to input a value.</td>
+    </tr>
+  </table>
+
+  To see a full list of the available rule properties, operators, and values that can be used together, check out the [API docs](/apidocs/security-compliance/config#create-rules).
+  {: tip}
+9. Click **Next**.
+10. Select the enforcement actions that you want to apply.
 
   Enforcement actions define how the {{site.data.keyword.compliance_short}} reacts when a resource is created or modified and the requested configuration is not compliant with your rule. The following table describes the supported actions.
 
   <table>
-    <caption>Table 1. Enforcement actions and descriptions</caption>
+    <caption>Table 2. Enforcement actions and descriptions</caption>
     <tr>
       <th>Action</th>
       <th>Description</th>
