@@ -121,7 +121,7 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
     </tr>
     <tr>
       <td>IBM Cloud</td>
-      <td>An IBM Cloud API key. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey).</td>
+      <td>An IBM Cloud API key. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey). Be sure to assign your API key Viewer and Reader access to your resources. If you have Key Protect instances, you must also assign Manager access to those instances. If you have Cloud Object Storage instances, you must also assign Writer access to those instances.</td>
     </tr>
     <tr>
       <td>Database</td>
