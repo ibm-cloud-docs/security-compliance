@@ -61,6 +61,8 @@ The credentials that you provide depend upon the type of resources that you want
 
 The level of access that your credentials need depends upon the actions that you want the {{site.data.keyword.compliance_short}} to take. If you only want to run scans on your resources, you must provide credentials that provide the collector `read` access to your resources. This way, the service is able to scan your resource configurations. If you also want to initiate remediation from the {{site.data.keyword.compliance_short}}, then the credentials that you provide must have `write` access.
 
+For collectors that are run in on-premises environments, credentials must have sufficient privileges to collect operating system related information and to query other services that run on the machines such as a database.
+
 **How are my credentials stored?**
 
 Credentials are stored securely by using encryption and are not visible in clear text at any point during the storage process. For more information about the security of your stored credentials, see [Storing and encrypting data in the {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-data-storage).
