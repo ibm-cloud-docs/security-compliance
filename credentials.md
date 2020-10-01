@@ -166,6 +166,10 @@ To map a credential, it must exist in the service. Before you get started, be su
 6. Enter the criteria that you want to use.
 
   Criteria specifies the conditions for when a credential can be used. For example, for a specific VPC, a specific IP, or a set of IP ranges.
+
+  If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. You must create a new credential using Activity Tracker's GUID and Service_key as the username and password. Then, map the credential to a specific collector by using the format AT=<resource_guid>.
+  {: note}
+
 7. Select the credentials that you want to use.
 8. Optional: Select a **Proxy**.
 9. Click the check mark icon to add the credential to the scope. Repeat steps 6 - 10 until you add all your needed credentials.

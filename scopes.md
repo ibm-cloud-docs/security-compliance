@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-10-01"
 
 keywords: scopes, accounts, resources, environments
 
@@ -72,7 +72,7 @@ To narrow the focus of your scans, create a scope by using the {{site.data.keywo
 
   Be sure to give a descriptive name as you use this field later to configure scans and remediation.
 
-5. Select an environment. Options include AWS, IBM, GCP, and On-prem.
+5. Select an environment. Options include AWS, Azure, IBM, GCP, and On-prem.
 6. Select the **Collector** that you want to use.
 7. Select the **Credentials** that match the collector that you selected in the previous step.
 8. Click **Next**.

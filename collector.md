@@ -92,7 +92,7 @@ Be sure that you also have the following requirements:
 
 | Machine type | Minimum requirement | 
 |:-------------|:--------------------|
-| Virtual | <strong>Image:</strong> Red Hat Enterprise Linux, CentOS, or Ubuntu </br><strong>Profile:</strong> <code>cx2-2x4</code> (2 vCPUs, 4 GB RAM, and 4GBPS </br><strong>Boot volume:</strong> 50 GB disk space |
+| Virtual | <strong>Image:</strong> Red Hat Enterprise Linux, CentOS, or Ubuntu 18.x </br><strong>Profile:</strong> <code>cx2-2x4</code> (2 vCPUs, 4 GB RAM, and 4GBPS </br><strong>Boot volume:</strong> 50 GB disk space |
 | Physical | <strong>Image:</strong> Red Hat Enterprise Linux, CentOS, or Ubuntu 18.x </br><strong>Processor:</strong> Intel Server Class QuadCore processor </br><strong>Profile:</strong> 8 GB RAM </br><strong>Boot volume:</strong> 50 GB Disk Space |
 {: caption="Table 1. Minimum requirements for installing the collector" caption-side="top"}
 
