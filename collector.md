@@ -196,7 +196,8 @@ Now that you have a collector, you can install it by completing the following st
   ```
   {: screen}
 
-If you're working with a scope that requires multiple credentials to complete a scan, be sure to [map your credentials](/docs/security-compliance?topic=security-compliance-credentials-map-credentials)
+If you're working with a scope that requires multiple credentials to complete a scan, be sure to [map your credentials](/docs/security-compliance?topic=security-compliance-credentials-map-credentials).
+{: tip}
 
 
 ## Approving a collector
