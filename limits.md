@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-29"
+lastupdated: "2020-10-01"
 
 keywords: known limitations, rules, limits, configuration
 
@@ -60,17 +60,11 @@ When you're working with {{site.data.keyword.compliance_short}}, there are a few
 
 Review the following table to see the limits that apply to rules. 
 
-| Limit   | Description |
-|---------|-----------|
-| Rule length | 4096 characters including all elements |
-| Total rules | 500 per enterprise account</br>100 per stand alone account |
-| Rule results | Kept for 7 days.|
-{: caption="Table 1. Rule limits" caption-side="top"}
-s
-Review the following table to see the limits that apply to each element within a rule.
-
-| Element | Limit |
-|---------|-------|
+| Rule element   | Limit |
+|----------------|-----------|
+| Length | 4096 characters including all elements |
+| Total number | 500 per enterprise account</br>100 per stand alone account |
+| Results | Kept for 7 days.|
 | Name | 32 characters |
 | Description | 256 characters |
 | Target | 1 per rule |
@@ -80,7 +74,7 @@ Review the following table to see the limits that apply to each element within a
 | Labels | 32 per rule |
 | Attachments | 10 per rule |
 | Excluded scopes | 8 per attachment |
-{: caption="Table 2. Rule element limits" caption-side="top"}
+{: caption="Table 1. Rule limits" caption-side="top"}
 
 
 
