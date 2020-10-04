@@ -63,7 +63,7 @@ At this time, remediation is available only for Amazon Web Services and Azure. I
 |:-------|:-----------|
 | Remediation is unavailable for IBM Cloud. | If you're working with Amazon Web Services (AWS) or Azure, you can [remediate issues](/docs/security-compliance?topic=security-compliance-remediation) directly from the service UI. If you're working in IBM Cloud, you must manually remediate your issues. |
 | Results for classic infrastructure are not returned. | It is not possible to scan Gen 1 classic infrstructure as a cloud based resource. To monitor security and compliance for Gen 1 classic infrastructure, configure an on-prem collector. |
-
+{: caption="Table 1. Known issues and workarounds" caption-side="top"}
 
 
 ## Limits
@@ -79,7 +79,7 @@ Review the following table to see the limits that apply to rules.
 | Rule element   | Limit |
 |----------------|-----------|
 | Total | 500 rules per enterprise account</br>100 rules per stand alone account |
-| Length | 4096 characters including all elements |
+| Length | 4096 characters |
 | Results | Kept for 7 days |
 | Name | 32 characters |
 | Description | 256 characters |
@@ -90,7 +90,7 @@ Review the following table to see the limits that apply to rules.
 | Labels | 32 per rule |
 | Attachments | 10 per rule |
 | Excluded scopes | 8 per attachment |
-{: caption="Table 1. Rule limits" caption-side="top"}
+{: caption="Table 2. Rule limits" caption-side="top"}
 
 
 
