@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-01"
+lastupdated: "2020-10-05"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -198,7 +198,7 @@ Now that you have a collector, you can install it by completing the following st
   ```
   {: screen}
 
-If you're working with a scope that requires multiple credentials to complete a scan, be sure to [map your credentials](/docs/security-compliance?topic=security-compliance-credentials-map-credentials).
+If you're working with a scope that requires multiple credentials to complete a scan, be sure to [map your credentials](/docs/security-compliance?topic=security-compliance-credentials#map-credentials).
 {: tip}
 
 
@@ -213,6 +213,5 @@ Now that your collector is installed, you must approve it before it can start co
 
   When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
 4. If a passphrase is enabled, click **Passphrase** and enter the phrase.
-
 
 

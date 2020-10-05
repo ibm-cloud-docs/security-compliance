@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-01"
+lastupdated: "2020-10-05"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -113,7 +113,7 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
     </tr>
     <tr>
       <td>Azure Cloud</td>
-      <td>An Azure client ID (application ID), client secret (authentication key), tenant ID, and subscription ID. <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal@get-application-id-and-authentication-key">Learn more</a>.</td>
+      <td>An Azure client ID (application ID), client secret (authentication key), tenant ID, and subscription ID. <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal#get-application-id-and-authentication-key">Learn more</a>.</td>
     </tr>
     <tr>
       <td>GCP Cloud</td>
@@ -137,7 +137,7 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
     </tr>
     <tr>
       <td>Windows authentication</td>
-      <td>A username and password combination. You must also provide the type of authentication that your credential is configured to provide. Options include: Basic, Kerberos, and Negotiate. You can also choose whether to Use SSL by checking or unchecking the <strong>Use SSL</strong> box.</td>
+      <td>A username and password combination. You must also provide the type of authentication that your credential is configured to provide. Options include: Basic, Kerberos, and Negotiate. You can also choose whether to Use SSL by checking checking the <strong>Use SSL</strong> box.</td>
     </tr>
   </table>
 

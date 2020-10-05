@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-01"
+lastupdated: "2020-10-05"
 
 keywords: scopes, accounts, resources, environments
 
@@ -122,4 +122,4 @@ If you no longer need to scan a particular scope, you can delete it.
 2. In the navigation, click **Configure > Scopes**.
 3. Select the scope that you want to delete.
 4. Click the **Delete scope** symbol.
-5. To verify that you understand that any scheduled scans that are associated with that scope are cancelled, click **Delete**.
+5. To verify that you understand that any scheduled scans that are associated with that scope are canceled, click **Delete**.
