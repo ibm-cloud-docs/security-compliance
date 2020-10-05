@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-10-01"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -96,7 +96,7 @@ Yes, you can create rules for services or resources that are not already provisi
 ## Why can't I select a remediation option?
 {: #remediate-gray}
 
-Currently, you must be working with Amazon Web Services to configure remediation. If you select a scope specific to AWS, the option is no longer unavailable.
+Currently, you must be working with Amazon Web Services or Azure to configure remediation. If you select a scope that does not support remediation, the option is unavailable and not able to be configured.
 
 For more information about remediation, see [Remediating issues](/docs/security-compliance?topic=security-compliance-remediation).
 

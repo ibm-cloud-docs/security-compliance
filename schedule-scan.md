@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-29"
+lastupdated: "2020-10-05"
 
 keywords: scans, compliance, schedule scan, create scan, discovery, validation, fact collection, fact validation
 
@@ -66,6 +66,73 @@ Depending on what you're trying to accomplish, you might run different types of 
 {: #before-scans}
 
 Before you get started, be sure that you have the required level of access to view and schedule scans. To schedule scans, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
+
+
+
+### Configuring scanning for VMs
+{: #vm-prereqs}
+
+If you're attempting to configure fact collection for cloud-based infrastructure, you must complete the following steps before you schedule your scan.
+
+Scanning for {{site.data.keyword.cloud_notm}} Gen 1 classic infrastructure is not available.
+{: note}
+
+**Supported VM types**
+
+* Red Hat Enterprise Linux (RHEL)
+* CentOS
+* Suse
+* Debian
+* Ubuntu
+* Windows
+
+**Linux prerequisites**
+
+1. SSH must be running with port 22 open.
+2. Passwordless `sudo` must be enabled.
+
+
+**Windows prerequisites**
+
+Enable your Windows Server computers to access PowerShell remotely (`WinRM`).
+
+To check to see if the computer has `WinRM` enabled, check if the HTTPS listener is running by running the following command in a PowerShell window: `dir wsman:\localhost\listener`.
+
+1. Enable WinRM Remoting.
+
+  ```
+  Enable-PSRemoting -SkipNetworkProfileCheck -Force
+  ```
+  {: codeblock}
+
+2. Set up your certificates and enable your HTTPS listener.
+
+  ```
+  $myhost=(Get-WmiObject win32_computersystem).DNSHostName+"."+ (Get-WmiObject win32_computersystem).Domain $Cert = New-SelfSignedCertificate -CertstoreLocation Cert:\LocalMachine\My -DnsName $myhost New-Item -Path WSMan:\LocalHost\Listener -Transport HTTPS -Address * -CertificateThumbPrint $Cert.Thumbprint -Force
+  ```
+  {: codeblock}
+
+3. Enable your Windows server firewall to allow for incoming communication.
+
+  ```
+  New-NetFirewallRule -DisplayName "Windows Remote Management (HTTPS-In)" -Name "Windows Remote Management (HTTPS-In)" -Profile Any -LocalPort 5986 -Protocol TCP
+  ```
+  {: codeblock}
+
+4. Ensure that basic authentication is set to true.
+
+  ```
+  winrm set winrm/config/Service/Auth '@{Basic="True"}'
+  ```
+  {: codeblock}
+
+5. Validate that your configuration and network connection are running correctly.
+
+  ```
+  winrm get winrm/config -NetConnectionProfile
+  ```
+  {: codeblock}
+
 
 
 ## Running discovery and fact collection scans

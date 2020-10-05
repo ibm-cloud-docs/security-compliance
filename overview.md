@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-23"
+lastupdated: "2020-10-05"
 
 keywords: best practices security and compliance, secure development, security strategy, insights, governance
 
@@ -93,6 +93,6 @@ By creating config rules, you can standardize resource configuration across your
 ### Security insights
 {: #security-insights}
 
-With [security insights](/docs/security-advisor?topic=security-advisor-integrations), you can analze your cluster network communication and your account activity to detect potential threats. With network insights, you can monitor and analyze cluster network communication, both incoming and outgoing between your Kubernetes cluster and external entities. With Activity Insights, you can monitor and analyze your Activity Tracker with LogDNA logs to identify unauthorized or suspicious activity that is made by users or apps.
+With [security insights](/docs/security-advisor?topic=security-advisor-integrations), you can analyze your cluster network communication and your account activity to detect potential threats. With network insights, you can monitor and analyze cluster network communication, both incoming and outgoing between your Kubernetes cluster and external entities. With Activity Insights, you can monitor and analyze your Activity Tracker with LogDNA logs to identify unauthorized or suspicious activity that is made by users or apps.
 
 &ast;*Security insights is available for {{site.data.keyword.cloud_notm}} only.* 
