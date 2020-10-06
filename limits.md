@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-10-06"
 
-keywords: known limitations, rules, limits, configuration
+keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
 subcollection: security-compliance
 
