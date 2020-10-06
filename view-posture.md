@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-10-06"
 
 keywords: compliance posture, security posture, audit evidence, security scan, evaluation results, scan results, scan results, compliance, score, security and compliance score
 
@@ -58,9 +58,9 @@ Your security and compliance score is an analytical assessment of your organizat
 
 ![A visual representation of validation results. The information in the diagram is detailed in the surrounding text.](images/dashboard.svg){: caption="Figure 1. Example security and compliance score breakdown" caption-side="bottom"}
 
-**How is my compliance score calculated?**
+**How is my security and compliance score calculated?**
 
-Your compliance score is the weighted average of the goals that passed and failed determined by the severity of the goals. For example, say you have two goals. One is a high severity and one is low. If the high severity goal passed but the low severity goal failed, your compliance score would still be high. If the high severity goal failed but the low severity goal passed, your compliance score would be significantly impacted.
+Your security and compliance score is the weighted average of the goals that passed and failed determined by the severity of the goals. For example, say you have two goals. One is a high severity and one is low. If the high severity goal passed but the low severity goal failed, your compliance score would still be high. If the high severity goal failed but the low severity goal passed, your compliance score would be significantly impacted.
 
 
 **How can I raise my security and compliance score?**
