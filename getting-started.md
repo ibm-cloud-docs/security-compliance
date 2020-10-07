@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-29"
+lastupdated: "2020-10-07"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -75,7 +75,6 @@ To complete the getting started tutorial, use a [Pay-As-You-Go or Subscription](
 
 Be sure that you also have the following requirements:
 
-- [{{site.data.keyword.cloud_notm}} CLI](/docs/cli?topic=cli-install-ibmcloud-cli).
 - Docker for Linux. To start Docker, you can run `systemctl start docker`.
 - A [service ID API key](/docs/account?topic=account-serviceidapikeys) with **Read** access permissions for the resources that you want to scan.
 

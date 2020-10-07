@@ -42,6 +42,8 @@ Security and Compliance Center
         results.md
 
     [Gaining insights](https://{DomainName}/docs/security-advisor?topic=security-advisor-getting-started)
+    ha-dr.md
+    data-security.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -49,9 +51,6 @@ Security and Compliance Center
     APIs
         api-setup.md
         [Configuration](https://{DomainName}/apidocs/security-compliance/config)
-    
-    ha-dr.md
-    data-security.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
