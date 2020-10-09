@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-06"
+lastupdated: "2020-10-07"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -52,12 +52,12 @@ subcollection: security-compliance
 ## Known issues
 {: #known-issues}
 
-Review the following known issues that you might encounter while working with the service and the workarounds that you might be able to use.
+Review the following known issues that you might encounter while working with the service.
 
 | Issue  | Workaround |
 |:-------|:-----------|
 | Remediation is unavailable for {{site.data.keyword.cloud_notm}}. | If you're working with Amazon Web Services (AWS) or Azure, you can [remediate issues](/docs/security-compliance?topic=security-compliance-remediation) directly from the service UI. If you're working in {{site.data.keyword.cloud_notm}}, you must manually remediate your issues. |
-| Results for {{site.data.keyword.cloud_notm}} classic infrastructure are not returned. | It is not possible to scan Gen 1 classic infrstructure as a cloud based resource. To monitor security and compliance for Gen 1 classic infrastructure, configure an on-prem collector. |
+| Results for {{site.data.keyword.cloud_notm}} classic infrastructure are not returned. | It is not possible to scan Gen 1 classic infrstructure as a cloud-based resource. To monitor security and compliance for Gen 1 classic infrastructure, configure an on-prem collector. |
 | An SSH key created by using a Mac OS does not work for VM fact collection | You must use SSH keys created in a Linux system to scan virtual machines. |
 {: caption="Table 1. Known issues and workarounds" caption-side="top"}
 
