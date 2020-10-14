@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-05"
+lastupdated: "2020-10-14"
 
 keywords: best practices security and compliance, secure development, security strategy, insights, governance
 
@@ -78,7 +78,7 @@ When you work with the {{site.data.keyword.compliance_short}}, you interact with
 
 As a security or compliance focal, you create credentials and install a collector to get started. Then, you create profiles and scopes to start validating specific sections of your business by using specific regulations or requirements. With everything configured, the {{site.data.keyword.compliance_short}} works in the background to monitor for potential risk by scanning your resources on a schedule that you determined. When the scans of your resources are complete, the service does a quick calculation to determine your security and compliance score before displaying the score and your detailed results in a dashboard. From the dashboard, you can download a detailed report that you can use to provide evidence to stakeholders or external auditors.
 
-&ast;*Security and compliance posture monitoring is available for {{site.data.keyword.cloud_notm}}, Amazon Web Services, Google Cloud Platform, and on-premises environments.*
+&ast;*Security and compliance posture monitoring is available for {{site.data.keyword.cloud_notm}}, Amazon Web Services, Microsoft Azure, Google Cloud Platform, and on-premises environments.*
 
 ### Configuration governance
 {: #config-governance}
