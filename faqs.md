@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-06"
+lastupdated: "2020-10-14"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -53,10 +53,10 @@ Frequently asked questions for {{site.data.keyword.compliance_full}} might inclu
 
 You can use the {{site.data.keyword.compliance_short}} to monitor your security and compliance posture in the following environments:
 
-* Amazon Web Services
-* Microsoft Azure
 * IBM Cloud
+* Amazon Web Services
 * Google Cloud Platform
+* Microsoft Azure
 * On-premises
 
 
