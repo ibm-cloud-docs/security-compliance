@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-05"
+lastupdated: "2020-10-15"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -121,7 +121,7 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
     </tr>
     <tr>
       <td>IBM Cloud</td>
-      <td>An IBM Cloud API key. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey). Be sure to assign your API key Viewer and Reader access to your resources. If you have Key Protect instances, you must also assign Manager access to those instances. If you have Cloud Object Storage instances, you must also assign Writer access to those instances.</td>
+      <td>An IBM Cloud API key. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey). Be sure to assign your API key Viewer and Reader access to your resources. Occasionally, services require additional access.</td>
     </tr>
     <tr>
       <td>Database</td>
@@ -149,6 +149,17 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
 
 To edit or delete existing credentials, select the credential that you want to modify and click the **Edit** or **Delete** icon.
 {: tip}
+
+### Additional IBM Cloud permissions
+{: #additional-permissions}
+
+A few of the IBM Cloud services require additional permissions. If you're monitoring for controls by using any of the following services, be sure to assign your API key the following additional permissions.
+
+| Service | Required role |
+|---------|---------------|
+| Key Protect | Manager |
+| Cloud Object Storage | Writer | 
+{: caption="Table 2. Additional required permissions" caption-side="top"}
 
 
 
