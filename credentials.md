@@ -161,7 +161,8 @@ A few of the IBM Cloud services require additional permissions. If you're monito
 | Cloud Object Storage | Writer | 
 {: caption="Table 2. Additional required permissions" caption-side="top"}
 
-
+If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. You must create a new credential using Activity Tracker's GUID and Service_key as the username and password. Then, map the credential to a specific collector by using the format AT=resource_guid.
+{: note}
 
 ## Mapping credentials to a scope
 {: #map-credentials}
@@ -179,9 +180,6 @@ To map a credential, it must exist in the service. Before you get started, be su
 6. Enter the criteria that you want to use.
 
   Criteria specifies the conditions for when a credential can be used. For example, for a specific VPC, a specific IP, or a set of IP ranges.
-
-  If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. You must create a new credential using Activity Tracker's GUID and Service_key as the username and password. Then, map the credential to a specific collector by using the format AT=<resource_guid>.
-  {: note}
 
 7. Select the credentials that you want to use.
 8. Optional: Select a **Proxy**.
