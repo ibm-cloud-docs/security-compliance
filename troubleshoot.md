@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-10-15"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -67,7 +67,7 @@ If you're opening a support ticket for the security and compliance posture monit
 3. Navigate to the installation path on your host machine to find the `collector_log.zip` file.
 
   ```
-  Eg :  ls /home/ubuntu/<collector_folder>/collector_log.zip
+  ls /home/ubuntu/<collector_folder>/collector_log.zip
   ```
   {: codeblock}
 
