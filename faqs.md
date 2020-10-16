@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-15"
+lastupdated: "2020-10-16"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -58,6 +58,27 @@ You can use the {{site.data.keyword.compliance_short}} to monitor your security 
 * Google Cloud Platform
 * Microsoft Azure
 * On-premises
+
+
+## Which IBM Cloud services can I scan?
+{: #resource-scan}
+
+You can use the {{site.data.keyword.compliance_short}} to monitor your resources that pertain to the following services:
+
+* {{site.data.keyword.at_short}}
+* {{site.data.keyword.blockstorageshort}}
+* {{site.data.keyword.cloudcerts_short}}
+* {{site.data.keyword.databases-for}}
+* {{site.data.keyword.iamshort}}
+* {{site.data.keyword.registryshort}}
+* {{site.data.keyword.contdelivery_short}}
+* {{site.data.keyword.cloudant_short_notm}}
+* {{site.data.keyword.vpc_short}}
+* {{site.data.keyword.cis_short}}
+* {{site.data.keyword.keymanagementserviceshort}}
+* {{site.data.keyword.containershort_notm}}
+* {{site.data.keyword.cos_short}}
+* {{site.data.keyword.security-advisor_short}}
 
 
 
