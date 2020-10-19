@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-05"
+lastupdated: "2020-10-19"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -70,7 +70,7 @@ The collector sends a regular heartbeat every minute to notify the service that 
 
 To gather information about your resources, the collector must be able to connect to them by using a combination of methods, including API calls, SSH, Shell commands, and Windows PowerShell. The communication is able to occur only because the collector uses credentials that you associate with it through the {{site.data.keyword.compliance_short}} UI. To communicate with them, the collector needs to use credentials that have read access to your resources. 
 
-Collectors that run in an on-premises environment use Nmap to scan and discover resources. The collector uses SSH or the equivelant to connect to and query the resources for the configurations. The network and ports on the VMs must allow for the connectivity.
+Collectors that run in an on-premises environment use Nmap to scan and discover resources. The collector uses SSH or the equivalant to connect to and query the resources for the configurations. The network and ports on the VMs must allow for the connectivity.
 
 For more information about granting the authorization between a collector and your resources, see [Managing credentials](/docs/security-compliance?topic=security-compliance-credentials).
 {: tip}

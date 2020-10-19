@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-14"
+lastupdated: "2020-10-19"
 
 keywords: best practices security and compliance, secure development, security strategy, insights, governance
 
@@ -46,7 +46,7 @@ subcollection: security-compliance
 # Meeting your security and compliance goals
 {: #overview}
 
-For highly regulated industries, such as financial services, achieving continuous security within a cloud environment is an important first step towards protecting customer and application data. Historically, that process has been difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.cloud_notm}} you can integrate automatic security checks into every day workflows that are designed to minimize risk.
+For highly regulated industries, such as financial services, achieving continuous security within a cloud environment is an important first step toward protecting customer and application data. Historically, that process has been difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.cloud_notm}} you can integrate automatic security checks into every day workflows that are designed to minimize risk.
 {: shortdesc}
 
 
