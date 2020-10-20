@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-07"
+lastupdated: "2020-10-20"
 
 keywords: compliance posture, security posture, audit evidence, security scan, evaluation results, scan results, scan results, compliance, score, security and compliance score
 
@@ -56,7 +56,7 @@ With the {{site.data.keyword.compliance_full}}, you can view the results of the 
 Your security and compliance score is an analytical assessment of your organization's current posture. The {{site.data.keyword.compliance_short}} assigns each goal a severity level when it is created. The goals can be `Critical`, `High`, `Medium`, and `Low`. Critical goals have a much greater impact to your compliance and security scores than a low severity goal.
 {: shortdesc}
 
-![A visual representation of validation results. The information in the diagram is detailed in the surrounding text.](images/dashboard.svg){: caption="Figure 1. Example security and compliance score breakdown" caption-side="bottom"}
+![A visual representation of validation results. The information in the diagram is detailed in the surrounding text.](images/scan-details.svg){: caption="Figure 1. Example security and compliance score breakdown" caption-side="bottom"}
 
 **How is my security and compliance score calculated?**
 
@@ -65,7 +65,7 @@ Your security and compliance score is the weighted average of the goals that pas
 
 **How can I raise my security and compliance score?**
 
-If you're not happy with your score, you can raise it by addressing the issues that are flagged. To make the biggest difference, try starting with the highest severity issues on the most significant resources. 
+To improve your score, you can address the security and compliance issues that are found. To make the biggest difference, start with the highest severity issues on your most significant resources. 
 
 ## Before you begin
 {: #before-scan-results}
