@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-07"
+lastupdated: "2020-10-20"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -121,15 +121,11 @@ A collector is a software module that is packaged as a Docker image. It is insta
 
 1. On the **Collectors** page of the {{site.data.keyword.compliance_short}}, click the **New collector** icon.
 2. Give your collector a meaningful name and description.
-3. Select **Unrestricted** for **Type**.
-
-  Unrestricted collectors have access to the resources behind your firewall and are able to run discovery and validation scans.
-
-4. Download the `initiate_collector.sh` file for the collector that you created.
+3. Download the `initiate_collector.sh` file for the collector that you created.
 
   In the **Collectors** table, click the name of the collector that you want to register. The table row expands to provide more information. Be sure to also make a note of the registration key for a later step.
 
-5. In your terminal, log in to your virtual machine by using SSH.
+4. In your terminal, log in to your virtual machine by using SSH.
   
   ```
   ssh <username>@<hostname_or_IP_address>
@@ -139,41 +135,41 @@ A collector is a software module that is packaged as a Docker image. It is insta
   If you do not log in as the root user, you must prefix the following commands with `sudo`.
   {: tip}
 
-6. Ensure that your OS image is up to date. If you're working with Ubuntu, you can run the following command.
+5. Ensure that your OS image is up to date. If you're working with Ubuntu, you can run the following command.
 
   ```
   [sudo] apt-get update
   ```
   {: codeblock}
 
-7. Install [Docker Compose](https://docs.docker.com/compose/install/){: external} by using the command for your OS. If you're working with Ubuntu, you can use the following command.
+6. Install [Docker Compose](https://docs.docker.com/compose/install/){: external} by using the command for your OS. If you're working with Ubuntu, you can use the following command.
 
   ```
   [sudo] apt-get install docker-compose
   ```
   {: codeblock}
 
-8. Transfer the `inititate_collector.sh` file onto your virtual machine and then change the permissions to allow it to run.
+7. Transfer the `inititate_collector.sh` file onto your virtual machine and then change the permissions to allow it to run.
 
   ```
   chmod +x initiate_collector.sh
   ```
   {: codeblock}
 
-9. Install the collector by running the following command.
+8. Install the collector by running the following command.
 
   ```
   ./initiate_collector.sh
   ```
   {: codeblock}
 
-10. When prompted, enter the following information:
+9. When prompted, enter the following information:
 
   * The data path from your host machine. For example, `/root/folder_name/`.
   * No, to indicate that you don't want to run an Nmap scan.
   * The registration key that you noted when you downloaded the `inititate_collector.sh` file from the service UI.
 
-11. On the **Collectors** page of the {{site.data.keyword.compliance_short}}, click **Approve** in the table row that corresponds to the collector that you're working with.
+10. On the **Collectors** page of the {{site.data.keyword.compliance_short}}, click **Approve** in the table row that corresponds to the collector that you're working with.
 
 
 ## Create a scope

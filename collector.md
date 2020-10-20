@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-19"
+lastupdated: "2020-10-20"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -108,11 +108,6 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
 2. In the navigation, click **Collectors**.
 3. Click the **New collector** icon.
 4. Give your collector a name and description. It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
-5. Select a **Type**. Options include **Restricted** and **Unrestricted**.
-
-  **Restricted**: A restricted collector is used most often for on-premises resources that exist behind a firewall and is not needed to access resources from public cloud environment. To scan resources from on-premises or private cloud environment, the collector must install the Nmap package to be able to run an Nmap network scan.
-
-  **Unrestricted**: An unrestricted collector is installed in a way in which it might have access to all of the environments that you want to scan including on-premises or private clouds and other public clouds. Depending on how you plan to use your collector, it might have access to a public cloud environment and it might not need to run Nmap scans.
   
 When the collector is created successfully, the status updates to **Ready to install**.
 
@@ -176,7 +171,7 @@ Now that you have a collector, you can install it by completing the following st
 12. When prompted, enter the data path from your host machine. For example, `/root/folder_name/`.
 13. When prompted about whether to do an Nmap validation, enter `y` (yes) or `n` (no).
 
-  Nmap scans are done on resources that are behind a firewall. If you're working with an unrestricted collector, your answer would be no. If you're working with a restricted collector for on-premises resources, your answer would be yes.
+  Nmap scans are done on resources that are behind a firewall. If you are attempting to scan on-premises resources, be sure to answer yes.
 
 14. When prompted, enter your collector registration key.
 
