@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-05"
+lastupdated: "2020-10-15"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -121,7 +121,7 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
     </tr>
     <tr>
       <td>IBM Cloud</td>
-      <td>An IBM Cloud API key. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey). Be sure to assign your API key Viewer and Reader access to your resources. If you have Key Protect instances, you must also assign Manager access to those instances. If you have Cloud Object Storage instances, you must also assign Writer access to those instances.</td>
+      <td>An IBM Cloud API key. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey). Be sure to assign your API key Viewer and Reader access to your resources. Occasionally, services require additional access.</td>
     </tr>
     <tr>
       <td>Database</td>
@@ -150,7 +150,19 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
 To edit or delete existing credentials, select the credential that you want to modify and click the **Edit** or **Delete** icon.
 {: tip}
 
+### Additional IBM Cloud permissions
+{: #additional-permissions}
 
+A few of the IBM Cloud services require additional permissions. If you're monitoring for controls by using any of the following services, be sure to assign your API key the following additional permissions.
+
+| Service | Required role |
+|---------|---------------|
+| Key Protect | Manager |
+| Cloud Object Storage | Writer | 
+{: caption="Table 2. Additional required permissions" caption-side="top"}
+
+If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. You must create a new credential using Activity Tracker's GUID and Service_key as the username and password. Then, map the credential to a specific collector by using the format AT=resource_guid.
+{: note}
 
 ## Mapping credentials to a scope
 {: #map-credentials}
@@ -168,9 +180,6 @@ To map a credential, it must exist in the service. Before you get started, be su
 6. Enter the criteria that you want to use.
 
   Criteria specifies the conditions for when a credential can be used. For example, for a specific VPC, a specific IP, or a set of IP ranges.
-
-  If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. You must create a new credential using Activity Tracker's GUID and Service_key as the username and password. Then, map the credential to a specific collector by using the format AT=<resource_guid>.
-  {: note}
 
 7. Select the credentials that you want to use.
 8. Optional: Select a **Proxy**.

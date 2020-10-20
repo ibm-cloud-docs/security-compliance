@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-06"
+lastupdated: "2020-10-16"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -53,11 +53,32 @@ Frequently asked questions for {{site.data.keyword.compliance_full}} might inclu
 
 You can use the {{site.data.keyword.compliance_short}} to monitor your security and compliance posture in the following environments:
 
-* Amazon Web Services
-* Microsoft Azure
 * IBM Cloud
+* Amazon Web Services
 * Google Cloud Platform
+* Microsoft Azure
 * On-premises
+
+
+## Which IBM Cloud services can I scan?
+{: #resource-scan}
+
+You can use the {{site.data.keyword.compliance_short}} to monitor your resources that pertain to the following services:
+
+* {{site.data.keyword.at_short}}
+* {{site.data.keyword.blockstorageshort}}
+* {{site.data.keyword.cloudcerts_short}}
+* {{site.data.keyword.databases-for}}
+* {{site.data.keyword.iamshort}}
+* {{site.data.keyword.registryshort}}
+* {{site.data.keyword.contdelivery_short}}
+* {{site.data.keyword.cloudant_short_notm}}
+* {{site.data.keyword.vpc_short}}
+* {{site.data.keyword.cis_short}}
+* {{site.data.keyword.keymanagementserviceshort}}
+* {{site.data.keyword.containershort_notm}}
+* {{site.data.keyword.cos_short}}
+* {{site.data.keyword.security-advisor_short}}
 
 
 
@@ -98,7 +119,7 @@ Yes, you can create rules for services or resources that are not already provisi
 ## Why can't I select a remediation option?
 {: #remediate-gray}
 
-Currently, you must be working with Amazon Web Services or Azure to configure remediation. If you select a scope that does not support remediation, the option is unavailable and not able to be configured.
+Currently, you must be working with Amazon Web Services or Microsoft Azure to configure remediation. If you select a scope that does not support remediation, the option is unavailable and not able to be configured.
 
 For more information about remediation, see [Remediating issues](/docs/security-compliance?topic=security-compliance-remediation).
 

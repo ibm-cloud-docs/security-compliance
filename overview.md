@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-05"
+lastupdated: "2020-10-19"
 
 keywords: best practices security and compliance, secure development, security strategy, insights, governance
 
@@ -46,7 +46,7 @@ subcollection: security-compliance
 # Meeting your security and compliance goals
 {: #overview}
 
-For highly regulated industries, such as financial services, achieving continuous security within a cloud environment is an important first step towards protecting customer and application data. Historically, that process has been difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.cloud_notm}} you can integrate automatic security checks into every day workflows that are designed to minimize risk.
+For highly regulated industries, such as financial services, achieving continuous security within a cloud environment is an important first step toward protecting customer and application data. Historically, that process has been difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.cloud_notm}} you can integrate automatic security checks into every day workflows that are designed to minimize risk.
 {: shortdesc}
 
 
@@ -78,7 +78,7 @@ When you work with the {{site.data.keyword.compliance_short}}, you interact with
 
 As a security or compliance focal, you create credentials and install a collector to get started. Then, you create profiles and scopes to start validating specific sections of your business by using specific regulations or requirements. With everything configured, the {{site.data.keyword.compliance_short}} works in the background to monitor for potential risk by scanning your resources on a schedule that you determined. When the scans of your resources are complete, the service does a quick calculation to determine your security and compliance score before displaying the score and your detailed results in a dashboard. From the dashboard, you can download a detailed report that you can use to provide evidence to stakeholders or external auditors.
 
-&ast;*Security and compliance posture monitoring is available for {{site.data.keyword.cloud_notm}}, Amazon Web Services, Google Cloud Platform, and on-premises environments.*
+&ast;*Security and compliance posture monitoring is available for {{site.data.keyword.cloud_notm}}, Amazon Web Services, Microsoft Azure, Google Cloud Platform, and on-premises environments.*
 
 ### Configuration governance
 {: #config-governance}
