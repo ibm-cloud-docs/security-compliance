@@ -119,8 +119,8 @@ Credentials are used to allow the collector to gather information about your res
 
 A collector is a software module that is packaged as a Docker image. It is installed "within sight" of your environment where it can have network access to your IT resources. To learn more about collectors and how the communication takes place, see [Understanding collectors](/docs/security-compliance?topic=security-compliance-collector).
 
-1. On the **Collectors** page of the {{site.data.keyword.compliance_short}}, click the **New collector** icon.
-2. Give your collector a meaningful name and description.
+1. On the **Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}}, click **Create**.
+2. Give your collector a meaningful name and description. Click **Create**.
 3. Download the `initiate_collector.sh` file for the collector that you created.
 
   In the **Collectors** table, click the name of the collector that you want to register. The table row expands to provide more information. Be sure to also make a note of the registration key for a later step.
@@ -169,7 +169,7 @@ A collector is a software module that is packaged as a Docker image. It is insta
   * No, to indicate that you don't want to run an Nmap scan.
   * The registration key that you noted when you downloaded the `inititate_collector.sh` file from the service UI.
 
-10. On the **Collectors** page of the {{site.data.keyword.compliance_short}}, click **Approve** in the table row that corresponds to the collector that you're working with.
+10. On the **Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}}, click **Approve** in the table row that corresponds to the collector that you're working with.
 
 
 ## Create a scope
