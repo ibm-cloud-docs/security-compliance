@@ -225,7 +225,7 @@ The following tables list the platform access roles that are required to manage 
 | :------------------------------------------------------- | :-------------------------------------------------- | :-------------------------------------- |
 | `compliance.configuration-governance.results-read`   | View config rule results. | Viewer, Operator, Editor, Administrator |
 {: caption="Table 11. IAM user roles and actions" caption-side="top"}
-{: #attachments-access}
+{: #results-access}
 {: tab-title="Results"}
 {: tab-group="config"}
 {: class="simple-tab-table"}
