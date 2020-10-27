@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-05"
+lastupdated: "2020-10-27"
 
 keywords: scans, compliance, schedule scan, create scan, discovery, validation, fact collection, fact validation
 
@@ -169,7 +169,7 @@ You can schedule a validation scan by using the {{site.data.keyword.compliance_s
     Be sure to select a profile that is applicable to your scope. For example, if you select an IBM scope but use an AWS profile to validate it, no results are returned as part of your scan.
 
 8. Click **Next**.
-9. If you selected an AWS scope, set your remediation preference.
+9. If you selected an AWS or Azure scope, set your remediation preference.
 
   <table>
     <caption>Table 2. Remediation types</caption>
