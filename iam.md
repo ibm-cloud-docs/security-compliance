@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-10-26"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -218,6 +218,15 @@ The following tables list the platform access roles that are required to manage 
 {: caption="Table 11. IAM user roles and actions" caption-side="top"}
 {: #attachments-access}
 {: tab-title="Attachments"}
+{: tab-group="config"}
+{: class="simple-tab-table"}
+
+| Action                                                   | Description                                         | Role                                    |
+| :------------------------------------------------------- | :-------------------------------------------------- | :-------------------------------------- |
+| `compliance.configuration-governance.results-read`   | View config rule results. | Viewer, Operator, Editor, Administrator |
+{: caption="Table 11. IAM user roles and actions" caption-side="top"}
+{: #results-access}
+{: tab-title="Results"}
 {: tab-group="config"}
 {: class="simple-tab-table"}
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-19"
+lastupdated: "2020-10-26"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -70,7 +70,7 @@ The collector sends a regular heartbeat every minute to notify the service that 
 
 To gather information about your resources, the collector must be able to connect to them by using a combination of methods, including API calls, SSH, Shell commands, and Windows PowerShell. The communication is able to occur only because the collector uses credentials that you associate with it through the {{site.data.keyword.compliance_short}} UI. To communicate with them, the collector needs to use credentials that have read access to your resources. 
 
-Collectors that run in an on-premises environment use Nmap to scan and discover resources. The collector uses SSH or the equivalant to connect to and query the resources for the configurations. The network and ports on the VMs must allow for the connectivity.
+Collectors that run in an on-premises environment use Nmap to scan and discover resources. The collector uses SSH or the equivalent to connect to and query the resources for the configurations. The network and ports on the VMs must allow for the connectivity.
 
 For more information about granting the authorization between a collector and your resources, see [Managing credentials](/docs/security-compliance?topic=security-compliance-credentials).
 {: tip}
@@ -105,14 +105,12 @@ Be sure that you also have the following requirements:
 You can use the {{site.data.keyword.compliance_short}} UI to create a collector by completing the following steps.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Collectors**.
-3. Click the **New collector** icon.
-4. Give your collector a name and description. It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
-5. Select a **Type**. Options include **Restricted** and **Unrestricted**.
+2. In the navigation, click **Configure > Settings > Collectors**.
+3. Click **Create**.
+4. Give your collector a name and description.
 
-  **Restricted**: A restricted collector is used most often for on-premises resources that exist behind a firewall and is not needed to access resources from public cloud environment. To scan resources from on-premises or private cloud environment, the collector must install the Nmap package to be able to run an Nmap network scan.
-
-  **Unrestricted**: An unrestricted collector is installed in a way in which it might have access to all of the environments that you want to scan including on-premises or private clouds and other public clouds. Depending on how you plan to use your collector, it might have access to a public cloud environment and it might not need to run Nmap scans.
+  It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
+5. Click **Create**.
   
 When the collector is created successfully, the status updates to **Ready to install**.
 
@@ -123,7 +121,7 @@ When the collector is created successfully, the status updates to **Ready to ins
 Now that you have a collector, you can install it by completing the following steps.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Configure > Collectors**.
+2. In the navigation, click **Configure > Settings > Collectors**.
 3. In the **Collectors** table, click the name of the collector that you want to register. The table row expands to provide more information.
 4. Download the `initiate_collector.sh` file.
 5. In terminal, log in to your virtual machine by using SSH.
@@ -176,11 +174,11 @@ Now that you have a collector, you can install it by completing the following st
 12. When prompted, enter the data path from your host machine. For example, `/root/folder_name/`.
 13. When prompted about whether to do an Nmap validation, enter `y` (yes) or `n` (no).
 
-  Nmap scans are done on resources that are behind a firewall. If you're working with an unrestricted collector, your answer would be no. If you're working with a restricted collector for on-premises resources, your answer would be yes.
+  Nmap scans are done on resources that are behind a firewall. If you are attempting to scan on-premises resources, be sure to answer yes.
 
 14. When prompted, enter your collector registration key.
 
-  You can get this value by going to the **Collectors** page of the {{site.data.keyword.compliance_short}} UI and viewing more details about the collector that you want to install.
+  You can get this value by going to the **Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}} UI and viewing more details about the collector that you want to install.
 
 15. Confirm that everything is installed.
 
@@ -208,7 +206,7 @@ If you're working with a scope that requires multiple credentials to complete a 
 Now that your collector is installed, you must approve it before it can start collecting information on your resources.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Collectors**.
+2. In the navigation, click **Configure > Settings > Collectors**.
 3. In the **Collectors** table, click **Approve** in the row that corresponds to the collector that you're working with.
 
   When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
