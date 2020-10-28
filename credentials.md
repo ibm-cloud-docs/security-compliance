@@ -209,7 +209,7 @@ Check out the following diagram to understand more about how credential security
 ![This image is a visual representation of the way in which credentials are secured. The information shown in the image is detailed in the surrounding text.](images/passphrase.svg)
 
 
-As you can see in the previous image, a user adds their credentials to the service UI. The credentials that they add might be a username and password or an API key that the Security and Compliance Center might need to scan a specific resource. Then, if a user wants to manage their own security, they enable their own passphrase. If they want to have IBM manage their security, the service generates a passphrase. Either way, the passphrase is used to create a data encryption key. That key is used to encrypt the credentials before they are stored by the service.
+As you can see in the previous image, a user adds their credentials to the service UI. The credentials that they add might be a username and password or an API key that the {{site.data.keyword.compliance_short}} might need to scan a specific resource. Then, if a user wants to manage their own security, they enable their own passphrase. If they want to have IBM manage their security, the service generates a passphrase. Either way, the passphrase is used to create a data encryption key. That key is used to encrypt the credentials before they are stored by the service.
 
 To enable a passphrase:
 
