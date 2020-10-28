@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-15"
+lastupdated: "2020-10-28"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -194,12 +194,24 @@ You can also choose to edit or delete an existing entry if you made a mistake or
 ## Creating a passphrase
 {: #passphrase}
 
-A credential passphrase creates an encryption key that provides an extra layer of protection for the credentials that are used to collect configuration settings from your IT resources. If you choose to not create a passphrase, a system-generated passphrase is used in the background to secure the connections.
+A credential passphrase is an arbitrary string that is used to ensure the security of the credentials that you add to the service. As a user, you can choose to have IBM manage the security of your credentials, or you can choose to manage it yourself.
 
-When you enable a user-generated passphrase, it must be provided for all create and edit operations, including any operations that are associated with [managing collectors](/docs/security-compliance?topic=security-compliance-collector).
+In most cases, IBM-managed credential security is appropriate. If your industry requires that you maintain total secrecy of your data - including from IBM, then you might choose to create and enable your own passphrase. However, if you choose to enable your own passphrase, it is important that you understand that IBM does not have access to it. This means that:
 
-The {{site.data.keyword.compliance_full}} does not store the passphrase. It is available only temporarily in memory when it is entered by an administrator when they attempt to add a collector, add credentials, edit credentials, or update passphrase protection.
-{: note}
+* IBM cannot help you recover your passphrase if it is ever lost or forgotten.
+* There is no validation of the password when it is entered to complete an action.
+
+For security reasons, if a passphrase is entered incorrectly, the credentials that have already been added become unusable by the service.
+{: important}
+
+Check out the following diagram to understand more about how credential security works. 
+
+![This image is a visual representation of the way in which credentials are secured. The information shown in the image is detailed in the surrounding text.](images/passphrase.svg)
+
+
+As you can see in the previous image, a user adds their credentials to the service UI. The credentials that they add might be a username and password or an API key that the Security and Compliance Center might need to scan a specific resource. Then, if a user wants to manage their own security, they enable their own passphrase. If they want to have IBM manage their security, the service generates a passphrase. Either way, the passphrase is used to create a data encryption key. That key is used to encrypt the credentials before they are stored by the service.
+
+To enable a passphrase:
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Settings > Credential passphrase**.
