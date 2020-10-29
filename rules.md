@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-28"
+lastupdated: "2020-10-29"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -130,14 +130,7 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
     </tr>
     <tr>
       <td><code>operator</code></td>
-      <td><p>How an additional target value or property is compared to its value. There are three types of operators: string, numeric, and boolean.</p>
-      <p>
-        <ul>
-          <li>String options: <code>string_equals</code>, <code>string_not_equals</code>, <code>string_match</code>, and <code>string_not_match</code>.</li>
-          <li>Numeric options: <code>num_equals</code>, <code>num_not_equals</code>, <code>num_less_than</code>, <code>num_less_than_equals</code>, <code>num_greater_than</code>, and <code>num_greater_than_equals</code>.</li>
-          <li>Boolean options: <code>is_empty</code>, <code>is_not_empty</code>, <code>is_true</code>, and <code>is_false</code>.</li>
-        </ul>
-      </p>
+      <td><p>How an additional target value or property is compared to its value. For a full list of operators, see [Supported operators](/docs/security-compliance?topic=security-compliance-what-is-rule#config-rule-operators).</p>
       </td>
     </tr>
     <tr>
