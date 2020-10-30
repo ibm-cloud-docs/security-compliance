@@ -50,7 +50,7 @@ A config rule is a JSON document that defines the configuration of resources. Wi
 ## What makes up a rule?
 {: #config-rule-components}
 
-A rule comprises a target, one or more property conditions, and enforcement actions. You can create rules with [simple properties](#config-rule-simple), or you can build more complex rules with [nested properties](#config-rule-nested) and [multiple conditions](#config-rule-multiple-conditions).
+A rule consists of a target, one or more property conditions, and enforcement actions. You can create rules with [simple properties](#config-rule-simple), or you can build more complex rules with [nested properties](#config-rule-nested) and [multiple conditions](#config-rule-multiple-conditions).
 
 The following image shows the components of a config rule.
 
