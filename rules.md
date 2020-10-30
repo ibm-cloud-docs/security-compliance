@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-29"
+lastupdated: "2020-10-30"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -45,18 +45,12 @@ subcollection: security-compliance
 # Working with config rules
 {: #rules}
 
-
-
-
-A config rule is a JSON document that defines the configuration of resources. With the {{site.data.keyword.compliance_full}}, you can create rules for specific {{site.data.keyword.cloud_notm}} resource types to govern the way that resources in your accounts can be provisioned or configured.
+You can use the {{site.data.keyword.compliance_full}} to create and manage config rules by using the console or the APIs.
 {: shortdesc}
 
 After you create a rule, you can monitor for configuration changes by attaching the rule to a scope, such as an account group, specific accounts, or an entire enterprise. You can further investigate noncompliant resources by reviewing your evaluation results in the {{site.data.keyword.compliance_short}} UI.
 
-To learn more about the different components of a rule, check out the following example.
-
-![The image shows the components of the configuration rule, including its target, required configuration, and enforcement actions. The target represents the IBM Cloud service and resource type that you want to target. The required configuration section details the property checks and conditions that you want to apply. The enforcement actions are the actions that IBM takes on your behalf in cases of noncompliance.](images/config-rules.svg){: caption="Figure 1. Example configuration rule" caption-side="bottom"}
-
+To learn more about the different components of a rule, see [What is a rule?](/docs/security-compliance?topic=security-compliance-what-is-rule).
 
 ## Before you begin
 {: #before-rules}
