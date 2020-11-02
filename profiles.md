@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-10-28"
 
 keywords: profiles, user-defined, predefined profiles, controls, goals, nist, best practices, security, compliance
 
@@ -141,7 +141,7 @@ When you're working with profiles locally, it's important that you stay within t
   <dt> External Control ID and Parent </dt>
     <dd> An external ID is used along with the parent to structure how a control tree is shown in the UI when the file is imported. Be sure that you use a sequential pattern for your external control ID and that the parent is mapped to the correct level. </dd>
    <dt> Goal ID </dt>
-    <dd> Goal IDs are provided by the {{site.data.keyword.compliance_short}}. To find the goal ID, you must log in to the console and go to <strong>Security and compliance > Configure > Goals</strong>. On the <strong>Goals</strong> page, you can search for the goals that you want to use. </dd>
+    <dd> Goal IDs are provided by the {{site.data.keyword.compliance_short}}. To find the goal ID, you must log in to the console and go to <strong>Security and compliance > Configure > Goals</strong>.</dd>
   <dt> Tags </dt>
     <dd> For more information about tags, see [Mapping tags](/docs/security-compliance?topic=security-compliance-tags). </dd>
 </dl>

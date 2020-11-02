@@ -38,10 +38,11 @@ Security and Compliance Center
         
     {: .topicgroup}
     Governing the use of resources
+        what-is-rule.md
         rules.md
         results.md
 
-    [Gaining insights](https://{DomainName}/docs/security-advisor?topic=security-advisor-getting-started)
+    [Gaining insight](https://{DomainName}/docs/security-advisor?topic=security-advisor-getting-started)
     ha-dr.md
     data-security.md
     {: .navgroup-end}
