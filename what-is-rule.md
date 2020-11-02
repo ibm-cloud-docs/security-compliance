@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-30"
+lastupdated: "2020-11-02"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -153,8 +153,8 @@ You can use four types of operators to create config rules: general, string, num
 | `is_false`  | Boolean | The property value is false. | No |
 | `string_equals` | String |  The property value is an exact match to the condition value.  | Yes |
 | `string_not_equals` | String |  The property value is not an exact match to the condition value. |Yes|
-| `string_match` | String |  The property value matches the condition value by using the [Krauss wildcarding algorithm](https://en.wikipedia.org/wiki/Krauss_wildcard-matching_algorithm){: external}. | Algorithm | 
-| `string_not_match` | String |  The property value does not match the condition value by using [Krauss wildcarding algorithm](https://en.wikipedia.org/wiki/Krauss_wildcard-matching_algorithm){: external}.| Algorithm |
+| `string_match` | String |  The property value matches the condition value by using the [Krauss wildcarding algorithm](https://en.wikipedia.org/wiki/Krauss_wildcard-matching_algorithm){: external}. | Yes | 
+| `string_not_match` | String |  The property value does not match the condition value by using [Krauss wildcarding algorithm](https://en.wikipedia.org/wiki/Krauss_wildcard-matching_algorithm){: external}.| Yes |
 | `strings_in_list`[^strings_in_list] | String |  All property values are in the condition value list. | Yes |
 | `ips_in_range`[^ips_in_range] | String |  All property values, in IPv4 or IPv6 format, are in the condition value list. | Yes |
 | `num_equals` | Numeric | The property value numerically matches to the condition value. | Yes |
