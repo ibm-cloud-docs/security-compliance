@@ -64,7 +64,7 @@ This tutorial focuses on the steps that are required to start scanning your clou
 
 If you don't need to monitor your {{site.data.keyword.cloud_notm}} resources for external regulations, try configuring resource monitoring for another environment, defining a config rule to govern the way that your resources can be used, or enabling built-in insights to help detect incoming threats.
 
-[![This image is a visual link to the instructions for installing a collector on another cloud provider.](images/gs-cloud.png)](/docs/security-compliance?topic=security-compliance-collector)     [![This image is a visual link to the conceptual information about defining config rules.](images/gs-rules.png)](/docs/security-compliance?topic=security-compliance-rules)     [![This image is a visual link to the conceptual information about built-in insights.](images/gs-insights.png)](/docs/security-advisor?topic=security-advisor-integrations#integrate-insights)
+[![This image is a visual link to the instructions for installing a collector on another cloud provider.](images/gs-cloud.svg)](/docs/security-compliance?topic=security-compliance-collector)     [![This image is a visual link to the conceptual information about defining config rules.](images/gs-rules.svg)](/docs/security-compliance?topic=security-compliance-rules)     [![This image is a visual link to the conceptual information about built-in insights.](images/gs-insights.svg)](/docs/security-advisor?topic=security-advisor-integrations#integrate-insights)
 
 
 
@@ -99,7 +99,7 @@ To gather information about your resources, you must install a collector onto a 
 
 Credentials are used to allow the collector to gather information about your resources, assess your configurations, and initiate any required remediation.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.png) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Settings > Credentials**.
 3. Click the **New Credential** icon.
 4. Give your credential a meaningful name and description.
@@ -209,6 +209,6 @@ To discover resources, assess their configuration, and validate their compliance
 
 You did it! Now you can choose to map more credentials to your collector so that you can scan more resources or you can learn more about the way that security and compliance score is calculated to better understand your results. 
 
-[![This image is a visual link to the instructions for mapping credentials.](images/gs-map-credentials.png)](/docs/security-compliance?topic=security-compliance-credentials#map-credentials)     [![This image is a visual link to the conceptual information about compliance scores.](images/gs-learn-scores.png)](/docs/security-compliance?topic=security-compliance-view-posture)
+[![This image is a visual link to the instructions for mapping credentials.](images/gs-map-credentials.svg)](/docs/security-compliance?topic=security-compliance-credentials#map-credentials)     [![This image is a visual link to the conceptual information about compliance scores.](images/gs-learn-scores.svg)](/docs/security-compliance?topic=security-compliance-view-posture)
 
 
