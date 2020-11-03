@@ -145,6 +145,9 @@ Rules with simple property conditions contain the basic components of a rule. Th
 
 You can use four types of operators to create config rules: general, string, numeric, and boolean. The following table describes the supported operators types.
 
+String based operators are case-sensitive.
+{: note}
+
 | Operator | Type | Description | Requires `value` parameter |
 |:--------|:-----------|:------------------------|
 | `is_empty`  | General | The property value is not specified, null, or an empty string | No |
