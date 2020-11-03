@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-28"
+lastupdated: "2020-11-03"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -108,6 +108,10 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
       <th>Needed information</th>
     </tr>
     <tr>
+      <td>IBM Cloud</td>
+      <td><p>An IBM Cloud API key with a service ID. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey). Be sure to assign your API key Viewer and Reader access to your resources. Occasionally, services require [additional access](#additional-access).</p><p><strong>Note:</strong> It is possible to use an IBM Cloud API key without a service ID. Just be sure that the user who creates the key has the required permissions for all of the resources that you want to scan.</p></td>
+    </tr>
+    <tr>
       <td>AWS Cloud</td>
       <td>An Amazon Web Services access key ID and secret access key. Your secret access key is a large binary encoded string. <br>To ensure the collector can access your AWS account, create an AWS user that has minimal read-only privileges. If you want to further restrict access, you can grant the user more granular read-only privileges by service.</td>
     </tr>
@@ -118,10 +122,6 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
     <tr>
       <td>GCP Cloud</td>
       <td>A Google Cloud Platform access key file. <a href="https://cloud.google.com/iam/docs/creating-managing-service-account-keys">Learn more</a>.</td>
-    </tr>
-    <tr>
-      <td>IBM Cloud</td>
-      <td>An IBM Cloud API key. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey). Be sure to assign your API key Viewer and Reader access to your resources. Occasionally, services require additional access.</td>
     </tr>
     <tr>
       <td>Database</td>
@@ -158,7 +158,7 @@ A few of the IBM Cloud services require additional permissions. If you're monito
 | Service | Required role |
 |---------|---------------|
 | Key Protect | Manager |
-| Cloud Object Storage | Writer | 
+| Cloud Object Storage | Writer |
 {: caption="Table 2. Additional required permissions" caption-side="top"}
 
 If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. You must create a new credential using Activity Tracker's GUID and Service_key as the username and password. Then, map the credential to a specific collector by using the format AT=resource_guid.
