@@ -151,7 +151,7 @@ To edit or delete existing credentials, select the credential that you want to m
 {: tip}
 
 ### Additional IBM Cloud permissions
-{: #Additional-permissions}
+{: #additional-permissions}
 
 A few of the IBM Cloud services require additional permissions. If you're monitoring for controls by using any of the following services, be sure to assign your API key the following additional permissions.
 
