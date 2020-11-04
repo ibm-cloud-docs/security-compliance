@@ -63,6 +63,8 @@ The level of access that your credentials need depends upon the actions that you
 
 For collectors that are run in on-premises environments, credentials must have sufficient privileges to collect operating system related information and to query other services that run on the machines such as a database.
 
+Some IBM Cloud services require [additional permissions](#additional-permissions), be sure to review the information to ensure that your IAM policies are correctly configured.
+
 **How are my credentials stored?**
 
 Credentials are stored securely by using encryption and are not visible in clear text at any point during the storage process. For more information about the security of your stored credentials, see [Storing and encrypting data in the {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-data-storage).
