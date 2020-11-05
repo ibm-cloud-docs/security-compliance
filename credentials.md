@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-04"
+lastupdated: "2020-11-05"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -63,7 +63,7 @@ The level of access that your credentials need depends upon the actions that you
 
 For collectors that are run in on-premises environments, credentials must have sufficient privileges to collect operating system related information and to query other services that run on the machines such as a database.
 
-Some IBM Cloud services require [additional permissions](#additional-permissions), be sure to review the information to ensure that your IAM policies are correctly configured.
+Some IBM Cloud services require [additional permissions](#additional-permissions) for their goals to be monitored, be sure to review the information to ensure that your IAM policies are correctly configured.
 
 **How are my credentials stored?**
 
