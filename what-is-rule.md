@@ -91,7 +91,7 @@ The following image shows the components of a config rule.
     ```
     {: screen}
 
-    For more examples, check out rules with [simple properties](#rules-with-simple-properties), [nested properties](#rules-with-nested-properties), and [multiple conditions](#rules-with-multiple-conditions). 
+    For more examples, check out rules with [simple properties](#config-rule-simple), [nested properties](#config-rule-nested), and [multiple conditions](#config-rule-multiple-conditions). 
 3. The `enforcement_actions` object contains the actions that {{site.data.keyword.compliance_short}} must run on your behalf in case the property conditions aren't met.
 
    When the {{site.data.keyword.compliance_short}} evaluates the state of the target resource against your defined rule, it checks to ensure that its defined conditions evaluate to true. If they are not true, IBM carries out your wanted enforcement actions. 
