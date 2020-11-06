@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-03"
+lastupdated: "2020-11-05"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -62,6 +62,8 @@ The credentials that you provide depend upon the type of resources that you want
 The level of access that your credentials need depends upon the actions that you want the {{site.data.keyword.compliance_short}} to take. If you only want to run scans on your resources, you must provide credentials that provide the collector `read` access to your resources. This way, the service is able to scan your resource configurations. If you also want to initiate remediation from the {{site.data.keyword.compliance_short}}, then the credentials that you provide must have `write` access.
 
 For collectors that are run in on-premises environments, credentials must have sufficient privileges to collect operating system related information and to query other services that run on the machines such as a database.
+
+Some IBM Cloud services require [additional permissions](#additional-permissions) for their goals to be monitored, be sure to review the information to ensure that your IAM policies are correctly configured.
 
 **How are my credentials stored?**
 
@@ -153,12 +155,13 @@ To edit or delete existing credentials, select the credential that you want to m
 ### Additional IBM Cloud permissions
 {: #additional-permissions}
 
-A few of the IBM Cloud services require additional permissions. If you're monitoring for controls by using any of the following services, be sure to assign your API key the following additional permissions.
+As a minimum each credential requires reader or viewer permissions for the services that you want to scan. A few of the IBM Cloud services have goals that require additional permissions to either copmlete the scan or to view the results. If the service is listed in the following table, be sure to assign the appropriate permissions to either your Service ID or the user that the credentials belong to.
 
 | Service | Required role |
 |---------|---------------|
 | Key Protect | Manager |
 | Cloud Object Storage | Writer |
+| User Management - Billing | To view the results related to MFA, a user must have viewer access to the Billing service and to the {{site.data.keyword.compliance_short}}. |
 {: caption="Table 2. Additional required permissions" caption-side="top"}
 
 If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. You must create a new credential using Activity Tracker's GUID and Service_key as the username and password. Then, map the credential to a specific collector by using the format AT=resource_guid.
