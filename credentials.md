@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-05"
+lastupdated: "2020-11-06"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -155,7 +155,7 @@ To edit or delete existing credentials, select the credential that you want to m
 ### Additional IBM Cloud permissions
 {: #additional-permissions}
 
-As a minimum each credential requires reader or viewer permissions for the services that you want to scan. A few of the IBM Cloud services have goals that require additional permissions to either copmlete the scan or to view the results. If the service is listed in the following table, be sure to assign the appropriate permissions to either your Service ID or the user that the credentials belong to.
+As a minimum each credential requires reader or viewer permissions for the services that you want to scan. A few of the IBM Cloud services have goals that require additional permissions to either complete the scan or to view the results. If the service is listed in the following table, be sure to assign the appropriate permissions to either your Service ID or the user that the credentials belong to.
 
 | Service | Required role |
 |---------|---------------|

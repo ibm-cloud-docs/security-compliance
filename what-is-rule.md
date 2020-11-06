@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-02"
+lastupdated: "2020-11-06"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -145,7 +145,7 @@ Rules with simple property conditions contain the basic components of a rule. Th
 
 You can use four types of operators to create config rules: general, string, numeric, and boolean. The following table describes the supported operators types.
 
-String based operators are case-sensitive.
+String-based operators are case-sensitive.
 {: note}
 
 | Operator | Type | Description | Requires `value` parameter |
