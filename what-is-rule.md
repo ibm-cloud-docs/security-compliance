@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-02"
+lastupdated: "2020-11-06"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -91,7 +91,7 @@ The following image shows the components of a config rule.
     ```
     {: screen}
 
-    For more examples, check out rules with [simple properties](#rules-with-simple-properties), [nested properties](#rules-with-nested-properties), and [multiple conditions](#rules-with-multiple-conditions). 
+    For more examples, check out rules with [simple properties](#config-rule-simple), [nested properties](#config-rule-nested), and [multiple conditions](#config-rule-multiple-conditions). 
 3. The `enforcement_actions` object contains the actions that {{site.data.keyword.compliance_short}} must run on your behalf in case the property conditions aren't met.
 
    When the {{site.data.keyword.compliance_short}} evaluates the state of the target resource against your defined rule, it checks to ensure that its defined conditions evaluate to true. If they are not true, IBM carries out your wanted enforcement actions. 
@@ -145,7 +145,7 @@ Rules with simple property conditions contain the basic components of a rule. Th
 
 You can use four types of operators to create config rules: general, string, numeric, and boolean. The following table describes the supported operators types.
 
-String based operators are case-sensitive.
+String-based operators are case-sensitive.
 {: note}
 
 | Operator | Type | Description | Requires `value` parameter |
