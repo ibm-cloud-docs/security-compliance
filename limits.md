@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-03"
+lastupdated: "2020-11-11"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -58,6 +58,7 @@ Review the following known issues that you might encounter while working with th
 |:-------|:-----------|
 | Remediation is unavailable for {{site.data.keyword.cloud_notm}}. | If you're working with Amazon Web Services (AWS) or Azure, you can [remediate issues](/docs/security-compliance?topic=security-compliance-remediation) directly from the service UI. If you're working in {{site.data.keyword.cloud_notm}}, you must manually remediate your issues. |
 | Results for {{site.data.keyword.cloud_notm}} classic infrastructure are not returned. | It is not possible to scan Gen 1 classic infrastructure as a cloud-based resource. To monitor security and compliance for Gen 1 classic infrastructure, configure an on-prem collector. |
+| Slashes (/) are not allowed characters in config rule labels | If your label requires the use of a slash, you can add it by using the unicode character. |
 {: caption="Table 1. Known issues and workarounds" caption-side="top"}
 
 
