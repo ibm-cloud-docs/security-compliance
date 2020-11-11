@@ -58,7 +58,6 @@ Review the following known issues that you might encounter while working with th
 |:-------|:-----------|
 | Remediation is unavailable for {{site.data.keyword.cloud_notm}}. | If you're working with Amazon Web Services (AWS) or Azure, you can [remediate issues](/docs/security-compliance?topic=security-compliance-remediation) directly from the service UI. If you're working in {{site.data.keyword.cloud_notm}}, you must manually remediate your issues. |
 | Results for {{site.data.keyword.cloud_notm}} classic infrastructure are not returned. | It is not possible to scan Gen 1 classic infrastructure as a cloud-based resource. To monitor security and compliance for Gen 1 classic infrastructure, configure an on-prem collector. |
-| Slashes (/) are not allowed characters in config rule labels. | If your label requires the use of a slash, you can add it by using the unicode character. |
 {: caption="Table 1. Known issues and workarounds" caption-side="top"}
 
 
@@ -83,7 +82,7 @@ Review the following table to see the limits that apply to rules.
 | Conditions | 16 per rule |
 | Properties | 24 per condition |
 | Enforcement actions | 2 per rule |
-| Labels | 32 per rule |
+| Labels | 32 per rule </br> **Note**: Commas (,) and slashes (/) cannot be used in labels. |
 | Attachments | 10 per rule |
 | Excluded scopes | 8 per attachment |
 {: caption="Table 2. Rule limits" caption-side="top"}
