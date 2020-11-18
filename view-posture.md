@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-20"
+lastupdated: "2020-11-18"
 
 keywords: compliance posture, security posture, audit evidence, security scan, evaluation results, scan results, scan results, compliance, score, security and compliance score
 
@@ -60,12 +60,12 @@ Your security and compliance score is an analytical assessment of your organizat
 
 **How is my security and compliance score calculated?**
 
-Your security and compliance score is the weighted average of the goals that passed and failed determined by the severity of the goals. For example, say you have two goals. One is a high severity and one is low. If the high severity goal passed but the low severity goal failed, your compliance score would still be high. If the high severity goal failed but the low severity goal passed, your compliance score would be significantly impacted.
+Your security and compliance score is the weighted average of the goals that passed and failed determined by the severity of the goals. For example, say you have two goals. One is a high severity and one is low. If the high severity goal passed but the low severity goal failed, your score would still be high. If the high severity goal failed but the low severity goal passed, your compliance score would be significantly impacted.
 
 
 **How can I raise my security and compliance score?**
 
-To improve your score, you can address the security and compliance issues that are found. To make the biggest difference, start with the highest severity issues on your most significant resources. 
+To improve your score, address the security and compliance issues that are found. To make the biggest difference, start with the highest severity issues on your most significant resources. 
 
 ## Before you begin
 {: #before-scan-results}
@@ -80,11 +80,11 @@ In the {{site.data.keyword.compliance_short}}, you can see a graphical view of y
 
 | Tile | Description |
 |:------------|:------------| 
-| Security and compliance score | A weighted average of your results. Your score is displayed for a specific profile and scope combination. To see information for another scope or profile, click the **Configuration** icon on the tile to select a new combination. |
+| Security and compliance score | A weighted average of your results. Your score is displayed for a specific environment. To see information for another environment, use the drop-down to select a new environment. |
 | Scopes validated | The number of scopes in your account that are defined and the number that were validated. |
 | Profiles validated | The number of profiles in your account that are available and the number that were validated. |
-| Validations | The total number of validations run for your account. The tile also contains information about how many are recurring and how many were run once as an on-demand scan. |
-|Most at risk resources | The resources in a scope that are the biggest detractor from your scores. To see information for another scope or profile, click the **Configuration** icon on the tile to select a new combination. |
+| Total validations | The total number of validations run for your account. The tile also contains information about how many are recurring and how many were run once as an on-demand scan. |
+|Most at risk resources | The resources in your selected environment that are the biggest detractor from your score. To see information for another environment, use the drop-down to select a new environment. |
 | Results | The total number of scans and their results for your account displayed by date. |
 {: caption="Table 1. Understanding the dashboard" caption-side="top"}
 
