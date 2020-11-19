@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-03"
+lastupdated: "2020-11-11"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -82,7 +82,7 @@ Review the following table to see the limits that apply to rules.
 | Conditions | 16 per rule |
 | Properties | 24 per condition |
 | Enforcement actions | 2 per rule |
-| Labels | 32 per rule |
+| Labels | 32 per rule </br> **Note**: Commas (,) and slashes (/) cannot be used in labels. |
 | Attachments | 10 per rule |
 | Excluded scopes | 8 per attachment |
 {: caption="Table 2. Rule limits" caption-side="top"}

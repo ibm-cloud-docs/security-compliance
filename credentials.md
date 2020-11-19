@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-06"
+lastupdated: "2020-11-19"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -213,13 +213,19 @@ Check out the following diagram to understand more about how credential security
 
 As you can see in the previous image, a user adds their credentials to the service UI. The credentials that they add might be a username and password or an API key that the {{site.data.keyword.compliance_short}} might need to scan a specific resource. Then, if a user wants to manage their own security, they enable their own passphrase. If they want to have IBM manage their security, the service generates a passphrase. Either way, the passphrase is used to create a data encryption key. That key is used to encrypt the credentials before they are stored by the service.
 
-To enable a passphrase:
+To enable your own passphrase:
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Settings > Credential passphrase**.
-3. For **Password protection**, click **Enable**.
-4. Enter your passphrase in the **Credential passphrase** field.
-5. Click **Save**.
+2. In the navigation, click **Settings > Credentials**.
+3. In the **Credentials security** box, click the **Edit** icon. A sidepanel opens.
+4. Enter your **New passphrase**.
+5. Confirm your passphrase by retyping it.
+6. Validate that you understand the risk of enabling your own passphrase by checking the box. 
+
+  For security reasons, if the passphrase is entered incorrectly after it is enabled, any mapped credentials become unusable by the service.
+  {: important}
+  
+7. Click **Save**.
 
 
 
