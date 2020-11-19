@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-18"
+lastupdated: "2020-11-19"
 
 keywords: compliance posture, security posture, audit evidence, security scan, evaluation results, scan results, scan results, compliance, score, security and compliance score
 
@@ -84,7 +84,7 @@ In the {{site.data.keyword.compliance_short}}, you can see a graphical view of y
 | Scopes validated | The number of scopes in your account that are defined and the number that were validated. |
 | Profiles validated | The number of profiles in your account that are available and the number that were validated. |
 | Total validations | The total number of validations run for your account. The tile also contains information about how many are recurring and how many were run once as an on-demand scan. |
-|Most at risk resources | The resources in your selected environment that are the biggest detractor from your score. To see information for another environment, use the drop-down to select a new environment. |
+| Most at risk resources | The resources in your selected environment that are the biggest detractor from your score. To see information for another environment, use the drop-down to select a new environment. |
 | Results | The total number of scans and their results for your account displayed by date. |
 {: caption="Table 1. Understanding the dashboard" caption-side="top"}
 
