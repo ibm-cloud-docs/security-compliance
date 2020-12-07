@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-19"
+lastupdated: "2020-12-07"
 
 keywords: compliance posture, security posture, audit evidence, security scan, evaluation results, scan results, scan results, compliance, score, security and compliance score
 
@@ -145,12 +145,12 @@ To see the results of a validation scan, you can use the {{site.data.keyword.com
     <tr>
       <td>Detailed</td>
       <td>All of the control and resource information; organized by control.</td>
-      <td><code>.xlsx</code> and <code>.pdf</code></td>
+      <td>Microsoft Excel (<code>.xlsx</code>) and PDF (<code>.pdf</code>)</td>
     </tr>
     <tr>
       <td>Delta</td>
       <td>The change between two selected detail reports.</td>
-      <td><code>.pdf</code></td>
+      <td>PDF (<code>.pdf</code>)</td>
     </tr>
   </table>
 
