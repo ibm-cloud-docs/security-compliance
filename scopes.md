@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-05"
+lastupdated: "2020-11-30"
 
 keywords: scopes, accounts, resources, environments
 
@@ -92,7 +92,7 @@ To view a list of your available scopes, you can use the {{site.data.keyword.com
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Scopes**.
 3. Click the **Scopes columns** icon to adjust the information that is displayed in the table.
-4. To see the details of a specific scope, select a scope and click the **Edit scope** icon.
+4. To see the details of a specific scope, select a scope and click the **Edit scope** icon. 
 
 
 
