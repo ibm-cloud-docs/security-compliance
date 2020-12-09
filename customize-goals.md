@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-12-09"
 
 keywords: goals, parameters, customize parameters, customize goals, security and compliance,
 
@@ -61,8 +61,8 @@ Before you get started, be sure that you have the required level of access to cu
 To update the default parameters for the goals that you use, you can use the {{site.data.keyword.compliance_short}} UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Settings > Parameters**.
-3. In the **Parameters** table, select **Input config parameters**. 
+2. In the navigation, click **Settings > Goal parameters**.
+3. In the **Goal parameters** table, select **Input config parameters**. 
 4. Click the **Edit parameters** icon.
 5. From the list of profiles, click the name of the profile that you want to update.
 
