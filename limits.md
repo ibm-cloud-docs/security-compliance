@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-11"
+lastupdated: "2020-12-08"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -71,21 +71,24 @@ When you're working with {{site.data.keyword.compliance_short}}, there are a few
 
 Review the following table to see the limits that apply to rules. 
 
-| Rule element   | Limit |
+|  | Limit |
 |----------------|-----------|
-| Total | 500 rules per enterprise account</br>100 rules per stand alone account |
-| Length | 4096 characters |
-| Results | Kept for 7 days |
-| Name | 32 characters |
-| Description | 256 characters |
-| Target | 1 per rule |
+| Total rules | 500 rules per enterprise account</br>100 rules per stand alone account |
+| Rule length | 4096 characters |
+| Name length | 32 characters |
+| Description length | 256 characters |
+| Targets | 1 per rule |
 | Conditions | 16 per rule |
 | Properties | 24 per condition |
 | Enforcement actions | 2 per rule |
-| Labels | 32 per rule </br> **Note**: Commas (,) and slashes (/) cannot be used in labels. |
+| Labels | 32 per rule |
+| Label length | 64 Characters </br> **Note**: Commas (,) and slashes (/) cannot be used in labels. |
 | Attachments | 10 per rule |
 | Excluded scopes | 8 per attachment |
+| Results | Kept for 7 days |
+{: row-headers}
 {: caption="Table 2. Rule limits" caption-side="top"}
+{: summary="The rows are read from left to right. The first column is the component of a rule. The second column is the limit associated with that component."}
 
 
 
