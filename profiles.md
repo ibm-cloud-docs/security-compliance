@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-28"
+lastupdated: "2020-12-09"
 
 keywords: profiles, user-defined, predefined profiles, controls, goals, nist, best practices, security, compliance
 
@@ -70,47 +70,46 @@ You can view the profiles that are associated with your account in the {{site.da
 3. To view the controls that are associated with the profile, click the row of the table that you want to investigate.
 4. To view the goals that are associated with the controls, click the control that you want to review. A screen opens with goal details.
 
-## Creating a profile
-{: #create-profile}
 
-You can choose to create a profile from scratch or by using predefined profiles as a base. To create a profile, you can use the UI.
 
-### Creating a profile from predefined profiles
-{: #create-predefined}
+## Building a profile
+{: #build-profile}
+
+You can choose to create a profile by using other predefined profiles as a base. To build a profile, you can use the UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Profiles**. 
-3. Click the **New profile from base** icon.
+3. Click the **Build profile** icon.
 4. Give your profile a name and description.
 5. Click **Next**.
 6. Select a predefined profile to use as a base.
+7. Click **next**.
 7. Review the controls and goals from those profiles and check the corresponding box for the goals that you want to include.
 8. Click **Save**.
 
 
-### Creating a profile from scratch
-{: #create-scratch}
+## Creating a profile
+{: #create-profile}
 
-If you know the controls and goals that you want to meet, you can create a profile that is specific to your needs.
+If you know the controls and goals that you want to meet, you can create a profile that is specific to your needs from scratch.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Profiles**. 
-3. Click the **New profile** icon.
+3. Click **Create**.
 4. Give your profile a name and description.
-5. In the **Control description** field, enter a name for your control.
-6. Click the **Global Goal Library** icon.
-7. From the list of goals, select the goals that you want to associate with your control.
-8. Click **Apply**.
-9. Click the **Check mark** symbol to confirm the control. 
-10. Optional: Click the **More** symbol in the row that corresponds to the control that you just created to associate another control with the one that you created.
-11. Optional: Click the **More** symbol to add more controls to your profile.
-12. Click **Save**.
+5. Create your first grouping by providing a **Control description**.
+6. Click the **GCL ID** box.
+7. Select one or more goals that you want to add to your control. 
+8. Click **Done**.
+9. Click the **Save** icon.
+10. Repeat the steps until you have your desired profile configuration.
+11. Click **Create**.
 
-If you accidentally add a control that you don't need, you can click the **Trash** symbol to delete it from your profile.
+If you accidentally add a control that you don't need, you can click the **Trash** icon to delete it or the **Edit** icon to edit your profile.
 {: tip}
 
 
-## Editing a profile
+## Editing a profile in the UI
 {: #edit-profile}
 
 If you create a custom profile, you can edit it if the need arises by using the {{site.data.keyword.compliance_short}} UI.
