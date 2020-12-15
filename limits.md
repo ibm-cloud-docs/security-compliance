@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-12-08"
+lastupdated: "2020-12-11"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -88,7 +88,6 @@ Review the following table to see the limits that apply to rules.
 | Results | Kept for 7 days |
 {: row-headers}
 {: caption="Table 2. Rule limits" caption-side="top"}
-{: summary="The rows are read from left to right. The first column is the component of a rule. The second column is the limit associated with that component."}
 
 
 

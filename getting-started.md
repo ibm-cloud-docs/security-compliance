@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-03"
+lastupdated: "2020-12-11"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -85,7 +85,7 @@ Be sure that you also have the following requirements:
 
 To gather information about your resources, you must install a collector onto a virtual machine. If you have a virtual machine that meets the following requirements, you can use that VM to complete the tutorial. If your VM doesn't meet the following requirements, try provisioning an instance of [Virtual Private Cloud](/docs/vpc?topic=vpc-getting-started) to create a new one.
 
-**Minimum VM requirements**
+Minimum VM requirements include:
 
   **Image**: Red Hat Enterprise Linux, CentOS, or Ubuntu</br>
   **Profile**: `cx2-2x4` (2 vCPUs, 4 GB RAM, and 4GBPS)</br>

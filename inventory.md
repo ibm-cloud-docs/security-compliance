@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-09-21"
+lastupdated: "2020-12-15"
 
 keywords: inventory, security, compliance, discovery, run discovery, discover resources
 
@@ -89,7 +89,7 @@ To view an inventory, you can use the {{site.data.keyword.compliance_short}} UI.
 
   A page opens with high-level information of the resources that are available in that inventory.
 
-4. Optional: You can choose to view previous versions of your inventory. This view can help you to see how your inventory changes over time.
+4. Optional: From your discovery details page, you can choose to view previous versions of your inventory. This view can help you to see how your inventory changes over time.
 
 
 
@@ -99,6 +99,18 @@ To view an inventory, you can use the {{site.data.keyword.compliance_short}} UI.
 To discover new resources in an inventory, you can use the {{site.data.keyword.compliance_short}} UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Configure > Inventory**. 
-3. In the ***Inventory** table, select the name of the inventory that you want to view.
-4. Click the **Discover inventory** icon.
+2. In the navigation, click **Configure > Inventory**.
+3. From the actions menu for the inventory that you want to view, click **Discover**.
+
+
+## Deleting an inventory
+{: #delete-inventory}
+
+To discover new resources in an inventory, you can use the {{site.data.keyword.compliance_short}} UI.
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+2. In the navigation, click **Configure > Inventory**.
+3. From the actions menu for the inventory that you want to delete, select the name of the inventory that you want to delete.
+4. Click **Delete**.
+5. Confirm that you want to delete the inventory by clicking **Delete** again. 
+

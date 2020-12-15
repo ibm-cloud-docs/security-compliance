@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-26"
+lastupdated: "2020-12-11"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -54,19 +54,22 @@ A collector is used to enable communication between the service and your IT reso
 A collector is a software module that is packaged as a Docker image. It is installed within sight of your environment where it has network access to your IT resources. Collectors are used to fetch the configuration information from your environment and perform a validation.
 
 
-**How is the collector deployment managed?**
+### How is the collector deployment managed?
+{: #collector-deployment}
 
 Each instance of the collector is managed by you and only applicable where you configure it to have access. The data that is collected and analyzed is specific to your account and the results of the scans are available only to you and the users that you authorize to use your account. It is your responsibility to manage the security of the deployment.
 
 If you're working with more than one cloud provider or an on-premises environment, you might need to install more than one collector. Each collector operates only within the subnets to which it belongs, so if your IT network is segmented, you might need a collector for each subnet.
 
-**How does the collector communicate with the service?**
+### How does the collector communicate with the service?
+{: #collector-comm-service}
 
 All communication between the collector and the service is TLS 1.2+ encrypted and signed with the collector's public key. All traffic is transported over the public internet by using Cloud Internet Services with TLS termination, DDoS protection, and a Web Application Firewall (WAF). Although the transportation takes place through a trusted intermediary, be sure that you consider this as part of your security and risk assessment when you deploy collectors.
 
 The collector sends a regular heartbeat every minute to notify the service that it is active and ready to run commands. As a response to that heartbeat, the service might send a command for the cluster to run, such as running a discovery scan.
 
-**How does the collector communicate with my resources?**
+### How does the collector communicate with my resources?
+{: #collector-comm-resource}
 
 To gather information about your resources, the collector must be able to connect to them by using a combination of methods, including API calls, SSH, Shell commands, and Windows PowerShell. The communication is able to occur only because the collector uses credentials that you associate with it through the {{site.data.keyword.compliance_short}} UI. To communicate with them, the collector needs to use credentials that have read access to your resources. 
 
@@ -76,7 +79,8 @@ For more information about granting the authorization between a collector and yo
 {: tip}
 
 
-**What happens with the data that the collector gathers?**
+### What happens with the data that the collector gathers?
+{: #collector-data}
 
 The collector uses the data that is collected to validate the controls before it sends the results to the {{site.data.keyword.compliance_short}} for storage and reporting. The data that is collected varies depending on the environment that you're working with and the type of credentials that you provide. For cloud environments, a significant portion of the data is available as metadata. If you're working with an on-premises environment, some of the data is typically stored in configuration management databases. Collected data includes the properties and configurations for supported services, network objects, hosts, databases, Kubernetes platforms, and virtual machines. 
 

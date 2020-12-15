@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-11-19"
+lastupdated: "2020-12-15"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -52,12 +52,14 @@ When you work with the {{site.data.keyword.compliance_full}}, you provide the cr
 
 Credentials are used by a collector to gather information about your resource configurations, assess them, and initiate any remediation that is required.
 
-**What types of credentials do I provide?**
+### What types of credentials do I provide?
+{: #credentials-provide}
 
 The credentials that you provide depend upon the type of resources that you want to scan. You might provide an API key, an access key file, or a username and password to a specific resource.
 
 
-**What level of access do my credentials need to have?**
+### What level of access do my credentials need to have?
+{: #credential-access}
 
 The level of access that your credentials need depends upon the actions that you want the {{site.data.keyword.compliance_short}} to take. If you only want to run scans on your resources, you must provide credentials that provide the collector `read` access to your resources. This way, the service is able to scan your resource configurations. If you also want to initiate remediation from the {{site.data.keyword.compliance_short}}, then the credentials that you provide must have `write` access.
 
@@ -65,7 +67,8 @@ For collectors that are run in on-premises environments, credentials must have s
 
 Some IBM Cloud services require [additional permissions](#additional-permissions) for their goals to be monitored, be sure to review the information to ensure that your IAM policies are correctly configured.
 
-**How are my credentials stored?**
+### How are my credentials stored?
+{: #credential-storage}
 
 Credentials are stored securely by using encryption and are not visible in clear text at any point during the storage process. For more information about the security of your stored credentials, see [Storing and encrypting data in the {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-data-storage).
 
@@ -111,7 +114,7 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
     </tr>
     <tr>
       <td>IBM Cloud</td>
-      <td><p>An IBM Cloud API key with a service ID. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey). Be sure to assign your API key Viewer and Reader access to your resources. Occasionally, services require [additional access](#additional-access).</p><p><strong>Note:</strong> It is possible to use an IBM Cloud API key without a service ID. Just be sure that the user who creates the key has the required permissions for all of the resources that you want to scan.</p></td>
+      <td><p>An IBM Cloud API key with a service ID. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey). Be sure to assign your API key Viewer and Reader access to your resources. Occasionally, services require [additional access](#additional-permissions).</p><p><strong>Note:</strong> It is possible to use an IBM Cloud API key without a service ID. Just be sure that the user who creates the key has the required permissions for all of the resources that you want to scan.</p></td>
     </tr>
     <tr>
       <td>AWS Cloud</td>

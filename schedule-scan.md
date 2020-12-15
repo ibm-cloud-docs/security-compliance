@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-10-27"
+lastupdated: "2020-12-11"
 
 keywords: scans, compliance, schedule scan, create scan, discovery, validation, fact collection, fact validation
 
@@ -77,7 +77,8 @@ If you're attempting to configure fact collection for cloud-based infrastructure
 Scanning for {{site.data.keyword.cloud_notm}} Gen 1 classic infrastructure is not available.
 {: note}
 
-**Supported VM types**
+#### Supported VM types
+{: #supported-vms}
 
 * Red Hat Enterprise Linux (RHEL)
 * CentOS
@@ -86,13 +87,15 @@ Scanning for {{site.data.keyword.cloud_notm}} Gen 1 classic infrastructure is no
 * Ubuntu
 * Windows
 
-**Linux prerequisites**
+#### Linux prerequisites
+{: #linux-prereq}
 
 1. SSH must be running with port 22 open.
 2. Passwordless `sudo` must be enabled.
 
 
-**Windows prerequisites**
+#### Windows prerequisites
+{: #windows-prereq}
 
 Enable your Windows Server computers to access PowerShell remotely (`WinRM`).
 
