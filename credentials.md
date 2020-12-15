@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-12-11"
+lastupdated: "2020-12-15"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -114,7 +114,7 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
     </tr>
     <tr>
       <td>IBM Cloud</td>
-      <td><p>An IBM Cloud API key with a service ID. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey). Be sure to assign your API key Viewer and Reader access to your resources. Occasionally, services require [additional access](#additional-access).</p><p><strong>Note:</strong> It is possible to use an IBM Cloud API key without a service ID. Just be sure that the user who creates the key has the required permissions for all of the resources that you want to scan.</p></td>
+      <td><p>An IBM Cloud API key with a service ID. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey). Be sure to assign your API key Viewer and Reader access to your resources. Occasionally, services require [additional access](#additional-permissions).</p><p><strong>Note:</strong> It is possible to use an IBM Cloud API key without a service ID. Just be sure that the user who creates the key has the required permissions for all of the resources that you want to scan.</p></td>
     </tr>
     <tr>
       <td>AWS Cloud</td>
