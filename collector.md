@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-12-11"
+lastupdated: "2020-12-16"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -114,7 +114,11 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
 4. Give your collector a name and description.
 
   It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
-5. Click **Create**.
+
+5. Choose an endpoint option for your collector.
+
+  By default, your collector connects to resources in your account by using a public endpoint. To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private endpoint**.
+6. Click **Create**.
   
 When the collector is created successfully, the status updates to **Ready to install**.
 
