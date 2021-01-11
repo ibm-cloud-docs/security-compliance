@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-10-19"
+  years: 2021
+lastupdated: "2021-01-11"
 
 keywords: best practices security and compliance, secure development, security strategy, insights, governance
 
@@ -85,7 +85,7 @@ As a security or compliance focal, you create credentials and install a collecto
 
 By creating config rules, you can standardize resource configuration across your accounts. Config rules are guardrails for how your resources can be provisioned and configured. By attaching the rules to a scope, you can monitor and enforce your rules in only the areas that you want to target. For example, if you wanted to disable public access for your production accounts but allow it in a testing account, you can do that. Through rule enforcement, you can code with confidence that your configurations follow the guidelines that you put in place, which significantly decreases the likelihood of a misconfiguration-related security issue.
 
-![The diagram shows how you can create profiles and rules, enforce them across scopes that you specify to continuously validate your resources for compliance. The information in the diagram is explained in further detail in the surrounding text.](images/config-governance.svg){: caption="Figure 1. How the configuration governance components work together" caption-side="bottom"}
+![The diagram shows how you can create profiles and rules, enforce them across scopes that you specify to continuously validate your resources for compliance. The information in the diagram is explained in further detail in the surrounding text.](images/config-governance.svg){: caption="Figure 2. How the configuration governance components work together" caption-side="bottom"}
 
 &ast;*Configuration governance is available for {{site.data.keyword.cloud_notm}} only.*
 
@@ -93,6 +93,9 @@ By creating config rules, you can standardize resource configuration across your
 ### Security insights
 {: #security-insights}
 
+
 With [security insights](/docs/security-advisor?topic=security-advisor-integrations), you can analyze your cluster network communication and your account activity to detect potential threats. With network insights, you can monitor and analyze cluster network communication, both incoming and outgoing between your Kubernetes cluster and external entities. With Activity Insights, you can monitor and analyze your Activity Tracker with LogDNA logs to identify unauthorized or suspicious activity that is made by users or apps.
+
+
 
 &ast;*Security insights is available for {{site.data.keyword.cloud_notm}} only.* 
