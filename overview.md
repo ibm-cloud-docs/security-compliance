@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-01-11"
+lastupdated: "2021-01-13"
 
 keywords: best practices security and compliance, secure development, security strategy, insights, governance
 
@@ -66,7 +66,7 @@ As a security focal, your focus is threat detection and mitigation. To address y
 ## How it works
 {: #how-it-works}
 
-The {{site.data.keyword.compliance_short}} is comprised on three different components: Security and compliance posture monitoring, configuration governance, and security insights. Each component is designed to help you to be secure and compliant in different ways.
+The {{site.data.keyword.compliance_short}} is comprised on three different components: Security and compliance posture monitoring, configuration governance, and Security Insights. Each component is designed to help you to be secure and compliant in different ways.
 
 ### Security and compliance posture management
 {: #posture-management}
@@ -90,12 +90,12 @@ By creating config rules, you can standardize resource configuration across your
 &ast;*Configuration governance is available for {{site.data.keyword.cloud_notm}} only.*
 
 
-### Security insights
+### Security Insights
 {: #security-insights}
 
 
-With [security insights](/docs/security-advisor?topic=security-advisor-integrations), you can analyze your cluster network communication and your account activity to detect potential threats. With network insights, you can monitor and analyze cluster network communication, both incoming and outgoing between your Kubernetes cluster and external entities. With Activity Insights, you can monitor and analyze your Activity Tracker with LogDNA logs to identify unauthorized or suspicious activity that is made by users or apps.
+With [Security Insights](/docs/security-advisor?topic=security-advisor-integrations), you can analyze your cluster network communication and your account activity to detect potential threats. With Network Insights, you can monitor and analyze cluster network communication, both incoming and outgoing between your Kubernetes cluster and external entities. With Activity Insights, you can monitor and analyze your Activity Tracker with LogDNA logs to identify unauthorized or suspicious activity that is made by users or apps.
 
 
 
-&ast;*Security insights is available for {{site.data.keyword.cloud_notm}} only.* 
+&ast;*Security Insights is available for {{site.data.keyword.cloud_notm}} only.* 
