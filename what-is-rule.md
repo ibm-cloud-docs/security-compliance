@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-11-06"
+  years: 2021
+lastupdated: "2021-01-13"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -175,7 +175,7 @@ String-based operators are case-sensitive.
 ### Rules with nested properties
 {: #config-rule-nested}
 
-Some {{site.data.keyword.cloud_notm}} services support composite policies, or subpolicies within a main policy, to manage their resources. For example, you can restrict access to a Cloud Object Storage bucket by setting a firewall (main policy), and optionally you can select the IP addresses that are authorized to access it (subpolicy). 
+Some {{site.data.keyword.cloud_notm}} services support composite policies, or sub-policies within a main policy, to manage their resources. For example, you can restrict access to a Cloud Object Storage bucket by setting a firewall (main policy), and optionally you can select the IP addresses that are authorized to access it (sub-policy). 
 
 To create a rule for a resource that supports a composite policy, you use nested properties. Rules with nested properties use dot notation in the form of `<main_property>.<sub_property>` to indicate a nested relationship between two properties.
 
@@ -212,7 +212,7 @@ The following truncated example shows a property condition for the `firewall` pr
 ```
 {: screen}
 
-The `firewall.allowed_ip` and `firewall.denied_ip` properties show a nested relationship between `firewall` and its subproperties.
+The `firewall.allowed_ip` and `firewall.denied_ip` properties show a nested relationship between `firewall` and its sub-properties.
 
 ### Rules with multiple conditions
 {: #config-rule-multiple-conditions}

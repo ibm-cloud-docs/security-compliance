@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-09-21"
+  years: 2021
+lastupdated: "2021-01-13"
 
 keywords: evaluation results, rule results, configuration results, resource configuration, 
 
@@ -64,7 +64,7 @@ From the details page, you can view a summary of your evaluation results for any
 
 1. Investigate noncompliant rules.
 
-    In this example, **Public access rule - dev** is a failing rule that must be further investigated. When you select a rule, a new page opens that shows the compliance results about the resources that the rule was evaluated against. To view the details for a specific resource, select the name of the resource. 
+    In this example, **Public access rule - development** is a failing rule that must be further investigated. When you select a rule, a new page opens that shows the compliance results about the resources that the rule was evaluated against. To view the details for a specific resource, select the name of the resource. 
 
 2. View the details of a specific resource.
 

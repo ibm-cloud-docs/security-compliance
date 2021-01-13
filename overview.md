@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-10-19"
+  years: 2021
+lastupdated: "2021-01-13"
 
 keywords: best practices security and compliance, secure development, security strategy, insights, governance
 
@@ -66,7 +66,7 @@ As a security focal, your focus is threat detection and mitigation. To address y
 ## How it works
 {: #how-it-works}
 
-The {{site.data.keyword.compliance_short}} is comprised on three different components: Security and compliance posture monitoring, configuration governance, and security insights. Each component is designed to help you to be secure and compliant in different ways.
+The {{site.data.keyword.compliance_short}} is comprised on three different components: Security and compliance posture monitoring, configuration governance, and Security Insights. Each component is designed to help you to be secure and compliant in different ways.
 
 ### Security and compliance posture management
 {: #posture-management}
@@ -85,14 +85,27 @@ As a security or compliance focal, you create credentials and install a collecto
 
 By creating config rules, you can standardize resource configuration across your accounts. Config rules are guardrails for how your resources can be provisioned and configured. By attaching the rules to a scope, you can monitor and enforce your rules in only the areas that you want to target. For example, if you wanted to disable public access for your production accounts but allow it in a testing account, you can do that. Through rule enforcement, you can code with confidence that your configurations follow the guidelines that you put in place, which significantly decreases the likelihood of a misconfiguration-related security issue.
 
-![The diagram shows how you can create profiles and rules, enforce them across scopes that you specify to continuously validate your resources for compliance. The information in the diagram is explained in further detail in the surrounding text.](images/config-governance.svg){: caption="Figure 1. How the configuration governance components work together" caption-side="bottom"}
+![The diagram shows how you can create profiles and rules, enforce them across scopes that you specify to continuously validate your resources for compliance. The information in the diagram is explained in further detail in the surrounding text.](images/config-governance.svg){: caption="Figure 2. How the configuration governance components work together" caption-side="bottom"}
 
 &ast;*Configuration governance is available for {{site.data.keyword.cloud_notm}} only.*
 
 
-### Security insights
+### Security Insights
 {: #security-insights}
 
-With [security insights](/docs/security-advisor?topic=security-advisor-integrations), you can analyze your cluster network communication and your account activity to detect potential threats. With network insights, you can monitor and analyze cluster network communication, both incoming and outgoing between your Kubernetes cluster and external entities. With Activity Insights, you can monitor and analyze your Activity Tracker with LogDNA logs to identify unauthorized or suspicious activity that is made by users or apps.
+With Security Insights, you can continuously monitor and analyze your {{site.data.keyword.cloud_notm}} resources and applications for potential risks that might impact your environment. With Security Insights, you get access to threat detection, security risk prevention, and suggested remediation steps that can help to mitigated issued findings, sent through customized alert notifications, that can give you a more comprehensive understanding of your current security status. Check out the following table to learn more about the different capabilities.
 
-&ast;*Security insights is available for {{site.data.keyword.cloud_notm}} only.* 
+![The diagram shows the components of Security Insights](images/security-insights.svg){: caption="Figure 3. A visual representation of the components of Security Insights." caption-side="bottom"}
+
+<dl>
+  <dt>Activity Insights</dt>
+    <dd>By comparing user activity that is logged by Activity Tracker with LogDNA against predefined rule packages, you can identify suspicious behavior as it relates to your IBM Cloud resources, which can help to prevent malicious attacks on your applications.</dd>
+  <dt>Network Insights</dt>
+    <dd>By monitoring and analyzing your VPC flow logs, you can identify suspicious behavior through your the network communication between your VPC interfaces. For example, you can identify Virtual Server Instances that might be compromised or attempts to compromise your VSIs.</dd>
+  <dt>Custom insights</dt>
+    <dd>To view all of your security alerts in one place, you can integrate your own security tools with the Security and Compliance Center by using the Findings API.</dd>
+  <dt>Business partners</dt>
+    <dd>If you work with one of our business partners such as Caveonix, Twistlock, or NeuVector, you can easily integrate your findings with the Security and Compliance Center to further assess the risk and compliance posture of your workloads that are deployed on IBM Cloud.</dt>
+</dl>
+
+&ast;*Security Insights is available for {{site.data.keyword.cloud_notm}} only.* 

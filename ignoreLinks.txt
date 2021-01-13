@@ -1,0 +1,3 @@
+https://pages.github.ibm.com/project-fortress/adoption/#/Asynchronous%20Pattern/get_v1_config__config_request_id_,
+https://pages.github.ibm.com/project-fortress/adoption/#/Asynchronous%20Pattern/post_v1_config,
+https://pages.github.ibm.com/project-fortress/adoption/#/Synchronous%20Pattern/get_v2_config,
