@@ -93,9 +93,19 @@ By creating config rules, you can standardize resource configuration across your
 ### Security Insights
 {: #security-insights}
 
+With Security Insights, you can continuously monitor and analyze your {{site.data.keyword.cloud_notm}} resources and applications for potential risks that might impact your environment. With Security Insights, you get access to threat detection, security risk prevention, and suggested remediation steps that can help to mitigated issued findings, sent through customized alert notifications, that can give you a more comprehensive understanding of your current security status. Check out the following table to learn more about the different capabilities.
 
-With [Security Insights](/docs/security-advisor?topic=security-advisor-integrations), you can analyze your cluster network communication and your account activity to detect potential threats. With Network Insights, you can monitor and analyze cluster network communication, both incoming and outgoing between your Kubernetes cluster and external entities. With Activity Insights, you can monitor and analyze your Activity Tracker with LogDNA logs to identify unauthorized or suspicious activity that is made by users or apps.
+![The diagram shows the components of Security Insights](images/security-insights.svg){: caption="Figure 3. A visual representation of the components of Security Insights." caption-side="bottom"}
 
-
+<dl>
+  <dt>Activity Insights</dt>
+    <dd>By comparing user activity that is logged by Activity Tracker with LogDNA against predefined rule packages, you can identify suspicious behavior as it relates to your IBM Cloud resources, which can help to prevent malicious attacks on your applications.</dd>
+  <dt>Network Insights</dt>
+    <dd>By monitoring and analyzing your VPC flow logs, you can identify suspicious behavior through your the network communication between your VPC interfaces. For example, you can identify Virtual Server Instances that might be compromised or attempts to compromise your VSIs.</dd>
+  <dt>Custom insights</dt>
+    <dd>To view all of your security alerts in one place, you can integrate your own security tools with the Security and Compliance Center by using the Findings API.</dd>
+  <dt>Business partners</dt>
+    <dd>If you work with one of our business partners such as Caveonix, Twistlock, or NeuVector, you can easily integrate your findings with the Security and Compliance Center to further assess the risk and compliance posture of your workloads that are deployed on IBM Cloud.</dt>
+</dl>
 
 &ast;*Security Insights is available for {{site.data.keyword.cloud_notm}} only.* 

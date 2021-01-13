@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-12-09"
+  years: 2021
+lastupdated: "2021-01-13"
 
 keywords: profiles, user-defined, predefined profiles, controls, goals, nist, best practices, security, compliance
 
@@ -102,7 +102,7 @@ If you know the controls and goals that you want to meet, you can create a profi
 7. Select one or more goals that you want to add to your control. 
 8. Click **Done**.
 9. Click the **Save** icon.
-10. Repeat the steps until you have your desired profile configuration.
+10. Repeat the steps until you have the profile configuration that you want.
 11. Click **Create**.
 
 If you accidentally add a control that you don't need, you can click the **Trash** icon to delete it or the **Edit** icon to edit your profile.
