@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-01-13"
+lastupdated: "2021-01-19"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -288,7 +288,7 @@ The following diagram shows how two rules are applied across an enterprise.
 ## How can I get started?
 {: #config-rule-next-steps}
 
-To get started with rules, you can go to the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure rules**, or check out the [API reference](/apidocs/security-compliance/config){: external} to learn more about creating rules programmatically.
+To get started with rules, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure rules**, or check out the [API reference](/apidocs/security-compliance/config){: external} to learn more about creating rules programmatically.
 
 For more information about defining rules, see [Working with config rules](/docs/security-compliance?topic=security-compliance-rules). 
 
