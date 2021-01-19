@@ -276,6 +276,55 @@ The following diagram describes an example rule sequence:
 
 
 
+### Use case: Configuring {{site.data.keyword.cloudcerts_short}} instances
+{: #config-rule-use-case-certificate-manager}
+
+Let's say that your business is looking for a way to standardize how its {{site.data.keyword.cloudcerts_short}} instances are configured across multiple accounts. To meet an organizational guideline, your business wants to prove that it manages its SSL and TLS certificates only over a private network. 
+
+You decide to define the following rule:
+
+```json
+{ 
+  "rule": {
+    "name": "Private network only - {{site.data.keyword.cloudcerts_short}}",
+    "description": "Access to {{site.data.keyword.cloudcerts_short}} instances is allowed only over a private network",
+    "target": {
+      "service_name": "cloudcerts",
+      "resource_kind": "instance"
+    },
+    "required_config": {
+	  "description": "Private network check",
+      "and": [        
+        { 
+          "property": "private_network_only",
+          "operator": "is_true"
+        }      
+      ]    
+    },
+    "enforcement_actions": [
+      {
+        "action": "disallow"
+      },      
+      {
+        "action": "audit_log"
+      }
+    ]  
+  }
+}
+```
+{: codeblock}
+
+Later, a user makes a request to create a {{site.data.keyword.cloudcerts_short}} service instance in your account. To validate the request, {{site.data.keyword.cloudcerts_short}} service now uses the conditions that you defined in your config rule. If the account user creates the instance over a private network, {{site.data.keyword.cloudcerts_short}} allows the action to complete because it is compliant with your rule. But, if the account user creates the instance over a public network, {{site.data.keyword.cloudcerts_short}} blocks the request and returns the following message to the account user:
+
+```
+Requested change is not compliant with configuration rules.
+```
+{: screen}
+
+From the {{site.data.keyword.compliance_short}} UI, you can monitor for results on your defined rules by clicking the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > View results**.
+
+
+
 ## How are rules inherited across accounts?
 {: #config-rule-hierarchy}
 
