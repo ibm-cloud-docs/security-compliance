@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-01-13"
+lastupdated: "2021-01-19"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -276,6 +276,55 @@ The following diagram describes an example rule sequence:
 
 
 
+### Use case: Configuring {{site.data.keyword.cloudcerts_short}} instances
+{: #config-rule-use-case-certificate-manager}
+
+Let's say that your business is looking for a way to standardize how its {{site.data.keyword.cloudcerts_short}} instances are configured across multiple accounts. To meet an organizational guideline, your business wants to prove that it manages its SSL and TLS certificates only over a private network. 
+
+You decide to define the following rule:
+
+```json
+{ 
+  "rule": {
+    "name": "Private network only - {{site.data.keyword.cloudcerts_short}}",
+    "description": "Access to {{site.data.keyword.cloudcerts_short}} instances is allowed only over a private network",
+    "target": {
+      "service_name": "cloudcerts",
+      "resource_kind": "instance"
+    },
+    "required_config": {
+	  "description": "Private network check",
+      "and": [        
+        { 
+          "property": "private_network_only",
+          "operator": "is_true"
+        }      
+      ]    
+    },
+    "enforcement_actions": [
+      {
+        "action": "disallow"
+      },      
+      {
+        "action": "audit_log"
+      }
+    ]  
+  }
+}
+```
+{: codeblock}
+
+Later, a user makes a request to create a {{site.data.keyword.cloudcerts_short}} service instance in your account. To validate the request, {{site.data.keyword.cloudcerts_short}} service now uses the conditions that you defined in your config rule. If the account user creates the instance over a private network, {{site.data.keyword.cloudcerts_short}} allows the action to complete because it is compliant with your rule. But, if the account user creates the instance over a public network, {{site.data.keyword.cloudcerts_short}} blocks the request and returns the following message to the account user:
+
+```
+Requested change is not compliant with configuration rules.
+```
+{: screen}
+
+From the {{site.data.keyword.compliance_short}} UI, you can monitor for results on your defined rules by clicking the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > View results**.
+
+
+
 ## How are rules inherited across accounts?
 {: #config-rule-hierarchy}
 
@@ -288,7 +337,7 @@ The following diagram shows how two rules are applied across an enterprise.
 ## How can I get started?
 {: #config-rule-next-steps}
 
-To get started with rules, you can go to the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure rules**, or check out the [API reference](/apidocs/security-compliance/config){: external} to learn more about creating rules programmatically.
+To get started with rules, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure rules**, or check out the [API reference](/apidocs/security-compliance/config){: external} to learn more about creating rules programmatically.
 
 For more information about defining rules, see [Working with config rules](/docs/security-compliance?topic=security-compliance-rules). 
 
