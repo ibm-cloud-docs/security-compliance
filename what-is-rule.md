@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-01-19"
+lastupdated: "2021-01-21"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -275,7 +275,6 @@ The following diagram describes an example rule sequence:
 4. The target resource blocks or allows the action to complete.
 
 
-
 ### Use case: Configuring {{site.data.keyword.cloudcerts_short}} instances
 {: #config-rule-use-case-certificate-manager}
 
@@ -294,21 +293,21 @@ You decide to define the following rule:
     },
     "required_config": {
 	  "description": "Private network check",
-      "and": [        
+      "and": [
         { 
           "property": "private_network_only",
           "operator": "is_true"
-        }      
-      ]    
+        }
+      ]
     },
     "enforcement_actions": [
       {
         "action": "disallow"
-      },      
+      },
       {
         "action": "audit_log"
       }
-    ]  
+    ]
   }
 }
 ```
@@ -322,26 +321,4 @@ Requested change is not compliant with configuration rules.
 {: screen}
 
 From the {{site.data.keyword.compliance_short}} UI, you can monitor for results on your defined rules by clicking the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > View results**.
-
-
-
-## How are rules inherited across accounts?
-{: #config-rule-hierarchy}
-
-As you create rules and attach them to scopes, your defined configurations move down your account hierarchy. If you attach a rule to your entire enterprise, the rule is applied to the target resources that exist within the enterprise. Likewise, if you limit a rule to a specific account group, its properties are inherited by the accounts that exist in that group. You can choose to exclude scopes, such as accounts that are used for testing, so that your rule is applied only where you need it.
-
-The following diagram shows how two rules are applied across an enterprise.
-
-![The image shows how two rules are applied across an enterprise. One rule moves down the hierarchy. Another rule is attached only to a specific account, so its properties are applied only to the resources that it contains.](/images/rule-hierarchy.svg){: caption="Figure 4. Config rule inheritance" caption-side="bottom"}
-
-## How can I get started?
-{: #config-rule-next-steps}
-
-To get started with rules, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure rules**, or check out the [API reference](/apidocs/security-compliance/config){: external} to learn more about creating rules programmatically.
-
-For more information about defining rules, see [Working with config rules](/docs/security-compliance?topic=security-compliance-rules). 
-
-
-
-
 
