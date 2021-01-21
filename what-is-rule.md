@@ -340,8 +340,3 @@ The following diagram shows how two rules are applied across an enterprise.
 To get started with rules, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure rules**, or check out the [API reference](/apidocs/security-compliance/config){: external} to learn more about creating rules programmatically.
 
 For more information about defining rules, see [Working with config rules](/docs/security-compliance?topic=security-compliance-rules). 
-
-
-
-
-
