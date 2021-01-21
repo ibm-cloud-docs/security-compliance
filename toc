@@ -38,7 +38,7 @@ Security and Compliance Center
         
     {: .topicgroup}
     Governing the use of resources
-        what-is-rule.md
+        config-rule.md
         rules.md
         results.md
 
