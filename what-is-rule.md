@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-01-21"
+lastupdated: "2021-01-27"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -40,6 +40,8 @@ subcollection: security-compliance
 {:video: .video}
 {:step: data-tutorial-type='step'}
 {:tutorial: data-hd-content-type='tutorial'}
+
+
 
 # What is a config rule?
 {: #what-is-rule}
@@ -321,4 +323,5 @@ Requested change is not compliant with configuration rules.
 {: screen}
 
 From the {{site.data.keyword.compliance_short}} UI, you can monitor for results on your defined rules by clicking the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > View results**.
+
 
