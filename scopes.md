@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-12-15"
+  years: 2021
+lastupdated: "2021-01-26"
 
 keywords: scopes, accounts, resources, environments
 
@@ -84,15 +84,27 @@ If you're working with a scope that requires more than one set of credentials to
 
 
 
-## Viewing scopes
+## Viewing scope details
 {: #view-scope}
 
-To view a list of your available scopes, you can use the {{site.data.keyword.compliance_short}} UI.
+To view the details of the scopes that you create, you can use the {{site.data.keyword.compliance_short}} UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Scopes**.
-3. Click the **Scopes columns** icon to adjust the information that is displayed in the table.
-4. To see the details of a specific scope, select a scope and click the **Edit scope** icon. A new page opens that contains the information about the previous scans and events that have occurred for that scope.
+3. From the **Scopes** table, select the scope that you want to see the details of. A new page opens that contains the information of which credentials and collectors are used in the scope, as well as an inventory of the resources that are available in the scope.
+4. Click **Event history** to see the historical archive of each scan that has been run on the scope. If there are additional details available for the scan, the event time is clickable.
+
+
+### Creating a new resource mapping
+{: #resource-mapping}
+
+When an Nmap scan is run on on-premises resources, occasionally a resource is misidentified. In order to override the mapping that is made by the scan, you can create a new mapping in the UI. 
+
+1. From the scope details page, select **Resource mapping** from the **Actions** drop-down.
+2. Click **Create**.
+3. Create a mapping for a virtual machine by selecting a **Virtual machine**, **Object**, **Operating system**, and **Vendor** for your resource. The VM and object are required fields.
+
+
 
 
 
