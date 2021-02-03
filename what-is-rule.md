@@ -63,12 +63,14 @@ Check out the following image to see how a config rule is structured.
 
   ```json
   {
-    target: {
-      service_name: 'cloud-object-storage',
-      resource_kind: 'bucket',
-      additional_target_attributes: [
-        name: 'resource_id',
-        description: 'My_bucket_name'
+    "target": {
+      "service_name": "cloud-object-storage",
+      "resource_kind": "bucket",
+      "additional_target_attributes": [
+        {
+          "name": "resource_id",
+          "description": "My_bucket"
+        }
       ]
     }
   }

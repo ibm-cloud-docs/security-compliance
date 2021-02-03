@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-10-30"
+  years: 2021
+lastupdated: "2021-02-03"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -79,26 +79,33 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
 7. Select the service and resource kind that you want to target.
 8. Use the JSON editor to set configuration properties for the rule.
 
-  The following JSON snippet shows an example rule definition that checks to ensure that [public access to account resources](/docs/account?topic=account-public) is disabled. 
+  For example, if you wanted to create a rule prohibitted access to a specific bucket unless the request came from a private endpoint, it might look similar to the following code snippet.
 
   ```json
   {
-    "target": {
-      "service_name": "iam-groups",
-      "resource_kind": "service"
-    },
-    "required_config": {
-      "description": "Public access check",
-      "and": [
-        {
-          "property": "public_access_enabled",
-          "operator": "is_false"
-        }
-      ]
+    "target": {
+      "service_name": "cloud-object-storage",
+      "resource_name": "bucket",
+      "additional_target_attributes": [
+        {
+          "name": "resource_id",
+          "description": "My_bucket"
+        }
+      ] 
+    },
+    "required_config": {
+      "description": "Check whether my bucket is accessible by using only private endpoints.",
+      "and": [
+        {
+          "property": "firewall.allowed_network_type",
+          "operator": "string_equals",
+          "value": "private"
+        }
+      ]
     }
   }
   ```
-  {: codeblock}
+  {: screen}
 
   <table>
     <tr>
@@ -114,6 +121,10 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
       <td>A specific part of the service that you want to target.</td>
     </tr>
     <tr>
+      <td><code>additional_target_attributes</code></td>
+      <td>An extra qualifier for the type of resource that you selected.</td>
+    </tr>
+    <tr>
       <td><code>required_config</code></td>
       <td><p>The requirements that must be met to determine the your resources level of compliance in accordance with the rule.</p><p>You can use logical operators (<code>and</code>/<code>or</code>) to define multiple property checks and conditions. To define requirements for a rule, list one or more property check objects in the <code>and</code> array. To add conditions to a property check, use <code>or</code>. For more information about defining a rule with multiple conditions, see [Rules with multiple conditions](/docs/security-compliance?topic=security-compliance-what-is-rule#config-rule-multiple-conditions).</p>
       </td>
@@ -124,7 +135,7 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
     </tr>
     <tr>
       <td><code>operator</code></td>
-      <td><p>How an additional target value or property is compared to its value. For a full list of operators, see [Supported operators](/docs/security-compliance?topic=security-compliance-what-is-rule#config-rule-operators).</p>
+      <td><p>How an additional target value or property is compared to its value. For a full list of operators, see [Supported operators](/docs/security-compliance?topic=security-compliance-what-is-rule#rule-operators).</p>
       </td>
     </tr>
     <tr>
@@ -133,8 +144,6 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
     </tr>
   </table>
 
-  To see a full list of the available rule properties, operators, and values that can be used together, check out the [API docs](/apidocs/security-compliance/config#create-rules).
-  {: tip}
 9. Click **Next**.
 10. Select the enforcement actions that you want to apply.
 
@@ -161,53 +170,61 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
 11. Review your selections. To make an update, click **Back** to return to the section that you want to edit.
 12. Click **Finish and attach** to create your rule and [attach it to a scope](#evaluate-rules). 
 
-    If you're not ready to attach your rule, you can always view your rules and create an attachment later.
+    If you're not ready to attach your rule, you can always save your rule and attach it later.
 
 ### Creating a rule by using the API
 {: #create-rule-api}
 
-You can create rules programmatically by using the {{site.data.keyword.compliance_short}} API.
-
-The following example request creates a rule to ensure that [public access to account resources](/docs/account?topic=account-public) is disabled. 
+You can create rules programmatically by using the {{site.data.keyword.compliance_short}} API. For example, if you wanted to create a rule prohibitted access to a specific bucket unless the request came from a private endpoint, your request might look similar to the following code snippet.
 
 ```bash
-curl -X POST \
-"https://compliance.{DomainName}/config/v1/rules" \
+curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
   -H 'Authorization: Bearer <access_token>' \
   -H 'Content-type: application/json' \
-  -H 'Transaction-Id': 'a7f48341-a2b0-4649-a95d-d416d5fb4170' \
+  -H 'Transation-Id: a7f48341-a2b0-4649-a95d-d416d5fb4170' \
   -d '{
-  "rules": [
-    {
-      "request_id": "80e8c8ce-06ea-44dd-8a45-3e33293ddd78",
-      "rule": {
-        "account_id": "<account_ID>",
-        "name": "Disable public access",
-        "description": "Ensure that public access to account resources is disabled.",
-      "target": {
-        "service_name": "iam-groups",
-        "resource_kind": "service",
-      "required_config": {
-        "description": "Public access property check",
-        "and": [
-          {
-            "property": "public_access_enabled",
-            "operator": "is_false"          
-          {
-        ],
-      "enforcement_actions": [
-        {
-          "action": "disallow"
-        },
-        {
-          "action": "audit_log"
-        }
-      ],
-      "labels": [
-        "SOC2",
-        "ITCS300"
-      ]
-    }
+    "rules": [
+      {
+        "request_id": "80e8c8ce-06ea-44dd-8a45-3e33293ddd78",
+        "rule": {
+          "account_id": "<account_id>",
+          "name": "Limit access to private network traffic only",
+          "description": "For My bucket, limit access to only private network traffic.",
+        "target": {
+          "service_name": "cloud-object-storage",
+          "resource_kind": "bucket",
+          "additional_target_attributes": [
+            {
+              "name": "resource_id",
+              "description": "My_bucket"
+            }
+          ],
+        "required_config": {
+          "description": "Limit access to private network traffic"
+          "and": [
+            {
+              "property": "firewall.allowed_network_type",
+              "operator": "string_equals",
+              "value": "private"
+            }
+          ],
+        "enforcement_actions": [
+          {
+            "action": "disallow"
+          },
+          {
+            "action" "audit_log"
+          }
+        ],
+        "labels": [
+          "storage"
+        ]        
+        }        
+        }        
+      }      
+    }    
+  ]  
+}'
 ```
 {: codeblock}
 
