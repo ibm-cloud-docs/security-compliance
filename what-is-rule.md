@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-03"
+lastupdated: "2021-02-04"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -69,7 +69,8 @@ Check out the following image to see how a config rule is structured.
       "additional_target_attributes": [
         {
           "name": "resource_id",
-          "description": "My_bucket"
+          "operator": "is_equal",
+          "value": "My_bucket"
         }
       ]
     }

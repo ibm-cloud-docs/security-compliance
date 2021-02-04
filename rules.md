@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-03"
+lastupdated: "2021-02-04"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -89,7 +89,8 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
       "additional_target_attributes": [
         {
           "name": "resource_id",
-          "description": "My_bucket"
+          "operator": "is_equal",
+          "value": "My_bucket"
         }
       ] 
     },
@@ -196,7 +197,8 @@ curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
           "additional_target_attributes": [
             {
               "name": "resource_id",
-              "description": "My_bucket"
+              "operator": "is_equal",
+              "value": "My_bucket"
             }
           ],
         "required_config": {
