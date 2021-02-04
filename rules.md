@@ -126,6 +126,15 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
       <td>An extra qualifier for the type of resource that you selected.</td>
     </tr>
     <tr>
+      <td><code>operator</code></td>
+      <td><p>The way in which an additional target attribute or property is evaluated against the specified value. For a full list of operators, see [Supported operators](/docs/security-compliance?topic=security-compliance-what-is-rule#rule-operators).</p>
+      </td>
+    </tr>
+    <tr>
+      <td><code>value</code></td>
+      <td><p>The way in which you want to apply your attribute or property. Value options differ depending on the rule that you configure. If you use a boolean operator, you do not need to include a value.</td>
+    </tr>
+    <tr>
       <td><code>required_config</code></td>
       <td><p>The requirements that must be met to determine the your resources level of compliance in accordance with the rule.</p><p>You can use logical operators (<code>and</code>/<code>or</code>) to define multiple property checks and conditions. To define requirements for a rule, list one or more property check objects in the <code>and</code> array. To add conditions to a property check, use <code>or</code>. For more information about defining a rule with multiple conditions, see [Rules with multiple conditions](/docs/security-compliance?topic=security-compliance-what-is-rule#config-rule-multiple-conditions).</p>
       </td>
@@ -133,15 +142,6 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
     <tr>
       <td><code>property</code></td>
       <td>The individual resource configuration variable that follows the syntax <code>property_name</code>. Options are dependent upon the target that you choose and can be found in the UI.</td>
-    </tr>
-    <tr>
-      <td><code>operator</code></td>
-      <td><p>How an additional target value or property is compared to its value. For a full list of operators, see [Supported operators](/docs/security-compliance?topic=security-compliance-what-is-rule#rule-operators).</p>
-      </td>
-    </tr>
-    <tr>
-      <td><code>value</code></td>
-      <td><p>The way in which you want the property to be applied. Value options differ depending on the rule that you configure. If you use a boolean operator, you do not need to input a value.</td>
     </tr>
   </table>
 
