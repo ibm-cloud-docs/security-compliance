@@ -242,15 +242,13 @@ You decide to define the following rule:
 	  "description": "Private network check",
       "and": [
         { 
-          "property": "private_network_only",
-          "operator": "is_true"
+          "property": "allowed_network",
+          "operator": "is_true",
+          "value": "public-and-private"
         }
       ]
     },
     "enforcement_actions": [
-      {
-        "action": "disallow"
-      },
       {
         "action": "audit_log"
       }

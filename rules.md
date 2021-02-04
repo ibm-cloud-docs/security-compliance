@@ -63,16 +63,12 @@ Before you get started, be sure that you have the following prerequisites.
 - An {{site.data.keyword.cloud_notm}} account.
 - The required level of access to view and manage rules. To create a rule, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
 
-## Creating rules
-{: #create-rules}
 
-You can use the {{site.data.keyword.compliance_short}} UI or API to define the rules that you want to enforce or monitor for your {{site.data.keyword.cloud_notm}} resources.
-
-### Creating rules in the console
+## Creating rules in the console
 {: #create-rules-ui}
 {: ui}
 
-To create rules by using the {{site.data.keyword.cloud_notm}} console:
+You can use the {{site.data.keyword.compliance_short}} UI to define the rules that you want to enforce or monitor for your {{site.data.keyword.cloud_notm}} resources. To create rules by using the {{site.data.keyword.cloud_notm}} console:
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and Compliance**.
 2. In the navigation, click **Configure rules**.
@@ -83,17 +79,17 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
 7. Select the service and resource kind that you want to target.
 8. Use the JSON editor to set configuration properties for the rule.
 
-  For example, if you wanted to create a rule prohibitted access to a specific bucket unless the request came from a private endpoint, it might look similar to the following code snippet.
+  For example, if you wanted to create a rule that prohibited access to a specific bucket unless the request came from a private endpoint, it might look similar to the following code snippet.
 
   ```json
   {
     "target": {
       "service_name": "cloud-object-storage",
-      "resource_name": "bucket",
+      "resource_kind": "bucket",
       "additional_target_attributes": [
         {
           "name": "resource_id",
-          "operator": "is_equal",
+          "operator": "string_equals",
           "value": "My_bucket"
         }
       ] 
@@ -175,9 +171,9 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
 11. Review your selections. To make an update, click **Back** to return to the section that you want to edit.
 12. Click **Finish and attach** to create your rule and [attach it to a scope](#evaluate-rules). 
 
-    If you're not ready to attach your rule, you can always save your rule and attach it later.
+    If you're not ready to attach your rule, you can always save your rule and attach it later. But, your rule is not enforced until it is attached to a scope
 
-### Creating a rule by using the API
+## Creating a rule by using the API
 {: #create-rule-api}
 {: api}
 
@@ -202,7 +198,7 @@ curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
           "additional_target_attributes": [
             {
               "name": "resource_id",
-              "operator": "is_equal",
+              "operator": "string_equals",
               "value": "My_bucket"
             }
           ],
@@ -235,55 +231,18 @@ curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
 ```
 {: codeblock}
 
-A successful `POST config/v1/rules` response returns the ID value for your rule, along with other metadata. For more information about the required and optional request parameters, see [Create rules](/apidocs/security-compliance/config#create-rules).
+A successful `POST config/v1/rules` response returns the ID value for your rule, along with other metadata. For more information about the required and optional request parameters, see [Create rules](/apidocs/security-compliance/config#post-rule-attachments).
 
-## Viewing rules
-{: #view-rules}
 
-After you create a rule, you can view it by navigating to the {{site.data.keyword.compliance_short}} UI or by using the API. 
 
-### Viewing rules in the console
-{: #view-rules-ui}
-{: ui}
 
-To view rules by using the {{site.data.keyword.compliance_short}} UI:
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
-2. In the navigation, click **Configure rules**.
-
-   From the **Configuration rules** table, you can see a list of your available rules and the {{site.data.keyword.cloud_notm}} service that is associated with each rule. You can also view the enforcement actions that are associated with each rule in cases of noncompliance.
-3. From the list of rules, click the name of the rule that you want to view.
-
-   You can view the parameters that are associated with the rule. To view or edit the [scope attachments](#evaluate-rules) for the rule, click **Attachments** in the navigation.
-
-### Viewing rules by using the API
-{: #view-rules-api}
-{: api}
-
-The following request example lists the rules that are available in your account. 
-
-```bash
-curl -X POST \
-"https://compliance.{DomainName}/config/v1/rules?account_id=<account_ID>" \
-  -H 'Authorization: Bearer <access_token>' \
-  -H 'Content-type: application/json'
-```
-{: codeblock}
-
-A successful `GET config/v1/rules` response returns the IDs values for your available rules, along with other summary details. For more information about the required and optional request parameters, see [List rules](/apidocs/security-compliance/config#list-rules).
-
-## Attaching rules to scopes
-{: #evaluate-rules}
-
-After you create a rule, you can enforce and evaluate it by using the {{site.data.keyword.compliance_short}}.
-
-By creating an attachment between a rule and a scope, you can monitor the resources that exist in that scope against the rule that you defined. If you have a specific account that you don't want the rule to apply to, you can choose to exclude it. For example, if you apply a rule to an entire enterprise you might want to exclude a scope that is used primarily for testing.
-
-### Attaching a rule to a scope in the console
+## Attaching a rule to a scope with the UI
 {: #evaluate-rules-ui}
 {: ui}
 
-To create an attachment for an existing rule by using the {{site.data.keyword.compliance_short}} UI:
+By creating an attachment between a rule and a scope, you can monitor the resources that exist in that scope against the rule that you defined. If you have a specific account that you don't want the rule to apply to, you can choose to exclude it. For example, if you apply a rule to an entire enterprise you might want to exclude a scope that is used primarily for testing.
+
+To create an attachment for a rule by using the {{site.data.keyword.compliance_short}} UI:
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
 2. In the navigation, click **Configure rules**.
@@ -297,9 +256,11 @@ To create an attachment for an existing rule by using the {{site.data.keyword.co
 
     Now that your rule is attached to a scope, the scope is scanned for possible noncompliance the next time that a scan is scheduled to run. Updated reports are generated automatically for your resources once every 24 hours.
 
-### Attaching a rule to a scope by using the API
+## Attaching a rule to a scope with the API
 {: #evaluate-rules-api}
 {: api}
+
+By creating an attachment between a rule and a scope, you can monitor the resources that exist in that scope against the rule that you defined. If you have a specific account that you don't want the rule to apply to, you can choose to exclude it. For example, if you apply a rule to an entire enterprise you might want to exclude a scope that is used primarily for testing.
 
 The following example request creates an attachment between an existing rule and a scope. 
 
@@ -331,16 +292,44 @@ curl -X POST \
 
 A successful `POST config/v1/rules/{rule_ID}/attachments` response returns the ID value for the attachment, along with other metadata. For more information about the required and optional request parameters, see [Create attachments](/apidocs/security-compliance/config#create-attachments). 
 
-## Deleting rules
-{: #delete-rules}
 
-If you no longer need to use a rule, you can choose to delete it by using the {{site.data.keyword.compliance_short}} UI or API.
+## Viewing rules with the UI
+{: #view-rules-ui}
+{: ui}
 
-### Deleting rules in the console
+After you create a rule, you can view it by navigating to the {{site.data.keyword.compliance_short}} UI. To view rules by using the {{site.data.keyword.compliance_short}} UI:
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
+2. In the navigation, click **Configure rules**.
+
+   From the **Configuration rules** table, you can see a list of your available rules and the {{site.data.keyword.cloud_notm}} service that is associated with each rule. You can also view the enforcement actions that are associated with each rule in cases of noncompliance.
+3. From the list of rules, click the name of the rule that you want to view.
+
+   You can view the parameters that are associated with the rule. To view or edit the [scope attachments](#evaluate-rules) for the rule, click **Attachments** in the navigation.
+
+## Viewing rules with the API
+{: #view-rules-api}
+{: api}
+
+After you create a rule, you can view it by using the API. The following request example lists the rules that are available in your account. 
+
+```bash
+curl -X POST \
+"https://compliance.{DomainName}/config/v1/rules?account_id=<account_ID>" \
+  -H 'Authorization: Bearer <access_token>' \
+  -H 'Content-type: application/json'
+```
+{: codeblock}
+
+A successful `GET config/v1/rules` response returns the IDs values for your available rules, along with other summary details. For more information about the required and optional request parameters, see [List rules](/apidocs/security-compliance/config#list-rules).
+
+
+
+## Deleting rules with the UI
 {: #delete-rules-ui}
 {: ui}
 
-To delete an existing rule by using the {{site.data.keyword.compliance_short}} UI:
+If you no longer need to use a rule, you can choose to delete it by using the {{site.data.keyword.compliance_short}} UI. To delete an existing rule by using the {{site.data.keyword.compliance_short}} UI:
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
 2. In the navigation, click **Configure rules**.
@@ -348,11 +337,11 @@ To delete an existing rule by using the {{site.data.keyword.compliance_short}} U
 4. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) to open a list of options for the rule that you want to delete.
 5. From the options menu, click **Delete** and confirm the deletion in the next screen.
 
-### Deleting rules by using the API
+## Deleting rules with the API
 {: #delete-rules-api}
 {: api}
 
-The following example request deletes an existing rule. 
+If you no longer need to use a rule, you can choose to delete it by using the {{site.data.keyword.compliance_short}} APIs. The following example request deletes an existing rule. 
 
 ```bash
 curl -X DELETE \
@@ -362,4 +351,4 @@ curl -X DELETE \
 ```
 {: codeblock}
 
-A successful `DELETE config/v1/rules/{rule_ID}` response returns a `204 No Content` status code to indicate that your rule was successfully deleted. For more information about the required and optional request parameters, see [Delete a rule](/apidocs/security-compliance/config#delete-a-rule). 
+A successful `DELETE config/v1/rules/{rule_ID}` response returns a `204 No Content` status code to indicate that your rule was successfully deleted. For more information about the required and optional request parameters, see [Delete a rule](/apidocs/security-compliance/config#delete-rule). 
