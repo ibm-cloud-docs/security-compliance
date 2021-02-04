@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020
-lastupdated: "2020-09-28"
+  years: 2021
+lastupdated: "2021-02-04"
 
 keywords: audit log, compliance, user activity, read-only events
 
@@ -40,6 +40,9 @@ subcollection: security-compliance
 {:video: .video}
 {:step: data-tutorial-type='step'}
 {:tutorial: data-hd-content-type='tutorial'}
+{:ui: .ph data-hd-interface='ui'}
+{:cli: .ph data-hd-interface='cli'}
+{:api: .ph data-hd-interface='api'}
 
 
 # Auditing activity

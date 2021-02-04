@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-01-26"
+lastupdated: "2021-02-04"
 
 keywords: scopes, accounts, resources, environments
 
@@ -40,6 +40,9 @@ subcollection: security-compliance
 {:video: .video}
 {:step: data-tutorial-type='step'}
 {:tutorial: data-hd-content-type='tutorial'}
+{:ui: .ph data-hd-interface='ui'}
+{:cli: .ph data-hd-interface='cli'}
+{:api: .ph data-hd-interface='api'}
 
 
 # Managing scopes

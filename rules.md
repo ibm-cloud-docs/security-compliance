@@ -40,6 +40,9 @@ subcollection: security-compliance
 {:video: .video}
 {:step: data-tutorial-type='step'}
 {:tutorial: data-hd-content-type='tutorial'}
+{:ui: .ph data-hd-interface='ui'}
+{:cli: .ph data-hd-interface='cli'}
+{:api: .ph data-hd-interface='api'}
 
 
 # Working with config rules
@@ -67,6 +70,7 @@ You can use the {{site.data.keyword.compliance_short}} UI or API to define the r
 
 ### Creating rules in the console
 {: #create-rules-ui}
+{: ui}
 
 To create rules by using the {{site.data.keyword.cloud_notm}} console:
 
@@ -175,6 +179,7 @@ To create rules by using the {{site.data.keyword.cloud_notm}} console:
 
 ### Creating a rule by using the API
 {: #create-rule-api}
+{: api}
 
 You can create rules programmatically by using the {{site.data.keyword.compliance_short}} API. For example, if you wanted to create a rule prohibitted access to a specific bucket unless the request came from a private endpoint, your request might look similar to the following code snippet.
 
@@ -239,6 +244,7 @@ After you create a rule, you can view it by navigating to the {{site.data.keywor
 
 ### Viewing rules in the console
 {: #view-rules-ui}
+{: ui}
 
 To view rules by using the {{site.data.keyword.compliance_short}} UI:
 
@@ -252,6 +258,7 @@ To view rules by using the {{site.data.keyword.compliance_short}} UI:
 
 ### Viewing rules by using the API
 {: #view-rules-api}
+{: api}
 
 The following request example lists the rules that are available in your account. 
 
@@ -274,6 +281,7 @@ By creating an attachment between a rule and a scope, you can monitor the resour
 
 ### Attaching a rule to a scope in the console
 {: #evaluate-rules-ui}
+{: ui}
 
 To create an attachment for an existing rule by using the {{site.data.keyword.compliance_short}} UI:
 
@@ -291,6 +299,7 @@ To create an attachment for an existing rule by using the {{site.data.keyword.co
 
 ### Attaching a rule to a scope by using the API
 {: #evaluate-rules-api}
+{: api}
 
 The following example request creates an attachment between an existing rule and a scope. 
 
@@ -329,6 +338,7 @@ If you no longer need to use a rule, you can choose to delete it by using the {{
 
 ### Deleting rules in the console
 {: #delete-rules-ui}
+{: ui}
 
 To delete an existing rule by using the {{site.data.keyword.compliance_short}} UI:
 
@@ -340,6 +350,7 @@ To delete an existing rule by using the {{site.data.keyword.compliance_short}} U
 
 ### Deleting rules by using the API
 {: #delete-rules-api}
+{: api}
 
 The following example request deletes an existing rule. 
 
