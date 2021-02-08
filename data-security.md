@@ -2,9 +2,9 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-04"
+lastupdated: "2021-02-08"
 
-keywords: data encryption in {{site.data.keyword.compliance_short}}, data storage for {{site.data.keyword.compliance_short}}, personal data in {{site.data.keyword.compliance_short}}, data deletion for {{site.data.keyword.compliance_short}}, data in {{site.data.keyword.compliance_short}}, data security in {{site.data.keyword.compliance_short}}
+keywords: data encryption in {{site.data.keyword.compliance_short}}, data storage for {{site.data.keyword.compliance_short}}, personal data in {{site.data.keyword.compliance_short}}, data deletion for {{site.data.keyword.compliance_short}}, data in {{site.data.keyword.compliance_short}}, data security in {{site.data.keyword.compliance_short}}, BYOK, KYOK
 
 subcollection: security-compliance
 
@@ -47,7 +47,7 @@ subcollection: security-compliance
 
 
 # Storing and encrypting data in {{site.data.keyword.compliance_short}}
-{: #data-storage} 
+{: #data-storage}
 
 To ensure that your data is securely managed when you use the {{site.data.keyword.compliance_full}}, it is important to know exactly what data is stored and encrypted. The {{site.data.keyword.compliance_short}} stores your data in a highly available and secure environment.
 
@@ -68,7 +68,7 @@ All collector-to-service communication is performed over a TLS 1.2+ protected ch
 ## Storing and encrypting results
 {: #results-security}
 
-Depending on the component of the {{site.data.keyword.compliance_short}} that you're working with, the results are stored and encrypted differently. 
+Depending on the component of the {{site.data.keyword.compliance_short}} that you're working with, the results are stored and encrypted differently.
 
 ### Security and compliance posture monitoring
 {: #posture-results-security}
@@ -76,7 +76,7 @@ Depending on the component of the {{site.data.keyword.compliance_short}} that yo
 The configuration information and metadata that is gathered by the service for security and compliance posture monitoring:
 
 * Does contain personally identifiable information.
-* Is sent over a TLS 1.2+ protected channel by using IBM Cloud Internet Services (powered by Cloudflare). By using Cloud Internet Services there is DDoS protection, a Web Application Firewall, and other network level security mechanisms in place. 
+* Is sent over a TLS 1.2+ protected channel by using IBM Cloud Internet Services (powered by Cloudflare). By using Cloud Internet Services there is DDoS protection, a Web Application Firewall, and other network level security mechanisms in place.
 * Is cryptographically signed by the collector's private key.
 * Is validated by the service with the collector's public key.
 * Is stored by the service for 30 days (configuration data) or 31 days (analytics data) in an encrypted database that is provided by the IBM Cloud Database Service.
