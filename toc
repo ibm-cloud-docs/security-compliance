@@ -9,7 +9,6 @@ Security and Compliance Center
     overview.md
     releases.md
     {: .navgroup-end}
-    {: .navgroup-end}
 
     {: .navgroup id="howto"}
     iam.md
