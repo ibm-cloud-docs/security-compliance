@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-04"
+lastupdated: "2021-02-08"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -64,7 +64,7 @@ Before you get started, be sure that you have the following prerequisites.
 - The required level of access to view and manage rules. To create a rule, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
 
 
-## Creating rules in the console
+## Creating rules in the UI
 {: #create-rules-ui}
 {: ui}
 
@@ -173,7 +173,7 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the rules th
 
     If you're not ready to attach your rule, you can always save your rule and attach it later. But, your rule is not enforced until it is attached to a scope
 
-## Creating a rule by using the API
+## Creating a rule with the API
 {: #create-rule-api}
 {: api}
 
