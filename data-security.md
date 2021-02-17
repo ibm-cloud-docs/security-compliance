@@ -164,9 +164,12 @@ If you choose to work with a key that you manage, you must ensure that valid IAM
     1. Go to **Security and Compliance Center > Data settings**.
     2. In the Encryption section, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg) to manage your encryption settings.
     3. Select the service instance and root key that you want to use to protect your data.
-    4. Choose the type of {{site.data.keyword.compliance_short}} results that you want to encrypt with your selected key.
-
-        If you want to enable customer-managed encryption for compliance scans, set **Compliance scans** to **On**. To enable customer-managed encryption for security insights, set **Security insights** to **On**.
-
-        You can always return to using IBM-managed encryption by setting both options to **Off**.
+    4. Choose the type of {{site.data.keyword.compliance_short}} results that you want to encrypt with your selected key by toggling either **Compliance scans**, **Security insights**, or both to **On**.
+    
+        If you chose to disable the encryption key in your key management service it might take up to 15 minutes for SCC to apply that change, after that SCC will not be able to access existing data or generate new one. At any point in time during or after you can re-enable your key.
         {: note}
+
+    5. To return to IBM-managed encryption, use the toggle to turn customer-managed encryption **Off**.
+
+        
+
