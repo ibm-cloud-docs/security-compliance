@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-04"
+lastupdated: "2021-02-17"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -164,7 +164,7 @@ For example, you can resrict access to a Cloud Object Storage bucket by determin
 ### What are the supported operators?
 {: #rule-operators}
 
-An operator is the type of comparison that you want to make between a property and its value. You can use four types of operators to create config rules: general, string, numeric, and boolean. Check out the following table to learn more about each type.
+An operator is the type of comparison that you want to make between a property and its value. Check out the following table to learn more about each type.
 
 String-based operators are case-sensitive.
 {: note}
@@ -175,12 +175,12 @@ String-based operators are case-sensitive.
 | `is_not_empty`  | General |  The property value is specified, not null, and not an empty string (any value). | No |
 | `is_true`  | Boolean | The property value is true. | No |
 | `is_false`  | Boolean | The property value is false. | No |
-| `string_equals` | String |  The property value is an exact match to the condition value.  | Yes |
+| `string_equals`[^string_equals] | String |  The property value is an exact match to the condition value. | Yes |
 | `string_not_equals` | String |  The property value is not an exact match to the condition value. |Yes|
 | `string_match` | String |  The property value matches the condition value by using the [Krauss wildcarding algorithm](https://en.wikipedia.org/wiki/Krauss_wildcard-matching_algorithm){: external}. | Yes | 
 | `string_not_match` | String |  The property value does not match the condition value by using [Krauss wildcarding algorithm](https://en.wikipedia.org/wiki/Krauss_wildcard-matching_algorithm){: external}.| Yes |
-| `strings_in_list`[^strings_in_list] | String |  All property values are in the condition value list. | Yes |
-| `ips_in_range`[^ips_in_range] | String |  All property values, in IPv4 or IPv6 format, are in the condition value list. | Yes |
+| `strings_in_list`[^strings_in_list] | String list |  All property values are in the condition value list. | Yes |
+| `ips_in_range`[^ips_in_range] | IP list |  All property values, in IPv4 or IPv6 format, are in the condition value list. | Yes |
 | `num_equals` | Numeric | The property value numerically matches to the condition value. | Yes |
 | `num_not_equals` | Numeric | The property value does not numerically match the condition value.| Yes |
 | `num_less_than` | Numeric | The property value is numerically less than the condition value.| Yes |
@@ -188,6 +188,8 @@ String-based operators are case-sensitive.
 | `num_greater_than` | Numeric | The property value is numerically greater than the condition value.|Yes|
 | `num_greater_than_equals` | Numeric | The property value is numerically greater than or equal to the condition value. | Yes |
 {: caption="Table 2. Supported operator types" caption-side="top"}
+
+[^string_equals]: To include multiple values, use a list. For example, `{"value": ["A", "B," "C"]}`
 
 [^strings_in_list]: To create a rule with a property that supports the `strings_in_list` operator, include a list of strings for the `value` parameter. For example, `{"value": ["A", "B," "C"]}`. 
 
