@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-01-28"
+lastupdated: "2021-02-04"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -40,6 +40,9 @@ subcollection: security-compliance
 {:video: .video}
 {:step: data-tutorial-type='step'}
 {:tutorial: data-hd-content-type='tutorial'}
+{:ui: .ph data-hd-interface='ui'}
+{:cli: .ph data-hd-interface='cli'}
+{:api: .ph data-hd-interface='api'}
 
 # What is a config rule?
 {: #what-is-rule}
@@ -57,23 +60,28 @@ Check out the following image to see how a config rule is structured.
 
 ![This image shows the components of a config rule, including its target, required configuration, and the enforcement actions. The information in the image is detailed in the surrounding content.](/images/example-rule.svg){: caption="Figure 1. Components of a config rule" caption-side="bottom"}
 
-1. The `target` object contains the details about the {{site.data.keyword.cloud_notm}} service and resource type that you want to target with the rule.
+1. The `target` object contains the details about the {{site.data.keyword.cloud_notm}} service and resource type that you want to target with the rule. It is important to note that the `service_name` is the [CRN-qualified service name of an {{site.data.keyword.cloud_notm}} service](/docs/account?topic=account-crn#service-name-crn). Optionally, you can include `additional_target_attributes`, such as the location or ID of a resource, as an extra qualifier for the resource kind.
 
-  An example target object might resemble the following JSON snippet, where the `service_name` is the [CRN-qualified service name of an {{site.data.keyword.cloud_notm}} service](/docs/account?topic=account-crn#service-name-crn), and the `resource_kind` is the type of resource that you want to create a rule for.
+  So for example, if you wanted to create a rule that was limited to a specific bucket within object storage, it might look similar to the following truncated example.
 
   ```json
   {
     "target": {
-      "service_name": "cloudcerts",
-      "resource_kind": "instance"
+      "service_name": "cloud-object-storage",
+      "resource_kind": "bucket",
+      "additional_target_attributes": [
+        {
+          "name": "resource_id",
+          "operator": "is_equal",
+          "value": "My_bucket"
+        }
+      ]
     }
   }
   ```
   {: screen}
 
-  Optionally, you can include `additional_target_attributes`, such as the location or ID of a resource, as an extra qualifier for the resource kind. Additional target attributes vary depending on the service that you want to target.
-
-2. The `required_config` object contains the property conditions that you want to apply to the target. Property conditions contain three basic elements: a `property`, an `operator`, and a `value`. The available properties and the defined elements depend on the service and resource kind that you want to configure.
+2. The `required_config` object contains the property conditions that you want to apply to the target. Property conditions contain three basic elements: a `property`, an `operator`, and a `value`. The available properties and the defined elements depend on the service and resource kind that you want to configure. [Learn more](#rule-properties).
 
   <table>
     <caption>Table 1. Properties, operators, and values</caption>
@@ -98,47 +106,11 @@ Check out the following image to see how a config rule is structured.
       <td>Applicable for some operators</td>
     </tr>
   </table>
-  
-  For example, if you work with the Certificate Manager service and you wanted to be alerted 10 days before a certificate expires, you could create a rule that uses the `days_to_expiration` property. It would look similar to the following code snippet.
 
-  ```json
-  {
-    "required_config": {
-      "description": "Certificates that expire in 10 days",
-      "and": [
-        {
-          "property": "days_to_expiration",
-          "operator": "num_greater_than",
-          "value": 10
-        }
-      ]
-    }
-  }
-  ```
-  {: screen}
-
-3. The `enforcement_actions` object contains the actions that {{site.data.keyword.compliance_short}} takes on your behalf if the property conditions that you defined are not met.
-
-  When the {{site.data.keyword.compliance_short}}, evaluates the state of the target resource against your defined rule, it checks to ensure its defined conditions are evaluated to true. If they do not, IBM carries out your defined enforcement actions.
-
-  ```json
-  {
-    "enforcement_actions": [
-      {
-        "action": "disallow"
-      },
-      {
-        "action": "audit_log"
-      }
-    ]
-  }
-  ```
-  {: screen}
-
-  The `disallow` action blocks a noncompliance request from completing, and the `audit_log` action registers an event in Activity Tracker with LogDNA so that you're able to track potential issues.
+3. The `enforcement_actions` object contains the actions that {{site.data.keyword.compliance_short}} takes on your behalf if the property conditions that you defined are not met. When the {{site.data.keyword.compliance_short}}, evaluates the state of the target resource against your defined rule, it checks to ensure its defined conditions are evaluated to true. If they do not, IBM carries out your defined enforcement actions. The `disallow` action blocks a noncompliance request from completing, and the `audit_log` action registers an event in Activity Tracker with LogDNA so that you're able to track potential issues.
 
 
-## What is a property?
+### How do properties work?
 {: #rule-properties}
 
 As mentioned earlier in this topic, a property is a resource configuration variable that you can use as a security checkpoint. Occasionally, creating a rule with a single simple property won't fully address your need. To create more complex rules, you can include multiple conditions and nested properties.
@@ -154,10 +126,9 @@ So, as an example, the code snippets shown in the following image evaluate to tr
 ![The diagram shows the correlation between multiple conditions. All of the information is conveyed in the surrounding text.](images/config-rules-property.svg){: caption="Figure 2. The ways in which properties can relate to each other." caption-side="bottom"}
 
 
-
 In addition to allowing multiple conditions, some {{site.data.keyword.cloud_notm}} services, such as Cloud Object Storage, support nested or sub-parameters within the main definition. To create a rule with nested properties, you can use dot notation in the form of `<main_property>.<sub_property>` to indicate the relationship between the two properties.
 
-For example, you can resrict access to a Cloud Object Storage bucket by determining which IP addresses are authorized to access the firewall. In this example, `firewall` is the main property while `allowed_ip` and `denied_ip` are nested. 
+For example, you can resrict access to a Cloud Object Storage bucket by determining which IP addresses are authorized to access the firewall. In this truncated example, `firewall` is the main property while `allowed_ip` and `denied_ip` are nested. 
 
 ```json
 {
@@ -189,20 +160,8 @@ For example, you can resrict access to a Cloud Object Storage bucket by determin
 {: screen}
 
 
-### Supported properties
-{: #rule-properties-supported}
 
-The properties that are available in the {{site.data.keyword.compliance_short}} vary depending on the service that you create a rule for. To see the available properties and understand how they can be formatted to create a rule, you can visit the service documentation.
-
-* [Certificate Manager](/docs/certificate-manager?topic=certificate-manager-manage-security-compliance)
-* [Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-manage-security-compliance)
-* [Key Protect](/docs/key-protect?topic=key-protect-manage-security-compliance)
-* [Platform components](/docs/overview?topic=overview-manage-security-compliance)
-
-
-
-
-## What are the supported operators?
+### What are the supported operators?
 {: #rule-operators}
 
 An operator is the type of comparison that you want to make between a property and its value. You can use four types of operators to create config rules: general, string, numeric, and boolean. Check out the following table to learn more about each type.
@@ -235,12 +194,25 @@ String-based operators are case-sensitive.
 [^ips_in_range]: To create a rule with a property that supports the `ips_in_range` operator, include a list of CIDR or IP addresses for the `value` parameter. For example, `{"value": ["10.168.175.0/24", "2000:db8:ffff:ffff:ffff:ffff:ffff:ffff"]}`. 
 
 
+## Which services can I apply rules to?
+{: #rule-supported}
+
+The properties that are available in the {{site.data.keyword.compliance_short}} vary depending on the service that you create a rule for. To see the available properties and understand how they can be formatted to create a rule, you can visit the service documentation.
+
+* [Certificate Manager](/docs/certificate-manager?topic=certificate-manager-manage-security-compliance)
+* [Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-manage-security-compliance)
+* [Key Protect](/docs/key-protect?topic=key-protect-manage-security-compliance)
+* [Platform components](/docs/overview?topic=overview-manage-security-compliance)
+
+
+
 ## How can I use a rule in {{site.data.keyword.cloud_notm}}?
 {: #config-rule-use-cases}
 
-After you create a rule, you can use it to standardize the configuration of its target {{site.data.keyword.cloud_notm}} service and resource type in your selected accounts. You can start to monitor your resources by [attaching the rule to a scope](/docs/security-compliance?topic=security-compliance-rules#evaluate-rules). Every 24 hours, a report is generated so that you can [view your rule results](/docs/security-compliance?topic=security-compliance-results) in the {{site.data.keyword.compliance_short}} UI and investigate potential issues. 
+Rules help you to standardize the fine-grained configurations of your {{site.data.keyword.cloud_notm}} services. As an administrator, you can determine where your organization might benefit from guardrails around resource configuration and then use the {{site.data.keyword.compliance_short}} to create and monitor them. By attaching your rule to a specific [scope](/docs/security-compliance?topic=security-compliance-rules#evaluate-rules), you can limit the rule to a specific section of your business. Then, every 24 hours, a report is generated that details the results of your compliance in the {{site.data.keyword.compliance_short}} UI that you can use to investigate potential issues. 
 
-The following diagram describes an example rule sequence:
+
+Check out the following diagram to see an example rule sequence:
 
 ![The image shows an example rule sequence.](/images/config-rule-sequence.svg){: caption="Figure 3. Config rule sequence flow" caption-side="bottom"}
 
@@ -270,15 +242,13 @@ You decide to define the following rule:
 	  "description": "Private network check",
       "and": [
         { 
-          "property": "private_network_only",
-          "operator": "is_true"
+          "property": "allowed_network",
+          "operator": "is_true",
+          "value": "public-and-private"
         }
       ]
     },
     "enforcement_actions": [
-      {
-        "action": "disallow"
-      },
       {
         "action": "audit_log"
       }
