@@ -12,7 +12,7 @@ Security and Compliance Center
 
     {: .navgroup id="howto"}
     iam.md
-    
+
     {: .topicgroup}
     Monitoring your accounts for compliance
 
@@ -33,10 +33,10 @@ Security and Compliance Center
 
         {: .topicgroup}
         Managing the service
-            tags.md 
+            tags.md
             audit-log.md
             inventory.md
-        
+
     {: .topicgroup}
     Governing the use of resources
         what-is-rule.md
@@ -60,4 +60,3 @@ Security and Compliance Center
     troubleshoot.md
     limits.md
     {: .navgroup-end}
-    
