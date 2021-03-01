@@ -243,6 +243,7 @@ The following tables list the platform access roles that are required to manage 
 
 [^scopes-5]: You must also have Administrator access to the scope.
 
+
 For more information about assigning user roles in the console, see [Managing access to resources](/docs/account?topic=account-assign-access-resources).
 {: tip}
 
