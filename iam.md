@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-04"
+lastupdated: "2021-03-01"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -50,7 +50,7 @@ subcollection: security-compliance
 
 Access to the {{site.data.keyword.compliance_full}} is controlled by {{site.data.keyword.iamshort}} (IAM). Every user that accesses the {{site.data.keyword.compliance_short}} in your account must be assigned an access policy with a defined platform IAM role. The policy determines which actions a user can perform within the context of the {{site.data.keyword.compliance_short}}.
 
-Policies enable access to be granted at different levels. Some of the options include the following actions: 
+Policies enable access to be granted at different levels. Some of the options include the following actions:
 
 * Access to manage profiles and controls
 * Access to view security and compliance posture and results
@@ -59,7 +59,7 @@ Policies enable access to be granted at different levels. Some of the options in
 ## Assigning roles in the console
 {: #assign-roles}
 
-As an account owner, you are automatically assigned Administrator platform access to the {{site.data.keyword.compliance_short}} so that you can further assign roles and customize access policies for others. 
+As an account owner, you are automatically assigned Administrator platform access to the {{site.data.keyword.compliance_short}} so that you can further assign roles and customize access policies for others.
 
 To assign access, you can use the **Access (IAM)** section of the console.
 
@@ -237,11 +237,11 @@ The following tables list the platform access roles that are required to manage 
 
 [^scopes-2]: If the rule is attached to a scope, you must also have Administrator access to the scope.
 
-[^scopes-3]: You must also have Administrator access to the scope. 
+[^scopes-3]: You must also have Administrator access to the scope.
 
-[^scopes-4]: You must also have Administrator access to the scope. 
+[^scopes-4]: You must also have Administrator access to the scope.
 
-[^scopes-5]: You must also have Administrator access to the scope. 
+[^scopes-5]: You must also have Administrator access to the scope.
 
 For more information about assigning user roles in the console, see [Managing access to resources](/docs/account?topic=account-assign-access-resources).
 {: tip}
