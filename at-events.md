@@ -283,8 +283,8 @@ The following events are triggered by the Security Insights component of the {{s
 | `security-advisor.notification-channels.update`       | Update a notification channel.|
 | `security-advisor.notification-channels.delete`       | Delete a notification channel.|
 {: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
-{: #partner-events}
-{: tab-title="Partners"}
+{: #notification-events}
+{: tab-title="Notifications"}
 {: tab-group="insights"}
 {: class="simple-tab-table"}
 
