@@ -65,8 +65,8 @@ As a security officer, auditor, or manager, you can use the Activity Tracker ser
 
 The following events are triggered by the Posture Management component of the {{site.data.keyword.compliance_short}}.
 
-| Action                                                | Description                                                  |
-| :---------------------------------------------------- | :----------------------------------------------------------- |
+| Action                                                | Description     |
+| :-----------------------------------------------------| :---------------|
 | `compliance.posture-management.credentials-read`      | View credentials.                                            |
 | `compliance.posture-management.credentials-create`    | Create a credential.                                         |
 | `compliance.posture-management.credentials-update`    | Update an existing credential.                               |
@@ -81,8 +81,8 @@ The following events are triggered by the Posture Management component of the {{
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                            | Description                   |
-| :------------------------------------------------ | :---------------------------- |
+| Action                                            | Description     |
+| :-------------------------------------------------| :---------------|
 | `compliance.posture-management.collectors-read`   | View collectors.              |
 | `compliance.posture-management.collectors-create` | Create a collector.           |
 | `compliance.posture-management.collectors-update` | Update an existing collector. |
@@ -93,8 +93,8 @@ The following events are triggered by the Posture Management component of the {{
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                        | Description               |
-| :-------------------------------------------- | :------------------------ |
+| Action                                        | Description     |
+| :---------------------------------------------| :---------------|
 | `compliance.posture-management.scopes-read`   | View scopes.              |
 | `compliance.posture-management.scopes-create` | Create a scope.           |
 | `compliance.posture-management.scopes-update` | Update an existing scope. |
@@ -105,8 +105,8 @@ The following events are triggered by the Posture Management component of the {{
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                             | Description                         |
-| :------------------------------------------------- | :---------------------------------- |
+| Action                                             | Description     |
+| :--------------------------------------------------| :---------------|
 | `compliance.posture-management.validations-read`   | View validation scans.              |
 | `compliance.posture-management.validations-create` | Run a validation scan.              |
 | `compliance.posture-management.validations-update` | Update an existing validation scan. |
@@ -117,8 +117,8 @@ The following events are triggered by the Posture Management component of the {{
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                        | Description                                          |
-| :-------------------------------------------- | :--------------------------------------------------- |
+| Action                                        |   Description   |
+| :---------------------------------------------| :---------------|
 | `compliance.posture-management.values-read`   | View the parameters that are associated with a goal. |
 | `compliance.posture-management.values-create` | Add parameters to an existing goal.                  |
 | `compliance.posture-management.values-update` | Update the parameters of an existing goal.           |
@@ -129,8 +129,8 @@ The following events are triggered by the Posture Management component of the {{
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                          | Description                                                |
-| :---------------------------------------------- | :--------------------------------------------------------- |
+| Action                                          | Description     |
+| :-----------------------------------------------| :---------------|
 | `compliance.posture-management.controls-read`   | View the available controls that you can add to a profile. |
 | `compliance.posture-management.controls-create` | Add a control to a profile.                                |
 | `compliance.posture-management.controls-update` | Update an existing control.                                |
@@ -141,8 +141,8 @@ The following events are triggered by the Posture Management component of the {{
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                          | Description                 |
-| :---------------------------------------------- | :-------------------------- |
+| Action                                          | Description     |
+| :-----------------------------------------------| :---------------|
 | `compliance.posture-management.profiles-read`   | View profiles.              |
 | `compliance.posture-management.profiles-create` | Create a profile.           |
 | `compliance.posture-management.profiles-update` | Update an existing profile. |
@@ -153,8 +153,8 @@ The following events are triggered by the Posture Management component of the {{
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                      | Description             |
-| :------------------------------------------ | :---------------------- |
+| Action                                      |   Description   |
+| :-------------------------------------------| :---------------|
 | `compliance.posture-management.tags-read`   | View tags.              |
 | `compliance.posture-management.tags-create` | Create a tag.           |
 | `compliance.posture-management.tags-update` | Update an existing tag. |
@@ -172,37 +172,127 @@ The following events are triggered by the Posture Management component of the {{
 
 The following events are triggered by the Configuration Governance component of the {{site.data.keyword.compliance_short}}.
 
-| Action                                                   | Description                                         |
-| :------------------------------------------------------- | :-------------------------------------------------- |
+| Action                                                 |   Description   |
+| :------------------------------------------------------| :---------------|
 | `compliance.configuration-governance.rules-read`         | View rules.                                         |
 | `compliance.configuration-governance.rules-create`       | Create a rule.                                      |
 | `compliance.configuration-governance.rules-update`       | Update an existing rule.                            |
 | `compliance.configuration-governance.rules-delete`       | Delete a rule.                                      |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
-{: #rules-access}
+{: #rules-events}
 {: tab-title="Rules"}
 {: tab-group="config"}
 {: class="simple-tab-table"}
 
-| Action                                                   | Description                                         |
-| :------------------------------------------------------- | :-------------------------------------------------- |
+| Action                                                   |   Description   |
+| :--------------------------------------------------------| :---------------|
 | `compliance.configuration-governance.attachments-read`   | View the attachments that are available for a rule. |
 | `compliance.configuration-governance.attachments-create` | Create an attachment between a rule and a scope.    |
 | `compliance.configuration-governance.attachments-update` | Update an existing attachment.                      |
 | `compliance.configuration-governance.attachments-delete` | Delete an attachment.                               |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
-{: #attachments-access}
+{: #attachments-events}
 {: tab-title="Attachments"}
 {: tab-group="config"}
 {: class="simple-tab-table"}
 
-| Action                                                   | Description                                         |
-| :------------------------------------------------------- | :-------------------------------------------------- |
+| Action                                               | Description   |
+| :----------------------------------------------------| :---------------|
 | `compliance.configuration-governance.results-read`   | View config rule results. |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
-{: #results-access}
+{: #results-events}
 {: tab-title="Results"}
 {: tab-group="config"}
+{: class="simple-tab-table"}
+
+
+## Events for Security Insights
+{: #at_actions_insights}
+
+The following events are triggered by the Security Insights component of the {{site.data.keyword.compliance_short}}. The Security Insights component was formerly known as Security Advisor.
+
+| Action                                   | Description     |
+| :----------------------------------------| :---------------|
+| `security-advisor.metadata.read`         | View previously created notes. |
+| `security-advisor.metadata.write`        | Create a note. |
+| `security-advisor.metadata.update`       | Update a note  |
+| `security-advisor.metadata.delete`       | Delete a note. |
+{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: #notes-events}
+{: tab-title="Notes"}
+{: tab-group="insights"}
+{: class="simple-tab-table"}
+
+| Action                                   | Description     |
+| :----------------------------------------| :---------------|
+| `security-advisor.findings.read`         | View occurrences.             |
+| `security-advisor.findings.write`        | Create an occurrence.         |
+| `security-advisor.findings.update`       | Update an occurrence.         |
+| `security-advisor.findings.delete`       | Delete an occurrence.         |
+{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: #finding-events}
+{: tab-title="Findings"}
+{: tab-group="insights"}
+{: class="simple-tab-table"}
+
+| Action                                          | Description     |
+| :-----------------------------------------------| :---------------|
+| `security-advisor.custom-solution.read`         | View custom solutions.         |
+| `security-advisor.custom-solution.write`        | Add a custom solution.         |
+| `security-advisor.custom-solution.update`       | Update a custom solution.      |
+| `security-advisor.custom-solution.delete`       | Delete a custom solution.      |
+{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: #custom-events}
+{: tab-title="Custom"}
+{: tab-group="insights"}
+{: class="simple-tab-table"}
+
+| Action                                           | Description     |
+| :------------------------------------------------| :---------------|
+| `security-advisor.partner-solution.read`         | View partner solutions.         |
+| `security-advisor.partner-solution.write`        | Add a partner solution.         |
+| `security-advisor.partner-solution.update`       | Update a partner solution.      |
+| `security-advisor.partner-solution.delete`       | Delete a partner solution.      |
+{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: #partner-events}
+{: tab-title="Partners"}
+{: tab-group="insights"}
+{: class="simple-tab-table"}
+
+| Action                                            | Description     |
+| :-------------------------------------------------| :---------------|
+| `security-advisor.network-insights.enable`        | Enable Network Insights. |
+| `security-advisor.network-insights.enable`        | Disable Network Insights. |
+| `security-advisor.network-insights-cos.create`    | Connect a Cloud Object Storage bucket. |
+| `security-advisor.network-insights-cos.delete`    | Disconnect a Cloud Object Storage bucket. |
+{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: #network-events}
+{: tab-title="Network"}
+{: tab-group="insights"}
+{: class="simple-tab-table"}
+
+| Action                                             | Description   |
+| :--------------------------------------------------| :---------------|
+| `security-advisor.activity-insights.enable`        | Enable Activity Insights. |
+| `security-advisor.activity-insights.enable`        | Disable Activity Insights. |
+| `security-advisor.activity-insights-cos.create`    | Connect a Cloud Object Storage bucket. |
+| `security-advisor.activity-insights-cos.delete`    | Disconnect a Cloud Object Storage bucket. |
+{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: #activity-events}
+{: tab-title="Activity"}
+{: tab-group="insights"}
+{: class="simple-tab-table"}
+
+| Action                                                | Description     |
+| :-----------------------------------------------------| :---------------|
+| `security-advisor.notification-channels.read`         | View a notification channel.|
+| `security-advisor.notification-channels.create`       | Create a notification channel.|
+| `security-advisor.notification-channels.update`       | Update a notification channel.|
+| `security-advisor.notification-channels.delete`       | Delete a notification channel.|
+{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: #partner-events}
+{: tab-title="Partners"}
+{: tab-group="insights"}
 {: class="simple-tab-table"}
 
 
