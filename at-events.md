@@ -44,13 +44,6 @@ subcollection: security-compliance
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
 
-## Before you begin
-{: #before-auditing}
-
-Before you get started, be sure that you have the required level of access to view and manage your audit log. To view audit logging, you need the viewer platform role or higher for the {{site.data.keyword.compliance_short}}. To turn off read events, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
-
-
-
 # Auditing events for {{site.data.keyword.compliance_short}}
 {: #at_events}
 
