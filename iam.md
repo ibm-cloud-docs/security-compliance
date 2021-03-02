@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-01"
+lastupdated: "2021-03-02"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -134,7 +134,7 @@ The following tables list the platform access roles that are required to manage 
 | `compliance.posture-management.validations-delete` | Delete a validation scan.           | Editor, Administrator                   |
 {: caption="Table 4. IAM user roles and actions" caption-side="top"}
 {: #validations-access}
-{: tab-title="Validations"}
+{: tab-title="Scans"}
 {: tab-group="compliance"}
 {: class="simple-tab-table"}
 
@@ -186,14 +186,6 @@ The following tables list the platform access roles that are required to manage 
 {: tab-group="compliance"}
 {: class="simple-tab-table"}
 
-| Action                                      | Description      | Role                                    |
-| :------------------------------------------ | :--------------- | :-------------------------------------- |
-| `compliance.posture-management.events-view` | View audit logs. | Viewer, Operator, Editor, Administrator |
-{: caption="Table 9. IAM user roles and actions" caption-side="top"}
-{: #audit-log-access}
-{: tab-title="Audit logs"}
-{: tab-group="compliance"}
-{: class="simple-tab-table"}
 
 ### Roles for governing the use of resources
 {: #governance-roles}
