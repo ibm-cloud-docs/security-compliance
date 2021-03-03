@@ -60,14 +60,14 @@ The following events are triggered by the Posture Management component of the {{
 
 | Action                                                | Description     |
 | :-----------------------------------------------------| :---------------|
-| `compliance.posture-management.credentials-read`      | View credentials.                                            |
-| `compliance.posture-management.credentials-create`    | Create a credential.                                         |
-| `compliance.posture-management.credentials-update`    | Update an existing credential.                               |
-| `compliance.posture-management.credentials-delete`    | Delete a credential.                                         |
-| `compliance.posture-management.credentialsmap-read`   | View mappings between credentials and scopes.                |
-| `compliance.posture-management.credentialsmap-create` | Map credentials to a scope.                                  |
+| `compliance.posture-management.credentials-read`      | View credentials. |
+| `compliance.posture-management.credentials-create`    | Create a credential. |
+| `compliance.posture-management.credentials-update`    | Update an existing credential. |
+| `compliance.posture-management.credentials-delete`    | Delete a credential. |
+| `compliance.posture-management.credentialsmap-read`   | View mappings between credentials and scopes.|
+| `compliance.posture-management.credentialsmap-create` | Map credentials to a scope. |
 | `compliance.posture-management.credentialsmap-update` | Update an existing mapping between a credential and a scope. |
-| `compliance.posture-management.credentialsmap-delete` | Delete a mapping.                                            |
+| `compliance.posture-management.credentialsmap-delete` | Delete a mapping. |
 {: caption="Table 1. List of events that apply to the Posture Management component" caption-side="top"}
 {: #credentials-events}
 {: tab-title="Credentials"}
@@ -125,9 +125,9 @@ The following events are triggered by the Posture Management component of the {{
 | Action                                          | Description     |
 | :-----------------------------------------------| :---------------|
 | `compliance.posture-management.controls-read`   | View the available controls that you can add to a profile. |
-| `compliance.posture-management.controls-create` | Add a control to a profile.                                |
-| `compliance.posture-management.controls-update` | Update an existing control.                                |
-| `compliance.posture-management.controls-delete` | Delete a control.                                          |
+| `compliance.posture-management.controls-create` | Add a control to a profile. |
+| `compliance.posture-management.controls-update` | Update an existing control. |
+| `compliance.posture-management.controls-delete` | Delete a control. |
 {: caption="Table 1. List of events that apply to the Posture Management component" caption-side="top"}
 {: #controls-events}
 {: tab-title="Controls"}
@@ -167,10 +167,10 @@ The following events are triggered by the Configuration Governance component of 
 
 | Action                                                 |   Description   |
 | :------------------------------------------------------| :---------------|
-| `compliance.configuration-governance.rules-read`         | View rules.                                         |
-| `compliance.configuration-governance.rules-create`       | Create a rule.                                      |
-| `compliance.configuration-governance.rules-update`       | Update an existing rule.                            |
-| `compliance.configuration-governance.rules-delete`       | Delete a rule.                                      |
+| `compliance.configuration-governance.rules-read`       | View rules. |
+| `compliance.configuration-governance.rules-create`     | Create a rule. |
+| `compliance.configuration-governance.rules-update`     | Update an existing rule. |
+| `compliance.configuration-governance.rules-delete`     | Delete a rule. |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
 {: #rules-events}
 {: tab-title="Rules"}
@@ -180,9 +180,9 @@ The following events are triggered by the Configuration Governance component of 
 | Action                                                   |   Description   |
 | :--------------------------------------------------------| :---------------|
 | `compliance.configuration-governance.attachments-read`   | View the attachments that are available for a rule. |
-| `compliance.configuration-governance.attachments-create` | Create an attachment between a rule and a scope.    |
-| `compliance.configuration-governance.attachments-update` | Update an existing attachment.                      |
-| `compliance.configuration-governance.attachments-delete` | Delete an attachment.                               |
+| `compliance.configuration-governance.attachments-create` | Create an attachment between a rule and a scope. |
+| `compliance.configuration-governance.attachments-update` | Update an existing attachment. |
+| `compliance.configuration-governance.attachments-delete` | Delete an attachment. |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
 {: #attachments-events}
 {: tab-title="Attachments"}
