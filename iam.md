@@ -86,16 +86,16 @@ After you define the level of access that a user might need, you can assign them
 
 The following tables list the platform access roles that are required to manage collectors, credentials, scopes, validations, and profiles in your accounts.
 
-| Action                                                | Description                                                  | Role                                    |
-| :---------------------------------------------------- | :----------------------------------------------------------- | :-------------------------------------- |
-| `compliance.posture-management.credentials-read`      | View credentials.                                            | Viewer, Operator, Editor, Administrator |
-| `compliance.posture-management.credentials-create`    | Create a credential.                                         | Editor, Administrator                   |
-| `compliance.posture-management.credentials-update`    | Update an existing credential.                               | Editor, Administrator                   |
-| `compliance.posture-management.credentials-delete`    | Delete a credential.                                         | Editor, Administrator                   |
-| `compliance.posture-management.credentialsmap-read`   | View mappings between credentials and scopes.                | Viewer, Operator, Editor, Administrator |
-| `compliance.posture-management.credentialsmap-create` | Map credentials to a scope.                                  | Editor, Administrator                   |
-| `compliance.posture-management.credentialsmap-update` | Update an existing mapping between a credential and a scope. | Editor, Administrator                   |
-| `compliance.posture-management.credentialsmap-delete` | Delete a mapping.                                            | Editor, Administrator                   |
+| Action                                                | Description                      | Role              |
+| :---------------------------------------------------- | :------------------------------- | :---------------- |
+| `compliance.posture-management.credentials-read`      | View credentials.   |  Viewer, Operator, Editor, Administrator |
+| `compliance.posture-management.credentials-create`    | Create a credential.   | Editor, Administrator  |
+| `compliance.posture-management.credentials-update`    | Update an existing credential.  | Editor, Administrator   |
+| `compliance.posture-management.credentials-delete`    | Delete a credential.  | Editor, Administrator  |
+| `compliance.posture-management.credentialsmap-read`   | View mappings between credentials and scopes. | Viewer, Operator, Editor, Administrator |
+| `compliance.posture-management.credentialsmap-create` | Map credentials to a scope.  | Editor, Administrator |
+| `compliance.posture-management.credentialsmap-update` | Update an existing mapping between a credential and a scope. | Editor, Administrator |
+| `compliance.posture-management.credentialsmap-delete` | Delete a mapping.       | Editor, Administrator                   |
 {: caption="Table 1. IAM user roles and actions for Posture Management" caption-side="top"}
 {: #credentials-access}
 {: tab-title="Credentials"}
