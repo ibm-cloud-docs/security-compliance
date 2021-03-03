@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-02"
+lastupdated: "2021-03-03"
 
 keywords: activity tracker for _servicename_, LogDNA for _servicename_, _servicename_ events, _servicename_ security, audit logs for _servicename_, viewing _servicename_ events, _servicename_ events
 
@@ -218,10 +218,11 @@ The following events are triggered by the Security Insights component of the {{s
 
 | Action                                   | Description     |
 | :----------------------------------------| :---------------|
-| `security-advisor.findings.read`         | View occurrences.             |
-| `security-advisor.findings.write`        | Create an occurrence.         |
-| `security-advisor.findings.update`       | Update an occurrence.         |
-| `security-advisor.findings.delete`       | Delete an occurrence.         |
+| `security-advisor.findings.list`         | View all findings. |
+| `security-advisor.findings.read`         | View occurrences. |
+| `security-advisor.findings.write`        | Create an occurrence. |
+| `security-advisor.findings.update`       | Update an occurrence. |
+| `security-advisor.findings.delete`       | Delete an occurrence. |
 {: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
 {: #finding-events}
 {: tab-title="Findings"}
@@ -230,10 +231,11 @@ The following events are triggered by the Security Insights component of the {{s
 
 | Action                                          | Description     |
 | :-----------------------------------------------| :---------------|
-| `security-advisor.custom-solution.read`         | View custom solutions.         |
-| `security-advisor.custom-solution.write`        | Add a custom solution.         |
-| `security-advisor.custom-solution.update`       | Update a custom solution.      |
-| `security-advisor.custom-solution.delete`       | Delete a custom solution.      |
+| `security-advisor.custom-solution.list`         | List all custom solutions. |
+| `security-advisor.custom-solution.read`         | View a specific custom solution. |
+| `security-advisor.custom-solution.write`        | Add a custom solution. |
+| `security-advisor.custom-solution.update`       | Update a custom solution. |
+| `security-advisor.custom-solution.delete`       | Delete a custom solution. |
 {: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
 {: #custom-events}
 {: tab-title="Custom"}
@@ -242,10 +244,11 @@ The following events are triggered by the Security Insights component of the {{s
 
 | Action                                           | Description     |
 | :------------------------------------------------| :---------------|
-| `security-advisor.partner-solution.read`         | View partner solutions.         |
-| `security-advisor.partner-solution.write`        | Add a partner solution.         |
-| `security-advisor.partner-solution.update`       | Update a partner solution.      |
-| `security-advisor.partner-solution.delete`       | Delete a partner solution.      |
+| `security-advisor.partner-solution.list`         | List all business partner solutions. |
+| `security-advisor.partner-solution.read`         | View a specific business partner solution. |
+| `security-advisor.partner-solution.write`        | Add a business partner solution. |
+| `security-advisor.partner-solution.update`       | Update a business partner solution. |
+| `security-advisor.partner-solution.delete`       | Delete a business partner solution. |
 {: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
 {: #partner-events}
 {: tab-title="Partners"}
@@ -270,6 +273,7 @@ The following events are triggered by the Security Insights component of the {{s
 | `security-advisor.activity-insights.enable`        | Disable Activity Insights. |
 | `security-advisor.activity-insights-cos.create`    | Connect a Cloud Object Storage bucket. |
 | `security-advisor.activity-insights-cos.delete`    | Disconnect a Cloud Object Storage bucket. |
+| `security-advisor.activity-insights-config.test`   | Test the Activity Insights configuration. |
 {: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
 {: #activity-events}
 {: tab-title="Activity"}
@@ -278,13 +282,26 @@ The following events are triggered by the Security Insights component of the {{s
 
 | Action                                                | Description     |
 | :-----------------------------------------------------| :---------------|
-| `security-advisor.notification-channels.read`         | View a notification channel.|
-| `security-advisor.notification-channels.create`       | Create a notification channel.|
-| `security-advisor.notification-channels.update`       | Update a notification channel.|
-| `security-advisor.notification-channels.delete`       | Delete a notification channel.|
+| `security-advisor.notification-channels.list`         | View all alert channels.|
+| `security-advisor.notification-channels.read`         | View a alert channel.|
+| `security-advisor.notification-channels.create`       | Create a alert channel.|
+| `security-advisor.notification-channels.update`       | Update a alert channel.|
+| `security-advisor.notification-channels.delete`       | Delete a alert channel.|
 {: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
-{: #notification-events}
-{: tab-title="Notifications"}
+{: #alert-events}
+{: tab-title="Alerts"}
+{: tab-group="insights"}
+{: class="simple-tab-table"}
+
+| Action                                 | Description     |
+| :--------------------------------------| :---------------|
+| `security-advisor.keys.read`           | Read customer managed encryption configuration. |
+| `security-advisor.keys.write`          | Create a customer managed encryption configuration. |
+| `security-advisor.keys.delete`         | Delete customer managed encryption configuration. |
+
+{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: #key-events}
+{: tab-title="Keys"}
 {: tab-group="insights"}
 {: class="simple-tab-table"}
 
