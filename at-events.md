@@ -199,10 +199,10 @@ The following events are triggered by the Configuration Governance component of 
 {: class="simple-tab-table"}
 
 
-## Events for Security Insights
+## Events for security Insights
 {: #at_actions_insights}
 
-The following events are triggered by the Security Insights component of the {{site.data.keyword.compliance_short}}. The Security Insights component was formerly known as Security Advisor.
+The following events are triggered by the security Insights component of the {{site.data.keyword.compliance_short}}. The security Insights component was formerly known as Security Advisor.
 
 | Action                                   | Description     |
 | :----------------------------------------| :---------------|
@@ -210,7 +210,7 @@ The following events are triggered by the Security Insights component of the {{s
 | `security-advisor.metadata.write`        | Create a note. |
 | `security-advisor.metadata.update`       | Update a note  |
 | `security-advisor.metadata.delete`       | Delete a note. |
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: caption="Table 3. List of events that apply to security Insights" caption-side="top"}
 {: #notes-events}
 {: tab-title="Notes"}
 {: tab-group="insights"}
@@ -223,7 +223,7 @@ The following events are triggered by the Security Insights component of the {{s
 | `security-advisor.findings.write`        | Create an occurrence. |
 | `security-advisor.findings.update`       | Update an occurrence. |
 | `security-advisor.findings.delete`       | Delete an occurrence. |
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: caption="Table 3. List of events that apply to security Insights" caption-side="top"}
 {: #finding-events}
 {: tab-title="Findings"}
 {: tab-group="insights"}
@@ -236,7 +236,7 @@ The following events are triggered by the Security Insights component of the {{s
 | `security-advisor.custom-solution.write`        | Add a custom solution. |
 | `security-advisor.custom-solution.update`       | Update a custom solution. |
 | `security-advisor.custom-solution.delete`       | Delete a custom solution. |
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: caption="Table 3. List of events that apply to security Insights" caption-side="top"}
 {: #custom-events}
 {: tab-title="Custom"}
 {: tab-group="insights"}
@@ -249,7 +249,7 @@ The following events are triggered by the Security Insights component of the {{s
 | `security-advisor.partner-solution.write`        | Add a business partner solution. |
 | `security-advisor.partner-solution.update`       | Update a business partner solution. |
 | `security-advisor.partner-solution.delete`       | Delete a business partner solution. |
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: caption="Table 3. List of events that apply to security Insights" caption-side="top"}
 {: #partner-events}
 {: tab-title="Partners"}
 {: tab-group="insights"}
@@ -261,7 +261,7 @@ The following events are triggered by the Security Insights component of the {{s
 | `security-advisor.network-insights.enable`        | Disable Network Insights. |
 | `security-advisor.network-insights-cos.create`    | Connect a Cloud Object Storage bucket. |
 | `security-advisor.network-insights-cos.delete`    | Disconnect a Cloud Object Storage bucket. |
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: caption="Table 3. List of events that apply to security Insights" caption-side="top"}
 {: #network-events}
 {: tab-title="Network"}
 {: tab-group="insights"}
@@ -274,7 +274,7 @@ The following events are triggered by the Security Insights component of the {{s
 | `security-advisor.activity-insights-cos.create`    | Connect a Cloud Object Storage bucket. |
 | `security-advisor.activity-insights-cos.delete`    | Disconnect a Cloud Object Storage bucket. |
 | `security-advisor.activity-insights-config.test`   | Test the Activity Insights configuration. |
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: caption="Table 3. List of events that apply to security Insights" caption-side="top"}
 {: #activity-events}
 {: tab-title="Activity"}
 {: tab-group="insights"}
@@ -287,7 +287,7 @@ The following events are triggered by the Security Insights component of the {{s
 | `security-advisor.notification-channels.create`       | Create a alert channel.|
 | `security-advisor.notification-channels.update`       | Update a alert channel.|
 | `security-advisor.notification-channels.delete`       | Delete a alert channel.|
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: caption="Table 3. List of events that apply to security Insights" caption-side="top"}
 {: #alert-events}
 {: tab-title="Alerts"}
 {: tab-group="insights"}
@@ -299,7 +299,7 @@ The following events are triggered by the Security Insights component of the {{s
 | `security-advisor.keys.write`          | Create a customer managed encryption configuration. |
 | `security-advisor.keys.delete`         | Delete customer managed encryption configuration. |
 
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
+{: caption="Table 3. List of events that apply to security Insights" caption-side="top"}
 {: #key-events}
 {: tab-title="Keys"}
 {: tab-group="insights"}
