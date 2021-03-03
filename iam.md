@@ -81,7 +81,7 @@ To assign access, you can use the **Access (IAM)** section of the console.
 
 After you define the level of access that a user might need, you can assign them a platform access role. Review the following tables that outline which roles are required to perform actions within the {{site.data.keyword.compliance_short}}.
 
-## Roles for Posture Management
+### Roles for Posture Management
 {: #compliance-roles}
 
 The following tables list the platform access roles that are required to manage collectors, credentials, scopes, validations, and profiles in your accounts.
