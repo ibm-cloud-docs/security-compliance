@@ -73,13 +73,8 @@ Your security and compliance score is the weighted average of the goals that pas
 
 To improve your score, address the security and compliance issues that are found. To make the biggest difference, start with the highest severity issues on your most significant resources. 
 
-## Before you begin
-{: #before-scan-results}
 
-Before you get started, be sure that you have the required level of access to view and manage results. 
-
-
-## Viewing your dashboard
+## Understanding the dashboard
 {: #view-dashboard}
 
 In the {{site.data.keyword.compliance_short}}, you can see a graphical view of your current posture. To view results, you need the viewer platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
@@ -149,6 +144,7 @@ To see the results of a validation scan, you can use the {{site.data.keyword.com
 5. Optional: Export the results.
 
   <table>
+    <caption>Table 3. Understanding export options</caption>
     <tr>
       <th>Report type</th>
       <th>Description</th>
@@ -182,7 +178,7 @@ The scan results that are displayed by default are the most recent. To see previ
 4. Select **Fact collection** or **Discovery** from the drop-down to adjust the results that you see. Check out the following table to learn more about your options for viewing results.
 
   <table>
-    <caption>Table 3. Understanding what each view provides</caption>
+    <caption>Table 4. Understanding what each view provides</caption>
     <tr>
       <th>View</th>
       <th>Description</th>
