@@ -43,7 +43,7 @@ Security and Compliance Center
         results.md
 
     [Gaining insight](https://{DomainName}/docs/security-advisor?topic=security-advisor-getting-started)
-    
+
     {: .topicgroup}
     Enhancing security
         data-security.md
