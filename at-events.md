@@ -4,7 +4,7 @@ copyright:
   years: 2021
 lastupdated: "2021-03-03"
 
-keywords: activity tracker for _servicename_, LogDNA for _servicename_, _servicename_ events, _servicename_ security, audit logs for _servicename_, viewing _servicename_ events, _servicename_ events
+keywords: activity tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
 subcollection: security-compliance
 
