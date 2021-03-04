@@ -146,7 +146,7 @@ The following tables list the platform access roles that are required to manage 
 | `compliance.posture-management.values-delete` | Delete a parameter.                                  | Editor, Administrator                   |
 {: caption="Table 1. IAM user roles and actions for Posture Management" caption-side="top"}
 {: #goals-access}
-{: tab-title="Goals"}
+{: tab-title="Goal parameters"}
 {: tab-group="compliance"}
 {: class="simple-tab-table"}
 

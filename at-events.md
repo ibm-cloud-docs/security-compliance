@@ -68,7 +68,7 @@ The following events are triggered by the Posture Management component of the {{
 | `compliance.posture-management.credentialsmap-create` | Map credentials to a scope. |
 | `compliance.posture-management.credentialsmap-update` | Update an existing mapping between a credential and a scope. |
 | `compliance.posture-management.credentialsmap-delete` | Delete a mapping. |
-{: caption="Table 1. List of events that apply to the Posture Management component" caption-side="top"}
+{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #credentials-events}
 {: tab-title="Credentials"}
 {: tab-group="posture"}
@@ -80,7 +80,7 @@ The following events are triggered by the Posture Management component of the {{
 | `compliance.posture-management.collectors-create` | Create a collector.           |
 | `compliance.posture-management.collectors-update` | Update an existing collector. |
 | `compliance.posture-management.collectors-delete` | Delete a collector.           |
-{: caption="Table 1. List of events that apply to the Posture Management component" caption-side="top"}
+{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #collectors-events}
 {: tab-title="Collectors"}
 {: tab-group="posture"}
@@ -92,7 +92,7 @@ The following events are triggered by the Posture Management component of the {{
 | `compliance.posture-management.scopes-create` | Create a scope.           |
 | `compliance.posture-management.scopes-update` | Update an existing scope. |
 | `compliance.posture-management.scopes-delete` | Delete a scope.           |
-{: caption="Table 1. List of events that apply to the Posture Management component" caption-side="top"}
+{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #scopes-events}
 {: tab-title="Scopes"}
 {: tab-group="posture"}
@@ -104,7 +104,7 @@ The following events are triggered by the Posture Management component of the {{
 | `compliance.posture-management.validations-create` | Run a validation scan.              |
 | `compliance.posture-management.validations-update` | Update an existing validation scan. |
 | `compliance.posture-management.validations-delete` | Delete a validation scan.           |
-{: caption="Table 1. List of events that apply to the Posture Management component" caption-side="top"}
+{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #validations-events}
 {: tab-title="Scans"}
 {: tab-group="posture"}
@@ -116,7 +116,7 @@ The following events are triggered by the Posture Management component of the {{
 | `compliance.posture-management.values-create` | Add parameters to an existing goal.                  |
 | `compliance.posture-management.values-update` | Update the parameters of an existing goal.           |
 | `compliance.posture-management.values-delete` | Delete a parameter.                                  |
-{: caption="Table 1. List of events that apply to the Posture Management component" caption-side="top"}
+{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #goals-events}
 {: tab-title="Goals"}
 {: tab-group="posture"}
@@ -128,7 +128,7 @@ The following events are triggered by the Posture Management component of the {{
 | `compliance.posture-management.controls-create` | Add a control to a profile. |
 | `compliance.posture-management.controls-update` | Update an existing control. |
 | `compliance.posture-management.controls-delete` | Delete a control. |
-{: caption="Table 1. List of events that apply to the Posture Management component" caption-side="top"}
+{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #controls-events}
 {: tab-title="Controls"}
 {: tab-group="posture"}
@@ -140,7 +140,7 @@ The following events are triggered by the Posture Management component of the {{
 | `compliance.posture-management.profiles-create` | Create a profile.           |
 | `compliance.posture-management.profiles-update` | Update an existing profile. |
 | `compliance.posture-management.profiles-delete` | Delete a profile.           |
-{: caption="Table 1. List of events that apply to the Posture Management component" caption-side="top"}
+{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #profiles-events}
 {: tab-title="Profiles"}
 {: tab-group="posture"}
@@ -152,20 +152,30 @@ The following events are triggered by the Posture Management component of the {{
 | `compliance.posture-management.tags-create` | Create a tag.           |
 | `compliance.posture-management.tags-update` | Update an existing tag. |
 | `compliance.posture-management.tags-delete` | Delete a tag.           |
-{: caption="Table 1. List of events that apply to the Posture Management component" caption-side="top"}
+{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #tags-events}
 {: tab-title="Tags"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                              |   Description   |
-| :---------------------------------------------------| :---------------|
-| `compliance.configuration-governance-resource.eval` | Describes the resource that is being evaluated. |
-| `compliance.configuration-governance-rule.eval`     | Describes the rule that is being evaluated. |
-{: caption="Table 1. List of events that apply to the Posture Management component" caption-side="top"}
-{: #eval-events}
-{: tab-title="Eval"}
-{: tab-group="posture"}
+| Action                                         | Description             |
+| :--------------------------------------------- | :---------------------- |
+| `compliance.posture-management.dashboard-view` | View the dashboard.     |
+{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
+{: #dashboard-events}
+{: tab-title="Dashboard"}
+{: tab-group="compliance"}
+{: class="simple-tab-table"}
+
+| Action                                      | Description             |
+| :------------------------------------------ | :---------------------- |
+| `compliance.posture-management.keys-read`   | View your customer managed encryption configuration. |
+| `compliance.posture-management.keys-write`  | Enable customer managed encryption configuration. |
+| `compliance.posture-management.tags-delete` | Disable customer managed encryption configuration. |
+{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
+{: #keys-posture-events}
+{: tab-title="Keys"}
+{: tab-group="compliance"}
 {: class="simple-tab-table"}
 
 
@@ -205,6 +215,16 @@ The following events are triggered by the Configuration Governance component of 
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
 {: #results-events}
 {: tab-title="Results"}
+{: tab-group="config"}
+{: class="simple-tab-table"}
+
+| Action                                              |   Description   |
+| :---------------------------------------------------| :---------------|
+| `compliance.configuration-governance-resource.eval` | Describes the resource that is being evaluated. |
+| `compliance.configuration-governance-rule.eval`     | Describes the rule that is being evaluated. |
+{: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
+{: #eval-events}
+{: tab-title="Eval"}
 {: tab-group="config"}
 {: class="simple-tab-table"}
 
