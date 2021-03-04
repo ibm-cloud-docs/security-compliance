@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-03"
+lastupdated: "2021-03-04"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -240,10 +240,10 @@ For more information about assigning user roles in the console, see [Managing ac
 {: tip}
 
 
-### Roles for security Insights
+### Roles for Security Insights
 {: #insights-roles}
 
-The following events are triggered by the security Insights component of the {{site.data.keyword.compliance_short}}.
+The following events are triggered by the Security Insights component of the {{site.data.keyword.compliance_short}}.
 
 | Action                                   | Description                    | Role                    |
 | :--------------------------------------- | :----------------------------- | :---------------------- |
@@ -251,7 +251,7 @@ The following events are triggered by the security Insights component of the {{s
 | `security-advisor.metadata.write`        | Create a note.                 | Manager |
 | `security-advisor.metadata.update`       | Update a note                  | Manager |
 | `security-advisor.metadata.delete`       | Delete a note.                 | Manager |
-{: caption="Table 3. IAM user roles and actions for security Insights" caption-side="top"}
+{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
 {: #notes-access}
 {: tab-title="Notes"}
 {: tab-group="insights"}
@@ -264,7 +264,7 @@ The following events are triggered by the security Insights component of the {{s
 | `security-advisor.findings.write`        | Create an occurrence. | Manager |
 | `security-advisor.findings.update`       | Update an occurrence. | Manager |
 | `security-advisor.findings.delete`       | Delete an occurrence. | Manager |
-{: caption="Table 3. IAM user roles and actions for security Insights" caption-side="top"}
+{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
 {: #finding-access}
 {: tab-title="Findings"}
 {: tab-group="insights"}
@@ -277,7 +277,7 @@ The following events are triggered by the security Insights component of the {{s
 | `security-advisor.custom-solution.write`  | Add a custom solution.           | Manager |
 | `security-advisor.custom-solution.update` | Update a custom solution.        | Manager |
 | `security-advisor.custom-solution.delete` | Delete a custom solution.        | Manager |
-{: caption="Table 3. IAM user roles and actions for security Insights" caption-side="top"}
+{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
 {: #custom-access}
 {: tab-title="Custom"}
 {: tab-group="insights"}
@@ -290,7 +290,7 @@ The following events are triggered by the security Insights component of the {{s
 | `security-advisor.partner-solution.write`   | Add a business partner solution.           | Writer, Manager |
 | `security-advisor.partner-solution.update`  | Update a business partner solution.        | Writer, Manager |
 | `security-advisor.partner-solution.delete`  | Delete a business partner solution.        | Manager |
-{: caption="Table 3. IAM user roles and actions for security Insights" caption-side="top"}
+{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
 {: #partner-access}
 {: tab-title="Partners"}
 {: tab-group="insights"}
@@ -302,7 +302,7 @@ The following events are triggered by the security Insights component of the {{s
 | `security-advisor.network-insights.enable`        | Disable Network Insights. | Manager |
 | `security-advisor.network-insights-cos.create`    | Connect a Cloud Object Storage bucket. | Manager |
 | `security-advisor.network-insights-cos.delete`    | Disconnect a Cloud Object Storage bucket. | Manager |
-{: caption="Table 3. IAM user roles and actions for security Insights" caption-side="top"}
+{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
 {: #network-access}
 {: tab-title="Network"}
 {: tab-group="insights"}
@@ -314,7 +314,7 @@ The following events are triggered by the security Insights component of the {{s
 | `security-advisor.activity-insights-cos.create`    | Connect a Cloud Object Storage bucket. | Manager |
 | `security-advisor.activity-insights-cos.delete`    | Disconnect a Cloud Object Storage bucket. | Manager |
 | `security-advisor.activity-insights-config.test`   | Test the Activity Insights configuration. | Manager |
-{: caption="Table 3. IAM user roles and actions for security Insights" caption-side="top"}
+{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
 {: #activity-access}
 {: tab-title="Activity"}
 {: tab-group="insights"}
@@ -327,7 +327,7 @@ The following events are triggered by the security Insights component of the {{s
 | `security-advisor.notification-channels.create`  | Create a alert channel.| Manager |
 | `security-advisor.notification-channels.update`  | Update a alert channel.| Manager |
 | `security-advisor.notification-channels.delete`  | Delete a alert channel.| Manager |
-{: caption="Table 3. IAM user roles and actions for security Insights" caption-side="top"}
+{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
 {: #alert-access}
 {: tab-title="Alerts"}
 {: tab-group="insights"}
@@ -338,7 +338,7 @@ The following events are triggered by the security Insights component of the {{s
 | `security-advisor.keys.read`    | Read customer managed encryption configuration. | Writer, Manager |
 | `security-advisor.keys.write`   | Create a customer managed encryption configuration. | Manager |
 | `security-advisor.keys.delete`  | Delete customer managed encryption configuration. | Manager |
-{: caption="Table 3. IAM user roles and actions for security Insights" caption-side="top"}
+{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
 {: #key-access}
 {: tab-title="Keys"}
 {: tab-group="insights"}
