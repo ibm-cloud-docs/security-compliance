@@ -47,7 +47,6 @@ Security and Compliance Center
     {: .topicgroup}
     Enhancing security
         data-security.md
-        architecture-workload-isolation.md
         at-events.md
     {: .navgroup-end}
 

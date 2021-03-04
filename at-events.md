@@ -160,8 +160,8 @@ The following events are triggered by the Posture Management component of the {{
 
 | Action                                              |   Description   |
 | :---------------------------------------------------| :---------------|
-| `compliance.configuration-governance-resource.eval` | View tags.      |
-| `compliance.configuration-governance-rule.eval`     | Create a tag.   |
+| `compliance.configuration-governance-resource.eval` | Describes the resource that is being evaluated. |
+| `compliance.configuration-governance-rule.eval`     | Describes the rule that is being evaluated. |
 {: caption="Table 1. List of events that apply to the Posture Management component" caption-side="top"}
 {: #eval-events}
 {: tab-title="Eval"}

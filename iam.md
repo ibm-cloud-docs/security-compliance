@@ -186,6 +186,26 @@ The following tables list the platform access roles that are required to manage 
 {: tab-group="compliance"}
 {: class="simple-tab-table"}
 
+| Action                                         | Description             | Role                                    |
+| :--------------------------------------------- | :---------------------- | :-------------------------------------- |
+| `compliance.posture-management.dashboard-view` | View the dashboard.     | Viewer, Operator, Editor, Administrator |
+{: caption="Table 1. IAM user roles and actions for Posture Management" caption-side="top"}
+{: #dashboard-access}
+{: tab-title="Dashboard"}
+{: tab-group="compliance"}
+{: class="simple-tab-table"}
+
+| Action                                      | Description             | Role                                    |
+| :------------------------------------------ | :---------------------- | :-------------------------------------- |
+| `compliance.posture-management.keys-read`   | View your customer managed encryption configuration. | Viewer, Operator, Editor, Administrator |
+| `compliance.posture-management.keys-write`  | Enable customer managed encryption configuration. | Editor, Administrator                   |
+| `compliance.posture-management.tags-delete` | Disable customer managed encryption configuration. | Editor, Administrator                   |
+{: caption="Table 1. IAM user roles and actions for Posture Management" caption-side="top"}
+{: #keys-posture-access}
+{: tab-title="Keys"}
+{: tab-group="compliance"}
+{: class="simple-tab-table"}
+
 
 ### Roles for Configuration Governance
 {: #governance-roles}
@@ -307,6 +327,7 @@ The following events are triggered by the Security Insights component of the {{s
 {: tab-title="Network"}
 {: tab-group="insights"}
 {: class="simple-tab-table"}
+
 | Action                                             | Description               | Role                    |
 | :------------------------------------------------- | :------------------------ | :---------------------- |
 | `security-advisor.activity-insights.enable`        | Enable Activity Insights. | Manager |
@@ -333,18 +354,14 @@ The following events are triggered by the Security Insights component of the {{s
 {: tab-group="insights"}
 {: class="simple-tab-table"}
 
-| Action                          | Description                                     | Role                    |
-| :------------------------------ | :---------------------------------------------- | :---------------------- |
-| `security-advisor.keys.read`    | Read customer managed encryption configuration. | Writer, Manager |
-| `security-advisor.keys.write`   | Create a customer managed encryption configuration. | Manager |
-| `security-advisor.keys.delete`  | Delete customer managed encryption configuration. | Manager |
+| Action                         | Description                                     | Role                    |
+| :----------------------------- | :---------------------------------------------- | :---------------------- |
+| `security-advisor.keys.read`   | View your customer managed encryption configuration. | Writer, Manager |
+| `security-advisor.keys.write`  | Enable customer managed encryption configuration. | Manager |
+| `security-advisor.keys.delete` | Disable customer managed encryption configuration. | Manager |
 {: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
 {: #key-access}
 {: tab-title="Keys"}
 {: tab-group="insights"}
 {: class="simple-tab-table"}
-
-
-
-
 
