@@ -325,9 +325,9 @@ The following events are triggered by the Security Insights component of the {{s
 
 | Action                                 | Description     |
 | :--------------------------------------| :---------------|
-| `security-advisor.keys.read`           | Read customer managed encryption configuration. |
-| `security-advisor.keys.write`          | Create a customer managed encryption configuration. |
-| `security-advisor.keys.delete`         | Delete customer managed encryption configuration. |
+| `security-advisor.keys.read`           | View your customer managed encryption configuration. |
+| `security-advisor.keys.write`          | Enable customer managed encryption configuration. |
+| `security-advisor.keys.delete`         | Disable customer managed encryption configuration. |
 {: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
 {: #key-events}
 {: tab-title="Keys"}
