@@ -61,7 +61,7 @@ Review the following known issues that you might encounter while working with th
 |:-------|:-----------|
 | Remediation is unavailable for {{site.data.keyword.cloud_notm}}. | If you're working with Amazon Web Services (AWS) or Azure, you can [remediate issues](/docs/security-compliance?topic=security-compliance-remediation) directly from the service UI. If you're working in {{site.data.keyword.cloud_notm}}, you must manually remediate your issues. |
 | Results for {{site.data.keyword.cloud_notm}} Classic Infrastructure are not returned. | It is not possible to scan Gen 1 classic infrastructure as a cloud-based resource. To monitor security and compliance for Gen 1 classic infrastructure, configure an on-prem collector. |
-| Results for the resource view are not returned if [1] The number of goals in a scan exceeds 560. [2] The number of resources exceeds 3000. | If you are processing a large scan, you can use the control view or drift view to see your results. |
+| Results for the resource view are not returned if [1] The total number of goals in the profiles attached to a scan exceeds 560. [2] The number of resources exceeds 3000. | If you are processing a large scan, you can use the control view or drift view to see your results. |
 {: caption="Table 1. Known issues and workarounds" caption-side="top"}
 
 
