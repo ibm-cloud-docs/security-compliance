@@ -128,7 +128,7 @@ So, as an example, the code snippets shown in the following image evaluate to tr
 
 In addition to allowing multiple conditions, some {{site.data.keyword.cloud_notm}} services, such as Cloud Object Storage, support nested or sub-parameters within the main definition. To create a rule with nested properties, you can use dot notation in the form of `<main_property>.<sub_property>` to indicate the relationship between the two properties.
 
-For example, you can restrict access to a Cloud Object Storage bucket by determining which IP addresses are authorized to access the firewall. In this truncated example, `firewall` is the main property while `allowed_ip` and `denied_ip` are nested. 
+For example, you can restrict access to a Cloud Object Storage bucket by determining which IP addresses are authorized to access the firewall. In this truncated example, `firewall` is the main property while `allowed_ip` and `denied_ip` are nested.
 
 ```json
 {
@@ -177,7 +177,7 @@ String-based operators are case-sensitive.
 | `is_false`  | Boolean | The property value is false. | No |
 | `string_equals`[^string_equals] | String |  The property value is an exact match to the condition value. | Yes |
 | `string_not_equals` | String |  The property value is not an exact match to the condition value. |Yes|
-| `string_match` | String |  The property value matches the condition value by using the [Krauss wildcarding algorithm](https://en.wikipedia.org/wiki/Krauss_wildcard-matching_algorithm){: external}. | Yes | 
+| `string_match` | String |  The property value matches the condition value by using the [Krauss wildcarding algorithm](https://en.wikipedia.org/wiki/Krauss_wildcard-matching_algorithm){: external}. | Yes |
 | `string_not_match` | String |  The property value does not match the condition value by using [Krauss wildcarding algorithm](https://en.wikipedia.org/wiki/Krauss_wildcard-matching_algorithm){: external}.| Yes |
 | `strings_in_list`[^strings_in_list] | String list |  All property values are in the condition value list. | Yes |
 | `ips_in_range`[^ips_in_range] | IP list |  All property values, in IPv4 or IPv6 format, are in the condition value list. | Yes |
@@ -191,9 +191,9 @@ String-based operators are case-sensitive.
 
 [^string_equals]: To include multiple values, use a list. For example, `{"value": ["A", "B," "C"]}`
 
-[^strings_in_list]: To create a rule with a property that supports the `strings_in_list` operator, include a list of strings for the `value` parameter. For example, `{"value": ["A", "B," "C"]}`. 
+[^strings_in_list]: To create a rule with a property that supports the `strings_in_list` operator, include a list of strings for the `value` parameter. For example, `{"value": ["A", "B," "C"]}`.
 
-[^ips_in_range]: To create a rule with a property that supports the `ips_in_range` operator, include a list of CIDR or IP addresses for the `value` parameter. For example, `{"value": ["10.168.175.0/24", "2000:db8:ffff:ffff:ffff:ffff:ffff:ffff"]}`. 
+[^ips_in_range]: To create a rule with a property that supports the `ips_in_range` operator, include a list of CIDR or IP addresses for the `value` parameter. For example, `{"value": ["10.168.175.0/24", "2000:db8:ffff:ffff:ffff:ffff:ffff:ffff"]}`.
 
 
 ## Which services can I apply rules to?
@@ -211,7 +211,7 @@ The properties that are available in the {{site.data.keyword.compliance_short}} 
 ## How can I use a rule in {{site.data.keyword.cloud_notm}}?
 {: #config-rule-use-cases}
 
-Rules help you to standardize the fine-grained configurations of your {{site.data.keyword.cloud_notm}} services. As an administrator, you can determine where your organization might benefit from guardrails around resource configuration and then use the {{site.data.keyword.compliance_short}} to create and monitor them. By attaching your rule to a specific [scope](/docs/security-compliance?topic=security-compliance-rules#evaluate-rules), you can limit the rule to a specific section of your business. Then, every 24 hours, a report is generated that details the results of your compliance in the {{site.data.keyword.compliance_short}} UI that you can use to investigate potential issues. 
+Rules help you to standardize the fine-grained configurations of your {{site.data.keyword.cloud_notm}} services. As an administrator, you can determine where your organization might benefit from guardrails around resource configuration and then use the {{site.data.keyword.compliance_short}} to create and monitor them. By attaching your rule to a specific [scope](/docs/security-compliance?topic=security-compliance-rules#evaluate-rules-ui), you can limit the rule to a specific section of your business. Then, every 24 hours, a report is generated that details the results of your compliance in the {{site.data.keyword.compliance_short}} UI that you can use to investigate potential issues.
 
 
 Check out the following diagram to see an example rule sequence:
@@ -227,12 +227,12 @@ Check out the following diagram to see an example rule sequence:
 ### Use case: Configuring {{site.data.keyword.cloudcerts_short}} instances
 {: #config-rule-use-case-certificate-manager}
 
-Let's say that your business is looking for a way to standardize how its {{site.data.keyword.cloudcerts_short}} instances are configured across multiple accounts. To meet an organizational guideline, your business wants to prove that it manages its SSL and TLS certificates only over a private network. 
+Let's say that your business is looking for a way to standardize how its {{site.data.keyword.cloudcerts_short}} instances are configured across multiple accounts. To meet an organizational guideline, your business wants to prove that it manages its SSL and TLS certificates only over a private network.
 
 You decide to define the following rule:
 
 ```json
-{ 
+{
   "rule": {
     "name": "Private network only - {{site.data.keyword.cloudcerts_short}}",
     "description": "Access to {{site.data.keyword.cloudcerts_short}} instances is allowed only over a private network",
@@ -243,7 +243,7 @@ You decide to define the following rule:
     "required_config": {
 	  "description": "Private network check",
       "and": [
-        { 
+        {
           "property": "allowed_network",
           "operator": "is_true",
           "value": "public-and-private"

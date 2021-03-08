@@ -92,7 +92,7 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the rules th
           "operator": "string_equals",
           "value": "My_bucket"
         }
-      ] 
+      ]
     },
     "required_config": {
       "description": "Check whether my bucket is accessible by using only private endpoints.",
@@ -136,7 +136,7 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the rules th
     </tr>
     <tr>
       <td><code>required_config</code></td>
-      <td><p>The requirements that must be met to determine the your resources level of compliance in accordance with the rule.</p><p>You can use logical operators (<code>and</code>/<code>or</code>) to define multiple property checks and conditions. To define requirements for a rule, list one or more property check objects in the <code>and</code> array. To add conditions to a property check, use <code>or</code>. For more information about defining a rule with multiple conditions, see [Rules with multiple conditions](/docs/security-compliance?topic=security-compliance-what-is-rule#config-rule-multiple-conditions).</p>
+      <td><p>The requirements that must be met to determine the your resources level of compliance in accordance with the rule.</p><p>You can use logical operators (<code>and</code>/<code>or</code>) to define multiple property checks and conditions. To define requirements for a rule, list one or more property check objects in the <code>and</code> array. To add conditions to a property check, use <code>or</code>. For more information about defining a rule with multiple conditions, see [How do properties work?](/docs/security-compliance?topic=security-compliance-what-is-rule#rule-properties)</p>
       </td>
     </tr>
     <tr>
@@ -169,7 +169,7 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the rules th
   Enforcement actions are triggered only when an account user creates or modifies the resource that you are targeting with a rule.
   {: note}
 11. Review your selections. To make an update, click **Back** to return to the section that you want to edit.
-12. Click **Finish and attach** to create your rule and [attach it to a scope](#evaluate-rules). 
+12. Click **Finish and attach** to create your rule and [attach it to a scope](#evaluate-rules-ui).
 
     If you're not ready to attach your rule, you can always save your rule and attach it later. But, your rule is not enforced until it is attached to a scope
 
@@ -221,12 +221,12 @@ curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
         ],
         "labels": [
           "storage"
-        ]        
-        }        
-        }        
-      }      
-    }    
-  ]  
+        ]
+        }
+        }
+      }
+    }
+  ]
 }'
 ```
 {: codeblock}
@@ -262,7 +262,7 @@ To create an attachment for a rule by using the {{site.data.keyword.compliance_s
 
 By creating an attachment between a rule and a scope, you can monitor the resources that exist in that scope against the rule that you defined. If you have a specific account that you don't want the rule to apply to, you can choose to exclude it. For example, if you apply a rule to an entire enterprise you might want to exclude a scope that is used primarily for testing.
 
-The following example request creates an attachment between an existing rule and a scope. 
+The following example request creates an attachment between an existing rule and a scope.
 
 ```bash
 curl -X POST \
@@ -290,7 +290,7 @@ curl -X POST \
 ```
 {: codeblock}
 
-A successful `POST config/v1/rules/{rule_ID}/attachments` response returns the ID value for the attachment, along with other metadata. For more information about the required and optional request parameters, see [Create attachments](/apidocs/security-compliance/config#create-attachments). 
+A successful `POST config/v1/rules/{rule_ID}/attachments` response returns the ID value for the attachment, along with other metadata. For more information about the required and optional request parameters, see [Create attachments](/apidocs/security-compliance/config#create-attachments).
 
 
 ## Viewing rules with the UI
@@ -305,13 +305,13 @@ After you create a rule, you can view it by navigating to the {{site.data.keywor
    From the **Configuration rules** table, you can see a list of your available rules and the {{site.data.keyword.cloud_notm}} service that is associated with each rule. You can also view the enforcement actions that are associated with each rule in cases of noncompliance.
 3. From the list of rules, click the name of the rule that you want to view.
 
-   You can view the parameters that are associated with the rule. To view or edit the [scope attachments](#evaluate-rules) for the rule, click **Attachments** in the navigation.
+   You can view the parameters that are associated with the rule. To view or edit the [scope attachments](#evaluate-rules-ui) for the rule, click **Attachments** in the navigation.
 
 ## Viewing rules with the API
 {: #view-rules-api}
 {: api}
 
-After you create a rule, you can view it by using the API. The following request example lists the rules that are available in your account. 
+After you create a rule, you can view it by using the API. The following request example lists the rules that are available in your account.
 
 ```bash
 curl -X POST \
@@ -341,14 +341,14 @@ If you no longer need to use a rule, you can choose to delete it by using the {{
 {: #delete-rules-api}
 {: api}
 
-If you no longer need to use a rule, you can choose to delete it by using the {{site.data.keyword.compliance_short}} APIs. The following example request deletes an existing rule. 
+If you no longer need to use a rule, you can choose to delete it by using the {{site.data.keyword.compliance_short}} APIs. The following example request deletes an existing rule.
 
 ```bash
 curl -X DELETE \
 "https://compliance.{DomainName}/config/v1/rules/<rule_ID> \
-  -H 'Authorization: Bearer <access_token>' 
+  -H 'Authorization: Bearer <access_token>'
   -H 'Content-type: application/json'
 ```
 {: codeblock}
 
-A successful `DELETE config/v1/rules/{rule_ID}` response returns a `204 No Content` status code to indicate that your rule was successfully deleted. For more information about the required and optional request parameters, see [Delete a rule](/apidocs/security-compliance/config#delete-rule). 
+A successful `DELETE config/v1/rules/{rule_ID}` response returns a `204 No Content` status code to indicate that your rule was successfully deleted. For more information about the required and optional request parameters, see [Delete a rule](/apidocs/security-compliance/config#delete-rule).
