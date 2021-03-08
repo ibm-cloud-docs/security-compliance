@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-08"
+lastupdated: "2021-03-08"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -177,7 +177,7 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the rules th
 {: #create-rule-api}
 {: api}
 
-You can create rules programmatically by using the {{site.data.keyword.compliance_short}} API. For example, if you wanted to create a rule prohibitted access to a specific bucket unless the request came from a private endpoint, your request might look similar to the following code snippet.
+You can create rules programmatically by using the {{site.data.keyword.compliance_short}} API. For example, if you wanted to create a rule prohibited access to a specific bucket unless the request came from a private endpoint, your request might look similar to the following code snippet.
 
 ```bash
 curl -x POST "https://compliance.{DomainName}/config/v1/rules" \

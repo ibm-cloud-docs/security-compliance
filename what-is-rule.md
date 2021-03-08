@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-17"
+lastupdated: "2021-03-08"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -128,7 +128,7 @@ So, as an example, the code snippets shown in the following image evaluate to tr
 
 In addition to allowing multiple conditions, some {{site.data.keyword.cloud_notm}} services, such as Cloud Object Storage, support nested or sub-parameters within the main definition. To create a rule with nested properties, you can use dot notation in the form of `<main_property>.<sub_property>` to indicate the relationship between the two properties.
 
-For example, you can resrict access to a Cloud Object Storage bucket by determining which IP addresses are authorized to access the firewall. In this truncated example, `firewall` is the main property while `allowed_ip` and `denied_ip` are nested. 
+For example, you can restrict access to a Cloud Object Storage bucket by determining which IP addresses are authorized to access the firewall. In this truncated example, `firewall` is the main property while `allowed_ip` and `denied_ip` are nested. 
 
 ```json
 {
