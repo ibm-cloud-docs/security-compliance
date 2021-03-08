@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-05"
+lastupdated: "2021-03-08"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -73,7 +73,7 @@ When you're working with {{site.data.keyword.compliance_short}}, there are a few
 ### Rule limits
 {: #rule-limits}
 
-Review the following table to see the limits that apply to rules. 
+Review the following table to see the limits that apply to rules.
 
 |  | Limit |
 |----------------|-----------|
@@ -86,12 +86,11 @@ Review the following table to see the limits that apply to rules.
 | Properties | 24 per condition |
 | Enforcement actions | 2 per rule |
 | Labels | 32 per rule |
-| Label length | 64 Characters </br> **Note**: Commas (,) and slashes (/) cannot be used in labels. |
+| Label length | 64 characters </br> **Note**: Commas (,) and slashes (/) cannot be used in labels. |
 | Attachments | 10 per rule |
 | Excluded scopes | 8 per attachment |
 | Results | Kept for 7 days |
 {: row-headers}
 {: caption="Table 2. Rule limits" caption-side="top"}
-
 
 
