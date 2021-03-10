@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-03-08"
+lastupdated: "2021-03-10"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -49,6 +49,8 @@ subcollection: secrets-manager
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.compliance_full}} that are grouped by date.
 {:shortdesc}
+
+
 
 
 
