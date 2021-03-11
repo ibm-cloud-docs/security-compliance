@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-04"
+lastupdated: "2021-03-11"
 
 keywords: best practices security and compliance, secure development, security strategy, insights, governance
 
@@ -76,7 +76,7 @@ The {{site.data.keyword.compliance_short}} is comprised on three different compo
 
 When you work with the {{site.data.keyword.compliance_short}}, you interact with several interrelated components, including profiles, config rules, and scopes. Check out the following diagram to see how the components work together to help you manage and validate compliance in {{site.data.keyword.cloud_notm}}.
 
-![The diagram shows how you can create profiles and rules, enforce them across scopes that you specify to continuously validate your resources for compliance. The information in the diagram is explained in further detail in the surrounding text.](images/posture-management.svg){: caption="Figure 1. How the security and compliance posture monitoring components work together" caption-side="bottom"}
+![The diagram shows how you can create profiles and rules, enforce them across scopes that you specify to continuously validate your resources for compliance. The information in the diagram is explained in further detail in the surrounding text.](images/posture.svg){: caption="Figure 1. How the security and compliance posture monitoring components work together" caption-side="bottom"}
 
 
 As a security or compliance focal, you create credentials and install a collector to get started. Then, you create profiles and scopes to start validating specific sections of your business by using specific regulations or requirements. With everything configured, the {{site.data.keyword.compliance_short}} works in the background to monitor for potential risk by scanning your resources on a schedule that you determined. When the scans of your resources are complete, the service does a quick calculation to determine your security and compliance score before displaying the score and your detailed results in a dashboard. From the dashboard, you can download a detailed report that you can use to provide evidence to stakeholders or external auditors.
@@ -98,7 +98,7 @@ By creating config rules, you can standardize resource configuration across your
 
 With Security Insights, you can continuously monitor and analyze your {{site.data.keyword.cloud_notm}} resources and applications for potential risks that might impact your environment. With Security Insights, you get access to threat detection, security risk prevention, and suggested remediation steps that can help to mitigated issued findings, sent through customized alert notifications, that can give you a more comprehensive understanding of your current security status. Check out the following table to learn more about the different capabilities.
 
-![The diagram shows the components of Security Insights](images/security-insights.svg){: caption="Figure 3. A visual representation of the components of Security Insights." caption-side="bottom"}
+![The diagram shows the components of Security Insights](images/insights.svg){: caption="Figure 3. A visual representation of the components of Security Insights." caption-side="bottom"}
 
 <dl>
   <dt>Activity Insights</dt>
