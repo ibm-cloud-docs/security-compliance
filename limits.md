@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-04"
+lastupdated: "2021-03-15"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -60,19 +60,20 @@ Review the following known issues that you might encounter while working with th
 | Issue  | Workaround |
 |:-------|:-----------|
 | Remediation is unavailable for {{site.data.keyword.cloud_notm}}. | If you're working with Amazon Web Services (AWS) or Azure, you can [remediate issues](/docs/security-compliance?topic=security-compliance-remediation) directly from the service UI. If you're working in {{site.data.keyword.cloud_notm}}, you must manually remediate your issues. |
-| Results for {{site.data.keyword.cloud_notm}} classic infrastructure are not returned. | It is not possible to scan Gen 1 classic infrastructure as a cloud-based resource. To monitor security and compliance for Gen 1 classic infrastructure, configure an on-prem collector. |
+| Results for {{site.data.keyword.cloud_notm}} Classic Infrastructure are not returned. | It is not possible to scan Gen 1 classic infrastructure as a cloud-based resource. To monitor security and compliance for Gen 1 classic infrastructure, configure an on-prem collector. |
+| Results for the resource view are not returned if [1] The total number of goals in the profiles attached to a scan exceeds 560. [2] The number of resources exceeds 3000. | If you are processing a large scan, you can use the control view or drift view to see your results. |
 {: caption="Table 1. Known issues and workarounds" caption-side="top"}
 
 
 ## Limits
 {: #limits}
 
-When you're working with {{site.data.keyword.compliance_short}}, there are a few limits on profiles and rules that you need to be aware of.
+When you're working with {{site.data.keyword.compliance_short}}, there are a few limits on rules and templates that you need to be aware of.
 
 ### Rule limits
 {: #rule-limits}
 
-Review the following table to see the limits that apply to rules. 
+Review the following table to see the limits that apply to rules.
 
 |  | Limit |
 |----------------|-----------|
@@ -85,7 +86,7 @@ Review the following table to see the limits that apply to rules.
 | Properties | 24 per condition |
 | Enforcement actions | 2 per rule |
 | Labels | 32 per rule |
-| Label length | 64 Characters </br> **Note**: Commas (,) and slashes (/) cannot be used in labels. |
+| Label length | 64 characters </br> **Note**: Commas (,) and slashes (/) cannot be used in labels. |
 | Attachments | 10 per rule |
 | Excluded scopes | 8 per attachment |
 | Results | Kept for 7 days |
@@ -93,4 +94,20 @@ Review the following table to see the limits that apply to rules.
 {: caption="Table 2. Rule limits" caption-side="top"}
 
 
+### Template limits
+{: #template-limits}
+
+Review the following table to see the limits that apply to templates.
+
+|  | Limit |
+|----------------|-----------|
+| Total templates | 500 templates per enterprise account</br>100 templates per stand alone account |
+| Template length | 4096 characters |
+| Name length | 32 characters |
+| Description length | 256 characters |
+| Properties | 24 per template |
+| Attachments | 10 per template |
+| Excluded scopes | 8 per attachment |
+{: row-headers}
+{: caption="Table 3. Template limits" caption-side="top"}
 

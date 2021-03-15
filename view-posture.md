@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-04"
+lastupdated: "2021-03-03"
 
 keywords: compliance posture, security posture, audit evidence, security scan, evaluation results, scan results, scan results, compliance, score, security and compliance score
 
@@ -45,6 +45,7 @@ subcollection: security-compliance
 {:api: .ph data-hd-interface='api'}
 
 
+
 # Viewing your current posture
 {: #view-posture}
 
@@ -72,28 +73,29 @@ Your security and compliance score is the weighted average of the goals that pas
 
 To improve your score, address the security and compliance issues that are found. To make the biggest difference, start with the highest severity issues on your most significant resources. 
 
-## Before you begin
-{: #before-scan-results}
 
-Before you get started, be sure that you have the required level of access to view and manage results. To view results, you need the viewer platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
-
-
-## Viewing your dashboard
+## Understanding the dashboard
 {: #view-dashboard}
 
-In the {{site.data.keyword.compliance_short}}, you can see a graphical view of your current posture. Check out the following table to see the information that is displayed in the dashboard.
+In the {{site.data.keyword.compliance_short}}, you can see a graphical view of your current posture. To view results, you need the viewer platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
+
+To navigate to the dashboard: 
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+2. Click **Dashboard**. Check out the following table to see the information that is displayed in the dashboard.
 
 | Tile | Description |
 |:------------|:------------| 
 | Security and compliance score | A weighted average of your results. Your score is displayed for a specific environment. To see information for another environment, use the drop-down to select a new environment. |
 | Scopes validated | The number of scopes in your account that are defined and the number that were validated. |
+| Insights | The findings that are available for your account categorized by source. |
 | Collector status | The status of the collectors that exist in your account. |
 | Total validations | The total number of validations run for your account. The tile also contains information about how many are recurring and how many were run once as an on-demand scan. |
 | Most at risk resources | The resources in your selected environment that are the biggest detractor from your score. To see information for another environment, use the drop-down to select a new environment. |
-| Results | The total number of scans and their results for your account displayed by date. |
+| Control validation results | The total number of scans and their results for your account displayed by date. |
 {: caption="Table 1. Understanding the dashboard" caption-side="top"}
 
-You can update the number of days that you want to see by selecting **Today**, **Yesterday**, or the **Last 7**, **15**, or **30 days**.
+You can update the period of time that information is displayed for by selecting **Today**, **Yesterday**, or the **Last 7**, **15**, or **30 days** from the dropdown.
 {: tip}
 
 
@@ -142,6 +144,7 @@ To see the results of a validation scan, you can use the {{site.data.keyword.com
 5. Optional: Export the results.
 
   <table>
+    <caption>Table 3. Understanding export options</caption>
     <tr>
       <th>Report type</th>
       <th>Description</th>
@@ -175,7 +178,7 @@ The scan results that are displayed by default are the most recent. To see previ
 4. Select **Fact collection** or **Discovery** from the drop-down to adjust the results that you see. Check out the following table to learn more about your options for viewing results.
 
   <table>
-    <caption>Table 3. Understanding what each view provides</caption>
+    <caption>Table 4. Understanding what each view provides</caption>
     <tr>
       <th>View</th>
       <th>Description</th>
@@ -211,4 +214,3 @@ If you need to keep your results for long periods of time, or provide informatio
 5. Click **Next**.
 6. Select the timeframe for which you want to download the scores.
 7. Click **Generate report**.
-

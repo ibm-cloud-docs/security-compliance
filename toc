@@ -12,7 +12,7 @@ Security and Compliance Center
 
     {: .navgroup id="howto"}
     iam.md
-    
+
     {: .topicgroup}
     Monitoring your accounts for compliance
 
@@ -33,19 +33,29 @@ Security and Compliance Center
 
         {: .topicgroup}
         Managing the service
-            tags.md 
-            audit-log.md
+            tags.md
             inventory.md
-        
+
     {: .topicgroup}
     Governing the use of resources
-        what-is-rule.md
-        rules.md
-        results.md
+
+        {: .topicgroup}
+        Defining guardrails
+            what-is-rule.md
+            rules.md
+            results.md
+
+        {: .topicgroup}
+        Customizing default values
+            what-is-template.md
+            templates.md
 
     [Gaining insight](https://{DomainName}/docs/security-advisor?topic=security-advisor-getting-started)
-    ha-dr.md
-    data-security.md
+
+    {: .topicgroup}
+    Enhancing security
+        data-security.md
+        at-events.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -53,6 +63,7 @@ Security and Compliance Center
     APIs
         api-setup.md
         [Configuration](https://{DomainName}/apidocs/security-compliance/config)
+    ha-dr.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
@@ -60,4 +71,3 @@ Security and Compliance Center
     troubleshoot.md
     limits.md
     {: .navgroup-end}
-    

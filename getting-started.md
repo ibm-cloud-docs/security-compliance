@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-04"
+lastupdated: "2021-03-12"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -67,7 +67,7 @@ This tutorial focuses on the steps that are required to start scanning your clou
 
 If you don't need to monitor your {{site.data.keyword.cloud_notm}} resources for external regulations, try configuring resource monitoring for another environment, defining a config rule to govern the way that your resources can be used, or enabling built-in insights to help detect incoming threats.
 
-[![This image is a visual link to the instructions for installing a collector on another cloud provider.](images/gs-cloud.svg)](/docs/security-compliance?topic=security-compliance-collector)     [![This image is a visual link to the conceptual information about defining config rules.](images/gs-rules.svg)](/docs/security-compliance?topic=security-compliance-rules)     [![This image is a visual link to the conceptual information about built-in insights.](images/gs-insights.svg)](/docs/security-advisor?topic=security-advisor-integrations#integrate-insights)
+[![This image is a visual link to the instructions for installing a collector on another cloud provider.](images/gs-environment.svg)](/docs/security-compliance?topic=security-compliance-collector)     [![This image is a visual link to the conceptual information about defining config rules.](images/gs-rules.svg)](/docs/security-compliance?topic=security-compliance-rules)     [![This image is a visual link to the conceptual information about built-in insights.](images/gs-insights.svg)](/docs/security-advisor?topic=security-advisor-integrations#integrate-insights)
 
 
 
