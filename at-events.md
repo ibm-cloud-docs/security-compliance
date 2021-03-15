@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-04"
+lastupdated: "2021-03-15"
 
 keywords: activity tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -194,6 +194,30 @@ The following events are triggered by the Configuration Governance component of 
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
 {: #rules-events}
 {: tab-title="Rules"}
+{: tab-group="config"}
+{: class="simple-tab-table"}
+
+| Action                                                 |   Description   |
+| :------------------------------------------------------| :---------------|
+| `compliance.configuration-governance.templates-read`   | View templates. |
+| `compliance.configuration-governance.templates-create` | Create a template. |
+| `compliance.configuration-governance.templates-update` | Update an existing template. |
+| `compliance.configuration-governance.tååemplates-delete` | Delete a template. |
+{: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
+{: #templates-events}å
+{: tab-title="Templates"}
+{: tab-group="config"}
+{: class="simple-tab-table"}
+
+| Action                                                   |   Description   |
+| :--------------------------------------------------------| :---------------|
+| `compliance.configuration-governance.attachments-read`   | View the attachments that are available for a rule or template. |
+| `compliance.configuration-governance.attachments-create` | Create an attachment between a rule or template and a scope. |
+| `compliance.configuration-governance.attachments-update` | Update an existing attachment. |
+| `compliance.configuration-governance.attachments-delete` | Delete an attachment. |
+{: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
+{: #attachments-events}
+{: tab-title="Attachments"}
 {: tab-group="config"}
 {: class="simple-tab-table"}
 
