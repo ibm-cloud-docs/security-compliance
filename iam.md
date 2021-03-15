@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-04"
+lastupdated: "2021-03-15"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -224,12 +224,24 @@ The following tables list the platform access roles that are required to manage 
 {: tab-group="config"}
 {: class="simple-tab-table"}
 
+| Action                                                   | Description                        | Role                                    |
+| :------------------------------------------------------- | :--------------------------------- | :-------------------------------------- |
+| `compliance.configuration-governance.templates-read`     | View templates.                    | Viewer, Operator, Editor, Administrator |
+| `compliance.configuration-governance.templates-create`   | Create a template.                 | Editor, Administrator                   |
+| `compliance.configuration-governance.templates-update`   | Update an existing template.       | Editor, Administrator[^scopes-3]        |
+| `compliance.configuration-governance.templates-delete`   | Delete a template.                 | Editor, Administrator[^scopes-4]        |
+{: caption="Table 2. IAM user roles and actions for Configuration Governance" caption-side="top"}
+{: #templates-access}
+{: tab-title="Templates"}
+{: tab-group="config"}
+{: class="simple-tab-table"}
+
 | Action                                                   | Description                                         | Role                                    |
 | :------------------------------------------------------- | :-------------------------------------------------- | :-------------------------------------- |
-| `compliance.configuration-governance.attachments-read`   | View the attachments that are available for a rule. | Viewer, Operator, Editor, Administrator |
-| `compliance.configuration-governance.attachments-create` | Create an attachment between a rule and a scope.    | Editor, Administrator[^scopes-3]        |
-| `compliance.configuration-governance.attachments-update` | Update an existing attachment.                      | Editor, Administrator[^scopes-4]        |
-| `compliance.configuration-governance.attachments-delete` | Delete an attachment.                               | Editor, Administrator[^scopes-5]        |
+| `compliance.configuration-governance.attachments-read`   | View the attachments that are available for a rule or template. | Viewer, Operator, Editor, Administrator |
+| `compliance.configuration-governance.attachments-create` | Create an attachment between a rule or template and a scope.    | Editor, Administrator[^scopes-5]        |
+| `compliance.configuration-governance.attachments-update` | Update an existing attachment.                      | Editor, Administrator[^scopes-6]        |
+| `compliance.configuration-governance.attachments-delete` | Delete an attachment.                               | Editor, Administrator[^scopes-7]        |
 {: caption="Table 2. IAM user roles and actions for Configuration Governance" caption-side="top"}
 {: #attachments-access}
 {: tab-title="Attachments"}
@@ -249,11 +261,15 @@ The following tables list the platform access roles that are required to manage 
 
 [^scopes-2]: If the rule is attached to a scope, you must also have Administrator access to the scope.
 
-[^scopes-3]: You must also have Administrator access to the scope.
+[^scopes-3]: If the template is attached to a scope, you must also have Administrator access to the scope.
 
-[^scopes-4]: You must also have Administrator access to the scope.
+[^scopes-4]: If the template is attached to a scope, you must also have Administrator access to the scope.
 
 [^scopes-5]: You must also have Administrator access to the scope.
+
+[^scopes-6]: You must also have Administrator access to the scope.
+
+[^scopes-7]: You must also have Administrator access to the scope.
 
 
 For more information about assigning user roles in the console, see [Managing access to resources](/docs/account?topic=account-assign-access-resources).
@@ -280,7 +296,7 @@ The following events are triggered by the Security Insights component of the {{s
 | Action                                   | Description           | Role                    |
 | :--------------------------------------- | :-------------------- | :---------------------- |
 | `security-advisor.findings.list`         | View all findings.    | Reader, Writer, Manager |
-| `security-advisor.findings.read`         | View occurrences.     | Reader, Writer, Manager | 
+| `security-advisor.findings.read`         | View occurrences.     | Reader, Writer, Manager |
 | `security-advisor.findings.write`        | Create an occurrence. | Manager |
 | `security-advisor.findings.update`       | Update an occurrence. | Manager |
 | `security-advisor.findings.delete`       | Delete an occurrence. | Manager |

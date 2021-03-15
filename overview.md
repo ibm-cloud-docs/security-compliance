@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-12"
+lastupdated: "2021-03-15"
 
 keywords: best practices security and compliance, secure development, security strategy, insights, governance
 
@@ -85,9 +85,7 @@ As a security or compliance focal, you create credentials and install a collecto
 ### Configuration Governance
 {: #config-governance}
 
-By creating config rules, you can standardize resource configuration across your accounts. Config rules are guardrails for how your resources can be provisioned and configured. By attaching the rules to a scope, you can monitor and enforce your rules in only the areas that you want to target. For example, if you wanted to disable public access for your production accounts but allow it in a testing account, you can do that. Through rule enforcement, you can code with confidence that your configurations follow the guidelines that you put in place, which significantly decreases the likelihood of a misconfiguration-related security issue.
-
-
+By creating config rules, you can standardize resource configuration across your accounts. Config rules are guardrails for how your resources can be provisioned and configured. By attaching the rules to a scope, you can monitor and enforce your rules in only the areas that you want to target. For example, if you wanted to disable public access for your production accounts but allow it in a testing account, you can do that. Additionally, you can create templates for select {{site.data.keyword.cloud_notm}} services that help you to define your preferred default property values for resources. Through rule enforcement and customized defaults, you can code with confidence that your configurations follow the guidelines that you put in place, which significantly decreases the likelihood of a misconfiguration-related security issue.
 
 ![The diagram shows how you can create profiles and rules, enforce them across scopes that you specify to continuously validate your resources for compliance. The information in the diagram is explained in further detail in the surrounding text.](images/config-governance.svg){: caption="Figure 2. How the Configuration Governance components work together" caption-side="bottom"}
 

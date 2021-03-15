@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-04"
+lastupdated: "2021-03-15"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -90,9 +90,9 @@ You can use the {{site.data.keyword.compliance_short}} to monitor your resources
 {: faq}
 {: support}
 
-When you install a collector, you install two images: the collector image itself and a Watchtower image. 
+When you install a collector, you install two images: the collector image itself and a Watchtower image.
 
-The collector image can be upgraded or patched automatically as the Watchtower image is used to continuously monitor for changes that are made to it. The Watchtower image cannot be upgraded or patched automatically. If there is a new vulnerability or update to the Watchtower image, you are responsible for updating or patching it. 
+The collector image can be upgraded or patched automatically as the Watchtower image is used to continuously monitor for changes that are made to it. The Watchtower image cannot be upgraded or patched automatically. If there is a new vulnerability or update to the Watchtower image, you are responsible for updating or patching it.
 
 For help with updating or more information about Watchtower, see the [open source docs](https://github.com/containrrr/watchtower){: external}.
 
@@ -103,10 +103,10 @@ For help with updating or more information about Watchtower, see the [open sourc
 {: faq}
 {: support}
 
-Currently, you can't attach a rule to a profile. The {{site.data.keyword.compliance_short}} supports two types of rules, predefined and user-defined. 
+Currently, you can't attach a rule to a profile. The {{site.data.keyword.compliance_short}} supports two types of rules, predefined and user-defined.
 
 * Predefined rules can be goals that are offered as part of controls that exist in a profile.
-* User-defined rules are created by you and can be attached directly to a scope for evaluation but cannot be included in a profile. 
+* User-defined rules are created by you and can be attached directly to a scope for evaluation but cannot be included in a profile.
 
 For more information about the types of rules, see [Working with config rules](/docs/security-compliance?topic=security-compliance-rules).
 
@@ -117,6 +117,18 @@ For more information about the types of rules, see [Working with config rules](/
 {: support}
 
 Yes, you can create rules for services or resources that are not already provisioned in your accounts. When a rule is in place, the service or resource is automatically evaluated according to the enforcement actions that you chose when you created the rule.
+
+
+
+## How are config rules and templates different?
+{: #faq-rule-template-differences}
+{: faq}
+{: support}
+
+Rules provide the ability to enforce conditions and actions around the configuration of a target resource. With rules, you can use the {{site.data.keyword.compliance_short}}] UI to monitor for configuration changes in your accounts so that you understand which resources are noncompliant to the rules that you have in place.
+
+Templates help you to customize the default property values that are associated with an {{site.data.keyword.cloud_notm}} resource. By creating templates for resources in your accounts, you're able to override IBM-defined default values for a resource, such as a bucket in Cloud Object Storage, with your preferred values. For more information, see [What is a template?](/docs/security-compliance?topic=security-compliance-what-is-template)
+
 
 
 ## Why can't I select a remediation option?

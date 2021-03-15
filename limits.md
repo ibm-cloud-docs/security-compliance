@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-08"
+lastupdated: "2021-03-15"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -68,7 +68,7 @@ Review the following known issues that you might encounter while working with th
 ## Limits
 {: #limits}
 
-When you're working with {{site.data.keyword.compliance_short}}, there are a few limits on profiles and rules that you need to be aware of.
+When you're working with {{site.data.keyword.compliance_short}}, there are a few limits on rules and templates that you need to be aware of.
 
 ### Rule limits
 {: #rule-limits}
@@ -93,4 +93,21 @@ Review the following table to see the limits that apply to rules.
 {: row-headers}
 {: caption="Table 2. Rule limits" caption-side="top"}
 
+
+### Template limits
+{: #template-limits}
+
+Review the following table to see the limits that apply to templates.
+
+|  | Limit |
+|----------------|-----------|
+| Total templates | 500 templates per enterprise account</br>100 templates per stand alone account |
+| Template length | 4096 characters |
+| Name length | 32 characters |
+| Description length | 256 characters |
+| Properties | 24 per template |
+| Attachments | 10 per template |
+| Excluded scopes | 8 per attachment |
+{: row-headers}
+{: caption="Table 3. Template limits" caption-side="top"}
 

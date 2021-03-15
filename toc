@@ -38,9 +38,17 @@ Security and Compliance Center
 
     {: .topicgroup}
     Governing the use of resources
-        what-is-rule.md
-        rules.md
-        results.md
+
+        {: .topicgroup}
+        Defining guardrails
+            what-is-rule.md
+            rules.md
+            results.md
+
+        {: .topicgroup}
+        Customizing default values
+            what-is-template.md
+            templates.md
 
     [Gaining insight](https://{DomainName}/docs/security-advisor?topic=security-advisor-getting-started)
 
