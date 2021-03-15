@@ -55,6 +55,20 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 
 
 
+## 15 March 2021
+{: #2021-03-15}
+
+This release includes the following updates.
+
+### Customize default values for your resources
+{: #2021-03-15-templates}
+
+Looking for more options to help you govern {{site.data.keyword.cloud_notm}} resources? With {{site.data.keyword.compliance_short}}, you can now create templates that define your preferred property values for target resources in your selected {{site.data.keyword.cloud_notm}} accounts. After you create a template and attach it to a scope, your customized defaults override the default values that are provided by IBM.
+
+To get started with templates, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Govern resources > Configure > Templates**, or check out the [API reference](/apidocs/security-compliance/config) to learn more about creating templates programmatically.
+
+For more information, see [What is a template?](/docs/security-compliance?topic=security-compliance-what-is-template)
+
 
 ## 17 February 2021
 {: #2021-02-17}
@@ -146,7 +160,7 @@ An improved experience is now available for protecting the credentials that you 
 
 This release includes the following updates.
 
-### General availabilty of the {{site.data.keyword.compliance_short}}
+### General availability of the {{site.data.keyword.compliance_short}}
 {: #2020-09-01-general-availability}
 
 The {{site.data.keyword.compliance_short}} is now generally available on {{site.data.keyword.cloud_notm}}!
