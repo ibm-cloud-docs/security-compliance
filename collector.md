@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-04"
+lastupdated: "2021-03-22"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -112,7 +112,7 @@ Be sure that you also have the following requirements:
 You can use the {{site.data.keyword.compliance_short}} UI to create a collector by completing the following steps.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Configure > Settings > Collectors**.
+2. In the navigation, click **Manage posture > Configure > Settings > Collectors**.
 3. Click **Create**.
 4. Give your collector a name and description.
 
@@ -132,7 +132,7 @@ When the collector is created successfully, the status updates to **Ready to ins
 Now that you have a collector, you can install it by completing the following steps.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Configure > Settings > Collectors**.
+2. In the navigation, click **Manage posture > Configure > Settings > Collectors**.
 3. In the **Collectors** table, click the name of the collector that you want to register. The table row expands to provide more information.
 4. Download the `initiate_collector.sh` file.
 5. In terminal, log in to your virtual machine by using SSH.
@@ -189,7 +189,7 @@ Now that you have a collector, you can install it by completing the following st
 
 14. When prompted, enter your collector registration key.
 
-  You can get this value by going to the **Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}} UI and viewing more details about the collector that you want to install.
+  You can get this value by going to the **Manage posture > Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}} UI and viewing more details about the collector that you want to install.
 
 15. Confirm that everything is installed.
 
@@ -217,7 +217,7 @@ If you're working with a scope that requires multiple credentials to complete a 
 Now that your collector is installed, you must approve it before it can start collecting information on your resources.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Configure > Settings > Collectors**.
+2. In the navigation, click **Manage posture > Configure > Settings > Collectors**.
 3. In the **Collectors** table, click **Approve** in the row that corresponds to the collector that you're working with.
 
   When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
