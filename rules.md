@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-08"
+lastupdated: "2021-03-23"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -99,8 +99,10 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the rules th
       "and": [
         {
           "property": "firewall.allowed_network_type",
-          "operator": "string_equals",
-          "value": "private"
+          "operator": "strings_in_list",
+          "value": [
+            "private"
+          ]
         }
       ]
     }
@@ -206,9 +208,11 @@ curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
           "description": "Limit access to private network traffic"
           "and": [
             {
-              "property": "firewall.allowed_network_type",
-              "operator": "string_equals",
-              "value": "private"
+              property: "firewall.allowed_network_type",
+              operator: "strings_in_list",
+              value: [
+                "private"
+              ]
             }
           ],
         "enforcement_actions": [
