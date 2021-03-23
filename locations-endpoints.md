@@ -57,7 +57,7 @@ For more information about how your data is stored and processed in the availabl
 ## Available locations
 {: #available-locations}
 
-{{site.data.keyword.compliance_short}} is available in the following regions:
+{{site.data.keyword.compliance_short}} is available in the following locations:
 
 ![Visual representation of the availability of the service. The image is a map with pin points in the locations in which the service is available. If you are unable to view this image, see the table in the service endpoints section for a complete list.](images/world-map.svg){: caption="Figure 1. {{site.data.keyword.compliance_short}} availability" caption-side="bottom"}
 
@@ -68,7 +68,6 @@ London is available for Security Insights only.
 {: #service-endpoints}
 
 If you're managing your service instances of {{site.data.keyword.compliance_short}} programmatically, see the following table to determine which API endpoints to use when you connect to the APIs.
-
 
 | API | Endpoint  |
 |--------|-----------|
