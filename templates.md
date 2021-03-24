@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-15"
+lastupdated: "2021-03-24"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -88,7 +88,7 @@ You can use the {{site.data.keyword.compliance_short}} UI to create the template
 {: #create-template-api}
 {: api}
 
-You can create templates programmatically by using the {{site.data.keyword.compliance_short}} API. For example, the following request sets your required default values for Cloud Object Storage buckets that are located in the `us-south` region. In the `customized_defaults` object, the `firewall.allowed_ip` property is set to `private-only`.
+You can create templates programmatically by using the {{site.data.keyword.compliance_short}} API. For example, the following request sets your required default values for Cloud Object Storage buckets that are located in the `us-south` region. In the `customized_defaults` object, the `firewall.allowed_ip` property is set to a list of IP addresses to be applied.
 
 ```bash
 curl -X POST "https://compliance.{DomainName}/config/v1/templates" \
