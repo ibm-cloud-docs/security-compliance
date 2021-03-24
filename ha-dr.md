@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-04"
+lastupdated: "2021-03-23"
 
 keywords: HA for {{site.data.keyword.compliance_short}}, DR for {{site.data.keyword.compliance_short}}, high availability for {{site.data.keyword.compliance_short}}, disaster recovery for {{site.data.keyword.compliance_short}}, failover for {{site.data.keyword.compliance_short}}
 
@@ -44,24 +44,32 @@ subcollection: security-compliance
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
 
-
 # Understanding high availability and disaster recovery for {{site.data.keyword.compliance_short}}
 {: #ha-dr}
 
-As an {{site.data.keyword.cloud}} platform service, {{site.data.keyword.compliance_short}} follows the practices that are described in [How {{site.data.keyword.cloud_notm}} ensures high availability and disaster recovery](/docs/overview?topic=overview-zero-downtime) with the exceptions listed in the following topic.
+As an {{site.data.keyword.cloud_notm}} platform service, {{site.data.keyword.compliance_short}} follows the practices that are described in [How {{site.data.keyword.cloud_notm}} ensures high availability and disaster recovery](/docs/overview?topic=overview-zero-downtime) with the exceptions listed in the following topic.
 {: shortdesc}
 
-## Security and compliance posture management HA/DR
-{: #posture-management-ha-dr}
+## Posture Management HA/DR
+{: #posture-ha-dr}
 
-The posture management capability of the {{site.data.keyword.compliance_short}} is a highly-available regional service that runs in the Dallas (`us-south`) region only. In the supported region, the service runs in several availability zones with three in-region replicas. 
+The Posture Management capability of the {{site.data.keyword.compliance_short}} is a highly-available regional service that runs in the Dallas (`us-south`) and Frankfurt (`fra`). In the supported region, the service runs in several availability zones with three in-region replicas. 
 
 Your data is stored securely and backed up to IBM Cloud Databases. If a regional disaster occurs, the available data is restored by the {{site.data.keyword.compliance_short}} without any action from you.
 
-## Configuration governance HA/DR
-{: #config-governance-ha-dr}
+## Configuration Governance HA/DR
+{: #config-ha-dr}
 
-The configuration governance capability of the {{site.data.keyword.compliance_short}} is a highly-available regional service that runs in the Dallas (`us-south`) and Washington DC (`us-east`) regions. In each region, a highly available Cloudant cluster contains three copies of the data. The data is backed-up daily to Cloud Object Storage.
+The Configuration Governance capability of the {{site.data.keyword.compliance_short}} is a highly-available regional service that runs in the Dallas (`us-south`), Frankfurt (`fra`), and Washington DC (`us-east`) regions. In each region, a highly available Cloudant cluster contains three copies of the data. The data is backed-up daily to Cloud Object Storage.
 
 If all of the availability zones in a region fail, {{site.data.keyword.compliance_short}} becomes unavailable in that location and all of the network traffic is routed to the other location. When the region is shown to be available again by health check APIs, traffic is automatically redirected back to the previously unavailable region without any need for action from you.
+
+## Security Insights HA/DR
+{: #insights-ha-dr}
+
+Security Insights is a highly available, regional service that runs in the Dallas (`us-south`), Frankfurt (`fra`), and London (`eu-gb`) regions.
+
+In each supported region, the service runs in several availability zones. The service supports manual cross-regional failover from `us-south` to `us-east` and from `eu-gb` to `eu-de`. A daily backup of data to Cloud Object Storage is done and the backup is kept for 7 days.
+
+If a regional disaster occurs, the available data is restored by Security Insights without any action from you. 
 

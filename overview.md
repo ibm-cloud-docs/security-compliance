@@ -68,9 +68,9 @@ As a security focal, your focus is threat detection and mitigation. To address y
 ## How it works
 {: #how-it-works}
 
-The {{site.data.keyword.compliance_short}} is comprised on three different components: Posture Management, Configuration Governance, and Security Insights. Each component is designed to help you to be secure and compliant in different ways.
+The {{site.data.keyword.compliance_short}} is comprised of three different components: Posture Management, Configuration Governance, and Security Insights. Each component is designed to help you to be secure and compliant in different ways.
 
-### Security and compliance posture management
+### Posture Management
 {: #posture-management}
 
 When you work with the {{site.data.keyword.compliance_short}}, you interact with several interrelated components, including profiles, config rules, and scopes. Check out the following diagram to see how the components work together to help you manage and validate compliance in {{site.data.keyword.cloud_notm}}.
