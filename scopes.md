@@ -97,7 +97,7 @@ To view the details of the scopes that you create, you can use the {{site.data.k
 3. From the **Scopes** table, select the scope that you want to see the details of. A new page opens that contains the information of which credentials and collectors are used in the scope, as well as an inventory of the resources that are available in the scope.
 4. Click **Event history** to see the historical archive of each scan that has been run on the scope. If there are additional details available for the scan, the event time is clickable.
 
-If you have a need to re-run a scan, you can run an on-demand scan from the **Actions > Scan** drop down on the scope details page.
+You can run a one-time on-demand scan from the **Actions > Scan** drop down on the scope details page.
 {: tip}
 
 

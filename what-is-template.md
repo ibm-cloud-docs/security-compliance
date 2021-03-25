@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-15"
+lastupdated: "2021-03-25"
 
 keywords: template, customized defaults, default property values, resource configuration
 
@@ -124,6 +124,7 @@ The default values that can be customized with templates vary depending on each 
 {: note}
 
 - [Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-manage-security-compliance#govern-cloud-object-storage)
+- [{{site.data.keyword.keymanagementserviceshort}}](/docs/key-protect?topic=key-protect-manage-security-compliance#govern-kp)
 
 
 ## How do I get started?

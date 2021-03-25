@@ -214,10 +214,10 @@ You can schedule a fact validation scan by using the {{site.data.keyword.complia
 5. Click the **Validate** icon. 
 
 
-## Running a scan on-demand
+## Running a scan on demand
 {: #run-on-demand}
 
-If you need to re-run a scan or run a one-time scan on a specific scope, you can initiate it in the scope details page.
+If you need to run a one-time scan on a specific scope, you can initiate it in the scope details page.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Scopes**. 
