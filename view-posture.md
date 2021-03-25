@@ -2,9 +2,9 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-03"
+lastupdated: "2021-03-25"
 
-keywords: compliance posture, security posture, audit evidence, security scan, evaluation results, scan results, scan results, compliance, score, security and compliance score
+keywords: compliance posture, security posture, audit evidence, security scan, evaluation results, scan results, scan results, compliance, score, compliance score
 
 subcollection: security-compliance
 
@@ -50,25 +50,25 @@ subcollection: security-compliance
 {: #view-posture}
 
 
-With the {{site.data.keyword.compliance_full}}, you can view the results of the validations for each scope that you defined in a single dashboard. You can see how the results of your scans affect your overall security and compliance score.
+With the {{site.data.keyword.compliance_full}}, you can view the results of the validations for each scope that you defined in a single dashboard. You can see how the results of your scans affect your overall compliance score.
 {: shortdesc}
 
 
-## Understanding your security and compliance score
+## Understanding your compliance score
 {: #understand-scores}
 
-Your security and compliance score is an analytical assessment of your organization's current posture. The {{site.data.keyword.compliance_short}} assigns each goal a severity level when it is created. The goals can be `Critical`, `High`, `Medium`, and `Low`. Critical goals have a much greater impact to your compliance and security scores than a low severity goal.
+Your compliance score is an analytical assessment of your organization's current posture. The {{site.data.keyword.compliance_short}} assigns each goal a severity level when it is created. The goals can be `Critical`, `High`, `Medium`, and `Low`. Critical goals have a much greater impact to your compliance and security scores than a low severity goal.
 {: shortdesc}
 
-![A visual representation of validation results. The information in the diagram is detailed in the surrounding text.](images/scan-details.svg){: caption="Figure 1. Example security and compliance score breakdown" caption-side="bottom"}
+![A visual representation of validation results. The information in the diagram is detailed in the surrounding text.](images/scan-details.svg){: caption="Figure 1. Example compliance score breakdown" caption-side="bottom"}
 
-### How is my security and compliance score calculated?
+### How is my compliance score calculated?
 {: #score-calculation}
 
-Your security and compliance score is the weighted average of the goals that passed and failed determined by the severity of the goals. For example, say you have two goals. One is a high severity and one is low. If the high severity goal passed but the low severity goal failed, your score would still be high. If the high severity goal failed but the low severity goal passed, your compliance score would be significantly impacted.
+Your compliance score is the weighted average of the goals that passed and failed determined by the severity of the goals. For example, say you have two goals. One is a high severity and one is low. If the high severity goal passed but the low severity goal failed, your score would still be high. If the high severity goal failed but the low severity goal passed, your compliance score would be significantly impacted.
 
 
-### How can I raise my security and compliance score?
+### How can I raise my compliance score?
 {: #score-improve}
 
 To improve your score, address the security and compliance issues that are found. To make the biggest difference, start with the highest severity issues on your most significant resources. 
@@ -86,7 +86,7 @@ To navigate to the dashboard:
 
 | Tile | Description |
 |:------------|:------------| 
-| Security and compliance score | A weighted average of your results. Your score is displayed for a specific environment. To see information for another environment, use the drop-down to select a new environment. |
+| compliance score | A weighted average of your results. Your score is displayed for a specific environment. To see information for another environment, use the drop-down to select a new environment. |
 | Scopes validated | The number of scopes in your account that are defined and the number that were validated. |
 | Insights | The findings that are available for your account categorized by source. |
 | Collector status | The status of the collectors that exist in your account. |
@@ -121,7 +121,7 @@ To see the results of a validation scan, you can use the {{site.data.keyword.com
     <tr>
       <td>Chart</td>
       <td>By control</td>
-      <td>A graphical display of the resource results including your security and compliance score for that scan.</td>
+      <td>A graphical display of the resource results including your compliance score for that scan.</td>
     </tr>
     <tr>
       <td>List</td>
@@ -205,7 +205,7 @@ The scan results that are displayed by default are the most recent. To see previ
 ## Downloading a report
 {: #download-report}
 
-If you need to keep your results for long periods of time, or provide information to key stakeholders, you can download a report that details your security and compliance score for selected scopes.
+If you need to keep your results for long periods of time, or provide information to key stakeholders, you can download a report that details your compliance score for selected scopes.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Dashboard**.
