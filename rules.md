@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-23"
+lastupdated: "2021-03-25"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -62,6 +62,7 @@ Before you get started, be sure that you have the following prerequisites.
 
 - An {{site.data.keyword.cloud_notm}} account.
 - The required level of access to view and manage rules. To create a rule, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
+- An instance of {{site.data.keyword.at_short}} in the regions in which you provision resources.
 
 
 ## Creating rules in the UI
@@ -164,12 +165,10 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the rules th
     </tr>
     <tr>
       <td>Audit log</td>
-      <td>Allows the requested action to complete, but logs an event that indicates noncompliance in {{site.data.keyword.at_short}}.</td>
+      <td>Allows the requested action to complete, but logs an event that indicates noncompliance in {{site.data.keyword.at_short}}. Note: An action is logged in {{site.data.keyword.at_short}} automatically.</td>
     </tr>
   </table>
 
-  Enforcement actions are triggered only when an account user creates or modifies the resource that you are targeting with a rule.
-  {: note}
 11. Review your selections. To make an update, click **Back** to return to the section that you want to edit.
 12. Click **Finish and attach** to create your rule and [attach it to a scope](#evaluate-rules-ui).
 
