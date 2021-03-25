@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-08"
+lastupdated: "2021-03-25"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -156,4 +156,35 @@ To resolve the issue, you might take one or more of the following actions:
   ```
   {: codeblock}
 
+
+## My compliance score changed but I haven't updated anything
+{: #score-change}
+
+{: tsSymptoms} 
+You notice that your compliance score has changed, but you haven't made any changes to your resource configurations or your posture management configurations.
+
+{: tsCauses}
+Base profiles are continuously updated by the {{site.data.keyword.compliance_short}} service team. If you are using a base profile to scan your resources, the goals that are added are automatically included in the next scans that are run. 
+
+{: tsResolve}
+If you don't want new goals automatically included in your scans, you can build or create a profile that includes only the controls and goals that you want to scan for. [Learn more](/docs/security-compliance?topic=security-compliance-profiles).
+
+
+## I'm unable to connect a bucket in built-insights
+{: #insights-connect}
+
+{: tsSymptoms} 
+You try to create a new connection with Cloud Object Storage in the {{site.data.keyword.compliance_short}} UI and the button is greyed out and unable to be clicked.
+
+{: tsCauses}
+There are a few reasons that this might happen:
+
+* Your location that is configured on the Data settings page does not match the current location selected on the Activity or Network Insights tables.
+* Activity Insights can have only one connection at a time.
+
+{: tsResolve}
+To resolve the issue:
+
+* Verify that your locations match.
+* Delete your current Activity Insights bucket to connect a new one. 
 
