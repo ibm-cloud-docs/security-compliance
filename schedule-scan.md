@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-04"
+lastupdated: "2021-03-25"
 
 keywords: scans, compliance, schedule scan, create scan, discovery, validation, fact collection, fact validation
 
@@ -212,5 +212,20 @@ You can schedule a fact validation scan by using the {{site.data.keyword.complia
 3. Select the name of the scope that you want to scan.
 4. Optional: From the history of scans, select the scan that you want to revalidate.
 5. Click the **Validate** icon. 
+
+
+## Running a scan on-demand
+{: #run-on-demand}
+
+If you need to re-run a scan or run a one-time scan on a specific scope, you can initiate it in the scope details page.
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+2. In the navigation, click **Configure > Scopes**. 
+3. Click the name of the scope that you want to scan.
+4. From the **Actions** drop-down, select **Scan**.
+5. Provide a name, select a scan type, and select a profile.
+6. Click **Create**. The scan automatically starts.
+
+
 
 
