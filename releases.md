@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-03-24"
+lastupdated: "2021-03-29"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -71,6 +71,13 @@ For more information, see [Storing and encrypting data in {{site.data.keyword.co
 With this release we've completed the integration of the Security Insights, formerly known as {{site.data.keyword.security-advisor_short}}, UI into the{{site.data.keyword.compliance_short}}. You can now view your findings, enable Built-in Insights, set up alerts, and integrate with our existing business partners without ever leaving the {{site.data.keyword.compliance_short}} UI.
 
 To see the updates, check out the [{{site.data.keyword.compliance_short}} UI](https://cloud.ibm.com/security-compliance).
+
+### An update to the Security Insights notifications API
+{: #2021-03-23-insights-alert}
+
+With this release we've dropped camel-case support for parameters. The parameters `publicKey` and `alertSource` have been updated to `public_key` and `alert_source`.
+
+To work with the updated notifications API, see the [API docs](/apidocs/security-advisor/notifications).
 
 
 ## 15 March 2021
