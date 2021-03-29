@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2021
-lastupdated: "2021-03-25"
+lastupdated: "2021-03-29"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -249,7 +249,7 @@ The following events are triggered by the Security Insights component of the {{s
 
 | Action                                   | Description     |
 | :----------------------------------------| :---------------|
-| `security-advisor.metadata.read`         | View previously created notes. |
+| `security-advisor.metadata.list`         | View previously created notes. |
 | `security-advisor.metadata.write`        | Create a note. |
 | `security-advisor.metadata.update`       | Update a note  |
 | `security-advisor.metadata.delete`       | Delete a note. |
