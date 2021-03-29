@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-15"
+lastupdated: "2021-03-29"
 
 keywords: best practices security and compliance, secure development, security strategy, insights, governance
 
@@ -100,7 +100,7 @@ With Security Insights, you can continuously monitor and analyze your {{site.dat
 
 <dl>
   <dt>Activity Insights</dt>
-    <dd>By comparing user activity that is logged by Activity Tracker with LogDNA against predefined rule packages, you can identify suspicious behavior as it relates to your {{site.data.keyword.cloud_notm}} resources, which can help to prevent malicious attacks on your applications.</dd>
+    <dd>By comparing user activity that is logged by {{site.data.keyword.at_short}} against predefined rule packages, you can identify suspicious behavior as it relates to your {{site.data.keyword.cloud_notm}} resources, which can help to prevent malicious attacks on your applications.</dd>
   <dt>Network Insights</dt>
     <dd>By monitoring and analyzing your VPC flow logs, you can identify suspicious behavior through your the network communication between your VPC interfaces. For example, you can identify Virtual Server Instances that might be compromised or attempts to compromise your VSIs.</dd>
   <dt>Custom insights</dt>
