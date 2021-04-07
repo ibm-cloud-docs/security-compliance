@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-15"
+lastupdated: "2021-04-07"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -163,11 +163,13 @@ To edit or delete existing credentials, select the credential that you want to m
 
 As a minimum each credential requires reader or viewer permissions for the services that you want to scan. A few of the IBM Cloud services have goals that require additional permissions to either complete the scan or to view the results. If the service is listed in the following table, be sure to assign the appropriate permissions to either your Service ID or the user that the credentials belong to.
 
-| Service | Required role |
+| Service | Additional permission |
 |---------|---------------|
-| Key Protect | Manager |
-| Cloud Object Storage | Writer |
+| Key Protect | A credential must also have Manager access to the Key Protect service in order to run scans. |
+| Cloud Object Storage | A credential must also have Writer access to the Key Protect service in order to run scans. |
 | User Management - Billing | To view the results related to MFA, a user must have viewer access to the Billing service and to the {{site.data.keyword.compliance_short}}. |
+| Classic Infrastructure | The provided credential must be a User API key. If a service ID is provided, the scan will not complete. |
+| Continuous Delivery | The provided credential must be a User API key. If a service ID is provided, the scan will not complete. |
 {: caption="Table 2. Additional required permissions" caption-side="top"}
 
 If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. You must create a new credential using Activity Tracker's GUID and Service_key as the username and password. Then, map the credential to a specific collector by using the format AT=resource_guid.
