@@ -54,6 +54,36 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 
 
 
+## 05 April 2021
+{: #2021-04-05}
+
+This release includes the following updates.
+
+### Initital Posture Management API support
+{: #2021-04-05-posture-api}
+
+As part of this release, the Posture Management component of the service provides three external APIs that you can use as part of your security and compliance automation. For more information, see the [Posture Management API docs](/apidocs/security-compliance/posture).
+
+
+### Proxy support for discovery and fact collection
+{: #2021-04-05-proxy}
+
+With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans. For more information, see [Which endpoints does a collector access?](/docs/security-compliance?topic=security-compliance-collector#collector-proxy).
+
+### New goal mapping
+{: #2021-04-05-goals}
+
+The goal `3000045` is now mapped to CM-2 NIST 800 and has been added to an additional profile.
+
+### IBM Cloud for Financial Services profile
+{: #2021-04-05-fs-profile}
+
+Released today, the IBM Cloud for Financial Services profile is a collection of curated goals that can help organizations make a large jump on the path to meeting the NIST 800-53 security controls that are required for financial institutions. By validating your resources against the IBM Cloud for Financial Services profile, you can be more confident that your IBM Cloud resources are following best practices for security and compliance.
+
+*Important*: The IBM Cloud for Financial Services profile will be constantly expanding and is not an exhaustive list of all of the controls that might be required for every organization. Users should validate the available goals and determine where there is a need to supplement their workloads with other security measures.
+
+
+
 
 ## 23 March 2021
 {: #2021-03-23}

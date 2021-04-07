@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-25"
+lastupdated: "2021-04-07"
 
 keywords: scopes, accounts, resources, environments
 
@@ -84,6 +84,7 @@ To narrow the focus of your scans, create a scope by using the {{site.data.keywo
 
 
 If you're working with a scope that requires more than one set of credentials to access the resources within it, be sure to [map your credentials](/docs/security-compliance?topic=security-compliance-credentials)
+{: tip}
 
 
 
