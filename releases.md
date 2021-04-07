@@ -136,58 +136,63 @@ You can now enable Security Insights (formerly known as Security Advisor) in the
 
 The beta version of Network Insights is deprecated and will no longer be supported as of 12 February 2021. To fully remove the beta version of Network Insights, delete the service components from your cluster and [delete your stored data from Cloud Object Storage](/docs/cloud-object-storage/info?topic=cloud-object-storage-security).
 
-## 15 December 2020
+## 2020 updates
+{: #2020-updates}
+
+The following features and changes to the {{site.data.keyword.compliance_short}} service are available as of 2020.
+
+### 15 December 2020
 {: #2020-12-15}
 
 This release includes the following updates.
 
-### Updated Scopes page
+#### Updated Scopes page
 {: #2020-12-15-scopes}
 
 An improved experience is now available for viewing, creating, and deleting scopes. For more information, see [Managing scopes](/docs/security-compliance?topic=security-compliance-scopes).
 
-### Updated Inventory page
+#### Updated Inventory page
 {: #2020-12-15-inventory}
 
 You can now delete inventories that you no longer require. For more information, see [Deleting an inventory](/docs/security-compliance?topic=security-compliance-inventory#delete-inventory)
 
-### New dashboard widget
+#### New dashboard widget
 {: #2020-12-15-widget}
 
 Monitor your overall security and compliance at a glance by adding a {{site.data.keyword.compliance_short}} widget to your dashboard in the {{site.data.keyword.cloud_notm}} console. To learn more about customizing your dashboard, check out [Working with scoped dashboards](/docs/account?topic=account-custom-dashboard).
 
-## 8 December 2020
+### 8 December 2020
 {: #2020-12-08}
 
 This release includes the following updates.
 
-### Updated Goals page
+#### Updated Goals page
 {: #2020-12-08-goals}
 
 An improved experience is now available for viewing and customizing goals. For more information, see [Customizing goals](/docs/security-compliance?topic=security-compliance-custom-goals).
 
-### Updated Profiles page
+#### Updated Profiles page
 {: #2020-12-08-profiles}
 
 An improved experience is now available for viewing and managing profiles. For more information, see [Working with profiles](/docs/security-compliance?topic=security-compliance-profiles).
 
 
-## 19 November 2020
+### 19 November 2020
 {: #2020-11-19}
 
 This release includes the following updates.
 
-### Updated Settings page
+#### Updated Settings page
 {: #2020-11-19-settings}
 
 An improved experience is now available for protecting the credentials that you use in the {{site.data.keyword.compliance_short}}. For more information, see [Creating a passphrase](/docs/security-compliance?topic=security-compliance-credentials#passphrase).
 
-## 1 September 2020
+### 1 September 2020
 {: #2020-09-01}
 
 This release includes the following updates.
 
-### General availability of the {{site.data.keyword.compliance_short}}
+#### General availability of the {{site.data.keyword.compliance_short}}
 {: #2020-09-01-general-availability}
 
 The {{site.data.keyword.compliance_short}} is now generally available on {{site.data.keyword.cloud_notm}}!
