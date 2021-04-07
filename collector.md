@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-22"
+lastupdated: "2021-04-07"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -86,6 +86,17 @@ For more information about granting the authorization between a collector and yo
 {: #collector-data}
 
 The collector uses the data that is collected to validate the controls before it sends the results to the {{site.data.keyword.compliance_short}} for storage and reporting. The data that is collected varies depending on the environment that you're working with and the type of credentials that you provide. For cloud environments, a significant portion of the data is available as metadata. If you're working with an on-premises environment, some of the data is typically stored in configuration management databases. Collected data includes the properties and configurations for supported services, network objects, hosts, databases, Kubernetes platforms, and virtual machines. 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -187,11 +198,11 @@ Now that you have a collector, you can install it by completing the following st
 
   Nmap scans are done on resources that are behind a firewall. If you are attempting to scan on-premises resources, be sure to answer yes.
 
-14. When prompted, enter your collector registration key.
+15. When prompted, enter your collector registration key.
 
   You can get this value by going to the **Manage posture > Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}} UI and viewing more details about the collector that you want to install.
 
-15. Confirm that everything is installed.
+16. Confirm that everything is installed.
 
   ```
   docker ps
