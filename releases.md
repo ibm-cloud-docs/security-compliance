@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-07"
+lastupdated: "2021-04-13"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -59,7 +59,7 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 
 This release includes the following updates.
 
-### Initital Posture Management API support
+### Initial Posture Management API support
 {: #2021-04-05-posture-api}
 
 As part of this release, the Posture Management component of the service provides three external APIs that you can use as part of your security and compliance automation. For more information, see the [Posture Management API docs](/apidocs/security-compliance/posture).
@@ -100,7 +100,7 @@ For more information, see [Storing and encrypting data in {{site.data.keyword.co
 ### The full integration of the Security Insights UI
 {: #2021-03-23-insights-ui}
 
-With this release we've completed the integration of the Security Insights, formerly known as {{site.data.keyword.security-advisor_short}}, UI into the{{site.data.keyword.compliance_short}}. You can now view your findings, enable Built-in Insights, set up alerts, and integrate with our existing business partners without ever leaving the {{site.data.keyword.compliance_short}} UI.
+With this release we've completed the integration of the Security Insights, formerly known as {{site.data.keyword.security-advisor_short}}, UI into the {{site.data.keyword.compliance_short}}. You can now view your findings, enable Built-in Insights, set up alerts, and integrate with our existing business partners without ever leaving the {{site.data.keyword.compliance_short}} UI.
 
 To see the updates, check out the [{{site.data.keyword.compliance_short}} UI](https://cloud.ibm.com/security-compliance).
 

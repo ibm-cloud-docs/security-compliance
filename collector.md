@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-04-07"
+lastupdated: "2021-04-13"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -203,6 +203,9 @@ Now that you have a collector, you can install it by completing the following st
 15. When prompted, enter your collector registration key.
 
   You can get this value by going to the **Manage posture > Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}} UI and viewing more details about the collector that you want to install.
+
+  The registration key is active for 24 hours. Installation must be complete and the collector activated within that timeframe.
+  {: important}
 
 16. Confirm that everything is installed.
 
