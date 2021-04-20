@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-24"
+lastupdated: "2021-04-07"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -235,7 +235,6 @@ curl -X PUT "https://compliance.{DomainName}/config/v1/templates/<template_ID>" 
       "additional_target_attributes": [
         {
           "name": "location",
-          "operator": "string_equals",
           "value": "<region>"
         }
       ]

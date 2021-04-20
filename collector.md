@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-22"
+lastupdated: "2021-04-13"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -87,6 +87,13 @@ For more information about granting the authorization between a collector and yo
 
 The collector uses the data that is collected to validate the controls before it sends the results to the {{site.data.keyword.compliance_short}} for storage and reporting. The data that is collected varies depending on the environment that you're working with and the type of credentials that you provide. For cloud environments, a significant portion of the data is available as metadata. If you're working with an on-premises environment, some of the data is typically stored in configuration management databases. Collected data includes the properties and configurations for supported services, network objects, hosts, databases, Kubernetes platforms, and virtual machines. 
 
+
+### Which endpoints does a collector access?
+{: #collector-proxy}
+
+A collector uses the following endpoints to access your resource configurations. To use a proxy with your collector, be sure to add the following hostnames to an allowlist.
+
+`accounts.cloud.ibm.com`, `api.cis.cloud.ibm.com`, `api.softlayer.com`, `api.*.softlayer.com`, `api.*.logging.cloud.ibm.com`, `api.shell.cloud.ibm.com``api.*.databases.cloud.ibm.com`, `config.cloud-object-storage.cloud.ibm.com`, `config.private.cloud-object-storage.cloud.ibm.com`, `config.public.cloud-object-storage.cloud.ibm.com`, `containers.cloud.ibm.com`, `directlink.cloud.ibm.com`, `iam.cloud.ibm.com`, `iam.bluemix.net`, `otc-api.*.devops.cloud.ibm.com`, `private.*.certificate-manager.cloud.ibm.com`, `private.*.kms.cloud.ibm.com`, `resource-controller.cloud.ibm.com`, `schematics.cloud.ibm.com`, `s3.*.cloud-object-storage.appdomain.cloud`, `s3.private.*.cloud-object-storage.appdomain.cloud`, `s3.direct.*.cloud-object-storage.appdomain.cloud`, `transit.cloud.ibm.com`, `user-management.cloud.ibm.com`, `*.appid.cloud.ibm.com`, `*.certificate-manager.cloud.ibm.com`, `*.iaas.cloud.ibm.com`, `*.icr.io`, `*.kms.cloud.ibm.com`, `*.mybluemix.net`, `*.secadvisor.cloud.ibm.com`, and `*.*.secrets-manager.appdomain.cloud`.
 
 
 ## Before you begin
@@ -187,11 +194,20 @@ Now that you have a collector, you can install it by completing the following st
 
   Nmap scans are done on resources that are behind a firewall. If you are attempting to scan on-premises resources, be sure to answer yes.
 
-14. When prompted, enter your collector registration key.
+14. When prompted about whether to add a proxy, enter `y` (yes) or `n` (no). For a list of available URLs that your proxy can access, see [Which endpoints does a collector access](#collector-proxy).
+
+    1. Enter the IP address that you want to use as a proxy.
+    2. Enter the port of your proxy server.
+    3. Enter the username and password for your proxy.
+
+15. When prompted, enter your collector registration key.
 
   You can get this value by going to the **Manage posture > Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}} UI and viewing more details about the collector that you want to install.
 
-15. Confirm that everything is installed.
+  The registration key is active for 24 hours. Installation must be complete and the collector activated within that timeframe.
+  {: important}
+
+16. Confirm that everything is installed.
 
   ```
   docker ps
@@ -206,9 +222,6 @@ Now that you have a collector, you can install it by completing the following st
   6f76237c39c8      us.icr.io/posture-management/compliance-watchtower:8495ece54142     "/watchtower --clean_"    10 seconds ago    Up 1 seconds     watch-collectors
   ```
   {: screen}
-
-If you're working with a scope that requires multiple credentials to complete a scan, be sure to [map your credentials](/docs/security-compliance?topic=security-compliance-credentials#map-credentials).
-{: tip}
 
 
 ## Approving a collector
