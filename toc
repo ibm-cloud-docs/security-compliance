@@ -66,6 +66,10 @@ Security and Compliance Center
     
     locations-endpoints.md
     ha-dr.md
+
+    {: .topicgroup}
+    Related links
+        [IBM Cloud compliance programs](https://www.ibm.com/cloud/compliance)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
