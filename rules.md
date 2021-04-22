@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-25"
+lastupdated: "2021-04-22"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -147,9 +147,8 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the rules th
       <td>The individual resource configuration variable that follows the syntax <code>property_name</code>. Options are dependent upon the target that you choose and can be found in the UI.</td>
     </tr>
   </table>
-
-9. Click **Next**.
-10. Select the enforcement actions that you want to apply.
+10. Click **Next**. 
+10. Select the enforcement actions that you want to apply and click **Next**.
 
   Enforcement actions define how the {{site.data.keyword.compliance_short}} reacts when a resource is created or modified and the requested configuration is not compliant with your rule. The following table describes the supported actions.
 
