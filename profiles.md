@@ -51,17 +51,6 @@ subcollection: security-compliance
 A profile is a collection of security controls that is used to assess whether your resources are configured to adhere to policies and regulations. With the {{site.data.keyword.compliance_full}}, you can create your own profiles or take advantage of predefined profiles that are curated based on industry standards.
 {: shortdesc}
 
-## Understanding profiles
-{: #understand-profiles}
-
-The {{site.data.keyword.compliance_short}} maps external databases of [controls](#x2018434){: term}, such as NIST 800-53, to predefined profiles that you can use to monitor and assess compliance across your cloud environments. To ensure that the control is met for your environment, each control is mapped to a goal. A goal is a checkpoint for a specific control that allows the {{site.data.keyword.compliance_short}} to assess your level of compliance to that control.
-
-### What is a goal?
-{: #what-goal}
-
-
-### How is {{site.data.keyword.compliance_short}} secure by default?
-{: #secure-default}
 
 
 ## Before you begin

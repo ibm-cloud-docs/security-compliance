@@ -63,13 +63,13 @@ Security and Compliance Center
     APIs
         api-setup.md
         [Configuration](https://{DomainName}/apidocs/security-compliance/config)
-    
-    locations-endpoints.md
-    ha-dr.md
 
     {: .topicgroup}
     Related links
         [IBM Cloud compliance programs](https://www.ibm.com/cloud/compliance)
+    
+    locations-endpoints.md
+    ha-dr.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
