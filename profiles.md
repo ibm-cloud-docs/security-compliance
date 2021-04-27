@@ -48,7 +48,7 @@ subcollection: security-compliance
 # Working with profiles
 {: #profiles}
 
-A profile is a collection of security controls that is used to assess whether your resources are configured to adhere to policies and regulations. With the {{site.data.keyword.compliance_full}}, you can create your own profiles or take advantage of predefined profiles that are curated based on industry standards.
+With the {{site.data.keyword.compliance_full}}, you can create your own profiles or take advantage of predefined profiles that are curated based on industry standards.
 {: shortdesc}
 
 
