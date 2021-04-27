@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-04-26"
+lastupdated: "2021-04-27"
 
 keywords: profiles, user-defined, predefined profiles, controls, goals, nist, best practices, security, compliance
 
@@ -51,6 +51,17 @@ subcollection: security-compliance
 A profile is a collection of security controls that is used to assess whether your resources are configured to adhere to policies and regulations. With the {{site.data.keyword.compliance_full}}, you can create your own profiles or take advantage of predefined profiles that are curated based on industry standards.
 {: shortdesc}
 
+
+## Understanding profiles
+{: #understand-profiles}
+
+A profile is a collection of related goals, or security checks, are used to validate that your the compliance of your resources to internal and external regulations. The {{site.data.keyword.compliance_short}} maps goals to external regulatory libraries of controls, divided into families (groups), that are used to prove that you are compliant with the required standards for your industry. Each control can apply to one or more profiles and there might be one or more goals required to be fully compliant with each control. To see how control libraries map to goals, check out the following image. 
+
+
+![Profile layout shown in diagram format. The information shown in the image is described in the surrounding text.](/images/profiles.svg){: caption="Figure 1. Understanding profiles" caption-side="bottom"}
+
+When you work with {{site.data.keyword.cloud_notm}}, several goals are met by default. To learn more about what makes {{site.data.keyword.cloud_notm}} secure by default, see [Available default goals](/docs/security-compliance?topic=security-compliance-default-goals).
+{: tip}
 
 
 ## Before you begin
