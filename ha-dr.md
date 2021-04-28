@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-23"
+lastupdated: "2021-04-28"
 
 keywords: HA for {{site.data.keyword.compliance_short}}, DR for {{site.data.keyword.compliance_short}}, high availability for {{site.data.keyword.compliance_short}}, disaster recovery for {{site.data.keyword.compliance_short}}, failover for {{site.data.keyword.compliance_short}}
 
@@ -48,7 +48,7 @@ subcollection: security-compliance
 {: #ha-dr}
 
 As an {{site.data.keyword.cloud_notm}} platform service, {{site.data.keyword.compliance_short}} follows the practices that are described in [How {{site.data.keyword.cloud_notm}} ensures high availability and disaster recovery](/docs/overview?topic=overview-zero-downtime) with the exceptions listed in the following topic.
-{: shortdesc}
+ {: shortdesc}
 
 ## Posture Management HA/DR
 {: #posture-ha-dr}
@@ -69,7 +69,7 @@ If all of the availability zones in a region fail, {{site.data.keyword.complianc
 
 Security Insights is a highly available, regional service that runs in the Dallas (`us-south`), Frankfurt (`fra`), and London (`eu-gb`) regions.
 
-In each supported region, the service runs in several availability zones. The service supports manual cross-regional failover from `us-south` to `us-east` and from `eu-gb` to `eu-de`. A daily backup of data to Cloud Object Storage is done and the backup is kept for 7 days.
+In each supported region, the service runs in several availability zones. The service supports manual cross-regional failover from `us-south` to `us-east` and from `eu-gb` to `us-south`.  There is no cross-regional failover for the `eu-de` region.A daily backup of data to Cloud Object Storage is done and the backup is kept for 7 days.
 
 If a regional disaster occurs, the available data is restored by Security Insights without any action from you. 
 

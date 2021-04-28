@@ -64,12 +64,16 @@ Security and Compliance Center
         api-setup.md
         [Configuration](https://{DomainName}/apidocs/security-compliance/config)
     
-    locations-endpoints.md
-    ha-dr.md
+    {: .topicgroup}
+    Available security checks
+        default-goals.md
 
     {: .topicgroup}
     Related links
         [IBM Cloud compliance programs](https://www.ibm.com/cloud/compliance)
+    
+    locations-endpoints.md
+    ha-dr.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
