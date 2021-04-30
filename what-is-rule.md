@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-04-22"
+lastupdated: "2021-04-30"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -107,7 +107,7 @@ Check out the following image to see how a config rule is structured.
     </tr>
   </table>
 
-3. The `enforcement_actions` object contains the actions that {{site.data.keyword.compliance_short}} takes on your behalf if the property conditions that you defined are not met. When the {{site.data.keyword.compliance_short}} evaluates the state of the target resource against your defined rule, it checks to ensure its defined conditions are evaluated to true. If they do not, IBM carries out your defined enforcement actions. The `disallow` action blocks a noncompliance request from completing.
+3. The `enforcement_actions` object contains the actions that {{site.data.keyword.compliance_short}} takes on your behalf if the property conditions that you defined are not met. When the {{site.data.keyword.compliance_short}} evaluates the state of the target resource against your defined rule, it checks to ensure its defined conditions are evaluated to true. If they do not, IBM carries out your defined enforcement actions. The `disallow` action blocks a noncompliant request from completing.
 
 
 ### How do properties work?

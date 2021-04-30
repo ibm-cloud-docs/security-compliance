@@ -100,14 +100,5 @@ When you download a report, you can see results for the information that is deta
 | `results_errors`   | The number of results that returned an error.            |
 {: caption="Table 1. Understanding your results" caption-side="top"}
 
-To download a report, you can use the following steps.
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and Compliance**.
-2. In the **Manage posture** section, click **Assess > Scans**.
-3. Click **Generate a report**.
-4. Select the scans the scope that you want to download a report for.
-5. Select the information that you want to include in your report.
-6. Provide a start and end date for the evidence that you want included in your report.
-7. Click **Generate report**. The file downloads to your local system.
 
 
