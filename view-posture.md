@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-25"
+lastupdated: "2021-04-30"
 
 keywords: compliance posture, security posture, audit evidence, security scan, evaluation results, scan results, scan results, compliance, score, compliance score
 
@@ -207,10 +207,11 @@ The scan results that are displayed by default are the most recent. To see previ
 
 If you need to keep your results for long periods of time, or provide information to key stakeholders, you can download a report that details your compliance score for selected scopes.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Dashboard**.
-3. Click **Reports**. A side panel opens.
-4. Select the scope or scopes that you want to download a report for.
-5. Click **Next**.
-6. Select the timeframe for which you want to download the scores.
-7. Click **Generate report**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and Compliance**.
+2. In the **Manage posture** section, click **Assess > Scans**.
+3. Click **Generate a report**.
+4. Select the scans the scope that you want to download a report for.
+5. Select the information that you want to include in your report.
+6. Provide a start and end date for the evidence that you want included in your report.
+7. Click **Generate report**. The file downloads to your local system.
+
