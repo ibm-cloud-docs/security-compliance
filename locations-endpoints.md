@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-03-23"
+lastupdated: "2021-04-30"
 
 keywords: security and compliance center locations, available locations, scc endpoints, security and compliance center endpoints, regions, scc regions
 
@@ -57,7 +57,7 @@ For more information about how your data is stored and processed in the availabl
 ## Available locations
 {: #available-locations}
 
-{{site.data.keyword.compliance_short}} is available in the following locations:
+{{site.data.keyword.compliance_short}} is available in the following locations and is an `EU-Supported` service. To store and process your data in the EU, select "European Union" as your location.
 
 ![Visual representation of the availability of the service. The image is a map with pin points in the locations in which the service is available. If you are unable to view this image, see the table in the service endpoints section for a complete list.](images/world-map.svg){: caption="Figure 1. {{site.data.keyword.compliance_short}} availability" caption-side="bottom"}
 
@@ -67,10 +67,11 @@ London is available for Security Insights only.
 ## Service endpoints
 {: #service-endpoints}
 
-If you're managing your service instances of {{site.data.keyword.compliance_short}} programmatically, see the following table to determine which API endpoints to use when you connect to the APIs.
+If you're managing your service instances of {{site.data.keyword.compliance_short}} programmatically, see the following table to determine which API endpoints to use when you connect to the APIs. 
 
 | API | Endpoint  |
 |--------|-----------|
+| Posture Management | `https://asap.compliance.cloud.ibm.com/alpha`|
 | Configuration Governance | `https://compliance.cloud.ibm.com/config`|
 | Security Insights: Findings | `https://us-south.secadvisor.cloud.ibm.com/findings` |
 | Security Insights: Notifications | `https://us-south.secadvisor.cloud.ibm.com/notifications` |
@@ -83,6 +84,7 @@ If you're managing your service instances of {{site.data.keyword.compliance_shor
 
 | API | Endpoint  |
 |--------|-----------|
+| Posture Management | `https://eu.compliance.cloud.ibm.com/posture`|
 | Configuration Governance | `https://compliance.cloud.ibm.com/config`|
 | Security Insights: Findings | `https://eu.compliance.cloud.ibm.com/si/findings` |
 | Security Insights: Notifications | `https://eu.compliance.cloud.ibm.com/si/notifications` |
@@ -95,6 +97,7 @@ If you're managing your service instances of {{site.data.keyword.compliance_shor
 
 | API | Endpoint  |
 |--------|-----------|
+| Posture Management | This feature is not available in the United Kingdom location. |
 | Configuration Governance | This feature is not available in the United Kingdom location. |
 | Security Insights: Findings | `https://eu-gb.secadvisor.cloud.ibm.com/findings` |
 | Security Insights: Notifications | `https://eu-gb.secadvisor.cloud.ibm.com/notifications` |
