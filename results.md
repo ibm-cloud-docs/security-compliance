@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-17"
+lastupdated: "2021-04-30"
 
 keywords: evaluation results, rule results, configuration results, resource configuration, 
 
@@ -80,7 +80,7 @@ From the details page, you can view a summary of your evaluation results for any
 ## Downloading a report
 {: #download-report-config}
 
-With the {{site.data.keyword.compliance_short}}, your results are kept for 7 days. In preparation for an audit or to maintain a longer history, you might want to download your results. You can use the {{site.data.keyword.compliance_short}} to download a report that contains the detailed evidence that you might need to prove compliance. 
+With the {{site.data.keyword.compliance_short}}, your results are kept for 7 days. In preparation for an audit or to maintain a longer history, you might want to download your detailed evidence. 
 
 When you download a report, you can see results for the information that is detailed in the following table.
 
@@ -100,6 +100,14 @@ When you download a report, you can see results for the information that is deta
 | `results_errors`   | The number of results that returned an error.            |
 {: caption="Table 1. Understanding your results" caption-side="top"}
 
+To download a report, you can use the following steps.
 
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and Compliance**.
+2. In the **Manage posture** section, click **Assess > Scans**.
+3. Click **Generate a report**.
+4. Select the scans the scope that you want to download a report for.
+5. Select the information that you want to include in your report.
+6. Provide a start and end date for the evidence that you want included in your report.
+7. Click **Generate report**. The file downloads to your local system.
 
 
