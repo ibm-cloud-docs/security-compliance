@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-04-30"
+lastupdated: "2021-05-03"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -203,8 +203,13 @@ The properties that are available in the {{site.data.keyword.compliance_short}} 
 
 * [Certificate Manager](/docs/certificate-manager?topic=certificate-manager-manage-security-compliance)
 * [Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-manage-security-compliance)
+* [Direct Link](/docs/dl?topic=dl-manage-security-compliance)
+* [Event Streams](/docs/EventStreams?topic=EventStreams-manage-security-compliance)
+* [Internet Services](/docs/cis?topic=cis-manage-security-compliance)
+* [Load Balancer for VPC](/docs/vpc?topic=vpc-manage-security-compliance-lb)
 * [Key Protect](/docs/key-protect?topic=key-protect-manage-security-compliance)
 * [Platform components](/docs/overview?topic=overview-manage-security-compliance)
+* [Transit Gateway](/docs/transit-gateway?topic=transit-gateway-manage-security-compliance#monitor-IBM)
 
 
 
@@ -241,5 +246,3 @@ The following diagram shows how two rules are applied across an enterprise.
 To get started with rules, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure rules**, or check out the [API reference](/apidocs/security-compliance/config){: external} to learn more about creating rules programmatically.
 
 For more specific information about how to define rules, see [Working with config rules](/docs/security-compliance?topic=security-compliance-rules).
-
-
