@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-04-27"
+lastupdated: "2021-05-06"
 
 keywords: goals, secure by default, secure, secure platform, default goals, available goals
 
@@ -65,7 +65,7 @@ To see which goals are met by default, check out the following table.
 | 3000009 | Check whether IAM roles are used to create IAM policies for IBM resources |
 | 3000010 | Check whether a support role has been assigned in IAM to manage cases in the IBM Cloud Support Center |
 | 3000011 | Check whether API keys are not created in IAM during the initial setup of IAM users |
-| 3000101 | Check whether API keys are not created in IAM during the initial setup of IAM users |
+| 3000101 | Check whether Cloud Object Storage is enabled with encryption |
 | 3000203 | Check whether Databases for MongoDB is accessible only through HTTPS |
 | 3000208 | Check whether Databases for Redis is accessible only through HTTPS |
 | 3000213 | Check whether Databases for Elasticsearch is accessible only through HTTPS |
