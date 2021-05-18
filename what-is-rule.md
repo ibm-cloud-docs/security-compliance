@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-03"
+lastupdated: "2021-05-18"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -209,7 +209,7 @@ The properties that are available in the {{site.data.keyword.compliance_short}} 
 * [Load Balancer for VPC](/docs/vpc?topic=vpc-manage-security-compliance-lb)
 * [Key Protect](/docs/key-protect?topic=key-protect-manage-security-compliance)
 * [Platform components](/docs/overview?topic=overview-manage-security-compliance)
-* [Transit Gateway](/docs/transit-gateway?topic=transit-gateway-manage-security-compliance#monitor-IBM)
+* [Transit Gateway](/docs/transit-gateway?topic=transit-gateway-manage-security-compliance)
 
 
 
