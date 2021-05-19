@@ -236,7 +236,7 @@ Check out the following diagram to see an example rule sequence:
 
 
 
-Want to see rules in action? Check out [Preventing public network access on {[kp]} with the {{site.data.keyword.compliance_short}}](https://www.ibm.com/cloud/blog/prevent-public-network-access-on-key-protect-instances-with-the-security-and-compliance-center){: external}!
+Want to see rules in action? Check out [Preventing public network access on {{site.data.keyword.keymanagementserviceshort}} with the {{site.data.keyword.compliance_short}}](https://www.ibm.com/cloud/blog/prevent-public-network-access-on-key-protect-instances-with-the-security-and-compliance-center){: external}!
 {: note}
 
 
