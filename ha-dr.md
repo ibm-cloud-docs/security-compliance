@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-04-28"
+lastupdated: "2021-05-17"
 
 keywords: HA for {{site.data.keyword.compliance_short}}, DR for {{site.data.keyword.compliance_short}}, high availability for {{site.data.keyword.compliance_short}}, disaster recovery for {{site.data.keyword.compliance_short}}, failover for {{site.data.keyword.compliance_short}}
 
@@ -53,7 +53,7 @@ As an {{site.data.keyword.cloud_notm}} platform service, {{site.data.keyword.com
 ## Posture Management HA/DR
 {: #posture-ha-dr}
 
-The Posture Management capability of the {{site.data.keyword.compliance_short}} is a highly-available regional service that runs in the Dallas (`us-south`) and Frankfurt (`fra`). In the supported region, the service runs in several availability zones with three in-region replicas. 
+The Posture Management capability of the {{site.data.keyword.compliance_short}} is a highly-available regional service that runs in the Dallas (`us-south`) and Frankfurt (`fra`). In the supported region, the service runs in several availability zones with three in-region replicas.
 
 Your data is stored securely and backed up to IBM Cloud Databases. If a regional disaster occurs, the available data is restored by the {{site.data.keyword.compliance_short}} without any action from you.
 
@@ -69,7 +69,7 @@ If all of the availability zones in a region fail, {{site.data.keyword.complianc
 
 Security Insights is a highly available, regional service that runs in the Dallas (`us-south`), Frankfurt (`fra`), and London (`eu-gb`) regions.
 
-In each supported region, the service runs in several availability zones. The service supports manual cross-regional failover from `us-south` to `us-east` and from `eu-gb` to `us-south`.  There is no cross-regional failover for the `eu-de` region.A daily backup of data to Cloud Object Storage is done and the backup is kept for 7 days.
+In each supported region, the service runs in several availability zones. The service supports manual cross-regional failover from `us-south` to `us-east` and from `eu-gb` to `eu-de`. In addition to cross-regional failover, cross-account backups are configured in `eu-gb` and `us-south` regions. There is no cross-regional failover for the `eu-de` region, but data is backed up to a secondary account that also resides in `eu-de` region. A daily backup of data to Cloud Object Storage is done with a retention period of 7 days.
 
-If a regional disaster occurs, the available data is restored by Security Insights without any action from you. 
+If a regional disaster occurs, the available data is restored by Security Insights without any action from you.
 

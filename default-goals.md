@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-06"
+lastupdated: "2021-05-18"
 
 keywords: goals, secure by default, secure, secure platform, default goals, available goals
 
@@ -68,7 +68,7 @@ To see which goals are met by default, check out the following table.
 | 3000101 | Check whether Cloud Object Storage is enabled with encryption |
 | 3000203 | Check whether Databases for MongoDB is accessible only through HTTPS |
 | 3000208 | Check whether Databases for Redis is accessible only through HTTPS |
-| 3000213 | Check whether Databases for Elasticsearch is accessible only through HTTPS |
+| 3000213 | Check whether Databases for ElasticSearch is accessible only through HTTPS |
 | 3000218 | Check whether Databases for etcd is accessible only through HTTPS |
 | 3000223 | Check whether Databases for PostgreSQL is accessible only through HTTPS |
 | 3000231 | Check whether Key Protect has high availability |
