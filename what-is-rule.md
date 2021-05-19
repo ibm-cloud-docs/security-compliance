@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-18"
+lastupdated: "2021-05-19"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -176,24 +176,30 @@ String-based operators are case-sensitive.
 | `is_true`  | Boolean | The property value is true. | No |
 | `is_false`  | Boolean | The property value is false. | No |
 | `string_equals`[^string_equals] | String |  The property value is an exact match to the condition value. | Yes |
-| `string_not_equals` | String |  The property value is not an exact match to the condition value. |Yes|
+| `string_not_equals`[^string_not_equals] | String |  The property value is not an exact match to the condition value. |Yes|
 | `string_match` | String |  The property value matches the condition value by using the [Krauss wildcarding algorithm](https://en.wikipedia.org/wiki/Krauss_wildcard-matching_algorithm){: external}. | Yes |
 | `string_not_match` | String |  The property value does not match the condition value by using [Krauss wildcarding algorithm](https://en.wikipedia.org/wiki/Krauss_wildcard-matching_algorithm){: external}.| Yes |
 | `strings_in_list`[^strings_in_list] | String list |  All property values are in the condition value list. | Yes |
 | `ips_in_range`[^ips_in_range] | IP list |  All property values, in IPv4 or IPv6 format, are in the condition value list. | Yes |
-| `num_equals` | Numeric | The property value numerically matches to the condition value. | Yes |
-| `num_not_equals` | Numeric | The property value does not numerically match the condition value.| Yes |
+| `num_equals`[^num_equals] | Numeric | The property value numerically matches to the condition value. | Yes |
+| `num_not_equals`[^num_not_equals] | Numeric | The property value does not numerically match the condition value.| Yes |
 | `num_less_than` | Numeric | The property value is numerically less than the condition value.| Yes |
 | `num_less_than_equals` | Numeric | The property value is numerically less than or equal to the condition value. | Yes |
 | `num_greater_than` | Numeric | The property value is numerically greater than the condition value.|Yes|
 | `num_greater_than_equals` | Numeric | The property value is numerically greater than or equal to the condition value. | Yes |
 {: caption="Table 2. Supported operator types" caption-side="top"}
 
-[^string_equals]: To include multiple values, use a list. For example, `{"value": ["A", "B," "C"]}`
+[^string_equals]: To include multiple values, use an array. For example, `{"value": ["A", "B," "C"]}`
+
+[^string_not_equals]: To include multiple values, use an array. For example, `{"value": ["A", "B," "C"]}`
 
 [^strings_in_list]: To create a rule with a property that supports the `strings_in_list` operator, include a list of strings for the `value` parameter. For example, `{"value": ["A", "B," "C"]}`.
 
 [^ips_in_range]: To create a rule with a property that supports the `ips_in_range` operator, include a list of CIDR or IP addresses for the `value` parameter. For example, `{"value": ["10.168.175.0/24", "2000:db8:ffff:ffff:ffff:ffff:ffff:ffff"]}`.
+
+[^num_equals]: To include multiple values, use an array. For example, `{"value": ["1", "2," "3"]}`
+
+[^num_not_equals]: To include multiple values, use an array. For example, `{"value": ["1", "2," "3"]}`
 
 
 ## Which services can I apply rules to?
@@ -228,6 +234,10 @@ Check out the following diagram to see an example rule sequence:
 3. The target resource evaluates the request against your defined rule.
 4. The target resource blocks or allows the action to complete.
 
+
+
+Want to see rules in action? Check out [Preventing public network access on {[kp]} with the {{site.data.keyword.compliance_short}}](https://www.ibm.com/cloud/blog/prevent-public-network-access-on-key-protect-instances-with-the-security-and-compliance-center){: external}!
+{: note}
 
 
 
