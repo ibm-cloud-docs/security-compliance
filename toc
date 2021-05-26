@@ -79,7 +79,7 @@ Security and Compliance Center
     {: .navgroup id="help"}
     faqs.md
 
-     {: .topicgroup}
+    {: .topicgroup}
     Troubleshooting
         ts-contact.md
         ts-results.md
