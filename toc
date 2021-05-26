@@ -78,6 +78,14 @@ Security and Compliance Center
 
     {: .navgroup id="help"}
     faqs.md
-    troubleshoot.md
+
+     {: .topicgroup}
+    Troubleshooting
+        ts-contact.md
+        ts-results.md
+        ts-deleted-results.md
+        ts-score.md
+        ts-bucket.md
+    
     limits.md
     {: .navgroup-end}
