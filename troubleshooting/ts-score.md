@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-26"
+lastupdated: "2021-05-27"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -59,5 +59,5 @@ You notice that your compliance score has changed, but you haven't made any chan
 Base profiles are continuously updated by the {{site.data.keyword.compliance_short}} service team. If you are using a base profile to scan your resources, the goals that are added are automatically included in the next scans that are run. 
 {: tsCauses}
 
-If you don't want new goals automatically included in your scans, you can build or create a profile that includes only the controls and goals that you want to scan for. [Learn more](/docs/security-compliance?topic=security-compliance-profiles).
+If you don't want new goals automatically included in your scans, you can build or create a profile that includes only the controls and goals that you want to scan for. [Learn more](/docs/security-compliance?topic=security-compliance-profiles). 
 {: tsResolve}
