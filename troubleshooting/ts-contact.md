@@ -46,7 +46,7 @@ content-type: troubleshoot
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
 
-# How do I contact support for SCC?
+# What information do I need to provide to the support team?
 {: #contact-support}
 {: troubleshoot}
 
