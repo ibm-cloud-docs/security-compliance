@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-26"
+lastupdated: "2021-05-27"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -46,7 +46,7 @@ content-type: troubleshoot
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
 
-# I need to contact support
+# How do I contact support for SCC?
 {: #contact-support}
 {: troubleshoot}
 
