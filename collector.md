@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-04-13"
+lastupdated: "2021-06-02"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -235,5 +235,4 @@ Now that your collector is installed, you must approve it before it can start co
 
   When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
 4. If a passphrase is enabled, click **Passphrase** and enter the phrase.
-
 
