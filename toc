@@ -62,7 +62,11 @@ Security and Compliance Center
     {: .topicgroup}
     APIs
         api-setup.md
-        [Configuration](https://{DomainName}/apidocs/security-compliance/config)
+        [Configuration Governance](https://{DomainName}/apidocs/security-compliance/config)
+        [Posture Management](https://{DomainName}/apidocs/security-compliance/posture)
+        [Admin](https://{DomainName}/apidocs/security-compliance/admin)
+        [Findings](https://{DomainName}/apidocs/security-advisor/findings)
+        [Notifications](https://{DomainName}/apidocs/security-advisor/notifications)
     
     {: .topicgroup}
     Available security checks
