@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-19"
+lastupdated: "2021-06-04"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -209,6 +209,7 @@ The properties that are available in the {{site.data.keyword.compliance_short}} 
 
 * [Certificate Manager](/docs/certificate-manager?topic=certificate-manager-manage-security-compliance)
 * [Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-manage-security-compliance)
+* [Cloud Shell](/docs/cloud-shell?topic=cloud-shell-manage-security-compliance)
 * [Direct Link](/docs/dl?topic=dl-manage-security-compliance)
 * [Event Streams](/docs/EventStreams?topic=EventStreams-manage-security-compliance)
 * [Internet Services](/docs/cis?topic=cis-manage-security-compliance)
