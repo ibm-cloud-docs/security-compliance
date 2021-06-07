@@ -55,7 +55,6 @@ Security and Compliance Center
         data-security.md
         at-events.md
     {: .navgroup-end}
-    {: .navgroup-end}
 
     {: .navgroup id="reference"}
     {: .topicgroup}
