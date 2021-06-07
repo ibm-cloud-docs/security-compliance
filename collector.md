@@ -241,7 +241,8 @@ Now that you have a collector, you can install it by completing the following st
 ## Installing a collector through a Proxy
 {: #collector-proxy}
 
-
+Open question: 
+When and why would a user want to do this?
 
 A collector uses the following endpoints to access your resource configurations. To use a proxy with your collector, be sure to add the following hostnames to an allowlist.
 
