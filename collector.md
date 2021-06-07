@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-02"
+lastupdated: "2021-06-07"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -152,62 +152,70 @@ Now that you have a collector, you can install it by completing the following st
   If you do not log in as the root user, you must prefix the following commands with `sudo`.
   {: tip}
 
-6. Ensure that your OS image is up to date. In Ubuntu, you can run the following command: 
+6. Be sure that you have the required software on your VM and that it is up to date. If you're working with Ubuntu, you can use the following commands.
+  1. Verify that your OS image is up to date. In Ubuntu, you can run the following command: 
 
-  ```
-  [sudo] apt-get update
-  ```
-  {: codeblock}
+    ```
+    [sudo] apt-get update
+    ```
+    {: codeblock}
+  
+  2. If you don't have it already, install [Docker Compose](https://docs.docker.com/compose/install/){: external} by using the command for your OS.
 
-7. Install [Docker Compose](https://docs.docker.com/compose/install/){: external} by using the command for your OS. If you're working with Ubuntu, you can use the following command.
+    ```
+    [sudo] apt-get install docker-compose
+    ```
+    {: codeblock}
 
-  ```
-  [sudo] apt-get install docker-compose
-  ```
-  {: codeblock}
+  3. If you plan to use your collector to run on-premises resource scans, install [Nmap version 7.6 or higher](https://nmap.org/download.html){: external} by using the command for your OS. If you're working with Ubuntu, you can use the following command.
 
-8. If you plan to use your collector to run on-premises resource scans, install Nmap version 7.6 by using the command for your OS. If you're working with Ubuntu, you can use the following command.
+    ```
+    [sudo] apt-get install nmap
+    ```
+    {: codeblock}
 
-  ```
-  [sudo] apt-get install nmap
-  ```
-  {: codeblock}
-
-9.  Transfer the downloaded `initiate_collector.sh` file onto your virtual machine.
-
-10. Change the permissions of the `initiate_collector.sh` file to allow it run.
+7. Transfer the downloaded `initiate_collector.sh` file onto your virtual machine and change the permissions to allow it to run.
 
   ```
   chmod +x initiate_collector.sh
   ```
   {: codeblock}
 
-11. Install the collector by running the following command.
+8. Install the collector by running the following command and then answering the following prompts as they are asked. 
 
   ```
   ./initiate_collector.sh
   ```
   {: codeblock}
 
-12. When prompted, enter the data path from your host machine. For example, `/root/folder_name/`.
-13. When prompted about whether to do an Nmap validation, enter `y` (yes) or `n` (no).
-
-  Nmap scans are done on resources that are behind a firewall. If you are attempting to scan on-premises resources, be sure to answer yes.
-
-14. When prompted about whether to add a proxy, enter `y` (yes) or `n` (no). For a list of available URLs that your proxy can access, see [Which endpoints does a collector access](#collector-proxy).
-
-    1. Enter the IP address that you want to use as a proxy.
-    2. Enter the port of your proxy server.
-    3. Enter the username and password for your proxy.
-
-15. When prompted, enter your collector registration key.
-
-  You can get this value by going to the **Manage posture > Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}} UI and viewing more details about the collector that you want to install.
+  <table>
+    <caption>Table 1. Collector installation prompts and responses</caption>
+    <tr>
+      <th>Prompt</th>
+      <th>Desciption and example</th>
+    </tr>
+    <tr>
+      <td>Data path</td>
+      <td>The path to your host machine. For example, <code>/root/folder_name/</code>.</td>
+    </tr>
+    <tr>
+      <td>Nmap validation</td>
+      <td>Nmap scans are done on resources that are behind a firewall such as on-premesis resources. Enter <code>y</code> (yes) or <code>n</code> (no)</td>
+    </tr>
+    <tr>
+      <td>Proxy</td>
+      <td>Your organization might want to use a proxy to allow communication between the collector and your resources. For more information about using a proxy, see [Intalling a collector by using a proxy](#collector-proxy).</td>
+    </tr>
+    <tr>
+      <td>Registration key</td>
+      <td>You can get this value by going to the **Manage posture > Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}} UI and viewing more details about the collector that you want to install.</td>
+    </tr>
+  </table>
 
   The registration key is active for 24 hours. Installation must be complete and the collector activated within that timeframe.
   {: important}
 
-16. Confirm that everything is installed.
+9. Confirm that everything is installed.
 
   ```
   docker ps
@@ -223,16 +231,20 @@ Now that you have a collector, you can install it by completing the following st
   ```
   {: screen}
 
+10. Approve your collector.
+  1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+  2. In the navigation, click **Manage posture > Configure > Settings > Collectors**.
+  3. In the **Collectors** table, click **Approve** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
+  4. If a passphrase is enabled, click **Passphrase** and enter the phrase. Be sure to enter your passphrase exactly.
 
-## Approving a collector
-{: #approve-collector}
 
-Now that your collector is installed, you must approve it before it can start collecting information on your resources.
+## Installing a collector through a Proxy
+{: #collector-proxy}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Manage posture > Configure > Settings > Collectors**.
-3. In the **Collectors** table, click **Approve** in the row that corresponds to the collector that you're working with.
 
-  When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
-4. If a passphrase is enabled, click **Passphrase** and enter the phrase.
+
+A collector uses the following endpoints to access your resource configurations. To use a proxy with your collector, be sure to add the following hostnames to an allowlist.
+
+`accounts.cloud.ibm.com`, `api.cis.cloud.ibm.com`, `api.softlayer.com`, `api.*.softlayer.com`, `api.*.logging.cloud.ibm.com`, `api.shell.cloud.ibm.com``api.*.databases.cloud.ibm.com`, `config.cloud-object-storage.cloud.ibm.com`, `config.private.cloud-object-storage.cloud.ibm.com`, `config.public.cloud-object-storage.cloud.ibm.com`, `containers.cloud.ibm.com`, `directlink.cloud.ibm.com`, `iam.cloud.ibm.com`, `iam.bluemix.net`, `otc-api.*.devops.cloud.ibm.com`, `private.*.certificate-manager.cloud.ibm.com`, `private.*.kms.cloud.ibm.com`, `resource-controller.cloud.ibm.com`, `schematics.cloud.ibm.com`, `s3.*.cloud-object-storage.appdomain.cloud`, `s3.private.*.cloud-object-storage.appdomain.cloud`, `s3.direct.*.cloud-object-storage.appdomain.cloud`, `transit.cloud.ibm.com`, `user-management.cloud.ibm.com`, `*.appid.cloud.ibm.com`, `*.certificate-manager.cloud.ibm.com`, `*.iaas.cloud.ibm.com`, `*.icr.io`, `*.kms.cloud.ibm.com`, `*.mybluemix.net`, `*.secadvisor.cloud.ibm.com`, and `*.*.secrets-manager.appdomain.cloud`.
+
 
