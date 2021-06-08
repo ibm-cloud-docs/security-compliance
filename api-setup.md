@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-04"
+lastupdated: "2021-06-08"
 
 keywords: using the API, accessing the API, getting an access token, authenticating, authentication, access token, API key, account information, IAM access token
 
@@ -49,7 +49,7 @@ subcollection: security-compliance
 {: #api-setup}
 
 To work with the {{site.data.keyword.compliance_full}} APIs, you must first create an API key and retrieve your account information. To do so, you can use the following steps.
-{: shortdesc}
+{: shortdesc} {{site.data.keyword.cloud_notm}}
 
 1. In the {{site.data.keyword.cloud_notm}} console, go to **Manage > Access (IAM)** and select **API keys**.
 2. [Create an {{site.data.keyword.cloud_notm}} API key](/docs/account?topic=account-userapikey#create_user_key). Save the API key by downloading it to a secure location. 
