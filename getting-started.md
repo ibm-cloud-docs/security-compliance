@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-12"
+lastupdated: "2021-06-09"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -69,17 +69,6 @@ If you don't need to monitor your {{site.data.keyword.cloud_notm}} resources for
 
 [![This image is a visual link to the instructions for installing a collector on another cloud provider.](images/gs-environment.svg)](/docs/security-compliance?topic=security-compliance-collector)     [![This image is a visual link to the conceptual information about defining config rules.](images/gs-rules.svg)](/docs/security-compliance?topic=security-compliance-rules)     [![This image is a visual link to the conceptual information about built-in insights.](images/gs-insights.svg)](/docs/security-advisor?topic=security-advisor-integrations#integrate-insights)
 
-
-
-## Before you begin
-{: #before-start}
-
-To complete the getting started tutorial, use a [Pay-As-You-Go or Subscription](/docs/account?topic=account-accounts) {{site.data.keyword.cloud_notm}} account where you are the owner or have [full Administrator access](/docs/account?topic=account-assign-access-resources).
-
-Be sure that you also have the following requirements:
-
-- Docker for Linux. To start Docker, you can run `systemctl start docker`.
-- A [service ID API key](/docs/account?topic=account-serviceidapikeys) with **Read** access permissions for the resources that you want to scan.
 
 
 ## Verify compute requirements
@@ -173,6 +162,10 @@ A collector is a software module that is packaged as a Docker image. It is insta
   * The registration key that you noted when you downloaded the `inititate_collector.sh` file from the service UI.
 
 10. On the **Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}}, click **Approve** in the table row that corresponds to the collector that you're working with.
+
+
+
+
 
 
 ## Create a scope
