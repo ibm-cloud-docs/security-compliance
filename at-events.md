@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2021
-lastupdated: "2021-04-13"
+lastupdated: "2021-06-09"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -203,7 +203,7 @@ The following events are triggered by the Configuration Governance component of 
 | `compliance.configuration-governance.templates-read`   | View templates. |
 | `compliance.configuration-governance.templates-create` | Create a template. |
 | `compliance.configuration-governance.templates-update` | Update an existing template. |
-| `compliance.configuration-governance.tååemplates-delete` | Delete a template. |
+| `compliance.configuration-governance.templates-delete` | Delete a template. |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
 {: #templates-events}
 {: tab-title="Templates"}
