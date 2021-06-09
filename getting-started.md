@@ -71,6 +71,17 @@ If you don't need to monitor your {{site.data.keyword.cloud_notm}} resources for
 
 
 
+## Before you begin
+{: #before-start}
+
+To complete the getting started tutorial, use a [Pay-As-You-Go or Subscription](/docs/account?topic=account-accounts) {{site.data.keyword.cloud_notm}} account where you are the owner or have [full Administrator access](/docs/account?topic=account-assign-access-resources).
+
+Be sure that you also have the following requirements:
+
+- Docker for Linux. To start Docker, you can run `systemctl start docker`.
+- A [service ID API key](/docs/account?topic=account-serviceidapikeys) with **Read** access permissions for the resources that you want to scan.
+
+
 ## Verify compute requirements
 {: #gs-vm}
 {: step}
