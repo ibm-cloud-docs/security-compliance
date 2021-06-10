@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-13"
+lastupdated: "2021-06-10"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -52,6 +52,15 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 
 
 
+##  June 2021
+{: #2021-06-10}
+
+This release includes the following updates.
+
+### IBM-managed collector
+{: #2021-06-10-collector}
+
+A collector is used to gather the configuration information about your resources and then validate it against a specified standard. Previously, you were responsible for the installation and lifecycle management of the collector. Now, you can get a proof of concept up and running quickly by configuring an IBM-managed collector. For more information, see [Configuring managed collectors]({[link-ibm-collector]}) or [What is a collector?]({[link-collector]}).
 
 
 ## 05 April 2021

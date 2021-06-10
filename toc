@@ -12,27 +12,31 @@ Security and Compliance Center
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    iam.md
-
     {: .topicgroup}
-    Monitoring your accounts for compliance
-
+    Setting up monitoring
+        credentials.md
+        
         {: .topicgroup}
-        Preparing to monitor
-            credentials.md
-            collector.md
-
+        Discovering resources and configurations
+            collector-what-is.md
+            collector-customer.md
+            collector-ibm.md
+            inventory.md
+        
         {: .topicgroup}
-        Configuring monitoring
-            scopes.md
-            schedule-scan.md
+        Defining your compliance checks
             profiles.md
             customize-goals.md
+    
+    {: .topicgroup}
+    Monitoring your resources
 
         {: .topicgroup}
-        Managing the service
-            tags.md
-            inventory.md
+        Targeting specific resources
+        scopes.md
+        tags.md
+
+        schedule-scan.md
 
     {: .topicgroup}
     Governing the use of resources
@@ -41,7 +45,6 @@ Security and Compliance Center
         Defining guardrails
             what-is-rule.md
             rules.md
-            results.md
 
         {: .topicgroup}
         Customizing default values
@@ -51,9 +54,17 @@ Security and Compliance Center
     [Gaining insight](https://{DomainName}/docs/security-advisor?topic=security-advisor-getting-started)
 
     {: .topicgroup}
+    Managing your posture
+        view-posture.md
+        results.md      
+        remediation.md
+
+    {: .topicgroup}
     Enhancing security
+        iam.md
         data-security.md
         at-events.md
+    {: .navgroup-end}
 
     {: .navgroup id="reference"}
     {: .topicgroup}
