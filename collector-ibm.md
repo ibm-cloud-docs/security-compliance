@@ -57,7 +57,7 @@ For the {{site.data.keyword.compliance_full}} to gather and validate information
 
 Before you begin, be sure that you're using a Pay-As-You-Go or Subscription [{{site.data.keyword.cloud_notm}} account](/docs/account?topic=account-account-getting-started) where you are the owner or have [full **Administrator** access](/docs/account?topic=account-assign-access-resources). To create a collector, you must also have the **Administrator** role access to the {{site.data.keyword.compliance_short}}. Be sure that you also have access to the [credentials](/docs/security-compliance?topic=security-compliance-credentials) that your collector needs to gather your resource configurations.
 
-A managed collector can support up to 400 resources per customer. If your organization has more resources, you can always create and install a [customer-managed collector](/docs/security-compliance?topic=security-compliance-customer-manual).
+A managed collector can support up to 400 resources per customer. If your organization has more resources, you can always [manually create and install a collector](/docs/security-compliance?topic=security-compliance-collector-manual).
 {: note}
 
 
