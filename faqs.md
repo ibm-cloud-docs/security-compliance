@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-15"
+lastupdated: "2021-06-10"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -82,20 +82,6 @@ You can use the {{site.data.keyword.compliance_short}} to monitor your resources
 * {{site.data.keyword.containershort_notm}}
 * {{site.data.keyword.cos_short}}
 * {{site.data.keyword.security-advisor_short}}
-
-
-
-## What is the WatchTower image and how do I update it?
-{: #watchtower}
-{: faq}
-{: support}
-
-When you install a collector, you install two images: the collector image itself and a Watchtower image.
-
-The collector image can be upgraded or patched automatically as the Watchtower image is used to continuously monitor for changes that are made to it. The Watchtower image cannot be upgraded or patched automatically. If there is a new vulnerability or update to the Watchtower image, you are responsible for updating or patching it.
-
-For help with updating or more information about Watchtower, see the [open source docs](https://github.com/containrrr/watchtower){: external}.
-
 
 
 ## How do I attach a config rule to a profile?

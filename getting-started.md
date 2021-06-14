@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-12"
+lastupdated: "2021-06-14"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -78,21 +78,7 @@ To complete the getting started tutorial, use a [Pay-As-You-Go or Subscription](
 
 Be sure that you also have the following requirements:
 
-- Docker for Linux. To start Docker, you can run `systemctl start docker`.
 - A [service ID API key](/docs/account?topic=account-serviceidapikeys) with **Read** access permissions for the resources that you want to scan.
-
-
-## Verify compute requirements
-{: #gs-vm}
-{: step}
-
-To gather information about your resources, you must install a collector onto a virtual machine. If you have a virtual machine that meets the following requirements, you can use that VM to complete the tutorial. If your VM doesn't meet the following requirements, try provisioning an instance of [Virtual Private Cloud](/docs/vpc?topic=vpc-getting-started) to create a new one.
-
-Minimum VM requirements include:
-
-  **Image**: Red Hat Enterprise Linux, CentOS, or Ubuntu</br>
-  **Profile**: `cx2-2x4` (2 vCPUs, 4 GB RAM, and 4GBPS)</br>
-  **Boot Volume**: 50 GB disk space
 
 
 ## Create credentials
@@ -100,7 +86,7 @@ Minimum VM requirements include:
 {: step}
 
 
-Credentials are used to allow the collector to gather information about your resources, assess your configurations, and initiate any required remediation.
+To gather information about your resources, you must create a [collector](#gs-collector). Credentials are used to allow the collector to gather information about your resources, assess your configurations, and initiate any required remediation.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Settings > Credentials**.
@@ -120,59 +106,26 @@ Credentials are used to allow the collector to gather information about your res
 {: #gs-collector}
 {: step}
 
-A collector is a software module that is packaged as a Docker image. It is installed "within sight" of your environment where it can have network access to your IT resources. To learn more about collectors and how the communication takes place, see [Understanding collectors](/docs/security-compliance?topic=security-compliance-collector).
+A collector is a software module that is packaged as a Docker image. It is installed "within sight" of your environment where it can have network access to your IT resources. After you create your credentials, you can create and install a managed collector that you can use to complete the tutorial. To learn more about collectors and how the communication takes place, see [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
+
+IBM managed collectors are created on IBM owned infrastructure and are maintained by the {{site.data.keyword.compliance_short}}. If your organization doesn't allow managed collectors, you can always create and install your own. For more information, see [Manually administering collectors](/docs/security-compliance?topic=security-compliance-collector-manual).
+{: note}
 
 1. On the **Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}}, click **Create**.
-2. Give your collector a meaningful name and description. Click **Create**.
-3. Download the `initiate_collector.sh` file for the collector that you created.
+2. Give your collector a name and description.
 
-  In the **Collectors** table, click the name of the collector that you want to register. The table row expands to provide more information. Be sure to also make a note of the registration key for a later step.
+  It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
 
-4. In your terminal, log in to your virtual machine by using SSH.
-  
-  ```
-  ssh <username>@<hostname_or_IP_address>
-  ```
-  {: codeblock}
+3. If you have a passphrase enabled, the **Existing passphrase** field displays. Enter your passphrase. If you do not have a passphrase enabled, the field will not display.
+4. Click **Next**.
+5. In the **Managed by** field, select **IBM**.
+6. By default, the **Private** endpoint type is selected.
 
-  If you do not log in as the root user, you must prefix the following commands with `sudo`.
-  {: tip}
+  A collector requires constant communication with the service to validate your current posture. By default, a private endpoint is used for communication in all IBM managed collectors.
 
-5. Ensure that your OS image is up to date. If you're working with Ubuntu, you can run the following command.
+7. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
 
-  ```
-  [sudo] apt-get update
-  ```
-  {: codeblock}
-
-6. Install [Docker Compose](https://docs.docker.com/compose/install/){: external} by using the command for your OS. If you're working with Ubuntu, you can use the following command.
-
-  ```
-  [sudo] apt-get install docker-compose
-  ```
-  {: codeblock}
-
-7. Transfer the `inititate_collector.sh` file onto your virtual machine and then change the permissions to allow it to run.
-
-  ```
-  chmod +x initiate_collector.sh
-  ```
-  {: codeblock}
-
-8. Install the collector by running the following command.
-
-  ```
-  ./initiate_collector.sh
-  ```
-  {: codeblock}
-
-9. When prompted, enter the following information:
-
-  * The data path from your host machine. For example, `/root/folder_name/`.
-  * No, to indicate that you don't want to run an Nmap scan.
-  * The registration key that you noted when you downloaded the `inititate_collector.sh` file from the service UI.
-
-10. On the **Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}}, click **Approve** in the table row that corresponds to the collector that you're working with.
+When your collector is ready, the status updates to **Active**.
 
 
 ## Create a scope
