@@ -131,46 +131,7 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
   
 When the collector is created successfully, the status updates to **Ready to install**.
 
-## Creating a collector with the API
-{: #create-collector-api}
-{: api}
 
-You can use the {{site.data.keyword.compliance_short}} Posture Management API to create a collector by making the following POST request.
-
-```sh
-curl POST 'https://{region}.compliance.cloud.ibm.com/posture/v1/collectors?account_id={account_id}' \ 
--H 'Content-Type: application/json' \ 
--H 'Authorization: {IAM_token}' \ 
--d '{
-  "collector_name": "my_collector",
-  "collector_description": "This is my description",
-  "is_public": "true",
-  "managed_by": "customer",
-  "pass_phrase": "my_secret_passphrase"
-}'
-```
-{: codeblock}
-
-| Variable   | Description |
-|:-----------|:------------|
-| `region` | The region in which you want to create a collector. Be sure that your region matches the location that is configured for {{site.data.keyword.compliance_short}}. You can view your account settings by making a POST request to the [Admin API](/apidocs/security-compliance/admin#getsettings). For example, `eu`.|
-| `account_id` | The ID of the account that manages the {{site.data.keyword.compliance_short}}. If you are the owner of the managing account, can find this ID in the {{site.data.keyword.cloud_notm}} console by clicking **Manage > Account > Account Settings**.| 
-| `IAM_token` | For help creating your IAM token, see [Generating an {{site.data.keyword.cloud_notm}} IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey).|
-| `collector_name` | The name that you want your collector to have. It must be unique to the {{site.data.keyword.compliance_short}} instance that you're working with.|
-| `collector_description`| Optional: A detailed description of the way in which your collector will be used.|
-| `is_public` | The type of endpoint that your collector is able to use to connect to your resources. If set to `false`, a private IP address that is accessible only through the {{site.data.keyword.cloud_notm}} private network is used. If set to `true`, the collector can access your resources over a public network. |
-| `managed_by` | The entity responsible for managing the collector. This value must be set to `customer`.|
-| `pass_phrase` | If you or your organization have a passphrase enabled for the {{site.data.keyword.compliance_short}}, you must provide it exactly. Be sure to double check the passphrase before you run the command.|
-{: caption="Table 2. Understanding the variables used to create a collector with the API" caption-side="top"}
-
-If your collector is successfully created, you receive the following response.
-
-```json
-{
-  "collector_id": "1"
-}
-```
-{: screen}
 
 ## Installing a collector
 {: #install-collector}
