@@ -85,7 +85,7 @@ As part of this release, the Posture Management component of the service provide
 ### Proxy support for discovery and fact collection
 {: #2021-04-05-proxy}
 
-With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans. For more information, see [Which endpoints does a collector access?](/docs/security-compliance?topic=security-compliance-collector#collector-proxy).
+With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans. For more information, see [Which endpoints does a collector access?](/docs/security-compliance?topic=security-compliance-collector-manual#collector-proxy).
 
 ### New goal mapping
 {: #2021-04-05-goals}
