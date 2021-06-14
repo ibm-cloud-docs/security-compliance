@@ -52,7 +52,7 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 
 
 
-##  June 2021
+## 14 June 2021
 {: #2021-06-14}
 
 This release includes the following updates.
