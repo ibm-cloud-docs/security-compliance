@@ -2,14 +2,13 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-14"
+lastupdated: "2021-06-15"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
 subcollection: security-compliance
 
 content-type: tutorial
-services: security-compliance, vpc
 completion-time: 20m
 
 ---
@@ -52,7 +51,6 @@ completion-time: 20m
 # Getting started with {{site.data.keyword.compliance_short}}
 {: #getting-started}
 {: toc-content-type="tutorial"}
-{: toc-services="security-compliance, vpc"}
 {: toc-completion-time="15m"}
 
 With {{site.data.keyword.compliance_full}}, you can embed security checks into your every day workflows to help monitor for security and compliance. By monitoring for risks, you can identify security vulnerabilities and quickly work to mitigate the impact and fix the issue.
