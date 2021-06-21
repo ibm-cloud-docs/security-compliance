@@ -13,7 +13,7 @@
       },
       {
         "title": "What is a rule?",
-        "description": "A rule is used to define the way in which resources can be configured in your account.",
+        "description": "A rule is used to define the guardrails for how resources can be configured in your account.",
         "href": "/docs/security-compliance?topic=security-compliance-what-is-rule"
       },
       {
