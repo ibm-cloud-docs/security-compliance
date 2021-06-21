@@ -32,6 +32,11 @@
       "view_more": "/docs/acme-test?topic=acme-test-release-notes",
       "tiles": [
         {
+          "date": "22 June 2021",
+          "title": "Tanium integration",
+          "description": "Now you can configure your Tanium Comply instances to forward your compliance data to the Security and Compliance Center."
+        },
+        {
           "date": "14 June 2021",
           "title": "Managed collectors",
           "description": "Now you can choose to have IBM manage a collector on your behalf."
@@ -40,11 +45,6 @@
           "date": "14 June 2021",
           "title": "New goals",
           "description": "New goals have been added to the IBM Best Practices Controls 1.0 profile."
-        },
-        {
-          "date": "05 April 2021",
-          "title": "Proxy support",
-          "description": "You can now configure your collector to use a proxy when accessing the service public endpoints."
         }
       ]
     }
