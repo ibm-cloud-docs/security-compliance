@@ -51,7 +51,7 @@ subcollection: security-compliance
 With [Tanium&trade; Comply](https://docs.tanium.com/comply/comply/index.html){: external}, you can evaluate your organizations endpoints for potential vulnerabilities and misconfigurations against industry security standards, vulnerability definitions, and custom compliance checks. When you integrate Tanium with the {{site.data.keyword.compliance_full}}, you can view all of your compliance data in one location in the same format.
 {: shortdesc}
 
-If you're an existing Tanium Comply on-prem user, you must contact your TAM or Account team to obtain a link to the new build in order to get started with the integration. Automatic upgrades of Connect will occue for Tanium-managed customers over the next two weeks.
+If you're an existing Tanium Comply on-prem user, you must contact your TAM or account team to obtain a link to the new build in order to get started with the integration. Automatic upgrades of Connect will occue for Tanium-managed customers over the next two weeks.
 {: note}
 
 To learn more about how the integration is configured, check out the following diagram.
