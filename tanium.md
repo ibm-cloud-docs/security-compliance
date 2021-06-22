@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-06-21"
+lastupdated: "2021-06-22"
 
 keywords: Centralized security, tanium, compliance monitoring, compliance, 
 
@@ -184,7 +184,7 @@ Now that your data is prepared to export on a schedule, you can create a scope
   ```
   curl -X POST "https://<region>.compliance.cloud.ibm.com/exchangeprotocol/v1/scope/<scope_id>/results?account_id=<account_id>&result_type=VALIDATION" -H 'Authorization: Bearer <IAM_token>' -H 'Content-type: application/json'
   ```
-  {: screen}
+  {: codeblock}
 
 Forgot to copy the API key? No problem. By using the IAM UI, find the service ID that was generated with the API key and create a new API key for that ID. You can then use that API key to make the request.
 {: tip}
