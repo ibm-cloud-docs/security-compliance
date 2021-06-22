@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="security-compliance" audience="platform" category="platform_services" href="/docs/security-compliance?topic=security-compliance-getting-started" product-page="https://www.ibm.com/cloud/security-and-compliance-center" console-page="/security-compliance" path="security-compliance"}
+{: .toc subcollection="security-compliance" audience="platform" category="platform_services" href="/docs/security-compliance" product-page="https://www.ibm.com/cloud/security-and-compliance-center" console-page="/security-compliance" path="security-compliance"}
 Security and Compliance Center
 
     {: .navgroup id="learn"}
