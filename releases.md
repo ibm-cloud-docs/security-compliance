@@ -52,8 +52,8 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 
 
 
-## 21 June 2021
-{: #2021-06-21}
+## 22 June 2021
+{: #2021-06-22}
 
 This release includes the following updates.
 
