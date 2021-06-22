@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-06-14"
+lastupdated: "2021-06-22"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -50,6 +50,17 @@ subcollection: security-compliance
 Use these release notes to learn about the latest updates to {{site.data.keyword.compliance_full}} that are grouped by date.
 {:shortdesc}
 
+
+
+## 22 June 2021
+{: #2021-06-22}
+
+This release includes the following updates.
+
+### Tanium integration
+{: #2021-06-10-tanium}
+
+Now, you can configure [Tanium Comply](https://docs.tanium.com/comply/comply/index.html){: external} to forward your compliance data. With Tanium Comply, you can evaluate your organizations endpoints for potential vulnerabilities and misconfigurations against industry security standards, vulnerability definitions, and custom compliance checks. When you integrate Tanium with the {{site.data.keyword.compliance_short}}, you can view all of your compliance data in one location in the same format. For more information, see [Connecting Tanium](/docs/security-compliance?topic=security-compliance-setup-tanium).
 
 
 ## 14 June 2021

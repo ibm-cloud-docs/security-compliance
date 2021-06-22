@@ -1,0 +1,51 @@
+{
+    "title": "Security and Compliance Center docs",
+    "lastupdated": "2021-06-21",
+    "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
+    "section_devtools": {
+      "api": "/apidocs/security-compliance/posture"
+    },
+    "section_recommended": [
+      {
+        "title": "What is a collector?",
+        "description": "To start monitoring your compliance posture, you must first create a collector.",
+        "href": "/docs/security-compliance?topic=security-compliance-collector"
+      },
+      {
+        "title": "What is a rule?",
+        "description": "A rule is used to define the guardrails for how resources can be configured in your account.",
+        "href": "/docs/security-compliance?topic=security-compliance-what-is-rule"
+      },
+      {
+        "title": "Viewing your current posture",
+        "description": "Learn more about your compliance score and how it is calculated.",
+        "href": "/docs/security-compliance?topic=security-compliance-view-posture"
+      }
+    ],
+    "section_learn": {
+      "developer": "https://developer.ibm.com/depmodels/cloud/",
+      "architecture": "https://www.ibm.com/cloud/architecture",
+      "training": "https://www.ibm.com/training/cloud",
+      "community": "https://community.ibm.com/community/user/publiccloud/home"
+    },
+    "section_updates": {
+      "view_more": "/docs/acme-test?topic=acme-test-release-notes",
+      "tiles": [
+        {
+          "date": "22 June 2021",
+          "title": "Tanium integration",
+          "description": "Now you can configure your Tanium Comply instances to forward your compliance data to the Security and Compliance Center."
+        },
+        {
+          "date": "14 June 2021",
+          "title": "Managed collectors",
+          "description": "Now you can choose to have IBM manage a collector on your behalf."
+        },
+        {
+          "date": "14 June 2021",
+          "title": "New goals",
+          "description": "New goals have been added to the IBM Best Practices Controls 1.0 profile."
+        }
+      ]
+    }
+  }

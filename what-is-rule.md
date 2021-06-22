@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-04"
+lastupdated: "2021-06-16"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -223,7 +223,7 @@ The properties that are available in the {{site.data.keyword.compliance_short}} 
 ## How can I use a rule in {{site.data.keyword.cloud_notm}}?
 {: #config-rule-use-cases}
 
-Rules help you to standardize the fine-grained configurations of your {{site.data.keyword.cloud_notm}} services. As an administrator, you can determine where your organization might benefit from guardrails around resource configuration and then use the {{site.data.keyword.compliance_short}} to create and monitor them. By attaching your rule to a specific [scope](/docs/security-compliance?topic=security-compliance-rules#evaluate-rules-ui), you can limit the rule to a specific section of your business. Then, every 24 hours, a report is generated that details the results of your compliance in the {{site.data.keyword.compliance_short}} UI that you can use to investigate potential issues.
+Rules help you to standardize the fine-grained configurations of your {{site.data.keyword.cloud_notm}} services. As an administrator, you can determine where your organization might benefit from guardrails around resource configuration and then use the {{site.data.keyword.compliance_short}} to create and monitor them. By attaching your rule to a specific [scope](/docs/security-compliance?topic=security-compliance-rules#evaluate-rules-ui), you can limit the rule to a specific section of your business. Then, every 24 hours, an evaluation is done and the results are updated in the {{site.data.keyword.compliance_short}} UI where you can start investigating potential issues.
 
 
 Check out the following diagram to see an example rule sequence:

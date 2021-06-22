@@ -54,6 +54,10 @@ Security and Compliance Center
     [Gaining insight](https://{DomainName}/docs/security-advisor?topic=security-advisor-getting-started)
 
     {: .topicgroup}
+    Connecting third-parties
+        tanium.md
+
+    {: .topicgroup}
     Managing your posture
         view-posture.md
         results.md      
