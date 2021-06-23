@@ -67,6 +67,7 @@ Security and Compliance Center
     Enhancing security
         iam.md
         data-security.md
+        architecture-workload-isolation.md
         at-events.md
     {: .navgroup-end}
 
