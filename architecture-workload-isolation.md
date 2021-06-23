@@ -60,8 +60,8 @@ Review the following sample architecture for {{site.data.keyword.compliance_full
 
 | Component | Description |
 |:----------|:------------|
-| Control plane | The microservices that make up the individual components of the service run in the control plane, where they are isolated from the other components. Additionally, services such as Cloud Object Storage, Cloudant, and {{site.data.keyword.keymanagementserviceshort}} are run and isolated as part of the control plane. |
-| Data plane | Your data is processed by Network Insights and Activity Insights in the data plane and any findings are forwarded to the control plane. Your resource configurations are also validated by [IBM-managed collectors](/docs/security-compliance?topic=security-compliance-ibm-collector) as part of the data plane. |
+| Control plane | The microservices that make up the individual components of the service run in the control plane, where they are isolated from the other components. Additionally, internal dependencies are run and isolated as part of the control plane. |
+| Data plane | Your data is processed by Network Insights and Activity Insights in the data plane before any findings are forwarded to the control plane. Your resource configurations are also validated by [IBM-managed collectors](/docs/security-compliance?topic=security-compliance-ibm-collector) as part of the data plane before the results are forwarded to the control plane. |
 | X-Force Exchange | The service pulls directly from the IBM X-Force Exchange intelligence platform to quickly alert you to the latest global security threats related to IP reputation as part of the integration with Network Insights. |
 {: caption="Table 1. IBM-managed components of the {{site.data.keyword.compliance_short}}" caption-side="top"}
 {: #ibm-managed}
