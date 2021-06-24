@@ -61,7 +61,7 @@ Templates are compatible only with select {{site.data.keyword.cloud_notm}} servi
 
 Before you get started, be sure that you have the required level of access to view and manage templates. To create a template, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
 
-To avoid duplicated definitions, each property can be added to one template per scope.
+To avoid duplicated definitions, you can add each property to one template per scope.
 {: note}
 
 ## Creating templates in the UI

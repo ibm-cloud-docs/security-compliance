@@ -60,7 +60,7 @@ Templates are compatible with select {{site.data.keyword.cloud_notm}} services a
 With templates, you can define your preferred values, or customized defaults, on properties that are used to configure an {{site.data.keyword.cloud_notm}} resource. By creating templates that users in your accounts can regularly review and reference, you set guidelines for teams to follow. After you attach a template to a [scope](#x2037763){:term}, your customized defaults are applied by target services to ensure that your selections override the IBM-defined values each time that a target resource is created.
 
 You can use templates to override IBM-defined property values only. Configurations that are selected by users at resource creation aren't replaced by the values that you define as part of a template.
-To avoid duplicated definitions, each property can be added to one template per scope.
+To avoid duplicated definitions, you can add each property to one template per scope.
 {: note}
 
 Check out the following diagram to see an example template sequence:
