@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-14"
+lastupdated: "2021-06-24"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -57,7 +57,7 @@ A collector is a software module, packaged as a Docker image, that is installed 
 
 When it is time for a scheduled scan to run, the orchestrator sends a signal to the collector to initiate the scan. Using the credentials that are stored in the orchestrator, the collector gathers the configuration information from the resources in your defined scope. Then, the collector validates the information using your selected profile and calculates a compliance score before returning the results to the orchestrator.
 
-If you're working with VPC, you can keep a history of all network connections that a collector intiates for future audits, by enabling [Flow Logs](/docs/vpc?topic=vpc-ordering-flow-log-collector).
+If you're working with VPC, you can keep a history of all network connections that a collector initiates for future audits, by enabling [Flow Logs](/docs/vpc?topic=vpc-ordering-flow-log-collector).
 {: tip}
 
 
@@ -91,14 +91,14 @@ When you install a collector, you install two images both the collector image an
 
 If you choose to work with an IBM-managed collector, you are responsible only for providing the credentials that a collector needs to access your resources.
 
-If you choose to create and install your own collectory, you are responsible for the stability of the virtual machine. This includes, processing power, disk space, clearing logs, controlling access, and opening ports. You are also responsible for updating or patching the Watchtower image if there is a new vulnerability.
+If you choose to create and install your own collector, you are responsible for the stability of the virtual machine. This includes, processing power, disk space, clearing logs, controlling access, and opening ports. You are also responsible for updating or patching the Watchtower image if there is a new vulnerability.
 
 
 
 ## Understanding communication
 {: #collector-communication}
 
-The collector acts as an intermediary between your resources and the service. The following sections detail how the communciation takes place and how it is secured.
+The collector acts as an intermediary between your resources and the service. The following sections detail how the communication takes place and how it is secured.
 
 
 ### Between the collector and the {{site.data.keyword.compliance_short}}

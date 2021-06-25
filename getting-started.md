@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-21"
+lastupdated: "2021-06-22"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -90,14 +90,15 @@ To gather information about your resources, you must create a [collector](#gs-co
 2. In the navigation, click **Configure > Settings > Credentials**.
 3. Click **Create**.
 4. Give your credential a meaningful name and description.
-5. Select **{{site.data.keyword.cloud_notm}}**.
-6. Select **Discovery/Collection**.
-7. Paste your API key into the **IBM API key** field. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey).
+5. Select **Discovery/Collection**.
+6. Click **Next**.
+7. Select **{{site.data.keyword.cloud_notm}}**.
+8. Paste your API key into the **IBM API key** field. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey).
 
   Your API key must have reader access permissions to the resources that you want to scan.
   {: note}
 
-8. Verify your updates and click **Save**. The credential is added to a list of available credentials. 
+9. Verify your updates and click **Create**. The credential is added to a list of available credentials. 
 
 
 ## Install a collector
@@ -132,13 +133,15 @@ When your collector is ready, the status updates to **Active**.
 
 When you're working with the {{site.data.keyword.compliance_short}}, you can narrow the focus of your scans to a specific environment, region, or even resource. By creating scopes, you can determine your security and compliance score across a specific area of your business. 
 
-1. On the **Scopes** page of the {{site.data.keyword.compliance_short}}, click the **New scope** icon.
+1. On the **Configure > Scopes** page of the {{site.data.keyword.compliance_short}}, click **Create**.
 2. Give your scope a meaningful name and description.
-3. Select an environment.
-4. Select the **Collector** that you want to use.
+3. Click **Next**. 
+4. Select an environment.
 5. Select the **Credentials** that provide access to the resources that you want to scan.
 6. Click **Next**.
-7. Select the resource groups that you want to scan and click **Create**.
+7. Select the **Collector** that you want to use.
+8. Click **Next**.
+9. Review the details of your scope and click **Create**.
 
 
 
@@ -148,14 +151,15 @@ When you're working with the {{site.data.keyword.compliance_short}}, you can nar
 
 To discover resources, assess their configuration, and validate their compliance against a predefined profile, you can schedule a validation scan.
 
-1. On the **Scans > Scheduled scans** page of the {{site.data.keyword.compliance_short}}, click **Schedule**. A side panel opens.
+1. On the **Assess > Scans > Scheduled scans** page of the {{site.data.keyword.compliance_short}}, click **Schedule**. A side panel opens.
 2. Give your scan a meaningful name and description.
 3. Select **Validation**.
 4. Select the scope that you created in the previous step.
 5. Select one of the predefined profiles and click **Next**.
-6. Select the frequency at which you want the scan to run.
-7. Select when you want the scan to stop. Options include never, a specific number of scans, or on a set date.
-8. Click **Create**.
+6. Select the remediation preference. Options include automatic, approved, and none.
+7. Select the frequency at which you want the scan to run.
+8. Select when you want the scan to stop. Options include never, a specific number of scans, or on a set date.
+9. Click **Create**.
 
 
 ## Next steps

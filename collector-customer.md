@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-14"
+lastupdated: "2021-06-24"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -62,7 +62,7 @@ Before you begin, be sure that you're using a Pay-As-You-Go or Subscription [{{s
 ### Verifying installation requirements
 {: #before-collector-verify}
 
-To manually install a collector, you must have access to a server. That server must have the following minium configuration requirments depending on the type of machine that you are using.
+To manually install a collector, you must have access to a server. That server must have the following minium configuration requirements depending on the type of machine that you are using.
 
 | Machine type | Minimum requirement | 
 |:-------------|:--------------------|
@@ -192,7 +192,7 @@ Now that you have a collector, you can install it by completing the following st
     <caption>Table 3. Collector installation prompts and responses</caption>
     <tr>
       <th>Prompt</th>
-      <th>Desciption and example</th>
+      <th>Description and example</th>
     </tr>
     <tr>
       <td>Data path</td>
@@ -200,7 +200,7 @@ Now that you have a collector, you can install it by completing the following st
     </tr>
     <tr>
       <td>Nmap validation</td>
-      <td>Nmap scans are done on resources that are behind a firewall such as on-premesis resources. Enter <code>y</code> (yes) or <code>n</code> (no)</td>
+      <td>Nmap scans are done on resources that are behind a firewall such as on-premises resources. Enter <code>y</code> (yes) or <code>n</code> (no)</td>
     </tr>
     <tr>
       <td>Proxy</td>
