@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-04-07"
+lastupdated: "2021-06-28"
 
 keywords: scopes, accounts, resources, environments
 
@@ -75,7 +75,10 @@ To narrow the focus of your scans, create a scope by using the {{site.data.keywo
 
   Be sure to give a descriptive name as you use this field later to configure scans and remediation.
 
-5. Select an environment. Options include AWS, Azure, IBM, GCP, and On-prem.
+5. Select an environment. Options include Amazon Web Services, Microsoft Azure, IBM Cloud, Google Cloud Platform, and On-premises.
+
+  If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third-party. Supported format for imported files is  `.json`. Max file size is 30 MB.
+
 6. Select the **Collector** that you want to use.
 7. Select the **Credentials** that match the collector that you selected in the previous step.
 8. Click **Next**.
