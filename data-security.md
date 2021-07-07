@@ -210,8 +210,9 @@ One of the most important aspects of keeping your data safe is visualizing your 
 
 When you work with {{site.data.keyword.compliance_short}} data, there are a few best practices to keep in mind to ensure that your data is always secure.
 
-1. [Rotate your keys.](/docs/key-protect?topic=key-protect-key-rotation)
-2. [Set fine-grained access control policies.](/docs/key-protect?topic=key-protect-manage-access)
+- [Rotate your keys.](/docs/key-protect?topic=key-protect-key-rotation)
+- [Set fine-grained access control policies.](/docs/key-protect?topic=key-protect-manage-access)
+
 
 In {{site.data.keyword.keymanagementserviceshort}}, you can assign various levels of access to limit the number of people who have access to your keys. You can also update the access later if a need to tighten security around your data occurs. 
 
