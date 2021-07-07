@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-06"
+lastupdated: "2021-07-07"
 
 keywords: evaluation results, rule results, configuration results, resource configuration, 
 
@@ -69,7 +69,7 @@ From the details page, you can view a summary of your evaluation results for any
 
     In this example, **Public access rule - staging** is a failing rule that must be further investigated. When you select a rule, a new page opens that shows the compliance results about the resources that the rule was evaluated against.
 
-2. View the resoures that were evaluated by using the rule.
+2. View the resources that were evaluated by using the rule.
 
     On the page that opens, you see a list of the resources that the rule is attached to. To view the details for a specific resource, select the name of the resource. 
 
