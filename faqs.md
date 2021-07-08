@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-10"
+lastupdated: "2021-07-07"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -53,6 +53,7 @@ Frequently asked questions for {{site.data.keyword.compliance_full}} might inclu
 
 ## Which environments are currently integrated with the service?
 {: #environment-list}
+{: faq}
 
 You can use the {{site.data.keyword.compliance_short}} to monitor your security and compliance posture in the following environments:
 
@@ -65,6 +66,7 @@ You can use the {{site.data.keyword.compliance_short}} to monitor your security 
 
 ## Which IBM Cloud services can I scan?
 {: #resource-scan}
+{: faq}
 
 You can use the {{site.data.keyword.compliance_short}} to monitor your resources that pertain to the following services:
 
@@ -119,9 +121,26 @@ Templates help you to customize the default property values that are associated 
 
 ## Why can't I select a remediation option?
 {: #remediate-gray}
+{: faq}
 
 Currently, you must be working with Amazon Web Services or Microsoft Azure to configure remediation. If you select a scope that does not support remediation, the option is unavailable and not able to be configured.
 
 For more information about remediation, see [Remediating issues](/docs/security-compliance?topic=security-compliance-remediation).
 
 
+
+## How can I check which key is being used in the Security and Compliance Center?
+{: #faq-encryption-key}
+{: faq}
+
+You might use the same keys for many different purposes within {{site.data.keyword.cloud_notm}}. The {{site.data.keyword.compliance_short}} marks an association with the keys that it uses to secure the data. To view the resources associated with a key, go to the {{site.data.keyword.keymanagementserviceshort}} instance on the resource list and click on the key. You can see the Cloud Resource Name (CRN) of associated resources. 
+
+
+
+## If I disable a key, how long does it take the service to detect it?
+{: #faq-disable-key}
+{: faq}
+
+The {{site.data.keyword.compliance_short}} is configured to detect key disable events through standard IBM crypto eraser capabilities. To see how quickly the service responds when a key is disabled, try disabling a key and then navigate to the **Findings** page of the UI. Within a few seconds, you will see an error message informing you that the root key that was selected for encryption is currently disabled. 
+
+If you suspect that your data or key becomes compromised, you can [disable the keys](/docs/key-protect?topic=key-protect-disable-keys) in {{site.data.keyword.keymanagementserviceshort}} until you're sure it's safe. Then you can reenable it. Shredding data like this is called crypto shredding.

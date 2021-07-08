@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-17"
+lastupdated: "2021-07-07"
 
 keywords: HA for {{site.data.keyword.compliance_short}}, DR for {{site.data.keyword.compliance_short}}, high availability for {{site.data.keyword.compliance_short}}, disaster recovery for {{site.data.keyword.compliance_short}}, failover for {{site.data.keyword.compliance_short}}
 
@@ -53,7 +53,7 @@ As an {{site.data.keyword.cloud_notm}} platform service, {{site.data.keyword.com
 ## Posture Management HA/DR
 {: #posture-ha-dr}
 
-The Posture Management capability of the {{site.data.keyword.compliance_short}} is a highly-available regional service that runs in the Dallas (`us-south`) and Frankfurt (`fra`). In the supported region, the service runs in several availability zones with three in-region replicas.
+The Posture Management capability of the {{site.data.keyword.compliance_short}} is a highly-available regional service that runs in the Dallas (`us-south`) and Frankfurt (`fra`) region. In the supported region, the service runs in several availability zones with three in-region replicas.
 
 Your data is stored securely and backed up to IBM Cloud Databases. If a regional disaster occurs, the available data is restored by the {{site.data.keyword.compliance_short}} without any action from you.
 
