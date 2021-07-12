@@ -55,7 +55,7 @@ Security and Compliance Center
 
     {: .topicgroup}
     Connecting third-parties
-        tanium.md
+        business-partners/tanium.md
 
     {: .topicgroup}
     Managing your posture
