@@ -202,7 +202,7 @@ After you create a template, you can view it by navigating to the {{site.data.ke
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
 2. In the **Govern resources** section, click **Configure > Templates**.
 3. Use the **Templates** table to view the templates in your account.
-4. Click the **Actions** icon ![Menu icon](../icons/icon_hamburger.svg) to open a list of options for the template that you want to delete.
+4. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) to open a list of options for the template that you want to delete.
 5. Click **Edit** and follow the prompts to update your template.
 6. Click **Edit and attach** to confirm your selections.
 
