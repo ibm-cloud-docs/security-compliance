@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-23"
+lastupdated: "2021-07-12"
 
 keywords: profiles, user-defined, predefined profiles, controls, goals, nist, best practices, security, compliance
 
@@ -75,7 +75,7 @@ Before you get started, be sure that you have the required level of access to vi
 
 You can view the profiles that are associated with your account in the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Profiles**. 
 
   From the list of available profiles, you can see whether a profile is predefined or custom by checking the **Category** column. You can also view the number of controls that each profile contains.
@@ -90,7 +90,7 @@ You can view the profiles that are associated with your account in the {{site.da
 
 You can choose to create a profile by using other predefined profiles as a base. To build a profile, you can use the UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Profiles**. 
 3. Click the **Build profile** icon.
 4. Give your profile a name and description.
@@ -106,7 +106,7 @@ You can choose to create a profile by using other predefined profiles as a base.
 
 If you know the controls and goals that you want to meet, you can create a profile that is specific to your needs from scratch.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Profiles**. 
 3. Click **Create**.
 4. Give your profile a name and description.
@@ -127,7 +127,7 @@ If you accidentally add a control that you don't need, you can click the **Trash
 
 If you create a custom profile, you can edit it if the need arises by using the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Profiles**. 
 3. From the list of profiles, select the profile that you want to edit.
 4. Click the **Edit** symbol.
@@ -165,7 +165,7 @@ When you're working with profiles locally, it's important that you stay within t
 
 To import a profile, you can use the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Profiles**. 
 3. Click the **Import profile** icon.
 4. Upload the CSV version of the profile that you want to import.
@@ -177,7 +177,7 @@ To import a profile, you can use the {{site.data.keyword.compliance_short}} UI.
 
 To export a profile, you can use the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Profiles**. 
 3. From the list of profiles, select the profile that you want to export.
 4. Click the **Export profile** icon.
@@ -188,7 +188,7 @@ To export a profile, you can use the {{site.data.keyword.compliance_short}} UI.
 
 If you no longer need to use a custom profile, you can choose to remove it from your list of profiles by using the {{site.data.keyword.compliance_short}} UI. The profile is moved to a deleted section to ensure that previous scans are able to be properly rendered. But, it cannot be used in future scans.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Profiles**.
 3. From the list of profiles, select the profile that you want to delete.
 4. Click the **Trash** icon.

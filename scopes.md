@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-28"
+lastupdated: "2021-07-12"
 
 keywords: scopes, accounts, resources, environments
 
@@ -68,7 +68,7 @@ Before you get started, be sure that you have the following prerequisites.
 
 To narrow the focus of your scans, create a scope by using the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Scopes**.
 3. Click **Create**.
 4. Give your scope a name and description.
@@ -96,7 +96,7 @@ If you're working with a scope that requires more than one set of credentials to
 
 To view the details of the scopes that you create, you can use the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Scopes**.
 3. From the **Scopes** table, select the scope that you want to see the details of. A new page opens that contains the information of which credentials and collectors are used in the scope, as well as an inventory of the resources that are available in the scope.
 4. Click **Event history** to see the historical archive of each scan that has been run on the scope. If there are additional details available for the scan, the event time is clickable.
@@ -124,7 +124,7 @@ When an Nmap scan is run on on-premises resources, occasionally a resource is mi
 If you need to update the resources that are scanned as part of a scope, you can edit an existing scope. However, you cannot update an environment that the scope is associated with. If you want to change an environment, create a new scope.
 
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Scopes**.
 3. Select the scope that you want to edit in the table.
 4. Click the **Edit scope** symbol.
@@ -140,7 +140,7 @@ If you need to update the resources that are scanned as part of a scope, you can
 
 If you no longer need to scan a particular scope, you can delete it.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Scopes**.
 3. Select the scope that you want to delete.
 4. From actions menu in the row of the scope that you want to delete, click **delete scope**.

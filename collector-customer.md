@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-24"
+lastupdated: "2021-07-12"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -117,7 +117,7 @@ Working with VPC? Get help [Setting up your Network ACLs](/docs/vpc?topic=vpc-us
 
 You can use the {{site.data.keyword.compliance_short}} UI to create a collector by completing the following steps.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Manage posture > Configure > Settings > Collectors**.
 3. Click **Create**.
 4. Give your collector a name and description.
@@ -138,7 +138,7 @@ When the collector is created successfully, the status updates to **Ready to ins
 
 Now that you have a collector, you can install it by completing the following steps.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Manage posture > Configure > Settings > Collectors**.
 3. In the **Collectors** table, click the name of the collector that you want to register. The table row expands to provide more information.
 4. Download the `initiate_collector.sh` file.
@@ -232,7 +232,7 @@ Now that you have a collector, you can install it by completing the following st
   {: screen}
 
 10. Approve your collector.
-  1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+  1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
   2. In the navigation, click **Manage posture > Configure > Settings > Collectors**.
   3. In the **Collectors** table, click **Approve** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
   4. If a passphrase is enabled, click **Passphrase** and enter the phrase. Be sure to enter your passphrase exactly.

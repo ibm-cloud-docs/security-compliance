@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-24"
+lastupdated: "2021-07-12"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -70,7 +70,7 @@ To avoid duplicated definitions, you can add each property to one template per s
 
 You can use the {{site.data.keyword.compliance_short}} UI to create the templates that you want to apply to your {{site.data.keyword.cloud_notm}} resources. To create templates by using the {{site.data.keyword.cloud_notm}} console:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and Compliance**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) > **Security and Compliance**.
 2. In the **Govern resources** section, click **Configure > Templates**.
 3. Click **Create**.
 4. Give your template a meaningful name and description.
@@ -143,7 +143,7 @@ By creating an attachment between a template and a scope, you can apply your cus
 
 To create an attachment for a template by using the {{site.data.keyword.compliance_short}} UI:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and Compliance**.
 2. In the **Govern resources** section, click **Configure > Templates**.
 3. From the list of templates, click the name of the template that you want to attach.
 4. Click **Attachments**. If the template that you selected is attached to any scopes, you see them in a table.
@@ -199,7 +199,7 @@ A successful `POST config/v1/templates/{template_ID}/attachments` response retur
 
 After you create a template, you can view it by navigating to the {{site.data.keyword.compliance_short}} UI. To view templates by using the {{site.data.keyword.compliance_short}} UI:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and Compliance**.
 2. In the **Govern resources** section, click **Configure > Templates**.
 3. Use the **Templates** table to view the templates in your account.
 4. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) to open a list of options for the template that you want to delete.
@@ -261,7 +261,7 @@ A successful `PUT config/v1/templates` response returns the IDs values for your 
 
 If you no longer need to use a template, you can choose to delete it by using the {{site.data.keyword.compliance_short}} UI. To delete an existing template by using the {{site.data.keyword.compliance_short}} UI:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and Compliance**.
 2. In the **Govern resources** section, click **Configure > Templates**.
 3. Use the **Templates** table to view the templates in your account.
 4. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) to open a list of options for the template that you want to delete.
