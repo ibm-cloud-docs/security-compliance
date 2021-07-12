@@ -59,7 +59,7 @@ Before you get started, be sure that you have the required level of access to vi
 ## Understanding your results
 {: #understand-results}
 
-To access the evaluation results for your rules, go to the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and Compliance > View results**.
+To access the evaluation results for your rules, go to the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > View results**.
 
 From the details page, you can view a summary of your evaluation results for any existing rules that are attached to scopes. When an issue is flagged that you want to know more about, you can drill into the results to get to your wanted level of information. At each level, you can download a detailed report with the information that is available at that level. Check out the following image to see the level of detail that you can achieve by investigating.
 

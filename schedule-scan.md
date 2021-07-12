@@ -146,7 +146,7 @@ To check to see if the computer has `WinRM` enabled, check if the HTTPS listener
 
 You can schedule a discovery or fact collection scan by using the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Assess > Scans > Scheduled scans**. 
 3. Click **Schedule**. A side panel opens.
 4. Give your scan a name and description.
@@ -164,7 +164,7 @@ You can schedule a discovery or fact collection scan by using the {{site.data.ke
 
 You can schedule a validation scan by using the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Assess > Scans > Scheduled scans**. 
 3. Click **Create**. A side panel opens.
 4. Give your scan a name and description.
@@ -207,7 +207,7 @@ You can schedule a validation scan by using the {{site.data.keyword.compliance_s
 
 You can schedule a fact validation scan by using the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) > **Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Scopes**. 
 3. Select the name of the scope that you want to scan.
 4. Optional: From the history of scans, select the scan that you want to revalidate.
@@ -219,7 +219,7 @@ You can schedule a fact validation scan by using the {{site.data.keyword.complia
 
 If you need to run a one-time scan on a specific scope, you can initiate it in the scope details page.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) > **Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Scopes**. 
 3. Click the name of the scope that you want to scan.
 4. From the **Actions** drop-down, select **Scan**.

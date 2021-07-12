@@ -86,7 +86,7 @@ Be sure that you also have the following requirements:
 
 To gather information about your resources, you must create a [collector](#gs-collector). Credentials are used to allow the collector to gather information about your resources, assess your configurations, and initiate any required remediation.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Settings > Credentials**.
 3. Click **Create**.
 4. Give your credential a meaningful name and description.

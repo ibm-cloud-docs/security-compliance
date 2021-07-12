@@ -81,7 +81,7 @@ In the {{site.data.keyword.compliance_short}}, you can see a graphical view of y
 
 To navigate to the dashboard: 
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. Click **Dashboard**. Check out the following table to see the information that is displayed in the dashboard.
 
 | Tile | Description |
@@ -105,7 +105,7 @@ You can update the period of time that information is displayed for by selecting
 
 To see the results of a validation scan, you can use the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Validate > Scans > Results**. A list of your scans that have associated results is shown.
 3. In the **Validation results** table, click the **Name** of the scan. 
 
@@ -172,7 +172,7 @@ To see the results of a discovery or fact collection scan, you can use the {{sit
 The scan results that are displayed by default are the most recent. To see previous scan results, use the timeline to select the specific scan that you want to view.
 {: tip}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Scopes**. A list of the scopes that are associated with your account is shown.
 3. In the **Scopes** table, click the **Name** of the scope that you want to view results for. A page opens with detailed information about the available resources in that scope and their configurations. 
 4. Select **Fact collection** or **Discovery** from the drop-down to adjust the results that you see. Check out the following table to learn more about your options for viewing results.
@@ -207,7 +207,7 @@ The scan results that are displayed by default are the most recent. To see previ
 
 If you need to keep your results for long periods of time, or provide information to key stakeholders, you can download a report that details your compliance score for selected scopes.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) > **Security and Compliance**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and Compliance**.
 2. In the **Manage posture** section, click **Assess > Scans**.
 3. Click **Generate a report**.
 4. Select the scans the scope that you want to download a report for.

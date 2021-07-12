@@ -71,7 +71,7 @@ Before you get started, be sure that you have the following prerequisites.
 
 You can use the {{site.data.keyword.compliance_short}} UI to define the rules that you want to enforce or monitor for your {{site.data.keyword.cloud_notm}} resources. To create rules by using the {{site.data.keyword.cloud_notm}} console:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) > **Security and Compliance**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and Compliance**.
 2. In the navigation, click **Configure rules**.
 3. Click **Create**.
 4. Give your rule a meaningful name and description.
@@ -246,7 +246,7 @@ By creating an attachment between a rule and a scope, you can monitor the resour
 
 To create an attachment for a rule by using the {{site.data.keyword.compliance_short}} UI:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and Compliance**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
 2. In the navigation, click **Configure rules**.
 3. From the list of rules, click the name of the rule that you want to attach.
 4. Click **Attachments**. If the rule that you selected is attached to any scopes, you see them in a table.
@@ -301,7 +301,7 @@ A successful `POST config/v1/rules/{rule_ID}/attachments` response returns the I
 
 After you create a rule, you can view it by navigating to the {{site.data.keyword.compliance_short}} UI. To view rules by using the {{site.data.keyword.compliance_short}} UI:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and Compliance**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
 2. In the navigation, click **Configure rules**.
 
    From the **Configuration rules** table, you can see a list of your available rules and the {{site.data.keyword.cloud_notm}} service that is associated with each rule. You can also view the enforcement actions that are associated with each rule in cases of noncompliance.
@@ -333,10 +333,10 @@ A successful `GET config/v1/rules` response returns the IDs values for your avai
 
 If you no longer need to use a rule, you can choose to delete it by using the {{site.data.keyword.compliance_short}} UI. To delete an existing rule by using the {{site.data.keyword.compliance_short}} UI:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and Compliance**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
 2. In the navigation, click **Configure rules**.
 3. Use the **Configuration rules** table to browse the rules in your account.
-4. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) to open a list of options for the rule that you want to delete.
+4. Click the **Actions** icon ![Menu icon](../icons/icon_hamburger.svg) to open a list of options for the rule that you want to delete.
 5. From the options menu, click **Delete** and confirm the deletion in the next screen.
 
 ## Deleting rules with the API

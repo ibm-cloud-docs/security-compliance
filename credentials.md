@@ -89,7 +89,7 @@ Before you begin, be sure that you're using a [Pay-As-You-Go or Subscription](/d
 
 To create a new credential, you can use the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Settings > Credentials**.
 3. Give your credential a meaningful name and a description.
 4. Choose a **Credential type** from the following options:
@@ -183,7 +183,7 @@ Occasionally, you might have a scope that requires the collector use more than o
 To map a credential, it must exist in the service. Before you get started, be sure to [create the credential](/docs/security-compliance?topic=security-compliance-credentials).
 {: note}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Scopes**.
 3. Select the scope that you want to map credentials for.
 4. Click the **Map credentials** icon.
@@ -223,7 +223,7 @@ As you can see in the previous image, a user adds their credentials to the servi
 
 To enable your own passphrase:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) > **Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Settings > Credentials**.
 3. In the **Credentials security** box, click the **Edit** icon. A side panel opens.
 4. Enter your **New passphrase**.

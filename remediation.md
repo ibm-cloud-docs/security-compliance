@@ -68,7 +68,7 @@ Before you get started, be sure that you have the following prerequisites.
 
 You can use the {{site.data.keyword.compliance_short}} UI to get the remediation scripts that you can run to fix issues as they're found.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Assess > Remediation**. 
 3. In the **Remediation** table, select the issue that you want to remediate.
 4. If the screen shows **Pending input**, click the **User inputs** edit icon.

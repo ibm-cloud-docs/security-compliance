@@ -87,7 +87,7 @@ Before you get started, be sure that you have the following prerequisites.
 
 To get started, you must register an integration with the {{site.data.keyword.compliance_short}}. 
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Integrations**.
 3. In the **Tanium** tile, click **Connect**.
 4. Provide a name for your connection.
@@ -150,7 +150,7 @@ In order to see your data in the {{site.data.keyword.compliance_short}}, you nee
 
 Now that your data is prepared to export on a schedule, you can create a scope 
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. Navigate to **Manage posture > Configure > Scopes** and click **Create** to define a new scope.
 3. Give your scope a name and optionally provide a description.
 4. From the available drop-downs, make the following selections and then click **Next**.
@@ -200,7 +200,7 @@ A profile is added to your list of available profiles that contains the goals th
 
 When your scan is complete, you can return the {{site.data.keyword.compliance_short}} UI to view your results.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. Navigate to **Manage posture > Assess > Scans**.
 3. Click the name of the scan that corresponds to your Tanium results. 
 

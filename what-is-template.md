@@ -130,6 +130,6 @@ The default values that can be customized with templates vary depending on each 
 ## How do I get started?
 {: #template-get-started}
 
-To get started with templates, you can go to the **Menu icon** ![Actions icon](../icons/actions-icon-vertical.svg) **> Security and Compliance > Configure > Templates**, or check out the [API reference](/apidocs/security-compliance/config) to learn more about creating templates programmatically.
+To get started with templates, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure > Templates**, or check out the [API reference](/apidocs/security-compliance/config) to learn more about creating templates programmatically.
 
 For more information, see [Managing templates](/docs/security-compliance?topic=security-compliance-templates).
