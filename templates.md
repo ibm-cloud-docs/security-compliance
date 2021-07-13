@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-12"
+lastupdated: "2021-07-13"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -264,7 +264,7 @@ If you no longer need to use a template, you can choose to delete it by using th
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
 2. In the **Govern resources** section, click **Configure > Templates**.
 3. Use the **Templates** table to view the templates in your account.
-4. Click the **Actions** icon ![Menu icon](../icons/icon_hamburger.svg) to open a list of options for the template that you want to delete.
+4. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) to open a list of options for the template that you want to delete.
 5. From the options menu, click **Delete** and confirm the deletion in the next screen.
 
 
