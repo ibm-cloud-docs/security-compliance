@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2021
-lastupdated: "2021-06-09"
+lastupdated: "2021-07-13"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -165,7 +165,7 @@ The following events are triggered by the Posture Management component of the {{
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #dashboard-events}
 {: tab-title="Dashboard"}
-{: tab-group="compliance"}
+{: tab-group="posture"}
 {: class="simple-tab-table"}
 
 | Action                                      | Description             |
@@ -176,7 +176,7 @@ The following events are triggered by the Posture Management component of the {{
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #keys-posture-events}
 {: tab-title="Keys"}
-{: tab-group="compliance"}
+{: tab-group="posture"}
 {: class="simple-tab-table"}
 
 
