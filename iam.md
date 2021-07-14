@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-15"
+lastupdated: "2021-07-13"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -45,7 +45,7 @@ subcollection: security-compliance
 {:api: .ph data-hd-interface='api'}
 
 
-# Assigning access
+# Managing IAM access for {{site.data.keyword.compliance_short}}
 {: #access-management}
 
 Access to the {{site.data.keyword.compliance_full}} is controlled by {{site.data.keyword.iamshort}} (IAM). Every user that accesses the {{site.data.keyword.compliance_short}} in your account must be assigned an access policy with a defined platform IAM role. The policy determines which actions a user can perform within the context of the {{site.data.keyword.compliance_short}}.

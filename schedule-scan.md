@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-03-25"
+lastupdated: "2021-07-12"
 
 keywords: scans, compliance, schedule scan, create scan, discovery, validation, fact collection, fact validation
 

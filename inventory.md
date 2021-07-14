@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-02-04"
+lastupdated: "2021-07-13"
 
 keywords: inventory, security, compliance, discovery, run discovery, discover resources
 
@@ -49,7 +49,7 @@ subcollection: security-compliance
 # Inventorying resources
 {: #inventory}
 
-With the {{site.data.keyword.compliance_full}}, you can view the full list of available resources that are currently being monitored for security and compliance.
+With the {{site.data.keyword.compliance_full}}, you can view the full list of available resources that are currently being monitored for security and compliance. Understanding the scope of your full inventory is important as it's generally the first step to any compliance audit.
 {: shortdesc}
 
 ## Before you begin
@@ -57,8 +57,10 @@ With the {{site.data.keyword.compliance_full}}, you can view the full list of av
 
 Before you get started, be sure that you have the following prerequisites.
 
-- An [installed collector](/docs/security-compliance?topic=security-compliance-collector).
+- A [collector](/docs/security-compliance?topic=security-compliance-collector).
+- [Credentials](/docs/security-compliance?topic=security-compliance-credentials)
 - The required level of access to view and manage inventories. To manage an inventory, you need the editor platform role or higher. For more information, see [IAM access](/docs/security-compliance?topic=security-compliance-access-management).
+
 
 
 ## Creating an inventory

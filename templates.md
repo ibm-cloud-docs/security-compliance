@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-24"
+lastupdated: "2021-07-13"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 

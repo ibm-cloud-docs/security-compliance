@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-28"
+lastupdated: "2021-07-12"
 
 keywords: scopes, accounts, resources, environments
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-23"
+lastupdated: "2021-07-12"
 
 keywords: profiles, user-defined, predefined profiles, controls, goals, nist, best practices, security, compliance
 

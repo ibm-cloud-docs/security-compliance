@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-06-22"
+lastupdated: "2021-07-12"
 
 keywords: Centralized security, tanium, compliance monitoring, compliance, 
 
@@ -57,7 +57,7 @@ If you're an existing Tanium Comply on-prem user, you must contact your TAM or a
 To learn more about how the integration is configured, check out the following diagram.
 
 
-![The image shows the sequence of events that a user and the services follow as part of setting up the integration.](images/tanium.svg){: caption="Figure 1. Tanium integration flow" caption-side="bottom"}
+![The image shows the sequence of events that a user and the services follow as part of setting up the integration.](../images/tanium.svg){: caption="Figure 1. Tanium integration flow" caption-side="bottom"}
 
 1. In your Tanium instance, create a connection that contains the compliance data that you want to see in {{site.data.keyword.cloud_notm}} so that you can see both {{site.data.keyword.cloud_notm}} and Tanium results in one view.
 2. In your {{site.data.keyword.cloud_notm}} account, register your integration with the {{site.data.keyword.compliance_short}}.
@@ -87,7 +87,7 @@ Before you get started, be sure that you have the following prerequisites.
 
 To get started, you must register an integration with the {{site.data.keyword.compliance_short}}. 
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Integrations**.
 3. In the **Tanium** tile, click **Connect**.
 4. Provide a name for your connection.
@@ -150,7 +150,7 @@ In order to see your data in the {{site.data.keyword.compliance_short}}, you nee
 
 Now that your data is prepared to export on a schedule, you can create a scope 
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. Navigate to **Manage posture > Configure > Scopes** and click **Create** to define a new scope.
 3. Give your scope a name and optionally provide a description.
 4. From the available drop-downs, make the following selections and then click **Next**.

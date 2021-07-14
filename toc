@@ -11,6 +11,10 @@ Security and Compliance Center
     releases.md
     {: .navgroup-end}
 
+    {: .navgroup id="tutorial"}
+    tutorials/monitor-ibm-customer-collector.md
+    {: .navgroup-end}
+
     {: .navgroup id="howto"}
     {: .topicgroup}
     Setting up monitoring
@@ -55,7 +59,7 @@ Security and Compliance Center
 
     {: .topicgroup}
     Connecting third-parties
-        tanium.md
+        business-partners/tanium.md
 
     {: .topicgroup}
     Managing your posture
