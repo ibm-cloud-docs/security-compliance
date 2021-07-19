@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-12"
+lastupdated: "2021-07-19"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -79,14 +79,39 @@ Be sure that you also have the following requirements:
 - A [service ID API key](/docs/account?topic=account-serviceidapikeys) with **Read** access permissions for the resources that you want to scan.
 
 
-## Create credentials
+
+## Create a collector
+{: #gs-collector}
+{: step}
+
+A collector is a software module that is packaged as a Docker image that scans your resources and validates their configurations. To learn more about collectors and how the communication takes place, see [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
+
+IBM-managed collectors are created on IBM-owned infrastructure and are maintained by the {{site.data.keyword.compliance_short}}. If your organization doesn't allow managed collectors, you can always create and install your own. For more information, see [Manually administering collectors](/docs/security-compliance?topic=security-compliance-collector-manual).
+{: note}
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+2. On the **Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}}, click **Create**.
+3. Give your collector a name and description.
+
+  It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
+
+4. If you have a passphrase enabled, the **Existing passphrase** field displays. Enter your passphrase. If you do not have a passphrase enabled, the field will not display.
+5. Click **Next**.
+6. In the **Managed by** field, select **IBM**.
+7. By default, the **Private** endpoint type is selected.
+
+  A collector requires constant communication with the service to validate your current posture. By default, a private endpoint is used for communication in all IBM managed collectors.
+
+8. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
+
+When your collector is ready, the status updates to **Active**.
+
+## Add credentials
 {: #gs-credentials}
 {: step}
 
+The credentials that you add to the service must allow the collector to read your resource configurations.
 
-To gather information about your resources, you must create a [collector](#gs-collector). Credentials are used to allow the collector to gather information about your resources, assess your configurations, and initiate any required remediation.
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Settings > Credentials**.
 3. Click **Create**.
 4. Give your credential a meaningful name and description.
@@ -99,32 +124,6 @@ To gather information about your resources, you must create a [collector](#gs-co
   {: note}
 
 9. Verify your updates and click **Create**. The credential is added to a list of available credentials. 
-
-
-## Install a collector
-{: #gs-collector}
-{: step}
-
-A collector is a software module that is packaged as a Docker image. It is installed "within sight" of your environment where it can have network access to your IT resources. After you create your credentials, you can create and install a managed collector that you can use to complete the tutorial. To learn more about collectors and how the communication takes place, see [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
-
-IBM managed collectors are created on IBM owned infrastructure and are maintained by the {{site.data.keyword.compliance_short}}. If your organization doesn't allow managed collectors, you can always create and install your own. For more information, see [Manually administering collectors](/docs/security-compliance?topic=security-compliance-collector-manual).
-{: note}
-
-1. On the **Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}}, click **Create**.
-2. Give your collector a name and description.
-
-  It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
-
-3. If you have a passphrase enabled, the **Existing passphrase** field displays. Enter your passphrase. If you do not have a passphrase enabled, the field will not display.
-4. Click **Next**.
-5. In the **Managed by** field, select **IBM**.
-6. By default, the **Private** endpoint type is selected.
-
-  A collector requires constant communication with the service to validate your current posture. By default, a private endpoint is used for communication in all IBM managed collectors.
-
-7. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
-
-When your collector is ready, the status updates to **Active**.
 
 
 ## Create a scope
