@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-12"
+lastupdated: "2021-07-19"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -43,7 +43,7 @@ subcollection: security-compliance
 {:ui: .ph data-hd-interface='ui'}
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
-
+ 
 
 # Manually administering collectors
 {: #collector-manual}
@@ -145,43 +145,55 @@ Now that you have a collector, you can install it by completing the following st
 5. In terminal, log in to your virtual machine by using SSH.
 
   ```
-  ssh <username>@<hostname_or_IP_address>
+  ssh root@<hostname_or_IP_address>
   ```
   {: codeblock}
 
-  If you do not log in as the root user, you must prefix the following commands with `sudo`.
-  {: tip}
-
-6. Be sure that you have the required software on your VM and that it is up to date. If you're working with Ubuntu, you can use the following commands.
+6. Be sure that you have the required software on your VSI and that it is up to date. If you're working with Ubuntu, you can use the following commands.
   1. Verify that your OS image is up to date. In Ubuntu, you can run the following command: 
 
     ```
-    [sudo] apt-get update
+    sudo apt-get update
     ```
     {: codeblock}
   
   2. If you don't have it already, install [Docker Compose](https://docs.docker.com/compose/install/){: external} by using the command for your OS.
 
     ```
-    [sudo] apt-get install docker-compose
+    sudo apt-get install docker-compose
     ```
     {: codeblock}
 
   3. If you plan to use your collector to run on-premises resource scans, install [Nmap version 7.6 or higher](https://nmap.org/download.html){: external} by using the command for your OS. If you're working with Ubuntu, you can use the following command.
 
     ```
-    [sudo] apt-get install nmap
+    sudo apt-get install nmap
     ```
     {: codeblock}
 
-7. Transfer the downloaded `initiate_collector.sh` file onto your virtual machine and change the permissions to allow it to run.
+7. Transfer the collector installation file to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
+  1. Locally, open the **initiate_collector.sh** file that you downloaded and copy its contents.
+  2. From your command line, open the VIM editor.
+
+    ```
+    vi initiate_collector.sh
+    ```
+    {: codeblock}
+  
+  3. Press **i** to insert content.
+  4. Paste the content that you previously copied.
+  5. Press the **Escape** key to exist edit mode.
+  6. Type `:wq` and click **Enter**. to save and exist VIM.
+  7. To confirm that the file was created, run the `ls` command.
+
+8. Change the permissions of the `initiate_collector.sh` file to allow it to run.
 
   ```
   chmod +x initiate_collector.sh
   ```
   {: codeblock}
 
-8. Install the collector by running the following command and then answering the following prompts as they are asked. 
+9. Install the collector by running the following command and then answering the following prompts as they are asked. 
 
   ```
   ./initiate_collector.sh
@@ -204,7 +216,7 @@ Now that you have a collector, you can install it by completing the following st
     </tr>
     <tr>
       <td>Proxy</td>
-      <td>Your organization might want to use a proxy to allow communication between the collector and your resources. For more information about using a proxy, see [Intalling a collector by using a proxy](#collector-proxy).</td>
+      <td>If you selected yes when prompted about whether to run an Nmap validation, your organization might want to use a proxy to allow communication between the collector and your resources. For more information about using a proxy, see [Intalling a collector by using a proxy](#collector-proxy).</td>
     </tr>
     <tr>
       <td>Registration key</td>
@@ -234,7 +246,7 @@ Now that you have a collector, you can install it by completing the following st
 10. Approve your collector.
   1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
   2. In the navigation, click **Manage posture > Configure > Settings > Collectors**.
-  3. In the **Collectors** table, click **Approve** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
+  3. In the **Collectors** table, click **Approval required** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
   4. If a passphrase is enabled, click **Passphrase** and enter the phrase. Be sure to enter your passphrase exactly.
 
 

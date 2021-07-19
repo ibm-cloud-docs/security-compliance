@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-13"
+lastupdated: "2021-07-19"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -161,7 +161,7 @@ A collector is a Docker image that you install on your Virtual Private Cloud. Th
   5. Press the **Escape** key to exist edit mode.
   6. Type `:wq` and click **Enter**. to save and exist VIM.
   7. To confirm that the file was created, run the `ls` command.
-5. Change the permissions of the **initiate_collector.sh** file to allow it to run.
+5. Change the permissions of the `initiate_collector.sh` file to allow it to run.
 
   ```
   chmod +x initiate_collector.sh
