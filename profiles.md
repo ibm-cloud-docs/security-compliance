@@ -44,13 +44,11 @@ subcollection: security-compliance
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
 
-
 # Working with profiles
 {: #profiles}
 
 With the {{site.data.keyword.compliance_full}}, you can create your own profiles or take advantage of predefined profiles that are curated based on industry standards.
 {: shortdesc}
-
 
 ## Understanding profiles
 {: #understand-profiles}
@@ -82,7 +80,6 @@ You can view the profiles that are associated with your account in the {{site.da
 
 3. To view the controls that are associated with the profile, click the row of the table that you want to investigate.
 4. To view the goals that are associated with the controls, click the control that you want to review. A screen opens with goal details.
-
 
 
 ## Building a profile
@@ -120,7 +117,6 @@ If you know the controls and goals that you want to meet, you can create a profi
 
 If you accidentally add a control that you don't need, you can click the **Trash** icon to delete it or the **Edit** icon to edit your profile.
 {: tip}
-
 
 
 ## Editing a profile in the UI
@@ -195,3 +191,4 @@ If you no longer need to use a custom profile, you can choose to remove it from 
 4. Click the **Trash** icon.
 5. Confirm that you want to delete the profile by clicking **Delete**.
 6. Optional: To see deleted profiles, click the **Overflow** icon and select **Show deleted profiles**.
+
