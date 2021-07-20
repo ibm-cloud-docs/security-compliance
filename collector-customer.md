@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-19"
+lastupdated: "2021-07-20"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -216,7 +216,7 @@ Now that you have a collector, you can install it by completing the following st
     </tr>
     <tr>
       <td>Proxy</td>
-      <td>If you selected yes when prompted about whether to run an Nmap validation, your organization might want to use a proxy to allow communication between the collector and your resources. For more information about using a proxy, see [Intalling a collector by using a proxy](#collector-proxy).</td>
+      <td>If you selected yes when prompted about whether to run an Nmap validation, your organization might want to use a proxy to allow communication between the collector and your resources. For more information about using a proxy, see [Installing a collector by using a proxy](#collector-proxy).</td>
     </tr>
     <tr>
       <td>Registration key</td>

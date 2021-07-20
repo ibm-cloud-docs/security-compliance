@@ -69,10 +69,10 @@ Security and Compliance Center
 
     {: .topicgroup}
     Enhancing security
-        iam.md
-        data-security.md
-        architecture-workload-isolation.md
-        at-events.md
+        framework/iam.md
+        framework/data-security.md
+        framework/architecture-workload-isolation.md
+        framework/at-events.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -90,14 +90,14 @@ Security and Compliance Center
     
     {: .topicgroup}
     Available security checks
-        default-goals.md
+        security-checks/default-goals.md
 
     {: .topicgroup}
     Related links
         [IBM Cloud compliance programs](https://www.ibm.com/cloud/compliance)
     
     locations-endpoints.md
-    ha-dr.md
+    framework/ha-dr.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}

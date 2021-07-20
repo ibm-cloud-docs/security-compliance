@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-19"
+lastupdated: "2021-07-20"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -46,6 +46,7 @@ completion-time: 20m
 {:ui: .ph data-hd-interface='ui'}
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
+
 
 
 # Getting started with {{site.data.keyword.compliance_short}}
