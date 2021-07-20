@@ -2,4 +2,5 @@ https://pages.github.ibm.com/project-fortress/adoption/#/Asynchronous%20Pattern/
 https://pages.github.ibm.com/project-fortress/adoption/#/Asynchronous%20Pattern/post_v1_config,
 https://pages.github.ibm.com/project-fortress/adoption/#/Synchronous%20Pattern/get_v2_config,
 https://secure.video.ibm.com/channel/23887899/playlist/636374,
-https://secure.video.ibm.com/channel/23887899/playlist/636374/video/129254715
+https://secure.video.ibm.com/channel/23887899/playlist/636374/video/129254715,
+https://docs.neuvector.com/integration/ibmsa
