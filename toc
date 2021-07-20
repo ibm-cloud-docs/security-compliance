@@ -29,7 +29,7 @@ Security and Compliance Center
         
         {: .topicgroup}
         Defining your compliance checks
-            profiles.md
+            profile-predefined.md
             customize-goals.md
     
     {: .topicgroup}
