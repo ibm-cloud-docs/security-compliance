@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-07-15"
+lastupdated: "2021-07-22"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -51,6 +51,33 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 {:shortdesc}
 
 
+
+
+## 22 July 2021
+{: #2021-07-22}
+
+This release includes the following updates.
+
+### New Posture Management API endpoints
+{: #2021-07-22-new-apis}
+
+With this release there are 9 new API endpoints available for the Posture Management API. To get started, see the [Posture Management API documentation](https://{DomainName}/apidocs/security-compliance/posture).
+
+### Consolidated SDK package
+{: #2021-07-22-sdk-package}
+
+To make it easier to programmatically access the API from your code, {{site.data.keyword.compliance_short}} SDK packages are now available. The SDKs implement best practices for using the API and reduces the amount of code that you need to write. For more information, see the documentation for the following APIs:
+
+* [Admin](https://{DomainName}/apidocs/security-compliance/admin)
+* [Configuration Governance](https://{DomainName}/apidocs/security-compliance/config)
+* [Posture Management](https://{DomainName}/apidocs/security-compliance/posture)
+* [Findings](https://{DomainName}/apidocs/security-compliance/findings)
+* [Notifications](https://{DomainName}/apidocs/security-compliance/si-notifications)
+
+### Documentation update
+{: #2021-07-22-insights}
+
+With this release we've completed the integration of the Security Insights, formerly known as {{site.data.keyword.security-advisor_short}}, documentation into the {{site.data.keyword.compliance_short}} docs. You can now find the documentation for all three components in the {{site.data.keyword.compliance_short}} documentation.
 
 
 

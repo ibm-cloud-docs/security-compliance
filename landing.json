@@ -1,6 +1,6 @@
 {
     "title": "Security and Compliance Center docs",
-    "lastupdated": "2021-06-21",
+    "lastupdated": "2021-07-22",
     "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
     "section_devtools": {
       "api": "/apidocs/security-compliance/posture"
@@ -32,6 +32,11 @@
       "view_more": "/docs/acme-test?topic=acme-test-release-notes",
       "tiles": [
         {
+          "date": "22 July 2021",
+          "title": "Consoladated SDK package and Security Advisor doc integration",
+          "description": "Now all of the Security and Compliance Center SDKs are packaged together. The Security Advisor docs have been rebranded and integrated into the Security and Compliance Center docs."
+        },
+        {
           "date": "22 June 2021",
           "title": "Tanium integration",
           "description": "Now you can configure your Tanium Comply instances to forward your compliance data to the Security and Compliance Center."
@@ -40,11 +45,6 @@
           "date": "14 June 2021",
           "title": "Managed collectors",
           "description": "Now you can choose to have IBM manage a collector on your behalf."
-        },
-        {
-          "date": "14 June 2021",
-          "title": "New goals",
-          "description": "New goals have been added to the IBM Best Practices Controls 1.0 profile."
         }
       ]
     }
