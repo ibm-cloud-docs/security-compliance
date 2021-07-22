@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-17"
+lastupdated: "2021-07-22"
 
 keywords: best practices security and compliance, secure development, security strategy, insights, governance
 
@@ -59,7 +59,7 @@ For highly regulated industries, such as financial services, achieving continuou
 
 Security and compliance are two concepts that are often spoken of interchangeably. But, there are some significant differences between them. For example, compliance regulations change slowly and are generally measured as a snapshot in time. Whereas security threats are constant and always changing. Depending on the role that you fill in your organization, you might focus on ensuring compliance to industry regulations or you might focus more on mitigating incoming security threats.
 
-Most often, as a compliance focal, you need to adhere to multiple regulations or laws at once. You are responsible for understanding and implementing the controls that are required for your business. You also have a responsibility to gather evidence that proves to external auditors that your compliance checks are in place and in continuous compliance. To get started, you can [configure a managed collector](/docs/security-compliance?topic=security-compliance-ibm-collector) or [manually create and install one](/docs/security-compliance?topic=security-compliance-collector-manual) to assess your available resources and their configuration.
+Most often, as a compliance focal, you need to adhere to multiple regulations or laws at once. You are responsible for understanding and implementing the controls that are required for your business. You also have a responsibility to gather evidence that proves to external auditors that your compliance checks are in place and in continuous compliance. To get started, you can [configure a managed collector](/docs/security-compliance?topic=security-compliance-collector-ibm) or [manually create and install one](/docs/security-compliance?topic=security-compliance-collector-manual) to assess your available resources and their configuration.
 
 As a security focal, your focus is threat detection and mitigation. To address your main concerns, you need to be sure that everyone in your organization is following the mandated guidelines. By building security checks into everyday workflows, you can regulate the way that resources can be provisioned and configured across all of {{site.data.keyword.cloud_notm}}. To get started, [define a rule](/docs/security-compliance?topic=security-compliance-rules).
 
@@ -109,4 +109,4 @@ With Security Insights, you can continuously monitor and analyze your {{site.dat
     <dd>If you work with one of our business partners such as Caveonix, Twistlock, or NeuVector, you can easily integrate your findings with the {{site.data.keyword.compliance_short}} to further assess the risk and compliance posture of your workloads that are deployed on IBM Cloud.</dt>
 </dl>
 
-&ast;*Security Insights is available for {{site.data.keyword.cloud_notm}} only.* 
+&ast;*Security Insights is available for {{site.data.keyword.cloud_notm}} only.* 

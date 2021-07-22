@@ -13,6 +13,8 @@ Security and Compliance Center
 
     {: .navgroup id="tutorial"}
     tutorials/monitor-ibm-customer-collector.md
+    tutorials/custom-findings-nmap.md
+    tutorials/ni-alerts.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -29,7 +31,7 @@ Security and Compliance Center
         
         {: .topicgroup}
         Defining your compliance checks
-            profiles.md
+            profile-predefined.md
             customize-goals.md
     
     {: .topicgroup}
@@ -55,11 +57,27 @@ Security and Compliance Center
             what-is-template.md
             templates.md
 
-    [Gaining insight](https://{DomainName}/docs/security-advisor?topic=security-advisor-getting-started)
-
+    {: .topicgroup}
+    Gaining security insight
+        insights-what.md
+        insights-activity.md
+        insights-network.md
+        insights-default.md
+    
     {: .topicgroup}
     Connecting third-parties
-        business-partners/tanium.md
+        bookmarks.md
+
+        {:. topicgroup}
+        Connecting our business partners
+            business-partners/caveonix.md
+            business-partners/neuvector.md
+            business-partners/tanium.md
+            business-partners/twistlock.md
+
+        custom-findings.md
+        
+    notfications.md
 
     {: .topicgroup}
     Managing your posture
@@ -69,10 +87,10 @@ Security and Compliance Center
 
     {: .topicgroup}
     Enhancing security
-        iam.md
-        data-security.md
-        architecture-workload-isolation.md
-        at-events.md
+        framework/iam.md
+        framework/data-security.md
+        framework/architecture-workload-isolation.md
+        framework/at-events.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -85,19 +103,19 @@ Security and Compliance Center
 
         {: .topicgroup}
         Security Insights
-            [Findings](https://{DomainName}/apidocs/security-advisor/findings)
-            [Notifications](https://{DomainName}/apidocs/security-advisor/notifications)
+            [Findings](https://{DomainName}/apidocs/security-compliance/findings)
+            [Notifications](https://{DomainName}/apidocs/security-compliance/si-notifications)
     
     {: .topicgroup}
     Available security checks
-        default-goals.md
+        security-checks/default-goals.md
 
     {: .topicgroup}
     Related links
         [IBM Cloud compliance programs](https://www.ibm.com/cloud/compliance)
     
     locations-endpoints.md
-    ha-dr.md
+    framework/ha-dr.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
@@ -110,6 +128,8 @@ Security and Compliance Center
         troubleshooting/ts-deleted-results.md
         troubleshooting/ts-score.md
         troubleshooting/ts-bucket.md
+        troubleshooting/ts-ai-forbidden.md
+        troubleshooting/ts-sa-blocked.md
     
     limits.md
     {: .navgroup-end}

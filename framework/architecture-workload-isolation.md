@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-24"
+lastupdated: "2021-07-20"
 
 keywords: public isolation for {{site.data.keyword.compliance_short}}, compute isolation for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} architecture, workload isolation in {{site.data.keyword.compliance_short}} 
 
@@ -56,7 +56,7 @@ Review the following sample architecture for {{site.data.keyword.compliance_full
 
 {{site.data.keyword.compliance_short}} is a multi-tenant, regional service that is fully integrated with the {{site.data.keyword.cloud_notm}} platform. The IBM-managed components of the {{site.data.keyword.compliance_short}} are organized to provide compute isolation between workloads. Check out the following image to see how the service workloads are isolated and managed.
 
-![This image shows the workload isolation for the {{site.data.keyword.compliance_short}} service.](images/scc-architecture.svg){: caption="Figure 1. Workload isolation" caption-side="bottom"}
+![This image shows the workload isolation for the {{site.data.keyword.compliance_short}} service.](../images/scc-architecture.svg){: caption="Figure 1. Workload isolation" caption-side="bottom"}
 
 | Component | Description |
 |:----------|:------------|
