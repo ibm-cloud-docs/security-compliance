@@ -200,8 +200,6 @@ To map a credential, it must exist in the service. Before you get started, be su
 You can also choose to edit or delete an existing entry if you made a mistake or no longer need to use that credential with that scope.
 {: tip}
 
-
-
 ## Creating a passphrase
 {: #passphrase}
 
