@@ -105,7 +105,7 @@ Rule packages are available for the following services:
 * {{site.data.keyword.keymanagementservicelong_notm}}
 * {{site.data.keyword.cos_full_notm}}
 
-For more information about the rules in the predefined packages, see [Available Insights rules](/docs/security-advisor?topic=security-advisor-insights-rules).
+For more information about the rules in the predefined packages, see [Available Insights rules](/docs/security-compliance?topic=security-compliance-insights-rules).
 
 
 

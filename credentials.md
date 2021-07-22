@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-12"
+lastupdated: "2021-07-22"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -68,7 +68,7 @@ The level of access that your credentials need depends upon the actions that you
 
 For collectors that are run in on-premises environments, credentials must have sufficient privileges to collect operating system related information and to query other services that run on the machines such as a database.
 
-Some IBM Cloud services require [additional permissions](#additional-permissions) for their goals to be monitored, be sure to review the information to ensure that your IAM policies are correctly configured.
+Some IBM Cloud services require [additional permissions](/docs/security-compliance?topic=security-compliance-credentials#additional-permissions) for their goals to be monitored, be sure to review the information to ensure that your IAM policies are correctly configured.
 
 ### How are my credentials stored?
 {: #credential-storage}
@@ -117,7 +117,7 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
     </tr>
     <tr>
       <td>IBM Cloud</td>
-      <td><p>An IBM Cloud API key with a service ID. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey). Be sure to assign your API key Viewer and Reader access to your resources. Occasionally, services require [additional access](#additional-permissions).</p><p><strong>Note:</strong> It is possible to use an IBM Cloud API key without a service ID. Just be sure that the user who creates the key has the required permissions for all of the resources that you want to scan.</p></td>
+      <td><p>An IBM Cloud API key with a service ID. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey). Be sure to assign your API key Viewer and Reader access to your resources. Occasionally, services require [additional access](/docs/security-compliance?topic=security-compliance-credentials#additional-permissions).</p><p><strong>Note:</strong> It is possible to use an IBM Cloud API key without a service ID. Just be sure that the user who creates the key has the required permissions for all of the resources that you want to scan.</p></td>
     </tr>
     <tr>
       <td>AWS Cloud</td>
@@ -180,7 +180,7 @@ If you enable a control that measures a specific number of days, it is monitored
 
 Occasionally, you might have a scope that requires the collector use more than one set of credentials to complete a scan. This can happen when users have credentials that are used for individual databases or servers that need to be scanned. To map credentials to your scope, complete the following steps.
 
-To map a credential, it must exist in the service. Before you get started, be sure to [create the credential](/docs/security-compliance?topic=security-compliance-credentials).
+To map a credential, it must exist in the service. Before you get started, be sure to [create the credential](/docs/security-compliance?topic=security-compliance-credentials#create-credentials).
 {: note}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
