@@ -77,7 +77,7 @@ Security and Compliance Center
 
         custom-findings.md
         
-    notfications.md
+    notifications.md
 
     {: .topicgroup}
     Managing your posture
@@ -108,6 +108,8 @@ Security and Compliance Center
     
     {: .topicgroup}
     Available security checks
+        security-checks/ai-rules.md
+        security-checks/ni-findings.md
         security-checks/default-goals.md
 
     {: .topicgroup}
