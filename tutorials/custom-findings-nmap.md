@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-07-22"
+lastupdated: "2021-07-28"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -90,8 +90,7 @@ To get started with {{site.data.keyword.compliance_short}}, install the sample c
 1. Clone the following repository to use Nmap as an example or clone the repository for your own third-party tool or service. 
 
   ```
-  https://github.ibm.com/security-services/security-advisor-network-scan-nmap.git
-  !<---https://github.com/ibm-cloud-security/security-advisor-nmap-integration.git--->
+  https://github.com/ibm-cloud-security/security-advisor-nmap-integration.git
   ```
   {: codeblock}
 
