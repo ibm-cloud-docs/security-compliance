@@ -279,7 +279,7 @@ This release includes the following updates.
 #### Updated Settings page
 {: #2020-11-19-settings}
 
-An improved experience is now available for protecting the credentials that you use in the {{site.data.keyword.compliance_short}}. For more information, see [Creating a passphrase](/docs/security-compliance?topic=security-compliance-credentials#passphrase).
+An improved experience is now available for protecting the credentials that you use in the {{site.data.keyword.compliance_short}}. For more information, see [Creating a passphrase](/docs/security-compliance?topic=security-compliance-passphrase).
 
 ### 1 September 2020
 {: #2020-09-01}
