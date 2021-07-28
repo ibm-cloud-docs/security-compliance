@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-07-22"
+lastupdated: "2021-07-28"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -80,7 +80,7 @@ To make it easier to programmatically access the API from your code, {{site.data
 With this release we've completed the integration of the Security Insights, formerly known as {{site.data.keyword.security-advisor_short}}, documentation into the {{site.data.keyword.compliance_short}} docs. You can now find the documentation for all three components in the {{site.data.keyword.compliance_short}} documentation.
 
 
-### New goal
+### New goals
 {: #2021-07-22-goals}
 
 You might notice that your compliance score has changed even though you haven't updated any of your configurations. 1 new goal has been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All of the goals with ID's in the following ranges are new.
