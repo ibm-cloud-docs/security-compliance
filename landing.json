@@ -1,6 +1,6 @@
 {
     "title": "Security and Compliance Center docs",
-    "lastupdated": "2021-07-22",
+    "lastupdated": "2021-07-28",
     "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
     "section_devtools": {
       "api": "/apidocs/security-compliance/posture"
@@ -33,7 +33,7 @@
       "tiles": [
         {
           "date": "22 July 2021",
-          "title": "Consoladated SDK package and Security Advisor doc integration",
+          "title": "Consolidated SDK package and Security Advisor doc integration",
           "description": "Now all of the Security and Compliance Center SDKs are packaged together. The Security Advisor docs have been rebranded and integrated into the Security and Compliance Center docs."
         },
         {
