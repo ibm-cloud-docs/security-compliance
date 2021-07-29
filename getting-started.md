@@ -62,7 +62,7 @@ The {{site.data.keyword.compliance_short}} is comprised of three components - Po
 ## Prevent misconfiguration of your resources
 {: #govern-resources}
 
-The ability to standardize how resources are provisioned and configured across your {{site.data.keyword.cloud_notm}} accounts is the key to the success of your organization's security policies. By using the Configuration Governance component of the {{site.data.keyword.compliance_short}}, you can create rules and templates that set guardrails around the way that your {{site.data.keyword.cloud_notm}} resources can be configured. Through rule enforcement and customized defaults, you can code with confidence that your configurations follow the guidelines that you put in place, which significantly decreases the likelihood of a misconfiguration-related security issue.
+The ability to standardize how resources are provisioned and configured across your {{site.data.keyword.cloud_notm}} accounts is the key to the success of your organization's security policies. By using the Configuration Governance component of the {{site.data.keyword.compliance_short}}, you can create rules and templates that set guardrails around the way that your resources can be configured. Through rule enforcement and customized defaults, you can code with confidence that your configurations follow the guidelines that you put in place, which significantly decreases the likelihood of a misconfiguration-related security issue.
 
 To get started, choose whether to create a template or a rule.
 
