@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2021
-lastupdated: "2021-07-20"
+lastupdated: "2021-07-29"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -186,55 +186,55 @@ The following events are triggered by the Posture Management component of the {{
 
 The following events are triggered by the Configuration Governance component of the {{site.data.keyword.compliance_short}}.
 
-| Action                                                 |   Description   |
-| :------------------------------------------------------| :---------------|
-| `compliance.configuration-governance.rules-read`       | View rules. |
-| `compliance.configuration-governance.rules-create`     | Create a rule. |
-| `compliance.configuration-governance.rules-update`     | Update an existing rule. |
-| `compliance.configuration-governance.rules-delete`     | Delete a rule. |
+| New action                                         | Previous action                                     |   Description   |
+| :--------------------------------------------------| :---------------------------------------------------| :---------------|
+| `compliance.configuration-governance-rules.list`   | `compliance.configuration-governance.rules-read`    | View rules. |
+| `compliance.configuration-governance-rules.create` | `compliance.configuration-governance.rules-create`  | Create a rule. |
+| `compliance.configuration-governance-rules.update` | `compliance.configuration-governance.rules-update`  | Update an existing rule. |
+| `compliance.configuration-governance-rules.delete` | `compliance.configuration-governance.rules-delete`  | Delete a rule. |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
 {: #rules-events}
 {: tab-title="Rules"}
 {: tab-group="config"}
 {: class="simple-tab-table"}
 
-| Action                                                 |   Description   |
-| :------------------------------------------------------| :---------------|
-| `compliance.configuration-governance.templates-read`   | View templates. |
-| `compliance.configuration-governance.templates-create` | Create a template. |
-| `compliance.configuration-governance.templates-update` | Update an existing template. |
-| `compliance.configuration-governance.templates-delete` | Delete a template. |
+| New action                                             | Previous action                                        |   Description   |
+| :------------------------------------------------------| :------------------------------------------------------| :---------------|
+| `compliance.configuration-governance-templates.list`   | `compliance.configuration-governance.templates-read`   | View templates. |
+| `compliance.configuration-governance-templates.create` | `compliance.configuration-governance.templates-create` | Create a template. |
+| `compliance.configuration-governance-templates.update` | `compliance.configuration-governance.templates-update` | Update an existing template. |
+| `compliance.configuration-governance-templates.delete` | `compliance.configuration-governance.templates-delete` | Delete a template. |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
 {: #templates-events}
 {: tab-title="Templates"}
 {: tab-group="config"}
 {: class="simple-tab-table"}
 
-| Action                                                   |   Description   |
-| :--------------------------------------------------------| :---------------|
-| `compliance.configuration-governance.attachments-read`   | View the attachments that are available for a rule or template. |
-| `compliance.configuration-governance.attachments-create` | Create an attachment between a rule or template and a scope. |
-| `compliance.configuration-governance.attachments-update` | Update an existing attachment. |
-| `compliance.configuration-governance.attachments-delete` | Delete an attachment. |
+| New action                                               | Previous action                                          |   Description   |
+| :--------------------------------------------------------| :--------------------------------------------------------| :---------------|
+| `compliance.configuration-governance-attachments.list`   | `compliance.configuration-governance.attachments-read`   | View the attachments that are available for a rule or template. |
+| `compliance.configuration-governance-attachments.create` | `compliance.configuration-governance.attachments-create` | Create an attachment between a rule or template and a scope. |
+| `compliance.configuration-governance-attachments.update` | `compliance.configuration-governance.attachments-update` | Update an existing attachment. |
+| `compliance.configuration-governance-attachments.delete` | `compliance.configuration-governance.attachments-delete` | Delete an attachment. |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
 {: #attachments-events}
 {: tab-title="Attachments"}
 {: tab-group="config"}
 {: class="simple-tab-table"}
 
-| Action                                               | Description     |
-| :----------------------------------------------------| :---------------|
-| `compliance.configuration-governance.results-read`   | View config rule results. |
+| New action                                           | Previous action                                      |   Description   |
+| :----------------------------------------------------| :----------------------------------------------------| :---------------|
+| `compliance.configuration-governance-results.read`   | `compliance.configuration-governance.results-read`   | View config rule results. |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
 {: #results-events}
 {: tab-title="Results"}
 {: tab-group="config"}
 {: class="simple-tab-table"}
 
-| Action                                              |   Description   |
-| :---------------------------------------------------| :---------------|
-| `compliance.configuration-governance-resource.eval` | Describes the resource that is being evaluated. |
-| `compliance.configuration-governance-rule.eval`     | Describes the rule that is being evaluated. |
+| New action                                           | Previous action                                      |   Description   |
+| :----------------------------------------------------| :----------------------------------------------------| :---------------|
+| `compliance.configuration-governance-resource.eval` | `compliance.configuration-governance-resource.eval` | Describes the resource that is being evaluated. |
+| `compliance.configuration-governance-rule.eval` | `compliance.configuration-governance-rule.eval`     | Describes the rule that is being evaluated. |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
 {: #eval-events}
 {: tab-title="Eval"}
@@ -346,6 +346,20 @@ The following events are triggered by the Security Insights component of the {{s
 {: tab-title="Keys"}
 {: tab-group="insights"}
 {: class="simple-tab-table"}
+
+
+## Events for Admin
+{: #at_actions_admin}
+
+The following events are triggered by the Admin API calls for the {{site.data.keyword.compliance_short}}.
+
+| New action                         | Previous action                     |   Description   |
+| :----------------------------------| :-----------------------------------| :---------------|
+| `compliance.admin-settings.list`   | `compliance.admin-settings.read`    | View {{site.data.keyword.compliance_short}} settings for your account. |
+| `compliance.admin-settings.update` | `compliance.admin.settings.update`  | Update {{site.data.keyword.compliance_short}} settings for your account. |
+{: caption="Table 4. List of events that apply to admin settings" caption-side="top"}
+
+
 
 
 ## Viewing events

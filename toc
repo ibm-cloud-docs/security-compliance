@@ -12,7 +12,11 @@ Security and Compliance Center
     {: .navgroup-end}
 
     {: .navgroup id="tutorial"}
-    tutorials/monitor-ibm-customer-collector.md
+    {: .topicgroup}
+    Monitoring IBM Cloud resources
+        tutorials/monitor-ibm-collector.md
+        tutorials/monitor-ibm-customer-collector.md
+
     tutorials/custom-findings-nmap.md
     tutorials/ni-alerts.md
     {: .navgroup-end}
