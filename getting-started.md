@@ -73,7 +73,7 @@ To get started, choose whether to create a template or a rule.
 ## Monitor for and prove compliance
 {: #prove-compliance}
 
-Ensuring that all of the teams in your organization are adhereing to best practices and external regulations or laws at all times can be a time consuming process. With the Posture Management component of the {{site.data.keyword.compliance_short}}, you can continuously monitor the available resources in your environments and create an inventory that can be used as part of an audit. As part of the scan, the {{site.data.keyword.compliance_short}} validates your configurations against a predefined set of control implementations called goals before calculating a compliance score. Your score can help you to know which issues that you need to address first. Then, when you're ready, you can download a detailed evidence report that you can provide to internal stakeholders or external auditors.
+Ensuring that all of the teams in your organization are adhereing to best practices and external regulations or laws at all times can be a time consuming process. With the Posture Management component of the {{site.data.keyword.compliance_short}}, you can scan the available resources in your environments on a schedule and create an inventory that can be used as part of an audit. As part of the scan, the {{site.data.keyword.compliance_short}} validates your configurations against a predefined set of control implementations called goals before calculating a compliance score. Your score can help you to know which issues that you need to address first. Then, when you're ready, you can download a detailed evidence report that you can provide to internal stakeholders or external auditors.
 
 To start monitoring compliance, choose whether to create and install a collector or provision a managed one.
 
@@ -87,7 +87,7 @@ To start monitoring compliance, choose whether to create and install a collector
 ## Detect incoming threats
 {: #detect-threats}
 
-Threat detection and mitigation are one of the most important parts of the security and compliance story. With the Security Insights component of the {{site.data.keyword.compliance_short}}, you can continuously monitor and analyze your {{site.data.keyword.cloud_notm}} resources for potential risk that could impact your environment. As incoming threats are detected, risk to your organization is evaluated, you are notified, and remediation steps are provided that can help to mitigate the findings. By ensuring your environment is continuously monitored, you can can be sure that you have a comprehensive understanding of your current security posture.
+Threat detection and mitigation are one of the most important parts of the security and compliance story. With the Security Insights component of the {{site.data.keyword.compliance_short}}, you can continuously monitor and analyze your {{site.data.keyword.cloud_notm}} resources in real-time for potential risk that could impact your environment. As incoming threats are detected, risk to your organization is evaluated, you are notified, and remediation steps are provided that can help to mitigate the findings. By ensuring your environment is continuously monitored, you can can be sure that you have a comprehensive understanding of your current security posture.
 
 To get started, choose the type of insights that you want to configure.
 
