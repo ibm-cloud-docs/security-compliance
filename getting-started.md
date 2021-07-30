@@ -2,14 +2,11 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-20"
+lastupdated: "2021-07-30"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
 subcollection: security-compliance
-
-content-type: tutorial
-completion-time: 20m
 
 ---
 
@@ -47,126 +44,54 @@ completion-time: 20m
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
 
-
-
 # Getting started with {{site.data.keyword.compliance_short}}
 {: #getting-started}
-{: toc-content-type="tutorial"}
-{: toc-completion-time="15m"}
 
-With {{site.data.keyword.compliance_full}}, you can embed security checks into your every day workflows to help monitor for security and compliance. By monitoring for risks, you can identify security vulnerabilities and quickly work to mitigate the impact and fix the issue.
+With {{site.data.keyword.compliance_full}}, you can promote a culture of compliance within your organization that begins with resource configuration and holds through the collection of audit evidence. With automation in place to stop catastrophic mistakes, you're able to build and scale your workloads with full control while your teams are able to code with accountability and confidence. All while saving your business time and money.
 {: shortdesc}
 
+The {{site.data.keyword.compliance_short}} is comprised of three components - Posture Management, Configuration Governance, and Security Insights - that are designed to help you achieve a continuously secure and compliant development environment in different ways. For example, you can:
+
+* Work with predefined controls that are implemented across your {{site.data.keyword.cloud_notm}} accounts
+* Define configuration rules and templates that prevent unsecure configuration of IBM Cloud resources
+* Monitor your resource configurations in a single dashboard for any potential risk
+* Investigate the evaluation results to see which accounts or services are most at risk
+* Retain and access your results to prepare for internal and external audits
 
 
-## Objective
-{: #objective}
+## Prevent misconfiguration of your resources
+{: #govern-resources}
 
-This tutorial focuses on the steps that are required to start scanning your cloud-based resources with the {{site.data.keyword.compliance_short}} in {{site.data.keyword.cloud_notm}}. 
+The ability to standardize how resources are provisioned and configured across your {{site.data.keyword.cloud_notm}} accounts is the key to the success of your organization's security policies. By using the Configuration Governance component of the {{site.data.keyword.compliance_short}}, you can create rules and templates that set guardrails around the way that your resources can be configured. Through rule enforcement and customized defaults, you can code with confidence that your configurations follow the guidelines that you put in place, which significantly decreases the likelihood of a misconfiguration-related security issue.
 
-If you don't need to monitor your {{site.data.keyword.cloud_notm}} resources for external regulations, try configuring resource monitoring for another environment, defining a config rule to govern the way that your resources can be used, or enabling built-in insights to help detect incoming threats.
+To get started, choose whether to create a template or a rule.
 
-[![This image is a visual link to the instructions for installing a collector on another cloud provider.](images/gs-environment.svg)](/docs/security-compliance?topic=security-compliance-collector)     [![This image is a visual link to the conceptual information about defining config rules.](images/gs-rules.svg)](/docs/security-compliance?topic=security-compliance-rules)     [![This image is a visual link to the conceptual information about built-in insights.](images/gs-insights.svg)](/docs/security-advisor?topic=security-advisor-integrations#integrate-insights)
+[![This image is a visual link to the instructions for creating templates.](images/gs-templates.svg)](/docs/security-compliance?topic=security-compliance-templates)     [![This image is a visual link to the instructions for creating rules.](images/gs-rules.svg)](/docs/security-compliance?topic=security-compliance-rules)
 
+&ast;*Configuration Governance is available for {{site.data.keyword.cloud_notm}} only.*
 
+## Monitor for and prove compliance
+{: #prove-compliance}
 
-## Before you begin
-{: #before-start}
+Ensuring that all of the teams in your organization are adhering to best practices and external regulations or laws at all times can be a time consuming process. With the Posture Management component of the {{site.data.keyword.compliance_short}}, you can scan the available resources in your environments on a schedule and create an inventory that can be used as part of an audit. As part of the scan, the {{site.data.keyword.compliance_short}} validates your configurations against a predefined set of control implementations called goals before calculating a compliance score. Your score can help you to know which issues that you need to address first. Then, when you're ready, you can download a detailed evidence report that you can provide to internal stakeholders or external auditors.
 
-To complete the getting started tutorial, use a [Pay-As-You-Go or Subscription](/docs/account?topic=account-accounts) {{site.data.keyword.cloud_notm}} account where you are the owner or have [full Administrator access](/docs/account?topic=account-assign-access-resources).
+To start monitoring compliance, choose whether to create and install a collector or provision a managed one.
 
-Be sure that you also have the following requirements:
-
-- A [service ID API key](/docs/account?topic=account-serviceidapikeys) with **Read** access permissions for the resources that you want to scan.
-
-
-
-## Create a collector
-{: #gs-collector}
-{: step}
-
-A collector is a software module that is packaged as a Docker image that scans your resources and validates their configurations. To learn more about collectors and how the communication takes place, see [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
-
-IBM-managed collectors are created on IBM-owned infrastructure and are maintained by the {{site.data.keyword.compliance_short}}. If your organization doesn't allow managed collectors, you can always create and install your own. For more information, see [Manually administering collectors](/docs/security-compliance?topic=security-compliance-collector-manual).
-{: note}
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. On the **Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}}, click **Create**.
-3. Give your collector a name and description.
-
-  It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
-
-4. If you have a passphrase enabled, the **Existing passphrase** field displays. Enter your passphrase. If you do not have a passphrase enabled, the field will not display.
-5. Click **Next**.
-6. In the **Managed by** field, select **IBM**.
-7. By default, the **Private** endpoint type is selected.
-
-  A collector requires constant communication with the service to validate your current posture. By default, a private endpoint is used for communication in all IBM managed collectors.
-
-8. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
-
-When your collector is ready, the status updates to **Active**.
-
-## Add credentials
-{: #gs-credentials}
-{: step}
-
-The credentials that you add to the service must allow the collector to read your resource configurations.
-
-2. In the navigation, click **Configure > Settings > Credentials**.
-3. Click **Create**.
-4. Give your credential a meaningful name and description.
-5. Select **Discovery/Collection**.
-6. Click **Next**.
-7. Select **{{site.data.keyword.cloud_notm}}**.
-8. Paste your API key into the **IBM API key** field. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey).
-
-  Your API key must have reader access permissions to the resources that you want to scan.
-  {: note}
-
-9. Verify your updates and click **Create**. The credential is added to a list of available credentials. 
+[![This image is a visual link to a tutorial for manually creating and installing a collector.](images/gs-customer-collector.svg)](/docs/security-compliance?topic=security-compliance-ibm-customer-collector)     [![This image is a visual link to a tutorial for provisioning an IBM-managed collector.](images/gs-ibm-collector.svg)](/docs/security-compliance?topic=security-compliance-monitor-ibm-collector)
 
 
-## Create a scope
-{: #gs-scope}
-{: step}
-
-When you're working with the {{site.data.keyword.compliance_short}}, you can narrow the focus of your scans to a specific environment, region, or even resource. By creating scopes, you can determine your security and compliance score across a specific area of your business. 
-
-1. On the **Configure > Scopes** page of the {{site.data.keyword.compliance_short}}, click **Create**.
-2. Give your scope a meaningful name and description.
-3. Click **Next**. 
-4. Select an environment.
-5. Select the **Credentials** that provide access to the resources that you want to scan.
-6. Click **Next**.
-7. Select the **Collector** that you want to use.
-8. Click **Next**.
-9. Review the details of your scope and click **Create**.
+&ast;*Posture Management is available for {{site.data.keyword.cloud_notm}}, Amazon Web Services, Microsoft Azure, Google Cloud Platform, and on-premises environments. To enable monitoring for other cloud providers, see [Manually administering collectors](/docs/security-compliance?topic=security-compliance-collector-manual).*
 
 
 
-## Schedule a scan
-{: #gs-scan}
-{: step}
+## Detect incoming threats
+{: #detect-threats}
 
-To discover resources, assess their configuration, and validate their compliance against a predefined profile, you can schedule a validation scan.
+Threat detection and mitigation are one of the most important parts of the security and compliance story. With the Security Insights component of the {{site.data.keyword.compliance_short}}, you can continuously monitor and analyze your {{site.data.keyword.cloud_notm}} resources in real-time for potential risk that could impact your environment. As incoming threats are detected, risk to your organization is evaluated, you are notified, and remediation steps are provided that can help to mitigate the findings. By ensuring your environment is continuously monitored, you can can be sure that you have a comprehensive understanding of your current security posture.
 
-1. On the **Assess > Scans > Scheduled scans** page of the {{site.data.keyword.compliance_short}}, click **Schedule**. A side panel opens.
-2. Give your scan a meaningful name and description.
-3. Select **Validation**.
-4. Select the scope that you created in the previous step.
-5. Select one of the predefined profiles and click **Next**.
-6. Select the remediation preference. Options include automatic, approved, and none.
-7. Select the frequency at which you want the scan to run.
-8. Select when you want the scan to stop. Options include never, a specific number of scans, or on a set date.
-9. Click **Create**.
+To get started, choose the type of insights that you want to configure.
 
+[![This image is a visual link to a tutorial for pulling in custom findings.](images/gs-custom-findings.svg)](/docs/security-compliance?topic=security-compliance-setup_custom)     [![This image is a visual link to instructions for setting up Activity Insights.](images/gs-activity-insights.svg)](/docs/security-compliance?topic=security-compliance-setup-activity)     [![This image is a visual link to instructions for setting up Network Insights.](images/gs-network-insights.svg)](/docs/security-compliance?topic=security-compliance-setup-network)
 
-## Next steps
-{: #gs-next}
-
-You did it! Now you can choose to map more credentials to your collector so that you can scan more resources or you can learn more about the way that security and compliance score is calculated to better understand your results. 
-
-[![This image is a visual link to the instructions for mapping credentials.](images/gs-map-credentials.svg)](/docs/security-compliance?topic=security-compliance-credentials#map-credentials)     [![This image is a visual link to the conceptual information about compliance scores.](images/gs-learn-scores.svg)](/docs/security-compliance?topic=security-compliance-view-posture)
-
+&ast;*Security Insights is available for {{site.data.keyword.cloud_notm}} only.*
 

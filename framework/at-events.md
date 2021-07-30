@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2021
-lastupdated: "2021-07-20"
+lastupdated: "2021-07-30"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -59,120 +59,120 @@ You must use a paid plan for the {{site.data.keyword.at_short}} service to see e
 
 The following events are triggered by the Posture Management component of the {{site.data.keyword.compliance_short}}.
 
-| Action                                                | Description     |
-| :-----------------------------------------------------| :---------------|
-| `compliance.posture-management.credentials-read`      | View credentials. |
-| `compliance.posture-management.credentials-create`    | Create a credential. |
-| `compliance.posture-management.credentials-update`    | Update an existing credential. |
-| `compliance.posture-management.credentials-delete`    | Delete a credential. |
-| `compliance.posture-management.credentialsmap-read`   | View mappings between credentials and scopes.|
-| `compliance.posture-management.credentialsmap-create` | Map credentials to a scope. |
-| `compliance.posture-management.credentialsmap-update` | Update an existing mapping between a credential and a scope. |
-| `compliance.posture-management.credentialsmap-delete` | Delete a mapping. |
+| New action                                             | Previous action                                        |   Description   |
+| :------------------------------------------------------| :------------------------------------------------------| :---------------|
+| `compliance.posture-management-credentials.read`      | `compliance.posture-management.credentials-read`      | View credentials. |
+| `compliance.posture-management-credentials.create`      | `compliance.posture-management.credentials-create`    | Create a credential. |
+| `compliance.posture-management-credentials.update`      | `compliance.posture-management.credentials-update`    | Update an existing credential. |
+| `compliance.posture-management-credentials.delete`      | `compliance.posture-management.credentials-delete`    | Delete a credential. |
+| `compliance.posture-management-credentialsmap.read`      | `compliance.posture-management.credentialsmap-read`   | View mappings between credentials and scopes.|
+| `compliance.posture-management-credentialsmap.create`      | `compliance.posture-management.credentialsmap-create` | Map credentials to a scope. |
+| `compliance.posture-management-credentialsmap.update`      | `compliance.posture-management.credentialsmap-update` | Update an existing mapping between a credential and a scope. |
+| `compliance.posture-management-credentialsmap.delete`      | `compliance.posture-management.credentialsmap-delete` | Delete a mapping. |
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #credentials-events}
 {: tab-title="Credentials"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                            | Description     |
-| :-------------------------------------------------| :---------------|
-| `compliance.posture-management.collectors-read`   | View collectors.              |
-| `compliance.posture-management.collectors-create` | Create a collector.           |
-| `compliance.posture-management.collectors-update` | Update an existing collector. |
-| `compliance.posture-management.collectors-delete` | Delete a collector.           |
+| New action                                        | Previous action                                        |   Description   |
+| :-------------------------------------------------| :------------------------------------------------------| :---------------|
+| `compliance.posture-management-collectors.read`   | `compliance.posture-management.collectors-read`   | View collectors.              |
+| `compliance.posture-management-collectors.create`   | `compliance.posture-management.collectors-create` | Create a collector.           |
+| `compliance.posture-management-collectors.update`   | `compliance.posture-management.collectors-update` | Update an existing collector. |
+| `compliance.posture-management-collectors.delete`   | `compliance.posture-management.collectors-delete` | Delete a collector.           |
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #collectors-events}
 {: tab-title="Collectors"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                        | Description     |
-| :---------------------------------------------| :---------------|
-| `compliance.posture-management.scopes-read`   | View scopes.              |
-| `compliance.posture-management.scopes-create` | Create a scope.           |
-| `compliance.posture-management.scopes-update` | Update an existing scope. |
-| `compliance.posture-management.scopes-delete` | Delete a scope.           |
+| New action                                        | Previous action                                        |   Description   |
+| :-------------------------------------------------| :------------------------------------------------------| :---------------|
+| `compliance.posture-management-scopes.read`   | `compliance.posture-management.scopes-read`   | View scopes.              |
+| `compliance.posture-management-scopes.create`   | `compliance.posture-management.scopes-create` | Create a scope.           |
+| `compliance.posture-management-scopes.update`   | `compliance.posture-management.scopes-update` | Update an existing scope. |
+| `compliance.posture-management-scopes.delete`   | `compliance.posture-management.scopes-delete` | Delete a scope.           |
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #scopes-events}
 {: tab-title="Scopes"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                             | Description     |
-| :--------------------------------------------------| :---------------|
-| `compliance.posture-management.validations-read`   | View validation scans.              |
-| `compliance.posture-management.validations-create` | Run a validation scan.              |
-| `compliance.posture-management.validations-update` | Update an existing validation scan. |
-| `compliance.posture-management.validations-delete` | Delete a validation scan.           |
+| New action                                        | Previous action                                        |   Description   |
+| :-------------------------------------------------| :------------------------------------------------------| :---------------|
+| `compliance.posture-management-validations.read`   | `compliance.posture-management.validations-read`   | View validation scans.              |
+| `compliance.posture-management-validations.create` | `compliance.posture-management.validations-create` | Run a validation scan.              |
+| `compliance.posture-management-validations.update` | `compliance.posture-management.validations-update` | Update an existing validation scan. |
+| `compliance.posture-management-validations.delete` | `compliance.posture-management.validations-delete` | Delete a validation scan.           |
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #validations-events}
 {: tab-title="Scans"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                        |   Description   |
-| :---------------------------------------------| :---------------|
-| `compliance.posture-management.values-read`   | View the parameters that are associated with a goal. |
-| `compliance.posture-management.values-create` | Add parameters to an existing goal.                  |
-| `compliance.posture-management.values-update` | Update the parameters of an existing goal.           |
-| `compliance.posture-management.values-delete` | Delete a parameter.                                  |
+| New action                                        | Previous action                                        |   Description   |
+| :-------------------------------------------------| :------------------------------------------------------| :---------------|
+| `compliance.posture-management-values.read` | `compliance.posture-management.values-read`   | View the parameters that are associated with a goal. |
+| `compliance.posture-management-values.create` | `compliance.posture-management.values-create` | Add parameters to an existing goal.                  |
+| `compliance.posture-management-values.update` | `compliance.posture-management.values-update` | Update the parameters of an existing goal.           |
+| `compliance.posture-management-values.delete` | `compliance.posture-management.values-delete` | Delete a parameter.                                  |
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #goals-events}
 {: tab-title="Goals"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                          | Description     |
-| :-----------------------------------------------| :---------------|
-| `compliance.posture-management.controls-read`   | View the available controls that you can add to a profile. |
-| `compliance.posture-management.controls-create` | Add a control to a profile. |
-| `compliance.posture-management.controls-update` | Update an existing control. |
-| `compliance.posture-management.controls-delete` | Delete a control. |
+| New action                                        | Previous action                                        |   Description   |
+| :-------------------------------------------------| :------------------------------------------------------| :---------------|
+| `compliance.posture-management-controls.read`   | `compliance.posture-management.controls-read`   | View the available controls that you can add to a profile. |
+| `compliance.posture-management-controls.create`   | `compliance.posture-management.controls-create` | Add a control to a profile. |
+| `compliance.posture-management-controls.update`   | `compliance.posture-management.controls-update` | Update an existing control. |
+| `compliance.posture-management-controls.delete`   | `compliance.posture-management.controls-delete` | Delete a control. |
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #controls-events}
 {: tab-title="Controls"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                          | Description     |
-| :-----------------------------------------------| :---------------|
-| `compliance.posture-management.profiles-read`   | View profiles.              |
-| `compliance.posture-management.profiles-create` | Create a profile.           |
-| `compliance.posture-management.profiles-update` | Update an existing profile. |
-| `compliance.posture-management.profiles-delete` | Delete a profile.           |
+| New action                                        | Previous action                                        |   Description   |
+| :-------------------------------------------------| :------------------------------------------------------| :---------------|
+| `compliance.posture-management-profiles.read`   | `compliance.posture-management.profiles-read`   | View profiles.              |
+| `compliance.posture-management-profiles.create`   | `compliance.posture-management.profiles-create` | Create a profile.           |
+| `compliance.posture-management-profiles.update`   | `compliance.posture-management.profiles-update` | Update an existing profile. |
+| `compliance.posture-management-profiles.delete`   | `compliance.posture-management.profiles-delete` | Delete a profile.           |
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #profiles-events}
 {: tab-title="Profiles"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                      |   Description   |
-| :-------------------------------------------| :---------------|
-| `compliance.posture-management.tags-read`   | View tags.              |
-| `compliance.posture-management.tags-create` | Create a tag.           |
-| `compliance.posture-management.tags-update` | Update an existing tag. |
-| `compliance.posture-management.tags-delete` | Delete a tag.           |
+| New action                                        | Previous action                                        |   Description   |
+| :-------------------------------------------------| :------------------------------------------------------| :---------------|
+| `compliance.posture-management-tags.read` | `compliance.posture-management.tags-read`   | View tags.              |
+| `compliance.posture-management-tags.create` | `compliance.posture-management.tags-create` | Create a tag.           |
+| `compliance.posture-management-tags.update` | `compliance.posture-management.tags-update` | Update an existing tag. |
+| `compliance.posture-management-tags.delete` | `compliance.posture-management.tags-delete` | Delete a tag.           |
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #tags-events}
 {: tab-title="Tags"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                         | Description             |
-| :--------------------------------------------- | :---------------------- |
-| `compliance.posture-management.dashboard-view` | View the dashboard.     |
+| New action                                        | Previous action                                        |   Description   |
+| :-------------------------------------------------| :------------------------------------------------------| :---------------|
+| `compliance.posture-management-dashboard.view` | `compliance.posture-management.dashboard-view` | View the dashboard.     |
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #dashboard-events}
 {: tab-title="Dashboard"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| Action                                      | Description             |
-| :------------------------------------------ | :---------------------- |
-| `compliance.posture-management.keys-read`   | View your customer managed encryption configuration. |
-| `compliance.posture-management.keys-write`  | Enable customer managed encryption configuration. |
-| `compliance.posture-management.tags-delete` | Disable customer managed encryption configuration. |
+| New action                                        | Previous action                                        |   Description   |
+| :-------------------------------------------------| :------------------------------------------------------| :---------------|
+| `compliance.posture-management-keys.read`  | `compliance.posture-management.keys-read`   | View your customer managed encryption configuration. |
+| `compliance.posture-management-keys-write`  | `compliance.posture-management.keys-write`  | Enable customer managed encryption configuration. |
+| `compliance.posture-management-keys.delete`  | `compliance.posture-management.tags-delete` | Disable customer managed encryption configuration. |
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #keys-posture-events}
 {: tab-title="Keys"}
@@ -186,55 +186,55 @@ The following events are triggered by the Posture Management component of the {{
 
 The following events are triggered by the Configuration Governance component of the {{site.data.keyword.compliance_short}}.
 
-| Action                                                 |   Description   |
-| :------------------------------------------------------| :---------------|
-| `compliance.configuration-governance.rules-read`       | View rules. |
-| `compliance.configuration-governance.rules-create`     | Create a rule. |
-| `compliance.configuration-governance.rules-update`     | Update an existing rule. |
-| `compliance.configuration-governance.rules-delete`     | Delete a rule. |
+| New action                                         | Previous action                                     |   Description   |
+| :--------------------------------------------------| :---------------------------------------------------| :---------------|
+| `compliance.configuration-governance-rules.list`   | `compliance.configuration-governance.rules-read`    | View rules. |
+| `compliance.configuration-governance-rules.create` | `compliance.configuration-governance.rules-create`  | Create a rule. |
+| `compliance.configuration-governance-rules.update` | `compliance.configuration-governance.rules-update`  | Update an existing rule. |
+| `compliance.configuration-governance-rules.delete` | `compliance.configuration-governance.rules-delete`  | Delete a rule. |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
 {: #rules-events}
 {: tab-title="Rules"}
 {: tab-group="config"}
 {: class="simple-tab-table"}
 
-| Action                                                 |   Description   |
-| :------------------------------------------------------| :---------------|
-| `compliance.configuration-governance.templates-read`   | View templates. |
-| `compliance.configuration-governance.templates-create` | Create a template. |
-| `compliance.configuration-governance.templates-update` | Update an existing template. |
-| `compliance.configuration-governance.templates-delete` | Delete a template. |
+| New action                                             | Previous action                                        |   Description   |
+| :------------------------------------------------------| :------------------------------------------------------| :---------------|
+| `compliance.configuration-governance-templates.list`   | `compliance.configuration-governance.templates-read`   | View templates. |
+| `compliance.configuration-governance-templates.create` | `compliance.configuration-governance.templates-create` | Create a template. |
+| `compliance.configuration-governance-templates.update` | `compliance.configuration-governance.templates-update` | Update an existing template. |
+| `compliance.configuration-governance-templates.delete` | `compliance.configuration-governance.templates-delete` | Delete a template. |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
 {: #templates-events}
 {: tab-title="Templates"}
 {: tab-group="config"}
 {: class="simple-tab-table"}
 
-| Action                                                   |   Description   |
-| :--------------------------------------------------------| :---------------|
-| `compliance.configuration-governance.attachments-read`   | View the attachments that are available for a rule or template. |
-| `compliance.configuration-governance.attachments-create` | Create an attachment between a rule or template and a scope. |
-| `compliance.configuration-governance.attachments-update` | Update an existing attachment. |
-| `compliance.configuration-governance.attachments-delete` | Delete an attachment. |
+| New action                                               | Previous action                                          |   Description   |
+| :--------------------------------------------------------| :--------------------------------------------------------| :---------------|
+| `compliance.configuration-governance-attachments.list`   | `compliance.configuration-governance.attachments-read`   | View the attachments that are available for a rule or template. |
+| `compliance.configuration-governance-attachments.create` | `compliance.configuration-governance.attachments-create` | Create an attachment between a rule or template and a scope. |
+| `compliance.configuration-governance-attachments.update` | `compliance.configuration-governance.attachments-update` | Update an existing attachment. |
+| `compliance.configuration-governance-attachments.delete` | `compliance.configuration-governance.attachments-delete` | Delete an attachment. |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
 {: #attachments-events}
 {: tab-title="Attachments"}
 {: tab-group="config"}
 {: class="simple-tab-table"}
 
-| Action                                               | Description     |
-| :----------------------------------------------------| :---------------|
-| `compliance.configuration-governance.results-read`   | View config rule results. |
+| New action                                           | Previous action                                      |   Description   |
+| :----------------------------------------------------| :----------------------------------------------------| :---------------|
+| `compliance.configuration-governance-results.read`   | `compliance.configuration-governance.results-read`   | View config rule results. |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
 {: #results-events}
 {: tab-title="Results"}
 {: tab-group="config"}
 {: class="simple-tab-table"}
 
-| Action                                              |   Description   |
-| :---------------------------------------------------| :---------------|
-| `compliance.configuration-governance-resource.eval` | Describes the resource that is being evaluated. |
-| `compliance.configuration-governance-rule.eval`     | Describes the rule that is being evaluated. |
+| New action                                           | Previous action                                      |   Description   |
+| :----------------------------------------------------| :----------------------------------------------------| :---------------|
+| `compliance.configuration-governance-resource.eval` | `compliance.configuration-governance-resource.eval` | Describes the resource that is being evaluated. |
+| `compliance.configuration-governance-rule.eval` | `compliance.configuration-governance-rule.eval`     | Describes the rule that is being evaluated. |
 {: caption="Table 2. List of events that apply to Configuration Governance" caption-side="top"}
 {: #eval-events}
 {: tab-title="Eval"}
@@ -346,6 +346,20 @@ The following events are triggered by the Security Insights component of the {{s
 {: tab-title="Keys"}
 {: tab-group="insights"}
 {: class="simple-tab-table"}
+
+
+## Events for Admin
+{: #at_actions_admin}
+
+The following events are triggered by the Admin API calls for the {{site.data.keyword.compliance_short}}.
+
+| New action                         | Previous action                     |   Description   |
+| :----------------------------------| :-----------------------------------| :---------------|
+| `compliance.admin-settings.list`   | `compliance.admin-settings.read`    | View {{site.data.keyword.compliance_short}} settings for your account. |
+| `compliance.admin-settings.update` | `compliance.admin.settings.update`  | Update {{site.data.keyword.compliance_short}} settings for your account. |
+{: caption="Table 4. List of events that apply to admin settings" caption-side="top"}
+
+
 
 
 ## Viewing events
