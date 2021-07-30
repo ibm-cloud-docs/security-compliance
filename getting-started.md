@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-29"
+lastupdated: "2021-07-30"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -91,7 +91,7 @@ Threat detection and mitigation are one of the most important parts of the secur
 
 To get started, choose the type of insights that you want to configure.
 
-[![This image is a visual link to a tutorial for pulling in custom findings.](../images/gs-custom-findings.svg)](/docs/security-compliance?topic=security-compliance-setup_custom)     [![This image is a visual link to instructions for setting up Activity Insights.](images/gs-activity-insights.svg)](/docs/security-compliance?topic=security-compliance-setup-activity)     [![This image is a visual link to instructions for setting up Network Insights.](../images/gs-network-insights.svg)](/docs/security-compliance?topic=security-compliance-setup-network)
+[![This image is a visual link to a tutorial for pulling in custom findings.](images/gs-custom-findings.svg)](/docs/security-compliance?topic=security-compliance-setup_custom)     [![This image is a visual link to instructions for setting up Activity Insights.](images/gs-activity-insights.svg)](/docs/security-compliance?topic=security-compliance-setup-activity)     [![This image is a visual link to instructions for setting up Network Insights.](images/gs-network-insights.svg)](/docs/security-compliance?topic=security-compliance-setup-network)
 
 &ast;*Security Insights is available for {{site.data.keyword.cloud_notm}} only.*
 
