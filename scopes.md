@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-12"
+lastupdated: "2021-08-11"
 
 keywords: scopes, accounts, resources, environments
 
@@ -60,9 +60,6 @@ Before you get started, be sure that you have the following prerequisites.
 - An [installed collector](/docs/security-compliance?topic=security-compliance-collector).
 - The required level of access to view and manage scopes. To manage scopes, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
 
-
-
-
 ## Creating a scope
 {: #create-scope}
 
@@ -90,39 +87,10 @@ If you're working with a scope that requires more than one set of credentials to
 {: tip}
 
 
-
-## Viewing scope details
-{: #view-scope}
-
-To view the details of the scopes that you create, you can use the {{site.data.keyword.compliance_short}} UI.
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Configure > Scopes**.
-3. From the **Scopes** table, select the scope that you want to see the details of. A new page opens that contains the information of which credentials and collectors are used in the scope, as well as an inventory of the resources that are available in the scope.
-4. Click **Event history** to see the historical archive of each scan that has been run on the scope. If there are additional details available for the scan, the event time is clickable.
-
-You can run a one-time on-demand scan from the **Actions > Scan** drop down on the scope details page.
-{: tip}
-
-
-### Creating a new resource mapping
-{: #resource-mapping}
-
-When an Nmap scan is run on on-premises resources, occasionally a resource is misidentified. In order to override the mapping that is made by the scan, you can create a new mapping in the UI. 
-
-1. From the scope details page, select **Resource mapping** from the **Actions** drop-down.
-2. Click **Create**.
-3. Create a mapping for a virtual machine by selecting a **Virtual machine**, **Object**, **Operating system**, and **Vendor** for your resource. The VM and object are required fields.
-
-
-
-
-
 ## Editing a scope
 {: #edit-scope}
 
 If you need to update the resources that are scanned as part of a scope, you can edit an existing scope. However, you cannot update an environment that the scope is associated with. If you want to change an environment, create a new scope.
-
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Scopes**.
@@ -132,8 +100,6 @@ If you need to update the resources that are scanned as part of a scope, you can
 6. Click **Next**.
 7. Optional: Update the resources that you want to scan.
 8. Click **Update**.
-
-
 
 ## Deleting a scope
 {: #delete-scope}
@@ -148,3 +114,4 @@ If you no longer need to scan a particular scope, you can delete it.
 
 The scope is not fully deleted, but is rendered inactive. You will still be able to access the history of the scans.
 {: note}
+
