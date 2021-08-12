@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-11"
+lastupdated: "2021-08-12"
 
 keywords: scopes, accounts, resources, environments
 
@@ -66,7 +66,7 @@ Before you get started, be sure that you have the following prerequisites.
 To narrow the focus of your scans, create a scope by using the {{site.data.keyword.compliance_short}} UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Configure > Scopes**.
+2. In the navigation, under **Manage Posture**, click **Configure > Scopes**.
 3. Click **Create**.
 4. Give your scope a name and description.
 
@@ -75,13 +75,12 @@ To narrow the focus of your scans, create a scope by using the {{site.data.keywo
 5. Select an environment. Options include Amazon Web Services, Microsoft Azure, IBM Cloud, Google Cloud Platform, and On-premises.
 
   If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third-party. Supported format for imported files is  `.json`. Max file size is 30 MB.
-
-6. Select the **Collector** that you want to use.
-7. Select the **Credentials** that match the collector that you selected in the previous step.
-8. Click **Next**.
-9. Select the resources that you want to scan.
-10. Click **Create**.
-
+6. Select the **Credentials** that match the collector that you selected in the previous step.
+7. Click **Next**.
+8. Select the **Collector** that you want to use.
+9. Click **Next**.
+10. Review the resources that you want to scan.
+11. Click **Create**.
 
 If you're working with a scope that requires more than one set of credentials to access the resources within it, be sure to [map your credentials](/docs/security-compliance?topic=security-compliance-credentials)
 {: tip}
@@ -93,13 +92,14 @@ If you're working with a scope that requires more than one set of credentials to
 If you need to update the resources that are scanned as part of a scope, you can edit an existing scope. However, you cannot update an environment that the scope is associated with. If you want to change an environment, create a new scope.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Configure > Scopes**.
+2. In the navigation, under **Manage Posture**, click **Configure > Scopes**.
 3. Select the scope that you want to edit in the table.
-4. Click the **Edit scope** symbol.
+4. Click **Details**. A side panel appears.
+5. Click **Edit**.
 5. Optional: Update the general details of your scope, such as the name or description. 
 6. Click **Next**.
 7. Optional: Update the resources that you want to scan.
-8. Click **Update**.
+8. Click **Save**.
 
 ## Deleting a scope
 {: #delete-scope}
@@ -107,10 +107,9 @@ If you need to update the resources that are scanned as part of a scope, you can
 If you no longer need to scan a particular scope, you can delete it.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Configure > Scopes**.
-3. Select the scope that you want to delete.
-4. From actions menu in the row of the scope that you want to delete, click **delete scope**.
-5. To verify that you understand that any scheduled scans that are associated with that scope are canceled, click **Delete**.
+2. In the navigation, under **Manage Posture**, click **Configure > Scopes**.
+3. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) in the row of the scope that you want to delete, then click **Delete**.
+4. To verify that you understand that any scheduled scans that are associated with that scope are canceled, click **Delete**.
 
 The scope is not fully deleted, but is rendered inactive. You will still be able to access the history of the scans.
 {: note}
