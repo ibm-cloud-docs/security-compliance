@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-07-22"
+lastupdated: "2021-08-16"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -101,10 +101,10 @@ You must have a service-to-service authorization policy between VPC and the same
 Now that you've connected your Cloud Object Storage bucket and verified that your flow logs are being stored correctly, you can enable Network Insights to start analyzing them.
 
 
-1. In the {{site.data.keyword.cloud_notm}} console, navigate to **Security and compliance > Integrations > Built-in insights**.
+1. In the {{site.data.keyword.cloud_notm}} console, navigate to **Security Compliance > Gain insight > Configure > Built-in insights**.
 2. Toggle Network Insights to **On**.
 
-As results come in, you can see any flagged issues on the **Insights** or **Detailed findings** pages of the UI.
+As results come in, you can see any flagged issues on the **Insights** or **Findings** pages of the UI.
 
 
 Now that you've configured Network Insights to analyze your flow logs, set up alerts so that you can be notified if an issue is found. [Learn more](/docs/security-compliance?topic=security-compliance-notifications).
