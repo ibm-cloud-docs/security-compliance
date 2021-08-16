@@ -65,7 +65,7 @@ Before you get started, be sure that you have the following prerequisites.
 
 To narrow the focus of your scans, create a scope by using the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the **Manage Posture** section of the navigation, click **Configure > Scopes**.
 3. Click **Create**.
 4. Give your scope a name and description.
@@ -91,7 +91,7 @@ If you're working with a scope that requires more than one set of credentials to
 
 If you need to update the resources that are scanned as part of a scope, you can edit an existing scope. However, you cannot update an environment that the scope is associated with. If you want to change an environment, create a new scope.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the **Manage Posture** section of the navigation, click **Configure > Scopes**.
 3. Select the scope that you want to edit in the table.
 4. Click **Details**. A side panel appears.
@@ -106,7 +106,7 @@ If you need to update the resources that are scanned as part of a scope, you can
 
 If you no longer need to scan a particular scope, you can delete it.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the **Manage Posture** section of the navigation, click **Configure > Scopes**.
 3. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) in the row of the scope that you want to delete, then click **Delete**.
 4. To verify that you understand that any scheduled scans that are associated with that scope are canceled, click **Delete**.
