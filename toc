@@ -35,7 +35,7 @@ Security and Compliance Center
         
         {: .topicgroup}
         Defining your compliance checks
-            profile-manage.md
+            profile-predefined.md
             customize-goals.md
     
     {: .topicgroup}
