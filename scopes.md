@@ -74,7 +74,7 @@ To narrow the focus of your scans, create a scope by using the {{site.data.keywo
 
 5. Select an environment. Options include Amazon Web Services, Microsoft Azure, IBM Cloud, Google Cloud Platform, and On-premises.
 
-  If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third-party. Supported format for imported files is  `.json`. Max file size is 30 MB.
+  If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third party. Supported format for imported files is  `.json`. Max file size is 30 MB.
 6. Select the **Credentials** that match the collector that you selected in the previous step.
 7. Click **Next**.
 8. Select the **Collector** that you want to use.
@@ -111,6 +111,6 @@ If you no longer need to scan a particular scope, you can delete it.
 3. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) in the row of the scope that you want to delete, then click **Delete**.
 4. To verify that you understand that any scheduled scans that are associated with that scope are canceled, click **Delete**.
 
-The scope is not fully deleted, but is rendered inactive. You will still be able to access the history of the scans.
+The scope is not fully deleted, but is rendered inactive. You can still access the history of the scans.
 {: note}
 
