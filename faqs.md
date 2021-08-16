@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-14"
+lastupdated: "2021-08-16"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -55,20 +55,21 @@ Frequently asked questions for {{site.data.keyword.compliance_full}} might inclu
 {: #environment-list}
 {: faq}
 
-You can use the {{site.data.keyword.compliance_short}} to monitor your security and compliance posture in the following environments:
+You can use the {{site.data.keyword.compliance_short}}} to monitor your security and compliance posture in the following environments:
 
-* IBM Cloud
+* {{site.data.keyword.cloud_notm}}
 * Amazon Web Services
 * Google Cloud Platform
 * Microsoft Azure
 * On-premises
 
 
-## Which IBM Cloud services can I scan?
+
+## Which {{site.data.keyword.cloud_notm}} services can I scan?
 {: #resource-scan}
 {: faq}
 
-You can use the {{site.data.keyword.compliance_short}} to monitor your resources that pertain to the following services:
+You can use the {{site.data.keyword.compliance_short}}} to monitor your resources that pertain to the following services:
 
 * {{site.data.keyword.at_short}}
 * {{site.data.keyword.blockstorageshort}}
@@ -83,6 +84,7 @@ You can use the {{site.data.keyword.compliance_short}} to monitor your resources
 * {{site.data.keyword.keymanagementserviceshort}}
 * {{site.data.keyword.containershort_notm}}
 * {{site.data.keyword.cos_short}}
+* {{site.data.keyword.openshiftshort}}
 * {{site.data.keyword.security-advisor_short}}
 
 
@@ -91,7 +93,7 @@ You can use the {{site.data.keyword.compliance_short}} to monitor your resources
 {: faq}
 {: support}
 
-Currently, you can't attach a rule to a profile. The {{site.data.keyword.compliance_short}} supports two types of rules, predefined and user-defined.
+Currently, you can't attach a rule to a profile. The {{site.data.keyword.compliance_short}}} supports two types of rules, predefined and user-defined.
 
 * Predefined rules can be goals that are offered as part of controls that exist in a profile.
 * User-defined rules are created by you and can be attached directly to a scope for evaluation but cannot be included in a profile.
