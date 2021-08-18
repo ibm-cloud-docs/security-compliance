@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-12"
+lastupdated: "2021-08-18"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions
 
@@ -170,7 +170,7 @@ String-based operators are case-sensitive.
 {: note}
 
 | Operator | Type | Description | Requires `value` parameter |
-|:--------|:-----------|:------------------------|
+|:--------|:--------|:-----------|:------------------------|
 | `is_empty`  | General | The property value is not specified, null, or an empty string | No |
 | `is_not_empty`  | General |  The property value is specified, not null, and not an empty string (any value). | No |
 | `is_true`  | Boolean | The property value is true. | No |

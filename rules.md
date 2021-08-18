@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-12"
+lastupdated: "2021-08-18"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -45,8 +45,13 @@ subcollection: security-compliance
 {:api: .ph data-hd-interface='api'}
 
 
+
 # Working with config rules
 {: #rules}
+
+
+
+
 
 You can use the {{site.data.keyword.compliance_full}} to create and manage config rules by using the console or the APIs.
 {: shortdesc}
@@ -235,64 +240,6 @@ curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
 
 A successful `POST config/v1/rules` response returns the ID value for your rule, along with other metadata. For more information about the required and optional request parameters, see [Create rules](/apidocs/security-compliance/config#post-rule-attachments).
 
-
-
-
-## Attaching a rule to a scope with the UI
-{: #evaluate-rules-ui}
-{: ui}
-
-By creating an attachment between a rule and a scope, you can monitor the resources that exist in that scope against the rule that you defined. If you have a specific account that you don't want the rule to apply to, you can choose to exclude it. For example, if you apply a rule to an entire enterprise you might want to exclude a scope that is used primarily for testing.
-
-To create an attachment for a rule by using the {{site.data.keyword.compliance_short}} UI:
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
-2. In the navigation, click **Configure rules**.
-3. From the list of rules, click the name of the rule that you want to attach.
-4. Click **Attachments**. If the rule that you selected is attached to any scopes, you see them in a table.
-5. Click **Attach** to review your attachment options.
-     1. Decide whether to apply the rule across your entire enterprise or narrow it to a specific account.
-     2. Review the hierarchy of the account or enterprise that you selected.
-     3. If you want to exclude a scope, switch the toggle to **Yes**. Select the scopes that you want to exclude and click **Add**.
-6. Click **Attach**.
-
-    Now that your rule is attached to a scope, the scope is scanned for possible noncompliance the next time that a scan is scheduled to run. Updated reports are generated automatically for your resources once every 24 hours.
-
-## Attaching a rule to a scope with the API
-{: #evaluate-rules-api}
-{: api}
-
-By creating an attachment between a rule and a scope, you can monitor the resources that exist in that scope against the rule that you defined. If you have a specific account that you don't want the rule to apply to, you can choose to exclude it. For example, if you apply a rule to an entire enterprise you might want to exclude a scope that is used primarily for testing.
-
-The following example request creates an attachment between an existing rule and a scope.
-
-```bash
-curl -X POST \
-"https://compliance.{DomainName}/config/v1/rules/<rule_ID>/attachments" \
-  -H 'Authorization: Bearer <access_token>' \
-  -H 'Content-type: application/json' \
-  -d '{
-  "attachments": [
-    {
-      "included_scope": {
-        "scope_id": "<included_scope_ID>",
-        "scope_type": "<scope_type>",
-        "note": "<description>"
-      },
-      "excluded_scopes": [
-        {
-          "scope_id": "<excluded_scope_ID",
-          "scope_type": "<scope_type>",
-          "note": "<description>"
-        }
-      ]
-    }
-  ]
-}'
-```
-{: codeblock}
-
-A successful `POST config/v1/rules/{rule_ID}/attachments` response returns the ID value for the attachment, along with other metadata. For more information about the required and optional request parameters, see [Create attachments](/apidocs/security-compliance/config#create-attachments).
 
 
 ## Viewing rules with the UI
