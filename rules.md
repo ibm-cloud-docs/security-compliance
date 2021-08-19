@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-18"
+lastupdated: "2021-08-19"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -45,13 +45,8 @@ subcollection: security-compliance
 {:api: .ph data-hd-interface='api'}
 
 
-
-# Working with config rules
+# Managing config rules
 {: #rules}
-
-
-
-
 
 You can use the {{site.data.keyword.compliance_full}} to create and manage config rules by using the console or the APIs.
 {: shortdesc}
@@ -152,31 +147,13 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the rules th
       <td>The individual resource configuration variable that follows the syntax <code>property_name</code>. Options are dependent upon the target that you choose and can be found in the UI.</td>
     </tr>
   </table>
-10. Click **Next**. 
-10. Select the enforcement actions that you want to apply and click **Next**.
-
-  Enforcement actions define how the {{site.data.keyword.compliance_short}} reacts when a resource is created or modified and the requested configuration is not compliant with your rule. The following table describes the supported actions.
-
-  <table>
-    <caption>Table 2. Enforcement actions and descriptions</caption>
-    <tr>
-      <th>Action</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td>Disallow</td>
-      <td>Blocks the requested action from completing.</td>
-    </tr>
-    <tr>
-      <td>Audit log</td>
-      <td>Allows the requested action to complete, but logs an event that indicates noncompliance in {{site.data.keyword.at_short}}. Note: An action is logged in {{site.data.keyword.at_short}} automatically.</td>
-    </tr>
-  </table>
-
+  
+9. If the rule is enforceable and you want to ensure it can't be broken, toggle enforcement to **On**.
+10. Click **Next**.
 11. Review your selections. To make an update, click **Back** to return to the section that you want to edit.
 12. Click **Finish and attach** to create your rule and [attach it to a scope](#evaluate-rules-ui).
 
-    If you're not ready to attach your rule, you can always save your rule and attach it later. But, your rule is not enforced until it is attached to a scope
+  If you're not ready to attach your rule, you can always save your rule and attach it later. But, your rule is not enforced until it is attached to a scope
 
 ## Creating a rule with the API
 {: #create-rule-api}
@@ -221,9 +198,6 @@ curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
         "enforcement_actions": [
           {
             "action": "disallow"
-          },
-          {
-            "action" "audit_log"
           }
         ],
         "labels": [
@@ -240,6 +214,65 @@ curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
 
 A successful `POST config/v1/rules` response returns the ID value for your rule, along with other metadata. For more information about the required and optional request parameters, see [Create rules](/apidocs/security-compliance/config#post-rule-attachments).
 
+
+
+
+
+## Attaching a rule to a scope with the UI
+{: #evaluate-rules-ui}
+{: ui}
+
+By creating an attachment between a rule and a scope, you can monitor the resources that exist in that scope against the rule that you defined. If you have a specific account that you don't want the rule to apply to, you can choose to exclude it. For example, if you apply a rule to an entire enterprise you might want to exclude a scope that is used primarily for testing.
+
+To create an attachment for a rule by using the {{site.data.keyword.compliance_short}} UI:
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
+2. In the navigation, click **Configure rules**.
+3. From the list of rules, click the name of the rule that you want to attach.
+4. Click **Attachments**. If the rule that you selected is attached to any scopes, you see them in a table.
+5. Click **Attach** to review your attachment options.
+     1. Decide whether to apply the rule across your entire enterprise or narrow it to a specific account.
+     2. Review the hierarchy of the account or enterprise that you selected.
+     3. If you want to exclude a scope, switch the toggle to **Yes**. Select the scopes that you want to exclude and click **Add**.
+6. Click **Attach**.
+
+    Now that your rule is attached to a scope, the scope is scanned for possible noncompliance the next time that a scan is scheduled to run. Updated reports are generated automatically for your resources once every 24 hours.
+
+## Attaching a rule to a scope with the API
+{: #evaluate-rules-api}
+{: api}
+
+By creating an attachment between a rule and a scope, you can monitor the resources that exist in that scope against the rule that you defined. If you have a specific account that you don't want the rule to apply to, you can choose to exclude it. For example, if you apply a rule to an entire enterprise you might want to exclude a scope that is used primarily for testing.
+
+The following example request creates an attachment between an existing rule and a scope.
+
+```bash
+curl -X POST \
+"https://compliance.{DomainName}/config/v1/rules/<rule_ID>/attachments" \
+  -H 'Authorization: Bearer <access_token>' \
+  -H 'Content-type: application/json' \
+  -d '{
+  "attachments": [
+    {
+      "included_scope": {
+        "scope_id": "<included_scope_ID>",
+        "scope_type": "<scope_type>",
+        "note": "<description>"
+      },
+      "excluded_scopes": [
+        {
+          "scope_id": "<excluded_scope_ID",
+          "scope_type": "<scope_type>",
+          "note": "<description>"
+        }
+      ]
+    }
+  ]
+}'
+```
+{: codeblock}
+
+A successful `POST config/v1/rules/{rule_ID}/attachments` response returns the ID value for the attachment, along with other metadata. For more information about the required and optional request parameters, see [Create attachments](/apidocs/security-compliance/config#create-attachments).
 
 
 ## Viewing rules with the UI
@@ -271,7 +304,6 @@ curl -X POST \
 {: codeblock}
 
 A successful `GET config/v1/rules` response returns the IDs values for your available rules, along with other summary details. For more information about the required and optional request parameters, see [List rules](/apidocs/security-compliance/config#list-rules).
-
 
 
 ## Deleting rules with the UI

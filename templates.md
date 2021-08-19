@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-18"
+lastupdated: "2021-08-19"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -45,12 +45,8 @@ subcollection: security-compliance
 {:api: .ph data-hd-interface='api'}
 
 
-
 # Managing templates
 {: #templates}
-
-
-
 
 You can use the {{site.data.keyword.compliance_full}} to create and manage templates by using the console or the APIs.
 {: shortdesc}
