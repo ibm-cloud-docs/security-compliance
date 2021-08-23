@@ -55,7 +55,7 @@ If you're working with an Amazon Web Services (AWS) or Azure account, you can us
 ## Before you begin
 {: #before-remediation}
 
-Before you get started, be sure that you have the required level of access to remediate potential issues. To remediate issues, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management). The credentials that you provide for remediation must also have the appropriate permissions for the resources that you want to remediate.
+Before you get started, be sure that you have the required level of access to remediate potential issues. To remediate issues, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). The credentials that you provide for remediation must also have the appropriate permissions for the resources that you want to remediate.
 
 Remediation is available for Amazon Web Services and Microsoft Azure only. To remediate issues through {{site.data.keyword.compliance_short}}, you must have a scan that is targeted to scan your AWS or Azure resources.
 {: note}

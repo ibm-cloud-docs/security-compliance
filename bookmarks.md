@@ -57,7 +57,7 @@ The {{site.data.keyword.compliance_short}} does not persist any credentials that
 ## Before you begin
 {: #bookmark-before}
 
-Before you get started, be sure that you have the required level of access to view and manage bookmarks. To add a bookmark, you need the Writer service role or higher for {{site.data.keyword.security-advisor_short}}. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
+Before you get started, be sure that you have the required level of access to view and manage bookmarks. To add a bookmark, you need the [**Writer** service role or higher for {{site.data.keyword.security-advisor_short}}](/docs/security-compliance?topic=security-compliance-access-management).
 
 
 

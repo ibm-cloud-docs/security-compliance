@@ -58,7 +58,7 @@ Activity Insights is available for {{site.data.keyword.containershort}} clusters
 ## Before you begin
 {: #activity-prereq}
 
-Before you get started, be sure that you have the required level of access to view and manage Activity Insights. To manage Activity Insights, you must have the Writer service role or higher for {{site.data.keyword.security-advisor_short}}. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management). 
+Before you get started, be sure that you have the required level of access to view and manage Activity Insights. To manage Activity Insights, you must have the [**Writer** service role or higher for {{site.data.keyword.security-advisor_short}}](/docs/security-compliance?topic=security-compliance-access-management). 
 
 You must also have the following prerequisites:
 

@@ -59,7 +59,7 @@ With a process in place to handle alerts you can ensure that you're in complianc
 ## Before you begin
 {: #alerts-before}
 
-Before you get started, be sure that you have the required level of access to configure alerts. To configure alerts, you need the Manager service role or higher for {{site.data.keyword.security-advisor_short}}. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
+Before you get started, be sure that you have the required level of access to configure alerts. To configure alerts, you need the [**Manager** service role or higher for {{site.data.keyword.security-advisor_short}}](/docs/security-compliance?topic=security-compliance-access-management).
 
 You can use [Cloud Functions](/docs/openwhisk?topic=openwhisk-getting-started) to forward your alerts to either a Slack message or to your email. For more information, check out [How to Get IBM Cloud Security Advisor Alerts via Slack or Email](https://www.ibm.com/cloud/blog/ibm-cloud-security-advisor-alerts-via-slack-or-email){: external}.
 {: tip}

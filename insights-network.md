@@ -55,7 +55,7 @@ With Security Insights, formerly known as {{site.data.keyword.security-advisor_l
 {: #before-network}
 
 
-Before you get started, be sure that you have the required level of access to view and manage Activity Insights. To manage Activity Insights, you must have the Writer service role or higher for {{site.data.keyword.security-advisor_short}} and Virtual Private Cloud. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management). You must also have [an instance of VPC](https://{DomainName}/vpc-ext/provision/vpc).
+Before you get started, be sure that you have the required level of access to view and manage Activity Insights. To manage Activity Insights, you must have the [**Writer** service role or higher for {{site.data.keyword.security-advisor_short}} and Virtual Private Cloud](/docs/security-compliance?topic=security-compliance-access-management). You must also have [an instance of VPC](https://{DomainName}/vpc-ext/provision/vpc).
 
 
 ## Connecting to Cloud Object Storage

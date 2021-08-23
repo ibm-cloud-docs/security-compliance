@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-16"
+lastupdated: "2021-08-23"
 
 keywords: profiles, user-defined, predefined profiles, controls, goals, nist, best practices, security, compliance
 
@@ -65,7 +65,7 @@ When you work with {{site.data.keyword.cloud_notm}}, several goals are met by de
 ## Before you begin
 {: before-profiles}
 
-Before you get started, be sure that you have the required level of access to view and manage profiles. To manage profiles, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
+Before you get started, be sure that you have the required level of access to view and manage profiles. To manage profiles, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
 
 ## Viewing profiles
