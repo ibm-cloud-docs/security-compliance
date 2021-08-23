@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-23"
+lastupdated: "2021-08-23"
 
 keywords: best practices security and compliance, secure development, security strategy, insights, governance
 
@@ -82,6 +82,8 @@ As a security or compliance focal, you create credentials and install a collecto
 
 &ast;*Posture Management is available for {{site.data.keyword.cloud_notm}}, Amazon Web Services, Microsoft Azure, Google Cloud Platform, and on-premises environments.*
 
+
+
 ### Configuration Governance
 {: #config-governance}
 
@@ -110,3 +112,4 @@ With Security Insights, you can continuously monitor and analyze your {{site.dat
 </dl>
 
 &ast;*Security Insights is available for {{site.data.keyword.cloud_notm}} only.* 
+
