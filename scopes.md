@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-16"
+lastupdated: "2021-08-23"
 
 keywords: scopes, accounts, resources, environments
 
@@ -55,10 +55,7 @@ When you're working with the {{site.data.keyword.compliance_short}}, you can nar
 ## Before you begin
 {: #before-scope}
 
-Before you get started, be sure that you have the following prerequisites.
-
-- An [installed collector](/docs/security-compliance?topic=security-compliance-collector).
-- The required level of access to view and manage scopes. To manage scopes, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
+Before you get started, be sure that you have the required level of access to view and manage scopes. To manage scopes, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
 
 ## Creating a scope
 {: #create-scope}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-12"
+lastupdated: "2021-08-23"
 
 keywords: remediation, aws, compliance, security, 
 
@@ -55,12 +55,10 @@ If you're working with an Amazon Web Services (AWS) or Azure account, you can us
 ## Before you begin
 {: #before-remediation}
 
-Before you get started, be sure that you have the following prerequisites.
+Before you get started, be sure that you have the required level of access to remediate potential issues. To remediate issues, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management). The credentials that you provide for remediation must also have the appropriate permissions for the resources that you want to remediate.
 
-- An [installed collector](/docs/security-compliance?topic=security-compliance-collector).
-- A [scope](/docs/security-compliance?topic=security-compliance-scopes) that is targeted to AWS.
-- [Scan results](/docs/security-compliance?topic=security-compliance-view-posture#view-validations).
-- The required level of access to view and manage remediation. To manage remediation, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
+Remediation is available for Amazon Web Services and Microsoft Azure only. To remediate issues through {{site.data.keyword.compliance_short}}, you must have a scan that is targeted to scan your AWS or Azure resources.
+{: note}
 
 
 ## Running remediation

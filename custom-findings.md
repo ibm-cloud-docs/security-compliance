@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-07-22"
+lastupdated: "2021-08-23"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -57,33 +57,10 @@ With {{site.data.keyword.compliance_full}}, you can integrate your existing cust
 ## Before you begin
 {: #custom-before-api}
 
-Before you integrate findings from your third-party tool, be sure that you have the following prerequisites.
+Before you get started, be sure that you have the required level of access to pull in custom findings. To integrate your own tools, you or the service ID that you're using must have the Manager service role or higher for {{site.data.keyword.security-advisor_short}}. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management). You must also have an IAM token to be used as part of the header of each API request.
 
-1. Be sure that the user or service ID that you're using is assigned the **Manager** [IAM role](https://cloud.ibm.com/iam/users){: external}.
-
-2. Log in to {{site.data.keyword.cloud_notm}}.
-
-  ```
-  ibmcloud login
-  ```
-  {: codeblock}
-
-3. Get your account ID. For more information about service roles, check out the [{{site.data.keyword.compliance_short}} and {{site.data.keyword.compliance_short}} access policies](/docs/account?topic=account-assign-access-resources).
-
-  ```
-  ibmcloud account list org-account ORG_NAME [--guid]
-  ```
-  {: codeblock}
-
-4. Get your Identity and Access Management (IAM) token. The token is used in the `--header` of each API request.
-
-  ```
-  ibmcloud iam oauth-tokens
-  ```
-  {: codeblock}
-
-  IAM tokens expire every 60 minutes. To learn how to [get a new token automatically](/docs/account?topic=account-iamtoken_from_apikey) by using an API key.
-  {: tip}
+IAM tokens expire every 60 minutes. To learn how to [get a new token automatically](/docs/account?topic=account-iamtoken_from_apikey) by using an API key.
+{: tip}
 
 
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-20"
+lastupdated: "2021-08-23"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -56,7 +56,7 @@ For the {{site.data.keyword.compliance_full}} to gather and validate information
 ## Before you begin
 {: #before-collector}
 
-Before you begin, be sure that you're using a Pay-As-You-Go or Subscription [{{site.data.keyword.cloud_notm}} account](/docs/account?topic=account-account-getting-started) where you are the owner or have [full **Administrator** access](/docs/account?topic=account-assign-access-resources). To create a collector, you must also have the **Administrator** role access to the {{site.data.keyword.compliance_short}}. Be sure that you also have access to the [credentials](/docs/security-compliance?topic=security-compliance-credentials) that your collector needs to gather your resource configurations.
+Before you get started, be sure that you have the required level of access to view and manage collectors. To administer collectors, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
 
 
 ### Verifying installation requirements

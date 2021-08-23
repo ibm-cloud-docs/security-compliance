@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-07-22"
+lastupdated: "2021-08-23"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection, bookmark
 
@@ -53,6 +53,11 @@ With the {{site.data.keyword.compliance_short}}, you can manage all of your secu
 
 The {{site.data.keyword.compliance_short}} does not persist any credentials that are related to your bookmark.
 {: note}
+
+## Before you begin
+{: #bookmark-before}
+
+Before you get started, be sure that you have the required level of access to view and manage bookmarks. To add a bookmark, you need the Writer service role or higher for {{site.data.keyword.security-advisor_short}}. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
 
 
 

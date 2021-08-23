@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-07-22"
+lastupdated: "2021-08-23"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -58,8 +58,9 @@ Activity Insights is available for {{site.data.keyword.containershort}} clusters
 ## Before you begin
 {: #activity-prereq}
 
+Before you get started, be sure that you have the required level of access to view and manage Activity Insights. To manage Activity Insights, you must have the Writer service role or higher for {{site.data.keyword.security-advisor_short}}. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management). 
 
-Before you get started with Activity Insights, be sure that you have the following prerequisites.
+You must also have the following prerequisites:
 
 - A standard Kubernetes cluster version v1.10.11 or higher
 - The [`yq` CLI](https://mikefarah.gitbook.io/yq/){: external}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-08-16"
+lastupdated: "2021-08-23"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -54,11 +54,8 @@ With Security Insights, formerly known as {{site.data.keyword.security-advisor_l
 ## Before you begin
 {: #before-network}
 
-Before you get started with Network Insights, be sure that you have the following prerequisites.
 
-* [An instance of VPC](https://{DomainName}/vpc-ext/provision/vpc)
-* An {{site.data.keyword.cloud_notm}} account with *editor* permissions for {{site.data.keyword.security-advisor_short}} and VPC
-
+Before you get started, be sure that you have the required level of access to view and manage Activity Insights. To manage Activity Insights, you must have the Writer service role or higher for {{site.data.keyword.security-advisor_short}} and Virtual Private Cloud. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management). You must also have [an instance of VPC](https://{DomainName}/vpc-ext/provision/vpc).
 
 
 ## Connecting to Cloud Object Storage
