@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-16"
+lastupdated: "2021-08-23"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -98,7 +98,7 @@ Currently, you can't attach a rule to a profile. The {{site.data.keyword.complia
 * Predefined rules can be goals that are offered as part of controls that exist in a profile.
 * User-defined rules are created by you and can be attached directly to a scope for evaluation but cannot be included in a profile.
 
-For more information about the types of rules, see [Working with config rules](/docs/security-compliance?topic=security-compliance-rules).
+For more information about the types of rules, see [What is Configuration Governance](/docs/security-compliance?topic=security-compliance-what-is-governance).
 
 
 ## Can I create a config rule for a service that I don't currently have provisioned?
