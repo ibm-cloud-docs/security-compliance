@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2017, 2021
-lastupdated: "2021-08-19"
+lastupdated: "2021-08-23"
 keywords:
 subcollection: security-compliance
 ---
@@ -48,8 +48,8 @@ With {{site.data.keyword.compliance_full}}, you can take advantage of built-in i
 {: shortdesc}
 
 
-### How does Security Insights work?
-{: #security-insights}
+## How does Security Insights work?
+{: #insights-work}
 
 With Security Insights, you can continuously monitor and analyze your {{site.data.keyword.cloud_notm}} resources and applications for potential risks that might impact your environment. With Security Insights, you get access to threat detection, security risk prevention, and suggested remediation steps that can help to mitigated issued findings, sent through customized alert notifications, that can give you a more comprehensive understanding of your current security status. Check out the following table to learn more about the different capabilities.
 
