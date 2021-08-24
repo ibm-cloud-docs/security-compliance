@@ -47,19 +47,23 @@ Security and Compliance Center
             tags.md
 
         schedule-scan.md
-
+    
     {: .topicgroup}
     Governing the use of resources
+        gov-what-is.md
+        gov-format.md
 
         {: .topicgroup}
-        Defining guardrails
-            what-is-rule.md
-            rules.md
-
+        Managing config rules
+            gov-rule-define.md
+            gov-rule-attach.md
+            gov-rule-delete.md
+        
         {: .topicgroup}
-        Customizing default values
-            what-is-template.md
-            templates.md
+        Managing templates
+            gov-temp-define.md
+            gov-temp-attach.md
+            gov-temp-delete.md
 
     {: .topicgroup}
     Gaining security insight
