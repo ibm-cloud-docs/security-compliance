@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-30"
+lastupdated: "2021-08-24"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -66,7 +66,7 @@ The ability to standardize how resources are provisioned and configured across y
 
 To get started, choose whether to create a template or a rule.
 
-[![This image is a visual link to the instructions for creating templates.](images/gs-templates.svg)](/docs/security-compliance?topic=security-compliance-templates)     [![This image is a visual link to the instructions for creating rules.](images/gs-rules.svg)](/docs/security-compliance?topic=security-compliance-rules)
+[![This image is a visual link to the instructions for creating templates.](images/gs-templates.svg)](/docs/security-compliance?topic=security-compliance-templates-define)     [![This image is a visual link to the instructions for creating rules.](images/gs-rules.svg)](/docs/security-compliance?topic=security-compliance-rules-define)
 
 &ast;*Configuration Governance is available for {{site.data.keyword.cloud_notm}} only.*
 
