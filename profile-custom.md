@@ -81,8 +81,8 @@ You can choose to create a profile by using another predefined profile as a base
 8. Review the controls and goals for the selected profile and check the corresponding box for the goals that you want to include.
 9.  Click **Next**.
 10. Review your selections, and click **Create**.
-
-  After you create your profile, you can choose to edit or export it by clicking its table row in the {{site.data.keyword.compliance_short}} UI. From your list of profiles, use the **Custom** filter to search for custom profiles in your account. If you no longer need to use a custom profile, you can choose to remove it. After you delete a profile, it cannot be used in future scans.
+    
+After you create your profile, you can choose to edit or export it by clicking its table row in the {{site.data.keyword.compliance_short}} UI. From your list of profiles, use the **Custom** filter to search for custom profiles in your account. If you no longer need to use a custom profile, you can choose to remove it. After you delete a profile, it cannot be used in future scans.
 
 ### Creating profiles from scratch
 {: #create-profile-from-scratch-ui}
