@@ -78,11 +78,9 @@ You can choose to create a profile by using another predefined profile as a base
 5. Click **Next**.
 6. Click the **Start from a predefined profile** tile.
 7. Select a predefined profile to use as a base.
-8. Click **Select controls**.
-9. Review the controls and goals for the selected profile and check the corresponding box for the goals that you want to include.
-10. Click **Select controls**. 
-11. Click **Next**.
-12. Review your selections, and click **Create**.
+8. Review the controls and goals for the selected profile and check the corresponding box for the goals that you want to include.
+9.  Click **Next**.
+10. Review your selections, and click **Create**.
 
   After you create your profile, you can choose to edit or export it by clicking its table row in the {{site.data.keyword.compliance_short}} UI. From your list of profiles, use the **Custom** filter to search for custom profiles in your account. If you no longer need to use a custom profile, you can choose to remove it. After you delete a profile, it cannot be used in future scans.
 
@@ -103,8 +101,6 @@ If you know the controls and goals that you want to meet, you can create a profi
 8. Select one or more goals that you want to add to your control.
 
    Not sure which goals to include? Use the search bar to filter the list of available goals by description or keyword. You can also use the Goals page in the {{site.data.keyword.compliance_short}} UI to search for and view information about available goals. If you accidentally add a control that you don't need, you can click the **Trash** icon to delete it or the **Edit** icon to edit your profile.
-   {: tip}
-
 9.  Click **Done**.
 10.  Click the **Save** icon.
 11.  Repeat the steps until you have the profile configuration that you want.
