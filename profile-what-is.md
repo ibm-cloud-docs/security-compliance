@@ -71,14 +71,14 @@ When you work with {{site.data.keyword.cloud_notm}}, several goals are met by de
 
 When you work with profiles in the {{site.data.keyword.compliance_short}}, you interact with predefined or custom profiles.
 
-
-
 <dl>
   <dt>Predefined profiles</dt>
   <dd><p>Predefined profiles contain collections of controls that are curated based on standards for an industry.</p><p>{{site.data.keyword.compliance_short}} supports over 40 predefined profiles. Within each profile, you can inspect the controls and goals that are required to be fully compliant. For a complete list of supported profiles, go to the Profiles page in the {{site.data.keyword.compliance_short}} UI.</p><p class="note">You can't modify or remove controls from a predefined profile. But, you can [create a new profile](/docs/security-compliance?topic=security-compliance-custom-profiles) from a predefined profile so that you choose only the controls and goals that are relevant for your business.</p></dd>
   <dt>Custom profiles</dt>
   <dd>If you want to ability to customize a profile to include any combination of controls and goals, you can create a custom profile. By using the {{site.data.keyword.compliance_short}} UI, you can build a profile from an existing predefined profile, or you can create a profile with your own controls and guidelines from scratch.</dd>
 </dl>
+
+
 
 
 ## How do I get started?
