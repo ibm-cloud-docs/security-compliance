@@ -24,6 +24,7 @@ Security and Compliance Center
     {: .navgroup id="howto"}
     {: .topicgroup}
     Setting up monitoring
+        posture-what-is.md
         credentials.md
         
         {: .topicgroup}
