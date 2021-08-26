@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-07-28"
+lastupdated: "2021-08-24"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -51,6 +51,18 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 {:shortdesc}
 
 
+
+## 18 August 2021
+{: #2021-08-18}
+
+This release includes the following updates.
+
+### New goals
+{: #2021-08-18-goals}
+
+You might notice that your compliance score has changed even though you haven't updated any of your configurations. 1 new goal has been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All of the goals with ID's in the following ranges are new.
+
+* Goal ID's: `3000510` - `3000525` and `3000640`.
 
 
 ## 22 July 2021
@@ -188,7 +200,7 @@ Looking for more options to help you govern {{site.data.keyword.cloud_notm}} res
 
 To get started with templates, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Govern resources > Configure > Templates**, or check out the [API reference](/apidocs/security-compliance/config) to learn more about creating templates programmatically.
 
-For more information, see [What is a template?](/docs/security-compliance?topic=security-compliance-what-is-template)
+For more information, see [What is Configuration Governance?](/docs/security-compliance?topic=security-compliance-what-is-governance)
 
 
 ## 17 February 2021

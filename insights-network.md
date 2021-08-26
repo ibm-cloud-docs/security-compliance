@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-07-22"
+lastupdated: "2021-08-23"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -54,11 +54,8 @@ With Security Insights, formerly known as {{site.data.keyword.security-advisor_l
 ## Before you begin
 {: #before-network}
 
-Before you get started with Network Insights, be sure that you have the following prerequisites.
 
-* [An instance of VPC](https://{DomainName}/vpc-ext/provision/vpc)
-* An {{site.data.keyword.cloud_notm}} account with *editor* permissions for {{site.data.keyword.security-advisor_short}} and VPC
-
+Before you get started, be sure that you have the required level of access to view and manage Activity Insights. To manage Activity Insights, you must have the [**Writer** service role or higher for {{site.data.keyword.security-advisor_short}} and Virtual Private Cloud](/docs/security-compliance?topic=security-compliance-access-management). You must also have [an instance of VPC](https://{DomainName}/vpc-ext/provision/vpc).
 
 
 ## Connecting to Cloud Object Storage
@@ -101,10 +98,10 @@ You must have a service-to-service authorization policy between VPC and the same
 Now that you've connected your Cloud Object Storage bucket and verified that your flow logs are being stored correctly, you can enable Network Insights to start analyzing them.
 
 
-1. In the {{site.data.keyword.cloud_notm}} console, navigate to **Security and compliance > Integrations > Built-in insights**.
+1. In the {{site.data.keyword.cloud_notm}} console, navigate to **Security Compliance > Gain insight > Configure > Built-in insights**.
 2. Toggle Network Insights to **On**.
 
-As results come in, you can see any flagged issues on the **Insights** or **Detailed findings** pages of the UI.
+As results come in, you can see any flagged issues on the **Insights** or **Findings** pages of the UI.
 
 
 Now that you've configured Network Insights to analyze your flow logs, set up alerts so that you can be notified if an issue is found. [Learn more](/docs/security-compliance?topic=security-compliance-notifications).

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-26"
+lastupdated: "2021-08-23"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -48,7 +48,7 @@ content-type: troubleshoot
 
 # Why don't I see any evaluation results?
 
-You don't see any evaluation results after you create a rule. 
+You don't see any evaluation results after you create a [rule](/docs/security-compliance?topic=security-compliance-rules-define). 
 {:shortdesc}
 
 {: #ts-enforce}
@@ -68,6 +68,6 @@ You might not be able to view results for the following reasons:
 Depending on the reason that the results page is empty, you might try one or more of the following options to resolve the issue.
 {: tsResolve}
 
-* Verify that your [rule](/docs/security-compliance?topic=security-compliance-rules#evaluate-rules-ui) is attached to a scope.
+* Verify that your [rule](/docs/security-compliance?topic=security-compliance-rules-apply) is attached to a scope.
 * Wait 24 hours for the next scan to run.
 

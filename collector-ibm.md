@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-29"
+lastupdated: "2021-08-23"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials, ibm managed collector, ibm managed
 
@@ -55,7 +55,8 @@ For the {{site.data.keyword.compliance_full}} to gather and validate information
 ## Before you begin
 {: #before-collector-ibm}
 
-Before you begin, be sure that you're using a Pay-As-You-Go or Subscription [{{site.data.keyword.cloud_notm}} account](/docs/account?topic=account-account-getting-started) where you are the owner or have [full **Administrator** access](/docs/account?topic=account-assign-access-resources). To create a collector, you must also have the **Administrator** role access to the {{site.data.keyword.compliance_short}}. Be sure that you also have access to the [credentials](/docs/security-compliance?topic=security-compliance-credentials) that your collector needs to gather your resource configurations.
+Before you get started, be sure that you have the required level of access to view and manage collectors. To administer collectors, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management)
+
 
 A managed collector can support up to 400 resources per customer. If your organization has more resources, you can always [manually create and install a collector](/docs/security-compliance?topic=security-compliance-collector-manual).
 {: note}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-12"
+lastupdated: "2021-08-23"
 
 keywords: scans, compliance, schedule scan, create scan, discovery, validation, fact collection, fact validation
 
@@ -68,7 +68,7 @@ Depending on what you're trying to accomplish, you might run different types of 
 ## Before you begin
 {: #before-scans}
 
-Before you get started, be sure that you have the required level of access to view and schedule scans. To schedule scans, you need the editor platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
+Before you get started, be sure that you have the required level of access to view and schedule scans. To schedule scans, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
 
 

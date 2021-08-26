@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2021
-lastupdated: "2021-07-22"
+lastupdated: "2021-08-23"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -68,6 +68,8 @@ Learn more about [{{site.data.keyword.registryshort}}](/docs/Registry?topic=Regi
 
 ### Before you begin
 {: #setup-before}
+
+Before you get started, be sure that you have the required level of access to view Security Insights. To view Security Insights, you must have the [**Viewer** service role or higher for {{site.data.keyword.security-advisor_short}}](/docs/security-compliance?topic=security-compliance-access-management).
 
 Before you can get started with registry, be sure that you have the following CLIs and plug-ins installed:
 * [The {{site.data.keyword.cloud_notm}} CLI)](/docs/cli/reference/ibmcloud?topic=cli-install-ibmcloud-cli)
