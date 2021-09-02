@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-08-24"
+lastupdated: "2021-09-02"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -50,6 +50,19 @@ subcollection: security-compliance
 Use these release notes to learn about the latest updates to {{site.data.keyword.compliance_full}} that are grouped by date.
 {:shortdesc}
 
+
+
+## 02 September 2021
+{: #2021-09-02}
+
+This release includes the following updates.
+
+### New goals
+{: #2021-09-02-goals}
+
+You might notice that your compliance score has changed even though you haven't updated any of your configurations. 1 new goal has been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All of the goals with ID's in the following ranges are new.
+
+* Goal ID's: `3000526` - `3000533`
 
 
 ## 18 August 2021
