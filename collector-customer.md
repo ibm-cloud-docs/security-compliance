@@ -56,7 +56,7 @@ For the {{site.data.keyword.compliance_full}} to gather and validate information
 ## Before you begin
 {: #before-collector}
 
-Before you get started, be sure that you have the required level of access to view and manage collectors. To administer collectors, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management)
+Before you get started, be sure that you have the required level of access to view and manage collectors. To administer collectors, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
 
 ### Verifying installation requirements
