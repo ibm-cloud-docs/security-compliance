@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-23"
+lastupdated: "2021-09-02"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials, ibm managed collector, ibm managed
 
@@ -60,6 +60,7 @@ Before you get started, be sure that you have the required level of access to vi
 
 A managed collector can support up to 400 resources per customer. If your organization has more resources, you can always [manually create and install a collector](/docs/security-compliance?topic=security-compliance-collector-manual).
 {: note}
+
 
 
 ## Creating a managed collector with the console
