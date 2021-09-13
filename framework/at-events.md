@@ -182,15 +182,6 @@ The following events are triggered by the Posture Management component of the {{
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| New action                                     | Previous action                                | Description     |
-| :----------------------------------------------| :----------------------------------------------| :---------------|
-| `compliance.posture-management-dashboard.view` | `compliance.posture-management.dashboard-view` | View the dashboard.     |
-{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
-{: #dashboard-events}
-{: tab-title="Dashboard"}
-{: tab-group="posture"}
-{: class="simple-tab-table"}
-
 | New action                                  | Previous action                             | Description     |
 | :-------------------------------------------| :-------------------------------------------| :---------------|
 | `compliance.posture-management-keys.read`   | `compliance.posture-management.keys-read`   | View your customer managed encryption configuration. |
