@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-31"
+lastupdated: "2021-09-13"
 
 keywords: data encryption in {{site.data.keyword.compliance_short}}, data storage for {{site.data.keyword.compliance_short}}, bring your own keys for {{site.data.keyword.compliance_short}}, BYOK for {{site.data.keyword.compliance_short}}, key management for {{site.data.keyword.compliance_short}}, key encryption for {{site.data.keyword.compliance_short}}, personal data in {{site.data.keyword.compliance_short}}, data deletion for {{site.data.keyword.compliance_short}}, data in {{site.data.keyword.compliance_short}}, data security in {{site.data.keyword.compliance_short}}
 
@@ -81,8 +81,8 @@ When you change your location, all of the configurations in your current locatio
 
 You can change the location in which your data is stored and processed by using the {{site.data.keyword.compliance_short}} UI.
 
-1. Go to **Security and Compliance Center > Data Settings**.
-2. In the **Storage and Processing** section, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg).
+1. Go to **Security and Compliance Center > Global Settings**.
+2. In the **Data > Location** section, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg).
 3. Select the location that you want to use.
 
   The United Kingdom location is available only for Security Insights. To work with the other {{site.data.keyword.compliance_short}} components, you must use another location.
@@ -208,8 +208,8 @@ If you choose to work with a key that you manage, you must ensure that valid IAM
 
     After you create an authorization between your key management service and {{site.data.keyword.compliance_short}}, you can integrate it by using {{site.data.keyword.compliance_short}}. To update your encryption settings:
 
-    1. Go to **Security and Compliance Center > Data settings**.
-    2. In the **Encryption** section, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg) to manage your encryption settings.
+    1. Go to **Security and Compliance Center > Global settings**.
+    2. In the **Data > Encryption** section, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg) to manage your encryption settings.
     3. Select the service instance and root key that you want to use to protect your data.
     4. Choose the type of {{site.data.keyword.compliance_short}} results that you want to encrypt with your selected key by toggling either **Compliance scans**, **Security insights**, or both to **On**.
     5. To return to IBM-managed encryption, use the toggle to turn customer-managed encryption **Off**.
