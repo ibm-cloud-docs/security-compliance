@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2021
-lastupdated: "2021-09-08"
+lastupdated: "2021-09-13"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -178,7 +178,7 @@ The following events are triggered by the Posture Management component of the {{
 | `compliance.posture-management-inventory.delete` | `compliance.posture-management.inventory-delete` | Delete an inventory.  |
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #tags-events}
-{: tab-title="Tags"}
+{: tab-title="Inventory"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
