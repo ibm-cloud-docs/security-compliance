@@ -24,7 +24,13 @@ Security and Compliance Center
     {: .topicgroup}
     Setting up monitoring
         posture-what-is.md
-        credentials.md
+
+        {: .topicgroup}
+        Granting access to your resources
+            credentials-permissions.md
+            credentials-manage.md
+            credentials-mapping.md
+            credentials-security.md
         
         {: .topicgroup}
         Discovering resources and configurations

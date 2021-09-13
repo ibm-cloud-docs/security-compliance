@@ -193,7 +193,7 @@ When you work with {{site.data.keyword.compliance_short}} data, there are a few 
 
 In {{site.data.keyword.keymanagementserviceshort}}, you can assign various levels of access to limit the number of people who have access to your keys. You can also update the access later if a need to tighten security around your data occurs.
 
-Need to know if changes to your keys occur? You can use [Activity Insights](/docs/security-advisor?topic=security-advisor-setup-activity) to continuously monitor your keys and be [alerted](/docs/security-advisor?topic=security-advisor-notifications) if any change is detected.
+Need to know if changes to your keys occur? You can use [Activity Insights](/docs/security-compliance?topic=security-compliance-setup-activity) to continuously monitor your keys and be [alerted](/docs/security-compliance?topic=security-compliance-notifications) if any change is detected.
 {: tip}
 
 ### About customer-managed keys
@@ -228,7 +228,7 @@ If you choose to work with a key that you manage, you must ensure that valid IAM
     4. Assign the Reader role.
     5. Click **Authorize** to confirm the authorization.
 
-    If you're enabling customer-managed keys for Security Insights, be sure that you also have the [required permissions](/docs/security-advisor?topic=security-advisor-service-access) to work with {{site.data.keyword.security-advisor_short}}.
+    If you're enabling customer-managed keys for Security Insights, be sure that you also have the [required permissions](/docs/security-compliance?topic=security-compliance-access-management#insights-roles) to work with {{site.data.keyword.security-advisor_short}}.
     {: note}
 
 4. Enable the integration in the {{site.data.keyword.compliance_short}}.
