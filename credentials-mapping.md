@@ -108,13 +108,14 @@ You can also choose to edit or delete an existing entry if you made a mistake or
     <tr>
       <td>Activity Tracker</td>
       <td><code>AT=service_key</code></td>
-    <tr>
+    </tr>
       <td>Virtual Private Cloud (VPC)</td>
       <td><code>VPC=testing-vpc</code></td>
     </tr>
     <tr>
       <td>Proxy IP</td>
       <td><code>IP=123.45.67.89</code></td>
+    </tr>  
   <table>
 
 8. Select a **Proxy**, if applicable.
