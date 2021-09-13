@@ -190,22 +190,23 @@ The following events are triggered by the Posture Management component of the {{
 | `compliance.posture-management-inventory.update` | `compliance.posture-management.inventory-update` | Update your inventory. |
 | `compliance.posture-management-inventory.delete` | `compliance.posture-management.inventory-delete` | Delete an inventory.  |
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
-{: #tags-events}
+{: #inventory-events}
 {: tab-title="Inventory"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
-| New action                                  | Previous action                             | Description     |
-| :-------------------------------------------| :-------------------------------------------| :---------------|
-| `compliance.posture-management-keys.read`   | `compliance.posture-management.keys-read`   | View your customer managed encryption configuration. |
-| `compliance.posture-management-keys.write`  | `compliance.posture-management.keys-write`  | Enable customer managed encryption configuration. |
-| `compliance.posture-management-keys.delete` | `compliance.posture-management.tags-delete` | Disable customer managed encryption configuration. |
-{: caption="Table 1. List of events that apply to admin settings" caption-side="top"}
-{: #keys-posture-events}
-{: tab-title="Keys"}
+
+
+| New action                                        | Previous action                                   | Description     |
+| :-------------------------------------------------| :-------------------------------------------------| :---------------|
+| `compliance.posture-management-remediation.list`   | `compliance.posture-management.remediation-list`   | List a remediation. |
+| `compliance.posture-management-remediation.update` | `compliance.posture-management.remediation-update` | Update a remediation. |
+| `compliance.posture-management-remediation.remediate` | `compliance.posture-management.remediation-remediate` | Trigger a remediation. |
+{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
+{: #remediation-events}
+{: tab-title="Remediation"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
-
 
 
 ## Events for Configuration Governance
@@ -270,6 +271,8 @@ The following events are triggered by the Configuration Governance component of 
 {: tab-title="Eval"}
 {: tab-group="config"}
 {: class="simple-tab-table"}
+
+
 
 
 ## Events for Security Insights
