@@ -66,7 +66,8 @@ The following events are triggered by the Posture Management component of the {{
 | `compliance.posture-management-credentials.create`    | `compliance.posture-management.credentials-create`    | Create a credential. |
 | `compliance.posture-management-credentials.update`    | `compliance.posture-management.credentials-update`    | Update an existing credential. |
 | `compliance.posture-management-credentials.delete`    | `compliance.posture-management.credentials-delete`    | Delete a credential. |
-| `compliance.posture-management-credentialsmap.read`   | `compliance.posture-management.credentialsmap-read`   | View mappings between credentials and scopes.|
+| `compliance.posture-management-credentialsmap.list`   | `compliance.posture-management.credentialsmap-list`   | View the available mappings between credentials and scopes.|
+| `compliance.posture-management-credentialsmap.read`   | `compliance.posture-management.credentialsmap-read`   | View the details of a specific credential and scope mapping. |
 | `compliance.posture-management-credentialsmap.create` | `compliance.posture-management.credentialsmap-create` | Map credentials to a scope. |
 | `compliance.posture-management-credentialsmap.update` | `compliance.posture-management.credentialsmap-update` | Update an existing mapping between a credential and a scope. |
 | `compliance.posture-management-credentialsmap.delete` | `compliance.posture-management.credentialsmap-delete` | Delete a mapping. |
@@ -78,7 +79,8 @@ The following events are triggered by the Posture Management component of the {{
 
 | New action                                        | Previous action                                   | Description     |
 | :-------------------------------------------------| :-------------------------------------------------| :---------------|
-| `compliance.posture-management-collectors.list`   | `compliance.posture-management.collectors-read`   | View collectors.              |
+| `compliance.posture-management-collectors.list`   | `compliance.posture-management.collectors-list`   | View collectors.              |
+| `compliance.posture-management-collectors.read`   | `compliance.posture-management.collectors-read`   | View the details of a specific collector.              |
 | `compliance.posture-management-collectors.create` | `compliance.posture-management.collectors-create` | Create a collector.           |
 | `compliance.posture-management-collectors.update` | `compliance.posture-management.collectors-update` | Update an existing collector. |
 | `compliance.posture-management-collectors.delete` | `compliance.posture-management.collectors-delete` | Delete a collector.           |
@@ -126,12 +128,23 @@ The following events are triggered by the Posture Management component of the {{
 
 | New action                                    | Previous action                               | Description     |
 | :---------------------------------------------| :---------------------------------------------| :---------------|
+| `compliance.posture-management-goals.list`   | `compliance.posture-management.goals-list`   | List all of the available goals. |
+| `compliance.posture-management-goals.read`   | `compliance.posture-management.goals-read`   | View the details of a specific goal. |
+{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
+{: #goals-events}
+{: tab-title="Goals"}
+{: tab-group="posture"}
+{: class="simple-tab-table"}
+
+
+| New action                                    | Previous action                               | Description     |
+| :---------------------------------------------| :---------------------------------------------| :---------------|
 | `compliance.posture-management-values.list`   | `compliance.posture-management.values-list`   | List the parameters that can be set for a goal. |
 | `compliance.posture-management-values.read`   | `compliance.posture-management.values-read`   | View the value for a goal parameter. |
 | `compliance.posture-management-values.update` | `compliance.posture-management.values-update` | Update the parameters of an existing goal.           |
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #goals-events}
-{: tab-title="Goals"}
+{: tab-title="Goal parameters"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
@@ -159,7 +172,7 @@ The following events are triggered by the Posture Management component of the {{
 
 | New action                                  | Previous action                             | Description     |
 | :-------------------------------------------| :-------------------------------------------| :---------------|
-| `compliance.posture-management-tags.list`   | `compliance.posture-management.tags-read`   | View tags.              |
+| `compliance.posture-management-tags.list`   | `compliance.posture-management.tags-list`   | View tags.              |
 | `compliance.posture-management-tags.create` | `compliance.posture-management.tags-create` | Create a tag.           |
 | `compliance.posture-management-tags.update` | `compliance.posture-management.tags-update` | Update an existing tag. |
 | `compliance.posture-management-tags.delete` | `compliance.posture-management.tags-delete` | Delete a tag.           |
@@ -171,7 +184,7 @@ The following events are triggered by the Posture Management component of the {{
 
 | New action                                  | Previous action                             | Description     |
 | :-------------------------------------------| :-------------------------------------------| :---------------|
-| `compliance.posture-management-inventory.list`   | `compliance.posture-management.inventory-read`   | View your available inventory across all of your environments. |
+| `compliance.posture-management-inventory.list`   | `compliance.posture-management.inventory-list`   | View your available inventory across all of your environments. |
 | `compliance.posture-management-inventory.read`   | `compliance.posture-management.inventory-read`   | View the details of a specific environment's inventory. |
 | `compliance.posture-management-inventory.create` | `compliance.posture-management.inventory-create` | Discover your inventory. |
 | `compliance.posture-management-inventory.update` | `compliance.posture-management.inventory-update` | Update your inventory. |
@@ -185,9 +198,9 @@ The following events are triggered by the Posture Management component of the {{
 | New action                                  | Previous action                             | Description     |
 | :-------------------------------------------| :-------------------------------------------| :---------------|
 | `compliance.posture-management-keys.read`   | `compliance.posture-management.keys-read`   | View your customer managed encryption configuration. |
-| `compliance.posture-management-keys-write`  | `compliance.posture-management.keys-write`  | Enable customer managed encryption configuration. |
+| `compliance.posture-management-keys.write`  | `compliance.posture-management.keys-write`  | Enable customer managed encryption configuration. |
 | `compliance.posture-management-keys.delete` | `compliance.posture-management.tags-delete` | Disable customer managed encryption configuration. |
-{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
+{: caption="Table 1. List of events that apply to admin settings" caption-side="top"}
 {: #keys-posture-events}
 {: tab-title="Keys"}
 {: tab-group="posture"}
@@ -375,8 +388,6 @@ The following events are triggered by the Admin API calls for the {{site.data.ke
 | `compliance.admin-settings.list`   | `compliance.admin-settings.read`    | View {{site.data.keyword.compliance_short}} settings for your account. |
 | `compliance.admin-settings.update` | `compliance.admin.settings.update`  | Update {{site.data.keyword.compliance_short}} settings for your account. |
 {: caption="Table 4. List of events that apply to admin settings" caption-side="top"}
-
-
 
 
 ## Viewing events
