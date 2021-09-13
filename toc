@@ -126,6 +126,7 @@ Security and Compliance Center
         security-checks/ai-rules.md
         security-checks/ni-findings.md
         security-checks/default-goals.md
+        security-checks/scc-properties.md
 
     {: .topicgroup}
     Related links
