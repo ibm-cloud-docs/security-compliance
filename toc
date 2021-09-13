@@ -6,8 +6,7 @@ Security and Compliance Center
 
     {: .navgroup id="learn"}
     getting-started.md
-    
-    overview.md
+        
     releases.md
     {: .navgroup-end}
 
