@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-13"
+lastupdated: "2021-09-14"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials, ibm managed collector, ibm managed
 
@@ -75,7 +75,7 @@ Depending on your location, be sure to allow access to the following IP addresse
 | European Union | `158.177.77.112/28`, `159.122.112.96/27`, `161.156.11.32/27`, `161.156.18.0/28`, `149.81.148.224/28`, `149.81.181.224/27`, `149.81.131.192/28`, `158.177.244.192/28`, `161.156.178.96/28` |
 {: caption="Table 1. IP addresses for IBM managed collectors" caption-side="top"}
 
-To learn more about updating your IP address settings, see [Allowing specific IP addresses for an account](/docs/account?topic=account-ips&interface=ui#ips_account).
+To learn more about updating your IP address settings, see [Allowing specific IP addresses for an account](/docs/account?topic=account-ips#ips_account).
 
 
 ## Creating a managed collector with the console

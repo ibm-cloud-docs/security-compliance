@@ -142,6 +142,7 @@ Security and Compliance Center
     {: .topicgroup}
     Troubleshooting
         troubleshooting/ts-contact.md
+        troubleshooting/ts-ip-address.md
         troubleshooting/ts-results.md
         troubleshooting/ts-deleted-results.md
         troubleshooting/ts-score.md
