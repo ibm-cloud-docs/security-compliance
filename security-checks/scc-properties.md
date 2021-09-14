@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-09"
+lastupdated: "2021-09-14"
 
 keywords: config rules, config properties, scc integrated services, 
 
@@ -62,8 +62,8 @@ Review the following table to learn more about the resource kinds, properties, a
 
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
-| account-trait | eu_supported | undefined | A boolean indicating whether the account has the eu_supported flag enabled |
-| account-trait | hipaa_accepted | undefined | A boolean indicating whether the account has the hipaa_accepted flag enabled |
+| account-trait | eu_supported | boolean | A boolean indicating whether the account has the eu_supported flag enabled |
+| account-trait | hipaa_accepted | boolean | A boolean indicating whether the account has the hipaa_accepted flag enabled |
 {: caption="Table 1. Rule properties that are available for the Billing platform component" caption-side="bottom"}
 
 ## Cloud Object Storage
@@ -100,8 +100,8 @@ Rules for the Certificate Manager service can be monitored but are not enforceab
 
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
-| instance | private_network_only | undefined | A boolean that indicates whether access to an instance is enabled only through a private network. |
-| certificate | days_to_expiration | undefined | Number of days until expiration. |
+| instance | private_network_only | boolean | A boolean that indicates whether access to an instance is enabled only through a private network. |
+| certificate | days_to_expiration | numeric | Number of days until expiration. |
 {: caption="Table 3. Rule properties that are available for Certificate Manager" caption-side="bottom"}
 
 ## IBM Cloud Shell
@@ -227,9 +227,9 @@ Review the following table to learn more about the resource kinds, properties, a
 
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
-| instance | public_network_enabled | undefined | A boolean indicating whether the public network is enabled |
-| instance | private_network_enabled | undefined | A boolean indicating whether the private network is enabled |
-| instance | private_access_allowlist | undefined | List of IPs where private network can be utilized |
+| instance | public_network_enabled | boolean | A boolean indicating whether the public network is enabled |
+| instance | private_network_enabled | boolean | A boolean indicating whether the private network is enabled |
+| instance | private_access_allowlist | string_list | List of IPs where private network can be utilized |
 {: caption="Table 13. Rule properties that are available for Event Streams" caption-side="bottom"}
 
 
