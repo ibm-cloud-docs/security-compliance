@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-25"
+lastupdated: "2021-09-14"
 
 keywords: profiles, user-defined, predefined profiles, controls, goals, nist, best practices, security, compliance
 
@@ -50,6 +50,9 @@ subcollection: security-compliance
 
 A profile is a collection of related controls. After you gather the configuration information of your resources and ready your accounts for monitoring, you can create profiles to define the list of controls that you'd like to validate against.
 {: shortdesc} 
+
+Running a scan against a specific profile does not ensure regulatory compliance. The scan is intended to provide a point in time statement of your current posture for a specific group of resources.
+{: important}
 
 Profiles consist of several interrelated components, including controls and goals. Learn how profiles bring these components together to help you templatize the requirements that you want to monitor for across an environment.
 
