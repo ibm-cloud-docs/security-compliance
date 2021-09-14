@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-08-23"
+lastupdated: "2021-09-14"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection, alerts, callback URL, compliance, standards, roles, notification channel, verify payload, public key
 
@@ -88,15 +88,15 @@ You can create up to 15 channels.
     </tr>
     <tr>
       <td>Built-in Insights</td>
-      <td>You can continuously monitor and analyze your {{site.data.keyword.cloud_notm}} resources and apps for risks that can impact your environment. Potential sources include: [Vulnerability Advisor](/docs/security-advisor?topic=security-advisor-setup-services), [Certificate Manager](/docs/security-advisor?topic=security-advisor-setup-services), [Network Insights](/docs/security-advisor?topic=security-advisor-setup-network), and [Activity Insights](/docs/security-advisor?topic=security-advisor-setup-activity).</td>
+      <td>You can continuously monitor and analyze your {{site.data.keyword.cloud_notm}} resources and apps for risks that can impact your environment. Potential sources include: [Vulnerability Advisor](/docs/security-compliance?topic=security-compliance-setup-services#setup-images), [Certificate Manager](/docs/security-compliance?topic=security-compliance-setup-services#setup-certificates), [Network Insights](/docs/security-compliance?topic=security-compliance-setup-network), and [Activity Insights](/docs/security-compliance?topic=security-compliance-setup-activity).</td>
     </tr>
     <tr>
       <td>Business partners</td>
-      <td>You can manage all of your security notifications in one place by connecting your instance of one of IBM business partners to the {{site.data.keyword.compliance_short}}. Current business partners include: [Caveonix](/docs/security-advisor?topic=security-advisor-setup-caveonix), [Nuevector](/docs/security-advisor?topic=security-advisor-setup-neuvector), and [Twistlock](/docs/security-advisor?topic=security-advisor-setup-twistlock).</td>
+      <td>You can manage all of your security notifications in one place by connecting your instance of one of IBM business partners to the {{site.data.keyword.compliance_short}}. Current business partners include: [Caveonix](/docs/security-compliance?topic=security-compliance-setup-caveonix), [Nuevector](/docs/security-compliance?topic=security-compliance-setup-neuvector), and [Twistlock](/docs/security-compliance?topic=security-compliance-setup-twistlock).</td>
     </tr>
     <tr>
       <td>Custom</td>
-      <td>You can connect a custom or proprietary security tool that your organization already works with in order to configure and manage alerts in one place. [Learn more](/docs/security-advisor?topic=security-advisor-setup_custom).</td>
+      <td>You can connect a custom or proprietary security tool that your organization already works with in order to configure and manage alerts in one place. [Learn more](/docs/security-compliance?topic=security-compliance-setup_custom).</td>
     </tr>
   </table>
 
@@ -250,7 +250,7 @@ You can create up to 15 channels.
   ```
   {: codeblock}
 
-To edit your channel configuration, you can make an API call to the [`/update endpoint`](https://cloud.ibm.com/apidocs/security-advisor/alerts#update-a-channel){: external}.
+To edit your channel configuration, you can make an API call to the [`/update endpoint`](https://{DomainName}/apidocs/security-compliance/si-notifications?code=python#updatenotificationchannel){: external}.
 {: tip}
 
 

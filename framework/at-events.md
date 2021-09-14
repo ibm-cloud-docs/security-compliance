@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2021
-lastupdated: "2021-09-13"
+lastupdated: "2021-09-14"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -143,7 +143,7 @@ The following events are triggered by the Posture Management component of the {{
 | `compliance.posture-management-values.read`   | `compliance.posture-management.values-read`   | View the value for a goal parameter. |
 | `compliance.posture-management-values.update` | `compliance.posture-management.values-update` | Update the parameters of an existing goal.           |
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
-{: #goals-events}
+{: #parameter-events}
 {: tab-title="Goal parameters"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
