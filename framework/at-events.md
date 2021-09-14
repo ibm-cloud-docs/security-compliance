@@ -196,7 +196,6 @@ The following events are triggered by the Posture Management component of the {{
 {: class="simple-tab-table"}
 
 
-
 | New action                                        | Previous action                                   | Description     |
 | :-------------------------------------------------| :-------------------------------------------------| :---------------|
 | `compliance.posture-management-remediation.list`   | `compliance.posture-management.remediation-list`   | List a remediation. |
@@ -205,6 +204,17 @@ The following events are triggered by the Posture Management component of the {{
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #remediation-events}
 {: tab-title="Remediation"}
+{: tab-group="posture"}
+{: class="simple-tab-table"}
+
+| New action                                  | Previous action                             | Description     |
+| :-------------------------------------------| :-------------------------------------------| :---------------|
+| `compliance.posture-management-keys.read`   | `compliance.posture-management.keys-read`   | View your customer managed encryption configuration. |
+| `compliance.posture-management-keys-write`  | `compliance.posture-management.keys-write`  | Enable customer managed encryption configuration. |
+| `compliance.posture-management-keys.delete` | `compliance.posture-management.tags-delete` | Disable customer managed encryption configuration. |
+{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
+{: #keys-posture-events}
+{: tab-title="Keys"}
 {: tab-group="posture"}
 {: class="simple-tab-table"}
 
