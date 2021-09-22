@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-09-14"
+lastupdated: "2021-09-22"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection, alerts, callback URL, compliance, standards, roles, notification channel, verify payload, public key
 
@@ -80,33 +80,20 @@ You can create up to 15 channels.
 4. Provide a name and meaningful description for your channel.
 5. To configure the threshold for alerts, select the severity of the notifications that you want to be alerted for. Severity choices include *critical*, *high*, *medium*, and *low*. Optionally, select the source of the findings that you want to receive alerts for. Check out the following table for more information about the available sources.
 
-  <table>
-    <caption>Table 1. Alert sources</caption>
-    <tr>
-      <th>Source</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td>Built-in Insights</td>
-      <td>You can continuously monitor and analyze your {{site.data.keyword.cloud_notm}} resources and apps for risks that can impact your environment. Potential sources include: [Vulnerability Advisor](/docs/security-compliance?topic=security-compliance-setup-services#setup-images), [Certificate Manager](/docs/security-compliance?topic=security-compliance-setup-services#setup-certificates), [Network Insights](/docs/security-compliance?topic=security-compliance-setup-network), and [Activity Insights](/docs/security-compliance?topic=security-compliance-setup-activity).</td>
-    </tr>
-    <tr>
-      <td>Business partners</td>
-      <td>You can manage all of your security notifications in one place by connecting your instance of one of IBM business partners to the {{site.data.keyword.compliance_short}}. Current business partners include: [Caveonix](/docs/security-compliance?topic=security-compliance-setup-caveonix), [Nuevector](/docs/security-compliance?topic=security-compliance-setup-neuvector), and [Twistlock](/docs/security-compliance?topic=security-compliance-setup-twistlock).</td>
-    </tr>
-    <tr>
-      <td>Custom</td>
-      <td>You can connect a custom or proprietary security tool that your organization already works with in order to configure and manage alerts in one place. [Learn more](/docs/security-compliance?topic=security-compliance-setup_custom).</td>
-    </tr>
-  </table>
+   | Source | Description |
+   | --------- | ----------- |
+   | Built-in Insights | You can continuously monitor and analyze your {{site.data.keyword.cloud_notm}} resources and apps for risks that can impact your environment. Potential sources include: [Vulnerability Advisor](/docs/security-compliance?topic=security-compliance-setup-services#setup-images), [Certificate Manager](/docs/security-compliance?topic=security-compliance-setup-services#setup-certificates), [Network Insights](/docs/security-compliance?topic=security-compliance-setup-network), and [Activity Insights](/docs/security-compliance?topic=security-compliance-setup-activity). |
+   | Business partners | You can manage all of your security notifications in one place by connecting your instance of one of IBM business partners to the {{site.data.keyword.compliance_short}}. Current business partners include: [Caveonix](/docs/security-compliance?topic=security-compliance-setup-caveonix), [Nuevector](/docs/security-compliance?topic=security-compliance-setup-neuvector), and [Twistlock](/docs/security-compliance?topic=security-compliance-setup-twistlock). |
+   | Custom | You can connect a custom or proprietary security tool that your organization already works with in order to configure and manage alerts in one place. [Learn more](/docs/security-compliance?topic=security-compliance-setup_custom). |
+   {: caption="Table 1. Alert sources" caption-side="top"}
 
-  As an example, if you wanted to configure alerts for your [network flow logs](/docs/vpc?topic=vpc-flow-logs), you would select Network Insights as your source and then create a threshold for the alerts that you receive by selecting a severity.
-  {: tip}
+   As an example, if you wanted to configure alerts for your [network flow logs](/docs/vpc?topic=vpc-flow-logs), you would select Network Insights as your source and then create a threshold for the alerts that you receive by selecting a severity.
+   {: tip}
 
 6. Click **Next**.
 7. Enter the callback endpoint where you want to receive the alerts.
 
-  Your callback URL endpoint must [1] Use the HTTPS protocol. [2] Not require HTTP headers - including authorization headers. [3] Return a `200 OK` status code to indicate that the alert is successfully delivered.
+   Your callback URL endpoint must [1] Use the HTTPS protocol. [2] Not require HTTP headers - including authorization headers. [3] Return a `200 OK` status code to indicate that the alert is successfully delivered.
 
 8. Click **Create**. Your channel is listed in the **Alerts** table.
 9. Verify that your channel is configured correctly by selecting **Test connection** in the overflow menu. A test alert is sent to your endpoint. Be sure to remove any alerts that are sent by *Security Advisor Notification Test* after you've completed your testing.
@@ -126,129 +113,89 @@ You can create up to 15 channels.
 
 1. Obtain an IAM bearer token by using the following steps. For more information, see the [IAM documentation](/docs/account?topic=account-access-getstarted).
 
-  1. In the {{site.data.keyword.cloud_notm}} dashboard, click **Manage > Access (IAM)**.
-  2. Select **{{site.data.keyword.cloud_notm}} API keys**.
-  3. Click **Create an {{site.data.keyword.cloud_notm}} API key**
-  4. Give your key a name and describe it. Click **Create**. A screen opens with your key.
-  5. Click **Copy** or **Download** your key. When you close the screen, you can no longer access the key.
-  6. Make the following cURL request with the API key that you created.
+   1. In the {{site.data.keyword.cloud_notm}} dashboard, click **Manage > Access (IAM)**.
+   2. Select **{{site.data.keyword.cloud_notm}} API keys**.
+   3. Click **Create an {{site.data.keyword.cloud_notm}} API key**
+   4. Give your key a name and describe it. Click **Create**. A screen opens with your key.
+   5. Click **Copy** or **Download** your key. When you close the screen, you can no longer access the key.
+   6. Make the following cURL request with the API key that you created.
 
-    ```
-    curl -k -X POST \
+      ```
+      curl -k -X POST \
       --header "Content-Type: application/x-www-form-urlencoded" \
       --header "Accept: application/json" \
       --data-urlencode "grant_type=urn:ibm:params:oauth:grant-type:apikey" \
       --data-urlencode "apikey={apikey}" \
       "https://iam.cloud.ibm.com/identity/token"
-    ```
-    {: codeblock}
+      ```
+      {: codeblock}
 
 2. Run the following cURL command.
 
-  ```
-  curl -x POST "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{account_id}/alerts/channels"
-  -H "accept: application/json"
-  -H "Authorization: Bearer <IAM_Token>"
-  -d {
-    "name": "test-notification-channel",
-    "description": "test-notification",
-    "type": "Webhook",
-    "endpoint": "<Endpoint>"
-    "enabled": true
-    "severity": ["low"]
-    "alertSource": [
+   ```
+   curl -x POST "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{account_id}/alerts/channels"
+   -H "accept: application/json"
+   -H "Authorization: Bearer <IAM_Token>"
+   -d {
+      "name": "test-notification-channel",
+      "description": "test-notification",
+      "type": "Webhook",
+      "endpoint": "<Endpoint>"
+      "enabled": true
+      "severity": ["low"]
+      "alertSource": [
       {
-        "provider_name": "ALL",
-        "finding_types": ["ALL"]
+         "provider_name": "ALL",
+         "finding_types": ["ALL"]
       }
-    ]
-  }
-  ```
-  {: code}
+      ]
+   }
+   ```
+   {: code}
 
-  <table>
-    <caption>Table 2. Configuring alerts with the API</caption>
-    <tr>
-      <th>Variable</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td>Name</td>
-      <td>The name of the channel.</td>
-    </tr>
-    <tr>
-      <td>Description</td>
-      <td>Describe what the channel is used for. For example: <i>This channel sends high severity alerts as they happen.</i></td>
-    </tr>
-    <tr>
-      <td>Type</td>
-      <td>Current options include <code>Webhook</code>.</td>
-    </tr>
-    <tr>
-      <td>Channel endpoint</td>
-      <td>The location where you want to be notified. Examples include a valid callback URL.</td>
-    </tr>
-    <tr>
-      <td>Severity</td>
-      <td>The level of severity for the notification received. Options include: <code>low</code>, <code>medium</code>, <code>high</code> and <code>critical</code>. By default, <code>medium</code>, <code>high</code> and <code>critical</code> are turned on.</td>
-    </tr>
-    <tr>
-      <td>Provider</td>
-      <td>The source and type of the finding that is received. <code>provider_name</code> is the ID of any provider in the account. If you're not sure which providers are available in your account, you can query the providers API: <code>/findings/v1/{accountId}/providers</code>. <code>finding_types</code> is the list of valid finding types for the provider name. If you're not sure which notes are available for each provider in your account, you can query the notes API: <code>/findings/v1/{account_id}/providers/{provider_id}/notes</code>. The <code>ALL</code> option can be specified for the <code>finding_types</code> which means that all notes for that provider are selected. There are 4 built-in providers in addition to custom alert source providers. For more information about the 4 providers and the supported finding types for each, review the following table.</td>
-    </tr>
-  </table>
+   | Variable | Description | 
+   |:-----------------|:-----------------|
+   | Name | The name of the channel. |
+   | Description | Describe what the channel is used for. For example: *This channel sends high severity alerts as they happen.* |
+   | Type | Current options include `Webhook`. |
+   | Channel endpoint | The location where you want to be notified. Examples include a valid callback URL. |
+   | Severity | The level of severity for the notification received. Options include: `low`, `medium`, `high` and `critical`. By default, `medium`, `high` and `critical` are turned on. |
+   | Provider | The source and type of the finding that is received. `provider_name` is the ID of any provider in the account. If you're not sure which providers are available in your account, you can query the providers API: `/findings/v1/{accountId}/providers`. `finding_types` is the list of valid finding types for the provider name. If you're not sure which notes are available for each provider in your account, you can query the notes API: `/findings/v1/{account_id}/providers/{provider_id}/notes`. The `ALL` option can be specified for the `finding_types` which means that all notes for that provider are selected. There are 4 built-in providers in addition to custom alert source providers. For more information about the 4 providers and the supported finding types for each, review the following table. |
+   {: class="simple-tab-table"}
+   {: caption="Table 2. Configuring alerts with the API" caption-side="top"}
+   {: #api-variables}
+   {: tab-title="API variables"}
+   {: tab-group="notifications"}
 
-  <table>
-    <caption>Table 3. Built-in providers and supported finding types</caption>
-    <tr>
-      <th>provider_name</th>
-      <th>Supported finding types</th>
-    </tr>
-    <tr>
-      <td>VA</td>
-      <td><code>image_with_vulnerabilities</code>, <code>image_with_config_issues</code></td>
-    </tr>
-    <tr>
-      <td>NA</td>
-      <td><code>anonym_server</code>, <code>malware_server</code>, <code>bot_server</code>, <code>miner_server</code>, <code>server_suspected_ratio</code>, <code>server_response</code>, <code>data_extrusion</code>, <code>server_weaponized_total</code></td>
-    </tr>
-    <tr>
-      <td>ATA</td>
-      <td><code>appid</code>, <code>cos</code>, <code>iks</code>, <code>iam</code>, <code>kms</code>, <code>cert</code>, <code>account</code>, <code>app</code></td>
-    </tr>
-    <tr>
-      <td>CERT</td>
-      <td><code>expired_cert</code>, <code>expiring_1day_cert</code>, <code>expiring_10day_cert</code>, <code>expiring_30day_cert</code>, <code>expiring_60day_cert</code>, <code>expiring_90day_cert</code></td>
-    </tr>
-    <tr>
-      <td>config-advisor</td>
-      <td><code>appprotection-dns_not_proxied</code>, <code>appprotection-dnssec_off</code>, <code>appprotection-ssl_not_strict</code>, <code>appprotection-tls_min_version</code>, <code>appprotection-waf_off</code>, <code>appprotection-waf_rules</code>, <code>calico-deny_all_rule</code>, <code>calico-nonstandard_ports</code>, <code>calico-update_cis_allow list</code>, <code>datacos-cos_managers</code>, <code>datacos-not_encrypted_via_kp</code>, <code>datacos-not_in_private_network</code>, <code>datacos-public_bucket_acl</code>, <code>datacos-public_bucket_iam</code>, <code>datacos-public_object_acl</code>, <code>iam-account_admins</code>, <code>iam-all_resource_managers</code>, <code>iam-all_resource_readers</code>, <code>iam-identity_admins</code>, <code>iam-kms_managers</code>, <code>iam-out_of_group</code></td>
-    </tr>
-    <tr>
-      <td>ALL</td>
-      <td><code>ALL</code></td>
-    </tr>
-   </table>
+   | Provider name | Supported finding types | 
+   |:-----------------|:-----------------|
+   | `VA` | `image_with_vulnerabilities`, `image_with_config_issues` |
+   | `NA` | `anonym_server`, `malware_server`, `bot_server`, `miner_server`, `server_suspected_ratio`, `server_response`, `data_extrusion`, `server_weaponized_total` |
+   | `ATA` | `appid`, `cos`, `iks`, `iam`, `kms`, `cert`, `account`, `app` |
+   | `CERT` | `expired_cert`, `expiring_1day_cert`, `expiring_10day_cert`, `expiring_30day_cert`, `expiring_60day_cert`, `expiring_90day_cert` |
+   | ALL |  If `ALL` is specified as the `provider_name`, then a specific value can't be provided for `finding_types`. In this case, you can omit `finding_types` or specify `ALL`. |
+   {: class="simple-tab-table"}
+   {: caption="Table 2. Built-in providers and supported finding types" caption-side="top"}
+   {: #finding-types}
+   {: tab-title="Finding types"}
+   {: tab-group="notifications"}
 
-   `ALL` can be selected as the `provider_name`, which includes all providers and finding types. If `ALL` is specified as the `provider_name`, then a specific value can't be provided for `finding_types`. In this case, you can omit `finding_types` or specify `ALL`.
-   {: tip}
+   Example response:
 
-  Example response:
-
-  ```
-  {
-    "channel_id": "323fc870-78992-8ffa-97572ffe0205",
-    "statusCode": 200
-  }
-  ```
-  {: screen}
+   ```
+   {
+      "channel_id": "323fc870-78992-8ffa-97572ffe0205",
+      "statusCode": 200
+   }
+   ```
+   {: screen}
 
 3. Test your connection.
 
-  ```
-  curl -X GET "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{ACCOUNT_ID}/test/notification/channel/{CHANNEL_ID}" -H "accept: application/json" -H "Authorization: {IAM_BEARER_TOKEN}"
-  ```
-  {: codeblock}
+   ```
+   curl -X GET "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{ACCOUNT_ID}/test/notification/channel/{CHANNEL_ID}" -H "accept: application/json" -H "Authorization: {IAM_BEARER_TOKEN}"
+   ```
+   {: codeblock}
 
 To edit your channel configuration, you can make an API call to the [`/update endpoint`](https://{DomainName}/apidocs/security-compliance/si-notifications?code=python#updatenotificationchannel){: external}.
 {: tip}
@@ -363,29 +310,29 @@ You can obtain the public key by using the API.
 
 1. Obtain an IAM bearer token by using the following steps. For more information, see the [IAM documentation](/docs/account?topic=account-access-getstarted).
 
-  1. In the {{site.data.keyword.cloud_notm}} dashboard, click **Manage > Access (IAM)**.
-  2. Select **{{site.data.keyword.cloud_notm}} API keys**.
-  3. Click **Create an {{site.data.keyword.cloud_notm}} API key**
-  4. Give your key a name and describe it. Click **Create**. A screen opens with your key.
-  5. Click **Copy** or **Download** your key. When you close the screen, you can no longer access the key.
-  6. Make the following cURL request with the API key that you created.
+   1. In the {{site.data.keyword.cloud_notm}} dashboard, click **Manage > Access (IAM)**.
+   2. Select **{{site.data.keyword.cloud_notm}} API keys**.
+   3. Click **Create an {{site.data.keyword.cloud_notm}} API key**
+   4. Give your key a name and describe it. Click **Create**. A screen opens with your key.
+   5. Click **Copy** or **Download** your key. When you close the screen, you can no longer access the key.
+   6. Make the following cURL request with the API key that you created.
 
-    ```
-    curl -k -X POST \
+      ```
+      curl -k -X POST \
       --header "Content-Type: application/x-www-form-urlencoded" \
       --header "Accept: application/json" \
       --data-urlencode "grant_type=urn:ibm:params:oauth:grant-type:apikey" \
       --data-urlencode "apikey={apikey}" \
       "https://iam.cloud.ibm.com/identity/token"
-    ```
-    {: codeblock}
+      ```
+      {: codeblock}
 
 2. Download the public key.
 
-  ```
-  curl -X GET "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{Account_ID}/download_public_key" -H "accept: application/json" -H "Authorization: {IAM-token}"
-  ```
-  {: codeblock}
+   ```
+   curl -X GET "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{Account_ID}/download_public_key" -H "accept: application/json" -H "Authorization: {IAM-token}"
+   ```
+   {: codeblock}
 
 
 ### Decrypting your public key
@@ -440,34 +387,34 @@ Want to take a break from receiving alerts but don't want to delete your configu
 
 1. Obtain an IAM bearer token by using the following steps. For more information, see the [IAM documentation](/docs/account?topic=account-access-getstarted).
 
-  1. In the {{site.data.keyword.cloud_notm}} dashboard, click **Manage > Access (IAM)**.
-  2. Select **{{site.data.keyword.cloud_notm}} API keys**.
-  3. Click **Create an {{site.data.keyword.cloud_notm}} API key**
-  4. Give your key a name and describe it. Click **Create**. A screen opens with your key.
-  5. Click **Copy** or **Download** your key. When you close the screen, you can no longer access the key.
-  6. Make the following cURL request with the API key that you created.
+   1. In the {{site.data.keyword.cloud_notm}} dashboard, click **Manage > Access (IAM)**.
+   2. Select **{{site.data.keyword.cloud_notm}} API keys**.
+   3. Click **Create an {{site.data.keyword.cloud_notm}} API key**
+   4. Give your key a name and describe it. Click **Create**. A screen opens with your key.
+   5. Click **Copy** or **Download** your key. When you close the screen, you can no longer access the key.
+   6. Make the following cURL request with the API key that you created.
 
-    ```
-    curl -k -X POST \
+      ```
+      curl -k -X POST \
       --header "Content-Type: application/x-www-form-urlencoded" \
       --header "Accept: application/json" \
       --data-urlencode "grant_type=urn:ibm:params:oauth:grant-type:apikey" \
       --data-urlencode "apikey={apikey}" \
       "https://iam.cloud.ibm.com/identity/token"
-    ```
-    {: codeblock}
+      ```
+      {: codeblock}
 
 2. Obtain your channel ID.
 
-  ```
-  curl -X GET "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{ACCOUNT_ID}/alerts/channels" -H "accept: application/json" -H "Authorization: {IAM_BEARER_TOKEN}"
-  ```
-  {: codeblock}
+   ```
+   curl -X GET "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{ACCOUNT_ID}/alerts/channels" -H "accept: application/json" -H "Authorization: {IAM_BEARER_TOKEN}"
+   ```
+   {: codeblock}
 
 3. Delete the channel.
 
-  ```
-  curl -X DELETE "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{ACCOUNT_ID}/alerts/channels/{CHANNEL_ID}" -H "accept: application/json" -H "Authorization: {IAM_BEARER_TOKEN}"
-  ```
-  {: codeblock}
+   ```
+   curl -X DELETE "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{ACCOUNT_ID}/alerts/channels/{CHANNEL_ID}" -H "accept: application/json" -H "Authorization: {IAM_BEARER_TOKEN}"
+   ```
+   {: codeblock}
 

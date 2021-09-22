@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-26"
+lastupdated: "2021-09-22"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -76,12 +76,12 @@ To create an attachment for a template by using the {{site.data.keyword.complian
 3. From the list of templates, click the name of the template that you want to attach.
 4. Click **Attachments**. If the template that you selected is attached to any scopes, you see them in a table.
 5. Click **Attach** to review your attachment options.
-     1. Decide whether to apply the template across your entire enterprise or narrow it to a specific account.
-     2. Review the hierarchy of the account or enterprise that you selected.
-     3. If you want to exclude a scope, switch the toggle to **Yes**. Select the scopes that you want to exclude and click **Add**.
+   1. Decide whether to apply the template across your entire enterprise or narrow it to a specific account.
+   2. Review the hierarchy of the account or enterprise that you selected.
+   3. If you want to exclude a scope, switch the toggle to **Yes**. Select the scopes that you want to exclude and click **Add**.
 6. Click **Attach**.
 
-    Now that your template is attached to a scope, the scope is used to apply your customized defaults in your selected accounts.
+   Now that your template is attached to a scope, the scope is used to apply your customized defaults in your selected accounts.
 
 
 ## Attaching a template to a scope with the API

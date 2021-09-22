@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-12"
+lastupdated: "2021-09-22"
 
 keywords: compliance posture, security posture, audit evidence, security scan, evaluation results, scan results, scan results, compliance, score, compliance score
 
@@ -74,7 +74,7 @@ Your compliance score is the weighted average of the goals that passed and faile
 To improve your score, address the security and compliance issues that are found. To make the biggest difference, start with the highest severity issues on your most significant resources. 
 
 
-## Understanding the dashboard
+## Understanding the dashboard 
 {: #view-dashboard}
 
 In the {{site.data.keyword.compliance_short}}, you can see a graphical view of your current posture. To view results, you need the viewer platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
@@ -84,16 +84,16 @@ To navigate to the dashboard:
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. Click **Dashboard**. Check out the following table to see the information that is displayed in the dashboard.
 
-| Tile | Description |
-|:------------|:------------| 
-| compliance score | A weighted average of your results. Your score is displayed for a specific environment. To see information for another environment, use the drop-down to select a new environment. |
-| Scopes validated | The number of scopes in your account that are defined and the number that were validated. |
-| Insights | The findings that are available for your account categorized by source. |
-| Collector status | The status of the collectors that exist in your account. |
-| Total validations | The total number of validations run for your account. The tile also contains information about how many are recurring and how many were run once as an on-demand scan. |
-| Most at risk resources | The resources in your selected environment that are the biggest detractor from your score. To see information for another environment, use the drop-down to select a new environment. |
-| Control validation results | The total number of scans and their results for your account displayed by date. |
-{: caption="Table 1. Understanding the dashboard" caption-side="top"}
+   | Tile | Description |
+   |:------------|:------------| 
+   | compliance score | A weighted average of your results. Your score is displayed for a specific environment. To see information for another environment, use the drop-down to select a new environment. |
+   | Scopes validated | The number of scopes in your account that are defined and the number that were validated. |
+   | Insights | The findings that are available for your account categorized by source. |
+   | Collector status | The status of the collectors that exist in your account. |
+   | Total validations | The total number of validations run for your account. The tile also contains information about how many are recurring and how many were run once as an on-demand scan. |
+   | Most at risk resources | The resources in your selected environment that are the biggest detractor from your score. To see information for another environment, use the drop-down to select a new environment. |
+   | Control validation results | The total number of scans and their results for your account displayed by date. |
+   {: caption="Table 1. Understanding the dashboard" caption-side="top"}
 
 You can update the period of time that information is displayed for by selecting **Today**, **Yesterday**, or the **Last 7**, **15**, or **30 days** from the dropdown.
 {: tip}
@@ -109,59 +109,25 @@ To see the results of a validation scan, you can use the {{site.data.keyword.com
 2. In the navigation, click **Validate > Scans > Results**. A list of your scans that have associated results is shown.
 3. In the **Validation results** table, click the **Name** of the scan. 
 
-  A page opens with the detailed results of your scan. You can choose to view your results **By resource** or **By control**. Depending on your choice, your view options differ. Check out the following table to see your options.
+   A page opens with the detailed results of your scan. You can choose to view your results **By resource** or **By control**. Depending on your choice, your view options differ. Check out the following table to see your options.
 
-  <table>
-    <caption>Table 2. Understanding the way you can view your results</caption>
-    <tr>
-      <th>View</th>
-      <th>Availability</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td>Chart</td>
-      <td>By control</td>
-      <td>A graphical display of the resource results including your compliance score for that scan.</td>
-    </tr>
-    <tr>
-      <td>List</td>
-      <td>By resource and control</td>
-      <td>A list of the individual resources that were scanned. The result is displayed in numerical order based on goal ID.</td>
-    </tr>
-    <tr>
-      <td>Tree</td>
-      <td>By resource and control</td>
-      <td>A nested tree display of the resources that were scanned. The results is displayed in numerical order based on the goal ID.</td>
-    </tr>
-    <tr>
-      <td>Drift</td>
-      <td>By control</td>
-      <td>A graphical display of the change in results between each scan that is run.</td>
-    </tr>
-  </table>
+   | View | Availability | Description |
+   | --------- | ----------- | ----------- |
+   | Chart | By control | A graphical display of the resource results including your compliance score for that scan. |
+   | List | By resource and control | A list of the individual resources that were scanned. The result is displayed in numerical order based on goal ID. |
+   | Tree | By resource and control | A nested tree display of the resources that were scanned. The results is displayed in numerical order based on the goal ID. |
+   | Drift | By control | A graphical display of the change in results between each scan that is run. |
+   {: caption="Table 2. Understanding result display options" caption-side="top"}
 
 4. Optional: Initiate remediation by clicking the **Remediation** icon or open a ticket to address any issues by clicking the **Bug** icon.
 5. Optional: Export the results.
 
-  <table>
-    <caption>Table 3. Understanding export options</caption>
-    <tr>
-      <th>Report type</th>
-      <th>Description</th>
-      <th>File type</th>
-    </tr>
-    <tr>
-      <td>Detailed</td>
-      <td>All of the control and resource information; organized by control.</td>
-      <td>Microsoft Excel (<code>.xlsx</code>) and PDF (<code>.pdf</code>)</td>
-    </tr>
-    <tr>
-      <td>Delta</td>
-      <td>The change between two selected detail reports.</td>
-      <td>PDF (<code>.pdf</code>)</td>
-    </tr>
-  </table>
-
+   | Report type | Description | File type |
+   | --------- | ----------- | ----------- |
+   | Detailed | All of the control and resource information; organized by control. | Microsoft Excel (`.xlsx`) and PDF (`.pdf`) |
+   | Delta | The change between two selected detail reports. | PDF (`.pdf`) |
+   {: caption="Table 3. Understanding export options" caption-side="top"}
+  
 
 ## Viewing discovery and fact collection results
 {: #view-discovery-collection}
@@ -177,25 +143,12 @@ The scan results that are displayed by default are the most recent. To see previ
 3. In the **Scopes** table, click the **Name** of the scope that you want to view results for. A page opens with detailed information about the available resources in that scope and their configurations. 
 4. Select **Fact collection** or **Discovery** from the drop-down to adjust the results that you see. Check out the following table to learn more about your options for viewing results.
 
-  <table>
-    <caption>Table 4. Understanding what each view provides</caption>
-    <tr>
-      <th>View</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td>List</td>
-      <td>A list of the individual resources that were scanned. The result is displayed in numerical order based on goal ID.</td>
-    </tr>
-    <tr>
-      <td>Tree</td>
-      <td>A nested tree display of the resources that were scanned. The results is displayed in numerical order based on the goal ID.</td>
-    </tr>
-    <tr>
-      <td>Topology</td>
-      <td>The topology of the resources that were scanned.</td>
-    </tr>
-  </table>
+   | View | Description |
+   | --------- | ----------- |
+   | List | A list of the individual resources that were scanned. The result is displayed in numerical order based on goal ID. |
+   | Tree | A nested tree display of the resources that were scanned. The results is displayed in numerical order based on the goal ID. |
+   | Topology | The topology of the resources that were scanned. |
+   {: caption="Table 4. Understanding what each view provides" caption-side="top"}
 
 5. Optional: **Download facts** to keep a snapshot of your resource configurations at that point in time.
 

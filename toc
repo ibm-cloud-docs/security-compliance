@@ -50,6 +50,7 @@ Security and Compliance Center
         {: .topicgroup}
         Targeting specific resources
             scopes.md
+            scopes-details.md
             tags.md
 
         schedule-scan.md

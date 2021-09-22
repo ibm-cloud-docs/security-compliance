@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-06-14"
+lastupdated: "2021-09-22"
 
 keywords: using the API, accessing the API, getting an access token, authenticating, authentication, access token, API key, account information, IAM access token
 
@@ -55,32 +55,32 @@ To work with the {{site.data.keyword.compliance_full}} APIs, you must first crea
 2. [Create an {{site.data.keyword.cloud_notm}} API key](/docs/account?topic=account-userapikey#create_user_key). Save the API key by downloading it to a secure location. 
 3. Use your API key to generate an access token by calling the [IAM Identity Services API](/apidocs/iam-identity-token-api){: external}.
 
-    ```bash
-    curl -X POST \
-    'https://iam.{DomainName}/identity/token' \
-      --header 'Content-Type: application/x-www-form-urlencoded' \
-      --header 'Accept: application/json' \
-      --data-urlencode 'grant_type=urn:ibm:params:oauth:grant-type:apikey' \
-      --data-urlencode 'apikey=<API_KEY>'
-    ```
-    {: codeblock}
+   ```bash
+   curl -X POST \
+   'https://iam.{DomainName}/identity/token' \
+   --header 'Content-Type: application/x-www-form-urlencoded' \
+   --header 'Accept: application/json' \
+   --data-urlencode 'grant_type=urn:ibm:params:oauth:grant-type:apikey' \
+   --data-urlencode 'apikey=<API_KEY>'
+   ```
+   {: codeblock}
 
-    In the request, replace `<API_KEY>` with the API key that you created in the
-    previous step. The following truncated example shows the sample output:
+   In the request, replace `<API_KEY>` with the API key that you created in the
+   previous step. The following truncated example shows the sample output:
 
-    ```json
-    {
-      "access_token": "b3VyIGZhdGhlc...",
-      "expiration": 1512161390,
-      "expires_in": 3600,
-      "refresh_token": "dGhpcyBjb250a...",
-      "token_type": "Bearer"
-    }
-    ```
-    {: screen}
+   ```json
+   {
+   "access_token": "b3VyIGZhdGhlc...",
+   "expiration": 1512161390,
+   "expires_in": 3600,
+   "refresh_token": "dGhpcyBjb250a...",
+   "token_type": "Bearer"
+   }
+   ```
+   {: screen}
 
-    Access tokens are valid for 1 hour, but you can regenerate them as needed. To maintain access, regenerate the access token for your API key regularly by calling the [IAM Identity Services API](/apidocs/iam-identity-token-api){: external}.
-    {: note}
+   Access tokens are valid for 1 hour, but you can regenerate them as needed. To maintain access, regenerate the access token for your API key regularly by calling the [IAM Identity Services API](/apidocs/iam-identity-token-api){: external}.
+   {: note}
 
 4. Retrieve the ID of your {{site.data.keyword.cloud_notm}} account.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-08-23"
+lastupdated: "2021-09-22"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -65,7 +65,7 @@ You must also have the following prerequisites:
 - A standard Kubernetes cluster version v1.10.11 or higher
 - The [`yq` CLI](https://mikefarah.gitbook.io/yq/){: external}
 - Updated cURL binary
-    For CentOS and Red Hat, you can update by running `yum update -y nss curl libcurl`
+   For CentOS and Red Hat, you can update by running `yum update -y nss curl libcurl`
 - The [{{site.data.keyword.cloud_notm}} CLI and required plug-ins](/docs/cli/reference/ibmcloud?topic=cli-install-ibmcloud-cli)
 - The [Kubernetes CLI](https://kubernetes.io/docs/tasks/tools/install-kubectl/){: external} v1.10.11 or higher
 - The [Kubernetes Helm (package manager)](/docs/containers?topic=containers-helm) v2.9.0 or higher.
@@ -93,101 +93,63 @@ To collect the activity flow logs from your {{site.data.keyword.cloud_notm}} acc
 
 1. Clone the [Activity Insights repository](https://github.com/ibm-cloud-security/security-advisor-activity-insights){: external} to your local system.
 
-  ```
-  git clone https://github.com/ibm-cloud-security/security-advisor-activity-insights.git
-  ```
-  {: codeblock}
+   ```
+   git clone https://github.com/ibm-cloud-security/security-advisor-activity-insights.git
+   ```
+   {: codeblock}
 
 2. Change into the `security-advisor-activity-insights` folder.
 3. Change into the directory for the version of the chart that you're using. Currently, version `v3.0` is supported.
-
 4. Extract the `.tar` file by running the following command.
 
-  ```
-  tar -xvf security-advisor-activity-insights.tar
-  ```
-  {: codeblock}
+   ```
+   tar -xvf security-advisor-activity-insights.tar
+   ```
+   {: codeblock}
 
 5. Change into `security-advisor-activity-insights` folder.
 6. Log in to the {{site.data.keyword.cloud_notm}} CLI. Follow the prompts in the CLI to finish logging in.
 
-  ```
-  ibmcloud login -a cloud.ibm.com -r <region>
-  ```
-  {: codeblock}
+   ```
+   ibmcloud login -a cloud.ibm.com -r <region>
+   ```
+   {: codeblock}
 
-  <table>
-    <caption>Table 1. {{site.data.keyword.cloud_notm}} Endpoints by region</caption>
-    <tr>
-      <th>Region</th>
-      <th>Endpoint</th>
-    </tr>
-    <tr>
-      <td>United Kingdom</td>
-      <td><code>eu-gb</code></td>
-    </tr>
-    <tr>
-      <td>US South</td>
-      <td><code>us-south</code></td>
-    </tr>
-  </table>
+   | Region | Endpoint |
+   | --------- | ----------- |
+   | United Kingdom | `eu-gb` |
+   | US South | `us-south` |
+   {: caption="Table 1. {{site.data.keyword.cloud_notm}} Endpoints by region" caption-side="top"}
 
 7. Set the context for your cluster.
 
-    ```
-    ibmcloud ks cluster config --cluster <cluster_name_or_ID>
-    ```
-    {: codeblock}
+   ```
+   ibmcloud ks cluster config --cluster <cluster_name_or_ID>
+   ```
+   {: codeblock}
 
 8. Run the following command to install the agent. The command validates the naming convention of your bucket, creates Kubernetes secrets, updates the value with your cluster GUID, and deploys Activity Insights.
 
-  ```sh
-  ./activity-insight-install.sh -c <cos_region> -k <cos_api_key> -b <cos_bucket> -a <at_region> -s <at_service_api_key> -m <default_memory_request> -l <memory_limit> -n <namespace>
-  ```
-  {: codeblock}
+   ```sh
+   ./activity-insight-install.sh -c <cos_region> -k <cos_api_key> -b <cos_bucket> -a <at_region> -s <at_service_api_key> -m <default_memory_request> -l <memory_limit> -n <namespace>
+   ```
+   {: codeblock}
 
-  If you encounter an error, try running `helm init --upgrade`.
-  {: tip}
+   If you encounter an error, try running `helm init --upgrade`.
+   {: tip}
 
-  <table>
-    <caption>Table 2. Install command components explained</caption>
-    <tr>
-      <th>Variable</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td><code>cos_region</code></td>
-      <td>The region where your COS instance is deployed. Options include: <code>us-south</code> and <code>eu-gb</code>.</td>
-    </tr>
-    <tr>
-      <td><code>cos_api_key</code></td>
-      <td>The [API key](/docs/cloud-object-storage/iam?topic=cloud-object-storage-service-credentials) that you created to access your COS instance and bucket. The key must have the platform role `writer`.</td>
-    </tr>
-    <tr>
-      <td><code>cos_bucket</code></td>
-      <td>The name of the bucket that you created in Cloud Object Storage to use with Activity Insights.</td>
-    </tr>
-    <tr>
-      <td><code>at_region</code></td>
-      <td>The region of the <a href="/docs/activity-tracker?topic=activity-tracker-regions">{{site.data.keyword.at_short}} instance</a>. Example: <code>us-south</code>.</td>
-    </tr>
-    <tr>
-      <td><code>at_service_api_key</code></td>
-      <td>Is an IAM service API key for your {{site.data.keyword.at_short}} instance.</td>
-    </tr>
-    <tr>
-      <td><code>default_memory_request</code></td>
-      <td>The default memory that is requested when the pod is created during installation. If not provided, the default is <code>256Mi</code>.</td>
-    </tr>
-    <tr>
-      <td><code>memory_limit</code></td>
-      <td>The maximum amount of memory that is provided to the pod by the cluster. If not provided, the default is <code>512Mi</code>.</td>
-    </tr>
-    <tr>
-      <td><code>namespace</code></td>
-      <td>The Kubernetes namespace to install activity-insights-chart. Default: <code>security-advisor-activity-insights</code></td>
-    </tr>
-  </table>
+   | Variable | Description |
+   | --------- | ----------- |
+   | cos_region | The region where your COS instance is deployed. Options include: `us-south` and `eu-gb`. |
+   | cos_api_key | The [API key](/docs/cloud-object-storage/iam?topic=cloud-object-storage-service-credentials) that you created to access your COS instance and bucket. The key must have the platform role `writer`. |
+   | cos_bucket | The name of the bucket that you created in Cloud Object Storage to use with Activity Insights. |
+   | at_region | The region of the [{{site.data.keyword.at_short}}](/docs/activity-tracker?topic=activity-tracker-regions) instance. Example: `us-south`. |
+   | at_service_api_key | Is an IAM service API key for your {{site.data.keyword.at_short}} instance. |
+   | default_memory_request | The default memory that is requested when the pod is created during installation. If not provided, the default is `256Mi`. |
+   | memory_limit | The maximum amount of memory that is provided to the pod by the cluster. If not provided, the default is `512Mi`. |
+   | namespace | The Kubernetes namespace to install activity-insights-chart. Default: `security-advisor-activity-insights`. |
+   {: caption="Table 2. Install command components explained" caption-side="top"}
+  
 
 
 ## Enabling analysis
@@ -209,24 +171,24 @@ If you no longer need to use Activity Insights, you can delete the agent and oth
 
 1. Delete the service components by using Helm. Be sure to use the `-tls` flag if you have TLS enabled.
 
-  If you installed version 2 of the chart, use the following command to delete the components.
+   If you installed version 2 of the chart, use the following command to delete the components.
 
-    ```
-    helm del --purge activity-insights [--tls]
-    ```
-    {: codeblock}
+      ```
+      helm del --purge activity-insights [--tls]
+      ```
+      {: codeblock}
 
-  If you installed version 3 of the chart, use the following command to delete the components.
+   If you installed version 3 of the chart, use the following command to delete the components.
 
-    ```
-    helm uninstall activity-insights --namespace <namespace>
-    ```
-    {: codeblock}
+      ```
+      helm uninstall activity-insights --namespace <namespace>
+      ```
+      {: codeblock}
 
 2. To clean up your cluster, run the following command.
 
-  ```
-  kubectl delete ns <namespace>
-  ```
-  {: codeblock}
+   ```
+   kubectl delete ns <namespace>
+   ```
+   {: codeblock}
 

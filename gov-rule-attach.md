@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-26"
+lastupdated: "2021-09-22"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -74,12 +74,12 @@ To create an attachment for a rule by using the {{site.data.keyword.compliance_s
 3. From the list of rules, click the name of the rule that you want to attach.
 4. Click **Attachments**. If the rule that you selected is attached to any scopes, you see them in a table.
 5. Click **Attach** to review your attachment options.
-     1. Decide whether to apply the rule across your entire enterprise or narrow it to a specific account.
-     2. Review the hierarchy of the account or enterprise that you selected.
-     3. If you want to exclude a scope, switch the toggle to **Yes**. Select the scopes that you want to exclude and click **Add**.
+   1. Decide whether to apply the rule across your entire enterprise or narrow it to a specific account.
+   2. Review the hierarchy of the account or enterprise that you selected.
+   3. If you want to exclude a scope, switch the toggle to **Yes**. Select the scopes that you want to exclude and click **Add**.
 6. Click **Attach**.
 
-    Now that your rule is attached to a scope, the scope is scanned for possible noncompliance the next time that a scan is scheduled to run. Updated reports are generated automatically for your resources once every 24 hours.
+   Now that your rule is attached to a scope, the scope is scanned for possible noncompliance the next time that a scan is scheduled to run. Updated reports are generated automatically for your resources once every 24 hours.
 
 ## Attaching a rule to a scope with the API
 {: #evaluate-rules-api}

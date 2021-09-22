@@ -175,25 +175,12 @@ A collector is a Docker image that you install on your Virtual Private Cloud. Th
    ```
    {: codeblock}
 
-   <table>
-      <caption>Table 1. Collector installation prompts</caption>
-      <tr>
-      <th>Prompt</th>
-      <th>Response</th>
-      </tr>
-      <tr>
-      <td>Data path</td>
-      <td>Provide the data path to your host machine. For example, <code>/root/compliance/</code>.</td>
-      </tr>
-      <tr>
-      <td>Nmap validation</td>
-      <td>No - This tutorial is designed to focus on cloud resources. You only need to run an Nmap validation if your resources exist behind a firewall.</td>
-      </tr>
-      <tr>
-      <td>Registration key</td>
-      <td>Provide the registration key. This can be found in the table on the **Collectors** page of the {{site.data.keyword.compliance_short}} UI. Expand the details for the collector that you want to register and copy the key.</td>
-      </tr>
-   </table>
+   | Prompt | Response |
+   |:-------|:---------|
+   | Data Path | Provide the data path to your host machine. For example, `/root/compliance/`. |
+   | Nmap validation | No - This tutorial is designed to focus on cloud resources. You only need to run an Nmap validation if your resources exist behind a firewall. |
+   | Registration key | Provide the registration key. This can be found in the table on the **Collectors** page of the {{site.data.keyword.compliance_short}} UI. Expand the details for the collector that you want to register and copy the key. |
+   {: caption="Table 1. Collector installation prompts" caption-side="top"}
 
 7. On the **Collectors** page of the {{site.data.keyword.compliance_short}} UI, click **Approval required** to approve the collector for use. Wait a few minutes and refresh the page. The collector status updates to **Active**.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-23"
+lastupdated: "2021-09-22"
 
 keywords: inventory, security, compliance, discovery, run discovery, discover resources
 
@@ -69,11 +69,11 @@ To create an inventory, you can use the {{site.data.keyword.compliance_short}} U
 4. Give your inventory a meaningful name and description.
 5. Select the collectors that you want to use to discover resources. 
 
-  How you structure your inventory depends on how you prefer to view your available resources. Depending on your use case, you might create inventories to meet the following scenarios:
+   How you structure your inventory depends on how you prefer to view your available resources. Depending on your use case, you might create inventories to meet the following scenarios:
 
-    * An overarching inventory that contains information for all of your cloud environments.
-    * An inventory per cloud provider.
-    * An inventory per type of resource. 
+      * An overarching inventory that contains information for all of your cloud environments.
+      * An inventory per cloud provider.
+      * An inventory per type of resource. 
 
 6. Click **Create**.
 
@@ -87,7 +87,7 @@ To view an inventory, you can use the {{site.data.keyword.compliance_short}} UI.
 2. In the navigation, click **Configure > Inventory**. 
 3. In the ***Inventory** table, click the name of the inventory that you want to view. 
 
-  A page opens with high-level information of the resources that are available in that inventory.
+   A page opens with high-level information of the resources that are available in that inventory.
 
 4. Optional: From your discovery details page, you can choose to view previous versions of your inventory. This view can help you to see how your inventory changes over time.
 

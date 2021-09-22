@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-03"
+lastupdated: "2021-09-22"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -67,12 +67,12 @@ If you're working with VPC, you can keep a history of all network connections th
 
 When you work with collectors, you can either manage the lifecycle yourself or you can have IBM manage it on your behalf.
 
-<dl>
-  <dt>IBM-managed collectors</dt>
-    <dd>When you choose to have IBM manage your collector, it is installed on IBM infrastructure. IBM is responsible for the installation and management for the lifecycle of the collector. This option gives you the ability to focus on just the health and security of your resources.</dd>
-  <dt>Customer-managed collectors</dt>
-    <dd>In some situations, an IBM-managed collector might not be possible. If your organization has policies regarding the ownership of infrastructure or specific security constraints, you can always continue to manage your own collector. If your organization chooses to manage your own collectors, you are responsible for the installation and management of the collector. You own the infrastructure and you have total control over where the collector is installed.</dd>
-</dl>
+
+IBM-managed collectors
+:   When you choose to have IBM manage your collector, it is installed on IBM infrastructure. IBM is responsible for the installation and management for the lifecycle of the collector. This option gives you the ability to focus on just the health and security of your resources.</dd>
+
+Customer-managed collectors
+:  In some situations, an IBM-managed collector might not be possible. If your organization has policies regarding the ownership of infrastructure or specific security constraints, you can always continue to manage your own collector. If your organization chooses to manage your own collectors, you are responsible for the installation and management of the collector. You own the infrastructure and you have total control over where the collector is installed.
 
 ### Working with multiple collectors
 {: #collector-multiple}
@@ -112,6 +112,9 @@ The collector sends a regular heartbeat every minute to notify the service that 
 {: #collector-comm-resource}
 
 To gather information about your resources, the collector must be able to connect to them by using a combination of methods, including API calls, SSH, Shell commands, and Windows PowerShell. The communication is able to occur only because the collector uses credentials that you associate with it through the {{site.data.keyword.compliance_short}} UI. To communicate with them, the collector needs to use credentials that have read access to your resources.
+
+Working with an account that restricts access to specific IPs? If you're using an IBM-managed collector, you must update your account settings to allow the collector to access and collect data. For more information, see [Updating your IP address restrictions](/docs/security-compliance?topic=security-compliance-ibm-collector#before-collector-ip-address).
+{: note}
 
 Collectors that run in an on-premises environment use Nmap to scan and discover resources. The collector uses SSH or the equivalent to connect to and query the resources for the configurations. The network and ports on the VMs must allow for the connectivity.
 

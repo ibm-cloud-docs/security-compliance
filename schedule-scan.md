@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-14"
+lastupdated: "2021-09-22"
 
 keywords: scans, compliance, schedule scan, create scan, discovery, validation, fact collection, fact validation
 
@@ -175,30 +175,17 @@ Running a scan against a specific profile does not ensure regulatory compliance.
 6. Select a scope.
 7. Select the profile that you want to use validate compliance.
 
-    Be sure to select a profile that is applicable to your scope. For example, if you select an IBM scope but use an AWS profile to validate it, no results are returned as part of your scan.
+   Be sure to select a profile that is applicable to your scope. For example, if you select an IBM scope but use an AWS profile to validate it, no results are returned as part of your scan.
 
 8. Click **Next**.
 9. If you selected an AWS or Azure scope, set your remediation preference.
 
-  <table>
-    <caption>Table 2. Remediation types</caption>
-    <tr>
-      <th>Remediation type</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td>None</td>
-      <td>There is no remediation configuration in place.</td>
-    </tr>
-    <tr>
-      <td>Approved</td>
-      <td>The service must wait for approval from a user before the remediation is run.</td>
-    </tr>
-    <tr>
-      <td>Automatic</td>
-      <td>The service runs remediation immediately.</td>
-    </tr>
-  </table>
+   | Remediation type | Description |
+   | --------- | ----------- |
+   | None | There is no remediation configuration in place. |
+   | Approved | The service must wait for approval from a user before the remediation is run. |
+   | Automatic | The service runs remediation immediately. |
+   {: caption="Table 2. Remediation types" caption-side="top"}
 
 10. Select the frequency at which you want the scan to run.
 11. Select when you want the scan to stop. Options include never, a specific number of scans, or on a set date.

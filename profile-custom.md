@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-25"
+lastupdated: "2021-09-22"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -101,11 +101,12 @@ If you know the controls and goals that you want to meet, you can create a profi
 8. Select one or more goals that you want to add to your control.
 
    Not sure which goals to include? Use the search bar to filter the list of available goals by description or keyword. You can also use the Goals page in the {{site.data.keyword.compliance_short}} UI to search for and view information about available goals. If you accidentally add a control that you don't need, you can click the **Trash** icon to delete it or the **Edit** icon to edit your profile.
-9.  Click **Done**.
-10.  Click the **Save** icon.
-11.  Repeat the steps until you have the profile configuration that you want.
-12.  Click **Next**.
-13.  Review your selections, and click **Create**.
+
+9. Click **Done**.
+10. Click the **Save** icon.
+11. Repeat the steps until you have the profile configuration that you want.
+12. Click **Next**.
+13. Review your selections, and click **Create**.
 
 
 
@@ -134,15 +135,14 @@ When you're working with profiles locally, it's important that you stay within t
 
 ![This image shows an example of how your CSV file might be formatted when you work with profiles locally. The information in the image is explained in further detail in the surrounding text.](images/csv-nist.svg){: caption="Figure 2. CSV formatting" caption-side="bottom"}
 
-<dl>
-  <dt>External Control ID and Parent</dt>
-  <dd>An external ID is used along with the parent to structure how a control tree is shown in the UI when the file is imported. Be sure that you use a sequential pattern for your external control ID and that the parent is mapped to the correct level.</dd>
-  <dt>Goal ID</dt>
-  <dd>Goal IDs are provided by the {{site.data.keyword.compliance_short}}. To find the goal ID, you must log in to the console and go to <strong>Security and compliance > Configure > Goals</strong>.</dd>
-  <dt>Tags</dt>
-  <dd>For more information about tags, see [Mapping tags](/docs/security-compliance?topic=security-compliance-tags).</dd>
-</dl>
+External Control ID and Parent
+:   An external ID is used along with the parent to structure how a control tree is shown in the UI when the file is imported. Be sure that you use a sequential pattern for your external control ID and that the parent is mapped to the correct level.
 
+Goal ID
+:   Goal IDs are provided by the {{site.data.keyword.compliance_short}}. To find the goal ID, you must log in to the console and go to **Security and compliance > Configure > Goals**.
+
+Tags
+:   For more information about tags, see [Mapping tags](/docs/security-compliance?topic=security-compliance-tags).
 
 
 ### Importing a profile

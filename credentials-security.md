@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-14"
+lastupdated: "2021-09-22"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -84,8 +84,10 @@ To enable a passphrase in your account, you can use the {{site.data.keyword.comp
 4. Enter your **New passphrase**.
 5. Confirm your passphrase by retyping it. 
 6. Validate that you understand the risk of enabling your own passphrase by checking the box. 
+   
    For security reasons, if you enter the passphrase incorrectly after it is enabled, any mapped credentials become unusable by the {{site.data.keyword.compliance_short}}.
    {: important}
+   
 7. Click **Save**.
 
 
