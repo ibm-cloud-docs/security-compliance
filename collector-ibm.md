@@ -85,7 +85,7 @@ To learn more about updating your IP address settings, see [Allowing specific IP
 You can use the {{site.data.keyword.compliance_short}} UI to create a collector by completing the following steps.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Manage posture > Configure > Settings > Collectors**.
+2. In the navigation, click **Manage posture > Configure > Collectors**.
 3. Click **Create**.
 4. Give your collector a name and description.
 

@@ -141,7 +141,7 @@ Virtual Private Cloud gives you the ability to establish your own private cloud-
 A collector is a Docker image that you install on your Virtual Private Cloud. The collector image is responsible for gathering your configuration information and validating it.
 
 1. Create a collector.
-   1. Go to the **Manage posture > Configure > Settings > Collectors** tab and click **Create**.
+   1. Go to the **Manage posture > Configure > Collectors** tab and click **Create**.
    2. Give your collector a meaningful name and click **Next**. For example, `ibm-cloud-collector`. 
    3. For **Managed by**, select **Customer**.
    4. For **Endpoint type**, select **Public** and then click **Create**.
@@ -201,7 +201,7 @@ In order to run the scan, the collector must have *read* access to the resources
    5. Click **Copy** or **Download** to save your key.
 2. Add the API key to the {{site.data.keyword.compliance_short}} as a credential.
    1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to return to the {{site.data.keyword.compliance_short}}.
-   2. In the navigation, click **Manage posture > Configure > Settings > Credentials**.
+   2. In the navigation, click **Manage posture > Configure > Credentials**.
    3. Click **Create**.
    4. Give your credential a meaningful name. For example, `ibm-cloud-compliance`.
    5. Select **Discovery / fact collection** as the purpose of the credential and then click **Next**.

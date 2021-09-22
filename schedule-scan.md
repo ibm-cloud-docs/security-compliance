@@ -147,7 +147,7 @@ To check to see if the computer has `WinRM` enabled, check if the HTTPS listener
 You can schedule a discovery or fact collection scan by using the {{site.data.keyword.compliance_short}} UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Assess > Scans > Scheduled scans**. 
+2. In the navigation, click **Configure > Scans > Scheduled scans**. 
 3. Click **Schedule**. A side panel opens.
 4. Give your scan a name and description.
 5. Select **Discovery** or **Fact collection**.
@@ -168,7 +168,7 @@ Running a scan against a specific profile does not ensure regulatory compliance.
 {: important}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Assess > Scans > Scheduled scans**. 
+2. In the navigation, click **Configure > Scans > Scheduled scans**. 
 3. Click **Create**. A side panel opens.
 4. Give your scan a name and description.
 5. Select **Validation**.

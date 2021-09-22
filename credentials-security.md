@@ -79,7 +79,7 @@ Before you get started, be sure that you have the required level of access to vi
 To enable a passphrase in your account, you can use the {{site.data.keyword.compliance_short}} UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, in the **Manage posture** section, click **Configure > Settings > Credentials**.
+2. In the navigation, in the **Manage posture** section, click **Configure > Credentials**.
 3. In the **Credentials security** box, click the **Edit** icon. A side panel opens. 
 4. Enter your **New passphrase**.
 5. Confirm your passphrase by retyping it. 
