@@ -5,8 +5,7 @@
 Security and Compliance Center
 
     {: .navgroup id="learn"}
-    getting-started.md
-        
+    getting-started.md        
     releases.md
     {: .navgroup-end}
 
@@ -152,4 +151,3 @@ Security and Compliance Center
     
     limits.md
     {: .navgroup-end}
-
