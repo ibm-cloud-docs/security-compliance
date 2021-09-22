@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-07-22"
+lastupdated: "2021-09-22"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -73,10 +73,10 @@ Before you start integrating business partners, be sure that you have the follow
 
 You can use the {{site.data.keyword.compliance_short}} UI to create a connection to NeuVector. When the connection is created, you:
 
-  * Establish trust and associate your {{site.data.keyword.cloud_notm}} and business partner accounts
-  * Copy the required information such as credentials and URLs between the accounts
-  * Install the business partner's finding metadata into the {{site.data.keyword.compliance_short}}
-  * Validate the pairing by posting a finding from the business partner into the {{site.data.keyword.compliance_short}}
+   * Establish trust and associate your {{site.data.keyword.cloud_notm}} and business partner accounts
+   * Copy the required information such as credentials and URLs between the accounts
+   * Install the business partner's finding metadata into the {{site.data.keyword.compliance_short}}
+   * Validate the pairing by posting a finding from the business partner into the {{site.data.keyword.compliance_short}}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. Navigate to **Integrations**.
@@ -84,7 +84,7 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a connection
 4. Provide a name for your connection.
 5. Input the registration URL provided by NeuVector. This is the URL of your NeuVector dashboard. If you don't know the URL, click **Get URL from NeuVector** to go to your NeuVector account. If you need help obtaining the URL, see [Getting a setup URL](https://docs.neuvector.com/integration/ibmsa){: external} in the NeuVector documentation.
 6. Click **Next**.
-6. Click **Connect**.
+7. Click **Connect**.
 
 
 ## Verifying the connection

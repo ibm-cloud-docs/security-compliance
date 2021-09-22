@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-13"
+lastupdated: "2021-09-22"
 
 keywords: data encryption in {{site.data.keyword.compliance_short}}, data storage for {{site.data.keyword.compliance_short}}, bring your own keys for {{site.data.keyword.compliance_short}}, BYOK for {{site.data.keyword.compliance_short}}, key management for {{site.data.keyword.compliance_short}}, key encryption for {{site.data.keyword.compliance_short}}, personal data in {{site.data.keyword.compliance_short}}, data deletion for {{site.data.keyword.compliance_short}}, data in {{site.data.keyword.compliance_short}}, data security in {{site.data.keyword.compliance_short}}
 
@@ -112,8 +112,8 @@ You can change the location in which your data is stored and processed by using 
 2. In the **Data > Location** section, click the **Edit** icon ![Edit icon](../../icons/edit-tagging.svg).
 3. Select the location that you want to use.
 
-  The United Kingdom location is available only for Security Insights. To work with the other {{site.data.keyword.compliance_short}} components, you must use another location.
-  {: note}
+   The United Kingdom location is available only for Security Insights. To work with the other {{site.data.keyword.compliance_short}} components, you must use another location.
+   {: note}
 
 4. Confirm that you want to change your location.
 5. Click **Save**.
@@ -127,41 +127,41 @@ You can change the location in which your data is stored and processed by using 
 
 1. View your current settings.
 
-  ```sh
-  curl -X GET 'https://compliance.cloud.ibm.com/admin/v1/accounts/<account_id>/settings' \
-  -H 'accept: application/json'
-  ```
-  {: codeblock}
+   ```sh
+   curl -X GET 'https://compliance.cloud.ibm.com/admin/v1/accounts/<account_id>/settings' \
+   -H 'accept: application/json'
+   ```
+   {: codeblock}
 
 2. Update your settings.
 
-  ```sh
-  curl -X PATCH 'https://compliance.cloud.ibm.com/admin/v1/accounts/<account_id>/settings' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "location": {
+   ```sh
+   curl -X PATCH 'https://compliance.cloud.ibm.com/admin/v1/accounts/<account_id>/settings' \
+   -H 'accept: application/json' \
+   -H 'Content-Type: application/json' \
+   -d '{
+   "location": {
       "id": "us-south"
-    }
-  }'
-  ```
-  {: codeblock}
+      }
+   }'
+   ```
+   {: codeblock}
 
-  The United Kingdom location is available only for Security Insights. To work with the other {{site.data.keyword.compliance_short}} components, you must use another location.
-  {: note}
+   The United Kingdom location is available only for Security Insights. To work with the other {{site.data.keyword.compliance_short}} components, you must use another location.
+   {: note}
 
-  Response:
+   Response:
 
-  ```json
-  {
-    "location": {
+   ```json
+   {
+      "location": {
       "id": "us-south",
       "modified": "2021-03-08T07:38:10.730184636Z",
       "cleanup_inactive_locations": false
-    }
-  }
-  ```
-  {: screen}
+      }
+   }
+   ```
+   {: screen}
 
 
 ## Protecting your sensitive data
@@ -214,32 +214,32 @@ If you choose to work with a key that you manage, you must ensure that valid IAM
 1. Create an instance of [{{site.data.keyword.keymanagementserviceshort}}](/catalog/services/key-protect) or [{{site.data.keyword.hscrypto}}](/catalog/services/hs-crypto)
 2. [Generate or import a root key](/docs/key-protect?topic=key-protect-create-root-keys) to your key management service instance.
 
-    When you use {{site.data.keyword.keymanagementserviceshort}} or {{site.data.keyword.hscrypto}} to create a root key, the service generates cryptographic key material that is rooted in cloud-based HSMs. Be sure that the name of your key does not contain any personal information such as your name or location.
+   When you use {{site.data.keyword.keymanagementserviceshort}} or {{site.data.keyword.hscrypto}} to create a root key, the service generates cryptographic key material that is rooted in cloud-based HSMs. Be sure that the name of your key does not contain any personal information such as your name or location.
 3. Grant service access between your key management service and the {{site.data.keyword.compliance_short}}.
 
-    You must be the account owner or an administrator of the key management service instance that you're working with. You must also have at least Viewer access for the {{site.data.keyword.compliance_short}} service.
+   You must be the account owner or an administrator of the key management service instance that you're working with. You must also have at least Viewer access for the {{site.data.keyword.compliance_short}} service.
 
-    1. Go to **Manage > Access IAM > Authorizations**.
-    2. Select {{site.data.keyword.compliance_short}} or {{site.data.keyword.security-advisor_short}} as the source service.
+   1. Go to **Manage > Access IAM > Authorizations**.
+   2. Select {{site.data.keyword.compliance_short}} or {{site.data.keyword.security-advisor_short}} as the source service.
 
-       If you're creating an authorization for compliance scans, select **{{site.data.keyword.compliance_short}}**. To create an authorization for security insights, select **{{site.data.keyword.security-advisor_short}}**.
+      If you're creating an authorization for compliance scans, select **{{site.data.keyword.compliance_short}}**. To create an authorization for security insights, select **{{site.data.keyword.security-advisor_short}}**.
 
-    3. Select {{site.data.keyword.keymanagementserviceshort}} or {{site.data.keyword.hscrypto}} as the target service.
-    4. Assign the Reader role.
-    5. Click **Authorize** to confirm the authorization.
+   3. Select {{site.data.keyword.keymanagementserviceshort}} or {{site.data.keyword.hscrypto}} as the target service.
+   4. Assign the Reader role.
+   5. Click **Authorize** to confirm the authorization.
 
-    If you're enabling customer-managed keys for Security Insights, be sure that you also have the [required permissions](/docs/security-compliance?topic=security-compliance-access-management#insights-roles) to work with {{site.data.keyword.security-advisor_short}}.
-    {: note}
+   If you're enabling customer-managed keys for Security Insights, be sure that you also have the [required permissions](/docs/security-compliance?topic=security-compliance-access-management#insights-roles) to work with {{site.data.keyword.security-advisor_short}}.
+   {: note}
 
 4. Enable the integration in the {{site.data.keyword.compliance_short}}.
 
-    After you create an authorization between your key management service and {{site.data.keyword.compliance_short}}, you can integrate it by using {{site.data.keyword.compliance_short}}. To update your encryption settings:
+   After you create an authorization between your key management service and {{site.data.keyword.compliance_short}}, you can integrate it by using {{site.data.keyword.compliance_short}}. To update your encryption settings:
 
-    1. Go to **Security and Compliance Center > Global settings**.
-    2. In the **Data > Encryption** section, click the **Edit** icon ![Edit icon](../../icons/edit-tagging.svg) to manage your encryption settings.
-    3. Select the service instance and root key that you want to use to protect your data.
-    4. Choose the type of {{site.data.keyword.compliance_short}} results that you want to encrypt with your selected key by toggling either **Compliance scans**, **Security insights**, or both to **On**.
-    5. To return to IBM-managed encryption, use the toggle to turn customer-managed encryption **Off**.
+   1. Go to **Security and Compliance Center > Global settings**.
+   2. In the **Data > Encryption** section, click the **Edit** icon ![Edit icon](../../icons/edit-tagging.svg) to manage your encryption settings.
+   3. Select the service instance and root key that you want to use to protect your data.
+   4. Choose the type of {{site.data.keyword.compliance_short}} results that you want to encrypt with your selected key by toggling either **Compliance scans**, **Security insights**, or both to **On**.
+   5. To return to IBM-managed encryption, use the toggle to turn customer-managed encryption **Off**.
 
 ## Deleting your data
 {: #data-delete}
