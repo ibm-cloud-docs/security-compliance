@@ -10,175 +10,175 @@ toc:
     label: Security and Compliance Center
 ​
   entries: 
-  - navgroup: 
-      id: learn
-      topics:
-      - getting-started.md
-      - topicgroup: 
-          label: Internal adopters
-          topics:
-          - internal/onboard-monitoring.md
-          - internal/onboard-config.md
-          - topic: internal/end-user-doc.md
-            navtitle: Documentation requirements
-          - internal/onboard-faq.md
-      - releases.md
-​
-  - navgroup: 
-      id: tutorial
-      topics: 
-      - topicgroup: 
-          label: Monitoring IBM Cloud resources
-          topics:
-          - tutorials/monitor-ibm-collector.md
-          - tutorials/monitor-ibm-customer-collector.md
-      - tutorials/custom-findings-nmap.md
-      - tutorials/ni-alerts.md
-​
-  - navgroup: 
-      id: howto
-      topics:
-      - topicgroup: 
-          label: Setting up monitoring
-          topics:
-          - posture-what-is.md
-          - topicgroup:
-              label: Granting access to your resources
-              topics:
-              - credentials-permissions.md
-              - credentials-manage.md
-              - credentials-mapping.md
-              - credentials-security.md
-        - topicgroup:
-            label: Discovering resources and configurations
+    - navgroup: 
+        id: learn
+        topics:
+        - getting-started.md
+        - topicgroup: 
+            label: Internal adopters
             topics:
-            - collector-what-is.md
-            - collector-ibm.md
-            - collector-customer.md
-            - inventory.md
-        - topicgroup:
-            label: Defining your compliance checks
+            - internal/onboard-monitoring.md
+            - internal/onboard-config.md
+            - topic: internal/end-user-doc.md
+              navtitle: Documentation requirements
+            - internal/onboard-faq.md
+        - releases.md
+  ​
+    - navgroup: 
+        id: tutorial
+        topics: 
+        - topicgroup: 
+            label: Monitoring IBM Cloud resources
             topics:
-            - profile-what-is.md
-            - profile-custom.md
-            - customize-goals.md
-      - topicgroup: 
-          label: Monitoring your resources
-          topics:
+            - tutorials/monitor-ibm-collector.md
+            - tutorials/monitor-ibm-customer-collector.md
+        - tutorials/custom-findings-nmap.md
+        - tutorials/ni-alerts.md
+  ​
+    - navgroup: 
+        id: howto
+        topics:
+        - topicgroup: 
+            label: Setting up monitoring
+            topics:
+            - posture-what-is.md
+            - topicgroup:
+                label: Granting access to your resources
+                topics:
+                - credentials-permissions.md
+                - credentials-manage.md
+                - credentials-mapping.md
+                - credentials-security.md
           - topicgroup:
-              label: Targeting specific resources
+              label: Discovering resources and configurations
               topics:
-              - scopes.md
-              - scopes-details.md
-              - tags.md
-          - schedule-scan.md
-      - topicgroup:
-          label: Governing the use of resources
-          topics:
-          - gov-what-is.md
-          - gov-format.md
+              - collector-what-is.md
+              - collector-ibm.md
+              - collector-customer.md
+              - inventory.md
           - topicgroup:
-              label: Managing config rules
+              label: Defining your compliance checks
               topics:
-              - gov-rule-define.md
-              - gov-rule-attach.md
-              - gov-rule-delete.md
-          - topicgroup:
-              label: Managing templates
-              topics:
-              - gov-temp-define.md
-              - gov-temp-attach.md
-              - gov-temp-delete.md
-      - topicgroup:
-          label: Gaining security insight
-          topics:
-          - insights-what.md
-          - insights-activity.md
-          - insights-network.md
-          - insights-default.md
-      - topicgroup:
-          label: Connecting thid-parties
-          topics:
-          - bookmarks.md
-          - topicgroup:
-              label: Connecting business partners
-              topics:
-              - business-partners/caveonix.md
-              - business-partners/nuevector.md
-              - business-partners/tanium.md
-              - business-partners/twistlock.md
-          - custom-findings.md
-      - notifications.md
-      - topicgroup:
-          label: Managing your posture
-          topics:
-          - view-posture.md
-          - results.md
-          - remediation.md
-      - topicgroup:
-          label: Enhancing security
-          topics:
-          - topic: framework/iam.md
-            navtitle: Managing IAM access
-          - topic: framework/data-security.md
-            navtitle: Storing and encrypting data
-          - topic: framework/architecture-workload-isolation.md
-            navtitle: Learning about architecture and workload isolation
-          - topic: framework/at-events.md
-            navtitle: Auditing events
+              - profile-what-is.md
+              - profile-custom.md
+              - customize-goals.md
+        - topicgroup: 
+            label: Monitoring your resources
+            topics:
+            - topicgroup:
+                label: Targeting specific resources
+                topics:
+                - scopes.md
+                - scopes-details.md
+                - tags.md
+            - schedule-scan.md
+        - topicgroup:
+            label: Governing the use of resources
+            topics:
+            - gov-what-is.md
+            - gov-format.md
+            - topicgroup:
+                label: Managing config rules
+                topics:
+                - gov-rule-define.md
+                - gov-rule-attach.md
+                - gov-rule-delete.md
+            - topicgroup:
+                label: Managing templates
+                topics:
+                - gov-temp-define.md
+                - gov-temp-attach.md
+                - gov-temp-delete.md
+        - topicgroup:
+            label: Gaining security insight
+            topics:
+            - insights-what.md
+            - insights-activity.md
+            - insights-network.md
+            - insights-default.md
+        - topicgroup:
+            label: Connecting thid-parties
+            topics:
+            - bookmarks.md
+            - topicgroup:
+                label: Connecting business partners
+                topics:
+                - business-partners/caveonix.md
+                - business-partners/nuevector.md
+                - business-partners/tanium.md
+                - business-partners/twistlock.md
+            - custom-findings.md
+        - notifications.md
+        - topicgroup:
+            label: Managing your posture
+            topics:
+            - view-posture.md
+            - results.md
+            - remediation.md
+        - topicgroup:
+            label: Enhancing security
+            topics:
+            - topic: framework/iam.md
+              navtitle: Managing IAM access
+            - topic: framework/data-security.md
+              navtitle: Storing and encrypting data
+            - topic: framework/architecture-workload-isolation.md
+              navtitle: Learning about architecture and workload isolation
+            - topic: framework/at-events.md
+              navtitle: Auditing events
 
-  - navgroup:
-      id: reference
-      topics: 
-      - topicgroup:
-          label: API and SDK references
-          - api-setup.md
-          links:
-          - link:
-              label: Admin
-              href: https://{DomainName}/apidocs/security-compliance/admin
-          - link:
-              label: Configuration Governance
-              href: https://{DomainName}/apidocs/security-compliance/config
-          - link:
-              label: Posture Management
-              href: https://{DomainName}/apidocs/security-compliance/compliance
-          - topicgroup:
-          label: Security Insights
-          links:
-          - link:
-              label: Findings
-              href: https://{DomainName}/apidocs/security-compliance/findings
-          - link:
-              label: Notifications
-              href: https://{DomainName}/apidocs/security-compliance/si-notifications
-      - topicgroup: 
-          label: Available security checks
-          topics:
-          - security-checks/ai-rules.md
-          - security-checks/ni-findings.md
-          - security-checks/default-goals.md
-          - security-checks/scc-properties.md
-      - link:
-          label: IBM Cloud Compliance Programs
-          href: https://www.ibm.com/cloud/compliance
-      - locations.md
-      - topic: framework/ha-dr.md
-        navtitle: Understanding HA / DR           
-​
-  - navgroup:
-      id: help
-      topics:
-      - faqs.md 
-      - topicgroup: 
-          label: Troubleshooting
-          topics:
-          - troubleshooting/ts-contact.md
-          - troubleshooting/ts-ip-address.md
-          - troubleshooting/ts-results.md
-          - troubleshooting/ts-deleted-results.md
-          - troubleshooting/ts-score.md
-          - troubleshooting/ts-bucket.md
-          - troubleshooting/ts-ai-forbidden.md
-          - troubleshooting/ts-sa-blocked.md
-      - limits.md
+    - navgroup:
+        id: reference
+        topics: 
+        - topicgroup:
+            label: API and SDK references
+            - api-setup.md
+            links:
+            - link:
+                label: Admin
+                href: https://{DomainName}/apidocs/security-compliance/admin
+            - link:
+                label: Configuration Governance
+                href: https://{DomainName}/apidocs/security-compliance/config
+            - link:
+                label: Posture Management
+                href: https://{DomainName}/apidocs/security-compliance/compliance
+            - topicgroup:
+            label: Security Insights
+            links:
+            - link:
+                label: Findings
+                href: https://{DomainName}/apidocs/security-compliance/findings
+            - link:
+                label: Notifications
+                href: https://{DomainName}/apidocs/security-compliance/si-notifications
+        - topicgroup: 
+            label: Available security checks
+            topics:
+            - security-checks/ai-rules.md
+            - security-checks/ni-findings.md
+            - security-checks/default-goals.md
+            - security-checks/scc-properties.md
+        - link:
+            label: IBM Cloud Compliance Programs
+            href: https://www.ibm.com/cloud/compliance
+        - locations.md
+        - topic: framework/ha-dr.md
+          navtitle: Understanding HA / DR           
+  ​
+    - navgroup:
+        id: help
+        topics:
+        - faqs.md 
+        - topicgroup: 
+            label: Troubleshooting
+            topics:
+            - troubleshooting/ts-contact.md
+            - troubleshooting/ts-ip-address.md
+            - troubleshooting/ts-results.md
+            - troubleshooting/ts-deleted-results.md
+            - troubleshooting/ts-score.md
+            - troubleshooting/ts-bucket.md
+            - troubleshooting/ts-ai-forbidden.md
+            - troubleshooting/ts-sa-blocked.md
+        - limits.md
