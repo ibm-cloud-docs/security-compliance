@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-23"
+lastupdated: "2021-09-22"
 
 keywords: inventory, security, compliance, discovery, run discovery, discover resources
 
@@ -55,7 +55,7 @@ With the {{site.data.keyword.compliance_full}}, you can view the full list of av
 ## Before you begin
 {: #before-inventory}
 
-Before you get started, be sure that you have the required level of access to view and manage your inventory. To manage your inventory, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). To discover your inventory, you must also have a [collector](/docs/security-compliance?topic=security-compliance-ibm-collector) and [credentials](/docs/security-compliance?topic=security-compliance-credentials) already configured in {{site.data.keyword.compliance_short}}.
+Before you get started, be sure that you have the required level of access to view and manage your inventory. To manage your inventory, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). To discover your inventory, you must also have a [collector](/docs/security-compliance?topic=security-compliance-ibm-collector) and [credentials](/docs/security-compliance?topic=security-compliance-credentials) already Assessd in {{site.data.keyword.compliance_short}}.
 
 
 ## Creating an inventory
@@ -64,16 +64,16 @@ Before you get started, be sure that you have the required level of access to vi
 To create an inventory, you can use the {{site.data.keyword.compliance_short}} UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Configure > Inventory**. 
+2. In the navigation, click **Assess > Inventory**. 
 3. Click the **New inventory** icon.
 4. Give your inventory a meaningful name and description.
 5. Select the collectors that you want to use to discover resources. 
 
-  How you structure your inventory depends on how you prefer to view your available resources. Depending on your use case, you might create inventories to meet the following scenarios:
+   How you structure your inventory depends on how you prefer to view your available resources. Depending on your use case, you might create inventories to meet the following scenarios:
 
-    * An overarching inventory that contains information for all of your cloud environments.
-    * An inventory per cloud provider.
-    * An inventory per type of resource. 
+      * An overarching inventory that contains information for all of your cloud environments.
+      * An inventory per cloud provider.
+      * An inventory per type of resource. 
 
 6. Click **Create**.
 
@@ -84,10 +84,10 @@ To create an inventory, you can use the {{site.data.keyword.compliance_short}} U
 To view an inventory, you can use the {{site.data.keyword.compliance_short}} UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Configure > Inventory**. 
+2. In the navigation, click **Assess > Inventory**. 
 3. In the ***Inventory** table, click the name of the inventory that you want to view. 
 
-  A page opens with high-level information of the resources that are available in that inventory.
+   A page opens with high-level information of the resources that are available in that inventory.
 
 4. Optional: From your discovery details page, you can choose to view previous versions of your inventory. This view can help you to see how your inventory changes over time.
 
@@ -99,7 +99,7 @@ To view an inventory, you can use the {{site.data.keyword.compliance_short}} UI.
 To discover new resources in an inventory, you can use the {{site.data.keyword.compliance_short}} UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Configure > Inventory**.
+2. In the navigation, click **Assess > Inventory**.
 3. From the actions menu for the inventory that you want to view, click **Discover**.
 
 
@@ -109,7 +109,7 @@ To discover new resources in an inventory, you can use the {{site.data.keyword.c
 To discover new resources in an inventory, you can use the {{site.data.keyword.compliance_short}} UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Configure > Inventory**.
+2. In the navigation, click **Assess > Inventory**.
 3. From the actions menu for the inventory that you want to delete, select the name of the inventory that you want to delete.
 4. Click **Delete**.
 5. Confirm that you want to delete the inventory by clicking **Delete** again. 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-13"
+lastupdated: "2021-09-22"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -62,45 +62,19 @@ To enable communication between your resources and the collector, you must assoc
 
 The credentials that you provide depend upon the type of resources that you want to scan. You might provide an API key, an access key file, or a username and password to a specific resource.
 
- <table>
-    <caption>Table 1. Credential types and input information</caption>
-    <tr>
-      <th>Credential type</th>
-      <th>Needed information</th>
-    </tr>
-    <tr>
-      <td>IBM Cloud</td>
-      <td><p>An IBM Cloud API key with a service ID. For help with creating an API key, see <a href="/docs/account?topic=account-manapikey">Understanding API keys</a>. Occasionally, services require <a href="/docs/security-compliance?topic=security-compliance-permissions#additional-permissions">additional permissions</a>.</p><p><strong>Note:</strong> It is possible to use an IBM Cloud API key without a service ID. Be sure that the user who creates the key has the required permissions for all of the resources that you want to scan.</p></td>
-    </tr>
-    <tr>
-      <td>AWS Cloud</td>
-      <td>Your AWS user credentials, API Access Key ID, and Secret Access Key. Your secret access key is a large binary encoded string. <a href="/docs/security-compliance?topic=security-compliance-permissions#amazon-permissions">Learn more</a> about the specific permissions you can enable for AWS.</td>
-    </tr>
-    <tr>
-      <td>Azure Cloud</td>
-      <td>An Azure client ID (application ID), client secret (authentication key), tenant ID, and subscription ID. Additionally, you must provide the list of Resource Groups that are associated with the Subscription ID that is involved in the scan. <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal#get-application-id-and-authentication-key">Learn more</a> about how to create your Azure credentials. You can find more information on the <a href="/docs/security-compliance?topic=security-compliance-permissions#azure-permissions">specific permissions</a> you can enable for Azure.</td>
-    </tr>
-    <tr>
-      <td>GCP Cloud</td>
-      <td>A Google Cloud Platform service account Authentication Key . <a href="https://cloud.google.com/iam/docs/creating-managing-service-account-keys">Find more information</a> about how to create an Authentication Key. <a href="/docs/security-compliance?topic=security-compliance-permissions#google-permissions">Learn more</a> about the specific permissions you can enable for GCP Cloud.</td>
-    </tr>
-    <tr>
-      <td>Database</td>
-      <td>The name of the database and the username and password that are needed to access it.</td>
-    </tr>
-    <tr>
-      <td>Username - password</td>
-      <td>A username and password combination that is needed to gain access to an on-premises resource.</td>
-    </tr>
-    <tr>
-      <td>Username - PEM</td>
-      <td>A username and password combination and PEM file that is needed to gain access to an on-premises resource.</td>
-    </tr>
-    <tr>
-      <td>Windows authentication</td>
-      <td>A username and password combination. You must also provide the type of authentication that your credential is configured to provide. Options include Basic, Kerberos, and Negotiate. You can also choose whether to Use SSL by checking the <strong>Use SSL</strong> box.</td>
-    </tr>
-  </table>
+| Credential type | Needed information |
+|:-------|:---------|
+| {{site.data.keyword.cloud_notm}} | An {{site.data.keyword.cloud_notm}} API key with a service ID. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey). Occasionally, services require [additional permissions](/docs/security-compliance?topic=security-compliance-permissions#additional-permissions). To create an {{site.data.keyword.cloud_notm}} API key without a service ID, be sure that the user who creates the key has the required permissions for all of the resources that you want to scan. |
+| Amazon Web Services | Your AWS user credentials, API Access Key ID, and Secret Access Key. Your secret access key is a large binary encoded string. [Learn more](/docs/security-compliance?topic=security-compliance-permissions#amazon-permissions) about the specific permissions you can enable for AWS. |
+| Microsoft Azure | An Azure client ID (application ID), client secret (authentication key), tenant ID, and subscription ID. Additionally, you must provide the list of Resource Groups that are associated with the Subscription ID that is involved in the scan. [Learn more](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal#get-application-id-and-authentication-key){: external} about how to create your Azure credentials. You can find more information on the[specific permissions](/docs/security-compliance?topic=security-compliance-permissions#azure-permissions) you can enable for Azure. |
+| Google Cloud Platform | A Google Cloud Platform service account Authentication Key. [Find more information](https://cloud.google.com/iam/docs/creating-managing-service-account-keys){: external} about how to create an Authentication Key. [Learn more](/docs/security-compliance?topic=security-compliance-permissions#google-permissions) about the specific permissions you can enable for GCP Cloud. |
+| Database | The name of the database and the username and password that are needed to access it. |
+| Username - password | A username and password combination that is needed to gain access to an on-premises resource. |
+| Username - PEM | A username and password combination and PEM file that is needed to gain access to an on-premises resource. |
+| Windows authentication | A username and password combination. You must also provide the type of authentication that your credential is configured to provide. Options include Basic, Kerberos, and Negotiate. You can also choose whether to Use SSL by checking the **Use SSL** box. |
+{: caption="Table 1. Credential types and input information" caption-side="top"}
+
+
 
 ### Setting up the level of access for credentials 
 {: #credential-access}
@@ -119,10 +93,10 @@ Credentials are stored securely by using encryption and are not visible in clear
 ## Assigning specific permissions
 {: #additional-permissions}
 
-You can provide more granular access to your collector to scan your resources located in IBM Cloud, AWS, Azure, and Google Cloud Platform.
+You can provide more granular access to your collector to scan your resources located in {{site.data.keyword.cloud_notm}}, AWS, Azure, and Google Cloud Platform.
 {: shortdesc}
 
-### Specific permissions for IBM Cloud 
+### Specific permissions for {{site.data.keyword.cloud_notm}} 
 {: #ibm-permissions}
 
 You must assign your API key Viewer and Reader access to allow your collector to scan your resources that are located in {{site.data.keyword.cloud_notm}}.

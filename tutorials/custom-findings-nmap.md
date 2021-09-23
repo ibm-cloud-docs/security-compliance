@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-07-28"
+lastupdated: "2021-09-22"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -89,19 +89,18 @@ To get started with {{site.data.keyword.compliance_short}}, install the sample c
 
 1. Clone the following repository to use Nmap as an example or clone the repository for your own third-party tool or service. 
 
-  ```
-  https://github.com/ibm-cloud-security/security-advisor-nmap-integration.git
-  ```
-  {: codeblock}
+   ```
+   https://github.com/ibm-cloud-security/security-advisor-nmap-integration.git
+   ```
+   {: codeblock}
 
 2. Change into the directory on your local system.
-
 3. Install the dependencies that are needed to work with Nmap.
 
-  ```
-  npm install
-  ```
-  {: codeblock}
+   ```
+   npm install
+   ```
+   {: codeblock}
 
 
 ## Set your environment variables
@@ -112,23 +111,20 @@ In order for the executable to know where to display the findings, set your {{si
 {: shortdesc}
 
 1. Find your account ID by navigating to **Manage > Account > Account Settings**. Your ID is listed in the account information.
-
 2. Obtain an {{site.data.keyword.cloud_notm}} API key. For more information about IAM, see the [documentation](/docs/account?topic=account-access-getstarted).
-
-  1. In the {{site.data.keyword.cloud_notm}} console, click **Manage > Access (IAM)**.
-  2. Select **{{site.data.keyword.cloud_notm}} API keys**.
-  3. Click **Create an {{site.data.keyword.cloud_notm}} API key**
-  4. Give your key a name and describe it. Click **Create**. A screen displays with your key.
-  5. Click **Copy** or **Download** your key. When you close the screen, you can no longer access the key.
- 
+   1. In the {{site.data.keyword.cloud_notm}} console, click **Manage > Access (IAM)**.
+   2. Select **{{site.data.keyword.cloud_notm}} API keys**.
+   3. Click **Create an {{site.data.keyword.cloud_notm}} API key**
+   4. Give your key a name and describe it. Click **Create**. A screen displays with your key.
+   5. Click **Copy** or **Download** your key. When you close the screen, you can no longer access the key.
 3. Set the following variables by using the command line.
 
-  ```
-  export apiKey= <apiKey>
-  export accountID= <accountID>
-  export region= <region>
-  ```
-  {: codeblock}
+   ```
+   export apiKey= <apiKey>
+   export accountID= <accountID>
+   export region= <region>
+   ```
+   {: codeblock}
 
   <table>
   <caption>Table 2. Understanding the commands variables</caption>

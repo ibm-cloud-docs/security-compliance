@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-13"
+lastupdated: "2021-09-22"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -63,29 +63,28 @@ Before you get started, be sure that you have the required level of access to vi
 To create a new credential, you can use the {{site.data.keyword.compliance_short}} UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Configure > Settings > Credentials**.
+2. In the navigation, click **Configure > Credentials**.
 3. Click **Create**.
 4. Give your credential a meaningful name and a description.
 5. Select a purpose for your credential. Options include **Discovery/Collection**, **Remediation**, or **Both**.  
 6. Click **Next**.
 7. Choose a **Credential type** from the following options:
 
-  * AWS Cloud
-  * Azure Cloud
-  * GCP Cloud
-  * IBM Cloud
-  * Database
-  * Username - password
-  * Username - PEM
-  * Windows authentication
+   * AWS Cloud
+   * Azure Cloud
+   * GCP Cloud
+   * IBM Cloud
+   * Database
+   * Username - password
+   * Username - PEM
+   * Windows authentication
 
-  The type of credential that you create depends on the type of resources that you want to scan.
-  {: note}
+   The type of credential that you create depends on the type of resources that you want to scan.
+   {: note}
 8. Add the access information. Depending on the type of credential that you selected in step 4, the options on the page change. To learn more about what information you need to input depending on the type of credential that you selected, see [what are the required permissions?](/docs/security-compliance?topic=security-compliance-permissions)
 
-  The level of access that your credentials need depends upon the actions that you want the {{site.data.keyword.compliance_short}} to take. If you want to run scans only on your resources, you must provide credentials that provide the collector `read` access to your resources. [Learn more](/docs/security-compliance?topic=security-compliance-permissions#understand-credentials).
-  {: note}
-
+   The level of access that your credentials need depends upon the actions that you want the {{site.data.keyword.compliance_short}} to take. If you want to run scans only on your resources, you must provide credentials that provide the collector `read` access to your resources. [Learn more](/docs/security-compliance?topic=security-compliance-permissions#understand-credentials).
+   {: note}
 
 9. If a passphrase is configured, enter the passphrase. 
 10. Verify your information and click **Create**. The credential is added to a list of available credentials. 

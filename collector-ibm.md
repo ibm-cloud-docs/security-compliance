@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-14"
+lastupdated: "2021-09-22"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials, ibm managed collector, ibm managed
 
@@ -85,18 +85,18 @@ To learn more about updating your IP address settings, see [Allowing specific IP
 You can use the {{site.data.keyword.compliance_short}} UI to create a collector by completing the following steps.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Manage posture > Configure > Settings > Collectors**.
+2. In the navigation, click **Manage posture > Configure > Collectors**.
 3. Click **Create**.
 4. Give your collector a name and description.
 
-  It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
+   It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
 
 5. If you have a passphrase enabled, the **Existing passphrase** field displays. Enter your passphrase. If you do not have a passphrase enabled, the field will not display.
 6. Click **Next**.
 7. In the **Managed by** field, select **IBM**.
 8. By default, the **Private** endpoint type is selected.
 
-  A collector requires constant communication with the service to validate your current posture. By default, a private endpoint is used for communication in all IBM managed collectors.
+   A collector requires constant communication with the service to validate your current posture. By default, a private endpoint is used for communication in all IBM managed collectors.
 
 9. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
 

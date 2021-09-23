@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-12"
+lastupdated: "2021-09-22"
 
 keywords: goals, parameters, customize parameters, customize goals, security and compliance,
 
@@ -69,7 +69,7 @@ To update the default parameters for the goals that you use, you can use the {{s
 4. Click the **Edit parameters** icon.
 5. From the list of profiles, click the name of the profile that you want to update.
 
-    Each table row expands so that you can review the configuration information of each profile. 
+   Each table row expands so that you can review the configuration information of each profile. 
 6. To save your changes, click **Update**.
 
 If you make an accidental change, you can click **Revert** to return all of the profiles back to default.

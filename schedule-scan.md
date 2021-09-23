@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-23"
+lastupdated: "2021-09-22"
 
 keywords: scans, compliance, schedule scan, create scan, discovery, validation, fact collection, fact validation
 
@@ -147,7 +147,7 @@ To check to see if the computer has `WinRM` enabled, check if the HTTPS listener
 You can schedule a discovery or fact collection scan by using the {{site.data.keyword.compliance_short}} UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Assess > Scans > Scheduled scans**. 
+2. In the navigation, click **Configure > Scans > Scheduled scans**. 
 3. Click **Schedule**. A side panel opens.
 4. Give your scan a name and description.
 5. Select **Discovery** or **Fact collection**.
@@ -164,38 +164,28 @@ You can schedule a discovery or fact collection scan by using the {{site.data.ke
 
 You can schedule a validation scan by using the {{site.data.keyword.compliance_short}} UI.
 
+Running a scan against a specific profile does not ensure regulatory compliance. The scan is intended to provide a point in time statement of your current posture for a specific group of resources.
+{: important}
+
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Assess > Scans > Scheduled scans**. 
+2. In the navigation, click **Configure > Scans > Scheduled scans**. 
 3. Click **Create**. A side panel opens.
 4. Give your scan a name and description.
 5. Select **Validation**.
 6. Select a scope.
 7. Select the profile that you want to use validate compliance.
 
-    Be sure to select a profile that is applicable to your scope. For example, if you select an IBM scope but use an AWS profile to validate it, no results are returned as part of your scan.
+   Be sure to select a profile that is applicable to your scope. For example, if you select an IBM scope but use an AWS profile to validate it, no results are returned as part of your scan.
 
 8. Click **Next**.
 9. If you selected an AWS or Azure scope, set your remediation preference.
 
-  <table>
-    <caption>Table 2. Remediation types</caption>
-    <tr>
-      <th>Remediation type</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td>None</td>
-      <td>There is no remediation configuration in place.</td>
-    </tr>
-    <tr>
-      <td>Approved</td>
-      <td>The service must wait for approval from a user before the remediation is run.</td>
-    </tr>
-    <tr>
-      <td>Automatic</td>
-      <td>The service runs remediation immediately.</td>
-    </tr>
-  </table>
+   | Remediation type | Description |
+   | --------- | ----------- |
+   | None | There is no remediation configuration in place. |
+   | Approved | The service must wait for approval from a user before the remediation is run. |
+   | Automatic | The service runs remediation immediately. |
+   {: caption="Table 2. Remediation types" caption-side="top"}
 
 10. Select the frequency at which you want the scan to run.
 11. Select when you want the scan to stop. Options include never, a specific number of scans, or on a set date.

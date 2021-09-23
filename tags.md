@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-17"
+lastupdated: "2021-09-22"
 
 keywords: mapping tags, compliance, security, tiered architecture
 
@@ -59,34 +59,14 @@ Tags are platform level labels used by the Security and Compliance Center to gui
 5. Optional: Give your tag a description.
 6. Select the tag that aligns with your architecture tier.
 
-  <table>
-    <caption>Table 1. Understanding tag mapping</caption>
-    <tr>
-      <th>Tier mapping</th>
-      <th>Definition</th>
-      <th>Commonly used terms</th>
-    </tr>
-    <tr>
-      <td>Web tier</td>
-      <td>The web tier of your deployment architecture is generally written in HTML, CSS, or JavaScript and is presented to a user through a web browser or application.</td>
-      <td>Front end, web, browser, client, or presentation.</td>
-    </tr>
-    <tr>
-      <td>App tier</td>
-      <td>The app tier of your deployment architecture is written in a programming language, such as Java or Go, and contains the business logic that supports your application's core function.</td>
-      <td>Logic, core, application, backend, or APIs.</td>
-    </tr>
-    <tr>
-      <td>DB tier</td>
-      <td>The database tier of your deployment architecture consists of a database and the system that is used to manage it, such as MySQL or MongoDB.</td>
-      <td>Server, storage, or database.</td>
-    </tr>
-    <tr>
-      <td>Data tier</td>
-      <td>The data tier of your deployment architecture consists of application storage that might not be specific to a database or communication port.</td>
-      <td>Storage or log files.</td>
-    </tr>
-  </table>
+   | Tier mapping | Definition | Commonly used terms |
+   | --------- | ----------- |
+   | Web tier | The web tier of your deployment architecture is generally written in HTML, CSS, or JavaScript and is presented to a user through a web browser or application. | Front end, web, browser, client, or presentation. |
+   | App tier | The app tier of your deployment architecture is written in a programming language, such as Java or Go, and contains the business logic that supports your application's core function. | Logic, core, application, backend, or APIs. |
+   | DB tier | The database tier of your deployment architecture consists of a database and the system that is used to manage it, such as MySQL or MongoDB. | Server, storage, or database. |
+   | Data tier | The data tier of your deployment architecture consists of application storage that might not be specific to a database or communication port. | Storage or log files. |
+   {: caption="Table 1. Understanding tag mapping" caption-side="top"}
+
 7. Click **Save**.
 
 

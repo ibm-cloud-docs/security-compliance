@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-13"
+lastupdated: "2021-09-22"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -99,23 +99,13 @@ You can also choose to edit or delete an existing entry if you made a mistake or
 6. Select the **Remediation Credential**, if applicable. 
 7. Provide a path to an IP address, machine, or resource that you want to access with your selected credential in the **Resource** field. If you are using Activity Tracker, Virtual Private Cloud, or a proxy server that uses an IP address, complete the steps in the following table, based on the appropriate scenario.
 
-  <table>
-    <caption>Table 1. Mapping additional credentials to a scope based on specific scenarios</caption>
-    <tr>
-      <th>Scenario</th>
-      <th>Resource Specification</th>
-    </tr>
-    <tr>
-      <td>Activity Tracker</td>
-      <td><code>AT=service_key</code></td>
-    <tr>
-      <td>Virtual Private Cloud (VPC)</td>
-      <td><code>VPC=testing-vpc</code></td>
-    </tr>
-    <tr>
-      <td>Proxy IP</td>
-      <td><code>IP=123.45.67.89</code></td>
-  <table>
+   | Scenario | Resource specification |
+   |:-------|:---------|
+   | Activity Tracker | `AT=service_key` |
+   | Virtual Private Cloud (VPC) | `VPC=testing-vpc` |
+   | Proxy IP | `IP=123.45.67.89` |
+   {: caption="Table 1. Resource specific path inputs" caption-side="top"}
 
 8. Select a **Proxy**, if applicable.
 9. Click **Add**.
+

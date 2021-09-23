@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-07-29"
+lastupdated: "2021-09-22"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -78,7 +78,7 @@ IBM-managed collectors are created on IBM-owned infrastructure and are maintaine
 {: note}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. On the **Configure > Settings > Collectors** page of the {{site.data.keyword.compliance_short}}, click **Create**.
+2. On the **Configure > Collectors** page of the {{site.data.keyword.compliance_short}}, click **Create**.
 3. Give your collector a name and description.
 
   It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
@@ -100,7 +100,7 @@ When your collector is ready, the status updates to **Active**.
 
 The credentials that you add to the service must allow the collector to read your resource configurations.
 
-2. In the navigation, click **Configure > Settings > Credentials**.
+2. In the navigation, click **Configure > Credentials**.
 3. Click **Create**.
 4. Give your credential a meaningful name and description.
 5. Select **Discovery/Collection**.

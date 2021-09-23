@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2021
-lastupdated: "2021-08-23"
+lastupdated: "2021-09-22"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -75,10 +75,10 @@ Before you can get started with registry, be sure that you have the following CL
 * [The {{site.data.keyword.cloud_notm}} CLI)](/docs/cli/reference/ibmcloud?topic=cli-install-ibmcloud-cli)
 * The Container Registry plug-in.
 
-  ```
-  ibmcloud plugin install container-registry
-  ```
-  {: codeblock}
+   ```
+   ibmcloud plugin install container-registry
+   ```
+   {: codeblock}
 
 
 ### Creating a namespace
@@ -86,39 +86,38 @@ Before you can get started with registry, be sure that you have the following CL
 
 1. Log in to your account by using the CLI.
 
-  ```
-  ibmcloud login --sso
-  ```
-  {: codeblock}
+   ```
+   ibmcloud login --sso
+   ```
+   {: codeblock}
 
 2. Log in to {{site.data.keyword.registryshort}}.
 
-  ```
-  ibmcloud cr login
-  ```
-  {: codeblock}
+   ```
+   ibmcloud cr login
+   ```
+   {: codeblock}
 
 3. Optional: Create a namespace. You can always use an existing one.
 
-  ```
-  ibmcloud cr namespace-add
-  ```
-  {: codeblock}
+   ```
+   ibmcloud cr namespace-add
+   ```
+   {: codeblock}
 
 3. Tag an image.
 
-  ```
-  docker tag <image>:<tag> <region>.icr.io/<namespace>/<image>:<tag>
-  ```
-  {: codeblock}
+   ```
+   docker tag <image>:<tag> <region>.icr.io/<namespace>/<image>:<tag>
+   ```
+   {: codeblock}
 
 5. Push the image.
 
-  ```
-  docker push <region>.icr.io/<namespace>/<image>:<tag>
-  ```
-  {: codeblock}
-
+   ```
+   docker push <region>.icr.io/<namespace>/<image>:<tag>
+   ```
+   {: codeblock}
 
 After you push images to your {{site.data.keyword.registryshort}} namespace, information about any vulnerabilities found is shown in the **Images with Vulnerabilities** card in the service dashboard. You can also drill down into specific images to find out more information, such as a description of all of the identified vulnerabilities and configuration issues.
 

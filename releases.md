@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-09-02"
+lastupdated: "2021-09-16"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -51,6 +51,27 @@ Use these release notes to learn about the latest updates to {{site.data.keyword
 {:shortdesc}
 
 
+
+## 15 September 2021
+{: #2021-09-15}
+
+This release includes the following updates.
+
+### Next version (v0.1.2) of IBM Cloud for Financial Services profile
+{: #2021-09-15-goals}
+
+Released today, the next version (v0.1.2) of IBM Cloud for Financial Services profile is added with new goals and new controls. The goals and controls mapping are given below:
+* Goal ID: `3000039` mapped to the controls AC-2(i) and AC-2(1)
+* Goal ID: `3000040` mapped to the control AC-2(3)
+* Goal ID: `3000045` mapped to the control CM-6(a)
+* Goal ID: `3000438` mapped to the controls SC-13 and SC-28
+* Goal ID: `3000439` mapped to the controls SC-13 and SC-28
+* Goal ID: `3000440` mapped to the controls SC-13 and SC-28
+* Goal ID: `3000901` mapped to the controls CM-8(3)(a), RA-5(a), SI-2(2) and SI-7(1)
+* Goal ID: `3000902` mapped to the controls AC-4, CM-2, SC-7, SC-7(3) and SC-7(5)
+* Goal ID: `3000903` mapped to the controls AC-4 and SC-12
+* Goal ID: `3000906` mapped to the controls AC-17(2), SC-8, SC-8(1), SC-13 and SC-23
+* Goal ID: `3000907` mapped to the controls CM-2, CM-7(a), CM-8(1), CM-8(3)(a), SA-3(a) and SI-2(2)
 
 ## 02 September 2021
 {: #2021-09-02}

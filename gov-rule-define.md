@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-26"
+lastupdated: "2021-09-22"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -67,7 +67,7 @@ Before you get started, be sure that you have the required level of access to vi
 
 You can use the {{site.data.keyword.compliance_short}} UI to define the rules that you want to enforce or monitor for your {{site.data.keyword.cloud_notm}} resources. To create rules by using the {{site.data.keyword.cloud_notm}} console:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and Compliance**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
 2. In the navigation, click **Configure rules**.
 3. Click **Create**.
 4. Give your rule a meaningful name and description.
@@ -80,68 +80,43 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the rules th
 
    ```json
    {
-     "target": {
-       "service_name": "cloud-object-storage",
-       "resource_kind": "bucket",
-       "additional_target_attributes": [
+      "target": {
+         "service_name": "cloud-object-storage",
+         "resource_kind": "bucket",
+         "additional_target_attributes": [
          {
-           "name": "resource_id",
-           "operator": "string_equals",
-           "value": "My_bucket"
+            "name": "resource_id",
+            "operator": "string_equals",
+            "value": "My_bucket"
          }
-       ]
-     },
-     "required_config": {
-       "description": "Check whether my bucket is accessible by using only private endpoints.",
-       "and": [
+         ]
+      },
+      "required_config": {
+         "description": "Check whether my bucket is accessible by using only private endpoints.",
+         "and": [
          {
-           "property": "firewall.allowed_network_type",
-           "operator": "strings_in_list",
-           "value": [
-             "private"
-           ]
+            "property": "firewall.allowed_network_type",
+            "operator": "strings_in_list",
+            "value": [
+               "private"
+            ]
          }
-       ]
-     }
+         ]
+      }
    }
    ```
    {: screen}
-  
-   <table>
-     <tr>
-       <th>Parameter</th>
-       <th>Description</th>
-     </tr>
-     <tr>
-       <td><code>service_name</code></td>
-       <td>The service that you want to target with your rule. You select this field from a drop-down and it is automatically populated in your definition.</td>
-     </tr>
-     <tr>
-       <td><code>resource_kind</code></td>
-       <td>A specific part of the service that you want to target.</td>
-     </tr>
-     <tr>
-       <td><code>additional_target_attributes</code></td>
-       <td>An extra qualifier for the type of resource that you selected.</td>
-     </tr>
-     <tr>
-       <td><code>operator</code></td>
-       <td><p>The way in which an additional target attribute or property is evaluated against the specified value. For a full list of operators, see [Supported operators](/docs/security-compliance?topic=security-compliance-formatting-rules-templates#rule-operators).</p></td>
-     </tr>
-     <tr>
-       <td><code>value</code></td>
-       <td><p>The way in which you want to apply your attribute or property. Value options differ depending on the rule that you configure. If you use a boolean operator, you do not need to include a value.</td>
-     </tr>
-     <tr>
-       <td><code>required_config</code></td>
-       <td><p>The requirements that must be met to determine the your resources level of compliance in accordance with the rule.</p><p>You can use logical operators (<code>and</code>/<code>or</code>) to define multiple property checks and conditions. To define requirements for a rule, list one or more property check objects in the <code>and</code> array. To add conditions to a property check, use <code>or</code>. For more information about defining a rule with multiple conditions, see [How do properties work?](/docs/security-compliance?topic=security-compliance-formatting-rules-templates#properties)</p></td>
-     </tr>
-     <tr>
-       <td><code>property</code></td>
-       <td>The individual resource configuration variable that follows the syntax <code>property_name</code>. Options are dependent upon the target that you choose and can be found in the UI.</td>
-     </tr>
-   </table>
-   
+
+   | Parameter | Description |
+   | --------- | ----------- |
+   | `service_name` | The service that you want to target with your rule. You select this field from a drop-down and it is automatically populated in your definition. |
+   | `resource_kind` | A specific part of the service that you want to target. |
+   | `additional_target_attributes` | An extra qualifier for the type of resource that you selected. |
+   | `operator` | The way in which an additional target attribute or property is evaluated against the specified value. For a full list of operators, see [Supported operators](/docs/security-compliance?topic=security-compliance-formatting-rules-templates#operators). |
+   | `value` | The way in which you want to apply your attribute or property. Value options differ depending on the rule that you configure. If you use a boolean operator, you do not need to include a value. |
+   | `required_config` | The requirements that must be met to determine the your resources level of compliance in accordance with the rule. You can use logical operators (`and`/`or`) to define multiple property checks and conditions. To define requirements for a rule, list one or more property check objects in the `and` array. To add conditions to a property check, use `or`. For more information about defining a rule with multiple conditions, see [Available properties](/docs/security-compliance?topic=security-compliance-formatting-rules-templates#properties). |
+   | `property` | The individual resource configuration variable that follows the syntax `property_name`. Options are dependent upon the target that you choose and can be found in the UI. |
+   {: caption="Table 1. Rule parameters" caption-side="top"}
 
 9. If the rule is enforceable and you want to ensure it can't be broken, toggle enforcement to **On**.
 10. Click **Next**.

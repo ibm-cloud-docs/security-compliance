@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2017, 2021
-lastupdated: "2021-08-23"
+lastupdated: "2021-09-22"
 keywords:
 subcollection: security-compliance
 ---
@@ -55,16 +55,18 @@ With Security Insights, you can continuously monitor and analyze your {{site.dat
 
 ![The diagram shows the components of Security Insights](images/insights.svg){: caption="Figure 1. A visual representation of the components of Security Insights." caption-side="bottom"}
 
-<dl>
-  <dt>Activity Insights</dt>
-    <dd>By comparing user activity that is logged by {{site.data.keyword.at_short}} against predefined rule packages, you can identify suspicious behavior as it relates to your {{site.data.keyword.cloud_notm}} resources, which can help to prevent malicious attacks on your applications.</dd>
-  <dt>Network Insights</dt>
-    <dd>By monitoring and analyzing your VPC flow logs, you can identify suspicious behavior through your the network communication between your VPC interfaces. For example, you can identify Virtual Server Instances that might be compromised or attempts to compromise your VSIs.</dd>
-  <dt>Custom insights</dt>
-    <dd>To view all of your security alerts in one place, you can integrate your own security tools with the {{site.data.keyword.compliance_short}} by using the Findings API.</dd>
-  <dt>Business partners</dt>
-    <dd>If you work with one of our business partners such as Caveonix, Twistlock, or NeuVector, you can easily integrate your findings with the {{site.data.keyword.compliance_short}} to further assess the risk and compliance posture of your workloads that are deployed on IBM Cloud.</dt>
-</dl>
+
+Activity Insights
+:  By comparing user activity that is logged by {{site.data.keyword.at_short}} against predefined rule packages, you can identify suspicious behavior as it relates to your {{site.data.keyword.cloud_notm}} resources, which can help to prevent malicious attacks on your applications.
+
+Network Insights
+:  By monitoring and analyzing your VPC flow logs, you can identify suspicious behavior through your the network communication between your VPC interfaces. For example, you can identify Virtual Server Instances that might be compromised or attempts to compromise your VSIs.
+
+Custom insights
+:  To view all of your security alerts in one place, you can integrate your own security tools with the {{site.data.keyword.compliance_short}} by using the Findings API.
+
+Business partners
+:  If you work with one of our business partners such as Caveonix, Twistlock, or NeuVector, you can easily integrate your findings with the {{site.data.keyword.compliance_short}} to further assess the risk and compliance posture of your workloads that are deployed on {{site.data.keyword.cloud_notm}}.
 
 
 ## What classifies as suspicious activity?

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-14"
+lastupdated: "2021-09-22"
 
 keywords: config rules, config properties, scc integrated services, 
 
@@ -55,7 +55,7 @@ As a security or compliance focal, you are responsible for ensuring that the res
 Ready to get started? Review the following tables and then see [Formatting rules and templates](/docs/security-compliance?topic=security-compliance-formatting-rules-templates) to learn more about how to construct your rule. Want to learn more about your options? Check out [What is Configuration Governance?](/docs/security-compliance?topic=security-compliance-what-is-governance).
 
 
-## Billing Composite Service
+## Billing Composite Service 
 {: #billing-properties}
 
 Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to BSS Billing Composite Service. If you're using the API to define your rule, use `billing` for the service name.
