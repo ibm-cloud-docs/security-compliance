@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-07-12"
+lastupdated: "2021-09-23"
 
 keywords: Centralized security, tanium, compliance monitoring, compliance, 
 
@@ -200,7 +200,7 @@ A profile is added to your list of available profiles that contains the goals th
 
 When your scan is complete, you can return the {{site.data.keyword.compliance_short}} UI to view your results.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. Navigate to **Manage posture > Assess > Scans**.
 3. Click the name of the scan that corresponds to your Tanium results. 
 
