@@ -8,9 +8,9 @@ toc:
     product-page: https://ibm.com/cloud/security-and-compliance-center
     path: security-compliance
     label: Security and Compliance Center
-​
-  entries: 
-  - navgroup: 
+
+  entries:
+  - navgroup:
       id: learn
       topics:
       - getting-started.md
@@ -23,8 +23,8 @@ toc:
             navtitle: Documentation requirements
           - internal/onboard-faq.md
       - releases.md
-​
-  - navgroup: 
+
+  - navgroup:
       id: tutorial
       topics: 
       - topicgroup: 
@@ -34,8 +34,8 @@ toc:
           - tutorials/monitor-ibm-customer-collector.md
       - tutorials/custom-findings-nmap.md
       - tutorials/ni-alerts.md
-​
-  - navgroup: 
+
+  - navgroup:
       id: howto
       topics:
       - topicgroup: 
@@ -49,19 +49,19 @@ toc:
               - credentials-manage.md
               - credentials-mapping.md
               - credentials-security.md
-        - topicgroup:
-            label: Discovering resources and configurations
-            topics:
-            - collector-what-is.md
-            - collector-ibm.md
-            - collector-customer.md
-            - inventory.md
-        - topicgroup:
-            label: Defining your compliance checks
-            topics:
-            - profile-what-is.md
-            - profile-custom.md
-            - customize-goals.md
+          - topicgroup:
+              label: Discovering resources and configurations
+              topics:
+              - collector-what-is.md
+              - collector-ibm.md
+              - collector-customer.md
+              - inventory.md
+          - topicgroup:
+              label: Defining your compliance checks
+              topics:
+              - profile-what-is.md
+              - profile-custom.md
+              - customize-goals.md
       - topicgroup: 
           label: Monitoring your resources
           topics:
@@ -129,11 +129,11 @@ toc:
 
   - navgroup:
       id: reference
-      topics: 
+      topics:
       - topicgroup:
           label: API and SDK references
+          topics:
           - api-setup.md
-          links:
           - link:
               label: Admin
               href: https://{DomainName}/apidocs/security-compliance/admin
@@ -144,14 +144,14 @@ toc:
               label: Posture Management
               href: https://{DomainName}/apidocs/security-compliance/compliance
           - topicgroup:
-          label: Security Insights
-          links:
-          - link:
-              label: Findings
-              href: https://{DomainName}/apidocs/security-compliance/findings
-          - link:
-              label: Notifications
-              href: https://{DomainName}/apidocs/security-compliance/si-notifications
+              label: Security Insights
+              links:
+              - link:
+                  label: Findings
+                  href: https://{DomainName}/apidocs/security-compliance/findings
+              - link:
+                  label: Notifications
+                  href: https://{DomainName}/apidocs/security-compliance/si-notifications
       - topicgroup: 
           label: Available security checks
           topics:
@@ -165,7 +165,7 @@ toc:
       - locations.md
       - topic: framework/ha-dr.md
         navtitle: Understanding HA / DR           
-​
+
   - navgroup:
       id: help
       topics:
