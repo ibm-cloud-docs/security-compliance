@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-07-22"
+lastupdated: "2021-09-23"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection, vpc, flow logs, flow log alerts, findings, network insights
 
@@ -114,7 +114,7 @@ Now that you've started collecting your Flow Logs to Cloud Object Storage, you c
 
 To start receiving alerts for potential issues related to your VPC FLow Logs, you can configure an alert channel by using the GUI. If you prefer to work with the API, see [Configuring alerts](/docs/security-compliance?topic=security-compliance-notifications).
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Alerts**.
 3. Click **Create**.
 4. Provide a name and meaningful description for your channel.
