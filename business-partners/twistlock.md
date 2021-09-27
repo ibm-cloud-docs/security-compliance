@@ -47,7 +47,7 @@ subcollection: security-compliance
 # Connecting Twistlock
 {: #setup-twistlock}
 
-You can prevent risk by stopping the deployment of vulnerable images in your environment. With automated and custom policy enforcement, [Twistlock](https://www.paloaltonetworks.com/ ){: external} offers complete control at every stage of the application lifecycle.
+You can prevent risk by stopping the deployment of vulnerable images in your environment. With automated and custom policy enforcement, [Twistlock](https://www.paloaltonetworks.com){: external} offers complete control at every stage of the application lifecycle.
 {: shortdesc}
 
 When you connect Twistlock, two insights cards are created in the {{site.data.keyword.compliance_short}} that summarize the findings that are identified.
