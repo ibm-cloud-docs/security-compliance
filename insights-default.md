@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-09-27"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -61,7 +61,6 @@ Although you do not have to do anything to create the connection between the {{s
 {: #setup-images}
 
 With {{site.data.keyword.registryshort}}, you have access to Vulnerability Advisor, which continuously scans the images in your {{site.data.keyword.registryshort}} instance for potential security issues. If issues are found, you are alerted and can view a comprehensive report in your {{site.data.keyword.compliance_short}} dashboard.
-{:shortdesc}
 
 Learn more about [{{site.data.keyword.registryshort}}](/docs/Registry?topic=Registry-getting-started).
 
@@ -126,7 +125,7 @@ After you push images to your {{site.data.keyword.registryshort}} namespace, inf
 {: #setup-certificates}
 
 By integrating {{site.data.keyword.cloudcerts_short}} and {{site.data.keyword.compliance_short}}, you can get alerts in advance about your certificates expiry which can help prevent a service or application outage.
-{:shortdesc}
+
 
 Depending on the expiration data of the certificate that you upload to {{site.data.keyword.cloudcerts_short}}, the findings appear in the {{site.data.keyword.compliance_short}} dashboard 90, 60, 10, and 1 day before the certificate expires. In addition, you receive daily notifications about expired certificates. The daily notifications start the day after your certificate expires.
 

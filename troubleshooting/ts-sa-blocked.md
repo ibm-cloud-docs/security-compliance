@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-26"
+lastupdated: "2021-09-27"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -51,7 +51,7 @@ content-type: troubleshoot
 {: troubleshoot}
 
 You are blocked from accessing the API endpoint: `secadvisor.cloud.ibm.com`.
-{:shortdesc}
+{: shortdesc}
 
 When you create a new card by specifying it as a note type, you encounter the following error.
 {: tsSymptoms}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-09-27"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -51,7 +51,7 @@ content-type: troubleshoot
 {: troubleshoot}
 
 You encounter an issue that you cannot fix and you want to contact the support team.
-{:shortdesc}
+{: shortdesc}
 
 If you encounter an issue that you cannot fix while you work with the {{site.data.keyword.compliance_short}} dashboard, contact the [IBM Cloud support team](https://www.ibm.com/cloud/support){: external}.
 

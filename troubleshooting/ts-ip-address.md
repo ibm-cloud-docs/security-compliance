@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-14"
+lastupdated: "2021-09-27"
 
 keywords: support, help, stack overflow, slack, IP address is not permitted, managed collector, IP addresses
 
@@ -52,7 +52,7 @@ content-type: troubleshoot
 {: support}
 
 You schedule a scan of your resources, but the collector is unable to complete the task.
-{:shortdesc}
+{: shortdesc}
 
 When you run a scan, you encounter the following error:
 {: tsSymptoms}

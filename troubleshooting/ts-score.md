@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-27"
+lastupdated: "2021-09-27"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -51,7 +51,7 @@ content-type: troubleshoot
 {: troubleshoot} 
 
 Your compliance score changed but you did not make any changes to your resources.
-{:shortdesc}
+{: shortdesc}
 
 You notice that your compliance score has changed, but you haven't made any changes to your resource configurations or your posture management configurations.
 {: tsSymptoms} 

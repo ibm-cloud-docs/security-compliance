@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-05-26"
+lastupdated: "2021-09-27"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -52,7 +52,7 @@ content-type: troubleshoot
 {: support}
 
 You deleted a resource but you still see its results.
-{:shortdesc}
+{: shortdesc}
 
 You deleted a resource, but you're still seeing results for it in your dashboard.
 {: tsSymptoms}

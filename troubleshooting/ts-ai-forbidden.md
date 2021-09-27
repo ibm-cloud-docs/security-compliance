@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-26"
+lastupdated: "2021-09-27"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -51,7 +51,7 @@ content-type: troubleshoot
 {: troubleshoot}
 
 You are forbidden from installing Activity Insights in a specific namespace.
-{:shortdesc}
+{: shortdesc}
 
 When you attempt to install Activity Insights, you encounter the following error.
 {: tsSymptoms}
