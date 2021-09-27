@@ -149,7 +149,7 @@ Now that your data is prepared to export on a schedule, you can create a scope
 6. Review your scope's configuration and click **Create**.
 7. On your scope details page, you see a URL. By using the API key that was generated when you registered your integration, run the POST request to import your data. Your request should look similar to the following example.
 
-   ```
+   ```sh
    curl -X POST "https://<region>.compliance.cloud.ibm.com/exchangeprotocol/v1/scope/<scope_id>/results?account_id=<account_id>&result_type=VALIDATION" -H 'Authorization: Bearer <IAM_token>' -H 'Content-type: application/json'
    ```
    {: codeblock}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-09-27"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection, alerts, callback URL, compliance, standards, roles, notification channel, verify payload, public key
 
@@ -120,7 +120,7 @@ You can create up to 15 channels.
    5. Click **Copy** or **Download** your key. When you close the screen, you can no longer access the key.
    6. Make the following cURL request with the API key that you created.
 
-      ```
+      ```sh
       curl -k -X POST \
       --header "Content-Type: application/x-www-form-urlencoded" \
       --header "Accept: application/json" \
@@ -132,7 +132,7 @@ You can create up to 15 channels.
 
 2. Run the following cURL command.
 
-   ```
+   ```sh
    curl -x POST "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{account_id}/alerts/channels"
    -H "accept: application/json"
    -H "Authorization: Bearer <IAM_Token>"
@@ -182,7 +182,7 @@ You can create up to 15 channels.
 
    Example response:
 
-   ```
+   ```json
    {
       "channel_id": "323fc870-78992-8ffa-97572ffe0205",
       "statusCode": 200
@@ -219,7 +219,7 @@ When a notification is sent, you can use a public key to decrypt and verify the 
 
 Example payload:
 
-```
+```json
 {
    "findings":[
       {
@@ -317,7 +317,7 @@ You can obtain the public key by using the API.
    5. Click **Copy** or **Download** your key. When you close the screen, you can no longer access the key.
    6. Make the following cURL request with the API key that you created.
 
-      ```
+      ```sh
       curl -k -X POST \
       --header "Content-Type: application/x-www-form-urlencoded" \
       --header "Accept: application/json" \
@@ -329,7 +329,7 @@ You can obtain the public key by using the API.
 
 2. Download the public key.
 
-   ```
+   ```sh
    curl -X GET "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{Account_ID}/download_public_key" -H "accept: application/json" -H "Authorization: {IAM-token}"
    ```
    {: codeblock}
@@ -341,7 +341,7 @@ You can obtain the public key by using the API.
 
 Now that you have your public key, you can use [JWT](https://jwt.io/){: external} to decrypt and verify your payload. If you are working with Node.JS, your code snippet would look similar to the following.
 
-```
+```sh
 const jwt = require("jsonwebtoken");
 var decodedData = {}
 try {
@@ -394,7 +394,7 @@ Want to take a break from receiving alerts but don't want to delete your configu
    5. Click **Copy** or **Download** your key. When you close the screen, you can no longer access the key.
    6. Make the following cURL request with the API key that you created.
 
-      ```
+      ```sh
       curl -k -X POST \
       --header "Content-Type: application/x-www-form-urlencoded" \
       --header "Accept: application/json" \
@@ -406,14 +406,14 @@ Want to take a break from receiving alerts but don't want to delete your configu
 
 2. Obtain your channel ID.
 
-   ```
+   ```sh
    curl -X GET "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{ACCOUNT_ID}/alerts/channels" -H "accept: application/json" -H "Authorization: {IAM_BEARER_TOKEN}"
    ```
    {: codeblock}
 
 3. Delete the channel.
 
-   ```
+   ```sh
    curl -X DELETE "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{ACCOUNT_ID}/alerts/channels/{CHANNEL_ID}" -H "accept: application/json" -H "Authorization: {IAM_BEARER_TOKEN}"
    ```
    {: codeblock}

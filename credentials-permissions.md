@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-09-27"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -125,7 +125,7 @@ To scan resources located in AWS with the {{site.data.keyword.compliance_short}}
 
 You can also create a custom policy to read information that is related to Key AWS Management Service (KMS). You can use the following JSON to create the custom policy. 
 
-```
+```json
 {
   "Version": "2012-10-17",
   "Statement": {

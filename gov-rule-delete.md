@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-26"
+lastupdated: "2021-09-27"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -80,7 +80,7 @@ If you no longer need to use a rule, you can choose to delete it by using the {{
 
 If you no longer need to use a rule, you can choose to delete it by using the {{site.data.keyword.compliance_short}} APIs. The following example request deletes an existing rule.
 
-```bash
+```sh
 curl -X DELETE \
 "https://compliance.{DomainName}/config/v1/rules/<rule_ID> \
   -H 'Authorization: Bearer <access_token>'

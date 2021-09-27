@@ -72,9 +72,9 @@ Before you get started, be sure that you have the required level of access to vi
 
 Before you can get started with registry, be sure that you have the following CLIs and plug-ins installed:
 * [The {{site.data.keyword.cloud_notm}} CLI)](/docs/cli/reference/ibmcloud?topic=cli-install-ibmcloud-cli)
-* The Container Registry plug-in.
+* The Container Registry plug-in
 
-   ```
+   ```sh
    ibmcloud plugin install container-registry
    ```
    {: codeblock}
@@ -85,35 +85,35 @@ Before you can get started with registry, be sure that you have the following CL
 
 1. Log in to your account by using the CLI.
 
-   ```
+   ```sh
    ibmcloud login --sso
    ```
    {: codeblock}
 
 2. Log in to {{site.data.keyword.registryshort}}.
 
-   ```
+   ```sh
    ibmcloud cr login
    ```
    {: codeblock}
 
 3. Optional: Create a namespace. You can always use an existing one.
 
-   ```
+   ```sh
    ibmcloud cr namespace-add
    ```
    {: codeblock}
 
-3. Tag an image.
+4. Tag an image.
 
-   ```
+   ```sh
    docker tag <image>:<tag> <region>.icr.io/<namespace>/<image>:<tag>
    ```
    {: codeblock}
 
 5. Push the image.
 
-   ```
+   ```sh
    docker push <region>.icr.io/<namespace>/<image>:<tag>
    ```
    {: codeblock}

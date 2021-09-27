@@ -81,7 +81,7 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
 
    The type of credential that you create depends on the type of resources that you want to scan.
    {: note}
-   
+
 8. Add the access information. Depending on the type of credential that you selected in step 4, the options on the page change. To learn more about what information you need to input depending on the type of credential that you selected, see [what are the required permissions?](/docs/security-compliance?topic=security-compliance-permissions)
 
    The level of access that your credentials need depends upon the actions that you want the {{site.data.keyword.compliance_short}} to take. If you want to run scans only on your resources, you must provide credentials that provide the collector `read` access to your resources. [Learn more](/docs/security-compliance?topic=security-compliance-permissions#understand-credentials).
@@ -104,7 +104,7 @@ For more information about the associated status codes and the query and form re
 
 A successful `POST /posture/v1/credentials` response returns the unique ID of your credential, along with other metadata. If your credential was successfully created, your response might look similar to the following code snippet. 
 
-```bash
+```json
 {
   "credential_id": "63",
   "credential_name": "cred",

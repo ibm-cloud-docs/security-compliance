@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-09-27"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -92,7 +92,7 @@ By creating an attachment between a template and a scope, you can apply your cus
 
 The following example request creates an attachment between an existing template and a scope.
 
-```bash
+```sh
 curl -X POST \
 "https://compliance.{DomainName}/config/v1/templates/<template_ID>/attachments" \
   -H 'Authorization: Bearer <access_token>' \

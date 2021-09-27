@@ -127,7 +127,7 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
 5. Choose an endpoint option for your collector.
 
    By default, your collector connects to resources in your account by using a public endpoint. To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private endpoint**.
-   
+
 6. Click **Create**.
   
 When the collector is created successfully, the status updates to **Ready to install**.
@@ -145,7 +145,7 @@ Now that you have a collector, you can install it by completing the following st
 4. Download the `initiate_collector.sh` file.
 5. In terminal, log in to your virtual machine by using SSH.
 
-   ```
+   ```sh
    ssh root@<hostname_or_IP_address>
    ```
    {: codeblock}
@@ -153,21 +153,21 @@ Now that you have a collector, you can install it by completing the following st
 6. Be sure that you have the required software on your VSI and that it is up to date. If you're working with Ubuntu, you can use the following commands.
    1. Verify that your OS image is up to date. In Ubuntu, you can run the following command: 
 
-      ```
+      ```sh
       sudo apt-get update
       ```
       {: codeblock}
   
    2. If you don't have it already, install [Docker Compose](https://docs.docker.com/compose/install/){: external} by using the command for your OS.
 
-      ```
+      ```sh
       sudo apt-get install docker-compose
       ```
       {: codeblock}
 
    3. If you plan to use your collector to run on-premises resource scans, install [Nmap version 7.6 or higher](https://nmap.org/download.html){: external} by using the command for your OS. If you're working with Ubuntu, you can use the following command.
 
-      ```
+      ```sh
       sudo apt-get install nmap
       ```
       {: codeblock}
@@ -176,7 +176,7 @@ Now that you have a collector, you can install it by completing the following st
    1. Locally, open the **initiate_collector.sh** file that you downloaded and copy its contents.
    2. From your command line, open the VIM editor.
 
-      ```
+      ```sh
       vi initiate_collector.sh
       ```
       {: codeblock}
@@ -189,14 +189,14 @@ Now that you have a collector, you can install it by completing the following st
 
 8. Change the permissions of the `initiate_collector.sh` file to allow it to run.
 
-   ```
+   ```sh
    chmod +x initiate_collector.sh
    ```
    {: codeblock}
 
 9. Install the collector by running the following command and then answering the following prompts as they are asked. 
 
-   ```
+   ```sh
    ./initiate_collector.sh
    ```
    {: codeblock}
@@ -213,14 +213,14 @@ Now that you have a collector, you can install it by completing the following st
 
 9. Confirm that everything is installed.
 
-   ```
+   ```sh
    docker ps
    ```
    {: codeblock}
 
    Your output looks similar to the following example.
 
-   ```
+   ```xml
    CONTAINER ID      IMAGE                                                 COMMAND                   CREATED           STATUS             PORTS               NAMES
    d7884888ec15      us.icr.io/posture-management/compliance-collector:8495ece54142      "sh -c '/usr/local/b_"    10 seconds ago    Up 9 seconds     ASAP-vjdemoibmcloud
    6f76237c39c8      us.icr.io/posture-management/compliance-watchtower:8495ece54142     "/watchtower --clean_"    10 seconds ago    Up 1 seconds     watch-collectors

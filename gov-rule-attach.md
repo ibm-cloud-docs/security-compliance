@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-09-27"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -89,7 +89,7 @@ By creating an attachment between a rule and a scope, you can monitor the resour
 
 The following example request creates an attachment between an existing rule and a scope.
 
-```bash
+```sh
 curl -X POST \
 "https://compliance.{DomainName}/config/v1/rules/<rule_ID>/attachments" \
   -H 'Authorization: Bearer <access_token>' \
