@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-07-22"
+lastupdated: "2021-09-27"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -47,7 +47,7 @@ subcollection: security-compliance
 # Connecting Twistlock
 {: #setup-twistlock}
 
-You can prevent risk by stopping the deployment of vulnerable images in your environment. With automated and custom policy enforcement, [Twistlock](https://www.twistlock.com){: external} offers complete control at every stage of the application lifecycle.
+You can prevent risk by stopping the deployment of vulnerable images in your environment. With automated and custom policy enforcement, [Twistlock](https://www.paloaltonetworks.com){: external} offers complete control at every stage of the application lifecycle.
 {: shortdesc}
 
 When you connect Twistlock, two insights cards are created in the {{site.data.keyword.compliance_short}} that summarize the findings that are identified.
