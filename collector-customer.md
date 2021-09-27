@@ -66,7 +66,7 @@ To manually install a collector, you must have access to a server. That server m
 
 | Machine type | Minimum requirement | 
 |:-------------|:--------------------|
-| Virtual | **Image:** Red Hat Enterprise Linux, CentOS, or Ubuntu 18.x </br>**Profile:** <code>cx2-2x4</code> (2 vCPUs, 4 GB RAM, and 4GBPS </br>**Boot volume:** 50 GB disk space |
+| Virtual | **Image:** Red Hat Enterprise Linux, CentOS, or Ubuntu 18.x </br>**Profile:** `cx2-2x4` (2 vCPUs, 4 GB RAM, and 4GBPS </br>**Boot volume:** 50 GB disk space |
 | Physical | **Image:** Red Hat Enterprise Linux, CentOS, or Ubuntu 18.x </br>**Processor:** Intel Server Class QuadCore processor </br>**Profile:** 8 GB RAM </br>**Boot volume:** 50 GB Disk Space |
 {: caption="Table 1. Minimum machine requirements to install a collector" caption-side="top"}
 
@@ -211,7 +211,7 @@ Now that you have a collector, you can install it by completing the following st
    The registration key is active for 24 hours. Installation must be complete and the collector activated within that timeframe.
    {: important}
 
-9. Confirm that everything is installed.
+10. Confirm that everything is installed.
 
    ```sh
    docker ps
