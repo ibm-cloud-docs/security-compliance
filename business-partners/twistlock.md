@@ -80,9 +80,9 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a connection
 3. On the **Twistlock** tile, click **Connect**.
 4. Provide a name for your connection.
 5. Input the registration URL provided by Twistlock. If you don't know the URL, click **Get URL from Twistlock** to go to your Twistlock account and use the following steps to retrieve the URL.
-  1. In the Twistlock dashboard, navigate to **Manage > Alerts > Add profile**.
-  2. Select {{site.data.keyword.compliance_short}} from the **Provider** drop down.
-  3. Copy the available URL.
+   1. In the Twistlock dashboard, navigate to **Manage > Alerts > Add profile**.
+   2. Select {{site.data.keyword.compliance_short}} from the **Provider** drop down.
+   3. Copy the available URL.
 6. Click **Connect**.
 
 
