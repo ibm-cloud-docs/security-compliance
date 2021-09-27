@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-09-27"
 
 keywords: mapping tags, compliance, security, tiered architecture
 
@@ -60,7 +60,7 @@ Tags are platform level labels used by the Security and Compliance Center to gui
 6. Select the tag that aligns with your architecture tier.
 
    | Tier mapping | Definition | Commonly used terms |
-   | --------- | ----------- |
+   | --------- | ----------- | --------|
    | Web tier | The web tier of your deployment architecture is generally written in HTML, CSS, or JavaScript and is presented to a user through a web browser or application. | Front end, web, browser, client, or presentation. |
    | App tier | The app tier of your deployment architecture is written in a programming language, such as Java or Go, and contains the business logic that supports your application's core function. | Logic, core, application, backend, or APIs. |
    | DB tier | The database tier of your deployment architecture consists of a database and the system that is used to manage it, such as MySQL or MongoDB. | Server, storage, or database. |
