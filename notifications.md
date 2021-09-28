@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-09-27"
+lastupdated: "2021-09-28"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection, alerts, callback URL, compliance, standards, roles, notification channel, verify payload, public key
 
@@ -368,9 +368,9 @@ Want to take a break from receiving alerts but don't want to delete your configu
 2. In the navigation, click **Alerts**.
 3. Delete the channel or channels.
 
-  If you want to delete a single channel, open the overflow menu in the row of the channel that you want to delete.
+   If you want to delete a single channel, open the overflow menu in the row of the channel that you want to delete.
 
-  If you want to delete multiple channels at once, check the boxes for the channels that you want to remove.
+   If you want to delete multiple channels at once, check the boxes for the channels that you want to remove.
 
 4. Click **Delete**.
 5. Confirm that you want to delete the channel by clicking **Delete** again.

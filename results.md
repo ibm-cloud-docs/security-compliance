@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-09-28"
 
 keywords: evaluation results, rule results, configuration results, resource configuration, 
 
@@ -73,11 +73,11 @@ From the details page, you can view a summary of your evaluation results for any
 
    On the page that opens, you see a list of the resources that the rule is attached to. To view the details for a specific resource, select the name of the resource. 
 
-2. View the details of a specific resource.
+3. View the details of a specific resource.
 
    After a specific resource is selected, a **Details** pane opens that contains all of the information for that resource. For example, the unique identifier and details for account where the resource is located. You can also see any noncompliant properties and information about their wanted state. In this example, the `public_enabled_access` property check is noncompliant because its existing value doesn't meet the conditions of the rule. To further investigate, you can click **View history**.
 
-3. View the history of a specific resource.
+4. View the history of a specific resource.
 
    When you select **View history**, a new page opens that shows the full history of results for the resource that you previously selected. Historical results can be used in compliance audits to prove that issues are fixed within a designated timeframe. 
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-09-28"
 
 keywords: scopes, accounts, resources, environments
 
@@ -93,10 +93,10 @@ If you need to update the resources that are scanned as part of a scope, you can
 3. Select the scope that you want to edit in the table.
 4. Click **Details**. A side panel appears.
 5. Click **Edit**.
-5. Optional: Update the general details of your scope, such as the name or description. 
-6. Click **Next**.
-7. Optional: Update the resources that you want to scan.
-8. Click **Save**.
+6. Optional: Update the general details of your scope, such as the name or description. 
+7. Click **Next**.
+8. Optional: Update the resources that you want to scan.
+9. Click **Save**.
 
 ## Deleting a scope
 {: #delete-scope}
