@@ -151,6 +151,7 @@ Now that you have a collector, you can install it by completing the following st
    {: codeblock}
 
 6. Be sure that you have the required software on your VSI and that it is up to date. If you're working with Ubuntu, you can use the following commands.
+
    1. Verify that your OS image is up to date. In Ubuntu, you can run the following command: 
 
       ```sh
@@ -173,6 +174,7 @@ Now that you have a collector, you can install it by completing the following st
       {: codeblock}
 
 7. Transfer the collector installation file to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
+
    1. Locally, open the **initiate_collector.sh** file that you downloaded and copy its contents.
    2. From your command line, open the VIM editor.
 
@@ -228,6 +230,7 @@ Now that you have a collector, you can install it by completing the following st
    {: screen}
 
 11. Approve your collector.
+
    1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
    2. In the navigation, click **Manage posture > Configure > Collectors**.
    3. In the **Collectors** table, click **Approval required** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
