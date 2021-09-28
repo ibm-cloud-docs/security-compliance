@@ -164,8 +164,8 @@ toc:
           href: https://www.ibm.com/cloud/compliance
       - locations.md
       - topic: framework/ha-dr.md
-        navtitle: Understanding HA / DR           
-
+        navtitle: Understanding HA / DR
+      
   - navgroup:
       id: help
       topics:
