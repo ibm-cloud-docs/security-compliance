@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-27"
+lastupdated: "2021-09-29"
 
 keywords: support, help, stack overflow, slack, IP address is not permitted, managed collector, IP addresses
 
@@ -57,7 +57,7 @@ You schedule a scan of your resources, but the collector is unable to complete t
 When you run a scan, you encounter the following error:
 {: tsSymptoms}
 
-```
+```json
 Collector aborted the task. Reason: Discovery: {'Error': 'User login from given IP address is not permitted.'}
 ```
 {: screen}
