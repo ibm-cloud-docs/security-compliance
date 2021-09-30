@@ -157,7 +157,7 @@ toc:
       - locations-endpoints.md
       - topic: framework/ha-dr.md
         navtitle: Understanding HA / DR
-      
+
   - navgroup:
       id: help
       topics:
