@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-09-27"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -93,7 +93,7 @@ To collect the activity flow logs from your {{site.data.keyword.cloud_notm}} acc
 
 1. Clone the [Activity Insights repository](https://github.com/ibm-cloud-security/security-advisor-activity-insights){: external} to your local system.
 
-   ```
+   ```sh
    git clone https://github.com/ibm-cloud-security/security-advisor-activity-insights.git
    ```
    {: codeblock}
@@ -102,7 +102,7 @@ To collect the activity flow logs from your {{site.data.keyword.cloud_notm}} acc
 3. Change into the directory for the version of the chart that you're using. Currently, version `v3.0` is supported.
 4. Extract the `.tar` file by running the following command.
 
-   ```
+   ```sh
    tar -xvf security-advisor-activity-insights.tar
    ```
    {: codeblock}
@@ -110,7 +110,7 @@ To collect the activity flow logs from your {{site.data.keyword.cloud_notm}} acc
 5. Change into `security-advisor-activity-insights` folder.
 6. Log in to the {{site.data.keyword.cloud_notm}} CLI. Follow the prompts in the CLI to finish logging in.
 
-   ```
+   ```sh
    ibmcloud login -a cloud.ibm.com -r <region>
    ```
    {: codeblock}
@@ -123,7 +123,7 @@ To collect the activity flow logs from your {{site.data.keyword.cloud_notm}} acc
 
 7. Set the context for your cluster.
 
-   ```
+   ```sh
    ibmcloud ks cluster config --cluster <cluster_name_or_ID>
    ```
    {: codeblock}
@@ -173,21 +173,21 @@ If you no longer need to use Activity Insights, you can delete the agent and oth
 
    If you installed version 2 of the chart, use the following command to delete the components.
 
-      ```
+      ```sh
       helm del --purge activity-insights [--tls]
       ```
       {: codeblock}
 
    If you installed version 3 of the chart, use the following command to delete the components.
 
-      ```
+      ```sh
       helm uninstall activity-insights --namespace <namespace>
       ```
       {: codeblock}
 
 2. To clean up your cluster, run the following command.
 
-   ```
+   ```sh
    kubectl delete ns <namespace>
    ```
    {: codeblock}

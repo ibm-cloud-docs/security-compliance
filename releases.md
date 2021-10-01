@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-09-16"
+lastupdated: "2021-09-27"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -48,7 +48,7 @@ subcollection: security-compliance
 {: #release-notes}
 
 Use these release notes to learn about the latest updates to {{site.data.keyword.compliance_full}} that are grouped by date.
-{:shortdesc}
+{: shortdesc}
 
 
 

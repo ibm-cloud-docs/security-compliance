@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-09-27"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -96,7 +96,8 @@ If you know the controls and goals that you want to meet, you can create a profi
 5. Click the **Start from scratch** tile.
 6. Create your first grouping by providing a **Control description**.
 
-   Be sure to provide a meaningful description that summarizes your custom control group or family. For example, if you're creating a grouping that includes access-related controls, you can describe your control as _Access Control_. 
+   Be sure to provide a meaningful description that summarizes your custom control group or family. For example, if you're creating a grouping that includes access-related controls, you can describe your control as _Access Control_.
+
 7. Click the **Goal ID** box.
 8. Select one or more goals that you want to add to your control.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-26"
+lastupdated: "2021-09-27"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, properties, conditions, templates, properties, govern
 
@@ -90,7 +90,7 @@ Rules help you to standardize the fine-grained configurations of your {{site.dat
 ### Customizing configuration defaults with templates
 {: #customize-default-values}
 
-With templates, you can define your preferred values, or customized defaults, on properties that are used to configure an {{site.data.keyword.cloud_notm}} resource. By creating templates that users in your accounts can regularly review and reference, you set guidelines for teams to follow. After you attach a template to a [scope](#x2037763){:term}, your customized defaults are applied by target services to ensure that your selections override the IBM-defined values each time that a target resource is created.
+With templates, you can define your preferred values, or customized defaults, on properties that are used to configure an {{site.data.keyword.cloud_notm}} resource. By creating templates that users in your accounts can regularly review and reference, you set guidelines for teams to follow. After you attach a template to a [scope](#x2037763){: term}, your customized defaults are applied by target services to ensure that your selections override the IBM-defined values each time that a target resource is created.
 
 You can use templates to override IBM-defined property values only. A user can override a template by selecting new values during or after resource configuration. To ensure that each property is defined only once per resource, you can only add a property to one template per scope at a time.
 {: note}

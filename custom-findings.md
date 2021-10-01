@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-08-23"
+lastupdated: "2021-09-28"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -78,7 +78,7 @@ To register a new type of findings, you can create a note. To create the note, y
 
 Request:
 
-```
+```sh
 curl -X POST "https://{region}.secadvisor.cloud.ibm.com/findings/v1/<account_id>/providers/my-custom-tool/notes" -H  "accept: application/json" -H  "Authorization: <IAM_token>" -H  "Content-Type: application/json" -d "{  \"kind\": \"FINDING\",  \"short_description\": \"My security tool finding\",  \"long_description\": \"Longer description of what the security tool found.\",  \"provider_id\": \"my-custom-tool\",  \"id\": \"my-custom-tool-findings-type\",  \"reported_by\": {    \"id\": \"my-custom-tool\",    \"title\": \"My custom security tool\"  } ,  \"finding\": {    \"severity\": \"MEDIUM\",    \"next_steps\": [      {        \"title\": \"Explain why it's reported as a risk.\"      }    ]  }}"
 ```
 {: codeblock}
@@ -122,7 +122,7 @@ curl -X POST "https://{region}.secadvisor.cloud.ibm.com/findings/v1/<account_id>
 
 Example response:
 
-```
+```json
 {
   "author": {
     "account_id": "account id",
@@ -176,7 +176,7 @@ For each card, you can define two KPIs.
 
 Request: 
 
-```
+```sh
 curl -X POST "https://{region}.secadvisor.cloud.ibm.com/findings/v1/<account_id>/providers/my-custom-tool/occurrences"  -H  "accept: application/json" -H  "Authorization: <IAM_token>" -H  "Content-Type: application/json" -d "{    \"note_name\": \"<account id>/providers/my-custom-tool/notes/my-custom-tool-findings-type\",    \"kind\": \"FINDING\",    \"remediation\": \"How to resolve Data leakage threat\",    \"provider_id\": \"my-custom-tool\",    \"id\": \"my-custom-tool-finding-2\",    \"context\": {        \"region\": \"location\",        \"resource_id\": \"cluster crn\",        \"resource_name\": \"cloudkingdom\",        \"resource_type\": \"container\",        \"service_name\": \"kubernetes service\"    },    \"finding\": {        \"severity\": \"HIGH\",        \"next_steps\": [{            \"title\": \"Investigate which process are running in your cluster. If you suspect one of your pods was hacked, restart it, and look for image vulnerabilities\",                        \"url\":\"https://cloud.ibm.com/containers-kubernetes/clusters\"        }],                \"short_description\": \"One of the pods in your cluster appears to be leaking an excessive amount of data\",                \"long_description\": \"One of the pods in your cluster is approaching external servers and sending them data in volumes that exceed that pod's normal behavior\"    }}"
 ```
 {: codeblock}
@@ -218,7 +218,7 @@ curl -X POST "https://{region}.secadvisor.cloud.ibm.com/findings/v1/<account_id>
 
 Example response:
 
-```
+```json
   {
   "author": {
     "account_id": "account id",
@@ -272,7 +272,7 @@ Define how you want your card to display your findings in your dashboard by crea
 
 To create a note, run the following command:
 
-```
+```sh
 curl -X POST "https://<region>.secadvisor.cloud.ibm.com/findings/v1/<account_ID>/providers/<provider_ID>/notes" -H  "accept: application/json" -H  "Authorization: <IAM_token>" -H  "Content-Type: application/json" -d  '{"kind":"CARD","id":"custom-tool-card","short_description":"Security risk found by my custom tool","long_description":"More detailed description about why this security risk needs to be fixed","reported_by":{"id":"my-custom-tool","title":"My security tool"},"card":{"section":"My security tools","order":1,"title":"My security tool findings","subtitle":"My security tool","badge_text":"<badge_text>","badge_image":"<badge_image>","finding_note_names":["providers/my-custom-tool/notes/my-custom-tool-findings-type"],"elements":[{"kind":"NUMERIC","text":"Count of findings reported by my security tool","default_time_range":"1d","value_type":{"kind":"FINDING_COUNT","finding_note_names":["providers/my-custom-tool/notes/my-custom-tool-findings-type"]}}]}}'
 ```
 {: codeblock}
@@ -332,7 +332,7 @@ curl -X POST "https://<region>.secadvisor.cloud.ibm.com/findings/v1/<account_ID>
 
 Example response:
 
-```
+```json
 {
 "author": {
   "account_id": "account id",
@@ -387,13 +387,14 @@ Example response:
 {: screen}
 
 **Note**: During note creation call, the following norms are required to be followed:
-  - If kind is `CARD`, the note definition must have only `card` element in it and not `kpi`/`finding` element.
-  - If kind is `FINDING`, the note definition must have only `finding` element in it and not `kpi`/`card` element.
-  - If kind is `KPI`, the note definition must have only `kpi` element in it and not `card`/`finding` element.
+
+- If kind is `CARD`, the note definition must have only `card` element in it and not `kpi`/`finding` element.
+- If kind is `FINDING`, the note definition must have only `finding` element in it and not `kpi`/`card` element.
+- If kind is `KPI`, the note definition must have only `kpi` element in it and not `card`/`finding` element.
   
 *Sample error in case user tries to create a note with kind `FINDING` and having a `card` element in it:*         
 
-```
+```json
 kpi or card field are not allowed for kind FINDING, having status code as 400
 ```
 {: screen}
@@ -405,7 +406,7 @@ Say that you have an application that runs on a {{site.data.keyword.containersho
 
 Example payload:
 
-```
+```json
 {
 	"note_name": "<account id>/providers/my-custom-tool/notes/my-custom-tool-findings-type",
 	"kind": "FINDING",

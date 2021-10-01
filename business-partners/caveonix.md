@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-07-22"
+lastupdated: "2021-09-27"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -96,11 +96,11 @@ Be sure that you also have the following {{site.data.keyword.cloud_notm}} inform
 * Provider ID
 * An API key
 
-  If you don't already have an API key, you can create a new one. The key is used to gain access to all of the accounts that you apply policies to in RiskForesight. Be sure to assign te appropriate access.
+   If you don't already have an API key, you can create a new one. The key is used to gain access to all of the accounts that you apply policies to in RiskForesight. Be sure to assign te appropriate access.
 
 * Region
 
-  Region options include Dallas `us-south` and London `eu-gb`. 
+   Region options include Dallas `us-south` and London `eu-gb`. 
 
 
 ## Creating the connection

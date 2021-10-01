@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-09-29"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -89,7 +89,7 @@ To get started with {{site.data.keyword.compliance_short}}, install the sample c
 
 1. Clone the following repository to use Nmap as an example or clone the repository for your own third-party tool or service. 
 
-   ```
+   ```sh
    https://github.com/ibm-cloud-security/security-advisor-nmap-integration.git
    ```
    {: codeblock}
@@ -97,7 +97,7 @@ To get started with {{site.data.keyword.compliance_short}}, install the sample c
 2. Change into the directory on your local system.
 3. Install the dependencies that are needed to work with Nmap.
 
-   ```
+   ```npm
    npm install
    ```
    {: codeblock}
@@ -119,32 +119,19 @@ In order for the executable to know where to display the findings, set your {{si
    5. Click **Copy** or **Download** your key. When you close the screen, you can no longer access the key.
 3. Set the following variables by using the command line.
 
-   ```
+   ```sh
    export apiKey= <apiKey>
    export accountID= <accountID>
    export region= <region>
    ```
    {: codeblock}
 
-  <table>
-  <caption>Table 2. Understanding the commands variables</caption>
-    <tr>
-      <th>Variable</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td><code>apiKey</code></td>
-      <td>The {{site.data.keyword.cloud_notm}} API Key that you obtained in step 1.</td>
-    </tr>
-    <tr>
-      <td><code>accountID</code></td>
-      <td>Your {{site.data.keyword.cloud_notm}} account ID that you obtained in step 2.</td>
-    </tr>
-    <tr>
-      <td><code>region</code></td>
-      <td>The location that the {{site.data.keyword.compliance_short}} is configured to use. For more information, see <a href="/docs/security-compliance?topic=security-compliance-mng-data">Storing and encrypting data in {{site.data.keyword.compliance_short}}</a>. </td>
-    </tr>
-  </table>
+   | Prompt | Response |
+   |:-------|:---------|
+   | `apiKey` | The {{site.data.keyword.cloud_notm}} API Key that you obtained in step 1. |
+   | `accountID` | Your {{site.data.keyword.cloud_notm}} account ID that you obtained in step 2. |
+   | `region` | The location that the {{site.data.keyword.compliance_short}} is configured to use. For more information, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data). |
+   {: caption="Table 2. Understanding the commands variables" caption-side="top"}
 
 
 

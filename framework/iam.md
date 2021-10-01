@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-20"
+lastupdated: "2021-09-27"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -67,14 +67,14 @@ To assign access, you can use the **Access (IAM)** section of the console.
 2. After you create a group and add users, go to the **Manage > Access (IAM) > Access Groups** page of the console.
 3. Select a table row, and click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) to open a list of options for that access group.
 4. From the options menu, click **Assign access**.
-4. Select **Account management**.
-5. From the list of services, select **{{site.data.keyword.compliance_short}}**.
-6. Enter the compliance component that you want to assign access to.
-    1. To assign access for using profiles to [monitor accounts for compliance](#compliance-roles), enter _posture-management_.
-    2. To assign access for using rules to [govern the use of resources](#governance-roles), enter _configuration-governance_.
-7. Choose a combination of [platform access roles](#iam-roles) to assign to the user.
-8. Click **Add**.
-9. Review your selections and click **Assign**.
+5. Select **Account management**.
+6. From the list of services, select **{{site.data.keyword.compliance_short}}**.
+7. Enter the compliance component that you want to assign access to.
+   1. To assign access for using profiles to [monitor accounts for compliance](#compliance-roles), enter _posture-management_.
+   2. To assign access for using rules to [govern the use of resources](#governance-roles), enter _configuration-governance_.
+8. Choose a combination of [platform access roles](#iam-roles) to assign to the user.
+9. Click **Add**.
+10. Review your selections and click **Assign**.
 
 ## Roles and permissions
 {: #iam-roles}

@@ -14,14 +14,6 @@ toc:
       id: learn
       topics:
       - getting-started.md
-      - topicgroup: 
-          label: Internal adopters
-          topics:
-          - internal/onboard-monitoring.md
-          - internal/onboard-config.md
-          - topic: internal/end-user-doc.md
-            navtitle: Documentation requirements
-          - internal/onboard-faq.md
       - releases.md
 
   - navgroup:
@@ -69,7 +61,7 @@ toc:
               label: Targeting specific resources
               topics:
               - scopes.md
-              - scopes-details.md
+              - scope-details.md
               - tags.md
           - schedule-scan.md
       - topicgroup:
@@ -104,7 +96,7 @@ toc:
               label: Connecting business partners
               topics:
               - business-partners/caveonix.md
-              - business-partners/nuevector.md
+              - business-partners/neuvector.md
               - business-partners/tanium.md
               - business-partners/twistlock.md
           - custom-findings.md
@@ -162,9 +154,9 @@ toc:
       - link:
           label: IBM Cloud Compliance Programs
           href: https://www.ibm.com/cloud/compliance
-      - locations.md
+      - locations-endpoints.md
       - topic: framework/ha-dr.md
-        navtitle: Understanding HA / DR           
+        navtitle: Understanding HA / DR
 
   - navgroup:
       id: help

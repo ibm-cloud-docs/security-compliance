@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-23"
+lastupdated: "2021-09-27"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -49,7 +49,7 @@ content-type: troubleshoot
 # Why don't I see any evaluation results?
 
 You don't see any evaluation results after you create a [rule](/docs/security-compliance?topic=security-compliance-rules-define). 
-{:shortdesc}
+{: shortdesc}
 
 {: #ts-enforce}
 {: troubleshoot} 

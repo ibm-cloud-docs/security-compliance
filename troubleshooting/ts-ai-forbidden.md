@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-26"
+lastupdated: "2021-09-29"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -51,12 +51,12 @@ content-type: troubleshoot
 {: troubleshoot}
 
 You are forbidden from installing Activity Insights in a specific namespace.
-{:shortdesc}
+{: shortdesc}
 
 When you attempt to install Activity Insights, you encounter the following error.
 {: tsSymptoms}
 
-```
+```txt
 namespaces “security-advisor-insights” is forbidden: User “system:serviceaccount:kube-system:default” cannot get resource “namespaces” in API group “” in the namespace “security-advisor-insights”
 ```
 {: screen}

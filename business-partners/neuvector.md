@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-09-27"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -71,12 +71,7 @@ Before you start integrating business partners, be sure that you have the follow
 ## Registering NeuVector
 {: #registering-neuvector}
 
-You can use the {{site.data.keyword.compliance_short}} UI to create a connection to NeuVector. When the connection is created, you:
-
-   * Establish trust and associate your {{site.data.keyword.cloud_notm}} and business partner accounts
-   * Copy the required information such as credentials and URLs between the accounts
-   * Install the business partner's finding metadata into the {{site.data.keyword.compliance_short}}
-   * Validate the pairing by posting a finding from the business partner into the {{site.data.keyword.compliance_short}}
+You can use the {{site.data.keyword.compliance_short}} UI to create a connection to NeuVector. When the connection is created, you establish trust and associate your accounts, which shares the required iinformation such as credentials and URLs.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. Navigate to **Integrations**.

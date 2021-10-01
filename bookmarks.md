@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-08-23"
+lastupdated: "2021-09-27"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection, bookmark
 
@@ -71,8 +71,8 @@ You can use the {{site.data.keyword.compliance_short}} UI to bookmark links that
 3. Click **Add**.
 4. Give your bookmark a name. You can use only alpha-numeric characters, white spaces, and dashes (-) in the name.
 5. Enter the URL that you want to save in one of the following formats: `http://www.<website>.<domain>` or `https://www.<website>.<domain>`.
-5. Optional: Upload an image icon to help quickly identify your tool.
-6. Click **Add**.
+6. Optional: Upload an image icon to help quickly identify your tool.
+7. Click **Add**.
 
 
 ## Editing bookmarks

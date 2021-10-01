@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-09-27"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -133,7 +133,7 @@ After you create a rule, you can view it by navigating to the {{site.data.keywor
 
 You can create rules programmatically by using the {{site.data.keyword.compliance_short}} API. For example, if you wanted to create a rule prohibited access to a specific bucket unless the request came from a private endpoint, your request might look similar to the following code snippet.
 
-```bash
+```sh
 curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
   -H 'Authorization: Bearer <access_token>' \
   -H 'Content-type: application/json' \

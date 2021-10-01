@@ -73,21 +73,16 @@ Before you start integrating business partners, be sure that you have the follow
 ## Registering Twistlock
 {: #registering-twistlock}
 
-You can use the {{site.data.keyword.compliance_short}} UI to create a connection to Twistlock. When the connection is created, you:
-
-  * Establish trust and associate your {{site.data.keyword.cloud_notm}} and business partner accounts
-  * Copy the required information such as credentials and URLs between the accounts
-  * Install the business partner's finding metadata into Security Insights
-  * Validate the pairing by posting a finding from the business partner into Security Insights
+You can use the {{site.data.keyword.compliance_short}} UI to create a connection to Twistlock. When the connection is created, you establish trust and associate your accounts, which shares the required iinformation such as credentials and URLs.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. Navigate to **Gain insight > Configure > Business partners**.
 3. On the **Twistlock** tile, click **Connect**.
 4. Provide a name for your connection.
 5. Input the registration URL provided by Twistlock. If you don't know the URL, click **Get URL from Twistlock** to go to your Twistlock account and use the following steps to retrieve the URL.
-  1. In the Twistlock dashboard, navigate to **Manage > Alerts > Add profile**.
-  2. Select {{site.data.keyword.compliance_short}} from the **Provider** drop down.
-  3. Copy the available URL.
+   1. In the Twistlock dashboard, navigate to **Manage > Alerts > Add profile**.
+   2. Select {{site.data.keyword.compliance_short}} from the **Provider** drop down.
+   3. Copy the available URL.
 6. Click **Connect**.
 
 

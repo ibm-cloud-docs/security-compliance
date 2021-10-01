@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-26"
+lastupdated: "2021-09-27"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -83,7 +83,7 @@ If you no longer need to use a template, you can choose to delete it by using th
 
 If you no longer need to use a template, you can choose to delete it by using the {{site.data.keyword.compliance_short}} APIs. The following example request deletes an existing template.
 
-```bash
+```sh
 curl -X DELETE \
 "https://compliance.{DomainName}/config/v1/templates/<template_ID> \
   -H 'Authorization: Bearer <access_token>'
