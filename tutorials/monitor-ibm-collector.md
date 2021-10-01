@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-09-23"
+lastupdated: "2021-10-01"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -154,6 +154,6 @@ To discover resources, assess their configuration, and validate their compliance
 
 You did it! Now you can choose to map more credentials to your collector so that you can scan more resources or you can learn more about the way that security and compliance score is calculated to better understand your results. 
 
-[![This image is a visual link to the instructions for mapping credentials.](../images/gs-map-credentials.svg)](/docs/security-compliance?topic=security-compliance-map-credentials)     [![This image is a visual link to the conceptual information about compliance scores.](../images/gs-learn-scores.svg)](/docs/security-compliance?topic=security-compliance-view-posture)
+[![This image is a visual link to the instructions for mapping credentials.](../images/gs-map-credentials.svg)](/docs/security-compliance?topic=security-compliance-map-credentials)     [![This image is a visual link to the conceptual information about compliance scores.](../images/gs-score.svg)](/docs/security-compliance?topic=security-compliance-view-posture)
 
 
