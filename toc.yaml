@@ -126,6 +126,7 @@ toc:
           label: API and SDK references
           topics:
           - api-setup.md
+          - framework/terraform.md
           - link:
               label: Admin
               href: https://{DomainName}/apidocs/security-compliance/admin
