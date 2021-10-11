@@ -95,10 +95,10 @@ toc:
           - topicgroup:
               label: Connecting business partners
               topics:
-              - business-partners/caveonix.md
-              - business-partners/neuvector.md
-              - business-partners/tanium.md
-              - business-partners/twistlock.md
+              - integrations/caveonix.md
+              - integrations/neuvector.md
+              - integrations/tanium.md
+              - integrations/twistlock.md
           - custom-findings.md
       - notifications.md
       - topicgroup:

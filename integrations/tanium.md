@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-09-27"
+lastupdated: "2021-10-11"
 
 keywords: Centralized security, tanium, compliance monitoring, compliance, 
 
