@@ -48,24 +48,16 @@ subcollection: security-compliance
 # Connecting OSCO
 {: #setup-osco}
 
-With [Tanium&trade; Comply](https://docs.tanium.com/comply/comply/index.html){: external}, you can evaluate your organizations endpoints for potential vulnerabilities and misconfigurations against industry security standards, vulnerability definitions, and custom compliance checks. When you integrate Tanium with the {{site.data.keyword.compliance_full}}, you can view all of your compliance data in one location in the same format.
+With the [OpenShift Compliance Operator (OSCO)](https://github.com/openshift/compliance-operator){: external}, you can run scans and remediate issues that are found in your cluster. When you integrate the OSCO with the {{site.data.keyword.compliance_full}}, you can view all of your compliance data in one location in the same format.
 {: shortdesc}
 
-If you're an existing Tanium Comply on-prem user, you must contact your TAM or account team to obtain a link to the new build in order to get started with the integration. Automatic upgrades of Connect will occur for Tanium-managed customers over the next two weeks.
-{: note}
 
 To learn more about how the integration is configured, check out the following diagram.
 
 
-![The image shows the sequence of events that a user and the services follow as part of setting up the integration.](../images/tanium.svg){: caption="Figure 1. Tanium integration flow" caption-side="bottom"}
+![The image shows the sequence of events that a user and the services follow as part of setting up the integration.](../images/osco.svg){: caption="Figure 1. OSCO integration flow" caption-side="bottom"}
 
-1. In your Tanium instance, create a connection that contains the compliance data that you want to see in {{site.data.keyword.cloud_notm}} so that you can see both {{site.data.keyword.cloud_notm}} and Tanium results in one view.
-2. In your {{site.data.keyword.cloud_notm}} account, register your integration with the {{site.data.keyword.compliance_short}}.
-3. Define a scope to link the connection that you created in Tanium with the {{site.data.keyword.compliance_short}}.
-4. In the background, the {{site.data.keyword.compliance_short}} creates the backend connection when the scope is created.
-5. Based on the schedule that you defined in your connection, Tanium pushes the data in your account to the {{site.data.keyword.compliance_short}}.
-6. The {{site.data.keyword.compliance_short}} receives the data and converts the format to match your preferred format before calculating your compliance score.
-7. You can navigate to the Scans page of the {{site.data.keyword.compliance_short}} UI to view your results.
+SG: Make diagram and add steps
 
 
 
@@ -75,12 +67,17 @@ To learn more about how the integration is configured, check out the following d
 Before you get started, be sure that you have the following prerequisites.
 
 * An {{site.data.keyword.cloud_notm}} account.
-* A Tanium instance.
+* An {{site.data.keyword.openshiftlong}} cluster.
 * The required level of access to create and manage integrations in {{site.data.keyword.compliance_short}}. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
-   * To integrate with Tanium, you need the *administrator* platform role for the {{site.data.keyword.compliance_short}} service. 
-   * To pull results from Tanium, you must have the *administrator* platform role or higher for the {{site.data.keyword.compliance_short}} service.
-   * To complete the scan, you must have access to the resources in Tanium that you want to validate.
+   * To integrate the OSCO operator, you need the *administrator* platform role for the {{site.data.keyword.compliance_short}} service. 
+   * To complete the scan, you must have *administrator* and *Manager* access to the {{site.data.keyword.openshiftshort}} resources that you want to validate.
 
+## Deploying the operator
+{: #deploy-osco}
+
+Before you can start scanning your resources for compliance, the Compliance Operator must be deployed in your {{site.data.keyword.openshiftshort}} cluster. 
+
+https://access.redhat.com/documentation/en-us/openshift_container_platform/4.6/html/security_and_compliance/compliance-operator#compliance-operator-installation
 
 ## Registering the integration
 {: #register-osco}
@@ -89,7 +86,7 @@ To get started, you must register an integration with the {{site.data.keyword.co
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Integrations**.
-3. In the **Tanium** tile, click **Connect**.
+3. In the **OpenShift Compliance Operator** tile, click **Connect**. A side panel opens
 4. Provide a name for your connection.
 5. Enter your dashboard URL in the **Registration URL** field.
 6. Click **Next**. You see that you're currently connecting using "Push" mode in order to "Validate" your resources.

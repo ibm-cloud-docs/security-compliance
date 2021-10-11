@@ -89,7 +89,7 @@ toc:
           - insights-network.md
           - insights-default.md
       - topicgroup:
-          label: Connecting thid-parties
+          label: Connecting integrations
           topics:
           - bookmarks.md
           - topicgroup:
