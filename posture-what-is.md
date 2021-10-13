@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-14"
+lastupdated: "2021-10-13"
 
 keywords: best practices security and compliance, secure development, security strategy, insights, governance
 
@@ -43,6 +43,7 @@ subcollection: security-compliance
 {:ui: .ph data-hd-interface='ui'}
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
+{:release-note: data-hd-content-type='release-note'}
 
 
 

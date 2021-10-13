@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-07-20"
+lastupdated: "2021-10-13"
 
 keywords: goals, secure by default, secure, secure platform, default goals, available goals
 
@@ -43,6 +43,7 @@ subcollection: security-compliance
 {:ui: .ph data-hd-interface='ui'}
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
+{:release-note: data-hd-content-type='release-note'}
 
 # Available default goals
 {: #default-goals}

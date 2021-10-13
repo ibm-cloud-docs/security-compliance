@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-27"
+lastupdated: "2021-10-13"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, properties, conditions, templates, properties, govern
 
@@ -43,6 +43,7 @@ subcollection: security-compliance
 {:ui: .ph data-hd-interface='ui'}
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
+{:release-note: data-hd-content-type='release-note'}
 
 # What is Configuration Governance?
 {: #what-is-governance}

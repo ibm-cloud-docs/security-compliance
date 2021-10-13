@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-24"
+lastupdated: "2021-10-13"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -43,6 +43,7 @@ subcollection: security-compliance
 {:ui: .ph data-hd-interface='ui'}
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
+{:release-note: data-hd-content-type='release-note'}
 
 # Getting started with {{site.data.keyword.compliance_short}}
 {: #getting-started}

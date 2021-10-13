@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-29"
+lastupdated: "2021-10-13"
 
 keywords: support, help, stack overflow, slack, IP address is not permitted, managed collector, IP addresses
 
@@ -45,6 +45,7 @@ content-type: troubleshoot
 {:ui: .ph data-hd-interface='ui'}
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
+{:release-note: data-hd-content-type='release-note'}
 
 # Why am I blocked from scanning resources in my account?
 {: #ip-address-not-permitted}

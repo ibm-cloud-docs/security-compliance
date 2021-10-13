@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-27"
+lastupdated: "2021-10-13"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -45,6 +45,7 @@ content-type: troubleshoot
 {:ui: .ph data-hd-interface='ui'}
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
+{:release-note: data-hd-content-type='release-note'}
 
 # What information do I need to provide to the support team?
 {: #contact-support}

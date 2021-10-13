@@ -14,7 +14,8 @@ toc:
       id: learn
       topics:
       - getting-started.md
-      - releases.md
+      - topic: releases.md
+        navtitle: Release notes
 
   - navgroup:
       id: tutorial
