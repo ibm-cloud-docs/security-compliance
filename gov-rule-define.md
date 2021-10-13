@@ -143,7 +143,7 @@ You can create rules programmatically by using the {{site.data.keyword.complianc
 curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
   -H 'Authorization: Bearer <access_token>' \
   -H 'Content-type: application/json' \
-  -H 'Transation-Id: a7f48341-a2b0-4649-a95d-d416d5fb4170' \
+  -H 'Transaction-Id: a7f48341-a2b0-4649-a95d-d416d5fb4170' \
   -d '{
     "rules": [
       {
@@ -152,36 +152,36 @@ curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
           "account_id": "<account_id>",
           "name": "Limit access to private network traffic only",
           "description": "For My bucket, limit access to only private network traffic.",
-        "target": {
-          "service_name": "cloud-object-storage",
-          "resource_kind": "bucket",
-          "additional_target_attributes": [
-            {
-              "name": "resource_id",
-              "operator": "string_equals",
-              "value": "My_bucket"
-            }
-          ],
-        "required_config": {
-          "description": "Limit access to private network traffic"
-          "and": [
-            {
-              property: "firewall.allowed_network_type",
-              operator: "strings_in_list",
-              value: [
-                "private"
-              ]
-            }
-          ],
-        "enforcement_actions": [
-          {
-            "action": "disallow"
+          "target": {
+            "service_name": "cloud-object-storage",
+            "resource_kind": "bucket",
+            "additional_target_attributes": [
+              {
+                "name": "resource_id",
+                "operator": "string_equals",
+                "value": "My_bucket"
+              }
+            ],
+            "required_config": {
+            "description": "Limit access to private network traffic"
+            "and": [
+              {
+                property: "firewall.allowed_network_type",
+                operator: "strings_in_list",
+                value: [
+                  "private"
+                ]
+              }
+            ],
+            "enforcement_actions": [
+              {
+                "action": "disallow"
+              }
+            ],
+            "labels": [
+              "storage"
+            ]
           }
-        ],
-        "labels": [
-          "storage"
-        ]
-        }
         }
       }
     }
