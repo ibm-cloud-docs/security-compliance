@@ -52,7 +52,7 @@ content-type: release-note
 
 
 ## 15 September 2021
-{: #subcollection-sept2021}
+{: #security-compliance-sept2021}
 {: release-note}
 
 Next version (v0.1.2) of IBM Cloud for Financial Services profile
@@ -70,7 +70,7 @@ Next version (v0.1.2) of IBM Cloud for Financial Services profile
    * Goal ID: `3000907` mapped to the controls CM-2, CM-7(a), CM-8(1), CM-8(3)(a), SA-3(a) and SI-2(2)
 
 ## 02 September 2021
-{: #subcollection-sept0221}
+{: #security-compliance-sept0221}
 {: release-note}
 
 New goals
@@ -79,7 +79,7 @@ New goals
 
 
 ## 18 August 2021
-{: #subcollection-aug1821}
+{: #security-compliance-aug1821}
 {: release-note}
 
 New goals
@@ -87,7 +87,7 @@ New goals
    * Goal ID's: `3000510` - `3000525` and `3000640`.
 
 ## 22 July 2021
-{: #subcollection-jul2221}
+{: #security-compliance-jul2221}
 {: release-note}
 
 New Posture Management API endpoints
@@ -109,7 +109,7 @@ New goals
    * Goal ID's: `3000509`
 
 ## 22 June 2021
-{: #subcollection-jun2221}
+{: #security-compliance-jun2221}
 {: release-note}
 
 Tanium integration
@@ -117,7 +117,7 @@ Tanium integration
 
 
 ## 14 June 2021
-{: #subcollection-jun1421}
+{: #security-compliance-jun1421}
 {: release-note}
 
 IBM-managed collector
@@ -128,7 +128,7 @@ New goals
    * Goal ID's: `3000901` - `3000907`
 
 ## 05 April 2021
-{: #subcollection-april0521}
+{: #security-compliance-april0521}
 
 Initial Posture Management API support
 :   As part of this release, the Posture Management component of the service provides three external APIs that you can use as part of your security and compliance automation. For more information, see the [Posture Management API docs](/apidocs/security-compliance/posture).
@@ -145,7 +145,7 @@ IBM Cloud for Financial Services profile
    *Important*: The IBM Cloud for Financial Services profile will be constantly expanding and is not an exhaustive list of all of the controls that might be required for every organization. Users should validate the available goals and determine where there is a need to supplement their workloads with other security measures.
 
 ## 23 March 2021
-{: #subcollection-march0321}
+{: #security-compliance-march0321}
 {: release-note}
 
 Manage the location in which your data is stored
@@ -164,7 +164,7 @@ An update to the Security Insights notifications API
    To work with the updated notifications API, see the [API docs](/apidocs/security-advisor/notifications).
 
 ## 15 March 2021
-{: #subcollection-march1521}
+{: #security-compliance-march1521}
 {: release-note}
 
 Customize default values for your resources
@@ -175,7 +175,7 @@ Customize default values for your resources
    For more information, see [What is Configuration Governance?](/docs/security-compliance?topic=security-compliance-what-is-governance)
 
 ## 17 February 2021
-{: #subcollection-feb1721}
+{: #security-compliance-feb1721}
 {: release-note}
 
 Manage your own encryption
@@ -191,7 +191,7 @@ New goals
    * Goal ID's: `3000631` - `3000639`
 
 ## 13 January 2021
-{: #subcollection-jan1321}
+{: #security-compliance-jan1321}
 {: release-note}
 
 General availability of Security Insights
@@ -201,7 +201,7 @@ End of support for Network Insights
 :   The beta version of Network Insights is deprecated and will no longer be supported as of 12 February 2021. To fully remove the beta version of Network Insights, delete the service components from your cluster and [delete your stored data from Cloud Object Storage](/docs/cloud-object-storage/info?topic=cloud-object-storage-security).
 
 ## 15 December 2020
-{: #subcollection-dec1520}
+{: #security-compliance-dec1520}
 {: release-note}
 
 Updated Scopes page
@@ -214,7 +214,7 @@ New dashboard widget
 :   Monitor your overall security and compliance at a glance by adding a {{site.data.keyword.compliance_short}} widget to your dashboard in the {{site.data.keyword.cloud_notm}} console. To learn more about customizing your dashboard, check out [Working with scoped dashboards](/docs/account?topic=account-custom-dashboard).
 
 ## 8 December 2020
-{: #subcollection-dec0820}
+{: #security-compliance-dec0820}
 {: release-note}
 
 Updated Goals page
@@ -224,14 +224,14 @@ Updated Profiles page
 :   An improved experience is now available for viewing and managing profiles. For more information, see [Working with profiles](/docs/security-compliance?topic=security-compliance-profiles).
 
 ## 19 November 2020
-{: #subcollection-dec1920}
+{: #security-compliance-dec1920}
 {: release-note}
 
 Updated Settings page
 :   An improved experience is now available for protecting the credentials that you use in the {{site.data.keyword.compliance_short}}. For more information, see [Creating a passphrase](/docs/security-compliance?topic=security-compliance-passphrase).
 
 ## 1 September 2020
-{: #subcollection-sept0120}
+{: #security-compliance-sept0120}
 {: release-note}
 
 General availability of the {{site.data.keyword.compliance_short}}
@@ -240,7 +240,7 @@ General availability of the {{site.data.keyword.compliance_short}}
    In this release, the {{site.data.keyword.compliance_short}} offers support for profiles that you can use to monitor your accounts for compliance, config rules for governing the use of resources, and Security Insights for gaining insight into potential risks to your environments. For more information, check out the [announcement blog](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-security-and-compliance-center){: external}.
 
 ## 1 September 2020
-{: #subcollection-sept0120}
+{: #security-compliance-sept0120}
 {: release-note}
 
 Introducing {{site.data.keyword.compliance_short}}
