@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-10-15"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -50,16 +50,6 @@ content-type: release-note
 {: #release-notes}
 
 
-
-## 1 September 2020
-{: #subcollection-sept0120}
-{: release-note}
-
-Introducing {{site.data.keyword.compliance_short}}
-:   Manage security and compliance controls directly within the IBM Cloud® platform. With the IBM Security and Compliance Center, you view your security and compliance postures from a unified dashboard. 
-   * Automate security and compliance postures
-   * Enable configuration governance
-   * Detect vulnerabilities and threats
 
 ## 15 September 2021
 {: #subcollection-sept2021}
@@ -249,4 +239,12 @@ General availability of the {{site.data.keyword.compliance_short}}
 
    In this release, the {{site.data.keyword.compliance_short}} offers support for profiles that you can use to monitor your accounts for compliance, config rules for governing the use of resources, and Security Insights for gaining insight into potential risks to your environments. For more information, check out the [announcement blog](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-security-and-compliance-center){: external}.
 
+## 1 September 2020
+{: #subcollection-sept0120}
+{: release-note}
 
+Introducing {{site.data.keyword.compliance_short}}
+:   Manage security and compliance controls directly within the IBM Cloud® platform. With the IBM Security and Compliance Center, you view your security and compliance postures from a unified dashboard. 
+   * Automate security and compliance postures
+   * Enable configuration governance
+   * Detect vulnerabilities and threats
