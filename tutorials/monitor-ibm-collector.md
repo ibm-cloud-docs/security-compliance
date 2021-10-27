@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-10-01"
+lastupdated: "2021-10-13"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -46,6 +46,7 @@ completion-time: 10m
 {:ui: .ph data-hd-interface='ui'}
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
+{:release-note: data-hd-content-type='release-note'}
 
 
 # Monitor resources with an IBM-managed collector

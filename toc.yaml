@@ -14,7 +14,8 @@ toc:
       id: learn
       topics:
       - getting-started.md
-      - releases.md
+      - topic: releases.md
+        navtitle: Release notes
 
   - navgroup:
       id: tutorial
@@ -89,16 +90,16 @@ toc:
           - insights-network.md
           - insights-default.md
       - topicgroup:
-          label: Connecting thid-parties
+          label: Connecting integrations
           topics:
           - bookmarks.md
           - topicgroup:
               label: Connecting business partners
               topics:
-              - business-partners/caveonix.md
-              - business-partners/neuvector.md
-              - business-partners/tanium.md
-              - business-partners/twistlock.md
+              - integrations/caveonix.md
+              - integrations/neuvector.md
+              - integrations/tanium.md
+              - integrations/twistlock.md
           - custom-findings.md
       - notifications.md
       - topicgroup:

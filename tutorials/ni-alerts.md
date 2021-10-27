@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-09-23"
+lastupdated: "2021-10-13"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection, vpc, flow logs, flow log alerts, findings, network insights
 
@@ -47,6 +47,7 @@ completion-time: 10m
 {:ui: .ph data-hd-interface='ui'}
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
+{:release-note: data-hd-content-type='release-note'}
 
 # Generate alerts for potential issues found in your VPC Flow Logs
 {: #ni-vpc-alerts}

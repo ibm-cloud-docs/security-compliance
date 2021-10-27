@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-05"
+lastupdated: "2021-10-13"
 
 keywords: Terraform for {{site.data.keyword.compliance_short}}
 
@@ -43,6 +43,7 @@ subcollection: security-compliance
 {:ui: .ph data-hd-interface='ui'}
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
+{:release-note: data-hd-content-type='release-note'}
 
 
 # Setting up Terraform for {{site.data.keyword.compliance_short}}

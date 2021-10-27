@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-27"
+lastupdated: "2021-10-13"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -43,6 +43,7 @@ subcollection: security-compliance
 {:ui: .ph data-hd-interface='ui'}
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
+{:release-note: data-hd-content-type='release-note'}
 
 
 # Defining rules
@@ -65,7 +66,10 @@ Before you get started, be sure that you have the required level of access to vi
 {: #create-rules-ui}
 {: ui}
 
-You can use the {{site.data.keyword.compliance_short}} UI to define the rules that you want to enforce or monitor for your {{site.data.keyword.cloud_notm}} resources. To create rules by using the {{site.data.keyword.cloud_notm}} console:
+You can use the {{site.data.keyword.compliance_short}} UI to define the rules that you want to enforce or monitor for your {{site.data.keyword.cloud_notm}} resources. To create rules by using the {{site.data.keyword.cloud_notm}} console, use the following steps as a guide.
+
+When you create a rule, it can take up to 10 minutes to be in effect.
+{: note}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
 2. In the navigation, click **Configure rules**.
@@ -127,6 +131,8 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the rules th
 After you create a rule, you can view it by navigating to the {{site.data.keyword.compliance_short}} UI and selecting the rule that you want to view in the **Configuration rules** table. To see which scope attachments are associated with a rule, click **Attachments** in the navigation.
 
 
+
+
 ## Creating a rule with the API
 {: #create-rule-api}
 {: api}
@@ -137,7 +143,7 @@ You can create rules programmatically by using the {{site.data.keyword.complianc
 curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
   -H 'Authorization: Bearer <access_token>' \
   -H 'Content-type: application/json' \
-  -H 'Transation-Id: a7f48341-a2b0-4649-a95d-d416d5fb4170' \
+  -H 'Transaction-Id: a7f48341-a2b0-4649-a95d-d416d5fb4170' \
   -d '{
     "rules": [
       {
@@ -146,36 +152,36 @@ curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
           "account_id": "<account_id>",
           "name": "Limit access to private network traffic only",
           "description": "For My bucket, limit access to only private network traffic.",
-        "target": {
-          "service_name": "cloud-object-storage",
-          "resource_kind": "bucket",
-          "additional_target_attributes": [
-            {
-              "name": "resource_id",
-              "operator": "string_equals",
-              "value": "My_bucket"
-            }
-          ],
-        "required_config": {
-          "description": "Limit access to private network traffic"
-          "and": [
-            {
-              property: "firewall.allowed_network_type",
-              operator: "strings_in_list",
-              value: [
-                "private"
-              ]
-            }
-          ],
-        "enforcement_actions": [
-          {
-            "action": "disallow"
+          "target": {
+            "service_name": "cloud-object-storage",
+            "resource_kind": "bucket",
+            "additional_target_attributes": [
+              {
+                "name": "resource_id",
+                "operator": "string_equals",
+                "value": "My_bucket"
+              }
+            ],
+            "required_config": {
+            "description": "Limit access to private network traffic"
+            "and": [
+              {
+                property: "firewall.allowed_network_type",
+                operator: "strings_in_list",
+                value: [
+                  "private"
+                ]
+              }
+            ],
+            "enforcement_actions": [
+              {
+                "action": "disallow"
+              }
+            ],
+            "labels": [
+              "storage"
+            ]
           }
-        ],
-        "labels": [
-          "storage"
-        ]
-        }
         }
       }
     }

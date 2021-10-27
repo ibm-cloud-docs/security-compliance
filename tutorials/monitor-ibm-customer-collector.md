@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-22"
+lastupdated: "2021-10-13"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -47,6 +47,7 @@ completion-time: 30m
 {:ui: .ph data-hd-interface='ui'}
 {:cli: .ph data-hd-interface='cli'}
 {:api: .ph data-hd-interface='api'}
+{:release-note: data-hd-content-type='release-note'}
 
 # Monitor {{site.data.keyword.cloud_notm}} resources with a customer-managed collector
 {: #ibm-customer-collector}
