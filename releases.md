@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-10-15"
+lastupdated: "2021-10-27"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -50,6 +50,13 @@ content-type: release-note
 {: #release-notes}
 
 
+
+## 27 October 2021
+{: #security-compliance-oct2021}
+{: release-note}
+
+Deprecation of the bookmarks capability
+:   The ability to create bookmarks or direct connections within the Security and Compliance Center will be deprecated on 30 November 2021, when the feature will be removed from the UI. Be sure to save any bookmarked URLs that you need to before the deprecation date.
 
 ## 15 September 2021
 {: #security-compliance-sept2021}
