@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-01"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -118,7 +118,7 @@ When you create a rule, it can take up to 10 minutes to be in effect.
    | `additional_target_attributes` | An extra qualifier for the type of resource that you selected. |
    | `operator` | The way in which an additional target attribute or property is evaluated against the specified value. For a full list of operators, see [Supported operators](/docs/security-compliance?topic=security-compliance-formatting-rules-templates#operators). |
    | `value` | The way in which you want to apply your attribute or property. Value options differ depending on the rule that you configure. If you use a boolean operator, you do not need to include a value. |
-   | `required_config` | The requirements that must be met to determine the your resources level of compliance in accordance with the rule. You can use logical operators (`and`/`or`) to define multiple property checks and conditions. To define requirements for a rule, list one or more property check objects in the `and` array. To add conditions to a property check, use `or`. For more information about defining a rule with multiple conditions, see [Available properties](/docs/security-compliance?topic=security-compliance-formatting-rules-templates#properties). |
+   | `required_config` | The requirements that must be met to determine the your resources level of compliance in accordance with the rule. You can use logical operators (`and`/`or`) to define multiple property checks and conditions. To define requirements for a rule, list one or more property check objects in the `and` array. To add conditions to a property check, use `or`. For more information about defining a rule with multiple conditions, see [Available properties](/docs/security-compliance?topic=security-compliance-available-rule-properties). |
    | `property` | The individual resource configuration variable that follows the syntax `property_name`. Options are dependent upon the target that you choose and can be found in the UI. |
    {: caption="Table 1. Rule parameters" caption-side="top"}
 

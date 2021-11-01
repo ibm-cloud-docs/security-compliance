@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-01"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -54,7 +54,7 @@ You can use the {{site.data.keyword.compliance_full}} to create and manage templ
 
 Templates help you define your preferred property values for supported resources in your accounts. After you create a template and attach it to a scope, your defined values override the defaults that are provided by IBM. Later, when an account user creates a resource that is targeted by the template, your customized defaults are applied.
 
-Templates are required only with some {{site.data.keyword.cloud_notm}} services and resource properties. To see a list of services that require templates, see [Available properties](/docs/security-compliance?topic=security-compliance-formatting-rules-templates#properties)
+Templates are required only with some {{site.data.keyword.cloud_notm}} services and resource properties. To see a list of services that require templates, see [Available properties](/docs/security-compliance?topic=security-compliance-available-rule-properties)
 {: note}
 
 

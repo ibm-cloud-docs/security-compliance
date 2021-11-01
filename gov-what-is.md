@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-01"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, properties, conditions, templates, properties, govern
 
@@ -71,7 +71,7 @@ With {{site.data.keyword.compliance_short}}, you can govern the resources in you
 |:---------|:---------|
 | You want to display configuration settings that are specific to your enterprise as your teams are configuring and provisioning resources. | You can create configuration templates in the {{site.data.keyword.compliance_short}} that override the default values that are provided by {{site.data.keyword.cloud_notm}} with the values that are applicable to your organization. |
 | You want to know when a user creates resources that are outside the standards that are defined for your organization, but you don't want to stop them. | You create a configuration rule but choose not to enforce it. This can be helpful for accounts that you use for testing. |
-| You want to ensure that a specific configuration for a resource type is always enforced in your account. | You can define an enforced configuration rule. When a rule is enforced, {{site.data.keyword.cloud_notm}} does not allow the resource to be created unless all of the conditions of the rule are met. Note: Some configuration rule [properties](/docs/security-compliance?topic=security-compliance-formatting-rules-templates#properties) require a template to be applied in order for the rule to be enforced. |
+| You want to ensure that a specific configuration for a resource type is always enforced in your account. | You can define an enforced configuration rule. When a rule is enforced, {{site.data.keyword.cloud_notm}} does not allow the resource to be created unless all of the conditions of the rule are met. Note: Some configuration rule [properties](/docs/security-compliance?topic=security-compliance-available-rule-properties) require a template to be applied in order for the rule to be enforced. |
 {: caption="Table 1. Governance use-cases" caption-side="top"}
 
 

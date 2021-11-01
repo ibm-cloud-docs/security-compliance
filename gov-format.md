@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-14"
+lastupdated: "2021-11-01"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -60,7 +60,7 @@ Rules and templates are comprised of several different building blocks, includin
 
 | Rule components explained |
 |:-----------|
-| <ol><li>The `target` object contains the details about the {{site.data.keyword.cloud_notm}} service and resource type that you want to target with the rule. It is important to note that the `service_name` is the [CRN-qualified service name of an {{site.data.keyword.cloud_notm}} service](/docs/account?topic=account-crn#service-name-crn). The `resource_kind` is the specific resource for the service that you want to set a configuration for.  </li><li>Optionally, when the properties support them, you can include `additional_target_attributes`, such as the location or ID of a resource, as an extra qualifier for the resource kind. </li><li>The `required_config` object contains the property conditions that you want to apply to the target. Property conditions contain three basic elements: a `property`, an `operator`, and a `value`. The available properties and the defined elements depend on the service and resource kind that you want to configure. [Learn more](#properties). <ul><strong>Property</strong>:  A configuration variable that applies to a specific resource. The available options are dependent upon the service and resource kind that you want to target.</ul> <ul><strong>Operator</strong>: A type of comparison between the property value and its condition value.</ul> <ul><strong>Value</strong>:  A polymorphic variable that can be either a single value or alist of alternative values that quantifies the conditions that are defined. Values are only required for some operators.</ul></li><li> The <code>enforcement_actions</code> object contains the actions that {{site.data.keyword.compliance_short}} takes on your behalf if the property conditions that you defined are not met. When the {{site.data.keyword.compliance_short}} evaluates the state of the target resource against your defined rule, it checks to ensure its defined conditions are evaluated to true. If they do not, IBM carries out your defined enforcement actions. The `disallow` action blocks a noncompliant request from completing.</li></ol> |
+| <ol><li>The `target` object contains the details about the {{site.data.keyword.cloud_notm}} service and resource type that you want to target with the rule. It is important to note that the `service_name` is the [CRN-qualified service name of an {{site.data.keyword.cloud_notm}} service](/docs/account?topic=account-crn#service-name-crn). The `resource_kind` is the specific resource for the service that you want to set a configuration for.  </li><li>Optionally, when the properties support them, you can include `additional_target_attributes`, such as the location or ID of a resource, as an extra qualifier for the resource kind. </li><li>The `required_config` object contains the property conditions that you want to apply to the target. Property conditions contain three basic elements: a `property`, an `operator`, and a `value`. The available properties and the defined elements depend on the service and resource kind that you want to configure. [Learn more](/docs/security-compliance?topic=security-compliance-available-rule-properties). <ul><strong>Property</strong>:  A configuration variable that applies to a specific resource. The available options are dependent upon the service and resource kind that you want to target.</ul> <ul><strong>Operator</strong>: A type of comparison between the property value and its condition value.</ul> <ul><strong>Value</strong>:  A polymorphic variable that can be either a single value or alist of alternative values that quantifies the conditions that are defined. Values are only required for some operators.</ul></li><li> The <code>enforcement_actions</code> object contains the actions that {{site.data.keyword.compliance_short}} takes on your behalf if the property conditions that you defined are not met. When the {{site.data.keyword.compliance_short}} evaluates the state of the target resource against your defined rule, it checks to ensure its defined conditions are evaluated to true. If they do not, IBM carries out your defined enforcement actions. The `disallow` action blocks a noncompliant request from completing.</li></ol> |
 {: caption="Table 1. Rule components explained" caption-side="top"}
 {: #rule-components}
 {: tab-title="Rule components"}
@@ -77,7 +77,7 @@ Rules and templates are comprised of several different building blocks, includin
 {: class="simple-tab-table"}
 
 ### Integrated services
-{: #integrated services}
+{: #integrated-services}
 
 The properties that are available in the {{site.data.keyword.compliance_short}} vary depending on the service that you create a rule or template for. To see the available properties and understand how they can be formatted to create a rule or a template, you can visit the service documentation that is linked in the following table, or you can view a [full list of available properties](/docs/security-compliance?topic=security-compliance-available-rule-properties).
 
