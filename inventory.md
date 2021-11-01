@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-01"
 
 keywords: inventory, security, compliance, discovery, run discovery, discover resources
 
@@ -56,7 +56,7 @@ With the {{site.data.keyword.compliance_full}}, you can view the full list of av
 ## Before you begin
 {: #before-inventory}
 
-Before you get started, be sure that you have the required level of access to view and manage your inventory. To manage your inventory, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). To discover your inventory, you must also have a [collector](/docs/security-compliance?topic=security-compliance-ibm-collector) and [credentials](/docs/security-compliance?topic=security-compliance-credentials) already Assessd in {{site.data.keyword.compliance_short}}.
+Before you get started, be sure that you have the required level of access to view and manage your inventory. To manage your inventory, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). To discover your inventory, you must also have a [collector](/docs/security-compliance?topic=security-compliance-ibm-collector) and [credentials](/docs/security-compliance?topic=security-compliance-credentials) already added in {{site.data.keyword.compliance_short}}.
 
 
 ## Creating an inventory

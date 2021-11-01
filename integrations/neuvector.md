@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-01"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -72,7 +72,7 @@ Before you start integrating business partners, be sure that you have the follow
 ## Registering NeuVector
 {: #registering-neuvector}
 
-You can use the {{site.data.keyword.compliance_short}} UI to create a connection to NeuVector. When the connection is created, you establish trust and associate your accounts, which shares the required iinformation such as credentials and URLs.
+You can use the {{site.data.keyword.compliance_short}} UI to create a connection to NeuVector. When the connection is created, you establish trust and associate your accounts, which shares the required information such as credentials and URLs.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. Navigate to **Integrations**.
