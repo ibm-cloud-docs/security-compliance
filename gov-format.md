@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-05"
+lastupdated: "2021-11-08"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -89,6 +89,8 @@ The properties that are available in the {{site.data.keyword.compliance_short}} 
 | [Code Engine](/docs/codeengine?topic=codeengine-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Direct Link](/docs/dl?topic=dl-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Event Streams](/docs/EventStreams?topic=EventStreams-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
+| [Hyper Protect DBaaS for MongoDB](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
+| [Hyper Protect DBaaS for PostgreSQL](/docs/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Internet Services](/docs/cis?topic=cis-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Load Balancer for VPC](/docs/vpc?topic=vpc-manage-security-compliance-lb) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Key Protect](/docs/key-protect?topic=key-protect-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| ![Checkmark icon](../icons/checkmark-icon.svg) |
