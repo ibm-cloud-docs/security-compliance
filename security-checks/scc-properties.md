@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-05"
+lastupdated: "2021-11-08"
 
 keywords: config rules, config properties, scc integrated services, 
 
@@ -160,6 +160,29 @@ Review the following table to learn more about the resource kinds, properties, a
 | `instance` | `allowed_network` | string | Specifies the type of endpoint the HPCS instance can be accessed from. |
 {: caption="Table 8. Rule properties that are available for Hyper Protect Crypto Services" caption-side="bottom"}
 
+## Hyper Protect DBaaS for MongoDB
+{: #hyperp-dbaas-mongodb-properties}
+
+Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Hyper Protect DBaaS for MongoDB. If you're using the API to define your rule, use `hyperp-dbaas-mongodb` for the service name.
+
+| Resource kind | Property | Operator type | Description |
+|:--------------|:---------|:--------------|:------------|
+| `instance` | `private_endpoints_only` | boolean | Check whether Hyper Protect DBaaS for MongoDB is accessible only by using private endpoints |
+| `instance` | `bring_your_own_key` | boolean | Check whether Hyper Protect DBaaS for MongoDB is enabled with customer-managed encryption and Bring Your Own Key (BYOK) |
+| `instance` | `keep_your_own_key` | boolean | Check whether Hyper Protect DBaaS for MongoDB is enabled with customer-managed encryption and Keep Your Own Key (KYOK) |
+{: caption="Table 9. Rule properties that are available for Hyper Protect DBaaS for MongoDB" caption-side="bottom"}
+
+## Hyper Protect DBaaS for PostgreSQL
+{: #hyperp-dbaas-postgresql-properties}
+
+Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Hyper Protect DBaaS for PostgreSQL. If you're using the API to define your rule, use `hyperp-dbaas-postgresql` for the service name.
+
+| Resource kind | Property | Operator type | Description |
+|:--------------|:---------|:--------------|:------------|
+| `instance` | `private_endpoints_only` | boolean | Check whether Hyper Protect DBaaS for PostgreSQL is accessible only by using private endpoints |
+| `instance` | `bring_your_own_key` | boolean | Check whether Hyper Protect DBaaS for PostgreSQL is enabled with customer-managed encryption and Bring Your Own Key (BYOK) |
+| `instance` | `keep_your_own_key` | boolean | Check whether Hyper Protect DBaaS for PostgreSQL is enabled with customer-managed encryption and Keep Your Own Key (KYOK) |
+{: caption="Table 10. Rule properties that are available for Hyper Protect DBaaS for PostgreSQL" caption-side="bottom"}
 
 ## IAM Access Groups
 {: #iam-groups-properties}
@@ -169,7 +192,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `service` | `public_access_enabled` | boolean | A boolean indicating whether the public access feature is enabled |
-{: caption="Table 9. Rule properties that are available for the IAM Access Groups platform component" caption-side="bottom"}
+{: caption="Table 11. Rule properties that are available for the IAM Access Groups platform component" caption-side="bottom"}
 
 
 ## IAM Identity Service
@@ -182,7 +205,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | `accountsettings` | `restrict_create_service_id` | string | Indicating whether the restriction on service ID creation is enabled. |
 | `accountsettings` | `restrict_create_platform_apikey` | string | Indicating whether the restriction on platform apikey creation is enabled. |
 | `accountsettings` | `mfa` | string | Indicating the level of mfa that is required. |
-{: caption="Table 10. Rule properties that are available for the IAM Identity Service platform component" caption-side="bottom"}
+{: caption="Table 12. Rule properties that are available for the IAM Identity Service platform component" caption-side="bottom"}
 
 
 ## Cloud Internet Services
@@ -194,7 +217,7 @@ Review the following table to learn more about the resource kinds, properties, a
 |:--------------|:---------|:--------------|:------------|
 | `zone` | `waf_enabled`| string | A string indicating whether the WAF is turned on or off. |
 | `zone` | `tls_mode` | string | A string indicating the TLS mode for encryption. Values include 'off', 'flexible', 'full', 'strict', and 'origin_pull'. |
-{: caption="Table 11. Rule properties that are available for Cloud Internet Services" caption-side="bottom"}
+{: caption="Table 13. Rule properties that are available for Cloud Internet Services" caption-side="bottom"}
 
 
 ## Load Balancer for VPC
@@ -206,7 +229,7 @@ Review the following table to learn more about the resource kinds, properties, a
 |:--------------|:---------|:--------------|:------------|
 | `instance` | `profile_family` | string | A list of strings matching LoadBalancer profile family name from LoadBalancer profile family. Ex: [application, network] |
 | `instance` | `load_balancer_type` | string | A list of strings indicating what type of the load balancer can be provisioned. Ex: [public, private] |
-{: caption="Table 12. Rule properties that are available for Load Balancer for VPC" caption-side="bottom"}
+{: caption="Table 14. Rule properties that are available for Load Balancer for VPC" caption-side="bottom"}
 
 
 ## Key Protect
@@ -227,7 +250,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | `key` | `dual_auth_delete` | boolean | Require/Disallow dual authorization to delete the given key in the Key Protect instance. Refer to Key Protect Key Policies API. |
 | `key` | `rotation.enabled` | boolean | Require/Disallow active rotation policy on specified key(s). Refer to Key Protect Key Policies API. |
 | `key` | `rotation.interval_month` | numeric | Specifies the given key's rotation interval (in months). Automatic rotation policies can only be applied to root keys with non-imported material. Refer to Key Protect Key Policies API. |
-{: caption="Table 13. Rule properties that are available for Key Protect" caption-side="bottom"}
+{: caption="Table 15. Rule properties that are available for Key Protect" caption-side="bottom"}
 
 
 ## Event Streams
@@ -240,7 +263,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | `instance` | `public_network_enabled` | boolean | A boolean indicating whether the public network is enabled |
 | `instance` | `private_network_enabled` | boolean | A boolean indicating whether the private network is enabled |
 | `instance` | `private_access_allowlist` | string_list | List of IPs where private network can be utilized |
-{: caption="Table 14. Rule properties that are available for Event Streams" caption-side="bottom"}
+{: caption="Table 16. Rule properties that are available for Event Streams" caption-side="bottom"}
 
 
 ## IBM Toolchains and Continuous Delivery
@@ -251,7 +274,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `instance` | `toolchain_allowed_tool_integration_ids` | string_list | Define a list of allowed tools. e.g. [ `hostedgit`, `orion`, `pipeline`, `draservicebroker` ]. Tool ID is at end of URL when attempting to add. Full list at https://github.com/open-toolchain/sdk/wiki/services.md. |
-{: caption="Table 15. Rule properties that are available for Continuous Delivery" caption-side="bottom"}
+{: caption="Table 17. Rule properties that are available for Continuous Delivery" caption-side="bottom"}
 
 
 ## Transit Gateway
@@ -262,5 +285,5 @@ Review the following table to learn more about the resource kinds, properties, a
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `service` | `cross_account_connection_approved` | boolean | Indicates whether an incoming cross account connection request was approved. |
-{: caption="Table 16. Rule properties that are available for Transit Gateway" caption-side="bottom"}
+{: caption="Table 18. Rule properties that are available for Transit Gateway" caption-side="bottom"}
 
