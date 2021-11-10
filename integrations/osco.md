@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-11-01"
+lastupdated: "2021-11-10"
 
 keywords: Centralized security, osco, {{site.data.keyword.openshiftshort}} Compliance Operator, compliance monitoring, compliance, 
 
@@ -77,7 +77,7 @@ Before you get started, be sure that you have the following prerequisites.
 ## Deploying the operator
 {: #deploy-osco}
 
-Before you can start scanning your resources for compliance, the Compliance Operator must be deployed in your {{site.data.keyword.openshiftshort}} cluster. To deploy the operator, follow the steps in the [Red Hat documentation](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.6/html/security_and_compliance/compliance-operator#compliance-operator-installation){: external}. When you deploy the OSCO, a bundle of predefined profiles is automatically installed and available for you to scan your resources with. In the next section, you select the profile that you want to use.
+Before you can start scanning your resources for compliance, the Compliance Operator must be deployed in your {{site.data.keyword.openshiftshort}} cluster. To deploy the operator, follow the steps in the [documentation](/docs/openshift?topic=openshift-compliance-operator). When you deploy the OSCO, a bundle of predefined profiles is automatically installed and available for you to scan your resources with. In the next section, you select the profile that you want to use.
 
 
 ## Registering the integration
