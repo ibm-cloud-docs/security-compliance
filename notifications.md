@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-16"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection, alerts, callback URL, compliance, standards, roles, notification channel, verify payload, public key
 
@@ -47,6 +47,8 @@ subcollection: security-compliance
 
 # Configuring alerts
 {: #notifications}
+
+
 
 By configuring an {{site.data.keyword.compliance_full}} notification channel, you can be alerted to any reported vulnerabilities as soon as the report is available. With a fast alert time, you're able to immediately start an investigation into any reported issue and fix the vulnerability before it becomes a larger problem in your application.
 {: shortdesc}
