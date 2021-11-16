@@ -150,6 +150,9 @@ toc:
               - link:
                   label: Notifications
                   href: https://{DomainName}/apidocs/security-compliance/si-notifications
+      - link:
+          label: Terraform
+          href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_si_note
       - topicgroup: 
           label: Available security checks
           topics:
