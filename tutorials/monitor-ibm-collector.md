@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-17"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -73,7 +73,7 @@ Be sure that you also have the following requirements:
 {: #create-ibm-collector}
 {: step}
 
-A collector is a software module that is packaged as a Docker image that scans your resources and validates their configurations. To learn more about collectors and how the communication takes place, see [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
+A collector is a software module that is packaged as a container image that scans your resources and validates their configurations. To learn more about collectors and how the communication takes place, see [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
 
 IBM-managed collectors are created on IBM-owned infrastructure and are maintained by the {{site.data.keyword.compliance_short}}. If your organization doesn't allow managed collectors, you can always create and install your own. For more information, see [Manually administering collectors](/docs/security-compliance?topic=security-compliance-collector-manual).
 {: note}
@@ -87,11 +87,11 @@ IBM-managed collectors are created on IBM-owned infrastructure and are maintaine
 4. If you have a passphrase enabled, the **Existing passphrase** field displays. Enter your passphrase. If you do not have a passphrase enabled, the field will not display.
 5. Click **Next**.
 6. In the **Managed by** field, select **IBM**.
-7. By default, the **Private** endpoint type is selected.
+7.By default, the **Private** endpoint type is selected.
 
   A collector requires constant communication with the service to validate your current posture. By default, a private endpoint is used for communication in all IBM managed collectors.
 
-8. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
+9. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
 
 When your collector is ready, the status updates to **Active**.
 

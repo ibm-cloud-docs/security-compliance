@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-17"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -52,7 +52,7 @@ subcollection: security-compliance
 A collector is used by {{site.data.keyword.compliance_full}} to gather the configuration information of your resources and then validate it against your specific security standards. 
 {: shortdesc}
 
-A collector is a software module, packaged as a Docker image, that is installed on infrastructure that has access to your resources. Check out the following image to see how the collector fits into the {{site.data.keyword.compliance_short}} workflow.
+A collector is a software module, packaged as a container image, that is installed on infrastructure that has access to your resources. Check out the following image to see how the collector fits into the {{site.data.keyword.compliance_short}} workflow.
 
 ![The image shows the set up of a collector.](images/collector.svg){: caption="Figure 1. Collector deployment" caption-side="bottom"}
 
@@ -70,10 +70,13 @@ When you work with collectors, you can either manage the lifecycle yourself or y
 
 
 IBM-managed collectors
-:   When you choose to have IBM manage your collector, it is installed on IBM infrastructure. IBM is responsible for the installation and management for the lifecycle of the collector. This option gives you the ability to focus on just the health and security of your resources.</dd>
+:   When you choose to have IBM manage your collector, it is installed on IBM infrastructure . IBM is responsible for the installation and management for the lifecycle of the collector. This option gives you the ability to focus on just the health and security of your resources.</dd>
+
 
 Customer-managed collectors
 :  In some situations, an IBM-managed collector might not be possible. If your organization has policies regarding the ownership of infrastructure or specific security constraints, you can always continue to manage your own collector. If your organization chooses to manage your own collectors, you are responsible for the installation and management of the collector. You own the infrastructure and you have total control over where the collector is installed.
+
+
 
 ### Working with multiple collectors
 {: #collector-multiple}
@@ -90,9 +93,11 @@ When you install a collector, you install two images both the collector image an
 ### Understanding your responsibilities
 {: #collector-responsibilities}
 
-If you choose to work with an IBM-managed collector, you are responsible only for providing the credentials that a collector needs to access your resources.
+If you choose to work with an IBM-managed collector, you are responsible only for providing the credentials that a collector needs to access your resources. 
 
 If you choose to create and install your own collector, you are responsible for the stability of the virtual machine. This includes, processing power, disk space, clearing logs, controlling access, and opening ports. You are also responsible for updating or patching the Watchtower image if there is a new vulnerability.
+
+
 
 
 
