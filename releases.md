@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-11-01"
+lastupdated: "2021-11-17"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -70,7 +70,7 @@ Deprecation of the bookmarks capability
 {: release-note}
 
 Next version (v0.1.2) of IBM Cloud for Financial Services profile
-:   Released today, the next version (v0.1.2) of IBM Cloud for Financial Services profile is added with new goals and new controls. The goals and controls mapping are given below:
+:   Released today, the next version (v0.1.2) of IBM Cloud for Financial Services profile is added with new goals and new controls. Check out the following list of goals to see how they're mapped to sepcific controls.
    * Goal ID: `3000039` mapped to the controls AC-2(i) and AC-2(1)
    * Goal ID: `3000040` mapped to the control AC-2(3)
    * Goal ID: `3000045` mapped to the control CM-6(a)
@@ -253,12 +253,3 @@ General availability of the {{site.data.keyword.compliance_short}}
 
    In this release, the {{site.data.keyword.compliance_short}} offers support for profiles that you can use to monitor your accounts for compliance, config rules for governing the use of resources, and Security Insights for gaining insight into potential risks to your environments. For more information, check out the [announcement blog](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-security-and-compliance-center){: external}.
 
-## 1 September 2020
-{: #security-compliance-sept0120}
-{: release-note}
-
-Introducing {{site.data.keyword.compliance_short}}
-:   Manage security and compliance controls directly within the IBM Cloud® platform. With the IBM Security and Compliance Center, you view your security and compliance postures from a unified dashboard. 
-   * Automate security and compliance postures
-   * Enable configuration governance
-   * Detect vulnerabilities and threats
