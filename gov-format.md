@@ -83,7 +83,7 @@ The properties that are available in the {{site.data.keyword.compliance_short}} 
 
 | Service | Rules | Templates |
 |:--------|:------|:----------|
-| [App ID](/docs/appid?topic=appid-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| | 
+
 | [Auto Scale for VPC](/docs/vpc?topic=vpc-manage-security-compliance)| ![Checkmark icon](../icons/checkmark-icon.svg)| | 
 | [Billing Composite Service](/docs/get-coding?topic=get-coding-iam-composite)  | ![Checkmark icon](../icons/checkmark-icon.svg)| | 
 | [Block Storage for VPC](/docs/vpc?topic=vpc-manage-security-compliance) |  ![Checkmark icon](../icons/checkmark-icon.svg)| | 
