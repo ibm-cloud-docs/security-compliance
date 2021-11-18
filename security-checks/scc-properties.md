@@ -57,16 +57,6 @@ Ready to get started? Review the following tables and then see [Formatting rules
 
 
 
-## Auto Scale for VPC
-{: #as-properties}
-
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Auto Scale for VPC. If you're using the API to define your rule, use `is.instance-group` for the service name.
-
-| Resource kind | Property | Operator type | Description |
-|---------------|----------|---------------|-------------|
-| `instance` | `membership_count` | numeric | Indicates the number of instances in the instance group. |
-{: caption="Table 1. Rule properties for Auto Scale for VPC" caption-side="bottom"}
-
 ## Billing Composite Service 
 {: #billing-properties}
 
@@ -77,26 +67,6 @@ Review the following table to learn more about the resource kinds, properties, a
 | `account-trait` | `eu_supported` | boolean | Indicates whether the account has the eu_supported flag enabled |
 | `account-trait` | `hipaa_accepted` | boolean | Indicates whether the account has the hipaa_accepted flag enabled |
 {: caption="Table 2. Rule properties that are available for the Billing platform component" caption-side="bottom"}
-
-## Block Storage for VPC
-{: #bs-properties}
-
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Block Storage for VPC. If you're using the API to define your rule, use `is.volume` for the service name.
-
-| Resource kind | Property | Operator type | Description |
-|:--------------|:---------|:--------------|:------------|
-| `instance` | `user_managed_encryption` | boolean | Indicates whether the customer-managed key encryption enabled or not. |
-{: caption="Table 3. Rule properties that are available for Block Storage for VPC" caption-side="bottom"}
-
-## Block Storage Snapshots for VPC
-{: #bss-properties}
-
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Block Storage Snapshots for VPC. If you're using the API to define your rule, use `is.snapshot` for the service name.
-
-| Resource kind | Property | Operator type | Description |
-|:--------------|:---------|:--------------|:------------|
-| `instance` | `user_managed_encryption` | boolean | Indicates whether the customer-managed key encryption enabled or not. |
-{: caption="Table 4. Rule properties that are available for Block Storage Snapshots for VPC" caption-side="bottom"}
 
 ## Catalog Management
 {: #catalog-properties}
@@ -181,16 +151,6 @@ Review the following table to learn more about the resource kinds, properties, a
 | `instance` | `private_access_allowlist` | boolean | The list of IPs where private network can be utilized. |
 {: caption="Table 10. Rule properties that are available for Event Streams" caption-side="bottom"}
 
-## File Storage for VPC
-{: #fs-properties}
-
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to File Storage for VPC. If you're using the API to define your rule, use `is.share` for the service name.
-
-| Resource kind | Property | Operator type | Description |
-|:--------------|:---------|:--------------|:------------|
-| `instance` | `user_managed_encryption_at_rest` | boolean | Indicates whether or not the user managed key encryption for a file storage is enabled. |
-{: caption="Table 11. Rule properties that are available for File Storage for VPC" caption-side="bottom"}
-
 ## Hyper Protect Crypto Services
 {: #hpcs-properties}
 
@@ -200,16 +160,6 @@ Review the following table to learn more about the resource kinds, properties, a
 |:--------------|:---------|:--------------|:------------|
 | `instance` | `allowed_network` | string | Specifies the type of endpoint the HPCS instance can be accessed from. |
 {: caption="Table 12. Rule properties that are available for Hyper Protect Crypto Services" caption-side="bottom"}
-
-## Hyper Protect Crypto Services SVT
-{: #hpcss-properties}
-
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Hyper Protect Crypto Services SVT. If you're using the API to define your rule, use `hs-crypto-solution` for the service name.
-
-| Resource kind | Property | Operator type | Description |
-|:--------------|:---------|:--------------|:------------|
-| `instance` | `allowed_network` | string | Specifies the type of endpoint the HPCS instance can be accessed from. |
-{: caption="Table 13. Rule properties that are available for Hyper Protect Crypto Services SVT" caption-side="bottom"}
 
 ## Hyper Protect DBaaS for MongoDB
 {: #hyperp-dbaas-mongodb-properties}
@@ -268,16 +218,6 @@ Review the following table to learn more about the resource kinds, properties, a
 | `service` | `enabled` | boolean | A boolean to enable or disable IBM Cloud Shell for an account |
 {: caption="Table 18. Rule properties that are available for IBM Cloud Shell" caption-side="bottom"}
 
-## Image Service for VPC
-{: #is-properties}
-
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Image Service for VPC. If you're using the API to define your rule, use `is.image` for the service name.
-
-| Resource kind | Property | Operator type | Description |
-|:--------------|:---------|:--------------|:------------|
-| `instance` | `user_managed_encryption` | boolean | Indicates whether the customer managed key encryption enabled or not. |
-{: caption="Table 19. Rule properties that are available for Image Service for VPC" caption-side="bottom"}
-
 ## Internet Services
 {: #cis-properties}
 
@@ -309,16 +249,6 @@ Review the following table to learn more about the resource kinds, properties, a
 | `key` | `rotation.interval_month` | numeric | Specifies the given key's rotation interval (in months). Automatic rotation policies can only be applied to root keys with non-imported material. Refer to Key Protect Key Policies API. |
 {: caption="Table 21. Rule properties that are available for Key Protect" caption-side="bottom"}
 
-## Kubernetes Service
-{: #kubernetes-properties}
-
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Kubernetes Service. If you're using the API to define your rule, use `containers-kubernetes` for the service name.
-
-| Resource kind | Property | Operator type | Description |
-|:--------------|:---------|:--------------|:------------|
-| `cluster` | `public_service_endpoint_enabled`| boolean | Indicates whether this Kubernetes Service cluster is accessible only by using private endpoints. |
-{: caption="Table 22. Rule properties that are available for Kubernetes Service" caption-side="bottom"}
-
 ## Load Balancer for VPC
 {: #lb-vpc-properties}
 
@@ -329,7 +259,6 @@ Review the following table to learn more about the resource kinds, properties, a
 | `instance` | `profile_family` | string | A list of strings matching LoadBalancer profile family name from LoadBalancer profile family. Ex: [application, network] |
 | `instance` | `load_balancer_type` | string | A list of strings indicating what type of the load balancer can be provisioned. Ex: [public, private] |
 {: caption="Table 23. Rule properties that are available for Load Balancer for VPC" caption-side="bottom"}
-
 
 ## Toolchain
 {: #toolchain-properties}
@@ -351,28 +280,3 @@ Review the following table to learn more about the resource kinds, properties, a
 |:--------------|:---------|:--------------|:------------|
 | `service` | `cross_account_connection_approved` | boolean | Indicates whether an incoming cross account connection request was approved. |
 {: caption="Table 25. Rule properties that are available for Transit Gateway" caption-side="bottom"}
-
-## Virtual Server for VPC
-{: #vs-properties}
-
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Virtual Server for VPC. If you're using the API to define your rule, use `is.instance` for the service name.
-
-| Resource kind | Property | Operator type | Description |
-|:--------------|:---------|:--------------|:------------|
-| `instance` | `floating_ip_vsi_attach_enabled` | boolean | Indicates whether floating ips are allowed to be associated with the VSI. |
-{: caption="Table 26. Rule properties that are available for Virtual Server for VPC" caption-side="bottom"}
-
-## VPN for VPC
-{: #vpn-properties}
-
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to VPN for VPC. If you're using the API to define your rule, use `is.vpn` for the service name.
-
-| Resource kind | Property | Operator type | Description |
-|:--------------|:---------|:--------------|:------------|
-| `connection` | `ike_policy` | - | Indicates `ike_policy` related properties. |
-| `connection` | `encryption_algorithm` | string | Indicates a list of string matching vpn ike policy encryption algorithm that are not recommeded. Ex: triple_des. |
-| `connection` | `authentication_algorithm` | string | Indicates a list of string matching vpn ike policy authentication algorithm that are recommeded. Ex: sha256. |
-| `connection` | `ipsec_policy` | - | Indicates `ipsec_policy` related properties. |
-| `connection` | `encryption_algorithm` | string | Indicates a list of string matching vpn ipsec policy encryption algorithm that are not recommeded. Ex: triple_des. |
-| `connection` | `authentication_algorithm` | string | Indicates a list of string matching vpn ipsec policy authentication algorithm that are recommeded. Ex: sha256. |
-{: caption="Table 27. Rule properties that are available for VPN for VPC" caption-side="bottom"}
