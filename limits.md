@@ -56,7 +56,7 @@ subcollection: security-compliance
 ## Known issues
 {: #known-issues}
 
-Review the following known issues that you might encounter while working with the service.
+Review the following known issues that you might encounter while you work with the service.
  
 | Issue  | Workaround |
 |:-------|:-----------|
@@ -80,7 +80,7 @@ Review the following table to see the limits that apply to rules.
 
 |  | Limit |
 |----------------|-----------|
-| Total rules | 500 rules per enterprise account</br>100 rules per stand alone account |
+| Total rules | 500 rules per enterprise account</br>100 rules per stand-alone account |
 | Rule length | 4096 characters |
 | Name length | 32 characters |
 | Description length | 256 characters |
@@ -104,7 +104,7 @@ Review the following table to see the limits that apply to templates.
 
 |  | Limit |
 |----------------|-----------|
-| Total templates | 500 templates per enterprise account</br>100 templates per stand alone account |
+| Total templates | 500 templates per enterprise account</br>100 templates per stand-alone account |
 | Template length | 4096 characters |
 | Name length | 32 characters |
 | Description length | 256 characters |
