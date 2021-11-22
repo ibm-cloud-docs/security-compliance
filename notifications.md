@@ -227,7 +227,7 @@ Example payload:
    "findings":[
       {
          "severity":"LOW",
-         "issuer":"{{site.data.keyword.cloud_notm}} Security Advisor",
+         "issuer":"IBM Cloud Security Advisor",
          "issuer-url":"https://cloud.ibm.com/security-advisor#/findings?id=291266ca760e037c079edd4523242386/providers/test-provider/occurrences/ce90dc1-1-1-7",
          "id":"291266ca760e037c079edd4523242386/providers/test-provider/occurrences/ce90dc1-1-1-7",
          "payload-type":"findings",
@@ -279,7 +279,7 @@ Example payload:
             "provider_name":"291266ca760e037c079edd4523242386/providers/test-provider",
             "reported_by":{
                "id":"certificate-manager",
-               "title":"{{site.data.keyword.cloud_notm}} Certificate Manager",
+               "title":"IBM Cloud Certificate Manager",
                "url":"https://cloud.ibm.com/docs/certificate-manager?topic=certificate-manager-gettingstarted#gettingstarted"
             },
             "short_description":"Certificate expiring in 90 days",
