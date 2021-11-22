@@ -251,6 +251,6 @@ As an additional protection, your organization might want to configure a proxy t
 
    | IP address | Port |
    |:-------|:---------|
-   | DNS | `161.26.0.6` <br /> `53` |
-   | Service endpoints | `166.8.0.0` <br /> `443` |
+   | DNS | `161.26.0.6`  /n `53` |
+   | Service endpoints | `166.8.0.0`  /n `443` |
    {: caption="Table 5. Collector installation prompts" caption-side="top"}
