@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-18"
+lastupdated: "2021-11-22"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -83,7 +83,6 @@ The properties that are available in the {{site.data.keyword.compliance_short}} 
 
 | Service | Rules | Templates |
 |:--------|:------|:----------|
-
 | [Billing Composite Service](/docs/get-coding?topic=get-coding-iam-composite)  | ![Checkmark icon](../icons/checkmark-icon.svg)| | 
 | [Catalog Management](/docs/get-coding?topic=get-coding-ctlogmgrcli) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Certificate Manager](/docs/certificate-manager?topic=certificate-manager-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
@@ -149,7 +148,7 @@ String-based operators are case-sensitive.
 ## Formatting complex rules
 {: #format-rules}
 
-Most often, your rules will be more complex than a single property. To create more complex scenarios, you can include multiple conditions and take advantage of nested properties. 
+Most often, rule are more complex than a single property. To create more complex scenarios, you can include multiple conditions and take advantage of nested properties. 
 
 
 ### Defining multiple conditions
@@ -163,7 +162,7 @@ So, as an example, the code snippets shown in the following image evaluate to tr
 2. If **(A or B or C)** are true.
 3. If **(A or (B and C))** are true.
 
-![The diagram shows the correlation between multiple conditions. All of the information is conveyed in the surrounding text.](images/config-rules-property.svg){: caption="Figure 2. The ways in which properties can relate to each other." caption-side="bottom"}
+![The diagram shows the correlation between multiple conditions. The information is conveyed in the surrounding text.](images/config-rules-property.svg){: caption="Figure 2. The ways in which properties can relate to each other." caption-side="bottom"}
 
 
 ### Defining nested properties
@@ -206,7 +205,7 @@ For example, you can restrict access to a Cloud Object Storage bucket by determi
 ## Formatting complex templates
 {: #format-templates}
 
-When services make multiple API calls to set your defined configurations, you must have a template in place that sets your preferred default to ensure that your resource can be configured. So, for example, let's say that your team is looking for a way to ensure that Cloud Object Storage buckets are always configured with the default values that are required by your organization. You want to create a bucket that:
+When services make multiple API calls to set your defined configurations, you must have a template in place that sets your preferred default to ensure that your resource can be configured. So, for example, say that your team is looking for a way to ensure that Cloud Object Storage buckets are always configured with the default values that are required by your organization. You want to create a bucket that:
 
 * is in the Dallas region,
 * is only accessible at a specific IP address,
@@ -214,7 +213,7 @@ When services make multiple API calls to set your defined configurations, you mu
 * is a smart storage class,
 * and has a hard quota.
 
-But, the storage class, firewall, and hard quota configurations are set as secondary API calls during bucket creation. So, in order to allow the bucket to create with your rules in place, you create the following template:
+But, the storage class, firewall, and hard quota configurations are set as secondary API calls during bucket creation. So, to allow the bucket to create with your rules in place, you create the following template:
 
 ```json
 {

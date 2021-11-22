@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -211,7 +211,7 @@ Now that you have a collector, you can install it by completing the following st
    | Registration key | Provide the registration key. This can be found in the table on the **Collectors** page of the {{site.data.keyword.compliance_short}} UI. Expand the details for the collector that you want to register and copy the key. |
    {: caption="Table 3. Collector installation prompts" caption-side="top"}
 
-   The registration key is active for 24 hours. Installation must be complete and the collector activated within that timeframe.
+   The registration key is active for 24 hours. Installation must be complete and the collector activated within that time frame.
    {: important}
 
 10. Confirm that everything is installed.

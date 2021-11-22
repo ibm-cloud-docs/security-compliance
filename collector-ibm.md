@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials, ibm managed collector, ibm managed
 
@@ -92,7 +92,7 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
 
    It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
 
-5. If you have a passphrase enabled, the **Existing passphrase** field displays. Enter your passphrase. If you do not have a passphrase enabled, the field will not display.
+5. If you have a passphrase enabled, the **Existing passphrase** field displays. Enter your passphrase. If you do not have a passphrase enabled, the field does not display.
 6. Click **Next**.
 7. In the **Managed by** field, select **IBM**.
 8. By default, the **Private** endpoint type is selected.

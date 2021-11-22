@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -49,7 +49,7 @@ subcollection: security-compliance
 # Connecting Caveonix
 {: #setup-caveonix}
 
-Caveonix RiskForesight is a multi-tenant cybersecurity and compliance risk management platform for hybrid cloud. The platform provides the ability to detect, predict, and act on potential issues by providing continuous automated monitoring and analysis of cloud workloads. If you work with Caveonix, you can create an integration between Caveonix and {{site.data.keyword.compliance_short}}, to see the findings for all of your {{site.data.keyword.cloud_notm}} resources in the {{site.data.keyword.compliance_short}} dashboard.
+Caveonix RiskForesight is a multi-tenant cybersecurity and compliance risk management platform for hybrid cloud. The platform provides the ability to detect, predict, and act on potential issues by providing continuous automated monitoring and analysis of cloud workloads. If you work with Caveonix, you can create an integration between Caveonix and {{site.data.keyword.compliance_short}}, to see the findings for all your {{site.data.keyword.cloud_notm}} resources in the {{site.data.keyword.compliance_short}} dashboard.
 {: shortdesc}
 
 ## Understanding Caveonix findings
@@ -97,7 +97,7 @@ Be sure that you also have the following {{site.data.keyword.cloud_notm}} inform
 * Provider ID
 * An API key
 
-   If you don't already have an API key, you can create a new one. The key is used to gain access to all of the accounts that you apply policies to in RiskForesight. Be sure to assign te appropriate access.
+   If you don't already have an API key, you can create a new one. The key is used to gain access to all of the accounts that you apply policies to in RiskForesight. Be sure to assign the appropriate access.
 
 * Region
 
