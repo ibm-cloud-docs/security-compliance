@@ -77,7 +77,7 @@ The Certificate Manager service helps you to obtain, store, and manage the certi
 | `Very high risk certificate manager activity` | `ata-cert-notification-conf` | Reports when changes are made to a notification channel. These changes include: deletion, update and enabling and disabling a notification channel. |
 | `Certificate reimport threshold within time window` | `ata-cert-reimport` | Reports when within a 24 hour time window more than 2 certificate imports are unsuccessful. |
 | `Certificate notification failure` | `ata-cert-notification-fail` | Reports when within a 24 hour time window more than 2 notification channel sends are unsuccessful. |
-| `Certificate manager indicative API outside ` | `ata-cert-ccw` | Reports when a certificate is deleted, reimported or download outside of the hours 1700 to 0800 (next day). |
+| `Certificate manager indicative API outside` | `ata-cert-ccw` | Reports when a certificate is deleted, reimported or download outside of the hours 1700 to 0800 (next day). |
 | `Service instance high risk API` | `ata-cert-service` | Reports when any one of the following is observed more than twice within a 24 hour window:  /n A Certificate Manager instance is created.  /n A Certificate Manager instance is deleted.  /n A Certificate Manager instance is renamed or service plan changed. |
 {: caption="Table 2. Rules that are available in the Certificate Manager rule package" caption-side="bottom"}
 
