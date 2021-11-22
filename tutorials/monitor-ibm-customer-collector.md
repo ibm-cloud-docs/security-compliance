@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -82,12 +82,15 @@ To complete this tutorial, be sure that you have the following requirements:
 Virtual Private Cloud gives you the ability to establish your own private cloud-like computing environment on shared public cloud infrastructure. You define and control a virtual network that is logically isolated from all other public cloud tenants. 
 
 1. Create a VPC.
+
    1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> VPC Infrastructure > Network > [VPCs](https://{DomainName}/vpc-ext/network/vpcs){: external}**.
    2. Click **Create**.
    3. Give your VPC a meaningful name. For example, `compliance-vpc`. Then, ensure that the VPC settings are configured the way that you want them.
    4. Optional: Click the **Edit** icon to rename your automatically generated subnets to give them a meaningful name. For example, `compliance-vpc-subnet-1`.
    5. Review your total estimated cost and click **Create Virtual Private Cloud**. If you don't immediately see your new VPC in the table, refresh the page.
+
 2. Create an SSH key.
+
    1. In the VPC navigation, click **Compute > [SSH keys](https://{DomainName}/vpc-ext/compute/sshKeys) > Create**.
    2. Give your SSH key a meaningful name. For example, `compliance-vpc-ssh-key`.
    3. Paste your public key into the **Public key** field and then click **Add SSH key**. To obtain your public key, open your terminal and use the following command to copy it.
@@ -101,6 +104,7 @@ Virtual Private Cloud gives you the ability to establish your own private cloud-
       {: tip}
 
 3. Create a VSI.
+
    1. In the navigation, click **Compute > [Virtual server instances](https://{DomainName}/vpc-ext/compute/vs) > Create**.
    2. Give your VSI a meaningful name. For example, `compliance-vpc-vsi`. Then, ensure that the settings are configured the way that you want them.
    3. For **Operating System**, select **Ubuntu Linux**.
@@ -108,11 +112,14 @@ Virtual Private Cloud gives you the ability to establish your own private cloud-
    5. Select the **SSH key** that you created in the previous step.
    6. Select the VPC that you previously created.
    7. Click **Create Virtual Server Instance**. If you don't immediately see your new VSI in the table with a status of **Running**, refresh the page.
+
 4. Reserve a Floating IP.
+
    1. Click **Network > [Floating IPs](https://{DomainName}/vpc-ext/network/floatingIPs) > Create**.
    2. Give your Floating IP a meaningful name. For example, `compliance-vpc-floating-ip`.
    3. From the **Resource to bind** dropdown, select the VSI that you created in the previous step.
    4. Click **Reserve IP**.
+
 5. Using the Floating IP that you created, SSH into your VSI. When prompted, type yes and click **Enter** to create the connection.
 
    ```
@@ -142,13 +149,16 @@ Virtual Private Cloud gives you the ability to establish your own private cloud-
 A collector is a Docker image that you install on your Virtual Private Cloud. The collector image is responsible for gathering your configuration information and validating it.
 
 1. Create a collector.
+
    1. Go to the **Manage posture > Configure > Collectors** tab and click **Create**.
    2. Give your collector a meaningful name and click **Next**. For example, `ibm-cloud-collector`. 
    3. For **Managed by**, select **Customer**.
    4. For **Endpoint type**, select **Public** and then click **Create**.
+
 2. In the **Collectors** table, click the dropdown arrow to expand the details for the collector that you created.
 3. Click **initiate_collector.sh** to download the collector installation script. Make a note of the **Registration key**.
 4. Transfer the collector installation file to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
+
    1. Locally, open the **initiate_collector.sh** file that you downloaded and copy its contents.
    2. From your command line, open the VIM editor.
 
@@ -162,6 +172,7 @@ A collector is a Docker image that you install on your Virtual Private Cloud. Th
    5. Press the **Escape** key to exist edit mode.
    6. Type `:wq` and click **Enter**. to save and exist VIM.
    7. To confirm that the file was created, run the `ls` command.
+
 5. Change the permissions of the `initiate_collector.sh` file to allow it to run.
 
    ```
@@ -195,12 +206,15 @@ A collector is a Docker image that you install on your Virtual Private Cloud. Th
 In order to run the scan, the collector must have *read* access to the resources that you want to scan. This access is granted through an {{site.data.keyword.cloud_notm}} API key. For more information about the security of your credentials, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
 
 1. Create an {{site.data.keyword.cloud_notm}} API key.
+
    1. Go to **Manage > Access (IAM) > API keys**.
    2. Click **Create an {{site.data.keyword.cloud_notm}} API key**.
    3. Give your API key a meaningful name and description. For example, `compliance-api-key` and this key is used by the collector to validate my resource configurations.
    4. Click **Create**.
    5. Click **Copy** or **Download** to save your key.
+
 2. Add the API key to the {{site.data.keyword.compliance_short}} as a credential.
+
    1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to return to the {{site.data.keyword.compliance_short}}.
    2. In the navigation, click **Manage posture > Configure > Credentials**.
    3. Click **Create**.
