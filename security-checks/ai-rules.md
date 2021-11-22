@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: available insights rules, Activity Insights, Network Insights, iks, key protect, kms, rules, app id, iam, cos, certificates, bucket, object storage,
 
@@ -119,10 +119,10 @@ IBM Cloud Shell is a cloud-based shell workspace that you can access through you
 {: caption="Table 5. Rules that are available in the Cloud Shell rule package" caption-side="bottom"}
 
 
-## Classic Infrastructure
+## Classic infrastructure
 {: #infra-gen1}
 
-Classic Gen 1 Infrastructure is a type of cloud computing that allows you to allocate your resources on demand. You can monitor [Virtual Servers](/docs/virtual-servers?topic=virtual-servers-getting-started-tutorial) or [Bare Metal Servers](/docs/bare-metal?topic=bare-metal-getting-started) with Activity Insights.
+Classic infrastructure is a type of cloud computing that allows you to allocate your resources on demand. You can monitor [Virtual Servers](/docs/virtual-servers?topic=virtual-servers-getting-started-tutorial) or [Bare Metal Servers](/docs/bare-metal?topic=bare-metal-getting-started) with Activity Insights.
 
 
 | Rule          |  Finding Type     |  Description     |

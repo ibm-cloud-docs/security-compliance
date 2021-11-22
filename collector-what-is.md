@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-17"
+lastupdated: "2021-11-22"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -81,7 +81,8 @@ Customer-managed collectors
 ### Working with multiple collectors
 {: #collector-multiple}
 
-If you're working with more than one cloud provider or an on-premises environment, you might need to install more than one collector. Each collector operates only within the subnets to which it belongs, so if your IT network is segmented, you might need a collector for each subnet.
+If you're working with more than one cloud provider or an on-premises environment, you might need to install more than one collector. A collector is only able to access the subnets that it has appropriate access to. For example, the collector might need to have `icmp ping` access in order to run an Nmap scan, `SSH` access for accessing VMs or `winrm` access to access a windows machine. One collector is able to access multiple subnets, but you should be sure that it is sized appropriately in order to scan a specified environment.
+
 
 ### Understanding the Watchtower image
 {: #collector-watchtower}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-11-16"
+lastupdated: "2021-11-22"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection, alerts, callback URL, compliance, standards, roles, notification channel, verify payload, public key
 
@@ -101,7 +101,7 @@ You can create up to 15 channels.
 8. Click **Create**. Your channel is listed in the **Alerts** table.
 9. Verify that your channel is configured correctly by selecting **Test connection** in the overflow menu. A test alert is sent to your endpoint. Be sure to remove any alerts that are sent by *Security Advisor Notification Test* after you've completed your testing.
 
-Next, [verify that the payload](#verify) is sent directly from the {{site.data.keyword.compliance_short}}.
+Next, [verify that the payload](#verify-api) is sent directly from the {{site.data.keyword.compliance_short}}.
 
 
 
@@ -204,7 +204,7 @@ To edit your channel configuration, you can make an API call to the [`/update en
 {: tip}
 
 
-## Verifying the payload
+## Verifying the payload with the UI
 {: #verify-ui}
 {: ui}
 
@@ -213,8 +213,8 @@ When a notification is sent, you can use a public key to decrypt and verify the 
 This action can be done through the API only. To see the steps, switch to the **API** instructions.
 {: note}
 
-## Verifying the payload
-{: #verify}
+## Verifying the payload with the API
+{: #verify-api}
 {: api}
 
 

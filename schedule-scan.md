@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: scans, compliance, schedule scan, create scan, discovery, validation, fact collection, fact validation
 
@@ -78,7 +78,7 @@ Before you get started, be sure that you have the required level of access to vi
 
 If you're attempting to configure fact collection for cloud-based infrastructure, you must complete the following steps before you schedule your scan.
 
-Scanning for {{site.data.keyword.cloud_notm}} Gen 1 classic infrastructure is not available.
+Scanning for {{site.data.keyword.cloud_notm}} classic infrastructure is not available.
 {: note}
 
 #### Supported VM types
