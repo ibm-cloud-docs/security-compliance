@@ -195,7 +195,7 @@ You can create up to 15 channels.
 
 3. Test your connection.
 
-   ```
+   ```sh
    curl -X GET "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{ACCOUNT_ID}/test/notification/channel/{CHANNEL_ID}" -H "accept: application/json" -H "Authorization: {IAM_BEARER_TOKEN}"
    ```
    {: codeblock}
