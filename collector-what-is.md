@@ -83,6 +83,8 @@ Customer-managed collectors
 
 If you're working with more than one cloud provider or an on-premises environment, you might need to install more than one collector. A collector is only able to access the subnets that it has appropriate access to. For example, the collector might need to have `icmp ping` access in order to run an Nmap scan, `SSH` access for accessing VMs or `winrm` access to access a windows machine. One collector is able to access multiple subnets, but you should be sure that it is sized appropriately in order to scan a specified environment.
 
+If your collector needs to access multiple subnets, you must add them to the subnet list for the collector. The filename that you need to updat is `<collector_dir_path>/config/discovery_subnet_list.cfg`.
+
 
 ### Understanding the Watchtower image
 {: #collector-watchtower}
