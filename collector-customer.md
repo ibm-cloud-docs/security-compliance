@@ -229,11 +229,13 @@ Now that you have a collector, you can install it by completing the following st
    {: screen}
 
 11. Approve your collector.
+
    1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
    2. In the navigation, click **Manage posture > Configure > Collectors**.
    3. In the **Collectors** table, click **Approval required** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
    4. If a passphrase is enabled, click **Passphrase** and enter the phrase. Be sure to enter your passphrase exactly.
 
+Now that your collector is approved and ready to use, create [a scope](/docs/security-compliance?topic=security-compliance-scopes).
 
 ### Using a proxy with your collector
 {: #collector-proxy}
