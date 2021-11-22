@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -395,7 +395,7 @@ Example response:
   
 *Sample error in case user tries to create a note with kind `FINDING` and having a `card` element in it:*         
 
-```json
+```plaintext
 kpi or card field are not allowed for kind FINDING, having status code as 400
 ```
 {: screen}

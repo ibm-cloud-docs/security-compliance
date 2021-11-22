@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-18"
+lastupdated: "2021-11-22"
 
 keywords: config rules, config properties, scc integrated services, 
 
@@ -237,7 +237,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `instance` | `dual_auth_delete` | boolean | Require/Disallow enablement of dual authorization to delete keys in the Key Protect instance. Requirement applies to subsequently created keys and will not apply to pre-existing keys. Refer to Key Protect Instance Policies API. |
-| `instance` | `allowed_network `| string | Specifies the type of endpoint the Key Protect instance can be accessed from. Refer to Key Protect Instance Policies API. |
+| `instance` | `allowed_network`| string | Specifies the type of endpoint the Key Protect instance can be accessed from. Refer to Key Protect Instance Policies API. |
 | `instance` | `key_create_and_import.create_root_key` | boolean | Allow/Disallow root keys to be created in the Key Protect instance. | 
 | `instance` | `key_create_and_import.import_root_key` | boolean | Allow/Disallow root keys to be imported into the Key Protect instance. |
 | `instance` | `key_create_and_import.create_standard_key` | boolean | Allow/Disallow standard keys to be created in the Key Protect instance. |

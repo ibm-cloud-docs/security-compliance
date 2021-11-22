@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -141,7 +141,7 @@ You can learn more about [{{site.data.keyword.cloudcerts_short}}](/docs/certific
 
 To create a self signed certificate that expires in a day, you can run the following OpenSSL command in your terminal.
 
-```
+```sh
 openssl req -x509 -newkey rsa:2048 -keyout key.pem -subj "/CN=myservice.com" -out server.pem -days 1 -nodes
 ```
 {: codeblock}

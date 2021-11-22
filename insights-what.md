@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2017, 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 keywords:
 subcollection: security-compliance
 ---
@@ -54,7 +54,7 @@ With {{site.data.keyword.compliance_full}}, you can take advantage of built-in i
 
 With Security Insights, you can continuously monitor and analyze your {{site.data.keyword.cloud_notm}} resources and applications for potential risks that might impact your environment. With Security Insights, you get access to threat detection, security risk prevention, and suggested remediation steps that can help to mitigated issued findings, sent through customized alert notifications, that can give you a more comprehensive understanding of your current security status. Check out the following table to learn more about the different capabilities.
 
-![The diagram shows the components of Security Insights](images/insights.svg){: caption="Figure 1. A visual representation of the components of Security Insights." caption-side="bottom"}
+![The diagram shows the components of Security Insights](images/insights.svg){: caption="Figure 1. Security Insights components" caption-side="bottom"}
 
 
 Activity Insights
@@ -90,7 +90,7 @@ A rule is a combination of conditions and an event that is used to analyze your 
 
 Example rule:
 
-```
+```json
 {
     "comment": "Dormant Rule: Very high risk App ID  activity... ",
     "dormant": true,

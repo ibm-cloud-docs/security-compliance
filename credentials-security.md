@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -65,7 +65,7 @@ For security reasons, if a passphrase is entered incorrectly, the credentials th
 
 Check out the following diagram to understand more about how credential security works. 
 
-![This image is a visual representation of how credentials are secured. The information that is shown in the image is detailed in the surrounding text.](images/passphrase.svg)
+![This image is a visual representation of how credentials are secured. The information that is shown in the image is detailed in the surrounding text.](images/passphrase.svg){: caption="Figure 1. Credential security" caption-side="bottom"}
 
 As you can see in the previous image, a user adds their credentials to the service UI. The credentials that they add might be a username and password or an API key that the {{site.data.keyword.compliance_short}} might need to scan a specific resource. Then, if a user wants to manage their own security, they enable their own passphrase. If they want to have IBM manage their security, the service generates a passphrase. Either way, the passphrase is used to create a data encryption key. That key is used to encrypt the credentials before they are stored by the service.
 
