@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -56,7 +56,7 @@ When you no longer need an {{site.data.keyword.compliance_full}} template, you c
 
 
 ## Before you begin
-{: #before-templates}
+{: #before-delete-templates}
 
 Before you get started, be sure that you have the required level of access to delete templates. To delete a template, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 

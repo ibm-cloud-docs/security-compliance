@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -55,7 +55,7 @@ When you no longer need an {{site.data.keyword.compliance_full}} rule, you can d
 
 
 ## Before you begin 
-{: #before-rules}
+{: #before-delete-rules}
 
 Before you get started, be sure that you have the required level of access to delete rules. To delete a rule, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
