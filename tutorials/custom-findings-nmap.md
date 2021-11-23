@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -151,7 +151,7 @@ For this demo, the card values are predefined as shown in the following code exa
 
 Example values:
 
-```
+```json
 "sectionName": 'Network',
 "cardId" : 'network-scan-nmap-Card',
 "cardTitle" : 'Port Discovery',
@@ -175,14 +175,14 @@ To generate findings, you can run the following utility command from the root di
 
 For Windows:
 
-```
+```sh
 node ./src/app.js <scan_type> -t 'IPv4 address'
 ```
 {: codeblock}
 
 For macOS and UNIX systems, append command with `sudo -E`:
 
-```
+```sh
 sudo -E node ./src/app.js <scan_type> -t 'IPv4 address' --updateDashboardCard 'yes'
 ```
 {: codeblock}
@@ -225,7 +225,7 @@ The scan alerts are visible in the service dashboard cards for 24 hours after wh
 
 If you no longer have a need to see findings from Nmap in your dashboard, you can delete the card that displays the information.
 
-```
+```sh
 node ./src/app.js deleteCard
 ```
 {: codeblock}

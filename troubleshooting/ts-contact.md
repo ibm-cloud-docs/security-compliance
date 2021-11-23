@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -61,7 +61,7 @@ If you're opening a support ticket for the security and compliance posture monit
 1. Log in to the collector.
 2. Run the following command to package your logs.
 
-   ```
+   ```sh
    docker ps
    docker exec -it <collector_name> bash
    zip /opt/data/collector_log.zip /var/log/*.log
@@ -70,7 +70,7 @@ If you're opening a support ticket for the security and compliance posture monit
 
 3. Navigate to the installation path on your host machine to find the `collector_log.zip` file.
 
-   ```
+   ```sh
    ls /home/ubuntu/<collector_folder>/collector_log.zip
    ```
    {: codeblock}

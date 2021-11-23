@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-01"
+lastupdated: "2021-11-19"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -68,7 +68,7 @@ Before you get started, be sure that you have the required level of access to vi
 
 You can use the {{site.data.keyword.compliance_short}} UI to define the rules that you want to enforce or monitor for your {{site.data.keyword.cloud_notm}} resources. To create rules by using the {{site.data.keyword.cloud_notm}} console, use the following steps as a guide.
 
-When you create a rule, it can take up to 10 minutes to be in effect.
+When you create a rule for a service, you give the {{site.data.keyword.compliance_short}} permission to access the configuration details for services instances that are provisioned in your account.
 {: note}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
@@ -126,6 +126,9 @@ When you create a rule, it can take up to 10 minutes to be in effect.
 10. Click **Next**.
 11. Review your selections. To make an update, click **Back** to return to the section that you want to edit.
 12. Click **Finish and attach** to create your rule and [attach it to a scope](/docs/security-compliance?topic=security-compliance-rules-apply). If you're not ready to attach your rule, you can always save your rule and attach it later. But, your rule is not enforced until it is attached to a scope.
+
+When you create a rule, it can take up to 10 minutes to be in effect.
+{: note}
 
 
 After you create a rule, you can view it by navigating to the {{site.data.keyword.compliance_short}} UI and selecting the rule that you want to view in the **Configuration rules** table. To see which scope attachments are associated with a rule, click **Attachments** in the navigation.

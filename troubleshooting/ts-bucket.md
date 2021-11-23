@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -65,3 +65,4 @@ To resolve the issue:
 
 * Verify that your locations match.
 * Delete your current Activity Insights bucket to connect a new one. 
+

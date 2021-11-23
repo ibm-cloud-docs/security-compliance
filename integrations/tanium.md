@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: Centralized security, tanium, compliance monitoring, compliance, 
 
@@ -49,10 +49,10 @@ subcollection: security-compliance
 # Connecting Tanium
 {: #setup-tanium}
 
-With [Tanium&trade; Comply](https://docs.tanium.com/comply/comply/index.html){: external}, you can evaluate your organizations endpoints for potential vulnerabilities and misconfigurations against industry security standards, vulnerability definitions, and custom compliance checks. When you integrate Tanium with the {{site.data.keyword.compliance_full}}, you can view all of your compliance data in one location in the same format.
+With [Tanium&trade; Comply](https://docs.tanium.com/comply/comply/index.html){: external}, you can evaluate your organizations endpoints for potential vulnerabilities and misconfigurations against industry security standards, vulnerability definitions, and custom compliance checks. When you integrate Tanium with the {{site.data.keyword.compliance_full}}, you can view all your compliance data in one location in the same format.
 {: shortdesc}
 
-If you're an existing Tanium Comply on-prem user, you must contact your TAM or account team to obtain a link to the new build in order to get started with the integration. Automatic upgrades of Connect will occur for Tanium-managed customers over the next two weeks.
+If you're an existing Tanium Comply on-prem user, you must contact your TAM or account team to obtain a link to the new build to get started with the integration. Automatic upgrades of Connect occur for Tanium-managed customers over the next two weeks.
 {: note}
 
 To learn more about how the integration is configured, check out the following diagram.
@@ -93,7 +93,7 @@ To get started, you must register an integration with the {{site.data.keyword.co
 3. In the **Tanium** tile, click **Connect**.
 4. Provide a name for your connection.
 5. Enter your dashboard URL in the **Registration URL** field.
-6. Click **Next**. You see that you're currently connecting using "Push" mode in order to "Validate" your resources.
+6. Click **Next**. You see that you're currently connecting using "Push" mode to "Validate" your resources.
 7. Choose whether to receive your results in **OSCAL** or **Native** Tanium format.
 8. Click **Connect**. A service ID and API key are generated on your behalf.
 9. From the modal, copy the API key that is shown. You use this key later to push the results to the {{site.data.keyword.compliance_short}}.
@@ -102,7 +102,7 @@ To get started, you must register an integration with the {{site.data.keyword.co
 ## Exporting your data from Tanium
 {: #export-tanium}
 
-In order to see your data in the {{site.data.keyword.compliance_short}}, you need to package and export it from Tanium. You can do so by creating a saved question and using that question to create a connection.
+To see your data in the {{site.data.keyword.compliance_short}}, you need to package and export it from Tanium. You can do so by creating a saved question and using that question to create a connection.
 
 1. Log in to your Tanium account and navigate to the **Home** page.
 2. In the **Explore data** section, ask a question to obtain the data that you want to export. For example, your question might be similar to *Get computer name and comply - compliance findings from all machines*.

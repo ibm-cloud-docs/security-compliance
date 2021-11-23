@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -56,12 +56,12 @@ subcollection: security-compliance
 ## Known issues
 {: #known-issues}
 
-Review the following known issues that you might encounter while working with the service.
+Review the following known issues that you might encounter while you work with the service.
  
 | Issue  | Workaround |
 |:-------|:-----------|
 | Remediation is unavailable for {{site.data.keyword.cloud_notm}}. | If you're working with Amazon Web Services (AWS) or Azure, you can [remediate issues](/docs/security-compliance?topic=security-compliance-remediation) directly from the service UI. If you're working in {{site.data.keyword.cloud_notm}}, you must manually remediate your issues. |
-| Results for {{site.data.keyword.cloud_notm}} Classic Infrastructure are not returned. | It is not possible to scan Gen 1 classic infrastructure as a cloud-based resource. To monitor security and compliance for Gen 1 classic infrastructure, configure an on-prem collector. |
+| Results for {{site.data.keyword.cloud_notm}} Classic Infrastructure are not returned. | It is not possible to scan classic infrastructure as a cloud-based resource. To monitor security and compliance for classic infrastructure, configure an on-prem collector. |
 | Results for the resource view are not returned if [1] The total number of goals in the profiles attached to a scan exceeds 560. [2] The number of resources exceeds 3000. | If you are processing a large scan, you can use the control view or drift view to see your results. |
 | You cannot create a second partner integration. | Only one integration can be created for each name or URL. If you need to update your integration in some way, delete the integration and create a new one. |
 | You edit your bookmark image, but it doesn't update. | Refresh the table. The new image is displayed. | 
@@ -80,7 +80,7 @@ Review the following table to see the limits that apply to rules.
 
 |  | Limit |
 |----------------|-----------|
-| Total rules | 500 rules per enterprise account</br>100 rules per stand alone account |
+| Total rules | 500 rules per enterprise account</br>100 rules per stand-alone account |
 | Rule length | 4096 characters |
 | Name length | 32 characters |
 | Description length | 256 characters |
@@ -104,7 +104,7 @@ Review the following table to see the limits that apply to templates.
 
 |  | Limit |
 |----------------|-----------|
-| Total templates | 500 templates per enterprise account</br>100 templates per stand alone account |
+| Total templates | 500 templates per enterprise account</br>100 templates per stand-alone account |
 | Template length | 4096 characters |
 | Name length | 32 characters |
 | Description length | 256 characters |

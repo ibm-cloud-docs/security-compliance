@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -48,13 +48,12 @@ content-type: troubleshoot
 {:release-note: data-hd-content-type='release-note'}
 
 # Why don't I see any evaluation results?
+{: #ts-evaluation-results}
+{: troubleshoot} 
+{: support}
 
 You don't see any evaluation results after you create a [rule](/docs/security-compliance?topic=security-compliance-rules-define). 
 {: shortdesc}
-
-{: #ts-enforce}
-{: troubleshoot} 
-{: support}
 
 You created a rule, but no results are displayed in your dashboard.
 {: tsSymptoms}

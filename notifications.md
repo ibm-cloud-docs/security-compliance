@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-22"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection, alerts, callback URL, compliance, standards, roles, notification channel, verify payload, public key
 
@@ -48,6 +48,8 @@ subcollection: security-compliance
 # Configuring alerts
 {: #notifications}
 
+
+
 By configuring an {{site.data.keyword.compliance_full}} notification channel, you can be alerted to any reported vulnerabilities as soon as the report is available. With a fast alert time, you're able to immediately start an investigation into any reported issue and fix the vulnerability before it becomes a larger problem in your application.
 {: shortdesc}
 
@@ -84,8 +86,8 @@ You can create up to 15 channels.
    | Source | Description |
    | --------- | ----------- |
    | Built-in Insights | You can continuously monitor and analyze your {{site.data.keyword.cloud_notm}} resources and apps for risks that can impact your environment. Potential sources include: [Vulnerability Advisor](/docs/security-compliance?topic=security-compliance-setup-services#setup-images), [Certificate Manager](/docs/security-compliance?topic=security-compliance-setup-services#setup-certificates), [Network Insights](/docs/security-compliance?topic=security-compliance-setup-network), and [Activity Insights](/docs/security-compliance?topic=security-compliance-setup-activity). |
-   | Business partners | You can manage all of your security notifications in one place by connecting your instance of one of IBM business partners to the {{site.data.keyword.compliance_short}}. Current business partners include: [Caveonix](/docs/security-compliance?topic=security-compliance-setup-caveonix), [Nuevector](/docs/security-compliance?topic=security-compliance-setup-neuvector), and [Twistlock](/docs/security-compliance?topic=security-compliance-setup-twistlock). |
-   | Custom | You can connect a custom or proprietary security tool that your organization already works with in order to configure and manage alerts in one place. [Learn more](/docs/security-compliance?topic=security-compliance-setup_custom). |
+   | Business partners | You can manage all your security notifications in one place by connecting your instance of one of IBM business partners to the {{site.data.keyword.compliance_short}}. Current business partners include: [Caveonix](/docs/security-compliance?topic=security-compliance-setup-caveonix), [NeuVector](/docs/security-compliance?topic=security-compliance-setup-neuvector), and [Twistlock](/docs/security-compliance?topic=security-compliance-setup-twistlock). |
+   | Custom | You can connect a custom or proprietary security tool that your organization already works with to configure and manage alerts in one place. [Learn more](/docs/security-compliance?topic=security-compliance-setup_custom). |
    {: caption="Table 1. Alert sources" caption-side="top"}
 
    As an example, if you wanted to configure alerts for your [network flow logs](/docs/vpc?topic=vpc-flow-logs), you would select Network Insights as your source and then create a threshold for the alerts that you receive by selecting a severity.
@@ -99,7 +101,7 @@ You can create up to 15 channels.
 8. Click **Create**. Your channel is listed in the **Alerts** table.
 9. Verify that your channel is configured correctly by selecting **Test connection** in the overflow menu. A test alert is sent to your endpoint. Be sure to remove any alerts that are sent by *Security Advisor Notification Test* after you've completed your testing.
 
-Next, [verify that the payload](#verify) is sent directly from the {{site.data.keyword.compliance_short}}.
+Next, [verify that the payload](#verify-api) is sent directly from the {{site.data.keyword.compliance_short}}.
 
 
 
@@ -193,7 +195,7 @@ You can create up to 15 channels.
 
 3. Test your connection.
 
-   ```
+   ```sh
    curl -X GET "https://{region}.secadvisor.cloud.ibm.com/alerts/v1/{ACCOUNT_ID}/test/notification/channel/{CHANNEL_ID}" -H "accept: application/json" -H "Authorization: {IAM_BEARER_TOKEN}"
    ```
    {: codeblock}
@@ -202,7 +204,7 @@ To edit your channel configuration, you can make an API call to the [`/update en
 {: tip}
 
 
-## Verifying the payload
+## Verifying the payload with the UI
 {: #verify-ui}
 {: ui}
 
@@ -211,8 +213,8 @@ When a notification is sent, you can use a public key to decrypt and verify the 
 This action can be done through the API only. To see the steps, switch to the **API** instructions.
 {: note}
 
-## Verifying the payload
-{: #verify}
+## Verifying the payload with the API
+{: #verify-api}
 {: api}
 
 
@@ -225,7 +227,7 @@ Example payload:
    "findings":[
       {
          "severity":"LOW",
-         "issuer":"{{site.data.keyword.cloud_notm}} Security Advisor",
+         "issuer":"IBM Cloud Security Advisor",
          "issuer-url":"https://cloud.ibm.com/security-advisor#/findings?id=291266ca760e037c079edd4523242386/providers/test-provider/occurrences/ce90dc1-1-1-7",
          "id":"291266ca760e037c079edd4523242386/providers/test-provider/occurrences/ce90dc1-1-1-7",
          "payload-type":"findings",
@@ -277,7 +279,7 @@ Example payload:
             "provider_name":"291266ca760e037c079edd4523242386/providers/test-provider",
             "reported_by":{
                "id":"certificate-manager",
-               "title":"{{site.data.keyword.cloud_notm}} Certificate Manager",
+               "title":"IBM Cloud Certificate Manager",
                "url":"https://cloud.ibm.com/docs/certificate-manager?topic=certificate-manager-gettingstarted#gettingstarted"
             },
             "short_description":"Certificate expiring in 90 days",

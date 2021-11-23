@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-11-01"
+lastupdated: "2021-11-22"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -56,7 +56,7 @@ When you connect Twistlock, two insights cards are created in the {{site.data.ke
 
 | Card                      | Description of findings   |
 |:--------------------------|:--------------------------|
-| Twistlock runtime         | Total incidents and audits: Findings that are related to incidents or audits on your cloud-native workloads. </br>Total firewall audits: Findings that are related to issues with your firewall. |
+| Twistlock runtime         | Total incidents and audits: Findings that are related to incidents or audits on your cloud-native workloads.  \n Total firewall audits: Findings that are related to issues with your firewall. |
 | Twistlock vulnerabilities | Total images with new vulnerabilities: Findings that are related to vulnerabilities found in your container images. |
 {: caption="Table 1. Summary of cards that are generated when you connect your Twistlock account" caption-side="top"}
 

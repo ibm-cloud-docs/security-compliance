@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-23"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -73,7 +73,7 @@ Be sure that you also have the following requirements:
 {: #create-ibm-collector}
 {: step}
 
-A collector is a software module that is packaged as a Docker image that scans your resources and validates their configurations. To learn more about collectors and how the communication takes place, see [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
+A collector is a software module that is packaged as a container image that scans your resources and validates their configurations. To learn more about collectors and how the communication takes place, see [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
 
 IBM-managed collectors are created on IBM-owned infrastructure and are maintained by the {{site.data.keyword.compliance_short}}. If your organization doesn't allow managed collectors, you can always create and install your own. For more information, see [Manually administering collectors](/docs/security-compliance?topic=security-compliance-collector-manual).
 {: note}
@@ -82,16 +82,17 @@ IBM-managed collectors are created on IBM-owned infrastructure and are maintaine
 2. On the **Configure > Collectors** page of the {{site.data.keyword.compliance_short}}, click **Create**.
 3. Give your collector a name and description.
 
-  It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
+   It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
 
 4. If you have a passphrase enabled, the **Existing passphrase** field displays. Enter your passphrase. If you do not have a passphrase enabled, the field will not display.
 5. Click **Next**.
-6. In the **Managed by** field, select **IBM**.
-7. By default, the **Private** endpoint type is selected.
+6. In the **Managed by** field, select **IBM**. 
 
-  A collector requires constant communication with the service to validate your current posture. By default, a private endpoint is used for communication in all IBM managed collectors.
+8. By default, the **Private** endpoint type is selected.
 
-8. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
+   A collector requires constant communication with the service to validate your current posture. By default, a private endpoint is used for communication in all IBM managed collectors.
+
+9. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
 
 When your collector is ready, the status updates to **Active**.
 
@@ -101,18 +102,18 @@ When your collector is ready, the status updates to **Active**.
 
 The credentials that you add to the service must allow the collector to read your resource configurations.
 
-2. In the navigation, click **Configure > Credentials**.
-3. Click **Create**.
-4. Give your credential a meaningful name and description.
-5. Select **Discovery/Collection**.
-6. Click **Next**.
-7. Select **{{site.data.keyword.cloud_notm}}**.
-8. Paste your API key into the **IBM API key** field. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey).
+1. In the navigation, click **Configure > Credentials**.
+2. Click **Create**.
+3. Give your credential a meaningful name and description.
+4. Select **Discovery/Collection**.
+5. Click **Next**.
+6. Select **{{site.data.keyword.cloud_notm}}**.
+7. Paste your API key into the **IBM API key** field. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey).
 
-  Your API key must have reader access permissions to the resources that you want to scan.
-  {: note}
+   Your API key must have reader access permissions to the resources that you want to scan.
+   {: note}
 
-9. Verify your updates and click **Create**. The credential is added to a list of available credentials. 
+8. Verify your updates and click **Create**. The credential is added to a list of available credentials. 
 
 
 ## Create a scope

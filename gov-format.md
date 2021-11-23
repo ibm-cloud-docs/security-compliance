@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-08"
+lastupdated: "2021-11-22"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -60,7 +60,7 @@ Rules and templates are comprised of several different building blocks, includin
 
 | Rule components explained |
 |:-----------|
-| <ol><li>The `target` object contains the details about the {{site.data.keyword.cloud_notm}} service and resource type that you want to target with the rule. It is important to note that the `service_name` is the [CRN-qualified service name of an {{site.data.keyword.cloud_notm}} service](/docs/account?topic=account-crn#service-name-crn). The `resource_kind` is the specific resource for the service that you want to set a configuration for.  </li><li>Optionally, when the properties support them, you can include `additional_target_attributes`, such as the location or ID of a resource, as an extra qualifier for the resource kind. </li><li>The `required_config` object contains the property conditions that you want to apply to the target. Property conditions contain three basic elements: a `property`, an `operator`, and a `value`. The available properties and the defined elements depend on the service and resource kind that you want to configure. [Learn more](/docs/security-compliance?topic=security-compliance-available-rule-properties). <ul><strong>Property</strong>:  A configuration variable that applies to a specific resource. The available options are dependent upon the service and resource kind that you want to target.</ul> <ul><strong>Operator</strong>: A type of comparison between the property value and its condition value.</ul> <ul><strong>Value</strong>:  A polymorphic variable that can be either a single value or alist of alternative values that quantifies the conditions that are defined. Values are only required for some operators.</ul></li><li> The <code>enforcement_actions</code> object contains the actions that {{site.data.keyword.compliance_short}} takes on your behalf if the property conditions that you defined are not met. When the {{site.data.keyword.compliance_short}} evaluates the state of the target resource against your defined rule, it checks to ensure its defined conditions are evaluated to true. If they do not, IBM carries out your defined enforcement actions. The `disallow` action blocks a noncompliant request from completing.</li></ol> |
+| <ol><li>The `target` object contains the details about the {{site.data.keyword.cloud_notm}} service and resource type that you want to target with the rule. It is important to note that the `service_name` is the [CRN-qualified service name of an {{site.data.keyword.cloud_notm}} service](/docs/account?topic=account-crn#service-name-crn). The `resource_kind` is the specific resource for the service that you want to set a configuration for.  </li><li>Optionally, when the properties support them, you can include `additional_target_attributes`, such as the location or ID of a resource, as an extra qualifier for the resource kind. </li><li>The `required_config` object contains the property conditions that you want to apply to the target. Property conditions contain three basic elements: a `property`, an `operator`, and a `value`. The available properties and the defined elements depend on the service and resource kind that you want to configure. [Learn more](/docs/security-compliance?topic=security-compliance-available-rule-properties). <ul>**Property**:  A configuration variable that applies to a specific resource. The available options are dependent upon the service and resource kind that you want to target.</ul> <ul>**Operator**: A type of comparison between the property value and its condition value.</ul> <ul>**Value**:  A polymorphic variable that can be either a single value or alist of alternative values that quantifies the conditions that are defined. Values are only required for some operators.</ul></li><li> The <code>enforcement_actions</code> object contains the actions that {{site.data.keyword.compliance_short}} takes on your behalf if the property conditions that you defined are not met. When the {{site.data.keyword.compliance_short}} evaluates the state of the target resource against your defined rule, it checks to ensure its defined conditions are evaluated to true. If they do not, IBM carries out your defined enforcement actions. The `disallow` action blocks a noncompliant request from completing.</li></ol> |
 {: caption="Table 1. Rule components explained" caption-side="top"}
 {: #rule-components}
 {: tab-title="Rule components"}
@@ -69,7 +69,7 @@ Rules and templates are comprised of several different building blocks, includin
 
 | Template components explained |
 |:-----------|
-| <ol><li>The <code>target</code> object contains the details about the {{site.data.keyword.cloud_notm}} service and resource type that you want to target with the template. It is important to note that the <code>service_name</code> is the [CRN-qualified service name of an {{site.data.keyword.cloud_notm}} service](/docs/account?topic=account-crn#service-name-crn). </li><li>Optionally, when the properties support them, you can include <code>additional_target_attributes</code>, such as the location or ID of a resource, as an extra qualifier for the resource kind. </li><li>The <code>customized_defaults</code> object contains the property conditions that you want to apply to the target. Property conditions contain three basic elements: a <code>property</code> and a <code>value</code>. The available properties and the defined elements depend on the service and resource kind that you want to configure. [Learn more](/docs/security-compliance?topic=security-compliance-available-rule-properties). <ul><strong>Property</strong>: A configuration variable that applies to a specific resource. The available options are dependent upon the service and resource kind that you want to target.</ul><ul><strong>Value</strong>:  A polymorphic variable that can be either a single value or alist of alternative values that quantifies the conditions that are defined.</ul></li></ol> |
+| <ol><li>The <code>target</code> object contains the details about the {{site.data.keyword.cloud_notm}} service and resource type that you want to target with the template. It is important to note that the <code>service_name</code> is the [CRN-qualified service name of an {{site.data.keyword.cloud_notm}} service](/docs/account?topic=account-crn#service-name-crn). </li><li>Optionally, when the properties support them, you can include <code>additional_target_attributes</code>, such as the location or ID of a resource, as an extra qualifier for the resource kind. </li><li>The <code>customized_defaults</code> object contains the property conditions that you want to apply to the target. Property conditions contain three basic elements: a <code>property</code> and a <code>value</code>. The available properties and the defined elements depend on the service and resource kind that you want to configure. [Learn more](/docs/security-compliance?topic=security-compliance-available-rule-properties). <ul>**Property**: A configuration variable that applies to a specific resource. The available options are dependent upon the service and resource kind that you want to target.</ul><ul>**Value**:  A polymorphic variable that can be either a single value or alist of alternative values that quantifies the conditions that are defined.</ul></li></ol> |
 {: caption="Table 1. Template components explained" caption-side="top"}
 {: #template-components}
 {: tab-title="Template components"}
@@ -83,18 +83,24 @@ The properties that are available in the {{site.data.keyword.compliance_short}} 
 
 | Service | Rules | Templates |
 |:--------|:------|:----------|
+| [Billing Composite Service](/docs/get-coding?topic=get-coding-iam-composite)  | ![Checkmark icon](../icons/checkmark-icon.svg)| | 
+| [Catalog Management](/docs/get-coding?topic=get-coding-ctlogmgrcli) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Certificate Manager](/docs/certificate-manager?topic=certificate-manager-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| ![Checkmark icon](../icons/checkmark-icon.svg) |
-| [Cloud Shell](/docs/cloud-shell?topic=cloud-shell-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Code Engine](/docs/codeengine?topic=codeengine-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Direct Link](/docs/dl?topic=dl-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Event Streams](/docs/EventStreams?topic=EventStreams-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
+| [Hyper Protect Crypto Services](/docs/hs-crypto?topic=hs-crypto-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Hyper Protect DBaaS for MongoDB](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Hyper Protect DBaaS for PostgreSQL](/docs/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
+| [IAM Access Groups Service](/docs/security-compliance?topic=security-compliance-access-management) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
+| [IAM Identity Service](/docs/security-compliance?topic=security-compliance-access-management) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
+| [IBM Cloud Shell](/docs/cloud-shell?topic=cloud-shell-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Internet Services](/docs/cis?topic=cis-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [Load Balancer for VPC](/docs/vpc?topic=vpc-manage-security-compliance-lb) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Key Protect](/docs/key-protect?topic=key-protect-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| ![Checkmark icon](../icons/checkmark-icon.svg) |
+| [Load Balancer for VPC](/docs/vpc?topic=vpc-manage-security-compliance-lb) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Platform components](/docs/overview?topic=overview-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
+| [Toolchain](/docs/ContinuousDelivery?topic=ContinuousDelivery-cd-manage-security-compliance) |  ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Transit Gateway](/docs/transit-gateway?topic=transit-gateway-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 {: caption="Table 2. Supported {{site.data.keyword.cloud_notm}} services" caption-side="top"}
 
@@ -142,7 +148,7 @@ String-based operators are case-sensitive.
 ## Formatting complex rules
 {: #format-rules}
 
-Most often, your rules will be more complex than a single property. To create more complex scenarios, you can include multiple conditions and take advantage of nested properties. 
+Most often, rule are more complex than a single property. To create more complex scenarios, you can include multiple conditions and take advantage of nested properties. 
 
 
 ### Defining multiple conditions
@@ -156,7 +162,7 @@ So, as an example, the code snippets shown in the following image evaluate to tr
 2. If **(A or B or C)** are true.
 3. If **(A or (B and C))** are true.
 
-![The diagram shows the correlation between multiple conditions. All of the information is conveyed in the surrounding text.](images/config-rules-property.svg){: caption="Figure 2. The ways in which properties can relate to each other." caption-side="bottom"}
+![The diagram shows the correlation between multiple conditions. The information is conveyed in the surrounding text.](images/config-rules-property.svg){: caption="Figure 2. The ways in which properties can relate to each other." caption-side="bottom"}
 
 
 ### Defining nested properties
@@ -199,7 +205,7 @@ For example, you can restrict access to a Cloud Object Storage bucket by determi
 ## Formatting complex templates
 {: #format-templates}
 
-When services make multiple API calls to set your defined configurations, you must have a template in place that sets your preferred default to ensure that your resource can be configured. So, for example, let's say that your team is looking for a way to ensure that Cloud Object Storage buckets are always configured with the default values that are required by your organization. You want to create a bucket that:
+When services make multiple API calls to set your defined configurations, you must have a template in place that sets your preferred default to ensure that your resource can be configured. So, for example, say that your team is looking for a way to ensure that Cloud Object Storage buckets are always configured with the default values that are required by your organization. You want to create a bucket that:
 
 * is in the Dallas region,
 * is only accessible at a specific IP address,
@@ -207,7 +213,7 @@ When services make multiple API calls to set your defined configurations, you mu
 * is a smart storage class,
 * and has a hard quota.
 
-But, the storage class, firewall, and hard quota configurations are set as secondary API calls during bucket creation. So, in order to allow the bucket to create with your rules in place, you create the following template:
+But, the storage class, firewall, and hard quota configurations are set as secondary API calls during bucket creation. So, to allow the bucket to create with your rules in place, you create the following template:
 
 ```json
 {

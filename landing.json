@@ -1,9 +1,10 @@
 {
     "title": "Security and Compliance Center docs",
-    "lastupdated": "2021-07-28",
+    "lastupdated": "2021-11-23",
     "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
     "section_devtools": {
-      "api": "/apidocs/security-compliance/posture"
+      "api": "/apidocs/security-compliance/posture",
+      "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_si_note"
     },
     "section_recommended": [
       {
@@ -32,19 +33,19 @@
       "view_more": "/docs/acme-test?topic=acme-test-release-notes",
       "tiles": [
         {
-          "date": "22 July 2021",
-          "title": "Consolidated SDK package and Security Advisor doc integration",
-          "description": "Now all of the Security and Compliance Center SDKs are packaged together. The Security Advisor docs have been rebranded and integrated into the Security and Compliance Center docs."
+          "date": "22 Novemeber 2021",
+          "title": "Now available: New goals",
+          "description": "New goals are now available in the IBM Cloud Best Practices profile."
         },
         {
-          "date": "22 June 2021",
-          "title": "Tanium integration",
-          "description": "Now you can configure your Tanium Comply instances to forward your compliance data to the Security and Compliance Center."
+          "date": "1 November 2021",
+          "title": "Now available: Scan your OpenShift clusters",
+          "description": "You can now scan your OpenShift clusters by using the OpenShift Compliance Operator(OSCO) integration."
         },
         {
-          "date": "14 June 2021",
-          "title": "Managed collectors",
-          "description": "Now you can choose to have IBM manage a collector on your behalf."
+          "date": "27 October 2021",
+          "title": "Deprecation of Bookmarks",
+          "description": "The ability to create bookmarks or direct connections within the Security and Compliance Center will be deprecated on 30 November 2021."
         }
       ]
     }

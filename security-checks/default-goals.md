@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-11-17"
 
 keywords: goals, secure by default, secure, secure platform, default goals, available goals
 
@@ -59,7 +59,7 @@ To see which goals are met by default, check out the following table.
 | 3000002 | Check whether IBMid password policy requires at least one lowercase letter |
 | 3000003 | Check whether IBMid password policy requires at least one number |
 | 3000004 | Check whether IBMid password policy requires minimum length of 12 characters |
-| 3000005 | Check whether IBMid password policy prevents password reuse below the minimum of # |
+| 3000005 | Check whether IBMid password policy prevents password reuse before a minimum of # |
 | 3000006 | Check whether IBMid password may contain only printable ASCII characters (in the range 33 - 126) |
 | 3000007 | Check whether IBMid password policy contains spaces or any of the following characters: \;:(""?)<> |
 | 3000008 | Check whether IBMid uses a password meter that coaches users to create strong passwords that exceed the minimum requirements |

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-11-01"
+lastupdated: "2021-11-23"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -51,6 +51,15 @@ content-type: release-note
 
 
 
+## 22 November 2021
+{: #security-compliance-nov2221}
+{: release-note}
+
+New goals
+:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All of the goals with ID's in the following ranges are new.
+
+* Goal ID's: `3000542` - `3000544` and `3000321`.
+
 ## 1 November 2021
 {: #security-compliance-nov012021}
 {: release-note}
@@ -70,26 +79,28 @@ Deprecation of the bookmarks capability
 {: release-note}
 
 Next version (v0.1.2) of IBM Cloud for Financial Services profile
-:   Released today, the next version (v0.1.2) of IBM Cloud for Financial Services profile is added with new goals and new controls. The goals and controls mapping are given below:
-   * Goal ID: `3000039` mapped to the controls AC-2(i) and AC-2(1)
-   * Goal ID: `3000040` mapped to the control AC-2(3)
-   * Goal ID: `3000045` mapped to the control CM-6(a)
-   * Goal ID: `3000438` mapped to the controls SC-13 and SC-28
-   * Goal ID: `3000439` mapped to the controls SC-13 and SC-28
-   * Goal ID: `3000440` mapped to the controls SC-13 and SC-28
-   * Goal ID: `3000901` mapped to the controls CM-8(3)(a), RA-5(a), SI-2(2) and SI-7(1)
-   * Goal ID: `3000902` mapped to the controls AC-4, CM-2, SC-7, SC-7(3) and SC-7(5)
-   * Goal ID: `3000903` mapped to the controls AC-4 and SC-12
-   * Goal ID: `3000906` mapped to the controls AC-17(2), SC-8, SC-8(1), SC-13 and SC-23
-   * Goal ID: `3000907` mapped to the controls CM-2, CM-7(a), CM-8(1), CM-8(3)(a), SA-3(a) and SI-2(2)
+:   Released today, the next version (v0.1.2) of IBM Cloud for Financial Services profile is added with new goals and new controls. Check out the following list of goals to see how they're mapped to sepcific controls.
+
+* Goal ID: `3000039` mapped to the controls AC-2(i) and AC-2(1)
+* Goal ID: `3000040` mapped to the control AC-2(3)
+* Goal ID: `3000045` mapped to the control CM-6(a)
+* Goal ID: `3000438` mapped to the controls SC-13 and SC-28
+* Goal ID: `3000439` mapped to the controls SC-13 and SC-28
+* Goal ID: `3000440` mapped to the controls SC-13 and SC-28
+* Goal ID: `3000901` mapped to the controls CM-8(3)(a), RA-5(a), SI-2(2) and SI-7(1)
+* Goal ID: `3000902` mapped to the controls AC-4, CM-2, SC-7, SC-7(3) and SC-7(5)
+* Goal ID: `3000903` mapped to the controls AC-4 and SC-12
+* Goal ID: `3000906` mapped to the controls AC-17(2), SC-8, SC-8(1), SC-13 and SC-23
+* Goal ID: `3000907` mapped to the controls CM-2, CM-7(a), CM-8(1), CM-8(3)(a), SA-3(a) and SI-2(2)
 
 ## 02 September 2021
 {: #security-compliance-sept0221}
 {: release-note}
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. 1 new goal has been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All of the goals with ID's in the following ranges are new.
-   * Goal ID's: `3000526` - `3000533`
+:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All of the goals with ID's in the following ranges are new.
+
+* Goal ID's: `3000526` - `3000533`
 
 
 ## 18 August 2021
@@ -97,8 +108,9 @@ New goals
 {: release-note}
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. 1 new goal has been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All of the goals with ID's in the following ranges are new.
-   * Goal ID's: `3000510` - `3000525` and `3000640`.
+:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All of the goals with ID's in the following ranges are new.
+
+* Goal ID's: `3000510` - `3000525` and `3000640`.
 
 ## 22 July 2021
 {: #security-compliance-jul2221}
@@ -109,18 +121,20 @@ New Posture Management API endpoints
 
 Consolidated SDK package
 :   To make it easier to programmatically access the API from your code, {{site.data.keyword.compliance_short}} SDK packages are now available. The SDKs implement best practices for using the API and reduces the amount of code that you need to write. For more information, see the documentation for the following APIs:
-   * [Admin](https://{DomainName}/apidocs/security-compliance/admin)
-   * [Configuration Governance](https://{DomainName}/apidocs/security-compliance/config)
-   * [Posture Management](https://{DomainName}/apidocs/security-compliance/posture)
-   * [Findings](https://{DomainName}/apidocs/security-compliance/findings)
-   * [Notifications](https://{DomainName}/apidocs/security-compliance/si-notifications)
+
+* [Admin](https://{DomainName}/apidocs/security-compliance/admin)
+* [Configuration Governance](https://{DomainName}/apidocs/security-compliance/config)
+* [Posture Management](https://{DomainName}/apidocs/security-compliance/posture)
+* [Findings](https://{DomainName}/apidocs/security-compliance/findings)
+* [Notifications](https://{DomainName}/apidocs/security-compliance/si-notifications)
 
 Documentation update
 :   With this release we've completed the integration of the Security Insights, formerly known as {{site.data.keyword.security-advisor_short}}, documentation into the {{site.data.keyword.compliance_short}} docs. You can now find the documentation for all three components in the {{site.data.keyword.compliance_short}} documentation.
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. 1 new goal has been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All of the goals with ID's in the following ranges are new.
-   * Goal ID's: `3000509`
+:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All of the goals with ID's in the following ranges are new.
+
+* Goal ID's: `3000509`
 
 ## 22 June 2021
 {: #security-compliance-jun2221}
@@ -138,8 +152,9 @@ IBM-managed collector
 :   A collector is used to gather the configuration information about your resources and then validate it against a specified standard. Previously, you were responsible for the installation and lifecycle management of the collector. Now, you can get a proof of concept up and running quickly by configuring an IBM-managed collector. For more information, see [Configuring managed collectors](/docs/security-compliance?topic=security-compliance-ibm-collector) or [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. 7 new goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All of the goals with ID's in the following ranges are new.
-   * Goal ID's: `3000901` - `3000907`
+:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. N goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All of the goals with ID's in the following ranges are new.
+
+* Goal ID's: `3000901` - `3000907`
 
 ## 05 April 2021
 {: #security-compliance-april0521}
@@ -199,10 +214,11 @@ Manage your own encryption
 
 New goals
 :   You might notice that your compliance score has changed even though you haven't updated any of your configurations. 51 new goals have been added to the IBM profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the IBM Best Practices Controls 1.0 profile. All of the goals with ID's in the following ranges are new.
-   * Goal ID's: `3000110` - `3000117`
-   * Goal ID's: `3000256` - `3000279`
-   * Goal ID's: `3000311` - `3000320`
-   * Goal ID's: `3000631` - `3000639`
+
+* Goal ID's: `3000110` - `3000117`
+* Goal ID's: `3000256` - `3000279`
+* Goal ID's: `3000311` - `3000320`
+* Goal ID's: `3000631` - `3000639`
 
 ## 13 January 2021
 {: #security-compliance-jan1321}
@@ -253,12 +269,3 @@ General availability of the {{site.data.keyword.compliance_short}}
 
    In this release, the {{site.data.keyword.compliance_short}} offers support for profiles that you can use to monitor your accounts for compliance, config rules for governing the use of resources, and Security Insights for gaining insight into potential risks to your environments. For more information, check out the [announcement blog](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-security-and-compliance-center){: external}.
 
-## 1 September 2020
-{: #security-compliance-sept0120}
-{: release-note}
-
-Introducing {{site.data.keyword.compliance_short}}
-:   Manage security and compliance controls directly within the IBM Cloud® platform. With the IBM Security and Compliance Center, you view your security and compliance postures from a unified dashboard. 
-   * Automate security and compliance postures
-   * Enable configuration governance
-   * Detect vulnerabilities and threats
