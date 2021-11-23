@@ -242,14 +242,14 @@ Now that your collector is approved and ready to use, create [a scope](/docs/sec
 ### Using a proxy with your collector
 {: #collector-proxy}
 
-As an additional protection, your organization might want to configure a proxy to use as an intermediary between the collector and your resources. To install a collector to use a proxy, you can use the same steps that are detailed in [Installing a collector](#install-collector), and provide the following additional information.
+As an additional protection, your organization might want to configure a proxy to use as an intermediary between the collector and your resources. To install a collector to use a proxy, you can use the same steps that are detailed in [Installing a collector](#install-collector), and provide the following additional information when prompted in step 8.
 
-1. In step 8 of the [Installing a collector](#install-collector) instructions, you are asked whether you would like to add a proxy. To use a proxy, enter `y` (yes). Then, when prompted provide the following information:
-   * The IP address that you want to use as the proxy.
-   * The port of your proxy server.
-   * The username and password for your proxy.
+If you selected `y` (yes) when prompted about a proxy provide the following information.
 
-2. Add your IP Addresses and ports to your ACL.
+1. Provide the IP address that you want to use as the proxy.
+2. Provide the port of your proxy server.
+3. Provide the username and password for your proxy.
+4. Add your IP Addresses and ports to your ACL.
 
    | IP address | Port |
    |:-------|:---------|
