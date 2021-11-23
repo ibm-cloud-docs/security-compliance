@@ -1,9 +1,10 @@
 {
     "title": "Security and Compliance Center docs",
-    "lastupdated": "2021-07-28",
+    "lastupdated": "2021-11-23",
     "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
     "section_devtools": {
-      "api": "/apidocs/security-compliance/posture"
+      "api": "/apidocs/security-compliance/posture",
+      "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_si_note"
     },
     "section_recommended": [
       {
