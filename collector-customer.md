@@ -141,17 +141,17 @@ When the collector is created successfully, the status updates to **Ready to ins
 Now that you have a collector, you can install it by completing the following steps.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Manage posture > Configure > Collectors**.
-3. In the **Collectors** table, click the name of the collector that you want to register. The table row expands to provide more information.
-4. Download the `initiate_collector.sh` file.
-5. In terminal, log in to your virtual machine by using SSH.
+1. In the navigation, click **Manage posture > Configure > Collectors**.
+1. In the **Collectors** table, click the name of the collector that you want to register. The table row expands to provide more information.
+1. Download the `initiate_collector.sh` file.
+1. In terminal, log in to your virtual machine by using SSH.
 
    ```sh
    ssh root@<hostname_or_IP_address>
    ```
    {: codeblock}
 
-6. Be sure that you have the required software on your VSI and that it is up to date. If you're working with Ubuntu, you can use the following commands.
+1. Be sure that you have the required software on your VSI and that it is up to date. If you're working with Ubuntu, you can use the following commands.
 
    1. Verify that your OS image is up to date. In Ubuntu, you can run the following command: 
 
@@ -160,44 +160,44 @@ Now that you have a collector, you can install it by completing the following st
       ```
       {: codeblock}
   
-   2. If you don't have it already, install [Docker Compose](https://docs.docker.com/compose/install/){: external} by using the command for your OS.
+   1. If you don't have it already, install [Docker Compose](https://docs.docker.com/compose/install/){: external} by using the command for your OS.
 
       ```sh
       sudo apt-get install docker-compose
       ```
       {: codeblock}
 
-   3. If you plan to use your collector to run on-premises resource scans, install [Nmap version 7.6 or higher](https://nmap.org/download.html){: external} by using the command for your OS. If you're working with Ubuntu, you can use the following command.
+   1. If you plan to use your collector to run on-premises resource scans, install [Nmap version 7.6 or higher](https://nmap.org/download.html){: external} by using the command for your OS. If you're working with Ubuntu, you can use the following command.
 
       ```sh
       sudo apt-get install nmap
       ```
       {: codeblock}
 
-7. Transfer the collector installation file to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
+1. Transfer the collector installation file to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
 
    1. Locally, open the **initiate_collector.sh** file that you downloaded and copy its contents.
-   2. From your command line, open the VIM editor.
+   1. From your command line, open the VIM editor.
 
       ```sh
       vi initiate_collector.sh
       ```
       {: codeblock}
 
-   3. Press **i** to insert content.
-   4. Paste the content that you previously copied.
-   5. Press the **Escape** key to exist edit mode.
-   6. Type `:wq` and click **Enter**. to save and exist VIM.
-   7. To confirm that the file was created, run the `ls` command.
+   1. Press **i** to insert content.
+   1. Paste the content that you previously copied.
+   1. Press the **Escape** key to exist edit mode.
+   1. Type `:wq` and click **Enter**. to save and exist VIM.
+   1. To confirm that the file was created, run the `ls` command.
 
-8. Change the permissions of the `initiate_collector.sh` file to allow it to run.
+1. Change the permissions of the `initiate_collector.sh` file to allow it to run.
 
    ```sh
    chmod +x initiate_collector.sh
    ```
    {: codeblock}
 
-9. Install the collector by running the following command and then answering the following prompts as they are asked. 
+1. Install the collector by running the following command and then answering the following prompts as they are asked. 
 
    ```sh
    ./initiate_collector.sh
@@ -214,7 +214,7 @@ Now that you have a collector, you can install it by completing the following st
    The registration key is active for 24 hours. Installation must be complete and the collector activated within that time frame.
    {: important}
 
-10. Confirm that everything is installed.
+1. Confirm that everything is installed.
 
    ```sh
    docker ps
@@ -230,7 +230,7 @@ Now that you have a collector, you can install it by completing the following st
    ```
    {: screen}
 
-11. Approve your collector.
+1. Approve your collector.
 
    1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
    1. In the navigation, click **Manage posture > Configure > Collectors**.
