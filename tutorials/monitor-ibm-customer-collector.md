@@ -233,11 +233,11 @@ To target the resources that you want your collector to validate, you create a s
 
 1. Go to the **Manage posture > Configure > Scopes** tab and click **Create**.
 2. Give your scope a meaningful name. For example, `ibm-cloud-compliance`.
-4. Click **Next**.
-5. From the **Environment** dropdown, select **{{site.data.keyword.cloud_notm}}**.
-6. From the **Credentials** dropdown, select the credential that you previously added. Then, click **Next**.
-7. From the table, select the **Collector** that you previously installed. Then, click **Next**.
-8. Review your choices and click **Create**.
+3. Click **Next**.
+4. From the **Environment** dropdown, select **{{site.data.keyword.cloud_notm}}**.
+5. From the **Credentials** dropdown, select the credential that you previously added. Then, click **Next**.
+6. From the table, select the **Collector** that you previously installed. Then, click **Next**.
+7. Review your choices and click **Create**.
 
 After you create the scope, a discovery scan is run to inventory your available resources.
 
