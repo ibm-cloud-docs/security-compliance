@@ -95,7 +95,7 @@ Virtual Private Cloud gives you the ability to establish your own private cloud-
    2. Give your SSH key a meaningful name. For example, `compliance-vpc-ssh-key`.
    3. Paste your public key into the **Public key** field and then click **Add SSH key**. To obtain your public key, open your terminal and use the following command to copy it.
 
-      ```pub
+      ```sh
       pbcopy < ~/.ssh/id_rsa.pub
       ```
       {: codeblock}
@@ -129,7 +129,7 @@ Virtual Private Cloud gives you the ability to establish your own private cloud-
 
 6. Get your latest configuration information.
   
-   ```
+   ```sh
    sudo apt-get update
    ```
    {: codeblock}

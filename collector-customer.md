@@ -140,10 +140,8 @@ When the collector is created successfully, the status updates to **Ready to ins
 
 Now that you have a collector, you can install it by completing the following steps.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-1. In the navigation, click **Manage posture > Configure > Collectors**.
-1. In the **Collectors** table, click the name of the collector that you want to register. The table row expands to provide more information.
-1. Download the `initiate_collector.sh` file.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}. Click **Manage posture > Configure > Collectors** to get to the collectors page.
+1. In the **Collectors** table, click the name of the collector that you want to register. When the table row expands, download the `initiate_collector.sh` file that is listed for that collector.
 1. In terminal, log in to your virtual machine by using SSH.
 
    ```sh
