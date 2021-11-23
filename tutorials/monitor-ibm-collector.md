@@ -110,8 +110,8 @@ The credentials that you add to the service must allow the collector to read you
 6. Select **{{site.data.keyword.cloud_notm}}**.
 7. Paste your API key into the **IBM API key** field. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey).
 
-  Your API key must have reader access permissions to the resources that you want to scan.
-  {: note}
+   Your API key must have reader access permissions to the resources that you want to scan.
+   {: note}
 
 8. Verify your updates and click **Create**. The credential is added to a list of available credentials. 
 
