@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-22"
+lastupdated: "2021-11-23"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -95,7 +95,7 @@ Virtual Private Cloud gives you the ability to establish your own private cloud-
    2. Give your SSH key a meaningful name. For example, `compliance-vpc-ssh-key`.
    3. Paste your public key into the **Public key** field and then click **Add SSH key**. To obtain your public key, open your terminal and use the following command to copy it.
 
-      ```
+      ```pub
       pbcopy < ~/.ssh/id_rsa.pub
       ```
       {: codeblock}
@@ -122,7 +122,7 @@ Virtual Private Cloud gives you the ability to establish your own private cloud-
 
 5. Using the Floating IP that you created, SSH into your VSI. When prompted, type yes and click **Enter** to create the connection.
 
-   ```
+   ```sh
    ssh root@Floating_IP
    ```
    {: codeblock}
@@ -136,7 +136,7 @@ Virtual Private Cloud gives you the ability to establish your own private cloud-
 
 7. Install Docker Compose.
 
-   ```
+   ```sh
    sudo apt-get install docker-compose
    ```
    {: codeblock}
@@ -162,7 +162,7 @@ A collector is a Docker image that you install on your Virtual Private Cloud. Th
    1. Locally, open the **initiate_collector.sh** file that you downloaded and copy its contents.
    2. From your command line, open the VIM editor.
 
-      ```
+      ```sh
       vi initiate_collector.sh
       ```
       {: codeblock}
@@ -175,14 +175,14 @@ A collector is a Docker image that you install on your Virtual Private Cloud. Th
 
 5. Change the permissions of the `initiate_collector.sh` file to allow it to run.
 
-   ```
+   ```sh
    chmod +x initiate_collector.sh
    ```
    {: codeblock}
 
 6. Install the collector by running the following command. When prompted, use the table as a guide for answering the questions.
 
-   ```
+   ```sh
    ./initiate_collector.sh
    ```
    {: codeblock}
