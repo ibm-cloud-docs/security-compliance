@@ -263,11 +263,5 @@ When your resources and their configurations are discovered, you're ready to val
 ## Next steps
 {: #ibm-customer-collector-next}
 
-When a scan completes, you can view the results in three ways: 
-
-- As an overview in the dashboard
-- A detailed view by resource
-- A detailed view by control
-
-In all three options, you are presented with a compliance score so that you can view your compliance posture at a glance. To learn more about your score, see [Understanding your compliance score](/docs/security-compliance?topic=security-compliance-view-posture#understand-scores).
+When a scan completes, you can view the results as an overview in your dashboard, or in more detail by resource or by control. sIn all three options, you are presented with a compliance score so that you can view your compliance posture at a glance. To learn more about your score, see [Understanding your compliance score](/docs/security-compliance?topic=security-compliance-view-posture#understand-scores).
 
