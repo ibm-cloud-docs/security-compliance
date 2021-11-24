@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-22"
+lastupdated: "2021-11-24"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -83,8 +83,8 @@ The properties that are available in the {{site.data.keyword.compliance_short}} 
 
 | Service | Rules | Templates |
 |:--------|:------|:----------|
-| [Billing Composite Service](/docs/get-coding?topic=get-coding-iam-composite)  | ![Checkmark icon](../icons/checkmark-icon.svg)| | 
-| [Catalog Management](/docs/get-coding?topic=get-coding-ctlogmgrcli) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
+| [Billing Composite Service](/docs/overview?topic=overview-manage-security-compliance)  | ![Checkmark icon](../icons/checkmark-icon.svg)| | 
+| [Catalog Management](/docs/overview?topic=overview-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Certificate Manager](/docs/certificate-manager?topic=certificate-manager-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| ![Checkmark icon](../icons/checkmark-icon.svg) |
 | [Code Engine](/docs/codeengine?topic=codeengine-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
@@ -93,13 +93,12 @@ The properties that are available in the {{site.data.keyword.compliance_short}} 
 | [Hyper Protect Crypto Services](/docs/hs-crypto?topic=hs-crypto-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Hyper Protect DBaaS for MongoDB](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Hyper Protect DBaaS for PostgreSQL](/docs/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [IAM Access Groups Service](/docs/security-compliance?topic=security-compliance-access-management) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [IAM Identity Service](/docs/security-compliance?topic=security-compliance-access-management) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
+| [IAM Access Groups Service](/docs/overview?topic=overview-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
+| [IAM Identity Service](/docs/overview?topic=overview-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [IBM Cloud Shell](/docs/cloud-shell?topic=cloud-shell-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Internet Services](/docs/cis?topic=cis-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Key Protect](/docs/key-protect?topic=key-protect-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| ![Checkmark icon](../icons/checkmark-icon.svg) |
 | [Load Balancer for VPC](/docs/vpc?topic=vpc-manage-security-compliance-lb) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [Platform components](/docs/overview?topic=overview-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Toolchain](/docs/ContinuousDelivery?topic=ContinuousDelivery-cd-manage-security-compliance) |  ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Transit Gateway](/docs/transit-gateway?topic=transit-gateway-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 {: caption="Table 2. Supported {{site.data.keyword.cloud_notm}} services" caption-side="top"}

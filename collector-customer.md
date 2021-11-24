@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-23"
+lastupdated: "2021-11-24"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -67,7 +67,7 @@ To manually install a collector, you must have access to a server. That server m
 
 | Machine type | Minimum requirement | 
 |:-------------|:--------------------|
-| Virtual | **Image:** Red Hat Enterprise Linux, CentOS, or Ubuntu 18.x  \n **Profile:** `cx2-2x4` (2 vCPUs, 4 GB RAM, and 4GBPS  \n **Boot volume:** 50 GB disk space |
+| Virtual | **Image:** Red Hat Enterprise Linux, CentOS, or Ubuntu 18.x  \n **Profile:** `cx2-2x4` (2 vCPUs, 4 GB RAM, and 4GBPS)  \n **Boot volume:** 50 GB disk space |
 | Physical | **Image:** Red Hat Enterprise Linux, CentOS, or Ubuntu 18.x  \n **Processor:** Intel Server Class QuadCore processor  \n **Profile:** 8 GB RAM  \n **Boot volume:** 50 GB Disk Space |
 {: caption="Table 1. Minimum machine requirements to install a collector" caption-side="top"}
 
