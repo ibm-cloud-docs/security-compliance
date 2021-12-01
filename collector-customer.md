@@ -53,17 +53,16 @@ For the {{site.data.keyword.compliance_full}} to gather and validate information
 {: shortdesc}
 
 
-
 ## Before you begin
 {: #before-collector}
 
-Before you get started, be sure that you have the required level of access to view and manage collectors. To administer collectors, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
+Before you get started, be sure that you have the level of access that is necessary to view and manage collectors. To administer collectors, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
 
 ### Verifying installation requirements
 {: #before-collector-verify}
 
-To manually install a collector, you must have access to a server. That server must have the following minimum configuration requirements depending on the type of machine that you are using.
+To manually install a collector, you must have access to a server. That server must have the following minimum configuration requirements that are based on the type of machine that you are using.
 
 | Machine type | Minimum requirement | 
 |:-------------|:--------------------|
@@ -74,7 +73,7 @@ To manually install a collector, you must have access to a server. That server m
 ### Configuring your ACL
 {: #before-collector-acl}
 
-By default, most access control lists (ACLs) block outgoing communication. To circumvent this setting without configuring an `Allow_all` policy, add the following hostnames to an allow list.
+By default, most access control lists (ACLs) block outgoing communication. To circumvent this setting without configuring an `Allow_all` policy, add the following hostnames to an allowlist.
 
 * `accounts.cloud.ibm.com`
 * `api.cis.cloud.ibm.com`
@@ -141,10 +140,10 @@ When the collector is created successfully, the status updates to **Ready to ins
 
 
 
-## Installing a collector on a Virtual machine
+## Installing a collector on a virtual machine
 {: #install-collector-vm}
 
-Now that you created a collector, you can install it on a Virtual machine by completing the following steps.
+Now that you created a collector, you can install it on a virtual machine by completing the following steps.
 
 1. After you create a collector in the {{site.data.keyword.cloud_notm}} console, you are invited to download the collector. Be sure that you meet the prerequisites.
 2. Select **Download shell script** to deploy the collector on a virtual machine. The registration key is required. 
@@ -216,7 +215,7 @@ Now that you created a collector, you can install it on a Virtual machine by com
    | Registration key | Provide the registration key. This can be found in the table on the **Collectors** page of the {{site.data.keyword.compliance_short}} UI. Expand the details for the collector that you want to register and copy the key. |
    {: caption="Table 3. Collector installation prompts" caption-side="top"}
 
-   The registration key is active for 24 hours. Installation must be complete and the collector activated within that time frame.
+   The registration key is active for 24 hours. Installation must be complete and the collector must be activated within that timeframe.
    {: important}
 
 9. Confirm that everything is installed.
@@ -242,6 +241,7 @@ Now that you created a collector, you can install it on a Virtual machine by com
    3. In the **Collectors** table, click **Approval required** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
    4. If a passphrase is enabled, click **Passphrase** and enter the phrase. Be sure to enter your passphrase exactly.
 
+
 ## Installing a collector on a cluster
 {: #install-collector-cluster}
 
@@ -250,7 +250,7 @@ You can install a collector on a cluster by completing the following steps.
 1. After you create a collector in the {{site.data.keyword.cloud_notm}} console, you are invited to download the collector. Be sure that you meet the prerequisites.
 2. Select **Download YAML file** to deploy the collector on an EKS or ROKS cluster. The registration key is included in the file.
 3. Click **Download**. 
-4. The descriptor file contains all the metada of the installable collector. You can edit the `name space` and the resource values such as `cpu` and `memory`. 
+4. The descriptor file contains all the metada of the installable collector. You can edit the `name space` and the resource values, such as `cpu` and `memory`. 
 5. In terminal, if you are deploying the collector on an EKS cluster, run the following command: 
 
    ```sh
@@ -277,7 +277,7 @@ If you selected `y` (yes) when prompted about a proxy provide the following info
 1. Provide the IP address that you want to use as the proxy.
 2. Provide the port of your proxy server.
 3. Provide the username and password for your proxy.
-4. Add your IP Addresses and ports to your ACL.
+4. Add your IP addresses and ports to your ACL.
 
    | IP address | Port |
    |:-------|:---------|
