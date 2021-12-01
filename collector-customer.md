@@ -257,11 +257,14 @@ You can install a collector on a cluster by completing the following steps.
    kubectl apply -f <deployment-testdocumentation>.yaml
    ```
    {: codeblock}
+
 6. Alternatively, if you are deploying the collector on an ROKS cluster, run the following command: 
 
    ```sh
    OC apply -f <deployment-testdocumentation>.yaml
    ```
+   {: codeblock}
+
 7. To approve your collector, follow the process that is included in Step 10 of [installing a collector on a virtual machine](/docs/security-compliance?topic=security-compliance-collector-manual&interface=ui#install-collector).
 
 ### Using a proxy with your collector
