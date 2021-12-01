@@ -62,7 +62,7 @@ Before you get started, be sure that you have the level of access that is necess
 ### Verifying installation requirements
 {: #before-collector-verify}
 
-To manually install a collector, you must have access to a server. That server must have the following minimum configuration requirements that are based on the type of machine that you are using.
+You can install a collector on a cluster or a machine. To manually install a collector on a cluster, you must have access to an IBM Cloud Kubernetes Service (IKS) or a RedHat OpenShift Kubernetes Service (ROKS) cluster. To install a collector on a machine, you must have access to a server. That server must have the following minimum configuration requirements that are based on the type of machine that you are using.
 
 | Machine type | Minimum requirement | 
 |:-------------|:--------------------|
@@ -140,6 +140,67 @@ When the collector is created successfully, the status updates to **Ready to ins
 
 
 
+## Before you install
+{ #before-collector-install}
+
+Before you install a collector, complete the following steps. 
+
+1. Log in to the IBM Cloud CLI by running the following command and then following the prompts. If you have a federated ID, apped the `--sso` option to the end of the command. 
+
+   ```sh
+   ibmcloud login
+   ```
+   {: codeblock}
+
+2. Set the context for your cluster. 
+
+   ```sh
+   ibmcloud ks cluster config --cluster <cluster_name_or_ID>
+   ```
+   {: codeblock}
+
+## Installing a collector on a cluster
+{: #install-collector-cluster}
+
+You can install a collector on a cluster by completing the following steps.
+
+1. After you create a collector in the {{site.data.keyword.cloud_notm}} console, you are invited to download the collector. Be sure that you meet the prerequisites.
+2. Select **Download YAML file** to deploy the collector on an IKS or ROKS cluster. The registration key is included in the file.
+3. Click **Download**. 
+4. In the YAML file, you can customize the folloing metadata to your speciifications. 
+
+   | Property | Note |
+   | -------- | ---- |
+   | `namespace` | If you choose to customize `namespace`, both occurences must match. |
+   | `resources` | You can only edit the values of `cpu` and `memory`|
+   {: caption="Table 3. The properties that you can edit in the YAML file" caption-side="top"}
+
+5. In terminal, if you are deploying the collector on an EKS cluster, run the following command: 
+
+   ```sh
+   kubectl apply -f <deployment-testdocumentation>.yaml
+   ```
+   {: codeblock}
+
+6. Alternatively, if you are deploying the collector on an ROKS cluster, run the following command: 
+
+   ```sh
+   OC apply -f <deployment-testdocumentation>.yaml
+   ```
+   {: codeblock}
+
+7. [Approve]() your collector.
+
+## Approving your installed collector
+{: #approve-collector}
+
+To approve your collector, complete the following steps.
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+2. In the navigation, click **Manage posture > Configure > Collectors**.
+3. In the **Collectors** table, click **Approval required** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
+4. If a passphrase is enabled, click **Passphrase** and enter the phrase. Be sure to enter your passphrase exactly.
+
 ## Installing a collector on a virtual machine
 {: #install-collector-vm}
 
@@ -213,7 +274,7 @@ Now that you created a collector, you can install it on a virtual machine by com
    | Data Path | Provide the data path to your host machine. For example, `/root/compliance/`. |
    | Nmap validation | No - This tutorial is designed to focus on cloud resources. You only need to run an Nmap validation if your resources exist behind a firewall. |
    | Registration key | Provide the registration key. This can be found in the table on the **Collectors** page of the {{site.data.keyword.compliance_short}} UI. Expand the details for the collector that you want to register and copy the key. |
-   {: caption="Table 3. Collector installation prompts" caption-side="top"}
+   {: caption="Table 4. Collector installation prompts" caption-side="top"}
 
    The registration key is active for 24 hours. Installation must be complete and the collector must be activated within that timeframe.
    {: important}
@@ -234,38 +295,7 @@ Now that you created a collector, you can install it on a virtual machine by com
    ```
    {: screen}
 
-10. Approve your collector.
-
-   1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-   2. In the navigation, click **Manage posture > Configure > Collectors**.
-   3. In the **Collectors** table, click **Approval required** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
-   4. If a passphrase is enabled, click **Passphrase** and enter the phrase. Be sure to enter your passphrase exactly.
-
-
-## Installing a collector on a cluster
-{: #install-collector-cluster}
-
-You can install a collector on a cluster by completing the following steps.
-
-1. After you create a collector in the {{site.data.keyword.cloud_notm}} console, you are invited to download the collector. Be sure that you meet the prerequisites.
-2. Select **Download YAML file** to deploy the collector on an EKS or ROKS cluster. The registration key is included in the file.
-3. Click **Download**. 
-4. The descriptor file contains all the metada of the installable collector. You can edit the `name space` and the resource values, such as `cpu` and `memory`. 
-5. In terminal, if you are deploying the collector on an EKS cluster, run the following command: 
-
-   ```sh
-   kubectl apply -f <deployment-testdocumentation>.yaml
-   ```
-   {: codeblock}
-
-6. Alternatively, if you are deploying the collector on an ROKS cluster, run the following command: 
-
-   ```sh
-   OC apply -f <deployment-testdocumentation>.yaml
-   ```
-   {: codeblock}
-
-7. To approve your collector, follow the process that is included in Step 10 of [installing a collector on a virtual machine](/docs/security-compliance?topic=security-compliance-collector-manual&interface=ui#install-collector).
+10. [Approve]() your collector.
 
 ### Using a proxy with your collector
 {: #collector-proxy}
