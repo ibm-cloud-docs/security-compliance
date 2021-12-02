@@ -140,7 +140,12 @@ When the collector is created successfully, the status updates to **Ready to ins
 
 
 
-## Installing a collector on a cluster
+## Installing a collector
+{: #install-collector}
+
+You can choose to install a collector on an IKS or ROKS cluster or on a virtual machine. 
+
+### Installing a collector on a cluster
 {: #install-collector-cluster}
 
 Before you can install a collector on a cluster, you must complete the following steps. 
@@ -189,17 +194,7 @@ Complete the following steps to install a collector on a cluster.
 
 7. [Approve](/docs/security-compliance?topic=security-compliance-collector-manual&interface=ui#approve-collector) your collector.
 
-## Approving an installed collector
-{: #approve-collector}
-
-To approve your collector, complete the following steps.
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Manage posture > Configure > Collectors**.
-3. In the **Collectors** table, click **Approval required** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
-4. If a passphrase is enabled, click **Passphrase** and enter the phrase. Be sure to enter your passphrase exactly.
-
-## Installing a collector on a virtual machine
+### Installing a collector on a virtual machine
 {: #install-collector-vm}
 
 Now that you created a collector, you can install it on a virtual machine by completing the following steps.
@@ -295,7 +290,7 @@ Now that you created a collector, you can install it on a virtual machine by com
 
 10. [Approve](/docs/security-compliance?topic=security-compliance-collector-manual&interface=ui#approve-collector) your collector.
 
-### Using a proxy with your collector
+#### Using a proxy with your collector
 {: #collector-proxy}
 
 As an additional protection, your organization might want to configure a proxy to use as an intermediary between the collector and your resources. To install a collector to use a proxy, you can use the same steps that are detailed in [Installing a collector](#install-collector), and provide the following additional information when prompted in step 8.
@@ -312,3 +307,13 @@ If you selected `y` (yes) when prompted about a proxy provide the following info
    | DNS | `161.26.0.6`  \n `53` |
    | Service endpoints | `166.8.0.0`  \n `443` |
    {: caption="Table 5. Collector installation prompts" caption-side="top"}
+
+## Approving an installed collector
+{: #approve-collector}
+
+To approve your collector, complete the following steps.
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+2. In the navigation, click **Manage posture > Configure > Collectors**.
+3. In the **Collectors** table, click **Approval required** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
+4. If a passphrase is enabled, click **Passphrase** and enter the phrase. Be sure to enter your passphrase exactly.
