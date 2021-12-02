@@ -140,67 +140,20 @@ When the collector is created successfully, the status updates to **Ready to ins
 
 
 
-## Installing a collector
-{: #install-collector}
 
-You can choose to install a collector on an IKS or ROKS cluster or on a virtual machine. 
-
-### Installing a collector on a cluster
-{: #install-collector-cluster}
-
-Before you can install a collector on a cluster, you must complete the following steps. 
-
-1. Log in to the IBM Cloud CLI by running the following command and then following the prompts. If you have a federated ID, apped the `--sso` option to the end of the command. 
-
-   ```sh
-   ibmcloud login
-   ```
-   {: codeblock}
-
-2. Set the context for your cluster. 
-
-   ```sh
-   ibmcloud ks cluster config --cluster <cluster_name_or_ID>
-   ```
-   {: codeblock}
-
-
-Complete the following steps to install a collector on a cluster.
-
-1. After you create a collector in the {{site.data.keyword.cloud_notm}} console, you are invited to download the collector. Be sure that you meet the prerequisites.
-2. Select **Download YAML file** to deploy the collector on an IKS or ROKS cluster. The registration key is included in the file.
-3. Click **Download**. 
-4. In the YAML file, you can customize the folloing metadata to your speciifications. 
-
-   | Property | Note |
-   | -------- | ---- |
-   | `namespace` | If you choose to customize `namespace`, both occurences must match. |
-   | `resources` | You can only edit the values of `cpu` and `memory`. |
-   {: caption="Table 3. The properties that you can edit in the YAML file" caption-side="top"}
-
-5. In terminal, if you are deploying the collector on an EKS cluster, run the following command: 
-
-   ```sh
-   kubectl apply -f <deployment-testdocumentation>.yaml
-   ```
-   {: codeblock}
-
-6. Alternatively, if you are deploying the collector on an ROKS cluster, run the following command: 
-
-   ```sh
-   OC apply -f <deployment-testdocumentation>.yaml
-   ```
-   {: codeblock}
-
-7. [Approve](/docs/security-compliance?topic=security-compliance-collector-manual&interface=ui#approve-collector) your collector.
 
 ### Installing a collector on a virtual machine
 {: #install-collector-vm}
 
 Now that you created a collector, you can install it on a virtual machine by completing the following steps.
 
-1. After you create a collector in the {{site.data.keyword.cloud_notm}} console, you are invited to download the collector. Be sure that you meet the prerequisites.
-2. Select **Download shell script** to deploy the collector on a virtual machine. The registration key is required. 
+
+
+
+1. In the **Collectors** table, click the dropdown arrow to expand the details for the collector that you created.
+2. Click **initiate_collector.sh** to download the collector installation script. Make a note of the **Registration key**.
+
+
 3. Click **Download** to get the `initiate_collector.sh` file.
 4. In terminal, log in to your virtual machine by using SSH.
 

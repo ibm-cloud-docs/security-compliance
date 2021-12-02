@@ -165,50 +165,10 @@ A collector is a container image that you install on your Virtual Private Cloud 
    7. For **Endpoint type**, select **Public**.  To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private**. 
    8. Click **Create**.
 
-### Installing a collector on a cluster 
-{: #customer-collector-install-cluster}
 
-Before you can install a collector on a cluster, you must complete the following steps. 
 
-1. Log in to the IBM Cloud CLI by running the following command and then following the prompts. If you have a federated ID, apped the `--sso` option to the end of the command. 
-
-   ```sh
-   ibmcloud login
-   ```
-   {: codeblock}
-
-2. Set the context for your cluster. 
-
-   ```sh
-   ibmcloud ks cluster config --cluster <cluster_name_or_ID>
-   ```
-   {: codeblock}
-
-After you create a collector in the IBM Cloud console, you are invited to download the collector. Be sure that you meet the prerequisites.
-
-1. Select **Download YAML file** to deploy the collector on an IKS or ROKS cluster. The registration key is included in the file. 
-2. Click **Download**.
-3. If you are deploying the collector on an EKS cluster, run the following command:
-
-   ```sh
-   kubectl apply -f <deployment-testdocumentation>.yaml
-   ```
-   {: codeblock}
-
-4. Alternatively, if you are deploying the collector on an ROKS cluster, run the following command:
-
-   ```sh
-   OC apply -f <deployment-testdocumentation>.yaml
-   ```
-   {: codeblock}
-
-5. On the **Collectors** page of the {{site.data.keyword.compliance_short}} UI, click **Approval required** to approve the collector for use. Wait a few minutes and refresh the page. The collector status updates to **Active**.
-
-### Installing a collector on a virtual machine 
-{: #customer-collector-install-vm}
-
-1. On the **Download collector** panel that appears after you create a collector, select **Download shell script**, and then click **Download**. The registration key is required.
-2. Transfer the collector installation file to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
+2. On the **Download collector** panel that appears after you create a collector, select **Download shell script**, and then click **Download**. The registration key is required.
+3. Transfer the collector installation file to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
 
    1. Locally, open the **initiate_collector.sh** file that you downloaded and copy its contents.
    2. From your command line, open the VIM editor.
@@ -224,14 +184,14 @@ After you create a collector in the IBM Cloud console, you are invited to downlo
    6. Type `:wq` and click **Enter**. to save and exist VIM.
    7. To confirm that the file was created, run the `ls` command.
 
-3. Change the permissions of the `initiate_collector.sh` file to allow it to run.
+4. Change the permissions of the `initiate_collector.sh` file to allow it to run.
 
    ```sh
    chmod +x initiate_collector.sh
    ```
    {: codeblock}
 
-4. Install the collector by running the following command. When prompted, use the table as a guide for answering the questions.
+5. Install the collector by running the following command. When prompted, use the table as a guide for answering the questions.
 
    ```sh
    ./initiate_collector.sh
@@ -245,7 +205,7 @@ After you create a collector in the IBM Cloud console, you are invited to downlo
    | Registration key | Provide the registration key. This can be found in the table on the **Collectors** page of the {{site.data.keyword.compliance_short}} UI. Expand the details for the collector that you want to register and copy the key. |
    {: caption="Table 1. Collector installation prompts" caption-side="top"}
 
-5. On the **Collectors** page of the {{site.data.keyword.compliance_short}} UI, click **Approval required** to approve the collector for use. Wait a few minutes and refresh the page. The collector status updates to **Active**.
+6. On the **Collectors** page of the {{site.data.keyword.compliance_short}} UI, click **Approval required** to approve the collector for use. Wait a few minutes and refresh the page. The collector status updates to **Active**.
 
 ## Grant your collector access to your resources
 {: #ibm-customer-collector-access}
