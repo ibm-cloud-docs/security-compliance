@@ -168,6 +168,22 @@ A collector is a container image that you install on your Virtual Private Cloud 
 ### Installing a collector on a cluster 
 {: #customer-collector-install-cluster}
 
+Before you can install a collector on a cluster, you must complete the following steps. 
+
+1. Log in to the IBM Cloud CLI by running the following command and then following the prompts. If you have a federated ID, apped the `--sso` option to the end of the command. 
+
+   ```sh
+   ibmcloud login
+   ```
+   {: codeblock}
+
+2. Set the context for your cluster. 
+
+   ```sh
+   ibmcloud ks cluster config --cluster <cluster_name_or_ID>
+   ```
+   {: codeblock}
+
 After you create a collector in the IBM Cloud console, you are invited to download the collector. Be sure that you meet the prerequisites.
 
 1. Select **Download YAML file** to deploy the collector on an IKS or ROKS cluster. The registration key is included in the file. 
