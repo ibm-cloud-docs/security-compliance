@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-12-01"
+lastupdated: "2021-12-02"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -140,10 +140,10 @@ When the collector is created successfully, the status updates to **Ready to ins
 
 
 
-## Before you install
-{ #before-collector-install}
+## Installing a collector on a cluster
+{: #install-collector-cluster}
 
-Before you install a collector, complete the following steps. 
+Before you can install a collector on a cluster, you must complete the following steps. 
 
 1. Log in to the IBM Cloud CLI by running the following command and then following the prompts. If you have a federated ID, apped the `--sso` option to the end of the command. 
 
@@ -159,10 +159,8 @@ Before you install a collector, complete the following steps.
    ```
    {: codeblock}
 
-## Installing a collector on a cluster
-{: #install-collector-cluster}
 
-You can install a collector on a cluster by completing the following steps.
+Complete the following steps to install a collector on a cluster.
 
 1. After you create a collector in the {{site.data.keyword.cloud_notm}} console, you are invited to download the collector. Be sure that you meet the prerequisites.
 2. Select **Download YAML file** to deploy the collector on an IKS or ROKS cluster. The registration key is included in the file.
@@ -172,7 +170,7 @@ You can install a collector on a cluster by completing the following steps.
    | Property | Note |
    | -------- | ---- |
    | `namespace` | If you choose to customize `namespace`, both occurences must match. |
-   | `resources` | You can only edit the values of `cpu` and `memory`|
+   | `resources` | You can only edit the values of `cpu` and `memory`. |
    {: caption="Table 3. The properties that you can edit in the YAML file" caption-side="top"}
 
 5. In terminal, if you are deploying the collector on an EKS cluster, run the following command: 
@@ -189,9 +187,9 @@ You can install a collector on a cluster by completing the following steps.
    ```
    {: codeblock}
 
-7. [Approve]() your collector.
+7. [Approve](/docs/security-compliance?topic=security-compliance-collector-manual&interface=ui#approve-collector) your collector.
 
-## Approving your installed collector
+## Approving an installed collector
 {: #approve-collector}
 
 To approve your collector, complete the following steps.
@@ -295,7 +293,7 @@ Now that you created a collector, you can install it on a virtual machine by com
    ```
    {: screen}
 
-10. [Approve]() your collector.
+10. [Approve](/docs/security-compliance?topic=security-compliance-collector-manual&interface=ui#approve-collector) your collector.
 
 ### Using a proxy with your collector
 {: #collector-proxy}
