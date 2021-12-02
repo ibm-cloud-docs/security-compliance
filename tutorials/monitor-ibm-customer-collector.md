@@ -55,7 +55,7 @@ completion-time: 30m
 {: toc-services="security-compliance, vpc"}
 {: toc-completion-time="30m"}
 
-In this tutorial, you learn how to use {{site.data.keyword.compliance_full}}, to automate the compliance checks that your organization must complete.
+In this tutorial, you learn how to use {{site.data.keyword.compliance_full}} to automate the compliance checks that your organization must complete.
 {: shortdesc}
 
 
@@ -146,7 +146,7 @@ Virtual Private Cloud gives you the ability to establish your own private cloud-
 {: #ibm-customer-collector-create}
 {: step}
 
-A collector is a container image that you install on your Virtual Private Cloud or on an IBM Cloud Kubernetes Service (IKS) or a RedHat OpenShift Kubernetes Service (ROKS) cluster. The collector image is responsible for gathering your configuration information and validating it.
+A collector is a container image that you install on your Virtual Private Cloud or on an IBM Kubernetes Service (IKS) or a Red Hat OpenShift Kubernetes Service (ROKS) cluster. The collector image is responsible for gathering your configuration information and validating it.
 
 1. Create a collector.
 
@@ -235,7 +235,7 @@ After you create a collector in the IBM Cloud console, you are invited to downlo
 {: #ibm-customer-collector-access}
 {: step}
 
-In order to run the scan, the collector must have *read* access to the resources that you want to scan. This access is granted through an {{site.data.keyword.cloud_notm}} API key. For more information about the security of your credentials, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
+To run the scan, the collector must have *read* access to the resources that you want to scan. This access is granted through an {{site.data.keyword.cloud_notm}} API key. For more information about the security of your credentials, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
 
 1. Create an {{site.data.keyword.cloud_notm}} API key.
 
