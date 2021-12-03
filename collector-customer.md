@@ -62,7 +62,11 @@ Before you get started, be sure that you have the level of access that is necess
 ### Verifying installation requirements
 {: #before-collector-verify}
 
-You can install a collector on a cluster or a machine. To manually install a collector on a cluster, you must have access to an IBM Kubernetes Service (IKS) or a Red Hat OpenShift Kubernetes Service (ROKS) cluster. To install a collector on a machine, you must have access to a server. That server must have the following minimum configuration requirements that are based on the type of machine that you are using.
+
+
+
+
+To manually install a collector, you must have access to a server. That server must have the following minimum configuration requirements depending on the type of machine that you are using.
 
 | Machine type | Minimum requirement | 
 |:-------------|:--------------------|
