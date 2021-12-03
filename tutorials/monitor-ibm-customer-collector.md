@@ -165,8 +165,10 @@ A collector is a container image that you install on your Virtual Private Cloud.
 {: #customer-collector-install-vm}
 
 
-1. On the **Download collector** panel that appears after you create a collector, select **Download shell script**, and then click **Download**. The registration key is required.
-2. Transfer the collector installation file to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
+
+1. In the **Collectors** table, click the dropdown arrow to expand the details for the collector that you created.
+1. Click **initiate_collector.sh** to download the collector installation script. Make a note of the **Registration key**. 
+1. Transfer the collector installation file to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
 
    1. Locally, open the **initiate_collector.sh** file that you downloaded and copy its contents.
    2. From your command line, open the VIM editor.
@@ -182,14 +184,14 @@ A collector is a container image that you install on your Virtual Private Cloud.
    6. Type `:wq` and click **Enter**. to save and exist VIM.
    7. To confirm that the file was created, run the `ls` command.
 
-3. Change the permissions of the `initiate_collector.sh` file to allow it to run.
+1. Change the permissions of the `initiate_collector.sh` file to allow it to run.
 
    ```sh
    chmod +x initiate_collector.sh
    ```
    {: codeblock}
 
-4. Install the collector by running the following command. When prompted, use the table as a guide for answering the questions.
+1. Install the collector by running the following command. When prompted, use the table as a guide for answering the questions.
 
    ```sh
    ./initiate_collector.sh
@@ -203,7 +205,7 @@ A collector is a container image that you install on your Virtual Private Cloud.
    | Registration key | Provide the registration key. This can be found in the table on the **Collectors** page of the {{site.data.keyword.compliance_short}} UI. Expand the details for the collector that you want to register and copy the key. |
    {: caption="Table 1. Collector installation prompts" caption-side="top"}
 
-5. On the **Collectors** page of the {{site.data.keyword.compliance_short}} UI, click **Approval required** to approve the collector for use. Wait a few minutes and refresh the page. The collector status updates to **Active**.
+1. On the **Collectors** page of the {{site.data.keyword.compliance_short}} UI, click **Approval required** to approve the collector for use. Wait a few minutes and refresh the page. The collector status updates to **Active**.
 
 ## Grant your collector access to your resources
 {: #ibm-customer-collector-access}
