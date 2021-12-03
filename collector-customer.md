@@ -238,7 +238,7 @@ Now that you created a collector, you can install it on a virtual machine by com
    ```
    {: screen}
 
-10. [Approve](/docs/security-compliance?topic=security-compliance-collector-manual&interface=ui#approve-collector) your collector.
+10. [Approve](/docs/security-compliance?topic=security-compliance-collector-manual#approve-collector) your collector.
 
 #### Using a proxy with your collector
 {: #collector-proxy}
