@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-12-02"
+lastupdated: "2021-12-03"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -142,18 +142,17 @@ When the collector is created successfully, the status updates to **Ready to ins
 
 
 
-### Installing a collector on a virtual machine
+
+
+## Installing a collector
 {: #install-collector-vm}
 
 Now that you created a collector, you can install it on a virtual machine by completing the following steps.
 
 
 
-
 1. In the **Collectors** table, click the dropdown arrow to expand the details for the collector that you created.
 2. Click **initiate_collector.sh** to download the collector installation script. Make a note of the **Registration key**.
-
-
 3. Click **Download** to get the `initiate_collector.sh` file.
 4. In terminal, log in to your virtual machine by using SSH.
 
