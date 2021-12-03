@@ -92,7 +92,6 @@ toc:
       - topicgroup:
           label: Connecting integrations
           topics:
-          - bookmarks.md
           - topicgroup:
               label: Connecting business partners
               topics:

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-24"
+lastupdated: "2021-12-03"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -49,19 +49,22 @@ subcollection: security-compliance
 # Manually administering collectors
 {: #collector-manual}
 
-For the {{site.data.keyword.compliance_full}} to gather and validate information about your resource configurations, you must create a collector. A customer managed collector is installed, approved, and maintained by you. To learn more about how collectors work, how your data is handled, and your responsibilities, see [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
+For the {{site.data.keyword.compliance_full}} to gather and validate information about your resource configurations, you must create a collector. A customer-managed collector is installed, approved, and maintained by you. To learn more about how collectors work, how your data is handled, and your responsibilities, see [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
 {: shortdesc}
-
 
 
 ## Before you begin
 {: #before-collector}
 
-Before you get started, be sure that you have the required level of access to view and manage collectors. To administer collectors, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
+Before you get started, be sure that you have the level of access that is necessary to view and manage collectors. To administer collectors, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
 
 ### Verifying installation requirements
 {: #before-collector-verify}
+
+
+
+
 
 To manually install a collector, you must have access to a server. That server must have the following minimum configuration requirements depending on the type of machine that you are using.
 
@@ -74,7 +77,7 @@ To manually install a collector, you must have access to a server. That server m
 ### Configuring your ACL
 {: #before-collector-acl}
 
-By default, most access control lists (ACLs) block outgoing communication. To circumvent this setting without configuring an `Allow_all` policy, add the following hostnames to an allow list.
+By default, most access control lists (ACLs) block outgoing communication. To circumvent this setting without configuring an `Allow_all` policy, add the following hostnames to an allowlist.
 
 * `accounts.cloud.ibm.com`
 * `api.cis.cloud.ibm.com`
@@ -124,32 +127,39 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
 4. Give your collector a name and description.
 
    It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
+5. Click **Next**.
+6. Select **Customer** to install the collector on your organization's infrastructure.
+9. Choose an endpoint option for your collector.
 
-5. Choose an endpoint option for your collector.
-
-   By default, your collector connects to resources in your account by using a public endpoint. To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private endpoint**.
-
-6. Click **Create**.
+   By default, your collector connects to resources in your account by using a public endpoint. To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private**.
+10. Click **Create**.
   
 When the collector is created successfully, the status updates to **Ready to install**.
 
 
 
+
+
+
+
 ## Installing a collector
-{: #install-collector}
+{: #install-collector-vm}
 
-Now that you have a collector, you can install it by completing the following steps.
+Now that you created a collector, you can install it on a virtual machine by completing the following steps.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}. Click **Manage posture > Configure > Collectors** to get to the collectors page.
-1. In the **Collectors** table, click the name of the collector that you want to register. When the table row expands, download the `initiate_collector.sh` file that is listed for that collector.
-1. In terminal, log in to your virtual machine by using SSH.
+
+
+1. In the **Collectors** table, click the dropdown arrow to expand the details for the collector that you created.
+2. Click **initiate_collector.sh** to download the collector installation script. Make a note of the **Registration key**.
+3. Click **Download** to get the `initiate_collector.sh` file.
+4. In terminal, log in to your virtual machine by using SSH.
 
    ```sh
    ssh root@<hostname_or_IP_address>
    ```
    {: codeblock}
 
-1. Be sure that you have the required software on your VSI and that it is up to date. If you're working with Ubuntu, you can use the following commands.
+5. Be sure that you have the required software on your VSI and that it is up to date. If you're working with Ubuntu, you can use the following commands.
 
    1. Verify that your OS image is up to date. In Ubuntu, you can run the following command: 
 
@@ -158,44 +168,44 @@ Now that you have a collector, you can install it by completing the following st
       ```
       {: codeblock}
   
-   1. If you don't have it already, install [Docker Compose](https://docs.docker.com/compose/install/){: external} by using the command for your OS.
+   2. If you don't have it already, install [Docker Compose](https://docs.docker.com/compose/install/){: external} by using the command for your OS.
 
       ```sh
       sudo apt-get install docker-compose
       ```
       {: codeblock}
 
-   1. If you plan to use your collector to run on-premises resource scans, install [Nmap version 7.6 or higher](https://nmap.org/download.html){: external} by using the command for your OS. If you're working with Ubuntu, you can use the following command.
+   3. If you plan to use your collector to run on-premises resource scans, install [Nmap version 7.6 or higher](https://nmap.org/download.html){: external} by using the command for your OS. If you're working with Ubuntu, you can use the following command.
 
       ```sh
       sudo apt-get install nmap
       ```
       {: codeblock}
 
-1. Transfer the collector installation file to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
+6. Transfer the collector installation file to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
 
    1. Locally, open the **initiate_collector.sh** file that you downloaded and copy its contents.
-   1. From your command line, open the VIM editor.
+   2. From your command line, open the VIM editor.
 
       ```sh
       vi initiate_collector.sh
       ```
       {: codeblock}
 
-   1. Press **i** to insert content.
-   1. Paste the content that you previously copied.
-   1. Press the **Escape** key to exist edit mode.
-   1. Type `:wq` and click **Enter**. to save and exist VIM.
-   1. To confirm that the file was created, run the `ls` command.
+   3. Press **i** to insert content.
+   4. Paste the content that you previously copied.
+   5. Press the **Escape** key to exist edit mode.
+   6. Type `:wq` and click **Enter**. to save and exist VIM.
+   7. To confirm that the file was created, run the `ls` command.
 
-1. Change the permissions of the `initiate_collector.sh` file to allow it to run.
+7. Change the permissions of the `initiate_collector.sh` file to allow it to run.
 
    ```sh
    chmod +x initiate_collector.sh
    ```
    {: codeblock}
 
-1. Install the collector by running the following command and then answering the following prompts as they are asked. 
+8. Install the collector by running the following command and then answering the following prompts as they are asked. 
 
    ```sh
    ./initiate_collector.sh
@@ -207,12 +217,12 @@ Now that you have a collector, you can install it by completing the following st
    | Data Path | Provide the data path to your host machine. For example, `/root/compliance/`. |
    | Nmap validation | No - This tutorial is designed to focus on cloud resources. You only need to run an Nmap validation if your resources exist behind a firewall. |
    | Registration key | Provide the registration key. This can be found in the table on the **Collectors** page of the {{site.data.keyword.compliance_short}} UI. Expand the details for the collector that you want to register and copy the key. |
-   {: caption="Table 3. Collector installation prompts" caption-side="top"}
+   {: caption="Table 4. Collector installation prompts" caption-side="top"}
 
-   The registration key is active for 24 hours. Installation must be complete and the collector activated within that time frame.
+   The registration key is active for 24 hours. Installation must be complete and the collector must be activated within that timeframe.
    {: important}
 
-1. Confirm that everything is installed.
+9. Confirm that everything is installed.
 
    ```sh
    docker ps
@@ -228,16 +238,9 @@ Now that you have a collector, you can install it by completing the following st
    ```
    {: screen}
 
-1. Approve your collector.
+10. [Approve](/docs/security-compliance?topic=security-compliance-collector-manual#approve-collector) your collector.
 
-   1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-   1. In the navigation, click **Manage posture > Configure > Collectors**.
-   1. In the **Collectors** table, click **Approval required** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
-   1. If a passphrase is enabled, click **Passphrase** and enter the phrase. Be sure to enter your passphrase exactly.
-
-Now that your collector is approved and ready to use, create [a scope](/docs/security-compliance?topic=security-compliance-scopes).
-
-### Using a proxy with your collector
+#### Using a proxy with your collector
 {: #collector-proxy}
 
 As an additional protection, your organization might want to configure a proxy to use as an intermediary between the collector and your resources. To install a collector to use a proxy, you can use the same steps that are detailed in [Installing a collector](#install-collector), and provide the following additional information when prompted in step 8.
@@ -247,10 +250,21 @@ If you selected `y` (yes) when prompted about a proxy provide the following info
 1. Provide the IP address that you want to use as the proxy.
 2. Provide the port of your proxy server.
 3. Provide the username and password for your proxy.
-4. Add your IP Addresses and ports to your ACL.
+4. Add your IP addresses and ports to your ACL.
 
    | IP address | Port |
    |:-------|:---------|
    | DNS | `161.26.0.6`  \n `53` |
    | Service endpoints | `166.8.0.0`  \n `443` |
    {: caption="Table 5. Collector installation prompts" caption-side="top"}
+
+## Approving an installed collector
+{: #approve-collector}
+
+To approve your collector, complete the following steps.
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+2. In the navigation, click **Manage posture > Configure > Collectors**.
+3. In the **Collectors** table, click **Approval required** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
+4. If a passphrase is enabled, click **Passphrase** and enter the phrase. Be sure to enter your passphrase exactly.\
+

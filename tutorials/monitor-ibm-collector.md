@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-11-23"
+lastupdated: "2021-11-29"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -79,20 +79,20 @@ IBM-managed collectors are created on IBM-owned infrastructure and are maintaine
 {: note}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. On the **Configure > Collectors** page of the {{site.data.keyword.compliance_short}}, click **Create**.
-3. Give your collector a name and description.
+1. On the **Configure > Collectors** page of the {{site.data.keyword.compliance_short}}, click **Create**.
+1. Give your collector a name and description.
 
    It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
 
-4. If you have a passphrase enabled, the **Existing passphrase** field displays. Enter your passphrase. If you do not have a passphrase enabled, the field will not display.
-5. Click **Next**.
-6. In the **Managed by** field, select **IBM**. 
+1. If you have a passphrase enabled, the **Existing passphrase** field displays. Enter your passphrase. If you do not have a passphrase enabled, the field will not display.
+1. Click **Next**.
+1. In the **Managed by** field, select **IBM**. 
 
-8. By default, the **Private** endpoint type is selected.
+1. By default, the **Private** endpoint type is selected.
 
    A collector requires constant communication with the service to validate your current posture. By default, a private endpoint is used for communication in all IBM managed collectors.
 
-9. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
+1. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
 
 When your collector is ready, the status updates to **Active**.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-23"
+lastupdated: "2021-12-03"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -55,7 +55,7 @@ completion-time: 30m
 {: toc-services="security-compliance, vpc"}
 {: toc-completion-time="30m"}
 
-In this tutorial, you learn how to use {{site.data.keyword.compliance_full}}, to automate the compliance checks that your organization must complete.
+In this tutorial, you learn how to use {{site.data.keyword.compliance_full}} to automate the compliance checks that your organization must complete.
 {: shortdesc}
 
 
@@ -142,22 +142,33 @@ Virtual Private Cloud gives you the ability to establish your own private cloud-
    {: codeblock}
 
 
-## Create and install a collector
+## Creating a collector
 {: #ibm-customer-collector-create}
 {: step}
 
-A collector is a Docker image that you install on your Virtual Private Cloud. The collector image is responsible for gathering your configuration information and validating it.
+A collector is a container image that you install on your Virtual Private Cloud. The collector image is responsible for gathering your configuration information and validating it.
 
 1. Create a collector.
 
    1. Go to the **Manage posture > Configure > Collectors** tab and click **Create**.
-   2. Give your collector a meaningful name and click **Next**. For example, `ibm-cloud-collector`. 
-   3. For **Managed by**, select **Customer**.
-   4. For **Endpoint type**, select **Public** and then click **Create**.
+   2. Give your collector a meaningful name and description. For example, `ibm-cloud-collector`. 
+   3. Click **Next**.
+   4. Select **Customer** to install the collector on your organization's infrastructure.
+   7. For **Endpoint type**, select **Public**.  To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private**. 
+   8. Click **Create**.
 
-2. In the **Collectors** table, click the dropdown arrow to expand the details for the collector that you created.
-3. Click **initiate_collector.sh** to download the collector installation script. Make a note of the **Registration key**.
-4. Transfer the collector installation file to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
+
+
+
+
+## Installing a collector
+{: #customer-collector-install-vm}
+
+
+
+1. In the **Collectors** table, click the dropdown arrow to expand the details for the collector that you created.
+1. Click **initiate_collector.sh** to download the collector installation script. Make a note of the **Registration key**. 
+1. Transfer the collector installation file to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
 
    1. Locally, open the **initiate_collector.sh** file that you downloaded and copy its contents.
    2. From your command line, open the VIM editor.
@@ -173,14 +184,14 @@ A collector is a Docker image that you install on your Virtual Private Cloud. Th
    6. Type `:wq` and click **Enter**. to save and exist VIM.
    7. To confirm that the file was created, run the `ls` command.
 
-5. Change the permissions of the `initiate_collector.sh` file to allow it to run.
+1. Change the permissions of the `initiate_collector.sh` file to allow it to run.
 
    ```sh
    chmod +x initiate_collector.sh
    ```
    {: codeblock}
 
-6. Install the collector by running the following command. When prompted, use the table as a guide for answering the questions.
+1. Install the collector by running the following command. When prompted, use the table as a guide for answering the questions.
 
    ```sh
    ./initiate_collector.sh
@@ -194,16 +205,13 @@ A collector is a Docker image that you install on your Virtual Private Cloud. Th
    | Registration key | Provide the registration key. This can be found in the table on the **Collectors** page of the {{site.data.keyword.compliance_short}} UI. Expand the details for the collector that you want to register and copy the key. |
    {: caption="Table 1. Collector installation prompts" caption-side="top"}
 
-7. On the **Collectors** page of the {{site.data.keyword.compliance_short}} UI, click **Approval required** to approve the collector for use. Wait a few minutes and refresh the page. The collector status updates to **Active**.
-
-
-
+1. On the **Collectors** page of the {{site.data.keyword.compliance_short}} UI, click **Approval required** to approve the collector for use. Wait a few minutes and refresh the page. The collector status updates to **Active**.
 
 ## Grant your collector access to your resources
 {: #ibm-customer-collector-access}
 {: step}
 
-In order to run the scan, the collector must have *read* access to the resources that you want to scan. This access is granted through an {{site.data.keyword.cloud_notm}} API key. For more information about the security of your credentials, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
+To run the scan, the collector must have *read* access to the resources that you want to scan. This access is granted through an {{site.data.keyword.cloud_notm}} API key. For more information about the security of your credentials, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
 
 1. Create an {{site.data.keyword.cloud_notm}} API key.
 
@@ -222,7 +230,6 @@ In order to run the scan, the collector must have *read* access to the resources
    5. Select **Discovery / fact collection** as the purpose of the credential and then click **Next**.
    6. Select **{{site.data.keyword.cloud_notm}}** as the type of credential.
    7. Paste the API key that you created in the previous step and click **Create**.
-
 
 ## Target your resources
 {: #ibm-customer-collector-scope}
