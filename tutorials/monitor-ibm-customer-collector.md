@@ -148,22 +148,17 @@ Virtual Private Cloud gives you the ability to establish your own private cloud-
 
 A collector is a container image that you install on your Virtual Private Cloud. The collector image is responsible for gathering your configuration information and validating it.
 
-1. Create a collector.
-
-   1. Go to the **Manage posture > Configure > Collectors** tab and click **Create**.
-   2. Give your collector a meaningful name and description. For example, `ibm-cloud-collector`. 
-   3. Click **Next**.
-   4. Select **Customer** to install the collector on your organization's infrastructure.
-   7. For **Endpoint type**, select **Public**.  To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private**. 
-   8. Click **Create**.
-
-
-
+1. Go to the **Manage posture > Configure > Collectors** tab and click **Create**.
+2. Give your collector a meaningful name and description. For example, `ibm-cloud-collector`. 
+3. Click **Next**.
+4. Select **Customer** to install the collector on your organization's infrastructure.
+7. For **Endpoint type**, select **Public**.  To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private**. 
+8. Click **Create**.
 
 
 ## Installing a collector
 {: #customer-collector-install-vm}
-
+{: step}
 
 
 1. In the **Collectors** table, click the dropdown arrow to expand the details for the collector that you created.
