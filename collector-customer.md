@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-12-03"
+lastupdated: "2021-12-06"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -66,7 +66,7 @@ Before you get started, be sure that you have the level of access that is necess
 
 
 
-To manually install a collector, you must have access to a server. That server must have the following minimum configuration requirements depending on the type of machine that you are using.
+To manually install a collector, you must have access to a server. That server must have the following minimum configuration requirements that depend on the type of machine that you are using.
 
 | Machine type | Minimum requirement | 
 |:-------------|:--------------------|
@@ -215,8 +215,8 @@ Now that you created a collector, you can install it on a virtual machine by com
    | Prompt | Response |
    |:-------|:---------|
    | Data Path | Provide the data path to your host machine. For example, `/root/compliance/`. |
-   | Nmap validation | No - This tutorial is designed to focus on cloud resources. You only need to run an Nmap validation if your resources exist behind a firewall. |
-   | Registration key | Provide the registration key. This can be found in the table on the **Collectors** page of the {{site.data.keyword.compliance_short}} UI. Expand the details for the collector that you want to register and copy the key. |
+   | Nmap validation | No - This tutorial is designed to focus on cloud resources. You need to run an Nmap validation only if your resources exist behind a firewall. |
+   | Registration key | Provide the registration key. This registration key can be found in the table on the **Collectors** page of the {{site.data.keyword.compliance_short}} UI. Expand the details for the collector that you want to register and copy the key. |
    {: caption="Table 4. Collector installation prompts" caption-side="top"}
 
    The registration key is active for 24 hours. Installation must be complete and the collector must be activated within that timeframe.
