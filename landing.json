@@ -1,6 +1,6 @@
 {
     "title": "Security and Compliance Center docs",
-    "lastupdated": "2021-11-23",
+    "lastupdated": "2021-12-07",
     "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
     "section_devtools": {
       "api": "/apidocs/security-compliance/posture",
@@ -33,7 +33,7 @@
       "view_more": "/docs/acme-test?topic=acme-test-release-notes",
       "tiles": [
         {
-          "date": "22 Novemeber 2021",
+          "date": "22 November 2021",
           "title": "Now available: New goals",
           "description": "New goals are now available in the IBM Cloud Best Practices profile."
         },
