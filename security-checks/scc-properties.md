@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-22"
+lastupdated: "2021-12-07"
 
 keywords: config rules, config properties, scc integrated services, 
 
@@ -57,16 +57,16 @@ Ready to get started? Review the following tables and then see [Formatting rules
 
 
 
-## Billing Composite Service 
+## Billing
 {: #billing-properties}
 
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to BSS Billing Composite Service. If you're using the API to define your rule, use `billing` for the service name.
+Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Billing. If you're using the API to define your rule, use `billing` for the service name.
 
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `account-trait` | `eu_supported` | boolean | Indicates whether the account has the eu_supported flag enabled |
 | `account-trait` | `hipaa_accepted` | boolean | Indicates whether the account has the hipaa_accepted flag enabled |
-{: caption="Table 2. Rule properties that are available for the Billing platform component" caption-side="bottom"}
+{: caption="Table 1. Rule properties that are available for the Billing platform component" caption-side="bottom"}
 
 ## Catalog Management
 {: #catalog-properties}
@@ -79,7 +79,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | `account-settings` | `allow_ibm_provider` | boolean | Allow users to install IBM software from the IBM Cloud catalog. Configure the filters set in the catalog management settings to comply with this rule. |
 | `account-settings` | `allow_community_provider` | boolean | Allow users to install community software from the IBM Cloud catalog. Configure the filters set in the catalog management settings to comply with this rule. |
 | `account-settings` | `allow_thirdparty_provider` | boolean | Allow users to install third-party software from the IBM Cloud catalog. Configure the filters set in the catalog management settings to comply with this rule. |
-{: caption="Table 5. Rule properties that are available for the Catalog Management platform component" caption-side="bottom"}
+{: caption="Table 2. Rule properties that are available for the Catalog Management platform component" caption-side="bottom"}
 
 ## Certificate Manager
 {: #cm-properties}
@@ -93,7 +93,7 @@ Rules for the Certificate Manager service can be monitored but are not enforceab
 |:--------------|:---------|:--------------|:------------|
 | `instance` | `private_network_only` | boolean | Indicates whether access to an instance is enabled only through a private network. |
 | `certificate` | `days_to_expiration` | numeric | Indicates the number of days until expiration. |
-{: caption="Table 6. Rule properties that are available for Certificate Manager" caption-side="bottom"}
+{: caption="Table 3. Rule properties that are available for Certificate Manager" caption-side="bottom"}
 
 ## Cloud Object Storage
 {: #cos-properties}
@@ -117,7 +117,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | `bucket` | `metrics_monitoring.usage_metrics_enabled` | boolean | If set to true, all usage metrics (i.e. bytes_used) will be sent to the monitoring service. |
 | `bucket` | `metrics_monitoring.request_metrics_enabled` | boolean | If set to true, all request metrics will be sent to the monitoring service. |
 | `bucket` | `hard_quota` | numeric | Maximum bytes allotted to the Cloud Object Storage bucket. |
-{: caption="Table 7. Rule properties that are available for Cloud Object Storage" caption-side="bottom"}
+{: caption="Table 4. Rule properties that are available for Cloud Object Storage" caption-side="bottom"}
 
 ## {{site.data.keyword.codeengineshort}}
 {: #code-engine-properties}
@@ -127,7 +127,19 @@ Review the following table to learn more about the resource kinds, properties, a
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `project` | `location` | string_equals | Indicates whether the location to the {{site.data.keyword.codeengineshort}} project is allowed. |
-{: caption="Table 8. Rule properties for {{site.data.keyword.codeengineshort}}" caption-side="bottom"}
+{: caption="Table 5. Rule properties for {{site.data.keyword.codeengineshort}}" caption-side="bottom"}
+
+## Container Registry
+{: #cr-properties}
+
+Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Container Registry. If you're using the API to define your rule, use `container-registry` for the service name.
+
+| Resource kind | Property | Operator type | Description |
+|:--------------|:---------|:--------------|:------------|
+| `service` | `iam_authz` | boolean | Enables role-based authorization for authenticating with IBM Cloud Identity and Access Management. |
+| `service` | `private_only` | boolean | Restricts the account so that it can push and pull images over private connections only. |
+| `service` | `platform_metrics` | boolean | Publishes IBM Cloud Container Registry platform metrics. |
+{: caption="Table 6. Rule properties that are available for Container Registry" caption-side="bottom"}
 
 ## Direct Link
 {: #dl-properties}
@@ -137,7 +149,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `service` | `cross_account_connection_approved` | boolean | Indicates whether an incoming cross account connection request was approved. |
-{: caption="Table 9. Rule properties that are available for Direct Link" caption-side="bottom"}
+{: caption="Table 7. Rule properties that are available for Direct Link" caption-side="bottom"}
 
 ## Event Streams
 {: #es-properties}
@@ -147,9 +159,9 @@ Review the following table to learn more about the resource kinds, properties, a
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `instance` | `public_network_enabled` | boolean | Indicates whether the public access feature is enabled. |
-| `instance` | `private_network_enabled` | boolean | Indicates wwhether the private access feature is enabled. |
+| `instance` | `private_network_enabled` | boolean | Indicates whether the private access feature is enabled. |
 | `instance` | `private_access_allowlist` | boolean | The list of IPs where private network can be utilized. |
-{: caption="Table 10. Rule properties that are available for Event Streams" caption-side="bottom"}
+{: caption="Table 8. Rule properties that are available for Event Streams" caption-side="bottom"}
 
 ## Hyper Protect Crypto Services
 {: #hpcs-properties}
@@ -159,7 +171,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `instance` | `allowed_network` | string | Specifies the type of endpoint the HPCS instance can be accessed from. |
-{: caption="Table 12. Rule properties that are available for Hyper Protect Crypto Services" caption-side="bottom"}
+{: caption="Table 9. Rule properties that are available for Hyper Protect Crypto Services" caption-side="bottom"}
 
 ## Hyper Protect DBaaS for MongoDB
 {: #hyperp-dbaas-mongodb-properties}
@@ -171,7 +183,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | `instance` | `private_endpoints_only` | boolean | Check whether Hyper Protect DBaaS for MongoDB is accessible only by using private endpoints |
 | `instance` | `bring_your_own_key` | boolean | Check whether Hyper Protect DBaaS for MongoDB is enabled with customer-managed encryption and Bring Your Own Key (BYOK) |
 | `instance` | `keep_your_own_key` | boolean | Check whether Hyper Protect DBaaS for MongoDB is enabled with customer-managed encryption and Keep Your Own Key (KYOK) |
-{: caption="Table 14. Rule properties that are available for Hyper Protect DBaaS for MongoDB" caption-side="bottom"}
+{: caption="Table 10. Rule properties that are available for Hyper Protect DBaaS for MongoDB" caption-side="bottom"}
 
 ## Hyper Protect DBaaS for PostgreSQL
 {: #hyperp-dbaas-postgresql-properties}
@@ -183,7 +195,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | `instance` | `private_endpoints_only` | boolean | Check whether Hyper Protect DBaaS for PostgreSQL is accessible only by using private endpoints |
 | `instance` | `bring_your_own_key` | boolean | Check whether Hyper Protect DBaaS for PostgreSQL is enabled with customer-managed encryption and Bring Your Own Key (BYOK) |
 | `instance` | `keep_your_own_key` | boolean | Check whether Hyper Protect DBaaS for PostgreSQL is enabled with customer-managed encryption and Keep Your Own Key (KYOK) |
-{: caption="Table 15. Rule properties that are available for Hyper Protect DBaaS for PostgreSQL" caption-side="bottom"}
+{: caption="Table 11. Rule properties that are available for Hyper Protect DBaaS for PostgreSQL" caption-side="bottom"}
 
 ## IAM Access Groups Service
 {: #iam-groups-properties}
@@ -193,7 +205,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `service` | `public_access_enabled` | boolean | A boolean indicating whether the public access feature is enabled |
-{: caption="Table 16. Rule properties that are available for the IAM Access Groups platform component" caption-side="bottom"}
+{: caption="Table 12. Rule properties that are available for the IAM Access Groups platform component" caption-side="bottom"}
 
 
 ## IAM Identity Service
@@ -206,7 +218,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | `accountsettings` | `restrict_create_service_id` | string | Indicating whether the restriction on service ID creation is enabled. |
 | `accountsettings` | `restrict_create_platform_apikey` | string | Indicating whether the restriction on platform apikey creation is enabled. |
 | `accountsettings` | `mfa` | string | Indicating the level of mfa that is required. |
-{: caption="Table 17. Rule properties that are available for the IAM Identity Service platform component" caption-side="bottom"}
+{: caption="Table 13. Rule properties that are available for the IAM Identity Service platform component" caption-side="bottom"}
 
 ## IBM Cloud Shell
 {: #shell-properties}
@@ -216,7 +228,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `service` | `enabled` | boolean | A boolean to enable or disable IBM Cloud Shell for an account |
-{: caption="Table 18. Rule properties that are available for IBM Cloud Shell" caption-side="bottom"}
+{: caption="Table 14. Rule properties that are available for IBM Cloud Shell" caption-side="bottom"}
 
 ## Internet Services
 {: #cis-properties}
@@ -227,7 +239,7 @@ Review the following table to learn more about the resource kinds, properties, a
 |:--------------|:---------|:--------------|:------------|
 | `zone` | `waf_enabled`| string | A string indicating whether the WAF is turned on or off. |
 | `zone` | `tls_mode` | string | A string indicating the TLS mode for encryption. Values include 'off', 'flexible', 'full', 'strict', and 'origin_pull'. |
-{: caption="Table 20.. Rule properties that are available for Cloud Internet Services" caption-side="bottom"}
+{: caption="Table 15.. Rule properties that are available for Cloud Internet Services" caption-side="bottom"}
 
 ## Key Protect
 {: #kp-properties}
@@ -247,7 +259,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | `key` | `dual_auth_delete` | boolean | Require/Disallow dual authorization to delete the given key in the Key Protect instance. Refer to Key Protect Key Policies API. |
 | `key` | `rotation.enabled` | boolean | Require/Disallow active rotation policy on specified key(s). Refer to Key Protect Key Policies API. |
 | `key` | `rotation.interval_month` | numeric | Specifies the given key's rotation interval (in months). Automatic rotation policies can only be applied to root keys with non-imported material. Refer to Key Protect Key Policies API. |
-{: caption="Table 21. Rule properties that are available for Key Protect" caption-side="bottom"}
+{: caption="Table 16. Rule properties that are available for Key Protect" caption-side="bottom"}
 
 ## Load Balancer for VPC
 {: #lb-vpc-properties}
@@ -258,7 +270,7 @@ Review the following table to learn more about the resource kinds, properties, a
 |:--------------|:---------|:--------------|:------------|
 | `instance` | `profile_family` | string | A list of strings matching LoadBalancer profile family name from LoadBalancer profile family. Ex: [application, network] |
 | `instance` | `load_balancer_type` | string | A list of strings indicating what type of the load balancer can be provisioned. Ex: [public, private] |
-{: caption="Table 23. Rule properties that are available for Load Balancer for VPC" caption-side="bottom"}
+{: caption="Table 17. Rule properties that are available for Load Balancer for VPC" caption-side="bottom"}
 
 ## Toolchain
 {: #toolchain-properties}
@@ -268,7 +280,7 @@ Review the following table to learn more about the resource kinds, properties, a
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `instance` | `toolchain_allowed_tool_integration_ids` | string_list | Define a list of allowed tools. e.g. [ `hostedgit`, `orion`, `pipeline`, `draservicebroker` ]. Tool ID is at end of URL when attempting to add. Full list at https://github.com/open-toolchain/sdk/wiki/services.md. |
-{: caption="Table 24. Rule properties that are available for ToolchainContinuous Delivery" caption-side="bottom"}
+{: caption="Table 18. Rule properties that are available for ToolchainContinuous Delivery" caption-side="bottom"}
 
 
 ## Transit Gateway
@@ -279,4 +291,4 @@ Review the following table to learn more about the resource kinds, properties, a
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `service` | `cross_account_connection_approved` | boolean | Indicates whether an incoming cross account connection request was approved. |
-{: caption="Table 25. Rule properties that are available for Transit Gateway" caption-side="bottom"}
+{: caption="Table 19. Rule properties that are available for Transit Gateway" caption-side="bottom"}
