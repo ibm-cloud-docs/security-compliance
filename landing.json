@@ -1,6 +1,6 @@
 {
     "title": "Security and Compliance Center docs",
-    "lastupdated": "2021-12-07",
+    "lastupdated": "2021-12-08",
     "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
     "section_devtools": {
       "api": "/apidocs/security-compliance/posture",
@@ -33,6 +33,11 @@
       "view_more": "/docs/acme-test?topic=acme-test-release-notes",
       "tiles": [
         {
+          "date": "9 December 2021",
+          "title": "Now available: Customer-managed collectors on clusters",
+          "description": "You can now install a customer-managed collector onto an IBM Cloud Kubernetes Service or OpenShift"
+        },
+        {
           "date": "22 November 2021",
           "title": "Now available: New goals",
           "description": "New goals are now available in the IBM Cloud Best Practices profile."
@@ -41,11 +46,6 @@
           "date": "1 November 2021",
           "title": "Now available: Scan your OpenShift clusters",
           "description": "You can now scan your OpenShift clusters by using the OpenShift Compliance Operator(OSCO) integration."
-        },
-        {
-          "date": "27 October 2021",
-          "title": "Deprecation of Bookmarks",
-          "description": "The ability to create bookmarks or direct connections within the Security and Compliance Center will be deprecated on 30 November 2021."
         }
       ]
     }
