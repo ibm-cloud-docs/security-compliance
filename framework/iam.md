@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-12-08"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -66,7 +66,7 @@ To assign access, you can use the **Access (IAM)** section of the console.
 
 1. [Create an access group](/docs/account?topic=account-groups#create_ag) for the type of users that you want to give access to and add those users to the group. For example, you might have a team of compliance specialists that need the same level of access.
 2. After you create a group and add users, go to the **Manage > Access (IAM) > Access Groups** page of the console.
-3. Select a table row, and click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) to open a list of options for that access group.
+3. Select a table row, and click the **Actions** icon ![Actions icon](../../icons/actions-icon-vertical.svg) to open a list of options for that access group.
 4. From the options menu, click **Assign access**.
 5. Select **Account management**.
 6. From the list of services, select **{{site.data.keyword.compliance_short}}**.
@@ -381,4 +381,5 @@ The following events are triggered by the Security Insights component of the {{s
 {: tab-title="Keys"}
 {: tab-group="insights"}
 {: class="simple-tab-table"}
+
 
