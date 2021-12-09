@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-12-09"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -108,7 +108,7 @@ For each credential, you must manage reader or viewer permissions for the servic
 | Service | Additional permission |
 |---------|---------------|
 | Key Protect | A credential must also have Manager access to the Key Protect service to run scans. |
-| Cloud Object Storage | A credential must also have Writer access to the Key Protect service to run scans. |
+| Cloud Object Storage Service | A credential must also have Writer access to the Key Protect service to run scans. |
 | User Management - Billing | To view the results that are related to MFA, a user must have viewer access to the Billing service and to the {{site.data.keyword.compliance_short}}. |
 | Classic Infrastructure | The provided credential must be a User API key. If a service ID is provided, the scan cannot complete. |
 | Continuous Delivery | The provided credential must be a User API key. If a service ID is provided, the scan cannot complete. |
