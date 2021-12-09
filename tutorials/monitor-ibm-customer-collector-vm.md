@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-12-03"
+lastupdated: "2021-12-07"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -49,7 +49,7 @@ completion-time: 30m
 {:api: .ph data-hd-interface='api'}
 {:release-note: data-hd-content-type='release-note'}
 
-# Monitor {{site.data.keyword.cloud_notm}} resources with a customer-managed collector
+# Monitor {{site.data.keyword.cloud_notm}} resources with a customer-managed collector on a VM
 {: #ibm-customer-collector}
 {: toc-content-type="tutorial"}
 {: toc-services="security-compliance, vpc"}
@@ -57,7 +57,6 @@ completion-time: 30m
 
 In this tutorial, you learn how to use {{site.data.keyword.compliance_full}} to automate the compliance checks that your organization must complete.
 {: shortdesc}
-
 
 To scan and validate your resource configurations, a [collector](/docs/security-compliance?topic=security-compliance-collector) is used. Collectors act as an intermediary between your resources and the {{site.data.keyword.compliance_short}}, where the gathering and validation of your configurations is done. In this scenario, you are a developer who wants to validate your {{site.data.keyword.cloud_notm}} resources against defined best practices. Due to the security requirements of your organization, you are required to install the collector on infrastructure that is owned by your organization. You decide to use {{site.data.keyword.cloud_notm}} Virtual Private Cloud. 
 
@@ -265,5 +264,5 @@ When your resources and their configurations are discovered, you're ready to val
 ## Next steps
 {: #ibm-customer-collector-next}
 
-When a scan completes, you can view the results as an overview in your dashboard, or in more detail by resource or by control. sIn all three options, you are presented with a compliance score so that you can view your compliance posture at a glance. To learn more about your score, see [Understanding your compliance score](/docs/security-compliance?topic=security-compliance-view-posture#understand-scores).
+When a scan completes, you can view the results as an overview in your dashboard, or in more detail by resource or by control. In all three options, you are presented with a compliance score so that you can view your compliance posture at a glance. To learn more about your score, see [Understanding your compliance score](/docs/security-compliance?topic=security-compliance-view-posture#understand-scores).
 

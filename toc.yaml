@@ -23,8 +23,12 @@ toc:
       - topicgroup: 
           label: Monitoring IBM Cloud resources
           topics:
-          - tutorials/monitor-ibm-collector.md
-          - tutorials/monitor-ibm-customer-collector.md
+          - topic: tutorials/monitor-ibm-collector.md
+            navtitle: With an IBM-managed collector
+          - topic: tutorials/monitor-customer-collector-cluster.md
+            navtitle: With a customer-managed collector on a cluster
+          - topic: tutorials/monitor-ibm-customer-collector-vm.md
+            navtitle: With a customer-managed collector on a VM
       - tutorials/custom-findings-nmap.md
       - tutorials/ni-alerts.md
 
