@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-12-06"
+lastupdated: "2021-12-09"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -62,11 +62,7 @@ Before you get started, be sure that you have the level of access that is necess
 ### Verifying installation requirements
 {: #before-collector-verify}
 
-
-
-
-
-To manually install a collector, you must have access to a server. That server must have the following minimum configuration requirements that depend on the type of machine that you are using.
+You can install a collector on a cluster or a machine. To manually install a collector on a cluster, you must have access to an [{{site.data.keyword.cloud_notm}} {{site.data.keyword.containershort}}](/docs/containers) or a [Red Hat OpenShift on {{site.data.keyword.cloud_notm}}](/docs/openshift) cluster. To install a collector on a machine, you must have access to a server. That server must have the following minimum configuration requirements that are based on the type of machine that you are using.
 
 | Machine type | Minimum requirement | 
 |:-------------|:--------------------|
@@ -139,18 +135,76 @@ When the collector is created successfully, the status updates to **Ready to ins
 
 
 
-
-
-
 ## Installing a collector
+{: #install-collector}
+
+You can choose to install a collector on a {{site.data.keyword.containershort}} or Red Hat OpenShift on {{site.data.keyword.cloud_notm}} cluster or on a virtual machine. 
+
+### Installing a collector on a cluster
+{: #install-collector-cluster}
+
+Complete the following steps to install a collector on a cluster.
+
+1. After you create a collector in the {{site.data.keyword.cloud_notm}} console, you are invited to download the collector. Be sure that you meet the prerequisites.
+2. Select **Download YAML file** to deploy the collector on an {{site.data.keyword.containershort}} or OpenShift cluster. The registration key is included in the file.
+3. Click **Download**. 
+4. In the YAML file, you can customize the following metadata to your specifications. 
+
+   | Property | Note |
+   | -------- | ---- |
+   | `namespace` | If you choose to customize `namespace`, both occurrences must match. |
+   | `resources` | You can edit only the values of `cpu` and `memory`. |
+   {: caption="Table 3. The properties that you can edit in the YAML file" caption-side="top"}
+
+5. Log in to the IBM Cloud CLI by running the following command and then following the prompts. If you have a federated ID, append the `--sso` option to the end of the command. 
+
+   ```sh
+   ibmcloud login
+   ```
+   {: codeblock}
+
+6. Set the context for your cluster. 
+
+   * If you are using a {{site.data.keyword.containershort}} cluster, run the following command.
+
+      ```sh
+      ibmcloud ks cluster config --cluster <cluster_name_or_ID>
+      ```
+      {: codeblock}
+
+   * Run the following command if you are deploying your collector on an OpenShift cluster to deploy your collector. 
+
+      ```sh
+      ibmcloud oc cluster config --cluster <cluster_name_or_ID>
+      ```
+      {: codeblock}
+
+7. Deploy your collector. 
+
+   * If you are deploying your collector on a {{site.data.keyword.containershort}} cluster, run the following command.
+
+      ```sh
+      kubectl apply -f <deployment-testdocumentation>.yaml
+      ```
+      {: codeblock}
+
+   * Run the following command if you are using an OpenShift cluster. 
+
+      ```sh
+      OC apply -f <deployment-testdocumentation>.yaml
+      ```
+      {: codeblock}
+
+7. [Approve](/docs/security-compliance?topic=security-compliance-collector-manual#approve-collector) your collector.
+
+
+### Installing a collector on a virtual machine
 {: #install-collector-vm}
 
-Now that you created a collector, you can install it on a virtual machine by completing the following steps.
 
 
-
-1. In the **Collectors** table, click the dropdown arrow to expand the details for the collector that you created.
-2. Click **initiate_collector.sh** to download the collector installation script. Make a note of the **Registration key**.
+1. After you create a collector in the {{site.data.keyword.cloud_notm}} console, you are invited to download the collector. Be sure that you meet the prerequisites.
+2. Select **Download shell script** to deploy the collector on a virtual machine. The registration key is required. 
 3. Click **Download** to get the `initiate_collector.sh` file.
 4. In terminal, log in to your virtual machine by using SSH.
 
