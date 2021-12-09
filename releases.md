@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-12-08"
+lastupdated: "2021-12-09"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -53,6 +53,16 @@ content-type: release-note
 
 
 
+
+## 9 December 2021
+{: #security-compliance-dec921}
+{: release-note}
+
+Customer-managed collectors can now be installed on a cluster
+:   You can now install your customer-managed collector on to an IBM Cloud Kubernetes Service or OpenShift cluster. For more information or help getting started, see [the tutorial](/docs/security-compliance?topic=security-compliance-ibm-customer-collector-cluster).
+
+New service available in Configuration Governance
+:   IBM Cloud Container Registry is now available as part of the Configuration Governance component. You can create guardrails for Container Registry such as restricting an account so that it can only push and pull images over private connections. For more information about the integration and the other available properties, see [the Container Registry docs](/docs/Registry?topic=Registry-manage-security-compliance#govern-container-registry).
 
 
 ## 22 November 2021
