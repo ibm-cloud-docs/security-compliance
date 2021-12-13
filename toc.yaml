@@ -30,7 +30,6 @@ toc:
           - topic: tutorials/monitor-ibm-customer-collector-vm.md
             navtitle: With a customer-managed collector on a VM
       - tutorials/custom-findings-nmap.md
-      - tutorials/ni-alerts.md
 
   - navgroup:
       id: howto
@@ -108,7 +107,13 @@ toc:
               topics:
               - integrations/osco.md
           - custom-findings.md
-      - notifications.md
+      - topicgroup: 
+          label: Configuring notifications
+          topics:
+          - topic: framework/event-notifications.md
+            navtitle: Enabling event notifications
+          - topic: notifications.md
+            navtitle: "Deprecated: Configuring alerts"
       - topicgroup:
           label: Managing your posture
           topics:

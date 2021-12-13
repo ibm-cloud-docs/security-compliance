@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2021
-lastupdated: "2021-10-13"
+lastupdated: "2021-12-13"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -401,6 +401,7 @@ The following events are triggered by the Admin API calls for the {{site.data.ke
 | :----------------------------------| :-----------------------------------| :---------------|
 | `compliance.admin-settings.list`   | `compliance.admin-settings.read`    | View {{site.data.keyword.compliance_short}} settings for your account. |
 | `compliance.admin-settings.update` | `compliance.admin.settings.update`  | Update {{site.data.keyword.compliance_short}} settings for your account. |
+| `compliance.admin.test-event-send` | | Send a test event to a connected {{site.data.keyword.en_short}} service instance. |
 {: caption="Table 4. List of events that apply to admin settings" caption-side="top"}
 
 
