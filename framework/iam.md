@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-12-08"
+lastupdated: "2021-12-13"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -382,4 +382,15 @@ The following events are triggered by the Security Insights component of the {{s
 {: tab-group="insights"}
 {: class="simple-tab-table"}
 
+### Roles for Admin
+{: #admin-roles}
+
+The following table lists the platform access roles that are required to view and edit {{site.data.keyword.compliance_short}} settings for your account.
+
+| Action                         | Description                     | Role |
+| :----------------------------------| :-----------------------------------| :---------------|
+| `compliance.admin-settings.list`   | View {{site.data.keyword.compliance_short}} settings for your account. | Viewer, Editor, Administrator
+| `compliance.admin-settings.update` | Update {{site.data.keyword.compliance_short}} settings for your account. | Administrator  |
+| `compliance.admin.test-event-send` | Send a test event to a connected {{site.data.keyword.en_short}} service instance. | Administrator |
+{: caption="Table 4. IAM user roles and actions that apply to admin settings" caption-side="top"}
 

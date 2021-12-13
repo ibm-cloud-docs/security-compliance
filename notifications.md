@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-11-22"
+lastupdated: "2021-12-13"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection, alerts, callback URL, compliance, standards, roles, notification channel, verify payload, public key
 
@@ -48,6 +48,9 @@ subcollection: security-compliance
 # Configuring alerts
 {: #notifications}
 
+
+As of 13 December 2021, alerts in the {{site.data.keyword.compliance_short}} are deprecated in favor of [{{site.data.keyword.en_short}}](/docs/security-compliance?topic=security-compliance-event-notifications). The ability to create alerts within the {{site.data.keyword.compliance_short}} is no longer supported. You can continue to view, enable, disable, or delete your existing alerts until 15 March 2021. After this date, any existing alerts will be deleted, and the feature will be removed from the UI.
+{: deprecated}
 
 
 By configuring an {{site.data.keyword.compliance_full}} notification channel, you can be alerted to any reported vulnerabilities as soon as the report is available. With a fast alert time, you're able to immediately start an investigation into any reported issue and fix the vulnerability before it becomes a larger problem in your application.
