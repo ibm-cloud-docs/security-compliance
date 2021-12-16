@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-12-09"
+lastupdated: "2021-12-16"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance, cluster collector, Kubernetes, Red Hat OpenShift
 
@@ -82,7 +82,14 @@ A collector is a container image that you install on your Virtual Private Cloud.
 1. Go to the **Manage posture > Configure > Collectors** tab and click **Create**.
 2. Give your collector a meaningful name and description. For example, `ibm-cloud-collector`. 
 3. Click **Next**.
-4. Select **Customer** to install the collector on your organization's infrastructure
+4. Select **Customer** to install the collector on your organization's infrastructure.
+5. **UBI** is selected as the default container **image type**.
+
+   Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS.
+
+6. Alternatively, you can choose **Ubuntu**.
+
+   Ubuntu images are disk-images that are designed to run on the Ubuntu OS. Ubuntu images are not compliant with the Federal Information Processing Standards (FIPS).
 
 7. For **Endpoint type**, select **Public**.  To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private**. 
 8. Click **Create**.
