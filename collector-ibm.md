@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-11-22"
+lastupdated: "2021-12-16"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials, ibm managed collector, ibm managed
 
@@ -95,11 +95,15 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
 5. If you have a passphrase enabled, the **Existing passphrase** field displays. Enter your passphrase. If you do not have a passphrase enabled, the field does not display.
 6. Click **Next**.
 7. In the **Managed by** field, select **IBM**.
-8. By default, the **Private** endpoint type is selected.
+8. **UBI** is selected as the default container **image type**.
+
+   Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS.
+
+9. By default, the **Private** endpoint type is selected.
 
    A collector requires constant communication with the service to validate your current posture. By default, a private endpoint is used for communication in all IBM managed collectors.
 
-9. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
+10. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
 
 When your collector is ready, the status updates to **Active**.
 

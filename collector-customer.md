@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-12-09"
+lastupdated: "2021-12-16"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -125,6 +125,12 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
    It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
 5. Click **Next**.
 6. Select **Customer** to install the collector on your organization's infrastructure.
+7. **UBI** is selected as the default container **image type**. 
+   
+   Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS.
+8. Alternatively, you can select **Ubuntu**.
+
+   Ubuntu images are disk-images that are designed to run on the Ubuntu OS. Ubuntu images are not compliant with the Federal Information Processing Standards (FIPS).
 9. Choose an endpoint option for your collector.
 
    By default, your collector connects to resources in your account by using a public endpoint. To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private**.
