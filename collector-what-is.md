@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-11-22"
+  years: 2022
+lastupdated: "2022-01-06"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -70,13 +70,13 @@ When you work with collectors, you can either manage the lifecycle yourself or y
 
 
 IBM-managed collectors
-:   When you choose to have IBM manage your collector, it is installed on IBM infrastructure . IBM is responsible for the installation and management for the lifecycle of the collector. This option gives you the ability to focus on just the health and security of your resources.</dd>
+:   When you choose to have IBM manage your collector, it is installed on IBM infrastructure as a Universal Base Image (UBI). IBM is responsible for the installation and management for the lifecycle of the collector. This option gives you the ability to focus on just the health and security of your resources.
 
 
 Customer-managed collectors
 :  In some situations, an IBM-managed collector might not be possible. If your organization has policies regarding the ownership of infrastructure or specific security constraints, you can always continue to manage your own collector. If your organization chooses to manage your own collectors, you are responsible for the installation and management of the collector. You own the infrastructure and you have total control over where the collector is installed.
 
-
+You can install the collector as a UBI or Ubuntu container image. Ubuntu images are disk-images that are designed to run on the Ubuntu OS. The Ubuntu image is not compliant with the Federal Information Processing Standards (FIPS).
 
 ### Working with multiple collectors
 {: #collector-multiple}
@@ -100,7 +100,8 @@ If you choose to work with an IBM-managed collector, you are responsible only fo
 
 If you choose to create and install your own collector, you are responsible for the stability of the virtual machine. This includes, processing power, disk space, clearing logs, controlling access, and opening ports. You are also responsible for updating or patching the Watchtower image if there is a new vulnerability.
 
-
+With collectors that run on UBI, you cannot collect facts from computers that use Windows OS. Collectors that run on Ubuntu support Windows OS, however, they are not FIPS-compliant.
+{: note}
 
 
 

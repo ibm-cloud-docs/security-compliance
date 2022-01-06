@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-16"
+  years: 2022
+lastupdated: "2022-01-06"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -80,6 +80,9 @@ To complete this tutorial, be sure that you have the following requirements:
 
 Virtual Private Cloud gives you the ability to establish your own private cloud-like computing environment on shared public cloud infrastructure. You define and control a virtual network that is logically isolated from all other public cloud tenants. 
 
+If you already have a VPC that is configured with an SSH key, a VSI, and a floating IP, be sure that you know that information that then skip to step 2.
+{: note}
+
 1. Create a VPC.
 
    1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> VPC Infrastructure > Network > [VPCs](https://{DomainName}/vpc-ext/network/vpcs){: external}**.
@@ -92,12 +95,7 @@ Virtual Private Cloud gives you the ability to establish your own private cloud-
 
    1. In the VPC navigation, click **Compute > [SSH keys](https://{DomainName}/vpc-ext/compute/sshKeys) > Create**.
    2. Give your SSH key a meaningful name. For example, `compliance-vpc-ssh-key`.
-   3. Paste your public key into the **Public key** field and then click **Add SSH key**. To obtain your public key, open your terminal and use the following command to copy it.
-
-      ```sh
-      pbcopy < ~/.ssh/id_rsa.pub
-      ```
-      {: codeblock}
+   3. Paste your public key into the **Public key** field and then click **Add SSH key**.
 
       Can't find or don't have a public key? For help, see [Locating or generating your SSH key](/docs/vpc?topic=vpc-ssh-keys#locating-ssh-keys).
       {: tip}
@@ -119,7 +117,7 @@ Virtual Private Cloud gives you the ability to establish your own private cloud-
    3. From the **Resource to bind** dropdown, select the VSI that you created in the previous step.
    4. Click **Reserve IP**.
 
-5. Using the Floating IP that you created, SSH into your VSI. When prompted, type yes and click **Enter** to create the connection.
+5. By using the Floating IP that you created, SSH into your VSI. When prompted, type yes and click **Enter** to create the connection.
 
    ```sh
    ssh root@Floating_IP
@@ -151,15 +149,12 @@ A collector is a container image that you install on your Virtual Private Cloud.
 2. Give your collector a meaningful name and description. For example, `ibm-cloud-collector`. 
 3. Click **Next**.
 4. Select **Customer** to install the collector on your organization's infrastructure.
-5. **UBI** is selected as the default container **image type**.
+5. **UBI** is selected as the default container **image type**. Alternatively, you can choose **Ubuntu**.
 
-   Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS.
-
-6. Alternatively, you can choose **Ubuntu**.
-
-   Ubuntu images are disk-images that are designed to run on the Ubuntu OS. Ubuntu images are not compliant with the Federal Information Processing Standards (FIPS).
+   Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS. Ubuntu images are disk-images that are designed to run on the Ubuntu OS. Ubuntu images are not compliant with the Federal Information Processing Standards (FIPS).
 7. For **Endpoint type**, select **Public**.  To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private**. 
 8. Click **Create**.
+9. On the **Download collector** panel that appears after you create a collector, select **Download shell script**, and then click **Download**. The registration key is required.
 
 
 ## Installing a collector
@@ -167,9 +162,7 @@ A collector is a container image that you install on your Virtual Private Cloud.
 {: step}
 
 
-1. In the **Collectors** table, click the dropdown arrow to expand the details for the collector that you created.
-1. Click **initiate_collector.sh** to download the collector installation script. Make a note of the **Registration key**. 
-1. Transfer the collector installation file to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
+1. Transfer the collector installation file that you downloaded in the previous step to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
 
    1. Locally, open the **initiate_collector.sh** file that you downloaded and copy its contents.
    2. From your command line, open the VIM editor.
@@ -263,7 +256,7 @@ When your resources and their configurations are discovered, you're ready to val
 4. From the **Scope** dropdown, select the scope that you previously created.
 5. From the **Profile** dropdown, select the **{{site.data.keyword.cloud_notm}} Best Practices Controls 1.0**.
 6. Click **Next**.
-7. Select the frequency that you want your scan to run. It is automatically set to 1 day.
+7. Select the frequency that you want your scan to run. It is automatically set to 2 days.
 8. Specify when you want the scan end. The scan can run daily indefinitely, a specific number of times, or it can stop on a specific date.
 9. Click **Create**.
 
