@@ -256,7 +256,7 @@ When your resources and their configurations are discovered, you're ready to val
 4. From the **Scope** dropdown, select the scope that you previously created.
 5. From the **Profile** dropdown, select the **{{site.data.keyword.cloud_notm}} Best Practices Controls 1.0**.
 6. Click **Next**.
-7. Select the frequency that you want your scan to run. It is automatically set to 2 day.
+7. Select the frequency that you want your scan to run. It is automatically set to 2 days.
 8. Specify when you want the scan end. The scan can run daily indefinitely, a specific number of times, or it can stop on a specific date.
 9. Click **Create**.
 
