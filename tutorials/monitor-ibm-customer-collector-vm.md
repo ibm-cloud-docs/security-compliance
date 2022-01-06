@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-16"
+  years: 2022
+lastupdated: "2022-01-06"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -151,13 +151,9 @@ A collector is a container image that you install on your Virtual Private Cloud.
 2. Give your collector a meaningful name and description. For example, `ibm-cloud-collector`. 
 3. Click **Next**.
 4. Select **Customer** to install the collector on your organization's infrastructure.
-5. **UBI** is selected as the default container **image type**.
+5. **UBI** is selected as the default container **image type**. Alternatively, you can choose **Ubuntu**.
 
-   Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS.
-
-6. Alternatively, you can choose **Ubuntu**.
-
-   Ubuntu images are disk-images that are designed to run on the Ubuntu OS. Ubuntu images are not compliant with the Federal Information Processing Standards (FIPS).
+   Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS. Ubuntu images are disk-images that are designed to run on the Ubuntu OS. Ubuntu images are not compliant with the Federal Information Processing Standards (FIPS).
 7. For **Endpoint type**, select **Public**.  To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private**. 
 8. Click **Create**.
 
@@ -167,8 +163,7 @@ A collector is a container image that you install on your Virtual Private Cloud.
 {: step}
 
 
-1. In the **Collectors** table, click the dropdown arrow to expand the details for the collector that you created.
-1. Click **initiate_collector.sh** to download the collector installation script. Make a note of the **Registration key**. 
+1. On the **Download collector** panel that appears after you create a collector, select **Download shell script**, and then click **Download**. The registration key is required.
 1. Transfer the collector installation file to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
 
    1. Locally, open the **initiate_collector.sh** file that you downloaded and copy its contents.
@@ -263,7 +258,7 @@ When your resources and their configurations are discovered, you're ready to val
 4. From the **Scope** dropdown, select the scope that you previously created.
 5. From the **Profile** dropdown, select the **{{site.data.keyword.cloud_notm}} Best Practices Controls 1.0**.
 6. Click **Next**.
-7. Select the frequency that you want your scan to run. It is automatically set to 1 day.
+7. Select the frequency that you want your scan to run. It is automatically set to 2 day.
 8. Specify when you want the scan end. The scan can run daily indefinitely, a specific number of times, or it can stop on a specific date.
 9. Click **Create**.
 
