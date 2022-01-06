@@ -148,7 +148,7 @@ toc:
               href: https://{DomainName}/apidocs/security-compliance/config
           - link:
               label: Posture Management
-              href: https://{DomainName}/apidocs/security-compliance/compliance
+              href: https://{DomainName}/apidocs/security-compliance/posture
           - topicgroup:
               label: Security Insights
               links:
