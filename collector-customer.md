@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-16"
+  years: 2022
+lastupdated: "2022-01-06"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -181,7 +181,7 @@ Complete the following steps to install a collector on a cluster.
    * Run the following command if you are deploying your collector on an OpenShift cluster to deploy your collector. 
 
       ```sh
-      ibmcloud oc cluster config --cluster <cluster_name_or_ID>
+      ibmcloud oc cluster config --cluster <cluster_name_or_ID> --admin
       ```
       {: codeblock}
 
