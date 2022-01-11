@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-12-13"
+  years: 2020, 2022
+lastupdated: "2022-01-11"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -50,6 +50,13 @@ content-type: release-note
 {: #release-notes}
 
 
+
+## 11 January 2022
+{: #security-compliance-jan1122}
+{: release-note}
+
+New service available in Configuration Governance
+:   IBM Cloud Code Engine is now available as part of the Configuration Governance component. You can create guardrails for Code Engine such as ensuring that projects can be created only within specific regions. For more information about the integration and the other available properties, see [the Code Engine docs](/docs/codeengine?topic=codeengine-manage-security-compliance).
 
 
 ## 13 December 2021
