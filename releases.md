@@ -56,7 +56,7 @@ content-type: release-note
 {: release-note}
 
 New service available in Configuration Governance
-:   IBM Cloud Code Engine is now available as part of the Configuration Governance component. You can create guardrails for Code Engine such as ensuring that projects can be created only within specific regions. For more information about the integration and the other available properties, see [the Code Engine docs](/docs/codeengine?topic=codeengine-manage-security-compliance).
+:   IBM Cloud Code Engine is now available as part of the Configuration Governance component. You can create guardrails for Code Engine such as ensuring that projects can be created only within specific regions. For more information about the integration, see [the Code Engine docs](/docs/codeengine?topic=codeengine-manage-security-compliance).
 
 
 ## 13 December 2021
