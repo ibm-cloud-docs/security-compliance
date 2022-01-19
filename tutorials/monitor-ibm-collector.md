@@ -89,7 +89,7 @@ IBM-managed collectors are created on IBM-owned infrastructure and are maintaine
 1. In the **Managed by** field, select **IBM**. 
 1. **UBI** is selected as the default container **image type**.
 
-   Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS.
+   Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS.
 
 1. By default, the **Private** endpoint type is selected.
 
