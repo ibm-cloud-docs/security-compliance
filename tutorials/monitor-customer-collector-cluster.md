@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-16"
+  years: 2022
+lastupdated: "2022-01-19"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance, cluster collector, Kubernetes, Red Hat OpenShift
 
@@ -79,7 +79,7 @@ To complete this tutorial, be sure that you have the following requirements:
 
 A collector is a container image that you install on your Virtual Private Cloud. The collector image is responsible for gathering your configuration information and validating it.
 
-1. Go to the **Manage posture > Configure > Collectors** tab and click **Create**.
+1. Go to the [**Manage posture > Configure > Collectors** tab](https://{DomainName}/security-compliance/collectors) and click **Create**.
 2. Give your collector a meaningful name and description. For example, `ibm-cloud-collector`. 
 3. Click **Next**.
 4. Select **Customer** to install the collector on your organization's infrastructure.
@@ -102,7 +102,7 @@ A collector is a container image that you install on your Virtual Private Cloud.
 Complete the following steps to install a collector on a cluster.
 
 1. On the **Download collector** panel that appears after you create a collector, select **Download YAML file**, and then click **Download**. The registration key is included in the file.
-2. Log in to the IBM Cloud CLI by running the following command and then following the prompts. If you have a federated ID, append the `--sso` option to the end of the command.
+2. Log in to the {{site.data.keyword.cloud_notm}} CLI by running the following command and then following the prompts. If you have a federated ID, append the `--sso` option to the end of the command.
     ```sh
     ibmcloud login
     ```
@@ -147,18 +147,17 @@ Complete the following steps to install a collector on a cluster.
 
 To run the scan, the collector must have *read* access to the resources that you want to scan. This access is granted through an {{site.data.keyword.cloud_notm}} API key. For more information about the security of your credentials, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
 
-1. Create an {{site.data.keyword.cloud_notm}} API key.
+1. Create an {{site.data.keyword.cloud_notm}} API key for a service ID.
 
-   1. Go to **Manage > Access (IAM) > API keys**.
-   2. Click **Create an {{site.data.keyword.cloud_notm}} API key**.
-   3. Give your API key a meaningful name and description. For example, `compliance-api-key` and this key is used by the collector to validate my resource configurations.
-   4. Click **Create**.
-   5. Click **Copy** or **Download** to save your key.
+   1. Go to [**Manage > Access (IAM) > Service IDs**](https://{DomainName}/iam/serviceids/). If you don't already have a service ID that you want to use, click **Create** and provide a name and description. Click **Create** again.
+   2. Select the service ID that you want to use and click **API keys**.
+   3. Click **Create** and give your API key a meaningful name and description. For example, `compliance-api-key` and this key is used by the collector to validate my resource configurations. Click **Create**.
+   4. Click **Copy** or **Download** to save your key.
 
 2. Add the API key to the {{site.data.keyword.compliance_short}} as a credential.
 
    1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to return to the {{site.data.keyword.compliance_short}}.
-   2. In the navigation, click **Manage posture > Configure > Credentials**.
+   2. In the navigation, click [**Manage posture > Configure > Credentials**](https://{DomainName}/security-compliance/credentials).
    3. Click **Create**.
    4. Give your credential a meaningful name. For example, `ibm-cloud-compliance`.
    5. Select **Discovery / fact collection** as the purpose of the credential and then click **Next**.
@@ -172,7 +171,7 @@ To run the scan, the collector must have *read* access to the resources that you
 To target the resources that you want your collector to validate, you create a scope. To do so, you select an environment, a collector, and a set of credentials. The collector uses the credentials to gather information from the resources that are available in the environment that you selected. 
 
 
-1. Go to the **Manage posture > Configure > Scopes** tab and click **Create**.
+1. Go to the [**Manage posture > Configure > Scopes** tab](https://{DomainName}/security-compliance/scopes) and click **Create**.
 2. Give your scope a meaningful name. For example, `ibm-cloud-compliance`.
 3. Click **Next**.
 4. From the **Environment** dropdown, select **{{site.data.keyword.cloud_notm}}**.
@@ -190,7 +189,7 @@ After you create the scope, a discovery scan is run to inventory your available 
 When your resources and their configurations are discovered, you're ready to validate the configurations. To validate your configurations, you schedule a scan. To do so, you select the scope that you created and choose a profile to validate it against. A profile is a collection of compliance goals and best practices are predefined by {{site.data.keyword.cloud_notm}} or external regulators.
 
 
-1. Go to the **Manage posture > Assess > Scans > Scheduled scans** tab and click **Schedule**.
+1. Go to the [**Manage posture > Configure > Scans** tab](https://{DomainName}/security-compliance/scans) and click **Schedule**.
 2. Give your scan a meaningful name. For example, `ibm-cloud-scan-daily`.
 3. For **Scan type**, select **Validation**.
 4. From the **Scope** dropdown, select the scope that you previously created.

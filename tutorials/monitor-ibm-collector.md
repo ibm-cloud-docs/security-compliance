@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2021
-lastupdated: "2021-12-16"
+  years: 2020, 2022
+lastupdated: "2022-01-19"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -79,7 +79,7 @@ IBM-managed collectors are created on IBM-owned infrastructure and are maintaine
 {: note}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-1. On the **Configure > Collectors** page of the {{site.data.keyword.compliance_short}}, click **Create**.
+1. On the [**Manage Posture > Configure > Collectors** page](https://{DomainName}/security-compliance/collectors) of the {{site.data.keyword.compliance_short}}, click **Create**.
 1. Give your collector a name and description.
 
    It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
@@ -89,7 +89,7 @@ IBM-managed collectors are created on IBM-owned infrastructure and are maintaine
 1. In the **Managed by** field, select **IBM**. 
 1. **UBI** is selected as the default container **image type**.
 
-   Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS.
+   Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS.
 
 1. By default, the **Private** endpoint type is selected.
 
@@ -105,7 +105,7 @@ When your collector is ready, the status updates to **Active**.
 
 The credentials that you add to the service must allow the collector to read your resource configurations.
 
-1. In the navigation, click **Configure > Credentials**.
+1. In the navigation, click [**Manage Posture > Configure > Credentials**](https://{DomainName}/security-compliance/credentials).
 2. Click **Create**.
 3. Give your credential a meaningful name and description.
 4. Select **Discovery/Collection**.
@@ -125,7 +125,7 @@ The credentials that you add to the service must allow the collector to read you
 
 When you're working with the {{site.data.keyword.compliance_short}}, you can narrow the focus of your scans to a specific environment, region, or even resource. By creating scopes, you can determine your security and compliance score across a specific area of your business. 
 
-1. On the **Configure > Scopes** page of the {{site.data.keyword.compliance_short}}, click **Create**.
+1. On the [**Manage Posture > Configure > Scopes** page](https://{DomainName}/security-compliance/scopes) of the {{site.data.keyword.compliance_short}}, click **Create**.
 2. Give your scope a meaningful name and description.
 3. Click **Next**. 
 4. Select an environment.
@@ -143,7 +143,7 @@ When you're working with the {{site.data.keyword.compliance_short}}, you can nar
 
 To discover resources, assess their configuration, and validate their compliance against a predefined profile, you can schedule a validation scan.
 
-1. On the **Assess > Scans > Scheduled scans** page of the {{site.data.keyword.compliance_short}}, click **Schedule**. A side panel opens.
+1. On the[**Manage Posture > Configure > Scans** page](https://{DomainName}/security-compliance/scans) of the {{site.data.keyword.compliance_short}}, click **Schedule**. A side panel opens.
 2. Give your scan a meaningful name and description.
 3. Select **Validation**.
 4. Select the scope that you created in the previous step.
