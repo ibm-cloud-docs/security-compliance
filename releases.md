@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-01-11"
+lastupdated: "2022-01-21"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -49,6 +49,15 @@ content-type: release-note
 # Release notes for {{site.data.keyword.compliance_full}}
 {: #release-notes}
 
+
+
+
+## 21 January 2022
+{: #security-compliance-jan2122}
+{: release-note}
+
+New service available in Configuration Governance
+:   IBM Cloud App ID is now available as part of the Configuration Governance component. You can create guardrails for App ID such as enforcing whether monitoring of runtime activity made by application users is tracked. For more information about the integration, see [the App ID docs](/docs/appid?topic=appid-manage-security-compliance).
 
 
 ## 11 January 2022
