@@ -64,7 +64,7 @@ Your scope might require that the collector use more than one set of credentials
 
 When resources such as an instance of {{site.data.keyword.at_short}} or Virtual Private Cloud are scanned, additional permissions must be provided in order for the collector to access their configuration data. The additional permissions are mapped to an existing credential that is already attached to your scope. To see which resources require additional permissions and how to provide them, see the following table.
 
-| Resource | Sub resource | Credential mapping |
+| Resource | Sub resource | Mapping |
 |:---------|:-------------|:-------------------|
 | {{site.data.keyword.at_short}} | `AT=service_key` |
 | Virtual Private Cloud (VPC) | `VPC=testing-vpc` |
@@ -73,12 +73,12 @@ When resources such as an instance of {{site.data.keyword.at_short}} or Virtual 
 {: caption="Table 1. Resource specific path inputs" caption-side="top"}
 
 
-### Scenario 2 - Mapping credentials to nested resources
+### Scenario 2 - Providing additional parameters
 {: #map-nested-resource}
 
-Occasionally, there is additional information that is required for a resource. In some instances, additional configuration data must be gathered from individual resources that are contained within a larger resource. If this is the case, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials. To see which resources give you the option to provide additional permissions for nested resources and the format in which to provide them, see the following table. 
+Occasionally, there is additional information that is required for a resource. In some instances, additional configuration data must be gathered from resources that are contained within a larger resource. If this is the case, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials. To see which resources give you the option to provide additional details and the format in which to provide them, see the following table. 
 
-| Resource | Sub resource | Credential mapping |
+| Resource | Parameter | Mapping |
 |:---------|:-------------|:-------------------|
 | {{site.data.keyword.containershort}} Cluster | Storage class | `cluster_storage_class_string` |
 | {{site.data.keyword.containershort}} Cluster | Namespace | `cluster_namespace_string` |
@@ -104,7 +104,7 @@ To map additional permissions, the credential must already added to the service.
 6. Select the **Remediation Credential**, if applicable. 
 7. Provide a path to an IP address, machine, or resource that you want to access with your selected credential in the **Resource** field. For help with formatting the additional credentials, see the scenarios in [Understanding credential mapping](#why-map-credentials).
 
-   When nested resources are available to be scanned, an input box is displayed for you to provide the additional credentials.
+   When additional parameters are required for a resources, an input box is displayed for you to provide the details.
    {: note}
 
 8. Select a **Proxy**, if applicable.
