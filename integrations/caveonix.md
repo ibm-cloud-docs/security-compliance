@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-11-22"
+  years: 2017, 2022
+lastupdated: "2022-01-25"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -109,15 +109,14 @@ Be sure that you also have the following {{site.data.keyword.cloud_notm}} inform
 
 To start viewing your Caveonix findings in the {{site.data.keyword.security-advisor_short}} dashboard, you must first create an asset library.
 
-1. Optional: Add a [bookmark](/docs/security-compliance?topic=security-compliance-direct-connections) in the {{site.data.keyword.compliance_short}} by adding the `RiskForsight FQDN` as your URL.
-2. In the Caveonix RiskForesight UI, go to **Admin > Admin Overview > CSP Management > Asset Repositories**.
-3. Click the **Create Asset Repository** icon.
-4. Select **{{site.data.keyword.compliance_short}}** as your **Type** of asset.
-5. Select a location and cloud provider for your repository.
-6. Provide the {{site.data.keyword.cloud_notm}} information that you obtained before you got started, including your **Customer ID**, **API key**, **Region**, and **Provider ID**.
-7. Choose whether to enable the connection.
-8. Click **Test connection** to verify that the connection is in place.
-9. Click **Save**.
+1. In the Caveonix RiskForesight UI, go to **Admin > Admin Overview > CSP Management > Asset Repositories**.
+2. Click the **Create Asset Repository** icon.
+3. Select **{{site.data.keyword.compliance_short}}** as your **Type** of asset.
+4. Select a location and cloud provider for your repository.
+5. Provide the {{site.data.keyword.cloud_notm}} information that you obtained before you got started, including your **Customer ID**, **API key**, **Region**, and **Provider ID**.
+6. Choose whether to enable the connection.
+7. Click **Test connection** to verify that the connection is in place.
+8. Click **Save**.
 
 
 ## Scheduling the job

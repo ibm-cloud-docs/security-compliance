@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-10-13"
+  years: 2022
+lastupdated: "2022-01-27"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -51,31 +51,38 @@ subcollection: security-compliance
 You can map additional credentials to your scope if you need the {{site.data.keyword.compliance_short}} collector to use multiple credentials to complete a scan.
 {: shortdesc}
 
-## Understanding scenarios for mapping additional credentials 
+
+## Understanding credential mapping
 {: #why-map-credentials}
 
-You might encounter various scenarios within which you need to map additional credentials to your scope. 
+Your scope might require that the collector use more than one set of credentials to complete a scan. For example, you might have a collector that gathers facts from both databases and servers that require different credentials to access. In those scenarios, you need to map additional permissions to the credentials that are associated with your scope. 
 {: shortdesc}
 
-Occasionally, you might have a scope that requires the collector use more than one set of credentials to complete a scan. Collectors use multiple credentials when users have credentials that are used for individual databases or servers that need to be scanned. Those scenarios include the use of Activity Tracker, Virtual Private Cloud, and a proxy server that uses an IP address.
 
-### Scenario 1 - Activity Tracker
-{: #map-at}
+### Scenario 1 - Mapping credentials to resources
+{: #map-resource}
 
-If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. To enable Activity Tracker, you must create a new credential and map it to your scope. To [create a new credential](/docs/security-compliance?topic=security-compliance-credentials), you must use Activity Tracker's GUID and `Service_key` as the username and password. 
+When resources such as an instance of {{site.data.keyword.at_short}} or Virtual Private Cloud are scanned, additional permissions must be provided in order for the collector to access their configuration data. The additional permissions are mapped to an existing credential that is already attached to your scope. To see which resources require additional permissions and how to provide them, see the following table.
 
-### Scenario 2 - Virtual Private Cloud (VPC)
-{: #map-vpc}
+| Resource | Sub resource | Mapping |
+|:---------|:-------------|:-------------------|
+| {{site.data.keyword.at_short}} | `AT=service_key` |
+| Virtual Private Cloud (VPC) | `VPC=testing-vpc` |
+| Server | `IP=123.45.67.89` |
+| {{site.data.keyword.cloud_notm}} {{site.data.keyword.containershort}} Cluster | `cluster=cluster_id` |
+{: caption="Table 1. Resource specific path inputs" caption-side="top"}
 
-In this scenario, you are a developer and you want to validate your IBM cloud resources against defined best practices. The security requirements of your organization specify that you must install the collector on infrastructure that is owned by your organization. To meet your organizational requirements, you decide to use [IBM Cloud Virtual Private Cloud](/docs/security-compliance?topic=security-compliance-ibm-customer-collector). 
 
-If you install the collector on your Virtual Private Cloud, in order to scan your IBM Cloud resources, you need to map additional credentials to your scope. You must provide the credentials with `read` access that are associated with your resources on IBM Cloud. Additionally, you must provide the credentials to access the VPC. 
+### Scenario 2 - Providing additional parameters
+{: #map-nested-resource}
 
-### Scenario 3 - Proxy IP 
-{: #map-ip}
+Occasionally, there is additional information that is required for a resource. In some cases, additional configuration data must be gathered from resources that are contained within a larger resource. If this is the case, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials. To understand which resources give you the option to provide additional details and the format in which to provide them, see the following table. 
 
-In this scenario, you are a developer. As an additional protection, your organization wants you to use an intermediary between the collector and your resources. To meet the requirement, you choose to [configure a proxy server by using an IP address](/docs/security-compliance?topic=security-compliance-collector-manual#collector-proxy). To scan your resources with {{site.data.keyword.compliance_short}}, you need to provide the credentials with `read` access that are associated with your resources. You must also provide the credentials that are associated with your proxy. 
-
+| Resource | Parameter | Mapping |
+|:---------|:-------------|:-------------------|
+| {{site.data.keyword.containershort}} Cluster | Storage class | `cluster_storage_class_string` |
+| {{site.data.keyword.containershort}} Cluster | Namespace | `cluster_namespace_string` |
+{: caption="Table 2. Sub resource specific path inputs" caption-side="top"}
 
 
 ## Before you begin
@@ -84,29 +91,25 @@ In this scenario, you are a developer. As an additional protection, your organiz
 Before you get started, be sure that you have the required level of access to view and manage credentials. To map a credential, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
 
-## Adding credentials to a scope
+## Mapping credentials
 {: #howto-map-credentials}
 
-To map a credential, it must exist in the service. To map credentials to your scope, complete the following steps. 
-
-You can also choose to edit or delete an existing entry if you made a mistake or no longer need to use that credential with that scope.
-{: tip}
+To map additional permissions, the credential must already added to the service. If you haven't yet added a credential, start with [Managing credentials](/docs/security-compliance?topic=security-compliance-manage-credentials) and then return to the following steps.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the **Manage posture** section of the navigation, click **Configure > Scopes**.
+2. In the **Manage posture** section of the navigation, click [**Configure > Scopes**](https://{DomainName}/security-compliance/scopes).
 3. Select the scope that you want to map credentials for.
 4. In the **Credentials** section of the navigation, click **Add**. A side panel appears. 
 5. Select the credential that you want to add from the list under **Credential**.
 6. Select the **Remediation Credential**, if applicable. 
-7. Provide a path to an IP address, machine, or resource that you want to access with your selected credential in the **Resource** field. If you are using Activity Tracker, Virtual Private Cloud, or a proxy server that uses an IP address, complete the steps in the following table, based on the appropriate scenario.
+7. Provide a path to an IP address, machine, or resource that you want to access with your selected credential in the **Resource** field. For help with formatting the additional credentials, see the scenarios in [Understanding credential mapping](#why-map-credentials).
 
-   | Scenario | Resource specification |
-   |:-------|:---------|
-   | Activity Tracker | `AT=service_key` |
-   | Virtual Private Cloud (VPC) | `VPC=testing-vpc` |
-   | Proxy IP | `IP=123.45.67.89` |
-   {: caption="Table 1. Resource specific path inputs" caption-side="top"}
+   When additional parameters are required for a resources, an input box is displayed for you to provide the details.
+   {: note}
 
-8. Select a **Proxy**, if applicable.
+8. Provide a **Proxy**, if applicable.
 9. Click **Add**.
 
+
+You can also choose to edit or delete an existing entry if you made a mistake or no longer need to use that credential with that scope.
+{: tip}

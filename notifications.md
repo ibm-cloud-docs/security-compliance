@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-12-13"
+  years: 2017, 2022
+lastupdated: "2022-01-24"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection, alerts, callback URL, compliance, standards, roles, notification channel, verify payload, public key
 
@@ -49,7 +49,7 @@ subcollection: security-compliance
 {: #notifications}
 
 
-As of 13 December 2021, alerts in the {{site.data.keyword.compliance_short}} are deprecated in favor of [{{site.data.keyword.en_short}}](/docs/security-compliance?topic=security-compliance-event-notifications). The ability to create alerts within the {{site.data.keyword.compliance_short}} is no longer supported. You can continue to view, enable, disable, or delete your existing alerts until 15 March 2021. After this date, any existing alerts will be deleted, and the feature will be removed from the UI.
+As of 13 December 2021, alerts in the {{site.data.keyword.compliance_short}} are deprecated in favor of [{{site.data.keyword.en_short}}](/docs/security-compliance?topic=security-compliance-event-notifications). The ability to create alerts within the {{site.data.keyword.compliance_short}} is no longer supported. You can continue to view, enable, disable, or delete your existing alerts until 15 March 2022. After this date, any existing alerts will be deleted, and the feature will be removed from the UI.
 {: deprecated}
 
 
