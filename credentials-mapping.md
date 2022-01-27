@@ -76,7 +76,7 @@ When resources such as an instance of {{site.data.keyword.at_short}} or Virtual 
 ### Scenario 2 - Providing additional parameters
 {: #map-nested-resource}
 
-Occasionally, there is additional information that is required for a resource. In some instances, additional configuration data must be gathered from resources that are contained within a larger resource. If this is the case, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials. To see which resources give you the option to provide additional details and the format in which to provide them, see the following table. 
+Occasionally, there is additional information that is required for a resource. In some cases, additional configuration data must be gathered from resources that are contained within a larger resource. If this is the case, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials. To understand which resources give you the option to provide additional details and the format in which to provide them, see the following table. 
 
 | Resource | Parameter | Mapping |
 |:---------|:-------------|:-------------------|
@@ -107,7 +107,7 @@ To map additional permissions, the credential must already added to the service.
    When additional parameters are required for a resources, an input box is displayed for you to provide the details.
    {: note}
 
-8. Select a **Proxy**, if applicable.
+8. Provide a **Proxy**, if applicable.
 9. Click **Add**.
 
 
