@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-01-21"
+lastupdated: "2022-01-27"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -50,6 +50,14 @@ content-type: release-note
 {: #release-notes}
 
 
+
+
+## 27 January 2022
+{: #security-compliance-jan2722}
+{: release-note}
+
+Add parameters during credential mapping
+:   When resources such as an instance of {{site.data.keyword.containershort}} clusters are scanned, additional parameters must be provided in order for the collector to access all of their configuration data. If this is the case, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials. For more information, see [Mapping additional credentials](/docs/security-compliance?topic=security-compliance-map-credentials).
 
 
 ## 21 January 2022
