@@ -64,8 +64,8 @@ Your scope might require that the collector use more than one set of credentials
 
 When resources such as an instance of {{site.data.keyword.at_short}} or Virtual Private Cloud are scanned, additional permissions must be provided in order for the collector to access their configuration data. The additional permissions are mapped to an existing credential that is already attached to your scope. To see which resources require additional permissions and how to provide them, see the following table.
 
-| Resource | Sub resource | Mapping |
-|:---------|:-------------|:-------------------|
+| Resource | Mapping |
+|:---------|:-------------------|
 | {{site.data.keyword.at_short}} | `AT=service_key` |
 | Virtual Private Cloud (VPC) | `VPC=testing-vpc` |
 | Server | `IP=123.45.67.89` |
