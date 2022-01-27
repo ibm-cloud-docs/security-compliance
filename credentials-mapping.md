@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-01-24"
+lastupdated: "2022-01-27"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -80,8 +80,8 @@ Occasionally, there is additional information that is required for a resource. I
 
 | Resource | Sub resource | Credential mapping |
 |:---------|:-------------|:-------------------|
-| {{site.data.keyword.containershort}} Cluster | Storage class | `storage_class=cluster_storage_class` |
-| {{site.data.keyword.containershort}} Cluster | Namespace | `namespace=cluster_namespace` |
+| {{site.data.keyword.containershort}} Cluster | Storage class | `cluster_storage_class_string` |
+| {{site.data.keyword.containershort}} Cluster | Namespace | `cluster_namespace_string` |
 {: caption="Table 2. Sub resource specific path inputs" caption-side="top"}
 
 
