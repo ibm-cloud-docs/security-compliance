@@ -142,10 +142,10 @@ toc:
           - framework/terraform.md
           - link:
               label: Admin
-              href: https://{DomainName}/apidocs/security-compliance/admin
+              href: https://{DomainName}/apidocs/security-compliance-admin
           - link:
               label: Configuration Governance
-              href: https://{DomainName}/apidocs/security-compliance/config
+              href: https://{DomainName}/apidocs/security-compliance-config
           - link:
               label: Posture Management
               href: https://{DomainName}/apidocs/security-compliance/posture
@@ -154,10 +154,10 @@ toc:
               links:
               - link:
                   label: Findings
-                  href: https://{DomainName}/apidocs/security-compliance/findings
+                  href: https://{DomainName}/apidocs/security-compliance-findings
               - link:
                   label: Notifications
-                  href: https://{DomainName}/apidocs/security-compliance/si-notifications
+                  href: https://{DomainName}/apidocs/security-compliance-si-notifications
       - link:
           label: Terraform
           href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_si_note
