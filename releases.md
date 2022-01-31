@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-01-27"
+lastupdated: "2022-01-31"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -241,7 +241,7 @@ The full integration of the Security Insights UI
 An update to the Security Insights notifications API
 :   With this release we've dropped camel-case support for parameters. The parameters `publicKey` and `alertSource` have been updated to `public_key` and `alert_source`.
 
-   To work with the updated notifications API, see the [API docs](/apidocs/security-advisor/notifications).
+   To work with the updated notifications API, see the [API docs](/apidocs/security-compliance-si-notifications).
 
 ## 15 March 2021
 {: #security-compliance-march1521}
