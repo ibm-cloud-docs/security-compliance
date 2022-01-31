@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-01-06"
+lastupdated: "2022-01-31"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -152,7 +152,7 @@ You can choose to install a collector on a {{site.data.keyword.containershort}} 
 Complete the following steps to install a collector on a cluster.
 
 1. After you create a collector in the {{site.data.keyword.cloud_notm}} console, you are invited to download the collector. Be sure that you meet the prerequisites.
-2. Select **Download YAML file** to deploy the collector on an {{site.data.keyword.containershort}} or OpenShift cluster. The registration key is included in the file.
+2. Select **Download YAML file** to deploy the collector on an {{site.data.keyword.containershort}} or Red Hat OpenShift cluster. The registration key is included in the file.
 3. Click **Download**. 
 4. In the YAML file, you can customize the following metadata to your specifications. 
 
@@ -178,7 +178,7 @@ Complete the following steps to install a collector on a cluster.
       ```
       {: codeblock}
 
-   * Run the following command if you are deploying your collector on an OpenShift cluster to deploy your collector. 
+   * Run the following command if you are deploying your collector on an Red Hat OpenShift cluster to deploy your collector. 
 
       ```sh
       ibmcloud oc cluster config --cluster <cluster_name_or_ID> --admin
@@ -194,7 +194,7 @@ Complete the following steps to install a collector on a cluster.
       ```
       {: codeblock}
 
-   * Run the following command if you are using an OpenShift cluster. 
+   * Run the following command if you are using an Red Hat OpenShift cluster. 
 
       ```sh
       OC apply -f <deployment-testdocumentation>.yaml
@@ -303,7 +303,7 @@ Complete the following steps to install a collector on a cluster.
 #### Using a proxy with your collector
 {: #collector-proxy}
 
-As an additional protection, your organization might want to configure a proxy to use as an intermediary between the collector and your resources. To install a collector to use a proxy, you can use the same steps that are detailed in [Installing a collector](#install-collector), and provide the following additional information when prompted in step 8.
+As extra protection, your organization might want to configure a proxy to use as an intermediary between the collector and your resources. To install a collector to use a proxy, you can use the same steps that are detailed in [Installing a collector](#install-collector), and provide the following additional information when prompted in step 8.
 
 If you selected `y` (yes) when prompted about a proxy provide the following information.
 

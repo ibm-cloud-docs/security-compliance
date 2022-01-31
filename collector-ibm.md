@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-16"
+  years: 2022
+lastupdated: "2022-01-31"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials, ibm managed collector, ibm managed
 
@@ -49,7 +49,7 @@ subcollection: security-compliance
 # Configuring managed collectors
 {: #ibm-collector}
 
-For the {{site.data.keyword.compliance_full}} to gather and validate information about your resource configurations, you must create a collector. An IBM managed collector is created on IBM owned infrastructure and is maintained by the {{site.data.keyword.compliance_short}}. To learn more about how collectors work, how your data is handled, and your responsibilities, see [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
+For the {{site.data.keyword.compliance_full}} to gather and validate information about your resource configurations, you must create a collector. An IBM managed collector is created on IBM owned infrastructure and is maintained by the {{site.data.keyword.compliance_short}}. To learn more about how collectors work, how your data is handled, and your responsibilities, see [What is a collector?](/docs/security-compliance?topic=security-compliance-collector)
 {: shortdesc}
 
 
@@ -66,7 +66,7 @@ A managed collector can support up to 3000 resources per customer. If your organ
 ### Updating your IP address restrictions
 {: #before-collector-ip-address}
 
-If the account in which you'd like to install your collector restricts access to specific IP addresses, you must also allow a list of IP addresses, along with your own IP address, in order for the managed collector to collect data. 
+If the account in which you'd like to install your collector restricts access to specific IP addresses, to collect data, you must also allow a list of IP addresses, along with your own IP address.
 
 Depending on your location, be sure to allow access to the following IP addresses. 
 
@@ -92,7 +92,7 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
 
    It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
 
-5. If you have a passphrase enabled, the **Existing passphrase** field displays. Enter your passphrase. If you do not have a passphrase enabled, the field does not display.
+5. If you enabled a passphrase, the **Existing passphrase** field displays. Enter your passphrase. If you did not enable a passphrase, the field does not display.
 6. Click **Next**.
 7. In the **Managed by** field, select **IBM**.
 8. **UBI** is selected as the default container **image type**.

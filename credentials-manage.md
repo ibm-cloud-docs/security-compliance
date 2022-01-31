@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-10-13"
+  years: 2022
+lastupdated: "2022-01-31"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -103,7 +103,7 @@ You can create a new credential programmatically by using the {{site.data.keywor
 
 For more information about the associated status codes and the query and form request parameters, see [create a credential](/apidocs/security-compliance/posture#create-credential). 
 
-A successful `POST /posture/v1/credentials` response returns the unique ID of your credential, along with other metadata. If your credential was successfully created, your response might look similar to the following code snippet. 
+A successful `POST /posture/v2/credentials` response returns the unique ID of your credential, along with other metadata. If your credential was successfully created, your response might look similar to the following code snippet. 
 
 ```json
 {
