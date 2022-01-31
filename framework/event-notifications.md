@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-01-11"
+lastupdated: "2022-01-31"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -261,7 +261,7 @@ curl -X PATCH 'https://compliance.{DomainName}/admin/v1/accounts/{account_id}/se
 
 A successful response returns the CRN value of your connected {{site.data.keyword.en_short}} service instance. For more information about the required and optional request parameters, see the [API docs](/apidocs/security-compliance/admin#patchaccountsettings).
 
-### Sending a test event to {{site.data.keyword.en_short}}
+### Sending a test event to {{site.data.keyword.en_short}} from the UI
 {: #event-notifications-test-ui}
 {: ui}
 
@@ -275,7 +275,7 @@ Before you can send a test {{site.data.keyword.compliance_short}} events, you mu
 
    A success message is displayed to indicate that the test event was forwarded successfully to {{site.data.keyword.en_short}}.
 
-### Sending a test event to {{site.data.keyword.en_short}}
+### Sending a test event to {{site.data.keyword.en_short}} by using the API
 {: #event-notifications-test-api}
 {: api}
 
@@ -338,13 +338,13 @@ The metadata properties that are sent to {{site.data.keyword.en_short}} vary dep
 
 ```json
 {
-    "action": "Validation completed",
-    "summary": "my-test-scan", 
-    "scope": "my-test-scope",
-    "profile": "CIS IBM Foundations Benchmark 1.0.0",
-    "collector": "my-test-collector",
-    "start_time": "2021-11-24 13:46:21.672",
-    "end_time": "2021-11-24 13:46:21.672"
+    "action": "Validation completed",
+    "summary": "my-test-scan",
+    "scope": "my-test-scope",
+    "profile": "CIS IBM Foundations Benchmark 1.0.0",
+    "collector": "my-test-collector",
+    "start_time": "2021-11-24 13:46:21.672",
+    "end_time": "2021-11-24 13:46:21.672"
 }
 ```
 {: screen}

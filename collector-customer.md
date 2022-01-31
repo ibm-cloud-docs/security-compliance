@@ -120,21 +120,20 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Manage posture > Configure > Collectors**.
 3. Click **Create**.
-4. Give your collector a name and description.
+4. Give your collector a name and description and then click **Next**.
 
    It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
-5. Click **Next**.
-6. Select **Customer** to install the collector on your organization's infrastructure.
-7. **UBI** is selected as the default container **image type**. 
-   
+5. Select **Customer** to install the collector on your organization's infrastructure.
+6. **UBI** is selected as the default container **image type**. 
+
    Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS.
-8. Alternatively, you can select **Ubuntu**.
+7. Alternatively, you can select **Ubuntu**.
 
    Ubuntu images are disk-images that are designed to run on the Ubuntu OS. Ubuntu images are not compliant with the Federal Information Processing Standards (FIPS).
-9. Choose an endpoint option for your collector.
+8. Choose an endpoint option for your collector.
 
    By default, your collector connects to resources in your account by using a public endpoint. To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private**.
-10. Click **Create**.
+9. Click **Create**.
   
 When the collector is created successfully, the status updates to **Ready to install**.
 
@@ -201,7 +200,7 @@ Complete the following steps to install a collector on a cluster.
       ```
       {: codeblock}
 
-7. [Approve](/docs/security-compliance?topic=security-compliance-collector-manual#approve-collector) your collector.
+8. [Approve](/docs/security-compliance?topic=security-compliance-collector-manual#approve-collector) your collector.
 
 
 ### Installing a collector on a virtual machine
@@ -327,4 +326,3 @@ To approve your collector, complete the following steps.
 2. In the navigation, click **Manage posture > Configure > Collectors**.
 3. In the **Collectors** table, click **Approval required** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
 4. If a passphrase is enabled, click **Passphrase** and enter the phrase. Be sure to enter your passphrase exactly.
-
