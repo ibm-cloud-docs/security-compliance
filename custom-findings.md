@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-11-22"
+  years: 2017, 2022
+lastupdated: "2022-02-01"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -51,8 +51,6 @@ subcollection: security-compliance
 
 With {{site.data.keyword.compliance_full}}, you can integrate your existing custom security tools, whether open source, custom developed, or third-party services. By integrating third-party findings, you're able to bring all of your security tools and findings in to one dashboard where you can monitor critical security events.
 {: shortdesc}
-
-
 
 
 ## Before you begin
