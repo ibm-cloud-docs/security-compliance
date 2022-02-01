@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-01-31"
+lastupdated: "2022-02-01"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -233,6 +233,9 @@ Complete the following steps to install a collector on a cluster.
       sudo apt-get install docker-compose
       ```
       {: codeblock}
+
+      Depending on the version of Docker that you use, you might be charged for the use of Docker Compose. Be sure that you understand the [subscription model](https://www.docker.com/blog/updating-product-subscriptions/){: external}.
+      {: note}
 
    3. If you plan to use your collector to run on-premises resource scans, install [Nmap version 7.6 or higher](https://nmap.org/download.html){: external} by using the command for your OS. If you're working with Ubuntu, you can use the following command.
 
