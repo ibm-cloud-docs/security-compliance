@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-01-31"
+lastupdated: "2022-02-01"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -99,7 +99,39 @@ To edit or delete existing credentials, click the **Actions** icon ![Actions ico
 {: #create-credentials-api}
 {: api}
 
-You can create a new credential programmatically by using the {{site.data.keyword.compliance_short}} API. To call this method, you must be assigned one or more IAM access roles that include the following action. Using the UI, you can check your access by going to **Users >** ***Name*** **> Access policies**.
+You can create a new credential programmatically by using the {{site.data.keyword.compliance_short}} API. 
+
+```sh
+curl POST 'https://{region}.compliance.cloud.ibm.com/posture/v2/credentials?account_id={account_id}' 
+  -H 'Authorization: {IAM_token}' 
+  -H 'Content-Type: application/json' 
+  -d '{
+      "name": "testcredential",
+      "description": "testcredential",
+      "purpose": "discovery_fact_collection_remediation",
+      "enabled": true,
+      "group": {},
+      "type": "ibm_cloud",
+      "display_fields": {
+        "ibm_api_key": "ibm_api_key"
+        }
+      }
+```
+{: codeblock}
+
+| Variable   | Description |
+|:-----------|:------------|
+| `region` | The region in which you want to create a collector. Be sure that your region matches the location that is configured for {{site.data.keyword.compliance_short}}. You can view your account settings by making a POST request to the [Admin API](/apidocs/security-compliance/admin#getsettings). For example, `eu`.|
+| `account_id` | The ID of the account that manages the {{site.data.keyword.compliance_short}}. If you are the owner of the managing account, can find this ID in the {{site.data.keyword.cloud_notm}} console by clicking **Manage > Account > Account Settings**.| 
+| `IAM_token` | For help with creating your IAM token, see [Generating an {{site.data.keyword.cloud_notm}} IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey).|
+| `name` | The name that you want your collector to have. It must be unique to the {{site.data.keyword.compliance_short}} instance that you're working with.|
+| `description`| Optional: A detailed description of how you intend to use your collector.|
+|  `purpose` | The purpose for which the credential is created. |
+| `enabled` | The status of the credential is enabled or disabled. | 
+| `group` | The details of the credential group. | 
+| `type` | The type of credential. | 
+| `display_fields` | The details of the credential. The details change as the selected credential type varies. |
+{: caption="Table 1. Understanding the variables used to create a credential with the API" caption-side="top"}
 
 For more information about the associated status codes and the query and form request parameters, see [create a credential](/apidocs/security-compliance/posture#create-credential). 
 
