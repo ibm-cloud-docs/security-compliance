@@ -162,7 +162,7 @@ toc:
           label: Terraform
           href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_si_note
       - topicgroup: 
-          label: Available security checks
+          label: Available checks
           topics:
           - security-checks/ai-rules.md
           - security-checks/ni-findings.md
