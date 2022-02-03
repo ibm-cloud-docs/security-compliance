@@ -191,4 +191,5 @@ toc:
           - troubleshooting/ts-ai-forbidden.md
           - troubleshooting/ts-sa-blocked.md
           - troubleshooting/ts-results-osco.md
+          - troubleshooting/ts-notifications.md
       - limits.md
