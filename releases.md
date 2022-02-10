@@ -168,14 +168,14 @@ New goals
 {: release-note}
 
 New Posture Management API endpoints
-:   With this release there are 9 new API endpoints available for the Posture Management API. To get started, see the [Posture Management API documentation](https://{DomainName}/apidocs/security-compliance/posture-v2.0).
+:   With this release there are 9 new API endpoints available for the Posture Management API. To get started, see the [Posture Management API documentation](https://{DomainName}/apidocs/security-compliance/posture).
 
 Consolidated SDK package
 :   To make it easier to programmatically access the API from your code, {{site.data.keyword.compliance_short}} SDK packages are now available. The SDKs implement best practices for using the API and reduces the amount of code that you need to write. For more information, see the documentation for the following APIs:
 
 * [Admin](https://{DomainName}/apidocs/security-compliance-admin)
 * [Configuration Governance](https://{DomainName}/apidocs/security-compliance-config)
-* [Posture Management](https://{DomainName}/apidocs/security-compliance/posture-v2.0)
+* [Posture Management](https://{DomainName}/apidocs/security-compliance/posture)
 * [Findings](https://{DomainName}/apidocs/security-compliance-findings)
 * [Notifications](https://{DomainName}/apidocs/security-compliance-si-notifications)
 
@@ -211,7 +211,7 @@ New goals
 {: #security-compliance-april0521}
 
 Initial Posture Management API support
-:   As part of this release, the Posture Management component of the service provides three external APIs that you can use as part of your security and compliance automation. For more information, see the [Posture Management API docs](/apidocs/security-compliance/posture-v2.0).
+:   As part of this release, the Posture Management component of the service provides three external APIs that you can use as part of your security and compliance automation. For more information, see the [Posture Management API docs](/apidocs/security-compliance/posture).
 
 Proxy support for discovery and fact collection
 :   With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans. For more information, see [Which endpoints does a collector access?](/docs/security-compliance?topic=security-compliance-collector-manual#collector-proxy).
