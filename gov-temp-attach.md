@@ -119,6 +119,6 @@ curl -X POST \
 ```
 {: codeblock}
 
-A successful `POST config/v1/templates/{template_ID}/attachments` response returns the ID value for the attachment, along with other metadata. For more information about the required and optional request parameters, see [Create attachments](/apidocs/security-compliance/config#create-attachments).
+A successful `POST config/v1/templates/{template_ID}/attachments` response returns the ID value for the attachment, along with other metadata. For more information about the required and optional request parameters, see [Create attachments](/apidocs/security-compliance-config#create-attachments).
 
 

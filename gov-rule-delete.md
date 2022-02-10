@@ -89,5 +89,5 @@ curl -X DELETE \
 ```
 {: codeblock}
 
-A successful `DELETE config/v1/rules/{rule_ID}` response returns a `204 No Content` status code to indicate that your rule was successfully deleted. For more information about the required and optional request parameters, see [Delete a rule](/apidocs/security-compliance/config#delete-rule).
+A successful `DELETE config/v1/rules/{rule_ID}` response returns a `204 No Content` status code to indicate that your rule was successfully deleted. For more information about the required and optional request parameters, see [Delete a rule](/apidocs/security-compliance-config#delete-rule).
 

@@ -195,10 +195,10 @@ curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
 ```
 {: codeblock}
 
-A successful `POST config/v1/rules` response returns the ID value for your rule, along with other metadata. For more information about the required and optional request parameters, see [Create rules](/apidocs/security-compliance/config#post-rule-attachments).
+A successful `POST config/v1/rules` response returns the ID value for your rule, along with other metadata. For more information about the required and optional request parameters, see [Create rules](/apidocs/security-compliance-config#post-rule-attachments).
 
 
-After you create a rule, you can view it by using the API. For more information about the required and optional request parameters, see [List rules](/apidocs/security-compliance/config#list-rules).
+After you create a rule, you can view it by using the API. For more information about the required and optional request parameters, see [List rules](/apidocs/security-compliance-config#list-rules).
 
 
 ## Next steps

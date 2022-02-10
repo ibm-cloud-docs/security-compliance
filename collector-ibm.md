@@ -130,7 +130,7 @@ curl POST 'https://{region}.compliance.cloud.ibm.com/posture/v2/collectors?accou
 
 | Variable   | Description |
 |:-----------|:------------|
-| `region` | The region in which you want to create a collector. Be sure that your region matches the location that is configured for {{site.data.keyword.compliance_short}}. You can view your account settings by making a POST request to the [Admin API](/apidocs/security-compliance/admin#getsettings). For example, `eu`.|
+| `region` | The region in which you want to create a collector. Be sure that your region matches the location that is configured for {{site.data.keyword.compliance_short}}. You can view your account settings by making a POST request to the [Admin API](/apidocs/security-compliance-admin#getsettings). For example, `eu`.|
 | `account_id` | The ID of the account that manages the {{site.data.keyword.compliance_short}}. If you are the owner of the managing account, can find this ID in the {{site.data.keyword.cloud_notm}} console by clicking **Manage > Account > Account Settings**.| 
 | `IAM_token` | For help with creating your IAM token, see [Generating an {{site.data.keyword.cloud_notm}} IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey).|
 | `name` | The name that you want your collector to have. It must be unique to the {{site.data.keyword.compliance_short}} instance that you're working with.|

@@ -92,4 +92,4 @@ curl -X DELETE \
 ```
 {: codeblock}
 
-A successful `DELETE config/v1/templates/{template_ID}` response returns a `204 No Content` status code to indicate that your template was successfully deleted. For more information about the required and optional request parameters, see [Delete a template](/apidocs/security-compliance/config#delete-template).
+A successful `DELETE config/v1/templates/{template_ID}` response returns a `204 No Content` status code to indicate that your template was successfully deleted. For more information about the required and optional request parameters, see [Delete a template](/apidocs/security-compliance-config#delete-template).

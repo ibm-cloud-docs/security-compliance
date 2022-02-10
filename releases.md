@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-01-31"
+lastupdated: "2022-02-10"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -168,16 +168,16 @@ New goals
 {: release-note}
 
 New Posture Management API endpoints
-:   With this release there are 9 new API endpoints available for the Posture Management API. To get started, see the [Posture Management API documentation](https://{DomainName}/apidocs/security-compliance/posture).
+:   With this release there are 9 new API endpoints available for the Posture Management API. To get started, see the [Posture Management API documentation](https://{DomainName}/apidocs/security-compliance/posture-v2.0).
 
 Consolidated SDK package
 :   To make it easier to programmatically access the API from your code, {{site.data.keyword.compliance_short}} SDK packages are now available. The SDKs implement best practices for using the API and reduces the amount of code that you need to write. For more information, see the documentation for the following APIs:
 
-* [Admin](https://{DomainName}/apidocs/security-compliance/admin)
-* [Configuration Governance](https://{DomainName}/apidocs/security-compliance/config)
-* [Posture Management](https://{DomainName}/apidocs/security-compliance/posture)
-* [Findings](https://{DomainName}/apidocs/security-compliance/findings)
-* [Notifications](https://{DomainName}/apidocs/security-compliance/si-notifications)
+* [Admin](https://{DomainName}/apidocs/security-compliance-admin)
+* [Configuration Governance](https://{DomainName}/apidocs/security-compliance-config)
+* [Posture Management](https://{DomainName}/apidocs/security-compliance/posture-v2.0)
+* [Findings](https://{DomainName}/apidocs/security-compliance-findings)
+* [Notifications](https://{DomainName}/apidocs/security-compliance-si-notifications)
 
 Documentation update
 :   With this release we've completed the integration of the Security Insights, formerly known as {{site.data.keyword.security-advisor_short}}, documentation into the {{site.data.keyword.compliance_short}} docs. You can now find the documentation for all three components in the {{site.data.keyword.compliance_short}} documentation.
@@ -211,7 +211,7 @@ New goals
 {: #security-compliance-april0521}
 
 Initial Posture Management API support
-:   As part of this release, the Posture Management component of the service provides three external APIs that you can use as part of your security and compliance automation. For more information, see the [Posture Management API docs](/apidocs/security-compliance/posture).
+:   As part of this release, the Posture Management component of the service provides three external APIs that you can use as part of your security and compliance automation. For more information, see the [Posture Management API docs](/apidocs/security-compliance/posture-v2.0).
 
 Proxy support for discovery and fact collection
 :   With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans. For more information, see [Which endpoints does a collector access?](/docs/security-compliance?topic=security-compliance-collector-manual#collector-proxy).
@@ -250,7 +250,7 @@ An update to the Security Insights notifications API
 Customize default values for your resources
 :   Looking for more options to help you govern {{site.data.keyword.cloud_notm}} resources? With {{site.data.keyword.compliance_short}}, you can now create templates that define your preferred property values for target resources in your selected {{site.data.keyword.cloud_notm}} accounts. After you create a template and attach it to a scope, your customized defaults override the default values that are provided by IBM.
 
-   To get started with templates, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Govern resources > Configure > Templates**, or check out the [API reference](/apidocs/security-compliance/config) to learn more about creating templates programmatically.
+   To get started with templates, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Govern resources > Configure > Templates**, or check out the [API reference](/apidocs/security-compliance-config) to learn more about creating templates programmatically.
 
    For more information, see [What is Configuration Governance?](/docs/security-compliance?topic=security-compliance-what-is-governance)
 

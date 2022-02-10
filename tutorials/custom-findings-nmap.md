@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-11-22"
+  years: 2017, 2022
+lastupdated: "2022-02-10"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -220,7 +220,7 @@ IPV6 and IP ranges are not currently supported.
 {: #nmap-remove}
 {: step}
 
-The scan alerts are visible in the service dashboard cards for 24 hours after which they can be found in the Findings table. If you run the scan again within the initial 24 hours of the first scan, and the same findings are found, they are still added in the card. For example, if you run the scan and find an open port 22/SSH the KPI in the card shows as 1. If you run the scan again without fixing the existing vulnerability, the same finding is added to the KPI and the value is now 2. So, if you need to run the scan again within 24 hours and want to see only the latest vulnerabilities, clear the findings in the card by using the [Findings API](/apidocs/security-compliance/findings){: external}.
+The scan alerts are visible in the service dashboard cards for 24 hours after which they can be found in the Findings table. If you run the scan again within the initial 24 hours of the first scan, and the same findings are found, they are still added in the card. For example, if you run the scan and find an open port 22/SSH the KPI in the card shows as 1. If you run the scan again without fixing the existing vulnerability, the same finding is added to the KPI and the value is now 2. So, if you need to run the scan again within 24 hours and want to see only the latest vulnerabilities, clear the findings in the card by using the [Findings API](/apidocs/security-compliance-findings){: external}.
 {: shortdesc}
 
 If you no longer have a need to see findings from Nmap in your dashboard, you can delete the card that displays the information.

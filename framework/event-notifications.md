@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-02"
+lastupdated: "2022-02-10"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -259,7 +259,7 @@ curl -X PATCH 'https://compliance.{DomainName}/admin/v1/accounts/{account_id}/se
 {: codeblock}
 {: curl}
 
-A successful response returns the CRN value of your connected {{site.data.keyword.en_short}} service instance. For more information about the required and optional request parameters, see the [API docs](/apidocs/security-compliance/admin#patchaccountsettings).
+A successful response returns the CRN value of your connected {{site.data.keyword.en_short}} service instance. For more information about the required and optional request parameters, see the [API docs](/apidocs/security-compliance-admin#patchaccountsettings).
 
 ### Sending a test event to {{site.data.keyword.en_short}} from the UI
 {: #event-notifications-test-ui}
@@ -295,7 +295,7 @@ curl -X POST 'https://compliance.{DomainName}/admin/v1/accounts/{account_id}/tes
 {: codeblock}
 {: curl}
 
-A successful response returns `{"success": true}` to indicate that a test event was forwarded successfully to your connected {{site.data.keyword.en_short}} service instance. For more information, see the [API docs](/apidocs/security-compliance/admin#sendtestevent).
+A successful response returns `{"success": true}` to indicate that a test event was forwarded successfully to your connected {{site.data.keyword.en_short}} service instance. For more information, see the [API docs](/apidocs/security-compliance-admin#sendtestevent).
 
 ## Delivering notifications to select destinations
 {: #event-notifications-destinations}
