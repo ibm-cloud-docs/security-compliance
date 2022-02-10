@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-02-01"
+lastupdated: "2022-02-10"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -121,11 +121,11 @@ curl POST 'https://{region}.compliance.cloud.ibm.com/posture/v2/credentials?acco
 
 | Variable   | Description |
 |:-----------|:------------|
-| `region` | The region in which you want to create a collector. Be sure that your region matches the location that is configured for {{site.data.keyword.compliance_short}}. You can view your account settings by making a POST request to the [Admin API](/apidocs/security-compliance/admin#getsettings). For example, `eu`.|
+| `region` | The region in which you want to create a credential. Be sure that your region matches the location that is configured for {{site.data.keyword.compliance_short}}. You can view your account settings by making a POST request to the [Admin API](/apidocs/security-compliance/admin#getsettings). For example, `eu`.|
 | `account_id` | The ID of the account that manages the {{site.data.keyword.compliance_short}}. If you are the owner of the managing account, can find this ID in the {{site.data.keyword.cloud_notm}} console by clicking **Manage > Account > Account Settings**.| 
 | `IAM_token` | For help with creating your IAM token, see [Generating an {{site.data.keyword.cloud_notm}} IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey).|
-| `name` | The name that you want your collector to have. It must be unique to the {{site.data.keyword.compliance_short}} instance that you're working with.|
-| `description`| Optional: A detailed description of how you intend to use your collector.|
+| `name` | The name that you want your credential to have. It must be unique to the {{site.data.keyword.compliance_short}} instance that you're working with.|
+| `description`| Optional: A detailed description of how you intend to use your credential.|
 |  `purpose` | The purpose for which the credential is created. |
 | `enabled` | The status of the credential is enabled or disabled. | 
 | `group` | The details of the credential group. | 
@@ -139,9 +139,20 @@ A successful `POST /posture/v2/credentials` response returns the unique ID of yo
 
 ```json
 {
-  "credential_id": "63",
-  "credential_name": "cred",
-  "created_time": "2021-04-08T10:22:04Z"
+    "enabled": true,
+    "id": "00000",
+    "type": "IBM_CLOUD",
+    "name": "testcredential",
+    "description": "testcredential",
+    "display_fields": {
+        "ibm_api_key": "**********"
+    },
+    "created_by": "iam-ServiceId-9c000000-f00d-000e-0b02-ed6b40000",
+    "created_at": "2022-02-10T16:13:27Z",
+    "updated_by": "iam-ServiceId-9c000000-f00d-000e-0b02-ed6b4000",
+    "updated_at": "2022-02-10T16:13:27Z",
+    "group": null,
+    "purpose": "DISCOVERY_COLLECTION_REMEDIATION"
 }
 ```
 {: screen}
