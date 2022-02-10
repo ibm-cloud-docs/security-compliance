@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2022
-lastupdated: "2022-02-01"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 

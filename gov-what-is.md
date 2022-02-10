@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-11-01"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, properties, conditions, templates, properties, govern
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-10-13"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: using the API, accessing the API, getting an access token, authenticating, authentication, access token, API key, account information, IAM access token
 

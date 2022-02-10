@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-11-19"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -60,6 +60,7 @@ To learn more about the different components of a rule, see [Formatting rules an
 {: #before-rules}
 
 Before you get started, be sure that you have the required level of access to view and manage rules. To create a template, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). You must also have an instance of {{site.data.keyword.at_short}} that exists in the same region in which you provision your resources.
+
 
 
 ## Creating rules in the UI
@@ -132,6 +133,7 @@ When you create a rule, it can take up to 10 minutes to be in effect.
 
 
 After you create a rule, you can view it by navigating to the {{site.data.keyword.compliance_short}} UI and selecting the rule that you want to view in the **Configuration rules** table. To see which scope attachments are associated with a rule, click **Attachments** in the navigation.
+
 
 
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-11-10"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: Centralized security, osco, {{site.data.keyword.openshiftshort}} Compliance Operator, compliance monitoring, compliance, 
 

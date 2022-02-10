@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-01-31"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 

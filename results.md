@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-11-22"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: evaluation results, rule results, configuration results, resource configuration, 
 

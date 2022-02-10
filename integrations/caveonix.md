@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-01-25"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 

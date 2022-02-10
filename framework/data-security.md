@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-10-27"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: data encryption in {{site.data.keyword.compliance_short}}, data storage for {{site.data.keyword.compliance_short}}, bring your own keys for {{site.data.keyword.compliance_short}}, BYOK for {{site.data.keyword.compliance_short}}, key management for {{site.data.keyword.compliance_short}}, key encryption for {{site.data.keyword.compliance_short}}, personal data in {{site.data.keyword.compliance_short}}, data deletion for {{site.data.keyword.compliance_short}}, data in {{site.data.keyword.compliance_short}}, data security in {{site.data.keyword.compliance_short}}
 
