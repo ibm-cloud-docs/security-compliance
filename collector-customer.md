@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-02-01"
+lastupdated: "2022-02-10"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -137,7 +137,64 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
   
 When the collector is created successfully, the status updates to **Ready to install**.
 
+## Creating a collector with the API
+{: #create-collector-api}
+{: api}
 
+You can use the {{site.data.keyword.compliance_short}} Posture Management API to create a collector by making the following POST request.
+
+```sh
+curl POST 'https://{region}.compliance.cloud.ibm.com/posture/v2/collectors?account_id={account_id}' \
+   -H 'Authorization: {IAM_token}' \
+   -H 'Content-Type: application/json' \
+   -d '{
+         "name":"my_collector",
+         "is_public":true,
+         "managed_by":"customer",
+         "description": "This is my description.",
+         "passphrase":"secret",
+         "is_ubi_image":true
+         }'
+```
+{: codeblock}
+
+| Variable   | Description |
+|:-----------|:------------|
+| `region` | The region in which you want to create a collector. Be sure that your region matches the location that is configured for {{site.data.keyword.compliance_short}}. You can view your account settings by making a POST request to the [Admin API](/apidocs/security-compliance/admin#getsettings). For example, `eu`.|
+| `account_id` | The ID of the account that manages the {{site.data.keyword.compliance_short}}. If you are the owner of the managing account, can find this ID in the {{site.data.keyword.cloud_notm}} console by clicking **Manage > Account > Account Settings**.| 
+| `IAM_token` | For help with creating your IAM token, see [Generating an {{site.data.keyword.cloud_notm}} IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey). Be sure to configure your API key and permissions for a service ID. |
+| `name` | The name that you want your collector to have. It must be unique to the {{site.data.keyword.compliance_short}} instance that you're working with.|
+| `is_public` | The type of endpoint that your collector is able to use to connect to your resources. If set to `false`, a private IP address that is accessible only through the {{site.data.keyword.cloud_notm}} private network is used. If set to `true`, the collector can access your resources over a public network. |
+| `managed_by` | The entity responsible for managing the collector. This value must be set to `customer`.|
+| `description`| Optional: A detailed description of how your collector is used.|
+| `passphrase` | If you or your organization have a passphrase that is enabled for the {{site.data.keyword.compliance_short}}, you must provide it exactly. Be sure to double check the passphrase before you run the command.|
+| `is_ubi_image` | The parameter `is_ubi_image` determines whether the collector has a UBI image. Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS. |
+{: caption="Table 2. Understanding the variables used to create a collector with the API" caption-side="top"}
+
+If your collector is successfully created, you receive the following response.
+
+```json
+{
+  "id": "1",
+  "display_name": "my-collector-azure",
+  "name": "my-collector-azure",
+  "status": "ready_to_install",
+  "description": "This collector is used with my Azure resources.",
+  "created_by": "IBMid-1200007EV9",
+  "created_at": "2021-06-20T03:51:09.131Z",
+  "updated_by": "IBMid-1200007EV9",
+  "updated_at": "2021-06-20T03:51:09.131Z",
+  "enabled": true,
+  "registration_code": "400000a-0000-00f5-9d00-000000c3cb79",
+  "type": "unrestricted",
+  "failure_count": 0,
+  "use_private_endpoint": false,
+  "managed_by": "customer",
+  "status_description": "Ready to install",
+  "is_public": true
+}
+```
+{: screen}
 
 
 ## Installing a collector
