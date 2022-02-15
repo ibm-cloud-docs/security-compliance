@@ -138,13 +138,3 @@ For more information about granting the authorization between a collector and yo
 
 The collector uses the data that is collected to validate the controls before it sends the results to the {{site.data.keyword.compliance_short}} for storage and reporting. The data that is collected varies depending on the environment that you're working with and the type of credentials that you provide. For cloud environments, a significant portion of the data is available as metadata. If you're working with an on-premises environment, some of the data is typically stored in configuration management databases. Collected data includes the properties and configurations for supported services, network objects, hosts, databases, Kubernetes platforms, and virtual machines. 
 
-<staging>
-
-## Understanding possible collector states
-{: #collector-state}
-
-You might see the following states ..... Add some more here about states.
-
-This section is under construction and should not be promoted to production.
-
-</staging>

@@ -61,7 +61,7 @@ To learn more about the different components of a rule, see [Formatting rules an
 
 Before you get started, be sure that you have the required level of access to view and manage rules. To create a template, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). You must also have an instance of {{site.data.keyword.at_short}} that exists in the same region in which you provision your resources.
 
-<prod>
+
 
 ## Creating rules in the UI
 {: #create-rules-ui}
@@ -134,53 +134,9 @@ When you create a rule, it can take up to 10 minutes to be in effect.
 
 After you create a rule, you can view it by navigating to the {{site.data.keyword.compliance_short}} UI and selecting the rule that you want to view in the **Configuration rules** table. To see which scope attachments are associated with a rule, click **Attachments** in the navigation.
 
-</prod>
-
-<staging>
 
 
 
-## Creating rules in the UI
-{: #create-rules-ui}
-{: ui}
-
-You can use the {{site.data.keyword.compliance_short}} UI to define the rules that you want to enforce or monitor for your {{site.data.keyword.cloud_notm}} resources. 
-
-When you create a rule for a service, you give the {{site.data.keyword.compliance_short}} permission to access the configuration details for services instances that are provisioned in your account.
-{: note}
-
-### Providing rule details
-{: #create-rule-details}
-
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure > rules**.
-2. Click **Create**.
-3. Give your rule a meaningful name and description.
-4. Optional: Add one or more labels that you can use to organize and search for similar rules.
-5. Click **Next**.
-
-### Defining your rule
-{: #create-rule-define}
-
-To create rules by using the {{site.data.keyword.cloud_notm}} console, you can either use the rule builder or edit the JSON directly.
-
-To take advantage of the JSON editor, you can switch to the **Documentation** tab in the **Build your rule** section to learn about possible inputs and formatting requirements. Then, you can start editing the JSON directly. If you need more help with formatting, you can work with the **Rule builder**.
-
-1. Target your rule by selecting a service and resource kind.
-2. Optional: If the option is available for your selected resource, you can add **Additional attributes** that help to further target a specific resource. You can repeat this process as many times as neccessary.
-   1. Select an available property and operator.
-   2. Input the value that you want to target.
-   3. Click **Add to rule**.
-3. Select your **Condition**.
-
-
-
-
-8. Use the JSON editor to set configuration properties for the rule.
-
-   For example, if y
-
-</staging>
 
 ## Creating a rule with the API
 {: #create-rule-api}

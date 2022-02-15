@@ -49,11 +49,7 @@ content-type: release-note
 # Release notes for {{site.data.keyword.compliance_full}}
 {: #release-notes}
 
-<staging>
 
-
-
-</staging>
 
 
 ## 27 January 2022

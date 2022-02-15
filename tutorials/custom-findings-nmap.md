@@ -90,9 +90,8 @@ To get started with {{site.data.keyword.compliance_short}}, install the sample c
 
 1. Clone the following repository to use Nmap as an example or clone the repository for your own third-party tool or service. 
 
-   ```sh<staging>
-   https://github.ibm.com/security-services/security-advisor-network-scan-nmap.git</staging><prod>
-   https://github.com/ibm-cloud-security/security-advisor-nmap-integration.git</prod>
+   ```sh
+   https://github.com/ibm-cloud-security/security-advisor-nmap-integration.git
    ```
    {: codeblock}
 

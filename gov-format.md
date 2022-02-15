@@ -82,8 +82,7 @@ Rules and templates are comprised of several different building blocks, includin
 The properties that are available in the {{site.data.keyword.compliance_short}} vary depending on the service that you create a rule or template for. To see the available properties and understand how they can be formatted to create a rule or a template, you can visit the service documentation that is linked in the following table, or you can view a [full list of available properties](/docs/security-compliance?topic=security-compliance-available-rule-properties).
 
 | Service | Rules | Templates |
-|:--------|:------|:----------|<staging>
-| [App ID](/docs/appid?topic=appid-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |</staging>
+|:--------|:------|:----------|
 | [Billing Composite Service](/docs/overview?topic=overview-manage-security-compliance)  | ![Checkmark icon](../icons/checkmark-icon.svg)| | 
 | [Catalog Management](/docs/overview?topic=overview-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
 | [Certificate Manager](/docs/certificate-manager?topic=certificate-manager-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |

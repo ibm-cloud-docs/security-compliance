@@ -103,22 +103,4 @@ To get started, choose the type of insights that you want to configure.
 
 &ast;*Security Insights is available for {{site.data.keyword.cloud_notm}} only.*
 
-<staging>
 
-## How do I access the {{site.data.keyword.compliance_short}}?
-{: #gs-access-scc}
-
-Because the {{site.data.keyword.compliance_short}} is built into the platform and available by default, you can access the UI in several different ways.
-
-
-![The diagram shows the three different ways in which you can access the Security and Compliance Center UI.](images/get-started-ui.svg){: caption="Figure 1. How to access {{site.data.keyword.compliance_short}}" caption-side="bottom"}
-
-
-After signing into {{site.data.keyword.cloud_notm}}, you can access the {{site.data.keyword.compliance_short}}:
-
-1. By clicking the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** in the navigation.
-2. By searching for **Security and Compliance Center** in the {{site.data.keyword.cloud_notm}} catalog.
-3. By selecting **Security and Compliance** from the **Manage** drop-down.
-
-
-</staging>
