@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-02-15"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials, ibm managed collector, ibm managed
 
@@ -49,7 +49,7 @@ subcollection: security-compliance
 # Configuring managed collectors
 {: #ibm-collector}
 
-For the {{site.data.keyword.compliance_full}} to gather and validate information about your resource configurations, you must create a collector. An IBM managed collector is created on IBM owned infrastructure and is maintained by the {{site.data.keyword.compliance_short}}. To learn more about how collectors work, how your data is handled, and your responsibilities, see [What is a collector?](/docs/security-compliance?topic=security-compliance-collector)
+For the {{site.data.keyword.compliance_full}} to gather and validate information about your resource configurations, you must create a collector. An IBM managed collector is created on IBM owned infrastructure and is maintained by the {{site.data.keyword.compliance_short}}. To learn more about how collectors work, how your data is handled, and your responsibilities, see [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
 {: shortdesc}
 
 
@@ -66,7 +66,7 @@ A managed collector can support up to 3000 resources per customer. If your organ
 ### Updating your IP address restrictions
 {: #before-collector-ip-address}
 
-If the account in which you'd like to install your collector restricts access to specific IP addresses, to collect data, you must also allow a list of IP addresses, along with your own IP address.
+If the account in which you'd like to install your collector restricts access to specific IP addresses, to collect data, you must also allow a list of IP addresses, along with your own IP address, in order for the managed collector to collect data. 
 
 Depending on your location, be sure to allow access to the following IP addresses. 
 
