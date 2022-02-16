@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-02-16"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -56,6 +56,8 @@ When you build a custom profile, you can choose a combination of controls and go
 
 To learn more about profiles, see [What is a profile?](/docs/security-compliance?topic=security-compliance-profiles).
 
+To start validating your resources against a specific profile, you must first define a scope and then attach a profile to it by scheduling a scan.
+{: tip}
 
 ## Before you begin
 {: #before-custom-profiles}
