@@ -68,16 +68,6 @@ Review the following table to learn more about the resource kinds, properties, a
 {: caption="Table 1. Rule properties for {{site.data.keyword.appid_short_notm}}" caption-side="bottom"}
 
 
-## Auto Scale for VPC
-{: #as-vpc-properties}
-
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Auto Scale for VPC. If you're using the API to define your rule, use `is.auto-scale` for the service name.
-
-| Resource kind | Property | Operator type | Description |
-|:--------------|:---------|:--------------|:------------|
-| `instance` | `membership_count` | numeric | The number of instances in the instance group. |
-{: caption="Table 2. Rule properties that are available for Auto Scale for VPC" caption-side="bottom"}
-
 
 ## Billing
 {: #billing-properties}
@@ -89,27 +79,6 @@ Review the following table to learn more about the resource kinds, properties, a
 | `account-trait` | `eu_supported` | boolean | Indicates whether the account has the eu_supported flag enabled |
 | `account-trait` | `hipaa_accepted` | boolean | Indicates whether the account has the hipaa_accepted flag enabled |
 {: caption="Table 3. Rule properties that are available for the Billing platform component" caption-side="bottom"}
-
-## Block Storage for VPC
-{: #bs-vpc-properties}
-
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Block Storage for VPC. If you're using the API to define your rule, use `is.block-storage` for the service name.
-
-| Resource kind | Property | Operator type | Description |
-|:--------------|:---------|:--------------|:------------|
-| `instance` | `user_managed_encryption` | boolean | A boolean indicates whether customer managed encryption is ecrypted or not. |
-{: caption="Table 4. Rule properties that are available for Block Storage for VPC" caption-side="bottom"}
-
-## Block Storage Snapshots for VPC
-{: #bs-snap-vpc-properties}
-
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Block Storage Snapshots for VPC. If you're using the API to define your rule, use `is.snapshots` for the service name.
-
-| Resource kind | Property | Operator type | Description |
-|:--------------|:---------|:--------------|:------------|
-| `instance` | `user_managed_encryption` | string | The type of encryption used on the snapshot. Value can either by `user_managed` or `provider_managed`. |
-{: caption="Table 5. Rule properties that are available for Block Storage Snapshots for VPC" caption-side="bottom"}
-
 
 
 ## Catalog Management
@@ -195,15 +164,6 @@ Review the following table to learn more about the resource kinds, properties, a
 | `service` | `cross_account_connection_approved` | boolean | Indicates whether an incoming cross account connection request was approved. |
 {: caption="Table 11. Rule properties that are available for Direct Link" caption-side="bottom"}
 
-## File Storage for VPC
-{: #fs-vpc-properties}
-
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to File Storage for VPC. If you're using the API to define your rule, use `is.file-storage` for the service name.
-
-| Resource kind | Property | Operator type | Description |
-|:--------------|:---------|:--------------|:------------|
-| `instance` | `encryption` | string | The type of encryption used. Value can either by `user_managed` or `provider_managed`. |
-{: caption="Table 12. Rule properties that are available for File Storage for VPC" caption-side="bottom"}
 
 ## Event Streams
 {: #es-properties}
@@ -251,21 +211,19 @@ Review the following table to learn more about the resource kinds, properties, a
 | `instance` | `keep_your_own_key` | boolean | Check whether Hyper Protect DBaaS for PostgreSQL is enabled with customer-managed encryption and Keep Your Own Key (KYOK) |
 {: caption="Table 16. Rule properties that are available for Hyper Protect DBaaS for PostgreSQL" caption-side="bottom"}
 
-## IAM Access Groups Service
-{: #iam-groups-properties}
+## Identity and Access Management
+{: #iam-properties}
 
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to The IAM Access Groups service. If you're using the API to define your rule, use `iam-groups` for the service name.
+Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to The IAM Access Groups service. If you're using the API to define your rule, you can use `iam-groups` or `iam-identity` for the service name depending on the service property you want to implement.
 
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `service` | `public_access_enabled` | boolean | A boolean indicating whether the public access feature is enabled |
 {: caption="Table 17. Rule properties that are available for the IAM Access Groups platform component" caption-side="bottom"}
-
-
-## IAM Identity Service
-{: #iam-identity-properties}
-
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to IAM Identity Service. If you're using the API to define your rule, use `iam-identity` for the service name.
+{: #iam-groups-properties}
+{: tab-title="Access Groups"}
+{: tab-group="iam"}
+{: class="simple-tab-table"}
 
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
@@ -273,6 +231,10 @@ Review the following table to learn more about the resource kinds, properties, a
 | `accountsettings` | `restrict_create_platform_apikey` | string | Indicating whether the restriction on platform apikey creation is enabled. |
 | `accountsettings` | `mfa` | string | Indicating the level of mfa that is required. |
 {: caption="Table 18. Rule properties that are available for the IAM Identity Service platform component" caption-side="bottom"}
+{: #iam-identity-properties}
+{: tab-title="Identity"}
+{: tab-group="iam"}
+{: class="simple-tab-table"}
 
 ## IBM Cloud Shell
 {: #shell-properties}
@@ -315,17 +277,6 @@ Review the following table to learn more about the resource kinds, properties, a
 | `key` | `rotation.interval_month` | numeric | Specifies the given key's rotation interval (in months). Automatic rotation policies can only be applied to root keys with non-imported material. Refer to Key Protect Key Policies API. |
 {: caption="Table 21. Rule properties that are available for Key Protect" caption-side="bottom"}
 
-## Load Balancer for VPC
-{: #lb-vpc-properties}
-
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Load Balancer for VPC. If you're using the API to define your rule, use `is.load-balancer` for the service name.
-
-| Resource kind | Property | Operator type | Description |
-|:--------------|:---------|:--------------|:------------|
-| `instance` | `profile_family` | string | A list of strings matching LoadBalancer profile family name from LoadBalancer profile family. Ex: [application, network] |
-| `instance` | `load_balancer_type` | string | A list of strings indicating what type of the load balancer can be provisioned. Ex: [public, private] |
-{: caption="Table 22. Rule properties that are available for Load Balancer for VPC" caption-side="bottom"}
-
 ## Toolchain
 {: #toolchain-properties}
 
@@ -347,11 +298,51 @@ Review the following table to learn more about the resource kinds, properties, a
 | `service` | `cross_account_connection_approved` | boolean | Indicates whether an incoming cross account connection request was approved. |
 {: caption="Table 24. Rule properties that are available for Transit Gateway" caption-side="bottom"}
 
+## Virtual Private Cloud
+{: #vpc-properties}
 
-## VPN for VPC
-{: #vpn-properties}
 
-Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to VPN for VPC. If you're using the API to define your rule, use `is.vpn` for the service name.
+Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Load Balancer for VPC. If you're using the API to define your rule, you can use the following values for the service name:
+
+Auto Scale: `is.ng-instance-grouup`
+Block Storage: `is.ng-volume`
+Block Storage Snapshots: `is.snapshot`
+File Storage: `is.share`
+Load balancer: `is.load-balancer`
+VPN: `is.vpn`
+
+
+| Resource kind | Property | Operator type | Description |
+|:--------------|:---------|:--------------|:------------|
+| `instance` | `membership_count` | numeric | The number of instances in the instance group. |
+{: caption="Table 2. Rule properties that are available for VPC" caption-side="bottom"}
+{: #as-vpc-properties}
+{: tab-title="Auto Scale"}
+{: tab-group="vpc"}
+{: class="simple-tab-table"}
+
+
+
+| Resource kind | Property | Operator type | Description |
+|:--------------|:---------|:--------------|:------------|
+| `instance` | `user_managed_encryption` | string | The type of encryption used on the snapshot. Value can either by `user_managed` or `provider_managed`. |
+{: caption="Table 2. Rule properties that are available for VPC" caption-side="bottom"}
+{: #bs-snap-vpc-properties}
+{: tab-title="Block Storage Snapshots"}
+{: tab-group="vpc"}
+{: class="simple-tab-table"}
+
+
+
+| Resource kind | Property | Operator type | Description |
+|:--------------|:---------|:--------------|:------------|
+| `instance` | `profile_family` | string | A list of strings matching LoadBalancer profile family name from LoadBalancer profile family. Ex: [application, network] |
+| `instance` | `load_balancer_type` | string | A list of strings indicating what type of the load balancer can be provisioned. Ex: [public, private] |
+{: caption="Table 2. Rule properties that are available for VPC" caption-side="bottom"}
+{: #lb-vpc-properties}
+{: tab-title="Load Balancer"}
+{: tab-group="vpc"}
+{: class="simple-tab-table"}
 
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
@@ -359,4 +350,8 @@ Review the following table to learn more about the resource kinds, properties, a
 | `connection` | `ipsec_policy.authentication_algorithm` | string | The VPN IPsec policy authentication algorithm. Ex: `sha256`. |
 | `connection` | `ike_policy.encryption_algorithm` | string | The VPN IKE policy encryption algorithm. Ex: `triple_des`. |
 | `connection` | `ike_policy.authentication_algorithm` | string | The VPN IKE policy authentication algorithm. Ex: `sha256`. |
-{: caption="Table 25. Rule properties that are available for VPN for VPC" caption-side="bottom"}
+{: caption="Table 2. Rule properties that are available for VPC" caption-side="bottom"}
+{: #vpn-vpc-properties}
+{: tab-title="VPN"}
+{: tab-group="vpc"}
+{: class="simple-tab-table"}
