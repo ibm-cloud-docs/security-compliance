@@ -21,7 +21,7 @@ toc:
       id: tutorial
       topics: 
       - topicgroup: 
-          label: Monitoring IBM Cloud resources
+          label: Monitor IBM Cloud resources
           topics:
           - topic: tutorials/monitor-ibm-collector.md
             navtitle: With an IBM-managed collector
