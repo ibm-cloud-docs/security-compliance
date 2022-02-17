@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-16"
+lastupdated: "2022-02-17"
 
 keywords: config rules, config properties, scc integrated services, 
 
@@ -303,14 +303,18 @@ Review the following table to learn more about the resource kinds, properties, a
 ## Virtual Private Cloud
 {: #vpc-properties}
 
-
 Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Load Balancer for VPC. If you're using the API to define your rule, you can use the following values for the service name:
 
-Auto Scale: `is.ng-instance-grouup`
+Auto Scale: `is.ng-instance-group`
+
 Block Storage: `is.ng-volume`
+
 Block Storage Snapshots: `is.snapshot`
+
 File Storage: `is.share`
+
 Load balancer: `is.load-balancer`
+
 VPN: `is.vpn`
 
 | Resource kind | Property | Operator type | Description |
@@ -323,7 +327,6 @@ VPN: `is.vpn`
 {: class="simple-tab-table"}
 
 
-
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `instance` | `user_managed_encryption` | string | The type of encryption used on the snapshot. Value can either by `user_managed` or `provider_managed`. |
@@ -332,7 +335,6 @@ VPN: `is.vpn`
 {: tab-title="Block Storage Snapshots"}
 {: tab-group="vpc"}
 {: class="simple-tab-table"}
-
 
 
 | Resource kind | Property | Operator type | Description |
