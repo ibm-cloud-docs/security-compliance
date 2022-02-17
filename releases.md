@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-15"
+lastupdated: "2022-02-17"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -49,6 +49,14 @@ content-type: release-note
 # Release notes for {{site.data.keyword.compliance_full}}
 {: #release-notes}
 
+
+
+## 17 February 2022
+{: #security-compliance-feb1722}
+{: release-note}
+
+New service available in Configuration Governance
+:   VPN for Virtual Private Cloud is now available as part of the Configuration Governance component. You can create guardrails for VPN for VPC such as enforcing specific IPsec and IKE policies for authentication and encryption. For more information about the integration, see [the VPC docs](/docs/vpc?topic=vpc-manage-security-compliance).
 
 
 

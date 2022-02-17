@@ -305,17 +305,12 @@ Review the following table to learn more about the resource kinds, properties, a
 
 Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Load Balancer for VPC. If you're using the API to define your rule, you can use the following values for the service name:
 
-Auto Scale: `is.ng-instance-group`
-
-Block Storage: `is.ng-volume`
-
-Block Storage Snapshots: `is.snapshot`
-
-File Storage: `is.share`
-
-Load balancer: `is.load-balancer`
-
-VPN: `is.vpn`
+* Auto Scale: `is.ng-instance-group`
+* Block Storage: `is.ng-volume`
+* Block Storage Snapshots: `is.snapshot`
+* File Storage: `is.share`
+* Load balancer: `is.load-balancer`
+* VPN: `is.vpn`
 
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
