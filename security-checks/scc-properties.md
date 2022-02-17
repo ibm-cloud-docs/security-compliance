@@ -351,10 +351,10 @@ VPN: `is.vpn`
 
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
-| `connection` | `ipsec_policy.encryption_algorithm` | string | The VPN IPsec policy encryption algorithm. Ex: `triple_des`. |
-| `connection` | `ipsec_policy.authentication_algorithm` | string | The VPN IPsec policy authentication algorithm. Ex: `sha256`. |
-| `connection` | `ike_policy.encryption_algorithm` | string | The VPN IKE policy encryption algorithm. Ex: `triple_des`. |
-| `connection` | `ike_policy.authentication_algorithm` | string | The VPN IKE policy authentication algorithm. Ex: `sha256`. |
+| `connection` | `ipsec_policy.encryption_algorithm` | string | The VPN IPsec policy encryption algorithm. Options include: [`aes128`, `aes256`, `triple_des`]. |
+| `connection` | `ipsec_policy.authentication_algorithm` | string | The VPN IPsec policy authentication algorithm. Options include: [`md5`, `sha1`, `sha256`, `sha512`]. |
+| `connection` | `ike_policy.encryption_algorithm` | string | The VPN IKE policy encryption algorithm. Options include: [`aes128`, `aes256`, `triple_des`]. |
+| `connection` | `ike_policy.authentication_algorithm` | string | The VPN IKE policy authentication algorithm. Options include: [`md5`, `sha1`, `sha256`, `sha512`]. |
 {: caption="Table 18. Rule properties that are available for VPC" caption-side="bottom"}
 {: #vpn-vpc-properties}
 {: tab-title="VPN"}
