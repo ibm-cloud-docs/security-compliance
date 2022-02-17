@@ -327,6 +327,7 @@ VPN: `is.vpn`
 {: class="simple-tab-table"}
 
 
+
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `instance` | `user_managed_encryption` | string | The type of encryption used on the snapshot. Value can either by `user_managed` or `provider_managed`. |
@@ -335,6 +336,7 @@ VPN: `is.vpn`
 {: tab-title="Block Storage Snapshots"}
 {: tab-group="vpc"}
 {: class="simple-tab-table"}
+
 
 
 | Resource kind | Property | Operator type | Description |
