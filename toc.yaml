@@ -21,7 +21,7 @@ toc:
       id: tutorial
       topics: 
       - topicgroup: 
-          label: Monitoring IBM Cloud resources
+          label: Monitor IBM Cloud resources
           topics:
           - topic: tutorials/monitor-ibm-collector.md
             navtitle: With an IBM-managed collector
@@ -162,7 +162,7 @@ toc:
           label: Terraform
           href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_si_note
       - topicgroup: 
-          label: Available security checks
+          label: Available checks
           topics:
           - security-checks/ai-rules.md
           - security-checks/ni-findings.md
@@ -191,4 +191,6 @@ toc:
           - troubleshooting/ts-ai-forbidden.md
           - troubleshooting/ts-sa-blocked.md
           - troubleshooting/ts-results-osco.md
+          - troubleshooting/ts-notifications.md
+          - troubleshooting/ts-satellite.md
       - limits.md

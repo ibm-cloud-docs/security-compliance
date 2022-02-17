@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-10-13"
+  years: 2020, 2022
+lastupdated: "2022-02-16"
 
 keywords: profiles, user-defined, predefined profiles, controls, goals, nist, best practices, security, compliance
 
@@ -72,10 +72,10 @@ You can implement a control by meeting one or more [goals](#x2117978){: term}. I
 When you work with {{site.data.keyword.cloud_notm}}, several goals are met by default. To learn more about what makes {{site.data.keyword.cloud_notm}} secure by default, see [Available default goals](/docs/security-compliance?topic=security-compliance-default-goals).
 {: tip}
 
-## Working with predefined and custom profiles
+## Working with profiles
 {: #profile-types}
 
-When you work with profiles in the {{site.data.keyword.compliance_short}}, you interact with predefined or custom profiles.
+When you work with profiles in the {{site.data.keyword.compliance_short}}, you interact with predefined or custom profiles that are used to evaluate a specific set of resources known as a scope.
 
 Predefined profiles
 :   Predefined profiles contain collections of controls that are curated based on standards for an industry. 
@@ -89,6 +89,9 @@ Predefined profiles
 Custom profiles
 :   If you want to ability to customize a profile to include any combination of controls and goals, you can create a custom profile. By using the {{site.data.keyword.compliance_short}} UI, you can build a profile from an existing predefined profile, or you can create a profile with your own controls and guidelines from scratch.
 
+
+Attachment
+:   To start evaluating your resources for compliance by using a specific profile, you must create an attachment between your scope and the profile. To create the attachment, you [schedule a scan](/docs/security-compliance?topic=security-compliance-schedule-scan). 
 
 
 ## How do I get started?

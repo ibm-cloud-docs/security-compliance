@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-12-16"
+  years: 2020, 2022
+lastupdated: "2022-02-17"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials, ibm managed collector, ibm managed
 
@@ -66,9 +66,8 @@ A managed collector can support up to 3000 resources per customer. If your organ
 ### Updating your IP address restrictions
 {: #before-collector-ip-address}
 
-If the account in which you'd like to install your collector restricts access to specific IP addresses, you must also allow a list of IP addresses, along with your own IP address, in order for the managed collector to collect data. 
+If the account in which you want to install your collector restricts access to some IP addresses, you must allow access to the following list of addresses along with your own in order for the managed collector to gather data in that location. 
 
-Depending on your location, be sure to allow access to the following IP addresses. 
 
 | Location | IP addresses |
 | --- | --- |
@@ -92,7 +91,7 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
 
    It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
 
-5. If you have a passphrase enabled, the **Existing passphrase** field displays. Enter your passphrase. If you do not have a passphrase enabled, the field does not display.
+5. If you enabled a passphrase, the **Existing passphrase** field displays. Enter your passphrase. If you did not enable a passphrase, the field does not display.
 6. Click **Next**.
 7. In the **Managed by** field, select **IBM**.
 8. **UBI** is selected as the default container **image type**.
@@ -106,4 +105,63 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
 10. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
 
 When your collector is ready, the status updates to **Active**.
+
+## Creating a managed collector with the API
+{: #create-managed-collector-api}
+{: api}
+
+You can use the {{site.data.keyword.compliance_short}} Posture Management API to create a collector by making the following POST request.
+
+```sh
+curl POST 'https://{region}.compliance.cloud.ibm.com/posture/v2/collectors?account_id={account_id}' \
+  -H 'Authorization: {IAM_token}' \
+  -H 'Content-Type: application/json' \
+  -d '{
+        "name":"my_collector",
+        "is_public":true,
+        "passphrase":"secret",        
+        "description": "This is my description.",
+        "managed_by":"ibm",
+        "is_ubi_image":true
+        }'
+```
+{: codeblock}
+
+| Variable   | Description |
+|:-----------|:------------|
+| `region` | The region in which you want to create a collector. Be sure that your region matches the location that is configured for {{site.data.keyword.compliance_short}}. You can view your account settings by making a POST request to the [Admin API](/apidocs/security-compliance-admin#getsettings). For example, `eu`.|
+| `account_id` | The ID of the account that manages the {{site.data.keyword.compliance_short}}. If you are the owner of the managing account, can find this ID in the {{site.data.keyword.cloud_notm}} console by clicking **Manage > Account > Account Settings**.| 
+| `IAM_token` | For help with creating your IAM token, see [Generating an {{site.data.keyword.cloud_notm}} IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey).|
+| `name` | The name that you want your collector to have. It must be unique to the {{site.data.keyword.compliance_short}} instance that you're working with.|
+| `is_public` | The type of endpoint that your collector is able to use to connect to your resources. This value must be set to `false`, which means that a private IP address that is accessible only through the {{site.data.keyword.cloud_notm}} private network is used.|
+| `passphrase` | If you or your organization enabled a passphrase for the {{site.data.keyword.compliance_short}}, you must provide it exactly. Be sure to double check the passphrase before you run the command.|
+| `description`| Optional: A detailed description of how you intend to use your collector.|
+| `managed_by` | The entity responsible for managing the collector. This value must be set to `ibm`.|
+| `is_ubi_image` | The parameter `is_ubi_image` determines whether the collector has a UBI image. Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS. |
+{: caption="Table 1. Understanding the variables used to create a collector with the API" caption-side="top"}
+
+If your collector is successfully created, you receive the following response.
+
+```json
+{
+    "id": "1",
+    "display_name": "my_collector",
+    "name": "my_collector",
+    "status": "install_in_progress",
+    "description": "This is my description.",
+    "created_at": "1970-01-01T00:00:00.000Z",
+    "updated_at": "1970-01-01T00:00:00.000Z",
+    "enabled": false,
+    "registration_code": "400000a-0000-00f5-9d00-000000c3cb79",
+    "type": "unrestricted",
+    "failure_count": 0,
+    "use_private_endpoint": false,
+    "managed_by": "ibm",
+    "status_description": "Install In Progress",
+    "is_fips_compliant": false,
+    "collector_enable": true,
+    "is_public": true
+}
+```
+{: screen}
 

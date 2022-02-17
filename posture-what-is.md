@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-10-13"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: best practices security and compliance, secure development, security strategy, insights, governance
 
@@ -50,11 +50,8 @@ subcollection: security-compliance
 # What is Posture Management?
 {: #posture-management}
 
-For highly regulated industries, such as financial services, achieving continuous security within a cloud environment is an important first step toward protecting customer and application data. Historically, that process has been difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.cloud_notm}} you can integrate automatic security checks into every day workflows that are designed to minimize risk.
+For highly regulated industries, such as financial services, achieving continuous compliiance within a cloud environment is an important first step toward protecting customer and application data. Historically, that process has been difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.cloud_notm}} you can integrate automatic compliance checks into every day workflows that are designed to minimize risk.
 {: shortdesc}
-
-
-Security and compliance are two concepts that are often spoken of interchangeably. But, there are some significant differences between them. For example, compliance regulations change slowly and are generally measured as a snapshot in time. Whereas security threats are constant and always changing. Depending on the role that you fill in your organization, you might focus on ensuring compliance to industry regulations or you might focus more on mitigating incoming security threats.
 
 Most often, as a compliance focal, you need to adhere to multiple regulations or laws at once. You are responsible for understanding and implementing the controls that are required for your business. You also have a responsibility to gather evidence that proves to external auditors that your compliance checks are in place and in continuous compliance. To get started, you can [configure a managed collector](/docs/security-compliance?topic=security-compliance-ibm-collector) or [manually create and install one](/docs/security-compliance?topic=security-compliance-collector-manual) to assess your available resources and their configuration.
 
@@ -62,7 +59,7 @@ Most often, as a compliance focal, you need to adhere to multiple regulations or
 {: #how-it-works}
 
 
-When you work with the {{site.data.keyword.compliance_short}}, you interact with several interrelated components, including profiles, config rules, and scopes. Check out the following diagram to see how the components work together to help you manage and validate compliance in {{site.data.keyword.cloud_notm}}.
+When you work with the {{site.data.keyword.compliance_short}}, you interact with several interrelated components, including profiles, credentials, and scopes. Check out the following diagram to see how the components work together to help you manage and validate compliance in {{site.data.keyword.cloud_notm}}.
 
 ![The diagram shows how you can create profiles and rules, enforce them across scopes that you specify to continuously validate your resources for compliance. The information in the diagram is explained in further detail in the surrounding text.](images/posture.svg){: caption="Figure 1. How the Posture Management components work together" caption-side="bottom"}
 

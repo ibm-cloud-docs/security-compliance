@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-11-19"
+  years: 2020, 2022
+lastupdated: "2022-02-15"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -60,6 +60,7 @@ To learn more about the different components of a rule, see [Formatting rules an
 {: #before-rules}
 
 Before you get started, be sure that you have the required level of access to view and manage rules. To create a template, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). You must also have an instance of {{site.data.keyword.at_short}} that exists in the same region in which you provision your resources.
+
 
 
 ## Creating rules in the UI
@@ -136,6 +137,7 @@ After you create a rule, you can view it by navigating to the {{site.data.keywor
 
 
 
+
 ## Creating a rule with the API
 {: #create-rule-api}
 {: api}
@@ -193,10 +195,10 @@ curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
 ```
 {: codeblock}
 
-A successful `POST config/v1/rules` response returns the ID value for your rule, along with other metadata. For more information about the required and optional request parameters, see [Create rules](/apidocs/security-compliance/config#post-rule-attachments).
+A successful `POST config/v1/rules` response returns the ID value for your rule, along with other metadata. For more information about the required and optional request parameters, see [Create rules](/apidocs/security-compliance-config#post-rule-attachments).
 
 
-After you create a rule, you can view it by using the API. For more information about the required and optional request parameters, see [List rules](/apidocs/security-compliance/config#list-rules).
+After you create a rule, you can view it by using the API. For more information about the required and optional request parameters, see [List rules](/apidocs/security-compliance-config#list-rules).
 
 
 ## Next steps

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-11-22"
+  years: 2017, 2022
+lastupdated: "2022-02-10"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -53,8 +53,6 @@ With {{site.data.keyword.compliance_full}}, you can integrate your existing cust
 {: shortdesc}
 
 
-
-
 ## Before you begin
 {: #custom-before-api}
 
@@ -75,7 +73,7 @@ The APIs follow Grafeas like artifact metadata specifications to store, query, a
 ### Step 1: Registering a new finding type
 {: #custom-register-finding}
 
-To register a new type of findings, you can create a note. To create the note, you can use the [Findings API](https://{DomainName}/apidocs/security-compliance/findings){: external}. Be sure that you choose a unique provider ID to identify your custom tool. If you're automating the process by using your service ID as your provider ID.
+To register a new type of findings, you can create a note. To create the note, you can use the [Findings API](https://{DomainName}/apidocs/security-compliance-findings){: external}. Be sure that you choose a unique provider ID to identify your custom tool. If you're automating the process by using your service ID as your provider ID.
 
 Request:
 
@@ -170,7 +168,7 @@ Be sure to remember the name of the note that is returned as part of the respons
 ### Step 2: Posting findings
 {: #custom-post-findings}
 
-Create an [occurrence](https://{DomainName}/apidocs/security-compliance/findings#creates-a-new-occurrence){: external} to post findings as KPIs or events to your security advisor dashboard.
+Create an [occurrence](https://{DomainName}/apidocs/security-compliance-findings#creates-a-new-occurrence){: external} to post findings as KPIs or events to your security advisor dashboard.
 
 For each card, you can define two KPIs.
 {: note}
@@ -269,7 +267,7 @@ Example response:
 ### Step 3: Defining the card to display
 {: #custom-define-card}
 
-Define how you want your card to display your findings in your dashboard by creating a [note](https://{DomainName}/apidocs/security-compliance/findings#create-a-new-note){: external}.
+Define how you want your card to display your findings in your dashboard by creating a [note](https://{DomainName}/apidocs/security-compliance-findings#create-a-new-note){: external}.
 
 To create a note, run the following command:
 

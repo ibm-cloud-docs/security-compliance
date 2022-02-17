@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-11-01"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -135,5 +135,5 @@ curl -X POST "https://compliance.{DomainName}/config/v1/templates" \
 ```
 {: codeblock}
 
-A successful `POST config/v1/templates` response returns the ID value for your template, along with other metadata. For more information about the required and optional request parameters, see [Create templates](/apidocs/security-compliance/config).
+A successful `POST config/v1/templates` response returns the ID value for your template, along with other metadata. For more information about the required and optional request parameters, see [Create templates](/apidocs/security-compliance-config).
 

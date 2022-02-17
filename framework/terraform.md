@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-01-25"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: Terraform for {{site.data.keyword.compliance_short}}
 
@@ -87,7 +87,7 @@ After you've defined your configuration file, you're ready to apply the configur
    ```terraform
    terraform init
    ```
-   {: pre}
+   {: codeblock}
 
 2. Create a Terraform execution plan. The Terraform execution plan summarizes all the actions that need to be run to create the resource in your account.
 
@@ -101,7 +101,7 @@ After you've defined your configuration file, you're ready to apply the configur
    ```terraform
    terraform apply
    ```
-   {: pre}
+   {: codeblock}
 
 
 ## What's next?

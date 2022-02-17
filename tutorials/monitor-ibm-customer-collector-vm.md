@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-01-19"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -152,9 +152,9 @@ A collector is a container image that you install on your Virtual Private Cloud.
 5. **UBI** is selected as the default container **image type**. Alternatively, you can choose **Ubuntu**.
 
    Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS. Ubuntu images are disk-images that are designed to run on the Ubuntu OS. Ubuntu images are not compliant with the Federal Information Processing Standards (FIPS).
-7. For **Endpoint type**, select **Public**.  To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private**. 
-8. Click **Create**.
-9. On the **Download collector** panel that appears after you create a collector, select **Download shell script**, and then click **Download**. The registration key is required.
+6. For **Endpoint type**, select **Public**.  To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private**. 
+7. Click **Create**.
+8. On the **Download collector** panel that appears after you create a collector, select **Download shell script**, and then click **Download**. The registration key is required.
 
 
 ## Installing a collector
@@ -178,14 +178,14 @@ A collector is a container image that you install on your Virtual Private Cloud.
    6. Type `:wq` and click **Enter**. to save and exist VIM.
    7. To confirm that the file was created, run the `ls` command.
 
-1. Change the permissions of the `initiate_collector.sh` file to allow it to run.
+2. Change the permissions of the `initiate_collector.sh` file to allow it to run.
 
    ```sh
    chmod +x initiate_collector.sh
    ```
    {: codeblock}
 
-1. Install the collector by running the following command. When prompted, use the table as a guide for answering the questions.
+3. Install the collector by running the following command. When prompted, use the table as a guide for answering the questions.
 
    ```sh
    ./initiate_collector.sh
@@ -199,7 +199,7 @@ A collector is a container image that you install on your Virtual Private Cloud.
    | Registration key | Provide the registration key. This can be found in the table on the **Collectors** page of the {{site.data.keyword.compliance_short}} UI. Expand the details for the collector that you want to register and copy the key. |
    {: caption="Table 1. Collector installation prompts" caption-side="top"}
 
-1. On the **Collectors** page of the {{site.data.keyword.compliance_short}} UI, click **Approval required** to approve the collector for use. Wait a few minutes and refresh the page. The collector status updates to **Active**.
+4. On the **Collectors** page of the {{site.data.keyword.compliance_short}} UI, click **Approval required** to approve the collector for use. Wait a few minutes and refresh the page. The collector status updates to **Active**.
 
 ## Grant your collector access to your resources
 {: #ibm-customer-collector-access}

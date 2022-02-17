@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-01-06"
+  years: 2020, 2022
+lastupdated: "2022-02-17"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -62,7 +62,7 @@ Before you get started, be sure that you have the level of access that is necess
 ### Verifying installation requirements
 {: #before-collector-verify}
 
-You can install a collector on a cluster or a machine. To manually install a collector on a cluster, you must have access to an [{{site.data.keyword.cloud_notm}} {{site.data.keyword.containershort}}](/docs/containers) or a [Red Hat OpenShift on {{site.data.keyword.cloud_notm}}](/docs/openshift) cluster. To install a collector on a machine, you must have access to a server. That server must have the following minimum configuration requirements that are based on the type of machine that you are using.
+You can install a collector on a cluster or a machine. To manually install a collector on a cluster, you must have access to an [{{site.data.keyword.cloud_notm}} {{site.data.keyword.containershort}}](/docs/containers) or a [{{site.data.keyword.openshiftshort}} {{site.data.keyword.cloud_notm}}](/docs/openshift) cluster. To install a collector on a machine, you must have access to a server. That server must have the following minimum configuration requirements that are based on the type of machine that you are using.
 
 | Machine type | Minimum requirement | 
 |:-------------|:--------------------|
@@ -120,31 +120,87 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Manage posture > Configure > Collectors**.
 3. Click **Create**.
-4. Give your collector a name and description.
+4. Give your collector a name and description and then click **Next**.
 
    It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
-5. Click **Next**.
-6. Select **Customer** to install the collector on your organization's infrastructure.
-7. **UBI** is selected as the default container **image type**. 
-   
+5. Select **Customer** to install the collector on your organization's infrastructure.
+6. **UBI** is selected as the default container **image type**. 
+
    Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS.
-8. Alternatively, you can select **Ubuntu**.
+7. Alternatively, you can select **Ubuntu**.
 
    Ubuntu images are disk-images that are designed to run on the Ubuntu OS. Ubuntu images are not compliant with the Federal Information Processing Standards (FIPS).
-9. Choose an endpoint option for your collector.
+8. Choose an endpoint option for your collector.
 
    By default, your collector connects to resources in your account by using a public endpoint. To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private**.
-10. Click **Create**.
+9. Click **Create**.
   
 When the collector is created successfully, the status updates to **Ready to install**.
 
+## Creating a collector with the API
+{: #create-collector-api}
+{: api}
 
+You can use the {{site.data.keyword.compliance_short}} Posture Management API to create a collector by making the following POST request.
+
+```sh
+curl POST 'https://{region}.compliance.cloud.ibm.com/posture/v2/collectors?account_id={account_id}' \
+   -H 'Authorization: {IAM_token}' \
+   -H 'Content-Type: application/json' \
+   -d '{
+         "name":"my_collector",
+         "is_public":true,
+         "managed_by":"customer",
+         "description": "This is my description.",
+         "passphrase":"secret",
+         "is_ubi_image":true
+         }'
+```
+{: codeblock}
+
+| Variable   | Description |
+|:-----------|:------------|
+| `region` | The region in which you want to create a collector. Be sure that your region matches the location that is configured for {{site.data.keyword.compliance_short}}. You can view your account settings by making a POST request to the [Admin API](/apidocs/security-compliance-admin#getsettings). For example, `eu`.|
+| `account_id` | The ID of the account that manages the {{site.data.keyword.compliance_short}}. If you are the owner of the managing account, can find this ID in the {{site.data.keyword.cloud_notm}} console by clicking **Manage > Account > Account Settings**.| 
+| `IAM_token` | For help with creating your IAM token, see [Generating an {{site.data.keyword.cloud_notm}} IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey). Be sure to configure your API key and permissions for a service ID. |
+| `name` | The name that you want your collector to have. It must be unique to the {{site.data.keyword.compliance_short}} instance that you're working with.|
+| `is_public` | The type of endpoint that your collector is able to use to connect to your resources. If set to `false`, a private IP address that is accessible only through the {{site.data.keyword.cloud_notm}} private network is used. If set to `true`, the collector can access your resources over a public network. |
+| `managed_by` | The entity responsible for managing the collector. This value must be set to `customer`.|
+| `description`| Optional: A detailed description of how your collector is used.|
+| `passphrase` | If you or your organization have a passphrase that is enabled for the {{site.data.keyword.compliance_short}}, you must provide it exactly. Be sure to double check the passphrase before you run the command.|
+| `is_ubi_image` | The parameter `is_ubi_image` determines whether the collector has a UBI image. Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS. |
+{: caption="Table 2. Understanding the variables used to create a collector with the API" caption-side="top"}
+
+If your collector is successfully created, you receive the following response.
+
+```json
+{
+  "id": "1",
+  "display_name": "my-collector-azure",
+  "name": "my-collector-azure",
+  "status": "ready_to_install",
+  "description": "This collector is used with my Azure resources.",
+  "created_by": "IBMid-1200007EV9",
+  "created_at": "2021-06-20T03:51:09.131Z",
+  "updated_by": "IBMid-1200007EV9",
+  "updated_at": "2021-06-20T03:51:09.131Z",
+  "enabled": true,
+  "registration_code": "400000a-0000-00f5-9d00-000000c3cb79",
+  "type": "unrestricted",
+  "failure_count": 0,
+  "use_private_endpoint": false,
+  "managed_by": "customer",
+  "status_description": "Ready to install",
+  "is_public": true
+}
+```
+{: screen}
 
 
 ## Installing a collector
 {: #install-collector}
 
-You can choose to install a collector on a {{site.data.keyword.containershort}} or Red Hat OpenShift on {{site.data.keyword.cloud_notm}} cluster or on a virtual machine. 
+You can choose to install a collector on a {{site.data.keyword.containershort}} or {{site.data.keyword.openshiftshort}} on {{site.data.keyword.cloud_notm}} cluster or on a virtual machine. 
 
 ### Installing a collector on a cluster
 {: #install-collector-cluster}
@@ -152,7 +208,7 @@ You can choose to install a collector on a {{site.data.keyword.containershort}} 
 Complete the following steps to install a collector on a cluster.
 
 1. After you create a collector in the {{site.data.keyword.cloud_notm}} console, you are invited to download the collector. Be sure that you meet the prerequisites.
-2. Select **Download YAML file** to deploy the collector on an {{site.data.keyword.containershort}} or OpenShift cluster. The registration key is included in the file.
+2. Select **Download YAML file** to deploy the collector on an {{site.data.keyword.containershort}} or {{site.data.keyword.openshiftshort}} cluster. The registration key is included in the file.
 3. Click **Download**. 
 4. In the YAML file, you can customize the following metadata to your specifications. 
 
@@ -178,7 +234,7 @@ Complete the following steps to install a collector on a cluster.
       ```
       {: codeblock}
 
-   * Run the following command if you are deploying your collector on an OpenShift cluster to deploy your collector. 
+   * Run the following command if you are deploying your collector on an {{site.data.keyword.openshiftshort}} cluster to deploy your collector. 
 
       ```sh
       ibmcloud oc cluster config --cluster <cluster_name_or_ID> --admin
@@ -194,14 +250,14 @@ Complete the following steps to install a collector on a cluster.
       ```
       {: codeblock}
 
-   * Run the following command if you are using an OpenShift cluster. 
+   * Run the following command if you are using an {{site.data.keyword.openshiftshort}} cluster. 
 
       ```sh
       OC apply -f <deployment-testdocumentation>.yaml
       ```
       {: codeblock}
 
-7. [Approve](/docs/security-compliance?topic=security-compliance-collector-manual#approve-collector) your collector.
+8. [Approve](/docs/security-compliance?topic=security-compliance-collector-manual#approve-collector) your collector.
 
 
 ### Installing a collector on a virtual machine
@@ -234,6 +290,9 @@ Complete the following steps to install a collector on a cluster.
       sudo apt-get install docker-compose
       ```
       {: codeblock}
+
+      Depending on the version of Docker that you use, you might be charged for the use of Docker Compose. Be sure that you understand the [subscription model](https://www.docker.com/blog/updating-product-subscriptions/){: external}.
+      {: note}
 
    3. If you plan to use your collector to run on-premises resource scans, install [Nmap version 7.6 or higher](https://nmap.org/download.html){: external} by using the command for your OS. If you're working with Ubuntu, you can use the following command.
 
@@ -303,7 +362,7 @@ Complete the following steps to install a collector on a cluster.
 #### Using a proxy with your collector
 {: #collector-proxy}
 
-As an additional protection, your organization might want to configure a proxy to use as an intermediary between the collector and your resources. To install a collector to use a proxy, you can use the same steps that are detailed in [Installing a collector](#install-collector), and provide the following additional information when prompted in step 8.
+As extra protection, your organization might want to configure a proxy to use as an intermediary between the collector and your resources. To install a collector to use a proxy, you can use the same steps that are detailed in [Installing a collector](#install-collector), and provide the following additional information when prompted in step 8.
 
 If you selected `y` (yes) when prompted about a proxy provide the following information.
 
@@ -327,4 +386,3 @@ To approve your collector, complete the following steps.
 2. In the navigation, click **Manage posture > Configure > Collectors**.
 3. In the **Collectors** table, click **Approval required** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
 4. If a passphrase is enabled, click **Passphrase** and enter the phrase. Be sure to enter your passphrase exactly.
-

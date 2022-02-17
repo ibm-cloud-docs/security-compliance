@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-11-01"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, properties, conditions, templates, properties, govern
 
@@ -120,7 +120,7 @@ The following diagram shows how two rules are applied across an enterprise. As y
 ## How can I get started?
 {: #gov-next-steps}
 
-To get started with rules, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure**, or check out the [API reference](/apidocs/security-compliance/config){: external} to learn more about creating rules and templates programmatically. 
+To get started with rules, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure**, or check out the [API reference](/apidocs/security-compliance-config){: external} to learn more about creating rules and templates programmatically. 
 
 [![This image is a visual link to the instructions for creating templates.](images/gs-templates.svg)](/docs/security-compliance?topic=security-compliance-templates-define)     [![This image is a visual link to the instructions for creating rules.](images/gs-rules.svg)](/docs/security-compliance?topic=security-compliance-rules-define)
 

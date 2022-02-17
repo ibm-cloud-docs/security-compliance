@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-10-13"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: using the API, accessing the API, getting an access token, authenticating, authentication, access token, API key, account information, IAM access token
 
@@ -87,4 +87,4 @@ To work with the {{site.data.keyword.compliance_full}} APIs, you must first crea
 
    To find your account ID in the {{site.data.keyword.cloud_notm}} console, go to **Manage > Account** and select **Account settings**. In the Account section, copy the ID value that is associated with your account.
 
-Now you have the needed information to make a request to the [Configuration API](https://{DomainName}/apidocs/security-compliance/config){: external}.
+Now you have the needed information to make a request to the [Configuration API](https://{DomainName}/apidocs/security-compliance-config){: external}.

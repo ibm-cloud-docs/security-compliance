@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-11-23"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: available insights rules, Activity Insights, Network Insights, iks, key protect, kms, rules, app id, iam, cos, certificates, bucket, object storage,
 
@@ -142,7 +142,7 @@ Identity and Access Management enables you to securely authenticate users for pl
 | Rule          |  Finding Type     |  Description     |
 |:--------------|:------------------|:-----------------|
 | `Very high risk IAM activity` | `ata-iam-sec-conf` | Reports when any one of the following is observed:  \n A member is added to an access group.  \n A rule is added to an access group.  \n A rule name is modified.  \n An API key for a service ID is created.  \n An API key is created.  \n A policy to a user or access group is added.  \n A policy that is assigned to a user or access group is deleted. |
-| `Failed logins per account exceed threshold within time window` | `ata-account-failed-login-attempts` | Reports when within a 30 minute time window more than 100 login attempts fail. The login attempts can be one of the following:  \n When a user logs in to the IBM Cloud by using an API key.  \n When logging in to the IBM Cloud by using an API key that is associated with a service ID.  \n When requesting an identity cookie to run an action.   \n When logging in to the IBM Cloud or requests a new refresh token to run an action when already logged in to the IBM Cloud. |
+| `Failed logins per account exceed threshold within time window` | `ata-account-failed-login-attempts` | Reports when within a 30 minute time window more than 100 login attempts fail. The login attempts can be one of the following:  \n When a user logs in to the IBM Cloud by using an API key.  \n When logging in to the IBM Cloud by using an API key that is associated with a service ID.  \n When requesting an identity cookie to run an action.  \n When logging in to the IBM Cloud or requests a new refresh token to run an action when already logged in to the IBM Cloud. |
 | `Account reads exceed threshold within time window` | `ata-account-iam-reads-threshold` | Reports when within a 30 minutes time window more than 100 read events are observed. These read events include:  \n Checking a member's membership.  \n Viewing a rule in an access group.  \n Looking at information that is related with access groups. |
 | `Account delete outside change control window` | `ata-iam-delete-account-threshold` | Reports a delete event is observed occurring between 1700 and 0800 (next day). The delete event may be any of the following:  \n Deleting an access group.  \n Removing a member from an access group.  \n Deleting a rule from an access group.  \n Deleting a service ID.  \n Deleting an API key.  \n Deleting an API key for a service ID.  \n Modifying permissions to a policy of a user or access group |
 | `Account delete exceed threshold within time window` | `ata-iam-delete-ccw` | Reports a delete event is observed occurring between 1700 and 0800 (next day). The delete event may be any of the following:  \n Deleting an access group.  \n Removing a member from an access group.  \n Deleting a rule from an access group.  \n Deleting a service ID.  \n Deleting an API key.  \n Deleting an API key for a service ID.  \n Modifying permissions to a policy of a user or access group. |
@@ -172,7 +172,7 @@ Kubernetes Service helps you to deploy highly available containerized apps in a 
 
 | Rule          |  Finding Type     |  Description     |
 |:--------------|:------------------|:-----------------|
-| `Very high risk Kubernetes Service activity` | `ata-iks-high-risk` | Reports when one of the following behaviors are observed:  \n A public or private ALB is created in the cluster.  \n An existing IBM Cloud infrastructure subnet is added to a cluster. </li> <li>Public endpoint is enabled for a cluster. </li> <li>A subnet is created for public endpoint.</li> <li>Enables the private service endpoint allowlist feature for a cluster.</li> <li>Add/Remove subnets from a cluster's private service endpoint allowlist.</li> <li>Cluster is accessed via Kubernetes native dashboard, web terminal |
+| `Very high risk Kubernetes Service activity` | `ata-iks-high-risk` | Reports when one of the following behaviors are observed:  \n A public or private ALB is created in the cluster.  \n An existing IBM Cloud infrastructure subnet is added to a cluster.  \n Public endpoint is enabled for a cluster.  \n A subnet is created for public endpoint.  \n Enables the private service endpoint allowlist feature for a cluster.  \n Add or remove subnets from a cluster's private service endpoint allowlist.  \n Cluster is accessed via Kubernetes native dashboard, web terminal |
 | `Kubernetes Service change to logging detected` | `ata-iks-logging-change` | Reports when changes to logging settings occur. These changes include the following:  \n A logging filter is created.  \n A logging filter is updated.  \n A log forwarding configuration is created.  \n An API key is created.  \n A log forwarding configuration is deleted.  \n A log forwarding configuration is refreshed. |
 | `Indicative IKS API exceed threshold within time window` | `ata-iks-indicative-api-threshold` |  Reports when within 30 minutes more than 10 worker nodes are updated. |
 | `Indicative IKS API outside of change control window` | `ata-iks-indicative-api-ccw` | Reports when a worker node is updated between 1700 and 0800 (next day). |

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-01-31"
+lastupdated: "2022-02-17"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -49,6 +49,14 @@ content-type: release-note
 # Release notes for {{site.data.keyword.compliance_full}}
 {: #release-notes}
 
+
+
+## 17 February 2022
+{: #security-compliance-feb1722}
+{: release-note}
+
+New service available in Configuration Governance
+:   VPN for Virtual Private Cloud is now available as part of the Configuration Governance component. You can create guardrails for VPN for VPC such as enforcing specific IPsec and IKE policies for authentication and encryption. For more information about the integration, see [the VPC docs](/docs/vpc?topic=vpc-manage-security-compliance).
 
 
 
@@ -173,11 +181,11 @@ New Posture Management API endpoints
 Consolidated SDK package
 :   To make it easier to programmatically access the API from your code, {{site.data.keyword.compliance_short}} SDK packages are now available. The SDKs implement best practices for using the API and reduces the amount of code that you need to write. For more information, see the documentation for the following APIs:
 
-* [Admin](https://{DomainName}/apidocs/security-compliance/admin)
-* [Configuration Governance](https://{DomainName}/apidocs/security-compliance/config)
+* [Admin](https://{DomainName}/apidocs/security-compliance-admin)
+* [Configuration Governance](https://{DomainName}/apidocs/security-compliance-config)
 * [Posture Management](https://{DomainName}/apidocs/security-compliance/posture)
-* [Findings](https://{DomainName}/apidocs/security-compliance/findings)
-* [Notifications](https://{DomainName}/apidocs/security-compliance/si-notifications)
+* [Findings](https://{DomainName}/apidocs/security-compliance-findings)
+* [Notifications](https://{DomainName}/apidocs/security-compliance-si-notifications)
 
 Documentation update
 :   With this release we've completed the integration of the Security Insights, formerly known as {{site.data.keyword.security-advisor_short}}, documentation into the {{site.data.keyword.compliance_short}} docs. You can now find the documentation for all three components in the {{site.data.keyword.compliance_short}} documentation.
@@ -250,7 +258,7 @@ An update to the Security Insights notifications API
 Customize default values for your resources
 :   Looking for more options to help you govern {{site.data.keyword.cloud_notm}} resources? With {{site.data.keyword.compliance_short}}, you can now create templates that define your preferred property values for target resources in your selected {{site.data.keyword.cloud_notm}} accounts. After you create a template and attach it to a scope, your customized defaults override the default values that are provided by IBM.
 
-   To get started with templates, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Govern resources > Configure > Templates**, or check out the [API reference](/apidocs/security-compliance/config) to learn more about creating templates programmatically.
+   To get started with templates, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Govern resources > Configure > Templates**, or check out the [API reference](/apidocs/security-compliance-config) to learn more about creating templates programmatically.
 
    For more information, see [What is Configuration Governance?](/docs/security-compliance?topic=security-compliance-what-is-governance)
 

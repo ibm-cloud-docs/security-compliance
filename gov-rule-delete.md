@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-11-22"
+  years: 2020, 2022
+lastupdated: "2022-02-10"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -89,5 +89,5 @@ curl -X DELETE \
 ```
 {: codeblock}
 
-A successful `DELETE config/v1/rules/{rule_ID}` response returns a `204 No Content` status code to indicate that your rule was successfully deleted. For more information about the required and optional request parameters, see [Delete a rule](/apidocs/security-compliance/config#delete-rule).
+A successful `DELETE config/v1/rules/{rule_ID}` response returns a `204 No Content` status code to indicate that your rule was successfully deleted. For more information about the required and optional request parameters, see [Delete a rule](/apidocs/security-compliance-config#delete-rule).
 
