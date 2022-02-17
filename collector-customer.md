@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-02-17"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -62,7 +62,7 @@ Before you get started, be sure that you have the level of access that is necess
 ### Verifying installation requirements
 {: #before-collector-verify}
 
-You can install a collector on a cluster or a machine. To manually install a collector on a cluster, you must have access to an [{{site.data.keyword.cloud_notm}} {{site.data.keyword.containershort}}](/docs/containers) or a [Red Hat OpenShift on {{site.data.keyword.cloud_notm}}](/docs/openshift) cluster. To install a collector on a machine, you must have access to a server. That server must have the following minimum configuration requirements that are based on the type of machine that you are using.
+You can install a collector on a cluster or a machine. To manually install a collector on a cluster, you must have access to an [{{site.data.keyword.cloud_notm}} {{site.data.keyword.containershort}}](/docs/containers) or a [{{site.data.keyword.openshiftshort}} {{site.data.keyword.cloud_notm}}](/docs/openshift) cluster. To install a collector on a machine, you must have access to a server. That server must have the following minimum configuration requirements that are based on the type of machine that you are using.
 
 | Machine type | Minimum requirement | 
 |:-------------|:--------------------|
@@ -200,7 +200,7 @@ If your collector is successfully created, you receive the following response.
 ## Installing a collector
 {: #install-collector}
 
-You can choose to install a collector on a {{site.data.keyword.containershort}} or Red Hat OpenShift on {{site.data.keyword.cloud_notm}} cluster or on a virtual machine. 
+You can choose to install a collector on a {{site.data.keyword.containershort}} or {{site.data.keyword.openshiftshort}} on {{site.data.keyword.cloud_notm}} cluster or on a virtual machine. 
 
 ### Installing a collector on a cluster
 {: #install-collector-cluster}
@@ -208,7 +208,7 @@ You can choose to install a collector on a {{site.data.keyword.containershort}} 
 Complete the following steps to install a collector on a cluster.
 
 1. After you create a collector in the {{site.data.keyword.cloud_notm}} console, you are invited to download the collector. Be sure that you meet the prerequisites.
-2. Select **Download YAML file** to deploy the collector on an {{site.data.keyword.containershort}} or Red Hat OpenShift cluster. The registration key is included in the file.
+2. Select **Download YAML file** to deploy the collector on an {{site.data.keyword.containershort}} or {{site.data.keyword.openshiftshort}} cluster. The registration key is included in the file.
 3. Click **Download**. 
 4. In the YAML file, you can customize the following metadata to your specifications. 
 
@@ -234,7 +234,7 @@ Complete the following steps to install a collector on a cluster.
       ```
       {: codeblock}
 
-   * Run the following command if you are deploying your collector on an Red Hat OpenShift cluster to deploy your collector. 
+   * Run the following command if you are deploying your collector on an {{site.data.keyword.openshiftshort}} cluster to deploy your collector. 
 
       ```sh
       ibmcloud oc cluster config --cluster <cluster_name_or_ID> --admin
@@ -250,7 +250,7 @@ Complete the following steps to install a collector on a cluster.
       ```
       {: codeblock}
 
-   * Run the following command if you are using an Red Hat OpenShift cluster. 
+   * Run the following command if you are using an {{site.data.keyword.openshiftshort}} cluster. 
 
       ```sh
       OC apply -f <deployment-testdocumentation>.yaml

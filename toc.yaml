@@ -192,4 +192,5 @@ toc:
           - troubleshooting/ts-sa-blocked.md
           - troubleshooting/ts-results-osco.md
           - troubleshooting/ts-notifications.md
+          - troubleshooting/ts-satellite.md
       - limits.md
