@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-15"
+lastupdated: "2022-02-17"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials, ibm managed collector, ibm managed
 
@@ -66,9 +66,8 @@ A managed collector can support up to 3000 resources per customer. If your organ
 ### Updating your IP address restrictions
 {: #before-collector-ip-address}
 
-If the account in which you'd like to install your collector restricts access to specific IP addresses, to collect data, you must also allow a list of IP addresses, along with your own IP address, in order for the managed collector to collect data. 
+If the account in which you want to install your collector restricts access to some IP addresses, you must allow access to the following list of addresses along with your own in order for the managed collector to gather data in that location. 
 
-Depending on your location, be sure to allow access to the following IP addresses. 
 
 | Location | IP addresses |
 | --- | --- |
