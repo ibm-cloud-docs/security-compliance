@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-02-23"
 
 keywords: scopes, accounts, resources, environments
 
@@ -58,6 +58,8 @@ When you're working with the {{site.data.keyword.compliance_short}}, you can nar
 
 Before you get started, be sure that you have the required level of access to view and manage scopes. To manage scopes, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
+
+
 ## Creating a scope
 {: #create-scope}
 
@@ -82,6 +84,10 @@ To narrow the focus of your scans, create a scope by using the {{site.data.keywo
 
 If you're working with a scope that requires more than one set of credentials to access the resources within it, be sure to [map your credentials](/docs/security-compliance?topic=security-compliance-credentials)
 {: tip}
+
+
+
+
 
 
 ## Editing a scope
