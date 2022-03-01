@@ -455,6 +455,7 @@ The rules always have an `outcome` of `success`. The field `severity` indicates 
 | true | true | normal |
 | true | false | warning |
 | false | false | critical |
+{: caption="Table 5. Severity based on rule impact" caption-side="top"}
 
 For more information, see [Formatting rules and templates](/docs/security-compliance?topic=security-compliance-formatting-rules-templates).
 
