@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-23"
+lastupdated: "2022-03-01"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -417,4 +417,50 @@ The following events are triggered by the Admin API calls for the {{site.data.ke
 {: caption="Table 4. List of events that apply to admin settings" caption-side="top"}
 
 
+
+
+## Analyzing events
+{: #at-events-analyze}
+
+Occasionally, additional information is included in the request and response data that can help you to parse the information that is captured by {{site.data.keyword.at_short}}. Check out the following use cases to learn more.
+
+
+
+### Rule evaluation events
+{: #at-rule-eval}
+
+In the {{site.data.keyword.compliance_short}}, you can decide whether to enforce the rules that you create or to simply monitor them. For example, if you create a rule that 
+
+For more information, see [Formatting rules and templates](/docs/security-compliance?topic=security-compliance-formatting-rules-templates).
+
+
+#### Rules are not enforced
+{: #at-rule-eval-not-enforced}
+
+
+In the {{site.data.keyword.compliance_short}}, you can decide whether to enforce the rules that you create or to simply monitor them. You can find the information in any of the following actions in the field `compliance.evaluationType`:
+
+- `compliance.configuration-governance-resource.eval`
+- `compliance.configuration-governance-rule.eval`
+
+The field `compliance.resource.serviceName` provides information on the service type tha is being evaluated.
+The field `compliance.resource.resourceKind` provides information on the type of resource that is being checked.
+The field `compliance.isAllowed` indicates whether he rule has an evaluationType of enforcement enabled or not.
+The field `compliance.isCompliant` indicates if the rule passed all the checks.
+
+The rules always have an `outcome` of `success`. The field `severity` indicates the impact of the rule evaluation in your account. See the following table to see how severity is returned.
+
+| isAllowed | isCompliant | severity |
+|--|--|--|
+| true | true | normal |
+| true | false | warning |
+| false | false | critical |
+
+For more information, see [Formatting rules and templates](/docs/security-compliance?topic=security-compliance-formatting-rules-templates).
+
+
+#### An attachment is created
+{: #at-rule-eval-attachment-create}
+
+When a rule is attached to a scope, you get an event in the account with the action `compliance.configuration-governance-attachments.create`. The action is always given the *warning* severity.
 
