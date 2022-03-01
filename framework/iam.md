@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-03-01"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -60,7 +60,7 @@ Policies enable access to be granted at different levels. Some of the options in
 ## Assigning roles in the console
 {: #assign-roles}
 
-As an account owner, you are automatically assigned Administrator platform access to the {{site.data.keyword.compliance_short}} so that you can further assign roles and customize access policies for others.
+As an account owner, you are automatically assigned Administrator platform access to the {{site.data.keyword.compliance_short}} so that you can further assign roles and customize access policies for others. Depending on the feature that you work with, you might need to assign roles for {{site.data.keyword.security-advisor_short}} in addition to the {{site.data.keyword.compliance_short}}.
 
 To assign access, you can use the **Access (IAM)** section of the console.
 
@@ -68,14 +68,23 @@ To assign access, you can use the **Access (IAM)** section of the console.
 2. After you create a group and add users, go to the **Manage > Access (IAM) > Access Groups** page of the console.
 3. Select a table row, and click the **Actions** icon ![Actions icon](../../icons/actions-icon-vertical.svg) to open a list of options for that access group.
 4. From the options menu, click **Assign access**.
-5. Select **Account management**.
-6. From the list of services, select **{{site.data.keyword.compliance_short}}**.
-7. Enter the compliance component that you want to assign access to.
-   1. To assign access for using profiles to [monitor accounts for compliance](#compliance-roles), enter _posture-management_.
-   2. To assign access for using rules to [govern the use of resources](#governance-roles), enter _configuration-governance_.
-8. Choose a combination of [platform access roles](#iam-roles) to assign to the user.
-9. Click **Add**.
-10. Review your selections and click **Assign**.
+5. Assign {{site.data.keyword.compliance_short}} roles.
+   1. Select **Account management**.
+   2. From the list of services, select **{{site.data.keyword.compliance_short}}**.
+   3. Enter the compliance component that you want to assign access to.
+      * To assign access for using profiles to [monitor accounts for compliance](#compliance-roles), enter _posture-management_.
+      * To assign access for using rules to [govern the use of resources](#governance-roles), enter _configuration-governance_.
+   4. Choose a combination of [platform access roles](#iam-roles) to assign to the user.
+   5. Click **Add**.
+5. Assign {{site.data.keyword.security-advisor_short}} roles.
+   1. Select **IAM services**.
+   2. From the list of services, select **{{site.data.keyword.security-advisor_short}}**.
+   3. Choose whether to give access to all resources or a subset based on attributes.
+   4. Choose a combination of [platform and service access roles](#insights-roles) to assign to the user.
+   5. Click **Add**.
+6. Review your selections and click **Assign**.
+
+
 
 ## Roles and permissions
 {: #iam-roles}
@@ -280,7 +289,7 @@ For more information about assigning user roles in the console, see [Managing ac
 ### Roles for Security Insights
 {: #insights-roles}
 
-The following events are triggered by the Security Insights component of the {{site.data.keyword.compliance_short}}.
+The following events are triggered by the Security Insights component of the {{site.data.keyword.compliance_short}}. The Security Insights component was formerly known as the Security Advisor service.
 
 | Action                                   | Description                    | Role                    |
 | :--------------------------------------- | :----------------------------- | :---------------------- |

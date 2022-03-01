@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-02-23"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -86,7 +86,7 @@ You can use the {{site.data.keyword.compliance_short}} to monitor your resources
 * {{site.data.keyword.containershort_notm}}
 * {{site.data.keyword.cos_short}}
 * {{site.data.keyword.openshiftshort}}
-* {{site.data.keyword.security-advisor_short}}
+
 
 
 ## How do I attach a config rule to a profile?
@@ -116,7 +116,7 @@ Yes, you can create rules for services or resources that are not already provisi
 {: faq}
 {: support}
 
-Rules provide the ability to enforce conditions and actions around the configuration of a target resource. With rules, you can use the {{site.data.keyword.compliance_short}}] UI to monitor for configuration changes in your accounts so that you understand which resources are noncompliant to the rules that you have in place.
+Rules provide the ability to enforce conditions and actions around the configuration of a target resource. With rules, you can use the {{site.data.keyword.compliance_short}} UI to monitor for configuration changes in your accounts so that you understand which resources are noncompliant to the rules that you have in place.
 
 Templates help you to customize the default property values that are associated with an {{site.data.keyword.cloud_notm}} resource. By creating templates for resources in your accounts, you're able to override IBM-defined default values for a resource, such as a bucket in Cloud Object Storage, with your preferred values. For more information, see [What is Configuration Governance?](/docs/security-compliance?topic=security-compliance-what-is-governance).
 
