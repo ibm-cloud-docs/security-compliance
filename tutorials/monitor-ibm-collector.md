@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-01-19"
+lastupdated: "2022-03-02"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -123,35 +123,44 @@ The credentials that you add to the service must allow the collector to read you
 {: #monitor-ibm-scope}
 {: step}
 
-When you're working with the {{site.data.keyword.compliance_short}}, you can narrow the focus of your scans to a specific environment, region, or even resource. By creating scopes, you can determine your security and compliance score across a specific area of your business. 
+Target the resources that you want to validate by creating a scope and scheduling a scan. To create a scope, select an environment, select your collector, and select the credentials that are required to access your targeted resources. Then, you can schedule a scan to discover and validate your resource configurations.
 
-1. On the [**Manage Posture > Configure > Scopes** page](https://{DomainName}/security-compliance/scopes) of the {{site.data.keyword.compliance_short}}, click **Create**.
-2. Give your scope a meaningful name and description.
-3. Click **Next**. 
-4. Select an environment.
-5. Select the **Credentials** that provide access to the resources that you want to scan.
-6. Click **Next**.
-7. Select the **Collector** that you want to use.
-8. Click **Next**.
-9. Review the details of your scope and click **Create**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
+2. In **Manage Posture > Configure > Scopes**, click **Create**.
+3. Give your scope a name and description and then click **Next**.
 
+   Be sure to give a detailed name as you use this field later to configure scans and remediation.
+4. Select an **Evironment** from the drop-down list.
 
+   If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third party. Supported format for imported files is  `.json`. Max file size is 30 MB.
+5. From the **Credentials** drop-down, select a credential that you previously added to the service and then click **Next**.
 
-## Schedule a scan
-{: #monitor-ibm-scan}
-{: step}
+   If you have not yet added a credential, you can use the following steps to add one and then select it from the drop-down.
 
-To discover resources, assess their configuration, and validate their compliance against a predefined profile, you can schedule a validation scan.
+   1. Click **Create**. A side panel opens.
+   2. Provide a name and description.
+   3. Select a **Purpose** and then click **Next**.
+   4. Select a **Credential type**.
+   5. Provide the information that is requested. For more information about each type of secret, see [Understanding credentials](/docs/security-compliance?topic=security-compliance-permissions#understand-credentials).
+   6. Click **Create**.
+   7. Repeat step 5.
 
-1. On the[**Manage Posture > Configure > Scans** page](https://{DomainName}/security-compliance/scans) of the {{site.data.keyword.compliance_short}}, click **Schedule**. A side panel opens.
-2. Give your scan a meaningful name and description.
-3. Select **Validation**.
-4. Select the scope that you created in the previous step.
-5. Select one of the predefined profiles and click **Next**.
-6. Select the remediation preference. Options include automatic, approved, and none.
-7. Select the frequency at which you want the scan to run.
-8. Select when you want the scan to stop. Options include never, a specific number of scans, or on a set date.
-9. Click **Create**.
+6. From the table, select the [collector](/docs/security-compliance?topic=security-compliance-collector) or collectors that you want to use to gather configuration data and then click **Next**.
+8. Create an attachment between your scope and profile by scheduling a scan. 
+
+   1. Give your scan a name and description.
+   2. Select a **Scan type**.
+   3. From the **Profile** drop-down, select the profile that you want to use to evaluate your configuration.
+   4. **Enable** or **Disable** the profiles that are associated with your integrated resources. For more information about integrations see the [integrations tab of the UI](/security-compliance/integrations).
+   4. If applicable: Select a remediation type.
+
+      Only some environments are configured to provide automatic remediation. For more information, see [Remediating issues](/docs/security-compliance?topic=security-compliance-remediation).
+
+   5. The scan will automatically occur when the scope is created. To schedule additional scans select the **Frequency** at which you want them to be run and the date when you want the scan to **End**.
+
+9. Click **Next** and review your selections.
+10. Click **Create**. 
+
 
 
 ## Next steps

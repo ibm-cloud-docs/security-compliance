@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-17"
+lastupdated: "2022-03-02"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -49,6 +49,14 @@ content-type: release-note
 # Release notes for {{site.data.keyword.compliance_full}}
 {: #release-notes}
 
+
+
+## 1 March 2022
+{: #security-compliance-mar0122}
+{: release-note}
+
+Create scope flow updates
+:   The create scope flow is now updated in the GUI to include the scheduling of scans as part of the creation of a scope. To try out the new flow, see [the {{site.data.keyword.compliance_short}} UI](/security-compliance/scopes). 
 
 
 ## 17 February 2022

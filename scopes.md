@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-23"
+lastupdated: "2022-03-02"
 
 keywords: scopes, accounts, resources, environments
 
@@ -58,36 +58,45 @@ When you're working with the {{site.data.keyword.compliance_short}}, you can nar
 
 Before you get started, be sure that you have the required level of access to view and manage scopes. To manage scopes, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
-
-
-## Creating a scope
-{: #create-scope}
-
-To narrow the focus of your scans, create a scope by using the {{site.data.keyword.compliance_short}} UI.
-
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the **Manage Posture** section of the navigation, click **Configure > Scopes**.
-3. Click **Create**.
-4. Give your scope a name and description.
+2. In **Manage Posture > Configure > Scopes**, click **Create**.
+3. Give your scope a name and description and then click **Next**.
 
-   Be sure to give a descriptive name as you use this field later to configure scans and remediation.
-
-5. Select an environment. Options include Amazon Web Services, Microsoft Azure, IBM Cloud, Google Cloud Platform, and On-premises.
+   Be sure to give a detailed name as you use this field later to configure scans and remediation.
+4. Select an **Evironment** from the drop-down list.
 
    If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third party. Supported format for imported files is  `.json`. Max file size is 30 MB.
-6. Select the **Credentials** that match the collector that you selected in the previous step.
-7. Click **Next**.
-8. Select the **Collector** that you want to use.
-9. Click **Next**.
-10. Review the resources that you want to scan.
-11. Click **Create**.
+5. From the **Credentials** drop-down, select a credential that you previously added to the service and then click **Next**.
 
-If you're working with a scope that requires more than one set of credentials to access the resources within it, be sure to [map your credentials](/docs/security-compliance?topic=security-compliance-credentials)
+   If you have not yet added a credential, you can use the following steps to add one and then select it from the drop-down.
+
+   1. Click **Create**. A side panel opens.
+   2. Provide a name and description.
+   3. Select a **Purpose** and then click **Next**.
+   4. Select a **Credential type**.
+   5. Provide the information that is requested. For more information about each type of secret, see [Understanding credentials](/docs/security-compliance?topic=security-compliance-permissions#understand-credentials).
+   6. Click **Create**.
+   7. Repeat step 5.
+
+6. From the table, select the [collector](/docs/security-compliance?topic=security-compliance-collector) or collectors that you want to use to gather configuration data and then click **Next**.
+8. Create an attachment between your scope and profile by scheduling a scan.
+
+   1. Give your scan a name and description.
+   2. Select a **Scan type**.
+   3. From the **Profile** drop-down, select the profile that you want to use to evaluate your configuration.
+   4. **Enable** or **Disable** the profiles that are associated with your integrated resources. For more information about integrations see the [integrations tab of the UI](/security-compliance/integrations).
+   4. If applicable: Select a remediation type.
+
+      Only some environments are configured to provide automatic remediation. For more information, see [Remediating issues](/docs/security-compliance?topic=security-compliance-remediation).
+
+   5. The scan will automatically occur when the scope is created. To schedule additional scans select the **Frequency** at which you want them to be run and the date when you want the scan to **End**.
+
+9. Click **Next** and review your selections.
+10. Click **Create**. 
+
+
+If you're working with a scope that requires more than one set of credentials to access the resources within it, be sure to [map your credentials](/docs/security-compliance?topic=security-compliance-credentials).
 {: tip}
-
-
-
-
 
 
 ## Editing a scope
