@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-03-02"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance, cluster collector, Kubernetes, Red Hat OpenShift
 
@@ -145,7 +145,7 @@ Complete the following steps to install a collector on a cluster.
 {: #ibm-customer-collector-access}
 {: step}
 
-To run the scan, the collector must have *read* access to the resources that you want to scan. This access is granted through an {{site.data.keyword.cloud_notm}} API key. For more information about the security of your credentials, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
+To validate your resources, a collector must have *read* access to the resources that you want to scan. This access is granted through an {{site.data.keyword.cloud_notm}} API key. For more information about the security of your credentials, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
 
 1. Create an {{site.data.keyword.cloud_notm}} API key for a service ID.
 
@@ -164,40 +164,48 @@ To run the scan, the collector must have *read* access to the resources that you
    6. Select **{{site.data.keyword.cloud_notm}}** as the type of credential.
    7. Paste the API key that you created in the previous step and click **Create**.
 
-## Target your resources
+## Target your resources and validate your configurations
 {: #ibm-customer-collector-scope}
 {: step}
 
-To target the resources that you want your collector to validate, you create a scope. To do so, you select an environment, a collector, and a set of credentials. The collector uses the credentials to gather information from the resources that are available in the environment that you selected. 
+Target the resources that you want to validate by creating a scope and scheduling a scan. To create a scope, select an environment, select your collector, and select the credentials that are required to access your targeted resources. Then, you can schedule a scan to discover and validate your resource configurations.
 
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
+2. In **Manage Posture > Configure > Scopes**, click **Create**.
+3. Give your scope a name and description and then click **Next**.
 
-1. Go to the [**Manage posture > Configure > Scopes** tab](https://{DomainName}/security-compliance/scopes) and click **Create**.
-2. Give your scope a meaningful name. For example, `ibm-cloud-compliance`.
-3. Click **Next**.
-4. From the **Environment** dropdown, select **{{site.data.keyword.cloud_notm}}**.
-5. From the **Credentials** dropdown, select the credential that you previously added. Then, click **Next**.
-6. From the table, select the **Collector** that you previously installed. Then, click **Next**.
-7. Review your choices and click **Create**.
+   Be sure to give a detailed name as you use this field later to configure scans and remediation.
+4. Select an **Evironment** from the drop-down list.
 
-After you create the scope, a discovery scan is run to inventory your available resources.
+   If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third party. Supported format for imported files is  `.json`. Max file size is 30 MB.
+5. From the **Credentials** drop-down, select a credential that you previously added to the service and then click **Next**.
 
+   If you have not yet added a credential, you can use the following steps to add one and then select it from the drop-down.
 
-## Validate your configurations
-{: #ibm-customer-collector-scan}
-{: step}
+   1. Click **Create**. A side panel opens.
+   2. Provide a name and description.
+   3. Select a **Purpose** and then click **Next**.
+   4. Select a **Credential type**.
+   5. Provide the information that is requested. For more information about each type of secret, see [Understanding credentials](/docs/security-compliance?topic=security-compliance-permissions#understand-credentials).
+   6. Click **Create**.
+   7. Repeat step 5.
 
-When your resources and their configurations are discovered, you're ready to validate the configurations. To validate your configurations, you schedule a scan. To do so, you select the scope that you created and choose a profile to validate it against. A profile is a collection of compliance goals and best practices are predefined by {{site.data.keyword.cloud_notm}} or external regulators.
+6. From the table, select the [collector](/docs/security-compliance?topic=security-compliance-collector) or collectors that you want to use to gather configuration data and then click **Next**.
+8. Create an attachment between your scope and profile by scheduling a scan. 
 
+   1. Give your scan a name and description.
+   2. Select a **Scan type**.
+   3. From the **Profile** drop-down, select the profile that you want to use to evaluate your configuration.
+   4. **Enable** or **Disable** the profiles that are associated with your integrated resources. For more information about integrations see the [integrations tab of the UI](/security-compliance/integrations).
+   4. If applicable: Select a remediation type.
 
-1. Go to the [**Manage posture > Configure > Scans** tab](https://{DomainName}/security-compliance/scans) and click **Schedule**.
-2. Give your scan a meaningful name. For example, `ibm-cloud-scan-daily`.
-3. For **Scan type**, select **Validation**.
-4. From the **Scope** dropdown, select the scope that you previously created.
-5. From the **Profile** dropdown, select the **{{site.data.keyword.cloud_notm}} Best Practices Controls 1.0**.
-6. Click **Next**.
-7. Select the frequency that you want your scan to run. It is automatically set to 1 day.
-8. Specify when you want the scan end. The scan can run daily indefinitely, a specific number of times, or it can stop on a specific date.
-9. Click **Create**.
+      Only some environments are configured to provide automatic remediation. For more information, see [Remediating issues](/docs/security-compliance?topic=security-compliance-remediation).
+
+   5. The scan will automatically occur when the scope is created. To schedule additional scans select the **Frequency** at which you want them to be run and the date when you want the scan to **End**.
+
+9. Click **Next** and review your selections.
+10. Click **Create**. 
+
 
 
 ## Next steps
