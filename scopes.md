@@ -58,6 +58,11 @@ When you're working with the {{site.data.keyword.compliance_short}}, you can nar
 
 Before you get started, be sure that you have the required level of access to view and manage scopes. To manage scopes, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
+## Creating a scope
+{: #create-scope}
+
+To narrow the focus of your scans, create a scope by using the {{site.data.keyword.compliance_short}} UI.
+
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In **Manage Posture > Configure > Scopes**, click **Create**.
 3. Give your scope a name and description and then click **Next**.
