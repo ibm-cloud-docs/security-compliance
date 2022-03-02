@@ -48,7 +48,7 @@ subcollection: security-compliance
 # Customizing goals
 {: #custom-goals}
 
-With the  {{site.data.keyword.compliance_long}}, you can update the default parameters that are associated with the goals within each predefined profile. When you change a parameter, it affects all of the goals in that profile.
+With the {{site.data.keyword.compliance_long}}, you can update the default parameters that are associated with the goals within each predefined profile. When you change a parameter, it affects all of the goals in that profile.
 {: shortdesc}
 
 
@@ -65,7 +65,7 @@ Before you get started, be sure that you have the required level of access to cu
 To update the default parameters for the goals that you use, you can use the {{site.data.keyword.compliance_short}} UI.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, in the **Mange posture** section, click **Configure > Goals**.
+2. In the navigation, in the **Manage posture** section, click **Configure > Goals**.
 3. Select the **Parameters** tab.
 4. In the **Parameters** table, select the profile that you want to customize. 
 5. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) and click **Edit**.
