@@ -67,10 +67,10 @@ To update the default parameters for the goals that you use, you can use the {{s
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, in the **Mange posture** section, click **Configure > Goals**.
 3. Select the **Parameters** tab.
-4. In the **Parameters** table, select the goal that you want to customize. 
+4. In the **Parameters** table, select the profile that you want to customize. 
 5. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) and click **Edit**.
-5. Update the parameters that you want to customize.
-6. To save your changes, click **Update**.
+6. Update the parameters that you want to customize.
+7. To save your changes, click **Update**.
 
 If you make an accidental change, you can click **Revert** to return all of the profiles back to default.
 {: tip}
