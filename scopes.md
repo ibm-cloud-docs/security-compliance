@@ -58,6 +58,11 @@ When you're working with the {{site.data.keyword.compliance_short}}, you can nar
 
 Before you get started, be sure that you have the required level of access to view and manage scopes. To manage scopes, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
+## Creating a scope
+{: #create-scope}
+
+To narrow the focus of your scans, create a scope by using the {{site.data.keyword.compliance_short}} UI.
+
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In **Manage Posture > Configure > Scopes**, click **Create**.
 3. Give your scope a name and description and then click **Next**.
@@ -79,7 +84,7 @@ Before you get started, be sure that you have the required level of access to vi
    7. Repeat step 5.
 
 6. From the table, select the [collector](/docs/security-compliance?topic=security-compliance-collector) or collectors that you want to use to gather configuration data and then click **Next**.
-8. Create an attachment between your scope and profile by scheduling a scan.
+7. Create an attachment between your scope and profile by scheduling a scan.
 
    1. Give your scan a name and description.
    2. Select a **Scan type**.
@@ -91,8 +96,8 @@ Before you get started, be sure that you have the required level of access to vi
 
    5. The scan will automatically occur when the scope is created. To schedule additional scans select the **Frequency** at which you want them to be run and the date when you want the scan to **End**.
 
-9. Click **Next** and review your selections.
-10. Click **Create**. 
+8. Click **Next** and review your selections.
+9. Click **Create**. 
 
 
 If you're working with a scope that requires more than one set of credentials to access the resources within it, be sure to [map your credentials](/docs/security-compliance?topic=security-compliance-credentials).
