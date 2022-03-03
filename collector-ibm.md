@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-17"
+lastupdated: "2022-03-02"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials, ibm managed collector, ibm managed
 
@@ -104,7 +104,7 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
 
 10. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
 
-When your collector is ready, the status updates to **Active**.
+When it's time for your scan to run, the status updates to **Active**.
 
 ## Creating a managed collector with the API
 {: #create-managed-collector-api}
