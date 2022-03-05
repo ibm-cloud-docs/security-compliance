@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-03-05"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -133,7 +133,7 @@ curl POST 'https://{region}.compliance.cloud.ibm.com/posture/v2/credentials?acco
 | `display_fields` | The details of the credential. The details change as the selected credential type varies. |
 {: caption="Table 1. Understanding the variables used to create a credential with the API" caption-side="top"}
 
-For more information about the associated status codes and the query and form request parameters, see [create a credential](/apidocs/security-compliance/posture#create-credential). 
+For more information about the associated status codes and the query and form request parameters, see [create a credential](/apidocs/security-compliance/posture-v2.0#create-credential). 
 
 A successful `POST /posture/v2/credentials` response returns the unique ID of your credential, along with other metadata. If your credential was successfully created, your response might look similar to the following code snippet. 
 
