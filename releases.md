@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-02"
+lastupdated: "2022-03-05"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -56,7 +56,7 @@ content-type: release-note
 {: release-note}
 
 Create scope flow updates
-:   The create scope flow is now updated in the GUI to include the scheduling of scans as part of the creation of a scope. To try out the new flow, see [the {{site.data.keyword.compliance_short}} UI](/security-compliance/scopes). 
+:   The create scope flow is now updated in the GUI to include the scheduling of scans as part of the creation of a scope. To try out the new flow, see [the {{site.data.keyword.compliance_short}} UI](/security-compliance/scopes){: external}. 
 
 
 ## 17 February 2022
@@ -184,16 +184,16 @@ New goals
 {: release-note}
 
 New Posture Management API endpoints
-:   With this release there are 9 new API endpoints available for the Posture Management API. To get started, see the [Posture Management API documentation](https://{DomainName}/apidocs/security-compliance/posture).
+:   With this release there are 9 new API endpoints available for the Posture Management API. To get started, see the [Posture Management API documentation](/apidocs/security-compliance/posture){: external}.
 
 Consolidated SDK package
 :   To make it easier to programmatically access the API from your code, {{site.data.keyword.compliance_short}} SDK packages are now available. The SDKs implement best practices for using the API and reduces the amount of code that you need to write. For more information, see the documentation for the following APIs:
 
-* [Admin](https://{DomainName}/apidocs/security-compliance-admin)
-* [Configuration Governance](https://{DomainName}/apidocs/security-compliance-config)
-* [Posture Management](https://{DomainName}/apidocs/security-compliance/posture)
-* [Findings](https://{DomainName}/apidocs/security-compliance-findings)
-* [Notifications](https://{DomainName}/apidocs/security-compliance-si-notifications)
+* [Admin](/apidocs/security-compliance-admin){: external}
+* [Configuration Governance](/apidocs/security-compliance-config){: external}
+* [Posture Management](/apidocs/security-compliance/posture){: external}
+* [Findings](/apidocs/security-compliance-findings){: external}
+* [Notifications](/apidocs/security-compliance-si-notifications){: external}
 
 Documentation update
 :   With this release we've completed the integration of the Security Insights, formerly known as {{site.data.keyword.security-advisor_short}}, documentation into the {{site.data.keyword.compliance_short}} docs. You can now find the documentation for all three components in the {{site.data.keyword.compliance_short}} documentation.
