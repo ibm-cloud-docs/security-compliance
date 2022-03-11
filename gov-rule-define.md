@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-10"
+lastupdated: "2022-03-11"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -163,9 +163,4 @@ A successful `POST config/v1/rules` response returns the ID value for your rule,
 
 After you create a rule, you can view it by using the API. For more information about the required and optional request parameters, see [List rules](/apidocs/security-compliance-config#list-rules).
 
-
-## Next steps
-{: #rule-next}
-
-Now that you've defined a rule, be sure that you [attach it to a scope](/docs/security-compliance?topic=security-compliance-rules-apply) in order to apply it.
 
