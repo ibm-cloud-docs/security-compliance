@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-10"
+lastupdated: "2022-03-11"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -58,7 +58,7 @@ content-type: release-note
 Create rule flow updates
 :   When you create a rule by using the console, the flow now includes the attachment of a scope. To try out the new flow, see [the {{site.data.keyword.compliance_short}} UI](/security-compliance/rules){: external}.
 
-Quick Start
+Quick start: Posture Management
 :   The {{site.data.keyword.compliance_short}} UI has been updated to include more information in the overview page as well as a new Quick Start wizard for the Posture Management component of the service. To try it out, see [the {{site.data.keyword.compliance_short}} UI](/security-compliance/overview){: external}.
 
 
