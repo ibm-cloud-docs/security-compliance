@@ -1,6 +1,7 @@
 toc:
   properties:
     subcollection: security-compliance
+    service-name: compliance
     category: platform_services
     audience: platform
     href: /docs/security-compliance
