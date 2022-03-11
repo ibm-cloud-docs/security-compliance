@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-03-05"
+lastupdated: "2022-03-10"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection, alerts, callback URL, compliance, standards, roles, notification channel, verify payload, public key
 
@@ -203,7 +203,7 @@ You can create up to 15 channels.
    ```
    {: codeblock}
 
-To edit your channel configuration, you can make an API call to the [`/update endpoint`](/apidocs/security-compliance/si-notifications?code=python#updatenotificationchannel){: external}.
+To edit your channel configuration, you can make an API call to the [`/update endpoint`](/apidocs/security-compliance-si-notifications?code=python#updatenotificationchannel){: external}.
 {: tip}
 
 

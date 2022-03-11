@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-05"
+lastupdated: "2022-03-10"
 
 keywords: scopes, accounts, resources, environments
 
@@ -68,9 +68,11 @@ To narrow the focus of your scans, create a scope by using the {{site.data.keywo
 3. Give your scope a name and description and then click **Next**.
 
    Be sure to give a detailed name as you use this field later to configure scans and remediation.
+   
 4. Select an **Evironment** from the drop-down list.
 
    If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third party. Supported format for imported files is  `.json`. Max file size is 30 MB.
+
 5. From the **Credentials** drop-down, select a credential that you previously added to the service and then click **Next**.
 
    If you have not yet added a credential, you can use the following steps to add one and then select it from the drop-down.
@@ -94,11 +96,11 @@ To narrow the focus of your scans, create a scope by using the {{site.data.keywo
 
       Only some environments are configured to provide automatic remediation. For more information, see [Remediating issues](/docs/security-compliance?topic=security-compliance-remediation).
 
-   5. The scan will automatically occur when the scope is created. To schedule additional scans select the **Frequency** at which you want them to be run and the date when you want the scan to **End**.
+   5. Select the **Frequency** at which you want your scans to run and click **Next**.
 
-8. Click **Next** and review your selections.
-9. Click **Create**. 
+      The scan wilil automatically begin scanning when the scope is created. To change your frequency or stop your scans, you can update the scan on the **Scans** page.
 
+8. Review your selections and click **Create**.
 
 If you're working with a scope that requires more than one set of credentials to access the resources within it, be sure to [map your credentials](/docs/security-compliance?topic=security-compliance-credentials).
 {: tip}

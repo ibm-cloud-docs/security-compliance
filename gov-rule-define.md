@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-15"
+lastupdated: "2022-03-10"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -61,82 +61,45 @@ To learn more about the different components of a rule, see [Formatting rules an
 
 Before you get started, be sure that you have the required level of access to view and manage rules. To create a template, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). You must also have an instance of {{site.data.keyword.at_short}} that exists in the same region in which you provision your resources.
 
-
+When you create a rule for a service, you give the {{site.data.keyword.compliance_short}} permission to access the configuration details for services instances that are provisioned in your account.
+{: note}
 
 ## Creating rules in the UI
 {: #create-rules-ui}
 {: ui}
 
-You can use the {{site.data.keyword.compliance_short}} UI to define the rules that you want to enforce or monitor for your {{site.data.keyword.cloud_notm}} resources. To create rules by using the {{site.data.keyword.cloud_notm}} console, use the following steps as a guide.
+You can use the {{site.data.keyword.compliance_short}} UI to define the rules that you want to enforce or monitor for your {{site.data.keyword.cloud_notm}} resources. To create rules by using the {{site.data.keyword.cloud_notm}} console, you can either use the rule builder or edit the JSON directly. For more information about the make-up of a rule, see [Formatting rules and templates](/docs/security-compliance?topic=security-compliance--formatting-rules-template).
 
-When you create a rule for a service, you give the {{site.data.keyword.compliance_short}} permission to access the configuration details for services instances that are provisioned in your account.
-{: note}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
-2. In the navigation, click **Configure rules**.
-3. Click **Create**.
-4. Give your rule a meaningful name and description.
-5. Optional: Add one or more labels that you can use to organize and search for similar rules.
-6. Click **Next**.
-7. Select the service and resource kind that you want to target.
-8. Use the JSON editor to set configuration properties for the rule.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure > rules**, and click **Create**.
+3. Give your rule a meaningful name and description.
+4. Optional: Add one or more labels that you can use to organize and search for similar rules and click **Next**.
+5. Target your resource.
+   1. From the **Target service** drop-down, select a service. For example, *Cloud Object Storage*.
+   2. From the **Resource kind** drop-down, select the type of resource that you want to create a rule for. For example, *bucket*.
+   3. Optional: Add additional target attributes to further qualify the resources that you want to target.
 
-   For example, if you wanted to create a rule that prohibited access to a specific bucket unless the request came from a private endpoint, it might look similar to the following code snippet.
+      For example, to target all of your Cloud Object Storage buckets in the US South location, you would make the following selections: **Attribute**: `Location`, **Value**: `string_equals`, and enter `us_south` for **Value**.
+   4. Click **Add to rule**.
+6. Configure your properties. To add additional properties to your rule, repeat this step. You can select up to 5 different conditions and 16 properties to create your rule.
 
-   ```json
-   {
-      "target": {
-         "service_name": "cloud-object-storage",
-         "resource_kind": "bucket",
-         "additional_target_attributes": [
-         {
-            "name": "resource_id",
-            "operator": "string_equals",
-            "value": "My_bucket"
-         }
-         ]
-      },
-      "required_config": {
-         "description": "Check whether my bucket is accessible by using only private endpoints.",
-         "and": [
-         {
-            "property": "firewall.allowed_network_type",
-            "operator": "strings_in_list",
-            "value": [
-               "private"
-            ]
-         }
-         ]
-      }
-   }
-   ```
-   {: screen}
+   To see all of the properties that are available for the service that you selected, you can click **Available Properties** in the **Definition** step. To see the available properties for all integrated services, see [Available properties](/docs/security-compliance?topic=security-compliance-available-rule-properties).
+  {: tip}
 
-   | Parameter | Description |
-   | --------- | ----------- |
-   | `service_name` | The service that you want to target with your rule. You select this field from a drop-down and it is automatically populated in your definition. |
-   | `resource_kind` | A specific part of the service that you want to target. |
-   | `additional_target_attributes` | An extra qualifier for the type of resource that you selected. |
-   | `operator` | The way in which an additional target attribute or property is evaluated against the specified value. For a full list of operators, see [Supported operators](/docs/security-compliance?topic=security-compliance-formatting-rules-templates#operators). |
-   | `value` | The way in which you want to apply your attribute or property. Value options differ depending on the rule that you configure. If you use a boolean operator, you do not need to include a value. |
-   | `required_config` | The requirements that must be met to determine the your resources level of compliance in accordance with the rule. You can use logical operators (`and`/`or`) to define multiple property checks and conditions. To define requirements for a rule, list one or more property check objects in the `and` array. To add conditions to a property check, use `or`. For more information about defining a rule with multiple conditions, see [Available properties](/docs/security-compliance?topic=security-compliance-available-rule-properties). |
-   | `property` | The individual resource configuration variable that follows the syntax `property_name`. Options are dependent upon the target that you choose and can be found in the UI. |
-   {: caption="Table 1. Rule parameters" caption-side="top"}
+   1. Select a **Condition**.
 
-9. If the rule is enforceable and you want to ensure it can't be broken, toggle enforcement to **On**.
-10. Click **Next**.
-11. Review your selections. To make an update, click **Back** to return to the section that you want to edit.
-12. Click **Finish and attach** to create your rule and [attach it to a scope](/docs/security-compliance?topic=security-compliance-rules-apply). If you're not ready to attach your rule, you can always save your rule and attach it later. But, your rule is not enforced until it is attached to a scope.
+      * **And**: When you select *And* as your condition, all of the property configurations that you add to your rule must evaluate to true in order for the rule to be compliant.
+      * **Or**: When you select *Or* as your condition, only part of your rule must evaluate to true for it to be compliant.
+   2. From the **Property** drop-down, select the property that you want to set a configuration for.
+   3. From the **Operator** drop-down, select an operator.
+   4. Input the **Value** that you want the rule to enforce or monitor.
+   5. Click **Add to rule**.
 
-When you create a rule, it can take up to 10 minutes to be in effect.
-{: note}
-
+7. If you want to enforce your rule, toggle **Enforcement** to **On**. If you only want to monitor the rule, toggle **Enforcement** to **Off**.
+8. Click **Next**.
+9. Review your selections and click **Create**.
 
 After you create a rule, you can view it by navigating to the {{site.data.keyword.compliance_short}} UI and selecting the rule that you want to view in the **Configuration rules** table. To see which scope attachments are associated with a rule, click **Attachments** in the navigation.
-
-
-
-
 
 ## Creating a rule with the API
 {: #create-rule-api}
