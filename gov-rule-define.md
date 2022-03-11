@@ -68,7 +68,7 @@ When you create a rule for a service, you give the {{site.data.keyword.complianc
 {: #create-rules-ui}
 {: ui}
 
-You can use the {{site.data.keyword.compliance_short}} UI to define the rules that you want to enforce or monitor for your {{site.data.keyword.cloud_notm}} resources. To create rules by using the {{site.data.keyword.cloud_notm}} console, you can either use the rule builder or edit the JSON directly. For more information about the make-up of a rule, see [Formatting rules and templates](/docs/security-compliance?topic=security-compliance--formatting-rules-template).
+You can use the {{site.data.keyword.compliance_short}} UI to define the rules that you want to enforce or monitor for your {{site.data.keyword.cloud_notm}} resources. To create rules by using the {{site.data.keyword.cloud_notm}} console, you can either use the rule builder or edit the JSON directly. For more information about the make-up of a rule, see [Formatting rules and templates](/docs/security-compliance?topic=security-compliance-formatting-rules-templates).
 
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure > rules**, and click **Create**.
