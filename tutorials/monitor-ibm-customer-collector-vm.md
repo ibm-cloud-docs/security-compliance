@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-05"
+lastupdated: "2022-03-14"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -55,7 +55,7 @@ completion-time: 30m
 {: toc-services="security-compliance, vpc"}
 {: toc-completion-time="30m"}
 
-In this tutorial, you learn how to use {{site.data.keyword.compliance_full}} to automate the compliance checks that your organization must complete.
+In this tutorial, you learn how to use {{site.data.keyword.compliance_full}} to automate the checks that your organization must complete to prove compliance.
 {: shortdesc}
 
 To scan and validate your resource configurations, a [collector](/docs/security-compliance?topic=security-compliance-collector) is used. Collectors act as an intermediary between your resources and the {{site.data.keyword.compliance_short}}, where the gathering and validation of your configurations is done. In this scenario, you are a developer who wants to validate your {{site.data.keyword.cloud_notm}} resources against defined best practices. Due to the security requirements of your organization, you are required to install the collector on infrastructure that is owned by your organization. You decide to use {{site.data.keyword.cloud_notm}} Virtual Private Cloud. 
@@ -72,6 +72,7 @@ To complete this tutorial, be sure that you have the following requirements:
 * A Pay-As-You-Go or Subscription [{{site.data.keyword.cloud_notm}} account](/docs/account?topic=account-account-getting-started) where you are the owner or have [full **Administrator** access](/docs/account?topic=account-assign-access-resources)
 * Docker
 * Resources in your {{site.data.keyword.cloud_notm}} account
+* An Instance of VPC in your {{site.data.keyword.cloud_notm}} account
 
 
 ## Set up your Virtual Private Cloud (VPC) Infrastructure
@@ -80,7 +81,7 @@ To complete this tutorial, be sure that you have the following requirements:
 
 Virtual Private Cloud gives you the ability to establish your own private cloud-like computing environment on shared public cloud infrastructure. You define and control a virtual network that is logically isolated from all other public cloud tenants. 
 
-If you already have a VPC that is configured with an SSH key, a VSI, and a floating IP, be sure that you know that information that then skip to step 2.
+If you already have a VPC that is configured with an SSH key, a VSI, and a floating IP, you can skip to step 2.
 {: note}
 
 1. Create a VPC.
@@ -230,12 +231,12 @@ To run the scan, the collector must have *read* access to the resources that you
 
 Target the resources that you want to validate by creating a scope and scheduling a scan. To create a scope, select an environment, select your collector, and select the credentials that are required to access your targeted resources. Then, you can schedule a scan to discover and validate your resource configurations.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In **Manage Posture > Configure > Scopes**, click **Create**.
 3. Give your scope a name and description and then click **Next**.
 
    Be sure to give a detailed name as you use this field later to configure scans and remediation.
-4. Select an **Evironment** from the drop-down list.
+4. Select an **Environment** from the drop-down list.
 
    If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third party. Supported format for imported files is  `.json`. Max file size is 30 MB.
 5. From the **Credentials** drop-down, select a credential that you previously added to the service and then click **Next**.
