@@ -72,7 +72,7 @@ To complete this tutorial, be sure that you have the following requirements:
 * A Pay-As-You-Go or Subscription [{{site.data.keyword.cloud_notm}} account](/docs/account?topic=account-account-getting-started) where you are the owner or have [full **Administrator** access](/docs/account?topic=account-assign-access-resources)
 * Docker
 * Resources in your {{site.data.keyword.cloud_notm}} account
-* An Instance of VPC in your {{site.data.keyword.cloud_notm}} account
+* An instance of VPC in your {{site.data.keyword.cloud_notm}} account
 
 
 ## Set up your Virtual Private Cloud (VPC) Infrastructure
