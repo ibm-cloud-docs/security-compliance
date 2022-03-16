@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-15"
+lastupdated: "2022-03-16"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -133,17 +133,17 @@ String-based operators are case-sensitive.
 | `num_greater_than_equals` | Numeric | The property value is numerically greater than or equal to the condition value. | Yes |
 {: caption="Table 3. Supported operator types" caption-side="top"}
 
-[^string_equals]: To include multiple values, use an array. For example, `{"value": ["A", "B," "C"]}`
+[^string_equals]: To include multiple values, use an array. For example, `{"value": ["A", "B," "C"]}`.
 
-[^string_not_equals]: To include multiple values, use an array. For example, `{"value": ["A", "B," "C"]}`
+[^string_not_equals]: To include multiple values, use an array. For example, `{"value": ["A", "B," "C"]}`.
 
 [^strings_in_list]: To create a rule with a property that supports the `strings_in_list` operator, include a list of strings for the `value` parameter. For example, `{"value": ["A", "B," "C"]}`.
 
 [^ips_in_range]: To create a rule with a property that supports the `ips_in_range` operator, include a list of CIDR or IP addresses for the `value` parameter. For example, `{"value": ["10.168.175.0/24", "2000:db8:ffff:ffff:ffff:ffff:ffff:ffff"]}`.
 
-[^num_equals]: To include multiple values, use an array. For example, `{"value": ["1", "2," "3"]}`
+[^num_equals]: To include multiple values, use an array. For example, `{"value": ["1", "2," "3"]}`.
 
-[^num_not_equals]: To include multiple values, use an array. For example, `{"value": ["1", "2," "3"]}`
+[^num_not_equals]: To include multiple values, use an array. For example, `{"value": ["1", "2," "3"]}`.
 
 ## Formatting complex rules
 {: #format-rules}

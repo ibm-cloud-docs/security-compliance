@@ -108,13 +108,8 @@ toc:
               topics:
               - integrations/osco.md
           - custom-findings.md
-      - topicgroup: 
-          label: Configuring notifications
-          topics:
-          - topic: framework/event-notifications.md
-            navtitle: Enabling event notifications
-          - topic: notifications.md
-            navtitle: "Deprecated: Configuring alerts"
+      - topic: framework/event-notifications.md
+        navtitle: Enabling event notifications
       - topicgroup:
           label: Managing your posture
           topics:
