@@ -30,6 +30,7 @@ toc:
             navtitle: With a customer-managed collector on a cluster
           - topic: tutorials/monitor-ibm-customer-collector-vm.md
             navtitle: With a customer-managed collector on a VM
+      - tutorials/scan-satellite.md
       - tutorials/custom-findings-nmap.md
 
   - navgroup:

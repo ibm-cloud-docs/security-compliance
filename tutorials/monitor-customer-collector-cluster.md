@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-05"
+lastupdated: "2022-03-23"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance, cluster collector, Kubernetes, Red Hat OpenShift
 
@@ -73,7 +73,7 @@ To complete this tutorial, be sure that you have the following requirements:
 * Resources in your {{site.data.keyword.cloud_notm}} account
 
 
-## Creating a collector
+## Create a collector
 {: #ibm-customer-collector-cluster-create}
 {: step}
 
@@ -95,7 +95,7 @@ A collector is a container image that you install on your Virtual Private Cloud.
 8. Click **Create**.
 
 
-## Installing a collector
+## Install a collector
 {: #customer-collector-install-cluster}
 {: step}
 
