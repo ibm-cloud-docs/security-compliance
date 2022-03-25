@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-23"
+lastupdated: "2022-03-25"
 
 keywords: Satellite, Scan resources, ROKS, OpenShift Compliance
 
@@ -55,17 +55,11 @@ completion-time: 15m
 {: toc-services="security-compliance, satellite"}
 {: toc-completion-time="30m"}
 
-In this tutorial, you learn how to use {{site.data.keyword.compliance_full}} to automate the compliance checks that your organization must complete for resources that run in {[sat-long]} locations.
+In this tutorial, you learn how to use {{site.data.keyword.compliance_full}} to automate the compliance checks that your organization must complete for {{site.data.keyword.openshiftshort}} clusters that run in {[sat-long]} locations.
 {: shortdesc}
 
-
-
-Learn about IBM Cloud Satellite® terminology, service architecture, and components.
-
-With IBM Cloud Satellite, you can create a hybrid environment that brings the scalability and on-demand flexibility of public cloud services to the applications and data that run in your secure private cloud. To achieve this distributed cloud architecture, Satellite provides an API-based suite of tools that you can use to represent your on-premises data center, a public cloud provider, or an edge network as a Satellite location. You fill the Satellite location with your own host machines that meet the minimum host requirements. Then, these hosts provide the compute power to run IBM Cloud services, such as workloads in managed Red Hat OpenShift clusters or data and artificial intelligence (AI) tools like Watson.
-
-Your Satellite location includes tools such as Satellite Link and Satellite Config to provide additional capabilities for securing and auditing network connections in your location and consistently deploying, managing, and controlling your apps and policies across clusters in the location.
-
+SG: Would be nice if we could provide a scenario / use case / technical information here.
+{: important}
 
 
 ## Before you begin
@@ -83,22 +77,31 @@ To complete this tutorial, be sure that you have the following requirements:
 
 To validate your resources, a collector is used to gather the configuration information of your resources. To collect the information, the collector must have the required permissions to access the resources. For more information about the security of your credentials, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
 
-1. Create a collector.
+### Create a collector
+{: #create-collector-sat}
 
-   1. In the {{site.data.keyword.compliance_short}}, go to [**Manage Posture > Configure > Collectors**](/security-compliance/collectors){: external}, and click **Create**.
-   2. Give your collector a name and description.
-   3. Click **Next**.
+SG: Insert image
 
-      If you have a passphrase enabled, you must enter it in the **Existing passphrase** field before you can move forward. Be sure to enter the passphrase exactly.
+1. In the {{site.data.keyword.compliance_short}}, go to [**Manage Posture > Configure > Collectors**](/security-compliance/collectors){: external}, and click **Create**.
+2. Give your collector a name and description.
+3. Click **Next**.
 
-   4. Determine whether you would like to manage your collector or if you want to allow IBM to manage it on your behalf.
-   5. Select the type of image that you want to use.
-   6. Select whether to use a **Private** or **Public** endpoint and then click **Create**.
+   If you have a passphrase enabled, you must enter it in the **Existing passphrase** field before you can move forward. Be sure to enter the passphrase exactly.
 
-      If you use a Private endpoint, you must also configure a Satellite Link. SG:need more information here.
-      {: note}
+4. Determine whether you would like to manage your collector or if you want to allow IBM to manage it on your behalf.
+5. Select the type of image that you want to use.
+6. Select whether to use a **Private** or **Public** endpoint and then click **Create**.
 
-2. Add a [credential](/iam/serviceids/){: external} that has *Read* access to the resources that you want to scan.
+   If you use a Private endpoint, you must also configure a Satellite Link in order for the collector to access your data.
+   {: note}
+
+   SG: Need more information here about why and how to configure the link.
+   {: important}
+
+### Give permission
+{: #credential-sat}
+
+Add a [credential](/iam/serviceids/){: external} that has *Read* access to the resources that you want to scan.
 
    1. In the {{site.data.keyword.compliance_short}}, go to [**Manage posture > Configure > Credentials**](/security-compliance/credentials){: external} and click **Create**.
    2. Give your credential a meaningful name.
