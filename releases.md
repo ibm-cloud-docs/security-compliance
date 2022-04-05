@@ -52,13 +52,13 @@ content-type: release-note
 
 
 ## 5 April 2022
-{: #security-compliance-apr52022}
+{: #security-compliance-apr0522}
 {: release-note}
 
 Next versions (v0.1.4) and (v0.2.0) of IBM Cloud for Financial Services profiles
 :   Released today, the next version (v0.1.4) and new version (v0.2.0) of IBM Cloud for Financial Services profiles are added with new goals and new controls. Check out the following list of goals to see how they're mapped to specific controls.
 
-   Completely removed goals in both the versions v0.1.4 and v0.2.0:
+   Goals removed from versions v0.1.4 and v0.2.0:
 
    * Goal ID: `3000104`
    * Goal ID: `3000040`
@@ -81,7 +81,7 @@ Next versions (v0.1.4) and (v0.2.0) of IBM Cloud for Financial Services profiles
    * Goal ID: `3000012`
    * Goal ID: `3000018`
 
-   Partially removed goals in both the versions v0.1.4 and v0.2.0:
+   Goals removed from specific controls in versions v0.1.4 and v0.2.0:
 
    * Goal ID: `3000015` removed from the control AC-2(i)
    * Goal ID: `3000016` removed from the control AC-2(i)
@@ -93,7 +93,7 @@ Next versions (v0.1.4) and (v0.2.0) of IBM Cloud for Financial Services profiles
    * Goal ID: `3000711` removed from the controls AC-2(i) and SC-2
    * Goal ID: `3000712` removed from the controls AC-2(i) and SC-2
 
-   Goal mapping changes in both the versions v0.1.4 and v0.2.0:
+   Mapping of goals updated in versions v0.1.4 and v0.2.0:
 
    * Goal ID: `3000001` mapped to the controls AC-2(1), AC-2(f), AC-2(j), IA-2, IA-5(c), IA-5(1) and IA-5(4)
    * Goal ID: `3000002` mapped to the controls AC-2(1), AC-2(f), AC-2(j), IA-2, IA-5(c), IA-5(1) and IA-5(4)
@@ -122,7 +122,7 @@ Next versions (v0.1.4) and (v0.2.0) of IBM Cloud for Financial Services profiles
    * Goal ID: `3000711` mapped to the control SC-7(3)
    * Goal ID: `3000712` mapped to the control SC-7(3)
 
-   Added goals only in the version v0.2.0:
+   Goals added to version v0.2.0:
 
    * Goal ID: `3000418` mapped to the controls AC-4, CM-2, SC-7, SC-7(3) and SC-7(5)
    * Goal ID: `3000047` mapped to the controls SA-4(a), SA-4(b), SA-4(c), SA-9, AC-20, ESA-3, ESA-5 and CA-3
@@ -240,7 +240,7 @@ Deprecation of the bookmarks capability
 {: release-note}
 
 Next version (v0.1.2) of IBM Cloud for Financial Services profile
-:   Released today, the next version (v0.1.2) of IBM Cloud for Financial Services profile is added with new goals and new controls. Check out the following list of goals to see how they're mapped to sepcific controls.
+:   Released today, the next version (v0.1.2) of IBM Cloud for Financial Services profile is added with new goals and new controls. Check out the following list of goals to see how they're mapped to specific controls.
 
 * Goal ID: `3000039` mapped to the controls AC-2(i) and AC-2(1)
 * Goal ID: `3000040` mapped to the control AC-2(3)
