@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-05"
+lastupdated: "2022-04-07"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -254,7 +254,7 @@ Next version (v0.1.2) of IBM Cloud for Financial Services profile
 * Goal ID: `3000906` mapped to the controls AC-17(2), SC-8, SC-8(1), SC-13 and SC-23
 * Goal ID: `3000907` mapped to the controls CM-2, CM-7(a), CM-8(1), CM-8(3)(a), SA-3(a) and SI-2(2)
 
-## 02 September 2021
+## 2 September 2021
 {: #security-compliance-sept0221}
 {: release-note}
 
@@ -317,7 +317,7 @@ New goals
 
 * Goal ID's: `3000901` - `3000907`
 
-## 05 April 2021
+## 5 April 2021
 {: #security-compliance-april0521}
 
 Initial Posture Management API support
