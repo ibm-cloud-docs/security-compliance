@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-07"
+lastupdated: "2022-04-12"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -55,8 +55,8 @@ content-type: release-note
 {: #security-compliance-apr0522}
 {: release-note}
 
-Next versions (v0.1.4) and (v0.2.0) of IBM Cloud for Financial Services profiles
-:   Released today, the next version (v0.1.4) and new version (v0.2.0) of IBM Cloud for Financial Services profiles are added with new goals and new controls. Check out the following list of goals to see how they're mapped to specific controls.
+New versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Released today, the next version (v0.1.4) and new version (v0.2.0) of {{site.data.keyword.cloud_notm}} for Financial Services profiles are added with new goals and new controls. Check out the following list of goals to see how they're mapped to specific controls.
 
    Goals removed from versions v0.1.4 and v0.2.0:
 
@@ -169,13 +169,16 @@ New service available in Configuration Governance
 Add parameters during credential mapping
 :   When resources such as an instance of {{site.data.keyword.containershort}} clusters are scanned, additional parameters must be provided in order for the collector to access all of their configuration data. If this is the case, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials. For more information, see [Mapping additional credentials](/docs/security-compliance?topic=security-compliance-map-credentials).
 
+New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Version 0.1.3 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. 
+
 
 ## 21 January 2022
 {: #security-compliance-jan2122}
 {: release-note}
 
 New service available in Configuration Governance
-:   IBM Cloud App ID is now available as part of the Configuration Governance component. You can create guardrails for App ID such as enforcing whether monitoring of runtime activity made by application users is tracked. For more information about the integration, see [the App ID docs](/docs/appid?topic=appid-manage-security-compliance).
+:   {{site.data.keyword.cloud_notm}} App ID is now available as part of the Configuration Governance component. You can create guardrails for App ID such as enforcing whether monitoring of runtime activity made by application users is tracked. For more information about the integration, see [the App ID docs](/docs/appid?topic=appid-manage-security-compliance).
 
 
 ## 11 January 2022
@@ -183,7 +186,7 @@ New service available in Configuration Governance
 {: release-note}
 
 New service available in Configuration Governance
-:   IBM Cloud Code Engine is now available as part of the Configuration Governance component. You can create guardrails for Code Engine such as ensuring that projects can be created only within specific regions. For more information about the integration, see [the Code Engine docs](/docs/codeengine?topic=codeengine-manage-security-compliance).
+:   {{site.data.keyword.cloud_notm}} Code Engine is now available as part of the Configuration Governance component. You can create guardrails for Code Engine such as ensuring that projects can be created only within specific regions. For more information about the integration, see [the Code Engine docs](/docs/codeengine?topic=codeengine-manage-security-compliance).
 
 
 ## 13 December 2021
@@ -206,10 +209,10 @@ Deprecation of the alerts capability
 {: release-note}
 
 Customer-managed collectors can now be installed on a cluster
-:   You can now install your customer-managed collector on to an IBM Cloud Kubernetes Service or OpenShift cluster. For more information or help getting started, see [the tutorial](/docs/security-compliance?topic=security-compliance-ibm-customer-collector-cluster).
+:   You can now install your customer-managed collector on to an {{site.data.keyword.cloud_notm}} Kubernetes Service or OpenShift cluster. For more information or help getting started, see [the tutorial](/docs/security-compliance?topic=security-compliance-ibm-customer-collector-cluster).
 
 New service available in Configuration Governance
-:   IBM Cloud Container Registry is now available as part of the Configuration Governance component. You can create guardrails for Container Registry such as restricting an account so that it can only push and pull images over private connections. For more information about the integration and the other available properties, see [the Container Registry docs](/docs/Registry?topic=Registry-manage-security-compliance#govern-container-registry).
+:   {{site.data.keyword.cloud_notm}} Container Registry is now available as part of the Configuration Governance component. You can create guardrails for Container Registry such as restricting an account so that it can only push and pull images over private connections. For more information about the integration and the other available properties, see [the Container Registry docs](/docs/Registry?topic=Registry-manage-security-compliance#govern-container-registry).
 
 
 ## 22 November 2021
@@ -233,14 +236,14 @@ Scan your OpenShift clusters
 {: release-note}
 
 Deprecation of the bookmarks capability
-:   The ability to create bookmarks or direct connections within the Security and Compliance Center will be deprecated on 30 November 2021, when the feature will be removed from the UI. Be sure to save any bookmarked URLs that you need to before the deprecation date.
+:   The ability to create bookmarks or direct connections within the {{site.data.keyword.compliance_short}} will be deprecated on 30 November 2021, when the feature will be removed from the UI. Be sure to save any bookmarked URLs that you need to before the deprecation date.
 
-## 15 September 2021
+## 16 September 2021
 {: #security-compliance-sept152021}
 {: release-note}
 
-Next version (v0.1.2) of IBM Cloud for Financial Services profile
-:   Released today, the next version (v0.1.2) of IBM Cloud for Financial Services profile is added with new goals and new controls. Check out the following list of goals to see how they're mapped to specific controls.
+New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Version 0.1.2 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. Check out the following list of goals to see how they're mapped to specific controls.
 
 * Goal ID: `3000039` mapped to the controls AC-2(i) and AC-2(1)
 * Goal ID: `3000040` mapped to the control AC-2(3)
@@ -297,6 +300,13 @@ New goals
 
 * Goal ID's: `3000509`
 
+## 24 June 2021
+{: #security-compliance-june242021}
+{: release-note}
+
+New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Version 0.1.1 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls.
+
 ## 22 June 2021
 {: #security-compliance-jun2221}
 {: release-note}
@@ -329,10 +339,12 @@ Proxy support for discovery and fact collection
 New goal mapping
 :   The goal `3000045` is now mapped to CM-2 NIST 800 and has been added to an additional profile.
 
-IBM Cloud for Financial Services profile
-:   Released today, the IBM Cloud for Financial Services profile is a collection of curated goals that can help organizations make a large jump on the path to meeting the NIST 800-53 security controls that are required for financial institutions. By validating your resources against the IBM Cloud for Financial Services profile, you can be more confident that your IBM Cloud resources are following best practices for security and compliance.
+{{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Released today, the {{site.data.keyword.cloud_notm}} for Financial Services profile is a collection of curated goals that can help organizations make a large jump on the path to meeting the NIST 800-53 security controls that are required for financial institutions. By validating your resources against the {{site.data.keyword.cloud_notm}} for Financial Services profile, you can be more confident that your {{site.data.keyword.cloud_notm}} resources are following best practices for security and compliance.
 
-   *Important*: The IBM Cloud for Financial Services profile will be constantly expanding and is not an exhaustive list of all of the controls that might be required for every organization. Users should validate the available goals and determine where there is a need to supplement their workloads with other security measures.
+   *Important*: The {{site.data.keyword.cloud_notm}} for Financial Services profile will be constantly expanding and is not an exhaustive list of all of the controls that might be required for every organization. Users should validate the available goals and determine where there is a need to supplement their workloads with other security measures.
+
+
 
 ## 23 March 2021
 {: #security-compliance-march0321}
