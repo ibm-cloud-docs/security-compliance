@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-11"
+lastupdated: "2022-04-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -51,6 +51,99 @@ content-type: release-note
 
 
 
+## 5 April 2022
+{: #security-compliance-apr0522}
+{: release-note}
+
+New versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Versions 0.1.4 and 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Serviices profile are now available with new goals and controls.
+
+   Goals that were removed:
+
+   * Goal ID: `3000104`
+   * Goal ID: `3000040`
+   * Goal ID: `3000021`
+   * Goal ID: `3000029`
+   * Goal ID: `3000032`
+   * Goal ID: `3000038`
+   * Goal ID: `3000529`
+   * Goal ID: `3000537`
+   * Goal ID: `3000623`
+   * Goal ID: `3000538`
+   * Goal ID: `3000628`
+   * Goal ID: `3000533`
+   * Goal ID: `3000541`
+   * Goal ID: `3000639`
+   * Goal ID: `3000414`
+   * Goal ID: `3000415`
+   * Goal ID: `3000416`
+   * Goal ID: `3000417`
+   * Goal ID: `3000012`
+   * Goal ID: `3000018`
+
+   Goals that were removed from specific controls:
+
+   * Goal ID: `3000015` removed from the control AC-2(i)
+   * Goal ID: `3000016` removed from the control AC-2(i)
+   * Goal ID: `3000035` removed from the controls AC-2(i) and SC-2
+   * Goal ID: `3000430` removed from the controls SI-4(a), SI-4(b) and SI-4(c)
+   * Goal ID: `3000707` removed from the controls AC-2(i) and SC-2
+   * Goal ID: `3000708` removed from the controls AC-2(i) and SC-2
+   * Goal ID: `3000709` removed from the controls AC-2(i) and SC-2
+   * Goal ID: `3000711` removed from the controls AC-2(i) and SC-2
+   * Goal ID: `3000712` removed from the controls AC-2(i) and SC-2
+
+   Goal mappings that were updated:
+
+   * Goal ID: `3000001` mapped to the controls AC-2(1), AC-2(f), AC-2(j), IA-2, IA-5(c), IA-5(1) and IA-5(4)
+   * Goal ID: `3000002` mapped to the controls AC-2(1), AC-2(f), AC-2(j), IA-2, IA-5(c), IA-5(1) and IA-5(4)
+   * Goal ID: `3000003` mapped to the controls AC-2(1), AC-2(f), AC-2(j), IA-2, IA-5(c), IA-5(1) and IA-5(4)
+   * Goal ID: `3000004` mapped to the controls AC-2(1), AC-2(f), AC-2(j), IA-2, IA-5(c), IA-5(1) and IA-5(4)
+   * Goal ID: `3000005` mapped to the controls AC-2(1), AC-2(f), AC-2(j), IA-2, IA-5(c), IA-5(1) and IA-5(4)
+   * Goal ID: `3000006` mapped to the controls AC-2(1), AC-2(f), AC-2(j), IA-2, IA-5(c), IA-5(1) and IA-5(4)
+   * Goal ID: `3000007` mapped to the controls AC-2(1), AC-2(f), AC-2(j), IA-2, IA-5(c), IA-5(1) and IA-5(4)
+   * Goal ID: `3000008` mapped to the controls AC-2(1), AC-2(f), AC-2(j), IA-2, IA-5(1) and IA-5(4)
+   * Goal ID: `3000625` mapped to the controls AC-4, CM-2, SC-7, SC-7(3) and SC-7(5)
+   * Goal ID: `3000601` mapped to the controls SI-2(2) and SI-2(a)
+   * Goal ID: `3000602` mapped to the controls SI-2(2) and SI-2(a)
+   * Goal ID: `3000603` mapped to the controls SI-2(2) and SI-2(a)
+   * Goal ID: `3000430` mapped to the controls CA-7(a) and CA-7(b)
+   * Goal ID: `3000022` mapped to the control AC-14(a)
+   * Goal ID: `3000716` mapped to the control AC-7(a)
+   * Goal ID: `3000717` mapped to the control AC-7(b)
+   * Goal ID: `3000712` mapped to the control AC-14(a)
+   * Goal ID: `3000015` mapped to the control AC-2(j)
+   * Goal ID: `3000016` mapped to the control AC-2(j)
+   * Goal ID: `3000035` mapped to the control AC-2(j)
+   * Goal ID: `3000446` mapped to the control SC-7(3)
+   * Goal ID: `3000707` mapped to the control SC-7(3)
+   * Goal ID: `3000708` mapped to the control SC-7(3)
+   * Goal ID: `3000709` mapped to the control SC-7(3)
+   * Goal ID: `3000711` mapped to the control SC-7(3)
+   * Goal ID: `3000712` mapped to the control SC-7(3)
+
+   Goals that were added to version 0.2.0:
+
+   * Goal ID: `3000418` mapped to the controls AC-4, CM-2, SC-7, SC-7(3) and SC-7(5)
+   * Goal ID: `3000047` mapped to the controls SA-4(a), SA-4(b), SA-4(c), SA-9, AC-20, ESA-3, ESA-5 and CA-3
+   * Goal ID: `3000282` mapped to the controls AU-4 and AU-11
+   * Goal ID: `3000283` mapped to the controls AU-4, AU-11, SC-6 and SI-12
+   * Goal ID: `3000322` mapped to the controls SC-13 and SC-28
+   * Goal ID: `3000323` mapped to the controls SC-13 and SC-28
+   * Goal ID: `3000471` mapped to the controls AC-4, SC-2 and SC-3
+   * Goal ID: `3000472` mapped to the controls AC-4, SC-2 and SC-3
+   * Goal ID: `3000915` mapped to the controls CP-7(a), CP-7(1), CP-10 and SC-6
+
+## 23 March 2022
+{: #security-compliance-mar2322}
+{: release-note}
+
+New goals
+:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All of the goals with ID's in the following ranges are new.
+
+* Goal ID's: `3000046` - `3000048` and `3000473` - `3000474`.
+
+
 ## 10 March 2022
 {: #security-compliance-mar1022}
 {: release-note}
@@ -86,13 +179,16 @@ New service available in Configuration Governance
 Add parameters during credential mapping
 :   When resources such as an instance of {{site.data.keyword.containershort}} clusters are scanned, additional parameters must be provided in order for the collector to access all of their configuration data. If this is the case, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials. For more information, see [Mapping additional credentials](/docs/security-compliance?topic=security-compliance-map-credentials).
 
+New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Version 0.1.3 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. 
+
 
 ## 21 January 2022
 {: #security-compliance-jan2122}
 {: release-note}
 
 New service available in Configuration Governance
-:   IBM Cloud App ID is now available as part of the Configuration Governance component. You can create guardrails for App ID such as enforcing whether monitoring of runtime activity made by application users is tracked. For more information about the integration, see [the App ID docs](/docs/appid?topic=appid-manage-security-compliance).
+:   {{site.data.keyword.cloud_notm}} App ID is now available as part of the Configuration Governance component. You can create guardrails for App ID such as enforcing whether monitoring of runtime activity made by application users is tracked. For more information about the integration, see [the App ID docs](/docs/appid?topic=appid-manage-security-compliance).
 
 
 ## 11 January 2022
@@ -100,7 +196,7 @@ New service available in Configuration Governance
 {: release-note}
 
 New service available in Configuration Governance
-:   IBM Cloud Code Engine is now available as part of the Configuration Governance component. You can create guardrails for Code Engine such as ensuring that projects can be created only within specific regions. For more information about the integration, see [the Code Engine docs](/docs/codeengine?topic=codeengine-manage-security-compliance).
+:   {{site.data.keyword.cloud_notm}} Code Engine is now available as part of the Configuration Governance component. You can create guardrails for Code Engine such as ensuring that projects can be created only within specific regions. For more information about the integration, see [the Code Engine docs](/docs/codeengine?topic=codeengine-manage-security-compliance).
 
 
 ## 13 December 2021
@@ -123,10 +219,10 @@ Deprecation of the alerts capability
 {: release-note}
 
 Customer-managed collectors can now be installed on a cluster
-:   You can now install your customer-managed collector on to an IBM Cloud Kubernetes Service or OpenShift cluster. For more information or help getting started, see [the tutorial](/docs/security-compliance?topic=security-compliance-ibm-customer-collector-cluster).
+:   You can now install your customer-managed collector on to an {{site.data.keyword.cloud_notm}} Kubernetes Service or OpenShift cluster. For more information or help getting started, see [the tutorial](/docs/security-compliance?topic=security-compliance-ibm-customer-collector-cluster).
 
 New service available in Configuration Governance
-:   IBM Cloud Container Registry is now available as part of the Configuration Governance component. You can create guardrails for Container Registry such as restricting an account so that it can only push and pull images over private connections. For more information about the integration and the other available properties, see [the Container Registry docs](/docs/Registry?topic=Registry-manage-security-compliance#govern-container-registry).
+:   {{site.data.keyword.cloud_notm}} Container Registry is now available as part of the Configuration Governance component. You can create guardrails for Container Registry such as restricting an account so that it can only push and pull images over private connections. For more information about the integration and the other available properties, see [the Container Registry docs](/docs/Registry?topic=Registry-manage-security-compliance#govern-container-registry).
 
 
 ## 22 November 2021
@@ -150,14 +246,14 @@ Scan your OpenShift clusters
 {: release-note}
 
 Deprecation of the bookmarks capability
-:   The ability to create bookmarks or direct connections within the Security and Compliance Center will be deprecated on 30 November 2021, when the feature will be removed from the UI. Be sure to save any bookmarked URLs that you need to before the deprecation date.
+:   The ability to create bookmarks or direct connections within the {{site.data.keyword.compliance_short}} will be deprecated on 30 November 2021, when the feature will be removed from the UI. Be sure to save any bookmarked URLs that you need to before the deprecation date.
 
-## 15 September 2021
+## 16 September 2021
 {: #security-compliance-sept152021}
 {: release-note}
 
-Next version (v0.1.2) of IBM Cloud for Financial Services profile
-:   Released today, the next version (v0.1.2) of IBM Cloud for Financial Services profile is added with new goals and new controls. Check out the following list of goals to see how they're mapped to sepcific controls.
+New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Version 0.1.2 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. Check out the following list of goals to see how they're mapped to specific controls.
 
 * Goal ID: `3000039` mapped to the controls AC-2(i) and AC-2(1)
 * Goal ID: `3000040` mapped to the control AC-2(3)
@@ -171,7 +267,7 @@ Next version (v0.1.2) of IBM Cloud for Financial Services profile
 * Goal ID: `3000906` mapped to the controls AC-17(2), SC-8, SC-8(1), SC-13 and SC-23
 * Goal ID: `3000907` mapped to the controls CM-2, CM-7(a), CM-8(1), CM-8(3)(a), SA-3(a) and SI-2(2)
 
-## 02 September 2021
+## 2 September 2021
 {: #security-compliance-sept0221}
 {: release-note}
 
@@ -214,6 +310,13 @@ New goals
 
 * Goal ID's: `3000509`
 
+## 24 June 2021
+{: #security-compliance-june242021}
+{: release-note}
+
+New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Version 0.1.1 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls.
+
 ## 22 June 2021
 {: #security-compliance-jun2221}
 {: release-note}
@@ -234,7 +337,7 @@ New goals
 
 * Goal ID's: `3000901` - `3000907`
 
-## 05 April 2021
+## 5 April 2021
 {: #security-compliance-april0521}
 
 Initial Posture Management API support
@@ -246,10 +349,12 @@ Proxy support for discovery and fact collection
 New goal mapping
 :   The goal `3000045` is now mapped to CM-2 NIST 800 and has been added to an additional profile.
 
-IBM Cloud for Financial Services profile
-:   Released today, the IBM Cloud for Financial Services profile is a collection of curated goals that can help organizations make a large jump on the path to meeting the NIST 800-53 security controls that are required for financial institutions. By validating your resources against the IBM Cloud for Financial Services profile, you can be more confident that your IBM Cloud resources are following best practices for security and compliance.
+{{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Released today, the {{site.data.keyword.cloud_notm}} for Financial Services profile is a collection of curated goals that can help organizations make a large jump on the path to meeting the NIST 800-53 security controls that are required for financial institutions. By validating your resources against the {{site.data.keyword.cloud_notm}} for Financial Services profile, you can be more confident that your {{site.data.keyword.cloud_notm}} resources are following best practices for security and compliance.
 
-   *Important*: The IBM Cloud for Financial Services profile will be constantly expanding and is not an exhaustive list of all of the controls that might be required for every organization. Users should validate the available goals and determine where there is a need to supplement their workloads with other security measures.
+   *Important*: The {{site.data.keyword.cloud_notm}} for Financial Services profile will be constantly expanding and is not an exhaustive list of all of the controls that might be required for every organization. Users should validate the available goals and determine where there is a need to supplement their workloads with other security measures.
+
+
 
 ## 23 March 2021
 {: #security-compliance-march0321}

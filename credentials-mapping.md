@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-04-14"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -69,7 +69,8 @@ When resources such as an instance of {{site.data.keyword.at_short}} or Virtual 
 | {{site.data.keyword.at_short}} | `AT=service_key` |
 | Virtual Private Cloud (VPC) | `VPC=testing-vpc` |
 | Server | `IP=123.45.67.89` |
-| {{site.data.keyword.cloud_notm}} {{site.data.keyword.containershort}} Cluster | `cluster=cluster_id` |
+| {{site.data.keyword.cloud_notm}} {{site.data.keyword.containershort}} cluster | `cluster=cluster_id` |
+| {{site.data.keyword.cloud_notm}} {{site.data.keyword.openshiftshort}} cluster | `ROKS=cluster_id` |
 {: caption="Table 1. Resource specific path inputs" caption-side="top"}
 
 
@@ -80,9 +81,9 @@ Occasionally, there is additional information that is required for a resource. I
 
 | Resource | Parameter | Mapping |
 |:---------|:-------------|:-------------------|
-| {{site.data.keyword.containershort}} Cluster | Storage class | `cluster_storage_class_string` |
-| {{site.data.keyword.containershort}} Cluster | Namespace | `cluster_namespace_string` |
-{: caption="Table 2. Sub resource specific path inputs" caption-side="top"}
+| {{site.data.keyword.containershort}} or {{site.data.keyword.openshiftshort}} cluster | Storage class | `cluster_storage_class_string` |
+| {{site.data.keyword.containershort}} {{site.data.keyword.openshiftshort}} cluster | Namespace | `cluster_namespace_string` |
+{: caption="Table 2. Sub-resource specific path inputs" caption-side="top"}
 
 
 ## Before you begin
