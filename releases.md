@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-12"
+lastupdated: "2022-04-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -56,9 +56,9 @@ content-type: release-note
 {: release-note}
 
 New versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile
-:   Released today, the next version (v0.1.4) and new version (v0.2.0) of {{site.data.keyword.cloud_notm}} for Financial Services profiles are added with new goals and new controls. Check out the following list of goals to see how they're mapped to specific controls.
+:   Versions 0.1.4 and 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Serviices profile are now available with new goals and controls.
 
-   Goals removed from versions v0.1.4 and v0.2.0:
+   Goals that were removed:
 
    * Goal ID: `3000104`
    * Goal ID: `3000040`
@@ -81,7 +81,7 @@ New versions of the {{site.data.keyword.cloud_notm}} for Financial Services prof
    * Goal ID: `3000012`
    * Goal ID: `3000018`
 
-   Goals removed from specific controls in versions v0.1.4 and v0.2.0:
+   Goals that were removed from specific controls:
 
    * Goal ID: `3000015` removed from the control AC-2(i)
    * Goal ID: `3000016` removed from the control AC-2(i)
@@ -93,7 +93,7 @@ New versions of the {{site.data.keyword.cloud_notm}} for Financial Services prof
    * Goal ID: `3000711` removed from the controls AC-2(i) and SC-2
    * Goal ID: `3000712` removed from the controls AC-2(i) and SC-2
 
-   Mapping of goals updated in versions v0.1.4 and v0.2.0:
+   Goal mappings that were updated:
 
    * Goal ID: `3000001` mapped to the controls AC-2(1), AC-2(f), AC-2(j), IA-2, IA-5(c), IA-5(1) and IA-5(4)
    * Goal ID: `3000002` mapped to the controls AC-2(1), AC-2(f), AC-2(j), IA-2, IA-5(c), IA-5(1) and IA-5(4)
@@ -122,7 +122,7 @@ New versions of the {{site.data.keyword.cloud_notm}} for Financial Services prof
    * Goal ID: `3000711` mapped to the control SC-7(3)
    * Goal ID: `3000712` mapped to the control SC-7(3)
 
-   Goals added to version v0.2.0:
+   Goals that were added to version 0.2.0:
 
    * Goal ID: `3000418` mapped to the controls AC-4, CM-2, SC-7, SC-7(3) and SC-7(5)
    * Goal ID: `3000047` mapped to the controls SA-4(a), SA-4(b), SA-4(c), SA-9, AC-20, ESA-3, ESA-5 and CA-3
