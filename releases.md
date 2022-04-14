@@ -134,6 +134,16 @@ New versions of the {{site.data.keyword.cloud_notm}} for Financial Services prof
    * Goal ID: `3000472` mapped to the controls AC-4, SC-2 and SC-3
    * Goal ID: `3000915` mapped to the controls CP-7(a), CP-7(1), CP-10 and SC-6
 
+## 23 March 2022
+{: #security-compliance-mar2322}
+{: release-note}
+
+New goals
+:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All of the goals with ID's in the following ranges are new.
+
+* Goal ID's: `3000046` - `3000048` and `3000473` - `3000474`.
+
+
 ## 10 March 2022
 {: #security-compliance-mar1022}
 {: release-note}
