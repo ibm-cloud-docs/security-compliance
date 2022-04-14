@@ -49,7 +49,7 @@ subcollection: security-compliance
 # Known issues and limits
 {: #known-issues-limits}
 
-{{site.data.keyword.security-advisor_long}} includes the following known issues and limits that might impact your experience.
+{{site.data.keyword.compliance_full}} includes the following known issues and limits that might impact your experience.
 {: shortdesc}
 
 
