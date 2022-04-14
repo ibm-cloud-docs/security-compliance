@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-23"
+lastupdated: "2022-04-14"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -70,7 +70,7 @@ When resources such as an instance of {{site.data.keyword.at_short}} or Virtual 
 | Virtual Private Cloud (VPC) | `VPC=testing-vpc` |
 | Server | `IP=123.45.67.89` |
 | {{site.data.keyword.cloud_notm}} {{site.data.keyword.containershort}} cluster | `cluster=cluster_id` |
-| {{site.data.keyword.cloud_notm}} {{site.data.keyword.openshiftshort}} cluster | `cluster=cluster_id` |
+| {{site.data.keyword.cloud_notm}} {{site.data.keyword.openshiftshort}} cluster | `ROKS=cluster_id` |
 {: caption="Table 1. Resource specific path inputs" caption-side="top"}
 
 

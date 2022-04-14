@@ -1,8 +1,8 @@
----
+<staging>---
 
 copyright:
   years: 2022
-lastupdated: "2022-04-11"
+lastupdated: "2022-04-14"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, benchmark, controls, goals, security, compliance
 
@@ -129,3 +129,5 @@ XXX
 | CIS Ubuntu Linux 18.04 LTS Benchmark 1.0.0 | xxxxxx |
 | CIS Windows Server Benchmarks | xxxxxx |
 {: caption="Table 1. Best Practices predefined profiles" caption-side="top"}
+
+<staging>
