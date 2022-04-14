@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-12"
+lastupdated: "2022-04-14"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -64,7 +64,6 @@ Review the following known issues that you might encounter while you work with t
 | Results for {{site.data.keyword.cloud_notm}} Classic Infrastructure are not returned. | It is not possible to scan classic infrastructure as a cloud-based resource. To monitor security and compliance for classic infrastructure, configure an on-prem collector. |
 | Results for the resource view are not returned if [1] The total number of goals in the profiles attached to a scan exceeds 560. [2] You're working with a managed colletor and the number of resources exceeds 350. | [1] If you are processing a large scan, you can use the control view or drift view to see your results. [2] You can use a customer-managed collector. |
 | You cannot create a second partner integration. | Only one integration can be created for each name or URL. If you need to update your integration in some way, delete the integration and create a new one. |
-| You edit your bookmark image, but it doesn't update. | Refresh the table. The new image is displayed. | 
 {: caption="Table 1. Known issues and workarounds" caption-side="top"}
 
 
