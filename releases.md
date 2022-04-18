@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-14"
+lastupdated: "2022-04-18"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -182,6 +182,31 @@ Add parameters during credential mapping
 New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
 :   Version 0.1.3 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. 
 
+
+   Goals that were removed:
+   * Goal ID: `3000019`
+   * Goal ID: `3000030`
+   * Goal ID: `3000031`
+   * Goal ID: `3000033`
+   * Goal ID: `3000034`
+   * Goal ID: `3000101`
+   * Goal ID: `3000418`
+   * Goal ID: `3000635`
+   * Goal ID: `3000636`
+
+   Goal mappings that were updated:
+   * Goal ID: `3000510` mapped to the controls AC-4, CM-2, SC-7 and SC-7(5)
+   * Goal ID: `3000526` mapped to the controls AC-4, CM-2, SC-7 and SC-7(5)
+   * Goal ID: `3000528` mapped to the controls SC-13 and SC-28
+   * Goal ID: `3000529` mapped to the controls AC-2(i), AC-5(b), AC-18 and AC-21
+   * Goal ID: `3000533` mapped to the controls AC-2(1), AC-2(c), AC-2(i), AC-3, AC-5(b), AC-6 and SC-2
+   * Goal ID: `3000534` mapped to the controls AC-4, CM-2, SC-7 and SC-7(5)
+   * Goal ID: `3000536` mapped to the controls SC-13 and SC-28
+   * Goal ID: `3000537` mapped to the controls AC-2(i), AC-5(b), AC-18 and AC-21
+   * Goal ID: `3000538` mapped to the controls AC-2(i), AC-5(b), AC-18 and AC-21
+   * Goal ID: `3000541` mapped to the controls AC-2(1), AC-2(c), AC-2(i), AC-3, AC-5(b), AC-6 and SC-2
+   * Goal ID: `3000611` mapped to the controls CM-8(3)(a), RA-5(a) and SI-2(2)
+   * Goal ID: `3000108` mapped to the controls SC-13 and SC-28
 
 ## 21 January 2022
 {: #security-compliance-jan2122}
