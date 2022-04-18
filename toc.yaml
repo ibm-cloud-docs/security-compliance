@@ -3,7 +3,7 @@ toc:
     subcollection: security-compliance
     service-name: compliance
     category: security
-    audience: service
+    audience: platform
     href: /docs/security-compliance
     console-page: /security-compliance
     product-page: https://ibm.com/cloud/security-and-compliance-center
