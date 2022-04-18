@@ -2,7 +2,7 @@ toc:
   properties:
     subcollection: security-compliance
     service-name: compliance
-    category: platform_services
+    category: platform_services, security
     audience: platform
     href: /docs/security-compliance
     console-page: /security-compliance
