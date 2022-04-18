@@ -2,8 +2,8 @@ toc:
   properties:
     subcollection: security-compliance
     service-name: compliance
-    category: platform_services, security
-    audience: platform
+    category: security
+    audience: service
     href: /docs/security-compliance
     console-page: /security-compliance
     product-page: https://ibm.com/cloud/security-and-compliance-center
