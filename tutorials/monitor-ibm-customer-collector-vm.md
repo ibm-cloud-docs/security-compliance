@@ -75,6 +75,9 @@ To complete this tutorial, be sure that you have the following requirements:
 * An instance of VPC in your {{site.data.keyword.cloud_notm}} account
 
 
+
+
+
 ## Set up your Virtual Private Cloud (VPC) Infrastructure
 {: #ibm-customer-collector-vpc}
 {: step}
@@ -248,8 +251,7 @@ Target the resources that you want to validate by creating a scope and schedulin
    3. Select a **Purpose** and then click **Next**.
    4. Select a **Credential type**.
    5. Provide the information that is requested. For more information about each type of secret, see [Understanding credentials](/docs/security-compliance?topic=security-compliance-permissions#understand-credentials).
-   6. Click **Create**.
-   7. Repeat step 5.
+   6. Click **Create** and repeat as necessary.
 
 6. From the table, select the [collector](/docs/security-compliance?topic=security-compliance-collector) or collectors that you want to use to gather configuration data and then click **Next**.
 7. Create an attachment between your scope and profile by scheduling a scan. 
@@ -258,11 +260,15 @@ Target the resources that you want to validate by creating a scope and schedulin
    2. Select a **Scan type**.
    3. From the **Profile** drop-down, select the profile that you want to use to evaluate your configuration.
    4. **Enable** or **Disable** the profiles that are associated with your integrated resources. For more information about integrations see the [integrations tab of the UI](/security-compliance/integrations){: external}.
-   4. If applicable: Select a remediation type.
+
+      If you are working with any {[roks]} resources, you must enable the OSCO integration and then enable profiles during this step in order for your resources to be evaluated.
+      {: note}
+
+   5. If applicable: Select a remediation type.
 
       Only some environments are configured to provide automatic remediation. For more information, see [Remediating issues](/docs/security-compliance?topic=security-compliance-remediation).
 
-   5. The scan will automatically occur when the scope is created. To schedule additional scans select the **Frequency** at which you want them to be run and the date when you want the scan to **End**.
+   6. The scan will automatically occur when the scope is created. To schedule additional scans select the **Frequency** at which you want them to be run and the date when you want the scan to **End**.
 
 8. Click **Next** and review your selections.
 9. Click **Create**. 
