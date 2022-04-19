@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-14"
+lastupdated: "2022-04-19"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -241,7 +241,7 @@ Target the resources that you want to validate by creating a scope and schedulin
    Be sure to give a detailed name as you use this field later to configure scans and remediation.
 4. Select an **Environment** from the drop-down list.
 
-   If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third party. Supported format for imported files is  `.json`. Max file size is 30 MB.
+   If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third party. Supported format for imported files is  `.json`. The maximum file size is 30 MB.
 5. From the **Credentials** drop-down, select a credential that you previously added to the service and then click **Next**.
 
    If you have not yet added a credential, you can use the following steps to add one and then select it from the drop-down.
@@ -261,7 +261,7 @@ Target the resources that you want to validate by creating a scope and schedulin
    3. From the **Profile** drop-down, select the profile that you want to use to evaluate your configuration.
    4. **Enable** or **Disable** the profiles that are associated with your integrated resources. For more information about integrations see the [integrations tab of the UI](/security-compliance/integrations){: external}.
 
-      If you are working with any {[roks]} resources, you must enable the OSCO integration and then enable profiles during this step in order for your resources to be evaluated.
+      If you are working with any {{site.data.keyword.openshiftshort}} resources, you must enable the OSCO integration and then enable profiles during this step in order for your resources to be evaluated.
       {: note}
 
    5. If applicable: Select a remediation type.
