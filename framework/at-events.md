@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-03"
+lastupdated: "2022-04-19"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -376,19 +376,6 @@ The following events are triggered by the Security Insights component of the {{s
 {: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
 {: #activity-events}
 {: tab-title="Activity"}
-{: tab-group="insights"}
-{: class="simple-tab-table"}
-
-| Action                                                | Description     |
-| :-----------------------------------------------------| :---------------|
-| `security-advisor.notification-channels.list`         | View all alert channels.|
-| `security-advisor.notification-channels.read`         | View a alert channel.|
-| `security-advisor.notification-channels.create`       | Create a alert channel.|
-| `security-advisor.notification-channels.update`       | Update a alert channel.|
-| `security-advisor.notification-channels.delete`       | Delete a alert channel.|
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
-{: #alert-events}
-{: tab-title="Alerts"}
 {: tab-group="insights"}
 {: class="simple-tab-table"}
 

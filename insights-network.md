@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-02-15"
+lastupdated: "2022-04-19"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -102,7 +102,4 @@ Now that you've connected your Cloud Object Storage bucket and verified that you
 
 As results come in, you can see any flagged issues on the **Insights** or **Findings** pages of the UI.
 
-
-Now that you've configured Network Insights to analyze your flow logs, set up alerts so that you can be notified if an issue is found. [Learn more](/docs/security-compliance?topic=security-compliance-notifications).
-{: tip}
 

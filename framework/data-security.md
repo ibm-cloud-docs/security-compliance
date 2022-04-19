@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-04-19"
 
 keywords: data encryption in {{site.data.keyword.compliance_short}}, data storage for {{site.data.keyword.compliance_short}}, bring your own keys for {{site.data.keyword.compliance_short}}, BYOK for {{site.data.keyword.compliance_short}}, key management for {{site.data.keyword.compliance_short}}, key encryption for {{site.data.keyword.compliance_short}}, personal data in {{site.data.keyword.compliance_short}}, data deletion for {{site.data.keyword.compliance_short}}, data in {{site.data.keyword.compliance_short}}, data security in {{site.data.keyword.compliance_short}}
 
@@ -194,8 +194,6 @@ When you work with {{site.data.keyword.compliance_short}} data, there are a few 
 
 In {{site.data.keyword.keymanagementserviceshort}}, you can assign various levels of access to limit the number of people who have access to your keys. You can also update the access later if a need to tighten security around your data occurs.
 
-Need to know if changes to your keys occur? You can use [Activity Insights](/docs/security-compliance?topic=security-compliance-setup-activity) to continuously monitor your keys and be [alerted](/docs/security-compliance?topic=security-compliance-notifications) if any change is detected.
-{: tip}
 
 ### About customer-managed keys
 {: #about-encryption}
