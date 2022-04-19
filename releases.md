@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-18"
+lastupdated: "2022-04-19"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -341,6 +341,48 @@ New goals
 
 New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
 :   Version 0.1.1 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls.
+
+   Controls that were changed:
+
+   * The control IDs `AC-2:(c)(j)`, `AC-2:(f)(j)`, and `AC-2:(j)` are changed to `AC-2(c)`, `AC-2(f)`, and `AC-2(j)`
+   * The control ID `AC-2:(f)(j)` is changed to `AC-2(f)` and `AC-2(j)`
+   * The control ID `AU-12(a)(d)` is changed to `AU-12(a) and AU-12(d)`
+   * The control ID `CA-7:(a)(b)` is changed to `CA-7(a) and CA-7(b)`
+   * The control ID `SI-4(a)(b)(c)` is changed to `SI-4(a)`, `SI-4(b)` and `SI-4(c)`
+
+
+   Goals that were removed:
+
+   * Goal ID: `3000011`
+   * Goal ID: `3000204`
+   * Goal ID: `3000303`
+   * Goal ID: `3000450`
+   * Goal ID: `3000301`
+
+
+   Goals that were removed from specific controls:
+
+   * Goal ID: `3000014` removed from the control `AC-2(1)`
+   * Goal ID: `3000114` removed from the control `AU-12`
+
+
+   Goal mappings that were updated:
+
+   * Goal ID: `3000425` mapped to the controls `AC-2(1)` and `AC-2(j)`
+   * Goal ID: `3000015` mapped to the controls `SC-2` and `AC-2(j)`
+   * Goal ID: `3000462` mapped to the control `SA-3(a)`
+   * Goal ID: `3000030` mapped to the control `SC-3`
+   * Goal ID: `3000701` mapped to the controls `SC-8-0` and `SC-8(1)`
+   * Goal ID: `3000466` mapped to the controls `SI-4(a)`, `SI-4(b)` and `SI-4(c)`
+   * Goal IDs: `3000009`, `3000010`, `3000023`, `3000027`, `3000038`, `3000713`, `3000714`, `3000715`, `3000716`, `3000717`, `3000718`, `3000719`, `3000720`, `3000724` mapped to the control `AC-2(j)`
+   * Goal IDs: `3000016`, `3000035`, `3000639`, `3000707`, `3000708`, `3000709`, `3000711`, `3000712` mapped to the controls `AC-2(1)`, `AC-2(j)` and `SC-2`
+   * Goal IDs: `3000101`, `3000102`, `3000103` mapped to the control `SC-13`
+   * Goal IDs: `3000458`, `3000460` mapped to the controls `SC-13` and `SC-23`
+
+
+   Goals that were added:
+
+   * Goal ID: `3000038` mapped to the control `AC-2(j))`
 
 ## 22 June 2021
 {: #security-compliance-jun2221}
