@@ -162,17 +162,17 @@ toc:
           - security-checks/ai-rules.md
           - security-checks/ni-findings.md
       - topicgroup: 
-          label: Related links
-          topics:
-            - link:
-               label: IBM Cloud Compliance Programs
-               href: https://www.ibm.com/cloud/compliance
-      - topicgroup: 
           label: Service availability
           topics:
           - locations-endpoints.md
           - topic: framework/ha-dr.md
             navtitle: Understanding HA / DR
+       - topicgroup: 
+          label: Related links
+          topics:
+            - link:
+               label: IBM Cloud Compliance Programs
+               href: https://www.ibm.com/cloud/compliance
 
   - navgroup:
       id: help
