@@ -150,7 +150,8 @@ toc:
       - topicgroup:
           label: Terraform
           topics:
-          - framework/terraform.md
+          - topic: framework/terraform.md
+            navtitle: Setting up Terraform
           - link:
               label: Terraform documentation
               href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_si_note
