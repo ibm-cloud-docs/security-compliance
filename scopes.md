@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-10"
+lastupdated: "2022-04-22"
 
 keywords: scopes, accounts, resources, environments
 
@@ -69,7 +69,7 @@ To narrow the focus of your scans, create a scope by using the {{site.data.keywo
 
    Be sure to give a detailed name as you use this field later to configure scans and remediation.
    
-4. Select an **Evironment** from the drop-down list.
+4. Select an **Environment** from the drop-down list.
 
    If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third party. Supported format for imported files is  `.json`. Max file size is 30 MB.
 
@@ -98,7 +98,7 @@ To narrow the focus of your scans, create a scope by using the {{site.data.keywo
 
    5. Select the **Frequency** at which you want your scans to run and click **Next**.
 
-      The scan wilil automatically begin scanning when the scope is created. To change your frequency or stop your scans, you can update the scan on the **Scans** page.
+      The scan automatically begins when the scope is created. To change your frequency or stop your scans, you can update the scan on the **Scans** page.
 
 8. Review your selections and click **Create**.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-04-22"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -51,7 +51,7 @@ content-type: troubleshoot
 {: #insights-connect}
 {: troubleshoot} 
 
-You try to create a new connection with Cloud Object Storage in the {{site.data.keyword.compliance_short}} UI and the button is greyed out and unable to be clicked.
+You try to create a new connection with Cloud Object Storage in the {{site.data.keyword.compliance_short}} UI and the button is unable to be clicked.
 {: tsSymptoms} 
 
 There are a few reasons that this might happen:

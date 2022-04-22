@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-19"
+lastupdated: "2022-04-22"
 
 keywords: Satellite, Scan resources, ROKS, OpenShift Compliance
 
@@ -129,7 +129,7 @@ Target the resources that you want to validate by creating a scope and schedulin
 
 1. In the {{site.data.keyword.compliance_short}}, go to [**Manage Posture > Configure > Scopes**](/security-compliance/scopes){: external}, click **Create**.
 2. Give your scope a name and description and click **Next**.
-3. From the **Evironment** drop-down, select **{{site.data.keyword.cloud_notm}}**.
+3. From the **Environment** drop-down, select **{{site.data.keyword.cloud_notm}}**.
 4. From the **Credentials** drop-down, select a credential that you previously added to the service and click **Next**.
 5. From the table, select the [collector](/docs/security-compliance?topic=security-compliance-collector) or collectors that you want to use to gather configuration data and click **Next**.
 6. Create an attachment between your scope and profile by scheduling a scan. 

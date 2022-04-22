@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-04-22"
 
 keywords: scans, compliance, schedule scan, create scan, discovery, validation, fact collection, fact validation
 
@@ -60,7 +60,7 @@ Depending on what you're trying to accomplish, you might run different types of 
 
 | Scan type | Description |
 |:----------|:------------|
-| Discovery | A scope is often defined at the highest level and includes one or more resource groups. When a discovery scan is run, a list of all of the available resources in a scope is returned. |
+| Discovery | A scope is often defined at the highest level and includes one or more resource groups. When a discovery scan is run, a list of all the available resources in a scope is returned. |
 | Fact collection | When you collect facts, you're collecting the configuration information of the resources that were found during discovery. If any new resource configurations are found, then the scope is updated to include them. |
 | Validation | Validation scans determine a specified scope's adherence to regulatory controls by creating an attachment between that scope and profile. When a validation scan is run, the service also runs a fact collection scan before the validation occurs. |
 | Fact validation | Fact validation is run on previously collected facts. You might run a fact validation to determine whether previous configurations meet your current profile requirements. |

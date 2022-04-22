@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-17"
+lastupdated: "2022-04-22"
 
 keywords: scopes, accounts, resources, environments
 
@@ -69,7 +69,7 @@ You can run a one-time on-demand scan from the **Actions > Scan** drop down on t
 ## Creating a new resource mapping
 {: #resource-mapping}
 
-When an Nmap scan is run on on-premises resources, occasionally a resource is misidentified. In order to override the mapping that is made by the scan, you can create a new mapping in the UI. 
+When an Nmap scan is run on on-premises resources, occasionally a resource is misidentified. To override the mapping that is made by the scan, you can create a new mapping in the UI. 
 
 1. From the scope details page, select **Resource mapping** from the **Actions** drop-down.
 2. Click **Create**.

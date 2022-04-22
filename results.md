@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-04-22"
 
 keywords: evaluation results, rule results, configuration results, resource configuration, 
 
@@ -80,7 +80,7 @@ From the details page, you can view a summary of your evaluation results for any
 
 4. View the history of a specific resource.
 
-   When you select **View history**, a new page opens that shows the full history of results for the resource that you previously selected. Historical results can be used in compliance audits to prove that issues are fixed within a designated time frame. 
+   When you select **View history**, a new page opens that shows the full history of results for the resource that you previously selected. Historical results can be used in compliance audits to prove that issues are fixed within a designated timeframe. 
 
 ## Downloading a report
 {: #download-report-config}
