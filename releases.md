@@ -139,7 +139,7 @@ New versions of the {{site.data.keyword.cloud_notm}} for Financial Services prof
 {: release-note}
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. all the goals with ID's in the following ranges are new.
+:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
 
 * Goal ID's: `3000046` - `3000048` and `3000473` - `3000474`.
 
@@ -255,7 +255,7 @@ New service available in Configuration Governance
 {: release-note}
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. all the goals with ID's in the following ranges are new.
+:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
 
 * Goal ID's: `3000542` - `3000544` and `3000321`.
 
@@ -297,7 +297,7 @@ New version of the {{site.data.keyword.cloud_notm}} for Financial Services profi
 {: release-note}
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. all the goals with ID's in the following ranges are new.
+:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
 
 * Goal ID's: `3000526` - `3000533`
 
@@ -307,7 +307,7 @@ New goals
 {: release-note}
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. all the goals with ID's in the following ranges are new.
+:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
 
 * Goal ID's: `3000510` - `3000525` and `3000640`.
 
@@ -331,7 +331,7 @@ Documentation update
 :   With this release we've completed the integration of the Security Insights, formerly known as {{site.data.keyword.security-advisor_short}}, documentation into the {{site.data.keyword.compliance_short}} docs. You can now find the documentation for all three components in the {{site.data.keyword.compliance_short}} documentation.
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. all the goals with ID's in the following ranges are new.
+:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
 
 * Goal ID's: `3000509`
 
@@ -400,7 +400,7 @@ IBM-managed collector
 :   A collector is used to gather the configuration information about your resources and then validate it against a specified standard. Previously, you were responsible for the installation and lifecycle management of the collector. Now, you can get a proof of concept up and running quickly by configuring an IBM-managed collector. For more information, see [Configuring managed collectors](/docs/security-compliance?topic=security-compliance-ibm-collector) or [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. N goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. all the goals with ID's in the following ranges are new.
+:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. N goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
 
 * Goal ID's: `3000901` - `3000907`
 
@@ -463,7 +463,7 @@ Manage your own encryption
    By default, the data that is generated by the {{site.data.keyword.compliance_short}} is encrypted at rest by IBM. To control the encryption of your data, you can enable a key management service and select your own key. For more information, see [Protecting your sensitive data](/docs/security-compliance?topic=security-compliance-mng-data#data-encryption).
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. 51 new goals have been added to the IBM profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the IBM Best Practices Controls 1.0 profile. all the goals with ID's in the following ranges are new.
+:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. 51 new goals have been added to the IBM profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the IBM Best Practices Controls 1.0 profile. All the goals with ID's in the following ranges are new.
 
 * Goal ID's: `3000110` - `3000117`
 * Goal ID's: `3000256` - `3000279`

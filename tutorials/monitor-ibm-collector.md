@@ -79,7 +79,7 @@ IBM-managed collectors are created on IBM-owned infrastructure and are maintaine
 {: note}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-1. On the [**Manage Posture > Configure > Collectors** page](https://{DomainName}/security-compliance/collectors) of the {{site.data.keyword.compliance_short}}, click **Create**.
+1. On the [**Manage Posture > Configure > Collectors** page](/security-compliance/collectors) of the {{site.data.keyword.compliance_short}}, click **Create**.
 1. Give your collector a name and description.
 
    It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
