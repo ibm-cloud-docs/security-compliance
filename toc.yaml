@@ -2,7 +2,7 @@ toc:
   properties:
     subcollection: security-compliance
     service-name: compliance
-    category: platform_services
+    category: security
     audience: platform
     href: /docs/security-compliance
     console-page: /security-compliance
@@ -132,10 +132,9 @@ toc:
       id: reference
       topics:
       - topicgroup:
-          label: API and SDK references
+          label: APIs and SDKs
           topics:
           - api-setup.md
-          - framework/terraform.md
           - link:
               label: Admin
               href: https://{DomainName}/apidocs/security-compliance-admin
@@ -145,31 +144,36 @@ toc:
           - link:
               label: Posture Management
               href: https://{DomainName}/apidocs/security-compliance/posture
-          - topicgroup:
-              label: Security Insights
-              links:
-              - link:
-                  label: Findings
-                  href: https://{DomainName}/apidocs/security-compliance-findings
-              - link:
-                  label: Notifications
-                  href: https://{DomainName}/apidocs/security-compliance-si-notifications
-      - link:
+          - link:
+              label: "Security Insights: Findings"
+              href: https://{DomainName}/apidocs/security-compliance-findings
+      - topicgroup:
           label: Terraform
-          href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_si_note
-      - topicgroup: 
-          label: Available checks
           topics:
-          - security-checks/ai-rules.md
-          - security-checks/ni-findings.md
+          - topic: framework/terraform.md
+            navtitle: Setting up Terraform
+          - link:
+              label: Terraform documentation
+              href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_si_note
+      - topicgroup:
+          label: Available properties and insights
+          topics: 
           - security-checks/default-goals.md
           - security-checks/scc-properties.md
-      - link:
-          label: IBM Cloud Compliance Programs
-          href: https://www.ibm.com/cloud/compliance
-      - locations-endpoints.md
-      - topic: framework/ha-dr.md
-        navtitle: Understanding HA / DR
+          - security-checks/ai-rules.md
+          - security-checks/ni-findings.md
+      - topicgroup: 
+          label: Service availability
+          topics:
+          - locations-endpoints.md
+          - topic: framework/ha-dr.md
+            navtitle: Understanding HA / DR
+      - topicgroup: 
+          label: Related links
+          topics:
+            - link:
+               label: IBM Cloud Compliance Programs
+               href: https://www.ibm.com/cloud/compliance
 
   - navgroup:
       id: help

@@ -79,7 +79,7 @@ To complete this tutorial, be sure that you have the following requirements:
 
 A collector is a container image that you install on your Virtual Private Cloud. The collector image is responsible for gathering your configuration information and validating it.
 
-1. Go to the [**Manage posture > Configure > Collectors** tab](https://{DomainName}/security-compliance/collectors) and click **Create**.
+1. Go to the [**Manage posture > Configure > Collectors** tab](/security-compliance/collectors) and click **Create**.
 2. Give your collector a meaningful name and description. For example, `ibm-cloud-collector`. 
 3. Click **Next**.
 4. Select **Customer** to install the collector on your organization's infrastructure.
@@ -149,7 +149,7 @@ To validate your resources, a collector must have *read* access to the resources
 
 1. Create an {{site.data.keyword.cloud_notm}} API key for a service ID.
 
-   1. Go to [**Manage > Access (IAM) > Service IDs**](https://{DomainName}/iam/serviceids/). If you don't already have a service ID that you want to use, click **Create** and provide a name and description. Click **Create** again.
+   1. Go to [**Manage > Access (IAM) > Service IDs**](/iam/serviceids/). If you don't already have a service ID that you want to use, click **Create** and provide a name and description. Click **Create** again.
    2. Select the service ID that you want to use and click **API keys**.
    3. Click **Create** and give your API key a meaningful name and description. For example, `compliance-api-key` and this key is used by the collector to validate my resource configurations. Click **Create**.
    4. Click **Copy** or **Download** to save your key.
@@ -157,7 +157,7 @@ To validate your resources, a collector must have *read* access to the resources
 2. Add the API key to the {{site.data.keyword.compliance_short}} as a credential.
 
    1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to return to the {{site.data.keyword.compliance_short}}.
-   2. In the navigation, click [**Manage posture > Configure > Credentials**](https://{DomainName}/security-compliance/credentials).
+   2. In the navigation, click [**Manage posture > Configure > Credentials**](/security-compliance/credentials).
    3. Click **Create**.
    4. Give your credential a meaningful name. For example, `ibm-cloud-compliance`.
    5. Select **Discovery / fact collection** as the purpose of the credential and then click **Next**.

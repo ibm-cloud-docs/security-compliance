@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-04-19"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -53,8 +53,6 @@ As an administrator of {{site.data.keyword.compliance_full}}, you might want to 
 
 To send information to {{site.data.keyword.en_short}}, you must connect {{site.data.keyword.compliance_short}} to {{site.data.keyword.en_short}}. For more information about working with {{site.data.keyword.en_short}}, see [Getting started with {{site.data.keyword.en_short}}](/docs/event-notifications).
 
-Notifications for {{site.data.keyword.compliance_short}} were previously known as alerts. As of 13 December 2021, the alerts capability is deprecated in favor of {{site.data.keyword.en_short}}. To access information about the deprecated feature, you can view the [documentation](/docs/security-compliance?topic=security-compliance-notifications).
-{: note}
 
 ## How events are collected and sent by {{site.data.keyword.compliance_short}}
 {: #event-notifications-how}

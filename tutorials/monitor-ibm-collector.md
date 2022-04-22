@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-05"
+lastupdated: "2022-04-22"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -79,7 +79,7 @@ IBM-managed collectors are created on IBM-owned infrastructure and are maintaine
 {: note}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
-1. On the [**Manage Posture > Configure > Collectors** page](https://{DomainName}/security-compliance/collectors) of the {{site.data.keyword.compliance_short}}, click **Create**.
+1. On the [**Manage Posture > Configure > Collectors** page](/security-compliance/collectors) of the {{site.data.keyword.compliance_short}}, click **Create**.
 1. Give your collector a name and description.
 
    It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
@@ -130,7 +130,7 @@ Target the resources that you want to validate by creating a scope and schedulin
 3. Give your scope a name and description and then click **Next**.
 
    Be sure to give a detailed name as you use this field later to configure scans and remediation.
-4. Select an **Evironment** from the drop-down list.
+4. Select an **Environment** from the drop-down list.
 
    If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third party. Supported format for imported files is  `.json`. Max file size is 30 MB.
 5. From the **Credentials** drop-down, select a credential that you previously added to the service and then click **Next**.

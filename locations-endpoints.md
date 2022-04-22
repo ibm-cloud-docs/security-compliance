@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-02-15"
+lastupdated: "2022-04-22"
 
 keywords: security and compliance center locations, available locations, scc endpoints, security and compliance center endpoints, regions, scc regions
 
@@ -75,7 +75,6 @@ If you're managing your service instances of {{site.data.keyword.compliance_shor
 | Posture Management | `https://asap.compliance.cloud.ibm.com/alpha`|
 | Configuration Governance | `https://compliance.cloud.ibm.com/config`|
 | Security Insights: Findings | `https://us-south.secadvisor.cloud.ibm.com/findings` |
-| Security Insights: Notifications | `https://us-south.secadvisor.cloud.ibm.com/notifications` |
 | Admin | `https://compliance.cloud.ibm.com/admin` |
 {: caption="Table 1. Formatting for the available APIs" caption-side="top"}
 {: #us-endpoints}
@@ -88,7 +87,6 @@ If you're managing your service instances of {{site.data.keyword.compliance_shor
 | Posture Management | `https://eu.compliance.cloud.ibm.com/posture`|
 | Configuration Governance | `https://compliance.cloud.ibm.com/config`|
 | Security Insights: Findings | `https://eu.compliance.cloud.ibm.com/si/findings` |
-| Security Insights: Notifications | `https://eu.compliance.cloud.ibm.com/si/notifications` |
 | Admin | `https://compliance.cloud.ibm.com/admin` |
 {: caption="Table 1. Formatting for the available APIs" caption-side="top"}
 {: #eu-endpoints}
@@ -101,7 +99,6 @@ If you're managing your service instances of {{site.data.keyword.compliance_shor
 | Posture Management | This feature is not available in the United Kingdom location. |
 | Configuration Governance | This feature is not available in the United Kingdom location. |
 | Security Insights: Findings | `https://eu-gb.secadvisor.cloud.ibm.com/findings` |
-| Security Insights: Notifications | `https://eu-gb.secadvisor.cloud.ibm.com/notifications` |
 | Admin | `https://compliance.cloud.ibm.com/admin` |
 {: caption="Table 1. Formatting for the available APIs" caption-side="top"}
 {: #uk-endpoints}

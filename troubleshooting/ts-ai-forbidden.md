@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-04-22"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -65,6 +65,6 @@ namespaces “security-advisor-insights” is forbidden: User “system:servicea
 The `kube-system` default service account does not have admin access in your cluster.
 {: tsCauses}
 
-Prior to installing one of the Built-in Insights offerings, you must install Helm. You can install Helm by using the [Kubernetes Service integration docs](/docs/containers?topic=containers-helm).
+Before installing one of the Built-in Insights offerings, you must install Helm. You can install Helm by using the [Kubernetes Service integration docs](/docs/containers?topic=containers-helm).
 {: tsResolve}
 
