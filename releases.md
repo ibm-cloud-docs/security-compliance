@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-22"
+lastupdated: "2022-04-25"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -54,6 +54,15 @@ content-type: release-note
 ## 5 April 2022
 {: #security-compliance-apr0522}
 {: release-note}
+
+<pcl-test>
+
+New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Version 0.1.4 and Version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile are now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-profile-change-log).
+
+</pcl-test>
+
+<pcl-prod>
 
 New versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile
 :   Versions 0.1.4 and 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Serviices profile are now available with new goals and controls.
@@ -134,6 +143,8 @@ New versions of the {{site.data.keyword.cloud_notm}} for Financial Services prof
    * Goal ID: `3000472` mapped to the controls AC-4, SC-2 and SC-3
    * Goal ID: `3000915` mapped to the controls CP-7(a), CP-7(1), CP-10 and SC-6
 
+</pcl-prod>
+
 ## 23 March 2022
 {: #security-compliance-mar2322}
 {: release-note}
@@ -179,9 +190,17 @@ New service available in Configuration Governance
 Add parameters during credential mapping
 :   When resources such as an instance of {{site.data.keyword.containershort}} clusters are scanned, additional parameters must be provided in order for the collector to access all their configuration data. If this is the case, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials. For more information, see [Mapping additional credentials](/docs/security-compliance?topic=security-compliance-map-credentials).
 
+<pcl-test>
+
+New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Version 0.1.3 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-profile-change-log).
+
+</pcl-test>
+
+<pcl-prod>
+
 New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
 :   Version 0.1.3 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. 
-
 
    Goals that were removed:
    * Goal ID: `3000019`
@@ -207,6 +226,8 @@ New version of the {{site.data.keyword.cloud_notm}} for Financial Services profi
    * Goal ID: `3000541` mapped to the controls AC-2(1), AC-2(c), AC-2(i), AC-3, AC-5(b), AC-6 and SC-2
    * Goal ID: `3000611` mapped to the controls CM-8(3)(a), RA-5(a) and SI-2(2)
    * Goal ID: `3000108` mapped to the controls SC-13 and SC-28
+
+</pcl-prod>
 
 ## 21 January 2022
 {: #security-compliance-jan2122}
@@ -277,6 +298,15 @@ Deprecation of the bookmarks capability
 {: #security-compliance-sept152021}
 {: release-note}
 
+<pcl-test>
+
+New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Version 0.1.2 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-profile-change-log).
+
+</pcl-test>
+
+<pcl-prod>
+
 New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
 :   Version 0.1.2 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. Check out the following list of goals to see how they're mapped to specific controls.
 
@@ -291,6 +321,8 @@ New version of the {{site.data.keyword.cloud_notm}} for Financial Services profi
 * Goal ID: `3000903` mapped to the controls AC-4 and SC-12
 * Goal ID: `3000906` mapped to the controls AC-17(2), SC-8, SC-8(1), SC-13 and SC-23
 * Goal ID: `3000907` mapped to the controls CM-2, CM-7(a), CM-8(1), CM-8(3)(a), SA-3(a) and SI-2(2)
+
+</pcl-prod>
 
 ## 2 September 2021
 {: #security-compliance-sept0221}
@@ -339,6 +371,14 @@ New goals
 {: #security-compliance-june242021}
 {: release-note}
 
+<pcl-test>
+New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Version 0.1.1 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-profile-change-log).
+
+</pcl-test>
+
+<pcl-prod>
+
 New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
 :   Version 0.1.1 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls.
 
@@ -383,6 +423,8 @@ New version of the {{site.data.keyword.cloud_notm}} for Financial Services profi
    Goals that were added:
 
    * Goal ID: `3000038` mapped to the control `AC-2(j))`
+
+</pcl-prod>
 
 ## 22 June 2021
 {: #security-compliance-jun2221}
