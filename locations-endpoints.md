@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-04-22"
+lastupdated: "2022-04-27"
 
 keywords: security and compliance center locations, available locations, scc endpoints, security and compliance center endpoints, regions, scc regions
 
@@ -94,6 +94,8 @@ If you're managing your service instances of {{site.data.keyword.compliance_shor
 {: tab-group="regions"}
 {: class="simple-tab-table"}
 
+
+
 | API | Endpoint  |
 |--------|-----------|
 | Posture Management | This feature is not available in the United Kingdom location. |
@@ -105,6 +107,4 @@ If you're managing your service instances of {{site.data.keyword.compliance_shor
 {: tab-title="United Kingdom"}
 {: tab-group="regions"}
 {: class="simple-tab-table"}
-
-
 
