@@ -4,12 +4,12 @@
     "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
     "section_devtools": {
       "api": "/apidocs/security-compliance/posture",
-      "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_si_note"
+      "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_account_settings"
     },
     "section_recommended": [
       {
         "title": "What is a collector?",
-        "description": "To start monitoring your compliance posture, you must first create a collector.",
+        "description": "To start monitoring your compliance posture, you must first gather your configuration data by using a collector.",
         "href": "/docs/security-compliance?topic=security-compliance-collector"
       },
       {
@@ -30,22 +30,22 @@
       "community": "https://community.ibm.com/community/user/publiccloud/home"
     },
     "section_updates": {
-      "view_more": "/docs/acme-test?topic=acme-test-release-notes",
+      "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
       "tiles": [
         {
-          "date": "13 December 2021",
-          "title": "Now available: Event Notifications integration",
+          "date": "5 April 2022",
+          "title": "Now available: New IBM Cloud for Financial Services profile version",
           "description": "You can now integrate Security and Compliance Center to the Event Notifications service."
         },
         {
-          "date": "9 December 2021",
-          "title": "Now available: Customer-managed collectors on clusters",
-          "description": "You can now install a customer-managed collector onto an IBM Cloud Kubernetes Service or OpenShift."
-        },
-        {
-          "date": "22 November 2021",
+          "date": "23 March 2022",
           "title": "Now available: New goals",
           "description": "New goals are now available in the IBM Cloud Best Practices profile."
+        },
+        {
+          "date": "10 March 2022",
+          "title": "Now available: Quick Start & New create rule flow",
+          "description": "The {{site.data.keyword.compliance_short}} is updated to include a quick start wizard for Posture Management as well as updates to the create rule flow. "
         }
       ]
     }

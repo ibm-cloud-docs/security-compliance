@@ -58,7 +58,7 @@ toc:
               topics:
               - profile-what-is.md
               - profile-custom.md
-              - customize-goals.md
+              - goals-customize.md
       - topicgroup: 
           label: Monitoring your resources
           topics:

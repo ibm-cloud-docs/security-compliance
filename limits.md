@@ -122,7 +122,7 @@ Review the following table to see the limits that apply to collectors.
 
 |  | Limit |
 |----------------|-----------|
-| Scannable resources | 350 resources per collector |
+| Scannable resources | 350 resources per managed-collector |
 {: row-headers}
 {: caption="Table 4. Collector limits" caption-side="top"}
 
