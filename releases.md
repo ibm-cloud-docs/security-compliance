@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-25"
+lastupdated: "2022-04-27"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -341,11 +341,13 @@ Consolidated SDK package
 * [Admin](/apidocs/security-compliance-admin){: external}
 * [Configuration Governance](/apidocs/security-compliance-config){: external}
 * [Posture Management](/apidocs/security-compliance/posture){: external}
-* [Findings](/apidocs/security-compliance-findings){: external}
-* [Notifications](/apidocs/security-compliance-si-notifications){: external}
+
+
 
 Documentation update
 :   With this release we've completed the integration of the Security Insights, formerly known as {{site.data.keyword.security-advisor_short}}, documentation into the {{site.data.keyword.compliance_short}} docs. You can now find the documentation for all three components in the {{site.data.keyword.compliance_short}} documentation.
+
+
 
 New goals
 :   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
@@ -455,6 +457,8 @@ Manage the location in which your data is stored
 
    For more information, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
 
+
+
 The full integration of the Security Insights UI
 :   With this release we've completed the integration of the Security Insights, formerly known as {{site.data.keyword.security-advisor_short}}, UI into the {{site.data.keyword.compliance_short}}. You can now view your findings, enable Built-in Insights, set up alerts, and integrate with our existing business partners without ever leaving the {{site.data.keyword.compliance_short}} UI.
 
@@ -464,6 +468,8 @@ An update to the Security Insights notifications API
 :   With this release we've dropped camel-case support for parameters. The parameters `publicKey` and `alertSource` have been updated to `public_key` and `alert_source`.
 
    To work with the updated notifications API, see the [API docs](/apidocs/security-compliance-si-notifications).
+
+
 
 ## 15 March 2021
 {: #security-compliance-march1521}
@@ -493,6 +499,8 @@ New goals
 * Goal ID's: `3000311` - `3000320`
 * Goal ID's: `3000631` - `3000639`
 
+
+
 ## 13 January 2021
 {: #security-compliance-jan1321}
 {: release-note}
@@ -502,6 +510,7 @@ General availability of Security Insights
 
 End of support for Network Insights
 :   The beta version of Network Insights is deprecated and will no longer be supported as of 12 February 2021. To fully remove the beta version of Network Insights, delete the service components from your cluster and [delete your stored data from Cloud Object Storage](/docs/cloud-object-storage/info?topic=cloud-object-storage-security).
+
 
 ## 15 December 2020
 {: #security-compliance-dec1520}
@@ -540,5 +549,5 @@ Updated Settings page
 General availability of the {{site.data.keyword.compliance_short}}
 :   The {{site.data.keyword.compliance_short}} is now generally available on {{site.data.keyword.cloud_notm}}!
 
-   In this release, the {{site.data.keyword.compliance_short}} offers support for profiles that you can use to monitor your accounts for compliance, config rules for governing the use of resources, and Security Insights for gaining insight into potential risks to your environments. For more information, check out the [announcement blog](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-security-and-compliance-center){: external}.
+   In this release, the {{site.data.keyword.compliance_short}} offers support for profiles that you can use to monitor your accounts for compliance and config rules for governing the use of resources across your accounts. For more information, check out the [announcement blog](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-security-and-compliance-center){: external}.
 

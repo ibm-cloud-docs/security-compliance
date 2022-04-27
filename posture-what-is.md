@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-04-27"
 
-keywords: best practices security and compliance, secure development, security strategy, insights, governance
+keywords: best practices security and compliance, secure development, security strategy, governance
 
 subcollection: security-compliance
 
