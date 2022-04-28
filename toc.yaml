@@ -158,7 +158,7 @@ toc:
               label: Terraform documentation
               href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_si_note
       - topicgroup:
-          label: Available profiles, properties, and insights<si-edit>Available profiles and properties</si-edit>
+          label: Available profiles, properties, and insights
           topics: 
           - security-checks/default-goals.md
           - security-checks/scc-properties.md
