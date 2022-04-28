@@ -103,6 +103,7 @@ toc:
               topics:
               - integrations/caveonix.md
               - integrations/neuvector.md
+              - integrations/tanium.md
               - integrations/twistlock.md
           - topicgroup:
               label: Connecting resources
