@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-22"
+lastupdated: "2022-04-28"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -151,6 +151,10 @@ Target the resources that you want to validate by creating a scope and schedulin
    1. Give your scan a name and description.
    2. Select a **Scan type**.
    3. From the **Profile** drop-down, select the profile that you want to use to evaluate your configuration.
+
+      If your scope includes a deployment of the VPC reference architecture for the {{site.data.keyword.cloud_notm}} for Financial Services, then select the latest version of the [{{site.data.keyword.cloud_notm}} for Financial Services profile](/docs/security-compliance?topic=security-compliance-ibm-financial-services). You can also choose to create a [custom profile](/docs/security-compliance?topic=security-compliance-custom-profiles) that contains the specifc subset of goals from a profile that you want to evaluate your resources for.
+      {: note}
+
    4. **Enable** or **Disable** the profiles that are associated with your integrated resources. For more information about integrations see the [integrations tab of the UI](/security-compliance/integrations){: external}.
    4. If applicable: Select a remediation type.
 
