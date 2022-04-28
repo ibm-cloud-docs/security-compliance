@@ -95,9 +95,7 @@ toc:
           - insights-default.md
       - topicgroup:
           label: Connecting integrations
-          topics: <si-rewrite>
-          - integrations/osco.md
-          - integrations/tanium.md</si-rewrite>
+          topics: 
           - topicgroup:
               label: Connecting business partners
               topics:
