@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-01"
+lastupdated: "2022-04-28"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -286,6 +286,7 @@ For more information about assigning user roles in the console, see [Managing ac
 {: tip}
 
 
+
 ### Roles for Security Insights
 {: #insights-roles}
 
@@ -390,6 +391,8 @@ The following events are triggered by the Security Insights component of the {{s
 {: tab-title="Keys"}
 {: tab-group="insights"}
 {: class="simple-tab-table"}
+
+
 
 ### Roles for Admin
 {: #admin-roles}

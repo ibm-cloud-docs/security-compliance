@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-19"
+lastupdated: "2022-04-28"
 
 keywords: data encryption in {{site.data.keyword.compliance_short}}, data storage for {{site.data.keyword.compliance_short}}, bring your own keys for {{site.data.keyword.compliance_short}}, BYOK for {{site.data.keyword.compliance_short}}, key management for {{site.data.keyword.compliance_short}}, key encryption for {{site.data.keyword.compliance_short}}, personal data in {{site.data.keyword.compliance_short}}, data deletion for {{site.data.keyword.compliance_short}}, data in {{site.data.keyword.compliance_short}}, data security in {{site.data.keyword.compliance_short}}
 
@@ -248,7 +248,7 @@ All of the data in your account is automatically deleted. You don't need to take
 
 | Component    | Data deletion policy |
 |:-------------|:---------------------|
-| Posture Management  | Configuration data is deleted after 30 days. Analytics data is deleted after 31 days. |
+| Posture Management  | Configuration and Analytics data is deleted after 30 days. |
 | Configuration Governance   | Results data is stored for 7 days. |
 | Security Insights | Findings data is limited to 18,000 findings per account for a 90-day period. If the findings limit is reached before the 90 days is reached, 50% of the findings are deleted on a first-in, first-out basis. If the limit is not reached, the data is deleted after 90 days. |
 {: caption="Table 2. {{site.data.keyword.compliance_short}} data deletion policies " caption-side="top"}

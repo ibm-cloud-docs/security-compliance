@@ -95,13 +95,14 @@ toc:
           - insights-default.md
       - topicgroup:
           label: Connecting integrations
-          topics:
+          topics: <si-rewrite>
+          - integrations/osco.md
+          - integrations/tanium.md</si-rewrite>
           - topicgroup:
               label: Connecting business partners
               topics:
               - integrations/caveonix.md
               - integrations/neuvector.md
-              - integrations/tanium.md
               - integrations/twistlock.md
           - topicgroup:
               label: Connecting resources
@@ -156,7 +157,7 @@ toc:
               label: Terraform documentation
               href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_si_note
       - topicgroup:
-          label: Available properties and insights
+          label: Available profiles, properties, and insights<si-rewrite>Available profiles and properties</si-rewrite>
           topics: 
           - security-checks/default-goals.md
           - security-checks/scc-properties.md

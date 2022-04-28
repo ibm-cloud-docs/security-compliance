@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-19"
+lastupdated: "2022-04-28"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -389,6 +389,7 @@ The following events are triggered by the Security Insights component of the {{s
 {: tab-title="Keys"}
 {: tab-group="insights"}
 {: class="simple-tab-table"}
+
 
 
 ## Events for Admin
