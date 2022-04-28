@@ -67,3 +67,4 @@ This error can occur when the value that is provided for `badge_image` is the wr
 
 To resolve the issue, provide an optimized and compressed SVG value for `badge_image`.
 {: tsResolve}
+
