@@ -89,7 +89,7 @@ The security posture summary card contains information about security vulnerabil
 Before you get started, be sure that you have the following prerequisites:
 
 - An account with Caveonix.
-- The required level of access to create the connection. To integrate Caveonix, you need the *Manager* role or higher for {{site.data.keyword.security-advisor_short}}.
+- The required level of access to create the connection. To integrate Caveonix, you need the *Manager* role or higher for Security and Compliance Integrations.
 
 Be sure that you also have the following {{site.data.keyword.cloud_notm}} information ready to provide:
 
@@ -107,7 +107,7 @@ Be sure that you also have the following {{site.data.keyword.cloud_notm}} inform
 ## Creating the connection
 {: #connect-caveonix}
 
-To start viewing your Caveonix findings in the {{site.data.keyword.security-advisor_short}} dashboard, you must first create an asset library.
+To start viewing your Caveonix findings in the Security and Compliance Integrations dashboard, you must first create an asset library.
 
 1. In the Caveonix RiskForesight UI, go to **Admin > Admin Overview > CSP Management > Asset Repositories**.
 2. Click the **Create Asset Repository** icon.

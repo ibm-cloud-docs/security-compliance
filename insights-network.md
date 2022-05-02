@@ -47,27 +47,27 @@ subcollection: security-compliance
 # Enabling Network Insights
 {: #setup-network}
 
-With Security Insights, formerly known as {{site.data.keyword.security-advisor_long}}, you can continuously analyze your Virtual Private Cloud (VPC) network interface flow logs to detect any suspicious activity by using learned patterns and threat intelligence.
+With Security Insights, formerly known as Security and Compliance Integrations, you can continuously analyze your Virtual Private Cloud (VPC) network interface flow logs to detect any suspicious activity by using learned patterns and threat intelligence.
 {: shortdesc}
 
 
 ## Before you begin
 {: #before-network}
 
-Before you get started, be sure that you have the required level of access to view and manage Activity Insights. To manage Activity Insights, you must have the [**Writer** service role or higher for {{site.data.keyword.security-advisor_short}} and Virtual Private Cloud](/docs/security-compliance?topic=security-compliance-access-management). You must also have [an instance of VPC](https://{DomainName}/vpc-ext/provision/vpc).
+Before you get started, be sure that you have the required level of access to view and manage Activity Insights. To manage Activity Insights, you must have the [**Writer** service role or higher for Security and Compliance Integrations and Virtual Private Cloud](/docs/security-compliance?topic=security-compliance-access-management). You must also have [an instance of VPC](https://{DomainName}/vpc-ext/provision/vpc).
 
 
 ## Connecting to Cloud Object Storage
 {: #network-store-data}
 
-Before you can analyze your network communication, {{site.data.keyword.security-advisor_short}} must have access to your network flow logs that are stored in Cloud Object Storage. To create the connection between the services, you must store the logs in a Cloud Object Storage bucket and then grant the service access to the bucket. 
+Before you can analyze your network communication, Security and Compliance Integrations must have access to your network flow logs that are stored in Cloud Object Storage. To create the connection between the services, you must store the logs in a Cloud Object Storage bucket and then grant the service access to the bucket. 
 
 1. In the {{site.data.keyword.cloud_notm}} console, navigate to **Security and compliance > Gain insight > Configure > Built-in Insights**.
 2. Click **Connect**.
 3. Select a resource group, an instance of Cloud Object Storage, and a bucket.
 4. Optionally, provide a description.
 5. Click **Connect bucket**.
-6. Create a *reader* [service-to-service authorization policy](https://{DomainName}/iam/authorizations) between Cloud Object Storage and {{site.data.keyword.security-advisor_short}}.
+6. Create a *reader* [service-to-service authorization policy](https://{DomainName}/iam/authorizations) between Cloud Object Storage and Security and Compliance Integrations.
 
 
 
@@ -76,7 +76,7 @@ Before you can analyze your network communication, {{site.data.keyword.security-
 
 Before it can be analyzed, you must collect your data. To do so, you can create a flow log that collects your network interface logs and funnels them into a Cloud Object Storage bucket.
 
-You must have a service-to-service authorization policy between VPC and the same Cloud Object Storage bucket that you connected to {{site.data.keyword.security-advisor_short}} in order to ensure that the data can be analyzed.
+You must have a service-to-service authorization policy between VPC and the same Cloud Object Storage bucket that you connected to Security and Compliance Integrations in order to ensure that the data can be analyzed.
 {: note}
 
 1. In the {{site.data.keyword.cloud_notm}} console, navigate to **VPC Infrastructure > Flow logs**.
@@ -86,7 +86,7 @@ You must have a service-to-service authorization policy between VPC and the same
 5. Optionally, add tags.
 6. Select **Interface** for **Attach flow log connector to**.
 7. Select your VPC, virtual server instance, and network interface.
-8. Select the instance of Cloud Object Storage and the bucket that you connected to {{site.data.keyword.security-advisor_short}}.
+8. Select the instance of Cloud Object Storage and the bucket that you connected to Security and Compliance Integrations.
 9. Click **Create flow log**.
 
 

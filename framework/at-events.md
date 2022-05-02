@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-28"
+lastupdated: "2022-05-02"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -301,7 +301,7 @@ The following events are triggered by the Configuration Governance component of 
 ## Events for Security Insights
 {: #at_actions_insights}
 
-The following events are triggered by the Security Insights component of the {{site.data.keyword.compliance_short}}. The Security Insights component was formerly known as the {{site.data.keyword.security-advisor_short}} service.
+The following events are triggered by the Security Insights component of the {{site.data.keyword.compliance_short}}. The Security Insights component was formerly known as the Security and Compliance Integrations service.
 
 | Action                                   | Description     |
 | :----------------------------------------| :---------------|

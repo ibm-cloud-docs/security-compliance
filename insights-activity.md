@@ -49,7 +49,7 @@ subcollection: security-compliance
 # Enabling Activity Insights
 {: #setup-activity}
 
-With Security Insights, formerly known as {{site.data.keyword.security-advisor_long}}, you can continuously analyze your activity logs with predefined rule packages that can help you to identify unauthorized or suspicious behavior in your {{site.data.keyword.cloud_notm}} resources or applications. The predefined rule packages are based on security monitoring best practices for specific {{site.data.keyword.cloud_notm}} services.
+With Security Insights, formerly known as Security and Compliance Integrations, you can continuously analyze your activity logs with predefined rule packages that can help you to identify unauthorized or suspicious behavior in your {{site.data.keyword.cloud_notm}} resources or applications. The predefined rule packages are based on security monitoring best practices for specific {{site.data.keyword.cloud_notm}} services.
 {: shortdesc}
 
 Activity Insights is available for {{site.data.keyword.containershort}} clusters on classic infrastructure only.
@@ -59,7 +59,7 @@ Activity Insights is available for {{site.data.keyword.containershort}} clusters
 ## Before you begin
 {: #activity-prereq}
 
-Before you get started, be sure that you have the required level of access to view and manage Activity Insights. To manage Activity Insights, you must have the [**Writer** service role or higher for {{site.data.keyword.security-advisor_short}}](/docs/security-compliance?topic=security-compliance-access-management). 
+Before you get started, be sure that you have the required level of access to view and manage Activity Insights. To manage Activity Insights, you must have the [**Writer** service role or higher for Security and Compliance Integrations](/docs/security-compliance?topic=security-compliance-access-management). 
 
 You must also have the following prerequisites:
 
@@ -77,14 +77,14 @@ If you are working on Windows 10, activate [Windows Subsystem for Linux](https:/
 ## Connecting to Cloud Object Storage
 {: #activity-store-data}
 
-Before you can analyze your user and application activity, {{site.data.keyword.security-advisor_short}} must have access to your activity flow logs that are stored in Cloud Object Storage. To create the connection between the services, you must store the logs in a Cloud Object Storage bucket and then grant the service access to the bucket.
+Before you can analyze your user and application activity, Security and Compliance Integrations must have access to your activity flow logs that are stored in Cloud Object Storage. To create the connection between the services, you must store the logs in a Cloud Object Storage bucket and then grant the service access to the bucket.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
 2. On the **Gain insight > Configure > Built-in Insights** page, click **Connect**.
 3. Select a resource group, an instance of Cloud Object Storage, and a bucket.
 4. Optionally, provide a description.
 5. Click **Connect bucket**.
-6. Create a *reader* [service-to-service authorization policy](https://{DomainName}/iam/authorizations) between Cloud Object Storage and {{site.data.keyword.security-advisor_short}}.
+6. Create a *reader* [service-to-service authorization policy](https://{DomainName}/iam/authorizations) between Cloud Object Storage and Security and Compliance Integrations.
 
 
 ## Collecting activity flow logs

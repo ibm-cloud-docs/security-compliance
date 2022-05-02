@@ -86,7 +86,7 @@ The behavioral patterns of peers that are used as scanners, for mining cryptocur
 ## What is an insights rule?
 {: #insights-rule-example}
 
-A rule is a combination of conditions and an event that is used to analyze your logs for potential security findings. A condition is the combination of a `fact`, `operator`, and `value` that is bound together by using `any` or `all` operators. When a rule is broken, it's considered an event. When the event is reported to {{site.data.keyword.security-advisor_short}}, it is comprised of two fields: `type` and `params`.
+A rule is a combination of conditions and an event that is used to analyze your logs for potential security findings. A condition is the combination of a `fact`, `operator`, and `value` that is bound together by using `any` or `all` operators. When a rule is broken, it's considered an event. When the event is reported to Security and Compliance Integrations, it is comprised of two fields: `type` and `params`.
 
 Example rule:
 
