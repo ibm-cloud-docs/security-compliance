@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-04-27"
+lastupdated: "2022-05-02"
 
 keywords: security and compliance center locations, available locations, scc endpoints, security and compliance center endpoints, regions, scc regions
 
@@ -62,8 +62,12 @@ For more information about how your data is stored and processed in the availabl
 
 ![Visual representation of the availability of the service. The image is a map with pin points in the locations in which the service is available. If you are unable to view this image, see the table in the service endpoints section for a complete list.](images/world-map.svg){: caption="Figure 1. {{site.data.keyword.compliance_short}} availability" caption-side="bottom"}
 
+
+
 London is available for Security Insights only.
 {: note}
+
+
 
 ## Service endpoints
 {: #service-endpoints}
