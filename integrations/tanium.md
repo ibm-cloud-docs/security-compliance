@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-05-02"
 
 keywords: Centralized security, tanium, compliance monitoring, compliance, 
 
@@ -78,7 +78,7 @@ Before you get started, be sure that you have the following prerequisites.
 * An {{site.data.keyword.cloud_notm}} account.
 * A Tanium instance.
 * The required level of access to create and manage integrations in {{site.data.keyword.compliance_short}}. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
-   * To integrate with Tanium, you need the *administrator* platform role for the {{site.data.keyword.compliance_short}} service. 
+   * To integrate with Tanium, you need the *manager* role for the Security and Compliance Integrations service. 
    * To pull results from Tanium, you must have the *administrator* platform role or higher for the {{site.data.keyword.compliance_short}} service.
    * To complete the scan, you must have access to the resources in Tanium that you want to validate.
 

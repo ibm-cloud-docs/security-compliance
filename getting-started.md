@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-22"
+lastupdated: "2022-05-02"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -58,13 +58,18 @@ With {{site.data.keyword.compliance_full}}, you can promote a culture of complia
 
 Security and compliance are two concepts that are often spoken of interchangeably. But, there are some significant differences between them. For example, compliance regulations change slowly and are generally measured as a snapshot in time. Whereas security threats are constant and always changing. Depending on the role that you fill in your organization, you might focus on ensuring compliance to industry regulations or you might focus more on mitigating incoming security threats.
 
+
+
 The {{site.data.keyword.compliance_short}} is comprised of three components - Posture Management, Configuration Governance, and Security Insights - that are built directly into the platform and designed to help you achieve a continuously secure and compliant development environment in different ways. For example, you can:
 
 * Work with predefined controls that are implemented across your {{site.data.keyword.cloud_notm}} accounts
-* Define configuration rules and templates that prevent unsecure configuration of IBM Cloud resources
+* Define configuration rules and templates that prevent unsecure configuration of {{site.data.keyword.cloud_notm}} resources
 * Monitor your resource configurations in a single dashboard for any potential risk
 * Investigate the evaluation results to see which accounts or services are most at risk
 * Retain and access your results to prepare for internal and external audits
+
+
+
 
 
 ### Prevent misconfiguration of your resources
