@@ -2,15 +2,15 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-28"
+lastupdated: "2022-05-02"
 
 keywords: Satellite, Scan resources, ROKS, OpenShift Compliance
 
 subcollection: security-compliance
 
 content-type: tutorial
-services: security-compliance, vpc
-completion-time: 15m
+services: security-compliance, satellite
+completion-time: 30m
 
 ---
 
@@ -72,7 +72,7 @@ To complete this tutorial, be sure that you have the following requirements:
 {: #scan-sat-service-setup}
 {: step}
 
-To validate your resources, a collector is used to gather the configuration information of your resources. To collect the information, the collector must have the required permissions to access the resources. For more information about the security of your credentials, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
+To validate your {{site.data.keyword.openshiftshort}} resources, a collector is used to gather the configuration information of your resources. To collect the information, the collector must have the required permissions to access the resources. For more information about the security of your credentials, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
 
 
 ### Configure the OSCO integration
