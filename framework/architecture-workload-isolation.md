@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-02"
+lastupdated: "2022-05-03"
 
 keywords: public isolation for {{site.data.keyword.compliance_short}}, compute isolation for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} architecture, workload isolation in {{site.data.keyword.compliance_short}} 
 
@@ -87,7 +87,6 @@ Check out the following image to see how the service workloads are isolated and 
 {: tab-title="Customer"}
 {: tab-group="arch-manage"}
 {: class="simple-tab-table"}
-
 
 
 
