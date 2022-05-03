@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-02"
+lastupdated: "2022-05-03"
 
 keywords: Centralized security, osco, {{site.data.keyword.openshiftshort}} Compliance Operator, compliance monitoring, compliance, 
 
@@ -73,6 +73,7 @@ Before you get started, be sure that you have the following prerequisites.
 * The required level of access to create and manage integrations in {{site.data.keyword.compliance_short}}. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
    * To deploy the operator and complete the scan, you must have *manager* access to the {{site.data.keyword.openshiftshort}} resources that you want to validate.
    * To integrate the OSCO operator, you need the *administrator* platform role for the {{site.data.keyword.compliance_short}} service.
+   * You must also have *manager* access to Security and Compliance Integrations. 
 
 ## Deploying the operator
 {: #deploy-osco}
