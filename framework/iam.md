@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-01"
+lastupdated: "2022-05-03"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -60,7 +60,7 @@ Policies enable access to be granted at different levels. Some of the options in
 ## Assigning roles in the console
 {: #assign-roles}
 
-As an account owner, you are automatically assigned Administrator platform access to the {{site.data.keyword.compliance_short}} so that you can further assign roles and customize access policies for others. Depending on the feature that you work with, you might need to assign roles for {{site.data.keyword.security-advisor_short}} in addition to the {{site.data.keyword.compliance_short}}.
+As an account owner, you are automatically assigned Administrator platform access to the {{site.data.keyword.compliance_short}} so that you can further assign roles and customize access policies for others. Depending on the feature that you work with, you might need to assign roles for Security and Compliance Integrations in addition to the {{site.data.keyword.compliance_short}}.
 
 To assign access, you can use the **Access (IAM)** section of the console.
 
@@ -74,14 +74,12 @@ To assign access, you can use the **Access (IAM)** section of the console.
    3. Enter the compliance component that you want to assign access to.
       * To assign access for using profiles to [monitor accounts for compliance](#compliance-roles), enter _posture-management_.
       * To assign access for using rules to [govern the use of resources](#governance-roles), enter _configuration-governance_.
-   4. Choose a combination of [platform access roles](#iam-roles) to assign to the user.
-   5. Click **Add**.
-5. Assign {{site.data.keyword.security-advisor_short}} roles.
+   4. Choose a combination of [platform access roles](#iam-roles) to assign to the user and then click **Add**.
+5. Assign Security and Compliance Integrations roles.
    1. Select **IAM services**.
-   2. From the list of services, select **{{site.data.keyword.security-advisor_short}}**.
+   2. From the list of services, select **Security and Compliance Integrations**.
    3. Choose whether to give access to all resources or a subset based on attributes.
-   4. Choose a combination of [platform and service access roles](#insights-roles) to assign to the user.
-   5. Click **Add**.
+   4. Choose a combination of [platform and service access roles](#insights-roles) to assign to the user and then click **Add**.
 6. Review your selections and click **Assign**.
 
 
@@ -286,6 +284,7 @@ For more information about assigning user roles in the console, see [Managing ac
 {: tip}
 
 
+
 ### Roles for Security Insights
 {: #insights-roles}
 
@@ -390,6 +389,8 @@ The following events are triggered by the Security Insights component of the {{s
 {: tab-title="Keys"}
 {: tab-group="insights"}
 {: class="simple-tab-table"}
+
+
 
 ### Roles for Admin
 {: #admin-roles}

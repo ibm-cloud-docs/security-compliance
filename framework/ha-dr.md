@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-04-28"
 
 keywords: HA for {{site.data.keyword.compliance_short}}, DR for {{site.data.keyword.compliance_short}}, high availability for {{site.data.keyword.compliance_short}}, disaster recovery for {{site.data.keyword.compliance_short}}, failover for {{site.data.keyword.compliance_short}}
 
@@ -64,6 +64,8 @@ Your data is stored securely and backed up to IBM Cloud Databases. If a regional
 The Configuration Governance capability of the {{site.data.keyword.compliance_short}} is a highly-available regional service that runs in the Dallas (`us-south`), Frankfurt (`fra`), and Washington DC (`us-east`) regions. In each region, a highly available Cloudant cluster contains three copies of the data. The data is backed-up daily to Cloud Object Storage.
 
 If all of the availability zones in a region fail, {{site.data.keyword.compliance_short}} becomes unavailable in that location and all of the network traffic is routed to the other location. When the region is shown to be available again by health check APIs, traffic is automatically redirected back to the previously unavailable region without any need for action from you.
+
+
 
 ## Security Insights HA/DR
 {: #insights-ha-dr}

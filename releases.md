@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-22"
+lastupdated: "2022-05-02"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -51,9 +51,17 @@ content-type: release-note
 
 
 
+
+
+
+
 ## 5 April 2022
 {: #security-compliance-apr0522}
 {: release-note}
+
+
+
+
 
 New versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile
 :   Versions 0.1.4 and 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Serviices profile are now available with new goals and controls.
@@ -134,6 +142,8 @@ New versions of the {{site.data.keyword.cloud_notm}} for Financial Services prof
    * Goal ID: `3000472` mapped to the controls AC-4, SC-2 and SC-3
    * Goal ID: `3000915` mapped to the controls CP-7(a), CP-7(1), CP-10 and SC-6
 
+
+
 ## 23 March 2022
 {: #security-compliance-mar2322}
 {: release-note}
@@ -179,9 +189,12 @@ New service available in Configuration Governance
 Add parameters during credential mapping
 :   When resources such as an instance of {{site.data.keyword.containershort}} clusters are scanned, additional parameters must be provided in order for the collector to access all their configuration data. If this is the case, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials. For more information, see [Mapping additional credentials](/docs/security-compliance?topic=security-compliance-map-credentials).
 
+
+
+
+
 New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
 :   Version 0.1.3 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. 
-
 
    Goals that were removed:
    * Goal ID: `3000019`
@@ -207,6 +220,8 @@ New version of the {{site.data.keyword.cloud_notm}} for Financial Services profi
    * Goal ID: `3000541` mapped to the controls AC-2(1), AC-2(c), AC-2(i), AC-3, AC-5(b), AC-6 and SC-2
    * Goal ID: `3000611` mapped to the controls CM-8(3)(a), RA-5(a) and SI-2(2)
    * Goal ID: `3000108` mapped to the controls SC-13 and SC-28
+
+
 
 ## 21 January 2022
 {: #security-compliance-jan2122}
@@ -277,6 +292,10 @@ Deprecation of the bookmarks capability
 {: #security-compliance-sept152021}
 {: release-note}
 
+
+
+
+
 New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
 :   Version 0.1.2 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. Check out the following list of goals to see how they're mapped to specific controls.
 
@@ -291,6 +310,8 @@ New version of the {{site.data.keyword.cloud_notm}} for Financial Services profi
 * Goal ID: `3000903` mapped to the controls AC-4 and SC-12
 * Goal ID: `3000906` mapped to the controls AC-17(2), SC-8, SC-8(1), SC-13 and SC-23
 * Goal ID: `3000907` mapped to the controls CM-2, CM-7(a), CM-8(1), CM-8(3)(a), SA-3(a) and SI-2(2)
+
+
 
 ## 2 September 2021
 {: #security-compliance-sept0221}
@@ -324,11 +345,13 @@ Consolidated SDK package
 * [Admin](/apidocs/security-compliance-admin){: external}
 * [Configuration Governance](/apidocs/security-compliance-config){: external}
 * [Posture Management](/apidocs/security-compliance/posture){: external}
-* [Findings](/apidocs/security-compliance-findings){: external}
-* [Notifications](/apidocs/security-compliance-si-notifications){: external}
+
+
 
 Documentation update
-:   With this release we've completed the integration of the Security Insights, formerly known as {{site.data.keyword.security-advisor_short}}, documentation into the {{site.data.keyword.compliance_short}} docs. You can now find the documentation for all three components in the {{site.data.keyword.compliance_short}} documentation.
+:   With this release we've completed the integration of the Security Insights, formerly known as Security and Compliance Integrations, documentation into the {{site.data.keyword.compliance_short}} docs. You can now find the documentation for all three components in the {{site.data.keyword.compliance_short}} documentation.
+
+
 
 New goals
 :   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
@@ -338,6 +361,10 @@ New goals
 ## 24 June 2021
 {: #security-compliance-june242021}
 {: release-note}
+
+
+
+
 
 New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
 :   Version 0.1.1 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls.
@@ -383,6 +410,8 @@ New version of the {{site.data.keyword.cloud_notm}} for Financial Services profi
    Goals that were added:
 
    * Goal ID: `3000038` mapped to the control `AC-2(j))`
+
+
 
 ## 22 June 2021
 {: #security-compliance-jun2221}
@@ -432,8 +461,10 @@ Manage the location in which your data is stored
 
    For more information, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
 
+
+
 The full integration of the Security Insights UI
-:   With this release we've completed the integration of the Security Insights, formerly known as {{site.data.keyword.security-advisor_short}}, UI into the {{site.data.keyword.compliance_short}}. You can now view your findings, enable Built-in Insights, set up alerts, and integrate with our existing business partners without ever leaving the {{site.data.keyword.compliance_short}} UI.
+:   With this release we've completed the integration of the Security Insights, formerly known as Security and Compliance Integrations, UI into the {{site.data.keyword.compliance_short}}. You can now view your findings, enable Built-in Insights, set up alerts, and integrate with our existing business partners without ever leaving the {{site.data.keyword.compliance_short}} UI.
 
    To see the updates, check out the [{{site.data.keyword.compliance_short}} UI](https://cloud.ibm.com/security-compliance).
 
@@ -441,6 +472,8 @@ An update to the Security Insights notifications API
 :   With this release we've dropped camel-case support for parameters. The parameters `publicKey` and `alertSource` have been updated to `public_key` and `alert_source`.
 
    To work with the updated notifications API, see the [API docs](/apidocs/security-compliance-si-notifications).
+
+
 
 ## 15 March 2021
 {: #security-compliance-march1521}
@@ -470,6 +503,8 @@ New goals
 * Goal ID's: `3000311` - `3000320`
 * Goal ID's: `3000631` - `3000639`
 
+
+
 ## 13 January 2021
 {: #security-compliance-jan1321}
 {: release-note}
@@ -479,6 +514,7 @@ General availability of Security Insights
 
 End of support for Network Insights
 :   The beta version of Network Insights is deprecated and will no longer be supported as of 12 February 2021. To fully remove the beta version of Network Insights, delete the service components from your cluster and [delete your stored data from Cloud Object Storage](/docs/cloud-object-storage/info?topic=cloud-object-storage-security).
+
 
 ## 15 December 2020
 {: #security-compliance-dec1520}
@@ -517,5 +553,5 @@ Updated Settings page
 General availability of the {{site.data.keyword.compliance_short}}
 :   The {{site.data.keyword.compliance_short}} is now generally available on {{site.data.keyword.cloud_notm}}!
 
-   In this release, the {{site.data.keyword.compliance_short}} offers support for profiles that you can use to monitor your accounts for compliance, config rules for governing the use of resources, and Security Insights for gaining insight into potential risks to your environments. For more information, check out the [announcement blog](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-security-and-compliance-center){: external}.
+   In this release, the {{site.data.keyword.compliance_short}} offers support for profiles that you can use to monitor your accounts for compliance and config rules for governing the use of resources across your accounts. For more information, check out the [announcement blog](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-security-and-compliance-center){: external}.
 

@@ -58,7 +58,7 @@ toc:
               topics:
               - profile-what-is.md
               - profile-custom.md
-              - customize-goals.md
+              - goals-customize.md
       - topicgroup: 
           label: Monitoring your resources
           topics:
@@ -95,7 +95,7 @@ toc:
           - insights-default.md
       - topicgroup:
           label: Connecting integrations
-          topics:
+          topics: 
           - topicgroup:
               label: Connecting business partners
               topics:
@@ -154,9 +154,9 @@ toc:
             navtitle: Setting up Terraform
           - link:
               label: Terraform documentation
-              href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_si_note
+              href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_account_settings
       - topicgroup:
-          label: Available properties and insights
+          label: Available properties
           topics: 
           - security-checks/default-goals.md
           - security-checks/scc-properties.md

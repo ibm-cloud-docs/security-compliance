@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-04-28"
 
 keywords: goals, secure by default, secure, secure platform, default goals, available goals
 
@@ -77,3 +77,4 @@ To see which goals are met by default, check out the following table.
 | 3000303 | Check whether IBM Activity Tracker logs are encrypted at rest |
 | 3000706 | Check whether App ID user data is encrypted |
 {: caption="Table 1. Default goals met by working with {{site.data.keyword.cloud_notm}}" caption-side="bottom"}
+

@@ -68,7 +68,7 @@ Before you start integrating business partners, be sure that you have the follow
 
 * An account with the business partner that you want to integrate.
 * The required permissions to obtain the registration URL from the business partner.
-* The IAM role `administrator` for the {{site.data.keyword.security-advisor_short}} and {{site.data.keyword.compliance_short}} services.
+* The IAM role `administrator` for the Security and Compliance Integrations and {{site.data.keyword.compliance_short}} services.
 
 
 ## Registering Twistlock

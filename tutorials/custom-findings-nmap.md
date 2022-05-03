@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-02-15"
+lastupdated: "2022-04-28"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -232,3 +232,4 @@ node ./src/app.js deleteCard
 
 Ready to start integrating your own security tools? Check out the [custom findings documentation](/docs/security-compliance?topic=security-compliance-setup_custom).
 {: tip}
+

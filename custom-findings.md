@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-05-02"
 
 keywords: Centralized security, security management, alerts, security risk, insights, threat detection
 
@@ -56,7 +56,7 @@ With {{site.data.keyword.compliance_full}}, you can integrate your existing cust
 ## Before you begin
 {: #custom-before-api}
 
-Before you get started, be sure that you have the required level of access to pull in custom findings. To integrate your own tools, you or the service ID that you're using must have the Manager service role or higher for {{site.data.keyword.security-advisor_short}}. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management). You must also have an IAM token to be used as part of the header of each API request.
+Before you get started, be sure that you have the required level of access to pull in custom findings. To integrate your own tools, you or the service ID that you're using must have the Manager service role or higher for Security and Compliance Integrations. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management). You must also have an IAM token to be used as part of the header of each API request.
 
 IAM tokens expire every 60 minutes. To learn how to [get a new token automatically](/docs/account?topic=account-iamtoken_from_apikey) by using an API key.
 {: tip}
