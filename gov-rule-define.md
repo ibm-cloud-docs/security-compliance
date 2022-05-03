@@ -84,7 +84,7 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the rules th
 5. Configure your properties. To add additional properties to your rule, repeat this step. You can select up to 5 different conditions and 16 properties to create your rule.
 
    To see all of the properties that are available for the service that you selected, you can click **Available Properties** in the **Definition** step. To see the available properties for all integrated services, see [Available properties](/docs/security-compliance?topic=security-compliance-available-rule-properties).
-  {: tip}
+   {: tip}
 
    1. Select a **Condition**.
 

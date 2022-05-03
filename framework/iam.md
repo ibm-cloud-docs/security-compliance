@@ -71,9 +71,7 @@ To assign access, you can use the **Access (IAM)** section of the console.
 5. Assign {{site.data.keyword.compliance_short}} roles.
    1. Select **Account management**.
    2. From the list of services, select **{{site.data.keyword.compliance_short}}**.
-   3. Enter the compliance component that you want to assign access to.
-      * To assign access for using profiles to [monitor accounts for compliance](#compliance-roles), enter _posture-management_.
-      * To assign access for using rules to [govern the use of resources](#governance-roles), enter _configuration-governance_.
+   3. Enter the compliance component that you want to assign access to. To assign access for using profiles to [monitor accounts for compliance](#compliance-roles), enter _posture-management_. To assign access for using rules to [govern the use of resources](#governance-roles), enter _configuration-governance_.
    4. Choose a combination of [platform access roles](#iam-roles) to assign to the user and then click **Add**.
 5. Assign Security and Compliance Integrations roles.
    1. Select **IAM services**.
