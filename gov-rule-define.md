@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-11"
+lastupdated: "2022-05-03"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -72,16 +72,16 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the rules th
 
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure > rules**, and click **Create**.
-3. Give your rule a meaningful name and description.
-4. Optional: Add one or more labels that you can use to organize and search for similar rules and click **Next**.
-5. Target your resource.
+2. Give your rule a meaningful name and description.
+3. Optional: Add one or more labels that you can use to organize and search for similar rules and click **Next**.
+4. Target your resource.
    1. From the **Target service** drop-down, select a service. For example, *Cloud Object Storage*.
    2. From the **Resource kind** drop-down, select the type of resource that you want to create a rule for. For example, *bucket*.
    3. Optional: Add additional target attributes to further qualify the resources that you want to target.
 
       For example, to target all of your Cloud Object Storage buckets in the US South location, you would make the following selections: **Attribute**: `Location`, **Value**: `string_equals`, and enter `us_south` for **Value**.
    4. Click **Add to rule**.
-6. Configure your properties. To add additional properties to your rule, repeat this step. You can select up to 5 different conditions and 16 properties to create your rule.
+5. Configure your properties. To add additional properties to your rule, repeat this step. You can select up to 5 different conditions and 16 properties to create your rule.
 
    To see all of the properties that are available for the service that you selected, you can click **Available Properties** in the **Definition** step. To see the available properties for all integrated services, see [Available properties](/docs/security-compliance?topic=security-compliance-available-rule-properties).
   {: tip}
@@ -95,9 +95,9 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the rules th
    4. Input the **Value** that you want the rule to enforce or monitor.
    5. Click **Add to rule**.
 
-7. If you want to enforce your rule, toggle **Enforcement** to **On**. If you only want to monitor the rule, toggle **Enforcement** to **Off**.
-8. Click **Next**.
-9. Review your selections and click **Create**.
+6. If you want to enforce your rule, toggle **Enforcement** to **On**. If you only want to monitor the rule, toggle **Enforcement** to **Off**.
+7. Click **Next**.
+8. Review your selections and click **Create**.
 
 After you create a rule, you can view it by navigating to the {{site.data.keyword.compliance_short}} UI and selecting the rule that you want to view in the **Configuration rules** table. To see which scope attachments are associated with a rule, click **Attachments** in the navigation.
 

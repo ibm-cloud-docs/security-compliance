@@ -156,11 +156,11 @@ Target the resources that you want to validate by creating a scope and schedulin
       {: note}
 
    4. **Enable** or **Disable** the profiles that are associated with your integrated resources. For more information about integrations see the [integrations tab of the UI](/security-compliance/integrations){: external}.
-   4. If applicable: Select a remediation type.
+   5. If applicable: Select a remediation type.
 
       Only some environments are configured to provide automatic remediation. For more information, see [Remediating issues](/docs/security-compliance?topic=security-compliance-remediation).
 
-   5. The scan will automatically occur when the scope is created. To schedule additional scans select the **Frequency** at which you want them to be run and the date when you want the scan to **End**.
+   6. The scan will automatically occur when the scope is created. To schedule additional scans select the **Frequency** at which you want them to be run and the date when you want the scan to **End**.
 
 8. Click **Next** and review your selections.
 9. Click **Create**. 

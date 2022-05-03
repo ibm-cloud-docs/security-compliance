@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-28"
+lastupdated: "2022-05-03"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -266,7 +266,6 @@ Target the resources that you want to validate by creating a scope and schedulin
    4. **Enable** or **Disable** the profiles that are associated with your integrated resources. For more information about integrations see the [integrations tab of the UI](/security-compliance/integrations){: external}.
 
       If you are working with any {{site.data.keyword.openshiftshort}} resources, you must enable the [OSCO integration](/security-compliance/integrations){: external}  and then enable profiles during this step in order for your resources to be evaluated.
-      
       {: note}
 
    5. If applicable: Select a remediation type.

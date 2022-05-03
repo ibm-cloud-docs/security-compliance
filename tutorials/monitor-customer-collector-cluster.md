@@ -191,7 +191,7 @@ Target the resources that you want to validate by creating a scope and schedulin
    7. Repeat step 5.
 
 6. From the table, select the [collector](/docs/security-compliance?topic=security-compliance-collector) or collectors that you want to use to gather configuration data and then click **Next**.
-8. Create an attachment between your scope and profile by scheduling a scan. 
+7. Create an attachment between your scope and profile by scheduling a scan. 
 
    1. Give your scan a name and description.
    2. Select a **Scan type**.
@@ -201,14 +201,14 @@ Target the resources that you want to validate by creating a scope and schedulin
       {: note}
 
    4. **Enable** or **Disable** the profiles that are associated with your integrated resources. For more information about integrations see the [integrations tab of the UI](/security-compliance/integrations){: external}.
-   4. If applicable: Select a remediation type.
+   5. If applicable: Select a remediation type.
 
       Only some environments are configured to provide automatic remediation. For more information, see [Remediating issues](/docs/security-compliance?topic=security-compliance-remediation).
 
-   5. The scan will automatically occur when the scope is created. To schedule additional scans select the **Frequency** at which you want them to be run and the date when you want the scan to **End**.
+   6. The scan will automatically occur when the scope is created. To schedule additional scans select the **Frequency** at which you want them to be run and the date when you want the scan to **End**.
 
-9. Click **Next** and review your selections.
-10. Click **Create**. 
+8. Click **Next** and review your selections.
+9. Click **Create**. 
 
 
 

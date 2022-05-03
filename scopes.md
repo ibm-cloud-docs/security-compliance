@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-22"
+lastupdated: "2022-05-03"
 
 keywords: scopes, accounts, resources, environments
 
@@ -92,11 +92,11 @@ To narrow the focus of your scans, create a scope by using the {{site.data.keywo
    2. Select a **Scan type**.
    3. From the **Profile** drop-down, select the profile that you want to use to evaluate your configuration.
    4. **Enable** or **Disable** the profiles that are associated with your integrated resources. For more information about integrations see the [integrations tab of the UI](/security-compliance/integrations){: external}.
-   4. If applicable: Select a remediation type.
+   5. If applicable: Select a remediation type.
 
       Only some environments are configured to provide automatic remediation. For more information, see [Remediating issues](/docs/security-compliance?topic=security-compliance-remediation).
 
-   5. Select the **Frequency** at which you want your scans to run and click **Next**.
+   6. Select the **Frequency** at which you want your scans to run and click **Next**.
 
       The scan automatically begins when the scope is created. To change your frequency or stop your scans, you can update the scan on the **Scans** page.
 
