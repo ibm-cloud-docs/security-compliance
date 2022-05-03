@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-28"
+lastupdated: "2022-05-03"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -125,14 +125,14 @@ The credentials that you add to the service must allow the collector to read you
 
 Target the resources that you want to validate by creating a scope and scheduling a scan. To create a scope, select an environment, select your collector, and select the credentials that are required to access your targeted resources. Then, you can schedule a scan to discover and validate your resource configurations.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In **Manage Posture > Configure > Scopes**, click **Create**.
 3. Give your scope a name and description and then click **Next**.
 
    Be sure to give a detailed name as you use this field later to configure scans and remediation.
 4. Select an **Environment** from the drop-down list.
 
-   If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third party. Supported format for imported files is  `.json`. Max file size is 30 MB.
+   If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third party. Supported format for imported files is `.json`. Max file size is 30 MB.
 5. From the **Credentials** drop-down, select a credential that you previously added to the service and then click **Next**.
 
    If you have not yet added a credential, you can use the following steps to add one and then select it from the drop-down.
