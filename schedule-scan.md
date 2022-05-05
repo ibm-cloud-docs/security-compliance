@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-22"
+lastupdated: "2022-05-05"
 
 keywords: scans, compliance, schedule scan, create scan, discovery, validation, fact collection, fact validation
 
@@ -205,7 +205,7 @@ You can schedule a fact validation scan by using the {{site.data.keyword.complia
 5. Click the **Validate** icon. 
 
 
-## Running a scan on demand
+## Running a scan on-demand
 {: #run-on-demand}
 
 If you need to run a one-time scan on a specific scope, you can initiate it in the scope details page.
