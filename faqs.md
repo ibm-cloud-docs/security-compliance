@@ -79,11 +79,11 @@ You can use the {{site.data.keyword.compliance_short}} to monitor your resources
 * {{site.data.keyword.blockstorageshort}}
 * {{site.data.keyword.cloudcerts_short}}
 * Cloud Databases
-  * Databases for Elasticsearch
-  * Databases for etcd
-  * Databases for MongoDB
-  * Databases for PostgreSQL
-  * Databases for Redis
+   * Databases for Elasticsearch
+   * Databases for etcd
+   * Databases for MongoDB
+   * Databases for PostgreSQL
+   * Databases for Redis
 * {{site.data.keyword.cis_short}}
 * Code Engine
 * {{site.data.keyword.registryshort}}
@@ -92,13 +92,13 @@ You can use the {{site.data.keyword.compliance_short}} to monitor your resources
 * Direct Link
 * Event Streams
 * Hyper Protect Services
-  * Hyper Protect Crypto Services
-  * Hyper Protect Databases
+   * Hyper Protect Crypto Services
+   * Hyper Protect Databases
 * IBM Cloud Monitoring
 * IBM Cloud Platform
-  * Catalog
-  * Cloud Shell
-  * {{site.data.keyword.iamshort}}
+   * Catalog
+   * Cloud Shell
+   * {{site.data.keyword.iamshort}}
 * {{site.data.keyword.keymanagementserviceshort}}
 * {{site.data.keyword.containershort_notm}}
 * Log Analysis
@@ -109,11 +109,11 @@ You can use the {{site.data.keyword.compliance_short}} to monitor your resources
 * Secrets Manager
 * Transit Gateway
 * {{site.data.keyword.vpc_short}}
-  * Application Load Balancer for VPC
-  * Auto Scale for VPC
-  * Block Storage for VPC
-  * Security Groups for VPC
-  * VPN for VPC
+   * Application Load Balancer for VPC
+   * Auto Scale for VPC
+   * Block Storage for VPC
+   * Security Groups for VPC
+   * VPN for VPC
 
 
 
