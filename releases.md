@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-04"
+lastupdated: "2022-05-10"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -46,7 +46,7 @@ content-type: release-note
 {:api: .ph data-hd-interface='api'}
 {:release-note: data-hd-content-type='release-note'}
 
-# Release notes for {{site.data.keyword.compliance_full}}
+# Release notes for {{site.data.keyword.compliance_short}}
 {: #release-notes}
 
 
