@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-05"
+lastupdated: "2022-05-11"
 
 keywords: scopes, accounts, resources, environments
 
@@ -62,7 +62,7 @@ To view the details of the scopes that you create, you can complete the followin
 4. Click **Event history** to see the historical archive of each scan that has been run on the scope. If there are additional details available for the scan, the event time is clickable.
 5. Click **Attachments** to see which profiles are currently being used to validate the resources in your selected scope.
 
-You can run a one-time ondemand scan from the **Actions > Scan** drop down on the scope details page.
+You can run a one-time on-demand scan from the **Actions > Scan** drop down on the scope details page.
 {: tip}
 
 
