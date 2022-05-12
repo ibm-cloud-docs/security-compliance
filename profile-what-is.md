@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-19"
+lastupdated: "2022-05-12"
 
 keywords: profiles, user-defined, predefined profiles, controls, goals, nist, best practices, security, compliance
 
@@ -69,8 +69,6 @@ You can implement a control by meeting one or more [goals](#x2117978){: term}. I
 ![Profile layout shown in diagram format. The information that is shown in the image is described in the surrounding text.](/images/profiles.svg){: caption="Figure 1. Understanding profiles" caption-side="bottom"}
 
 
-When you work with {{site.data.keyword.cloud_notm}}, several goals are met by default. To learn more about what makes {{site.data.keyword.cloud_notm}} secure by default, see [Available default goals](/docs/security-compliance?topic=security-compliance-default-goals).
-{: tip}
 
 ## Working with profiles
 {: #profile-types}

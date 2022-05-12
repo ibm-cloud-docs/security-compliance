@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-04"
+lastupdated: "2022-05-12"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -285,13 +285,13 @@ For more information about assigning user roles in the console, see [Managing ac
 
 
 
-### Roles for Security Insights
+### Roles for Integrations
 {: #insights-roles}
 
-The following events are triggered by the Security Insights component of the {{site.data.keyword.compliance_short}}. The Security Insights component was formerly known as the Security Advisor service.
+The following tables list the access roles that are required to create and manage integrations.
 
-| Action                                   | Description                    | Role                    |
-| :--------------------------------------- | :----------------------------- | :---------------------- |
+| Action                         | Description             | Role                    |
+| :----------------------------- | :---------------------- | :---------------------- |
 | `security-advisor.metadata.read`         | View previously created notes. | Reader, Writer, Manager |
 | `security-advisor.metadata.write`        | Create a note.                 | Manager |
 | `security-advisor.metadata.update`       | Update a note                  | Manager |

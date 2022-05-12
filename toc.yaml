@@ -147,7 +147,11 @@ toc:
               href: https://{DomainName}/apidocs/security-compliance/posture
           - link:
               label: "Security Insights: Findings"
+<<<<<<< HEAD
               href: https://{DomainName}/apidocs/security-compliance-findings
+=======
+              href: https://{DomainName}/apidocs/security-compliance-findings
+>>>>>>> 897da8fd1e337d4650ab57bccc8e7f816894c1cd
       - topicgroup:
           label: Terraform
           topics:
