@@ -285,10 +285,12 @@ For more information about assigning user roles in the console, see [Managing ac
 
 
 
-### Roles for Integrations
+
+
+### Roles for Security Insights
 {: #insights-roles}
 
-The following tables list the access roles that are required to create and manage integrations.
+The following tables list the access roles that are required to create and manage Security Insights.
 
 | Action                         | Description             | Role                    |
 | :----------------------------- | :---------------------- | :---------------------- |
