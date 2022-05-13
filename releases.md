@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-04"
+lastupdated: "2022-05-13"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -46,11 +46,23 @@ content-type: release-note
 {:api: .ph data-hd-interface='api'}
 {:release-note: data-hd-content-type='release-note'}
 
-# Release notes for {{site.data.keyword.compliance_full}}
+# Release notes for {{site.data.keyword.compliance_short}}
 {: #release-notes}
 
 
 
+
+
+
+## 13 May 2022
+{: #security-compliance-may1322}
+{: release-note}
+
+New pricing plans available
+:    The Posture Management component of the {{site.data.keyword.compliance_short}} is now a paid component. For more information about how pricing works and the available plans, see [How does {{site.data.keyword.compliance_short}} calculate pricing?](/docs/security-compliance?topic=security-compliance-scc-pricing).
+
+For the most up-to-date pricing information, you can create a cost estimate by clicking **Add to estimate** from either the provisioning or [plan page](/security-compliance/plan).
+{: important}
 
 
 
@@ -60,7 +72,7 @@ content-type: release-note
 
 In addition to small bug fixes and general updates, version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is updated with the following changes as of 4 May 2022.
 
-| Goal ID | Associated controls | Update made |
+| Goal ID   | Associated controls | Update made |
 |:----------|:-------------|:------------|
 | `3000906` | `SC-8-0`, `SC-8(1)`, `SC-13`, and `SC-23` | Updated goal and fact collection logic. |
 | `3000601` | `CM-8(3)(a)`, `RA-5(a)`, `SI-2(2)`, and `SI-2(a)` | Updated goal logic to consider whether the status is either unscanned or incomplete. |

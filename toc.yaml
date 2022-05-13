@@ -14,7 +14,10 @@ toc:
   - navgroup:
       id: learn
       topics:
-      - getting-started.md
+      - topic: getting-started.md
+        navtitle: Getting started
+      - topic: pricing.md
+        navtitle: How is pricing calculated?
       - topic: releases.md
         navtitle: Release notes
 
@@ -147,6 +150,15 @@ toc:
           - link:
               label: "Security Insights: Findings"
               href: https://{DomainName}/apidocs/security-compliance-findings
+          - topicgroup:
+            label: API change logs
+            topics: 
+            - topic: change-logs/admin-api-changes.md
+              navtitle: Admin
+            - topic: change-logs/config-api-changes.md
+              navtitle: Configuration Governance
+            - topic: change-logs/posture-api-changes.md
+              navtitle: Posture Management
       - topicgroup:
           label: Terraform
           topics:

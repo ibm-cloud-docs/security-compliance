@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-02"
+lastupdated: "2022-05-13"
 
 keywords: Satellite, Scan resources, ROKS, OpenShift Compliance
 
@@ -136,10 +136,6 @@ Target the resources that you want to validate by creating a scope and schedulin
    1. Give your scan a name and description.
    2. Select a **Scan type**.
    3. From the **Profile** drop-down, select the profile that you want to use to evaluate your configuration.
-
-      If your scope includes a deployment of the VPC reference architecture for the {{site.data.keyword.cloud_notm}} for Financial Services, then select the latest version of the [{{site.data.keyword.cloud_notm}} for Financial Services profile](/docs/security-compliance?topic=security-compliance-ibm-financial-services). You can also choose to create a [custom profile](/docs/security-compliance?topic=security-compliance-custom-profiles) that contains the specifc subset of goals from a profile that you want to evaluate your resources for.
-      {: note}
-
    4. **Enable** the profiles that are associated with the [OSCO integration](/security-compliance/integrations){: external}.
    5. By default, the scan starts when your scope is created and continues to run once per day. If you need the scan to be run more or less often, you can change the **Frequency**.
    6. Click **Next**.
@@ -151,7 +147,7 @@ Target the resources that you want to validate by creating a scope and schedulin
 {: #scan-sat-service-map}
 {: step}
 
-When you add a credential to the service, the collector uses it to gather configuration data for all of the resources that the credential has permission to access. For [some resources](/docs/security-compliance?topic=security-compliance-map-credentials), like a cluster, you must create a mapping that tells the collector where to apply the credential and look for the information.
+When you add a credential to the service, the collector uses it to gather configuration data for all the resources that the credential has permission to access. For [some resources](/docs/security-compliance?topic=security-compliance-map-credentials), like a cluster, you must create a mapping that tells the collector where to apply the credential and look for the information.
 
 
 ![This image is a visual representation of how to apply your credentials to specific resources in the GUI. The information that is shown in the image is detailed in the surrounding text.](../images/cluster-credential-map.svg){: caption="Figure 1. Mapping credentials through the UI" caption-side="bottom"}
