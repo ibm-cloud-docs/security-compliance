@@ -15,9 +15,7 @@ toc:
       id: learn
       topics:
       - topic: getting-started.md
-        navtitle: Getting started<pricing>
-      - topic: pricing.md
-        navtitle: How is pricing calculated?</pricing>
+        navtitle: Getting started
       - topic: releases.md
         navtitle: Release notes
 
