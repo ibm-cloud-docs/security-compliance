@@ -54,6 +54,18 @@ content-type: release-note
 
 
 
+## 13 May 2022
+{: #security-compliance-may1322}
+{: release-note}
+
+New pricing plans available
+:    The Posture Management component of the {{site.data.keyword.compliance_short}} is now a paid component. For more information about how pricing works and the available plans, see [How does {{site.data.keyword.compliance_short}} calculate pricing?](/docs/security-compliance?topic=security-compliance-scc-pricing).
+
+For the most up-to-date pricing information, you can create a cost estimate by clicking **Add to estimate** from either the provisioning or [plan page](/security-compliance/plan).
+{: important}
+
+
+
 ## 5 May 2022
 {: #security-compliance-may0522}
 {: release-note}
