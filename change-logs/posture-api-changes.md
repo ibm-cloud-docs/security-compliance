@@ -82,7 +82,7 @@ The following table shows the service behavior changes for each version. Switchi
 | `v1`    | Beta version that is available for evaluation and testing.|
 
 ## 13 May 2022
-{: #posture-13may2022}
+{: #posture-13may22}
 
 This release includes the following update:
 
