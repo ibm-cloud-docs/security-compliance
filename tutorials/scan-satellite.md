@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-05"
+lastupdated: "2022-05-13"
 
 keywords: Satellite, Scan resources, ROKS, OpenShift Compliance
 
@@ -136,10 +136,6 @@ Target the resources that you want to validate by creating a scope and schedulin
    1. Give your scan a name and description.
    2. Select a **Scan type**.
    3. From the **Profile** drop-down, select the profile that you want to use to evaluate your configuration.
-
-      If your scope includes a deployment of the VPC reference architecture for the {{site.data.keyword.cloud_notm}} for Financial Services, then select the latest version of the [{{site.data.keyword.cloud_notm}} for Financial Services profile](/docs/security-compliance?topic=security-compliance-ibm-financial-services). You can also choose to create a [custom profile](/docs/security-compliance?topic=security-compliance-custom-profiles) that contains the specifc subset of goals from a profile that you want to evaluate your resources for.
-      {: note}
-
    4. **Enable** the profiles that are associated with the [OSCO integration](/security-compliance/integrations){: external}.
    5. By default, the scan starts when your scope is created and continues to run once per day. If you need the scan to be run more or less often, you can change the **Frequency**.
    6. Click **Next**.
