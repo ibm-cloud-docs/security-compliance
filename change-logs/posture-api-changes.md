@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-12"
+lastupdated: "2022-05-13"
 
 keywords: Posture Management API changelog, Posture Management API change log, change log for Posture Management API, updates to Security and Compliance Center Posture Management API
 
@@ -86,7 +86,7 @@ The following table shows the service behavior changes for each version. Switchi
 
 This release includes the following update:
 
-- Updated the HTTP `403` response status code for all methods to support [pricing plans](/docs/security-compliance?topic=security-compliance-release-notes#security-compliance-may1322). All Posture Management APIs now return a `403` response if you haven't selected a pricing plan or your trial period has ended.
+- Updated the HTTP `403` response status code for all methods to support [pricing plans](/docs/security-compliance?topic=security-compliance-scc-pricing). All Posture Management APIs now return a `403` response if you haven't selected a pricing plan or your trial period has ended.
 
 
 ## 25 January 2022
