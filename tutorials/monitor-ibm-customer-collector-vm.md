@@ -211,7 +211,7 @@ To run the scan, the collector must have *read* access to the resources that you
 
 1. Create an {{site.data.keyword.cloud_notm}} API key for a service ID.
 
-   1. Go to [**Manage > Access (IAM) > Service IDs**](https://{DomainName}/iam/serviceids/). If you don't already have a service ID that you want to use, click **Create** and provide a name and description. Click **Create** again.
+   1. Go to [**Manage > Access (IAM) > Service IDs**](https://{DomainName}/iam/serviceids). If you don't already have a service ID that you want to use, click **Create** and provide a name and description. Click **Create** again.
    2. Select the service ID that you want to use and click **API keys**.
    3. Click **Create** and give your API key a meaningful name and description. For example, `compliance-api-key` and this key is used by the collector to validate my resource configurations. Click **Create**.
    4. Click **Copy** or **Download** to save your key.
