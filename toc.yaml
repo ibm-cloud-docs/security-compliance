@@ -166,7 +166,7 @@ toc:
             navtitle: Setting up Terraform
           - link:
               label: Terraform documentation
-              href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_account_settings
+              href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs
       - topicgroup:
           label: Available properties
           topics: 

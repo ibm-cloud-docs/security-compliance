@@ -58,6 +58,8 @@ When you're working with the {{site.data.keyword.compliance_short}}, you can nar
 
 Before you get started, be sure that you have the required level of access to view and manage scopes. To manage scopes, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
+Before you create a scope, you must have an [active collector](/docs/security-compliance?topic=security-compliance-collector).
+
 ## Creating a scope
 {: #create-scope}
 
@@ -82,8 +84,7 @@ To narrow the focus of your scans, create a scope by using the {{site.data.keywo
    3. Select a **Purpose** and then click **Next**.
    4. Select a **Credential type**.
    5. Provide the information that is requested. For more information about each type of secret, see [Understanding credentials](/docs/security-compliance?topic=security-compliance-permissions#understand-credentials).
-   6. Click **Create**.
-   7. Repeat step 5.
+   6. Click **Create** and repeat as necessary.
 
 6. From the table, select the [collector](/docs/security-compliance?topic=security-compliance-collector) or collectors that you want to use to gather configuration data and then click **Next**.
 7. Create an attachment between your scope and profile by scheduling a scan.

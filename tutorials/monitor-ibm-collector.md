@@ -166,8 +166,4 @@ Target the resources that you want to validate by creating a scope and schedulin
 ## Next steps
 {: #monitor-ibm-next}
 
-You did it! Now you can choose to map more credentials to your collector so that you can scan more resources or you can learn more about the way that security and compliance score is calculated to better understand your results. 
-
-[![This image is a visual link to the instructions for mapping credentials.](../images/gs-map-credentials.svg)](/docs/security-compliance?topic=security-compliance-map-credentials)     [![This image is a visual link to the conceptual information about compliance scores.](../images/gs-score.svg)](/docs/security-compliance?topic=security-compliance-view-posture)
-
-
+You did it! Now you can choose to [map more credentials](/docs/security-compliance?topic=security-compliance-map-credentials) to your collector so that you can scan more resources or you can learn more about the way that security and compliance score is calculated to better [understand your results](/docs/security-compliance?topic=security-compliance-view-posture). 

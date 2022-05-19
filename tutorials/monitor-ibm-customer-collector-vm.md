@@ -1,4 +1,4 @@
----
+<tutorial-prod>---
 
 copyright:
   years: 2020, 2022
@@ -277,3 +277,4 @@ Target the resources that you want to validate by creating a scope and schedulin
 
 When a scan completes, you can view the results as an overview in your dashboard, or in more detail by resource or by control. In all three options, you are presented with a compliance score so that you can view your compliance posture at a glance. To learn more about your score, see [Understanding your compliance score](/docs/security-compliance?topic=security-compliance-view-posture#understand-scores).
 
+</tutorial-prod>
