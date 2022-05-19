@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-13"
+lastupdated: "2022-05-19"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -204,7 +204,7 @@ A collector is a container image that you install on your Virtual Private Cloud.
 4. On the **Collectors** page of the {{site.data.keyword.compliance_short}} UI, click **Approval required** to approve the collector for use. Wait a few minutes and refresh the page. The collector status updates to **Active**.
 
 ## Grant your collector access to your resources
-{: #ibm-customer-collector-access}
+{: #ibm-customer-collectors-access}
 {: step}
 
 To run the scan, the collector must have *read* access to the resources that you want to scan. This access is granted through an {{site.data.keyword.cloud_notm}} API key. For more information about the security of your credentials, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
@@ -273,7 +273,7 @@ Target the resources that you want to validate by creating a scope and schedulin
 
 
 ## Next steps
-{: #ibm-customer-collector-next}
+{: #ibm-customer-collector-scan}
 
 When a scan completes, you can view the results as an overview in your dashboard, or in more detail by resource or by control. In all three options, you are presented with a compliance score so that you can view your compliance posture at a glance. To learn more about your score, see [Understanding your compliance score](/docs/security-compliance?topic=security-compliance-view-posture#understand-scores).
 

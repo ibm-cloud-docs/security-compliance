@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-05-19"
 
 keywords: Terraform for {{site.data.keyword.compliance_short}}
 
@@ -107,4 +107,4 @@ After you've defined your configuration file, you're ready to apply the configur
 ## What's next?
 {: #terraform-setup-next}
 
-Now that you successfully viewed the scopes that are available in your account with Terraform on {{site.data.keyword.cloud_notm}}, you can visit the [{{site.data.keyword.compliance_short}} Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc){: external} to perform additional tasks using Terraform.
+Now that you successfully viewed the scopes that are available in your account with Terraform on {{site.data.keyword.cloud_notm}}, you can visit the [{{site.data.keyword.compliance_short}} Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs){: external} to perform additional tasks using Terraform.

@@ -115,7 +115,11 @@ To check to see if the computer has `WinRM` enabled, check if the HTTPS listener
 2. Set up your certificates and enable your HTTPS listener.
 
    ```sh
-   $myhost=(Get-WmiObject win32_computersystem).DNSHostName+"."+ (Get-WmiObject win32_computersystem).Domain $Cert = New-SelfSignedCertificate -CertstoreLocation Cert:\LocalMachine\My -DnsName $myhost New-Item -Path WSMan:\LocalHost\Listener -Transport HTTPS -Address * -CertificateThumbPrint $Cert.Thumbprint -Force
+   $myhost=(Get-WmiObject win32_computersystem).DNSHostName+"."+ (Get-WmiObject win32_computersystem).Domain
+
+   $Cert = New-SelfSignedCertificate -CertstoreLocation Cert:\LocalMachine\My -DnsName $myhost
+
+   New-Item -Path WSMan:\LocalHost\Listener -Transport HTTPS -Address * -CertificateThumbPrint $Cert.Thumbprint -Force
    ```
    {: codeblock}
 

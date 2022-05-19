@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-05-16"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -57,7 +57,7 @@ To apply your rule, you create an attachment between a scope, such as an account
 To learn more about how rules are applied in an enterprise, see [Applying your rules and templates](/docs/security-compliance?topic=security-compliance-what-is-governance#hierarchy).
 
 ## Before you begin
-{: #before-rules}
+{: #before-rules-apply}
 
 Before you get started, be sure that you have the required level of access to view and manage rules. To create a rule, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). Be sure that you also have an instance of {{site.data.keyword.at_short}} in the region that you provision resources. You must also have a [defined rule](/docs/security-compliance?topic=security-compliance-rules-define) before it can be applied.
 

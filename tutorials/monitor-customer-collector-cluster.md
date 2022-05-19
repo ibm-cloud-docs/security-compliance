@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-13"
+lastupdated: "2022-05-16"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance, cluster collector, Kubernetes, Red Hat OpenShift
 
@@ -165,7 +165,7 @@ To validate your resources, a collector must have *read* access to the resources
    7. Paste the API key that you created in the previous step and click **Create**.
 
 ## Target your resources and validate your configurations
-{: #ibm-customer-collector-scope}
+{: #ibm-customer-collector-configuration}
 {: step}
 
 Target the resources that you want to validate by creating a scope and scheduling a scan. To create a scope, select an environment, select your collector, and select the credentials that are required to access your targeted resources. Then, you can schedule a scan to discover and validate your resource configurations.
