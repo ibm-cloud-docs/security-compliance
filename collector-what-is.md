@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-16"
+lastupdated: "2022-05-19"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -137,4 +137,26 @@ For more information about granting the authorization between a collector and yo
 {: #collector-data}
 
 The collector uses the data that is collected to validate the controls before it sends the results to the {{site.data.keyword.compliance_short}} for storage and reporting. The data that is collected varies depending on the environment that you're working with and the type of credentials that you provide. For cloud environments, a significant portion of the data is available as metadata. If you're working with an on-premises environment, some of the data is typically stored in configuration management databases. Collected data includes the properties and configurations for supported services, network objects, hosts, databases, Kubernetes platforms, and virtual machines. 
+
+
+## Understanding collector statuses
+{: #collector-status}
+
+When you are looking at the UI, you might see the following collector statuses. You can monitor the status changes of your collectors. Additionally, you can filter your list of collectors in the UI, by selecting the statuses that you want to observe.
+
+| Status | Description |
+| ------ | ----------- |
+| Activating collector | Your collector is being activated. | 
+| Active | Your collector is now active. |
+| Approval required | You must approve the activation of your collector. |
+| Deleted | Your collector was deleted. |
+| Download in progress | Your collector is being downloaded. |
+| Expired | Your collector expired. |
+| Inactive | Your collector is not active. |
+| Install in progress | Your collector is being installed. |
+| Installation failed | Your collector failed to install. |
+| Passphrase required | You must provide a passphrase. |
+| Ready to install | Your collector is ready to be installed. |
+| Waiting for upgrade | Your collector is waiting to be upgraded. | 
+{: caption="Table 1. Description of collector statuses" caption-side="top"}
 
