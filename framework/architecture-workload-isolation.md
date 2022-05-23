@@ -59,7 +59,7 @@ Review the following architecture for {{site.data.keyword.compliance_full}}, and
 
 Check out the following image to see how the service workloads are isolated and managed.
 
-![This image shows the workload isolation for the {{site.data.keyword.compliance_short}} service.](images/scc-architecture.svg){: caption="Figure 1. Workload isolation" caption-side="bottom"}
+![This image shows the workload isolation for the {{site.data.keyword.compliance_short}} service.](../images/scc-architecture.svg){: caption="Figure 1. Workload isolation" caption-side="bottom"}
 
 | Component | Description |
 |:----------|:------------|
