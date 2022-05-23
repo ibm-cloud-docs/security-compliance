@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-13"
+lastupdated: "2022-05-23"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -167,3 +167,4 @@ Target the resources that you want to validate by creating a scope and schedulin
 {: #monitor-ibm-next}
 
 You did it! Now you can choose to [map more credentials](/docs/security-compliance?topic=security-compliance-map-credentials) to your collector so that you can scan more resources or you can learn more about the way that security and compliance score is calculated to better [understand your results](/docs/security-compliance?topic=security-compliance-view-posture). 
+
