@@ -92,7 +92,7 @@ toc:
               - gov-temp-delete.md
       - topicgroup:
           label: Connecting integrations
-          topics: 
+          topics:
           - integrations/osco.md
           - integrations/tanium.md
       - topic: framework/event-notifications.md
@@ -132,14 +132,14 @@ toc:
               label: Posture Management
               href: https://{DomainName}/apidocs/security-compliance/posture
           - topicgroup:
-            label: API change logs
-            topics: 
-            - topic: change-logs/admin-api-changes.md
-              navtitle: Admin
-            - topic: change-logs/config-api-changes.md
-              navtitle: Configuration Governance
-            - topic: change-logs/posture-api-changes.md
-              navtitle: Posture Management
+              label: API change logs
+              topics: 
+              - topic: change-logs/admin-api-changes.md
+                navtitle: Admin
+              - topic: change-logs/config-api-changes.md
+                navtitle: Configuration Governance
+              - topic: change-logs/posture-api-changes.md
+                navtitle: Posture Management
       - topicgroup:
           label: Terraform
           topics:
