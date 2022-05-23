@@ -58,10 +58,6 @@ With {{site.data.keyword.compliance_full}}, you can promote a culture of complia
 
 Security and compliance are two concepts that are often spoken of interchangeably. But, there are some significant differences between them. For example, compliance regulations change slowly and are generally measured as a snapshot in time. Whereas security threats are constant and always changing. Depending on the role that you fill in your organization, you might focus on ensuring compliance to industry regulations or you might focus more on mitigating incoming security threats.
 
-
-
-
-
 The {{site.data.keyword.compliance_short}} is comprised of two components - Posture Management and Configuration Governance that are directly integrated with the platform and designed to help you achieve a continuously secure and compliant development environment in different ways. For example, you can:
 
 * Work with predefined controls that are implemented across your {{site.data.keyword.cloud_notm}} accounts
