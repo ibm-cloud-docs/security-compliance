@@ -34,11 +34,7 @@ toc:
           - topic: tutorials/monitor-ibm-customer-collector-vm.md
             navtitle: With a customer-managed collector on VPC
           - topic: tutorials/scan-satellite.md
-            navtitle: That run on Satellite<tutorial
-          - topic: tutorials/ibm-credeential.md
-            navtitle: 
-          - topcic: tutorials/ibm-scan.md
-            navtitle: </tutorial>
+            navtitle: That run on Satellite
 
   - navgroup:
       id: howto
