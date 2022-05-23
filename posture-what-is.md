@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-05"
+lastupdated: "2022-05-23"
 
 keywords: best practices security and compliance, secure development, security strategy, governance
 
@@ -57,7 +57,6 @@ Most often, as a compliance focal, you need to adhere to multiple regulations or
 
 ## How it works
 {: #how-it-works}
-
 
 When you work with the {{site.data.keyword.compliance_short}}, you interact with several interrelated components, including profiles, credentials, and scopes. Check out the following diagram to see how the components work together to help you manage and validate compliance in {{site.data.keyword.cloud_notm}}.
 
