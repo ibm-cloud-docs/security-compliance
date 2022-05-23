@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-13"
+lastupdated: "2022-05-23"
 
 keywords: Satellite, Scan resources, ROKS, OpenShift Compliance
 
@@ -111,7 +111,7 @@ To gather the configuration data for your resources, create a collector.
 ### Give permission
 {: #credential-sat}
 
-Add a [credential](/iam/serviceids/){: external} that has *Read* access to the resources that you want to scan.
+Add a [credential](/iam/serviceids){: external} that has *Read* access to the resources that you want to scan.
 
    1. In the {{site.data.keyword.compliance_short}}, go to [**Manage posture > Configure > Credentials**](/security-compliance/credentials){: external} and click **Create**.
    2. Give your credential a meaningful name.
@@ -166,3 +166,4 @@ When you add a credential to the service, the collector uses it to gather config
 After the scan is finished running, you can return to the UI to view your results.
 
 ![This image is a visual representation of how to apply your credentials to specific resources in the GUI. The information that is shown in the image is detailed in the surrounding text.](../images/scan-results-ui.svg){: caption="Figure 2. Viewing your validation results in the UI" caption-side="bottom"}
+

@@ -26,14 +26,15 @@ toc:
       topics: 
       - topicgroup: 
           label: Monitor IBM Cloud resources
-          topics:
+          topics: 
           - topic: tutorials/monitor-ibm-collector.md
             navtitle: With an IBM-managed collector
           - topic: tutorials/monitor-customer-collector-cluster.md
             navtitle: With a customer-managed collector on a cluster
           - topic: tutorials/monitor-ibm-customer-collector-vm.md
             navtitle: With a customer-managed collector on VPC
-      - tutorials/custom-findings-nmap.md
+          - topic: tutorials/scan-satellite.md
+            navtitle: That run on Satellite
 
   - navgroup:
       id: howto
@@ -90,27 +91,10 @@ toc:
               - gov-temp-attach.md
               - gov-temp-delete.md
       - topicgroup:
-          label: Gaining security insight
-          topics:
-          - insights-what.md
-          - insights-activity.md
-          - insights-network.md
-          - insights-default.md
-      - topicgroup:
           label: Connecting integrations
-          topics: 
-          - topicgroup:
-              label: Connecting business partners
-              topics:
-              - integrations/caveonix.md
-              - integrations/neuvector.md
-              - integrations/tanium.md
-              - integrations/twistlock.md
-          - topicgroup:
-              label: Connecting resources
-              topics:
-              - integrations/osco.md
-          - custom-findings.md
+          topics:
+          - integrations/osco.md
+          - integrations/tanium.md
       - topic: framework/event-notifications.md
         navtitle: Enabling event notifications
       - topicgroup:
@@ -147,18 +131,15 @@ toc:
           - link:
               label: Posture Management
               href: https://{DomainName}/apidocs/security-compliance/posture
-          - link:
-              label: "Security Insights: Findings"
-              href: https://{DomainName}/apidocs/security-compliance-findings
           - topicgroup:
-            label: API change logs
-            topics: 
-            - topic: change-logs/admin-api-changes.md
-              navtitle: Admin
-            - topic: change-logs/config-api-changes.md
-              navtitle: Configuration Governance
-            - topic: change-logs/posture-api-changes.md
-              navtitle: Posture Management
+              label: API change logs
+              topics: 
+              - topic: change-logs/admin-api-changes.md
+                navtitle: Admin
+              - topic: change-logs/config-api-changes.md
+                navtitle: Configuration Governance
+              - topic: change-logs/posture-api-changes.md
+                navtitle: Posture Management
       - topicgroup:
           label: Terraform
           topics:
@@ -172,8 +153,6 @@ toc:
           topics: 
           - security-checks/default-goals.md
           - security-checks/scc-properties.md
-          - security-checks/ai-rules.md
-          - security-checks/ni-findings.md
       - topicgroup: 
           label: Service availability
           topics:
@@ -199,9 +178,6 @@ toc:
           - troubleshooting/ts-results.md
           - troubleshooting/ts-deleted-results.md
           - troubleshooting/ts-score.md
-          - troubleshooting/ts-bucket.md
-          - troubleshooting/ts-ai-forbidden.md
-          - troubleshooting/ts-sa-blocked.md
           - troubleshooting/ts-results-osco.md
           - troubleshooting/ts-notifications.md
           - troubleshooting/ts-satellite.md

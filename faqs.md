@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-09"
+lastupdated: "2022-05-23"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -163,20 +163,5 @@ You might use the same keys for many different purposes within {{site.data.keywo
 The {{site.data.keyword.compliance_short}} is configured to detect key disable events through standard IBM crypto eraser capabilities. To see how quickly the service responds when a key is disabled, try disabling a key and then navigate to another page of the UI. Within a few seconds, an error message is displayed that states that the selected root key is disabled. 
 
 If you suspect that your data or key becomes compromised, you can [disable the keys](/docs/key-protect?topic=key-protect-disable-keys) in {{site.data.keyword.keymanagementserviceshort}} until you're sure it's safe. Then you can reenable it. Shredding data like this is called crypto shredding.
-
-
-
-## What is IBM X-Force?
-{: #xforce}
-{: faq}
-
-IBM X-Force Research is one of the most renowned commercial security research teams in the world. These security professionals monitor and analyze security issues from various sources, providing threat intelligence content as the foundation of the IBM Security portfolio. IBM X-Force Exchange is a cloud-based threat intelligence sharing platform that enables users to rapidly research the latest security threats, aggregate actionable intelligence and collaborate with peers. IBM X-Force Exchange is supported by human and machine-generated intelligence that leverages the scale of IBM X-Force.
-
-
-## How can I become an integrated partner?
-{: #partner}
-{: faq}
-
-Happy to hear that you're interested in integrating your solution with {{site.data.keyword.security-advisor_short}}. Reach out to our team by contacting *Tim Brantner* at *timmy@us.ibm.com* to get started!
 
 

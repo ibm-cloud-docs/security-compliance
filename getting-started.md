@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-02"
+lastupdated: "2022-05-23"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -60,15 +60,15 @@ Security and compliance are two concepts that are often spoken of interchangeabl
 
 
 
-The {{site.data.keyword.compliance_short}} is comprised of three components - Posture Management, Configuration Governance, and Security Insights - that are built directly into the platform and designed to help you achieve a continuously secure and compliant development environment in different ways. For example, you can:
+
+
+The {{site.data.keyword.compliance_short}} is comprised of two components - Posture Management and Configuration Governance that are directly integrated with the platform and designed to help you achieve a continuously secure and compliant development environment in different ways. For example, you can:
 
 * Work with predefined controls that are implemented across your {{site.data.keyword.cloud_notm}} accounts
 * Define configuration rules and templates that prevent unsecure configuration of {{site.data.keyword.cloud_notm}} resources
 * Monitor your resource configurations in a single dashboard for any potential risk
 * Investigate the evaluation results to see which accounts or services are most at risk
 * Retain and access your results to prepare for internal and external audits
-
-
 
 
 
@@ -89,17 +89,6 @@ Ensuring that all of the teams in your organization are adhering to best practic
 To start monitoring compliance, choose whether to [create and install a collector](/docs/security-compliance?topic=security-compliance-ibm-customer-collector) or [provision a managed one](/docs/security-compliance?topic=security-compliance-monitor-ibm-collector).
 
 &ast;*Posture Management is available for {{site.data.keyword.cloud_notm}}, Amazon Web Services, Microsoft Azure, Google Cloud Platform, and on-premises environments. To enable monitoring for other cloud providers, see [Manually administering collectors](/docs/security-compliance?topic=security-compliance-collector-manual).*
-
-
-
-### Detect incoming threats
-{: #detect-threats}
-
-Threat detection and mitigation are one of the most important parts of the security and compliance story. With the Security Insights component of the {{site.data.keyword.compliance_short}}, you can continuously monitor and analyze your {{site.data.keyword.cloud_notm}} resources in real-time for potential risk that could impact your environment. As incoming threats are detected, risk to your organization is evaluated, you are notified, and remediation steps are provided that can help to mitigate the findings. By ensuring your environment is continuously monitored, you can can be sure that you have a comprehensive understanding of your current security posture.
-
-To get started, choose whether to start with [custom](/docs/security-compliance?topic=security-compliance-setup_custom), [activity](/docs/security-compliance?topic=security-compliance-setup-activity), or [network insights](/docs/security-compliance?topic=security-compliance-setup-network).
-
-&ast;*Security Insights is available for {{site.data.keyword.cloud_notm}} only.*
 
 
 

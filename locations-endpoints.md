@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-05-02"
+lastupdated: "2022-05-23"
 
 keywords: security and compliance center locations, available locations, scc endpoints, security and compliance center endpoints, regions, scc regions
 
@@ -63,12 +63,6 @@ For more information about how your data is stored and processed in the availabl
 ![Visual representation of the availability of the service. The image is a map with pin points in the locations in which the service is available. If you are unable to view this image, see the table in the service endpoints section for a complete list.](images/world-map.svg){: caption="Figure 1. {{site.data.keyword.compliance_short}} availability" caption-side="bottom"}
 
 
-
-London is available for Security Insights only.
-{: note}
-
-
-
 ## Service endpoints
 {: #service-endpoints}
 
@@ -78,7 +72,6 @@ If you're managing your service instances of {{site.data.keyword.compliance_shor
 |--------|-----------|
 | Posture Management | `https://asap.compliance.cloud.ibm.com/alpha`|
 | Configuration Governance | `https://compliance.cloud.ibm.com/config`|
-| Security Insights: Findings | `https://us-south.secadvisor.cloud.ibm.com/findings` |
 | Admin | `https://compliance.cloud.ibm.com/admin` |
 {: caption="Table 1. Formatting for the available APIs" caption-side="top"}
 {: #us-endpoints}
@@ -90,25 +83,9 @@ If you're managing your service instances of {{site.data.keyword.compliance_shor
 |--------|-----------|
 | Posture Management | `https://eu.compliance.cloud.ibm.com/posture`|
 | Configuration Governance | `https://compliance.cloud.ibm.com/config`|
-| Security Insights: Findings | `https://eu.compliance.cloud.ibm.com/si/findings` |
 | Admin | `https://compliance.cloud.ibm.com/admin` |
 {: caption="Table 1. Formatting for the available APIs" caption-side="top"}
 {: #eu-endpoints}
 {: tab-title="Europe"}
 {: tab-group="regions"}
 {: class="simple-tab-table"}
-
-
-
-| API | Endpoint  |
-|--------|-----------|
-| Posture Management | This feature is not available in the United Kingdom location. |
-| Configuration Governance | This feature is not available in the United Kingdom location. |
-| Security Insights: Findings | `https://eu-gb.secadvisor.cloud.ibm.com/findings` |
-| Admin | `https://compliance.cloud.ibm.com/admin` |
-{: caption="Table 1. Formatting for the available APIs" caption-side="top"}
-{: #uk-endpoints}
-{: tab-title="United Kingdom"}
-{: tab-group="regions"}
-{: class="simple-tab-table"}
-
