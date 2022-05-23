@@ -78,8 +78,8 @@ To assign access, you can use the **Access (IAM)** section of the console.
 6. Assign Security and Compliance Integrations roles.
    1. Select **IAM services**.
    2. From the list of services, select **Security and Compliance Integrations**.
-   3. Choose whether to give access to all resources or a subset based on attributes.
-   4. Choose a combination of [platform and service access roles](#insights-roles) to assign to the user and then click **Add**.
+   3. Select **All resources**.
+   4. Select the **Manager** role and click **Add**.
 7. Review your selections and click **Assign**.
 
 
@@ -285,13 +285,10 @@ For more information about assigning user roles in the console, see [Managing ac
 
 
 
-### Roles for integrations
+### Roles for Integrations
 {: #insights-roles}
 
 You must have the **Manager** Security and Compliance Integrations access role to create and manage integrations in {{site.data.keyword.compliance_short}}.
-
-
-
 
 
 ### Roles for Admin
