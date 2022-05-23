@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-19"
+lastupdated: "2022-05-23"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -142,7 +142,7 @@ The collector uses the data that is collected to validate the controls before it
 ## Understanding collector statuses
 {: #collector-status}
 
-When you are looking at the UI, you might see the following collector statuses. You can monitor the status changes of your collectors. Additionally, you can filter your list of collectors in the UI, by selecting the statuses that you want to observe.
+When you are looking at the UI, you might see the following collector statuses. You can monitor the status changes of your collectors. Additionally, you can filter your list of collectors in the UI by selecting the statuses that you want to observe.
 
 | Status | Description |
 | ------ | ----------- |
@@ -150,7 +150,7 @@ When you are looking at the UI, you might see the following collector statuses. 
 | Active | Your collector is now active. |
 | Approval required | You must approve the activation of your collector. |
 | Deleted | Your collector was deleted. |
-| Download in progress | Your collector is being downloaded. |
+| Download in progress | Your collector is downloading. |
 | Expired | Your collector expired. |
 | Inactive | Your collector is not active. |
 | Install in progress | Your collector is being installed. |
