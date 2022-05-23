@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-13"
+lastupdated: "2022-05-23"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -375,11 +375,6 @@ Consolidated SDK package
 
 
 
-Documentation update
-:   With this release we've completed the integration of the Security Insights, formerly known as Security and Compliance Integrations, documentation into the {{site.data.keyword.compliance_short}} docs. You can now find the documentation for all three components in the {{site.data.keyword.compliance_short}} documentation.
-
-
-
 New goals
 :   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
 
@@ -490,18 +485,6 @@ Manage the location in which your data is stored
 
 
 
-The full integration of the Security Insights UI
-:   With this release we've completed the integration of the Security Insights, formerly known as Security and Compliance Integrations, UI into the {{site.data.keyword.compliance_short}}. You can now view your findings, enable Built-in Insights, set up alerts, and integrate with our existing business partners without ever leaving the {{site.data.keyword.compliance_short}} UI.
-
-   To see the updates, check out the [{{site.data.keyword.compliance_short}} UI](https://cloud.ibm.com/security-compliance).
-
-An update to the Security Insights notifications API
-:   With this release we've dropped camel-case support for parameters. The parameters `publicKey` and `alertSource` have been updated to `public_key` and `alert_source`.
-
-   To work with the updated notifications API, see the [API docs](/apidocs/security-compliance-si-notifications).
-
-
-
 ## 15 March 2021
 {: #security-compliance-march1521}
 {: release-note}
@@ -530,17 +513,6 @@ New goals
 * Goal ID's: `3000311` - `3000320`
 * Goal ID's: `3000631` - `3000639`
 
-
-
-## 13 January 2021
-{: #security-compliance-jan1321}
-{: release-note}
-
-General availability of Security Insights
-:   You can now enable Security Insights (formerly known as Security Advisor) in the {{site.data.keyword.compliance_short}} so that you can analyze activity and identify suspicious behavior in your {{site.data.keyword.cloud_notm}} resources and applications. For more information, check out the [announcement blog](https://www.ibm.com/cloud/blog/announcements/security-insights-now-generally-available-in-the-security-and-compliance-center){: external}.
-
-End of support for Network Insights
-:   The beta version of Network Insights is deprecated and will no longer be supported as of 12 February 2021. To fully remove the beta version of Network Insights, delete the service components from your cluster and [delete your stored data from Cloud Object Storage](/docs/cloud-object-storage/info?topic=cloud-object-storage-security).
 
 
 ## 15 December 2020

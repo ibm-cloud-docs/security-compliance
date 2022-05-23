@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-03"
+lastupdated: "2022-05-23"
 
 keywords: public isolation for {{site.data.keyword.compliance_short}}, compute isolation for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} architecture, workload isolation in {{site.data.keyword.compliance_short}} 
 
@@ -56,37 +56,6 @@ Review the following sample architecture for {{site.data.keyword.compliance_full
 {: #architecture}
 
 {{site.data.keyword.compliance_short}} is a multi-tenant, regional service that is fully integrated with the {{site.data.keyword.cloud_notm}} platform. The IBM-managed components of the {{site.data.keyword.compliance_short}} are organized to provide compute isolation between workloads. 
-
-
-
-Check out the following image to see how the service workloads are isolated and managed.
-
-![This image shows the workload isolation for the {{site.data.keyword.compliance_short}} service.](../images/scc-architecture.svg){: caption="Figure 1. Workload isolation" caption-side="bottom"}
-
-| Component | Description |
-|:----------|:------------|
-| Control plane | The microservices that make up the individual components of the service run in the control plane, where they are isolated from the other components. Additionally, internal dependencies are run and isolated as part of the control plane. |
-| Data plane | Your data is processed by Network Insights and Activity Insights in the data plane before any findings are forwarded to the control plane. Your resource configurations are also validated by [IBM-managed collectors](/docs/security-compliance?topic=security-compliance-ibm-collector) as part of the data plane before the results are forwarded to the control plane. |
-| X-Force Exchange | The service pulls directly from the IBM X-Force Exchange intelligence platform to quickly alert you to the latest global security threats related to IP reputation as part of the integration with Network Insights. |
-{: caption="Table 1. IBM-managed components of the {{site.data.keyword.compliance_short}}" caption-side="top"}
-{: #ibm-managed}
-{: tab-title="IBM"}
-{: tab-group="arch-manage"}
-{: class="simple-tab-table"}
-
-| Component | Description |
-|:----------|:------------|
-| {{site.data.keyword.cloud_notm}} services | As you interact with {{site.data.keyword.compliance_short}}, you are responsible for the instances of the other services that you chose to interact with through the service. For example, if you create a rule, you are responsible for ensuring that the collector has access to your resource via an API key. |
-| Collector | Your resource configurations are processed by a [collector](/docs/security-compliance?topic=security-compliance-collector-manual) that you are responsible for installing on infrastructure that you own and manage. |
-| Virtual Private Cloud and Flow Logs | If you choose to work with Network Insights, you must have a Virtual Private Cloud instance that is configured collect your Flow Logs so that they can be evaluated. |
-| {{site.data.keyword.containershort}} | If you choose to work with Activity Insights, you must install an agent on your {{site.data.keyword.containershort}} cluster to collect the data that you want to analyze. |
-| Cloud Object Storage | Your Insights data is stored in a Cloud Object Storage bucket that is created in your account and you manage. |
-| {{site.data.keyword.at_short}} | Services log events in {{site.data.keyword.at_short}} that you can use as part of your evidence in a compliance audit. It is also a dependency of the Activity Insights feature. |
-{: caption="Table 1. Customer-managed components of the {{site.data.keyword.compliance_short}}" caption-side="top"}
-{: #customer-managed}
-{: tab-title="Customer"}
-{: tab-group="arch-manage"}
-{: class="simple-tab-table"}
 
 
 

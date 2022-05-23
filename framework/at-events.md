@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-02"
+lastupdated: "2022-05-23"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -293,101 +293,6 @@ The following events are triggered by the Configuration Governance component of 
 {: #eval-events}
 {: tab-title="Eval"}
 {: tab-group="config"}
-{: class="simple-tab-table"}
-
-
-
-
-## Events for Security Insights
-{: #at_actions_insights}
-
-The following events are triggered by the Security Insights component of the {{site.data.keyword.compliance_short}}. The Security Insights component was formerly known as the Security and Compliance Integrations service.
-
-| Action                                   | Description     |
-| :----------------------------------------| :---------------|
-| `security-advisor.metadata.list`         | View previously created notes. |
-| `security-advisor.metadata.write`        | Create a note. |
-| `security-advisor.metadata.update`       | Update a note  |
-| `security-advisor.metadata.delete`       | Delete a note. |
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
-{: #notes-events}
-{: tab-title="Notes"}
-{: tab-group="insights"}
-{: class="simple-tab-table"}
-
-| Action                                   | Description     |
-| :----------------------------------------| :---------------|
-| `security-advisor.findings.list`         | View all findings. |
-| `security-advisor.findings.read`         | View occurrences. |
-| `security-advisor.findings.write`        | Create an occurrence. |
-| `security-advisor.findings.update`       | Update an occurrence. |
-| `security-advisor.findings.delete`       | Delete an occurrence. |
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
-{: #finding-events}
-{: tab-title="Findings"}
-{: tab-group="insights"}
-{: class="simple-tab-table"}
-
-| Action                                          | Description     |
-| :-----------------------------------------------| :---------------|
-| `security-advisor.custom-solution.list`         | List all custom solutions. |
-| `security-advisor.custom-solution.read`         | View a specific custom solution. |
-| `security-advisor.custom-solution.write`        | Add a custom solution. |
-| `security-advisor.custom-solution.update`       | Update a custom solution. |
-| `security-advisor.custom-solution.delete`       | Delete a custom solution. |
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
-{: #custom-events}
-{: tab-title="Custom"}
-{: tab-group="insights"}
-{: class="simple-tab-table"}
-
-| Action                                           | Description     |
-| :------------------------------------------------| :---------------|
-| `security-advisor.partner-solution.list`         | List all business partner solutions. |
-| `security-advisor.partner-solution.read`         | View a specific business partner solution. |
-| `security-advisor.partner-solution.write`        | Add a business partner solution. |
-| `security-advisor.partner-solution.update`       | Update a business partner solution. |
-| `security-advisor.partner-solution.delete`       | Delete a business partner solution. |
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
-{: #partner-events}
-{: tab-title="Partners"}
-{: tab-group="insights"}
-{: class="simple-tab-table"}
-
-| Action                                            | Description     |
-| :-------------------------------------------------| :---------------|
-| `security-advisor.network-insights.enable`        | Enable Network Insights. |
-| `security-advisor.network-insights.enable`        | Disable Network Insights. |
-| `security-advisor.network-insights-cos.create`    | Connect a Cloud Object Storage bucket. |
-| `security-advisor.network-insights-cos.delete`    | Disconnect a Cloud Object Storage bucket. |
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
-{: #network-events}
-{: tab-title="Network"}
-{: tab-group="insights"}
-{: class="simple-tab-table"}
-
-| Action                                             | Description   |
-| :--------------------------------------------------| :---------------|
-| `security-advisor.activity-insights.enable`        | Enable Activity Insights. |
-| `security-advisor.activity-insights.enable`        | Disable Activity Insights. |
-| `security-advisor.activity-insights-cos.create`    | Connect a Cloud Object Storage bucket. |
-| `security-advisor.activity-insights-cos.delete`    | Disconnect a Cloud Object Storage bucket. |
-| `security-advisor.activity-insights-config.test`   | Test the Activity Insights configuration. |
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
-{: #activity-events}
-{: tab-title="Activity"}
-{: tab-group="insights"}
-{: class="simple-tab-table"}
-
-| Action                                 | Description     |
-| :--------------------------------------| :---------------|
-| `security-advisor.keys.read`           | View your customer managed encryption configuration. |
-| `security-advisor.keys.write`          | Enable customer managed encryption configuration. |
-| `security-advisor.keys.delete`         | Disable customer managed encryption configuration. |
-{: caption="Table 3. List of events that apply to Security Insights" caption-side="top"}
-{: #key-events}
-{: tab-title="Keys"}
-{: tab-group="insights"}
 {: class="simple-tab-table"}
 
 

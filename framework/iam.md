@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-12"
+lastupdated: "2022-05-23"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -285,112 +285,12 @@ For more information about assigning user roles in the console, see [Managing ac
 
 
 
-
-
-### Roles for Security Insights
+### Roles for integrations
 {: #insights-roles}
 
-The following tables list the access roles that are required to create and manage Security Insights.
+You must have the **Manager** Security and Compliance Integrations access role to create and manage integrations in {{site.data.keyword.compliance_short}}.
 
-| Action                         | Description             | Role                    |
-| :----------------------------- | :---------------------- | :---------------------- |
-| `security-advisor.metadata.read`         | View previously created notes. | Reader, Writer, Manager |
-| `security-advisor.metadata.write`        | Create a note.                 | Manager |
-| `security-advisor.metadata.update`       | Update a note                  | Manager |
-| `security-advisor.metadata.delete`       | Delete a note.                 | Manager |
-{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
-{: #notes-access}
-{: tab-title="Notes"}
-{: tab-group="insights"}
-{: class="simple-tab-table"}
 
-| Action                                   | Description           | Role                    |
-| :--------------------------------------- | :-------------------- | :---------------------- |
-| `security-advisor.findings.list`         | View all findings.    | Reader, Writer, Manager |
-| `security-advisor.findings.read`         | View occurrences.     | Reader, Writer, Manager |
-| `security-advisor.findings.write`        | Create an occurrence. | Manager |
-| `security-advisor.findings.update`       | Update an occurrence. | Manager |
-| `security-advisor.findings.delete`       | Delete an occurrence. | Manager |
-{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
-{: #finding-access}
-{: tab-title="Findings"}
-{: tab-group="insights"}
-{: class="simple-tab-table"}
-
-| Action                                    | Description                      | Role                    |
-| :---------------------------------------- | :------------------------------- | :---------------------- |
-| `security-advisor.custom-solution.list`   | List all custom solutions.       | Reader, Writer, Manager |
-| `security-advisor.custom-solution.read`   | View a specific custom solution. | Reader, Writer, Manager |
-| `security-advisor.custom-solution.write`  | Add a custom solution.           | Manager |
-| `security-advisor.custom-solution.update` | Update a custom solution.        | Manager |
-| `security-advisor.custom-solution.delete` | Delete a custom solution.        | Manager |
-{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
-{: #custom-access}
-{: tab-title="Custom"}
-{: tab-group="insights"}
-{: class="simple-tab-table"}
-
-| Action                                      | Description                                | Role                    |
-| :------------------------------------------ | :----------------------------------------- | :---------------------- |
-| `security-advisor.partner-solution.list`    | List all business partner solutions.       | Reader, Writer, Manager |
-| `security-advisor.partner-solution.read`    | View a specific business partner solution. | Reader, Writer, Manager |
-| `security-advisor.partner-solution.write`   | Add a business partner solution.           | Writer, Manager |
-| `security-advisor.partner-solution.update`  | Update a business partner solution.        | Writer, Manager |
-| `security-advisor.partner-solution.delete`  | Delete a business partner solution.        | Manager |
-{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
-{: #partner-access}
-{: tab-title="Partners"}
-{: tab-group="insights"}
-{: class="simple-tab-table"}
-
-| Action                                            | Description              | Role                    |
-| :------------------------------------------------ | :----------------------- | :---------------------- |
-| `security-advisor.network-insights.enable`        | Enable Network Insights. | Manager |
-| `security-advisor.network-insights.enable`        | Disable Network Insights. | Manager |
-| `security-advisor.network-insights-cos.create`    | Connect a Cloud Object Storage bucket. | Manager |
-| `security-advisor.network-insights-cos.delete`    | Disconnect a Cloud Object Storage bucket. | Manager |
-{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
-{: #network-access}
-{: tab-title="Network"}
-{: tab-group="insights"}
-{: class="simple-tab-table"}
-
-| Action                                             | Description               | Role                    |
-| :------------------------------------------------- | :------------------------ | :---------------------- |
-| `security-advisor.activity-insights.enable`        | Enable Activity Insights. | Manager |
-| `security-advisor.activity-insights.enable`        | Disable Activity Insights. | Manager |
-| `security-advisor.activity-insights-cos.create`    | Connect a Cloud Object Storage bucket. | Manager |
-| `security-advisor.activity-insights-cos.delete`    | Disconnect a Cloud Object Storage bucket. | Manager |
-| `security-advisor.activity-insights-config.test`   | Test the Activity Insights configuration. | Manager |
-{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
-{: #activity-access}
-{: tab-title="Activity"}
-{: tab-group="insights"}
-{: class="simple-tab-table"}
-
-| Action                                           | Description             | Role                    |
-| :----------------------------------------------- | :---------------------- | :---------------------- |
-| `security-advisor.notification-channels.list`    | View all alert channels.| Reader, Writer, Manager |
-| `security-advisor.notification-channels.read`    | View a alert channel.| Reader, Writer, Manager |
-| `security-advisor.notification-channels.create`  | Create a alert channel.| Manager |
-| `security-advisor.notification-channels.update`  | Update a alert channel.| Manager |
-| `security-advisor.notification-channels.delete`  | Delete a alert channel.| Manager |
-{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
-{: #alert-access}
-{: tab-title="Alerts"}
-{: tab-group="insights"}
-{: class="simple-tab-table"}
-
-| Action                         | Description                                     | Role                    |
-| :----------------------------- | :---------------------------------------------- | :---------------------- |
-| `security-advisor.keys.read`   | View your customer managed encryption configuration. | Writer, Manager |
-| `security-advisor.keys.write`  | Enable customer managed encryption configuration. | Manager |
-| `security-advisor.keys.delete` | Disable customer managed encryption configuration. | Manager |
-{: caption="Table 3. IAM user roles and actions for Security Insights" caption-side="top"}
-{: #key-access}
-{: tab-title="Keys"}
-{: tab-group="insights"}
-{: class="simple-tab-table"}
 
 
 
