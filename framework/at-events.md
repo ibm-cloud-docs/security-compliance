@@ -296,7 +296,6 @@ The following events are triggered by the Configuration Governance component of 
 {: class="simple-tab-table"}
 
 
-
 ## Events for Admin
 {: #at_actions_admin}
 
@@ -308,8 +307,6 @@ The following events are triggered by the Admin API calls for the {{site.data.ke
 | `compliance.admin-settings.update` | Update {{site.data.keyword.compliance_short}} settings for your account. |
 | `compliance.admin.test-event-send` | Send a test event to a connected {{site.data.keyword.en_short}} service instance. |
 {: caption="Table 4. List of events that apply to admin settings" caption-side="top"}
-
-
 
 
 ## Analyzing events
