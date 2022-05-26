@@ -55,35 +55,37 @@ content-type: release-note
 {: #security-compliance-may2622}
 {: release-note}
 
-In addition to small bug fixes and general updates, version 0.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is updated with the following changes.
 
-| Goal ID   | Associated controls | Update |
-|:----------|:--------------------|:-------|
-| `3000025` |  | Goal is removed. |
-| `3000039` |  | Goal is removed. |
-| `3000410` |  | Goal is removed. |
-| `3000411` |  | Goal is removed. |
-| `3000013` |  | Goal is removed. |
-| `3000014` |  | Goal is removed. |
-| `3000603` | `AC-11(a)` | Goal is removed. |
-| `3000049` | `SC-10` | Goal is added. |
-| `3000233` | `SC-36` | Goal is added. |
-| `3000470` | `AC-17(2)`, `SC-8`, `SC-8(1)`, and `SC-13` | Goal is added. |
-| `3000473` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal is added. |
-| `3000474` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal is added. |
-| `3000475` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal is added. |
-| `3000476` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal is added. |
-| `3000462` | `SA-3(a)` | Goal is partially removed. |
-| `3000907` | `SA-3(a)` | Goal is partially removed. |
-| `3000711` | `AC-3` and `AC-6-0` | Goal is partially removed. |
-| `3000712` | `AC-3` and `AC-6-0` | Goal is partially removed. |
-| `3000047` | `SA-9`, `AC-20`, and `CA-3` | Goal is partially removed. |
-| `3000711` | `AC-8` | Goal is partially added. |
-| `3000712` | `AC-8` | Goal is partially added. |
-| `3000047` | `SA-9(a)`, `AC-20(a)`, and `CA-3(a)` | Goal is partially added. |
-| `3000282` |  | Goal logic is updated. |
-| `3000455` |  | Goal logic is updated. |
-{: caption="Table. Summary of {{site.data.keyword.cloud_notm}} for Financial Services profile changes for 26 May 2022" caption-side="top"}
+New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:    In addition to small bug fixes and general updates, version 0.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is updated with the following changes.
+
+   | Goal ID   | Associated controls | Update |
+   |:----------|:--------------------|:-------|
+   | `3000025` |  | Goal is removed. |
+   | `3000039` |  | Goal is removed. |
+   | `3000410` |  | Goal is removed. |
+   | `3000411` |  | Goal is removed. |
+   | `3000013` |  | Goal is removed. |
+   | `3000014` |  | Goal is removed. |
+   | `3000603` | `AC-11(a)` | Goal is removed. |
+   | `3000049` | `SC-10` | Goal is added. |
+   | `3000233` | `SC-36` | Goal is added. |
+   | `3000470` | `AC-17(2)`, `SC-8`, `SC-8(1)`, and `SC-13` | Goal is added. |
+   | `3000473` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal is added. |
+   | `3000474` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal is added. |
+   | `3000475` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal is added. |
+   | `3000476` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal is added. |
+   | `3000462` | `SA-3(a)` | Goal is partially removed. |
+   | `3000907` | `SA-3(a)` | Goal is partially removed. |
+   | `3000711` | `AC-3` and `AC-6-0` | Goal is partially removed. |
+   | `3000712` | `AC-3` and `AC-6-0` | Goal is partially removed. |
+   | `3000047` | `SA-9`, `AC-20`, and `CA-3` | Goal is partially removed. |
+   | `3000711` | `AC-8` | Goal is partially added. |
+   | `3000712` | `AC-8` | Goal is partially added. |
+   | `3000047` | `SA-9(a)`, `AC-20(a)`, and `CA-3(a)` | Goal is partially added. |
+   | `3000282` |  | Goal logic is updated. |
+   | `3000455` |  | Goal logic is updated. |
+   {: caption="Table. Summary of {{site.data.keyword.cloud_notm}} for Financial Services profile changes for 26 May 2022" caption-side="top"}
 
 
 
