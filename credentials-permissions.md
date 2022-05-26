@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-05-26"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -56,7 +56,7 @@ To scan your resources located in {{site.data.keyword.cloud_notm}}, Amazon Web S
 
 Credentials are used by a collector to gather information about your resource configurations, assess them, and initiate any remediation that is needed. The collector acts as an intermediary between your resources and the {{site.data.keyword.compliance_short}}.
 
-To enable communication between your resources and the collector, you must associate credentials with the collector through the {{site.data.keyword.compliance_short}}. The credentials that you associate with the collector must have `read` access to your resources. Depending on the type of credentials you provide and the environment where your resources are located, you can set up more granular access.
+To enable communication between your resources and the collector, you must associate credentials with the collector through the {{site.data.keyword.compliance_short}}. The credentials that you associate with the collector must have `read` or `viewer` access to your resources. Depending on the type of credentials you provide and the environment where your resources are located, you can set up more granular access.
  
 ### Providing needed information based on credential type
 {: #credentials-provide}
@@ -100,15 +100,15 @@ You can provide more granular access to your collector to scan your resources lo
 ### Specific permissions for {{site.data.keyword.cloud_notm}} 
 {: #ibm-permissions}
 
-You must assign your API key Viewer and Reader access to allow your collector to scan your resources that are located in {{site.data.keyword.cloud_notm}}.
-{: shortdesc}
+You must assign your API key `viewer` and `reader` access to allow your collector to scan your resources that are located in {{site.data.keyword.cloud_notm}}.
 
 For each credential, you must manage reader or viewer permissions for the services that you want to scan. A few of the {{site.data.keyword.cloud_notm}} services have goals that require additional permissions to either complete the scan or to view the results. If the service is listed in the following table, be sure to assign the appropriate permissions to either your Service ID or the user that the credentials belong to. You can learn more about [mapping additional credentials](/docs/security-compliance?topic=security-compliance-map-credentials) to a collector.
 
 | Service | Additional permission |
 |---------|---------------|
-| Key Protect | A credential must also have Manager access to the Key Protect service to run scans. |
-| Cloud Object Storage | A credential must also have Writer access to the Cloud Object Storage service to run scans. |
+| Activity Tracker | Operator, Manager |
+| Key Protect | Manager |
+| Cloud Object Storage | Writer |
 | User Management - Billing | To view the results that are related to MFA, a user must have viewer access to the Billing service and to the {{site.data.keyword.compliance_short}}. |
 | Classic Infrastructure | The provided credential must be a User API key. If a service ID is provided, the scan cannot complete. |
 | Continuous Delivery | The provided credential must be a User API key. If a service ID is provided, the scan cannot complete. |
