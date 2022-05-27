@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-26"
+lastupdated: "2022-05-27"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -100,23 +100,33 @@ You can provide more granular access to your collector to scan your resources lo
 ### Specific permissions for {{site.data.keyword.cloud_notm}} 
 {: #ibm-permissions}
 
-You must assign your API key `viewer` and `reader` access to allow your collector to scan your resources that are located in {{site.data.keyword.cloud_notm}}.
+You must assign your service ID API key `viewer` access to all of the resources that want the service to evaluate and for all of the account management services	that are used as part of the evaluation.
 
-For each credential, you must manage reader or viewer permissions for the services that you want to scan. A few of the {{site.data.keyword.cloud_notm}} services have goals that require additional permissions to either complete the scan or to view the results. If the service is listed in the following table, be sure to assign the appropriate permissions to either your Service ID or the user that the credentials belong to. You can learn more about [mapping additional credentials](/docs/security-compliance?topic=security-compliance-map-credentials) to a collector.
+If you are working with Classic Infrastructure or the Continuous Delivery service, the provided credential must be a user API key. If a service ID is provided the scan can't complete.
+{: note}
+
+In addition to `viewer` access, a few {{site.data.keyword.cloud_notm}} services have goals that require additional permissions to either complete the scan or to view the results. If the service is listed in the following table, be sure to assign the additional permissions to your API key.
 
 | Service | Additional permission |
 |---------|---------------|
-| Activity Tracker | Operator, Manager |
-| Key Protect | Manager |
-| Cloud Object Storage | Writer |
-| User Management - Billing | To view the results that are related to MFA, a user must have viewer access to the Billing service and to the {{site.data.keyword.compliance_short}}. |
-| Classic Infrastructure | The provided credential must be a User API key. If a service ID is provided, the scan cannot complete. |
-| Continuous Delivery | The provided credential must be a User API key. If a service ID is provided, the scan cannot complete. |
+| Activity Tracker | Operator, Manager </br>If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. You must create a new credential using Activity Tracker's GUID and Service_key as the username and password. Then, [map the credential](/docs/security-compliance?topic=security-compliance-map-credentials) to a specific collector by using the format `AT=resource_guid`. |
+| App ID | Reader |
+| Certificate Manager | Reader |
+| Cloud Catalog | Publisher |
+| Cloud Shell | Cloud Operator |
+| Cloud Object Storage | Reader, Writer |
+| Databases</br>   etcd</br>   ElasticSearch</br>   MongoDB</br>   PostgreSQL</br>   Redis</br> | Operator |
+| Event streams | Reader |
+| Hyper Protect Crypto Services | Operator, Manager |
+| Key Protect | ReaderPlus, Manager, Editor |
+| Kubernetes Service | Reader |
+| Satellite | Operator, Writer </br>If you enable scanning of your OpenShift clusters, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information]({[link-map-credentials]}) before the scan can complete. |
+| Secrets Manager | Reader |
+| Virtual Private Cloud</br>   Application Load Balancer</br>   Block Storage</br>   Block Storage Snapshots</br>   File Storage</br>   Security Groups  | Reader |
 {: caption="Table 2. Additional required permissions" caption-side="top"}
 
-If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. You must create a new credential using Activity Tracker's GUID and Service_key as the username and password. Then, map the credential to a specific collector by using the format AT=resource_guid.
-{: note}
 
+	
 
 ### Specific permissions for Amazon Web Services (AWS)
 {: #amazon-permissions}
