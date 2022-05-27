@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-26"
+lastupdated: "2022-05-27"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -55,39 +55,40 @@ content-type: release-note
 {: #security-compliance-may2622}
 {: release-note}
 
+Rename of the {{site.data.keyword.cloud_notm}} Best Practices Controls 1.0 profile
+:    asdf
+
+Now available: The {{site.data.keyword.cloud_notm}} Control Library profile
+:    asdf
 
 New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
 :    In addition to small bug fixes and general updates, version 0.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is updated with the following changes.
 
    | Goal ID   | Associated controls | Update |
    |:----------|:--------------------|:-------|
-   | `3000025` |  | Goal is removed. |
-   | `3000039` |  | Goal is removed. |
-   | `3000410` |  | Goal is removed. |
-   | `3000411` |  | Goal is removed. |
-   | `3000013` |  | Goal is removed. |
-   | `3000014` |  | Goal is removed. |
-   | `3000603` | `AC-11(a)` | Goal is removed. |
-   | `3000049` | `SC-10` | Goal is added. |
-   | `3000233` | `SC-36` | Goal is added. |
-   | `3000470` | `AC-17(2)`, `SC-8`, `SC-8(1)`, and `SC-13` | Goal is added. |
-   | `3000473` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal is added. |
-   | `3000474` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal is added. |
-   | `3000475` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal is added. |
-   | `3000476` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal is added. |
-   | `3000462` | `SA-3(a)` | Goal is partially removed. |
-   | `3000907` | `SA-3(a)` | Goal is partially removed. |
-   | `3000711` | `AC-3` and `AC-6-0` | Goal is partially removed. |
-   | `3000712` | `AC-3` and `AC-6-0` | Goal is partially removed. |
-   | `3000047` | `SA-9`, `AC-20`, and `CA-3` | Goal is partially removed. |
-   | `3000711` | `AC-8` | Goal is partially added. |
-   | `3000712` | `AC-8` | Goal is partially added. |
-   | `3000047` | `SA-9(a)`, `AC-20(a)`, and `CA-3(a)` | Goal is partially added. |
+   | `3000013` |  | Goal is removed from the profile. |
+   | `3000014` |  | Goal is removed from the profile. |
+   | `3000025` |  | Goal is removed from the profile. |
+   | `3000039` |  | Goal is removed from the profile. |
+   | `3000047` | `SA-9`, `AC-20`, and `CA-3` </br>`SA-9(a)`, `AC-20(a)`, and `CA-3(a)`| Goal is removed from the listed associated controls. </br>Goal mapping is updated and it is now associated with the listed control.|
+   | `3000049` | `AC-11(a)` | Goal mapping is updated and it is now associated with the listed control. |
+   | `3000050` | `SC-10` | Goal mapping is updated and it is now associated with the listed control. |
+   | `3000233` | `SC-36` | Goal mapping is updated and it is now associated with the listed control. |
    | `3000282` |  | Goal logic is updated. |
+   | `3000410` |  | Goal is removed from the profile. |
+   | `3000411` |  | Goal is removed from the profile. |
    | `3000455` |  | Goal logic is updated. |
+   | `3000462` | `SA-3(a)` | Goal is removed from the listed associated control. |
+   | `3000470` | `AC-17(2)`, `SC-8`, `SC-8(1)`, and `SC-13` | Goal mapping is updated to be added to the listed associated controls. |
+   | `3000473` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal mapping is updated to be added to the listed associated controls. |
+   | `3000474` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal mapping is updated to be added to the listed associated controls. |
+   | `3000475` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal mapping is updated to be added to the listed associated controls. |
+   | `3000476` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal mapping is updated to be added to the listed associated controls. |
+   | `3000603` |  | Goal is removed from the profile. |
+   | `3000711` | `AC-3` and `AC-6-0`</br> `AC-8` | Goal is removed from the listed associated controls. </br>Goal mapping is updated and it is now associated with the listed control. |
+   | `3000712` | `AC-3` and `AC-6-0`</br> `AC-8` | Goal is removed from the listed associated controls. </br>Goal mapping is updated and it is now associated with the listed control. |
+   | `3000907` | `SA-3(a)` | Goal is removed from the listed associated control. |
    {: caption="Table. Summary of {{site.data.keyword.cloud_notm}} for Financial Services profile changes for 26 May 2022" caption-side="top"}
-
-
 
 
 
@@ -108,7 +109,7 @@ For the most up-to-date pricing information, you can create a cost estimate by c
 
 In addition to small bug fixes and general updates, version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is updated with the following changes as of 4 May 2022.
 
-| Goal ID   | Associated controls | Update made |
+| Goal ID   | Associated controls | Update |
 |:----------|:-------------|:------------|
 | `3000906` | `SC-8-0`, `SC-8(1)`, `SC-13`, and `SC-23` | Updated goal and fact collection logic. |
 | `3000601` | `CM-8(3)(a)`, `RA-5(a)`, `SI-2(2)`, and `SI-2(a)` | Updated goal logic to consider whether the status is either unscanned or incomplete. |
