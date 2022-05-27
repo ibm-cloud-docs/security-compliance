@@ -109,7 +109,7 @@ In addition to `viewer` access, a few {{site.data.keyword.cloud_notm}} services 
 
 | Service | Additional permission |
 |---------|---------------|
-| Activity Tracker | Operator, Manager </br>If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. You must create a new credential using Activity Tracker's GUID and Service_key as the username and password. Then, [map the credential](/docs/security-compliance?topic=security-compliance-map-credentials) to a specific collector by using the format `AT=resource_guid`. |
+| Activity Tracker | Operator, Manager </br>If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. You must create a new credential using Activity Tracker's GUID and Service key as the username and password. Then, [map the credential](/docs/security-compliance?topic=security-compliance-map-credentials) to a specific collector by using the format `AT=resource_guid`. |
 | App ID | Reader |
 | Certificate Manager | Reader |
 | Cloud Catalog | Publisher |
@@ -119,9 +119,9 @@ In addition to `viewer` access, a few {{site.data.keyword.cloud_notm}} services 
 | Event streams | Reader |
 | Hyper Protect Crypto Services | Operator, Manager |
 | Key Protect | ReaderPlus, Manager, Editor |
-| Kubernetes Service | Reader</br> If you enable scanning of your clusters, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information]({[link-map-credentials]}) before the scan can complete. |
-| OpenShift | Reader</br>If you enable scanning of your clusters, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information]({[link-map-credentials]}) before the scan can complete. |
-| Satellite | Operator, Writer </br>If you enable scanning of your clusters that run on Satellite, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information]({[link-map-credentials]}) before the scan can complete. |
+| Kubernetes Service | Reader</br> If you enable scanning of your clusters, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information](/docs/security-compliance?topic=security-compliance-map-credentials) before the scan can complete. |
+| OpenShift | Reader</br>If you enable scanning of your clusters, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information](/docs/security-compliance?topic=security-compliance-map-credentials) before the scan can complete. |
+| Satellite | Operator, Writer </br>If you enable scanning of your clusters that run on Satellite, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information](/docs/security-compliance?topic=security-compliance-map-credentials) before the scan can complete. |
 | Secrets Manager | Reader |
 | Virtual Private Cloud</br>   Application Load Balancer</br>   Block Storage</br>   Block Storage Snapshots</br>   File Storage</br>   Security Groups  | Reader |
 {: caption="Table 2. Additional required permissions" caption-side="top"}
