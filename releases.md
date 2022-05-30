@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-27"
+lastupdated: "2022-05-30"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -73,7 +73,7 @@ Now available: A new version of the {{site.data.keyword.cloud_notm}} for Financi
    | `3000014` |  | Goal is removed from the profile. |
    | `3000025` |  | Goal is removed from the profile. |
    | `3000039` |  | Goal is removed from the profile. |
-   | `3000047` | `SA-9`, `AC-20`, and `CA-3` </br>`SA-9(a)`, `AC-20(a)`, and `CA-3(a)`| Goal is removed from the listed associated controls. </br>Goal mapping is updated and it is now associated with the listed control.|
+   | `3000047` | `SA-9`, `AC-20`, and `CA-3` </br></br>`SA-9(a)`, `AC-20(a)`, and `CA-3(a)`| Goal is removed from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control.|
    | `3000049` | `AC-11(a)` | Goal mapping is updated and it is now associated with the listed control. |
    | `3000050` | `SC-10` | Goal mapping is updated and it is now associated with the listed control. |
    | `3000233` | `SC-36` | Goal mapping is updated and it is now associated with the listed control. |
@@ -88,8 +88,8 @@ Now available: A new version of the {{site.data.keyword.cloud_notm}} for Financi
    | `3000475` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal mapping is updated to be added to the listed associated controls. |
    | `3000476` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal mapping is updated to be added to the listed associated controls. |
    | `3000603` |  | Goal is removed from the profile. |
-   | `3000711` | `AC-3` and `AC-6-0`</br> `AC-8` | Goal is removed from the listed associated controls. </br>Goal mapping is updated and it is now associated with the listed control. |
-   | `3000712` | `AC-3` and `AC-6-0`</br> `AC-8` | Goal is removed from the listed associated controls. </br>Goal mapping is updated and it is now associated with the listed control. |
+   | `3000711` | `AC-3` and `AC-6-0`</br></br> `AC-8` | Goal is removed from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control. |
+   | `3000712` | `AC-3` and `AC-6-0`</br></br> `AC-8` | Goal is removed from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control. |
    | `3000907` | `SA-3(a)` | Goal is removed from the listed associated control. |
    {: caption="Table. Summary of {{site.data.keyword.cloud_notm}} for Financial Services profile changes for 26 May 2022" caption-side="top"}
 
