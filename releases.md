@@ -55,7 +55,7 @@ content-type: release-note
 {: #security-compliance-may2722}
 {: release-note}
 
-Profiles are constantly expanding and are not an exhaustive list of all of the controls that might be required for every organization. Users should validate the available goals and determiiine where there is a need to supplement their workloads with other security and compliance measures.
+Profiles are constantly expanding and are not an exhaustive list of all of the controls that might be required for every organization. Users should validate the available goals and determine where there is a need to supplement their workloads with other security and compliance measures.
 {: note}
 
 Now available: {{site.data.keyword.cloud_notm}} Secruity Best Practices Controls profile
