@@ -102,10 +102,13 @@ You can provide more granular access to your collector to scan your resources lo
 
 You must assign your service ID API key `viewer` access to all of the resources that want the service to evaluate and for all of the account management services	that are used as part of the evaluation.
 
-If you are working with Classic Infrastructure or the Continuous Delivery service, the provided credential must be a user API key. If a service ID is provided the scan can't complete.
-{: note}
+
+
 
 In addition to `viewer` access, a few {{site.data.keyword.cloud_notm}} services have goals that require additional permissions to either complete the scan or to view the results. If the service is listed in the following table, be sure to assign the additional permissions to your API key.
+
+If you are working with Classic Infrastructure or the Continuous Delivery service, the provided credential must be a user API key. If a service ID is provided the scan can't complete.
+{: important}
 
 | Service | Additional permission |
 |---------|---------------|
