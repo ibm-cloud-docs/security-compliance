@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-27"
+lastupdated: "2022-06-06"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -115,15 +115,15 @@ In addition to `viewer` access, a few {{site.data.keyword.cloud_notm}} services 
 | Cloud Catalog | Publisher |
 | Cloud Shell | Cloud Operator |
 | Cloud Object Storage | Reader, Writer |
-| Databases</br>   etcd</br>   ElasticSearch</br>   MongoDB</br>   PostgreSQL</br>   Redis</br> | Operator |
+| Databases <ul><li>etcd</li> <li>ElasticSearch</li> <li>MongoDB</li> <li>PostgreSQL</li> <li>Redis</li></ul>| Operator |
 | Event streams | Reader |
 | Hyper Protect Crypto Services | Operator, Manager |
 | Key Protect | ReaderPlus, Manager, Editor |
 | Kubernetes Service | Reader</br> If you enable scanning of your clusters, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information](/docs/security-compliance?topic=security-compliance-map-credentials) before the scan can complete. |
-| OpenShift | Reader</br>If you enable scanning of your clusters, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information](/docs/security-compliance?topic=security-compliance-map-credentials) before the scan can complete. |
+| OpenShift | Reader</br>If you enable scanning of your clusters, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information](/docs/security-compliance?topic=security-compliance-map-credentials) before the scan can complete. </br></br> Before you can collect facts for your {{site.data.keyword.containershort}} clusters, you must run the command `ibmcloud ks cluster config --cluster <clusterID>` from the CLI for each cluster that you want to scan. Then, re-trigger fact collection. When the facts are collected, verify the data in your Ingress configuration. |
 | Satellite | Operator, Writer </br>If you enable scanning of your clusters that run on Satellite, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information](/docs/security-compliance?topic=security-compliance-map-credentials) before the scan can complete. |
 | Secrets Manager | Reader |
-| Virtual Private Cloud</br>   Application Load Balancer</br>   Block Storage</br>   Block Storage Snapshots</br>   File Storage</br>   Security Groups  | Reader |
+| Virtual Private Cloud<ul> <li>Application Load Balancer</li> <li>Block Storage</li> <li>Block Storage Snapshots</li> <li>File Storage</li> <li>Security Groups</li></ul>| Reader |
 {: caption="Table 2. Additional required permissions" caption-side="top"}
 
 
