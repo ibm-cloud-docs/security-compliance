@@ -151,7 +151,7 @@ toc:
       - topicgroup:
           label: Available properties
           topics: 
-          - security-checks/default-goals.md
+          - security-checks/default-goals.md              
           - security-checks/scc-properties.md
       - topicgroup: 
           label: Service availability
