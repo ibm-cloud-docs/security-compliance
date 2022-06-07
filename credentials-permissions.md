@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-06"
+lastupdated: "2022-06-07"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -122,8 +122,8 @@ If you are working with Classic Infrastructure or the Continuous Delivery servic
 | Event streams | Reader |
 | Hyper Protect Crypto Services | Operator, Manager |
 | Key Protect | ReaderPlus, Manager, Editor |
-| Kubernetes Service | Reader</br> If you enable scanning of your clusters, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information](/docs/security-compliance?topic=security-compliance-map-credentials) before the scan can complete. |
-| OpenShift | Reader</br>If you enable scanning of your clusters, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information](/docs/security-compliance?topic=security-compliance-map-credentials) before the scan can complete. </br></br> Before you can collect facts for your {{site.data.keyword.containershort}} clusters, you must run the command `ibmcloud ks cluster config --cluster <clusterID>` from the CLI for each cluster that you want to scan. Then, re-trigger fact collection. When the facts are collected, verify the data in your Ingress configuration. |
+| Kubernetes Service | Reader</br> If you enable scanning of your clusters, you must [map the additional required information](/docs/security-compliance?topic=security-compliance-map-credentials) before the scan can complete.</br></br> Before you can collect facts for your {{site.data.keyword.containershort}} clusters, you must log into IBM Cloud by using the API key that you want to use to collect facts. Then, run the command `ibmcloud ks cluster config --cluster <clusterID>` from the CLI for each cluster that you want to scan. Then, re-trigger fact collection. When the facts are collected, verify the data in your Ingress configuration. |
+| OpenShift | Reader</br>If you enable scanning of your clusters, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information](/docs/security-compliance?topic=security-compliance-map-credentials) before the scan can complete. </br></br> Before you can collect facts for your {{site.data.keyword.openshiftshort}} clusters, you must log into IBM Cloud by using the API key that you want to use to collect facts. Then, run the command `ibmcloud os cluster config --cluster <clusterID>` from the CLI for each cluster that you want to scan. Then, re-trigger fact collection. When the facts are collected, verify the data in your Ingress configuration. |
 | Satellite | Operator, Writer </br>If you enable scanning of your clusters that run on Satellite, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information](/docs/security-compliance?topic=security-compliance-map-credentials) before the scan can complete. |
 | Secrets Manager | Reader |
 | Virtual Private Cloud<ul> <li>Application Load Balancer</li> <li>Block Storage</li> <li>Block Storage Snapshots</li> <li>File Storage</li> <li>Security Groups</li></ul>| Reader |
