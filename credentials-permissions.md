@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-07"
+lastupdated: "2022-06-08"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -91,52 +91,73 @@ Some {{site.data.keyword.cloud_notm}} services require [additional permissions](
 
 Credentials are stored securely by using encryption and are not visible in clear text at any point during the storage process. For more information about the security of your stored credentials, see [Storing and encrypting data in the {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
 
-## Assigning specific permissions
+## Assigning specific permissions for {{site.data.keyword.cloud_notm}}
 {: #additional-permissions}
 
 You can provide more granular access to your collector to scan your resources located in {{site.data.keyword.cloud_notm}}, AWS, Azure, and Google Cloud Platform.
 {: shortdesc}
 
-### Specific permissions for {{site.data.keyword.cloud_notm}} 
+## Specific permissions for {{site.data.keyword.cloud_notm}} 
 {: #ibm-permissions}
 
-You must assign your service ID API key `viewer` access to all of the resources that want the service to evaluate and for all of the account management services	that are used as part of the evaluation.
+You must assign your service ID API key `viewer` access to all of the resources that want the service to evaluate and for all of the account management services that are used as part of the evaluation.
+
+For more help assigning these permissions, check out the tutorial [Managing credentials for IBM Cloud resources](/docs/security-compliance?topic=security-compliance-ibm-credential-setup).
+{: tip}
+
+In addition to `viewer` access, a few {{site.data.keyword.cloud_notm}} services have goals that require additional permissions to either complete the scan or to view the results. If the service is listed in the following table, be sure to assign the additional permissions to your service ID API key.
 
 
+   | Service | Additional permission |
+   |---------|---------------|
+   | Activity Tracker | Operator and Manager |
+   | App ID | Reader |
+   | Certificate Manager | Reader |
+   | Cloud Catalog | Publisher |
+   | Cloud Shell | Cloud Operator |
+   | Cloud Object Storage | Reader and Writer |
+   | Databases <ul><li>etcd</li> <li>ElasticSearch</li> <li>MongoDB</li> <li>PostgreSQL</li> <li>Redis</li></ul>| Operator |
+   | Event streams | Reader |
+   | Hyper Protect Crypto Services | Operator and Manager |
+   | Key Protect | ReaderPlus, Manager and Editor |
+   | Kubernetes Service | Reader |
+   | OpenShift | Reader |
+   | Satellite | Operator and Writer |
+   | Secrets Manager | Reader |
+   | Virtual Private Cloud<ul> <li>Application Load Balancer</li> <li>Block Storage</li> <li>Block Storage Snapshots</li> <li>File Storage</li> <li>Security Groups</li></ul>| Reader |
+   {: caption="Table 1. Additional required permissions" caption-side="top"}
 
 
-In addition to `viewer` access, a few {{site.data.keyword.cloud_notm}} services have goals that require additional permissions to either complete the scan or to view the results. If the service is listed in the following table, be sure to assign the additional permissions to your API key.
+### Additional required actions by service
+{: #ibm-permissions-actions}
 
 If you are working with Classic Infrastructure or the Continuous Delivery service, the provided credential must be a user API key. If a service ID is provided the scan can't complete.
-{: important}
+{: note}
 
-| Service | Additional permission |
-|---------|---------------|
-| Activity Tracker | Operator, Manager </br>If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. You must create a new credential using Activity Tracker's GUID and Service key as the username and password. Then, [map the credential](/docs/security-compliance?topic=security-compliance-map-credentials) to a specific collector by using the format `AT=resource_guid`. |
-| App ID | Reader |
-| Certificate Manager | Reader |
-| Cloud Catalog | Publisher |
-| Cloud Shell | Cloud Operator |
-| Cloud Object Storage | Reader, Writer |
-| Databases <ul><li>etcd</li> <li>ElasticSearch</li> <li>MongoDB</li> <li>PostgreSQL</li> <li>Redis</li></ul>| Operator |
-| Event streams | Reader |
-| Hyper Protect Crypto Services | Operator, Manager |
-| Key Protect | ReaderPlus, Manager, Editor |
-| Kubernetes Service | Reader</br> If you enable scanning of your clusters, you must [map the additional required information](/docs/security-compliance?topic=security-compliance-map-credentials) before the scan can complete.</br></br> Before you can collect facts for your {{site.data.keyword.containershort}} clusters, you must log into IBM Cloud by using the API key that you want to use to collect facts. Then, run the command `ibmcloud ks cluster config --cluster <clusterID>` from the CLI for each cluster that you want to scan. Then, re-trigger fact collection. When the facts are collected, verify the data in your Ingress configuration. |
-| OpenShift | Reader</br>If you enable scanning of your clusters, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information](/docs/security-compliance?topic=security-compliance-map-credentials) before the scan can complete. </br></br> Before you can collect facts for your {{site.data.keyword.openshiftshort}} clusters, you must log into IBM Cloud by using the API key that you want to use to collect facts. Then, run the command `ibmcloud os cluster config --cluster <clusterID>` from the CLI for each cluster that you want to scan. Then, re-trigger fact collection. When the facts are collected, verify the data in your Ingress configuration. |
-| Satellite | Operator, Writer </br>If you enable scanning of your clusters that run on Satellite, you must configure the [OSCO integration](/docs/security-compliance?topic=security-compliance-setup-osco) and [map the additional required information](/docs/security-compliance?topic=security-compliance-map-credentials) before the scan can complete. |
-| Secrets Manager | Reader |
-| Virtual Private Cloud<ul> <li>Application Load Balancer</li> <li>Block Storage</li> <li>Block Storage Snapshots</li> <li>File Storage</li> <li>Security Groups</li></ul>| Reader |
-{: caption="Table 2. Additional required permissions" caption-side="top"}
+Activity Tracker
+:   If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. To ensure that the controls can be evaluated, you must create a new credential specific to Activity Tracker of type *Username / password* and then [map the credential to your scope](/docs/security-compliance?topic=security-compliance-map-credentials). For **Username**, provide the GUID for the instance of Activity Tracker that you want to scan. For **Password**, enter your service key.
+
+{{site.data.keyword.containershort}}
+:   To enable scanning of your clusters, you must [map additional information](/docs/security-compliance?topic=security-compliance-map-credentials) and configure your cluster through the CLI by logging in to IBM Cloud by using the API key that you want to use to evaluate your clusters. Be sure to trigger fact collection after you log in. For more help, see [Managing credentials for IBM Cloud resources](/docs/security-compliance?topic=security-compliance-ibm-credential-setup).
+
+{{site.data.keyword.openshiftshort}}
+:   To enable scanning of your clusters, you must [map additional information](/docs/security-compliance?topic=security-compliance-map-credentials) and configure your cluster through the CLI by logging in to IBM Cloud by using the API key that you want to use to evaluate your clusters. Be sure to trigger fact collection after you log in. You must also configure the OSCO integration. For more help, see [Managing credentials for IBM Cloud resources](/docs/security-compliance?topic=security-compliance-ibm-credential-setup).
+
+Virtual Private Cloud
+:   To scan your Virtual Private Cloud's you must provide the name of the private cloud that you want to evaluate by [mapping additional credentials](/docs/security-compliance?topic=security-compliance-map-credentials).
 
 
-	
+## Assigning specific permissions for other environments
+{: #additional-permissions}
+
+You can provide more granular access to your collector to scan your resources located in AWS, Azure, and Google Cloud Platform.
+
 
 ### Specific permissions for Amazon Web Services (AWS)
 {: #amazon-permissions}
 
 To scan resources located in AWS with the {{site.data.keyword.compliance_short}}, you must provide `ReadOnlyAccess` permissions to the collector. `ReadOnlyAccess` provides read-only access to all AWS object types, allowing the collector to scan your resource configurations. 
-{: shortdesc}
+
 
 You can also create a custom policy to read information that is related to Key AWS Management Service (KMS). You can use the following JSON to create the custom policy. 
 
@@ -171,13 +192,13 @@ If you want to add more restrictions, see the following table for examples of gr
 {: #azure-permissions}
 
 You must assign the roles of **Reader** and **Directory Reader** to allow your collector to scan your resources located in an Azure environment.
-{: shortdesc}
+
 
 ### Specific permissions for Google Cloud Platform (GCP)
 {: #google-permissions}
 
 You must assign the role of **Project-Viewer** to allow your collector to scan your resources located in GCP. By using the project-viewer role, you provide to the collector read-only access to all GCP object types.
-{: shortdesc}
+
 
 If you want to add more restrictions, see the following table for examples of granular access you can grant to the collector. 
 
