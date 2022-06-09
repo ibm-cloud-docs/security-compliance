@@ -110,7 +110,7 @@ In addition to `viewer` access, a few {{site.data.keyword.cloud_notm}} services 
    | Cloud Catalog | Publisher |
    | Cloud Shell | Cloud Operator |
    | Cloud Object Storage | Reader and Writer |
-   | Databases <ul><li>etcd</li> <li>ElasticSearch</li> <li>MongoDB</li> <li>PostgreSQL</li> <li>Redis</li></ul>| Operator |
+   | <ul>Databases <li>etcd</li> <li>ElasticSearch</li> <li>MongoDB</li> <li>PostgreSQL</li> <li>Redis</li></ul>| Operator |
    | Event streams | Reader |
    | Hyper Protect Crypto Services | Operator and Manager |
    | Key Protect | ReaderPlus, Manager and Editor |
@@ -118,7 +118,7 @@ In addition to `viewer` access, a few {{site.data.keyword.cloud_notm}} services 
    | OpenShift | Reader |
    | Satellite | Operator and Writer |
    | Secrets Manager | Reader |
-   | Virtual Private Cloud<ul> <li>Application Load Balancer</li> <li>Block Storage</li> <li>Block Storage Snapshots</li> <li>File Storage</li> <li>Security Groups</li></ul>| Reader |
+   | <ul>Virtual Private Cloud <li>Application Load Balancer</li> <li>Block Storage</li> <li>Block Storage Snapshots</li> <li>File Storage</li> <li>Security Groups</li></ul>| Reader |
    {: caption="Table 1. Additional required permissions" caption-side="top"}
 
 
