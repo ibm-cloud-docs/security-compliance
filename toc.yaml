@@ -46,6 +46,7 @@ toc:
           - topicgroup:
               label: Granting access to your resources
               topics:
+              - credentials-what-is.md
               - credentials-permissions.md
               - credentials-manage.md
               - credentials-mapping.md
