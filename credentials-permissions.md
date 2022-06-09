@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-08"
+lastupdated: "2022-06-09"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -92,12 +92,6 @@ Some {{site.data.keyword.cloud_notm}} services require [additional permissions](
 Credentials are stored securely by using encryption and are not visible in clear text at any point during the storage process. For more information about the security of your stored credentials, see [Storing and encrypting data in the {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
 
 ## Assigning specific permissions for {{site.data.keyword.cloud_notm}}
-{: #additional-permissions}
-
-You can provide more granular access to your collector to scan your resources located in {{site.data.keyword.cloud_notm}}, AWS, Azure, and Google Cloud Platform.
-{: shortdesc}
-
-## Specific permissions for {{site.data.keyword.cloud_notm}} 
 {: #ibm-permissions}
 
 You must assign your service ID API key `viewer` access to all of the resources that want the service to evaluate and for all of the account management services that are used as part of the evaluation.
