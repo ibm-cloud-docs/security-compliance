@@ -51,6 +51,8 @@ content-type: release-note
 
 
 
+
+
 ## 27 May 2022
 {: #security-compliance-may2722}
 {: release-note}
@@ -65,7 +67,7 @@ Now available: The {{site.data.keyword.cloud_notm}} Control Library profile
 :    As part of this release the {{site.data.keyword.cloud_notm}} Best Practices Controls 1.0 profile was renamed to the {{site.data.keyword.cloud_notm}} Control Library. The {{site.data.keyword.cloud_notm}} Control Library is a profile that contains all of the available controls and goals that are available for {{site.data.keyword.cloud_notm}}. The library cannot be used to scan your resources directly, but you are able to create a custom profile from the library. 
 
 Now available: A new version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
-:    In addition to small bug fixes and general updates, version 0.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is updated with the following changes.
+:    In addition to small bug fixes and general updates, version 0.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available has been updated with the following changes.
 
    | Goal ID   | Associated controls | Update |
    |:----------|:--------------------|:-------|
