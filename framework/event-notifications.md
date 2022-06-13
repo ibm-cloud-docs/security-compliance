@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-25"
+lastupdated: "2022-06-13"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -150,9 +150,9 @@ You can find the `event_notifications_instance_crn` value in the console by goin
 {: tip}
 
 ```sh
-curl -X PATCH 'https://compliance.{DomainName}/admin/v1/accounts/{account_id}/settings' \
+curl -X PATCH 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/settings' \
   -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer <access_token>' \
+  -H 'Authorization: Bearer <accessToken>' \
   -d '{
       "event_notifications": {
           "source_name": "Security and Compliance Center",
@@ -189,13 +189,13 @@ After you enable notifications for {{site.data.keyword.compliance_short}}, test 
 Before you can send a test {{site.data.keyword.compliance_short}} event, you must have [topics, destinations, and subscriptions](/docs/event-notifications?topic=event-notifications-en-create-en-topic) created in your {{site.data.keyword.en_short}} instance. Be sure that the **Test configuration** event type (`com.ibm.cloud.compliance.test`) is included as a condition in your {{site.data.keyword.en_short}} topic.
 {: note}
 
-The following example shows a query that you can use to send a test event from the {{site.data.keyword.compliance_short}} to {{site.data.keyword.en_short}}. When you call the API, replace the `{account_id}` variable and IAM token with the values that are specific to your account.
+The following example shows a query that you can use to send a test event from the {{site.data.keyword.compliance_short}} to {{site.data.keyword.en_short}}. When you call the API, replace the `<accountID>` variable and IAM token with the values that are specific to your account.
 {: curl}
 
 ```sh
-curl -X POST 'https://compliance.{DomainName}/admin/v1/accounts/{account_id}/test_event' \
+curl -X POST 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/test_event' \
   -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer <access_token>'
+  -H 'Authorization: Bearer <accessToken>'
 ```
 {: codeblock}
 {: curl}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-02"
+lastupdated: "2022-06-13"
 
 keywords: Centralized security, tanium, compliance monitoring, compliance, 
 
@@ -151,7 +151,7 @@ Now that your data is prepared to export on a schedule, you can create a scope
 7. On your scope details page, you see a URL. By using the API key that was generated when you registered your integration, run the POST request to import your data. Your request should look similar to the following example.
 
    ```sh
-   curl -X POST "https://<region>.compliance.cloud.ibm.com/exchangeprotocol/v1/scope/<scope_id>/results?account_id=<account_id>&result_type=VALIDATION" -H 'Authorization: Bearer <IAM_token>' -H 'Content-type: application/json'
+   curl -X POST "https://<region>.compliance.cloud.ibm.com/exchangeprotocol/v1/scope/<scopeID>/results?account_id=<accountID>&result_type=VALIDATION" -H 'Authorization: Bearer <IAMToken>' -H 'Content-type: application/json'
    ```
    {: codeblock}
 

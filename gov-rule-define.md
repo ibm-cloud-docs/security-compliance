@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-03"
+lastupdated: "2022-06-13"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -108,8 +108,8 @@ After you create a rule, you can view it by navigating to the {{site.data.keywor
 You can create rules programmatically by using the {{site.data.keyword.compliance_short}} API. For example, if you wanted to create a rule prohibited access to a specific bucket unless the request came from a private endpoint, your request might look similar to the following code snippet.
 
 ```sh
-curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
-  -H 'Authorization: Bearer <access_token>' \
+curl -x POST "https://compliance.<domainName>/config/v1/rules" \
+  -H 'Authorization: Bearer <accessToken>' \
   -H 'Content-type: application/json' \
   -H 'Transaction-Id: a7f48341-a2b0-4649-a95d-d416d5fb4170' \
   -d '{
@@ -117,7 +117,7 @@ curl -x POST "https://compliance.{DomainName}/config/v1/rules" \
       {
         "request_id": "80e8c8ce-06ea-44dd-8a45-3e33293ddd78",
         "rule": {
-          "account_id": "<account_id>",
+          "account_id": "<accountID>",
           "name": "Limit access to private network traffic only",
           "description": "For My bucket, limit access to only private network traffic.",
           "target": {

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-23"
+lastupdated: "2022-06-13"
 
 keywords: data encryption in {{site.data.keyword.compliance_short}}, data storage for {{site.data.keyword.compliance_short}}, bring your own keys for {{site.data.keyword.compliance_short}}, BYOK for {{site.data.keyword.compliance_short}}, key management for {{site.data.keyword.compliance_short}}, key encryption for {{site.data.keyword.compliance_short}}, personal data in {{site.data.keyword.compliance_short}}, data deletion for {{site.data.keyword.compliance_short}}, data in {{site.data.keyword.compliance_short}}, data security in {{site.data.keyword.compliance_short}}
 
@@ -118,7 +118,7 @@ You can change the location in which your data is stored and processed by using 
 1. View your current settings.
 
    ```sh
-   curl -X GET 'https://compliance.cloud.ibm.com/admin/v1/accounts/<account_id>/settings' \
+   curl -X GET 'https://compliance.cloud.ibm.com/admin/v1/accounts/<accountID>/settings' \
    -H 'accept: application/json'
    ```
    {: codeblock}
@@ -126,7 +126,7 @@ You can change the location in which your data is stored and processed by using 
 2. Update your settings.
 
    ```sh
-   curl -X PATCH 'https://compliance.cloud.ibm.com/admin/v1/accounts/<account_id>/settings' \
+   curl -X PATCH 'https://compliance.cloud.ibm.com/admin/v1/accounts/<accountID>/settings' \
    -H 'accept: application/json' \
    -H 'Content-Type: application/json' \
    -d '{

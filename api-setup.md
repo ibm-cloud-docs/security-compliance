@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-06-13"
 
 keywords: using the API, accessing the API, getting an access token, authenticating, authentication, access token, API key, account information, IAM access token
 
@@ -58,15 +58,15 @@ To work with the {{site.data.keyword.compliance_full}} APIs, you must first crea
 
    ```bash
    curl -X POST \
-   'https://iam.{DomainName}/identity/token' \
+   'https://iam.<domainName>/identity/token' \
    --header 'Content-Type: application/x-www-form-urlencoded' \
    --header 'Accept: application/json' \
    --data-urlencode 'grant_type=urn:ibm:params:oauth:grant-type:apikey' \
-   --data-urlencode 'apikey=<API_KEY>'
+   --data-urlencode 'apikey=<APIKey>'
    ```
    {: codeblock}
 
-   In the request, replace `<API_KEY>` with the API key that you created in the
+   In the request, replace `<APIKey>` with the API key that you created in the
    previous step. The following truncated example shows the sample output:
 
    ```json
