@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-16"
+lastupdated: "2022-06-13"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials, ibm managed collector, ibm managed
 
@@ -59,8 +59,8 @@ For the {{site.data.keyword.compliance_full}} to gather and validate information
 Before you get started, be sure that you have the required level of access to view and manage collectors. To administer collectors, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
 
-A managed collector can support up to 350 resources per customer. If your organization has more resources, you can always [manually create and install a collector](/docs/security-compliance?topic=security-compliance-collector-manual).
-{: note}
+Before you get started, be sure that you understand [the limitations](/docs/security-compliance?topic=security-compliance-known-issues-limits#ibm-collector-limits).
+{: important}
 
 
 ### Updating your IP address restrictions
