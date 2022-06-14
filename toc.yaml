@@ -27,14 +27,17 @@ toc:
       - topicgroup: 
           label: Monitor IBM Cloud resources
           topics: 
-          - topic: tutorials/monitor-ibm-collector.md
-            navtitle: With an IBM-managed collector
-          - topic: tutorials/monitor-customer-collector-cluster.md
-            navtitle: With a customer-managed collector on a cluster
-          - topic: tutorials/monitor-ibm-customer-collector-vm.md
-            navtitle: With a customer-managed collector on VPC
-          - topic: tutorials/scan-satellite.md
-            navtitle: That run on Satellite
+          - tutorials/ibm-credential.md
+          - tutorials/ibm-discover.md
+          - tutorials/ibm-map-cred.md
+          - tutorials/ibm-scan.md
+      - topicgroup:
+          label: Install and manage a collector
+          topics: 
+          - topic: tutorials/collector-vpc.md
+            navtitle: On Virtual Private Cloud
+          - topic: tutorials/collector-ks.md
+            navtitle: On Kubernetes Service
 
   - navgroup:
       id: howto
