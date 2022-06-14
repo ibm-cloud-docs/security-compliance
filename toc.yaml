@@ -162,7 +162,15 @@ toc:
           topics:
           - locations-endpoints.md
           - topic: framework/ha-dr.md
-            navtitle: Understanding HA / DR
+            navtitle: Understanding HA / DR<ha-dr>
+      - topicgroup: 
+          label: High availability and disaster recovery
+          topics:
+          - topic: framework/high-availability.md
+            navtitle: Understanding high availability
+          - topic: framework/disaster-recovery.md
+            navtitle: Understanding disaster recovery</ha-dr>
+
       - topicgroup: 
           label: Related links
           topics:
