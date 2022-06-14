@@ -60,7 +60,7 @@ This tutorial is part 2 of a 4-part tutorial series that guides you through conf
 
 Target the resources that you want to validate by creating a scope and scheduling a scan. To create a scope, select an environment, select your collector, and select the credentials that are required to access your targeted resources. Then, you can schedule a scan to discover and validate your resource configurations.
 
-![The image shows the flow of user actions for this tutorial series](../images/credentials-tutorial.svg){: caption="Figure 1. Collector deployment" caption-side="bottom"}
+![The image shows the flow of user actions for this tutorial series](../images/credentials-tutorial.svg){: caption="Figure 1. Tutorial parts" caption-side="bottom"}
 
 
 ## Before you begin

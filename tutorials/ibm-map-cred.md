@@ -59,7 +59,7 @@ This tutorial is part 3 of a 4-part tutorial series that guides you through conf
 
 Some services require additional mapping in order for the collector to understand where to retrieve the data. Before you can map additional credentials, you must create a scope and run an initital discovery.
 
-![The image shows the flow of user actions for this tutorial series](../images/credentials-tutorial.svg){: caption="Figure 1. Collector deployment" caption-side="bottom"}
+![The image shows the flow of user actions for this tutorial series](../images/credentials-tutorial.svg){: caption="Figure 1. Tutorial parts" caption-side="bottom"}
 
 
 
@@ -89,7 +89,7 @@ If you enable a control that measures a specific number of days, it is monitored
 
    1. In the **Manage posture** section of the navigation, click [**Configure > Scopes**](/security-compliance/scopes).
    2. Select the scope that you want to map credentials for.
-   3. In the **Credentials** section of the navigation, click **Add**. A side panel appears. 
+   3. In the **Credentials** section of the navigation, click **Add**. A side pane opens. 
    4. Select the credential that you created in step 1.
    5. In the **Resource** field, provide your Activity Tracker GUID in the format: `AT=resource_guid`.
    6. Click **Add**.
@@ -103,7 +103,7 @@ To enable scanning of your clusters, you must map additional information and con
 1. Map the credential.
 
    1. In [**Manage Posture > Configure > Scopes**](/security-compliance/scopes), select the scope that you want to map credentials for.
-   2. In the **Credentials** section of the navigation, click **Add**. A side panel appears. 
+   2. In the **Credentials** section of the navigation, click **Add**. A side pane appears. 
    3. Select the credential that you assigned permissions to at the beginning of this tutorial.
    4. In the **Resource** field, provide your cluster ID in the format: `cluster=cluster_id`.
    5. Click **Add**.
@@ -133,6 +133,8 @@ To enable scanning of your clusters, you must map additional information and con
 
 To enable scanning of your clusters, you must configure the OSCO integration, map additional information, and then configure your cluster through the CLI.
 
+![This image is a visual representation of how to apply your credentials to specific resources in the GUI. The information that is shown in the image is detailed in the surrounding text.](../images/cluster-credential-map.svg){: caption="Figure 1. Mapping credentials through the UI" caption-side="bottom"}
+
 When you configure your scope, you must **Enable integrated profiles** in order for the OSCO integration to work.
 {: note}
 
@@ -146,7 +148,7 @@ When you configure your scope, you must **Enable integrated profiles** in order 
 2. Map the credential.
 
    1. In [**Manage Posture > Configure > Scopes**](/security-compliance/scopes), select the scope that you want to map credentials for.
-   2. In the **Credentials** section of the navigation, click **Add**. A side panel appears. 
+   2. In the **Credentials** section of the navigation, click **Add**. A side pane opens. 
    3. Select the credential that you assigned permissions to at the beginning of this tutorial.
    4. In the **Resource** field, provide your cluster ID in the format: `ROKS=cluster_id`.
    5. Click **Add**.
@@ -176,7 +178,7 @@ When you configure your scope, you must **Enable integrated profiles** in order 
 To scan your Virtual Private Cloud's you must provide the name of the private cloud that you want to evaluate.
 
 1. In [**Manage Posture > Configure > Scopes**](/security-compliance/scopes), select the scope that you want to map credentials for.
-2. In the **Credentials** section of the navigation, click **Add**. A side panel appears. 
+2. In the **Credentials** section of the navigation, click **Add**. A side pane opens. 
 3. Select the credential that you assigned permissions to at the beginning of this tutorial.
 4. In the **Resource** field, provide the name of your VPC in the format: `VPC=vpc-name`.
 5. Click **Add**.

@@ -59,7 +59,7 @@ This tutorial is part 1 of a 4-part tutorial series that guides you through conf
 
 With the {{site.data.keyword.compliance_short}}, you can automatically evaluate your resource configurations for compliance every day, which can help to ensure the security of your organization. To scan your resources, you must first provide the {{site.data.keyword.compliance_short}} permission to view the configuration data of the resources that you want to scan.
 
-![The image shows the flow of user actions for this tutorial series](../images/credentials-tutorial.svg){: caption="Figure 1. Collector deployment" caption-side="bottom"}
+![The image shows the flow of user actions for this tutorial series](../images/credentials-tutorial.svg){: caption="Figure 1. Tutorial parts" caption-side="bottom"}
 
 
 ## Before you begin
