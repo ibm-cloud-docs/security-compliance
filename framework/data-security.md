@@ -232,7 +232,7 @@ All of the data in your account is automatically deleted. You don't need to take
 
 | Component    | Data deletion policy |
 |:-------------|:---------------------|
-| Posture Management  | Configuration and Analytics data is deleted after 30 days . |
+| Posture Management  | Configuration and Analytics data is deleted after 30 days. |
 | Configuration Governance   | Results data is stored for 7 days. |
 {: caption="Table 2. {{site.data.keyword.compliance_short}} data deletion policies " caption-side="top"}
 
