@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-09"
+lastupdated: "2022-06-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -51,6 +51,13 @@ content-type: release-note
 
 
 
+
+
+## 1 June 2022
+{: #security-compliance-June0122}
+{: release-note}
+
+As of 1 June 2022, the Security Insights component of {{site.data.keyword.compliance_short}} is deprecated and support was removed. A replacement has not yet been found. Please note, this discontinuation does not affect the other features in {{site.data.keyword.compliance_short}}. If you have comments, questions, or concerns, please reach out to Jessica Doherty by email at `jpbonner@us.ibm.com`.
 
 
 ## 27 May 2022
