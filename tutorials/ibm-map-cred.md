@@ -59,7 +59,7 @@ This tutorial is part 3 of a 4-part tutorial series that guides you through conf
 
 Some services require additional mapping in order for the collector to understand where to retrieve the data. Before you can map additional credentials, you must create a scope and run an initital discovery.
 
-![The image shows the flow of user actions for this tutorial series](../images/credential-tutorial.svg){: caption="Figure 1. Collector deployment" caption-side="bottom"}
+![The image shows the flow of user actions for this tutorial series](../images/credentials-tutorial.svg){: caption="Figure 1. Collector deployment" caption-side="bottom"}
 
 
 

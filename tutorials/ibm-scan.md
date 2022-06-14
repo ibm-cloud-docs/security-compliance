@@ -60,7 +60,7 @@ This tutorial is part 4 of a 4-part tutorial series that guides you through conf
 
 You can choose to wait for your next scheduled scan, or you can run one on-demand to be sure that all of your configurations are done correctly. When your scan completes, you can view your results in the {{site.data.keyword.compliance_short}} UI. 
 
-![The image shows the flow of user actions for this tutorial series](../images/credential-tutorial.svg){: caption="Figure 1. Collector deployment" caption-side="bottom"}
+![The image shows the flow of user actions for this tutorial series](../images/credentials-tutorial.svg){: caption="Figure 1. Collector deployment" caption-side="bottom"}
 
 
 ## Before you begin
