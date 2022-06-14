@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-09"
+lastupdated: "2022-06-14"
 
 keywords: profiles, user-defined, predefined profiles, controls, goals, nist, best practices, security, compliance
 
@@ -78,7 +78,7 @@ When you work with profiles in the {{site.data.keyword.compliance_short}}, you i
 Predefined profiles
 :   Predefined profiles contain collections of controls that are curated based on standards for an industry. 
 
-   {{site.data.keyword.compliance_short}} supports over 40 predefined profiles. Within each profile, you can inspect the controls and goals that are required to be fully compliant. For a complete list of supported profiles,  go to the Profiles page in the {{site.data.keyword.compliance_short}} UI.
+   {{site.data.keyword.compliance_short}} supports over 40 predefined profiles. Within each profile, you can inspect the controls and goals that are required to be fully compliant. For a complete list of supported profiles, go to the Profiles page in the {{site.data.keyword.compliance_short}} UI.
 
    You can't modify or remove controls from a predefined profile. But, you can [create a new profile](/docs/security-compliance?topic=security-compliance-custom-profiles) from a predefined profile so that you choose only the controls and goals that are relevant for your business.
    {: note}
