@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-31"
+lastupdated: "2022-06-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -51,21 +51,32 @@ content-type: release-note
 
 
 
+
+
+
+
+## 1 June 2022
+{: #security-compliance-June0122}
+{: release-note}
+
+As of 1 June 2022, the Security Insights component of {{site.data.keyword.compliance_short}} is deprecated and support was removed. A replacement has not yet been found. Please note, this discontinuation does not affect the other features in {{site.data.keyword.compliance_short}}. If you have comments, questions, or concerns, please reach out to Jessica Doherty by email at `jpbonner@us.ibm.com`.
+
+
 ## 27 May 2022
 {: #security-compliance-may2722}
 {: release-note}
 
-Profiles are constantly expanding and are not an exhaustive list of all of the controls that might be required for every organization. Users should validate the available goals and determine where there is a need to supplement their workloads with other security and compliance measures.
+Profiles are constantly expanding and are not an exhaustive list of all of the controls that might be required for every organization. Users can validate the available goals and determine where a need to supplement their workloads with other security and compliance measures exists.
 {: note}
 
-Now available: {{site.data.keyword.cloud_notm}} Secruity Best Practices Controls profile
+Now available: {{site.data.keyword.cloud_notm}} Security Best Practices Controls profile
 :    Released today, the {{site.data.keyword.cloud_notm}} Security Best Practices profile is a collection of goals that can help an organization to ensure that they are adhering to best practices as defined by {{site.data.keyword.cloud_notm}} security.
 
 Now available: The {{site.data.keyword.cloud_notm}} Control Library profile
 :    As part of this release the {{site.data.keyword.cloud_notm}} Best Practices Controls 1.0 profile was renamed to the {{site.data.keyword.cloud_notm}} Control Library. The {{site.data.keyword.cloud_notm}} Control Library is a profile that contains all of the available controls and goals that are available for {{site.data.keyword.cloud_notm}}. The library cannot be used to scan your resources directly, but you are able to create a custom profile from the library. 
 
 Now available: A new version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
-:    In addition to small bug fixes and general updates, version 0.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is updated with the following changes.
+:    In addition to small bug fixes and general updates, version 0.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available has been updated with the following changes.
 
    | Goal ID   | Associated controls | Update |
    |:----------|:--------------------|:-------|
@@ -101,7 +112,7 @@ Now available: A new version of the {{site.data.keyword.cloud_notm}} for Financi
 {: release-note}
 
 New pricing plans available
-:    The Posture Management component of the {{site.data.keyword.compliance_short}} is now a paid component. For more information about how pricing works and the available plans, see [How does {{site.data.keyword.compliance_short}} calculate pricing?](/docs/security-compliance?topic=security-compliance-scc-pricing).
+:    The Posture Management component of the {{site.data.keyword.compliance_short}} is now a paid component. For more information about how pricing works and the available plans, see [How does {{site.data.keyword.compliance_short}} calculate pricing?](/docs/security-compliance?topic=security-compliance-scc-pricing)
 
 For the most up-to-date pricing information, you can create a cost estimate by clicking **Add to estimate** from either the [provisioning](/security-compliance/catalog) or [plan page](/security-compliance/plan).
 
@@ -135,7 +146,7 @@ In addition to small bug fixes and general updates, version 0.2.0 of the {{site.
 
 
 New versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile
-:   Versions 0.1.4 and 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Serviices profile are now available with new goals and controls.
+:   Versions 0.1.4 and 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile are now available with new goals and controls.
 
    Goals that were removed:
 
@@ -165,7 +176,7 @@ New versions of the {{site.data.keyword.cloud_notm}} for Financial Services prof
    * Goal ID: `3000015` removed from the control AC-2(i)
    * Goal ID: `3000016` removed from the control AC-2(i)
    * Goal ID: `3000035` removed from the controls AC-2(i) and SC-2
-   * Goal ID: `3000430` removed from the controls SI-4(a), SI-4(b) and SI-4(c)
+   * Goal ID: `3000430` removed from the controls SI-4(a), SI-4(b), and SI-4(c)
    * Goal ID: `3000707` removed from the controls AC-2(i) and SC-2
    * Goal ID: `3000708` removed from the controls AC-2(i) and SC-2
    * Goal ID: `3000709` removed from the controls AC-2(i) and SC-2
@@ -220,7 +231,7 @@ New versions of the {{site.data.keyword.cloud_notm}} for Financial Services prof
 {: release-note}
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
+:   You might notice that your compliance score changed even though you didn't update any of your configurations. New goals were added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
 
 * Goal ID's: `3000046` - `3000048` and `3000473` - `3000474`.
 
@@ -233,7 +244,7 @@ Create rule flow updates
 :   When you create a rule by using the console, the flow now includes the attachment of a scope. To try out the new flow, see [the {{site.data.keyword.compliance_short}} UI](/security-compliance/rules){: external}.
 
 Quick start: Posture Management
-:   The {{site.data.keyword.compliance_short}} UI has been updated to include more information in the overview page as well as a new Quick Start wizard for the Posture Management component of the service. To try it out, see [the {{site.data.keyword.compliance_short}} UI](/security-compliance/overview){: external}.
+:   The {{site.data.keyword.compliance_short}} UI was updated to include more information in the overview page and a new Quick Start wizard for the Posture Management component of the service. To try it out, see [the {{site.data.keyword.compliance_short}} UI](/security-compliance/overview){: external}.
 
 
 ## 1 March 2022
@@ -258,7 +269,7 @@ New service available in Configuration Governance
 {: release-note}
 
 Add parameters during credential mapping
-:   When resources such as an instance of {{site.data.keyword.containershort}} clusters are scanned, additional parameters must be provided in order for the collector to access all their configuration data. If this is the case, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials. For more information, see [Mapping additional credentials](/docs/security-compliance?topic=security-compliance-map-credentials).
+:   When resources such as an instance of {{site.data.keyword.containershort}} clusters are scanned, additional parameters must be provided in order for the collector to access all their configuration data. If so, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials. For more information, see [Mapping additional credentials](/docs/security-compliance?topic=security-compliance-map-credentials).
 
 
 
@@ -299,7 +310,7 @@ New version of the {{site.data.keyword.cloud_notm}} for Financial Services profi
 {: release-note}
 
 New service available in Configuration Governance
-:   {{site.data.keyword.cloud_notm}} App ID is now available as part of the Configuration Governance component. You can create guardrails for App ID such as enforcing whether monitoring of runtime activity made by application users is tracked. For more information about the integration, see [the App ID docs](/docs/appid?topic=appid-manage-security-compliance).
+:   {{site.data.keyword.cloud_notm}} App ID is now available as part of the Configuration Governance component. You can create guardrails for App ID such as enforcing whether monitoring of runtime activity that is made by application users is tracked. For more information about the integration, see [the App ID docs](/docs/appid?topic=appid-manage-security-compliance).
 
 
 ## 11 January 2022
@@ -333,7 +344,7 @@ Customer-managed collectors can now be installed on a cluster
 :   You can now install your customer-managed collector on to an {{site.data.keyword.cloud_notm}} Kubernetes Service or OpenShift cluster. For more information or help getting started, see [the tutorial](/docs/security-compliance?topic=security-compliance-ibm-customer-collector-cluster).
 
 New service available in Configuration Governance
-:   {{site.data.keyword.cloud_notm}} Container Registry is now available as part of the Configuration Governance component. You can create guardrails for Container Registry such as restricting an account so that it can only push and pull images over private connections. For more information about the integration and the other available properties, see [the Container Registry docs](/docs/Registry?topic=Registry-manage-security-compliance#govern-container-registry).
+:   {{site.data.keyword.cloud_notm}} Container Registry is now available as part of the Configuration Governance component. You can create guardrails for Container Registry such as restricting an account so that it can push and pull images only over private connections. For more information about the integration and the other available properties, see [the Container Registry docs](/docs/Registry?topic=Registry-manage-security-compliance#govern-container-registry).
 
 
 ## 22 November 2021
@@ -341,7 +352,7 @@ New service available in Configuration Governance
 {: release-note}
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
+:   You might notice that your compliance score changed even though you didn't update any of your configurations. New goals were added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
 
 * Goal ID's: `3000542` - `3000544` and `3000321`.
 
@@ -389,7 +400,7 @@ New version of the {{site.data.keyword.cloud_notm}} for Financial Services profi
 {: release-note}
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
+:   You might notice that your compliance score changed even though you didn't update any of your configurations. New goals were added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
 
 * Goal ID's: `3000526` - `3000533`
 
@@ -399,7 +410,7 @@ New goals
 {: release-note}
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
+:   You might notice that your compliance score changed even though you didn't update any of your configurations. New goals were added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
 
 * Goal ID's: `3000510` - `3000525` and `3000640`.
 
@@ -408,7 +419,7 @@ New goals
 {: release-note}
 
 New Posture Management API endpoints
-:   With this release there are 9 new API endpoints available for the Posture Management API. To get started, see the [Posture Management API documentation](/apidocs/security-compliance/posture){: external}.
+:   With this release, 9 new API endpoints for the Posture Management API are available. To get started, see the [Posture Management API documentation](/apidocs/security-compliance/posture){: external}.
 
 Consolidated SDK package
 :   To make it easier to programmatically access the API from your code, {{site.data.keyword.compliance_short}} SDK packages are now available. The SDKs implement best practices for using the API and reduces the amount of code that you need to write. For more information, see the documentation for the following APIs:
@@ -419,7 +430,7 @@ Consolidated SDK package
 
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. New goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
+:   You might notice that your compliance score changed even though you didn't update any of your configurations. New goals were added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
 
 * Goal ID's: `3000509`
 
@@ -494,7 +505,7 @@ IBM-managed collector
 :   A collector is used to gather the configuration information about your resources and then validate it against a specified standard. Previously, you were responsible for the installation and lifecycle management of the collector. Now, you can get a proof of concept up and running quickly by configuring an IBM-managed collector. For more information, see [Configuring managed collectors](/docs/security-compliance?topic=security-compliance-ibm-collector) or [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. N goals have been added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
+:   You might notice that your compliance score changed even though you didn't update any of your configurations. New goals were added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
 
 * Goal ID's: `3000901` - `3000907`
 
@@ -505,15 +516,15 @@ Initial Posture Management API support
 :   As part of this release, the Posture Management component of the service provides three external APIs that you can use as part of your security and compliance automation. For more information, see the [Posture Management API docs](/apidocs/security-compliance/posture).
 
 Proxy support for discovery and fact collection
-:   With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans. For more information, see [Which endpoints does a collector access?](/docs/security-compliance?topic=security-compliance-collector-manual#collector-proxy).
+:   With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans. For more information, see [Which endpoints does a collector access?](/docs/security-compliance?topic=security-compliance-collector-manual#collector-proxy)
 
 New goal mapping
-:   The goal `3000045` is now mapped to CM-2 NIST 800 and has been added to an additional profile.
+:   The goal `3000045` is now mapped to CM-2 NIST 800 and were added to an additional profile.
 
 {{site.data.keyword.cloud_notm}} for Financial Services profile
-:   Released today, the {{site.data.keyword.cloud_notm}} for Financial Services profile is a collection of curated goals that can help organizations make a large jump on the path to meeting the NIST 800-53 security controls that are required for financial institutions. By validating your resources against the {{site.data.keyword.cloud_notm}} for Financial Services profile, you can be more confident that your {{site.data.keyword.cloud_notm}} resources are following best practices for security and compliance.
+:   Released today, the {{site.data.keyword.cloud_notm}} for Financial Services profile is a collection of curated goals. These goals can help organizations make a large jump on the path to meeting the NIST 800-53 security controls that are required for financial institutions. By validating your resources against the {{site.data.keyword.cloud_notm}} for Financial Services profile, you can be more confident that your {{site.data.keyword.cloud_notm}} resources are following best practices for security and compliance.
 
-   *Important*: The {{site.data.keyword.cloud_notm}} for Financial Services profile will be constantly expanding and is not an exhaustive list of all the controls that might be required for every organization. Users should validate the available goals and determine where there is a need to supplement their workloads with other security measures.
+   *Important*: The {{site.data.keyword.cloud_notm}} for Financial Services profile are constantly expanding and is not an exhaustive list of all the controls that might be required for every organization. Users can validate the available goals and determine where a need to supplement their workloads with other security measures exists.
 
 
 
@@ -548,7 +559,7 @@ Manage your own encryption
    By default, the data that is generated by the {{site.data.keyword.compliance_short}} is encrypted at rest by IBM. To control the encryption of your data, you can enable a key management service and select your own key. For more information, see [Protecting your sensitive data](/docs/security-compliance?topic=security-compliance-mng-data#data-encryption).
 
 New goals
-:   You might notice that your compliance score has changed even though you haven't updated any of your configurations. 51 new goals have been added to the IBM profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the IBM Best Practices Controls 1.0 profile. All the goals with ID's in the following ranges are new.
+:   You might notice that your compliance score changed even though you didn't update any of your configurations. 51 new goals were added to the IBM profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the IBM Best Practices Controls 1.0 profile. All the goals with ID's in the following ranges are new.
 
 * Goal ID's: `3000110` - `3000117`
 * Goal ID's: `3000256` - `3000279`

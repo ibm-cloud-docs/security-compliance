@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-17"
+lastupdated: "2022-06-13"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -144,8 +144,8 @@ When the collector is created successfully, the status updates to **Ready to ins
 You can use the {{site.data.keyword.compliance_short}} Posture Management API to create a collector by making the following POST request.
 
 ```sh
-curl POST 'https://{region}.compliance.cloud.ibm.com/posture/v2/collectors?account_id={account_id}' \
-   -H 'Authorization: {IAM_token}' \
+curl POST 'https://<region>.compliance.cloud.ibm.com/posture/v2/collectors?account_id=<accountID>' \
+   -H 'Authorization: <IAMToken>}' \
    -H 'Content-Type: application/json' \
    -d '{
          "name":"my_collector",
@@ -161,8 +161,8 @@ curl POST 'https://{region}.compliance.cloud.ibm.com/posture/v2/collectors?accou
 | Variable   | Description |
 |:-----------|:------------|
 | `region` | The region in which you want to create a collector. Be sure that your region matches the location that is configured for {{site.data.keyword.compliance_short}}. You can view your account settings by making a POST request to the [Admin API](/apidocs/security-compliance-admin#getsettings). For example, `eu`.|
-| `account_id` | The ID of the account that manages the {{site.data.keyword.compliance_short}}. If you are the owner of the managing account, can find this ID in the {{site.data.keyword.cloud_notm}} console by clicking **Manage > Account > Account Settings**.| 
-| `IAM_token` | For help with creating your IAM token, see [Generating an {{site.data.keyword.cloud_notm}} IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey). Be sure to configure your API key and permissions for a service ID. |
+| `accountID` | The ID of the account that manages the {{site.data.keyword.compliance_short}}. If you are the owner of the managing account, can find this ID in the {{site.data.keyword.cloud_notm}} console by clicking **Manage > Account > Account Settings**.| 
+| `IAMToken` | For help with creating your IAM token, see [Generating an {{site.data.keyword.cloud_notm}} IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey). Be sure to configure your API key and permissions for a service ID. |
 | `name` | The name that you want your collector to have. It must be unique to the {{site.data.keyword.compliance_short}} instance that you're working with.|
 | `is_public` | The type of endpoint that your collector is able to use to connect to your resources. If set to `false`, a private IP address that is accessible only through the {{site.data.keyword.cloud_notm}} private network is used. If set to `true`, the collector can access your resources over a public network. |
 | `managed_by` | The entity responsible for managing the collector. This value must be set to `customer`.|
@@ -230,14 +230,14 @@ Complete the following steps to install a collector on a cluster.
    * If you are using a {{site.data.keyword.containershort}} cluster, run the following command.
 
       ```sh
-      ibmcloud ks cluster config --cluster <cluster_name_or_ID>
+      ibmcloud ks cluster config --cluster <CLUSTER_NAME_OR_ID>
       ```
       {: codeblock}
 
    * Run the following command if you are deploying your collector on an {{site.data.keyword.openshiftshort}} cluster to deploy your collector. 
 
       ```sh
-      ibmcloud oc cluster config --cluster <cluster_name_or_ID> --admin
+      ibmcloud oc cluster config --cluster <CLUSTER_NAME_OR_ID> --admin
       ```
       {: codeblock}
 
@@ -271,7 +271,7 @@ Complete the following steps to install a collector on a cluster.
 4. In terminal, log in to your virtual machine by using SSH.
 
    ```sh
-   ssh root@<hostname_or_IP_address>
+   ssh root@<HOSTNAME_OR_IP_ADDRESS>
    ```
    {: codeblock}
 

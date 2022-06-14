@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-06-13"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -83,11 +83,11 @@ If you no longer need to use a rule, you can choose to delete it by using the {{
 
 ```sh
 curl -X DELETE \
-"https://compliance.{DomainName}/config/v1/rules/<rule_ID> \
-  -H 'Authorization: Bearer <access_token>'
+"https://compliance.<domainName>/config/v1/rules/<ruleID> \
+  -H 'Authorization: Bearer <accessToken>'
   -H 'Content-type: application/json'
 ```
 {: codeblock}
 
-A successful `DELETE config/v1/rules/{rule_ID}` response returns a `204 No Content` status code to indicate that your rule was successfully deleted. For more information about the required and optional request parameters, see [Delete a rule](/apidocs/security-compliance-config#delete-rule).
+A successful `DELETE config/v1/rules/<ruleID>` response returns a `204 No Content` status code to indicate that your rule was successfully deleted. For more information about the required and optional request parameters, see [Delete a rule](/apidocs/security-compliance-config#delete-rule).
 

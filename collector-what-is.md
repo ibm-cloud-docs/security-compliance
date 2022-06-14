@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-23"
+lastupdated: "2022-06-13"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -70,7 +70,7 @@ When you work with collectors, you can either manage the lifecycle yourself or y
 
 
 IBM-managed collectors
-:   When you choose to have IBM manage your collector, it is installed on IBM infrastructure as a Universal Base Image (UBI). IBM is responsible for the installation and management for the lifecycle of the collector. This option gives you the ability to focus on just the health and security of your resources.
+:   When you choose to have IBM manage your collector, it is installed on IBM infrastructure as a Universal Base Image (UBI). IBM is responsible for the installation and management for the lifecycle of the collector. This option gives you the ability to focus on just the health and security of your resources. Before you get started, be sure that you understand [the limitations](/docs/security-compliance?topic=security-compliance-known-issues-limits#ibm-collector-limits).
 
 
 Customer-managed collectors

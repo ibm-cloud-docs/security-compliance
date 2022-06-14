@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-06-13"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -95,16 +95,16 @@ After you create a template, you can view it by navigating to the {{site.data.ke
 You can create templates programmatically by using the {{site.data.keyword.compliance_short}} API. For example, the following request sets your required default values for Cloud Object Storage buckets that are located in the `us-south` region. In the `customized_defaults` object, the `firewall.allowed_ip` property is set to a list of IP addresses to be applied.
 
 ```sh
-curl -X POST "https://compliance.{DomainName}/config/v1/templates" \
-  -H 'Authorization: Bearer <access_token>' \
+curl -X POST "https://compliance.<domainName>/config/v1/templates" \
+  -H 'Authorization: Bearer <accessToken>' \
   -H 'Content-type: application/json' \
-  -H 'Transation-Id: <optional_transaction_ID>' \
+  -H 'Transation-Id: <optionalTransactionID>' \
   -d '{
     "templates": [
       {
-        "request_id": "<optional_request_ID>",
+        "request_id": "<optionalRequestID>",
         "template": {
-          "account_id": "<account_ID>",
+          "account_id": "<accountID>",
           "name": "example-cos-template",
           "description": "IP addresses authorized to access storage buckets.",
           "target": {

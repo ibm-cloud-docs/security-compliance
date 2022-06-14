@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-06-13"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -86,10 +86,10 @@ If you no longer need to use a template, you can choose to delete it by using th
 
 ```sh
 curl -X DELETE \
-"https://compliance.{DomainName}/config/v1/templates/<template_ID> \
-  -H 'Authorization: Bearer <access_token>'
+"https://compliance.<domainName>/config/v1/templates/<templateID> \
+  -H 'Authorization: Bearer <accessToken>'
   -H 'Content-type: application/json'
 ```
 {: codeblock}
 
-A successful `DELETE config/v1/templates/{template_ID}` response returns a `204 No Content` status code to indicate that your template was successfully deleted. For more information about the required and optional request parameters, see [Delete a template](/apidocs/security-compliance-config#delete-template).
+A successful `DELETE config/v1/templates/<templateID>` response returns a `204 No Content` status code to indicate that your template was successfully deleted. For more information about the required and optional request parameters, see [Delete a template](/apidocs/security-compliance-config#delete-template).

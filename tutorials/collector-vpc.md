@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-19"
+lastupdated: "2022-06-14"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -10,7 +10,7 @@ subcollection: security-compliance
 
 content-type: tutorial
 services: security-compliance, vpc
-completion-time: 30m
+completion-time: 20m
 
 ---
 
@@ -49,11 +49,11 @@ completion-time: 30m
 {:api: .ph data-hd-interface='api'}
 {:release-note: data-hd-content-type='release-note'}
 
-# Monitor {{site.data.keyword.cloud_notm}} resources with a customer-managed collector on a VM
-{: #ibm-customer-collector}
+# Install a customer-managed collector on VPC
+{: #collector-vpc}
 {: toc-content-type="tutorial"}
 {: toc-services="security-compliance, vpc"}
-{: toc-completion-time="30m"}
+{: toc-completion-time="20m"}
 
 In this tutorial, you learn how to use {{site.data.keyword.compliance_full}} to automate the checks that your organization must complete to prove compliance.
 {: shortdesc}
@@ -122,7 +122,7 @@ If you already have a VPC that is configured with an SSH key, a VSI, and a float
 5. By using the Floating IP that you created, SSH into your VSI. When prompted, type yes and click **Enter** to create the connection.
 
    ```sh
-   ssh root@Floating_IP
+   ssh root@FLOATING_IP
    ```
    {: codeblock}
 
@@ -154,20 +154,22 @@ A collector is a container image that you install on your Virtual Private Cloud.
 5. **UBI** is selected as the default container **image type**. Alternatively, you can choose **Ubuntu**.
 
    Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS. Ubuntu images are disk-images that are designed to run on the Ubuntu OS. Ubuntu images are not compliant with the Federal Information Processing Standards (FIPS).
-6. For **Endpoint type**, select **Public**.  To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private**. 
+6. For **Endpoint type**, select **Public**.  To allow the collector to use a private IP that is accessible only through the {{site.data.keyword.cloud_notm}} private network, choose **Private**. 
 7. Click **Create**.
-8. On the **Download collector** panel that appears after you create a collector, select **Download shell script**, and then click **Download**. The registration key is required.
+8. On the **Download collector** pane that appears after you create a collector, select **Download shell script**, and then click **Download**. The registration key is required.
 
 
 ## Installing a collector
 {: #customer-collector-install-vm}
 {: step}
 
+To install your collector onto your VM, you can use the following steps.
 
-1. Transfer the collector installation file that you downloaded in the previous step to your VSI. If you are using VIM in your command line, you can use the following steps as an example.
+
+1. Transfer the collector installation file that you downloaded in the previous step to your VSI. If you are using VIM in your terminal, you can use the following steps as an example.
 
    1. Locally, open the **initiate_collector.sh** file that you downloaded and copy its contents.
-   2. From your command line, open the VIM editor.
+   2. From your terminal, open the VIM editor.
 
       ```sh
       vi initiate_collector.sh
@@ -177,7 +179,7 @@ A collector is a container image that you install on your Virtual Private Cloud.
    3. Press **i** to insert content.
    4. Paste the content that you previously copied.
    5. Press the **Escape** key to exist edit mode.
-   6. Type `:wq` and click **Enter**. to save and exist VIM.
+   6. Type `:wq` and click **Enter** to save and exit VIM.
    7. To confirm that the file was created, run the `ls` command.
 
 2. Change the permissions of the `initiate_collector.sh` file to allow it to run.
@@ -203,77 +205,9 @@ A collector is a container image that you install on your Virtual Private Cloud.
 
 4. On the **Collectors** page of the {{site.data.keyword.compliance_short}} UI, click **Approval required** to approve the collector for use. Wait a few minutes and refresh the page. The collector status updates to **Active**.
 
-## Grant your collector access to your resources
-{: #ibm-customer-collectors-access}
-{: step}
-
-To run the scan, the collector must have *read* access to the resources that you want to scan. This access is granted through an {{site.data.keyword.cloud_notm}} API key. For more information about the security of your credentials, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
-
-1. Create an {{site.data.keyword.cloud_notm}} API key for a service ID.
-
-   1. Go to [**Manage > Access (IAM) > Service IDs**](https://{DomainName}/iam/serviceids). If you don't already have a service ID that you want to use, click **Create** and provide a name and description. Click **Create** again.
-   2. Select the service ID that you want to use and click **API keys**.
-   3. Click **Create** and give your API key a meaningful name and description. For example, `compliance-api-key` and this key is used by the collector to validate my resource configurations. Click **Create**.
-   4. Click **Copy** or **Download** to save your key.
-
-2. Add the API key to the {{site.data.keyword.compliance_short}} as a credential.
-
-   1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to return to the {{site.data.keyword.compliance_short}}.
-   2. In the navigation, click [**Manage posture > Configure > Credentials**](https://{DomainName}/security-compliance/credentials).
-   3. Click **Create**.
-   4. Give your credential a meaningful name. For example, `ibm-cloud-compliance`.
-   5. Select **Discovery / fact collection** as the purpose of the credential and then click **Next**.
-   6. Select **{{site.data.keyword.cloud_notm}}** as the type of credential.
-   7. Paste the API key that you created in the previous step and click **Create**.
-
-## Target your resources and validate your configurations
-{: #ibm-customer-collector-scope}
-{: step}
-
-Target the resources that you want to validate by creating a scope and scheduling a scan. To create a scope, select an environment, select your collector, and select the credentials that are required to access your targeted resources. Then, you can schedule a scan to discover and validate your resource configurations.
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In **Manage Posture > Configure > Scopes**, click **Create**.
-3. Give your scope a name and description and then click **Next**.
-
-   Be sure to give a detailed name as you use this field later to configure scans and remediation.
-4. Select an **Environment** from the drop-down list.
-
-   If you choose On-premises, you can select from multiple options to discover your resources. For example, you can [schedule a discovery scan](/docs/security-compliance?topic=security-compliance-schedule-scan), import resources from a file, or connect to a third party. Supported format for imported files is  `.json`. The maximum file size is 30 MB.
-5. From the **Credentials** drop-down, select a credential that you previously added to the service and then click **Next**.
-
-   If you have not yet added a credential, you can use the following steps to add one and then select it from the drop-down.
-
-   1. Click **Create**. A side panel opens.
-   2. Provide a name and description.
-   3. Select a **Purpose** and then click **Next**.
-   4. Select a **Credential type**.
-   5. Provide the information that is requested. For more information about each type of secret, see [Understanding credentials](/docs/security-compliance?topic=security-compliance-permissions#understand-credentials).
-   6. Click **Create** and repeat as necessary.
-
-6. From the table, select the [collector](/docs/security-compliance?topic=security-compliance-collector) or collectors that you want to use to gather configuration data and then click **Next**.
-7. Create an attachment between your scope and profile by scheduling a scan. 
-
-   1. Give your scan a name and description.
-   2. Select a **Scan type**.
-   3. From the **Profile** drop-down, select the profile that you want to use to evaluate your configuration.
-   4. **Enable** or **Disable** the profiles that are associated with your integrated resources. For more information about integrations see the [integrations tab of the UI](/security-compliance/integrations){: external}.
-
-      If you are working with any {{site.data.keyword.openshiftshort}} resources, you must enable the [OSCO integration](/security-compliance/integrations){: external}  and then enable profiles during this step in order for your resources to be evaluated.
-      {: note}
-
-   5. If applicable: Select a remediation type.
-
-      Only some environments are configured to provide automatic remediation. For more information, see [Remediating issues](/docs/security-compliance?topic=security-compliance-remediation).
-
-   6. The scan will automatically occur when the scope is created. To schedule additional scans select the **Frequency** at which you want them to be run and the date when you want the scan to **End**.
-
-8. Click **Next** and review your selections.
-9. Click **Create**. 
-
 
 ## Next steps
 {: #ibm-customer-collector-scan}
 
-When a scan completes, you can view the results as an overview in your dashboard, or in more detail by resource or by control. In all three options, you are presented with a compliance score so that you can view your compliance posture at a glance. To learn more about your score, see [Understanding your compliance score](/docs/security-compliance?topic=security-compliance-view-posture#understand-scores).
+Now that your collector is installed and active, you're ready to [schedule a scan](/docs/security-compliance?topic=security-compliance-schedule-scan). When your scan completes, you can return to the UI to view your results.
 

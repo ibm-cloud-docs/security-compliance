@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-03-16"
+lastupdated: "2022-06-13"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials, ibm managed collector, ibm managed
 
@@ -59,8 +59,8 @@ For the {{site.data.keyword.compliance_full}} to gather and validate information
 Before you get started, be sure that you have the required level of access to view and manage collectors. To administer collectors, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
 
-A managed collector can support up to 350 resources per customer. If your organization has more resources, you can always [manually create and install a collector](/docs/security-compliance?topic=security-compliance-collector-manual).
-{: note}
+Before you get started, be sure that you understand [the limitations](/docs/security-compliance?topic=security-compliance-known-issues-limits#ibm-collector-limits).
+{: important}
 
 
 ### Updating your IP address restrictions
@@ -113,8 +113,8 @@ When it's time for your scan to run, the status updates to **Active**.
 You can use the {{site.data.keyword.compliance_short}} Posture Management API to create a collector by making the following POST request.
 
 ```sh
-curl POST 'https://{region}.compliance.cloud.ibm.com/posture/v2/collectors?account_id={account_id}' \
-  -H 'Authorization: {IAM_token}' \
+curl POST 'https://<region>.compliance.cloud.ibm.com/posture/v2/collectors?account_id=<accountID>' \
+  -H 'Authorization: <IAMToken>' \
   -H 'Content-Type: application/json' \
   -d '{
         "name":"my_collector",
@@ -130,8 +130,8 @@ curl POST 'https://{region}.compliance.cloud.ibm.com/posture/v2/collectors?accou
 | Variable   | Description |
 |:-----------|:------------|
 | `region` | The region in which you want to create a collector. Be sure that your region matches the location that is configured for {{site.data.keyword.compliance_short}}. You can view your account settings by making a POST request to the [Admin API](/apidocs/security-compliance-admin#getsettings). For example, `eu`.|
-| `account_id` | The ID of the account that manages the {{site.data.keyword.compliance_short}}. If you are the owner of the managing account, can find this ID in the {{site.data.keyword.cloud_notm}} console by clicking **Manage > Account > Account Settings**.| 
-| `IAM_token` | For help with creating your IAM token, see [Generating an {{site.data.keyword.cloud_notm}} IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey).|
+| `accountID` | The ID of the account that manages the {{site.data.keyword.compliance_short}}. If you are the owner of the managing account, can find this ID in the {{site.data.keyword.cloud_notm}} console by clicking **Manage > Account > Account Settings**.| 
+| `IAMToken` | For help with creating your IAM token, see [Generating an {{site.data.keyword.cloud_notm}} IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey).|
 | `name` | The name that you want your collector to have. It must be unique to the {{site.data.keyword.compliance_short}} instance that you're working with.|
 | `is_public` | The type of endpoint that your collector is able to use to connect to your resources. This value must be set to `false`, which means that a private IP address that is accessible only through the {{site.data.keyword.cloud_notm}} private network is used.|
 | `passphrase` | If you or your organization enabled a passphrase for the {{site.data.keyword.compliance_short}}, you must provide it exactly. Be sure to double check the passphrase before you run the command.|

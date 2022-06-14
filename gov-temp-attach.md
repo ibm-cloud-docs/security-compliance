@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-06-13"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -95,21 +95,21 @@ The following example request creates an attachment between an existing template
 
 ```sh
 curl -X POST \
-"https://compliance.{DomainName}/config/v1/templates/<template_ID>/attachments" \
-  -H 'Authorization: Bearer <access_token>' \
+"https://compliance.<domainName>/config/v1/templates/<templateID>/attachments" \
+  -H 'Authorization: Bearer <accessToken>' \
   -H 'Content-type: application/json' \
   -d '{
   "attachments": [
     {
       "included_scope": {
-        "scope_id": "<included_scope_ID>",
-        "scope_type": "<scope_type>",
+        "scope_id": "<includedScopeID>",
+        "scope_type": "<scopeType>",
         "note": "<description>"
       },
       "excluded_scopes": [
         {
-          "scope_id": "<excluded_scope_ID",
-          "scope_type": "<scope_type>",
+          "scope_id": "<excludedScopeID",
+          "scope_type": "<scopeType>",
           "note": "<description>"
         }
       ]
@@ -119,6 +119,6 @@ curl -X POST \
 ```
 {: codeblock}
 
-A successful `POST config/v1/templates/{template_ID}/attachments` response returns the ID value for the attachment, along with other metadata. For more information about the required and optional request parameters, see [Create attachments](/apidocs/security-compliance-config#create-attachments).
+A successful `POST config/v1/templates/<templateID>/attachments` response returns the ID value for the attachment, along with other metadata. For more information about the required and optional request parameters, see [Create attachments](/apidocs/security-compliance-config#create-attachments).
 
 
