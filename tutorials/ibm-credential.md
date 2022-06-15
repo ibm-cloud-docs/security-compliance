@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-14"
+lastupdated: "2022-06-15"
 
 keywords: ibm credentials, scc, security and compliance for ibm, compliance scan, {{site.data.keyword.cloud_notm}} resources
 
@@ -149,19 +149,18 @@ If you're working with Classic Infrastructure or the Continuous Delivery service
 
 
 1. Go to **Manage > Access (IAM) > Users** and select the user that you want to use.
-2. If the user is not the owner of the account, assign an access policy.
-   1. Click **Access policies > Assign access**.
-   2. 
-
-2. Provide a **Name** and **Description**.
-3. Click **Create**.
-4. Click **Access policies > Assign access**. **Access policy** is automatically selected in the screen that loads.
-5. Assign access to the {{site.data.keyword.compliance_short}} and Security and Compliance Integrations.
-   1. From the table, select the **{{site.data.keyword.compliance_short}}** and click **Next**.
-   2. Leave **All resources** and click **Next**.
-   3. Select **Manager** and **Administrator**. Then, click **Review** to validate your choices.
+1. Click **Access policies > Assign access**.
+2. Assign access to Continuous Delivery.
+   1. From the table, select Continuous Delivery and click **Next**.
+   2. Select the resources that you want to scan and click **Next**.
+   3. Select **Viewer**. Then, click **Review** to validate your choices.
    4. Click **Add**.
-   5. Repeat all of step 5, but select Security and Compliance Integrations instead of {{site.data.keyword.compliance_short}}.
+   5. Repeat all of step 2, but select **Classic Infratructure**.
+3. Generate an API Key.
+   1. In the user profile where you assigned access, click **API keys**. 
+   2. Click **Create**.
+   3. Provide a name and detailed description. Then, click **Create**.
+   4. **Copy** and **Download** your API key. 
 
 
 
@@ -173,7 +172,8 @@ If you're working with Classic Infrastructure or the Continuous Delivery service
 2. Give your credential a meaningful name and description.
 3. Select **Discovery/Collection** and click **Next**.
 4. Select **{{site.data.keyword.cloud_notm}}**.
-5. Paste the API key that you created into the **IBM API key** field and then click **Create**. Your IAM key is added to a list of available credentials. 
+5. Paste the API key that you created into the **IBM API key** field and then click **Create**. Your IAM key is added to a list of available credentials.
+6. Repeat this process for the user API key.
 
 
 
