@@ -162,6 +162,7 @@ toc:
           topics:
           - locations-endpoints.md
           - topic: framework/ha-dr.md
+            navtitle: Understanding HA / DR
       - topicgroup: 
           label: Related links
           topics:

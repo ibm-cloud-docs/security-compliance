@@ -130,6 +130,8 @@ The first step that the {{site.data.keyword.compliance_short}} takes in evaluati
 {: #ibm-create-key}
 {: step}
 
+To ensure that the {{site.data.keyword.compliance_short}} can access your resources, you provide an API key for the service ID that you assigned permissions to.
+
 1. Go to **Manage > Access (IAM) > Service IDs** and select the service ID that you created in the previous step. 
 2. Click **API keys**. Then, click **Create**.
 3. Provide a name and detailed description. Then, click **Create**.
@@ -137,6 +139,30 @@ The first step that the {{site.data.keyword.compliance_short}} takes in evaluati
 
    To prevent your key from being deleted, you can [lock it](/docs/account?topic=account-serviceidapikeys#lockkey). But, you need to unlock it to create or update and policy that is associated with the key.
    {: tip}
+
+
+## Create a user API key
+{: #ibm-user-id}
+{: step}
+
+If you're working with Classic Infrastructure or the Continuous Delivery service, the provided credential must be a user API key. If only a service ID is provided, the scan will not complete.
+
+
+1. Go to **Manage > Access (IAM) > Users** and select the user that you want to use.
+2. If the user is not the owner of the account, assign an access policy.
+   1. Click **Access policies > Assign access**.
+   2. 
+
+2. Provide a **Name** and **Description**.
+3. Click **Create**.
+4. Click **Access policies > Assign access**. **Access policy** is automatically selected in the screen that loads.
+5. Assign access to the {{site.data.keyword.compliance_short}} and Security and Compliance Integrations.
+   1. From the table, select the **{{site.data.keyword.compliance_short}}** and click **Next**.
+   2. Leave **All resources** and click **Next**.
+   3. Select **Manager** and **Administrator**. Then, click **Review** to validate your choices.
+   4. Click **Add**.
+   5. Repeat all of step 5, but select Security and Compliance Integrations instead of {{site.data.keyword.compliance_short}}.
+
 
 
 ## Add your credentials to the {{site.data.keyword.compliance_short}}
