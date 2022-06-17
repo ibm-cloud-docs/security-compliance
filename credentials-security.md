@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-06-17"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -47,6 +47,8 @@ subcollection: security-compliance
 
 # Managing the security of your credentials
 {: #passphrase}
+
+
 
 A credential passphrase is an arbitrary string that you can use to ensure the security of the credentials that you add to the service. As a user, you can choose to have IBM manage the security of your credentials, or you can choose to manage it yourself.
 {: shortdesc}
