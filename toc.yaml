@@ -96,7 +96,7 @@ toc:
               - gov-temp-delete.md
       - topicgroup:
           label: Connecting integrations
-          topics:
+          topics: 
           - integrations/osco.md
           - integrations/tanium.md
       - topic: framework/event-notifications.md
