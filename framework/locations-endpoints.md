@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-05-23"
+lastupdated: "2022-06-22"
 
 keywords: security and compliance center locations, available locations, scc endpoints, security and compliance center endpoints, regions, scc regions
 
@@ -55,12 +55,18 @@ For more information about how your data is stored and processed in the availabl
 {: note}
 
 
-## Available locations
-{: #available-locations}
+## Available regions
+{: #available-regions}
 
-{{site.data.keyword.compliance_short}} is available in the following locations and is an `EU-Supported` service. To store and process your data in the EU, select "European Union" as your location.
+{{site.data.keyword.compliance_short}} is an `EU-Supported` service that is available ini the following regions:
 
-![Visual representation of the availability of the service. The image is a map with pin points in the locations in which the service is available. If you are unable to view this image, see the table in the service endpoints section for a complete list.](images/world-map.svg){: caption="Figure 1. {{site.data.keyword.compliance_short}} availability" caption-side="bottom"}
+- Dallas (`us-south`)
+- Frankfurt (`fra`)
+
+Note: To store and process your data in the EU, select **European Union** as your location on the **Global settings** page in the {{site.data.keyword.compliance_short}} UI.
+{: note}
+
+![Visual representation of the availability of the service. The image is a map with pin points in the locations in which the service is available. If you are unable to view this image, see the table in the service endpoints section for a complete list.](../images/world-map.svg){: caption="Figure 1. {{site.data.keyword.compliance_short}} availability" caption-side="bottom"}
 
 
 ## Service endpoints

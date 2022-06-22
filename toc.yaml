@@ -161,7 +161,7 @@ toc:
       - topicgroup: 
           label: Service availability
           topics:
-          - locations-endpoints.md
+          - framework/locations-endpoints.md
           - topic: framework/ha-dr.md
             navtitle: Understanding HA / DR
       - topicgroup: 
