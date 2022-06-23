@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-14"
+lastupdated: "2022-06-23"
 
 keywords: ibm credentials, scc, security and compliance for ibm, compliance scan, {{site.data.keyword.cloud_notm}} resources
 
@@ -106,13 +106,13 @@ The first step that the {{site.data.keyword.compliance_short}} takes in evaluati
    
    | Service | Additional permission |
    |---------|---------------|
-   | Activity Tracker | Operator and Manager |
+   | Activity Tracker Event Routing | Operator |
    | App ID | Reader |
    | Certificate Manager | Reader |
    | Cloud Catalog | Publisher |
    | Cloud Shell | Cloud Operator |
    | Cloud Object Storage | Reader and Writer |
-   | <ul>Databases <li>etcd</li> <li>ElasticSearch</li> <li>MongoDB</li> <li>PostgreSQL</li> <li>Redis</li></ul>| Operator |
+   | Databases  \n * etcd  \n * ElasticSearch  \n * MongoDB  \n * PostgreSQL  \n * Redis| Operator |
    | Event streams | Reader |
    | Hyper Protect Crypto Services | Operator and Manager |
    | Key Protect | ReaderPlus, Manager and Editor |
@@ -120,7 +120,7 @@ The first step that the {{site.data.keyword.compliance_short}} takes in evaluati
    | OpenShift | Reader |
    | Satellite | Operator and Writer |
    | Secrets Manager | Reader |
-   | <ul>Virtual Private Cloud <li>Application Load Balancer</li> <li>Block Storage</li> <li>Block Storage Snapshots</li> <li>File Storage</li> <li>Security Groups</li></ul>| Reader |
+   | Virtual Private Cloud  \n * Application Load Balancer  \n * Block Storage  \n * Block Storage Snapshots  \n * File Storage  \n * Security Groups | Reader |
    {: caption="Table 1. Additional required permissions" caption-side="top"}
 
 9. Click **Assign**.
@@ -129,6 +129,8 @@ The first step that the {{site.data.keyword.compliance_short}} takes in evaluati
 ## Create a service ID API key
 {: #ibm-create-key}
 {: step}
+
+To ensure that the {{site.data.keyword.compliance_short}} can access your resources, you provide an API key for the service ID that you assigned permissions to.
 
 1. Go to **Manage > Access (IAM) > Service IDs** and select the service ID that you created in the previous step. 
 2. Click **API keys**. Then, click **Create**.
@@ -139,6 +141,29 @@ The first step that the {{site.data.keyword.compliance_short}} takes in evaluati
    {: tip}
 
 
+## Create a user API key
+{: #ibm-user-id}
+{: step}
+
+If you're working with Classic Infrastructure or the Continuous Delivery service, the provided credential must be a user API key. If only a service ID is provided, the scan will not complete.
+
+
+1. Go to **Manage > Access (IAM) > Users** and select the user that you want to use.
+1. Click **Access policies > Assign access**.
+2. Assign access to Continuous Delivery.
+   1. From the table, select Continuous Delivery and click **Next**.
+   2. Select the resources that you want to scan and click **Next**.
+   3. Select **Viewer**. Then, click **Review** to validate your choices.
+   4. Click **Add**.
+   5. Repeat all of step 2, but select **Classic Infratructure**.
+3. Generate an API Key.
+   1. In the user profile where you assigned access, click **API keys**. 
+   2. Click **Create**.
+   3. Provide a name and detailed description. Then, click **Create**.
+   4. **Copy** and **Download** your API key. 
+
+
+
 ## Add your credentials to the {{site.data.keyword.compliance_short}}
 {: #ibm-create-add-cred}
 {: step}
@@ -147,12 +172,13 @@ The first step that the {{site.data.keyword.compliance_short}} takes in evaluati
 2. Give your credential a meaningful name and description.
 3. Select **Discovery/Collection** and click **Next**.
 4. Select **{{site.data.keyword.cloud_notm}}**.
-5. Paste the API key that you created into the **IBM API key** field and then click **Create**. Your IAM key is added to a list of available credentials. 
+5. Paste the API key that you created into the **IBM API key** field and then click **Create**. Your IAM key is added to a list of available credentials.
+6. Repeat this process for the user API key.
 
 
 
 ## Next steps
 {: #next-1}
 
-Next, you're ready to discover the resources in your account that are available to evaluate.
+Next, you're ready to discover the resources in your account that are available to evaluate in [part 2](/docs/security-compliance?topic=security-compliance-ibm-discover).
 

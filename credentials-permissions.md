@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-09"
+lastupdated: "2022-06-23"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -64,13 +64,13 @@ In addition to `viewer` access, a few {{site.data.keyword.cloud_notm}} services 
 
    | Service | Additional permission |
    |---------|---------------|
-   | Activity Tracker | Operator and Manager |
+   | Activity Tracker Event Routing | Operator |
    | App ID | Reader |
    | Certificate Manager | Reader |
    | Cloud Catalog | Publisher |
    | Cloud Shell | Cloud Operator |
    | Cloud Object Storage | Reader and Writer |
-   | <ul>Databases <li>etcd</li> <li>ElasticSearch</li> <li>MongoDB</li> <li>PostgreSQL</li> <li>Redis</li></ul>| Operator |
+   | Databases  \n * etcd  \n * ElasticSearch  \n * MongoDB  \n * PostgreSQL  \n * Redis| Operator |
    | Event streams | Reader |
    | Hyper Protect Crypto Services | Operator and Manager |
    | Key Protect | ReaderPlus, Manager and Editor |
@@ -78,7 +78,7 @@ In addition to `viewer` access, a few {{site.data.keyword.cloud_notm}} services 
    | OpenShift | Reader |
    | Satellite | Operator and Writer |
    | Secrets Manager | Reader |
-   | <ul>Virtual Private Cloud <li>Application Load Balancer</li> <li>Block Storage</li> <li>Block Storage Snapshots</li> <li>File Storage</li> <li>Security Groups</li></ul>| Reader |
+   | Virtual Private Cloud  \n * Application Load Balancer  \n * Block Storage  \n * Block Storage Snapshots  \n * File Storage  \n * Security Groups | Reader |
    {: caption="Table 1. Additional required permissions" caption-side="top"}
 
 

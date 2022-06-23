@@ -96,7 +96,7 @@ toc:
               - gov-temp-delete.md
       - topicgroup:
           label: Connecting integrations
-          topics:
+          topics: 
           - integrations/osco.md
           - integrations/tanium.md
       - topic: framework/event-notifications.md
@@ -160,7 +160,7 @@ toc:
       - topicgroup: 
           label: Service availability
           topics:
-          - locations-endpoints.md
+          - framework/locations-endpoints.md
           - topic: framework/ha-dr.md
             navtitle: Understanding HA / DR
       - topicgroup: 
