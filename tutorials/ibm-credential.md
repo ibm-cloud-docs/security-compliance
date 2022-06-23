@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-15"
+lastupdated: "2022-06-23"
 
 keywords: ibm credentials, scc, security and compliance for ibm, compliance scan, {{site.data.keyword.cloud_notm}} resources
 
@@ -180,5 +180,5 @@ If you're working with Classic Infrastructure or the Continuous Delivery service
 ## Next steps
 {: #next-1}
 
-Next, you're ready to discover the resources in your account that are available to evaluate.
+Next, you're ready to discover the resources in your account that are available to evaluate in [part 2](/docs/security-compliance?topic=security-compliance-ibm-discover).
 

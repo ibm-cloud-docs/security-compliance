@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-14"
+lastupdated: "2022-06-23"
 
 keywords: scan ibm resources, compliance scan, evaluation, evaluate compliance
 
@@ -117,5 +117,5 @@ A collector is a software module that is packaged as a container image that scan
 ## Next steps
 {: #next-2}
 
-Next, you're ready to complete part 3 by mapping additional permissions that are required to access your resources configuration data.
+Next, you're ready to [complete part 3](/docs/security-compliance?topic=security-compliance-ibm-credential-map) by mapping additional permissions that are required to access your resources configuration data.
 

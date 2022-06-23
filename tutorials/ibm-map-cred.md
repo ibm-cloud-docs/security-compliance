@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-14"
+lastupdated: "2022-06-23"
 
 keywords: ibm credentials, scc, security and compliance for ibm, compliance scan, {{site.data.keyword.cloud_notm}} resources
 
@@ -69,64 +69,6 @@ Some services require additional mapping in order for the collector to understan
 To complete this tutorial, you must complete [part 2](/docs/security-compliance?topic=security-compliance-ibm-discover) first. 
 
 
-## Configure Activity Tracker permissions
-{: #ibm-at}
-{: step}
-
-If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. To ensure that the controls can be evaluated, you must create a new credential specific to Activity Tracker and then map the credentials to your scope.
-
-1. Create a credential of type **Username / Password**.
-
-   1. In the navigation, click [**Security and Compliance > Manage Posture > Configure > Credentials**](/security-compliance/credentials). Then, click **Create**.
-   2. Give your credential a meaningful name and description.
-   3. Select **Discovery/Collection** and click **Next**.
-   4. Select **Username / Password**.
-   5. For **Username** enter the Activity Tracker GUID for the instance that you want to use.
-   6. For **Password** enter the service key.
-   7. Click **Create**.
-
-2. Map the credential.
-
-   1. In the **Manage posture** section of the navigation, click [**Configure > Scopes**](/security-compliance/scopes).
-   2. Select the scope that you want to map credentials for.
-   3. In the **Credentials** section of the navigation, click **Add**. A side pane opens. 
-   4. Select the credential that you created in step 1.
-   5. In the **Resource** field, provide your Activity Tracker GUID in the format: `AT=resource_guid`.
-   6. Click **Add**.
-
-## Configure {{site.data.keyword.containershort}} permissions
-{: #ibm-ks}
-{: step}
-
-To enable scanning of your clusters, you must map additional information and configure your cluster through the CLI.
-
-1. Map the credential.
-
-   1. In [**Manage Posture > Configure > Scopes**](/security-compliance/scopes), select the scope that you want to map credentials for.
-   2. In the **Credentials** section of the navigation, click **Add**. A side pane appears. 
-   3. Select the credential that you assigned permissions to at the beginning of this tutorial.
-   4. In the **Resource** field, provide your cluster ID in the format: `cluster=cluster_id`.
-   5. Click **Add**.
-
-2. In your terminal, log into {{site.data.keyword.cloud_notm}} and configure your cluster by using the API key that you created at the beginning of this tutorial.
-
-   1. Log in to the {{site.data.keyword.cloud_notm}} CLI by running the following command and then completing the prompts. If you have a federated ID, append the `--sso` option to the end of the command.
-
-      ```sh
-      ibmcloud login
-      ```
-      {: codeblock}
-
-   2. Set the context for your cluster.
-
-      ```sh
-      ibmcloud ks cluster config --cluster <CLUSTER_NAME_OR_ID>
-      ```
-      {: codeblock}
-   
-3. Repeat these steps as necessary until you have added all of the clusters that you want to scan.
-
-
 ## Configure {{site.data.keyword.openshiftshort}} permissions
 {: #ibm-os}
 {: step}
@@ -171,6 +113,65 @@ When you configure your scope, you must **Enable integrated profiles** in order 
    
 4. Repeat these steps as necessary until you have added all of the clusters that you want to scan.
 
+
+## Configure {{site.data.keyword.containershort}} permissions
+{: #ibm-ks}
+{: step}
+
+To enable scanning of your clusters, you must map additional information and configure your cluster through the CLI.
+
+1. Map the credential.
+
+   1. In [**Manage Posture > Configure > Scopes**](/security-compliance/scopes), select the scope that you want to map credentials for.
+   2. In the **Credentials** section of the navigation, click **Add**. A side pane appears. 
+   3. Select the credential that you assigned permissions to at the beginning of this tutorial.
+   4. In the **Resource** field, provide your cluster ID in the format: `cluster=cluster_id`.
+   5. Click **Add**.
+
+2. In your terminal, log into {{site.data.keyword.cloud_notm}} and configure your cluster by using the API key that you created at the beginning of this tutorial.
+
+   1. Log in to the {{site.data.keyword.cloud_notm}} CLI by running the following command and then completing the prompts. If you have a federated ID, append the `--sso` option to the end of the command.
+
+      ```sh
+      ibmcloud login
+      ```
+      {: codeblock}
+
+   2. Set the context for your cluster.
+
+      ```sh
+      ibmcloud ks cluster config --cluster <CLUSTER_NAME_OR_ID>
+      ```
+      {: codeblock}
+   
+3. Repeat these steps as necessary until you have added all of the clusters that you want to scan.
+
+
+## Configure Activity Tracker permissions
+{: #ibm-at}
+{: step}
+
+If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. To ensure that the controls can be evaluated, you must create a new credential specific to Activity Tracker and then map the credentials to your scope.
+
+1. Create a credential of type **Username / Password**.
+
+   1. In the navigation, click [**Security and Compliance > Manage Posture > Configure > Credentials**](/security-compliance/credentials). Then, click **Create**.
+   2. Give your credential a meaningful name and description.
+   3. Select **Discovery/Collection** and click **Next**.
+   4. Select **Username / Password**.
+   5. For **Username** enter the Activity Tracker GUID for the instance that you want to use.
+   6. For **Password** enter the service key.
+   7. Click **Create**.
+
+2. Map the credential.
+
+   1. In the **Manage posture** section of the navigation, click [**Configure > Scopes**](/security-compliance/scopes).
+   2. Select the scope that you want to map credentials for.
+   3. In the **Credentials** section of the navigation, click **Add**. A side pane opens. 
+   4. Select the credential that you created in step 1.
+   5. In the **Resource** field, provide your Activity Tracker GUID in the format: `AT=resource_guid`.
+   6. Click **Add**.
+
 ## Configure Virtual Private Cloud permissions
 {: #ibm-vpc}
 {: step}
@@ -188,5 +189,5 @@ To scan your Virtual Private Cloud's you must provide the name of the private cl
 ## Next steps
 {: #next-3}
 
-Next, you're ready to complete part 4 by scanning all of your resources and viewing your results. 
+Next, you're ready to [complete part 4](/docs/security-compliance?topic=security-compliance-ibm-scan) by scanning all of your resources and viewing your results. 
 
