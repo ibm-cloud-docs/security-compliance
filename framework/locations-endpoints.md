@@ -66,7 +66,10 @@ For more information about how your data is stored and processed in the availabl
 Note: To store and process your data in the EU, select **European Union** as your location on the **Global settings** page in the {{site.data.keyword.compliance_short}} UI.
 {: note}
 
-![Visual representation of the availability of the service. The image is a map with pin points in the locations in which the service is available. If you are unable to view this image, see the table in the service endpoints section for a complete list.](../images/world-map.svg){: caption="Figure 1. {{site.data.keyword.compliance_short}} availability" caption-side="bottom"}
+
+
+![Visual representation of the availability of the service. The image is a map with pin points in the locations in which the service is available. If you are unable to view this image, see the table in the service endpoints section for a complete list.](../images/world-map-01.svg){: caption="Figure 1. {{site.data.keyword.compliance_short}} availability" caption-side="bottom"}
+
 
 
 ## Service endpoints
