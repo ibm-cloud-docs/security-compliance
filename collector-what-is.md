@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-13"
+lastupdated: "2022-06-27"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -111,7 +111,7 @@ With collectors that run on UBI, you cannot collect facts from computers that us
 The collector acts as an intermediary between your resources and the service. The following sections detail how the communication takes place and how it is secured.
 
 
-### Between the collector and the {{site.data.keyword.compliance_short}}
+### Between the collector and the service
 {: #collector-comm-service}
 
 All communication between the collector and the service is TLS 1.2+ encrypted and signed with the collector's public key. All traffic is transported over the public internet by using Cloud Internet Services with TLS termination, DDoS protection, and a Web Application Firewall (WAF). Although the transportation takes place through a trusted intermediary, be sure that you consider the communication path as part of your security and risk assessment when you deploy collectors.
