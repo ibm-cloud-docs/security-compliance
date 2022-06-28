@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-13"
+lastupdated: "2022-06-28"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -123,7 +123,7 @@ Review the following table to see the limits that apply to IBM-managed collector
 |  | Limit |
 |----------------|-----------|
 | Number of collectors | 1 per account |
-| Number of scannable resources | 350 resources per managed-collector |
+| Number of scannable resources | 900 resources per managed-collector |
 | Scanable environments | Collectors that are managed by IBM are deployed on IBM owned infrastructure, which means that they cannot access a customer's owned servers. If you're working within an *On-premises* environment, you must you a customer-managed collector. |
 {: row-headers}
 {: caption="Table 4. Collector limits" caption-side="top"}
