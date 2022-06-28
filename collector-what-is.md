@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-27"
+lastupdated: "2022-06-28"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -54,7 +54,7 @@ A collector is used by {{site.data.keyword.compliance_full}} to gather the confi
 
 A collector is a software module, which is packaged as a container image, and is installed on infrastructure that has access to your resources. Check out the following image to see how the collector fits into the {{site.data.keyword.compliance_short}} workflow.
 
-![The image shows the set-up of a collector.](images/collector.svg){: caption="Figure 1. Collector deployment" caption-side="bottom"}
+![The image shows the set up of a collector.](images/collector.svg){: caption="Figure 1. Collector deployment" caption-side="bottom"}
 
 When it is time for a scheduled scan to run, the orchestrator sends a signal to the collector to initiate the scan. Using the credentials that are stored in the orchestrator, the collector gathers the configuration information from the resources in your defined scope. Then, the collector validates the information by using your selected profile and calculates a compliance score before the results are returned to the orchestrator.
 
@@ -83,7 +83,7 @@ You can install the collector as a UBI or Ubuntu container image. Ubuntu images 
 
 If you're working with more than one cloud provider or an on-premises environment, you might need to install more than one collector. A collector is only able to access the subnets that it has appropriate access to. For example, the collector might need to have `icmp ping` access to run an Nmap scan, `SSH` access for accessing VMs or `winrm` access to access a windows machine. One collector is able to access multiple subnets, but you must be sure that it is correctly sized to scan a specified environment.
 
-If your collector needs to access multiple subnets, you must add them to the subnet list for the collector. The filename that you need to update is `<collector_dir_path>/config/discovery_subnet_list.cfg`.
+If your collector needs to access multiple subnets, you must add them to the subnet list for the collector. The file name that you need to update is `<collector_dir_path>/config/discovery_subnet_list.cfg`.
 
 
 ### Understanding the Watchtower image
@@ -111,7 +111,7 @@ With collectors that run on UBI, you cannot collect facts from computers that us
 The collector acts as an intermediary between your resources and the service. The following sections detail how the communication takes place and how it is secured.
 
 
-### Between the collector and the service
+### Between the collector and {{site.data.keyword.compliance_short}}
 {: #collector-comm-service}
 
 All communication between the collector and the service is TLS 1.2+ encrypted and signed with the collector's public key. All traffic is transported over the public internet by using Cloud Internet Services with TLS termination, DDoS protection, and a Web Application Firewall (WAF). Although the transportation takes place through a trusted intermediary, be sure that you consider the communication path as part of your security and risk assessment when you deploy collectors.
