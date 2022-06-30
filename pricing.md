@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-14"
+lastupdated: "2022-06-30"
 
 keywords: best practices security and compliance, secure development, security strategy, governance
 
@@ -67,7 +67,7 @@ Trial
 Standard
 :   With a Standard plan, you are able to access the full capabilities of the service without the 30-day limitation, but you are charged per evaluation.
 
-You are not charged for the evaluation of inherited goals that are met by default.
+You are not charged for the evaluation of inherited goals that are met by default. Or any resource that returns a result of unable to perform or not applicable.
 {: note}
 
 

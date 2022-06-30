@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-13"
+lastupdated: "2022-06-30"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -132,7 +132,7 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
    Ubuntu images are disk-images that are designed to run on the Ubuntu OS. Ubuntu images are not compliant with the Federal Information Processing Standards (FIPS).
 8. Choose an endpoint option for your collector.
 
-   By default, your collector connects to resources in your account by using a public endpoint. To allow the collector to use a private IP that is accessible only through the IBM Cloud private network, choose **Private**.
+   By default, your collector connects to resources in your account by using a public endpoint. To allow the collector to use a private IP that is accessible only through the IBM Cloud Private network, choose **Private**.
 9. Click **Create**.
   
 When the collector is created successfully, the status updates to **Ready to install**.
