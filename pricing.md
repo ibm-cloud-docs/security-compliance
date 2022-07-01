@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-14"
+lastupdated: "2022-07-01"
 
 keywords: best practices security and compliance, secure development, security strategy, governance
 
@@ -67,14 +67,17 @@ Trial
 Standard
 :   With a Standard plan, you are able to access the full capabilities of the service without the 30-day limitation, but you are charged per evaluation.
 
-You are not charged for the evaluation of inherited goals that are met by default.
-{: note}
-
 
 ## What is an evaluation?
 {: #evaluation-definition}
 
-An evaluation is the check of one goal against one resource that produces a result of pass or fail. When an evaluation passes - the resource is considered to be compliant with the goal at the time of the scan. If the scan fails, then the resource is non-compliant and you should begin remediation.
+An evaluation is the check of one goal against one resource. When an evaluation passes - the resource is considered to be compliant with the goal at the time of the scan. If the scan fails, then the resource is non-compliant and you should begin remediation.
+
+## When am I charged?
+{: #evaluation-charge}
+
+You are charged if the evaluation produces a result of pass or fail. You are not charged for the evaluation if the result is unable to perform or not applicable. You are also not charged for the evaluation of built-in goals that are met by default.
+
 
 ## How do I stop getting charged for {{site.data.keyword.compliance_short}}?
 {: #pricing-stop}
