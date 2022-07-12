@@ -25,7 +25,7 @@ toc:
           - adopters-environments.md
           - integrations.md</integrations>
       - topic: releases.md
-        navtitle: Release notes<integration>
+        navtitle: Release notes
 
   - navgroup:
       id: tutorial
