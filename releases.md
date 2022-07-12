@@ -53,6 +53,13 @@ content-type: release-note
 
 
 
+## 12 July 2022
+{: #security-compliance-july1222}
+{: release-note}
+
+Now available: New region - WDC
+:   {{site.data.keyword.compliance_short}} is now configured to use the Washington DC region as a back up should a disaster scenario occur. 
+
 
 ## 23 June 2022
 {: #security-compliance-june2322}
