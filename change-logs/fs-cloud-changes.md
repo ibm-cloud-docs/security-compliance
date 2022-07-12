@@ -67,6 +67,8 @@ The following table shows the service behavior changes for each version date. Sw
 
 | Version number | Release date |
 |:---------------|:-------------|
+| Version 0.4.0 | `2022-06-23` |
+| Version 0.3.0 | `2022-04-27` |
 | Version 0.2.0 | `2022-04-05` |
 | Version 0.1.4 | `2022-04-05` |
 | Version 0.1.3 | `2022-01-27` |
@@ -75,6 +77,61 @@ The following table shows the service behavior changes for each version date. Sw
 | Version 0.1.0 | `2021-04-05` |
 {: caption="Table 1. Active versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
+
+## Version 0.4.0
+{: #fs-cloud-v030}
+
+In addition to small bug fixes and general updates, version 0.4.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available has been updated with the following changes as of 23 June 2022.
+
+| Goal ID | Associated controls | Update |
+|--------|---------------------|---------|
+| `3000431` |  | The goal was removed. |
+| `3000404` |  | The goal was removed. |
+| `3000405` |  | The goal was removed. |
+| `3000051` | `CP-6(a)`, `CP-6(b)` and `SC-6AC-17(2)` | The goal was added. |
+| `3000052` | `AC-14` | The goal was added. |
+| `3000117` | `AU-19` | The goal was added. |
+| `3000118` | `AU-2(a)`, `AU-2(d)`, `SI-4(a)`, `SI-4(b)`, `SI-4(c)`, `AC-2(4)`, `AC-2(7)(b)`, `AC-2(g)`, `AC-6(9)`, `AU-12(a)`, `AU-12(b)`, `AU-12(c)`, `AU-3`, `AU-8(a)`, `AU-8(b)`, `AU-8(1)(a)`, `AU-8(1)(b)` and `CA-7(d)` | The goal was added. |
+| `3000447` | `SC-8` | The goal was added. |
+| `3000461` | `AC-13` and `SC-28`| The goal was added. |
+| `3000049` | `AC-11(a)` | Goal logic is updated to include all of the locations for IAM account settings that are supported by IBM Cloud. |
+| `3000050` | `SC-10` | Goal logic is updated to include all of the locations for IAM account settings that are supported by IBM Cloud. |
+| `3000020` | `AC-3`, `AC-6-0`, `SC-7-0`, and `SC-7(5)` | The goal text is updated. |
+{: caption="Table. Summary of {{site.data.keyword.cloud_notm}} for Financial Services profile changes for 23 June 2022" caption-side="top"}
+
+
+
+## Version 0.3.0
+{: #fs-cloud-v030}
+
+In addition to small bug fixes and general updates, version 0.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available has been updated with the following changes as of 27 May 2022.
+
+| Goal ID   | Associated controls | Update |
+|:----------|:--------------------|:-------|
+| `3000013` |  | Goal is removed from the profile. |
+| `3000014` |  | Goal is removed from the profile. |
+| `3000025` |  | Goal is removed from the profile. |
+| `3000039` |  | Goal is removed from the profile. |
+| `3000047` | `SA-9`, `AC-20`, and `CA-3` </br></br>`SA-9(a)`, `AC-20(a)`, and `CA-3(a)`| Goal is removed from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control.|
+| `3000049` | `AC-11(a)` | Goal mapping is updated and it is now associated with the listed control. |
+| `3000050` | `SC-10` | Goal mapping is updated and it is now associated with the listed control. |
+| `3000233` | `SC-36` | Goal mapping is updated and it is now associated with the listed control. |
+| `3000282` |  | Goal logic is updated. |
+| `3000410` |  | Goal is removed from the profile. |
+| `3000411` |  | Goal is removed from the profile. |
+| `3000455` |  | Goal logic is updated. |
+| `3000462` | `SA-3(a)` | Goal is removed from the listed associated control. |
+| `3000470` | `AC-17(2)`, `SC-8`, `SC-8(1)`, and `SC-13` | Goal mapping is updated to be added to the listed associated controls. |
+| `3000473` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal mapping is updated to be added to the listed associated controls. |
+| `3000474` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal mapping is updated to be added to the listed associated controls. |
+| `3000475` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal mapping is updated to be added to the listed associated controls. |
+| `3000476` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal mapping is updated to be added to the listed associated controls. |
+| `3000510` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal logic was updated to include all of the locations for Hyper Protect Crypto Services that are supported by IBM Cloud. |
+| `3000603` |  | Goal is removed from the profile. |
+| `3000711` | `AC-3` and `AC-6-0`</br></br> `AC-8` | Goal is removed from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control. |
+| `3000712` | `AC-3` and `AC-6-0`</br></br> `AC-8` | Goal is removed from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control. |
+| `3000907` | `SA-3(a)` | Goal is removed from the listed associated control. |
+{: caption="Table. Summary of {{site.data.keyword.cloud_notm}} for Financial Services profile changes for 26 May 2022" caption-side="top"}
 
 
 ## Version 0.2.0
