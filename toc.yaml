@@ -16,8 +16,15 @@ toc:
       topics:
       - topic: getting-started.md
         navtitle: Getting started
-      - topic: pricing.md
-        navtitle: How is pricing calculated?
+      - topicgroup:
+          label: About
+          topics:
+          - topic: pricing.md
+            navtitle: Pricing
+          - topic: adopters-environments.md
+            navtitle: Environments and services
+          - topic: integrations.md
+            navtitle: Integrations
       - topic: releases.md
         navtitle: Release notes
 
