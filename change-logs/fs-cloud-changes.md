@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-12"
+lastupdated: "2022-07-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -49,7 +49,7 @@ content-type: release-note
 # Change log: {{site.data.keyword.cloud_notm}} for Financial Services
 {: #fs-profile-change-log}
 
-In this change log, you can learn about the latest changes, improvements, and updates for the [{{site.data.keyword.cloud_notm}} for Financial Services profile](/docs/security-compliance?topic=security-compliance-ibm-financial-services). The change log lists changes that were made, ordered by the version number.
+In this change log, you can learn about the latest changes, improvements, and updates for the {{site.data.keyword.cloud_notm}} for Financial Services profile. The change log lists changes that were made, ordered by the version number.
 
 ## Profile versioning
 {: #fs-profile-versioning}

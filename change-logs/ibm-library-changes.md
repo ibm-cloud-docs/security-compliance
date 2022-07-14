@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-12"
+lastupdated: "2022-07-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -49,7 +49,7 @@ content-type: release-note
 # Change log: {{site.data.keyword.cloud_notm}} Control Library
 {: #ibm-control-library-change-log}
 
-In this change log, you can learn about the changes, improvements, and updates for the [{{site.data.keyword.cloud_notm}} Control Library](/docs/security-compliance?topic=security-compliance-ibm-control-library). The change log lists changes that were made, ordered by the date that they were released.
+In this change log, you can learn about the changes, improvements, and updates for the {{site.data.keyword.cloud_notm}} Control Library. The change log lists changes that were made, ordered by the date that they were released.
 
 As of 27 May 2022, the {{site.data.keyword.cloud_notm}} Best Practices Controls profile is rebranded to become the {{site.data.keyword.cloud_notm}} Control Library.
 {: note}
