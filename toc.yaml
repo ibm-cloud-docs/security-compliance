@@ -156,7 +156,7 @@ toc:
       - topicgroup:
           label: Available profiles and properties
           topics:
-          - profile-predefined.md
+          - security-checks/profile-predefined.md
           - topicgroup:
               label: Profile change logs
               topics:
