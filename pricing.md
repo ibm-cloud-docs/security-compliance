@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-01"
+lastupdated: "2022-07-14"
 
 keywords: best practices security and compliance, secure development, security strategy, governance
 
@@ -45,10 +45,10 @@ subcollection: security-compliance
 {:api: .ph data-hd-interface='api'}
 {:release-note: data-hd-content-type='release-note'}
 
-# How does the {{site.data.keyword.compliance_short}} calculate pricing?
+# How does {{site.data.keyword.compliance_short}} calculate pricing?
 {: #scc-pricing}
 
-The {{site.data.keyword.compliance_short}} consists of two parts - Posture Management and Configuration Governance. When you work with the {{site.data.keyword.compliance_short}}, you are charged each time the service does an evaluation of your compliance posture.
+{{site.data.keyword.compliance_short}} consists of two parts - Posture Management and Configuration Governance. When you work with the service, you are charged for each evaluation of your compliance posture.
 
 
 For the most up-to-date pricing information, you can create a cost estimate by clicking **Add to estimate** from either the [provisioning](/security-compliance/catalog) or [plan page](/security-compliance/plan).
