@@ -154,16 +154,28 @@ toc:
               label: Terraform documentation
               href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs
       - topicgroup:
-          label: Available properties
-          topics: 
-          - security-checks/default-goals.md              
+          label: Available profiles and properties
+          topics:
+          - profile-predefined.md
+          - topicgroup:
+              label: Profile change logs
+              topics:
+              - change-logs/ibm-library-changes.md
+              - change-logs/fs-cloud-changes.md
+              - change-logs/ibm-sec-practices-changes.md             
           - security-checks/scc-properties.md
+          - security-checks/default-goals.md
       - topicgroup: 
           label: Service availability
           topics:
           - framework/locations-endpoints.md
-          - topic: framework/ha-dr.md
-            navtitle: Understanding HA / DR
+          - topicgroup: 
+              label: High availability and disaster recovery
+              topics:
+              - topic: framework/high-availability.md
+                navtitle: Understanding high availability
+              - topic: framework/disaster-recovery.md
+                navtitle: Understanding disaster recovery
       - topicgroup: 
           label: Related links
           topics:

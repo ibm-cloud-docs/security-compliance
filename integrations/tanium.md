@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-13"
+lastupdated: "2022-07-11"
 
 keywords: Centralized security, tanium, compliance monitoring, compliance, 
 
@@ -105,20 +105,30 @@ To get started, you must register an integration with the {{site.data.keyword.co
 To see your data in the {{site.data.keyword.compliance_short}}, you need to package and export it from Tanium. You can do so by creating a saved question and using that question to create a connection.
 
 1. Log in to your Tanium account and navigate to the **Home** page.
-2. In the **Explore data** section, ask a question to obtain the data that you want to export. For example, your question might be similar to *Get computer name and comply - compliance findings from all machines*.
+2. In the **Explore data** section, type this question to obtain the data that you want to export. For example, your question might be similar to *GET Computer Name and Tanium Client IP Address and IP Address and Comply = Compliance Findings FROM all machines*.
 3. Review the results that are returned and click **Save**.
-4. Give your question a name and select the settings on the page that match your preferences before you click **Save**. 
+4. Give your question a name, choose a valid content set (i.e. comply) and select the settings on the page that match your preferences before you click **Save**. 
 5. Confirm that you want to save the question by clicking **Yes**.
 6. Go to **Modules > Connect** and click **Create Connection**. 
 7. Give your connection a name. Optionally, you can add a description.
-8. From the available drop-downs, make the following selection.
+8. From the available fields, make the following selection.
 
    | Drop-down   | Selection |
    |:------------|:----------|
    | Source  | Saved Question |
    | Saved Question Name | The name of the question that you previously created. |
    | Computer Group | The computers that you want to include in your exported data. |
-   | Destination | {{site.data.keyword.compliance_full}} |
+   | Destination | HTTP |
+   | Desination Name | {{site.data.keyword.compliance_long}} |
+   | URL | The **Registration URL** that you previously created in step 5 of registering your integration. |
+   | Method | POST |
+   | Headers | `Content-Type: application/json` |
+   | Use authentication | IBM Cloud - IAM API Key |
+   | Secret | The API Key that you previously created in step 8 of registering your integration. |
+   | Test authentication | Validate that your provided credentials are authorized. |
+   | Destination batch size | In **Advanced**, set **Batch Size** to **999**. |
+   | Destination time out | In **Advanced**, set **Timeout** to **600**. |
+   | Configure output | Set format to **JSON**, select **Group columns by sensor** and **Generate Document**. |
    | Frequency | The frequency at which you want to export your data. Most often, **One run per day, every day** is selected. |
    {: caption="Table 1. Tanium drop-down selections" caption-side="top"}
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-23"
+lastupdated: "2022-07-14"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -56,7 +56,7 @@ To scan your resources located in {{site.data.keyword.cloud_notm}}, Amazon Web S
 
 You must assign your service ID API key `viewer` access to all of the resources that want the service to evaluate and for all of the account management services that are used as part of the evaluation.
 
-For more help assigning these permissions, check out the tutorial [Managing credentials for IBM Cloud resources](/docs/security-compliance?topic=security-compliance-ibm-credential-setup).
+For more help assigning these permissions, check out the tutorial [Managing credentials for IBM Cloud resources](/docs/security-compliance?topic=security-compliance-ibm-credential).
 {: tip}
 
 In addition to `viewer` access, a few {{site.data.keyword.cloud_notm}} services have goals that require additional permissions to either complete the scan or to view the results. If the service is listed in the following table, be sure to assign the additional permissions to your service ID API key.
@@ -92,10 +92,10 @@ Activity Tracker
 :   If you enable a control that measures a specific number of days, it is monitored by using Activity Tracker. To ensure that the controls can be evaluated, you must create a new credential specific to Activity Tracker of type *Username / password* and then [map the credential to your scope](/docs/security-compliance?topic=security-compliance-map-credentials). For **Username**, provide the GUID for the instance of Activity Tracker that you want to scan. For **Password**, enter your service key.
 
 {{site.data.keyword.containershort}}
-:   To enable scanning of your clusters, you must [map additional information](/docs/security-compliance?topic=security-compliance-map-credentials) and configure your cluster through the CLI by logging in to IBM Cloud by using the API key that you want to use to evaluate your clusters. Be sure to trigger fact collection after you log in. For more help, see [Managing credentials for IBM Cloud resources](/docs/security-compliance?topic=security-compliance-ibm-credential-setup).
+:   To enable scanning of your clusters, you must [map additional information](/docs/security-compliance?topic=security-compliance-map-credentials) and configure your cluster through the CLI by logging in to IBM Cloud by using the API key that you want to use to evaluate your clusters. Be sure to trigger fact collection after you log in. For more help, see [Managing credentials for IBM Cloud resources](/docs/security-compliance?topic=security-compliance-ibm-credential).
 
 {{site.data.keyword.openshiftshort}}
-:   To enable scanning of your clusters, you must [map additional information](/docs/security-compliance?topic=security-compliance-map-credentials) and configure your cluster through the CLI by logging in to IBM Cloud by using the API key that you want to use to evaluate your clusters. Be sure to trigger fact collection after you log in. You must also configure the OSCO integration. For more help, see [Managing credentials for IBM Cloud resources](/docs/security-compliance?topic=security-compliance-ibm-credential-setup).
+:   To enable scanning of your clusters, you must [map additional information](/docs/security-compliance?topic=security-compliance-map-credentials) and configure your cluster through the CLI by logging in to IBM Cloud by using the API key that you want to use to evaluate your clusters. Be sure to trigger fact collection after you log in. You must also configure the OSCO integration. For more help, see [Managing credentials for IBM Cloud resources](/docs/security-compliance?topic=security-compliance-ibm-credential).
 
 Virtual Private Cloud
 :   To scan your Virtual Private Cloud's you must provide the name of the private cloud that you want to evaluate by [mapping additional credentials](/docs/security-compliance?topic=security-compliance-map-credentials).
