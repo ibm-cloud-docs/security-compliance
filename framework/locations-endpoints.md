@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-07-14"
+lastupdated: "2022-07-18"
 
 keywords: security and compliance center locations, available locations, scc endpoints, security and compliance center endpoints, regions, scc regions
 
@@ -61,9 +61,10 @@ For more information about how your data is stored and processed in the availabl
 {{site.data.keyword.compliance_short}} is an `EU-Supported` service that is available in the following regions:
 
 - Dallas (`us-south`)
+- Washington DC (`us-east`)
 - Frankfurt (`fra`)
 
-Note: To store and process your data in the EU, select **European Union** as your location on the **Global settings** page in the {{site.data.keyword.compliance_short}} UI.
+To store and process your data in the EU, select **European Union** as your location on the **Global settings** page in the {{site.data.keyword.compliance_short}} UI.
 {: note}
 
 
