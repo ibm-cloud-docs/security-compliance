@@ -57,8 +57,7 @@ content-type: release-note
 {: #security-compliance-july2522}
 {: release-note}
 
-Now available: Updates to the {{site.data.keyword.cloud_notm}} Control Library and {{site.data.keyword.cloud_notm}} Security Best Practices profiles
-:   Version 0.4.0  of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-profile-change-log).
+Now available: Profile updates
 :   Goal updates are now available to the {{site.data.keyword.cloud_notm}} Control Library and {{site.data.keyword.cloud_notm}} Security Best Practices Profiles. For more information see the [{{site.data.keyword.cloud_notm}} Control Library change log]({{link}}-ibm-control-library-change-log) or the [{{site.data.keyword.cloud_notm}} Security Best Practices change log]({{link}}-ibm-sec-best-practices-change-log).
 
 
