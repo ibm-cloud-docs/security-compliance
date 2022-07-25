@@ -51,7 +51,7 @@ content-type: release-note
 
 In this change log, you can learn about the changes, improvements, and updates for the {{site.data.keyword.cloud_notm}} Control Library. The change log lists changes that were made, ordered by the date that they were released.
 
-As of 27 May 2022, the {{site.data.keyword.cloud_notm}} Best Practices Control profile was rebranded to become the {{site.data.keyword.cloud_notm}} Control Library.
+As of 27 May 2022, the {{site.data.keyword.cloud_notm}} Best Practices Controls profile was rebranded to become the {{site.data.keyword.cloud_notm}} Control Library.
 {: note}
 
 ## Profile versioning
