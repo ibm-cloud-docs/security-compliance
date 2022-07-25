@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-22"
+lastupdated: "2022-07-25"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -88,7 +88,6 @@ This update adds goals that are based on functionality that helps you to maintai
 | `3000074` | IBMid protects user information during the authentication process from possible exploitation by unauthorized individuals by obscuring it  | `1.66` | The goal was added. |
 | `3000075` | IBM Cloud IAM establishes initial authenticator content for authenticators that are defined by the organization (for example, API keys) | `1.67` | The goal was added. |
 | `3000076` | IBM Cloud VPC uniquely identifies all physical devices before accepting a network connection | `1.74` | The goal was added. |
-| `3000072` | | | Goal is removed. |
 {: caption="Table. Summary of {{site.data.keyword.cloud_notm}} Security Best Practices profile changes for 25 July 2022" caption-side="top"}
 
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-28"
+lastupdated: "2022-07-25"
 
 keywords: goals, secure by default, secure, secure platform, default goals, available goals
 
@@ -55,26 +55,28 @@ To see which goals are met by default, check out the following table.
 
 | Goal ID | Goal |
 |:--------|:-----|
-| 3000001 | Check whether IBMid password policy requires at least one uppercase letter |
-| 3000002 | Check whether IBMid password policy requires at least one lowercase letter |
-| 3000003 | Check whether IBMid password policy requires at least one number |
-| 3000004 | Check whether IBMid password policy requires minimum length of 12 characters |
-| 3000005 | Check whether IBMid password policy prevents password reuse before a minimum of # |
-| 3000006 | Check whether IBMid password may contain only printable ASCII characters (in the range 33 - 126) |
-| 3000007 | Check whether IBMid password policy contains spaces or any of the following characters: \;:(""?)<> |
-| 3000008 | Check whether IBMid uses a password meter that coaches users to create strong passwords that exceed the minimum requirements |
-| 3000009 | Check whether IAM roles are used to create IAM policies for IBM resources |
-| 3000010 | Check whether a support role has been assigned in IAM to manage cases in the IBM Cloud Support Center |
-| 3000011 | Check whether API keys are not created in IAM during the initial setup of IAM users |
-| 3000101 | Check whether Cloud Object Storage is enabled with encryption |
-| 3000203 | Check whether Databases for MongoDB is accessible only through HTTPS |
-| 3000208 | Check whether Databases for Redis is accessible only through HTTPS |
-| 3000213 | Check whether Databases for ElasticSearch is accessible only through HTTPS |
-| 3000218 | Check whether Databases for etcd is accessible only through HTTPS |
-| 3000223 | Check whether Databases for PostgreSQL is accessible only through HTTPS |
-| 3000231 | Check whether Key Protect has high availability |
-| 3000302 | Check whether IBM Activity Tracker trails are integrated with LogDNA logs |
-| 3000303 | Check whether IBM Activity Tracker logs are encrypted at rest |
-| 3000706 | Check whether App ID user data is encrypted |
+| `3000053` | IBMid enforces a limit of 5 consecutive unsuccessful sign in attempts | 
+| `3000054` | IBMid automatically locks an account for 30 minutes after 5 consecutive unsuccessful sign in attempts |
+| `3000055` | IBM Cloud console conceals information previously visible on the display when the user has been signed out due to inactivity |
+| `3000056` | IBM Cloud retains the session lock until access is reestablished by signing in |
+| `3000057` | IBM Cloud provides the means to associate a customer-defined security identifier and attributes with IBM Cloud resources (for example, tags) |
+| `3000058` | IBM Cloud provides the ability to immediately terminate a user session for an account |
+| `3000059` | IBM Cloud accounts are one of the account types used to support your applications |
+| `3000060` | IBMid uniquely identifies and authenticates organizational users or processes that act on behalf of organizational users |
+| `3000061` | IBM Cloud IAM uniquely identifies and authenticates organizational users or processes that act on behalf of organizational users |
+| `3000062` | IBMid selects and assigns identifiers that identify individuals |
+| `3000063` | IBM Cloud assigns identifiers that identify individuals, groups, roles, and devices |
+| `3000064` | IBM Cloud prevents reuse of identifiers |
+| `3000065` | IBMid ensures that passwords have sufficient strength for their intended use |
+| `3000066` | IBM Cloud IAM ensures that authenticators, such as API keys, have sufficient strength for their intended use |
+| `3000067` | IBMid establishes minimum and maximum lifetime restrictions and reuse conditions for authenticators |
+| `3000068` | IBM Cloud IAM establishes minimum and maximum lifetime restrictions and reuse conditions for authenticators, such as API keys |
+| `3000069` | IBMid does not allow changed or reset passwords to be the same as any of the 24 previously used passwords |
+| `3000070` | IBMid stores and transmits only encrypted representations of passwords |
+| `3000071` | IBMid enforces password expiry after 90 days |
+| `3000073` | IBMid employs automated tools to determine if password authenticators satisfy IBMid password requirements |
+| `3000074` | IBMid protects user information during the authentication process from possible exploitation by unauthorized individuals by obscuring it  |
+| `3000075` | IBM Cloud IAM establishes initial authenticator content for authenticators that are defined by the organization (for example, API keys) |
+| `3000076` | IBM Cloud VPC uniquely identifies all physical devices before accepting a network connection |
 {: caption="Table 1. Default goals met by working with {{site.data.keyword.cloud_notm}}" caption-side="bottom"}
 

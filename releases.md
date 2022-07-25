@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-22"
+lastupdated: "2022-07-25"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -58,7 +58,7 @@ content-type: release-note
 {: release-note}
 
 Now available: Profile updates
-:   Goal updates are now available to the {{site.data.keyword.cloud_notm}} Control Library and {{site.data.keyword.cloud_notm}} Security Best Practices Profiles. For more information see the [{{site.data.keyword.cloud_notm}} Control Library change log]({{link}}-ibm-control-library-change-log) or the [{{site.data.keyword.cloud_notm}} Security Best Practices change log]({{link}}-ibm-sec-best-practices-change-log).
+:   Goal updates are now available to the {{site.data.keyword.cloud_notm}} Control Library and {{site.data.keyword.cloud_notm}} Security Best Practices Profiles. For more information see the [{{site.data.keyword.cloud_notm}} Control Library change log](/docs/security-compliance?topic=security-compliance-ibm-control-library-change-log) or the [{{site.data.keyword.cloud_notm}} Security Best Practices change log](/docs/security-compliance?topic=security-compliance-ibm-sec-best-practices-change-log).
 
 
 
