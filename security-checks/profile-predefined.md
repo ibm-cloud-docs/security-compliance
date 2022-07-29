@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-07-14"
+lastupdated: "2022-07-28"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, benchmark, controls, goals, security, compliance
 
@@ -51,8 +51,6 @@ subcollection: security-compliance
 With the {{site.data.keyword.compliance_full}}, you can take advantage of predefined profiles that contain collections of controls that are curated based on industry standards. You can also [create your own profiles](/docs/security-compliance?topic=security-compliance-custom-profiles).  
 {: shortdesc}
 
-/docs/security-compliance?topic=security-compliance
-
 {{site.data.keyword.compliance_short}} supports more than 40 predefined profiles. Within each profile, you can review the controls and goals that are required to be compliant. You can't modify or remove controls from a predefined profile. But, you can use a predefined profile as a base by creating a new profile so that you can choose only the controls and goals that are relevant for your business. 
 
 Then, if needed, you can update the default parameters that are associated with the goals within each predefined profile. To learn more, see [Customizing goals](/docs/security-compliance?topic=security-compliance-custom-goals). 
@@ -67,12 +65,11 @@ Transform your organization with {{site.data.keyword.cloud_notm}} and attain a s
 
 | Profile  | Description | Release notes |
 | -------- | ----------- | ------------- |
-| {{site.data.keyword.cloud_notm}} Control Library v1.0.0 | Secure your IBM Cloud resources with the {{site.data.keyword.cloud_notm}} Control Library controls. | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-ibm-control-library-change-log) |
-| {{site.data.keyword.cloud_notm}} for Financial Services v0.3.0 | Secure your financial services with {{site.data.keyword.cloud_notm}} Financial Services best practices. | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-fs-profile-change-log) |
-| CIS {{site.data.keyword.cloud_notm}} Foundations Benchmark 1.0.0 | Secure your IBM Cloud Foundations resources with CIS Benchmarks.  |  |
-| {{site.data.keyword.cloud_notm}} Security Best Practices Controls v1.0.0 | Secure your resources to meet industry and {{site.data.keyword.cloud_notm}} best practices. | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-ibm-sec-best-practices-change-log) |
+| {{site.data.keyword.cloud_notm}} Control Library | The {{site.data.keyword.cloud_notm}} Control Library is a collection of all of the controls and goals that are available for {{site.data.keyword.cloud_notm}}. | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-ibm-control-library-change-log) |
+| {{site.data.keyword.cloud_notm}} for Financial Services | [{{site.data.keyword.cloud_notm}} for Financial Services™](/docs/framework-financial-services) is an open platform that brings together independent software vendors (ISVs), Software as a Service (SaaS) providers, and financial services institutions in a single ecosystem. In this secure cloud platform, you can rapidly develop and share innovative applications, APIs, data, and content to meet the unique business needs of your financial institution.  \n \n Through the [{{site.data.keyword.framework-fs_full}}](/docs/framework-financial-services#ibm-cloud-framework-for-financial-services), you can access a unified set of security and compliance controls, which was built specifically for and with the financial services industry. To address your evolving needs as a financial institution, IBM continuously validates these controls with global Councils of CSOs, CTOs, and CIOs from major banks, insurance providers, and regulatory advisors.  \n \n The {{site.data.keyword.cloud_notm}} for Financial Services profile provides you with a set of pre-configured automated goals that are mapped to the [{{site.data.keyword.framework-fs_full}} control requirements](/docs/framework-financial-services#framework-control-requirements). The results of these tests help you validate compliance when you are using one of the [references architectures](/docs/framework-financial-services?topic=framework-financial-services-reference-architectures) for the {{site.data.keyword.cloud_notm}} for Financial Services. | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-fs-profile-change-log) |
+| CIS {{site.data.keyword.cloud_notm}} Foundations Benchmark | Secure your IBM Cloud Foundations resources with CIS Benchmarks.  |  |
+| {{site.data.keyword.cloud_notm}} Security Best Practices Controls | Secure your resources to meet industry and {{site.data.keyword.cloud_notm}} best practices. | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-ibm-sec-best-practices-change-log) |
 {: caption="Table 1. {{site.data.keyword.cloud_notm}} predefined profiles" caption-side="top"}
-
 
 
 ## Best practices

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-23"
+lastupdated: "2022-07-29"
 
 keywords: scan ibm resources, compliance scan, evaluation, evaluate compliance
 
@@ -104,6 +104,10 @@ A collector is a software module that is packaged as a container image that scan
    1. Give your scan a name and description.
    2. Select **Validation** as a **Scan type**.
    3. From the **Profile** menu, select the profile that you want to use to evaluate your configuration.
+
+      If your scope includes a deployment of either the [{{site.data.keyword.vpc_full}} reference architecture](/docs/framework-financial-services?topic=framework-financial-services-vpc-architecture-about) for the {{site.data.keyword.cloud_notm}} for Financial Services™, then select the latest version of the {{site.data.keyword.cloud_notm}} for Financial Services profile. This profile maps a tailored set of SCC goals to the [control requirements](/docs/framework-financial-services#framework-control-requirements) in the {{site.data.keyword.framework-fs_full}}. You can also choose to create a [custom profile](/docs/security-compliance?topic=security-compliance-custom-profiles) that contains the specific subset of goals from a profile that you want to evaluate your resources for. 
+      {: note}
+
    4. **Enable** or **Disable** the profiles that are associated with your integrated resources. To see this option, you must have the [OSCO integration enabled](/security-compliance/integrations){: external}.
 
       If you are working with any {{site.data.keyword.openshiftshort}} resources, you must enable the [OSCO integration](/security-compliance/integrations){: external} and then enable profiles during this step in order for those resources to be evaluated.
