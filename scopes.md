@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-03"
+lastupdated: "2022-07-29"
 
 keywords: scopes, accounts, resources, environments
 
@@ -92,7 +92,15 @@ To narrow the focus of your scans, create a scope by using the {{site.data.keywo
    1. Give your scan a name and description.
    2. Select a **Scan type**.
    3. From the **Profile** drop-down, select the profile that you want to use to evaluate your configuration.
+
+      If your scope includes a deployment of either the [{{site.data.keyword.vpc_full}} reference architecture](/docs/framework-financial-services?topic=framework-financial-services-vpc-architecture-about) for the {{site.data.keyword.cloud_notm}} for Financial Services™, then select the latest version of the {{site.data.keyword.cloud_notm}} for Financial Services profile. This profile maps a tailored set of SCC goals to the [control requirements](/docs/framework-financial-services#framework-control-requirements) in the {{site.data.keyword.framework-fs_full}}. You can also choose to create a [custom profile](/docs/security-compliance?topic=security-compliance-custom-profiles) that contains the specific subset of goals from a profile that you want to evaluate your resources for. 
+      {: note}
+
    4. **Enable** or **Disable** the profiles that are associated with your integrated resources. For more information about integrations see the [integrations tab of the UI](/security-compliance/integrations){: external}.
+
+      If you are working with any {{site.data.keyword.openshiftshort}} resources, you must enable the [OSCO integration](/security-compliance/integrations){: external} and then enable profiles during this step in order for those resources to be evaluated.
+      {: note}
+
    5. If applicable: Select a remediation type.
 
       Only some environments are configured to provide automatic remediation. For more information, see [Remediating issues](/docs/security-compliance?topic=security-compliance-remediation).
