@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-23"
+lastupdated: "2022-08-01"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -82,7 +82,7 @@ To get started, choose whether to create [a rule](/docs/security-compliance?topi
 
 Ensuring that all of the teams in your organization are adhering to best practices and external regulations or laws at all times can be a time consuming process. With the Posture Management component of the {{site.data.keyword.compliance_short}}, you can scan the available resources in your environments on a schedule and create an inventory that can be used as part of an audit. As part of the scan, the {{site.data.keyword.compliance_short}} validates your configurations against a predefined set of control implementations called goals before calculating a compliance score. Your score can help you to know which issues that you need to address first. Then, when you're ready, you can download a detailed evidence report that you can provide to internal stakeholders or external auditors.
 
-To start monitoring compliance, choose whether to [create and install a collector](/docs/security-compliance?topic=security-compliance-ibm-customer-collector) or [provision a managed one](/docs/security-compliance?topic=security-compliance-monitor-ibm-collector).
+To start monitoring your IBM Cloud resources for compliance, you'll need to configure credentials, deploy a collector, and schedule a scan. For help getting set up, see the turtorial series - [Monitoring {{site.data.keyword.cloud_notm}} resources](/docs/security-compliance?topic=security-compliance-ibm-credential).
 
 &ast;*Posture Management is available for {{site.data.keyword.cloud_notm}}, Amazon Web Services, Microsoft Azure, Google Cloud Platform, and on-premises environments. To enable monitoring for other cloud providers, see [Manually administering collectors](/docs/security-compliance?topic=security-compliance-collector-manual).*
 
