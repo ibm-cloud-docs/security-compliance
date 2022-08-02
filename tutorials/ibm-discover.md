@@ -76,7 +76,7 @@ To complete this tutorial, you must complete [part 1](/docs/security-compliance?
 A collector is a software module that is packaged as a container image that scans your resources and validates their configurations. To learn more about collectors and how the communication takes place, see [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
 
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access {{site.data.keyword.compliance_short}}.
 2. On the [**Manage Posture > Configure > Collectors** page](/security-compliance/collectors) of the {{site.data.keyword.compliance_short}}, click **Create**.
 3. Give your collector a name and description. Click **Next**.
 4. For **Managed by**, select **IBM**.
