@@ -67,7 +67,6 @@ Now available: Profile updates
 :   Goal updates are now available to the {{site.data.keyword.cloud_notm}} Control Library and {{site.data.keyword.cloud_notm}} Security Best Practices Profiles. For more information see the [{{site.data.keyword.cloud_notm}} Control Library change log](/docs/security-compliance?topic=security-compliance-ibm-control-library-change-log) or the [{{site.data.keyword.cloud_notm}} Security Best Practices change log](/docs/security-compliance?topic=security-compliance-ibm-sec-best-practices-change-log).
 
 
-
 ## 12 July 2022
 {: #security-compliance-july1222}
 {: release-note}
