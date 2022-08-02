@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-14"
+lastupdated: "2022-08-02"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -93,6 +93,10 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
    {: note}
 
 9. If a passphrase is configured, enter the passphrase. 
+
+   Credential passphrases are deprecated. If you are still using a passphrase please update to Bring Your Own Key functionality through the **Settings** page in the {{site.data.keyword.compliance_short}} UI.
+   {: deprecated}
+
 10. Verify your information and click **Create**. The credential is added to a list of available credentials.
 
 To edit or delete existing credentials, click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) and click **Edit** or **Delete**.

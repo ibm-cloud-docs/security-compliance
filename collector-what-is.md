@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-28"
+lastupdated: "2022-08-02"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -155,7 +155,6 @@ When you are looking at the UI, you might see the following collector statuses. 
 | Inactive | Your collector is not active. |
 | Install in progress | Your collector is being installed. |
 | Installation failed | Your collector failed to install. |
-| Passphrase required | You must provide a passphrase. |
 | Ready to install | Your collector is ready to be installed. |
 | Waiting for upgrade | Your collector is waiting to be upgraded. | 
 {: caption="Table 1. Description of collector statuses" caption-side="top"}

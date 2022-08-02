@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-25"
+lastupdated: "2022-08-02"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -53,13 +53,18 @@ content-type: release-note
 
 
 
+## 2 August 2022
+{: #security-compliance-aug-0222}
+
+Deprecated: Credential passphrase
+:   As of today, the ability to create a passphrase to manage the security of your credentials is deprecated in favor of the Bring Your Own Key (BYOK) functionality. If you are currently using a passphrase to protect your credentials, you must disable the passphrase by returning to IBM-managed encryption prior to 1 September 2022. Then, you can enable BYOK on the **Settings** page of the {{site.data.keyword.compliance_short}} UI. For more information about how your credentials are protected, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
+
 ## 25 July 2022
 {: #security-compliance-july2522}
 {: release-note}
 
 Now available: Profile updates
 :   Goal updates are now available to the {{site.data.keyword.cloud_notm}} Control Library and {{site.data.keyword.cloud_notm}} Security Best Practices Profiles. For more information see the [{{site.data.keyword.cloud_notm}} Control Library change log](/docs/security-compliance?topic=security-compliance-ibm-control-library-change-log) or the [{{site.data.keyword.cloud_notm}} Security Best Practices change log](/docs/security-compliance?topic=security-compliance-ibm-sec-best-practices-change-log).
-
 
 
 ## 12 July 2022
