@@ -220,10 +220,7 @@ The following tables list the platform access roles that are required to manage 
 {: tab-group="compliance"}
 {: class="simple-tab-table"}
 
-Roles mapped are:
-Viewer for Read
-Operator for  Read, Create and Update
-Editor and Administrator for Read, Create, Delete and Update
+
 
 ### Roles for Configuration Governance
 {: #governance-roles}
