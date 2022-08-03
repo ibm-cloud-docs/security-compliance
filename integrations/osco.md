@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-03"
+lastupdated: "2022-08-03"
 
 keywords: Centralized security, osco, {{site.data.keyword.openshiftshort}} Compliance Operator, compliance monitoring, compliance, 
 
@@ -73,7 +73,6 @@ Before you get started, be sure that you have the following prerequisites.
 * The required level of access to create and manage integrations in {{site.data.keyword.compliance_short}}. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
    * To deploy the operator and complete the scan, you must have *manager* access to the {{site.data.keyword.openshiftshort}} resources that you want to validate.
    * To integrate the OSCO operator, you need the *administrator* platform role for the {{site.data.keyword.compliance_short}} service.
-   * You must also have *manager* access to Security and Compliance Integrations. 
 
 ## Deploying the operator
 {: #deploy-osco}
@@ -140,12 +139,10 @@ If you have {{site.data.keyword.openshiftshort}} clusters that are already part 
    This profile does not have to be the same as the profile that you selected when creating the connection with OSCO.
    {: note} 
 
-7. Toggle **Integrations** to **Enable**. 
-8. Click **Next**.
-9. For **Remediation preference**, select **None**. Remediation for {{site.data.keyword.cloud_notm}} is not currently supported.
-10. Select the frequency at which you want the scan to run.
-11. Select when you want the scan to stop. Options include never, a specific number of scans, or on a set date.
-12. Click **Create**.
+7. Toggle **Integrations** to **Enable** and click **Next**.
+8. Select the frequency at which you want the scan to run.
+9. Select when you want the scan to stop. Options include never, a specific number of scans, or on a set date.
+10. Click **Create**.
 
 
 
@@ -156,7 +153,7 @@ To validate your data a scan is run that identifies any potential issues in your
 
 When your scan is complete, you can return to the {{site.data.keyword.compliance_short}} UI to view your results.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access {{site.data.keyword.compliance_short}}.
 2. Go to **Manage posture > Assess > Scans**.
 3. Click the name of the scan that you created in the previous step.
 

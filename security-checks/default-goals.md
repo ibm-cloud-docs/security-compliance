@@ -1,8 +1,8 @@
----
+\---
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-25"
+lastupdated: "2022-08-03"
 
 keywords: goals, secure by default, secure, secure platform, default goals, available goals
 
