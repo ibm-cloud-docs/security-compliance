@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-09"
+lastupdated: "2022-08-03"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -52,7 +52,7 @@ subcollection: security-compliance
 With the {{site.data.keyword.compliance_full}}, you can create your own profiles or take advantage of predefined profiles that are curated based on industry standards.
 {: shortdesc}
 
-When you build a custom profile, you can choose a combination of controls and goals to validate that your resources are compliant with internal and external regulations. You can create a profile by using a predefined profile as a base.  Or, you can create a profile from scratch by selecting from a list of available goals that you want to meet.
+When you build a custom profile, you can choose a combination of controls and goals to validate that your resources are compliant with internal and external regulations. You can create a profile by using a predefined profile as a base. For more information, see [Available predefined profiles](/docs/security-compliance?topic=security-compliance-predefined-profiles). Or, you can create a profile from scratch by selecting from a list of available goals that you want to meet.
 
 To learn more about profiles, see [What is a profile?](/docs/security-compliance?topic=security-compliance-profiles).
 
