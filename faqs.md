@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-23"
+lastupdated: "2022-08-03"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -50,70 +50,6 @@ subcollection: security-compliance
 {: #faqs}
 
 Frequently asked questions for {{site.data.keyword.compliance_full}} might include questions about managing profiles, defining custom rules, attaching scopes, and evaluating resources for compliance. To find all FAQs for {{site.data.keyword.cloud_notm}}, see the [FAQ library](/docs/faqs).
-{: shortdesc}
-
-
-## Which environments are currently integrated with the service?
-{: #environment-list}
-{: faq}
-
-You can use the {{site.data.keyword.compliance_short}} to monitor your security and compliance posture in the following environments:
-
-* {{site.data.keyword.cloud_notm}}
-* Amazon Web Services
-* Google Cloud Platform
-* Microsoft Azure
-* On-premises
-
-
-
-## Which {{site.data.keyword.cloud_notm}} services can I scan for compliance?
-{: #resource-scan}
-{: faq}
-
-You can use the {{site.data.keyword.compliance_short}} to monitor your resources that pertain to the following services:
-
-* {{site.data.keyword.at_short}}
-* {{site.data.keyword.appid_short_notm}}
-* Bare Metal Servers
-* {{site.data.keyword.blockstorageshort}}
-* {{site.data.keyword.cloudcerts_short}}
-* Cloud Databases
-   * Databases for Elasticsearch
-   * Databases for etcd
-   * Databases for MongoDB
-   * Databases for PostgreSQL
-   * Databases for Redis
-* {{site.data.keyword.cis_short}}
-* Code Engine
-* {{site.data.keyword.registryshort}}
-* {{site.data.keyword.contdelivery_short}}
-* {{site.data.keyword.cloudant_short_notm}}
-* Direct Link
-* Event Streams
-* Hyper Protect Services
-   * Hyper Protect Crypto Services
-   * Hyper Protect Databases
-* IBM Cloud Monitoring
-* IBM Cloud Platform
-   * Catalog
-   * Cloud Shell
-   * {{site.data.keyword.iamshort}}
-* {{site.data.keyword.keymanagementserviceshort}}
-* {{site.data.keyword.containershort_notm}}
-* Log Analysis
-* {{site.data.keyword.cos_short}}
-* {{site.data.keyword.openshiftshort}}
-* Satellite
-* Schematics
-* Secrets Manager
-* Transit Gateway
-* {{site.data.keyword.vpc_short}}
-   * Application Load Balancer for VPC
-   * Auto Scale for VPC
-   * Block Storage for VPC
-   * Security Groups for VPC
-   * VPN for VPC
 
 
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-02"
+lastupdated: "2022-08-03"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -52,6 +52,20 @@ content-type: release-note
 
 
 
+
+## 3 August 2022
+{: #security-compliance-aug-0322}
+
+Change to permission requirements for integrations
+:   As of today, Security Advisor permissions for viewing, creating, updating, and deleting integrations in {{site.data.keyword.compliance_short}} are no longer supported. To work with integrations use the following action to role mappings:
+
+   * `compliance.posture-management.integrations-read`: View an integration in {{site.data.keyword.compliance_short}}.
+   * `compliance.posture-management.integrations-create`: Create an integration in {{site.data.keyword.compliance_short}}.
+   * `compliance.posture-management.integrations-update`: Update an integration in {{site.data.keyword.compliance_short}}.
+   * `compliance.posture-management.integrations-delete`: Delete an integration in {{site.data.keyword.compliance_short}}.
+
+   For more information about required permissions, view [Managing IAM access for {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-access-management).
+   
 
 ## 2 August 2022
 {: #security-compliance-aug-0222}

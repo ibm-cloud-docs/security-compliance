@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-23"
+lastupdated: "2022-08-03"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -232,6 +232,20 @@ The following events are triggered by the Posture Management component of the {{
 {: class="simple-tab-table"}
 
 
+| Action                                            | Description     |
+| :-----------------------------------------------------| :---------------|
+| `compliance.posture-management.integrations-read`        | View an integration in {{site.data.keyword.compliance_short}}.   |
+| `compliance.posture-management.integrations-create`      | Create an integration in {{site.data.keyword.compliance_short}}. |
+| `compliance.posture-management.integrations-update`      | Update an integration in {{site.data.keyword.compliance_short}}. |
+| `compliance.posture-management.integrations-delete`      | Delete an integration in {{site.data.keyword.compliance_short}}. |
+{: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
+{: #integration-events}
+{: tab-title="Integrations"}
+{: tab-group="posture"}
+{: class="simple-tab-table"}
+
+
+
 ## Events for Configuration Governance
 {: #at_actions_governance}
 
@@ -299,7 +313,7 @@ The following events are triggered by the Configuration Governance component of 
 ## Events for Admin
 {: #at_actions_admin}
 
-The following events are triggered by the Admin API calls for the {{site.data.keyword.compliance_short}}.
+The following events are triggered by the Admin API calls in {{site.data.keyword.compliance_short}}.
 
 | Action                         | Description   |
 | :----------------------------------| :---------------|
@@ -307,6 +321,9 @@ The following events are triggered by the Admin API calls for the {{site.data.ke
 | `compliance.admin-settings.update` | Update {{site.data.keyword.compliance_short}} settings for your account. |
 | `compliance.admin.test-event-send` | Send a test event to a connected {{site.data.keyword.en_short}} service instance. |
 {: caption="Table 4. List of events that apply to admin settings" caption-side="top"}
+
+
+
 
 
 ## Analyzing events

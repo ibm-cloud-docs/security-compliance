@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-23"
+lastupdated: "2022-08-03"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -60,28 +60,22 @@ Policies enable access to be granted at different levels. Some of the options in
 ## Assigning roles in the console
 {: #assign-roles}
 
-As an account owner, you are automatically assigned Administrator platform access to the {{site.data.keyword.compliance_short}} so that you can further assign roles and customize access policies for others. Depending on the feature that you work with, you might need to assign roles for Security and Compliance Integrations in addition to the {{site.data.keyword.compliance_short}}.
+As an account owner, you are automatically assigned Administrator platform access to the {{site.data.keyword.compliance_short}} so that you can further assign roles and customize access policies for others. 
 
-To assign access, you can use the **Access (IAM)** section of the console.
+To run scans on your resources, additional permissions are required. To ensure that you assign the correct level of access, see [Understanding required permissions](/docs/security-compliance?topic=security-compliance-permissions).
+{: note}
+
+To assign access to other users in your organization, you can use the **Access (IAM)** section of the console.
 
 1. [Create an access group](/docs/account?topic=account-groups#create_ag) for the type of users that you want to give access to and add those users to the group. For example, you might have a team of compliance specialists that need the same level of access.
 2. After you create a group and add users, go to the **Manage > Access (IAM) > Access Groups** page of the console.
-3. Select a table row, and click the **Actions** icon ![Actions icon](../../icons/actions-icon-vertical.svg) to open a list of options for that access group.
-4. From the options menu, click **Assign access**.
-5. Assign {{site.data.keyword.compliance_short}} roles.
-   1. Select **Account management**.
-   2. From the list of services, select **{{site.data.keyword.compliance_short}}**.
-   3. Enter the compliance component that you want to assign access to.
-      * To assign access for using profiles to [monitor accounts for compliance](#compliance-roles), enter _posture-management_. 
-      * To assign access for using rules to [govern the use of resources](#governance-roles), enter _configuration-governance_.
-   4. Choose a combination of [platform access roles](#iam-roles) to assign to the user and then click **Add**.
-6. Assign Security and Compliance Integrations roles.
-   1. Select **IAM services**.
-   2. From the list of services, select **Security and Compliance Integrations**.
-   3. Select **All resources**.
-   4. Select the **Manager** role and click **Add**.
-7. Review your selections and click **Assign**.
-
+3. Select the name of the group that you want to assign access to.
+4. Click **Access > Assign access**.
+5. Select **{{site.data.keyword.compliance_short}}** as the **Service** and click **Next**.
+6. Leave **All resources** selected and click **Next**.
+7. Use the [actions listed in the folliwng sections on this page](#iam-roles) and their associated required role to assign the appropriate level of access.
+8. Click **Add**.
+9. Review your selections and click **Assign**.
 
 
 ## Roles and permissions
@@ -214,6 +208,19 @@ The following tables list the platform access roles that are required to manage 
 {: tab-group="compliance"}
 {: class="simple-tab-table"}
 
+| Action                                         | Description             | Role                                    |
+| :--------------------------------------------- | :---------------------- | :-------------------------------------- |
+| `compliance.posture-management.integrations-read`        | View an integration in {{site.data.keyword.compliance_short}}.   | Viewer |
+| `compliance.posture-management.integrations-create`      | Create an integration in {{site.data.keyword.compliance_short}}. | Viewer, Operator, and Editor|
+| `compliance.posture-management.integrations-update`      | Update an integration in {{site.data.keyword.compliance_short}}. | Viewer, Operator, and Editor |
+| `compliance.posture-management.integrations-delete`      | Delete an integration in {{site.data.keyword.compliance_short}}. | Viewer, Operator, Editor, and Administrator |
+{: caption="Table 1. IAM user roles and actions for Posture Management" caption-side="top"}
+{: #integrations-access}
+{: tab-title="Integrations"}
+{: tab-group="compliance"}
+{: class="simple-tab-table"}
+
+
 
 ### Roles for Configuration Governance
 {: #governance-roles}
@@ -283,12 +290,6 @@ The following tables list the platform access roles that are required to manage 
 For more information about assigning user roles in the console, see [Managing access to resources](/docs/account?topic=account-assign-access-resources).
 {: tip}
 
-
-
-### Roles for Integrations
-{: #insights-roles}
-
-You must have the **Manager** Security and Compliance Integrations access role to create and manage integrations in {{site.data.keyword.compliance_short}}.
 
 
 ### Roles for Admin
