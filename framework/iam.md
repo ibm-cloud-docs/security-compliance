@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-03"
+lastupdated: "2022-08-04"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -73,7 +73,7 @@ To assign access to other users in your organization, you can use the **Access (
 4. Click **Access > Assign access**.
 5. Select **{{site.data.keyword.compliance_short}}** as the **Service** and click **Next**.
 6. Leave **All resources** selected and click **Next**.
-7. Use the [actions listed in the folliwng sections on this page](#iam-roles) and their associated required role to assign the appropriate level of access.
+7. Use the [actions listed in the following sections on this page](#iam-roles) and their associated required role to assign the appropriate level of access.
 8. Click **Add**.
 9. Review your selections and click **Assign**.
 
