@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-07-14"
+lastupdated: "2022-08-05"
 
 keywords: HA for {{site.data.keyword.compliance_short}}, DR for {{site.data.keyword.compliance_short}}, high availability for {{site.data.keyword.compliance_short}}, disaster recovery for {{site.data.keyword.compliance_short}}, failover for {{site.data.keyword.compliance_short}}, BC for {{site.data.keyword.compliance_short}}, business continuity for {{site.data.keyword.compliance_short}}, disaster recovery for {{site.data.keyword.compliance_short}}
 
@@ -67,7 +67,7 @@ To find out more about responsibility ownership for using {{site.data.keyword.cl
 
 | Disaster recovery objective | Target value |
 | --------------------------- | ------------ |
-| RPO | 1 hour |
+| RPO | 12 hours |
 | RTO | 4 hours | 
 {: caption="Table 1. RPO and RTO for {{site.data.keyword.compliance_short}}" caption-side="bottom"}
 
