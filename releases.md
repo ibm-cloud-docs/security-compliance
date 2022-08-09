@@ -54,8 +54,8 @@ content-type: release-note
 
 
 
-## 9 September 2022
-{: #security-compliance-sept0922}
+## 9 August 2022
+{: #security-compliance-aug0922}
 {: release-note}
 
 New available: Longer default storage
