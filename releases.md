@@ -53,22 +53,21 @@ content-type: release-note
 
 
 
+
 ## 9 September 2022
 {: #security-compliance-sept0922}
 {: release-note}
 
-
-
-Now available: New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
-:   Version 0.5.0  of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-profile-change-log).
-
+New available: Longer default storage
+:   The data that is generated during a scan is now stored for 180 days. This is an increase from 30 days.
+For more information about how your data is stored, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
 
 
 ## 3 August 2022
 {: #security-compliance-aug-0322}
 
 Change to permission requirements for integrations
-:   As of today, Security Advisor permissions for viewing, creating, updating, and deleting integrations in {{site.data.keyword.compliance_short}} are no longer supported. To work with integrations use the following action to role mappings:
+:   As of today, Security and Compliance Integrations permissions for viewing, creating, updating, and deleting integrations in {{site.data.keyword.compliance_short}} are no longer supported. To work with integrations use the following action to role mappings:
 
    * `compliance.posture-management.integrations-read`: View an integration in {{site.data.keyword.compliance_short}}.
    * `compliance.posture-management.integrations-create`: Create an integration in {{site.data.keyword.compliance_short}}.
