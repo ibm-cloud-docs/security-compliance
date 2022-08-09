@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-03"
+lastupdated: "2022-08-09"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -50,6 +50,17 @@ content-type: release-note
 {: #release-notes}
 
 
+
+
+
+## 9 September 2022
+{: #security-compliance-sept0922}
+{: release-note}
+
+
+
+Now available: New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Version 0.5.0  of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-profile-change-log).
 
 
 
