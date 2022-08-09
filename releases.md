@@ -59,8 +59,7 @@ content-type: release-note
 {: release-note}
 
 New available: Longer default storage
-:   The data that is generated during a scan is now stored for 180 days. This is an increase from 30 days.
-For more information about how your data is stored, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
+:   The data that is generated during a scan is now stored for 180 days. This is an increase from 30 days. For more information about how your data is stored, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
 
 
 ## 3 August 2022
