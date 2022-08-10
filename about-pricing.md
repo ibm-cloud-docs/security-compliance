@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-14"
+lastupdated: "2022-08-09"
 
 keywords: best practices security and compliance, secure development, security strategy, governance
 
@@ -61,7 +61,7 @@ For the most up-to-date pricing information, you can create a cost estimate by c
 The service offers two pricing plans.
 
 Trial
-:   To try out the service, you can enroll in a Trial period that allows you to access the full capabilities of the Posture Management component for a 30-day period at no charge. You can create profiles, set up credentials, and configure your account to evaluate your resources, among other things. The data that is generated is maintained for 30 days before it is automatically deleted by IBM. 
+:   To try out the service, you can enroll in a Trial period that allows you to access the full capabilities of the Posture Management component for a 30-day period at no charge. You can create profiles, set up credentials, and configure your account to evaluate your resources, among other things. The data that is generated is maintained for 180 days before it is automatically deleted by IBM. 
 
 
 Standard

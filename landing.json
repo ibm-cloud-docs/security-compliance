@@ -33,19 +33,19 @@
       "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
       "tiles": [
         {
-          "date": "5 April 2022",
-          "title": "Now available: New IBM Cloud for Financial Services profile version",
-          "description": "You can now integrate Security and Compliance Center to the Event Notifications service."
+          "date": "9 August 2022",
+          "title": "Now available: Longer default storage",
+          "description": "The data that is generated during a scan is now stored for 180 days."
         },
         {
-          "date": "23 March 2022",
-          "title": "Now available: New goals",
-          "description": "New goals are now available in the IBM Cloud Best Practices profile."
+          "date": "3 August 2022",
+          "title": "Change to permission requiremnts for integrations",
+          "description": "IAM roles for managing integrations have been updated."
         },
         {
-          "date": "10 March 2022",
-          "title": "Now available: Quick Start & New create rule flow",
-          "description": "The {{site.data.keyword.compliance_short}} is updated to include a quick start wizard for Posture Management as well as updates to the create rule flow. "
+          "date": "2 August 2022",
+          "title": "Deprecated: Credential passphrase",
+          "description": "The ability to manage the security of your credentials using a passphrase will no longer be supported as of 1 September 2022."
         }
       ]
     }

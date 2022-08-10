@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-14"
+lastupdated: "2022-08-09"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -78,10 +78,13 @@ The following table shows the service behavior changes for each version date. Sw
 {: caption="Table 1. Active versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
 
-## Version 0.4.0
-{: #fs-cloud-v030}
 
-In addition to small bug fixes and general updates, version 0.4.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available has been updated with the following changes as of 23 June 2022.
+
+
+## Version 0.4.0
+{: #fs-cloud-v040}
+
+In addition to small bug fixes and general updates, version 0.4.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available and has been updated with the following changes as of 23 June 2022.
 
 | Goal ID | Associated controls | Update |
 |--------|---------------------|---------|
