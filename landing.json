@@ -33,6 +33,11 @@
       "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
       "tiles": [
         {
+          "date": "11 August 2022",
+          "title": "Now available: New profile version.",
+          "description": "Version 5 of the IBM Cloud for Financial Services is now available."
+        },
+        {
           "date": "9 August 2022",
           "title": "Now available: Longer default storage",
           "description": "The data that is generated during a scan is now stored for 180 days."
@@ -41,11 +46,6 @@
           "date": "3 August 2022",
           "title": "Change to permission requiremnts for integrations",
           "description": "IAM roles for managing integrations have been updated."
-        },
-        {
-          "date": "2 August 2022",
-          "title": "Deprecated: Credential passphrase",
-          "description": "The ability to manage the security of your credentials using a passphrase will no longer be supported as of 1 September 2022."
         }
       ]
     }
