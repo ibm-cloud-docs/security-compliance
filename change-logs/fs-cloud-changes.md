@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-10"
+lastupdated: "2022-08-11"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -111,18 +111,46 @@ Control SC-28 is renamed to SC-28-0 and control SC-12 is renamed to SC-12-0.
 | `3000027` | `AC-2(d)` and `AC-5(c)`  \n  \n `AC-2(f)`, `AC-2(i)`, `AC-6(10)`, and `SC-12` |
 | `3000028` | `AC-3`| The goal was added. |
 | `3000035` | `AC-5(c)`  \n  \n `AC-2(1)`, `AC-2(c)`, `AC-2(j)`, `AC-5(b)` | The goal was added.  \n  \n The goal was removed. |
-| `3000045` | `AC-20-0`, `CA-3-0`, `ESA-3`, `ESA-5`, `SA-4(a)`, and `SA-9-0` | `CM-6(a)` |
+| `3000045` | `AC-20-0`, `CA-3-0`, `ESA-3`, `ESA-5`, `SA-4(a)`, and `SA-9(a)`  \n  \n `CM-6(a)` |  | The goal was added.  \n  \n The goal was removed. |
+| `3000047` | `SA-4(d)`, `SA-4(e)`, `SA-4(f)`, and `SA-4(g)` | The goal was added. |
+| `3000051` | `CP-6(1)`, `CP-7(a)`, `CP-7(b)`, `CP-7(c)`, `CP-7(1)`, `CP-9(b)`, `CP-9(d)`, and `CP-10` | The goal was added. |
+| `3000053` | `AC-7(a)` | The goal was added. |
+| `3000054` | `AC-7(b)` | The goal was added. |
+| `3000055` | `AC-11(1)` | The goal was added. |
+| `3000056` | `AC-11(b)` | The goal was added. |
+| `3000057` | `AC-16(a)` | The goal was added. |
+| `3000058` | `AC-17(9)` | The goal was added. |
+| `3000059` | `AC-2(a)` | The goal was added. |
+| `3000060` | `IA-2-0` | The goal was added. |
+| `3000061` | `IA-2-0` | The goal was added. |
+| `3000062` | `IA-4(b)` and `IA-4(c)` | The goal was added. |
+| `3000063` | `IA-4(b)` and `IA-4(c)` | The goal was added. |
+| `3000064` | `IA-4(d)` | The goal was added. |
+| `3000065` | `IA-5(c)` | The goal was added. |
+| `3000066` | `IA-5(c)` | The goal was added. |
+| `3000067` | `IA-5(f)` | The goal was added. |
+| `3000068` | `IA-5(f)` | The goal was added. |
+| `3000070` | `IA-5(1)(c)` | The goal was added. |
+| `3000071` | `IA-5(1)(d)` | The goal was added. |
+| `3000073` | `IA-5(4)` | The goal was added. |
+| `3000074` | `IA-6` | The goal was added. |
+| `3000075` | `IA-5(b)` | The goal was added. |
+| `3000076` | `IA-3` | The goal was added. |
 | `3000103` | `CM-7(a)`, `CM-7(b)`, `SC-7(4)(c)`, and `SC-11` | The goal was added. |
 | `3000105` | `CM-7(a), CM-7(b), SC-7(a), SC-7(b), and SC-7(4)(a)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000106` | `AC-5(c)`  \n  \n `AC-2(i)` and `AC-5(b)` | The goal was added.  \n  \n The goal was removed. |
 | `3000107` | `SC-7(a), SC-7(b), and SC-7(4)(a)`  \n  \n `CM-2, and SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000108` | `SC-28-0` and `SC-28(1)`  \n  \n `SC-28` | The goal was added.  \n  \n The goal is removed. |
 | `3000116` | `CP-6(a)`, `CP-6(b)`, and `CP-10`  \n  \n `CP-6-0` | The goal was added.  \n  \n The goal was removed. |
+| `3000117` | `CP-6(a)`, `CP-6(b)`, `CP-6(1)`, `CP-7(a)`, `CP-7(b)`, `CP-7(c)`, `CP-7(1)`, `CP-9(b)`, `CP-9(d)`, `CP-10`, and `SC-6` | The goal was added. |
 | `3000233` | `CP-7(a)`, `CP-7(b)`, `CP-7(c)`, `CP-7(1)`, `CP-10`, and `SC-6`  \n  \n `SC-36` | The goal was added.  \n  \n The goal was removed. |
 | `3000234` | `IA-7`, `SC-12-0`, `SC-12(2)`, and `SC-12(3)`  \n  \n `SC-12` | The goal was added.  \n  \n The goal is removed. |
 | `3000235` | `IA-5(g)`, `SC-12-0`, `SC-12(2)`, and `SC-12(3)`  \n  \n `AC-2(1)` and `SC-12` | The goal was added.  \n  \n The goal is removed. |
+| `3000283` | `SI-12`  \n  \n `AU-11` | The goal was added.  \n  \n The goal was removed. |
 | `3000306` | `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000307` | `SC-7(a), SC-7(b), and SC-7(4)(a)`  \n  \n `CM-2 and SC-7-0` | The goal was added.  \n  \n The goal was removed. |
+| `3000322` | `SC-28-0` and `SC-28(1)`  \n  \n `SC-28` | The goal was added.  \n  \n The goal was removed. |
+| `3000323` | `SC-28-0` and `SC-28(1)`  \n  \n `SC-28` | The goal was added.  \n  \n The goal was removed. |
 | `3000406` | `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(c)`, `SC-7(4)(a)`, and `SC-7(10)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000407` | `CM-7(a)`, `CM-7(b)`, `IA-5(1)(c)`, `SC-7(4)(c)`, and `SC-11` | The goal was added. |
 | `3000408` | `SC-7(a)`  \n  \n `AU-2(a)`, `AU-2(d)`, and `AU-12` | The goal was added.  \n  \n The goal was removed. |
@@ -146,7 +174,10 @@ Control SC-28 is renamed to SC-28-0 and control SC-12 is renamed to SC-12-0.
 | `3000444` | `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)` and `SC-7(10)`  \n  \n `CM-2`, and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000445` | `AC-4`, `CM-2`, `SC-7-0`, and `SC-7(5)` |The goal was removed. |
 | `3000446` | `AC-4`, `CM-2`, `SC-7-0`, `SC-7(5)`, and `SC-7(3)` | The goal was removed. |
-| `3000447` | `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(c)`, `SC-7(4)(a)`, and `SC-7(10)`  \n  \n `CM-2, SC-7-0, and SC-8-0` | The goal was added.  \n  \n The goal was removed. |
+| `3000447` | `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(c)`, `SC-7(4)(a)`, and `SC-7(10)`  \n  \n `CM-2`, `SC-7-0`, and `SC-8-0` | The goal was added.  \n  \n The goal was removed. |
+| `3000463` | `IA-4(b)` and `IA-4(c)`  \n  \n `IA-4` | The goal was added.  \n  \n The goal was removed. |
+| `3000464` | `IA-4(b)` and `IA-4(c)`  \n  \n `IA-4` | The goal was added.  \n  \n The goal was removed. |
+| `3000465` | `IA-4(b)` and `IA-4(c)`  \n  \n `IA-4` | The goal was added.  \n  \n The goal was removed. |
 | `3000448` | `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(c)`, `SC-7(4)(a)`, and `SC-7(10)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000449` | `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(c)`, `SC-7(4)(a)`, and `SC-7(10)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000451` | `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
@@ -167,6 +198,10 @@ Control SC-28 is renamed to SC-28-0 and control SC-12 is renamed to SC-12-0.
 | `3000468` | `SC-7(a)`, `SC-7(c)`, `SC-7(4)(a)`, and `SC-7(10),`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000469` | `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000470` | `CM-7(a)`, `CM-7(b)`, `SC-7(4)(c)`, and `SC-11` | The goal was added. |
+| `3000473` | `CP-7(b)` and `CP-7(c)` | The goal was added. |
+| `3000474` | `CP-7(b)` and `CP-7(c)` | The goal was added. |
+| `3000475` | `CM-7(a)`, `SC-7(a)`, `SC-7(c)`, and `SC-7(4)(a)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
+| `3000476` | `CM-7(a)`, `SC-7(a)`, `SC-7(c)`, `SC-7(4)(a)`, and `SC-7(10)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000510` | `IA-7`, `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000526` | `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000528` | `SC-28-0` and `SC-28(1)`  \n  \n `SC-28` | The goal was added.  \n  \n The goal was removed. |
@@ -201,43 +236,10 @@ Control SC-28 is renamed to SC-28-0 and control SC-12 is renamed to SC-12-0.
 | `3000724` | `SC-10`  \n  \n `AC-2(f)`, `AC-2(i)`, `AC-3`, `AC-6-0`, and `AC-6(10)` | The goal was added.  \n  \n The goal was removed. |
 | `3000901` | `RA-5(a)` | The goal was removed. |
 | `3000902` | `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
-| `3000903` | `AC-4` and `SC-12` | The goal was removed. |
+| `3000903` | `IA-2-0` and `IA-5(c)`  \n  \n `AC-4` and `SC-12` | The goal was added.  \n  \n The goal was removed. |
 | `3000906` | `CM-7(a)`, `CM-7(b)`, `SC-7(4)(c)`, and `SC-11` | The goal was added. |
-| `3000047` | `SA-4(d)`, `SA-4(e)`, `SA-4(f)`, and `SA-4(g)` | The goal was added. |
-| `3000283` | `SI-12`  \n  \n `AU-11` | The goal was added.  \n  \n The goal was removed. |
-| `3000323` | `SC-28-0` and `SC-28(1)`  \n  \n `SC-28` | The goal was added.  \n  \n The goal was removed. |
-| `3000322` | `SC-28-0` and `SC-28(1)`  \n  \n `SC-28` | The goal was added.  \n  \n The goal was removed. |
-| `3000473` | `CP-7(b)` and `CP-7(c)` | The goal was added. |
-| `3000474` | `CP-7(b)` and `CP-7(c)` | The goal was added. |
 | `3000915` | `CP-7(a)`, `CP-7(b)`, and `CP-7(c)`  \n  \n `CA-7(a)` | The goal was added.  \n  \n The goal was removed. |
-| `3000475` | `CM-7(a)`, `SC-7(a)`, `SC-7(c)`, and `SC-7(4)(a)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
-| `3000476` | `CM-7(a)`, `SC-7(a)`, `SC-7(c)`, `SC-7(4)(a)`, and `SC-7(10)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
-| `3000051` | `CP-6(1)`, `CP-7(a)`, `CP-7(b)`, `CP-7(c)`, `CP-7(1)`, `CP-9(b)`, `CP-9(d)`, and `CP-10` | The goal was added. |
-| `3000117` | `CP-6(a)`, `CP-6(b)`, `CP-6(1)`, `CP-7(a)`, `CP-7(b)`, `CP-7(c)`, `CP-7(1)`, `CP-9(b)`, `CP-9(d)`, `CP-10`, and `SC-6` | The goal was added. |
-| `3000447` | `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(c)`, `SC-7(4)(a)`, and `SC-7(10)`  \n  \n `CM-2`, `SC-7-0`, and `SC-8-0` | The goal was added.  \n  \n The goal was removed. |
-| `3000053` | `AC-7(a)` | The goal was added. |
-| `3000054` | `AC-7(b)` | The goal was added. |
-| `3000055` | `AC-11(1)` | The goal was added. |
-| `3000056` | `AC-11(b)` | The goal was added. |
-| `3000057` | `AC-16(a)` | The goal was added. |
-| `3000058` | `AC-17(9)` | The goal was added. |
-| `3000059` | `AC-2(a)` | The goal was added. |
-| `3000060` | `IA-2-0` | The goal was added. |
-| `3000061` | `IA-2-0` | The goal was added. |
-| `3000062` | `IA-4(b)` and `IA-4(c)` | The goal was added. |
-| `3000063` | `IA-4(b)` and `IA-4(c)` | The goal was added. |
-| `3000064` | `IA-4(d)` | The goal was added. |
-| `3000065` | `IA-5(c)` | The goal was added. |
-| `3000066` | `IA-5(c)` | The goal was added. |
-| `3000067` | `IA-5(f)` | The goal was added. |
-| `3000068` | `IA-5(f)` | The goal was added. |
-| `3000070` | `IA-5(1)(c)` | The goal was added. |
-| `3000071` | `IA-5(1)(d)` | The goal was added. |
-| `3000073` | `IA-5(4)` | The goal was added. |
-| `3000074` | `IA-6` | The goal was added. |
-| `3000075` | `IA-5(b)` | The goal was added. |
-| `3000076` | `IA-3` | The goal was added. |
-{: caption="Table. Summary of {{site.data.keyword.cloud_notm}} for Financial Services profile changes for 9 August 2022" caption-side="top"}
+{: caption="Table. Summary of {{site.data.keyword.cloud_notm}} for Financial Services profile changes for 11 August 2022" caption-side="top"}
 
 
 ## Version 0.4.0
