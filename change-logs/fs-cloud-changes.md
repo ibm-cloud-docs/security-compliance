@@ -111,7 +111,7 @@ Control SC-28 is renamed to SC-28-0 and control SC-12 is renamed to SC-12-0.
 | `3000027` | `AC-2(d)` and `AC-5(c)`  \n  \n `AC-2(f)`, `AC-2(i)`, `AC-6(10)`, and `SC-12` |
 | `3000028` | `AC-3`| The goal was added. |
 | `3000035` | `AC-5(c)`  \n  \n `AC-2(1)`, `AC-2(c)`, `AC-2(j)`, `AC-5(b)` | The goal was added.  \n  \n The goal was removed. |
-| `3000045` | `AC-20-0`, `CA-3-0`, `ESA-3`, `ESA-5`, `SA-4(a)`, and `SA-9(a)`  \n  \n `CM-6(a)` |  | The goal was added.  \n  \n The goal was removed. |
+| `3000045` | `AC-20-0`, `CA-3-0`, `ESA-3`, `ESA-5`, `SA-4(a)`, and `SA-9(a)`  \n  \n `CM-6(a)` | The goal was added.  \n  \n The goal was removed. |
 | `3000047` | `SA-4(d)`, `SA-4(e)`, `SA-4(f)`, and `SA-4(g)` | The goal was added. |
 | `3000051` | `CP-6(1)`, `CP-7(a)`, `CP-7(b)`, `CP-7(c)`, `CP-7(1)`, `CP-9(b)`, `CP-9(d)`, and `CP-10` | The goal was added. |
 | `3000053` | `AC-7(a)` | The goal was added. |
@@ -172,7 +172,7 @@ Control SC-28 is renamed to SC-28-0 and control SC-12 is renamed to SC-12-0.
 | `3000441` | `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2`, `SC-7-0`, and `SC-7(5)` | The goal was added.  \n  \n The goal was removed. |
 | `3000442` | `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2`, and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000444` | `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)` and `SC-7(10)`  \n  \n `CM-2`, and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
-| `3000445` | `AC-4`, `CM-2`, `SC-7-0`, and `SC-7(5)` |The goal was removed. |
+| `3000445` | `AC-4`, `CM-2`, `SC-7-0`, and `SC-7(5)` | The goal was removed. |
 | `3000446` | `AC-4`, `CM-2`, `SC-7-0`, `SC-7(5)`, and `SC-7(3)` | The goal was removed. |
 | `3000447` | `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(c)`, `SC-7(4)(a)`, and `SC-7(10)`  \n  \n `CM-2`, `SC-7-0`, and `SC-8-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000463` | `IA-4(b)` and `IA-4(c)`  \n  \n `IA-4` | The goal was added.  \n  \n The goal was removed. |
