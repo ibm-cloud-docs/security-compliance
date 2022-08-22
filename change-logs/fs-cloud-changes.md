@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-11"
+lastupdated: "2022-08-22"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -108,7 +108,7 @@ Control SC-28 is renamed to SC-28-0 and control SC-12 is renamed to SC-12-0.
 | `3000023` | `AC-2(d)` and `AC-5(c)`  \n  \n `AC-2(1)`, `AC-2(f)`, `AC-2(i)`, and `AC-6(10)` | The goal was added.  \n  \n The goal was removed. |
 | `3000024` | `IA-5(g)`  \n  \n `AC-2(1)` and `AC-2(i)` | The goal was added.  \n  \n The goal was removed. |
 | `3000026` | `AC-3`  \n  \n `AC-2(1)` | The goal was added.  \n  \n The goal was removed. |
-| `3000027` | `AC-2(d)` and `AC-5(c)`  \n  \n `AC-2(f)`, `AC-2(i)`, `AC-6(10)`, and `SC-12` |
+| `3000027` | `AC-2(d)` and `AC-5(c)`  \n  \n `AC-2(f)`, `AC-2(i)`, `AC-6(10)`, and `SC-12` | The goal was added.  \n  \n The goal was removed. |
 | `3000028` | `AC-3`| The goal was added. |
 | `3000035` | `AC-5(c)`  \n  \n `AC-2(1)`, `AC-2(c)`, `AC-2(j)`, `AC-5(b)` | The goal was added.  \n  \n The goal was removed. |
 | `3000045` | `AC-20-0`, `CA-3-0`, `ESA-3`, `ESA-5`, `SA-4(a)`, and `SA-9(a)`  \n  \n `CM-6(a)` | The goal was added.  \n  \n The goal was removed. |
