@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-19"
+lastupdated: "2022-08-23"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance, cluster collector, Kubernetes, Red Hat {{site.data.keyword.openshiftshort}}
 
@@ -49,7 +49,7 @@ completion-time: 10m
 {:api: .ph data-hd-interface='api'}
 {:release-note: data-hd-content-type='release-note'}
 
-# Install an {{site.data.keyword.compliance_short}} collector on a {{site.data.keyword.containershort}} cluster
+# Install a customer-managed collector on a {{site.data.keyword.containershort}} cluster
 {: #collector-iks}
 {: toc-content-type="tutorial"}
 {: toc-services="security-compliance, vpc"}
