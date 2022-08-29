@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-17"
+lastupdated: "2022-08-29"
 
 keywords: config rules, config properties, scc integrated services, 
 
@@ -305,11 +305,13 @@ Review the following table to learn more about the resource kinds, properties, a
 
 Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Load Balancer for VPC. If you're using the API to define your rule, you can use the following values for the service name:
 
-* Auto Scale: `is.ng-instance-group`
-* Block Storage: `is.ng-volume`
+* Auto Scale: `is.instance-group`
+* Block Storage: `is.volume`
 * Block Storage Snapshots: `is.snapshot`
 * File Storage: `is.share`
-* Load balancer: `is.load-balancer`
+* Image: `is.image`
+* Load Balancer: `is.load-balancer`
+* Virtual Server: `is.instance`
 * VPN: `is.vpn`
 
 | Resource kind | Property | Operator type | Description |
@@ -334,6 +336,8 @@ Review the following table to learn more about the resource kinds, properties, a
 
 
 
+
+
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
 | `instance` | `profile_family` | string | A list of strings matching LoadBalancer profile family name from LoadBalancer profile family. Ex: [application, network] |
@@ -343,6 +347,8 @@ Review the following table to learn more about the resource kinds, properties, a
 {: tab-title="Load Balancer"}
 {: tab-group="vpc"}
 {: class="simple-tab-table"}
+
+
 
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
