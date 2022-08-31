@@ -33,19 +33,19 @@
       "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
       "tiles": [
         {
+          "date": "1 September 2022",
+          "title": "New properties available for VPC",
+          "description": "New properties are now available as part of Configuration Governance."
+        },
+        {
+          "date": "1 September 2022",
+          "title": "Removed: Credential passphrase",
+          "description": "As of today, you can no longer use a credential passphrase."
+        },
+        {
           "date": "11 August 2022",
-          "title": "Now available: New profile version.",
+          "title": "Now available: New profile version",
           "description": "Version 5 of the IBM Cloud for Financial Services is now available."
-        },
-        {
-          "date": "9 August 2022",
-          "title": "Now available: Longer default storage",
-          "description": "The data that is generated during a scan is now stored for 180 days."
-        },
-        {
-          "date": "3 August 2022",
-          "title": "Change to permission requiremnts for integrations",
-          "description": "IAM roles for managing integrations have been updated."
         }
       ]
     }

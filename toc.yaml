@@ -60,7 +60,6 @@ toc:
               - credentials-permissions.md
               - credentials-manage.md
               - credentials-mapping.md
-              - credentials-security.md
           - topicgroup:
               label: Discovering resources and configurations
               topics:

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-02"
+lastupdated: "2022-08-31"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -92,12 +92,7 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
    The level of access that your credentials need depends upon the actions that you want the {{site.data.keyword.compliance_short}} to take. If you want to run scans only on your resources, you must provide credentials that provide the collector `read` access to your resources. [Learn more](/docs/security-compliance?topic=security-compliance-permissions#understand-credentials).
    {: note}
 
-9. If a passphrase is configured, enter the passphrase. 
-
-   Credential passphrases are deprecated. If you are still using a passphrase please update to Bring Your Own Key functionality through the **Settings** page in the {{site.data.keyword.compliance_short}} UI.
-   {: deprecated}
-
-10. Verify your information and click **Create**. The credential is added to a list of available credentials.
+9. Verify your information and click **Create**. The credential is added to a list of available credentials.
 
 To edit or delete existing credentials, click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) and click **Edit** or **Delete**.
 {: tip}

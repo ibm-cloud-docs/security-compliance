@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-30"
+lastupdated: "2022-08-31"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -152,7 +152,6 @@ curl POST 'https://<region>.compliance.cloud.ibm.com/posture/v2/collectors?accou
          "is_public":true,
          "managed_by":"customer",
          "description": "This is my description.",
-         "passphrase":"secret",
          "is_ubi_image":true
          }'
 ```
@@ -167,7 +166,6 @@ curl POST 'https://<region>.compliance.cloud.ibm.com/posture/v2/collectors?accou
 | `is_public` | The type of endpoint that your collector is able to use to connect to your resources. If set to `false`, a private IP address that is accessible only through the {{site.data.keyword.cloud_notm}} private network is used. If set to `true`, the collector can access your resources over a public network. |
 | `managed_by` | The entity responsible for managing the collector. This value must be set to `customer`.|
 | `description`| Optional: A detailed description of how your collector is used.|
-| `passphrase` | If you or your organization have a passphrase that is enabled for the {{site.data.keyword.compliance_short}}, you must provide it exactly. Be sure to double check the passphrase before you run the command.|
 | `is_ubi_image` | The parameter `is_ubi_image` determines whether the collector has a UBI image. Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS. |
 {: caption="Table 2. Understanding the variables used to create a collector with the API" caption-side="top"}
 
@@ -385,4 +383,3 @@ To approve your collector, complete the following steps.
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Manage posture > Configure > Collectors**.
 3. In the **Collectors** table, click **Approval required** in the row that corresponds to the collector that you're working with. When the collector is approved, it switches to an **Active** status. It can take a few minutes for the approval to take effect and the status to change.
-4. If a passphrase is enabled, click **Passphrase** and enter the phrase. Be sure to enter your passphrase exactly.
