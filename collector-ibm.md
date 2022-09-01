@@ -117,11 +117,7 @@ curl POST 'https://<region>.compliance.cloud.ibm.com/posture/v2/collectors?accou
   -H 'Content-Type: application/json' \
   -d '{
         "name":"my_collector",
-<<<<<<< HEAD
         "is_public":true,    
-=======
-        "is_public":true,      
->>>>>>> 22f8b3a (remove reference to passphrase)
         "description": "This is my description.",
         "managed_by":"ibm",
         "is_ubi_image":true
