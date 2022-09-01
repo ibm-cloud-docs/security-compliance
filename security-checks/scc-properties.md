@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-17"
+lastupdated: "2022-08-31"
 
 keywords: config rules, config properties, scc integrated services, 
 
@@ -305,11 +305,13 @@ Review the following table to learn more about the resource kinds, properties, a
 
 Review the following table to learn more about the resource kinds, properties, and operators that are used to build a configuration rule that applies to Load Balancer for VPC. If you're using the API to define your rule, you can use the following values for the service name:
 
-* Auto Scale: `is.ng-instance-group`
-* Block Storage: `is.ng-volume`
+* Auto Scale: `is.instance-group`
+* Block Storage: `is.volume`
 * Block Storage Snapshots: `is.snapshot`
 * File Storage: `is.share`
-* Load balancer: `is.load-balancer`
+* Image: `is.image`
+* Load Balancer: `is.load-balancer`
+* Virtual Server: `is.instance`
 * VPN: `is.vpn`
 
 | Resource kind | Property | Operator type | Description |
@@ -322,6 +324,15 @@ Review the following table to learn more about the resource kinds, properties, a
 {: class="simple-tab-table"}
 
 
+| Resource kind | Property | Operator type | Description |
+|:--------------|:---------|:--------------|:------------|
+| `instance` | `user_managed_encryption` | boolean | A boolean indicates whether customer managed encryption is encrypted or not. |
+{: caption="Table 18. Rule properties that are available for VPC" caption-side="bottom"}
+{: #bs-vpc-properties}
+{: tab-title="Block Storage"}
+{: tab-group="vpc"}
+{: class="simple-tab-table"}
+
 
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
@@ -332,7 +343,23 @@ Review the following table to learn more about the resource kinds, properties, a
 {: tab-group="vpc"}
 {: class="simple-tab-table"}
 
+| Resource kind | Property | Operator type | Description |
+|:--------------|:---------|:--------------|:------------|
+| `instance` | `encryption` | string | The type of encryption used. Value can either by `user_managed` or `provider_managed`. |
+{: caption="Table 18. Rule properties that are available for VPC" caption-side="bottom"}
+{: #fs-vpc-properties}
+{: tab-title="File Storage"}
+{: tab-group="vpc"}
+{: class="simple-tab-table"}
 
+| Resource kind | Property | Operator type | Description |
+|:--------------|:---------|:--------------|:------------|
+| `instance` | `encryption` | string | A string that indicates whether customer-managed key encryption is enabled. Options include: [`user_managed`, `none`] |
+{: caption="Table 18. Rule properties that are available for VPC" caption-side="bottom"}
+{: #image-vpc-properties}
+{: tab-title="Image"}
+{: tab-group="vpc"}
+{: class="simple-tab-table"}
 
 | Resource kind | Property | Operator type | Description |
 |:--------------|:---------|:--------------|:------------|
@@ -341,6 +368,16 @@ Review the following table to learn more about the resource kinds, properties, a
 {: caption="Table 18. Rule properties that are available for VPC" caption-side="bottom"}
 {: #lb-vpc-properties}
 {: tab-title="Load Balancer"}
+{: tab-group="vpc"}
+{: class="simple-tab-table"}
+
+| Resource kind | Property | Operator type | Description |
+|:--------------|:---------|:--------------|:------------|
+| `instance` | `floating_ips_allowed` | boolean | A boolean indicating whether or not floating IPs can be associated with the network interfaces of the instance. |
+| `instance` | `metadata_service_enabled` | boolean | A boolean indicating whether or not the metadata service can be enabled for the instance. |
+{: caption="Table 18. Rule properties that are available for VPC" caption-side="bottom"}
+{: #vsi-vpc-properties}
+{: tab-title="Virtual Server"}
 {: tab-group="vpc"}
 {: class="simple-tab-table"}
 

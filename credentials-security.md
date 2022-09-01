@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-01"
+lastupdated: "2022-09-01"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -48,12 +48,13 @@ subcollection: security-compliance
 # Managing the security of your credentials
 {: #passphrase}
 
-
-Starting 1 September 2022, the ability to enable a passphrase will no longer be supported in favor of Bring Your Own Key (BYOK) functionality. To ensure that your experience is not disrupted, you must update your credentials security setting to IBM-managed. Then, you can manage your data encryption options from Global settings page.  For more information about the BYOK functionality, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data)
+<deprecate-passphrase>
+Starting XX Month 2022, the ability to enable a passphrase in {{site.data.keyword.compliance_short}} will no longer be supported. After this date, the credentials that you add to the service will be encrypted at rest by using an IBM-managed key. To control the encryption of your data, you can enable a key management service and select your own key from the Global settings page. For more information, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
 {: deprecated}
+</deprecate-passphrase>
 
 A credential passphrase is an arbitrary string that you can use to ensure the security of the credentials that you add to the service. As a user, you can choose to have IBM manage the security of your credentials, or you can choose to manage it yourself.
-
+{: shortdesc}
 
 ## Understanding passphrases
 {: #understand-passphrase}

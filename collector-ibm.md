@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-13"
+lastupdated: "2022-09-01"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials, ibm managed collector, ibm managed
 
@@ -91,18 +91,17 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
 
    It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
 
-5. If you enabled a passphrase, the **Existing passphrase** field displays. Enter your passphrase. If you did not enable a passphrase, the field does not display.
-6. Click **Next**.
-7. In the **Managed by** field, select **IBM**.
-8. **UBI** is selected as the default container **image type**.
+5. Click **Next**.
+6. In the **Managed by** field, select **IBM**.
+7. **UBI** is selected as the default container **image type**.
 
    Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS.
 
-9. By default, the **Private** endpoint type is selected.
+8. By default, the **Private** endpoint type is selected.
 
    A collector requires constant communication with the service to validate your current posture. By default, a private endpoint is used for communication in all IBM managed collectors.
 
-10. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
+9. Click **Create**. When the collector is created successfully, the status updates to **Installing**.
 
 When it's time for your scan to run, the status updates to **Active**.
 
@@ -118,8 +117,7 @@ curl POST 'https://<region>.compliance.cloud.ibm.com/posture/v2/collectors?accou
   -H 'Content-Type: application/json' \
   -d '{
         "name":"my_collector",
-        "is_public":true,
-        "passphrase":"secret",        
+        "is_public":true,    
         "description": "This is my description.",
         "managed_by":"ibm",
         "is_ubi_image":true
@@ -134,7 +132,6 @@ curl POST 'https://<region>.compliance.cloud.ibm.com/posture/v2/collectors?accou
 | `IAMToken` | For help with creating your IAM token, see [Generating an {{site.data.keyword.cloud_notm}} IAM token by using an API key](/docs/account?topic=account-iamtoken_from_apikey).|
 | `name` | The name that you want your collector to have. It must be unique to the {{site.data.keyword.compliance_short}} instance that you're working with.|
 | `is_public` | The type of endpoint that your collector is able to use to connect to your resources. This value must be set to `false`, which means that a private IP address that is accessible only through the {{site.data.keyword.cloud_notm}} private network is used.|
-| `passphrase` | If you or your organization enabled a passphrase for the {{site.data.keyword.compliance_short}}, you must provide it exactly. Be sure to double check the passphrase before you run the command.|
 | `description`| Optional: A detailed description of how you intend to use your collector.|
 | `managed_by` | The entity responsible for managing the collector. This value must be set to `ibm`.|
 | `is_ubi_image` | The parameter `is_ubi_image` determines whether the collector has a UBI image. Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS. |

@@ -52,6 +52,17 @@ content-type: release-note
 
 
 
+## 1 September 2022
+{: #security-compliance-sept0122}
+{: release-note}
+
+New properties available for Virtual Private Cloud
+:   {{site.data.keyword.cloud_notm}} Virtual Private Cloud now has additional properties available as part of the Configuration Governance component. You can create guardrails for virtual servers such as restricting the use of floating IPs and service metadata. For more information about the integration and view other available properties, see the [VPC documentation](/docs/vpc?topic=vpc-manage-security-compliance).
+
+Removed: Credential passphrase
+:   As of today, 1 September 2022, the ability to use a passphrase to manage the security of your credentials is deprecated in favor of Bring Your Own Key (BYOK) functionality. If you did not disable your passphrase and return to IBM-managed, you must recreate all of your credentials to continue to scan your resources. For help enabling BYOK or to learn more about how your credentials are protected, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
+
+
 
 ## 11 August 2022
 {: #security-compliance-aug1222}
@@ -59,8 +70,6 @@ content-type: release-note
 
 Now available: New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
 :   Version 0.5.0  of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-profile-change-log).
-
-
 
 
 ## 9 August 2022
