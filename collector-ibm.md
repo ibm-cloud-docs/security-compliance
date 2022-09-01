@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-31"
+lastupdated: "2022-09-01"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials, ibm managed collector, ibm managed
 
@@ -117,7 +117,11 @@ curl POST 'https://<region>.compliance.cloud.ibm.com/posture/v2/collectors?accou
   -H 'Content-Type: application/json' \
   -d '{
         "name":"my_collector",
+<<<<<<< HEAD
         "is_public":true,    
+=======
+        "is_public":true,      
+>>>>>>> 22f8b3a (remove reference to passphrase)
         "description": "This is my description.",
         "managed_by":"ibm",
         "is_ubi_image":true
