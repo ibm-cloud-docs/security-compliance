@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-13"
+lastupdated: "2022-09-08"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -83,12 +83,12 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the rules th
    4. Click **Add to rule**.
 5. Configure your properties. To add additional properties to your rule, repeat this step. You can select up to 5 different conditions and 16 properties to create your rule.
 
-   To see all of the properties that are available for the service that you selected, you can click **Available Properties** in the **Definition** step. To see the available properties for all integrated services, see [Available properties](/docs/security-compliance?topic=security-compliance-available-rule-properties).
+   To see all the properties that are available for the service that you selected, you can click **Available Properties** in the **Definition** step. To see the available properties for all integrated services, see [Available properties](/docs/security-compliance?topic=security-compliance-available-rule-properties).
    {: tip}
 
    1. Select a **Condition**.
 
-      * **And**: When you select *And* as your condition, all of the property configurations that you add to your rule must evaluate to true in order for the rule to be compliant.
+      * **And**: When you select *And* as your condition, all the property configurations that you add to your rule must evaluate to true in order for the rule to be compliant.
       * **Or**: When you select *Or* as your condition, only part of your rule must evaluate to true for it to be compliant.
    2. From the **Property** drop-down, select the property that you want to set a configuration for.
    3. From the **Operator** drop-down, select an operator.

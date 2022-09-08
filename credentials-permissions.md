@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-14"
+lastupdated: "2022-09-08"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -54,7 +54,7 @@ To scan your resources located in {{site.data.keyword.cloud_notm}}, Amazon Web S
 ## Assigning specific permissions for {{site.data.keyword.cloud_notm}}
 {: #ibm-permissions}
 
-You must assign your service ID API key `viewer` access to all of the resources that want the service to evaluate and for all of the account management services that are used as part of the evaluation.
+You must assign your service ID API key `viewer` access to all the resources that want the service to evaluate and for all the account management services that are used as part of the evaluation.
 
 For more help assigning these permissions, check out the tutorial [Managing credentials for IBM Cloud resources](/docs/security-compliance?topic=security-compliance-ibm-credential).
 {: tip}

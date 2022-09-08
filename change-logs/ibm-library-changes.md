@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-25"
+lastupdated: "2022-09-08"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -57,7 +57,7 @@ As of 27 May 2022, the {{site.data.keyword.cloud_notm}} Best Practices Controls 
 ## Profile versioning
 {: #cl-profile-versioning}
 
-The {{site.data.keyword.cloud_notm}} Control Library profile is an exhaustive list of all of the controls and goals that are available for {{site.data.keyword.cloud_notm}}. The profile is consistently updated and can change at any time, which can cause your compliance score to change without any update to your configuration. When new goals or controls are edited or removed from the profile in a way that is not compatible with the current version, a new version is released.
+The {{site.data.keyword.cloud_notm}} Control Library profile is an exhaustive list of all the controls and goals that are available for {{site.data.keyword.cloud_notm}}. The profile is consistently updated and can change at any time, which can cause your compliance score to change without any update to your configuration. When new goals or controls are edited or removed from the profile in a way that is not compatible with the current version, a new version is released.
 
 ## 25 July 2022
 {: #ibmcl-jul2522}
@@ -99,11 +99,11 @@ This update adds goals that are based on functionality that helps you to maintai
 {: #ibmcl-may2722}
 
 
-Profiles are constantly expanding and are not an exhaustive list of all of the controls that might be required for every organization. Users can validate the available goals and determine where a need to supplement their workloads with other security and compliance measures exists.
+Profiles are constantly expanding and are not an exhaustive list of all the controls that might be required for every organization. Users can validate the available goals and determine where a need to supplement their workloads with other security and compliance measures exists.
 {: note}
 
 Now available: The {{site.data.keyword.cloud_notm}} Control Library profile
-:    As part of this release the {{site.data.keyword.cloud_notm}} Control Library 1.0 profile was renamed to the {{site.data.keyword.cloud_notm}} Control Library. The {{site.data.keyword.cloud_notm}} Control Library is a profile that contains all of the available controls and goals that are available for {{site.data.keyword.cloud_notm}}. The library cannot be used to scan your resources directly, but you are able to create a custom profile from the library. 
+:    As part of this release the {{site.data.keyword.cloud_notm}} Control Library 1.0 profile was renamed to the {{site.data.keyword.cloud_notm}} Control Library. The {{site.data.keyword.cloud_notm}} Control Library is a profile that contains all the available controls and goals that are available for {{site.data.keyword.cloud_notm}}. The library cannot be used to scan your resources directly, but you are able to create a custom profile from the library. 
 
 
 ## 23 March 2022

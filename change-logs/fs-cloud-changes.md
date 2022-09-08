@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-22"
+lastupdated: "2022-09-08"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -56,7 +56,7 @@ In this change log, you can learn about the latest changes, improvements, and up
 
 When goals or controls are edited, removed from, or added to a profile in a way that is not compatible with the current version, a new minor version is released. To take advantage of the changes in a new version, update your scans to use the newest profile version. 
 
-The {{site.data.keyword.cloud_notm}} for Financial Services profile is consistently updated and is not an exhaustive list of all of the controls that might be required for every organization. Users can validate the available goals and determine where a need to supplement their workloads with other security measures exists.
+The {{site.data.keyword.cloud_notm}} for Financial Services profile is consistently updated and is not an exhaustive list of all the controls that might be required for every organization. Users can validate the available goals and determine where a need to supplement their workloads with other security measures exists.
 {: important}
 
 
@@ -258,8 +258,8 @@ In addition to small bug fixes and general updates, version 0.4.0 of the {{site.
 | `3000118` | `AU-2(a)`, `AU-2(d)`, `SI-4(a)`, `SI-4(b)`, `SI-4(c)`, `AC-2(4)`, `AC-2(7)(b)`, `AC-2(g)`, `AC-6(9)`, `AU-12(a)`, `AU-12(b)`, `AU-12(c)`, `AU-3`, `AU-8(a)`, `AU-8(b)`, `AU-8(1)(a)`, `AU-8(1)(b)` and `CA-7(d)` | The goal was added. |
 | `3000447` | `SC-8` | The goal was added. |
 | `3000461` | `AC-13` and `SC-28`| The goal was added. |
-| `3000049` | `AC-11(a)` | Goal logic is updated to include all of the locations for IAM account settings that are supported by IBM Cloud. |
-| `3000050` | `SC-10` | Goal logic is updated to include all of the locations for IAM account settings that are supported by IBM Cloud. |
+| `3000049` | `AC-11(a)` | Goal logic is updated to include all the locations for IAM account settings that are supported by IBM Cloud. |
+| `3000050` | `SC-10` | Goal logic is updated to include all the locations for IAM account settings that are supported by IBM Cloud. |
 | `3000020` | `AC-3`, `AC-6-0`, `SC-7-0`, and `SC-7(5)` | The goal text is updated. |
 {: caption="Table. Summary of {{site.data.keyword.cloud_notm}} for Financial Services profile changes for 23 June 2022" caption-side="top"}
 
@@ -290,7 +290,7 @@ In addition to small bug fixes and general updates, version 0.3.0 of the {{site.
 | `3000474` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal mapping is updated to be added to the listed associated controls. |
 | `3000475` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal mapping is updated to be added to the listed associated controls. |
 | `3000476` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal mapping is updated to be added to the listed associated controls. |
-| `3000510` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal logic was updated to include all of the locations for Hyper Protect Crypto Services that are supported by IBM Cloud. |
+| `3000510` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal logic was updated to include all the locations for Hyper Protect Crypto Services that are supported by IBM Cloud. |
 | `3000603` |  | Goal is removed from the profile. |
 | `3000711` | `AC-3` and `AC-6-0`</br></br> `AC-8` | Goal is removed from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control. |
 | `3000712` | `AC-3` and `AC-6-0`</br></br> `AC-8` | Goal is removed from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control. |

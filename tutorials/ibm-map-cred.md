@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-23"
+lastupdated: "2022-09-08"
 
 keywords: ibm credentials, scc, security and compliance for ibm, compliance scan, {{site.data.keyword.cloud_notm}} resources
 
@@ -111,7 +111,7 @@ When you configure your scope, you must **Enable integrated profiles** in order 
       ```
       {: codeblock}
    
-4. Repeat these steps as necessary until you have added all of the clusters that you want to scan.
+4. Repeat these steps as necessary until you have added all the clusters that you want to scan.
 
 
 ## Configure {{site.data.keyword.containershort}} permissions
@@ -144,7 +144,7 @@ To enable scanning of your clusters, you must map additional information and con
       ```
       {: codeblock}
    
-3. Repeat these steps as necessary until you have added all of the clusters that you want to scan.
+3. Repeat these steps as necessary until you have added all the clusters that you want to scan.
 
 
 ## Configure Activity Tracker permissions

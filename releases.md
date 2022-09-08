@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-09"
+lastupdated: "2022-09-08"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -135,14 +135,14 @@ As of 1 June 2022, the Security Insights component of {{site.data.keyword.compli
 {: #security-compliance-may2722}
 {: release-note}
 
-Profiles are constantly expanding and are not an exhaustive list of all of the controls that might be required for every organization. Users can validate the available goals and determine where a need to supplement their workloads with other security and compliance measures exists.
+Profiles are constantly expanding and are not an exhaustive list of all the controls that might be required for every organization. Users can validate the available goals and determine where a need to supplement their workloads with other security and compliance measures exists.
 {: note}
 
 Now available: {{site.data.keyword.cloud_notm}} Security Best Practices Controls profile
 :    Released today, the {{site.data.keyword.cloud_notm}} Security Best Practices profile is a collection of goals that can help an organization to ensure that they are adhering to best practices as defined by {{site.data.keyword.cloud_notm}} security.
 
 Now available: The {{site.data.keyword.cloud_notm}} Control Library profile
-:    As part of this release the {{site.data.keyword.cloud_notm}} Best Practices Controls 1.0 profile was renamed to the {{site.data.keyword.cloud_notm}} Control Library. The {{site.data.keyword.cloud_notm}} Control Library is a profile that contains all of the available controls and goals that are available for {{site.data.keyword.cloud_notm}}. The library cannot be used to scan your resources directly, but you are able to create a custom profile from the library. 
+:    As part of this release the {{site.data.keyword.cloud_notm}} Best Practices Controls 1.0 profile was renamed to the {{site.data.keyword.cloud_notm}} Control Library. The {{site.data.keyword.cloud_notm}} Control Library is a profile that contains all the available controls and goals that are available for {{site.data.keyword.cloud_notm}}. The library cannot be used to scan your resources directly, but you are able to create a custom profile from the library. 
 
 Now available: New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
 :   Version 0.3.0  of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-profile-change-log).
