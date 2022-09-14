@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-09-08"
+lastupdated: "2022-09-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -80,10 +80,11 @@ The following table shows the service behavior changes for each version date. Sw
 
 
 
+
 ## Version 0.5.0
 {: #fs-cloud-v050}
 
-In addition to small bug fixes and general updates, version 0.5.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available and has been updated with the following changes as of 11 August 2022.
+Version 0.5.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available and has been updated with the following changes as of 11 August 2022.
 
 Control SC-28 is renamed to SC-28-0 and control SC-12 is renamed to SC-12-0.
 {: note}
@@ -239,7 +240,7 @@ Control SC-28 is renamed to SC-28-0 and control SC-12 is renamed to SC-12-0.
 | `3000903` | `IA-2-0` and `IA-5(c)`  \n  \n `AC-4` and `SC-12` | The goal was added.  \n  \n The goal was removed. |
 | `3000906` | `CM-7(a)`, `CM-7(b)`, `SC-7(4)(c)`, and `SC-11` | The goal was added. |
 | `3000915` | `CP-7(a)`, `CP-7(b)`, and `CP-7(c)`  \n  \n `CA-7(a)` | The goal was added.  \n  \n The goal was removed. |
-{: caption="Table. Summary of {{site.data.keyword.cloud_notm}} for Financial Services profile changes for 11 August 2022" caption-side="top"}
+{: caption="Table. Summary of the changes for version 0.5.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
 
 ## Version 0.4.0
@@ -261,7 +262,7 @@ In addition to small bug fixes and general updates, version 0.4.0 of the {{site.
 | `3000049` | `AC-11(a)` | Goal logic is updated to include all the locations for IAM account settings that are supported by IBM Cloud. |
 | `3000050` | `SC-10` | Goal logic is updated to include all the locations for IAM account settings that are supported by IBM Cloud. |
 | `3000020` | `AC-3`, `AC-6-0`, `SC-7-0`, and `SC-7(5)` | The goal text is updated. |
-{: caption="Table. Summary of {{site.data.keyword.cloud_notm}} for Financial Services profile changes for 23 June 2022" caption-side="top"}
+{: caption="Table. Summary of the changes for version 0.4.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
 
 
@@ -295,13 +296,13 @@ In addition to small bug fixes and general updates, version 0.3.0 of the {{site.
 | `3000711` | `AC-3` and `AC-6-0`</br></br> `AC-8` | Goal is removed from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control. |
 | `3000712` | `AC-3` and `AC-6-0`</br></br> `AC-8` | Goal is removed from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control. |
 | `3000907` | `SA-3(a)` | Goal is removed from the listed associated control. |
-{: caption="Table. Summary of {{site.data.keyword.cloud_notm}} for Financial Services profile changes for 26 May 2022" caption-side="top"}
+{: caption="Table. Summary of the changes for version 0.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
 
 ## Version 0.2.0
 {: #fs-cloud-v020}
 
-In addition to small bug fixes and general updates, version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is updated with the following changes as of 4 May 2022.
+Version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is updated with the following changes as of 4 May 2022.
 
 | Goal ID | Associated controls | Update made |
 |:----------|:-------------|:------------|
@@ -310,25 +311,19 @@ In addition to small bug fixes and general updates, version 0.2.0 of the {{site.
 | `3000601` | `CM-8(3)(a)`, `RA-5(a)`, `SI-2(2)`, and `SI-2(a)` | Updated messaging. |
 | `3000407` | `SC-8-0`, `SC-8(1)`, `SC-13`, and `SC-23` | Updated goal and fact collection logic. |
 | `3000462` | `CM-2`, `CM-7(a)`, `CM-8(3)(a)`, and `SA-3(a)` | Updated goal and fact collection logic. |
-| `3000029`* | `AC-3`, `AC-5(b)`, `AC-6-0`, and `AC-2(i)` | Goal is removed. |
-{: caption="Table 1. Summary of {{site.data.keyword.cloud_notm}} for Financial Services profile changes for 4 May 2022" caption-side="top"}
+| `3000029` | `AC-3`, `AC-5(b)`, `AC-6-0`, and `AC-2(i)` | Goal is removed. |
+| `3000418` | `AC-4`, `CM-2`, `SC-7`, `SC-7(3)`, and `SC-7(5)` | Goal is added. |
+| `3000047` | `SA-4(a)`, `SA-4(b)`, `SA-4(c)`, `SA-9`, `AC-20`, `ESA-3`, `ESA-5`, and `CA-3` | Goal is added. |
+| `3000282` | `AU-4` and `AU-11` | Goal is added. |
+| `3000283` | `AU-4`, `AU-11`, `SC-6`, and `SI-12` | Goal is added. |
+| `3000322` | `SC-13` and `SC-28` | Goal is added. |
+| `3000323` | `SC-13` and `SC-28` | Goal is added. |
+| `3000471` | `AC-4`, `SC-2`, and `SC-3` | Goal is added. |
+| `3000472` | `AC-4`, `SC-2`, and `SC-3` | Goal is added. |
+| `3000915` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal is added. |
+{: caption="Summary of the changes for version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
 *This goal is also removed from version 0.1.4.
-
-
-As of 5 April 2022, version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls.
-
-Goals that were added:
-
-* Goal ID: `3000418` mapped to the controls `AC-4`, `CM-2`, `SC-7`, `SC-7(3)`, and `SC-7(5)`
-* Goal ID: `3000047` mapped to the controls `SA-4(a)`, `SA-4(b)`, `SA-4(c)`, `SA-9`, `AC-20`, `ESA-3`, `ESA-5`, and `CA-3`
-* Goal ID: `3000282` mapped to the controls `AU-4` and `AU-11`
-* Goal ID: `3000283` mapped to the controls `AU-4`, `AU-11`, `SC-6`, and `SI-12`
-* Goal ID: `3000322` mapped to the controls `SC-13` and `SC-28`
-* Goal ID: `3000323` mapped to the controls `SC-13` and `SC-28`
-* Goal ID: `3000471` mapped to the controls `AC-4`, `SC-2`, and `SC-3`
-* Goal ID: `3000472` mapped to the controls `AC-4`, `SC-2`, and `SC-3`
-* Goal ID: `3000915` mapped to the controls `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6`
 
 
 ## Version 0.1.4
