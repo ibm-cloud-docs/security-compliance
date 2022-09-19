@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-04-22"
+lastupdated: "2022-09-19"
 
 keywords: evaluation results, rule results, configuration results, resource configuration, 
 
@@ -85,7 +85,7 @@ From the details page, you can view a summary of your evaluation results for any
 ## Downloading a report
 {: #download-report-config}
 
-With the {{site.data.keyword.compliance_short}}, your results are kept for 7 days. In preparation for an audit or to maintain a longer history, you might want to download your detailed evidence. 
+With the {{site.data.keyword.compliance_short}}, your results are kept for 7 days. In preparation for an audit or to maintain a longer history, you might want to download your detailed evidence.
 
 When you download a report, you can see results for the information that is detailed in the following table.
 
