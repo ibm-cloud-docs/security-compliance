@@ -93,16 +93,6 @@ Attachment
 
 
 
-
-
-
-
-
-
-
-
-
-
 ## How do I get started?
 {: #profile-get-started}
 
