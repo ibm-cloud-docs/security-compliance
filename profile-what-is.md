@@ -64,7 +64,7 @@ Profiles consist of several interrelated components, including controls and goal
 
 The basic building block of a profile is a [control](#x2018434){: term}. Controls can be broad guidelines, such as security requirements to encrypt data at rest or prevent unprivileged access to confidential systems.
 
-You can implement a control by meeting one or more [goals](#x2117978){: term}. In {{site.data.keyword.compliance_short}}, goals are used to evaluate whether a control is being met. {{site.data.keyword.compliance_short}} maps goals to external regulatory libraries of controls, divided into families (groups), that are used to prove that you are compliant with the required standards for your industry. Each control can apply to one or more profiles and there might be one or more goals that are required to be fully compliant with each control. To see how control libraries map to goals, check out the following image.
+You can implement a control by meeting one or more [goals](#x2117978){: term}. In {{site.data.keyword.compliance_short}}, goals are used to evaluate whether a control is being met. {{site.data.keyword.compliance_short}} maps goals to external regulatory libraries of controls, which are divided into families (groups), that are used to prove that you are compliant with the required standards for your industry. Each control can apply to one or more profiles and one or more goals might be required to be fully compliant with each control. To see how control libraries map to goals, check out the following image.
 
 ![Profile layout shown in diagram format. The information that is shown in the image is described in the surrounding text.](/images/profiles.svg){: caption="Figure 1. Understanding profiles" caption-side="bottom"}
 
@@ -73,7 +73,7 @@ You can implement a control by meeting one or more [goals](#x2117978){: term}. I
 ## Working with profiles
 {: #profile-types}
 
-When you work with profiles in the {{site.data.keyword.compliance_short}}, you interact with predefined or custom profiles that are used to evaluate a specific set of resources known as a scope.
+When you work with profiles in the {{site.data.keyword.compliance_short}}, you interact with predefined or custom profiles that are used to evaluate a specific set of resources that are known as a scope.
 
 Predefined profiles
 :   Predefined profiles contain collections of controls that are curated based on standards for an industry. 
