@@ -184,10 +184,10 @@ When your scan is complete, you can return the {{site.data.keyword.compliance_sh
 
    A scan details page opens. On your scan details page, you can view any potential issues by control or by resource and view your compliance score. You can also see a history of scans that were previously run on your data. The formatting of your results might vary depending on the format that you selected as part of set up.
 
-### Analyzing error messages 
+### Analyzing error messages from the API 
 {: #errors-tanium}
 
-You may receive some error messages in specific scenarios. By understanding the potential responses, you are better equipped to correct the issue. 
+You may receive error messages in specific scenarios. By understanding the potential responses, you are better equipped to correct the issue. 
 
 #### Multi-profile results 
 {: #multi-profile}
@@ -198,7 +198,7 @@ You cannot post multi-profile results. You must post single profile results. Whe
 [{"Computer Name":"local","Tanium Client IP Address":"11.2.3.1","IP Address":"1.2.3.4","Comply - Compliance Findings":[{"Check ID":"CIS Microsoft Windows Server Benchmark;1.0.0;L3 Mapping;xccdf_com.tanium.comply_tailoring_1636051234;xccdf_org.cisecurity.benchmarks_rule_11.3.4_L2_Ensure_Audit_Other_LogonLogoff_Events_is_set_to_Success_and_Failure","State":"fail","Category":"Fail","Rule ID":"xccdf_org.cisecurity.benchmarks_rule_11.3.4_L2_Ensure_Audit_Other_LogonLogoff_Events_is_set_to_Success_and_Failure"}],"Count":"1"},{"Computer Name":"local","Tanium Client IP Address":"11.2.3.1","IP Address":"1.2.3.4","Comply - Compliance Findings":[{"Check ID":"CIS Microsoft Azure Server Benchmark;1.0.0;L3 Mapping;xccdf_com.tanium.comply_tailoring_1636051234;xccdf_org.cisecurity.benchmarks_rule_11.3.4_L2_Ensure_Audit_Other_LogonLogoff_Events_is_set_to_Success_and_Failure","State":"fail","Category":"Fail","Rule ID":"xccdf_org.cisecurity.benchmarks_rule_11.3.4_L2_Ensure_Audit_Other_LogonLogoff_Events_is_set_to_Success_and_Failure"}],"Count":"1"}]
 ```
 
-You will receive the following response.
+You receive the following response.
 
 ```json
 {

@@ -91,8 +91,6 @@ Custom profiles
 Attachment
 :   To start evaluating your resources for compliance by using a specific profile, you must create an attachment between your scope and the profile. To create the attachment, you [schedule a scan](/docs/security-compliance?topic=security-compliance-schedule-scan). 
 
-<customer-updates>
-
 ## Monitoring resources
 {: #profile-monitor}
 
