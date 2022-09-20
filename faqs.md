@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-09-19"
+lastupdated: "2022-09-20"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -100,3 +100,8 @@ The {{site.data.keyword.compliance_short}} is configured to detect key disable e
 
 If you suspect that your data or key becomes compromised, you can [disable the keys](/docs/key-protect?topic=key-protect-disable-keys) in {{site.data.keyword.keymanagementserviceshort}} until you're sure it's safe. Then, you can re-enable it. Shredding data like this is called crypto shredding.
 
+## Why do I have to create a collector?
+{: #faq-create-collector}
+{: faq}
+
+To manage the security and compliance of your resources, the {{site.data.keyword.compliance_short}} needs to access your environment. To do so, you must provide authorization by using the collector. If IBM manages your collector, you provide only[credentials](/docs/security-compliance?topic=security-compliance-what-are-credentials&interface=ui). If you choose to manage your collector, see [What is a collector](/docs/security-compliance?topic=security-compliance-collector&interface=ui).

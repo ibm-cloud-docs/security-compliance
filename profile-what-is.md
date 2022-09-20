@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-09-19"
+lastupdated: "2022-09-20"
 
 keywords: profiles, user-defined, predefined profiles, controls, goals, nist, best practices, security, compliance
 
@@ -91,7 +91,43 @@ Custom profiles
 Attachment
 :   To start evaluating your resources for compliance by using a specific profile, you must create an attachment between your scope and the profile. To create the attachment, you [schedule a scan](/docs/security-compliance?topic=security-compliance-schedule-scan). 
 
+<customer-updates>
 
+## Monitoring resources
+{: #profile-monitor}
+
+You can monitor resources across various {{site.data.keyword.cloud_notm}} services by using the profiles that you select or create. Goals are continuously updated. The following table lists the resources that can be monitored. It also specifies which resources can be evaluated by using the {{site.data.keyword.cloud_notm}} for Financial Services profile. 
+
+| Service | Monitored by Financial Services |
+| ------- | ------------------------------- |
+| Activity Tracker | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| App ID |  ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Bare Metal Servers |  |
+| Certificate Manager |  |
+| Cloudant | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Cloud Internet Services (CIS) |      |
+| {{site.data.keyword.cloud_notm}} Monitoring | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Cloud Object Storage | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Cloud Shell |      |
+| Code Engine |      |
+| Container Registry | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| {{site.data.keyword.cloud_notm}} Databases \n Databases for MongoDB* \n Databases for Redis \n Databases for Elasticsearch \n Databases for etcd \n Databases for PostgreSQL \n Databases for Cloudant | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Direct Link | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Event Streams | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+|  |        |
+| Hyper Protect Crypto Services* \n Hyper Protect DBaaS for MongoDB  | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| IAM | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Key Protect |       |
+| Kubernetes Service |          |
+| Red Hat OpenShift Kubernetes Service |            |
+| Satellite Red Hat OpenShift Kubernetes Service |            |
+| Schematics |           |
+| Secrets Manager |           |
+| Security Insights | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Toolchain |          |
+| Transit Gateway | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Virtual Private Cloud \n VPN for VPC* \n File Storage for VPC \n Application Load Balancer for VPC \n Security Groups for VPC* \n Flow Logs for VPC* \n Block Storage for VPC | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+{: caption="Table 1. {{site.data.keyword.cloud_notm}} services that can be monitored" caption-side="top"}
 
 ## How do I get started?
 {: #profile-get-started}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-09-19"
+lastupdated: "2022-09-20"
 
 keywords: evaluation results, rule results, configuration results, resource configuration, 
 
@@ -60,9 +60,9 @@ Before you get started, be sure that you have the required level of access to vi
 ## Understanding your results
 {: #understand-results}
 
-To access the evaluation results for your rules, go to the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > View results**.
+To access the evaluation results for your rules, go to the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > View results**.For more information, see [Understanding the dashboard](/docs/security-compliance?topic=security-compliance-view-posture#view-dashboard).
 
-From the details page, you can view a summary of your evaluation results for any existing rules that are attached to scopes. When an issue is flagged that you want to know more about, you can drill into the results to get to your wanted level of information. At each level, you can download a detailed report with the information that is available at that level. Check out the following image to see the level of detail that you can achieve by investigating.
+From the details page, you can view a summary of your evaluation results for any existing rules that are attached to scopes. When an issue is flagged that you want to know more about, you can drill into the results to get to your wanted level of information. For more information, see [Viewing scope details](/docs/security-compliance?topic=security-compliance-view-scope). At each level, you can download a detailed report with the information that is available at that level. Check out the following image to see the level of detail that you can achieve by investigating.
 
 ![The diagram shows the path to the specific resource result that you might want to see. It is outlined in the following steps.](images/results-drilldown.svg){: caption="Figure 1. Navigating to specific results" caption-side="bottom"}
 
@@ -85,7 +85,7 @@ From the details page, you can view a summary of your evaluation results for any
 ## Downloading a report
 {: #download-report-config}
 
-With the {{site.data.keyword.compliance_short}}, your results are kept for 7 days. In preparation for an audit or to maintain a longer history, you might want to download your detailed evidence.
+With the {{site.data.keyword.compliance_short}}, your results are kept for 7 days. In preparation for an audit or to maintain a longer history, you might want to download your detailed evidence.For more information, see [Downloading a report](/docs/security-compliance?topic=security-compliance-view-posture#download-report).
 
 When you download a report, you can see results for the information that is detailed in the following table.
 
