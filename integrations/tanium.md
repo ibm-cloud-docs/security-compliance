@@ -189,16 +189,47 @@ When your scan is complete, you can return the {{site.data.keyword.compliance_sh
 
 You may receive error messages in specific scenarios. By understanding the potential responses, you are better equipped to correct the issue. 
 
-#### Multi-profile results 
+#### Posting multi-profile results 
 {: #multi-profile}
 
-You cannot post multi-profile results. You must post single profile results. When you attempt to post multi-profile results, you receive an error message that prompts you to try again with the correct information. The following example shows how you can encounter this scenario.
+You cannot post multi-profile results. You must post single profile results. When you attempt to post multi-profile results, you receive an error message that prompts you to try again with the correct information. The following request is an example of how you can encounter this scenario.
 
 ```json
-[{"Computer Name":"local","Tanium Client IP Address":"11.2.3.1","IP Address":"1.2.3.4","Comply - Compliance Findings":[{"Check ID":"CIS Microsoft Windows Server Benchmark;1.0.0;L3 Mapping;xccdf_com.tanium.comply_tailoring_1636051234;xccdf_org.cisecurity.benchmarks_rule_11.3.4_L2_Ensure_Audit_Other_LogonLogoff_Events_is_set_to_Success_and_Failure","State":"fail","Category":"Fail","Rule ID":"xccdf_org.cisecurity.benchmarks_rule_11.3.4_L2_Ensure_Audit_Other_LogonLogoff_Events_is_set_to_Success_and_Failure"}],"Count":"1"},{"Computer Name":"local","Tanium Client IP Address":"11.2.3.1","IP Address":"1.2.3.4","Comply - Compliance Findings":[{"Check ID":"CIS Microsoft Azure Server Benchmark;1.0.0;L3 Mapping;xccdf_com.tanium.comply_tailoring_1636051234;xccdf_org.cisecurity.benchmarks_rule_11.3.4_L2_Ensure_Audit_Other_LogonLogoff_Events_is_set_to_Success_and_Failure","State":"fail","Category":"Fail","Rule ID":"xccdf_org.cisecurity.benchmarks_rule_11.3.4_L2_Ensure_Audit_Other_LogonLogoff_Events_is_set_to_Success_and_Failure"}],"Count":"1"}]
+[
+   {
+      "Computer Name":"local",
+      "Tanium Client IP Address":"11.2.3.1",
+      "IP Address":"1.2.3.4",
+      "Comply - Compliance Findings":
+         [
+            {
+               "Check ID":"CIS Microsoft Windows Server Benchmark;1.0.0;L3 Mapping;xccdf_com.tanium.comply_tailoring_1636051234;xccdf_org.cisecurity.benchmarks_rule_11.3.4_L2_Ensure_Audit_Other_LogonLogoff_Events_is_set_to_Success_and_Failure",
+               "State":"fail",
+               "Category":"Fail",
+               "Rule ID":"xccdf_org.cisecurity.benchmarks_rule_11.3.4_L2_Ensure_Audit_Other_LogonLogoff_Events_is_set_to_Success_and_Failure"
+            }
+         ],
+            "Count":"1"
+         },
+   {
+      "Computer Name":"local",
+      "Tanium Client IP Address":"11.2.3.1",
+      "IP Address":"1.2.3.4",
+      "Comply - Compliance Findings":
+         [
+            {
+               "Check ID":"CIS Microsoft Azure Server Benchmark;1.0.0;L3 Mapping;xccdf_com.tanium.comply_tailoring_1636051234;xccdf_org.cisecurity.benchmarks_rule_11.3.4_L2_Ensure_Audit_Other_LogonLogoff_Events_is_set_to_Success_and_Failure",
+               "State":"fail",
+               "Category":"Fail",
+               "Rule ID":"xccdf_org.cisecurity.benchmarks_rule_11.3.4_L2_Ensure_Audit_Other_LogonLogoff_Events_is_set_to_Success_and_Failure"
+               }
+            ],
+               "Count":"1"
+         }
+      ]
 ```
 
-You receive the following response.
+If you format your request incorrectly, you receive the following response.
 
 ```json
 {
@@ -206,3 +237,8 @@ You receive the following response.
   "message":"Multi profile results not supported. Try with single profile results"
 }
 ```
+
+#### Including mandatory fields 
+{: #mandatory fields}
+
+
