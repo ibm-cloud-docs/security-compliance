@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-09"
+lastupdated: "2022-09-21"
 
 keywords: best practices security and compliance, secure development, security strategy, governance
 
@@ -76,7 +76,7 @@ An evaluation is the check of one goal against one resource. When an evaluation 
 ## When am I charged?
 {: #evaluation-charge}
 
-You are charged if the evaluation produces a result of pass or fail. You are not charged for the evaluation if the result is unable to perform or not applicable. You are also not charged for the evaluation of built-in goals that are met by default.
+You are charged if the evaluation produces a result of pass or fail. You are not charged for the evaluation if the result is unable to perform or not applicable.
 
 
 ## How do I stop getting charged for {{site.data.keyword.compliance_short}}?
