@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-23"
+lastupdated: "2022-09-08"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, properties, conditions, templates, properties, govern
 
@@ -71,14 +71,14 @@ With {{site.data.keyword.compliance_short}}, you can govern the resources in you
 |:---------|:---------|
 | You want to display configuration settings that are specific to your enterprise as your teams are configuring and provisioning resources. | You can create configuration templates in the {{site.data.keyword.compliance_short}} that override the default values that are provided by {{site.data.keyword.cloud_notm}} with the values that are applicable to your organization. |
 | You want to know when a user creates resources that are outside the standards that are defined for your organization, but you don't want to stop them. | You create a configuration rule but choose not to enforce it. This can be helpful for accounts that you use for testing. |
-| You want to ensure that a specific configuration for a resource type is always enforced in your account. | You can define an enforced configuration rule. When a rule is enforced, {{site.data.keyword.cloud_notm}} does not allow the resource to be created unless all of the conditions of the rule are met. Note: Some configuration rule [properties](/docs/security-compliance?topic=security-compliance-available-rule-properties) require a template to be applied in order for the rule to be enforced. |
+| You want to ensure that a specific configuration for a resource type is always enforced in your account. | You can define an enforced configuration rule. When a rule is enforced, {{site.data.keyword.cloud_notm}} does not allow the resource to be created unless all the conditions of the rule are met. Note: Some configuration rule [properties](/docs/security-compliance?topic=security-compliance-available-rule-properties) require a template to be applied in order for the rule to be enforced. |
 {: caption="Table 1. Governance use-cases" caption-side="top"}
 
 
 ### Enforcing configuration standardization with rules
 {: #config-rule-understand}
 
-Rules help you to standardize the fine-grained configurations of your {{site.data.keyword.cloud_notm}} services. As an administrator, you can determine where your organization might benefit from guardrails around resource configuration and then use the {{site.data.keyword.compliance_short}} to create and monitor them. By attaching your rule to a specific [scope](/docs/security-compliance?topic=security-compliance-rules-apply), you can limit the rule to a specific section of your business. In addition to real-time rule enforcement, a daily scan is run every 24 hours on all of the scopes that have rules attached in order to detect whether any resources are in violation of a defined config rule.
+Rules help you to standardize the fine-grained configurations of your {{site.data.keyword.cloud_notm}} services. As an administrator, you can determine where your organization might benefit from guardrails around resource configuration and then use the {{site.data.keyword.compliance_short}} to create and monitor them. By attaching your rule to a specific [scope](/docs/security-compliance?topic=security-compliance-rules-apply), you can limit the rule to a specific section of your business. In addition to real-time rule enforcement, a daily scan is run every 24 hours on all the scopes that have rules attached in order to detect whether any resources are in violation of a defined config rule.
 
 ![The image shows an example rule sequence.](/images/config-rule-sequence.svg){: caption="Figure 2. Config rule sequence flow" caption-side="bottom"}
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-04-27"
+lastupdated: "2022-09-08"
 
 keywords: goals, parameters, customize parameters, customize goals, security and compliance,
 
@@ -48,7 +48,7 @@ subcollection: security-compliance
 # Customizing goals
 {: #custom-goals}
 
-With the {{site.data.keyword.compliance_full}}, you can update the default parameters that are associated with the goals within each predefined profile. When you change a parameter, it affects all of the goals in that profile.
+With the {{site.data.keyword.compliance_full}}, you can update the default parameters that are associated with the goals within each predefined profile. When you change a parameter, it affects all the goals in that profile.
 {: shortdesc}
 
 
@@ -72,7 +72,7 @@ To update the default parameters for the goals that you use, you can use the {{s
 6. Update the parameters that you want to customize.
 7. To save your changes, click **Update**.
 
-If you make an accidental change, you can click **Revert** to return all of the profiles back to default.
+If you make an accidental change, you can click **Revert** to return all the profiles back to default.
 {: tip}
 
 

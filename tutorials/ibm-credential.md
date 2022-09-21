@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-23"
+lastupdated: "2022-09-08"
 
 keywords: ibm credentials, scc, security and compliance for ibm, compliance scan, {{site.data.keyword.cloud_notm}} resources
 
@@ -87,7 +87,7 @@ The first step that the {{site.data.keyword.compliance_short}} takes in evaluati
    2. Leave **All resources** and click **Next**.
    3. Select **Manager** and **Administrator**. Then, click **Review** to validate your choices.
    4. Click **Add**.
-   5. Repeat all of step 5, but select Security and Compliance Integrations instead of {{site.data.keyword.compliance_short}}.
+   5. Repeat step 5, but select Security and Compliance Integrations instead of {{site.data.keyword.compliance_short}}.
 6. Assign access to all Identity and Access enabled services.
    1. From the table, select **Identity and Access enabled services** and click **Next**.
    2. Scope your access to the resources that you want to scan and then click **Next**.
@@ -155,7 +155,7 @@ If you're working with Classic Infrastructure or the Continuous Delivery service
    2. Select the resources that you want to scan and click **Next**.
    3. Select **Viewer**. Then, click **Review** to validate your choices.
    4. Click **Add**.
-   5. Repeat all of step 2, but select **Classic Infratructure**.
+   5. Repeat step 2, but select **Classic Infratructure**.
 3. Generate an API Key.
    1. In the user profile where you assigned access, click **API keys**. 
    2. Click **Create**.

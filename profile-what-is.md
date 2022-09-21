@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-14"
+lastupdated: "2022-09-20"
 
 keywords: profiles, user-defined, predefined profiles, controls, goals, nist, best practices, security, compliance
 
@@ -64,7 +64,7 @@ Profiles consist of several interrelated components, including controls and goal
 
 The basic building block of a profile is a [control](#x2018434){: term}. Controls can be broad guidelines, such as security requirements to encrypt data at rest or prevent unprivileged access to confidential systems.
 
-You can implement a control by meeting one or more [goals](#x2117978){: term}. In {{site.data.keyword.compliance_short}}, goals are used to evaluate whether a control is being met. {{site.data.keyword.compliance_short}} maps goals to external regulatory libraries of controls, divided into families (groups), that are used to prove that you are compliant with the required standards for your industry. Each control can apply to one or more profiles and there might be one or more goals that are required to be fully compliant with each control. To see how control libraries map to goals, check out the following image.
+You can implement a control by meeting one or more [goals](#x2117978){: term}. In {{site.data.keyword.compliance_short}}, goals are used to evaluate whether a control is being met. {{site.data.keyword.compliance_short}} maps goals to external regulatory libraries of controls, which are divided into families (groups), that are used to prove that you are compliant with the required standards for your industry. Each control can apply to one or more profiles and one or more goals might be required to be fully compliant with each control. To see how control libraries map to goals, check out the following image.
 
 ![Profile layout shown in diagram format. The information that is shown in the image is described in the surrounding text.](/images/profiles.svg){: caption="Figure 1. Understanding profiles" caption-side="bottom"}
 
@@ -73,7 +73,7 @@ You can implement a control by meeting one or more [goals](#x2117978){: term}. I
 ## Working with profiles
 {: #profile-types}
 
-When you work with profiles in the {{site.data.keyword.compliance_short}}, you interact with predefined or custom profiles that are used to evaluate a specific set of resources known as a scope.
+When you work with profiles in the {{site.data.keyword.compliance_short}}, you interact with predefined or custom profiles that are used to evaluate a specific set of resources that are known as a scope.
 
 Predefined profiles
 :   Predefined profiles contain collections of controls that are curated based on standards for an industry. 
@@ -91,6 +91,41 @@ Custom profiles
 Attachment
 :   To start evaluating your resources for compliance by using a specific profile, you must create an attachment between your scope and the profile. To create the attachment, you [schedule a scan](/docs/security-compliance?topic=security-compliance-schedule-scan). 
 
+## Monitoring resources
+{: #profile-monitor}
+
+You can monitor resources across various {{site.data.keyword.cloud_notm}} services by using the profiles that you select or create. Goals are continuously updated. The following table lists the resources that can be monitored. It also specifies which resources can be evaluated by using the {{site.data.keyword.cloud_notm}} for Financial Services profile. 
+
+| Service | Monitored by Financial Services |
+| ------- | ------------------------------- |
+| Activity Tracker | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| App ID |  ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Bare Metal Servers |  |
+| Certificate Manager |  |
+| Cloudant | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Cloud Internet Services (CIS) |      |
+| {{site.data.keyword.cloud_notm}} Monitoring | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Cloud Object Storage | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Cloud Shell |      |
+| Code Engine |      |
+| Container Registry | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| {{site.data.keyword.cloud_notm}} Databases \n Databases for MongoDB* \n Databases for Redis \n Databases for Elasticsearch \n Databases for etcd \n Databases for PostgreSQL \n Databases for Cloudant | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Direct Link | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Event Streams | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+|  |        |
+| Hyper Protect Crypto Services* \n Hyper Protect DBaaS for MongoDB  | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| IAM | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Key Protect |       |
+| Kubernetes Service |          |
+| Red Hat OpenShift Kubernetes Service |            |
+| Satellite Red Hat OpenShift Kubernetes Service |            |
+| Schematics |           |
+| Secrets Manager |           |
+| Security Insights | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Toolchain |          |
+| Transit Gateway | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Virtual Private Cloud \n VPN for VPC* \n File Storage for VPC \n Application Load Balancer for VPC \n Security Groups for VPC* \n Flow Logs for VPC* \n Block Storage for VPC | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+{: caption="Table 1. {{site.data.keyword.cloud_notm}} services that can be monitored" caption-side="top"}
 
 ## How do I get started?
 {: #profile-get-started}

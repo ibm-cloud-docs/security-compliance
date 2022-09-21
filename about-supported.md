@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-07-22"
+lastupdated: "2022-09-08"
 
 keywords: integration, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -56,7 +56,7 @@ Integrations are connections between the {{site.data.keyword.compliance_full}} a
 ## Environments that can be evaluated
 {: #available-environments}
 
-You can monitor the current security and compliance posture across all of the following environments by using the {{site.data.keyword.compliance_short}}. 
+You can monitor the current security and compliance posture across all the following environments by using the {{site.data.keyword.compliance_short}}. 
  
  - {{site.data.keyword.cloud_notm}}
  - Amazon Web Services

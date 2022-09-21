@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-03"
+lastupdated: "2022-09-20"
 
 keywords: Centralized security, tanium, compliance monitoring, compliance, 
 
@@ -49,7 +49,7 @@ subcollection: security-compliance
 # Connecting Tanium
 {: #setup-tanium}
 
-With [Tanium&trade; Comply](https://docs.tanium.com/comply/comply/index.html){: external}, you can evaluate your organizations endpoints for potential vulnerabilities and misconfigurations against industry security standards, vulnerability definitions, and custom compliance checks. When you integrate Tanium with the {{site.data.keyword.compliance_full}}, you can view all your compliance data in one location in the same format.
+With [Tanium&trade; Comply](https://docs.tanium.com/comply/comply/index.html){: external}, you can evaluate your organization's endpoints for potential vulnerabilities and misconfigurations against industry security standards, vulnerability definitions, and custom compliance checks. When you integrate Tanium with the {{site.data.keyword.compliance_full}}, you can view all your compliance data in one location in the same format.
 {: shortdesc}
 
 If you're an existing Tanium Comply on-prem user, you must contact your TAM or account team to obtain a link to the new build to get started with the integration. Automatic upgrades of Connect occur for Tanium-managed customers over the next two weeks.

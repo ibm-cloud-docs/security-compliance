@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-03"
+lastupdated: "2022-09-08"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -141,7 +141,7 @@ The following events are triggered by the Posture Management component of the {{
 
 | Action                                        | Description     |
 | :-------------------------------------------------|:----------------|
-| `compliance.posture-management-goals.list`   | List all of the available goals. |
+| `compliance.posture-management-goals.list`   | List all the available goals. |
 | `compliance.posture-management-goals.read`   | View the details of a specific goal. |
 {: caption="Table 1. List of events that apply to Posture Management" caption-side="top"}
 {: #goals-events}

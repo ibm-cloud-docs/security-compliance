@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-07-25"
+lastupdated: "2022-09-08"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -96,7 +96,7 @@ This update adds goals that are based on functionality that helps you to maintai
 ## 27 May 2022
 {: #sec-best-may2722}
 
-Profiles are constantly expanding and are not an exhaustive list of all of the controls that might be required for every organization. Users can validate the available goals and determine where a need to supplement their workloads with other security and compliance measures exists.
+Profiles are constantly expanding and are not an exhaustive list of all the controls that might be required for every organization. Users can validate the available goals and determine where a need to supplement their workloads with other security and compliance measures exists.
 {: note}
 
 Now available: {{site.data.keyword.cloud_notm}} Security Best Practices profile

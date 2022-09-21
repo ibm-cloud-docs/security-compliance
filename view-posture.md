@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-25"
+lastupdated: "2022-09-20"
 
 keywords: compliance posture, security posture, audit evidence, security scan, evaluation results, scan results, scan results, compliance, score, compliance score
 
@@ -103,7 +103,7 @@ You can update the period of time that information is displayed for by selecting
 ## Viewing validation results
 {: #view-validations}
 
-To see the results of a validation scan, you can use the {{site.data.keyword.compliance_short}} UI.
+To see the results of a validation scan, you can use the {{site.data.keyword.compliance_short}} UI. To find more information, see [Understanding your results](/docs/security-compliance?topic=security-compliance-results#understand-results).
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Validate > Scans > Results**. A list of your scans that have associated results is shown.
@@ -158,7 +158,7 @@ The scan results that are displayed by default are the most recent. To see previ
 ## Downloading a report
 {: #download-report}
 
-If you need to keep your results for long periods of time, or provide information to key stakeholders, you can download a report that details your compliance score for selected scopes.
+If you need to keep your results for long periods of time, or provide information to key stakeholders, you can download a report that details your compliance score for selected scopes.For more information, see [Downloading a report](/docs/security-compliance?topic=security-compliance-results#download-report-config).
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) > **Security and Compliance**.
 2. In the **Manage posture** section, click **Assess > Scans**.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-03"
+lastupdated: "2022-09-20"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -66,7 +66,7 @@ Currently, you can't attach a rule to a profile. The {{site.data.keyword.complia
 For more information about the types of rules, see [What is Configuration Governance](/docs/security-compliance?topic=security-compliance-what-is-governance).
 
 
-## Can I create a config rule for a service that I don't currently have provisioned?
+## Can I create a config rule for a service that is not currently provisioned?
 {: #faq-service-not-provisioned}
 {: faq}
 {: support}
@@ -98,6 +98,10 @@ You might use the same keys for many different purposes within {{site.data.keywo
 
 The {{site.data.keyword.compliance_short}} is configured to detect key disable events through standard IBM crypto eraser capabilities. To see how quickly the service responds when a key is disabled, try disabling a key and then navigate to another page of the UI. Within a few seconds, an error message is displayed that states that the selected root key is disabled. 
 
-If you suspect that your data or key becomes compromised, you can [disable the keys](/docs/key-protect?topic=key-protect-disable-keys) in {{site.data.keyword.keymanagementserviceshort}} until you're sure it's safe. Then you can reenable it. Shredding data like this is called crypto shredding.
+If you suspect that your data or key becomes compromised, you can [disable the keys](/docs/key-protect?topic=key-protect-disable-keys) in {{site.data.keyword.keymanagementserviceshort}} until you're sure it's safe. Then, you can re-enable it. Shredding data like this is called crypto shredding.
 
+## Why do I have to create a collector?
+{: #faq-create-collector}
+{: faq}
 
+To manage the security and compliance of your resources, the {{site.data.keyword.compliance_short}} needs to access your environment. To do so, you must provide authorization by using the collector. If IBM manages your collector, you provide only[credentials](/docs/security-compliance?topic=security-compliance-what-are-credentials&interface=ui). If you choose to manage your collector, see [What is a collector](/docs/security-compliance?topic=security-compliance-collector&interface=ui).
