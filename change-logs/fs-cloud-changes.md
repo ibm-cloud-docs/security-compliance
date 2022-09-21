@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-09-19"
+lastupdated: "2022-09-21"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -67,6 +67,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 | Version number | Release date |
 |:---------------|:-------------|
+| Version 0.6.0 | `2022-09-21` |
 | Version 0.5.0 | `2022-08-11` |
 | Version 0.4.0 | `2022-06-23` |
 | Version 0.3.0 | `2022-04-27` |
@@ -78,6 +79,26 @@ The following table shows the service behavior changes for each version date. Sw
 | Version 0.1.0 | `2021-04-05` |
 {: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
+
+
+## Version 0.6.0
+{: #fs-cloud-v060}
+
+Version 0.6.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available has been updated with the following changes as of 21 September 2022.
+
+| Goal ID   | Associated controls | Update |
+|:----------|:--------------------|:-------|
+| `3000023` | `AC-2(d)`, `AC-3`, `AC-5(c)`, and `AC-6-0` | The goal is removed. |
+| `3000024` | `SI-2(a)` and `SI-5(a)`  \n  \n `IA-5(g)` | The goal was added.  \n  \n The goal was removed. |
+| `3000041`[^g-1] | `AU-14`, `AC-17`, and `IA-2(1)` | The goal was added and the goal logic was changed. Previously the goal evaluated whether Cloud Shell was disabled in your account, now the logic evaluates whether it is enabled. |
+| `3000045` | `AC-20(a)` and `CA-3(a)`  \n  \n `AC-20` and `CA-3` | The goal was added.  \n  \n The goal was removed. |
+| `3000078` | `SC-13`, `SC-28`, and `SC-28(1)` | The goal was added. |
+| `3000324` | `SI-2(a)` and `SI-5(a)` | The goal was added. |
+| `3000478` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | The goal was added. |
+| `3000479` | `CP-7(a)`, `CP-7(1)`, `CP-8`, and `CP-8(2)` | The goal was added. |
+{: caption="Table. Summary of the changes for version 0.6.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
+
+[^g-1]: This goal is also changed in all previous profile versions as of the 21 September 2022.
 
 
 
