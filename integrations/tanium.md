@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-09-20"
+lastupdated: "2022-09-21"
 
 keywords: Centralized security, tanium, compliance monitoring, compliance, 
 
@@ -65,7 +65,7 @@ To learn more about how the integration is configured, check out the following d
 3. Define a scope to link the connection that you created in Tanium with the {{site.data.keyword.compliance_short}}.
 4. In the background, the {{site.data.keyword.compliance_short}} creates the backend connection when the scope is created.
 5. Based on the schedule that you defined in your connection, Tanium pushes the data in your account to the {{site.data.keyword.compliance_short}}.
-6. The {{site.data.keyword.compliance_short}} receives the data and converts the format to match your preferred format before calculating your compliance score.
+6. The {{site.data.keyword.compliance_short}} receives the data and converts the format to match your preferred format before your compliance score is calculated.
 7. You can navigate to the Scans page of the {{site.data.keyword.compliance_short}} UI to view your results.
 
 
@@ -92,7 +92,7 @@ To get started, you must register an integration with the {{site.data.keyword.co
 3. In the **Tanium** tile, click **Connect**.
 4. Provide a name for your connection.
 5. Enter your dashboard URL in the **Registration URL** field.
-6. Click **Next**. You see that you're currently connecting using "Push" mode to "Validate" your resources.
+6. Click **Next**. You see that you're currently connecting by using "Push" mode to "Validate" your resources.
 7. Choose whether to receive your results in **OSCAL** or **Native** Tanium format.
 8. Click **Connect**. A service ID and API key are generated on your behalf.
 9. From the modal, copy the API key that is shown. You use this key later to push the results to the {{site.data.keyword.compliance_short}}.
@@ -101,12 +101,12 @@ To get started, you must register an integration with the {{site.data.keyword.co
 ## Exporting your data from Tanium
 {: #export-tanium}
 
-To see your data in the {{site.data.keyword.compliance_short}}, you need to package and export it from Tanium. You can do so by creating a saved question and using that question to create a connection.
+To see your data in the {{site.data.keyword.compliance_short}}, you need to package and export it from Tanium. You can do so by creating a saved question and by using that question to create a connection.
 
 1. Log in to your Tanium account and navigate to the **Home** page.
 2. In the **Explore data** section, type this question to obtain the data that you want to export. For example, your question might be similar to *GET Computer Name and Tanium Client IP Address and IP Address and Comply = Compliance Findings FROM all machines*.
 3. Review the results that are returned and click **Save**.
-4. Give your question a name, choose a valid content set (i.e. comply) and select the settings on the page that match your preferences before you click **Save**. 
+4. Give your question a name, choose a valid content set (such as comply) and select the settings on the page that match your preferences before you click **Save**. 
 5. Confirm that you want to save the question by clicking **Yes**.
 6. Go to **Modules > Connect** and click **Create Connection**. 
 7. Give your connection a name. Optionally, you can add a description.
@@ -118,7 +118,7 @@ To see your data in the {{site.data.keyword.compliance_short}}, you need to pack
    | Saved Question Name | The name of the question that you previously created. |
    | Computer Group | The computers that you want to include in your exported data. |
    | Destination | HTTP |
-   | Desination Name | {{site.data.keyword.compliance_long}} |
+   | Destination Name | {{site.data.keyword.compliance_long}} |
    | URL | The **Registration URL** that you previously created in step 5 of registering your integration. |
    | Method | POST |
    | Headers | `Content-Type: application/json` |
@@ -171,7 +171,7 @@ Forgot to copy the API key? No problem. By using the IAM UI, find the service ID
 ## Viewing your results
 {: #view-tanium}
 
-When your data is imported to the {{site.data.keyword.compliance_short}}, it is reformatted and a validation scan is run that identifies any potential issues in your resources. As part of the scan, a calculation is run that evaluates your level of compliance and provides you with a score so that you can easily see how you are adhering to requirements as an organization.
+When your data is imported to the {{site.data.keyword.compliance_short}}, it is reformatted, and a validation scan is run that identifies any potential issues in your resources. As part of the scan, a calculation is run that evaluates your level of compliance. The calculation provides you with a score so that you can easily see how you are adhering to requirements as an organization.
 
 A profile is added to your list of available profiles that contains the goals that were scanned as part of your Tanium scan when you post your results.
 {: tip}
@@ -182,4 +182,4 @@ When your scan is complete, you can return the {{site.data.keyword.compliance_sh
 2. Navigate to **Manage posture > Assess > Scans**.
 3. Click the name of the scan that corresponds to your Tanium results. 
 
-   A scan details page opens. On your scan details page, you can view any potential issues by control or by resource and view your compliance score. You can also see a history of scans that were previously run on your data. The formatting of your results might vary depending on the format that you selected as part of set up.
+   A scan details page opens. On your scan details page, you can view any potential issues by control or by resource and view your compliance score. You can also see a history of scans that were previously run on your data. The formatting of your results might vary depending on the format that you selected as part of set-up.
