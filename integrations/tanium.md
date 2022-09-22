@@ -341,7 +341,7 @@ The following is an example of a request payload that is formatted as a list of 
 ## Analyzing error messages from the API 
 {: #errors-tanium}
 
-You may receive error messages in specific scenarios. They might be due to missing fields, incorrect formats, invalid values, and others. By reviewing the incorrect request examples and understanding the error responses, you are better equipped to correct the issue. 
+You might receive error messages in specific scenarios. They might be due to missing fields, incorrect formats, invalid values, and others. By reviewing the incorrect request examples and understanding the error responses, you are better equipped to correct the issue. 
 
 
 ### Posting multi-profile results 
