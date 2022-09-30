@@ -111,4 +111,3 @@ You can evaluate your organization’s current security and compliance posture b
 [^goal]: Goals are used to evaluate a resource configuration against a defined compliance standard.
 
 
-</classic
