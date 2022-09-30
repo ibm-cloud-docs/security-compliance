@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-09-22"
+lastupdated: "2022-09-30"
 
 keywords: integration, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 

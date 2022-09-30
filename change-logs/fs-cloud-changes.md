@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-09-21"
+lastupdated: "2022-09-30"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -89,7 +89,7 @@ Version 0.6.0 of the {{site.data.keyword.cloud_notm}} for Financial Services pro
 | Goal ID   | Associated controls | Update |
 |:----------|:--------------------|:-------|
 | `3000023` | `AC-2(d)`, `AC-3`, `AC-5(c)`, and `AC-6-0` | The goal is removed. |
-| `3000024` | `SI-2(a)` and `SI-5(a)`  \n  \n `IA-5(g)` | The goal was added.  \n  \n The goal was removed. |
+| `3000024` | `IA-5(g)` | The goal was removed. |
 | `3000041`[^g-1] | `AU-14`, `AC-17`, and `IA-2(1)` | The goal was added and the goal logic was changed. Previously the goal evaluated whether Cloud Shell was disabled in your account, now the logic evaluates whether it is enabled. |
 | `3000045` | `AC-20(a)` and `CA-3(a)`  \n  \n `AC-20` and `CA-3` | The goal was added.  \n  \n The goal was removed. |
 | `3000078` | `SC-13`, `SC-28`, and `SC-28(1)` | The goal was added. |
