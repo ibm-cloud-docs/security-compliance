@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-09-22"
+lastupdated: "2022-09-30"
 
 keywords: integration, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -111,3 +111,4 @@ You can evaluate your organization’s current security and compliance posture b
 [^goal]: Goals are used to evaluate a resource configuration against a defined compliance standard.
 
 
+</classic

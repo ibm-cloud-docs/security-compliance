@@ -10,7 +10,7 @@ toc:
     path: security-compliance
     label: Security and Compliance Center
 
-  entries:
+  entries: 
   - navgroup:
       id: learn
       topics:
@@ -204,4 +204,4 @@ toc:
           - troubleshooting/ts-results-osco.md
           - troubleshooting/ts-notifications.md
           - troubleshooting/ts-satellite.md
-      - limits.md
+      - limits.md 

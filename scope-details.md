@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-11"
+lastupdated: "2022-09-30"
 
 keywords: scopes, accounts, resources, environments
 
@@ -74,3 +74,4 @@ When an Nmap scan is run on on-premises resources, occasionally a resource is mi
 1. From the scope details page, select **Resource mapping** from the **Actions** drop-down.
 2. Click **Create**.
 3. Create a mapping for a virtual machine by selecting a **Virtual machine**, **Object**, **Operating system**, and **Vendor** for your resource. The VM and object are required fields.
+

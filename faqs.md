@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-09-20"
+lastupdated: "2022-09-30"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
