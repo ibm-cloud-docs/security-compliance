@@ -98,7 +98,7 @@ You can use templates to override IBM-defined property values only. A user can o
 
 Check out the following diagram to see an example template sequence:
 
-![The image shows an example template sequence.](../../images/template-sequence.svg){: caption="Figure 3. Template sequence flow" caption-side="bottom"}
+![The image shows an example template sequence.](../images/template-sequence.svg){: caption="Figure 3. Template sequence flow" caption-side="bottom"}
 
 1. As an account admin or security focal, you create a configuration template and attach it to a scope.
 2. A developer makes a request to create or modify a resource that is part of the scope that the rule is attached to.
@@ -120,7 +120,7 @@ The following diagram shows how two rules are applied across an enterprise. As y
 ## How can I get started?
 {: #gov-next-steps}
 
-To get started with rules, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure**, or check out the [API reference](/apidocs/security-compliance-config){: external} to learn more about creating rules and templates programmatically.
+To get started with rules, you can go to the **Menu icon** ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance > Configure**, or check out the [API reference](/apidocs/security-compliance-config){: external} to learn more about creating rules and templates programmatically.
 
 To get started, choose whether to create [a rule](/docs/security-compliance?topic=security-compliance-rules-define) or [a template](/docs/security-compliance?topic=security-compliance-templates-define).
 
