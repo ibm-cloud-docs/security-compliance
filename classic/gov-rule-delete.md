@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -69,10 +69,10 @@ Be sure that you validate that the rule is no longer needed in your account befo
 
 If you no longer need to use a rule, you can choose to delete it by using the {{site.data.keyword.compliance_short}} UI. To delete an existing rule by using the {{site.data.keyword.compliance_short}} UI:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance**.
 2. In the navigation, click **Configure rules**.
 3. Use the **Configuration rules** table to browse the rules in your account.
-4. Click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) to open a list of options for the rule that you want to delete.
+4. Click the **Actions** icon ![Actions icon](../../icons/actions-icon-vertical.svg) to open a list of options for the rule that you want to delete.
 5. From the options menu, click **Delete** and confirm the deletion in the next screen.
 
 ## Deleting rules with the API

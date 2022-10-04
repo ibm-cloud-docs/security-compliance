@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -56,7 +56,7 @@ subcollection: security-compliance
 
 Rules and templates are comprised of several different building blocks, including a target, one or more property conditions, and a value. Check out the following image to see a simple breakdown of how rules and templates are structured.
 
-![This image shows the breakdown of a rule and a template by component.](../images/example-gov.svg){: caption="Figure 1. Components of a config rule and a template" caption-side="bottom"}
+![This image shows the breakdown of a rule and a template by component.](../../images/example-gov.svg){: caption="Figure 1. Components of a config rule and a template" caption-side="bottom"}
 
 | Rule components explained |
 |:-----------|
@@ -83,25 +83,25 @@ The properties that are available in the {{site.data.keyword.compliance_short}} 
 
 | Service | Rules | Templates |
 |:--------|:------|:----------|
-| [Billing Composite Service](/docs/overview?topic=overview-manage-security-compliance)  | ![Checkmark icon](../icons/checkmark-icon.svg)| | 
-| [Catalog Management](/docs/overview?topic=overview-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [Certificate Manager](/docs/certificate-manager?topic=certificate-manager-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| ![Checkmark icon](../icons/checkmark-icon.svg) |
-| [Code Engine](/docs/codeengine?topic=codeengine-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [Container Registry](/docs/Registry?topic=Registry-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [Direct Link](/docs/dl?topic=dl-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [Event Streams](/docs/EventStreams?topic=EventStreams-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [Hyper Protect Crypto Services](/docs/hs-crypto?topic=hs-crypto-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [Hyper Protect DBaaS for MongoDB](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [Hyper Protect DBaaS for PostgreSQL](/docs/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [IAM Access Groups Service](/docs/overview?topic=overview-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [IAM Identity Service](/docs/overview?topic=overview-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [IBM Cloud Shell](/docs/cloud-shell?topic=cloud-shell-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [Internet Services](/docs/cis?topic=cis-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [Key Protect](/docs/key-protect?topic=key-protect-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| ![Checkmark icon](../icons/checkmark-icon.svg) |
-| [Load Balancer for VPC](/docs/vpc?topic=vpc-manage-security-compliance-lb) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [Toolchain](/docs/ContinuousDelivery?topic=ContinuousDelivery-cd-manage-security-compliance) |  ![Checkmark icon](../icons/checkmark-icon.svg)| |
-| [Transit Gateway](/docs/transit-gateway?topic=transit-gateway-manage-security-compliance) | ![Checkmark icon](../icons/checkmark-icon.svg)| |
+| [Billing Composite Service](/docs/overview?topic=overview-manage-security-compliance)  | ![Checkmark icon](../../icons/checkmark-icon.svg)| | 
+| [Catalog Management](/docs/overview?topic=overview-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
+| [Certificate Manager](/docs/certificate-manager?topic=certificate-manager-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
+| [Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| [Code Engine](/docs/codeengine?topic=codeengine-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
+| [Container Registry](/docs/Registry?topic=Registry-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
+| [Direct Link](/docs/dl?topic=dl-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
+| [Event Streams](/docs/EventStreams?topic=EventStreams-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
+| [Hyper Protect Crypto Services](/docs/hs-crypto?topic=hs-crypto-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
+| [Hyper Protect DBaaS for MongoDB](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
+| [Hyper Protect DBaaS for PostgreSQL](/docs/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
+| [IAM Access Groups Service](/docs/overview?topic=overview-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
+| [IAM Identity Service](/docs/overview?topic=overview-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
+| [IBM Cloud Shell](/docs/cloud-shell?topic=cloud-shell-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
+| [Internet Services](/docs/cis?topic=cis-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
+| [Key Protect](/docs/key-protect?topic=key-protect-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| [Load Balancer for VPC](/docs/vpc?topic=vpc-manage-security-compliance-lb) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
+| [Toolchain](/docs/ContinuousDelivery?topic=ContinuousDelivery-cd-manage-security-compliance) |  ![Checkmark icon](../../icons/checkmark-icon.svg)| |
+| [Transit Gateway](/docs/transit-gateway?topic=transit-gateway-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
 {: caption="Table 2. Supported {{site.data.keyword.cloud_notm}} services" caption-side="top"}
 
 
@@ -162,7 +162,7 @@ So, as an example, the code snippets shown in the following image evaluate to tr
 2. If **(A or B or C)** are true.
 3. If **(A or (B and C))** are true.
 
-![The diagram shows the correlation between multiple conditions. The information is conveyed in the surrounding text.](../images/config-rules-property.svg){: caption="Figure 2. The ways in which properties can relate to each other." caption-side="bottom"}
+![The diagram shows the correlation between multiple conditions. The information is conveyed in the surrounding text.](../../images/config-rules-property.svg){: caption="Figure 2. The ways in which properties can relate to each other." caption-side="bottom"}
 
 
 ### Defining nested properties

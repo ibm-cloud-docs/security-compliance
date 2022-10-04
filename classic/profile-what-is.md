@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: profiles, user-defined, predefined profiles, controls, goals, nist, best practices, security, compliance
 
@@ -99,7 +99,7 @@ You can monitor resources across various {{site.data.keyword.cloud_notm}} servic
 ## How do I get started?
 {: #profile-get-started}
 
-To get started with profiles, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Configure > Profiles**.
+To get started with profiles, you can go to the **Menu icon** ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance > Configure > Profiles**.
 
 For more information about creating profiles, see [Building custom profiles](/docs/security-compliance?topic=security-compliance-custom-profiles).
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: inventory, security, compliance, discovery, run discovery, discover resources
 
@@ -64,7 +64,7 @@ Before you get started, be sure that you have the required level of access to vi
 
 To create an inventory, you can use the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Assess > Inventory**. 
 3. Click the **New inventory** icon.
 4. Give your inventory a meaningful name and description.
@@ -84,7 +84,7 @@ To create an inventory, you can use the {{site.data.keyword.compliance_short}} U
 
 To view an inventory, you can use the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Assess > Inventory**. 
 3. In the ***Inventory** table, click the name of the inventory that you want to view. 
 
@@ -99,7 +99,7 @@ To view an inventory, you can use the {{site.data.keyword.compliance_short}} UI.
 
 To discover new resources in an inventory, you can use the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Assess > Inventory**.
 3. From the actions menu for the inventory that you want to view, click **Discover**.
 
@@ -109,7 +109,7 @@ To discover new resources in an inventory, you can use the {{site.data.keyword.c
 
 To discover new resources in an inventory, you can use the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Assess > Inventory**.
 3. From the actions menu for the inventory that you want to delete, select the name of the inventory that you want to delete.
 4. Click **Delete**.
