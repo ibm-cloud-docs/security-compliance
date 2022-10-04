@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-10-04"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -63,3 +63,4 @@ Results are maintained and displayed in the UI for 7 days, even when a resource 
 
 Wait 7 days. The data is deleted without action on your behalf.
 {: tsResolve}
+

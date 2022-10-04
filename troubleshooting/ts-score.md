@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-10-04"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -62,3 +62,4 @@ Base profiles are continuously updated by the {{site.data.keyword.compliance_sho
 
 If you don't want new goals automatically included in your scans, you can build or create a profile that includes only the controls and goals that you want to scan for. [Learn more](/docs/security-compliance?topic=security-compliance-profiles). 
 {: tsResolve}
+
