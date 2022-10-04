@@ -72,8 +72,4 @@ To find out more about responsibility ownership for using {{site.data.keyword.cl
 {: caption="Table 1. RPO and RTO for {{site.data.keyword.compliance_short}}" caption-side="bottom"}
 
 
-## Locations
-{: #ha-locations}
-
-For more information about service availability within regions and data centers, see [Service and infrastructure availability by location](/docs/overview?topic=overview-services_region). You can also find information about {{site.data.keyword.compliance_short}}'s [available locations](/docs/security-compliance?topic=security-compliance-locations#available-locations). 
 
