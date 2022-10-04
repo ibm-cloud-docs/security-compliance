@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-09-14"
+lastupdated: "2022-10-04"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -478,7 +478,7 @@ Updated Profiles page
 {: release-note}
 
 Updated Settings page
-:   An improved experience is now available for protecting the credentials that you use in the {{site.data.keyword.compliance_short}}. For more information, see [Creating a passphrase](/docs/security-compliance?topic=security-compliance-passphrase).
+:   An improved experience is now available for protecting the credentials that you use in the {{site.data.keyword.compliance_short}}.
 
 ## 1 September 2020
 {: #security-compliance-sept0120}

@@ -74,5 +74,5 @@ The SLO is not a warranty and {{site.data.keyword.IBM_notm}} does not issue cred
 ## Locations
 {: #ha-locations}
 
-For more information about service availability within regions and data centers, see [Service and infrastructure availability by location](/docs/overview?topic=overview-services_region). You can also find information about {{site.data.keyword.compliance_short}}'s [available locations](/docs/security-compliance?topic=security-compliance-locations#available-locations).
+For more information about service availability within regions and data centers, see [Service and infrastructure availability by location](/docs/overview?topic=overview-services_region). You can also find information about {{site.data.keyword.compliance_short}}'s [available regions](/docs/security-compliance?topic=security-compliance-regions-endpoints#available-regions).
 
