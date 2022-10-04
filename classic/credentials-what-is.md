@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -78,7 +78,7 @@ The level of access that your credentials need depends upon the actions that you
 
 For collectors that are run in on-premises environments, credentials must have sufficient privileges to collect operating system-related information. Credentials must also have sufficient access to query other services that run on the machines such as a database.
 
-Some {{site.data.keyword.cloud_notm}} services require [additional permissions](#additional-permissions) for their goals to be monitored, be sure to review the information to ensure that your IAM policies are correctly configured.
+Some {{site.data.keyword.cloud_notm}} services require [additional permissions](/docs/security-compliance?topic=security-compliance-permissions) for their goals to be monitored, be sure to review the information to ensure that your IAM policies are correctly configured.
 
 ## Storing credentials 
 {: #credential-storage}
