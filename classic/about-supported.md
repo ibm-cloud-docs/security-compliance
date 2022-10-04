@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: integration, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -78,12 +78,12 @@ You can evaluate your organization’s current security and compliance posture b
 | ------- | ------------ | ----------------| ------------| ----------- |
 | [{{site.data.keyword.at_short}}](/docs/activity-tracker?topic=activity-tracker-getting-started#getting-started)* |       |    | ![Checkmark icon](../../icons/checkmark-icon.svg) | Validate that {{site.data.keyword.at_short}} is tracking how your users and applications interact. |
 | [{{site.data.keyword.appid_short_notm}}](/docs/appid?topic=appid-manage-security-compliance)* | ![Checkmark icon](../../icons/checkmark-icon.svg) |    | ![Checkmark icon](../../icons/checkmark-icon.svg) | Monitor {{site.data.keyword.appid_short_notm}} for the configurations that you have defined for your applications. |
-| [Bare Metal Servers](/docs/security-compliance?topic=security-compliance-ibm-control-library#tpm-bare-metal-txt-modules-goals) |      |     | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of TPM/TXT modules, secure passwords, SSH keys, remote administration, workload protection, and hardware firewalls. |
+| Bare Metal Servers |      |     | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of TPM/TXT modules, secure passwords, SSH keys, remote administration, workload protection, and hardware firewalls. |
 | [{{site.data.keyword.cloudcerts_short}}](/docs/certificate-manager?topic=certificate-manager-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg) |   | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of private access and the number of days until expiration of a {{site.data.keyword.cloudcerts_short}} instance. |
 | [Cloudant](/docs/Cloudant?topic=Cloudant-manage-security-compliance)* |    |   | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of your Cloudant instances. |
 | [Cloud Databases](/docs/cloud-databases?topic=cloud-databases-manage-security-compliance)* \n * Elasticsearch \n * etcd \n * MongoDB \n * PostgreSQL \n * Redis  |     |   | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of the {{site.data.keyword.cloud_notm}} Databases in your account. |   
 | [Cloud Internet Services (CIS)](/docs/cis?topic=cis-manage-security-compliance) |      |      | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of inbound traffic, web application firewall, and DDoS protection in {{site.data.keyword.cloud_notm}} Internet Services (CIS). |
-| [Cloud Monitoring](/docs/security-compliance?topic=security-compliance-ibm-security-library#cloud-object-storage-buckets-sec-monitoring-goals)* |     |     | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of Cloud Monitoring's connection to Cloud Object Storage buckets. |
+| Cloud Monitoring* |     |     | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of Cloud Monitoring's connection to Cloud Object Storage buckets. |
 | [{{site.data.keyword.cloud_notm}} Platform](/docs/overview?topic=overview-manage-security-compliance) \n * Billing \n * Catalog Management \n * IAM Access Groups \n * IAM Identity Service | ![Checkmark icon](../../icons/checkmark-icon.svg) |   | ![Checkmark icon](../../icons/checkmark-icon.svg) | Validate or enforce account settings or permission configurations. |
 | [Cloud Shell](/docs/cloud-shell?topic=cloud-shell-manage-security-compliance)* | ![Checkmark icon](../../icons/checkmark-icon.svg) |    |	![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of Cloud Shell's location, file upload and download features, and web preview features. |
 | [Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-manage-security-compliance)* | ![Checkmark icon](../../icons/checkmark-icon.svg)| ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of IBM Cloud Object Storage encryption.|
@@ -99,7 +99,7 @@ You can evaluate your organization’s current security and compliance posture b
 | [{{site.data.keyword.containershort}}](/docs/containers?topic=containers-security) |      |        | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of {{site.data.keyword.containershort}} Service's policies. |
 | [Log Analysis](/docs/log-analysis?topic=log-analysis-adoption#adoption_acc_settings) |       |      | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of Log Analysis's HIPAA and EU supported policies. |
 | [{{site.data.keyword.openshiftlong}}](/docs/openshift?topic=openshift-security) |    |    | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of {{site.data.keyword.openshiftshort}}'s policies. |
-| [{{site.data.keyword.satelliteshort}}](/docs/security-compliance?topic=security-compliance-ibm-control-library#openshift-sattelite-kubernetes-goals) |      |     | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of {{site.data.keyword.satelliteshort}}'s policies.  |
+| {{site.data.keyword.satelliteshort}} |      |     | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of {{site.data.keyword.satelliteshort}}'s policies.  |
 | [Schematics](/docs/schematics?topic=schematics-access) |     |   | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of Schematics's access, encryption, and monitoring. |
 | [{{site.data.keyword.secrets-manager_short}}](/docs/secrets-manager?topic=secrets-manager-manage-security-compliance) |    |     | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of {{site.data.keyword.secrets-manager_short}}'s secret rotation and IAM policies. |
 | [Transit Gateway](/docs/transit-gateway?topic=transit-gateway-manage-security-compliance)* | ![Checkmark icon](../../icons/checkmark-icon.svg) |      | ![Checkmark icon](../../icons/checkmark-icon.svg) | Evaluate the configuration of Transit Gateway's connection requests and approvals. |
