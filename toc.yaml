@@ -14,7 +14,7 @@ toc:
   - navgroup:
       id: learn
       topics:
-      - topic: classic/getting-started.md
+      - topic: classic/cs-getting-started.md
         navtitle: Getting started
       - topicgroup:
           label: About
@@ -112,7 +112,7 @@ toc:
           label: Managing your posture
           topics:
           - classic/view-posture.md
-          - classic/results.md
+          - classic/cs-results.md
           - classic/remediation.md
       - topicgroup:
           label: Enhancing security
@@ -192,7 +192,7 @@ toc:
   - navgroup:
       id: help
       topics:
-      - faqs.md 
+      - cs-faqs.md 
       - topicgroup: 
           label: Troubleshooting
           topics:

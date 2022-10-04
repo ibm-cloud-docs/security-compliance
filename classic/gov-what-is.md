@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, properties, conditions, templates, properties, govern
 
@@ -98,7 +98,7 @@ You can use templates to override IBM-defined property values only. A user can o
 
 Check out the following diagram to see an example template sequence:
 
-![The image shows an example template sequence.](..images/template-sequence.svg){: caption="Figure 3. Template sequence flow" caption-side="bottom"}
+![The image shows an example template sequence.](../images/template-sequence.svg){: caption="Figure 3. Template sequence flow" caption-side="bottom"}
 
 1. As an account admin or security focal, you create a configuration template and attach it to a scope.
 2. A developer makes a request to create or modify a resource that is part of the scope that the rule is attached to.
