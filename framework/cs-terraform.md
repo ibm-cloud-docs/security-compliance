@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-09-08"
+lastupdated: "2022-10-04"
 
 keywords: Terraform for {{site.data.keyword.compliance_short}}
 

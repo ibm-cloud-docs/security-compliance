@@ -117,13 +117,13 @@ toc:
       - topicgroup:
           label: Enhancing security
           topics:
-          - topic: framework/iam.md
+          - topic: framework/cs-iam.md
             navtitle: Managing IAM access
-          - topic: framework/data-security.md
+          - topic: framework/cs-data-security.md
             navtitle: Storing and encrypting data
-          - topic: framework/architecture-workload-isolation.md
+          - topic: framework/cs-architecture-workload-isolation.md
             navtitle: Learning about architecture and workload isolation
-          - topic: framework/at-events.md
+          - topic: framework/cs-at-events.md
             navtitle: Auditing events
 
   - navgroup:
@@ -174,13 +174,13 @@ toc:
       - topicgroup: 
           label: Service availability
           topics:
-          - framework/locations-endpoints.md
+          - framework/cs-locations-endpoints.md
           - topicgroup: 
               label: High availability and disaster recovery
               topics:
-              - topic: framework/high-availability.md
+              - topic: framework/cs-high-availability.md
                 navtitle: Understanding high availability
-              - topic: framework/disaster-recovery.md
+              - topic: framework/cs-disaster-recovery.md
                 navtitle: Understanding disaster recovery
       - topicgroup: 
           label: Related links

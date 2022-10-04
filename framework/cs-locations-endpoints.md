@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-09-28"
+lastupdated: "2022-10-04"
 
 keywords: security and compliance center locations, available locations, scc endpoints, security and compliance center endpoints, regions, scc regions
 
