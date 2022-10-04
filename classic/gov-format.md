@@ -56,7 +56,7 @@ subcollection: security-compliance
 
 Rules and templates are comprised of several different building blocks, including a target, one or more property conditions, and a value. Check out the following image to see a simple breakdown of how rules and templates are structured.
 
-![This image shows the breakdown of a rule and a template by component.](../../images/example-gov.svg){: caption="Figure 1. Components of a config rule and a template" caption-side="bottom"}
+![This image shows the breakdown of a rule and a template by component.](../images/example-gov.svg){: caption="Figure 1. Components of a config rule and a template" caption-side="bottom"}
 
 | Rule components explained |
 |:-----------|
@@ -83,6 +83,7 @@ The properties that are available in the {{site.data.keyword.compliance_short}} 
 
 | Service | Rules | Templates |
 |:--------|:------|:----------|
+| [App ID](/docs/appid?topic=appid-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
 | [Billing Composite Service](/docs/overview?topic=overview-manage-security-compliance)  | ![Checkmark icon](../../icons/checkmark-icon.svg)| | 
 | [Catalog Management](/docs/overview?topic=overview-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
 | [Certificate Manager](/docs/certificate-manager?topic=certificate-manager-manage-security-compliance) | ![Checkmark icon](../../icons/checkmark-icon.svg)| |
@@ -162,7 +163,7 @@ So, as an example, the code snippets shown in the following image evaluate to tr
 2. If **(A or B or C)** are true.
 3. If **(A or (B and C))** are true.
 
-![The diagram shows the correlation between multiple conditions. The information is conveyed in the surrounding text.](../../images/config-rules-property.svg){: caption="Figure 2. The ways in which properties can relate to each other." caption-side="bottom"}
+![The diagram shows the correlation between multiple conditions. The information is conveyed in the surrounding text.](../images/config-rules-property.svg){: caption="Figure 2. The ways in which properties can relate to each other." caption-side="bottom"}
 
 
 ### Defining nested properties
