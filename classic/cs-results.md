@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: evaluation results, rule results, configuration results, resource configuration, 
 
@@ -60,7 +60,7 @@ Before you get started, be sure that you have the required level of access to vi
 ## Understanding your results
 {: #understand-results}
 
-To access the evaluation results for your rules, go to the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > View results**.For more information, see [Understanding the dashboard](/docs/security-compliance?topic=security-compliance-view-posture#view-dashboard).
+To access the evaluation results for your rules, go to the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance > View results**.For more information, see [Understanding the dashboard](/docs/security-compliance?topic=security-compliance-view-posture#view-dashboard).
 
 From the details page, you can view a summary of your evaluation results for any existing rules that are attached to scopes. When an issue is flagged that you want to know more about, you can drill into the results to get to your wanted level of information. For more information, see [Viewing scope details](/docs/security-compliance?topic=security-compliance-view-scope). At each level, you can download a detailed report with the information that is available at that level. Check out the following image to see the level of detail that you can achieve by investigating.
 

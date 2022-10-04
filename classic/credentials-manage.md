@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -63,7 +63,7 @@ Before you get started, be sure that you have the required level of access to vi
 
 To create a new credential, you can use the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Credentials**.
 3. Click **Create**.
 4. Give your credential a meaningful name and a description.
@@ -94,7 +94,7 @@ To create a new credential, you can use the {{site.data.keyword.compliance_short
 
 9. Verify your information and click **Create**. The credential is added to a list of available credentials.
 
-To edit or delete existing credentials, click the **Actions** icon ![Actions icon](../icons/actions-icon-vertical.svg) and click **Edit** or **Delete**.
+To edit or delete existing credentials, click the **Actions** icon ![Actions icon](../../icons/actions-icon-vertical.svg) and click **Edit** or **Delete**.
 {: tip}
 
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: compliance posture, security posture, audit evidence, security scan, evaluation results, scan results, scan results, compliance, score, compliance score
 
@@ -82,7 +82,7 @@ In the {{site.data.keyword.compliance_short}}, you can see a graphical view of y
 
 To navigate to the dashboard: 
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. Click **Dashboard**. Check out the following table to see the information that is displayed in the dashboard.
 
    | Tile | Description |
@@ -105,7 +105,7 @@ You can update the period of time that information is displayed for by selecting
 
 To see the results of a validation scan, you can use the {{site.data.keyword.compliance_short}} UI. To find more information, see [Understanding your results](/docs/security-compliance?topic=security-compliance-results#understand-results).
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Validate > Scans > Results**. A list of your scans that have associated results is shown.
 3. In the **Validation results** table, click the **Name** of the scan. 
 
@@ -138,7 +138,7 @@ To see the results of a discovery or fact collection scan, you can use the {{sit
 The scan results that are displayed by default are the most recent. To see previous scan results, use the timeline to select the specific scan that you want to view.
 {: tip}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Scopes**. A list of the scopes that are associated with your account is shown.
 3. In the **Scopes** table, click the **Name** of the scope that you want to view results for. A page opens with detailed information about the available resources in that scope and their configurations. 
 4. Select **Fact collection** or **Discovery** from the drop-down to adjust the results that you see. Check out the following table to learn more about your options for viewing results.

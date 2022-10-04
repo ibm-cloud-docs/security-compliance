@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -72,7 +72,7 @@ By creating an attachment between a template and a scope, you can apply your cus
 
 To create an attachment for a template by using the {{site.data.keyword.compliance_short}} UI:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance**.
 2. In the **Govern resources** section, click **Configure > Templates**.
 3. From the list of templates, click the name of the template that you want to attach.
 4. Click **Attachments**. If the template that you selected is attached to any scopes, you see them in a table.

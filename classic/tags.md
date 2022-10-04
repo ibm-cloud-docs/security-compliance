@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: mapping tags, compliance, security, tiered architecture
 
@@ -53,7 +53,7 @@ Tags are platform level labels used by the Security and Compliance Center to gui
 {: shortdesc}
 
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Settings > Tags**.
 3. Click the **New tag** icon.
 4. Add the tag that you use in the **Name** field.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-03"
+lastupdated: "2022-10-04"
 
 keywords: support, help, stack overflow, slack, satellite scans, satellite integration
 
@@ -60,3 +60,4 @@ When you're working in your Satellite instances, you don't see results for scans
 
 You do not see any results for your Satellite resources because the {{site.data.keyword.compliance_short}} service is not yet integrated with Satellite.
 {: tsCauses}
+

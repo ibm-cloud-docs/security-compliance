@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -70,7 +70,7 @@ By creating an attachment between a rule and a scope, you can monitor the resour
 
 To create an attachment for a rule by using the {{site.data.keyword.compliance_short}} UI:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance**.
 2. In the navigation, click **Configure rules**.
 3. From the list of rules, click the name of the rule that you want to attach.
 4. Click **Attachments**. If the rule that you selected is attached to any scopes, you see them in a table.

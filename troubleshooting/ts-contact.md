@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-13"
+lastupdated: "2022-10-04"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -74,3 +74,4 @@ If you're opening a support ticket for the security and compliance posture monit
    ls /home/ubuntu/<COLLECTOR_FOLDER>/collector_log.zip
    ```
    {: codeblock}
+

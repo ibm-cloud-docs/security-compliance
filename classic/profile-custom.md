@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -74,7 +74,7 @@ Before you get started, be sure that you have the required level of access to vi
 
 You can choose to create a profile by using another predefined profile as a base. To build a profile, you can use the UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Profiles**. 
 3. Click **Create**.
 4. Give your profile a name and description.
@@ -92,7 +92,7 @@ After you create your profile, you can choose to edit or export it by clicking i
 
 If you know the controls and goals that you want to meet, you can create a profile that is specific to your needs from scratch.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Profiles**. 
 3. Click **Create**.
 4. Give your profile a name and description.
@@ -127,7 +127,7 @@ As a compliance focal, you might also choose to export profiles with specific co
 
 To export a profile, you can use the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Profiles**. 
 3. From the list of profiles, select the profile that you want to export.
 4. Click the **Export profile** icon.
@@ -154,7 +154,7 @@ Tags
 
 To import a profile, you can use the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Configure > Profiles**. 
 3. Click the **Import profile** icon.
 4. Upload the CSV version of the profile that you want to import.

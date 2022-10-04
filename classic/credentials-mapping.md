@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -97,7 +97,7 @@ Before you get started, be sure that you have the required level of access to vi
 
 To map additional permissions, the credential must already added to the service. If you haven't yet added a credential, start with [Managing credentials](/docs/security-compliance?topic=security-compliance-credentials) and then return to the following steps.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the **Manage posture** section of the navigation, click [**Configure > Scopes**](https://{DomainName}/security-compliance/scopes).
 3. Select the scope that you want to map credentials for.
 4. In the **Credentials** section of the navigation, click **Add**. A side panel appears. 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -99,7 +99,7 @@ Because the {{site.data.keyword.compliance_short}} is built into the platform an
 
 After signing into {{site.data.keyword.cloud_notm}}, you can access the {{site.data.keyword.compliance_short}}:
 
-1. By clicking the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** in the navigation.
+1. By clicking the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance** in the navigation.
 2. By searching for **Security and Compliance Center** in the {{site.data.keyword.cloud_notm}} catalog.
 3. By selecting **Security and Compliance** from the **Manage** drop-down.
 

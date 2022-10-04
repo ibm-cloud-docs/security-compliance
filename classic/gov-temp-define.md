@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-03"
+lastupdated: "2022-10-04"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -73,7 +73,7 @@ Each property can be added to only one template per scope to avoid any conflicts
 
 You can use the {{site.data.keyword.compliance_short}} UI to create the templates that you want to apply to your {{site.data.keyword.cloud_notm}} resources. To create templates by using the {{site.data.keyword.cloud_notm}} console:
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance**.
 2. In the **Govern resources** section, click **Configure > Templates**.
 3. Click **Create**.
 4. Give your template a meaningful name and description.
