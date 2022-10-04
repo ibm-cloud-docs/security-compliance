@@ -14,16 +14,16 @@ toc:
   - navgroup:
       id: learn
       topics:
-      - topic: getting-started.md
+      - topic: classic/getting-started.md
         navtitle: Getting started
       - topicgroup:
           label: About
           topics:
           - topic: about-pricing.md
             navtitle: Pricing
-          - topic: about-supported.md
+          - topic: classic/about-supported.md
             navtitle: Environments and services
-          - topic: about-integrations.md
+          - topic: classic/about-integrations.md
             navtitle: Integrations
       - topic: releases.md
         navtitle: Release notes
@@ -52,55 +52,55 @@ toc:
       - topicgroup: 
           label: Setting up monitoring
           topics:
-          - posture-what-is.md
+          - classic/posture-what-is.md
           - topicgroup:
               label: Granting access to your resources
               topics:
-              - credentials-what-is.md
-              - credentials-permissions.md
-              - credentials-manage.md
-              - credentials-mapping.md
+              - classic/credentials-what-is.md
+              - classic/credentials-permissions.md
+              - classic/credentials-manage.md
+              - classic/credentials-mapping.md
           - topicgroup:
               label: Discovering resources and configurations
               topics:
-              - collector-what-is.md
-              - collector-ibm.md
-              - collector-customer.md
-              - inventory.md
+              - classic/collector-what-is.md
+              - classic/collector-ibm.md
+              - classic/collector-customer.md
+              - classic/inventory.md
           - topicgroup:
               label: Defining your compliance checks
               topics:
-              - profile-what-is.md
-              - profile-custom.md
-              - goals-customize.md
+              - classic/profile-what-is.md
+              - classic/profile-custom.md
+              - classic/goals-customize.md
       - topicgroup: 
           label: Monitoring your resources
           topics:
           - topicgroup:
               label: Targeting specific resources
               topics:
-              - scopes.md
-              - scope-details.md
-              - tags.md
-          - schedule-scan.md
-          - multiple-accounts.md
+              - classic/scopes.md
+              - classic/scope-details.md
+              - classic/tags.md
+          - classic/schedule-scan.md
+          - classic/multiple-accounts.md
       - topicgroup:
           label: Governing the use of resources
           topics:
-          - gov-what-is.md
-          - gov-format.md
+          - classic/gov-what-is.md
+          - classic/gov-format.md
           - topicgroup:
               label: Managing config rules
               topics:
-              - gov-rule-define.md
-              - gov-rule-attach.md
-              - gov-rule-delete.md
+              - classic/gov-rule-define.md
+              - classic/gov-rule-attach.md
+              - classic/gov-rule-delete.md
           - topicgroup:
               label: Managing templates
               topics:
-              - gov-temp-define.md
-              - gov-temp-attach.md
-              - gov-temp-delete.md
+              - classic/gov-temp-define.md
+              - classic/gov-temp-attach.md
+              - classic/gov-temp-delete.md
       - topicgroup:
           label: Connecting integrations
           topics: 
@@ -111,9 +111,9 @@ toc:
       - topicgroup:
           label: Managing your posture
           topics:
-          - view-posture.md
-          - results.md
-          - remediation.md
+          - classic/view-posture.md
+          - classic/results.md
+          - classic/remediation.md
       - topicgroup:
           label: Enhancing security
           topics:
@@ -132,7 +132,7 @@ toc:
       - topicgroup:
           label: APIs and SDKs
           topics:
-          - api-setup.md
+          - classic/api-setup.md
           - link:
               label: Admin
               href: https://{DomainName}/apidocs/security-compliance-admin
