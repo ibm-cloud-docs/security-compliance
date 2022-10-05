@@ -19,7 +19,7 @@ toc:
       - topicgroup:
           label: About
           topics:
-          - topic: about-pricing.md
+          - topic: classic/about-pricing.md
             navtitle: Pricing
           - topic: classic/about-supported.md
             navtitle: Environments and services
@@ -154,7 +154,7 @@ toc:
       - topicgroup:
           label: Terraform
           topics:
-          - topic: framework/terraform.md
+          - topic: framework/cs-terraform.md
             navtitle: Setting up Terraform
           - link:
               label: Terraform documentation
@@ -192,7 +192,7 @@ toc:
   - navgroup:
       id: help
       topics:
-      - cs-faqs.md 
+      - classic/cs-faqs.md 
       - topicgroup: 
           label: Troubleshooting
           topics:
