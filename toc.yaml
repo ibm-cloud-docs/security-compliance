@@ -106,7 +106,7 @@ toc:
           topics: 
           - integrations/osco.md
           - integrations/tanium.md
-      - topic: framework/event-notifications.md
+      - topic: framework/cs-event-notifications.md
         navtitle: Enabling event notifications
       - topicgroup:
           label: Managing your posture
@@ -204,4 +204,4 @@ toc:
           - troubleshooting/ts-results-osco.md
           - troubleshooting/ts-notifications.md
           - troubleshooting/ts-satellite.md
-      - limits.md 
+      - classic/limits.md 
