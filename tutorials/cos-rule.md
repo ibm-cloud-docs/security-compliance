@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-12"
+lastupdated: "2022-10-13"
 
 keywords: cos configuration, Cloud Object Storage, Security and Compliance, security, compliance, configuration, set up configuration, monitor
 
@@ -49,8 +49,8 @@ completion-time: 20m
 {:api: .ph data-hd-interface='api'}
 {:release-note: data-hd-content-type='release-note'}
 
-# Install a customer-managed collector on a {{site.data.keyword.containershort}} cluster
-{: #monitor-cos-configuration}
+# Create a custom rule for Cloud Object Storage
+{: #cos-custom-rule}
 {: toc-content-type="tutorial"}
 {: toc-services="security-compliance, cos"}
 {: toc-completion-time="20m"}
