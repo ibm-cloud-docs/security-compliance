@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-04"
+lastupdated: "2022-10-13"
 
 keywords: data encryption in {{site.data.keyword.compliance_short}}, data storage for {{site.data.keyword.compliance_short}}, bring your own keys for {{site.data.keyword.compliance_short}}, BYOK for {{site.data.keyword.compliance_short}}, key management for {{site.data.keyword.compliance_short}}, key encryption for {{site.data.keyword.compliance_short}}, personal data in {{site.data.keyword.compliance_short}}, data deletion for {{site.data.keyword.compliance_short}}, data in {{site.data.keyword.compliance_short}}, data security in {{site.data.keyword.compliance_short}}
 
@@ -105,50 +105,6 @@ You can change the location in which your data is stored and processed by using 
 4. Confirm that you want to change your location.
 5. Click **Save**.
 
-
-### Changing your location with the API
-{: #storage-location-api}
-{: api}
-
-You can change the location in which your data is stored and processed by using the Admin API.
-
-1. View your current settings.
-
-   ```sh
-   curl -X GET 'https://compliance.cloud.ibm.com/admin/v1/accounts/<accountID>/settings' \
-   -H 'accept: application/json'
-   ```
-   {: codeblock}
-
-2. Update your settings.
-
-   ```sh
-   curl -X PATCH 'https://compliance.cloud.ibm.com/admin/v1/accounts/<accountID>/settings' \
-   -H 'accept: application/json' \
-   -H 'Content-Type: application/json' \
-   -d '{
-   "location": {
-      "id": "us-south"
-      }
-   }'
-   ```
-   {: codeblock}
-
-
-   Response:
-
-   ```json
-   {
-      "location": {
-      "id": "us-south",
-      "modified": "2021-03-08T07:38:10.730184636Z",
-      "cleanup_inactive_locations": false
-      }
-   }
-   ```
-   {: screen}
-
-
 ## Protecting your sensitive data
 {: #data-encryption}
 
@@ -203,7 +159,7 @@ If you choose to work with a key that you manage, you must ensure that valid IAM
    You must be the account owner or an administrator of the key management service instance that you're working with. You must also have at least Viewer access for {{site.data.keyword.compliance_short}}.
 
    1. Go to **Manage > Access IAM > Authorizations**.
-   2. Select {{site.data.keyword.compliance_short}} or {{site.data.keyword.security-advisor_short}} as the source service.
+   2. Select {{site.data.keyword.compliance_short}} as the source service.
 
       If you're creating an authorization for compliance scans, select **{{site.data.keyword.compliance_short}}**.
 
@@ -237,3 +193,4 @@ All the data in your account is automatically deleted. You don't need to take an
 
 If you delete your account, all the data that is associated with {{site.data.keyword.compliance_short}} is automatically deleted.
 {: note}
+
