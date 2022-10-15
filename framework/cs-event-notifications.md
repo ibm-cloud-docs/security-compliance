@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-04"
+lastupdated: "2022-10-15"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -266,3 +266,4 @@ Review the following table for more information about event notification propert
 | `start_time` | The date and time the scan started. |
 | `end_time` | The date and time the scan completed. |
 {: caption="Table 4. Properties in an event notification payload" caption-side="bottom"}
+
