@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-04"
+lastupdated: "2022-10-17"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -51,7 +51,8 @@ subcollection: security-compliance
 With {{site.data.keyword.compliance_full}}, you can promote a culture of compliance within your organization that begins with resource configuration and holds through the collection of audit evidence. With automation in place to stop mistakes, you're able to build and scale your workloads with full control while your teams are able to code with accountability and confidence. All while saving your business time and money.
 {: shortdesc}
 
-
+A new and improved experience for {{site.data.keyword.compliance_short}} is coming soon! As part of the updates, the Configuration Governance component of the service will be temporarily removed in November 2022. Currently there is not a timeline for its return, but we'll keep you updated.
+{: note}
 
 ## What is the {{site.data.keyword.compliance_short}}?
 {: #gs-what-scc}

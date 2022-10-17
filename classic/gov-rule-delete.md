@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-04"
+lastupdated: "2022-10-17"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -52,7 +52,8 @@ subcollection: security-compliance
 When you no longer need an {{site.data.keyword.compliance_full}} rule, you can delete it through the console or by using the APIs.
 {: shortdesc}
 
-
+A new and improved experience for {{site.data.keyword.compliance_short}} is coming soon! As part of the updates, the Configuration Governance component of the service will be temporarily removed in November 2022. Currently there is not a timeline for its return, but we'll keep you updated.
+{: note}
 
 ## Before you begin 
 {: #before-delete-rules}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-04"
+lastupdated: "2022-10-17"
 
 keywords: rule, config rule, what is a config rule, resource configuration, resource governance, governance, properties, conditions, templates, properties, govern
 
@@ -50,6 +50,9 @@ subcollection: security-compliance
 
 By using the {{site.data.keyword.compliance_full}}, you can significantly decrease the likelihood of a misconfiguration-related security issue by setting guardrails around the way that your resources can be configured.
 {: shortdesc}
+
+A new and improved experience for {{site.data.keyword.compliance_short}} is coming soon! As part of the updates, the Configuration Governance component of the service will be temporarily removed in November 2022. Currently there is not a timeline for its return, but we'll keep you updated.
+{: note}
 
 ## Understanding how Configuration Governance works
 {: #gov-works}

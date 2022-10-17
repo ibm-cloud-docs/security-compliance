@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-04"
+lastupdated: "2022-10-17"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -51,6 +51,9 @@ subcollection: security-compliance
 
 After you've created a template, you can use the {{site.data.keyword.compliance_full}} to target a specific area of your organization where you want to apply the template by using the console or the APIs.
 {: shortdesc}
+
+A new and improved experience for {{site.data.keyword.compliance_short}} is coming soon! As part of the updates, the Configuration Governance component of the service will be temporarily removed in November 2022. Currently there is not a timeline for its return, but we'll keep you updated.
+{: note}
 
 To apply your template, you create an attachment between a scope, such as an account, an account group, or an entire enterprise to ensure that your template is applied on only those resources that you want to target.
 

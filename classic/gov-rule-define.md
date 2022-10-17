@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-05"
+lastupdated: "2022-10-17"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -51,6 +51,9 @@ subcollection: security-compliance
 
 You can use the {{site.data.keyword.compliance_full}} to create config rules by using the console or the APIs.
 {: shortdesc}
+
+A new and improved experience for {{site.data.keyword.compliance_short}} is coming soon! As part of the updates, the Configuration Governance component of the service will be temporarily removed in November 2022. Currently there is not a timeline for its return, but we'll keep you updated.
+{: note}
 
 After you create a rule, you can monitor for configuration changes by [attaching the rule to a scope](/docs/security-compliance?topic=security-compliance-rules-apply), such as an account group, specific accounts, or an entire enterprise. You can further investigate noncompliant resources by reviewing your evaluation results in the {{site.data.keyword.compliance_short}} UI.
 
