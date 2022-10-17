@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-09-08"
+lastupdated: "2022-10-17"
 
 keywords: ibm credentials, scc, security and compliance for ibm, compliance scan, {{site.data.keyword.cloud_notm}} resources
 
@@ -82,12 +82,11 @@ The first step that the {{site.data.keyword.compliance_short}} takes in evaluati
 2. Provide a **Name** and **Description**.
 3. Click **Create**.
 4. Click **Access policies > Assign access**. **Access policy** is automatically selected in the screen that loads.
-5. Assign access to the {{site.data.keyword.compliance_short}} and Security and Compliance Integrations.
+5. Assign access to the {{site.data.keyword.compliance_short}}.
    1. From the table, select the **{{site.data.keyword.compliance_short}}** and click **Next**.
    2. Leave **All resources** and click **Next**.
    3. Select **Manager** and **Administrator**. Then, click **Review** to validate your choices.
    4. Click **Add**.
-   5. Repeat step 5, but select Security and Compliance Integrations instead of {{site.data.keyword.compliance_short}}.
 6. Assign access to all Identity and Access enabled services.
    1. From the table, select **Identity and Access enabled services** and click **Next**.
    2. Scope your access to the resources that you want to scan and then click **Next**.
