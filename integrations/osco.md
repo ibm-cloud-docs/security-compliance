@@ -108,7 +108,7 @@ To start scanning your {{site.data.keyword.openshiftshort}} clusters, you must t
    1. In the **Manage posture** section of the navigation, click **Configure > Credentials**. Click **Create**.
    2. Give your credential a name and optionally add a description.
    3. Select **Discovery / Collection** and then click **Next**.
-   4. Select **IBM Cloud** as the credential type and enter your **API key**.
+   4. Select **{{site.data.keyword.cloud_notm}}** as the credential type and enter your **API key**.
    5. Click **Create**.
 
 3. Map your {{site.data.keyword.openshiftshort}} credentials.
