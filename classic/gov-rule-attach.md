@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-04"
+lastupdated: "2022-10-17"
 
 keywords: resource configuration, resource governance, governance, rule, config rule, properties, conditions, enforcement actions, evaluation results
 
@@ -51,6 +51,9 @@ subcollection: security-compliance
 
 After you've created a rule, you can use the {{site.data.keyword.compliance_full}} to target a specific area of your organization where you want to apply the rule by using the console or the APIs.
 {: shortdesc}
+
+A new and improved experience for {{site.data.keyword.compliance_short}} is coming soon! As part of the updates, the Configuration Governance component of the service will be temporarily removed in November 2022. Currently there is not a timeline for its return, but we'll keep you updated.
+{: note}
 
 To apply your rule, you create an attachment between a scope, such as an account, an account group, or an entire enterprise to ensure that your rule is applied on only those resources that you want to target.
 

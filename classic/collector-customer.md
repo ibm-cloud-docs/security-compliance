@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-04"
+lastupdated: "2022-10-12"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -62,7 +62,7 @@ Before you get started, be sure that you have the level of access that is necess
 ### Verifying installation requirements
 {: #before-collector-verify}
 
-You can install a collector on a cluster or a machine. To manually install a collector on a cluster, you must have access to an [{{site.data.keyword.cloud_notm}} {{site.data.keyword.containershort}}](/docs/containers) or a [{{site.data.keyword.openshiftshort}} {{site.data.keyword.cloud_notm}}](/docs/openshift) cluster. To install a collector on a machine, you must have access to a server. That server must have the following minimum configuration requirements that are based on the type of machine that you are using.
+You can install a collector on a cluster or a machine. To manually install a collector on a cluster, you must have access to an [{{site.data.keyword.containershort}}](/docs/containers) or an [{{site.data.keyword.openshiftshort}}](/docs/openshift) cluster. To install a collector on a machine, you must have access to a server. That server must have the following minimum configuration requirements that are based on the type of machine that you are using.
 
 | Machine type | Minimum requirement | 
 |:-------------|:--------------------|

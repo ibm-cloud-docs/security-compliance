@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-04"
+lastupdated: "2022-10-17"
 
 keywords: default property values, customized defaults, templates properties, resource governance
 
@@ -51,6 +51,9 @@ subcollection: security-compliance
 
 You can use the {{site.data.keyword.compliance_full}} to create and manage templates by using the console or the APIs.
 {: shortdesc}
+
+A new and improved experience for {{site.data.keyword.compliance_short}} is coming soon! As part of the updates, the Configuration Governance component of the service will be temporarily removed in November 2022. Currently there is not a timeline for its return, but we'll keep you updated.
+{: note}
 
 Templates help you define your preferred property values for supported resources in your accounts. After you create a template and attach it to a scope, your defined values override the defaults that are provided by IBM. Later, when an account user creates a resource that is targeted by the template, your customized defaults are applied.
 

@@ -52,6 +52,21 @@ content-type: release-note
 
 
 
+## 10 October 2022
+{: #security-compliance-oct2022}
+{: release-note}
+
+Updates coming soon!
+:   A new and improved experience for {{site.data.keyword.compliance_short}} is on its way! We've been working in the background for the past several months to incorporate all of the feedback that we've received and we're almost ready to share it with you. To ensure the best experience possible, there are a few changes to the current functionality that you'll need to be aware of.
+
+   **What's changing?**
+
+   When our new experience is released, you can expect to see:
+
+   A more seamless integration for {{site.data.keyword.cloud_notm}} resources! Not only will you no longer be required to configure and deploy a collector to scan resources that run on {{site.data.keyword.cloud_notm}}, but your experience in the UI will now be more consistent throughout the product.
+   The removal of Configuration Governance. Although rules will continue to exist in the new experience, we are temporarily removing the Configuration Governance component of the service which is currently used for enforcement. While there is no timeline in place for this functionality to return, we will keep you updated.
+
+
 
 ## 21 September 2022
 {: #security-compliance-sept2022}
