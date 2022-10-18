@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-13"
+lastupdated: "2022-10-18"
 
 keywords: Centralized security, osco, {{site.data.keyword.openshiftshort}} Compliance Operator, compliance monitoring, compliance, 
 
@@ -52,8 +52,7 @@ subcollection: security-compliance
 When you integrate the [{{site.data.keyword.openshiftshort}} Compliance Operator (OSCO)](https://github.com/openshift/compliance-operator){: external} with the {{site.data.keyword.compliance_short}}, you can run scans that validate your level of compliance to a specific predefined profile. Then, you can view all the results and a history of those results in a single location.
 {: shortdesc}
 
-Integrations are currently available for Classic {{site.data.keyword.compliance_short}}.
-{: note}
+
 
 To learn more about how the integration is configured, check out the following diagram.
 
