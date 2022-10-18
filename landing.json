@@ -33,6 +33,11 @@
       "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
       "tiles": [
         {
+          "date": "10 October 2022",
+          "title": "Updates coming soon!",
+          "description": "A new and improved experience of Security and Compliance Center is on its way! See the release notes to learn more about what that means for you."
+        },
+        {
           "date": "21 September 2022",
           "title": "Now available: New profile version",
           "description": "Version 6 of the IBM Cloud for Financial Services is now available."
@@ -41,11 +46,6 @@
           "date": "1 September 2022",
           "title": "New properties available for VPC",
           "description": "New properties are now available as part of Configuration Governance."
-        },
-        {
-          "date": "1 September 2022",
-          "title": "Removed: Credential passphrase",
-          "description": "As of today, you can no longer use a credential passphrase."
         }
       ]
     }
