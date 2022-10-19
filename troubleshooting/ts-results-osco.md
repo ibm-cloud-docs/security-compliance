@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-10"
+lastupdated: "2022-10-19"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -67,4 +67,3 @@ To resolve the issue:
 * Verify that your scope contains OpenShift clusters.
 * Verify that the integration is enabled in your scan settings.
 * Run a discovery scan on your scope. When it's complete, run another validation scan.
-
