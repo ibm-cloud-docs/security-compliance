@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-04"
+lastupdated: "2022-10-20"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -63,8 +63,9 @@ Updates coming soon!
 
    When our new experience is released, you can expect to see:
 
-   A more seamless integration for {{site.data.keyword.cloud_notm}} resources! Not only will you no longer be required to configure and deploy a collector to scan resources that run on {{site.data.keyword.cloud_notm}}, but your experience in the UI will now be more consistent throughout the product.
-   The removal of Configuration Governance. Although rules will continue to exist in the new experience, we are temporarily removing the Configuration Governance component of the service which is currently used for enforcement. While there is no timeline in place for this functionality to return, we will keep you updated.
+   **A more seamless integration for {{site.data.keyword.cloud_notm}} resources!** Not only will you no longer be required to configure and deploy a collector to scan resources that run on {{site.data.keyword.cloud_notm}}, but your experience in the UI will now be more consistent throughout the product.  
+
+   **The removal of Configuration Governance**. Although rules will continue to exist in the new experience, we are temporarily removing the Configuration Governance component of the service which is currently used for enforcement. While there is no timeline in place for this functionality to return, we will keep you updated.
 
 
 
