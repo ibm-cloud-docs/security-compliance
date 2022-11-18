@@ -18,32 +18,31 @@
 	.st12{fill:#D8D8D8;}
 	.st13{fill:#161616;}
 	.st14{font-size:30px;}
-	.st15{fill-rule:evenodd;clip-rule:evenodd;fill:#161616;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;}
-	.st16{fill-rule:evenodd;clip-rule:evenodd;fill:#0F62FE;}
-	.st17{fill:#FFFFFF;}
-	.st18{font-size:14px;}
-	.st19{fill:#3A6CFC;}
-	.st20{fill-rule:evenodd;clip-rule:evenodd;fill:#3A6CFC;}
-	.st21{font-family:'IBMPlexSans-Medium';}
-	.st22{fill-rule:evenodd;clip-rule:evenodd;fill:#272CD3;}
-	.st23{fill-rule:evenodd;clip-rule:evenodd;fill:#161616;}
-	.st24{fill-rule:evenodd;clip-rule:evenodd;fill:#E5E5E5;}
-	.st25{fill-rule:evenodd;clip-rule:evenodd;fill:#D8D8D8;}
-	.st26{enable-background:new    ;}
-	.st27{fill-rule:evenodd;clip-rule:evenodd;fill:#2B2B2B;}
-	.st28{fill:none;stroke:#E5E5E5;stroke-miterlimit:10;}
-	.st29{font-size:15px;}
-	.st30{fill:none;stroke:#E5E5E5;stroke-width:0.5;stroke-miterlimit:10;}
-	.st31{fill:#E5E5E5;}
-	.st32{font-size:13px;}
-	.st33{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#DFDFDF;stroke-miterlimit:10;}
-	.st34{fill-rule:evenodd;clip-rule:evenodd;fill:#DFDFDF;}
-	.st35{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#DFDFDF;stroke-width:0.935;stroke-miterlimit:10;}
-	.st36{fill:none;stroke:#E5E5E5;stroke-width:0.9733;stroke-miterlimit:10;}
-	.st37{fill:#393939;}
-	.st38{fill:#6F6F6F;}
-	.st39{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#DFDFDF;stroke-width:0.4312;stroke-miterlimit:10;}
-	.st40{fill-rule:evenodd;clip-rule:evenodd;fill:#24A148;}
+	.st15{fill-rule:evenodd;clip-rule:evenodd;fill:#0F62FE;}
+	.st16{fill:#FFFFFF;}
+	.st17{font-size:14px;}
+	.st18{fill:#3A6CFC;}
+	.st19{fill-rule:evenodd;clip-rule:evenodd;fill:#3A6CFC;}
+	.st20{font-family:'IBMPlexSans-Medium';}
+	.st21{fill-rule:evenodd;clip-rule:evenodd;fill:#272CD3;}
+	.st22{fill-rule:evenodd;clip-rule:evenodd;fill:#161616;}
+	.st23{fill-rule:evenodd;clip-rule:evenodd;fill:#E5E5E5;}
+	.st24{fill-rule:evenodd;clip-rule:evenodd;fill:#D8D8D8;}
+	.st25{enable-background:new    ;}
+	.st26{fill-rule:evenodd;clip-rule:evenodd;fill:#2B2B2B;}
+	.st27{fill:none;stroke:#E5E5E5;stroke-miterlimit:10;}
+	.st28{font-size:15px;}
+	.st29{fill:none;stroke:#E5E5E5;stroke-width:0.5;stroke-miterlimit:10;}
+	.st30{fill:#E5E5E5;}
+	.st31{font-size:13px;}
+	.st32{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#DFDFDF;stroke-miterlimit:10;}
+	.st33{fill-rule:evenodd;clip-rule:evenodd;fill:#DFDFDF;}
+	.st34{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#DFDFDF;stroke-width:0.935;stroke-miterlimit:10;}
+	.st35{fill:none;stroke:#E5E5E5;stroke-width:0.9733;stroke-miterlimit:10;}
+	.st36{fill:#393939;}
+	.st37{fill:#6F6F6F;}
+	.st38{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#DFDFDF;stroke-width:0.4312;stroke-miterlimit:10;}
+	.st39{fill-rule:evenodd;clip-rule:evenodd;fill:#24A148;}
 </style>
 <g id="Background_9_">
 	<rect id="background_19_" x="30" y="22" class="st0" width="1312" height="48"/>
@@ -136,30 +135,24 @@
 	<rect id="side-panel-background_2_" x="77" y="565" class="st6" width="759.7" height="55"/>
 	<rect id="side-panel-background_3_" x="864.4" y="565" class="st6" width="429.6" height="55"/>
 	<text transform="matrix(1 0 0 1 78.84 135.781)" class="st13 st10 st14">Dashboard</text>
-	<g id="Actions-_x2F_-Navigation-_x2F_-chevron--down-_x2F_-20_2_" transform="translate(1100.000000, 14.000000)">
-		<g>
-			<polygon id="Fill_30_" class="st15" points="-853.7,117.5 -862.1,109.1 -860.9,107.9 -853.7,115.2 -846.4,107.9 -845.2,109.1 			
-				"/>
-		</g>
-	</g>
-	<rect id="side-panel-background_4_" x="1093" y="106.6" class="st16" width="161.2" height="40.3"/>
-	<text transform="matrix(1 0 0 1 1104.9248 130.9485)" class="st17 st10 st18">Create resource</text>
-	<text transform="matrix(1 0 0 1 1233.8137 130.9487)" class="st17 st10 st18">+</text>
-	<text transform="matrix(1 0 0 1 968.9097 130.9487)" class="st19 st10 st18">Upgrade account</text>
-	<text transform="matrix(1 0 0 1 837.1765 130.9485)" class="st19 st10 st18">Edit dashboard</text>
+	<rect id="side-panel-background_4_" x="1093" y="106.6" class="st15" width="161.2" height="40.3"/>
+	<text transform="matrix(1 0 0 1 1104.9248 130.9485)" class="st16 st10 st17">Create resource</text>
+	<text transform="matrix(1 0 0 1 1233.8137 130.9487)" class="st16 st10 st17">+</text>
+	<text transform="matrix(1 0 0 1 968.9097 130.9487)" class="st18 st10 st17">Upgrade account</text>
+	<text transform="matrix(1 0 0 1 837.1765 130.9485)" class="st18 st10 st17">Edit dashboard</text>
 	<g id="Icon_7_" transform="translate(8.000000, 8.000000)">
-		<path id="Fill_12_" class="st20" d="M929.8,124.2h14v1h-14V124.2z M941.5,115.7c0.4-0.4,0.4-1,0-1.4l-1.8-1.8
+		<path id="Fill_12_" class="st19" d="M929.8,124.2h14v1h-14V124.2z M941.5,115.7c0.4-0.4,0.4-1,0-1.4l-1.8-1.8
 			c-0.4-0.4-1-0.4-1.4,0l-7.5,7.5v3.2h3.2L941.5,115.7z M939,113.2l1.8,1.8l-1.5,1.5l-1.8-1.8L939,113.2z M931.8,122.2v-1.8l5-5
 			l1.8,1.8l-5,5H931.8z"/>
 	</g>
-	<text transform="matrix(1 0 0 1 92.0201 205.2512)" class="st13 st21 st18">For you</text>
-	<rect id="side-panel-background_5_" x="98.6" y="223.1" class="st22" width="218.6" height="291.9"/>
-	<text transform="matrix(1 0 0 1 93.2242 589.2035)" class="st13 st21 st18">Resource summary</text>
-	<text transform="matrix(1 0 0 1 872.656 589.203)" class="st13 st21 st18">Planned maintenance</text>
+	<text transform="matrix(1 0 0 1 92.0201 205.2512)" class="st13 st20 st17">For you</text>
+	<rect id="side-panel-background_5_" x="98.6" y="223.1" class="st21" width="218.6" height="291.9"/>
+	<text transform="matrix(1 0 0 1 93.2242 589.2035)" class="st13 st20 st17">Resource summary</text>
+	<text transform="matrix(1 0 0 1 872.656 589.203)" class="st13 st20 st17">Planned maintenance</text>
 	<g id="icon-button-3" transform="translate(26.000000, 8.000000)">
 		<rect id="Background" x="1236.1" y="102.7" class="st1" width="32" height="32"/>
 		<g id="Icon" transform="translate(8.000000, 8.000000)">
-			<path id="Fill_4_" class="st23" d="M1244.1,106.7c0.6,0,1-0.4,1-1c0-0.6-0.4-1-1-1c-0.6,0-1,0.4-1,1
+			<path id="Fill_4_" class="st22" d="M1244.1,106.7c0.6,0,1-0.4,1-1c0-0.6-0.4-1-1-1c-0.6,0-1,0.4-1,1
 				C1243.1,106.3,1243.6,106.7,1244.1,106.7z M1244.1,111.7c0.6,0,1-0.4,1-1c0-0.6-0.4-1-1-1c-0.6,0-1,0.4-1,1
 				C1243.1,111.3,1243.6,111.7,1244.1,111.7z M1244.1,116.7c0.6,0,1-0.4,1-1s-0.4-1-1-1c-0.6,0-1,0.4-1,1S1243.6,116.7,1244.1,116.7
 				z"/>
@@ -169,11 +162,11 @@
 	<rect id="side-panel-background_8_" x="574" y="223.1" class="st8" width="218.6" height="291.9"/>
 	<rect id="side-panel-background_9_" x="811.8" y="223.1" class="st8" width="218.6" height="291.9"/>
 	<rect id="side-panel-background_10_" x="1049.5" y="223.1" class="st8" width="218.6" height="291.9"/>
-	<text transform="matrix(1 0 0 1 774.8267 589.2946)" class="st19 st10 st18">View all</text>
-	<text transform="matrix(1 0 0 1 1232.4517 589.2946)" class="st19 st10 st18">View all</text>
-	<rect id="Rectangle_28_" x="346" y="330.7" class="st24" width="185" height="11"/>
-	<rect id="Rectangle_29_" x="346" y="310.7" class="st25" width="120" height="11"/>
-	<rect id="Rectangle_30_" x="346" y="350.7" class="st24" width="162.6" height="11"/>
+	<text transform="matrix(1 0 0 1 774.8267 589.2946)" class="st18 st10 st17">View all</text>
+	<text transform="matrix(1 0 0 1 1232.4517 589.2946)" class="st18 st10 st17">View all</text>
+	<rect id="Rectangle_28_" x="346" y="330.7" class="st23" width="185" height="11"/>
+	<rect id="Rectangle_29_" x="346" y="310.7" class="st24" width="120" height="11"/>
+	<rect id="Rectangle_30_" x="346" y="350.7" class="st23" width="162.6" height="11"/>
 	<path d="M377.6,259.8c-2.5-4.7-8.4-6.5-13.2-4c-3,1.6-4.9,4.6-5.1,7.9c-3.7,0.4-6.4,3.7-6,7.4c0.4,3.4,3.3,6,6.7,6h16
 		c4.8,0,8.7-3.9,8.8-8.7C384.8,264.2,381.7,260.6,377.6,259.8z M376,275.7h-16c-2.9,0-5.2-2.3-5.2-5.2c0-2.6,1.9-4.9,4.6-5.2
 		c0.1,1.3,0.5,2.6,1.1,3.8c0.2,0.4,0.6,0.5,1,0.3s0.5-0.6,0.3-1c0,0,0,0,0,0c-2.1-4-0.6-9,3.4-11.2c3.7-2,8.2-0.9,10.6,2.5
@@ -189,9 +182,9 @@
 		c0,0,0,0,0,0L361.3,253.8z"/>
 	<path d="M357.2,257.9l-3-1.7c-0.4-0.2-0.8-0.1-1,0.3c-0.2,0.4-0.1,0.8,0.3,1c0,0,0,0,0,0l3,1.7c0.4,0.2,0.8,0.1,1-0.3
 		C357.7,258.6,357.5,258.1,357.2,257.9C357.2,257.9,357.2,257.9,357.2,257.9L357.2,257.9z"/>
-	<rect id="Rectangle_24_" x="586.9" y="330.7" class="st24" width="196.1" height="11"/>
-	<rect id="Rectangle_6_" x="586.9" y="310.7" class="st25" width="120" height="11"/>
-	<rect id="Rectangle_3_" x="586.9" y="350.7" class="st24" width="162.6" height="11"/>
+	<rect id="Rectangle_24_" x="586.9" y="330.7" class="st23" width="196.1" height="11"/>
+	<rect id="Rectangle_6_" x="586.9" y="310.7" class="st24" width="120" height="11"/>
+	<rect id="Rectangle_3_" x="586.9" y="350.7" class="st23" width="162.6" height="11"/>
 	<path d="M616.5,259.8c-2.5-4.7-8.4-6.5-13.2-4c-3,1.6-4.9,4.6-5.1,7.9c-3.7,0.4-6.4,3.7-6,7.4c0.4,3.4,3.3,6,6.7,6h16
 		c4.8,0,8.7-3.9,8.8-8.7C623.7,264.2,620.7,260.6,616.5,259.8z M614.9,275.7h-16c-2.9,0-5.2-2.3-5.2-5.2c0-2.6,1.9-4.9,4.6-5.2
 		c0.1,1.3,0.5,2.6,1.1,3.8c0.2,0.4,0.6,0.5,1,0.3c0.4-0.2,0.5-0.6,0.3-1c0,0,0,0,0,0c-2.1-4-0.6-9,3.4-11.2c3.7-2,8.2-0.9,10.6,2.5
@@ -207,9 +200,9 @@
 		c0,0,0,0,0,0L600.2,253.8z"/>
 	<path d="M596.1,257.9l-3-1.7c-0.4-0.2-0.8-0.1-1,0.3c-0.2,0.4-0.1,0.8,0.3,1c0,0,0,0,0,0l3,1.7c0.4,0.2,0.8,0.1,1-0.3
 		C596.6,258.6,596.5,258.1,596.1,257.9C596.1,257.9,596.1,257.9,596.1,257.9L596.1,257.9z"/>
-	<rect id="Rectangle_37_" x="826.1" y="330.7" class="st24" width="196.1" height="11"/>
-	<rect id="Rectangle_36_" x="826.1" y="310.7" class="st25" width="120" height="11"/>
-	<rect id="Rectangle_35_" x="826.1" y="350.7" class="st24" width="147.1" height="11"/>
+	<rect id="Rectangle_37_" x="826.1" y="330.7" class="st23" width="196.1" height="11"/>
+	<rect id="Rectangle_36_" x="826.1" y="310.7" class="st24" width="120" height="11"/>
+	<rect id="Rectangle_35_" x="826.1" y="350.7" class="st23" width="147.1" height="11"/>
 	<path d="M856,259.8c-2.5-4.7-8.4-6.5-13.2-4c-3,1.6-4.9,4.6-5.1,7.9c-3.7,0.4-6.4,3.7-6,7.4c0.4,3.4,3.3,6,6.7,6h16
 		c4.8,0,8.7-3.9,8.8-8.7C863.2,264.2,860.1,260.6,856,259.8z M854.4,275.7h-16c-2.9,0-5.2-2.3-5.2-5.2c0-2.6,1.9-4.9,4.6-5.2
 		c0.1,1.3,0.5,2.6,1.1,3.8c0.2,0.4,0.6,0.5,1,0.3c0.4-0.2,0.5-0.6,0.3-1c0,0,0,0,0,0c-2.1-4-0.6-9,3.4-11.2c3.7-2,8.2-0.9,10.6,2.5
@@ -225,9 +218,9 @@
 		c0,0,0,0,0,0L839.7,253.8z"/>
 	<path d="M835.6,257.9l-3-1.7c-0.4-0.2-0.8-0.1-1,0.3c-0.2,0.4-0.1,0.8,0.3,1c0,0,0,0,0,0l3,1.7c0.4,0.2,0.8,0.1,1-0.3
 		C836.1,258.6,835.9,258.1,835.6,257.9C835.6,257.9,835.6,257.9,835.6,257.9L835.6,257.9z"/>
-	<rect id="Rectangle_40_" x="1060.7" y="330.7" class="st24" width="185.3" height="11"/>
-	<rect id="Rectangle_39_" x="1060.7" y="310.7" class="st25" width="120" height="11"/>
-	<rect id="Rectangle_38_" x="1060.7" y="350.7" class="st24" width="162.6" height="11"/>
+	<rect id="Rectangle_40_" x="1060.7" y="330.7" class="st23" width="185.3" height="11"/>
+	<rect id="Rectangle_39_" x="1060.7" y="310.7" class="st24" width="120" height="11"/>
+	<rect id="Rectangle_38_" x="1060.7" y="350.7" class="st23" width="162.6" height="11"/>
 	<path d="M1090.3,259.8c-2.5-4.7-8.4-6.5-13.2-4c-3,1.6-4.9,4.6-5.1,7.9c-3.7,0.4-6.4,3.7-6,7.4c0.4,3.4,3.3,6,6.7,6h16
 		c4.8,0,8.7-3.9,8.8-8.7C1097.5,264.2,1094.5,260.6,1090.3,259.8z M1088.7,275.7h-16c-2.9,0-5.2-2.3-5.2-5.2c0-2.6,1.9-4.9,4.6-5.2
 		c0.1,1.3,0.5,2.6,1.1,3.8c0.2,0.4,0.6,0.5,1,0.3s0.5-0.6,0.3-1c0,0,0,0,0,0c-2.1-4-0.6-9,3.4-11.2c3.7-2,8.2-0.9,10.6,2.5
@@ -243,57 +236,57 @@
 		c0,0,0,0,0,0L1074,253.8z"/>
 	<path d="M1069.9,257.9l-3-1.7c-0.4-0.2-0.8-0.1-1,0.3c-0.2,0.4-0.1,0.8,0.3,1c0,0,0,0,0,0l3,1.7c0.4,0.2,0.8,0.1,1-0.3
 		C1070.4,258.6,1070.3,258.1,1069.9,257.9C1069.9,257.9,1069.9,257.9,1069.9,257.9L1069.9,257.9z"/>
-	<text transform="matrix(1 0 0 1 113.641 275.691)" class="st17 st10 st14">Build</text>
-	<text transform="matrix(1 0 0 1 116.4305 321.6771)" class="st26"><tspan x="0" y="0" class="st17 st10 st18">Explore IBM Cloud with this</tspan><tspan x="0" y="16.8" class="st17 st10 st18">selection of easy starter</tspan><tspan x="0" y="33.6" class="st17 st10 st18">tutorials and services.</tspan></text>
-	<rect id="Rectangle_41_" x="586.9" y="370.7" class="st24" width="178.9" height="11"/>
-	<rect id="Rectangle_42_" x="826.1" y="370.7" class="st24" width="90.8" height="11"/>
-	<rect id="Rectangle_43_" x="1060.7" y="370.7" class="st24" width="196.1" height="11"/>
-	<rect id="Rectangle_44_" x="1060.7" y="390.7" class="st24" width="175.2" height="11"/>
-	<rect id="Rectangle_45_" x="346" y="370.7" class="st24" width="196.1" height="11"/>
-	<rect id="Rectangle_46_" x="586.9" y="390.7" class="st24" width="170.2" height="11"/>
-	<path class="st25" d="M415.4,499.3h-62.2c-3.9,0-7.1-3.2-7.1-7.1l0,0c0-3.9,3.2-7.1,7.1-7.1h62.2c3.9,0,7.1,3.2,7.1,7.1l0,0
+	<text transform="matrix(1 0 0 1 113.641 275.691)" class="st16 st10 st14">Build</text>
+	<text transform="matrix(1 0 0 1 116.4305 321.6771)" class="st25"><tspan x="0" y="0" class="st16 st10 st17">Explore IBM Cloud with this</tspan><tspan x="0" y="16.8" class="st16 st10 st17">selection of easy starter</tspan><tspan x="0" y="33.6" class="st16 st10 st17">tutorials and services.</tspan></text>
+	<rect id="Rectangle_41_" x="586.9" y="370.7" class="st23" width="178.9" height="11"/>
+	<rect id="Rectangle_42_" x="826.1" y="370.7" class="st23" width="90.8" height="11"/>
+	<rect id="Rectangle_43_" x="1060.7" y="370.7" class="st23" width="196.1" height="11"/>
+	<rect id="Rectangle_44_" x="1060.7" y="390.7" class="st23" width="175.2" height="11"/>
+	<rect id="Rectangle_45_" x="346" y="370.7" class="st23" width="196.1" height="11"/>
+	<rect id="Rectangle_46_" x="586.9" y="390.7" class="st23" width="170.2" height="11"/>
+	<path class="st24" d="M415.4,499.3h-62.2c-3.9,0-7.1-3.2-7.1-7.1l0,0c0-3.9,3.2-7.1,7.1-7.1h62.2c3.9,0,7.1,3.2,7.1,7.1l0,0
 		C422.5,496.1,419.3,499.3,415.4,499.3z"/>
-	<path class="st25" d="M496.3,499.3H434c-3.9,0-7.1-3.2-7.1-7.1l0,0c0-3.9,3.2-7.1,7.1-7.1h62.2c3.9,0,7.1,3.2,7.1,7.1l0,0
+	<path class="st24" d="M496.3,499.3H434c-3.9,0-7.1-3.2-7.1-7.1l0,0c0-3.9,3.2-7.1,7.1-7.1h62.2c3.9,0,7.1,3.2,7.1,7.1l0,0
 		C503.4,496.1,500.2,499.3,496.3,499.3z"/>
-	<path class="st25" d="M656.3,499.3H594c-3.9,0-7.1-3.2-7.1-7.1l0,0c0-3.9,3.2-7.1,7.1-7.1h62.2c3.9,0,7.1,3.2,7.1,7.1l0,0
+	<path class="st24" d="M656.3,499.3H594c-3.9,0-7.1-3.2-7.1-7.1l0,0c0-3.9,3.2-7.1,7.1-7.1h62.2c3.9,0,7.1,3.2,7.1,7.1l0,0
 		C663.4,496.1,660.2,499.3,656.3,499.3z"/>
-	<path class="st25" d="M895.5,499.3h-62.2c-3.9,0-7.1-3.2-7.1-7.1l0,0c0-3.9,3.2-7.1,7.1-7.1h62.2c3.9,0,7.1,3.2,7.1,7.1l0,0
+	<path class="st24" d="M895.5,499.3h-62.2c-3.9,0-7.1-3.2-7.1-7.1l0,0c0-3.9,3.2-7.1,7.1-7.1h62.2c3.9,0,7.1,3.2,7.1,7.1l0,0
 		C902.6,496.1,899.4,499.3,895.5,499.3z"/>
-	<rect id="Rectangle_47_" x="1060.7" y="410.7" class="st24" width="107" height="11"/>
+	<rect id="Rectangle_47_" x="1060.7" y="410.7" class="st23" width="107" height="11"/>
 </g>
 <g id="Manage_drop_down">
 	<rect id="background_26_" x="904.4" y="70" class="st0" width="213.9" height="266.2"/>
-	<rect id="Rectangle_33_" x="904.4" y="305.5" class="st27" width="213.9" height="26.1"/>
-	<rect id="background_27_" x="905.1" y="23" class="st28" width="101" height="47.1"/>
-	<text transform="matrix(1 0 0 1 913.3057 323.1306)" class="st12 st10 st29">Security and Compliance</text>
-	<line class="st30" x1="913.3" y1="240.8" x2="1109.5" y2="240.8"/>
+	<rect id="Rectangle_33_" x="904.4" y="305.5" class="st26" width="213.9" height="26.1"/>
+	<rect id="background_27_" x="905.1" y="23" class="st27" width="101" height="47.1"/>
+	<text transform="matrix(1 0 0 1 913.3057 323.1306)" class="st12 st10 st28">Security and Compliance</text>
+	<line class="st29" x1="913.3" y1="240.8" x2="1109.5" y2="240.8"/>
 	<rect id="Rectangle_23_" x="913.3" y="283.5" class="st7" width="196.1" height="11"/>
 	<rect id="Rectangle_25_" x="913.3" y="253.8" class="st7" width="101.7" height="11"/>
-	<text transform="matrix(1 0 0 1 913.3054 232.1599)" class="st31 st10 st32">Security and access</text>
+	<text transform="matrix(1 0 0 1 913.3054 232.1599)" class="st30 st10 st31">Security and access</text>
 	<rect id="Rectangle_26_" x="913.3" y="88.1" class="st7" width="80.9" height="11"/>
 	<rect id="Rectangle_27_" x="913.3" y="121.5" class="st7" width="127.6" height="11"/>
 	<rect id="Rectangle_31_" x="913.3" y="154.9" class="st7" width="98.1" height="11"/>
 	<rect id="Rectangle_32_" x="913.3" y="188.4" class="st7" width="109" height="11"/>
 </g>
 <g id="Left-nav">
-	<rect id="side-panel-background_11_" x="29" y="70" class="st33" width="203.6" height="549.8"/>
-	<rect id="background_18_" x="30" y="406" class="st34" width="202.6" height="32"/>
-	<rect id="side-panel-background_6_" x="228.4" y="106.3" class="st35" width="203.6" height="451.4"/>
-	<rect id="background_28_" x="228" y="301" class="st34" width="202.6" height="32"/>
-	<text transform="matrix(1 0 0 1 57.1012 106.3911)" class="st13 st21 st18">Dashboard</text>
-	<text transform="matrix(1 0 0 1 55.8969 136.1199)" class="st13 st21 st18">Resource list</text>
-	<rect id="Rectangle_34_" x="37.2" y="173.3" class="st24" width="185" height="11"/>
-	<rect id="Rectangle_48_" x="37.2" y="206.2" class="st24" width="185" height="11"/>
-	<rect id="Rectangle_49_" x="37.2" y="239.1" class="st24" width="185" height="11"/>
-	<rect id="Rectangle_50_" x="37.2" y="272" class="st24" width="185" height="11"/>
-	<rect id="Rectangle_51_" x="37.2" y="304.9" class="st24" width="185" height="11"/>
-	<rect id="Rectangle_52_" x="37.2" y="337.8" class="st24" width="185" height="11"/>
-	<rect id="Rectangle_53_" x="37.2" y="370.7" class="st24" width="185" height="11"/>
-	<rect id="Rectangle_55_" x="37.2" y="462.4" class="st24" width="185" height="11"/>
-	<rect id="Rectangle_54_" x="37.2" y="495.3" class="st24" width="185" height="11"/>
-	<rect id="Rectangle_57_" x="37.2" y="563.5" class="st24" width="185" height="11"/>
-	<rect id="Rectangle_56_" x="37.2" y="596.4" class="st24" width="185" height="11"/>
-	<line class="st36" x1="36.5" y1="154.9" x2="222.3" y2="154.9"/>
+	<rect id="side-panel-background_11_" x="29" y="70" class="st32" width="203.6" height="549.8"/>
+	<rect id="background_18_" x="30" y="406" class="st33" width="202.6" height="32"/>
+	<rect id="side-panel-background_6_" x="228.4" y="151.3" class="st34" width="203.6" height="379.6"/>
+	<rect id="background_28_" x="228" y="346" class="st33" width="202.6" height="32"/>
+	<text transform="matrix(1 0 0 1 57.1012 106.3911)" class="st13 st20 st17">Dashboard</text>
+	<text transform="matrix(1 0 0 1 55.8969 136.1199)" class="st13 st20 st17">Resource list</text>
+	<rect id="Rectangle_34_" x="37.2" y="173.3" class="st23" width="185" height="11"/>
+	<rect id="Rectangle_48_" x="37.2" y="206.2" class="st23" width="185" height="11"/>
+	<rect id="Rectangle_49_" x="37.2" y="239.1" class="st23" width="185" height="11"/>
+	<rect id="Rectangle_50_" x="37.2" y="272" class="st23" width="185" height="11"/>
+	<rect id="Rectangle_51_" x="37.2" y="304.9" class="st23" width="185" height="11"/>
+	<rect id="Rectangle_52_" x="37.2" y="337.8" class="st23" width="185" height="11"/>
+	<rect id="Rectangle_53_" x="37.2" y="370.7" class="st23" width="185" height="11"/>
+	<rect id="Rectangle_55_" x="37.2" y="462.4" class="st23" width="185" height="11"/>
+	<rect id="Rectangle_54_" x="37.2" y="495.3" class="st23" width="185" height="11"/>
+	<rect id="Rectangle_57_" x="37.2" y="563.5" class="st23" width="185" height="11"/>
+	<rect id="Rectangle_56_" x="37.2" y="596.4" class="st23" width="185" height="11"/>
+	<line class="st35" x1="36.5" y1="154.9" x2="222.3" y2="154.9"/>
 	<g>
 		<rect x="41.4" y="127.4" width="8.2" height="0.9"/>
 		<rect x="41.4" y="135.6" width="8.2" height="0.9"/>
@@ -302,28 +295,28 @@
 		<rect x="38.7" y="127.4" width="0.9" height="0.9"/>
 		<rect x="38.7" y="135.6" width="0.9" height="0.9"/>
 	</g>
-	<line class="st36" x1="36.5" y1="537" x2="222.3" y2="537"/>
+	<line class="st35" x1="36.5" y1="537" x2="222.3" y2="537"/>
 	<g id="Actions-_x2F_-Navigation-_x2F_-chevron--down-_x2F_-20_3_" transform="translate(948.000000, 14.000000)">
 		<polygon id="Fill_11_" class="st3" points="-736.5,407.7 -742.8,413.9 -743.7,413.1 -738.3,407.7 -743.7,402.3 -742.8,401.4 		"/>
 	</g>
-	<text transform="matrix(1 0 0 1 45.3876 426.6903)" class="st37 st21 st32">Security and Compliance</text>
-	<line class="st36" x1="236.4" y1="139" x2="422.2" y2="139"/>
-	<text transform="matrix(1 0 0 1 236.3906 237.7983)" class="st13 st21 st18">Dashboard</text>
-	<text transform="matrix(1 0 0 1 236.3905 166.4653)" class="st13 st21 st18">Overview</text>
-	<text transform="matrix(1 0 0 1 236.3909 129.3396)" class="st38 st10 st32">Getting started</text>
-	<line class="st36" x1="236.4" y1="215" x2="422.2" y2="215"/>
-	<text transform="matrix(1 0 0 1 236.3905 207.2812)" class="st38 st10 st32">Monitor</text>
-	<line class="st36" x1="236.4" y1="287.8" x2="422.2" y2="287.8"/>
-	<text transform="matrix(1 0 0 1 236.3904 322.0309)" class="st13 st21 st18">Controls</text>
-	<text transform="matrix(1 0 0 1 236.3909 358.1406)" class="st13 st21 st18">Profiles</text>
-	<text transform="matrix(1 0 0 1 236.3906 280.0562)" class="st38 st10 st32">Manage</text>
-	<line class="st36" x1="236.4" y1="409.6" x2="422.2" y2="409.6"/>
+	<text transform="matrix(1 0 0 1 45.3876 426.6903)" class="st36 st20 st31">Security and Compliance</text>
+	<line class="st35" x1="236.4" y1="184" x2="422.2" y2="184"/>
+	<text transform="matrix(1 0 0 1 236.3906 282.7983)" class="st13 st20 st17">Dashboard</text>
+	<text transform="matrix(1 0 0 1 236.3905 211.4653)" class="st13 st20 st17">Overview</text>
+	<text transform="matrix(1 0 0 1 236.3909 174.3396)" class="st37 st10 st31">Getting started</text>
+	<line class="st35" x1="236.4" y1="261" x2="422.2" y2="261"/>
+	<text transform="matrix(1 0 0 1 236.3905 252.2812)" class="st37 st10 st31">Monitor</text>
+	<line class="st35" x1="236.4" y1="333.8" x2="422.2" y2="333.8"/>
+	<text transform="matrix(1 0 0 1 236.3904 367.0309)" class="st13 st20 st17">Controls</text>
+	<text transform="matrix(1 0 0 1 236.3909 403.1406)" class="st13 st20 st17">Profiles</text>
+	<text transform="matrix(1 0 0 1 236.3906 325.0562)" class="st37 st10 st31">Manage</text>
+	<line class="st35" x1="236.4" y1="454.6" x2="422.2" y2="454.6"/>
 	<g id="Actions-_x2F_-Navigation-_x2F_-chevron--down-_x2F_-20_7_" transform="translate(948.000000, 14.000000)">
-		<polygon id="Fill_26_" class="st3" points="-532.6,303.9 -538.9,310.1 -539.7,309.3 -534.4,303.9 -539.7,298.5 -538.9,297.6 		"/>
+		<polygon id="Fill_26_" class="st3" points="-532.6,348.9 -538.9,355.1 -539.7,354.3 -534.4,348.9 -539.7,343.5 -538.9,342.6 		"/>
 	</g>
-	<rect id="side-panel-background_13_" x="422.2" y="295.2" class="st39" width="203.6" height="76.8"/>
-	<text transform="matrix(1 0 0 1 436.1721 321.8678)" class="st13 st21 st18">Libraries</text>
-	<rect id="background_30_" x="422.2" y="331.9" class="st34" width="202.6" height="32"/>
+	<rect id="side-panel-background_13_" x="422.2" y="340.2" class="st38" width="203.6" height="76.8"/>
+	<text transform="matrix(1 0 0 1 436.1721 366.8678)" class="st13 st20 st17">Libraries</text>
+	<rect id="background_30_" x="422.2" y="376.9" class="st33" width="202.6" height="32"/>
 	<g>
 		<path d="M43.9,102.9v3.6h-4.8v-3.6H43.9 M43.9,102h-4.8c-0.5,0-1,0.4-1,0.9v3.6c0,0.5,0.4,0.9,1,0.9h4.8c0.5,0,1-0.4,1-0.9v-3.6
 			C44.9,102.4,44.5,102,43.9,102z"/>
@@ -334,17 +327,17 @@
 		<path d="M41.5,97.9v2.3h-2.4v-2.3H41.5 M41.5,97h-2.4c-0.5,0-1,0.4-1,0.9v2.3c0,0.5,0.4,0.9,1,0.9h2.4c0.5,0,1-0.4,1-0.9v-2.3
 			C42.5,97.4,42.1,97,41.5,97z"/>
 	</g>
-	<text transform="matrix(1 0 0 1 236.3905 387.6766)" class="st13 st21 st18">Integrations</text>
-	<text transform="matrix(1 0 0 1 236.3904 462.1924)" class="st13 st21 st18">Plan</text>
-	<text transform="matrix(1 0 0 1 236.3909 438.3158)" class="st13 st21 st18">Settings</text>
-	<text transform="matrix(1 0 0 1 436.1721 353.0463)" class="st13 st21 st18">Rules</text>
+	<text transform="matrix(1 0 0 1 236.3905 432.6766)" class="st13 st20 st17">Integrations</text>
+	<text transform="matrix(1 0 0 1 236.3904 507.1924)" class="st13 st20 st17">Plan</text>
+	<text transform="matrix(1 0 0 1 236.3909 483.3158)" class="st13 st20 st17">Settings</text>
+	<text transform="matrix(1 0 0 1 436.1721 398.0463)" class="st13 st20 st17">Rules</text>
 </g>
 <g id="Numbers">
-	<circle class="st40" cx="28.4" cy="67.5" r="21.2"/>
-	<text transform="matrix(1 0 0 1 24.1414 71.6348)" class="st17 st21 st18">1</text>
-	<circle class="st40" cx="899.8" cy="67.2" r="21.2"/>
-	<text transform="matrix(1 0 0 1 895.5635 71.3809)" class="st17 st21 st18">3</text>
-	<circle class="st40" cx="682" cy="67.2" r="21.2"/>
-	<text transform="matrix(1 0 0 1 677.7172 71.3809)" class="st17 st21 st18">2</text>
+	<circle class="st39" cx="28.4" cy="67.5" r="21.2"/>
+	<text transform="matrix(1 0 0 1 24.1414 71.6348)" class="st16 st20 st17">1</text>
+	<circle class="st39" cx="899.8" cy="67.2" r="21.2"/>
+	<text transform="matrix(1 0 0 1 895.5635 71.3809)" class="st16 st20 st17">3</text>
+	<circle class="st39" cx="682" cy="67.2" r="21.2"/>
+	<text transform="matrix(1 0 0 1 677.7172 71.3809)" class="st16 st20 st17">2</text>
 </g>
 </svg>
