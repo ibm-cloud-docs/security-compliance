@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-05-12"
+lastupdated: "2022-12-05"
 
 keywords: Admin API changelog, Admin API change log, change log for Admin API, updates to Security and Compliance Center Admin API
 

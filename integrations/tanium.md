@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-18"
+lastupdated: "2022-12-05"
 
 keywords: Centralized security, tanium, compliance monitoring, compliance, 
 
@@ -192,7 +192,8 @@ You can see various options that represent the status of your request. You can a
 
 Currently, you can view 4 values for the state field: `pass`, `fail`, `not applicable`, and `unable to perform`. Any other status is represented as `not applicable`. The following examples show each status value. 
 
-**Pass**
+#### Pass
+{: #state-field-pass}
 
 The following example depicts the scenario where the state is `pass`.
 
@@ -215,7 +216,8 @@ The following example depicts the scenario where the state is `pass`.
 ]
 ```
 
-**Fail**
+#### Fail
+{: #state-field-fail}
 
 The following example depicts the scenario where the state is `fail`.
 
@@ -238,7 +240,8 @@ The following example depicts the scenario where the state is `fail`.
 ]
 ```
 
-**Not applicable**
+#### Not applicable
+{: #state-field-na}
 
 The following example depicts the scenario where the state is `not applicable`.
 
@@ -261,7 +264,8 @@ The following example depicts the scenario where the state is `not applicable`.
 ]
 ```
 
-**Unable to perform**
+#### Unable to perform
+{: #state-field-upß}
 
 The following example depicts the scenario where the state is `unable to perform`.
 
@@ -473,7 +477,8 @@ When you are populating the mandatory `Check ID` field, be sure that you separat
 
 If you format your check ID incorrectly as in the following examples, you receive an error message. 
 
-**Example 1**
+##### Example 1
+{: #error-tanium-example-1}
 
 The following example represents a scenario where the `Check ID` field is not included.
 
@@ -493,7 +498,8 @@ The following example represents a scenario where the `Check ID` field is not in
 }
 ```
 
-**Example 2**
+##### Example 2
+{: #error-tanium-example-2}
 
 The following example represents a scenario where the `Check ID` field value is formatted incorrectly. 
 
