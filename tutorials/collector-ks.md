@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-04"
+lastupdated: "2022-12-06"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance, cluster collector, Kubernetes, Red Hat {{site.data.keyword.openshiftshort}}
 
@@ -145,6 +145,6 @@ Complete the following steps to install a collector on a cluster.
 ## Next steps
 {: #ibm-customer-collector-next}
 
-When a scan completes, you can view the results as an overview in your dashboard, or in more detail by resource or by control. In all three options, you are presented with a compliance score so that you can view your compliance posture at a glance. To learn more about your score, see [Understanding your compliance score](/docs/security-compliance?topic=security-compliance-view-posture#understand-scores).
+When a scan completes, you can view the results as an overview in your dashboard, or in more detail by resource or by control. In all three options, you are presented with a compliance score so that you can view your compliance posture at a glance. To learn more about your score, see [Understanding your compliance score](/docs/security-compliance?topic=security-compliance-view-posture).
 
 
