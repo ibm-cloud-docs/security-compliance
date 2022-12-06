@@ -296,7 +296,7 @@ Deprecation of the alerts capability
 {: release-note}
 
 Customer-managed collectors can now be installed on a cluster
-:   You can now install your customer-managed collector on to an {{site.data.keyword.cloud_notm}} Kubernetes Service or OpenShift cluster. For more information or help getting started, see [the tutorial](/docs/security-compliance?topic=security-compliance-collectors).
+:   You can now install your customer-managed collector on to an {{site.data.keyword.cloud_notm}} Kubernetes Service or OpenShift cluster. For more information or help getting started, see [the tutorial](/docs/security-compliance?topic=security-compliance-collector).
 
 New service available in Configuration Governance
 :   {{site.data.keyword.cloud_notm}} Container Registry is now available as part of the Configuration Governance component. You can create guardrails for Container Registry such as restricting an account so that it can push and pull images only over private connections. For more information about the integration and the other available properties, see [the Container Registry docs](/docs/Registry?topic=Registry-manage-security-compliance#govern-container-registry).
@@ -397,7 +397,7 @@ Tanium integration
 {: release-note}
 
 IBM-managed collector
-:   A collector is used to gather the configuration information about your resources and then validate it against a specified standard. Previously, you were responsible for the installation and lifecycle management of the collector. Now, you can get a proof of concept up and running quickly by configuring an IBM-managed collector. For more information, see [Configuring managed collectors](/docs/security-compliance?topic=security-compliance-collectors).
+:   A collector is used to gather the configuration information about your resources and then validate it against a specified standard. Previously, you were responsible for the installation and lifecycle management of the collector. Now, you can get a proof of concept up and running quickly by configuring an IBM-managed collector. For more information, see [Configuring managed collectors](/docs/security-compliance?topic=security-compliance-collector).
 
 New goals
 :   You might notice that your compliance score changed even though you didn't update any of your configurations. New goals were added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
@@ -411,7 +411,7 @@ Initial Posture Management API support
 :   As part of this release, the Posture Management component of the service provides three external APIs that you can use as part of your security and compliance automation. For more information, see the [Posture Management API docs](/apidocs/security-compliance/posture).
 
 Proxy support for discovery and fact collection
-:   With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans. For more information, see [Which endpoints does a collector access?](/docs/security-compliance?topic=security-compliance-collectors)
+:   With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans. For more information, see [Which endpoints does a collector access?](/docs/security-compliance?topic=security-compliance-collector)
 
 New goal mapping
 :   The goal `3000045` is now mapped to CM-2 NIST 800 and were added to an additional profile.
