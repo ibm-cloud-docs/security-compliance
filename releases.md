@@ -253,7 +253,7 @@ New service available in Configuration Governance
 {: release-note}
 
 Add parameters during credential mapping
-:   When resources such as an instance of {{site.data.keyword.containershort}} clusters are scanned, additional parameters must be provided in order for the collector to access all their configuration data. If so, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials. For more information, see [Mapping additional credentials](/docs/security-compliance?topic=security-compliance-map-credentials).
+:   When resources such as an instance of {{site.data.keyword.containershort}} clusters are scanned, additional parameters must be provided in order for the collector to access all their configuration data. If so, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials. For more information, see [Mapping additional credentials](/docs/security-compliance?topic=security-compliance-credentials).
 
 
 
@@ -296,7 +296,7 @@ Deprecation of the alerts capability
 {: release-note}
 
 Customer-managed collectors can now be installed on a cluster
-:   You can now install your customer-managed collector on to an {{site.data.keyword.cloud_notm}} Kubernetes Service or OpenShift cluster. For more information or help getting started, see [the tutorial](/docs/security-compliance?topic=security-compliance-ibm-customer-collector-cluster).
+:   You can now install your customer-managed collector on to an {{site.data.keyword.cloud_notm}} Kubernetes Service or OpenShift cluster. For more information or help getting started, see [the tutorial](/docs/security-compliance?topic=security-compliance-collectors).
 
 New service available in Configuration Governance
 :   {{site.data.keyword.cloud_notm}} Container Registry is now available as part of the Configuration Governance component. You can create guardrails for Container Registry such as restricting an account so that it can push and pull images only over private connections. For more information about the integration and the other available properties, see [the Container Registry docs](/docs/Registry?topic=Registry-manage-security-compliance#govern-container-registry).
@@ -397,7 +397,7 @@ Tanium integration
 {: release-note}
 
 IBM-managed collector
-:   A collector is used to gather the configuration information about your resources and then validate it against a specified standard. Previously, you were responsible for the installation and lifecycle management of the collector. Now, you can get a proof of concept up and running quickly by configuring an IBM-managed collector. For more information, see [Configuring managed collectors](/docs/security-compliance?topic=security-compliance-ibm-collector) or [What is a collector?](/docs/security-compliance?topic=security-compliance-collector).
+:   A collector is used to gather the configuration information about your resources and then validate it against a specified standard. Previously, you were responsible for the installation and lifecycle management of the collector. Now, you can get a proof of concept up and running quickly by configuring an IBM-managed collector. For more information, see [Configuring managed collectors](/docs/security-compliance?topic=security-compliance-collectors).
 
 New goals
 :   You might notice that your compliance score changed even though you didn't update any of your configurations. New goals were added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
@@ -411,7 +411,7 @@ Initial Posture Management API support
 :   As part of this release, the Posture Management component of the service provides three external APIs that you can use as part of your security and compliance automation. For more information, see the [Posture Management API docs](/apidocs/security-compliance/posture).
 
 Proxy support for discovery and fact collection
-:   With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans. For more information, see [Which endpoints does a collector access?](/docs/security-compliance?topic=security-compliance-collector-manual#collector-proxy)
+:   With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans. For more information, see [Which endpoints does a collector access?](/docs/security-compliance?topic=security-compliance-collectors)
 
 New goal mapping
 :   The goal `3000045` is now mapped to CM-2 NIST 800 and were added to an additional profile.
@@ -442,7 +442,7 @@ Customize default values for your resources
 
    To get started with templates, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Govern resources > Configure > Templates**, or check out the [API reference](/apidocs/security-compliance-config) to learn more about creating templates programmatically.
 
-   For more information, see [What is Configuration Governance?](/docs/security-compliance?topic=security-compliance-what-is-governance)
+   For more information, see [What is Configuration Governance?](/docs/security-compliance?topic=security-compliance-define-rules)
 
 ## 17 February 2021
 {: #security-compliance-feb1721}
@@ -471,7 +471,7 @@ Updated Scopes page
 :   An improved experience is now available for viewing, creating, and deleting scopes. For more information, see [Managing scopes](/docs/security-compliance?topic=security-compliance-scopes).
 
 Updated Inventory page
-:   You can now delete inventories that you no longer require. For more information, see [Deleting an inventory](/docs/security-compliance?topic=security-compliance-inventory#delete-inventory)
+:   You can now delete inventories that you no longer require.
 
 New dashboard widget
 :   Monitor your overall security and compliance at a glance by adding a {{site.data.keyword.compliance_short}} widget to your dashboard in the {{site.data.keyword.cloud_notm}} console. To learn more about customizing your dashboard, check out [Working with scoped dashboards](/docs/account?topic=account-custom-dashboard).
@@ -484,7 +484,7 @@ Updated Goals page
 :   An improved experience is now available for viewing and customizing goals. For more information, see [Customizing goals](/docs/security-compliance?topic=security-compliance-custom-goals).
 
 Updated Profiles page
-:   An improved experience is now available for viewing and managing profiles. For more information, see [Working with profiles](/docs/security-compliance?topic=security-compliance-profiles).
+:   An improved experience is now available for viewing and managing profiles. For more information, see [Working with profiles](/docs/security-compliance?topic=security-compliance-build-custom-profiles).
 
 ## 19 November 2020
 {: #security-compliance-dec1920}
