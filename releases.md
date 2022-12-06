@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-05"
+lastupdated: "2022-12-06"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -58,11 +58,7 @@ content-type: release-note
 {: release-note}
 
 Updates coming soon!
-:   A new and improved experience for {{site.data.keyword.compliance_short}} is on its way! We've been working in the background for the past several months to incorporate all of the feedback that we've received and we're almost ready to share it with you. To ensure the best experience possible, there are a few changes to the current functionality that you'll need to be aware of.
-
-   **What's changing?**
-
-   When our new experience is released, you can expect to see:
+:   A new and improved experience for {{site.data.keyword.compliance_short}} is on its way! We've been working in the background for the past several months to incorporate all of the feedback that we've received and we're almost ready to share it with you. To ensure the best experience possible, there are a few changes to the current functionality that you'll need to be aware of. When our new experience is released, you can expect to see:
 
    **A more seamless integration for {{site.data.keyword.cloud_notm}} resources!** Not only will you no longer be required to configure and deploy a collector to scan resources that run on {{site.data.keyword.cloud_notm}}, but your experience in the UI will now be more consistent throughout the product.  
 
