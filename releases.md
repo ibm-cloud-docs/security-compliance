@@ -442,7 +442,7 @@ Customize default values for your resources
 
    To get started with templates, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Govern resources > Configure > Templates**, or check out the [API reference](/apidocs/security-compliance-config) to learn more about creating templates programmatically.
 
-   For more information, see [What is Configuration Governance?](/docs/security-compliance?topic=security-compliance-define-rules)
+   For more information, see [What is Configuration Governance?](/docs/security-compliance?topic=security-compliance-rules-define)
 
 ## 17 February 2021
 {: #security-compliance-feb1721}

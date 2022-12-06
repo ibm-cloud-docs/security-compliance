@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-04"
+lastupdated: "2022-12-06"
 
 keywords: Terraform for {{site.data.keyword.compliance_short}}
 
@@ -64,7 +64,7 @@ Before you get started, be sure that you have the [required access](/docs/securi
 ## Creating a configuration file
 {: #create-file}
 
-When you work with Terraform, you create a file that is used to define the configuration for the resources that you want to work with. For more information, see the [Terraform documentation](https://www.terraform.io/language){: external}.
+When you work with Terraform, you create a file that is used to define the configuration for the resources that you want to work with. For more information, see the [Terraform documentation](https://developer.hashicorp.com/terraform/language.){: external}.
 
 
 To get started, create a Terraform configuration file that is named, `main.tf`. In this file, you add the configuration to view all the scopes that are available in your account by using HashiCorp Configuration Language (HCL). 
