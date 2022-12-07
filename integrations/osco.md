@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-18"
+lastupdated: "2022-12-07"
 
 keywords: Centralized security, osco, {{site.data.keyword.openshiftshort}} Compliance Operator, compliance monitoring, compliance, 
 
@@ -101,7 +101,7 @@ To start scanning your {{site.data.keyword.openshiftshort}} clusters, you must t
 
 1. [Create a scope.](/docs/security-compliance?topic=security-compliance-scopes#create-scope)
 
-   Be sure to target the area of your organization that contains your {{site.data.keyword.openshiftshort}} clusters. It is ok to include additional resources in your scope.
+   Be sure to target the area of your organization that contains your {{site.data.keyword.openshiftshort}} clusters. You can include additional resources in your scope.
 
 2. Add your credential to the service.
 

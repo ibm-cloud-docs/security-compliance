@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-06"
+lastupdated: "2022-12-07"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -58,7 +58,7 @@ content-type: release-note
 {: release-note}
 
 Updates coming soon!
-:   A new and improved experience for {{site.data.keyword.compliance_short}} is on its way! We've been working in the background for the past several months to incorporate all of the feedback that we've received and we're almost ready to share it with you. To ensure the best experience possible, there are a few changes to the current functionality that you'll need to be aware of. When our new experience is released, you can expect to see:
+:   A new and improved experience for {{site.data.keyword.compliance_short}} is on its way! We've been working in the background for the past several months to incorporate all the feedback that we've received and we're almost ready to share it with you. To ensure the best experience possible, there are a few changes to the current functionality that you'll need to be aware of. When our new experience is released, you can expect to see:
 
    **A more seamless integration for {{site.data.keyword.cloud_notm}} resources!** Not only will you no longer be required to configure and deploy a collector to scan resources that run on {{site.data.keyword.cloud_notm}}, but your experience in the UI will now be more consistent throughout the product.  
 
@@ -122,7 +122,7 @@ Change to permission requirements for integrations
 {: #security-compliance-aug-0222}
 
 Deprecated: Credential passphrase
-:   As of today, the ability to create a passphrase to manage the security of your credentials is deprecated in favor of the Bring Your Own Key (BYOK) functionality. If you are currently using a passphrase to protect your credentials, you must disable the passphrase by returning to IBM-managed encryption prior to 1 September 2022. Then, you can enable BYOK on the **Settings** page of the {{site.data.keyword.compliance_short}} UI. For more information about how your credentials are protected, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
+:   As of today, the ability to create a passphrase to manage the security of your credentials is deprecated in favor of the Bring Your Own Key (BYOK) functionality. If you are currently using a passphrase to protect your credentials, you must disable the passphrase by returning to IBM-managed encryption before 1 September 2022. Then, you can enable BYOK on the **Settings** page of the {{site.data.keyword.compliance_short}} UI. For more information about how your credentials are protected, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
 
 ## 25 July 2022
 {: #security-compliance-july2522}
