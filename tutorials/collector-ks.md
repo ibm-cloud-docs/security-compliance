@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-06"
+lastupdated: "2022-12-13"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance, cluster collector, Kubernetes, Red Hat {{site.data.keyword.openshiftshort}}
 
@@ -101,7 +101,7 @@ A collector is a container image that you install on your Virtual Private Cloud.
 
 Complete the following steps to install a collector on a cluster.
 
-1. On the **Download collector** pane that appears after you create a collector, select **Download YAML file**, and then click **Download**. The registration key is included in the file.
+1. On the **Download collector** panel that appears after you create a collector, select **Download YAML file**, and then click **Download**. The registration key is included in the file.
 2. Log in to the {{site.data.keyword.cloud_notm}} CLI by running the following command and then following the prompts. If you have a federated ID, append the `--sso` option to the end of the command.
     ```sh
     ibmcloud login

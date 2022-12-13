@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-04"
+lastupdated: "2022-12-13"
 
 keywords: evaluation results, rule results, configuration results, resource configuration, 
 
@@ -76,7 +76,7 @@ From the details page, you can view a summary of your evaluation results for any
 
 3. View the details of a specific resource.
 
-   After a specific resource is selected, a **Details** pane opens that contains all the information for that resource. For example, the unique identifier and details for account where the resource is located. You can also see any noncompliant properties and information about their wanted state. In this example, the `public_enabled_access` property check is noncompliant because its existing value doesn't meet the conditions of the rule. To further investigate, you can click **View history**.
+   After a specific resource is selected, a **Details** panel opens that contains all the information for that resource. For example, the unique identifier and details for account where the resource is located. You can also see any noncompliant properties and information about their wanted state. In this example, the `public_enabled_access` property check is noncompliant because its existing value doesn't meet the conditions of the rule. To further investigate, you can click **View history**.
 
 4. View the history of a specific resource.
 

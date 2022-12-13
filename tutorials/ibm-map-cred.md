@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-06"
+lastupdated: "2022-12-13"
 
 keywords: ibm credentials, scc, security and compliance for ibm, compliance scan, {{site.data.keyword.cloud_notm}} resources
 
@@ -83,14 +83,14 @@ When you configure your scope, you must **Enable integrated profiles** in order 
 1. Configure the OSCO integration.
 
    1. In the service navigation, click **Integrations**.
-   2. In the **{{site.data.keyword.openshiftshort}} Compliance Operator** tile, click **Connect**. A side pane opens.
+   2. In the **{{site.data.keyword.openshiftshort}} Compliance Operator** tile, click **Connect**. A side panel opens.
    3. Select a profile that you want to scan your clusters against.
    4. Click **Connect**. The connection is added to your list of integrations.
 
 2. Map the credential.
 
    1. In [**Manage Posture > Configure > Scopes**](/security-compliance/scopes), select the scope that you want to map credentials for.
-   2. In the **Credentials** section of the navigation, click **Add**. A side pane opens. 
+   2. In the **Credentials** section of the navigation, click **Add**. A side panel opens. 
    3. Select the credential that you assigned permissions to at the beginning of this tutorial.
    4. In the **Resource** field, provide your cluster ID in the format: `ROKS=cluster_id`.
    5. Click **Add**.
@@ -123,7 +123,7 @@ To enable scanning of your clusters, you must map additional information and con
 1. Map the credential.
 
    1. In [**Manage Posture > Configure > Scopes**](/security-compliance/scopes), select the scope that you want to map credentials for.
-   2. In the **Credentials** section of the navigation, click **Add**. A side pane appears. 
+   2. In the **Credentials** section of the navigation, click **Add**. A side appears. 
    3. Select the credential that you assigned permissions to at the beginning of this tutorial.
    4. In the **Resource** field, provide your cluster ID in the format: `cluster=cluster_id`.
    5. Click **Add**.
@@ -167,7 +167,7 @@ If you enable a control that measures a specific number of days, it is monitored
 
    1. In the **Manage posture** section of the navigation, click [**Configure > Scopes**](/security-compliance/scopes).
    2. Select the scope that you want to map credentials for.
-   3. In the **Credentials** section of the navigation, click **Add**. A side pane opens. 
+   3. In the **Credentials** section of the navigation, click **Add**. A side panel opens. 
    4. Select the credential that you created in step 1.
    5. In the **Resource** field, provide your Activity Tracker GUID in the format: `AT=resource_guid`.
    6. Click **Add**.
@@ -179,7 +179,7 @@ If you enable a control that measures a specific number of days, it is monitored
 To scan your Virtual Private Cloud's you must provide the name of the private cloud that you want to evaluate.
 
 1. In [**Manage Posture > Configure > Scopes**](/security-compliance/scopes), select the scope that you want to map credentials for.
-2. In the **Credentials** section of the navigation, click **Add**. A side pane opens. 
+2. In the **Credentials** section of the navigation, click **Add**. A side panel opens. 
 3. Select the credential that you assigned permissions to at the beginning of this tutorial.
 4. In the **Resource** field, provide the name of your VPC in the format: `VPC=vpc-name`.
 5. Click **Add**.
