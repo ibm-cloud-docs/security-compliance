@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-17"
+lastupdated: "2022-11-18"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 

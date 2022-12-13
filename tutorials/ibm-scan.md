@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-14"
+lastupdated: "2022-12-06"
 
 keywords: scan ibm resources, compliance scan, evaluation, evaluate compliance
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-12"
+lastupdated: "2022-12-02"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -124,16 +124,17 @@ You can use the {{site.data.keyword.compliance_short}} UI to create a collector 
 
    It is helpful to ensure that the name is unique across your organization so that its intended purpose is clear to other members of your team.
 5. Select **Customer** to install the collector on your organization's infrastructure.
-6. **UBI** is selected as the default container **image type**. 
+6. Select an **Image type**. **UBI** is selected by default. Alternatively, you can select **Ubuntu**.
 
-   Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS.
-7. Alternatively, you can select **Ubuntu**.
+   Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS. Ubuntu images are disk-images that are designed to run on the Ubuntu OS. Ubuntu images are not compliant with the Federal Information Processing Standards (FIPS).
 
-   Ubuntu images are disk-images that are designed to run on the Ubuntu OS. Ubuntu images are not compliant with the Federal Information Processing Standards (FIPS).
-8. Choose an endpoint option for your collector.
+   If you select UBI, you must have the latest version of Docker installed.
+   {: note}
 
-   By default, your collector connects to resources in your account by using a public endpoint. To allow the collector to use a private IP that is accessible only through the IBM Cloud Private network, choose **Private**.
-9. Click **Create**.
+7. Choose an endpoint option for your collector.
+
+   By default, your collector connects to resources in your account by using a public endpoint. To allow the collector to use a private IP that is accessible only through the {{site.data.keyword.cloud_notm}} Private network, choose **Private**.
+8. Click **Create**.
   
 When the collector is created successfully, the status updates to **Ready to install**.
 
@@ -282,7 +283,7 @@ Complete the following steps to install a collector on a cluster.
       ```
       {: codeblock}
   
-   2. If you don't have it already, install [Docker Compose](https://docs.docker.com/compose/install/){: external} by using the command for your OS.
+   2. If you don't have it already, install the latest version of [Docker Compose](https://docs.docker.com/compose/install/){: external} by using the command for your OS.
 
       ```sh
       sudo apt-get install docker-compose

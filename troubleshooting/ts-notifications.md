@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-02-15"
+lastupdated: "2022-12-05"
 
 keywords: notification not working, notification not sent, event notifications
 

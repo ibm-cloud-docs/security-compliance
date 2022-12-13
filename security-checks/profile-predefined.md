@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-09-08"
+lastupdated: "2022-12-09"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, benchmark, controls, goals, security, compliance
 
@@ -72,7 +72,7 @@ Transform your organization with {{site.data.keyword.cloud_notm}} and attain a s
 {: caption="Table 1. {{site.data.keyword.cloud_notm}} predefined profiles" caption-side="top"}
 
 
-## Best practices
+### Best practices
 {: #best-practices}
 
 Use the best practices profiles to securely configure your resources from various product families.
@@ -88,7 +88,7 @@ Use the best practices profiles to securely configure your resources from variou
 {: caption="Table 2. Best practices predefined profiles" caption-side="top"}
 
 
-## Benchmarks
+### Benchmarks
 {: #benchmarks}
 
 With the CIS Benchmarks, you have access to a collection of industry best practices for securely configuring IT systems, software, and networks. The benchmarks contain more than 100 configuration guidelines across 25 vendor product families or more. 

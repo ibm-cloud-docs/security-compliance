@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-09-08"
+lastupdated: "2022-11-21"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -54,6 +54,8 @@ The {{site.data.keyword.cloud_notm}} Security Best Practices profile is a collec
 
 If you're working with this profile, new goals are automatically added to your current scans. If you want more control over when new goals are added, you can create a custom profile that contains all or a subset of the goals that are currently available. For more information, see [Building custom profiles](/docs/security-compliance?topic=security-compliance-custom-profiles).
 {: note}
+
+
 
 ## 25 July 2022
 {: #sec-best-jul2522}

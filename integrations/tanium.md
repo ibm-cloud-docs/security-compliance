@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-10-18"
+lastupdated: "2022-12-07"
 
 keywords: Centralized security, tanium, compliance monitoring, compliance, 
 
@@ -180,7 +180,7 @@ When your scan is complete, you can return the {{site.data.keyword.compliance_sh
 2. Navigate to **Manage posture > Assess > Scans**.
 3. Click the name of the scan that corresponds to your Tanium results. 
 
-   A scan details page opens. On your scan details page, you can view any potential issues by control or by resource and view your compliance score. You can also see a history of scans that were previously run on your data. The formatting of your results might vary depending on the format that you selected as part of set-up.
+   A scan details page opens. On your scan details page, you can view any potential issues by control or by resource and view your compliance score. You can also see a history of scans that were previously run on your data. The formatting of your results might vary depending on the format that you selected as part of setup.
 
 ## Analyzing responses from the API 
 {: #responses-tanium}
@@ -192,7 +192,8 @@ You can see various options that represent the status of your request. You can a
 
 Currently, you can view 4 values for the state field: `pass`, `fail`, `not applicable`, and `unable to perform`. Any other status is represented as `not applicable`. The following examples show each status value. 
 
-**Pass**
+#### Pass
+{: #state-field-pass}
 
 The following example depicts the scenario where the state is `pass`.
 
@@ -215,7 +216,8 @@ The following example depicts the scenario where the state is `pass`.
 ]
 ```
 
-**Fail**
+#### Fail
+{: #state-field-fail}
 
 The following example depicts the scenario where the state is `fail`.
 
@@ -238,7 +240,8 @@ The following example depicts the scenario where the state is `fail`.
 ]
 ```
 
-**Not applicable**
+#### Not applicable
+{: #state-field-na}
 
 The following example depicts the scenario where the state is `not applicable`.
 
@@ -261,7 +264,8 @@ The following example depicts the scenario where the state is `not applicable`.
 ]
 ```
 
-**Unable to perform**
+#### Unable to perform
+{: #state-field-upß}
 
 The following example depicts the scenario where the state is `unable to perform`.
 
@@ -473,7 +477,8 @@ When you are populating the mandatory `Check ID` field, be sure that you separat
 
 If you format your check ID incorrectly as in the following examples, you receive an error message. 
 
-**Example 1**
+##### Example 1
+{: #error-tanium-example-1}
 
 The following example represents a scenario where the `Check ID` field is not included.
 
@@ -493,7 +498,8 @@ The following example represents a scenario where the `Check ID` field is not in
 }
 ```
 
-**Example 2**
+##### Example 2
+{: #error-tanium-example-2}
 
 The following example represents a scenario where the `Check ID` field value is formatted incorrectly. 
 
@@ -522,10 +528,10 @@ In each of these scenarios, you receive the following error response.
 }
 ```
 
-#### Invalid Comply-Compliance Findings
+#### Invalid Findings
 {: #compliance-findings-error-tanium}
 
-Comply-Compliance Findings is a required field. If it is not populated, as in the following example, you encounter an error message.
+`Comply - Compliance Findings` is a required field. If it is not populated, as in the following example, you encounter an error message.
 
 ```json
 [
@@ -547,10 +553,10 @@ When the field is empty, you receive the following message.
 }
 ```
 
-#### Invalid Tanium Client IP address
+#### Invalid Tanium client IP address
 {: #client-ip-error-tanium}
 
-Tanium Client IP address is a required field. If you don't populate it, as in the following example, you encounter an error message.
+`Tanium Client IP address` is a required field. If you don't populate it, as in the following example, you encounter an error message.
 
 ```json
 {

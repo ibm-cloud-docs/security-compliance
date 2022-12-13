@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-08-03"
+lastupdated: "2022-12-06"
 
 keywords: goals, secure by default, secure, secure platform, default goals, available goals
 
@@ -48,7 +48,7 @@ subcollection: security-compliance
 # Available default goals
 {: #default-goals}
 
-{{site.data.keyword.cloud_notm}} is secure-by-design. Just by working with {{site.data.keyword.cloud_notm}} platform, you are compliant with several goals. Because they are always compliant, default goals are not validated as part of a scan. To learn more about goals in general and how they are used in the {{site.data.keyword.compliance_short}}, see [Understanding profiles](/docs/security-compliance?topic=security-compliance-profiles#understand-profiles). 
+{{site.data.keyword.cloud_notm}} is secure-by-design. Just by working with {{site.data.keyword.cloud_notm}} platform, you are compliant with several goals. Because they are always compliant, default goals are not validated as part of a scan. To learn more about goals in general and how they are used in the {{site.data.keyword.compliance_short}}, see [Understanding profiles](/docs/security-compliance?topic=security-compliance-custom-profiles). 
 {: shortdesc}
 
 To see which goals are met by default, check out the following table.
