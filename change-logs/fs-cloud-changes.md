@@ -81,7 +81,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 
 
-## 14 December 2022
+## Version 1.0.0
 {: #fs-cloud-v100}
 
 The format of the {{site.data.keyword.cloud_notm}} for Financial Services profile profile has been updated with the following changes. Review your configuration closely to ensure that the profile still meets your needs.
