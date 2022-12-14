@@ -53,7 +53,7 @@ With {{site.data.keyword.compliance_full}}, you can see an overview and a detail
 {: shortdesc}
 
 ## Before you begin
-{: #before-credentials}
+{: #before-view-posture}
 
 Before you get started, be sure that you have the required level of access to view results. To view results, you need the [**Viewer** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). You must also have access to the credentials that are needed to access your resource configurations.
 

@@ -61,7 +61,7 @@ To evaluate your resources, you create an attachment. An attachment is the assoc
 
 
 ## Before you begin
-{: #before-gs}
+{: #before-evaluation}
 
 Before you get started, be sure that you have the required level of access to create an attachment. To create an attachment, you need the **Editor** platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
 
