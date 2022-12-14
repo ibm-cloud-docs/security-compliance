@@ -52,7 +52,6 @@ content-type: release-note
 
 
 
-
 ## 14 December 2022
 {: #security-compliance-dec1422}
 {: release-note}
@@ -74,7 +73,6 @@ A new and improved experience for Security and Compliance Center is now availabl
 
    As previously announced, the Configuration Governance component has been removed as part of this release. This means that any rules that previously existed in your account have been removed and are no longer being enforced.
    {: important}
-
 
 
 ## 10 October 2022
