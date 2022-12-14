@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-09"
+lastupdated: "2022-12-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -50,6 +50,30 @@ content-type: release-note
 {: #release-notes}
 
 
+
+
+
+## 14 December 2022
+{: #security-compliance-dec1422}
+{: release-note}
+
+A new and improved experience for Security and Compliance Center is now available! 
+:   We've been working in the background for the past several months to incorporate all of the feedback that we've received and we’re excited to share our new and improved architecture with you. When you work with our new architecture, there are a few changes to terminology and functionality that you’ll need to be aware of.
+
+   * **Enterprise support**: Top-down hierarchical management of organizational compliance
+
+   * **Simplified setup**: There is no need to create service ids, write IAM policies, or manage API keys when working with IBM Cloud.
+
+   * **More customization**: Create version-able controls, profiles, and assessments through simple declarative rules and then customize evaluation parameters for each attachment. 
+
+   * **New profile format**: Moving from a goal-based architecture to an assessment based architecture to provide more transparency into how evaluations are conducted.
+
+   * **Customer owned-storage**: Duration and capacity limits for saved monitoring results are removed by allowing you to secure your compliance data in your own Cloud Object Storage bucket
+
+   * **Terminology**: With the introduction of our new architecture, terminology has been re-evaluated and updated to ensure a more cohesive experience of the product. 
+
+   As previously announced, the Configuration Governance component has been removed as part of this release. This means that any rules that previously existed in your account have been removed and are no longer being enforced.
+   {: important}
 
 
 

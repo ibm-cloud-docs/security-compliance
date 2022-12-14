@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-06-14"
+lastupdated: "2022-12-13"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -156,7 +156,7 @@ A collector is a container image that you install on your Virtual Private Cloud.
    Universal Base Images (UBI) are OCI-compliant container-based operating system images. They cannot be used with Windows OS. Ubuntu images are disk-images that are designed to run on the Ubuntu OS. Ubuntu images are not compliant with the Federal Information Processing Standards (FIPS).
 6. For **Endpoint type**, select **Public**.  To allow the collector to use a private IP that is accessible only through the {{site.data.keyword.cloud_notm}} private network, choose **Private**. 
 7. Click **Create**.
-8. On the **Download collector** pane that appears after you create a collector, select **Download shell script**, and then click **Download**. The registration key is required.
+8. On the **Download collector** panel that appears after you create a collector, select **Download shell script**, and then click **Download**. The registration key is required.
 
 
 ## Installing a collector

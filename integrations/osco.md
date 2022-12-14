@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-07"
+lastupdated: "2022-12-14"
 
 keywords: Centralized security, osco, {{site.data.keyword.openshiftshort}} Compliance Operator, compliance monitoring, compliance, 
 
@@ -54,6 +54,11 @@ When you integrate the [{{site.data.keyword.openshiftshort}} Compliance Operator
 
 
 
+Integrations are currently available for Classic {{site.data.keyword.compliance_short}}.
+{: note}
+
+
+
 To learn more about how the integration is configured, check out the following diagram.
 
 
@@ -89,7 +94,7 @@ To get started, you must register an integration with the {{site.data.keyword.co
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Integrations**.
-3. In the **{{site.data.keyword.openshiftshort}} Compliance Operator** tile, click **Connect**. A side pane opens.
+3. In the **{{site.data.keyword.openshiftshort}} Compliance Operator** tile, click **Connect**. A side panel opens.
 4. Select a profile that you want to scan your clusters against.
 5. Click **Connect**. The connection is added to your list of integrations.
 
@@ -132,7 +137,7 @@ If you have {{site.data.keyword.openshiftshort}} clusters that are already part 
 {: tip}
 
 1. In the navigation, click **Configure > Scans**. 
-2. Click **Schedule**. A side pane opens.
+2. Click **Schedule**. A side panel opens.
 3. Give your scan a name and optionally, a description.
 4. For **Scan type**, select **Validation**.
 5. Select a scope that includes your {{site.data.keyword.openshiftshort}} clusters.

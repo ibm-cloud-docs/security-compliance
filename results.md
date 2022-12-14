@@ -1,0 +1,113 @@
+---
+
+copyright:
+  years: 2020, 2022
+lastupdated: "2022-12-14"
+
+keywords: custom profiles, user-defined, controls, goals, security, compliance
+
+subcollection: security-compliance
+
+---
+
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:download: .download}
+{:external: target="_blank" .external}
+{:faq: data-hd-content-type='faq'}
+{:gif: data-image-type='gif'}
+{:important: .important}
+{:note: .note}
+{:pre: .pre}
+{:tip: .tip}
+{:preview: .preview}
+{:deprecated: .deprecated}
+{:beta: .beta}
+{:term: .term}
+{:shortdesc: .shortdesc}
+{:script: data-hd-video='script'}
+{:support: data-reuse='support'}
+{:table: .aria-labeledby="caption"}
+{:troubleshoot: data-hd-content-type='troubleshoot'}
+{:help: data-hd-content-type='help'}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
+{:tsSymptoms: .tsSymptoms}
+{:java: .ph data-hd-programlang='java'}
+{:javascript: .ph data-hd-programlang='javascript'}
+{:swift: .ph data-hd-programlang='swift'}
+{:curl: .ph data-hd-programlang='curl'}
+{:video: .video}
+{:step: data-tutorial-type='step'}
+{:tutorial: data-hd-content-type='tutorial'}
+{:ui: .ph data-hd-interface='ui'}
+{:cli: .ph data-hd-interface='cli'}
+{:api: .ph data-hd-interface='api'}
+{:release-note: data-hd-content-type='release-note'}
+
+
+# Viewing results in the dashboard
+{: #results}
+
+With {{site.data.keyword.compliance_full}}, you can view your results in the console.
+{: shortdesc}
+
+
+## Before you begin
+{: #before-results}
+
+Before you get started, be sure that you have the required level of access to view results. To view results, you need the [**Administrator** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). You must also have access to the credentials that are needed to access your resource configurations.
+
+
+
+## Understanding the dashboard
+{: #understand-dashboard}
+
+As you evaluate your resources, the results are returned via the service UI in graphical and detailed formats.
+
+![A visual representation of the service dashboard. The concepts are fully explained in the surrounding text.](images/dashboard.svg){: caption="Figure 2. Example dashboard" caption-side="bottom"}
+
+When you visit the dashboard, there are three graphical representations of data that has been aggregated from your scans. You see the:
+
+Success rate
+:   The rate at which your configurations pass the evaluation that is conducted. **Note:** The number of evaluations conducted does not always match the number of billable evaluations, as there is no charge for assessments evaluated as unable to perform. Be sure to look for the billable evaluations in each scan result if you need to estimate your cost.
+
+Total controls
+:   The total number of controls that have been evaluated in the past 30 days. 
+
+Total evaluations
+:   The total number of evaluations that have been run in the past 30 days. An evaluation is the check of one resource against one assessment.
+
+
+## Viewing detailed results
+{: #view-detailed-results}
+
+To view the information of a scan, you can use the {{site.data.keyword.compliance_short}} UI.
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access {{site.data.keyword.compliance_short}}.
+2. Click **Dashboard**.
+3. In the **Detailed results** section, find the row for the specific **Scope** and **Profile** combination that you want to view results for and click **View** in the **Results** column.
+
+A page opens with an **Overview** of your results. To further investigate, you can view the results by **Control** or by **Resource**. Check out the following table to see what information is available in each tab.
+
+| | Description |
+|:---|:---------|
+| Overview | On the overview tab, you are provided with a graphical representation of your compliance for your selected scan.  \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-overview-tab.svg){: caption="Figure 2. Example overview tab results" caption-side="bottom"}  \n  **Success rate**: The rate at which your configurations pass the evaluation that is conducted.  \n  **Total controls**: The total number of controls that were evaluated during this scan.  \n  **Drift**: The difference in results for your selected evaluation timeframe. |
+| Controls | On the **Controls** tab, you are provided with an overview of the controls that were evaluated. The controls and their compliance status are listed for the time that the scan was done.
+| Resources | On the **Resources** tab, you are provided with the results for each specific resource that was evaluated.  \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-resources-tab.svg){: caption="Figure 3. Example results tab results" caption-side="bottom"}  \n In the **JSON** tab, you can see the assessment definition. In the **Parameters** tab, you can see the parameters that are relevant to that resource. In the **Non-compliant properties** tab, you are able to view which properties are non-compliant to begin remediating any issues that are found. In the **Controls** tab, you are able to view which controls that the assessment is associated with. |
+{: caption="Table 1. Understanding detailed results" caption-side="top"}
+{: row-headers}
+
+
+## Downloading a report
+{: #download-report}
+
+If you need to keep your results for long periods of time, or provide information to key stakeholders, you can download a report.
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access {{site.data.keyword.compliance_short}}.
+2. Click **Dashboard**.
+3. Find the row for the specific **Scope** and **Profile** combination that you want to view results for and click the **Results** link. A page with the details of the latest evaluation opens.
+4. Click **Download report**.
+
+A CSV with your evaluation results is downloaded to your local system.
+
