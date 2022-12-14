@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-07"
+lastupdated: "2022-12-14"
 
 keywords: Centralized security, tanium, compliance monitoring, compliance, 
 
@@ -51,6 +51,11 @@ subcollection: security-compliance
 
 With [Tanium&trade; Comply](https://docs.tanium.com/comply/comply/index.html){: external}, you can evaluate your organization's endpoints for potential vulnerabilities and misconfigurations against industry security standards, vulnerability definitions, and custom compliance checks. When you integrate Tanium with the {{site.data.keyword.compliance_full}}, you can view all your compliance data in one location in the same format.
 {: shortdesc}
+
+
+
+You must use collector-based evaluations to work with integrations.
+{: note}
 
 
 

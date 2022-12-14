@@ -39,7 +39,7 @@
 		C276,235.2,275.6,235.6,275.1,235.6z"/>
 	<rect x="315.7" y="63.6" class="st4" width="5" height="42"/>
 	<ellipse transform="matrix(0.2298 -0.9732 0.9732 0.2298 25.0316 80.2484)" class="st5" cx="63.2" cy="24.3" rx="13.7" ry="13.7"/>
-	<text transform="matrix(1 0 0 1 87.2871 46.643)"><tspan x="0" y="0" class="st6 st7 st8">{</tspan><tspan x="0" y="18" class="st6 st7 st8">    &quot;</tspan><tspan x="45" y="18" class="st9 st7 st8">and</tspan><tspan x="72" y="18" class="st6 st7 st8">&quot;: [</tspan><tspan x="0" y="36" class="st6 st7 st8">      A,</tspan><tspan x="0" y="54" class="st6 st7 st8">      B,</tspan><tspan x="0" y="72" class="st6 st7 st8">      C</tspan><tspan x="0" y="90" class="st6 st7 st8">    ]</tspan><tspan x="0" y="108" class="st6 st7 st8">  }</tspan></text>
+	<text transform="matrix(1 0 0 1 87.2871 64.643)"><tspan x="0" y="0" class="st6 st7 st8">    &quot;</tspan><tspan x="45" y="0" class="st9 st7 st8">and</tspan><tspan x="72" y="0" class="st6 st7 st8">&quot;: [</tspan><tspan x="0" y="18" class="st6 st7 st8">      A,</tspan><tspan x="0" y="36" class="st6 st7 st8">      B,</tspan><tspan x="0" y="54" class="st6 st7 st8">      C</tspan><tspan x="0" y="72" class="st6 st7 st8">    ]</tspan><tspan x="0" y="90" class="st6 st7 st8">  }</tspan></text>
 	<path class="st3" d="M535,235.6H324.5c-0.5,0-0.9-0.4-0.9-0.9V25c0-0.5,0.4-0.9,0.9-0.9H535c0.5,0,0.9,0.4,0.9,0.9v209.7
 		C535.9,235.2,535.5,235.6,535,235.6z"/>
 	<text transform="matrix(1 0 0 1 347.1844 46.7057)"><tspan x="0" y="0" class="st6 st7 st8">{</tspan><tspan x="0" y="18" class="st6 st7 st8">    &quot;</tspan><tspan x="45" y="18" class="st10 st7 st8">or</tspan><tspan x="63" y="18" class="st6 st7 st8">&quot;: [</tspan><tspan x="0" y="36" class="st6 st7 st8">      A,</tspan><tspan x="0" y="54" class="st6 st7 st8">      B,</tspan><tspan x="0" y="72" class="st6 st7 st8">      C</tspan><tspan x="0" y="90" class="st6 st7 st8">    ]</tspan><tspan x="0" y="108" class="st6 st7 st8">  }</tspan></text>
@@ -53,6 +53,7 @@
 	<text transform="matrix(1 0 0 1 59.1602 28.3503)" class="st11 st7 st12">1</text>
 	<text transform="matrix(1 0 0 1 319.7715 28.3503)" class="st11 st7 st12">2</text>
 	<text transform="matrix(1 0 0 1 581.4736 29.3503)" class="st11 st7 st12">3</text>
+	<text transform="matrix(1 0 0 1 87.2917 47.1256)"><tspan x="0" y="0" class="st6 st7 st8">{</tspan><tspan x="0" y="18" class="st6 st7 st8">      </tspan></text>
 </g>
 <g id="Text">
 	<text transform="matrix(1 0 0 1 126.9998 237.879)" class="st0 st13 st8">Conditions</text>

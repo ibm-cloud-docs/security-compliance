@@ -11,36 +11,30 @@ toc:
     label: Security and Compliance Center
 
   entries: 
+
   - navgroup:
       id: learn
       topics:
-      - topic: classic/cs-getting-started.md
+      - topic: getting-started.md
         navtitle: Getting started
       - topicgroup:
           label: About
           topics:
-          - topic: classic/about-pricing.md
+          - topic: key-concepts.md
+            navtitle: Key concepts
+          - topic: overview.md
+            navtitle: How it works
+          - topic: pricing.md
             navtitle: Pricing
-          - topic: classic/about-supported.md
-            navtitle: Environments and services
-          - topic: classic/about-integrations.md
-            navtitle: Integrations
       - topic: releases.md
         navtitle: Release notes
 
   - navgroup:
       id: tutorial
-      topics: 
-      - topicgroup: 
-          label: Monitor IBM Cloud resources
-          topics: 
-          - tutorials/ibm-credential.md
-          - tutorials/ibm-discover.md
-          - tutorials/ibm-map-cred.md
-          - tutorials/ibm-scan.md
+      topics:
       - topicgroup:
           label: Install and manage a collector
-          topics: 
+          topics:
           - topic: tutorials/collector-vpc.md
             navtitle: On Virtual Private Cloud
           - topic: tutorials/collector-ks.md
@@ -50,158 +44,97 @@ toc:
       id: howto
       topics:
       - topicgroup: 
-          label: Setting up monitoring
+          label: Setting up the service
           topics:
-          - classic/posture-what-is.md
-          - topicgroup:
-              label: Granting access to your resources
-              topics:
-              - classic/credentials-what-is.md
-              - classic/credentials-permissions.md
-              - classic/credentials-manage.md
-              - classic/credentials-mapping.md
-          - topicgroup:
-              label: Discovering resources and configurations
-              topics:
-              - classic/collector-what-is.md
-              - classic/collector-ibm.md
-              - classic/collector-customer.md
-              - classic/inventory.md
-          - topicgroup:
-              label: Defining your compliance checks
-              topics:
-              - classic/profile-what-is.md
-              - classic/profile-custom.md
-              - classic/goals-customize.md
+          - topic: assign-access.md
+            navtitle: Assigning access
+          - topic: data-storage.md
+            navtitle: Storing and processing data
+          - topic: framework/event-notifications.md
+            navtitle: Enabling event notifications
       - topicgroup: 
-          label: Monitoring your resources
+          label: Evaluating your resources
           topics:
-          - topicgroup:
-              label: Targeting specific resources
+          - available-components.md
+          - run-evaluation.md
+          - topicgroup: 
+              label: Customizing your evaluation
               topics:
-              - classic/scopes.md
-              - classic/scope-details.md
-              - classic/tags.md
-          - classic/schedule-scan.md
-          - classic/multiple-accounts.md
+              - custom-library.md
+              - custom-profile.md
+              - custom-rule.md
+          - topicgroup:
+              label: Scanning hybrid cloud resources
+              topics:
+              - cs-permissions.md
+              - cs-credentials.md
+              - cs-collector.md
+              - cs-profile-custom.md
+              - cs-goals.md
+              - cs-scopes.md
+              - cs-scans.md
       - topicgroup:
-          label: Governing the use of resources
+          label: Understanding results
           topics:
-          - classic/gov-what-is.md
-          - classic/gov-format.md
-          - topicgroup:
-              label: Managing config rules
-              topics:
-              - classic/gov-rule-define.md
-              - classic/gov-rule-attach.md
-              - classic/gov-rule-delete.md
-          - topicgroup:
-              label: Managing templates
-              topics:
-              - classic/gov-temp-define.md
-              - classic/gov-temp-attach.md
-              - classic/gov-temp-delete.md
+          - results.md
+          - cs-posture.md
+          - cs-remediation.md
       - topicgroup:
           label: Connecting integrations
           topics: 
           - integrations/osco.md
           - integrations/tanium.md
-      - topic: framework/cs-event-notifications.md
-        navtitle: Enabling event notifications
-      - topicgroup:
-          label: Managing your posture
-          topics:
-          - classic/view-posture.md
-          - classic/cs-results.md
-          - classic/remediation.md
       - topicgroup:
           label: Enhancing security
           topics:
-          - topic: framework/cs-iam.md
+          - topic: framework/iam.md
             navtitle: Managing IAM access
-          - topic: framework/cs-data-security.md
-            navtitle: Storing and encrypting data
-          - topic: framework/cs-architecture-workload-isolation.md
+          - topic: framework/data-security.md
+            navtitle: Understanding data encryption
+          - topic: framework/architecture-workload-isolation.md
             navtitle: Learning about architecture and workload isolation
-          - topic: framework/cs-at-events.md
+          - topic: framework/at-events.md
             navtitle: Auditing events
 
   - navgroup:
       id: reference
       topics:
       - topicgroup:
-          label: APIs and SDKs
-          topics:
-          - classic/api-setup.md
-          - link:
-              label: Admin
-              href: https://{DomainName}/apidocs/security-compliance-admin
-          - link:
-              label: Configuration Governance
-              href: https://{DomainName}/apidocs/security-compliance-config
-          - link:
-              label: Posture Management
-              href: https://{DomainName}/apidocs/security-compliance/posture
-          - topicgroup:
-              label: API change logs
-              topics: 
-              - topic: change-logs/admin-api-changes.md
-                navtitle: Admin
-              - topic: change-logs/config-api-changes.md
-                navtitle: Configuration Governance
-              - topic: change-logs/posture-api-changes.md
-                navtitle: Posture Management
-      - topicgroup:
-          label: Terraform
-          topics:
-          - topic: framework/cs-terraform.md
-            navtitle: Setting up Terraform
-          - link:
-              label: Terraform documentation
-              href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs
-      - topicgroup:
           label: Available profiles and properties
           topics:
-          - security-checks/profile-predefined.md
+          - security-checks/available-profiles.md
           - topicgroup:
               label: Profile change logs
               topics:
               - change-logs/ibm-library-changes.md
               - change-logs/fs-cloud-changes.md
-              - change-logs/ibm-sec-practices-changes.md             
-          - security-checks/scc-properties.md
-          - security-checks/default-goals.md
+              - change-logs/ibm-sec-practices-changes.md
       - topicgroup: 
-          label: Service availability
+          label: High availability and disaster recovery
           topics:
-          - framework/cs-locations-endpoints.md
-          - topicgroup: 
-              label: High availability and disaster recovery
-              topics:
-              - topic: framework/cs-high-availability.md
-                navtitle: Understanding high availability
-              - topic: framework/cs-disaster-recovery.md
-                navtitle: Understanding disaster recovery
+          - topic: framework/high-availability.md
+            navtitle: Understanding high availability
+          - topic: framework/disaster-recovery.md
+            navtitle: Understanding disaster recovery
       - topicgroup: 
           label: Related links
           topics:
             - link:
-               label: IBM Cloud Compliance Programs
+               label: IBM Cloud compliance programs
                href: https://www.ibm.com/cloud/compliance
 
   - navgroup:
       id: help
       topics:
-      - classic/cs-faqs.md 
+      - faqs.md 
       - topicgroup: 
           label: Troubleshooting
           topics:
-          - troubleshooting/ts-contact.md
-          - troubleshooting/ts-ip-address.md
-          - troubleshooting/ts-results.md
-          - troubleshooting/ts-deleted-results.md
-          - troubleshooting/ts-score.md
-          - troubleshooting/ts-results-osco.md
+          - troubleshooting/contact.md
+          - troubleshooting/no-results.md
+          - troubleshooting/result-deleted-resource.md
           - troubleshooting/ts-notifications.md
-          - troubleshooting/ts-satellite.md
-      - classic/limits.md 
+          - troubleshooting/ts-ip-address.md
+          - troubleshooting/ts-results-osco.md
+          - known-issues.md
+          - limits.md

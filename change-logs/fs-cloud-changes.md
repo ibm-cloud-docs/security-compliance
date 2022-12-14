@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-13"
+lastupdated: "2022-12-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -78,6 +78,15 @@ The following table shows the service behavior changes for each version date. Sw
 | Version 0.1.1 | `2021-06-24` |
 | Version 0.1.0 | `2021-04-05` |
 {: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
+
+
+
+## 14 December 2022
+{: #sec-best-dec1422}
+
+The format of the {{site.data.keyword.cloud_notm}} for Financial Services profile profile has been updated with the following changes. Review your configuration closely to ensure that the profile still meets your needs.
+- The profile is available only on the **Profiles** page of the **Manage** section of the updated infrastructure.
+- The format changed from being goal-based to assessment-based.
 
 
 

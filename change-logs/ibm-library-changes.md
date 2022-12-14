@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-13"
+lastupdated: "2022-12-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -58,6 +58,15 @@ As of 27 May 2022, the {{site.data.keyword.cloud_notm}} Best Practices Controls 
 {: #cl-profile-versioning}
 
 The {{site.data.keyword.cloud_notm}} Control Library profile is an exhaustive list of all the controls and goals that are available for {{site.data.keyword.cloud_notm}}. The profile is consistently updated and can change at any time, which can cause your compliance score to change without any update to your configuration. When new goals or controls are edited or removed from the profile in a way that is not compatible with the current version, a new version is released.
+
+## 14 December 2022
+{: #ibmcl-dec1422}
+
+The format of the {{site.data.keyword.cloud_notm}} Control Library profile has been updated with the following changes. Review your configuration closely to ensure that the profile still meets your needs.
+- The profile is available only on the **Profiles** page of the **Manage** section of the updated infrastructure.
+- The format changed from being goal-based to assessment-based.
+
+
 
 ## 25 July 2022
 {: #ibmcl-jul2522}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-13"
+lastupdated: "2022-12-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -54,6 +54,15 @@ The {{site.data.keyword.cloud_notm}} Security Best Practices profile is a collec
 
 If you're working with this profile, new goals are automatically added to your current scans. If you want more control over when new goals are added, you can create a custom profile that contains all or a subset of the goals that are currently available. For more information, see [Building custom profiles](/docs/security-compliance?topic=security-compliance-custom-profiles).
 {: note}
+
+
+
+## 14 December 2022
+{: #sec-best-dec1422}
+
+The format of the {{site.data.keyword.cloud_notm}} Security Best Practices profile has been updated with the following changes. Review your configuration closely to ensure that the profile still meets your needs.
+- The profile is available only on the **Profiles** page of the **Manage** section of the updated infrastructure.
+- The format changed from being goal-based to assessment-based.
 
 
 
