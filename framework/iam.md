@@ -134,22 +134,8 @@ The following tables list the platform access roles that are required to manage 
 | `compliance.posture-management.values-create` | Add parameters to an existing goal. | Editor |
 | `compliance.posture-management.values-read` | View the parameters that are associated with a goal. | Viewer |
 | `compliance.posture-management.values-update` | Update the parameters of an existing goal. | Editor |
-| `compliance.configuration-governance.attachments-create`* | Create an attachment between a rule and a scope. | Editor |
-| `compliance.configuration-governance.attachments-delete`* | Delete an attachment. | Editor |
-| `compliance.configuration-governance.attachments-read`* | View the attachments that are associated with a rule. | Viewer |
-| `compliance.configuration-governance.attachments-update`* | Update a rule attachment. | Editor |
-| `compliance.configuration-governance.results-read`* | View results for the Configuration Governance component. | Editor |
-| `compliance.configuration-governance.rules-create`* | Create a config rule. | Editor |
-| `compliance.configuration-governance.rules-delete`* | Delete a config rule. | Editor |
-| `compliance.configuration-governance.rules-read`* | View the config rules that are available for your accounts. | Viewer |
-| `compliance.configuration-governance.rules-update`* | Update an existing config rule. | Editor |
-| `compliance.configuration-governance.templates-create`* | Create a template. | Editor |
-| `compliance.configuration-governance.templates-delete`* | Delete a template. | Editor |
-| `compliance.configuration-governance.templates-read`* | View the templates that are available for your accounts. | Viewer |
-| `compliance.configuration-governance.templates-update`* | Update an existing template. | Editor |
 {: caption="Table 1. IAM user roles and actions" caption-side="top"}
 
-**Actions with an asterisk are deprecated.*
 
 [^attach-1]: To create an attachment within an Enterprise, you must also have Administrator access for the Enterprise service.
 
