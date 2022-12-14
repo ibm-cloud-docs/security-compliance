@@ -49,7 +49,7 @@ subcollection: security-compliance
 # Defining custom rules
 {: #rules-define}
 
-With {{site.data.keyword.compliance_full}}, you can create a custom rule.
+With {{site.data.keyword.compliance_full}}, you can create a custom rule in order to target the exact configuration properties that you need to ensure compliance for.
 {: shortdesc}
 
 
