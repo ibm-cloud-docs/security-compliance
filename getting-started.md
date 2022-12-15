@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-14"
+lastupdated: "2022-12-15"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -116,7 +116,7 @@ An attachment is how you target a specific grouping of your resources to evaluat
 6. Provide the specific values that you want to use when the parameters are evaluated. 
 
    The values that you provide are evaluated only for this attachment. Changing the values in this flow does not override the default value that is set in the control library.
-   
+
 7. Click **Next**.
 8. Review your choices and click **Create**.
 

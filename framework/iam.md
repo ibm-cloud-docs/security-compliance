@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-14"
+lastupdated: "2022-12-15"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -135,7 +135,6 @@ The following tables list the platform access roles that are required to manage 
 | `compliance.posture-management.values-read` | View the parameters that are associated with a goal. | Viewer |
 | `compliance.posture-management.values-update` | Update the parameters of an existing goal. | Editor |
 {: caption="Table 1. IAM user roles and actions" caption-side="top"}
-
 
 [^attach-1]: To create an attachment within an Enterprise, you must also have Administrator access for the Enterprise service.
 

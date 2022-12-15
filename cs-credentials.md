@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-14"
+lastupdated: "2022-12-15"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -183,5 +183,4 @@ A successful `POST /posture/v2/credentials` response returns the unique ID of yo
 }
 ```
 {: screen}
-
 
