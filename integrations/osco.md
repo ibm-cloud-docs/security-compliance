@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-14"
+lastupdated: "2022-12-15"
 
 keywords: Centralized security, osco, {{site.data.keyword.openshiftshort}} Compliance Operator, compliance monitoring, compliance, 
 
@@ -53,10 +53,8 @@ When you integrate the [{{site.data.keyword.openshiftshort}} Compliance Operator
 {: shortdesc}
 
 
-
-Integrations are currently available for Classic {{site.data.keyword.compliance_short}}.
+You must use collector-based evaluations to work with integrations.
 {: note}
-
 
 
 To learn more about how the integration is configured, check out the following diagram.
