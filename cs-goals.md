@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-12-14"
+lastupdated: "2022-12-15"
 
 keywords: goals, parameters, customize parameters, customize goals, security and compliance,
 
@@ -99,6 +99,4 @@ Tags are platform level labels that are used by {{site.data.keyword.compliance_s
    {: caption="Table 1. Understanding tag mapping" caption-side="top"}
 
 6. Click **Save**.
-
-
 

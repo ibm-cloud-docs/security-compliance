@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-14"
+lastupdated: "2022-12-15"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -67,6 +67,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 | Version number | Release date |
 |:---------------|:-------------|
+| Version 1.0.0 | `2022-14-21` |
 | Version 0.6.0 | `2022-09-21` |
 | Version 0.5.0 | `2022-08-11` |
 | Version 0.4.0 | `2022-06-23` |
@@ -81,7 +82,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 
 
-## 14 December 2022
+## Version 1.0.0
 {: #fs-cloud-v100}
 
 The format of the {{site.data.keyword.cloud_notm}} for Financial Services profile profile has been updated with the following changes. Review your configuration closely to ensure that the profile still meets your needs.

@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-14"
+lastupdated: "2022-12-15"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -134,24 +134,6 @@ You must use a paid plan for the {{site.data.keyword.at_short}} service to see e
 | `compliance.posture-management.integrations-create`      | Create an integration in {{site.data.keyword.compliance_short}}. |
 | `compliance.posture-management.integrations-update`      | Update an integration in {{site.data.keyword.compliance_short}}. |
 | `compliance.posture-management.integrations-delete`      | Delete an integration in {{site.data.keyword.compliance_short}}. |
-| `compliance.configuration-governance-rules.list`   | View rules. |
-| `compliance.configuration-governance-rules.read`   | View the details of a rule. |
-| `compliance.configuration-governance-rules.create` | Create a rule. |
-| `compliance.configuration-governance-rules.update` | Update an existing rule. |
-| `compliance.configuration-governance-rules.delete` | Delete a rule. |
-| `compliance.configuration-governance-templates.list`   | View templates. |
-| `compliance.configuration-governance-templates.read`   | View the details of a template. |
-| `compliance.configuration-governance-templates.create` | Create a template. |
-| `compliance.configuration-governance-templates.update` | Update an existing template. |
-| `compliance.configuration-governance-templates.delete` | Delete a template. |
-| `compliance.configuration-governance-attachments.list`   | View the attachments that are available for a rule or template. |
-| `compliance.configuration-governance-attachments.read`   | View the details of an attachment. |
-| `compliance.configuration-governance-attachments.create` | Create an attachment between a rule or template and a scope. |
-| `compliance.configuration-governance-attachments.update` | Update an existing attachment. |
-| `compliance.configuration-governance-attachments.delete` | Delete an attachment. |
-| `compliance.configuration-governance-results.read`   | View config rule results. |
-| `compliance.configuration-governance-resource.eval` | Describes the resource that is being evaluated. |
-| `compliance.configuration-governance-rule.eval` | Describes the rule that is being evaluated. |
 | `compliance.admin-settings.list`   | View {{site.data.keyword.compliance_short}} settings for your account. |
 | `compliance.admin-settings.update` | Update {{site.data.keyword.compliance_short}} settings for your account. |
 | `compliance.admin.test-event-send` | Send a test event to a connected {{site.data.keyword.en_short}} service instance. |

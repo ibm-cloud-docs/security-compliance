@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2022
-lastupdated: "2022-12-14"
+lastupdated: "2022-12-15"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -77,7 +77,7 @@ Working with VPC? Get help [Setting up your Network ACLs](/docs/vpc?topic=vpc-us
 A collector is a software module that is packaged as a container image. It is deployed on infrastructure that has access to the resources in your account. You can choose to have IBM manage your collector, or you can choose to deploy it and manage it yourself.
 
 IBM-managed collectors
-:   When you choose to have IBM manage your collector, it is installed on IBM infrastructure as a Universal Base Image (UBI). IBM is responsible for the installation and management for the lifecycle of the collector. This option gives you the ability to focus on just the health and security of your resources. Before you get started, be sure that you understand [the limitations](/docs/security-compliance?topic=security-compliance-known-issues-limits).
+:   When you choose to have IBM manage your collector, it is installed on IBM infrastructure as a Universal Base Image (UBI). IBM is responsible for the installation and management for the lifecycle of the collector. This option gives you the ability to focus on just the health and security of your resources. Before you get started, be sure that you understand [the limitations](/docs/security-compliance?topic=security-compliance-limits).
 
 Customer-managed collectors
 :  In some situations, an IBM-managed collector might not be possible. If your organization has policies about the ownership of infrastructure or specific security constraints, you can always continue to manage your own collector. With a customer-owned collector, you own the infrastructure and you have total control over where the collector is installed. You can install the collector as a UBI or Ubuntu container image. The Ubuntu image is not compliant with the Federal Information Processing Standards (FIPS).
