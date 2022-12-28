@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2022
-lastupdated: "2022-12-15"
+lastupdated: "2022-12-16"
 
 keywords: HA for {{site.data.keyword.compliance_short}}, DR for {{site.data.keyword.compliance_short}}, high availability for {{site.data.keyword.compliance_short}}, disaster recovery for {{site.data.keyword.compliance_short}}, failover for {{site.data.keyword.compliance_short}}, BC for {{site.data.keyword.compliance_short}}, business continuity for {{site.data.keyword.compliance_short}}, disaster recovery for {{site.data.keyword.compliance_short}}
 
@@ -74,5 +74,5 @@ The SLO is not a warranty and {{site.data.keyword.IBM_notm}} does not issue cred
 ## Locations
 {: #ha-locations}
 
-For more information about service availability within regions and data centers, see [Service and infrastructure availability by location](/docs/overview?topic=overview-services_region). You can also find information about {{site.data.keyword.compliance_short}}'s [available regions](/docs/security-compliance?topic=security-compliance-regions-endpoints#available-regions).
+For more information about service availability within regions and data centers, see [Service and infrastructure availability by location](/docs/overview?topic=overview-services_region).
 
