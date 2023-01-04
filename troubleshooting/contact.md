@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-15"
+  years: 2020, 2023
+lastupdated: "2023-01-04"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -61,7 +61,7 @@ When you open a support ticket, be sure to provide the following information tha
 * A detailed description of the issue.
 * Any other information that can help process your ticket quickly.
 
-If you're opening a ticket for Classic {{site.data.keyword.compliance_short}}, then be sure to include your collector logs. To obtain your logs:
+If you're opening a ticket for collector-based evaluations, then be sure to include your collector logs. To obtain your logs:
 
 1. Log in to the collector.
 2. Run the following command to package your logs.
