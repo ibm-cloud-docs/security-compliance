@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-15"
+  years: 2020, 2023
+lastupdated: "2023-01-09"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -79,7 +79,7 @@ Rule
 :   A set of conditional statements that are used to determine whether a resource configuration is in compliance. To evaluate a rule, it is associated with a profile through an assessment.
 
 Parameter
-:   The specific configuration property that is evaluated. Each parameter is assigned a value by default that can be customized when an attachment is created.
+:   The specific configuration property that is evaluated. Each parameter is assigned a value by default that can be customized when an attachment is created. For example, if a control evaluates which region that a resource exits in, you can specify the region that you want to check for by defining the parameter.
 
 Collector
 :   A collector is a software module that has visibility into your resource configurations. It is used in the hybrid or multi-cloud flows to gather the configuration information that is evaluated by {{site.data.keyword.compliance_short}}. 
@@ -96,9 +96,6 @@ Scope
 
 Attachment
 :   The connection between a profile and scope that defines the way that {{site.data.keyword.compliance_short}} conducts an evaluation. An attachment is formed by selecting the grouping of resources that you want to evaluate and a profile. Then, you specify the parameters that you want to evaluate for. Attachments are evaluated once per day or can be initiated as needed. In collector-based evaluations this concept is known as a scan. Scans can be scheduled or run on-demand.
-
-Parameter
-:   The specific value that is evaluated. For example, if a control evaluates which region that a resource exits in, you can specify the region that you want to check for by defining the parameter.
 
 Results
 :   The information that is returned by the evaluation is known as results. For a breakdown of the information that is returned in your results, see [Understanding results](/docs/security-compliance?topic=security-compliance-results).
