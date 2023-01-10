@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-16"
+  years: 2020, 2023
+lastupdated: "2023-01-10"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -103,7 +103,7 @@ Now available: New version of the {{site.data.keyword.cloud_notm}} for Financial
 {: release-note}
 
 New properties available for Virtual Private Cloud
-:   {{site.data.keyword.cloud_notm}} Virtual Private Cloud now has additional properties available as part of the Configuration Governance component. You can create guardrails for virtual servers such as restricting the use of floating IPs and service metadata. For more information about the integration and view other available properties, see the [VPC documentation](/docs/vpc?topic=vpc-manage-security-compliance).
+:   {{site.data.keyword.cloud_notm}} Virtual Private Cloud now has additional properties available as part of the Configuration Governance component. You can create guardrails for virtual servers such as restricting the use of floating IPs and service metadata. 
 
 Removed: Credential passphrase
 :   As of today, 1 September 2022, the ability to use a passphrase to manage the security of your credentials is deprecated in favor of Bring Your Own Key (BYOK) functionality. If you did not disable your passphrase and return to IBM-managed, you must recreate all of your credentials to continue to scan your resources. For help enabling BYOK or to learn more about how your credentials are protected, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
@@ -266,7 +266,7 @@ Create scope flow updates
 {: release-note}
 
 New service available in Configuration Governance
-:   VPN for Virtual Private Cloud is now available as part of the Configuration Governance component. You can create guardrails for VPN for VPC such as enforcing specific IPsec and IKE policies for authentication and encryption. For more information about the integration, see [the VPC docs](/docs/vpc?topic=vpc-manage-security-compliance).
+:   VPN for Virtual Private Cloud is now available as part of the Configuration Governance component. You can create guardrails for VPN for VPC such as enforcing specific IPsec and IKE policies for authentication and encryption.
 
 
 
@@ -287,7 +287,7 @@ Now available: New version of the {{site.data.keyword.cloud_notm}} for Financial
 {: release-note}
 
 New service available in Configuration Governance
-:   {{site.data.keyword.cloud_notm}} App ID is now available as part of the Configuration Governance component. You can create guardrails for App ID such as enforcing whether monitoring of runtime activity that is made by application users is tracked. For more information about the integration, see [the App ID docs](/docs/appid?topic=appid-manage-security-compliance).
+:   {{site.data.keyword.cloud_notm}} App ID is now available as part of the Configuration Governance component. You can create guardrails for App ID such as enforcing whether monitoring of runtime activity that is made by application users is tracked.
 
 
 ## 11 January 2022
@@ -295,7 +295,7 @@ New service available in Configuration Governance
 {: release-note}
 
 New service available in Configuration Governance
-:   {{site.data.keyword.cloud_notm}} Code Engine is now available as part of the Configuration Governance component. You can create guardrails for Code Engine such as ensuring that projects can be created only within specific regions. For more information about the integration, see [the Code Engine docs](/docs/codeengine?topic=codeengine-manage-security-compliance).
+:   {{site.data.keyword.cloud_notm}} Code Engine is now available as part of the Configuration Governance component. You can create guardrails for Code Engine such as ensuring that projects can be created only within specific regions.
 
 
 ## 13 December 2021
@@ -321,7 +321,7 @@ Customer-managed collectors can now be installed on a cluster
 :   You can now install your customer-managed collector on to an {{site.data.keyword.cloud_notm}} Kubernetes Service or OpenShift cluster. For more information or help getting started, see [the tutorial](/docs/security-compliance?topic=security-compliance-collector).
 
 New service available in Configuration Governance
-:   {{site.data.keyword.cloud_notm}} Container Registry is now available as part of the Configuration Governance component. You can create guardrails for Container Registry such as restricting an account so that it can push and pull images only over private connections. For more information about the integration and the other available properties, see [the Container Registry docs](/docs/Registry?topic=Registry-manage-security-compliance#govern-container-registry).
+:   {{site.data.keyword.cloud_notm}} Container Registry is now available as part of the Configuration Governance component. You can create guardrails for Container Registry such as restricting an account so that it can push and pull images only over private connections.
 
 
 ## 22 November 2021
