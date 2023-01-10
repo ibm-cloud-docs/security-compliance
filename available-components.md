@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-12-15"
+  years: 2023
+lastupdated: "2023-01-10"
 
 keywords: integrations, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -66,43 +66,42 @@ By using the assessment-based profiles, you can evaluate {{site.data.keyword.clo
 
 You can evaluate your organization’s current security and compliance posture by validating the configuration of your resources in the following components. 
 
-* [{{site.data.keyword.at_short}}](/docs/activity-tracker?topic=activity-tracker-getting-started#getting-started)*
-* [{{site.data.keyword.appid_short_notm}}](/docs/appid?topic=appid-manage-security-compliance)*
+* [{{site.data.keyword.at_short}}](/docs/activity-tracker?topic=activity-tracker-getting-started)*
+* [{{site.data.keyword.appid_short_notm}}](/docs/appid?topic=appid-getting-started)*
 * Bare Metal Servers
-* [{{site.data.keyword.cloudcerts_short}}](/docs/certificate-manager?topic=certificate-manager-manage-security-compliance)
-* [Cloudant](/docs/Cloudant?topic=Cloudant-manage-security-compliance)*
-* [Cloud Databases](/docs/cloud-databases?topic=cloud-databases-manage-security-compliance)*
+* [Cloudant](/docs/Cloudant?topic=Cloudant-getting-started)*
+* [Cloud Databases](/docs/cloud-databases?topic=cloud-databases-getting-started)*
 	* Elasticsearch
 	* etcd
 	* MongoDB
 	* PostgreSQL
 	* Redis
-* [Cloud Internet Services (CIS)](/docs/cis?topic=cis-manage-security-compliance)
+* [Cloud Internet Services (CIS)](/docs/cis?topic=cis-getting-started)
 * Cloud Monitoring*
-* [{{site.data.keyword.cloud_notm}} Platform](/docs/overview?topic=overview-manage-security-compliance)
+* [{{site.data.keyword.cloud_notm}} Platform](/docs/overview?topic=overview-getting-started)
 	* Billing
 	* Catalog Management
 	* IAM Access Groups
 	* IAM Identity Service
-* [Cloud Shell](/docs/cloud-shell?topic=cloud-shell-manage-security-compliance)*
-* [Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-manage-security-compliance)*
-* [Code Engine](/docs/codeengine?topic=codeengine-manage-security-compliance)*
-* [{{site.data.keyword.registryshort}}](/docs/Registry?topic=Registry-manage-security-compliance)* 
-* [Continuous Delivery](/docs/ContinuousDelivery?topic=ContinuousDelivery-cd-manage-security-compliance)
-* [Direct Link](/docs/dl?topic=dl-manage-security-compliance)*
-* [Event Streams](/docs/EventStreams?topic=EventStreams-manage-security-compliance)*
-* [Hyper Protect Crypto Services](/docs/hs-crypto?topic=hs-crypto-manage-security-compliance)*
-* [Hyper Protect DBaaS for MongoDB](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-manage-security-compliance)*
-* [Hyper Protect DBaaS for PostgreSQL](/docs/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-manage-security-compliance)
-* [{{site.data.keyword.keymanagementserviceshort}}](/docs/key-protect?topic=key-protect-manage-security-compliance)*
+* [Cloud Shell](/docs/cloud-shell?topic=cloud-shell-getting-started)*
+* [Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started)*
+* [Code Engine](/docs/codeengine?topic=codeengine-getting-started)*
+* [{{site.data.keyword.registryshort}}](/docs/Registry?topic=Registry-getting-started)* 
+* [Continuous Delivery](/docs/ContinuousDelivery?topic=ContinuousDelivery-cd-getting-started)
+* [Direct Link](/docs/dl?topic=dl-getting-started)*
+* [Event Streams](/docs/EventStreams?topic=EventStreams-getting-started)*
+* [Hyper Protect Crypto Services](/docs/hs-crypto?topic=hs-crypto-getting-started)*
+* [Hyper Protect DBaaS for MongoDB](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-getting-started)*
+* [Hyper Protect DBaaS for PostgreSQL](/docs/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-getting-started)
+* [{{site.data.keyword.keymanagementserviceshort}}](/docs/key-protect?topic=key-protect-getting-started)*
 * [{{site.data.keyword.containershort}}](/docs/containers?topic=containers-security)* 
 * [Log Analysis](/docs/log-analysis?topic=log-analysis-adoption#adoption_acc_settings)*
 * [{{site.data.keyword.openshiftlong}}](/docs/openshift?topic=openshift-security)*
 * {{site.data.keyword.satelliteshort}}
 * [Schematics](/docs/schematics?topic=schematics-access)
-* [{{site.data.keyword.secrets-manager_short}}](/docs/secrets-manager?topic=secrets-manager-manage-security-compliance)
-* [Transit Gateway](/docs/transit-gateway?topic=transit-gateway-manage-security-compliance)*
-* [Virtual Private Cloud (VPC)](/docs/vpc?topic=vpc-manage-security-compliance)*
+* [{{site.data.keyword.secrets-manager_short}}](/docs/secrets-manager?topic=secrets-manager-getting-started)
+* [Transit Gateway](/docs/transit-gateway?topic=transit-gateway-getting-started)*
+* [Virtual Private Cloud (VPC)](/docs/vpc?topic=vpc-getting-started)*
 	* Application Load Balancer for VPC
 	* Auto Scale for VPC
 	* Block Storage for VPC
