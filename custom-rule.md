@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-15"
+  years: 2020, 2023
+lastupdated: "2023-01-21"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -146,7 +146,6 @@ String-based operators are case-sensitive.
 [^ips_equals]: To create a rule with a property that supports the `ips_equals` operator, include a list of CIDR or IP addresses for the `value` parameter. For example, `{"value": ["10.168.175.0/24", "2000:db8:ffff:ffff:ffff:ffff:ffff:ffff"]}`.
 
 [^ips_not_equals]: To create a rule with a property that supports the `ips_not_equals` operator, include a list of CIDR or IP addresses for the `value` parameter. For example, `{"value": ["10.168.175.0/24", "2000:db8:ffff:ffff:ffff:ffff:ffff:ffff"]}`.
-
 
 
 ### Formatting complex rules
