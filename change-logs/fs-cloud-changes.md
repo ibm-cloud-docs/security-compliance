@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-15"
+  years: 2020, 2023
+lastupdated: "2023-01-23"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -82,13 +82,16 @@ The following table shows the service behavior changes for each version date. Sw
 
 
 
+
 ## Version 1.0.0
 {: #fs-cloud-v100}
 
-The format of the {{site.data.keyword.cloud_notm}} for Financial Services profile profile has been updated with the following changes. Review your configuration closely to ensure that the profile still meets your needs.
+The format of the {{site.data.keyword.cloud_notm}} for Financial Services profile has been updated with the following changes. Review your configuration closely to ensure that the profile still meets your needs.
 - The profile is available only on the **Profiles** page of the **Manage** section of the updated infrastructure.
 - The format changed from being goal-based to assessment-based.
 
+Starting with version 1.0.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile, all new versions of the profile that become available will be compatable only with the updated service architecture. To upgrade your profile version, you must move to the new evaluation format. For more information, see [Getting started](/docs/security-compliance?topic=security-compliance-getting-started).
+{: important}
 
 
 ## Version 0.6.0
