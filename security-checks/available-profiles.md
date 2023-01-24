@@ -51,8 +51,7 @@ subcollection: security-compliance
 With the {{site.data.keyword.compliance_full}}, you can take advantage of predefined profiles that contain collections of controls that are curated based on industry standards.
 {: shortdesc}
 
-With the {{site.data.keyword.compliance_full}}, you can take advantage of predefined profiles that contain collections of controls that are curated based on industry standards. You can also [create your own goal-based profiles](/docs/security-compliance?topic=security-compliance-custom-profiles) or [Assessment-based profiles](/docs/security-compliance?topic=security-compliance-build-custom-profiles).  
-{: shortdesc}
+You can also [create your own goal-based profiles](/docs/security-compliance?topic=security-compliance-custom-profiles) or [Assessment-based profiles](/docs/security-compliance?topic=security-compliance-build-custom-profiles).  
 
 {{site.data.keyword.compliance_short}} supports more than 40 predefined profiles. Within each profile, you can review the controls and goals that are required to be compliant. You can't modify or remove controls from a predefined profile. But, you can use a predefined profile as a base by creating a new profile so that you can choose only the controls and goals that are relevant for your business. 
 
