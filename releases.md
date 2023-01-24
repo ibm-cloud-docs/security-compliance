@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-01-10"
+lastupdated: "2023-01-23"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -350,8 +350,6 @@ Deprecation of the bookmarks capability
 ## 16 September 2021
 {: #security-compliance-sept152021}
 {: release-note}
-
-
 
 New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
 :   Version 0.1.2 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-profile-change-log).

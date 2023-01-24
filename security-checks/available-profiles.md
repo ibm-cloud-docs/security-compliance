@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2022-12-15"
+  years: 2023
+lastupdated: "2023-01-20"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, benchmark, controls, goals, security, compliance
 
@@ -47,9 +47,6 @@ subcollection: security-compliance
 
 # Available predefined profiles 
 {: #predefined-profiles}
-
-With the {{site.data.keyword.compliance_full}}, you can take advantage of predefined profiles that contain collections of controls that are curated based on industry standards.
-{: shortdesc}
 
 With the {{site.data.keyword.compliance_full}}, you can take advantage of predefined profiles that contain collections of controls that are curated based on industry standards. You can also [create your own goal-based profiles](/docs/security-compliance?topic=security-compliance-custom-profiles) or [Assessment-based profiles](/docs/security-compliance?topic=security-compliance-build-custom-profiles).  
 {: shortdesc}
@@ -112,7 +109,7 @@ Transform your organization with {{site.data.keyword.cloud_notm}} and attain a s
 ## Goal-based predefined profiles 
 {: #predefined-profiles-collector}
 
-In the collector-based version of {{site.data.keyword.compliance_full}}, you can take advantage of predefined profiles that contain collections of controls that are curated based on industry standards. You can also [create your own profiles](/docs/security-compliance?topic=security-compliance-build-custom-profiles).  
+In the collector-based version of {{site.data.keyword.compliance_short}}, you can take advantage of predefined profiles that contain collections of controls that are curated based on industry standards. You can also [create your own profiles](/docs/security-compliance?topic=security-compliance-build-custom-profiles).  
 {: shortdesc}
 
 There are more than 40 defined profiles that are available for hybrid cloud evaluations. Within each profile, you can review the controls and goals that are required to be compliant. 
