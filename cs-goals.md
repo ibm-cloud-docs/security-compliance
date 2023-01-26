@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2022
-lastupdated: "2022-12-15"
+  years: 2021, 2023
+lastupdated: "2023-01-26"
 
 keywords: goals, parameters, customize parameters, customize goals, security and compliance,
 
@@ -48,7 +48,7 @@ subcollection: security-compliance
 # Customizing goals
 {: #custom-goals}
 
-With the {{site.data.keyword.compliance_full}}, you can update the default parameters that are associated with the goals within each predefined profile, or you can assign tags to help classify your goals.
+With {{site.data.keyword.compliance_full}}, you can update the default parameters that are associated with the goals within each predefined profile, or you can assign tags to help classify your goals.
 {: shortdesc}
 
 
