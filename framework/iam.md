@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-15"
+  years: 2020, 2023
+lastupdated: "2023-01-26"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -56,7 +56,6 @@ Policies enable access to be granted at different levels. Some options include t
 * Access to manage profiles and controls
 * Access to view security and compliance posture and results
 * Access to manage event notifications
-
 
 
 ## Roles and permissions
@@ -134,13 +133,22 @@ The following tables list the platform access roles that are required to manage 
 | `compliance.posture-management.values-create` | Add parameters to an existing goal. | Editor |
 | `compliance.posture-management.values-read` | View the parameters that are associated with a goal. | Viewer |
 | `compliance.posture-management.values-update` | Update the parameters of an existing goal. | Editor |
+| `enterprise.enterprise.attach-config-rules` | Create an attachment for your entire enterprise. | Administrator |
+| `enterprise.enterprise.detach-config-rules` | Remove an attachment for your entire enterprise. | Administrator | 
+| `enterprise.enterprise.update-config-rules` | Update an attachment for your entire enterprise. | Administrator |
+| `enterprise.account-group.attach-config-rules` | Create an attachment for an account group within an enterprise. | Administrator |
+| `enterprise.account-group.detach-config-rules` | Remove an attachment for an account group within an enterprise. | Administrator | 
+| `enterprise.account-group.update-config-rules` | Update an attachment for an account group within an enterprise. | Administrator |
+| `enterprise.account.attach-config-rules` | Create an attachment for an account within an enterprise. | Administrator |
+| `enterprise.account.detach-config-rules` | Remove an attachment for an account within an enterprise. | Administrator | 
+| `enterprise.account.update-config-rules` | Update an attachment for an account within an enterprise. | Administrator | 
 {: caption="Table 1. IAM user roles and actions" caption-side="top"}
 
-[^attach-1]: To create an attachment within an Enterprise, you must also have Administrator access for the Enterprise service.
+[^attach-1]: To create an attachment within an Enterprise, you must also have Administrator access for the Enterprise service actions that are listed toward the end of the table.
 
-[^attach-2]: To create an attachment within an Enterprise, you must also have Administrator access for the Enterprise service.
+[^attach-2]: To create an attachment within an Enterprise, you must also have Administrator access for the Enterprise service actions that are listed toward the end of the table.
 
-[^attach-3]: To create an attachment within an Enterprise, you must also have Administrator access for the Enterprise service.
+[^attach-3]: To create an attachment within an Enterprise, you must also have Administrator access for the Enterprise service actions that are listed toward the end of the table.
 
-[^attach-4]: To create an attachment within an Enterprise, you must also have Administrator access for the Enterprise service.
+[^attach-4]: To create an attachment within an Enterprise, you must also have Administrator access for the Enterprise service actions that are listed toward the end of the table.
 
