@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-01-23"
+lastupdated: "2023-01-31"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -67,7 +67,7 @@ A new and improved experience for Security and Compliance Center is now availabl
 
    * **New profile format**: Moving from a goal-based architecture to an assessment based architecture to provide more transparency into how evaluations are conducted.
 
-   * **Customer owned-storage**: Duration and capacity limits for saved monitoring results are removed by allowing you to secure your compliance data in your own Cloud Object Storage bucket
+   * **Customer-owned storage**: Duration and capacity limits for saved monitoring results are removed by allowing you to secure your compliance data in your own Cloud Object Storage bucket
 
    * **Terminology**: With the introduction of our new architecture, terminology has been re-evaluated and updated to ensure a more cohesive experience of the product. 
 
