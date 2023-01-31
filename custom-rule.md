@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-01-21"
+lastupdated: "2023-01-31"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -118,7 +118,6 @@ String-based operators are case-sensitive.
 | `string_not_equals`[^string_not_equals] | String |  The property value is not an exact match to the condition value. |Yes|
 | `string_match` | String |  The property value matches the condition value by using the [Krauss wildcarding algorithm](https://en.wikipedia.org/wiki/Krauss_wildcard-matching_algorithm){: external}. | Yes |
 | `string_not_match` | String |  The property value does not match the condition value by using [Krauss wildcarding algorithm](https://en.wikipedia.org/wiki/Krauss_wildcard-matching_algorithm){: external}.| Yes |
-| `strings_in_list`[^strings_in_list] | String list |  All property values are in the condition value list. | Yes |
 | `ips_in_range`[^ips_in_range] | IP list |  All property values, in IPv4 or IPv6 format, are in the condition value list. | Yes |
 | `num_equals`[^num_equals] | Numeric | The property value numerically matches to the condition value. | Yes |
 | `num_not_equals`[^num_not_equals] | Numeric | The property value does not numerically match the condition value.| Yes |
