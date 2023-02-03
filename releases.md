@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-01-31"
+lastupdated: "2023-02-03"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -49,6 +49,15 @@ content-type: release-note
 # Release notes for {{site.data.keyword.compliance_short}}
 {: #release-notes}
 
+
+
+
+## 3 February 2023
+{: #security-compliance-feb032023}
+{: release-note}
+
+New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Version 1.1.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-profile-change-log).
 
 
 
