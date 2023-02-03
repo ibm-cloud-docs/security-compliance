@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-01-23"
+lastupdated: "2023-02-03"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -67,6 +67,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 | Version number | Release date |
 |:---------------|:-------------|
+| Version 1.1.0 | `2023-03-02` |
 | Version 1.0.0 | `2022-14-21` |
 | Version 0.6.0 | `2022-09-21` |
 | Version 0.5.0 | `2022-08-11` |
@@ -79,6 +80,15 @@ The following table shows the service behavior changes for each version date. Sw
 | Version 0.1.1 | `2021-06-24` |
 | Version 0.1.0 | `2021-04-05` |
 {: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
+
+
+
+## Version 1.1.0
+{: #fs-cloud-v100}
+
+Version 1.1.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile has been updated to include all 565 controls that have been identified as required to ensure that you are compliant with the {{site.data.keyword.cloud_notm}} for Financial Services reference architecture. As part of that update we've introduced the concept of "Manual assessments". When results are returned, you will see a new status: `user_evaluation_required` - this indicates that the control must be evaluated manually by your organization as a manual evaluation is either not yet or cannot be enabled.
+
+Additionally, the phrasing of 42 controls was updated for grammar purposes. For example, controls that use the Activity Tracker Event Tracking service were updated to included the correct capitalization.
 
 
 

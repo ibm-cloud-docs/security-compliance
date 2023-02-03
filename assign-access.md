@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-15"
+  years: 2020, 2023
+lastupdated: "2023-02-01"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -59,7 +59,7 @@ As an account owner, you are automatically assigned Administrator platform acces
 6. Leave **All resources** selected and click **Next**.
 7. Assign the appropriate level of access.
    
-   To manage event notifications, you must select the `Administrator` role. You need the `Editor` role to manage profiles and controls. To view security and compliance posture and results, you must assign `Viewer` access. To determine which permissions are needed to complete other actions, see [Managing IAM Access](/docs/security-compliance?topic=security-compliance-access-management&interface=ui#iam-roles).
+   To manage event notifications, you must select the `Administrator` role. To work with the updated architecture, you must also have `Editor` access to Cloud Object Storage. You must  To determine which permissions are needed to complete other actions, see [Managing IAM Access](/docs/security-compliance?topic=security-compliance-access-management&interface=ui#iam-roles).
 
 8. Click **Add**.
 9. Review your selections and click **Assign**.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-15"
+  years: 2020, 2023
+lastupdated: "2023-01-25"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -97,6 +97,7 @@ A page opens with an **Overview** of your results. To further investigate, you c
 | Resources | On the **Resources** tab, you are provided with the results for each specific resource that was evaluated.  \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-resources-tab.svg){: caption="Figure 3. Example results tab results" caption-side="bottom"}  \n In the **JSON** tab, you can see the assessment definition. In the **Parameters** tab, you can see the parameters that are relevant to that resource. In the **Non-compliant properties** tab, you are able to view which properties are non-compliant to begin remediating any issues that are found. In the **Controls** tab, you are able to view which controls that the assessment is associated with. |
 {: caption="Table 1. Understanding detailed results" caption-side="top"}
 {: row-headers}
+
 
 
 ## Downloading a report
