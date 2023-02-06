@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-15"
+  years: 2020, 2023
+lastupdated: "2023-02-06"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -65,27 +65,34 @@ Trying to evaluate an environment other than {{site.data.keyword.cloud_notm}}? G
 ## Before you begin
 {: #before-gs}
 
-Before you get started, be sure that you have the required level of access to create an attachment and view results. To create an attachment, you need the **Editor** platform role or higher. If you're working with an Enterprise account, you must also have the **Enterprise** service role. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management). 
+Before you get started, be sure that you have resources in your account to evaluate. You must also have a bucket in the Cloud Object Storage service that can be used to store your results data.
 
 Running an evaluation does not ensure regulatory compliance. An evaluation provides a point in time statement of your current posture for a specific resource. It is your responsibility to review and interpret the results to ensure that your organization is adhering to the controls that are required for your industry. 
 {: important}
 
 
-## Navigate to the {{site.data.keyword.compliance_short}} UI
+## Assign access
 {: #gs-access}
 {: step}
 
-Because {{site.data.keyword.compliance_short}} is built into the platform and available by default, you can access the UI in several different ways.
+If you are working in a larger organization, you might need to start by assigning access to those on your team who will be managing compliance. 
 
+1. [Create an access group](/docs/account?topic=account-groups#create_ag) and add your compliance focals.
+2. In the Console, go to **Manage > Access (IAM) > Access groups** and click select the group that you want to assign access to. A new page opens with the details of the group.
+3. Click **Access > Assign access**.
+4. Assign the following permissions by selecting a service and reviewing the available roles and actions that are available for each option.
 
-![The diagram shows the three different ways in which you can access the Security and Compliance Center UI.](images/get-started-ui.svg){: caption="Figure 1. How to access {{site.data.keyword.compliance_short}}" caption-side="bottom"}
+| Service | Minimum required permissions |
+|---------|----------------------|
+| {{site.data.keyword.compliance_short}} | Administrator |
+| Cloud Object Storage | Reader |
+| Event Notifications | Reader |
+| Enterprise | Administrator or custom role |
+{: caption="Table. Minimum required permissions" caption-side="top"}
 
+If you are working within an enterprise account and do not want to assign administrator access to your compliance focals, you can create [a custom role](/docs/security-compliance?topic=security-compliance-assign-roles).
+{: note}
 
-After you sign in to {{site.data.keyword.cloud_notm}}, you can access {{site.data.keyword.compliance_short}} in one of three ways:
-
-* By clicking the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** in the navigation.
-* By searching for **Security and Compliance Center** in the {{site.data.keyword.cloud_notm}} catalog.
-* By selecting **Security and Compliance** from the **Manage** drop-down.
 
 ## Configure storage
 {: #gs-storage}
@@ -108,10 +115,11 @@ To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword
 
 An attachment is how you target a specific grouping of your resources to evaluate against a specific profile.
 
-1. In the navigation, click **Security and Compliance** or **Current Posture**.
+1. In the navigation, click **Dashboard**.
 2. Click **Get started**.
 3. Select the **Profile** that you want to use to evaluate compliance.
-4. Target the specific resources to scan by selecting a **Scope**. Then, select the resources that you want to exclude from your scope.
+4. Target the specific resources to scan by selecting a **Scope**. 
+5. Optionally, you can exclude accounts or resource groups from your scope that you don't want to evaluate.
 5. Click **Next**.
 6. Provide the specific values that you want to use when the parameters are evaluated. 
 
