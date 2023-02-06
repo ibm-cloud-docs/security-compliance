@@ -9,7 +9,7 @@ keywords: getting started with the security and compliance center, get started, 
 subcollection: security-compliance
 
 content-type: tutorial
-services: security-compliance, cos
+services: security-compliance, cos, event-notifications, iam
 completion-time: 5m
 
 ---
@@ -52,7 +52,7 @@ completion-time: 5m
 # Getting started with {{site.data.keyword.compliance_short}}
 {: #getting-started}
 {: toc-content-type="tutorial"}
-{: toc-services="security-compliance, cos"}
+{: toc-services="security-compliance, cos, event-notifications, iam"}
 {: toc-completion-time="5m"}
 
 For highly regulated industries, such as financial services, achieving continuous compliance within a cloud environment is an important first step toward protecting customer and application data. Historically, that process was difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.compliance_full}}, you can integrate daily, automatic compliance checks into your development lifecycle to help minimize that risk.
@@ -102,12 +102,13 @@ Before you can start evaluating your resources for compliance, you must configur
 
 To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword.compliance_short}} UI.
 
-1. In the navigation, click **Settings**.
+1. In the {{site.data.keyword.compliance_short}} navigation, click **Settings**.
 2. On the **Storage** tile, click **Connect**.
-3. Ensure that your service-to-service policy between Cloud Object Storage and {{site.data.keyword.compliance_short}} is configured. If your policy is already in place, this screen is not shown, and you can skip to the next step. 
+3. Ensure that the service-to-service policy between Cloud Object Storage and {{site.data.keyword.compliance_short}} is configured. If a policy is already in place, this screen is not shown and you can skip to the next step. 
 4. Select an instance of Cloud Object Storage.
 5. From the table, select the bucket that you want to use.
 6. Click **Connect**.
+
 
 ## Create an attachment
 {: #gs-attachment}
@@ -115,7 +116,7 @@ To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword
 
 An attachment is how you target a specific grouping of your resources to evaluate against a specific profile.
 
-1. In the navigation, click **Dashboard**.
+1. In the {{site.data.keyword.compliance_short}} navigation, click **Dashboard**.
 2. Click **Get started**.
 3. Select the **Profile** that you want to use to evaluate compliance.
 4. Target the specific resources to scan by selecting a **Scope**. 
@@ -128,8 +129,26 @@ An attachment is how you target a specific grouping of your resources to evaluat
 7. Click **Next**.
 8. Review your choices and click **Create**.
 
-
 When you create your attachment, a scan is scheduled. When the scan completes your results are available on the **Dashboard** in the {{site.data.keyword.compliance_short}} UI.
+
+## Configure notifications
+{: #gs-notifications}
+{: step}
+
+Optionally, you can have notifications forwarded directly to you. To do so, you must have an instance of the {{site.data.keyword.en_short}} service in your account.
+
+1. In the {{site.data.keyword.compliance_short}} navigation, click **Settings**.
+2. On the **Event Notifications** tile, click **Connect**.
+3. Ensure that the service-to-service policy between {{site.data.keyword.en_short}} and {{site.data.keyword.compliance_short}} is configured. If a policy is already in place, this screen is not shown and you can skip to the next step.
+4. Select the service instance that you want to work with.
+5. Click **Connect**. 
+6. In your instance of {{site.data.keyword.en_short}}, create a topic.
+	1. Click **Topics > Create**.
+	2. Provide a name and description for your topic.
+	3. Select **{{site.data.keyword.compliance_short}}** as the **Source**.
+	4. Select **Posture Management** and the event subtype that you want to receive notifications about. Common choices are *Scan complete* and *Scan failure threshold limit exceeded*. Then click **Add a condition**.
+	5. Repeat step 4 until you have added all of the events that you want to be notified about. Then, click **Create**.
+
 
 ## Next steps
 {: #gs-next}

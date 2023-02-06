@@ -25,6 +25,8 @@ toc:
             navtitle: How it works
           - topic: pricing.md
             navtitle: Pricing
+      - topic: best-practices.md
+        navtitle: Best practices
       - topic: releases.md
         navtitle: Release notes
 
