@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-02-06"
+lastupdated: "2023-02-07"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -51,7 +51,7 @@ subcollection: security-compliance
 
 As an account owner, you are automatically assigned Administrator platform access to the {{site.data.keyword.compliance_short}} so that you can further assign roles and customize access policies for others.
 
-1. Optional: If you are working in an enterprise account, you can create a custom role rather than assign Administrator access. If you are working in a normal account, skip to step 2.
+1. Optional: If you are working in an enterprise account, you can create a custom role rather than assign Administrator access to the entire enterprise. If you are working in a normal account, skip to step 2.
 	1. In the Console, go to **Manage > Access (IAM) > Roles** and click **Create**.
 	2. Give your role a name, programatic ID, and description. For example, *Compliance focals*, *ComplianceFocals*, and *Permissions required for compliance focals to work with {{site.data.keyword.compliance_short}}*.
 	3. From the **Service** drop-down, select **Enterprise**, and then add the following actions.
@@ -60,7 +60,7 @@ As an account owner, you are automatically assigned Administrator platform acces
 		* `enterprise.enterprise.update-config-rules`
 		* `enterprise.account-group.attach-config-rules`
 		* `enterprise.account-group.detach-config-rules`
-		* `nterprise.account-group.update-config-rules`
+		* `enterprise.account-group.update-config-rules`
 		* `enterprise.account.attach-config-rules`
 		* `enterprise.account.detach-config-rules`
 		* `enterprise.account.update-config-rules`
