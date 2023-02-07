@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-01-26"
+lastupdated: "2023-02-07"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -133,22 +133,33 @@ The following tables list the platform access roles that are required to manage 
 | `compliance.posture-management.values-create` | Add parameters to an existing goal. | Editor |
 | `compliance.posture-management.values-read` | View the parameters that are associated with a goal. | Viewer |
 | `compliance.posture-management.values-update` | Update the parameters of an existing goal. | Editor |
-| `enterprise.enterprise.attach-config-rules` | Create an attachment for your entire enterprise. | Administrator |
-| `enterprise.enterprise.detach-config-rules` | Remove an attachment for your entire enterprise. | Administrator | 
-| `enterprise.enterprise.update-config-rules` | Update an attachment for your entire enterprise. | Administrator |
-| `enterprise.account-group.attach-config-rules` | Create an attachment for an account group within an enterprise. | Administrator |
-| `enterprise.account-group.detach-config-rules` | Remove an attachment for an account group within an enterprise. | Administrator | 
-| `enterprise.account-group.update-config-rules` | Update an attachment for an account group within an enterprise. | Administrator |
-| `enterprise.account.attach-config-rules` | Create an attachment for an account within an enterprise. | Administrator |
-| `enterprise.account.detach-config-rules` | Remove an attachment for an account within an enterprise. | Administrator | 
-| `enterprise.account.update-config-rules` | Update an attachment for an account within an enterprise. | Administrator | 
 {: caption="Table 1. IAM user roles and actions" caption-side="top"}
 
-[^attach-1]: To create an attachment within an Enterprise, you must also have Administrator access for the Enterprise service actions that are listed toward the end of the table.
+[^attach-1]: To create an attachment within an enterprise, you must also have permissions for the enterprise. You can provide Administrator access to the entire enterprise or create a custom role using the actions found in the following section.
 
-[^attach-2]: To create an attachment within an Enterprise, you must also have Administrator access for the Enterprise service actions that are listed toward the end of the table.
+[^attach-2]: To create an attachment within an enterprise, you must also have permissions for the enterprise. You can provide Administrator access to the entire enterprise or create a custom role using the actions found in the following section.
 
-[^attach-3]: To create an attachment within an Enterprise, you must also have Administrator access for the Enterprise service actions that are listed toward the end of the table.
+[^attach-3]: To create an attachment within an enterprise, you must also have permissions for the enterprise. You can provide Administrator access to the entire enterprise or create a custom role using the actions found in the following section.
 
-[^attach-4]: To create an attachment within an Enterprise, you must also have Administrator access for the Enterprise service actions that are listed toward the end of the table.
+[^attach-4]: To create an attachment within an enterprise, you must also have permissions for the enterprise. You can provide Administrator access to the entire enterprise or create a custom role using the actions found in the following section.
+
+
+## Required roles and permissions for enterprises
+{: #roles-enterprises}
+
+If you are working within an enterprise account and want to configure scans for {{site.data.keyword.compliance_short}}, you must have additional permissions for the enterprise service. You can choose to provide Administrator access or create a custom role with the following actions. For help creating a role, see [Assigning access](/docs/security-compliance?topic=security-compliance-assign-roles).
+
+* `enterprise.enterprise.attach-config-rules`
+* `enterprise.enterprise.detach-config-rules`
+* `enterprise.enterprise.update-config-rules`
+* `enterprise.account-group.attach-config-rules`
+* `enterprise.account-group.detach-config-rules`
+* `enterprise.account-group.update-config-rules`
+* `enterprise.account.attach-config-rules`
+* `enterprise.account.detach-config-rules`
+* `enterprise.account.update-config-rules`
+* `enterprise.account.retrieve`
+* `enterprise.account-group.retrieve`
+* `enterprise.enterprise.retrieve`
+* `global-search-tagging.resource.read`
 

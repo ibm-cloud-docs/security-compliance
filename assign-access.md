@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-02-01"
+lastupdated: "2023-02-07"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -49,19 +49,45 @@ subcollection: security-compliance
 # Assigning access to {{site.data.keyword.compliance_short}}
 {: #assign-roles}
 
-As an account owner, you are automatically assigned Administrator platform access to the {{site.data.keyword.compliance_short}} so that you can further assign roles and customize access policies for others. 
+As an account owner, you are automatically assigned Administrator platform access to the {{site.data.keyword.compliance_short}} so that you can further assign roles and customize access policies for others.
 
-1. [Create an access group](/docs/account?topic=account-groups#create_ag) for the type of users that you want to give access to and add those users to the group. For example, you might have a team of compliance specialists that need the same level of access.
-2. After you create a group and add users, go to the **Manage > Access (IAM) > Access Groups** page of the console.
+1. Optional: If you are working in an enterprise account, you can create a custom role rather than assign Administrator access to the entire enterprise. If you are working in a normal account, skip to step 2.
+	1. In the Console, go to **Manage > Access (IAM) > Roles** and click **Create**.
+	2. Give your role a name, programatic ID, and description. For example, *Compliance focals*, *ComplianceFocals*, and *Permissions required for compliance focals to work with {{site.data.keyword.compliance_short}}*.
+	3. From the **Service** drop-down, select **Enterprise**, and then add the following actions.
+		* `enterprise.enterprise.attach-config-rules`
+		* `enterprise.enterprise.detach-config-rules`
+		* `enterprise.enterprise.update-config-rules`
+		* `enterprise.account-group.attach-config-rules`
+		* `enterprise.account-group.detach-config-rules`
+		* `enterprise.account-group.update-config-rules`
+		* `enterprise.account.attach-config-rules`
+		* `enterprise.account.detach-config-rules`
+		* `enterprise.account.update-config-rules`
+		* `enterprise.account.retrieve`
+		* `enterprise.account-group.retrieve`
+		* `enterprise.enterprise.retrieve`
+		* `global-search-tagging.resource.read`
+	4. Review your selections to ensure you've added the correct permissions and click **Create**.
+2. [Create an access group](/docs/account?topic=account-groups#create_ag) for the type of users that you want to give access to and add those users to the group. For example, you might have a team of compliance specialists that all need the same level of access.
+3. After you create a group and add users, go to the **Manage > Access (IAM) > Access Groups** page of the console.
 3. Select the name of the group that you want to assign access to.
 4. Click **Access > Assign access**.
-5. Select **{{site.data.keyword.compliance_short}}** as the **Service** and click **Next**.
-6. Leave **All resources** selected and click **Next**.
-7. Assign the appropriate level of access.
+5. Assign the following permissions by selecting a service and reviewing the available roles and actions that are available for each option.
    
-   To manage event notifications, you must select the `Administrator` role. To work with the updated architecture, you must also have `Editor` access to Cloud Object Storage. You must  To determine which permissions are needed to complete other actions, see [Managing IAM Access](/docs/security-compliance?topic=security-compliance-access-management&interface=ui#iam-roles).
+	| Service | Minimum required permissions |
+	|---------|----------------------|
+	| {{site.data.keyword.compliance_short}} | Administrator |
+	| Cloud Object Storage | Reader |
+	| Event Notifications | Reader |
+	| Enterprise | Administrator or custom role |
+	{: caption="Table. Minimum required permissions" caption-side="top"}
 
 8. Click **Add**.
 9. Review your selections and click **Assign**.
+
+
+To review the full list of which permissions are required for each action and assign more granular access, see [IAM actions for {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-iam).
+{: note}
 
 
