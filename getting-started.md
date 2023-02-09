@@ -59,8 +59,6 @@ For highly regulated industries, such as financial services, achieving continuou
 {: shortdesc}
 
 A new and improved experience of {{site.data.keyword.compliance_short}} is here! To start working with the updated architecture, you can use this getting started tutorial. If you're still working in the collector-based architecture or trying to evaluate an environment other than {{site.data.keyword.cloud_notm}}, you can view the docs in the [hybrid cloud section](/docs/security-compliance?topic=security-compliance-collector).
-
-Trying to evaluate an environment other than {{site.data.keyword.cloud_notm}}? Get started with [collector-based evaluations](/docs/security-compliance?topic=security-compliance-collector). 
 {: note}
 
 
