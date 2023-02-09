@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-02-07"
+lastupdated: "2023-02-09"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -84,7 +84,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 
 ## Version 1.1.0
-{: #fs-cloud-v100}
+{: #fs-cloud-v110}
 
 Version 1.1.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile has been updated to include all 565 controls that have been identified as required to ensure that you are compliant with the {{site.data.keyword.cloud_notm}} for Financial Services reference architecture. As part of that update we've introduced the concept of "Manual assessments". When results are returned, you will see a new status: `user_evaluation_required` - this indicates that the control must be evaluated manually by your organization as the control check is either not yet or cannot be automated.
 
