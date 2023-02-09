@@ -69,7 +69,7 @@ You can evaluate your organization’s current security and compliance posture b
 * [{{site.data.keyword.at_short}}](/docs/activity-tracker?topic=activity-tracker-getting-started)*
 * [{{site.data.keyword.appid_short_notm}}](/docs/appid?topic=appid-getting-started)*
 * Bare Metal Servers
-* [Cloudant](/docs/Cloudant?topic=Cloudant-getting-started)*
+* [Cloudant](/docs/Cloudant?topic=Cloudant-getting-started-with-cloudant)*
 * [Cloud Databases](/docs/cloud-databases?topic=cloud-databases-about)*
 	* Elasticsearch
 	* etcd
