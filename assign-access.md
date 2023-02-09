@@ -83,7 +83,7 @@ As an account owner, you are automatically assigned Administrator platform acces
 	| Enterprise | Administrator or custom role |
 	{: caption="Table. Minimum required permissions" caption-side="top"}
 
-	To review the full list of which permissions are required for each action and assign more granular access to {{site.data.keyword.compliance_short}}, see [IAM actions for {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-iam).
+	To review the full list of which permissions are required for each action and assign more granular access to {{site.data.keyword.compliance_short}}, see [IAM actions for {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-access-management).
 	{: note}
 
 8. Click **Add**.
