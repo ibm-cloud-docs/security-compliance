@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-01-20"
+lastupdated: "2023-02-09"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, benchmark, controls, goals, security, compliance
 
@@ -117,7 +117,7 @@ There are more than 40 defined profiles that are available for hybrid cloud eval
 
 
 ### Best practices
-{: #best-practices}
+{: #best-practices-profiles}
 
 Use the best practices profiles to securely configure your resources from various product families.
 
@@ -133,7 +133,7 @@ Use the best practices profiles to securely configure your resources from variou
 
 
 ### Benchmarks
-{: #benchmarks}
+{: #benchmarks-profiles}
 
 With the CIS Benchmarks, you have access to a collection of industry best practices for securely configuring IT systems, software, and networks. The benchmarks contain more than 100 configuration guidelines across 25 vendor product families or more. 
 

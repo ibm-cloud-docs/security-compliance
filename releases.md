@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-02-03"
+lastupdated: "2023-02-09"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -70,7 +70,7 @@ A new and improved experience for Security and Compliance Center is now availabl
 
    * **Enterprise support**: Hierarchical management of organizational compliance
 
-   * **Simplified setup**: There is no need to create service ids, write IAM policies, or manage API keys when working with IBM Cloud.
+   * **Simplified setup**: There is no need to create service IDs, write IAM policies, or manage API keys when working with {{site.data.keyword.cloud_notm}}.
 
    * **More customization**: Create version-able controls, profiles, and assessments through simple declarative rules and then customize evaluation parameters for each attachment. 
 

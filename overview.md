@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-01-19"
+lastupdated: "2023-02-09"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -122,6 +122,4 @@ Attachment C
 
 To view the results of an evaluation, you look in the account where the attachment was created. If you were to use the previous image as an example, attachment A and B's results would exist within the Enterprise account and the Enterprise account is charged for the evaluation. However, attachment C's results would exist within the individual account. 
 
-To evaluate resources, you must have IAM access to both the resources in the account and {{site.data.keyword.compliance_short}}. [Learn more](/docs/security-compliance?topic=security-compliance-access-management).
-{: tip}
 

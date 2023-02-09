@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-01-10"
+lastupdated: "2023-02-09"
 
 keywords: integrations, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -70,7 +70,7 @@ You can evaluate your organization’s current security and compliance posture b
 * [{{site.data.keyword.appid_short_notm}}](/docs/appid?topic=appid-getting-started)*
 * Bare Metal Servers
 * [Cloudant](/docs/Cloudant?topic=Cloudant-getting-started)*
-* [Cloud Databases](/docs/cloud-databases?topic=cloud-databases-getting-started)*
+* [Cloud Databases](/docs/cloud-databases?topic=cloud-databases-about)*
 	* Elasticsearch
 	* etcd
 	* MongoDB
@@ -78,22 +78,22 @@ You can evaluate your organization’s current security and compliance posture b
 	* Redis
 * [Cloud Internet Services (CIS)](/docs/cis?topic=cis-getting-started)
 * Cloud Monitoring*
-* [{{site.data.keyword.cloud_notm}} Platform](/docs/overview?topic=overview-getting-started)
+* [{{site.data.keyword.cloud_notm}} Platform](/docs/overview?topic=overview-whatis-platform)
 	* Billing
 	* Catalog Management
 	* IAM Access Groups
 	* IAM Identity Service
 * [Cloud Shell](/docs/cloud-shell?topic=cloud-shell-getting-started)*
-* [Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started)*
+* [Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage)*
 * [Code Engine](/docs/codeengine?topic=codeengine-getting-started)*
 * [{{site.data.keyword.registryshort}}](/docs/Registry?topic=Registry-getting-started)* 
-* [Continuous Delivery](/docs/ContinuousDelivery?topic=ContinuousDelivery-cd-getting-started)
-* [Direct Link](/docs/dl?topic=dl-getting-started)*
+* [Continuous Delivery](/docs/ContinuousDelivery?topic=ContinuousDelivery-getting-started)
+* [Direct Link](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl)*
 * [Event Streams](/docs/EventStreams?topic=EventStreams-getting-started)*
-* [Hyper Protect Crypto Services](/docs/hs-crypto?topic=hs-crypto-getting-started)*
-* [Hyper Protect DBaaS for MongoDB](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-getting-started)*
-* [Hyper Protect DBaaS for PostgreSQL](/docs/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-getting-started)
-* [{{site.data.keyword.keymanagementserviceshort}}](/docs/key-protect?topic=key-protect-getting-started)*
+* [Hyper Protect Crypto Services](/docs/hs-crypto?topic=hs-crypto-get-started)*
+* [Hyper Protect DBaaS for MongoDB](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted)*
+* [Hyper Protect DBaaS for PostgreSQL](/docs/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)
+* [{{site.data.keyword.keymanagementserviceshort}}](/docs/key-protect?topic=key-protect-getting-started-tutorial)*
 * [{{site.data.keyword.containershort}}](/docs/containers?topic=containers-security)* 
 * [Log Analysis](/docs/log-analysis?topic=log-analysis-adoption#adoption_acc_settings)*
 * [{{site.data.keyword.openshiftlong}}](/docs/openshift?topic=openshift-security)*
@@ -107,6 +107,5 @@ You can evaluate your organization’s current security and compliance posture b
 	* Block Storage for VPC
 	* Security Groups for VPC
 	* VPN for VPC
-
 
 **The services that are noted with an asterisk can be evaluated by using the {{site.data.keyword.cloud_notm}} for Financial Services profile.*
