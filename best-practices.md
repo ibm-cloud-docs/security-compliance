@@ -84,7 +84,7 @@ Although it is possible to add both custom and predefined controls to a profile,
 ## Managing enterprises
 {: #bp-enterprise}
 
-When you work with {{site.data.keyword.compliance_short}} through an enterprise account, your experience is a bit different when it comes to your set-up options. As an enterprise, you have more scope options than a stand-alone account. You can choose to evaluate your entire enterprise, specific account groups, or individual accounts. It is recommended that if you want to evaluate a single account that you do so from that account.
+When you work with {{site.data.keyword.compliance_short}} through an enterprise account, your experience is a bit different when it comes to your set up options. As an enterprise, you have more scope options than a stand-alone account. You can choose to evaluate your entire enterprise, specific account groups, or individual accounts. It is recommended that if you want to evaluate a single account that you do so from that account.
 
 If you are managing {{site.data.keyword.compliance_short}} from an enterprise, you must have additional permissions for the enterprise to manage and see results. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-assign-roles).
 {: note}
@@ -108,6 +108,6 @@ Attachment B
 Attachment C
 :   The target scope of Attachment C is an individual account. This attachment was created in the account, outside of the context of the enterprise. As you can see, the account is now evaluated against the profile that was selected in attachment A, but the resource groups within the account are only evaluated against the profile that was selected when Attachment C was created.
 
-To view the results of an evaluation, you look in the account where the attachment was created. If you were to use the previous image as an example, attachment A and B's results would exist within the Enterprise account, and the Enterprise account is charged for the evaluation. However, attachment C's results would exist within the individual account. 
+To view the results of an evaluation, you look in the account where the attachment was created. If you use the previous image as an example, attachment A and B's results would exist within the Enterprise account, and the Enterprise account is charged for the evaluation. However, attachment C's results would exist within the individual account. 
 
 
