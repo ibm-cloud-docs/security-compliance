@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-02-09"
+lastupdated: "2023-02-15"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, benchmark, controls, goals, security, compliance
 
@@ -82,9 +82,6 @@ Based on specific activities, the updates to the {{site.data.keyword.cloud_notm}
 | Reversion \n * Publish a new version of the profile \n * Make the updated profile available for attachments  |   | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) |
 {: caption="Table 1. {{site.data.keyword.cloud_notm}} predefined profiles update levels" caption-side="top"}
 
-
-For fixes and minor updates, support is available only for the current version of the profile. For major updates, support is available for the current and previous versions (n, n-1).
-{: note}
 
 
 ## {{site.data.keyword.cloud_notm}} 
