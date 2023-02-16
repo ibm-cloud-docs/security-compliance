@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-02-15"
+lastupdated: "2023-02-16"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, benchmark, controls, goals, security, compliance
 
@@ -74,11 +74,10 @@ Based on specific activities, the updates to the {{site.data.keyword.cloud_notm}
 | -------- | --- | ----- | ----- |
 | Bug fixes \n * Small change to a rule \n * Small change to control guidance  | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) |
 | Remove controls | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) |
-| Reduce controls \n * Remove control specifications \n * Remove implementations | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Reduce controls \n * Remove control specifications \n * Remove assessments | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) |
 | Add controls |   | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) |
 | Extend controls \n * Add new control specification (for example, new components) |  | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) |
 | Major rework of profiles \n * Support for new profile features |  |   |  ![Checkmark icon](../../icons/checkmark-icon.svg) | 
-| Notifications \n * Event Notifications service \n * Release notes \n * UI indicators |    |  ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) |
 | Reversion \n * Publish a new version of the profile \n * Make the updated profile available for attachments  |   | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) |
 {: caption="Table 1. {{site.data.keyword.cloud_notm}} predefined profiles update levels" caption-side="top"}
 
