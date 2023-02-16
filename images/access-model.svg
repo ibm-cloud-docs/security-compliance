@@ -12,8 +12,8 @@
 	.st6{fill:none;stroke:#000000;stroke-miterlimit:10;}
 	.st7{fill:#A6C8FF;}
 	.st8{fill:none;stroke:#525252;stroke-miterlimit:10;stroke-dasharray:4.2808,4.2808;}
-	.st9{fill:#FFAFD2;}
-	.st10{fill:#D4BBFF;}
+	.st9{fill:#D4BBFF;}
+	.st10{fill:#FFAFD2;}
 </style>
 <g id="Background_9_">
 </g>
@@ -135,8 +135,8 @@
 		<path class="st5" d="M215.8,342.3h-23.9c-1.1,0-2,0.9-2,2v20.4c0,1.1,0.9,2,2,2h23.9c1.1,0,2-0.9,2-2v-20.4
 			C217.8,343.2,216.9,342.3,215.8,342.3z M215.8,344.4v2h-23.9v-2H215.8z M191.9,364.7v-16.3h23.9v16.3H191.9z"/>
 	</g>
-	<text transform="matrix(1 0 0 1 747.636 465.6736)" class="st1 st2">Attachment A</text>
-	<text transform="matrix(1 0 0 1 877.5354 465.6735)" class="st1 st2">Attachment B</text>
+	<text transform="matrix(1 0 0 1 747.636 465.2241)" class="st1 st2">Attachment A</text>
+	<text transform="matrix(1 0 0 1 877.5354 465.224)" class="st1 st2">Attachment B</text>
 </g>
 <g id="Numbers">
 	<circle class="st7" cx="654.3" cy="24.2" r="10.5"/>
@@ -145,7 +145,7 @@
 	<circle class="st7" cx="219.4" cy="229.8" r="10.5"/>
 	<circle class="st7" cx="438.4" cy="229.8" r="10.5"/>
 	<circle class="st7" cx="654.7" cy="229.8" r="10.5"/>
-	<circle class="st7" cx="531" cy="337.6" r="10.5"/>
+	<circle class="st7" cx="531" cy="335.6" r="10.5"/>
 	<circle class="st7" cx="441" cy="443.6" r="10.5"/>
 	<circle class="st7" cx="633.7" cy="443.6" r="10.5"/>
 	<path class="st0" d="M143.5,122.1v-21.8c0-5.9,4.8-10.8,10.8-10.8h420.5"/>
@@ -160,21 +160,21 @@
 			<line class="st0" x1="1004.9" y1="168.6" x2="1004.9" y2="166.6"/>
 		</g>
 	</g>
-	<circle class="st9" cx="1085.2" cy="229.8" r="10.5"/>
-	<circle class="st7" cx="1085.2" cy="124.5" r="10.5"/>
 	<line class="st0" x1="143.5" y1="226.3" x2="143.5" y2="166.7"/>
-	<circle class="st7" cx="727.4" cy="461.4" r="10.5"/>
-	<circle class="st10" cx="857.3" cy="461.4" r="10.5"/>
+	<circle class="st7" cx="727.4" cy="461" r="10.5"/>
 	<path class="st3" d="M950.4,256.3h-12c-1.1,0-2-0.8-2-1.7v-10.4c0-1,0.9-1.7,2-1.7h12c1.1,0,2,0.8,2,1.7v10.4
 		C952.4,255.5,951.5,256.3,950.4,256.3z M938.4,244.2v10.4h12v-10.4H938.4z"/>
 	<path class="st3" d="M936.4,261.5h-4c-1.1,0-2-0.8-2-1.7V239c0-1,0.9-1.7,2-1.7h4v1.7h-4v20.7h4V261.5z"/>
 	<path class="st3" d="M956.4,261.5h-4v-1.7h4V239h-4v-1.7h4c1.1,0,2,0.8,2,1.7v20.7C958.4,260.7,957.5,261.5,956.4,261.5z"/>
-	<text transform="matrix(1 0 0 1 1012.5511 465.6738)" class="st1 st2">Attachment C</text>
-	<circle class="st9" cx="992.3" cy="461.4" r="10.5"/>
-	<path class="st9" d="M1085.2,113.9c5.8,0,10.5,4.7,10.5,10.5s-4.7,10.5-10.5,10.5"/>
-	<path class="st10" d="M531,327.1c5.8,0,10.5,4.7,10.5,10.5s-4.7,10.5-10.5,10.5"/>
-	<path class="st10" d="M441,433.1c5.8,0,10.5,4.7,10.5,10.5c0,5.8-4.7,10.5-10.5,10.5"/>
-	<path class="st10" d="M634.1,433.1c5.8,0,10.5,4.7,10.5,10.5c0,5.8-4.7,10.5-10.5,10.5"/>
-	<path class="st10" d="M438.4,219.3c5.8,0,10.5,4.7,10.5,10.5s-4.7,10.5-10.5,10.5"/>
+	<text transform="matrix(1 0 0 1 1012.5511 465.2243)" class="st1 st2">Attachment C</text>
+	<polygon class="st9" points="418.8,220.3 407.2,220.3 401.5,230.3 407.2,240.3 418.8,240.3 424.6,230.3 	"/>
+	<rect x="984.9" y="451" class="st10" width="20" height="20"/>
+	<rect x="1075.2" y="220.3" class="st10" width="20" height="20"/>
+	<rect x="1072.4" y="115" class="st10" width="20" height="20"/>
+	<circle class="st7" cx="1061.9" cy="124.5" r="10.5"/>
+	<polygon class="st9" points="514,325.6 502.5,325.6 496.7,335.6 502.5,345.6 514,345.6 519.8,335.6 	"/>
+	<polygon class="st9" points="422.8,434.1 411.3,434.1 405.5,444.1 411.3,454.1 422.8,454.1 428.6,444.1 	"/>
+	<polygon class="st9" points="616.8,434.1 605.3,434.1 599.5,444.1 605.3,454.1 616.8,454.1 622.6,444.1 	"/>
+	<polygon class="st9" points="867.2,451 855.6,451 849.9,461 855.6,471 867.2,471 872.9,461 	"/>
 </g>
 </svg>
