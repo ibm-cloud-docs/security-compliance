@@ -68,7 +68,7 @@ In {{site.data.keyword.compliance_short}}, a [profile](/docs/security-compliance
 
 Predefined profiles are versioned and periodically updated with bug fixes, more checks, or changes to the compliance program. If you are monitoring compliance for a specific program, such as {{site.data.keyword.cloud_notm}} for Financial Services, it is recommended that you work with a predefined profile. This way you can take advantages of new versions of the profile as they become available. [Learn more about versioning](/docs/security-compliance?topic=security-compliance-predefined-profiles#profile-update-levels).
 
-To avoid having to create and maintain a fully customized profile, you can customize a predefined profile by using [parameters](/docs/security-compliance?topic=security-compliance-posture-management). The parameter is the actual value that your resource is evaluated against. Each parameter is assigned a default value that can be edited at the time of attachment. Each attachment can be assigned a different parameter value, which then changes the evaluation that is completed. However, when a new version of a profile is released, you need to ensure that your customizations are made for the new profile version.
+To avoid having to create and maintain a fully customized profile, you can customize a predefined profile by using [parameters](/docs/security-compliance?topic=security-compliance-posture-management). A parameter is the actual value that your resource is evaluated against. Each parameter is assigned a default value that can be edited at the time of attachment. Each attachment can be assigned a different parameter value, which then changes the evaluation that is completed. However, when a new version of a profile is released, you need to ensure that your customizations are made for the new profile version.
 
 
 ### Working with custom profiles
@@ -101,8 +101,8 @@ Attachment B
 :   The target scope of Attachment B is a specific account group within an enterprise. As you can see, the resources in the account group are now being evaluated against the profile that is selected during Attachment A and are evaluated according to the profile selected when Attachment B was created.
 
 Attachment C
-:   The target scope of Attachment C is a child account. This attachment was created in the account, outside of the context of the enterprise. As you can see, the account is now evaluated against the profile that was selected in attachment A, but the resource groups within the account are only evaluated against the profile that was selected when Attachment C was created.
+:   The target scope of Attachment C is a child account. This attachment was created in the account, outside of the context of the enterprise. As you can see, Attachment A is monitoring the resources in the same account, but because Attachment C is created at the account level, resource groups are able to be seen and excluded.
 
-To view the results of an evaluation, you look in the account where the attachment was created. If you use the previous image as an example, attachment A and B's results would exist within the enterprise account, and the enterprise account is charged for the evaluation. However, attachment C's results would exist within the individual account. 
+To view the results of an evaluation, you look in the account where the attachment was created. If you use the previous image as an example, attachment A and B's results would exist within the enterprise account, and the enterprise account is charged for the evaluation. However, attachment C's results would exist within the child account. 
 
 
