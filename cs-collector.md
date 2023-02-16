@@ -49,7 +49,7 @@ subcollection: security-compliance
 # Managing collectors
 {: #collector}
 
-A collector is used by {{site.data.keyword.compliance_full}} to gather the configuration information of your resources and then validate it against your specified requirements. 
+In {{site.data.keyword.compliance_full}}, a collector is used to gather the configuration information of your resources and then validate it against your specified requirements. 
 {: shortdesc}
 
 If you're working with VPC, you can keep a history of all network connections that a collector initiates for future audits, by enabling [Flow Logs](/docs/vpc?topic=vpc-ordering-flow-log-collector).
