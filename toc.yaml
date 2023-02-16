@@ -16,15 +16,12 @@ toc:
       topics:
       - topic: getting-started.md
         navtitle: Getting started
-      - topicgroup:
-          label: About
-          topics:
-          - topic: key-concepts.md
-            navtitle: Key concepts
-          - topic: overview.md
-            navtitle: How it works
-          - topic: pricing.md
-            navtitle: Pricing
+      - topic: key-concepts.md
+        navtitle: Key concepts
+      - topic: best-practices.md
+        navtitle: Best practices
+      - topic: pricing.md
+        navtitle: Pricing
       - topic: releases.md
         navtitle: Release notes
 

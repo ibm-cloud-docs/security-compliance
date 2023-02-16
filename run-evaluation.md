@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-15"
+  years: 2020, 2023
+lastupdated: "2023-02-16"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -73,14 +73,11 @@ You must have also connected a Cloud Object Storage bucket in which to store you
 
 To create an attachment, you can use the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {{site.data.keyword.compliance_short}}.
-1. In the navigation, click **Profiles** and select the profile that you want to evaluate.
+1. In the {{site.data.keyword.compliance_short}} navigation, click **Profiles** and select the profile that you want to evaluate. A profile details page opens.
 2. On the **Attachments** tab, click **Create**.
-3. Select a **Profile** that you want to use to evaluate compliance.
-4. Target specific resources to scan by creating a **Scope**. Then, select the resources that you want to exclude from your scope.
+3. Target your attachment by selecting a **Scope** and identifying any resources that you want to **Exclude**. Then, click **Next**.
+4. Optional: Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
 5. Click **Next**.
-6. Provide the specific values that you want to use when the parameters are evaluated.
-7. Click **Next**.
 8. Review your choices and click **Create**.
 
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
