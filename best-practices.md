@@ -90,7 +90,7 @@ If you are working in an enterprise account, you must have additional permission
 
 A scope defines which resources in your accounts are evaluated. It is defined when you create an attachment by selecting the parent account or resource group that you want to evaluate. Anything that exists within that account or group is evaluated. So, for example, if you create an attachment at the enterprise account level, then all of the account groups and accounts within them are included in your evaluation. If you don't want to evaluate an account, you can always exclude it from your scope when you create the attachment. When an account is excluded, any of its child accounts are also excluded. However, as new accounts are added to your enterprise, they are automatically evaluated according to the parent account's attachment.
 
-Check out the following diagram to see how three attachments can coexist within an enterprise.
+Check out the following diagram to see how three attachments can co-exist within an enterprise.
 
 ![The image shows how two attachments are applied across an enterprise. One rule moves down the hierarchy. Another rule is attached only to a specific account, so its properties are applied only to the resources that it contains.](images/access-model.svg){: caption="Figure 1. Attachment hierarchy" caption-side="bottom"}
 
