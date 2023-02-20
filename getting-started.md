@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-02-09"
+lastupdated: "2023-02-20"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -116,17 +116,11 @@ To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword
 
 An attachment is how you target a specific grouping of your resources to evaluate against a specific profile.
 
-1. In the {{site.data.keyword.compliance_short}} navigation, click **Dashboard**.
-2. Click **Get started**.
-3. Select the **Profile** that you want to use to evaluate compliance.
-4. Target the specific resources to scan by selecting a **Scope**. 
-5. Optionally, you can exclude accounts or resource groups from your scope that you don't want to evaluate.
+1. In the {{site.data.keyword.compliance_short}} navigation, click **Dashboard** Then, click **Get started**.
+2. Select the **Profile** that you want to use to evaluate compliance.
+3. Target your attachment by selecting a **Scope** and identifying any resources that you want to **Exclude**. Then, click **Next**.
+4. Optional: Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
 5. Click **Next**.
-6. Provide the specific values that you want to use when the parameters are evaluated. 
-
-   The values that you provide are evaluated only for this attachment. Changing the values in this flow does not override the default value that is set in the control library.
-
-7. Click **Next**.
 8. Review your choices and click **Create**.
 
 When you create your attachment, a scan is scheduled. When the scan completes your results are available on the **Dashboard** in the {{site.data.keyword.compliance_short}} UI.
