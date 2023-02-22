@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-02-09"
+lastupdated: "2023-02-22"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -45,15 +45,10 @@ subcollection: security-compliance
 {:api: .ph data-hd-interface='api'}
 {:release-note: data-hd-content-type='release-note'}
 
-# How does Security and Compliance center work?
+# How does {{site.data.keyword.compliance_short}} work?
 {: #posture-management}
 
-With {{site.data.keyword.compliance_full}}, you can specify specific regulatory or organizational controls that you need to meet for compliance purposes. Then you can use {{site.data.keyword.compliance_short}} to prove that your organization is compliant with those controls by assessing your resource configurations. When the assessment is complete, you can view your results in a graphical dashboard. 
-{: shortdesc}
-
-
-A new experience for {{site.data.keyword.compliance_short}} is here! The service architecture has been updated to provide more transparency into the evaluations that are conducted. Currently, {{site.data.keyword.cloud_notm}} resources are available to be evaluated in the new format. As additional functionality becomes available, information will be provided. 
-{: note}
+When you work with {{site.data.keyword.compliance_full}}, you interact with several different entities and can take multiple user paths through the service. Learn more about each entity by reviewing the following definitions and user flows.
 
 
 ## Understanding user flows
@@ -82,7 +77,7 @@ Now that you have an understanding of each entity individually, how do they work
 {: class="simple-tab-table"}
 
 
-### How does the functionality differ?
+## How does the functionality differ between flows?
 {: #functionality}
 {: support}
 
@@ -97,29 +92,9 @@ Depending on the evaluation flow that you're working in, your experience with th
 | Results storage | Customer-owned | IBM-owned |
 | Control parameters | Customizable by attachment | Customizable by account |
 | Custom assessments | Write simple declarative rules | |
-| Versioning | Supported for controls and profiles | Requires a new profile or control be created |
+| Versioning | Supported for controls and profiles | |
 | Search | Ability to search and filter controls and results by component, scope, category, and status | Searchable by control name |
 {: row-headers}
 {: caption="Table 2. Functionality comparison" caption-side="top"}
-
-## Understanding scope hierarchy
-{: #evaluation-hierarchy}
-
-A scope defines which resources in your accounts are evaluated. It is defined when you create an attachment by selecting the parent account or resource group that you want to evaluate. Anything that exists within that account or group is evaluated. So, for example, if you create an attachment at the Enterprise level, then all of the account groups and accounts within them are included in your evaluation. If you don't want to evaluate a specific account, you can always exclude it from your scope when you create the attachment. When an account is excluded, any of it's child acccounts or groups are also excluded. However, as new accounts are added to your Enterprise, they are automatically evaluated according to the parent accounts attachment.
-
-Check out the following diagram to see how three attachments can coexist within an enterprise.
-
-![The image shows how two attachments are applied across an enterprise. One rule moves down the hierarchy. Another rule is attached only to a specific account, so its properties are applied only to the resources that it contains.](images/access-model.svg){: caption="Figure 2. Attachment hierarchy" caption-side="bottom"}
-
-Attachment A
-:   In Attachment A, the target scope is the full enterprise. As you can see, all account groups and accounts that exist within the enterprise are evaluated. That is, unless they have been purposefully excluded. 
-
-Attachment B
-:   The target scope of Attachment B is a specific account group within an enterprise. As you can see, the resources in the account group are now being evaluated against the profile selected during Attachment A and are evaluated according to the profile selected when Attachment B was created.
-
-Attachment C
-:   The target scope of Attachment C is an individual account. This attachment was created in the account, outside of the context of the enterprise. As you can see, the account is now evaluated against the profile that was selected in attachment A, but the resource groups within the account are only evaluated against the profile that was selected when Attachment C was created.
-
-To view the results of an evaluation, you look in the account where the attachment was created. If you were to use the previous image as an example, attachment A and B's results would exist within the Enterprise account and the Enterprise account is charged for the evaluation. However, attachment C's results would exist within the individual account. 
 
 

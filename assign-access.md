@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-02-15"
+lastupdated: "2023-02-17"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -72,7 +72,7 @@ As an account owner, you are automatically assigned Administrator platform acces
 7. Review your selections and click **Assign**.
 8. Enterprises: If you are working in an enterprise account, you must also assign permissions for the enterprise service. 
 
-	You can assign *Administrator* access for the service, or you can create a custom role. When you assign permissions for an enterprise you can give access to the full enterprise or specific accounts or account groups. To learn more about recommendations for enterprises, see [Best practices for enterprises]([{link}]-best-practices#bp-enterprises).
+	You can assign *Administrator* access for the service, or you can create a custom role. When you assign permissions for an enterprise you can give access to the full enterprise or specific accounts or account groups. To learn more about recommendations for enterprises, see [Best practices for enterprises](/docs/security-compliance?topic=security-compliance-best-practices#bp-enterprise).
 
 	1. In the Console, go to **Manage > Access (IAM) > Roles** and click **Create**.
 	2. Give your role a name, programatic ID, and description. For example, *Compliance focals*, *ComplianceFocals*, and *Permissions required for compliance focals to work with {{site.data.keyword.compliance_short}}*.
