@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-02-15"
+lastupdated: "2023-02-22"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -46,7 +46,7 @@ subcollection: security-compliance
 {:release-note: data-hd-content-type='release-note'}
 
 # Key concepts in {{site.data.keyword.compliance_short}}
-{: #posture-management}
+{: #key-concepts}
 
 When you work with {{site.data.keyword.compliance_full}}, you interact with several different entities and can take multiple user paths through the service. Learn more about each entity by reviewing the following definitions and user flows.
 
