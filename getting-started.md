@@ -2,14 +2,14 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-02-20"
+lastupdated: "2023-02-23"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
 subcollection: security-compliance
 
 content-type: tutorial
-services: security-compliance, cos, event-notifications, iam
+services: security-compliance, cloud-object-storage, event-notifications, iam
 completion-time: 5m
 
 ---
@@ -52,7 +52,7 @@ completion-time: 5m
 # Getting started with {{site.data.keyword.compliance_short}}
 {: #getting-started}
 {: toc-content-type="tutorial"}
-{: toc-services="security-compliance, cos, event-notifications, iam"}
+{: toc-services="security-compliance, cloud-object-storage, event-notifications, iam"}
 {: toc-completion-time="5m"}
 
 For highly regulated industries, such as financial services, achieving continuous compliance within a cloud environment is an important first step toward protecting customer and application data. Historically, that process was difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.compliance_full}}, you can integrate daily, automatic compliance checks into your development lifecycle to help minimize that risk.
