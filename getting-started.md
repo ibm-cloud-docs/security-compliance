@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-02-23"
+lastupdated: "2023-03-09"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -125,6 +125,8 @@ An attachment is how you target a specific grouping of your resources to evaluat
 
 When you create your attachment, a scan is scheduled. When the scan completes your results are available on the **Dashboard** in the {{site.data.keyword.compliance_short}} UI.
 
+
+
 ## Configure notifications
 {: #gs-notifications}
 {: step}
@@ -142,6 +144,7 @@ Optionally, you can have notifications forwarded directly to you. To do so, you 
 	3. Select **{{site.data.keyword.compliance_short}}** as the **Source**.
 	4. Select **Posture Management** and the event subtype that you want to receive notifications about. Common choices are *Scan complete* and *Scan failure threshold limit exceeded*. Then click **Add a condition**.
 	5. Repeat step 4 until you have added all of the events that you want to be notified about. Then, click **Create**.
+
 
 
 ## Next steps
