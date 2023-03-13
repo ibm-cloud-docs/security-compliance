@@ -74,7 +74,7 @@ New version of the {{site.data.keyword.cloud_notm}} for Financial Services libra
 {: #security-compliance-dec1422}
 {: release-note}
 
-A new and improved experience for Security and Compliance Center is now available! 
+A new and improved experience for {{site.data.keyword.compliance_short}} is now available! 
 :   We've been working in the background for the past several months to incorporate all of the feedback that we've received and we’re excited to share our new and improved architecture with you. When you work with our new architecture, there are a few changes to terminology and functionality that you’ll need to be aware of.
 
    * **Enterprise support**: Hierarchical management of organizational compliance
