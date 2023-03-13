@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-02-09"
+lastupdated: "2023-03-13"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -47,7 +47,7 @@ content-type: release-note
 {:release-note: data-hd-content-type='release-note'}
 
 # Change log: {{site.data.keyword.cloud_notm}} for Financial Services
-{: #fs-profile-change-log}
+{: #fs-change-log}
 
 In this change log, you can learn about the latest changes, improvements, and updates for the {{site.data.keyword.cloud_notm}} for Financial Services profile. The change log lists changes that were made, ordered by the version number.
 
