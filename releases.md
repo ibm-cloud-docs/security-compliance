@@ -53,6 +53,18 @@ content-type: release-note
 
 
 
+## XX March 2023
+{: #security-compliance-marchxx2023}
+{: release-note}
+
+Customizable scans per attachment 
+:   As part of creating an attachment, you can now configure notifications by attachment. You can set a customized failure threshold or select specific controls that you want to be alerted for. By default, when notifications are enabled for your account, you are notified if 15% of the controls in a single scan fail. To adjust this you can adjust the threshold or you can turn off notifications as you create an attachment.
+
+If you already have notifications configured they were migrated to the new format. To update your notification settings, you can do so in the settings of each attachment.
+{: note}
+
+
+
 ## 13 March 2023
 {: #security-compliance-march132023}
 {: release-note}

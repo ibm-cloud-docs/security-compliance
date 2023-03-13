@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-02-16"
+lastupdated: "2023-03-13"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -78,6 +78,19 @@ To create an attachment, you can use the {{site.data.keyword.compliance_short}} 
 3. Target your attachment by selecting a **Scope** and identifying any resources that you want to **Exclude**. Then, click **Next**.
 4. Optional: Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
 5. Click **Next**.
+7. Optional: Configure notifications.
+	1. If you want to receive notifications, toggle **Notify me** to **On**.
+	2. By default, when notifications are enabled, you are alerted when 15% or more of your controls fail in a single scan. You can change this by adjusting the **Threshold** percentage. 
+	
+		For example, if you have a profile with 100 controls and you want to be notified if 5 of them fail, you would select 5% as your threshold.
+	
+	3. Select specific controls that you want to be notified about.
+
+		If there are high priority controls that pertain specifically to your job role, you might want to be notified every time they fail. You can identify up to 15 controls per scan that you can receive individual notifications for. These notifications are sent regardless of whether the threshold identified in the previous step has been met.
+
+		1. Click **Select control**.
+		2. Select the controls that you want to be notified about by checking the box next to the control.
+		3. Click **Ok**.
 8. Review your choices and click **Create**.
 
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
