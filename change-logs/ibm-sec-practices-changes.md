@@ -78,6 +78,8 @@ The following new controls have been added to the {{site.data.keyword.cloud_notm
 | 6.18 | Ensure Toolchain dynamic scan exists and has passed |
 {: caption="Table. Summary of {{site.data.keyword.cloud_notm}} Security Best Practices profile changes for Version 1.1.0" caption-side="top"}
 
+The Toolchain controls listed in the table are configured to check Continuous Delivery and Continuous Compliance toolchains only. If you run an evaluation on a Continous Integration toolchain, the result is returned as *Unable to perform*.
+{: note}
 
 ## Version 1.0.0
 {: #sec-best-v1.0.0}
