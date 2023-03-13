@@ -96,8 +96,6 @@ toc:
             navtitle: Learning about architecture and workload isolation
           - topic: framework/at-events.md
             navtitle: Auditing events
-          - topic: framework/cbr.md
-            navtitle: Context-based restrictions
 
   - navgroup:
       id: reference
