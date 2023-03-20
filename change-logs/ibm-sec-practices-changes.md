@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-13"
+lastupdated: "2023-03-20"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -71,14 +71,14 @@ The following new controls have been added to the {{site.data.keyword.cloud_notm
 | 6.6 | Ensure Toolchain has branch protection rules enabled |
 | 6.7 | Ensure Toolchain has secret detection scans enabled for source code |
 | 6.8 | Ensure Toolchain production change request exists and is approved |
-| 6.9 | Ensure Container Registry Vulnerability Advisor scans images for OS vulnerability detection |
+| 6.9 | Ensure Toolchain Container Registry Vulnerability Advisor scans images for OS vulnerability detection |
 | 6.12 | Ensure Toolchain acceptance tests exist and have passed |
 | 6.16 | Ensure that only the tool integrations within the toolchain are included in the allow list parameter array |
-| 6.17 | Ensure Toolchain static scan exists and has passed |
-| 6.18 | Ensure Toolchain dynamic scan exists and has passed |
+| 6.17 | Ensure a Toolchain static scan exists and has passed |
+| 6.18 | Ensure a Toolchain dynamic scan exists and has passed |
 {: caption="Table. Summary of {{site.data.keyword.cloud_notm}} Security Best Practices profile changes for Version 1.1.0" caption-side="top"}
 
-The Toolchain controls listed in the table are configured to check Continuous Delivery and Continuous Compliance toolchains only. If you run an evaluation on a Continous Integration toolchain, the result is returned as *Unable to perform*.
+The Toolchain controls that are listed in the table are configured to check DevSecOps Continuous Delivery (CD) and DevSecOps Continuous Compliance (CC) toolchains only, except for control 6.16, which is relevant to all toolchains. If you run an evaluation on a DevSecOps Continous Integration (CI) toolchain, or on any other toolchain that is not a DevSecOps toolchain, the result is returned as *Unable to perform*.
 {: note}
 
 ## Version 1.0.0
