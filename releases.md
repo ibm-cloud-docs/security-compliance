@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-13"
+lastupdated: "2023-03-21"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -53,8 +53,11 @@ content-type: release-note
 
 
 
-## XX March 2023
-{: #security-compliance-marchxx2023}
+
+
+
+## 10 April 2023
+{: #security-compliance-april102023}
 {: release-note}
 
 Customizable scans per attachment 
