@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-13"
+  years: 2020, 2023
+lastupdated: "2023-03-29"
 
 keywords: collector install, vpc collector, monitor resources, security, compliance
 
@@ -57,6 +57,8 @@ completion-time: 20m
 
 In this tutorial, you learn how to use {{site.data.keyword.compliance_full}} to automate the checks that your organization must complete to prove compliance.
 {: shortdesc}
+
+
 
 To scan and validate your resource configurations, a [collector](/docs/security-compliance?topic=security-compliance-collector) is used. Collectors act as an intermediary between your resources and the {{site.data.keyword.compliance_short}}, where the gathering and validation of your configurations is done. In this scenario, you are a developer who wants to validate your {{site.data.keyword.cloud_notm}} resources against defined best practices. Due to the security requirements of your organization, you are required to install the collector on infrastructure that is owned by your organization. You decide to use {{site.data.keyword.cloud_notm}} Virtual Private Cloud. 
 
