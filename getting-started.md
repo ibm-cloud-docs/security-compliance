@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-09"
+lastupdated: "2023-03-29"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -143,7 +143,7 @@ Optionally, you can have notifications forwarded directly to you. To do so, you 
 	2. Provide a name and description for your topic.
 	3. Select **{{site.data.keyword.compliance_short}}** as the **Source**.
 	4. Select **Posture Management** and the event subtype that you want to receive notifications about. Common choices are *Scan complete* and *Scan failure threshold limit exceeded*. Then click **Add a condition**.
-	5. Repeat step 4 until you have added all of the events that you want to be notified about. Then, click **Create**.
+	5. Repeat until you have added all of the events that you want to be notified about. Then, click **Create**.
 
 
 

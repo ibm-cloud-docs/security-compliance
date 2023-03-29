@@ -53,17 +53,7 @@ content-type: release-note
 
 
 
-<deprecation>
 
-## 31 March 2023
-{: #security-compliance-march312023}
-{: release-note}
-
-[deprecated]{: tag-deprecated} Collector-based architecture
-
-:   Starting 30 June 2023 Security and Compliance Center will be a provision-able, regional service offering in the IBM Cloud catalog. As this change is made, support for the collector-based architecture (v1) that currently resides in the Hybrid Cloud section of the UI will be removed. If you are exclusively evaluating IBM Cloud resources, you can start migrating at any time to the improved user experience by creating an attachment. If you are working using a collector to evaluate a hybrid cloud scenario, additional information will be available about your migration plan soon.
-
-</deprecation>
 
 ## 13 March 2023
 {: #security-compliance-march132023}

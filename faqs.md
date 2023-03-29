@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-15"
+  years: 2020, 2023
+lastupdated: "2023-03-29"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -56,7 +56,7 @@ Frequently asked questions for {{site.data.keyword.compliance_full}} might inclu
 {: faq}
 {: support}
 
-While {{site.data.keyword.compliance_short}} is undergoing changes and updating our architecture, you can continue to use the collector-based architecture. To understand how the functionality differs by user flow, see [How it works](/docs/security-compliance?topic=security-compliance-posture-management#functionality).
+While {{site.data.keyword.compliance_short}} is undergoing changes and updating our architecture, you can continue to use the collector-based architecture . To understand how the functionality differs by user flow, see [How it works](/docs/security-compliance?topic=security-compliance-posture-management#functionality).
 
 
 ## How do I start monitoring a rule?
