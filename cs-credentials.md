@@ -51,8 +51,7 @@ subcollection: security-compliance
 
 Credentials are how {{site.data.keyword.compliance_short}} gains access to the resource configurations in your account to evaluate them for compliance. Depending on the environment in which you are working and the types of resources that you want to evaluate, you need to provide different information.
 
-The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
-{: deprecated}
+
 
 If you're working with {{site.data.keyword.cloud_notm}}, you don't need to configure credentials! Check out our new and improved experience to get up and running in just a few steps.
 {: tip}

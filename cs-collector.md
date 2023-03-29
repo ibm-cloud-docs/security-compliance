@@ -52,8 +52,7 @@ subcollection: security-compliance
 A collector is used by {{site.data.keyword.compliance_full}} to gather the configuration information of your resources and then validate it against your specified requirements. 
 {: shortdesc}
 
-The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
-{: deprecated}
+
 
 ## Before you begin
 {: #before-collector}

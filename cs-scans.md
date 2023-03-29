@@ -52,8 +52,7 @@ subcollection: security-compliance
 When you're working with {{site.data.keyword.compliance_full}}, you can run scans that determine resource availability, resource configuration, and a resource's adherence to regulatory controls as defined in a profile.
 {: shortdesc}
 
-The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
-{: deprecated}
+
 
 ## Before you begin
 {: #before-scans}

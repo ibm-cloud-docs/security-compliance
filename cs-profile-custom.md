@@ -52,8 +52,7 @@ subcollection: security-compliance
 With the {{site.data.keyword.compliance_full}}, you can create your own profiles or take advantage of predefined profiles that are curated based on industry standards. A profile is a collection of related controls. After you gather the configuration information of your resources and ready your accounts for monitoring, you can create profiles to define the list of controls that you'd like to validate against.
 {: shortdesc}
 
-The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
-{: deprecated}
+
 
 Running a scan against a specific profile does not ensure regulatory compliance. The scan is intended to provide a point in time statement of your current posture for a specific group of resources.
 {: important}
