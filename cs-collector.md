@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-16"
+  years: 2020, 2023
+lastupdated: "2023-03-29"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -52,8 +52,8 @@ subcollection: security-compliance
 A collector is used by {{site.data.keyword.compliance_full}} to gather the configuration information of your resources and then validate it against your specified requirements. 
 {: shortdesc}
 
-If you're working with VPC, you can keep a history of all network connections that a collector initiates for future audits, by enabling [Flow Logs](/docs/vpc?topic=vpc-ordering-flow-log-collector).
-{: tip}
+The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+{: deprecated}
 
 ## Before you begin
 {: #before-collector}

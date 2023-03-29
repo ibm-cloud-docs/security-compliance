@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-01-26"
+lastupdated: "2023-03-29"
 
 keywords: goals, parameters, customize parameters, customize goals, security and compliance,
 
@@ -50,6 +50,9 @@ subcollection: security-compliance
 
 With {{site.data.keyword.compliance_full}}, you can update the default parameters that are associated with the goals within each predefined profile, or you can assign tags to help classify your goals.
 {: shortdesc}
+
+The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+{: deprecated}
 
 
 ## Before you begin

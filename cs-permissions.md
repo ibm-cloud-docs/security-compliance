@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-15"
+  years: 2020, 2023
+lastupdated: "2023-03-29"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials storage, aws permissions, azure permissions, google cloud permissions
 
@@ -50,6 +50,9 @@ subcollection: security-compliance
 
 To evaluate resources that do not run on {{site.data.keyword.cloud_notm}}, you must provide {{site.data.keyword.compliance_full}} access to the resources through an API Key. The credentials that you provide are used by the collector to obtain your resource configurations. Each service and environment has differing requirements. 
 {: shortdesc}
+
+The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+{: deprecated}
 
 If you're working with {{site.data.keyword.cloud_notm}}, you don't need to configure credentials! Check out our new and improved experience to get up and running in just a few steps.
 {: tip}

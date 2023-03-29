@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-15"
+  years: 2020, 2023
+lastupdated: "2023-03-29"
 
 keywords: scans, compliance, schedule scan, create scan, discovery, validation, fact collection, fact validation
 
@@ -51,6 +51,9 @@ subcollection: security-compliance
 
 When you're working with {{site.data.keyword.compliance_full}}, you can run scans that determine resource availability, resource configuration, and a resource's adherence to regulatory controls as defined in a profile.
 {: shortdesc}
+
+The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+{: deprecated}
 
 ## Before you begin
 {: #before-scans}

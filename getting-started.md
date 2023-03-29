@@ -58,8 +58,9 @@ completion-time: 5m
 For highly regulated industries, such as financial services, achieving continuous compliance within a cloud environment is an important first step toward protecting customer and application data. Historically, that process was difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.compliance_full}}, you can integrate daily, automatic compliance checks into your development lifecycle to help minimize that risk.
 {: shortdesc}
 
-A new and improved experience of {{site.data.keyword.compliance_short}} is here! To start working with the updated architecture, you can use this getting started tutorial. If you're still working in the collector-based architecture or trying to evaluate an environment other than {{site.data.keyword.cloud_notm}}, you can view the docs in the [hybrid cloud section](/docs/security-compliance?topic=security-compliance-collector).
-{: note}
+
+The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+{: deprecated}
 
 
 ## Before you begin

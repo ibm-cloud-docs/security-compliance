@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-15"
+  years: 2020, 2023
+lastupdated: "2023-03-29"
 
 keywords: compliance posture, security posture, audit evidence, security scan, evaluation results, scan results, scan results, compliance, score, compliance score
 
@@ -51,6 +51,9 @@ subcollection: security-compliance
 
 With {{site.data.keyword.compliance_full}}, you can see an overview and a detailed evaluation results in the console. 
 {: shortdesc}
+
+The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+{: deprecated}
 
 ## Before you begin
 {: #before-view-posture}
