@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-29"
+lastupdated: "2023-03-30"
 
 keywords: data encryption in {{site.data.keyword.compliance_short}}, data storage for {{site.data.keyword.compliance_short}}, bring your own keys for {{site.data.keyword.compliance_short}}, BYOK for {{site.data.keyword.compliance_short}}, key management for {{site.data.keyword.compliance_short}}, key encryption for {{site.data.keyword.compliance_short}}, personal data in {{site.data.keyword.compliance_short}}, data deletion for {{site.data.keyword.compliance_short}}, data in {{site.data.keyword.compliance_short}}, data security in {{site.data.keyword.compliance_short}}
 
@@ -132,7 +132,7 @@ Depending on your use case and security requirements, the key management service
 
 When you work with the API-based version of the service, you own the data that is generated. It is automatically forwarded to a Cloud Object Storage bucket that you connect. Managing the data is your responsibility. 
 
-<deprecated>[deprecated]{: tag-deprecated} </deprecated>In the collector-based architecture flow, your data is stored by {{site.data.keyword.compliance_short}} and is automatically deleted after 180 days. You don't need to take any action for this process to happen. 
+In the collector-based architecture flow, your data is stored by {{site.data.keyword.compliance_short}} and is automatically deleted after 180 days. You don't need to take any action for this process to happen. 
 
 If you are working with the Trial plan, and you choose not to convert your account to Standard, then your data is automatically deleted in 30 days.
 {: note} 
