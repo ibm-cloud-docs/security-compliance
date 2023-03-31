@@ -20,6 +20,9 @@ If you're working with an Amazon Web Services, Microsoft Azure, or Google Cloud 
 {: shortdesc}
 
 
+The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+{: deprecated}
+
 
 
 ## Before you begin

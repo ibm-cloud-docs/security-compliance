@@ -27,6 +27,9 @@ For highly regulated industries, such as financial services, achieving continuou
 
 
 
+Starting 30 June 2023 Security and Compliance Center will be a provision-able, regional service offering in the IBM Cloud catalog. As this change is made, support for the collector-based architecture (v1) that currently resides in the Hybrid Cloud section of the UI will be removed. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+{: deprecated}
+
 
 
 ## Before you begin

@@ -61,7 +61,7 @@ As an account owner, you are automatically assigned Administrator platform acces
 
 
 
-If you are working with the collector-based architecture, you must assign additional access for your credentials. For more information, see [Assigning the required permissions](/docs/security-compliance?topic=security-compliance-permissions).
+[deprecated]{: tag-deprecated} If you are working with the collector-based architecture, you must assign additional access for your credentials. For more information, see [Assigning the required permissions](/docs/security-compliance?topic=security-compliance-permissions).
 {: note}
 
 

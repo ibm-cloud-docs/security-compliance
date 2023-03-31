@@ -66,7 +66,7 @@ By default, the processing of your data is done in the United States. To update 
 If you change your location, you must reconfigure any scans that are scheduled in your account. 
 {: note}
 
-## Configuring encryption (collectors)
+## [deprecated]{: tag-deprecated} Configuring encryption (collectors)
 {: #data-encryption-configure}
 
 By default, the data that is stored by {{site.data.keyword.compliance_short}} is encrypted at rest by using an IBM-managed key. You can add a level of control to your data at rest by enabling an integration with {{site.data.keyword.keymanagementservicelong_notm}} or {{site.data.keyword.hscrypto}}. [{{site.data.keyword.hscrypto}}](/docs/hs-crypto?topic=hs-crypto-get-started) is a single-tenant key management service that is backed by a FIPS140-2 level 4 certified Hardware Security Model (HSM).

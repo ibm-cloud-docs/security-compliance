@@ -18,13 +18,6 @@ subcollection: security-compliance
 
 Frequently asked questions for {{site.data.keyword.compliance_full}} might include questions about managing profiles, defining custom rules, attaching scopes, and evaluating resources for compliance. To find all FAQs for {{site.data.keyword.cloud_notm}}, see the [FAQ library](/docs/faqs).
 
-## What is the difference between the different user flows in {{site.data.keyword.compliance_short}}?
-{: #faq-architecture}
-{: faq}
-{: support}
-
-While {{site.data.keyword.compliance_short}} is undergoing changes and updating our architecture, you can continue to use the collector-based architecture . To understand how the functionality differs by user flow, see [How it works](/docs/security-compliance?topic=security-compliance-posture-management#functionality).
-
 
 ## How do I start monitoring a rule?
 {: #faq-monitor-rule}
@@ -41,7 +34,7 @@ While {{site.data.keyword.compliance_short}} is undergoing changes and updating 
 
 Yes, you can create rules for services or resources that are not already provisioned in your accounts. When the service or resource is created, it is automatically evaluated according to your rule definition.
 
-## Why do I have to create a collector?
+## [deprecated]{: tag-deprecated} Why do I have to create a collector?
 {: #faq-collector}
 {: faq}
 {: support}

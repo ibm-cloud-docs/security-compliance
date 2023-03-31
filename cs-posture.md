@@ -20,6 +20,9 @@ With {{site.data.keyword.compliance_full}}, you can see an overview and a detail
 {: shortdesc}
 
 
+The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+{: deprecated}
+
 
 ## Before you begin
 {: #before-view-posture}

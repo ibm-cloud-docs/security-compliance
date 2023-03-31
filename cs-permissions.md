@@ -19,6 +19,9 @@ To evaluate resources that do not run on {{site.data.keyword.cloud_notm}}, you m
 {: shortdesc}
 
 
+The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+{: deprecated}
+
 
 If you're working with {{site.data.keyword.cloud_notm}}, you don't need to configure credentials! Check out our new and improved experience to get up and running in just a few steps.
 {: tip}

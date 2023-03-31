@@ -25,6 +25,8 @@ completion-time: 10m
 In this tutorial, you learn how to use {{site.data.keyword.compliance_full}} to automate the compliance checks that your organization must complete.
 {: shortdesc}
 
+The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+{: deprecated}
 
 
 To scan and validate your resource configurations, a [collector](/docs/security-compliance?topic=security-compliance-collector) is used. Collectors act as an intermediary between your resources and the {{site.data.keyword.compliance_short}}, where the gathering and validation of your configurations is done. In this scenario, you are a developer who wants to validate your {{site.data.keyword.cloud_notm}} resources against defined best practices. Due to the security requirements of your organization, you are required to install the collector on infrastructure that is owned by your organization, so you decide to use an [{{site.data.keyword.cloud_notm}} {{site.data.keyword.containershort}}](/docs/containers?topic=containers-getting-started) or [{{site.data.keyword.openshiftshort}}](/docs/openshift?topic=openshift-getting-started) cluster. 

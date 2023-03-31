@@ -20,6 +20,9 @@ With the {{site.data.keyword.compliance_full}}, you can create your own profiles
 {: shortdesc}
 
 
+The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+{: deprecated}
+
 
 Running a scan against a specific profile does not ensure regulatory compliance. The scan is intended to provide a point in time statement of your current posture for a specific group of resources.
 {: important}
