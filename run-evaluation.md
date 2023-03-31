@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-21"
+lastupdated: "2023-03-31"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -10,46 +10,13 @@ subcollection: security-compliance
 
 ---
 
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:download: .download}
-{:external: target="_blank" .external}
-{:faq: data-hd-content-type='faq'}
-{:gif: data-image-type='gif'}
-{:important: .important}
-{:note: .note}
-{:pre: .pre}
-{:tip: .tip}
-{:preview: .preview}
-{:deprecated: .deprecated}
-{:beta: .beta}
-{:term: .term}
-{:shortdesc: .shortdesc}
-{:script: data-hd-video='script'}
-{:support: data-reuse='support'}
-{:table: .aria-labeledby="caption"}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
-{:help: data-hd-content-type='help'}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:tsSymptoms: .tsSymptoms}
-{:java: .ph data-hd-programlang='java'}
-{:javascript: .ph data-hd-programlang='javascript'}
-{:swift: .ph data-hd-programlang='swift'}
-{:curl: .ph data-hd-programlang='curl'}
-{:video: .video}
-{:step: data-tutorial-type='step'}
-{:tutorial: data-hd-content-type='tutorial'}
-{:ui: .ph data-hd-interface='ui'}
-{:cli: .ph data-hd-interface='cli'}
-{:api: .ph data-hd-interface='api'}
-{:release-note: data-hd-content-type='release-note'}
+{{site.data.keyword.attribute-definition-list}}
 
 
 # Running an evaluation for {{site.data.keyword.cloud_notm}}
 {: #scan-resources}
 
-With {{site.data.keyword.compliance_full}}, you can evaluate your resources on a recurring schedule - once every 24-hours, or you can initiate a scan at any time.
+With {{site.data.keyword.compliance_full}}, you can evaluate your resources on a recurring schedule or you can initiate a scan at any time.
 {: shortdesc}
 
 If you want to evaluate an environment other than {{site.data.keyword.cloud_notm}}, you must use the collector-based architecture. To get started, see [Managing collectors](/docs/security-compliance?topic=security-compliance-collector).

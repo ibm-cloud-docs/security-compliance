@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-09"
+lastupdated: "2023-03-31"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -14,40 +14,7 @@ completion-time: 5m
 
 ---
 
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:download: .download}
-{:external: target="_blank" .external}
-{:faq: data-hd-content-type='faq'}
-{:gif: data-image-type='gif'}
-{:important: .important}
-{:note: .note}
-{:pre: .pre}
-{:tip: .tip}
-{:preview: .preview}
-{:deprecated: .deprecated}
-{:beta: .beta}
-{:term: .term}
-{:shortdesc: .shortdesc}
-{:script: data-hd-video='script'}
-{:support: data-reuse='support'}
-{:table: .aria-labeledby="caption"}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
-{:help: data-hd-content-type='help'}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:tsSymptoms: .tsSymptoms}
-{:java: .ph data-hd-programlang='java'}
-{:javascript: .ph data-hd-programlang='javascript'}
-{:swift: .ph data-hd-programlang='swift'}
-{:curl: .ph data-hd-programlang='curl'}
-{:video: .video}
-{:step: data-tutorial-type='step'}
-{:tutorial: data-hd-content-type='tutorial'}
-{:ui: .ph data-hd-interface='ui'}
-{:cli: .ph data-hd-interface='cli'}
-{:api: .ph data-hd-interface='api'}
-{:release-note: data-hd-content-type='release-note'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Getting started with {{site.data.keyword.compliance_short}}
 {: #getting-started}
@@ -58,8 +25,11 @@ completion-time: 5m
 For highly regulated industries, such as financial services, achieving continuous compliance within a cloud environment is an important first step toward protecting customer and application data. Historically, that process was difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.compliance_full}}, you can integrate daily, automatic compliance checks into your development lifecycle to help minimize that risk.
 {: shortdesc}
 
-A new and improved experience of {{site.data.keyword.compliance_short}} is here! To start working with the updated architecture, you can use this getting started tutorial. If you're still working in the collector-based architecture or trying to evaluate an environment other than {{site.data.keyword.cloud_notm}}, you can view the docs in the [hybrid cloud section](/docs/security-compliance?topic=security-compliance-collector).
-{: note}
+
+
+Starting 30 June 2023 Security and Compliance Center will be a provision-able, regional service offering in the IBM Cloud catalog. As this change is made, support for the collector-based architecture (v1) that currently resides in the Hybrid Cloud section of the UI will be removed. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+{: deprecated}
+
 
 
 ## Before you begin
@@ -143,7 +113,7 @@ Optionally, you can have notifications forwarded directly to you. To do so, you 
 	2. Provide a name and description for your topic.
 	3. Select **{{site.data.keyword.compliance_short}}** as the **Source**.
 	4. Select **Posture Management** and the event subtype that you want to receive notifications about. Common choices are *Scan complete* and *Scan failure threshold limit exceeded*. Then click **Add a condition**.
-	5. Repeat step 4 until you have added all of the events that you want to be notified about. Then, click **Create**.
+	5. Repeat until you have added all of the events that you want to be notified about. Then, click **Create**.
 
 
 

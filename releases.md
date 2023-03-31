@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-21"
+lastupdated: "2023-03-31"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -11,40 +11,7 @@ content-type: release-note
 
 ---
 
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:download: .download}
-{:external: target="_blank" .external}
-{:faq: data-hd-content-type='faq'}
-{:gif: data-image-type='gif'}
-{:important: .important}
-{:note: .note}
-{:pre: .pre}
-{:tip: .tip}
-{:preview: .preview}
-{:deprecated: .deprecated}
-{:beta: .beta}
-{:term: .term}
-{:shortdesc: .shortdesc}
-{:script: data-hd-video='script'}
-{:support: data-reuse='support'}
-{:table: .aria-labeledby="caption"}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
-{:help: data-hd-content-type='help'}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:tsSymptoms: .tsSymptoms}
-{:java: .ph data-hd-programlang='java'}
-{:javascript: .ph data-hd-programlang='javascript'}
-{:swift: .ph data-hd-programlang='swift'}
-{:curl: .ph data-hd-programlang='curl'}
-{:video: .video}
-{:step: data-tutorial-type='step'}
-{:tutorial: data-hd-content-type='tutorial'}
-{:ui: .ph data-hd-interface='ui'}
-{:cli: .ph data-hd-interface='cli'}
-{:api: .ph data-hd-interface='api'}
-{:release-note: data-hd-content-type='release-note'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Release notes for {{site.data.keyword.compliance_short}}
 {: #release-notes}
@@ -55,6 +22,13 @@ content-type: release-note
 
 
 
+## 31 March 2023
+{: #security-compliance-march312023}
+{: release-note}
+
+[deprecated]{: tag-deprecated} Collector-based architecture
+
+:   Starting 30 June 2023 Security and Compliance Center will be a provision-able, regional service offering in the IBM Cloud catalog. As this change is made, support for the collector-based architecture (v1) that currently resides in the Hybrid Cloud section of the UI will be removed. If you are exclusively evaluating IBM Cloud resources, you can start migrating at any time to the improved user experience by creating an attachment. If you are working using a collector to evaluate a hybrid cloud scenario, additional information will be available about your migration plan soon.
 
 
 

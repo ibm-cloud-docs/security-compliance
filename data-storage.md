@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-15"
+  years: 2020, 2023
+lastupdated: "2023-03-31"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -10,40 +10,7 @@ subcollection: security-compliance
 
 ---
 
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:download: .download}
-{:external: target="_blank" .external}
-{:faq: data-hd-content-type='faq'}
-{:gif: data-image-type='gif'}
-{:important: .important}
-{:note: .note}
-{:pre: .pre}
-{:tip: .tip}
-{:preview: .preview}
-{:deprecated: .deprecated}
-{:beta: .beta}
-{:term: .term}
-{:shortdesc: .shortdesc}
-{:script: data-hd-video='script'}
-{:support: data-reuse='support'}
-{:table: .aria-labeledby="caption"}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
-{:help: data-hd-content-type='help'}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:tsSymptoms: .tsSymptoms}
-{:java: .ph data-hd-programlang='java'}
-{:javascript: .ph data-hd-programlang='javascript'}
-{:swift: .ph data-hd-programlang='swift'}
-{:curl: .ph data-hd-programlang='curl'}
-{:video: .video}
-{:step: data-tutorial-type='step'}
-{:tutorial: data-hd-content-type='tutorial'}
-{:ui: .ph data-hd-interface='ui'}
-{:cli: .ph data-hd-interface='cli'}
-{:api: .ph data-hd-interface='api'}
-{:release-note: data-hd-content-type='release-note'}
+{{site.data.keyword.attribute-definition-list}}
 
 
 # Setting up data storage and processing for {{site.data.keyword.compliance_short}}
@@ -99,7 +66,7 @@ By default, the processing of your data is done in the United States. To update 
 If you change your location, you must reconfigure any scans that are scheduled in your account. 
 {: note}
 
-## Configuring encryption (collectors)
+## [deprecated]{: tag-deprecated} Configuring encryption (collectors)
 {: #data-encryption-configure}
 
 By default, the data that is stored by {{site.data.keyword.compliance_short}} is encrypted at rest by using an IBM-managed key. You can add a level of control to your data at rest by enabling an integration with {{site.data.keyword.keymanagementservicelong_notm}} or {{site.data.keyword.hscrypto}}. [{{site.data.keyword.hscrypto}}](/docs/hs-crypto?topic=hs-crypto-get-started) is a single-tenant key management service that is backed by a FIPS140-2 level 4 certified Hardware Security Model (HSM).

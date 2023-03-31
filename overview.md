@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-02-22"
+lastupdated: "2023-03-31"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -10,40 +10,7 @@ subcollection: security-compliance
 
 ---
 
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:download: .download}
-{:external: target="_blank" .external}
-{:faq: data-hd-content-type='faq'}
-{:gif: data-image-type='gif'}
-{:important: .important}
-{:note: .note}
-{:pre: .pre}
-{:tip: .tip}
-{:preview: .preview}
-{:deprecated: .deprecated}
-{:beta: .beta}
-{:term: .term}
-{:shortdesc: .shortdesc}
-{:script: data-hd-video='script'}
-{:support: data-reuse='support'}
-{:table: .aria-labeledby="caption"}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
-{:help: data-hd-content-type='help'}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:tsSymptoms: .tsSymptoms}
-{:java: .ph data-hd-programlang='java'}
-{:javascript: .ph data-hd-programlang='javascript'}
-{:swift: .ph data-hd-programlang='swift'}
-{:curl: .ph data-hd-programlang='curl'}
-{:video: .video}
-{:step: data-tutorial-type='step'}
-{:tutorial: data-hd-content-type='tutorial'}
-{:ui: .ph data-hd-interface='ui'}
-{:cli: .ph data-hd-interface='cli'}
-{:api: .ph data-hd-interface='api'}
-{:release-note: data-hd-content-type='release-note'}
+{{site.data.keyword.attribute-definition-list}}
 
 # How does {{site.data.keyword.compliance_short}} work?
 {: #posture-management}
@@ -67,7 +34,7 @@ Now that you have an understanding of each entity individually, how do they work
 {: tab-group="user-flows"}
 {: class="simple-tab-table"}
 
-| User flow B |
+| [deprecated]{: tag-deprecated} User flow B |
 |:--------------|
 | 1. To get started as a security or compliance focal, you create and deploy a collector to infrastructure that has network connectivity to your resources.  \n 2. For the collector to read your resource configuration data, you must provide credentials that have the appropriate level of access.  \n 3. When you're ready to start evaluating, you target a set of resources by defining a scope and then scheduling your scan.  \n 4. The collector watches to see when it is time to scan.  \n 5. The collector evaluates your resources.  \n 6. When the scan is complete, results are forwarded to a database that is owned by {{site.data.keyword.compliance_short}} and are kept for 180 days.  \n 7. Results are visible in the {{site.data.keyword.compliance_short}} console on the **Hybrid cloud results** page. |
 {: caption="Table 1. Understanding user flows" caption-side="top"}
@@ -83,7 +50,7 @@ Now that you have an understanding of each entity individually, how do they work
 
 Depending on the evaluation flow that you're working in, your experience with the service differs. Review the following table to see how the functionality that is offered in each flow differs. As more functionality is released in the new architecture, this table will be updated.
 
-|            | {{site.data.keyword.cloud_notm}} | Collector-based |
+|            | {{site.data.keyword.cloud_notm}} | [deprecated]{: tag-deprecated} Collector-based |
 |------------|-----------|-----------------|
 | Availability | {{site.data.keyword.cloud_notm}} | {{site.data.keyword.cloud_notm}}, Amazon Web Services, Google Cloud Platform, Microsoft Azure, and On-premises |
 | Integrations | | Tanium and OSCO |
