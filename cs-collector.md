@@ -21,7 +21,7 @@ In {{site.data.keyword.compliance_full}}, a collector is used to gather the conf
 
 
 
-The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-release-notes).
 {: deprecated}
 
 
