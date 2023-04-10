@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-04-10"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -91,29 +91,22 @@ An attachment is how you target a specific grouping of your resources to evaluat
 3. Target your attachment by selecting a **Scope** and identifying any resources that you want to **Exclude**. Then, click **Next**.
 4. Optional: Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
 5. Click **Next**.
+7. Optional: Configure notifications.
+	1. If you want to receive notifications, toggle **Notify me** to **On**.
+	2. By default, when notifications are enabled, you are alerted when 15% or more of your controls fail in a single scan. You can change this by adjusting the **Threshold** percentage. 
+	
+		For example, if you have a profile with 100 controls and you want to be notified if 5 of them fail, you would select 5% as your threshold.
+	
+	3. Select specific controls that you want to be notified about.
+
+		If there are high priority controls that pertain specifically to your job role, you might want to be notified every time they fail. You can identify up to 15 controls per scan that you can receive individual notifications for. These notifications are sent regardless of whether the threshold identified in the previous step has been met.
+
+		1. Click **Select control**.
+		2. Select the controls that you want to be notified about by checking the box next to the control.
+		3. Click **Ok**.
 8. Review your choices and click **Create**.
 
 When you create your attachment, a scan is scheduled. When the scan completes your results are available on the **Dashboard** in the {{site.data.keyword.compliance_short}} UI.
-
-
-
-## Configure notifications
-{: #gs-notifications}
-{: step}
-
-Optionally, you can have notifications forwarded directly to you. To do so, you must have an instance of the {{site.data.keyword.en_short}} service in your account.
-
-1. In the {{site.data.keyword.compliance_short}} navigation, click **Settings**.
-2. On the **Event Notifications** tile, click **Connect**.
-3. Ensure that the service-to-service policy between {{site.data.keyword.en_short}} and {{site.data.keyword.compliance_short}} is configured. If a policy is already in place, this screen is not shown and you can skip to the next step.
-4. Select the service instance that you want to work with.
-5. Click **Connect**. 
-6. In your instance of {{site.data.keyword.en_short}}, create a topic.
-	1. Click **Topics > Create**.
-	2. Provide a name and description for your topic.
-	3. Select **{{site.data.keyword.compliance_short}}** as the **Source**.
-	4. Select **Posture Management** and the event subtype that you want to receive notifications about. Common choices are *Scan complete* and *Scan failure threshold limit exceeded*. Then click **Add a condition**.
-	5. Repeat until you have added all of the events that you want to be notified about. Then, click **Create**.
 
 
 
