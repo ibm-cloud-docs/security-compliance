@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-04-12"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -20,7 +20,7 @@ With the {{site.data.keyword.compliance_full}}, you can create your own profiles
 {: shortdesc}
 
 
-The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-release-notes).
 {: deprecated}
 
 
