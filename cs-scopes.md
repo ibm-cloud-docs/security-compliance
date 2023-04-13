@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-04-12"
 
 keywords: scopes, accounts, resources, environments
 
@@ -19,7 +19,7 @@ subcollection: security-compliance
 When you're working with {{site.data.keyword.compliance_short}}, you can narrow the focus of your scans to a specific environment, region, or resource. By creating a scope, you can determine your security and compliance score across a specific area of your business. 
 {: shortdesc}
 
-The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-release-notes).
 {: deprecated}
 
 

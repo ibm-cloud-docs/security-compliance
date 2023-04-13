@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-04-12"
 
 keywords: goals, parameters, customize parameters, customize goals, security and compliance,
 
@@ -19,7 +19,7 @@ With {{site.data.keyword.compliance_full}}, you can update the default parameter
 {: shortdesc}
 
 
-The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-releases).
+The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-release-notes).
 {: deprecated}
 
 

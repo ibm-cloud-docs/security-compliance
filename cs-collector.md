@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-04"
+lastupdated: "2023-04-12"
 
 keywords: collector, security and compliance, security, compliance, install, resource monitoring, configuration monitoring, security, approve collector, register collector, use credentials
 
@@ -18,7 +18,6 @@ subcollection: security-compliance
 
 In {{site.data.keyword.compliance_full}}, a collector is used to gather the configuration information of your resources and then validate it against your specified requirements. 
 {: shortdesc}
-
 
 
 The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-release-notes).
