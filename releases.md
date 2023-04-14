@@ -18,6 +18,15 @@ content-type: release-note
 
 
 
+
+
+
+
+
+
+
+<bp-profile>
+
 ## 17 April 2023
 {: #security-compliance-april172023}
 {: release-note}
@@ -25,8 +34,7 @@ content-type: release-note
 Updates to the {{site.data.keyword.cloud_notm}} Security Best Practices library
 :   Updates to version 1.1.0 of the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile are now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-ibm-sec-best-practices-change-log).
 
-
-
+</bp-profile>
 
 ## 10 April 2023
 {: #security-compliance-april102023}

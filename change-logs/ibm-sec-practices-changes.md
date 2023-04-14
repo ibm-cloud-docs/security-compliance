@@ -22,15 +22,7 @@ The {{site.data.keyword.cloud_notm}} Security Best Practices library is a collec
 If you're working with this library, new goals are automatically added to your current scans. If you want more control over when new goals are added, you can create a custom profile that contains all or a subset of the goals that are currently available. For more information, see [Building custom profiles](/docs/security-compliance?topic=security-compliance-custom-profiles).
 {: note}
 
-
-
-
-
-
-
-6.7	Ensure Toolchain has secret detection scans enabled for source code	Check whether Toolchain has secret detection scans enabled for source code	Ensure DevSecOps Toolchain source code contains no secrets	Check whether DevSecOps Toolchain source code contains no secrets
-
-
+<bp-profile>
 
 ## Version 1.1.0
 {: #sec-best-v1.1.0}
@@ -91,6 +83,8 @@ The following controls and rules have been updated in the {{site.data.keyword.cl
 {: #v1.1.0-13-march}
 
 The following new controls have been added to the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile as of 17 March 2023. 
+
+</bp-profile>
 
 | Control ID | Control Description |
 |:-----------|:--------------------|

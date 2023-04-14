@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-04-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -47,6 +47,7 @@ The following table shows the service behavior changes for each version date. Sw
 | Version 0.1.1 | `2021-06-24` |
 | Version 0.1.0 | `2021-04-05` |
 {: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
+
 
 
 
