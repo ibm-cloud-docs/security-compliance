@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-10"
+lastupdated: "2023-04-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,6 +18,14 @@ content-type: release-note
 
 
 
+## 17 April 2023
+{: #security-compliance-april172023}
+{: release-note}
+
+Updates to the {{site.data.keyword.cloud_notm}} Security Best Practices library
+:   Updates to version 1.1.0 of the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile are now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-ibm-sec-best-practices-change-log).
+
+
 
 
 ## 10 April 2023
@@ -29,9 +37,6 @@ Customize notifications per attachment
 
 If you already have notifications configured they were migrated to the new format. To update your notification settings, you can do so in the settings of each attachment.
 {: note}
-
-
-
 
 
 ## 31 March 2023

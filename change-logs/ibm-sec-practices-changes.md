@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-04-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -22,11 +22,75 @@ The {{site.data.keyword.cloud_notm}} Security Best Practices library is a collec
 If you're working with this library, new goals are automatically added to your current scans. If you want more control over when new goals are added, you can create a custom profile that contains all or a subset of the goals that are currently available. For more information, see [Building custom profiles](/docs/security-compliance?topic=security-compliance-custom-profiles).
 {: note}
 
+
+
+
+
+
+
+6.7	Ensure Toolchain has secret detection scans enabled for source code	Check whether Toolchain has secret detection scans enabled for source code	Ensure DevSecOps Toolchain source code contains no secrets	Check whether DevSecOps Toolchain source code contains no secrets
+
+
+
 ## Version 1.1.0
 {: #sec-best-v1.1.0}
 
-The following new controls have been added to the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile. 
 
+The following changes have been made to the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile.
+
+### 17 April 2023
+{: #v1.1.0-17-april}
+
+
+The following controls and rules have been updated in the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile as of 17 April 2023.
+
+| Control ID | Original control text| Updated control text | 
+|:--------------|:--------------|:--------------|
+| 6.1 | Ensure Toolchain scans during continuous integration the source code to identify vulnerabilities | Ensure DevSecOps Toolchain scans source code and their dependencies to identify vulnerabilities |
+| 6.2 | Ensure Toolchain has unit tests that are continuously run to validate source code changes | Ensure DevSecOps Toolchain passes unit tests to validate all code changes |
+| 6.3 | Ensure Toolchain has Code Risk Analyzer configured that collects a bill of materials for pipeline run | Ensure DevSecOps Toolchain collects software bills of materials (SBOM) to provide transparency in build artifacts |
+| 6.4 | Ensure Toolchain is configured with image signing | Ensure DevSecOps Toolchain signs build artifacts to attest their provenance |
+| 6.5 | Ensure Toolchain source code meets Center for Internet Security Docker benchmarks	|	Ensure DevSecOps Toolchain validates code against Center for Internet Security (CIS) Docker benchmarks to ensure container runtimes are configured securely |
+| 6.6 | Ensure Toolchain has branch protection rules enabled | Ensure DevSecOps Toolchain verifies source code branch protection rules to enforce security policies | 
+| 6.7 | Ensure Toolchain has secret detection scans enabled for source code	|	Ensure DevSecOps Toolchain source code contains no secrets |
+| 6.8 | Ensure Toolchain production change request exists and is approved	| Ensure DevSecOps Toolchain deployment has approved change documentation including security impact analysis |
+| 6.9 | Ensure Toolchain Container Registry Vulnerability Advisor scans images for OS vulnerability detection | Ensure DevSecOps Toolchain scans build artifacts to identify vulnerabilities |
+| 6.12 | Ensure Toolchain acceptance tests exist and have passed | Ensure DevSecOps Toolchain passes acceptance tests to validate every deployment |
+| 6.16 | Ensure that only the tool integrations within the toolchain are included in the allow list parameter array | Ensure Toolchain is configured only with the allowed integration tools |
+| 6.17 | Ensure a Toolchain static scan exists and has passed | Ensure DevSecOps Toolchain passes static code scan to identify vulnerabilities in source code |
+| 6.18 | Ensure a Toolchain dynamic scan exists and has passed | Ensure DevSecOps Toolchain passes dynamic code scan to identify vulnerabilities in deployed artifacts |
+{: caption="Table. Understanding control and rule updates" caption-side="top"}
+{: #scc-bp-1}
+{: tab-title="Control"}
+{: tab-group="v1.1"}
+{: class="simple-tab-table"}
+
+| Control ID | Original rule text| Updated rule text | 
+|:--------------|:--------------|:--------------|
+| 6.1 | Check whether the toolchain scans during continuous integration the source code to identify vulnerabilities | Check whether DevSecOps Toolchain scans source code and their dependencies to identify vulnerabilities |
+| 6.2 | Check whether Toolchain has unit tests that are continuously run to validate source code changes | Check whether DevSecOps Toolchain passes unit tests to validate all code changes |
+| 6.3 | Check whether Toolchain has Code Risk Analyzer configured that collects a bill of materials for pipeline run | Check whether DevSecOps Toolchain collects software bills of materials (SBOM) to provide transparency in build artifacts |
+| 6.4 | Check whether Toolchain is configured with image signing | Check whether DevSecOps Toolchain signs build artifacts to attest their provenance |
+| 6.5 | Check whether Toolchain source code meets Center for Internet Security Docker benchmarks |	Check whether DevSecOps Toolchain validates code against Center for Internet Security (CIS) Docker benchmarks to ensure container runtimes are configured securely |
+| 6.6 | Check whether Toolchain has branch protection rules enabled	|	Check whether DevSecOps Toolchain verifies source code branch protection rules to enforce security policies |
+| 6.7 | Check whether Toolchain has secret detection scans enabled for source code | Check whether DevSecOps Toolchain source code contains no secrets |
+| 6.8 | Check whether Toolchain production change request exists and is approved | Check whether DevSecOps Toolchain deployment has approved change documentation including security impact analysis |
+| 6.9 | Check whether the Toolchain Container Registry Vulnerability Advisor scans images for OS vulnerability detection | Check whether DevSecOps Toolchain scans build artifacts to identify vulnerabilities |
+| 6.12 | Check whether Toolchain acceptance tests exist and have passed | Check whether DevSecOps Toolchain passes acceptance tests to validate every deployment |
+| 6.16 | Checks whether only the tool integrations within the toolchain are included in the allow list parameter array	 | Check whether Toolchain is configured only with the allowed integration tools |
+| 6.17 | Check whether a Toolchain static scan exists and has passed	| Check whether DevSecOps Toolchain passes static code scan to identify vulnerabilities in source code |
+| 6.18 | Check whether a Toolchain dynamic scan exists and has passed | Check whether DevSecOps Toolchain passes dynamic code scan to identify vulnerabilities in deployed artifacts |
+{: caption="Table. Understanding control and rule updates" caption-side="top"}
+{: #scc-bp-1}
+{: tab-title="Rule"}
+{: tab-group="v1.1"}
+{: class="simple-tab-table"}
+
+
+### 13 March 2023
+{: #v1.1.0-13-march}
+
+The following new controls have been added to the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile as of 17 March 2023. 
 
 | Control ID | Control Description |
 |:-----------|:--------------------|
