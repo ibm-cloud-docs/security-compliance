@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-12"
+lastupdated: "2023-04-14"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -107,7 +107,6 @@ An attachment is how you target a specific grouping of your resources to evaluat
 8. Review your choices and click **Create**.
 
 When you create your attachment, a scan is scheduled. When the scan completes your results are available on the **Dashboard** in the {{site.data.keyword.compliance_short}} UI.
-
 
 
 ## Next steps
