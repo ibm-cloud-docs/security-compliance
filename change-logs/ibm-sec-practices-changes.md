@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-14"
+lastupdated: "2023-04-17"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -22,7 +22,7 @@ The {{site.data.keyword.cloud_notm}} Security Best Practices library is a collec
 If you're working with this library, new goals are automatically added to your current scans. If you want more control over when new goals are added, you can create a custom profile that contains all or a subset of the goals that are currently available. For more information, see [Building custom profiles](/docs/security-compliance?topic=security-compliance-custom-profiles).
 {: note}
 
-<bp-profile>
+
 
 ## Version 1.1.0
 {: #sec-best-v1.1.0}
@@ -83,8 +83,6 @@ The following controls and rules have been updated in the {{site.data.keyword.cl
 {: #v1.1.0-13-march}
 
 The following new controls have been added to the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile as of 17 March 2023. 
-
-</bp-profile>
 
 | Control ID | Control Description |
 |:-----------|:--------------------|
