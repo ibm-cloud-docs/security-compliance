@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-17"
+lastupdated: "2023-04-20"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -23,6 +23,13 @@ content-type: release-note
 
 
 
+
+## 20 April 2023
+{: #security-compliance-april202023}
+{: release-note}
+
+Updates to the {{site.data.keyword.cloud_notm}} for Financial Services library
+:   Version 1.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services library and profile are now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 
 
