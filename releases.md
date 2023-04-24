@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-20"
+lastupdated: "2023-04-24"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -20,6 +20,15 @@ content-type: release-note
 
 
 
+
+
+
+## 24 April 2023
+{: #security-compliance-april242023}
+{: release-note}
+
+Now available: Toronto location
+:   Toronto is now available as a location for processing your data. To learn more about how data is processed in {{site.data.keyword.compliance_short}}, see [Storing and encrypting](/docs/security-compliance?topic=security-compliance-mng-data).
 
 
 
