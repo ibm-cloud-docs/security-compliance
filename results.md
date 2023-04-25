@@ -53,6 +53,11 @@ To view the information of a scan, you can use the {{site.data.keyword.complianc
 
 
 
+You can filter results by tag. Tags are defined at the platform level. For help creating tags, see [Working with tags](/docs/account?topic=account-tag).
+{: tip}
+
+
+
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access {{site.data.keyword.compliance_short}}.
 2. Click **Dashboard**.
 3. In the **Detailed results** section, find the row for the specific **Scope** and **Profile** combination that you want to view results for and click **View** in the **Results** column.

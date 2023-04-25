@@ -23,6 +23,15 @@ content-type: release-note
 
 
 
+## 25 April 2023
+{: #security-compliance-april252023}
+{: release-note}
+
+Filter results by tag
+:   You can now filter your results by specific tags. For more information about viewing and filtering results, see [Viewing results in the dashboard](/docs/security-compliance?topic=security-compliance-results).
+
+
+
 ## 24 April 2023
 {: #security-compliance-april242023}
 {: release-note}
