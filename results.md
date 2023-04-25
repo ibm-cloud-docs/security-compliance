@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-04-25"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -50,6 +50,8 @@ Total evaluations
 {: #view-detailed-results}
 
 To view the information of a scan, you can use the {{site.data.keyword.compliance_short}} UI.
+
+
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access {{site.data.keyword.compliance_short}}.
 2. Click **Dashboard**.
