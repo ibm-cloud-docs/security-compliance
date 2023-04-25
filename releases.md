@@ -31,7 +31,6 @@ Now available: Toronto location
 :   Toronto is now available as a location for processing your data. To learn more about how data is processed in {{site.data.keyword.compliance_short}}, see [Storing and encrypting](/docs/security-compliance?topic=security-compliance-mng-data).
 
 
-
 ## 20 April 2023
 {: #security-compliance-april202023}
 {: release-note}
