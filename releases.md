@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-25"
+lastupdated: "2023-04-26"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -29,7 +29,6 @@ content-type: release-note
 
 Filter results by tag
 :   You can now filter your results by specific tags. For more information about viewing and filtering results, see [Viewing results in the dashboard](/docs/security-compliance?topic=security-compliance-results).
-
 
 
 ## 24 April 2023
