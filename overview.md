@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-13"
+lastupdated: "2023-04-26"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -18,8 +18,12 @@ subcollection: security-compliance
 When you work with {{site.data.keyword.compliance_full}}, you interact with several different entities and can take multiple user paths through the service. Learn more about each entity by reviewing the following definitions and user flows.
 
 
+
+
+
 ## Understanding user flows
 {: #user-flows}
+
 
 Now that you have an understanding of each entity individually, how do they work together? As part of some recent architectural changes in {{site.data.keyword.compliance_short}}, you have the option to use either an API or collector-based approach when you are working with the service. The following diagram details the two different user flows that you might take when you are working with {{site.data.keyword.compliance_short}}. Currently, if you're working with {{site.data.keyword.cloud_notm}} resources, the evaluation process integrated with the platform and conducted through API calls. Permissions are granted through IAM. If you're working in an environment other than {{site.data.keyword.cloud_notm}}, such as Amazon Web Services or Microsoft Azure, or if you're working with the OSCO profile you must use the collector-based flow.
 
@@ -42,6 +46,8 @@ Now that you have an understanding of each entity individually, how do they work
 {: tab-title="[deprecated]{: tag-deprecated}Hybrid cloud"}
 {: tab-group="user-flows"}
 {: class="simple-tab-table"}
+
+
 
 
 ## How does the functionality differ between flows?

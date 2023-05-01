@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-25"
+lastupdated: "2023-05-01"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -23,13 +23,21 @@ content-type: release-note
 
 
 
+## 1 May 2023
+{: #security-compliance-may012023}
+{: release-note}
+
+Support for context-based restrictions (CBR)
+:   Manage user and service access to your {{site.data.keyword.compliance_short}} resources by using context-based restrictions, based on defined criteria. For more information, see [Protecting Security and Compliance Center resources with context-based restrictions](/docs/security-compliance?topic=security-compliance-cbr).
+
+
+
 ## 25 April 2023
 {: #security-compliance-april252023}
 {: release-note}
 
 Filter results by tag
 :   You can now filter your results by specific tags. For more information about viewing and filtering results, see [Viewing results in the dashboard](/docs/security-compliance?topic=security-compliance-results).
-
 
 
 ## 24 April 2023

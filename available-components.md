@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-04-26"
 
 keywords: integrations, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -19,6 +19,7 @@ content-type: release-note
 
 With {{site.data.keyword.compliance_full}}, you can evaluate the resources that run on {{site.data.keyword.cloud_notm}} and other cloud providers for compliance. The environments that can be evaluated differ depending on how the configuration information is obtained. 
 {: shortdesc}
+
 
 
 ## Environments that can be evaluated

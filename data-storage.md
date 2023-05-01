@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-04-26"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -63,8 +63,33 @@ By default, the processing of your data is done in the United States. To update 
 4. Select the location that you want to use and check the confirmation box.
 5. Click **Save**.
 
+
+
+
+
+
+
+## Configuring data processing
+{: #processing}
+
+By default, the processing of your data is done in the United States. To update your configuration, you can use the {{site.data.keyword.compliance_short}} UI.
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {{site.data.keyword.compliance_short}}.
+2. In the navigation, click **Settings**.
+3. On the **Processing** tile, click **Edit**.
+4. Select the location that you want to use and check the confirmation box.
+5. Click **Save**.
+
 If you change your location, you must reconfigure any scans that are scheduled in your account. 
 {: note}
+
+
+
+
+
+
+
+
 
 ## [deprecated]{: tag-deprecated} Configuring encryption (collectors)
 {: #data-encryption-configure}

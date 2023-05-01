@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-13"
+lastupdated: "2023-05-01"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -38,9 +38,12 @@ Profile
 
 	![The diagram shows the layout of a profile. The information is conveyed in the surrounding text.](images/kc-profile.svg){: caption="Figure 2. Understanding profiles in the new architecture" caption-side="bottom"}
 
+
+
 	In collector-based evaluations, a profile is comprised of goals that you want to achieve. Goal-based profiles are currently used to evaluate hybrid / multi-cloud environments but will be deprecated over time as we move to an API-based architecture.
 
 	![The diagram shows the layout of a goal-based profile. The information is conveyed in the surrounding text.](images/kc-profile-collector.svg){: caption="Figure 3. Understanding profiles that are used for collector-based scanning" caption-side="bottom"}
+
 
 Specification
 :   A statement that defines the specific security and privacy requirements that a control must meet. For example, `Check whether App ID Cloud Directory users aren't able to update their own accounts`. In a collector-based evaluation this concept, when combined with an assessment, is known as a goal.
@@ -49,10 +52,11 @@ Assessment
 :   The actual evaluation of a configuration for compliance with applicable standards. An assessment can be either automated or manual depending on the control. Currently, the only available type of assessment is an {{site.data.keyword.cloud_notm}} rule. In a collector-based evaluation this concept, when combined with a specification, is known as a goal.
 
 Rule
-:   A set of conditional statements that are used to determine whether a resource configuration is in compliance. To evaluate a rule, it is associated with a profile through an assessment.
+:   A set of conditional statements that are used to determine whether a resource configuration is in compliance. To evaluate a rule, you must associate it with a profile through an assessment.
 
 Parameter
 :   The specific configuration property that is evaluated. Each parameter is assigned a value by default that can be customized when an attachment is created. For example, if a control evaluates which region that a resource exits in, you can specify the region that you want to check for by defining the parameter.
+
 
 Collector
 :   A collector is a software module that has visibility into your resource configurations. It is used in the hybrid or multi-cloud flows to gather the configuration information that is evaluated by {{site.data.keyword.compliance_short}}. 
@@ -64,11 +68,13 @@ Credentials
 
 	**Credentials are required for collector-based evaluations only.*
 
+
+
 Scope
 :   The group of resources that you want to evaluate. In the new API-based architecture, a scope can be an Enterprise, Account group, Account, or Resource group. In the collector-based architecture, a scope is configurable based on your available resources.
 
 Attachment
-:   The connection between a profile and scope that defines the way that {{site.data.keyword.compliance_short}} conducts an evaluation. An attachment is formed by selecting the grouping of resources that you want to evaluate and a profile. Then, you specify the parameters that you want to evaluate for. Attachments are evaluated once per day or can be initiated as needed. In collector-based evaluations this concept is known as a scan. Scans can be scheduled or run on-demand.
+:   The connection between a profile and scope that defines the way that {{site.data.keyword.compliance_short}} conducts an evaluation. An attachment is formed by selecting the grouping of resources that you want to evaluate and a profile. Then, you specify the parameters that you want to evaluate for. Attachments are evaluated once per day or can be initiated as needed.  In collector-based evaluations this concept is known as a scan. Scans can be scheduled or run on-demand.
 
 Results
 :   The information that is returned by the evaluation is known as results. For a breakdown of the information that is returned in your results, see [Understanding results](/docs/security-compliance?topic=security-compliance-results).
