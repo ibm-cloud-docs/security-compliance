@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-26"
+lastupdated: "2023-05-01"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -52,7 +52,7 @@ Assessment
 :   The actual evaluation of a configuration for compliance with applicable standards. An assessment can be either automated or manual depending on the control. Currently, the only available type of assessment is an {{site.data.keyword.cloud_notm}} rule. In a collector-based evaluation this concept, when combined with a specification, is known as a goal.
 
 Rule
-:   A set of conditional statements that are used to determine whether a resource configuration is in compliance. To evaluate a rule, you must associate with a profile through an assessment.
+:   A set of conditional statements that are used to determine whether a resource configuration is in compliance. To evaluate a rule, you must associate it with a profile through an assessment.
 
 Parameter
 :   The specific configuration property that is evaluated. Each parameter is assigned a value by default that can be customized when an attachment is created. For example, if a control evaluates which region that a resource exits in, you can specify the region that you want to check for by defining the parameter.
