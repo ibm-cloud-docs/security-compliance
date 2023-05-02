@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-14"
+lastupdated: "2023-05-02"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -91,6 +91,7 @@ An attachment is how you target a specific grouping of your resources to evaluat
 3. Target your attachment by selecting a **Scope** and identifying any resources that you want to **Exclude**. Then, click **Next**.
 4. Optional: Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
 5. Click **Next**.
+6. Select the frequency at which you want to evaluate your attachment.
 7. Optional: Configure notifications.
 	1. If you want to receive notifications, toggle **Notify me** to **On**.
 	2. By default, when notifications are enabled, you are alerted when 15% or more of your controls fail in a single scan. You can change this by adjusting the **Threshold** percentage. 
