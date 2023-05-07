@@ -17,7 +17,7 @@ toc:
       - topic: getting-started.md
         navtitle: Getting started
       - topic: migration.md
-        navtitle: 
+        navtitle: Migrating to the new architecture
       - topicgroup:
           label: About
           topics:
