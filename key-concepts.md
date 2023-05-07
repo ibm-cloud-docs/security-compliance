@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-01"
+lastupdated: "2023-05-07"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -15,10 +15,14 @@ subcollection: security-compliance
 # Key concepts in {{site.data.keyword.compliance_short}}
 {: #key-concepts}
 
-When you work with {{site.data.keyword.compliance_full}}, you interact with several different entities and can take multiple user paths through the service. Learn more about each entity by reviewing the following definitions and user flows.
+When you work with {{site.data.keyword.compliance_full}}, you interact with several different entities. Learn more about the components of {{site.data.keyword.compliance_short}} by reviewing the following definitions.
+
+
 
 The collector-based architecture is deprecated. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-release-notes).
 {: deprecated}
+
+
 
 ## Terminology
 {: #terms}
