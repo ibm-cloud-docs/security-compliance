@@ -35,7 +35,13 @@ toc:
   - navgroup:
       id: tutorial
       topics: 
-      - osco-v2.md
+      - topicgroup:
+          label: Install and manage a collector
+          topics:
+          - topic: tutorials/collector-vpc.md
+            navtitle: On Virtual Private Cloud
+          - topic: tutorials/collector-ks.md
+            navtitle: On Kubernetes Service
 
   - navgroup:
       id: howto
