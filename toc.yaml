@@ -32,7 +32,7 @@ toc:
 
   - navgroup:
       id: tutorial
-      topics:
+      topics: 
       - topicgroup:
           label: Install and manage a collector
           topics:
