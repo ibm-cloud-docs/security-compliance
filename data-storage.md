@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-26"
+lastupdated: "2023-05-24"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -49,20 +49,6 @@ To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword
 
 If you disconnect your instance of Cloud Object Storage or select a new bucket, {{site.data.keyword.compliance_short}} is not able to read any of your existing results data. An evaluation won't complete if a Cloud Object Storage bucket is not connected.
 {: important}
-
-
-
-## Configuring data processing
-{: #processing}
-
-By default, the processing of your data is done in the United States. To update your configuration, you can use the {{site.data.keyword.compliance_short}} UI.
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Settings**.
-3. On the **Processing** tile, click **Edit**.
-4. Select the location that you want to use and check the confirmation box.
-5. Click **Save**.
-
 
 
 
