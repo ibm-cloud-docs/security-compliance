@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-09"
+lastupdated: "2023-05-26"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -19,6 +19,30 @@ content-type: release-note
 
 
 
+
+## 29 May 2023
+{: #security-compliance-may292023}
+
+Reminder: Security and Compliance Center will become regional
+
+:   Starting 9 July 2023 Security and Compliance Center will be a provisionable, regional service offering in the IBM Cloud catalog. With this change, you will have full control over the region that is used when Security and Compliance Center processes your data. To process data in different regions, you can create multiple instances of the service in a single account. 
+
+   [deprecated]{: tag-deprecated} To support this change, support for the collector-based architecture was deprecated. This means that all of the configurations surrounding collectors, goal-based profiles, collector-based scans, goal-based results, and credentials will be removed at the end of support on 1 July 2023.
+
+   Additionally, the following changes will be made:
+   * Any Identity and Access Management (IAM) access policies or context-based restrictions that are scoped to “All Account Management Services” will no longer apply to Security and Compliance Center. Users who have access to “All Identity and Access Enabled Services” will now have access to Security and Compliance Center.
+   * If users have access only to products added to a private catalog and not the full IBM Cloud catalog, then Security and Compliance Center must be added to their private catalog to enable them to create an instance.
+   * If users have a quota on the number of resources for their account that has already been met, instances of the service will not be able to be created.
+
+   During this update, you are responsible for the migration of your scan configurations to the new architecture. You can start this migration at any time. For more information about the differences and how to get started, see [Migrating to the new architecture](/docs/security-compliance?topic=security-compliance-migrate).
+
+   As you begin your migration, please keep the following dates in mind:
+   * 8 June 2023: The location setting in Security and Compliance Center will be frozen until the upgrade is complete. The location that is specified in the service is the region in which your new instance will be created. Additional instances can be created starting in July.
+   * 1 July 2023: The collector-based architecture will be removed from Security and Compliance Center.
+   * 9 July 2023: A regional instance of Security and Compliance Center will be available in your account based on your set location and the global instance will be removed. Additionally, the changes to IAM and context-based restrictions take effect.
+
+   You might see two instances of Security and Compliance Center through the Billing page during the migration period although you can’t see two instances in your account. This is due to the way that the migration is being conducted. You are only billed through one. When the migration is complete, the global instance will be removed from your account.
+   {: note}
 
 
 
