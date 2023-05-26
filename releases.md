@@ -36,7 +36,7 @@ Schedule the frequency of your scans
 {: release-note}
 
 Support for context-based restrictions (CBR)
-:   Manage user and service access to your {{site.data.keyword.compliance_short}} resources by using context-based restrictions, based on defined criteria. For more information, see [Protecting Security and Compliance Center resources with context-based restrictions](/docs/security-compliance?topic=security-compliance-cbr).
+:   Manage user and service access to your {{site.data.keyword.compliance_short}} resources by using context-based restrictions, based on defined criteria. For more information, see [Protecting {{site.data.keyword.compliance_short}} resources with context-based restrictions](/docs/security-compliance?topic=security-compliance-cbr).
 
 
 
@@ -90,7 +90,7 @@ If you already have notifications configured they were migrated to the new forma
 
 [deprecated]{: tag-deprecated} Collector-based architecture
 
-:   Starting 30 June 2023 Security and Compliance Center will be a provision-able, regional service offering in the IBM Cloud catalog. As this change is made, support for the collector-based architecture (v1) that currently resides in the Hybrid Cloud section of the UI will be removed. If you are exclusively evaluating IBM Cloud resources, you can start migrating at any time to the improved user experience by creating an attachment. If you are working using a collector to evaluate a hybrid cloud scenario, additional information will be available about your migration plan soon.
+:   Starting 30 June 2023 {{site.data.keyword.compliance_short}} will be a provision-able, regional service offering in the IBM Cloud catalog. As this change is made, support for the collector-based architecture (v1) that currently resides in the Hybrid Cloud section of the UI will be removed. If you are exclusively evaluating IBM Cloud resources, you can start migrating at any time to the improved user experience by creating an attachment. If you are working using a collector to evaluate a hybrid cloud scenario, additional information will be available about your migration plan soon.
 
 
 
