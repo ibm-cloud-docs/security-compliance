@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-09"
+lastupdated: "2023-05-30"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -22,6 +22,32 @@ content-type: release-note
 
 
 
+## 29 May 2023
+{: #security-compliance-may292023}
+
+Reminder: {{site.data.keyword.compliance_short}} will become regional
+
+:   Starting 9 July 2023 {{site.data.keyword.compliance_short}} will be a provisionable, regional service offering in the IBM Cloud catalog. With this change, you will have full control over the region that is used when {{site.data.keyword.compliance_short}} processes your data. To process data in different regions, you can create multiple instances of the service in a single account. 
+
+   [deprecated]{: tag-deprecated} To support this change, support for the collector-based architecture was deprecated. This means that all of the configurations surrounding collectors, goal-based profiles, collector-based scans, goal-based results, and credentials will be removed at the end of support on 1 July 2023.
+
+   Additionally, the following changes will be made:
+   * Any Identity and Access Management (IAM) access policies or context-based restrictions that are scoped to “All Account Management Services” will no longer apply to {{site.data.keyword.compliance_short}}. Users who have access to “All Identity and Access Enabled Services” will now have access to {{site.data.keyword.compliance_short}}.
+   * If users have access only to products added to a private catalog and not the full IBM Cloud catalog, then {{site.data.keyword.compliance_short}} must be added to their private catalog to enable them to create an instance.
+   * If users have a quota on the number of resources for their account that has already been met, instances of the service will not be able to be created.
+
+   During this update, you are responsible for the migration of your scan configurations to the new architecture. You can start this migration at any time. For more information about the differences and how to get started, see [Migrating to the new architecture](/docs/security-compliance?topic=security-compliance-migrate).
+
+   As you begin your migration, please keep the following dates in mind:
+   * 8 June 2023: The location setting in {{site.data.keyword.compliance_short}} will be frozen until the upgrade is complete. The location that is specified in the service is the region in which your new instance will be created. Additional instances can be created starting in July.
+   * 1 July 2023: The collector-based architecture will be removed from {{site.data.keyword.compliance_short}}.
+   * 9 July 2023: A regional instance of {{site.data.keyword.compliance_short}} will be available in your account based on your set location and the global instance will be removed. Additionally, the changes to IAM and context-based restrictions take effect.
+
+   You might see two instances of {{site.data.keyword.compliance_short}} through the Billing page during the migration period although you can’t see two instances in your account. This is due to the way that the migration is being conducted. You are only billed through one. When the migration is complete, the global instance will be removed from your account.
+   {: note} 
+
+
+
 ## 2 May 2023
 {: #security-compliance-may022023}
 {: release-note}
@@ -36,7 +62,7 @@ Schedule the frequency of your scans
 {: release-note}
 
 Support for context-based restrictions (CBR)
-:   Manage user and service access to your {{site.data.keyword.compliance_short}} resources by using context-based restrictions, based on defined criteria. For more information, see [Protecting Security and Compliance Center resources with context-based restrictions](/docs/security-compliance?topic=security-compliance-cbr).
+:   Manage user and service access to your {{site.data.keyword.compliance_short}} resources by using context-based restrictions, based on defined criteria. For more information, see [Protecting {{site.data.keyword.compliance_short}} resources with context-based restrictions](/docs/security-compliance?topic=security-compliance-cbr).
 
 
 
@@ -90,7 +116,7 @@ If you already have notifications configured they were migrated to the new forma
 
 [deprecated]{: tag-deprecated} Collector-based architecture
 
-:   Starting 30 June 2023 Security and Compliance Center will be a provision-able, regional service offering in the IBM Cloud catalog. As this change is made, support for the collector-based architecture (v1) that currently resides in the Hybrid Cloud section of the UI will be removed. If you are exclusively evaluating IBM Cloud resources, you can start migrating at any time to the improved user experience by creating an attachment. If you are working using a collector to evaluate a hybrid cloud scenario, additional information will be available about your migration plan soon.
+:   Starting 30 June 2023 {{site.data.keyword.compliance_short}} will be a provision-able, regional service offering in the IBM Cloud catalog. As this change is made, support for the collector-based architecture (v1) that currently resides in the Hybrid Cloud section of the UI will be removed. If you are exclusively evaluating IBM Cloud resources, you can start migrating at any time to the improved user experience by creating an attachment. If you are working using a collector to evaluate a hybrid cloud scenario, additional information will be available about your migration plan soon.
 
 
 
