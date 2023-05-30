@@ -64,4 +64,3 @@ Depending on the evaluation flow that you're working in, your experience with th
 
 Components such as credentials, goals, profiles, collectors, scopes, and scans will not be migrated to the new architecture.
 {: note}
-
