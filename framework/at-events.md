@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-05-30"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -44,64 +44,64 @@ You must use a paid plan for the {{site.data.keyword.at_short}} service to see e
 | `compliance.posture-management-control-libraries.read` | View the details of a control library. |
 | `compliance.posture-management-control-libraries.update` | Update a control library. |
 | `compliance.posture-management-control-libraries.delete` | Delete a control library. |
-| `compliance.posture-management-credentials.list`      | View credentials. |
-| `compliance.posture-management-credentials.read`      | View the details for an added credential. |
-| `compliance.posture-management-credentials.create`    | Create a credential. |
-| `compliance.posture-management-credentials.update`    | Update an existing credential. |
-| `compliance.posture-management-credentials.delete`    | Delete a credential. |
-| `compliance.posture-management-credentialsmap.list`   | View the available mappings between credentials and scopes.|
-| `compliance.posture-management-credentialsmap.read`   | View the details of a specific credential and scope mapping. |
+| `compliance.posture-management-credentials.list` | View credentials. |
+| `compliance.posture-management-credentials.read` | View the details for an added credential. |
+| `compliance.posture-management-credentials.create`  | Create a credential. |
+| `compliance.posture-management-credentials.update`  | Update an existing credential. |
+| `compliance.posture-management-credentials.delete`  | Delete a credential. |
+| `compliance.posture-management-credentialsmap.list` | View the available mappings between credentials and scopes.|
+| `compliance.posture-management-credentialsmap.read` | View the details of a specific credential and scope mapping. |
 | `compliance.posture-management-credentialsmap.create` | Map credentials to a scope. |
 | `compliance.posture-management-credentialsmap.update` | Update an existing mapping between a credential and a scope. |
 | `compliance.posture-management-credentialsmap.delete` | Delete a mapping. |
-| `compliance.posture-management-collectors.list`   | View collectors.              |
-| `compliance.posture-management-collectors.read`   | View the details of a specific collector.              |
+| `compliance.posture-management-collectors.list` | View collectors.              |
+| `compliance.posture-management-collectors.read` | View the details of a specific collector.              |
 | `compliance.posture-management-collectors.create` | Create a collector.           |
 | `compliance.posture-management-collectors.update` | Update an existing collector. |
 | `compliance.posture-management-collectors.delete` | Delete a collector.           |
-| `compliance.posture-management-scopes.list`   | View all available scopes. |
-| `compliance.posture-management-scopes.read`   | View scopes.               |
+| `compliance.posture-management-scopes.list` | View all available scopes. |
+| `compliance.posture-management-scopes.read` | View scopes.               |
 | `compliance.posture-management-scopes.create` | Create a scope.            |
 | `compliance.posture-management-scopes.update` | Update an existing scope.  |
 | `compliance.posture-management-scopes.delete` | Delete a scope.            |
-| `compliance.posture-management-schedules.list`   | View a list of all scheduled scans. |
-| `compliance.posture-management-schedules.read`   | View the details of a scan. |
+| `compliance.posture-management-schedules.list` | View a list of all scheduled scans. |
+| `compliance.posture-management-schedules.read` | View the details of a scan. |
 | `compliance.posture-management-schedules.create` | Schedule a scan. |
 | `compliance.posture-management-schedules.update` | Update an existing scan. |
 | `compliance.posture-management-schedules.delete` | Stop a scan from running. |
-| `compliance.posture-management-validations.list`   | View validation scans. |
-| `compliance.posture-management-validations.read`   | View the results of a specific scan. |
-| `compliance.posture-management-goals.list`   | List all the available goals. |
-| `compliance.posture-management-goals.read`   | View the details of a specific goal. |
-| `compliance.posture-management-values.list`   | List the parameters that can be set for a goal. |
-| `compliance.posture-management-values.read`   | View the value for a goal parameter. |
-| `compliance.posture-management-values.update` | Update the parameters of an existing goal.           |
-| `compliance.posture-management-controls.list`   | View the available controls that are available in a profile. |
-| `compliance.posture-management-profiles.list`   | View a list of available profiles. |
-| `compliance.posture-management-profiles.read`   | View the details of a profile.              |
-| `compliance.posture-management-profiles.create` | Create a profile.           |
-| `compliance.posture-management-profiles.update` | Update an existing profile. |
-| `compliance.posture-management-profiles.delete` | Delete a profile.           |
-| `compliance.posture-management-tags.list`   | View tags.              |
+| `compliance.posture-management-validations.list` | View validation scans. |
+| `compliance.posture-management-validations.read` | View the results of a specific scan. |
+| `compliance.posture-management-goals.list` | List all the available goals. |
+| `compliance.posture-management-goals.read` | View the details of a specific goal. |
+| `compliance.posture-management-values.list` | List the parameters that can be set for a goal. |
+| `compliance.posture-management-values.read` | View the value for a goal parameter. |
+| `compliance.posture-management-values.update` | Update the parameters of an existing goal.|
+| `compliance.posture-management-controls.list` | View the available controls that are available in a profile. |
+| `compliance.posture-management-tags.list` | View tags.              |
 | `compliance.posture-management-tags.create` | Create a tag.           |
 | `compliance.posture-management-tags.update` | Update an existing tag. |
 | `compliance.posture-management-tags.delete` | Delete a tag.           |
-| `compliance.posture-management-inventory.list`   | View your available inventory across all your environments. |
-| `compliance.posture-management-inventory.read`   | View the details of a specific environment's inventory. |
+| `compliance.posture-management-inventory.list` | View your available inventory across all your environments. |
+| `compliance.posture-management-inventory.read` | View the details of a specific environment's inventory. |
 | `compliance.posture-management-inventory.create` | Discover your inventory. |
 | `compliance.posture-management-inventory.update` | Update your inventory. |
 | `compliance.posture-management-inventory.delete` | Delete an inventory.  |
-| `compliance.posture-management-remediation.list`      | List a remediation. |
-| `compliance.posture-management-remediation.update`    | Update a remediation. |
+| `compliance.posture-management-remediation.list` | List a remediation. |
+| `compliance.posture-management-remediation.update` | Update a remediation. |
 | `compliance.posture-management-remediation.remediate` | Trigger a remediation. |
 | `compliance.posture-management-keys.read`   | View your customer managed encryption configuration. |
 | `compliance.posture-management-keys-write`  | Enable customer managed encryption configuration. |
 | `compliance.posture-management-keys.delete` | Disable customer managed encryption configuration. |
-| `compliance.posture-management.integrations-read`        | View an integration in {{site.data.keyword.compliance_short}}.   |
-| `compliance.posture-management.integrations-create`      | Create an integration in {{site.data.keyword.compliance_short}}. |
-| `compliance.posture-management.integrations-update`      | Update an integration in {{site.data.keyword.compliance_short}}. |
-| `compliance.posture-management.integrations-delete`      | Delete an integration in {{site.data.keyword.compliance_short}}. |
-| `compliance.admin-settings.list`   | View {{site.data.keyword.compliance_short}} settings for your account. |
+| `compliance.posture-management.integrations-read` | View an integration in {{site.data.keyword.compliance_short}}.   |
+| `compliance.posture-management.integrations-create` | Create an integration in {{site.data.keyword.compliance_short}}. |
+| `compliance.posture-management.integrations-update` | Update an integration in {{site.data.keyword.compliance_short}}. |
+| `compliance.posture-management.integrations-delete` | Delete an integration in {{site.data.keyword.compliance_short}}. | 
+| `compliance.configuration-governance-rules.list` | View the available rules in {{site.data.keyword.compliance_short}}. |
+| `compliance.configuration-governance-rules.create` | Create a new rule. |
+| `compliance.configuration-governance-rules.read` | View the details of a rule. |
+| `compliance.configuration-governance-rules.update` | Update a rule. |
+| `compliance.configuration-governance-rules.delete` | Delete a rule. |
+| `compliance.admin-settings.list` | View {{site.data.keyword.compliance_short}} settings for your account. |
 | `compliance.admin-settings.update` | Update {{site.data.keyword.compliance_short}} settings for your account. |
 | `compliance.admin.test-event-send` | Send a test event to a connected {{site.data.keyword.en_short}} service instance. |
 {: caption="Table 1. List of events that apply to {{site.data.keyword.compliance_short}}" caption-side="top"}
