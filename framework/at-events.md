@@ -96,6 +96,11 @@ You must use a paid plan for the {{site.data.keyword.at_short}} service to see e
 | `compliance.posture-management.integrations-create` | Create an integration in {{site.data.keyword.compliance_short}}. |
 | `compliance.posture-management.integrations-update` | Update an integration in {{site.data.keyword.compliance_short}}. |
 | `compliance.posture-management.integrations-delete` | Delete an integration in {{site.data.keyword.compliance_short}}. | 
+| `compliance.posture-management-scans.create` | Initiate a scan. |
+| `compliance.posture-management-reports.list` | View all available results. |
+| `compliance.posture-management-reports.create` | Generate a new report. |
+| `compliance.posture-management-reports.read` | View available results. |
+| `compliance.posture-management-reports.delete` | Delete results. |
 | `compliance.configuration-governance-rules.list` | View the available rules in {{site.data.keyword.compliance_short}}. |
 | `compliance.configuration-governance-rules.create` | Create a new rule. |
 | `compliance.configuration-governance-rules.read` | View the details of a rule. |
