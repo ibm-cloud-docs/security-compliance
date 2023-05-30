@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-24"
+lastupdated: "2023-05-30"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -70,6 +70,11 @@ If you change your location, you must reconfigure any scans that are scheduled i
 {: note}
 
 
+
+
+
+{{site.data.keyword.compliance_short}} will become a regional service on 30 June 2023. In preparation for that change, you cannot change your location after 1 June 2023. 
+{: important}
 
 
 
