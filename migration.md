@@ -28,9 +28,9 @@ Because the foundational structure of the service changed, there is not a one-to
 
 As you prepare for this change, please keep the following dates in mind:
 
-  * 8 June 2023: The location setting in {{site.data.keyword.compliance_short}} will be frozen until the upgrade is complete. The location that is specified in the service is the region in which your new instance will be created. Additional instances can be created starting in July.
-  * 1 July 2023: The collector-based architecture will be removed from {{site.data.keyword.compliance_short}}.
-  * 9 July 2023: A regional instance of {{site.data.keyword.compliance_short}} will be available in your account based on your set location and the global instance will be removed. Additionally, the changes to IAM and context-based restrictions take effect.
+	* 8 June 2023: The location setting in {{site.data.keyword.compliance_short}} will be frozen until the upgrade is complete. The location that is specified in the service is the region in which your new instance will be created. Additional instances can be created starting in July.
+	* 1 July 2023: The collector-based architecture will be removed from {{site.data.keyword.compliance_short}}.
+	* 9 July 2023: A regional instance of {{site.data.keyword.compliance_short}} will be available in your account based on your set location and the global instance will be removed. Additionally, the changes to IAM and context-based restrictions take effect.
 
 You might see two instances of {{site.data.keyword.compliance_short}} through the Billing page during the migration period although you can’t see two instances in your account. This is due to the way that the migration is being conducted. You are only billed through one. When the migration is complete, the global instance will be removed from your account.
 {: tip}
