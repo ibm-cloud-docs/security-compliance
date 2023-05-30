@@ -15,9 +15,9 @@ toc:
       id: learn
       topics:
       - topic: getting-started.md
-        navtitle: Getting started
+        navtitle: Getting started<location-freeze>
       - topic: migration.md
-        navtitle: Migrating to the new architecture
+        navtitle: Migrating to the new architecture</location-freeze>
       - topicgroup:
           label: About
           topics:

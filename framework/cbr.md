@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-01"
+lastupdated: "2023-05-30"
 
 keywords: cbr in {{site.data.keyword.compliance_short}}, context-based restrictions for {{site.data.keyword.compliance_short}}, 
 
@@ -275,4 +275,3 @@ Follow the creation or modification of zones or rules with adequate testing to e
 
 Users who attempt to access your resources outside of the defined zones receive `HTTP error 403` when the appropriate rules are not established.
 {: note}
-
