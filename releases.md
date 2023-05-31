@@ -21,7 +21,6 @@ content-type: release-note
 
 
 
-
 ## 29 May 2023
 {: #security-compliance-may292023}
 
@@ -45,7 +44,6 @@ Reminder: {{site.data.keyword.compliance_short}} will become regional
 
    You might see two instances of {{site.data.keyword.compliance_short}} through the Billing page during the migration period although you can’t see two instances in your account. This is due to the way that the migration is being conducted. You are only billed through one. When the migration is complete, the global instance will be removed from your account.
    {: note} 
-
 
 
 ## 2 May 2023

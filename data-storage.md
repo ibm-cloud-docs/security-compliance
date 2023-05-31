@@ -70,15 +70,8 @@ If you change your location, you must reconfigure any scans that are scheduled i
 {: note}
 
 
-
-
-
-{{site.data.keyword.compliance_short}} will become a regional service on 30 June 2023. In preparation for that change, you cannot change your location after 1 June 2023. 
+{{site.data.keyword.compliance_short}} will become a regional service on 9 July 2023. In preparation for that change, you cannot change your location after 8 June 2023. 
 {: important}
-
-
-
-
 
 
 
