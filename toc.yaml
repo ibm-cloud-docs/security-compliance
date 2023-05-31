@@ -20,9 +20,9 @@ toc:
         navtitle: Migrating to the new architecture
       - topicgroup:
           label: About
-          topics:
+          topics: 
           - topic: key-concepts.md
-            navtitle: Key concepts
+            navtitle: Key concepts</v1
           - topic: overview.md
             navtitle: How it works
           - topic: pricing.md
