@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-30"
+lastupdated: "2023-05-31"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -16,7 +16,7 @@ subcollection: security-compliance
 # Migrating to the updated architecture
 {: #migrate}
 
-Starting 8 July 2023 {{site.data.keyword.compliance_full}} will be a provision-able, regional service offering in the {{site.data.keyword.cloud_notm}} catalog. With this change, you will have full control over the region that is used when {{site.data.keyword.compliance_short}} processes your data. To process data in different regions, you can provision multiple instances of the service in a single account. As part of these changes, the collector-based architecture was deprecated and support will be removed. If you are currently working with the collector-based architecture, this topic can help you understand the differences in functionality and what your migration to the new architecture might look like. 
+Starting 9 July 2023 {{site.data.keyword.compliance_full}} will be a provision-able, regional service offering in the {{site.data.keyword.cloud_notm}} catalog. With this change, you will have full control over the region that is used when {{site.data.keyword.compliance_short}} processes your data. To process data in different regions, you can provision multiple instances of the service in a single account. As part of these changes, the collector-based architecture was deprecated and support will be removed. If you are currently working with the collector-based architecture, this topic can help you understand the differences in functionality and what your migration to the new architecture might look like. 
 
 ## What does the migration look like?
 {: #migrate-how}
