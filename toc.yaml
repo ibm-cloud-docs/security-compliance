@@ -22,7 +22,7 @@ toc:
           label: About
           topics: 
           - topic: key-concepts.md
-            navtitle: Key concepts</v1
+            navtitle: Key concepts
           - topic: overview.md
             navtitle: How it works
           - topic: pricing.md
