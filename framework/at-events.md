@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-30"
+lastupdated: "2023-06-01"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -108,7 +108,7 @@ You must use a paid plan for the {{site.data.keyword.at_short}} service to see e
 | `compliance.configuration-governance-rules.delete` | Delete a rule. |
 | `compliance.admin-settings.list` | View {{site.data.keyword.compliance_short}} settings for your account. |
 | `compliance.admin-settings.update` | Update {{site.data.keyword.compliance_short}} settings for your account. |
-| `compliance.admin.test-event-send` | Send a test event to a connected {{site.data.keyword.en_short}} service instance. |
+| `compliance.admin-test-event.send` | Send a test event to a connected {{site.data.keyword.en_short}} service instance. |
 {: caption="Table 1. List of events that apply to {{site.data.keyword.compliance_short}}" caption-side="top"}
 
 
