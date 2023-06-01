@@ -1,6 +1,6 @@
 {
     "title": "Security and Compliance Center docs",
-    "lastupdated": "2021-12-13",
+    "lastupdated": "2023-06-01",
     "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
     "section_devtools": {
       "api": "/apidocs/security-compliance/posture",
@@ -8,19 +8,19 @@
     },
     "section_recommended": [
       {
-        "title": "What is a collector?",
-        "description": "To start monitoring your compliance posture, you must first gather your configuration data by using a collector.",
+        "title": "How does Security and Compliance Center work?",
+        "description": "Learn more about the key terms and concepts you need to understand to work with the service.",
         "href": "/docs/security-compliance?topic=security-compliance-collector"
       },
       {
-        "title": "What is a rule?",
+        "title": "Defining custom rules",
         "description": "A rule is used to define the guardrails for how resources can be configured in your account.",
-        "href": "/docs/security-compliance?topic=security-compliance-what-is-rule"
+        "href": "/docs/security-compliance?topic=security-compliance-rules-define"
       },
       {
-        "title": "Viewing your current posture",
-        "description": "Learn more about your compliance score and how it is calculated.",
-        "href": "/docs/security-compliance?topic=security-compliance-view-posture"
+        "title": "Viewing results",
+        "description": "Learn about how to view your results.",
+        "href": "/docs/security-compliance?topic=security-compliance-results"
       }
     ],
     "section_learn": {
@@ -33,19 +33,19 @@
       "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
       "tiles": [
         {
-          "date": "10 October 2022",
-          "title": "Updates coming soon!",
-          "description": "A new and improved experience of Security and Compliance Center is on its way! See the release notes to learn more about what that means for you."
+          "date": "29 May 2023",
+          "title": "Reminder: Security and Compliance Center will be regional",
+          "description": "Starting 9 July 2023 Security and Compliance Center will be a provisionable, regional service offering in the IBM Cloud catalog. See the release notes to learn more about what this means for you."
         },
         {
-          "date": "21 September 2022",
-          "title": "Now available: New profile version",
-          "description": "Version 6 of the IBM Cloud for Financial Services is now available."
+          "date": "2 May 2023",
+          "title": "Schedule the frequency of your scans",
+          "description": "You can now schedule the frequency of your scans."
         },
         {
-          "date": "1 September 2022",
-          "title": "New properties available for VPC",
-          "description": "New properties are now available as part of Configuration Governance."
+          "date": "1 May 2023",
+          "title": "Support for context-based restrictions",
+          "description": "Context-based restrictions can now be used to manage user and service access to Security and Compliance Center."
         }
       ]
     }
