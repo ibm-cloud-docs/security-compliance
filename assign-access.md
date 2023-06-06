@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-01"
+lastupdated: "2023-06-06"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -64,4 +64,5 @@ As an account owner, you are automatically assigned Administrator platform acces
 
 If you are working with the collector-based architecture, you must assign additional access for your credentials. For more information, see [Assigning the required permissions](/docs/security-compliance?topic=security-compliance-permissions).
 {: deprecated}
+
 
