@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-30"
+lastupdated: "2023-06-07"
 
 keywords: cbr in {{site.data.keyword.compliance_short}}, context-based restrictions for {{site.data.keyword.compliance_short}}, 
 
@@ -46,7 +46,7 @@ After you create a rule, it might take up to 10 minutes for the rule to take eff
 Context-based restrictions are available only for the updated architecture. 
 {: note}
 
-Context-based restrictions protect only the actions associated with the [{{site.data.keyword.compliance_short}} API](apidocs/security-compliance/posture-v2.0). Actions that are associated with the following platform APIs are not protected by context-based restrictions. Reference the API docs for the specific action IDs.
+Context-based restrictions protect only the actions associated with the [{{site.data.keyword.compliance_short}} API](/apidocs/security-compliance/posture-v2.0). Actions that are associated with the following platform APIs are not protected by context-based restrictions. Reference the API docs for the specific action IDs.
 
 - [Resource Instance APIs](/apidocs/resource-controller/resource-controller#list-resource-instances)
 - [Resource Keys APIs](/apidocs/resource-controller/resource-controller#list-resource-keys)
@@ -54,7 +54,7 @@ Context-based restrictions protect only the actions associated with the [{{site.
 - [Resource Aliases APIs](/apidocs/resource-controller/resource-controller#list-resource-aliases)
 - [IAM Policy APIs](/apidocs/iam-policy-management#list-policies)
 - [Global Search APIs](/apidocs/search)
-- Global Tagging [Attach](/apidocs/tagging#attach-tag) and [Detach](/apidocs/tagging#detach-tag) APIs
+- [Global Tagging Attach](/apidocs/tagging#attach-tag) and [Detach](/apidocs/tagging#detach-tag) APIs
 - [Context-based Restriction Rule APIs](/apidocs/context-based-restrictions#create-rule)
 - [Secrets Manager APIs](/apidocs/secrets-manager)
 
@@ -170,7 +170,7 @@ Example payload to add multiple services, IP addresses, and VPCs to a network zo
 {: #network-zone-cli} 
 {: cli}
 
-You can use the `cbr-zone-create` command to add network locations, VPCs, and service references to network zones. For more information, see the CBR [CLI reference](docs/account?topic=account-cbr-plugin). Add {{site.data.keyword.compliance_short}} to network zones as a service reference to allow Security and Compliance Center to access resources and services in your account that are the subject of a rule.
+You can use the `cbr-zone-create` command to add network locations, VPCs, and service references to network zones. For more information, see the CBR [CLI reference](/docs/account?topic=account-cbr-plugin). Add {{site.data.keyword.compliance_short}} to network zones as a service reference to allow Security and Compliance Center to access resources and services in your account that are the subject of a rule.
 
 To find a list of available service refs, run the `ibmcloud cbr service-ref-targets` [command](/docs/account?topic=account-cbr-plugin#cbr-cli-service-ref-targets-command). The `service_name` for SCC is `compliance`.
 {: tip}
