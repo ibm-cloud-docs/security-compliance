@@ -49,7 +49,7 @@ Depending on the evaluation flow that you're working in, your experience with th
 |            | Version 1 architecture | Version 2 architecture |
 |------------|-----------|-----------------|
 | Availability | Amazon Web Services, Google Cloud Platform, Microsoft Azure, and On-premises | {{site.data.keyword.cloud_notm}}  \n Note: To evaluate a multi-cloud flow, get started with Workload Protection. |
-| Integrations | Tanium and OSCO | {{site.data.keyword.cloud_notm}} Workload Protection and OSCO |
+| Integrations | Tanium | {{site.data.keyword.cloud_notm}} Workload Protection and OSCO |
 | Enterprise account support | Set up required | Available by default |
 | Results storage | IBM-owned | Customer-owned |
 | Control parameters | Customizable by account | Customizable by attachment |
