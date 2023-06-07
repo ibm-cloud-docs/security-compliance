@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-30"
+lastupdated: "2023-06-07"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -39,6 +39,8 @@ Before you get started, be sure that you have resources in your account to evalu
 
 Running an evaluation does not ensure regulatory compliance. An evaluation provides a point in time statement of your current posture for a specific resource. It is your responsibility to review and interpret the results to ensure that your organization is adhering to the controls that are required for your industry. 
 {: important}
+
+
 
 
 ## Assign access
