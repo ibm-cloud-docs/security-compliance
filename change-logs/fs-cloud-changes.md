@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-20"
+lastupdated: "2023-06-07"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -51,7 +51,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 
 ## Version 1.2.0
-{: #fs-cloud-v110}
+{: #fs-cloud-v120}
 
 The following rules were updated in the {{site.data.keyword.cloud_notm}} for Financial Services library and profile as of 20 April 2023.
 

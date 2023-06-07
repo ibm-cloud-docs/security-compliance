@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-06-06"
+lastupdated: "2023-06-07"
 
 keywords: integrations, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -61,8 +61,8 @@ You can evaluate your organization’s current security and compliance posture b
 * [Direct Link](/docs/dl?topic=dl-get-started-with-ibm-cloud-dl)*
 * [Event Streams](/docs/EventStreams?topic=EventStreams-getting-started)*
 * [Hyper Protect Crypto Services](/docs/hs-crypto?topic=hs-crypto-get-started)*
-* [Hyper Protect DBaaS for MongoDB](/docs/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted)*
-* [Hyper Protect DBaaS for PostgreSQL](/docs/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted)
+* [Hyper Protect DBaaS for MongoDB](/docs/hyper-protect-dbaas-for-mongodb)*
+* [Hyper Protect DBaaS for PostgreSQL](/docs/hyper-protect-dbaas-for-postgresql)
 * [{{site.data.keyword.keymanagementserviceshort}}](/docs/key-protect?topic=key-protect-getting-started-tutorial)*
 * [{{site.data.keyword.containershort}}](/docs/containers?topic=containers-security)* 
 * [Log Analysis](/docs/log-analysis?topic=log-analysis-adoption#adoption_acc_settings)*
