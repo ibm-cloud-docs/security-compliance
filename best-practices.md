@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-06-07"
 
 keywords: scc best practices, enterprise, scc access
 
@@ -19,7 +19,7 @@ As you start working with {{site.data.keyword.compliance_short}}, there are a fe
 {: shortdesc}
 
 
-## Providing the right access to the right people
+## Providing the correct access to the correct people
 {: #bp-access}
 
 There are several people in your organization who might require varying levels of access to {{site.data.keyword.compliance_short}} or integrations. To ensure that you're following best practices, be sure that you create access groups and assign only the minimum required permissions for team members to perform their duties. To manage compliance for an individual account, a compliance focal needs access to the {{site.data.keyword.compliance_short}} service, {{site.data.keyword.en_short}}, and Cloud Object Storage by using IAM access policies assign to the access group. To manage compliance for an enterprise, additional permissions are required. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-assign-roles).

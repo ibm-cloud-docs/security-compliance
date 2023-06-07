@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-17"
+lastupdated: "2023-06-07"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -73,7 +73,7 @@ The following controls and rules have been updated in the {{site.data.keyword.cl
 | 6.17 | Check whether a Toolchain static scan exists and has passed	| Check whether DevSecOps Toolchain passes static code scan to identify vulnerabilities in source code |
 | 6.18 | Check whether a Toolchain dynamic scan exists and has passed | Check whether DevSecOps Toolchain passes dynamic code scan to identify vulnerabilities in deployed artifacts |
 {: caption="Table. Understanding control and rule updates" caption-side="top"}
-{: #scc-bp-1}
+{: #scc-bp-2}
 {: tab-title="Rule"}
 {: tab-group="v1.1"}
 {: class="simple-tab-table"}
