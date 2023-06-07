@@ -42,6 +42,7 @@ toc:
             navtitle: On Virtual Private Cloud
           - topic: tutorials/collector-ks.md
             navtitle: On Kubernetes Service
+      - tutorials/osco-v2.md
 
   - navgroup:
       id: howto
@@ -85,7 +86,6 @@ toc:
       - topicgroup:
           label: Connecting integrations
           topics: 
-          - integrations/osco.md
           - integrations/tanium.md
       - topicgroup:
           label: Enhancing security
@@ -140,6 +140,7 @@ toc:
           - troubleshooting/ts-notifications.md
           - troubleshooting/ts-ip-address.md
           - troubleshooting/ts-results-osco.md
+          - troubleshooting/ts-utp-osco.md
           - troubleshooting/cache.md
       - known-issues.md
       - limits.md

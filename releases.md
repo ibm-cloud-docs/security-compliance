@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-30"
+lastupdated: "2023-06-07"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -19,6 +19,11 @@ content-type: release-note
 
 
 
+## 7 June 2023
+{: #security-compliance-june7023}
+
+OpenShift Compliance Operator (OSCO)
+:   You can now evaluate your OpenShift clusters by using the OSCO integration in the updated architecture. For help getting started or customizing your workflow, see [Evaluate the compliance of your RedHat OpenShift Clusters](/docs/security-compliance?topic=security-compliance-osco-scan).
 
 
 ## 29 May 2023

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-04-26"
+lastupdated: "2023-06-06"
 
 keywords: integrations, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -32,7 +32,9 @@ By using the assessment-based profiles, you can evaluate {{site.data.keyword.clo
 ## {{site.data.keyword.cloud_notm}} components that can be evaluated
 {: #evaluate-services}
 
-You can evaluate your organization’s current security and compliance posture by validating the configuration of your resources in the following components. 
+You can evaluate your organization’s current security and compliance posture by validating the configuration of your resources in the following components.
+
+
 
 * [{{site.data.keyword.at_short}}](/docs/activity-tracker?topic=activity-tracker-getting-started)*
 * [{{site.data.keyword.appid_short_notm}}](/docs/appid?topic=appid-getting-started)*
