@@ -141,6 +141,7 @@ toc:
           - troubleshooting/ts-notifications.md
           - troubleshooting/ts-ip-address.md
           - troubleshooting/ts-results-osco.md
+          - troubleshooting/ts-utp-osco.md
           - troubleshooting/cache.md
       - known-issues.md
       - limits.md

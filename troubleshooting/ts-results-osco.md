@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-06-07"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -26,11 +26,9 @@ There are a few reasons that this might happen:
 
 * Your scope does not contain any OpenShift clusters.
 * The integration might not be enabled in your scan settings.
-* Discovery might not have completed.
 
 To resolve the issue:
 {: tsResolve}
 
 * Verify that your scope contains OpenShift clusters.
 * Verify that the integration is enabled in your scan settings.
-* Run a discovery scan on your scope. When it's complete, run another validation scan.
