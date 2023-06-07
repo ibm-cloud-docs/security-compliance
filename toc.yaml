@@ -86,7 +86,6 @@ toc:
       - topicgroup:
           label: Connecting integrations
           topics: 
-          - integrations/osco.md
           - integrations/tanium.md
       - topicgroup:
           label: Enhancing security
