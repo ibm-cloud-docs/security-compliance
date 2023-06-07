@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-12"
+lastupdated: "2023-06-07"
 
 keywords: credentials, security and compliance, collector access, collector communication, resource scan, configuration scanning, credentials stored
 
@@ -81,7 +81,7 @@ To add a credential through the console, you can use the following steps.
 	| {{site.data.keyword.cloud_notm}} | An {{site.data.keyword.cloud_notm}} API key with a service ID. For help with creating an API key, see [Understanding API keys](/docs/account?topic=account-manapikey). Occasionally, services require [extra permissions](/docs/security-compliance?topic=security-compliance-permissions#additional-permissions). To create an {{site.data.keyword.cloud_notm}} API key without a service ID, be sure that the user who creates the key has the required permissions for all the resources that you want to scan. |
 	| Amazon Web Services | Your AWS user credentials, API Access Key ID, and Secret Access Key. Your secret access key is a large binary encoded string. [Learn more](/docs/security-compliance?topic=security-compliance-permissions#amazon-permissions) about the specific permissions that you can enable for AWS. |
 	| Microsoft Azure | An Azure client ID (application ID), client secret (authentication key), tenant ID, and subscription ID. Additionally, you must provide the list of Resource Groups that are associated with the Subscription ID that is involved in the scan. [Learn more](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal#get-application-id-and-authentication-key){: external} about how to create your Azure credentials. You can find more information on the specific permissions](/docs/security-compliance?topic=security-compliance-permissions#azure-permissions) you can enable for Azure. |
-	| Google Cloud Platform | A Google Cloud Platform service account authentication key. [Find more information](https://cloud.google.com/iam/docs/creating-managing-service-account-keys){: external} about how to create an Authentication Key. [Learn more](/docs/security-compliance?topic=security-compliance-permissions#google-permissions) about the specific permissions that you can enable for Google Cloud Platform. |
+	| Google Cloud Platform | A Google Cloud Platform service account authentication key. [Find more information](https://cloud.google.com/iam/docs/keys-create-delete){: external} about how to create an Authentication Key. [Learn more](/docs/security-compliance?topic=security-compliance-permissions#google-permissions) about the specific permissions that you can enable for Google Cloud Platform. |
 	| Database | The name of the database and the username and password that are needed to access it. |
 	| Username - password | A username and password combination that is needed to gain access to an on-premises resource. |
 	| Username - PEM | A username and password combination and PEM file that is needed to gain access to an on-premises resource. |
