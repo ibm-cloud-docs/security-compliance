@@ -64,7 +64,7 @@ Before you can start evaluating your resources, the OSCO must be installed to yo
 
 
 ## Scan your resources
-{: #osco-scan}
+{: #osco-resources}
 {: step}
 
 To scan your resources, you create an attachment between the resource that you want to evaluate and the profile that you want to use to run the evaluation. To create an attachment, you can use the following steps.
