@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-06"
+lastupdated: "2023-06-07"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -27,7 +27,7 @@ As an account owner, you are automatically assigned Administrator platform acces
    
 	| Service | Minimum required permissions |
 	|---------|----------------------|
-	| {{site.data.keyword.compliance_short}} | Administrator  |
+	| {{site.data.keyword.compliance_short}} | Administrator  \n Compliance Manager |
 	| Cloud Object Storage | Reader |
 	| Event Notifications | Reader |
 	{: caption="Table. Minimum required permissions" caption-side="top"}
