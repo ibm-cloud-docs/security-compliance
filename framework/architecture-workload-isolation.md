@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-06-07"
 
 keywords: public isolation for {{site.data.keyword.compliance_short}}, compute isolation for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} architecture, workload isolation in {{site.data.keyword.compliance_short}} 
 
@@ -32,7 +32,7 @@ Check out the following image to see how the service workloads are isolated and 
 | Component | Description |
 |:----------|:------------|
 | Control plane | The microservices that make up the individual components of the service run in the control plane, where they are isolated from the other components. Additionally, internal dependencies are run and isolated as part of the control plane. |
-| Data plane | Your resource configurations are validated by [IBM-managed collectors](/docs/security-compliance?topic=security-compliance-collector) as part of the data plane before the results are forwarded to the control plane. |
+| Data plane | Your resource configurations are validated by IBM-managed collectors as part of the data plane before the results are forwarded to the control plane. |
 {: caption="Table 1. IBM-managed components of the {{site.data.keyword.compliance_short}}" caption-side="top"}
 {: #ibm-managed}
 {: tab-title="IBM"}
@@ -42,7 +42,7 @@ Check out the following image to see how the service workloads are isolated and 
 | Component | Description |
 |:----------|:------------|
 | {{site.data.keyword.cloud_notm}} services | As you interact with {{site.data.keyword.compliance_short}}, you are responsible for the instances of the other services that you chose to interact with through the service. For example, if you create a rule, you are responsible for ensuring that the collector has access to your resource by using an API key. |
-| Collectors | Your resource configurations are processed by a [collector](/docs/security-compliance?topic=security-compliance-collector) that you are responsible for installing on infrastructure that you own and manage. |
+| Collectors | Your resource configurations are processed by a collector that you are responsible for installing on infrastructure that you own and manage. |
 | {{site.data.keyword.at_short}} | As you interact with the service, a log of the events that are generated can be found in your instance of {{site.data.keyword.at_short}}. |
 {: caption="Table 1. Customer-managed components of the {{site.data.keyword.compliance_short}}" caption-side="top"}
 {: #customer-managed}
