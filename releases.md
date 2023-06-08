@@ -363,7 +363,7 @@ New service available in Configuration Governance
 {: release-note}
 
 Add parameters during credential mapping
-:   When resources such as an instance of {{site.data.keyword.containershort}} clusters are scanned, additional parameters must be provided in order for the collector to access all their configuration data. If so, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials. For more information, see [Mapping additional credentials](/docs/security-compliance?topic=security-compliance-credentials).
+:   When resources such as an instance of {{site.data.keyword.containershort}} clusters are scanned, additional parameters must be provided in order for the collector to access all their configuration data. If so, additional fields are displayed in the {{site.data.keyword.compliance_short}} UI when you are mapping credentials.
 
 
 
@@ -406,7 +406,7 @@ Deprecation of the alerts capability
 {: release-note}
 
 Customer-managed collectors can now be installed on a cluster
-:   You can now install your customer-managed collector on to an {{site.data.keyword.cloud_notm}} Kubernetes Service or OpenShift cluster. For more information or help getting started, see [the tutorial](/docs/security-compliance?topic=security-compliance-collector).
+:   You can now install your customer-managed collector on to an {{site.data.keyword.cloud_notm}} Kubernetes Service or OpenShift cluster.
 
 New service available in Configuration Governance
 :   {{site.data.keyword.cloud_notm}} Container Registry is now available as part of the Configuration Governance component. You can create guardrails for Container Registry such as restricting an account so that it can push and pull images only over private connections.
@@ -426,7 +426,7 @@ New goals
 {: release-note}
 
 Scan your OpenShift clusters
-:   The ability to scan your OpenShift clusters is now available through the OpenShift Compliance Operator(OSCO) integration. To get started, see [Integrating OSCO](/docs/security-compliance?topic=security-compliance-setup-osco).
+:   The ability to scan your OpenShift clusters is now available through the OpenShift Compliance Operator(OSCO) integration
 
 ## 27 October 2021
 {: #security-compliance-oct272021}
@@ -497,7 +497,7 @@ New version of the {{site.data.keyword.cloud_notm}} for Financial Services profi
 {: release-note}
 
 Tanium integration
-:   Now, you can configure [Tanium Comply](https://docs.tanium.com/comply/comply/index.html){: external} to forward your compliance data. With Tanium Comply, you can evaluate your organizations endpoints for potential vulnerabilities and misconfigurations against industry security standards, vulnerability definitions, and custom compliance checks. When you integrate Tanium with the {{site.data.keyword.compliance_short}}, you can view all your compliance data in one location in the same format. For more information, see [Connecting Tanium](/docs/security-compliance?topic=security-compliance-setup-tanium).
+:   Now, you can configure [Tanium Comply](https://docs.tanium.com/comply/comply/index.html){: external} to forward your compliance data. With Tanium Comply, you can evaluate your organizations endpoints for potential vulnerabilities and misconfigurations against industry security standards, vulnerability definitions, and custom compliance checks. When you integrate Tanium with the {{site.data.keyword.compliance_short}}, you can view all your compliance data in one location in the same format.
 
 
 ## 14 June 2021
@@ -505,7 +505,7 @@ Tanium integration
 {: release-note}
 
 IBM-managed collector
-:   A collector is used to gather the configuration information about your resources and then validate it against a specified standard. Previously, you were responsible for the installation and lifecycle management of the collector. Now, you can get a proof of concept up and running quickly by configuring an IBM-managed collector. For more information, see [Configuring managed collectors](/docs/security-compliance?topic=security-compliance-collector).
+:   A collector is used to gather the configuration information about your resources and then validate it against a specified standard. Previously, you were responsible for the installation and lifecycle management of the collector. Now, you can get a proof of concept up and running quickly by configuring an IBM-managed collector.
 
 New goals
 :   You might notice that your compliance score changed even though you didn't update any of your configurations. New goals were added to the {{site.data.keyword.compliance_short}} profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the `IBM Best Practices Controls 1.0` profile. All the goals with ID's in the following ranges are new.
@@ -519,7 +519,7 @@ Initial Posture Management API support
 :   As part of this release, the Posture Management component of the service provides three external APIs that you can use as part of your security and compliance automation. For more information, see the [Posture Management API docs](/apidocs/security-compliance/posture).
 
 Proxy support for discovery and fact collection
-:   With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans. For more information, see [Which endpoints does a collector access?](/docs/security-compliance?topic=security-compliance-collector)
+:   With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans. 
 
 New goal mapping
 :   The goal `3000045` is now mapped to CM-2 NIST 800 and were added to an additional profile.
@@ -559,7 +559,7 @@ Customize default values for your resources
 Manage your own encryption
 :   If you're using {{site.data.keyword.compliance_short}} to monitor your current posture, you can now manage your encryption settings in the **Data settings** tab of the service UI.
 
-   By default, the data that is generated by the {{site.data.keyword.compliance_short}} is encrypted at rest by IBM. To control the encryption of your data, you can enable a key management service and select your own key. For more information, see [Protecting your sensitive data](/docs/security-compliance?topic=security-compliance-mng-data#data-encryption).
+   By default, the data that is generated by the {{site.data.keyword.compliance_short}} is encrypted at rest by IBM. To control the encryption of your data, you can enable a key management service and select your own key. For more information, see [Protecting your sensitive data](/docs/security-compliance?topic=security-compliance-mng-data).
 
 New goals
 :   You might notice that your compliance score changed even though you didn't update any of your configurations. 51 new goals were added to the IBM profiles that your resources are automatically scanned for. For detailed descriptions of the new goals, you can review the IBM Best Practices Controls 1.0 profile. All the goals with ID's in the following ranges are new.
@@ -576,7 +576,7 @@ New goals
 {: release-note}
 
 Updated Scopes page
-:   An improved experience is now available for viewing, creating, and deleting scopes. For more information, see [Managing scopes](/docs/security-compliance?topic=security-compliance-scopes).
+:   An improved experience is now available for viewing, creating, and deleting scopes.
 
 Updated Inventory page
 :   You can now delete inventories that you no longer require.
@@ -589,7 +589,7 @@ New dashboard widget
 {: release-note}
 
 Updated Goals page
-:   An improved experience is now available for viewing and customizing goals. For more information, see [Customizing goals](/docs/security-compliance?topic=security-compliance-custom-goals).
+:   An improved experience is now available for viewing and customizing goals.
 
 Updated Profiles page
 :   An improved experience is now available for viewing and managing profiles. For more information, see [Working with profiles](/docs/security-compliance?topic=security-compliance-build-custom-profiles).
