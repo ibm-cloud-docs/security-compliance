@@ -1,4 +1,4 @@
----
+<osco>---
 
 copyright:
   years: 2021, 2023
@@ -59,7 +59,6 @@ To ensure that the services can talk with each other, create a service-to-servic
 {: #osco-install}
 {: step}
 
-
 Before you can start evaluating your resources, the OSCO must be installed to your cluster. For help with installing it, see [the documentation](https://docs.openshift.com/container-platform/4.8/security/compliance_operator/compliance-operator-installation.html){: external}. When you deploy the OSCO, a bundle of predefined profiles is automatically installed and available for you to scan your resources with. In the next section, you select the profile that you want to use.
 
 
@@ -89,3 +88,4 @@ To scan your resources, you create an attachment between the resource that you w
 When the scan completes, your results become available in the {{site.data.keyword.compliance_short}} dashboard. Be sure to check back in a few hours to see what your results returned.
 
 
+</osco>

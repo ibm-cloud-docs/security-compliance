@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-06-07"
+lastupdated: "2023-06-08"
 
 keywords: integrations, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -28,6 +28,11 @@ With {{site.data.keyword.compliance_full}}, you can evaluate the resources that 
 By using the assessment-based profiles, you can evaluate {{site.data.keyword.cloud_notm}}. [deprecated]{: tag-deprecated} However, if you configure and deploy a collector, you can also monitor your resources that run on Amazon Web Services, Google Cloud Platform, Microsoft Azure, and on-premises by using goal-based profiles.
 
 
+
+## Environments that can be evaluated
+{: #available-environments}
+
+With {{site.data.keyword.compliance_short}} you can evaluate {{site.data.keyword.cloud_notm}}. 
 
 ## {{site.data.keyword.cloud_notm}} components that can be evaluated
 {: #evaluate-services}
