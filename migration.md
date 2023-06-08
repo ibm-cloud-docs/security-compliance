@@ -42,7 +42,7 @@ Check out the following table to see the main differences between the architectu
 
 |            | Version 1 architecture | Version 2 architecture |
 |------------|-----------|-----------------|
-| Availability | Amazon Web Services, Google Cloud Platform, Microsoft Azure, and On-premises | {{site.data.keyword.cloud_notm}}  \n Note: To evaluate a multi-cloud flow, get started with Workload Protection. |
+| Availability | Amazon Web Services, Google Cloud Platform, Microsoft Azure, and On-premises | {{site.data.keyword.cloud_notm}}  \n Note: To evaluate a multi-cloud flow, get started with [Workload Protection](/docs/workload-protection). |
 | Integrations | Tanium | {{site.data.keyword.cloud_notm}} Workload Protection and OSCO |
 | Enterprise account support | Set up required | Available by default |
 | Results storage | IBM-owned | Customer-owned |
