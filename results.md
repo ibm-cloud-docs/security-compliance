@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-30"
+lastupdated: "2023-06-12"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -16,7 +16,7 @@ subcollection: security-compliance
 # Viewing results in the dashboard
 {: #results}
 
-With {{site.data.keyword.compliance_full}}, you can view your results in the console.
+With {{site.data.keyword.compliance_full}}, you can view the results of a compliance evaluation in the dashboard.
 {: shortdesc}
 
 
@@ -24,8 +24,6 @@ With {{site.data.keyword.compliance_full}}, you can view your results in the con
 {: #before-results}
 
 Before you get started, be sure that you have the required level of access to view results. To view results, you need the [**Administrator** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). You must also have access to the credentials that are needed to access your resource configurations.
-
-
 
 ## Understanding the dashboard
 {: #understand-dashboard}

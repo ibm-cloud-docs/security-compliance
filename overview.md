@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-24"
+lastupdated: "2023-06-12"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -46,8 +46,6 @@ Now that you have an understanding of each entity individually, how do they work
 {: tab-title="Hybrid cloud"}
 {: tab-group="user-flows"}
 {: class="simple-tab-table"}
-
-
 
 
 ## How does the functionality differ between flows?

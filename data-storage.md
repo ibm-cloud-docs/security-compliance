@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-30"
+lastupdated: "2023-06-12"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -47,7 +47,7 @@ To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword
 6. From the table, select the bucket that you want to use.
 7. Click **Connect**.
 
-If you disconnect your instance of Cloud Object Storage or select a new bucket, {{site.data.keyword.compliance_short}} is not able to read any of your existing results data. An evaluation won't complete if a Cloud Object Storage bucket is not connected.
+If you disconnect your instance of Cloud Object Storage or select a new bucket, {{site.data.keyword.compliance_short}} is not able to read any of your existing results data. An evaluation will not complete without a connected Cloud Object Storage bucket.
 {: important}
 
 
@@ -64,16 +64,11 @@ By default, the processing of your data is done in the United States. To update 
 2. In the navigation, click **Settings**.
 3. On the **Processing** tile, click **Edit**.
 4. Select the location that you want to use and check the confirmation box.
+
+   Your location cannot be changed.
+   {: note}
+
 5. Click **Save**.
-
-If you change your location, you must reconfigure any scans that are scheduled in your account. 
-{: note}
-
-
-{{site.data.keyword.compliance_short}} will become a regional service on 9 July 2023. In preparation for that change, you cannot change your location after 8 June 2023. 
-{: important}
-
-
 
 ## [deprecated]{: tag-deprecated} Configuring encryption (collectors)
 {: #data-encryption-configure}
