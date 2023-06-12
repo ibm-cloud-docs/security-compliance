@@ -9,7 +9,6 @@ toc:
     product-page: https://ibm.com/cloud/security-and-compliance-center
     path: security-compliance
     label: Security and Compliance Center
-
   entries: 
   - navgroup:
       id: learn
@@ -31,7 +30,6 @@ toc:
         navtitle: Best practices
       - topic: releases.md
         navtitle: Release notes
-
   - navgroup:
       id: tutorial
       topics: 
@@ -43,7 +41,6 @@ toc:
           - topic: tutorials/collector-ks.md
             navtitle: On Kubernetes Service
       - tutorials/osco-v2.md
-
   - navgroup:
       id: howto
       topics:
@@ -99,7 +96,6 @@ toc:
           - topic: framework/at-events.md
             navtitle: Auditing events
           - topic: framework/cbr.md
-
   - navgroup:
       id: reference
       topics:
@@ -126,7 +122,6 @@ toc:
             - link:
                label: IBM Cloud compliance programs
                href: https://www.ibm.com/cloud/compliance
-
   - navgroup:
       id: help
       topics:
