@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-12"
+lastupdated: "2023-06-13"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -60,8 +60,6 @@ Reminder: {{site.data.keyword.compliance_short}} will become regional
 
 Schedule the frequency of your scans
 :   You can now schedule the frequency at which your scans are run in the updated architecture. Options include everyday, every 7 days, and every 30 days. You can also now pause your scans. It is recommended that you continue to scan your environments daily. To get started, see [Scanning {{site.data.keyword.cloud_notm}} resources](/docs/security-compliance?topic=security-compliance-scan-resources).
-
-</schedule>
 
 ## 1 May 2023
 {: #security-compliance-may012023}
