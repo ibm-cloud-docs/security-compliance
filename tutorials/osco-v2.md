@@ -1,8 +1,8 @@
-<osco>---
+---
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-06-08"
+lastupdated: "2023-06-13"
 
 keywords: goals, parameters, customize parameters, customize goals, security and compliance,
 
@@ -87,5 +87,3 @@ To scan your resources, you create an attachment between the resource that you w
 
 When the scan completes, your results become available in the {{site.data.keyword.compliance_short}} dashboard. Be sure to check back in a few hours to see what your results returned.
 
-
-</osco>
