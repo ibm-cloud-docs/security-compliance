@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-04-26"
+lastupdated: "2023-06-13"
 
 keywords: data encryption in {{site.data.keyword.compliance_short}}, data storage for {{site.data.keyword.compliance_short}}, bring your own keys for {{site.data.keyword.compliance_short}}, BYOK for {{site.data.keyword.compliance_short}}, key management for {{site.data.keyword.compliance_short}}, key encryption for {{site.data.keyword.compliance_short}}, personal data in {{site.data.keyword.compliance_short}}, data deletion for {{site.data.keyword.compliance_short}}, data in {{site.data.keyword.compliance_short}}, data security in {{site.data.keyword.compliance_short}}
 
@@ -18,7 +18,7 @@ subcollection: security-compliance
 To ensure that you can securely manage your data when you use {{site.data.keyword.compliance_full}}, it is important to know exactly what data is stored and encrypted, and how you can delete any stored personal data.
 {: shortdesc}
 
-For more information about how {{site.data.keyword.cloud_notm}} platform secures your data, see [How do I know that my data is safe.
+For more information about how {{site.data.keyword.cloud_notm}} platform secures your data, see [How do I know that my data is safe?](/docs/overview?topic=overview-security)
 {: tip}
 
 ## How is my configuration data obtained?
@@ -28,7 +28,7 @@ For more information about how {{site.data.keyword.cloud_notm}} platform secures
 
 To evaluate your resource configuration, {{site.data.keyword.compliance_short}} gathers configuration information from your targeted environment. Collected data includes the properties and configurations for supported services, network objects, hosts, databases, Kubernetes platforms, and virtual machines.
 
-Data is collected differently depending on whether you're working the new experience or continuing to work with collectors.
+Data is collected differently depending on whether you're working with the new experience or continuing to work with collectors.
 
 Data obtained during an API-based evaluation
 :   In the new version of the service, your resource configuration is obtained through an internal service-to-service authorization. The policy allows for {{site.data.keyword.compliance_short}} to read the configuration but the service is unable to change it in any way.
@@ -115,6 +115,7 @@ When you work with the API-based version of the service, you own the data that i
 
 If you are working with the Trial plan, and you choose not to convert your account to Standard, then your data is automatically deleted in 30 days.
 {: note} 
+
 
 
 
