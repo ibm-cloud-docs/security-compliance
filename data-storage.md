@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-12"
+lastupdated: "2023-06-14"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -34,6 +34,7 @@ All the traffic between {{site.data.keyword.compliance_short}} and Cloud Object 
 
 ## Configuring storage
 {: #cos-storage}
+{: ui}
 
 Before you can start evaluating your resources for compliance, you must configure a Cloud Object Storage bucket where the service can forward your results data for long-term storage.
 
