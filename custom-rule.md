@@ -33,6 +33,8 @@ Rules are composed of several different building blocks, including a target, one
 
 To build the rule, first you target Cloud Object Storage as the service, by using the CRN-qualified name, and then define bucket as the type of resource. To ensure that your rule is configured for only those buckets in US-South, provide an additional attribute. 
 
+
+
 ```json
 "target": {
 		"service_name": "cloud-object-storage",
@@ -48,7 +50,12 @@ To build the rule, first you target Cloud Object Storage as the service, by usin
 ```
 {: screen}
 
+
+
+
 In the required config object, you provide the specific conditions that you want to evaluate for. You provide a `property`, `operator`, and `value` for each of the configurations that you want to evaluate. The `property` is a configuration variable that applies to a specific resource and the options available depend on the service and resource type that you want to target. The `value` is the variable that is used during the evaluation of your `property`. An `operator` is how the `property` is compared to the `value`. Sometimes you don't need to provide a `value` - for example, when an `operator` is a boolean.
+
+
 
 ```json
 "required_config": {
@@ -66,6 +73,9 @@ In the required config object, you provide the specific conditions that you want
 }
 ```
 {: screen}
+
+
+
 
 ### Available operators
 {: #operators}
