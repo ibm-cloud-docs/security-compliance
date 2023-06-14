@@ -135,6 +135,8 @@ Before you can send a test {{site.data.keyword.compliance_short}} event, you mus
 The following example shows a query that you can use to send a test event from the {{site.data.keyword.compliance_short}} to {{site.data.keyword.en_short}}. When you call the API, replace the `<accountID>` variable and IAM token with the values that are specific to your account.
 {: curl}
 
+
+
 ```sh
 curl -X POST 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/test_event' \
   -H 'Content-Type: application/json' \
@@ -143,7 +145,13 @@ curl -X POST 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/test
 {: codeblock}
 {: curl}
 
+
+
 A successful response returns `{"success": true}` to indicate that a test event was forwarded successfully to your connected {{site.data.keyword.en_short}} service instance. For more information, see the [API docs](/apidocs/security-compliance-admin#sendtestevent).
+
+
+
+
 
 ## Delivering notifications to select destinations
 {: #event-notifications-destinations}
