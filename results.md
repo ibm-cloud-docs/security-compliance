@@ -13,10 +13,10 @@ subcollection: security-compliance
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Viewing results in the dashboard
+# Viewing results 
 {: #results}
 
-With {{site.data.keyword.compliance_full}}, you can view the results of a compliance evaluation in the dashboard.
+With {{site.data.keyword.compliance_full}}, you can view the results of a compliance evaluation in the dashboard or by using the API.
 {: shortdesc}
 
 
@@ -44,7 +44,7 @@ Total evaluations
 :   The total number of evaluations that have been run in the past 30 days. An evaluation is the check of one resource against one assessment.
 
 
-## Viewing detailed results
+## Viewing detailed results in the dashboard
 {: #view-detailed-results}
 {: ui}
 
