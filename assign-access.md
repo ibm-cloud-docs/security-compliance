@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-12"
+lastupdated: "2023-06-14"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -73,7 +73,26 @@ You can assign *Administrator* access for the service, or you can create a custo
 	* `global-search-tagging.resource.read`
 4. Review your selections to ensure you've added the correct permissions and click **Create**.
 
+<regionality-terr>
 
+## Assigning access for an Enterprise with Terraform
+{: #assign-access-enterprise-terraform}
+{: terraform}
+
+If you are working in an enterprise account, you must also assign permissions for the enterprise service. 
+
+You can assign *Administrator* access for the service, or you can create a custom role. When you assign permissions for an enterprise you can give access to the full enterprise or specific accounts or account groups. To learn more about recommendations for enterprises, see [Best practices for enterprises](/docs/security-compliance?topic=security-compliance-best-practices#bp-enterprise).
+{: tip}
+
+```
+
+example 
+
+```
+{: pre}
+
+
+</regionality>
 
 
 
