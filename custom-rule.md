@@ -124,7 +124,7 @@ Most often, rules are more complex than a single property. To create more comple
 2. If any of the three options are true.
 3. If A is true or if B and C are both true.
 
-![The diagram shows the correlation between multiple conditions. The information is conveyed in the surrounding text.](images/config-rules-property.png){: caption="Figure 1. The ways in which properties can relate to each other." caption-side="bottom"}
+![The diagram shows the correlation between multiple conditions. The information is conveyed in the surrounding text.](images/config-rules-property.svg){: caption="Figure 1. The ways in which properties can relate to each other." caption-side="bottom"}
 
 
 
