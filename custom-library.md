@@ -56,23 +56,7 @@ You can create a custom library by using the {{site.data.keyword.compliance_shor
 	7. Repeat these steps until you add all your controls.
 
 
-<regionality-terr>
 
-## Creating a library with Terraform
-{: #create-custom-library-terraform}
-{: terraform}
-
-You can create a custom library by using Terraform.
-
-```
-
-example
-
-```
-{: pre}
-
-
-<regionality-terr>
 
 ## Next steps
 {: #library-next}

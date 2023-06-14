@@ -52,27 +52,6 @@ If you disconnect your instance of Cloud Object Storage or select a new bucket, 
 {: important}
 
 
-<regionality-cli>
-
-## Configuring storage with the CLI
-{: #cos-storage-cli}
-{: cli}
-
-Before you can start evaluating your resources for compliance, you must configure a Cloud Object Storage bucket where the service can forward your results data for long-term storage.
-
-To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword.compliance_short}} CLI.
-
-```
-
-Example
-
-```
-{: pre}
-
-
-If you disconnect your instance of Cloud Object Storage or select a new bucket, {{site.data.keyword.compliance_short}} is not able to read any of your existing results data. An evaluation will not complete without a connected Cloud Object Storage bucket.
-{: important}
-
 
 
 ## Configuring data processing

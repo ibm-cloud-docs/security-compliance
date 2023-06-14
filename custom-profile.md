@@ -60,33 +60,7 @@ You can create a profile through the console by using a control library as a gui
 
 7. Click **Create**.
 
-<regionality-cli>
 
-## Building a profile with the CLI
-{: #create-profile-cli}
-{: cli}
-
-You can create a profile with the CLI by using a control library as a guide.
-
-```
-example
-```
-{: pre}
-
-<regionality-cli><regionality-terr>
-
-## Building a profile with Terraform
-{: #create-profile-terraform}
-{: terraform}
-
-You can create a profile with Terraform by using a control library as a guide.
-
-```
-example
-```
-{: pre}
-
-<regionality-terr>
 
 ## Next steps
 {: #profile-next}
