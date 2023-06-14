@@ -106,9 +106,10 @@ toc:
           - topicgroup:
               label: Profile change logs
               topics:
-              - change-logs/ibm-library-changes.md
               - change-logs/fs-cloud-changes.md
               - change-logs/ibm-sec-practices-changes.md
+              - change-logs/ibm-cis-benchmark.md
+              - change-logs/osco-benchmark.md
       - topicgroup: 
           label: High availability and disaster recovery
           topics:
