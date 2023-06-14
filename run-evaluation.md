@@ -77,6 +77,7 @@ When you create your attachment, a scan is scheduled. When the scan completes, y
 
 ## Running a scan on demand
 {: #scan-ondemand-ui}
+{: ui}
 
 If your attachment exists but you don't want to wait for the next scan to see your posture, you can initiate an on demand scan.
 
@@ -87,4 +88,19 @@ If your attachment exists but you don't want to wait for the next scan to see yo
 
 After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
 
+<regionality>
 
+## Running a scan on demand with the API
+{: #scan-ondemand-api}
+{: api}
+
+If your attachment exists but you don't want to wait for the next scan to see your posture, you can initiate an on demand scan.
+
+```
+example
+```
+{: codeblock}
+
+After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
+
+<regionality>
