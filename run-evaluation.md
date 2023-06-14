@@ -88,19 +88,3 @@ If your attachment exists but you don't want to wait for the next scan to see yo
 
 After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
 
-<regionality>
-
-## Running a scan on demand with the API
-{: #scan-ondemand-api}
-{: api}
-
-If your attachment exists but you don't want to wait for the next scan to see your posture, you can initiate an on demand scan.
-
-```
-example
-```
-{: codeblock}
-
-After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
-
-<regionality>
