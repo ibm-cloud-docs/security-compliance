@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-06-14"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -86,6 +86,8 @@ The following example shows a query that you can use to register your {{site.dat
 You can find the `event_notifications_instance_crn` value in the console by going to the **Resource list** and clicking the {{site.data.keyword.en_short}} instance row.
 {: tip}
 
+
+
 ```sh
 curl -X PATCH 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/settings' \
   -H 'Content-Type: application/json' \
@@ -95,13 +97,17 @@ curl -X PATCH 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/set
           "source_name": "Security and Compliance Center",
           "source_description": "Optional description for this source.",
           "instance_crn": "crn:v1:bluemix:public:event-notifications:us-south:a/<account_id>:<instance_id>::"
-      }
-  }'
+      }'
 ```
 {: codeblock}
 {: curl}
 
+
+
 A successful response returns the CRN value of your connected {{site.data.keyword.en_short}} service instance. For more information about the required and optional request parameters, see the [API docs](/apidocs/security-compliance-admin#patchaccountsettings).
+
+
+
 
 ### Sending a test event to {{site.data.keyword.en_short}} from the UI
 {: #event-notifications-test-ui}
