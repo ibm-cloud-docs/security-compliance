@@ -98,7 +98,8 @@ toc:
           - topic: framework/cbr.md
   - navgroup:
       id: reference
-      topics
+      topics:
+      - topicgroup: 
       - topicgroup:
           label: Available profiles and properties
           topics:
