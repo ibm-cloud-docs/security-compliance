@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-07"
+lastupdated: "2023-06-14"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -41,6 +41,7 @@ You must have also connected a Cloud Object Storage bucket in which to store you
 
 ## Scheduling a recurring scan
 {: #scan-schedule-ui}
+{: ui}
 
 To create an attachment, you can use the {{site.data.keyword.compliance_short}} UI.
 
@@ -69,6 +70,10 @@ To create an attachment, you can use the {{site.data.keyword.compliance_short}} 
 8. Review your choices and click **Create**.
 
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
+
+
+
+
 
 ## Running a scan on demand
 {: #scan-ondemand-ui}
