@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-06-14"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -131,6 +131,7 @@ Most often, rules are more complex than a single property. To create more comple
 
 ## Creating a rule
 {: #create-rules-ui}
+{: ui}
 
 You can use the {{site.data.keyword.compliance_short}} UI to define the configuration rules that you want monitor for your {{site.data.keyword.cloud_notm}} resources. For more information about which services you can configure rules for, see [What can I evaluate?](/docs/security-compliance?topic=security-compliance-scannable-components#evaluate-services).
 
@@ -163,6 +164,8 @@ You can either use the rule builder or edit the JSON directly.
 
 6. Click **Next**.
 7. Review your selections and click **Create**.
+
+
 
 ## Next steps
 {: #next-rule}
