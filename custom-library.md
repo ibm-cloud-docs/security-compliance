@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-06-14"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -33,6 +33,7 @@ Before you get started, be sure that you have the required level of access to cr
 
 ## Creating a library
 {: #create-custom-library-ui}
+{: ui}
 
 You can create a custom library by using the {{site.data.keyword.compliance_short}} UI.
 
@@ -54,6 +55,24 @@ You can create a custom library by using the {{site.data.keyword.compliance_shor
 	6. When you are finished adding specifications to your control, click **Create**.
 	7. Repeat these steps until you add all your controls.
 
+
+<regionality-terr>
+
+## Creating a library with Terraform
+{: #create-custom-library-terraform}
+{: terraform}
+
+You can create a custom library by using Terraform.
+
+```
+
+example
+
+```
+{: pre}
+
+
+<regionality-terr>
 
 ## Next steps
 {: #library-next}
