@@ -87,6 +87,7 @@ When you view results in {{site.data.keyword.compliance_short}}, each evaluation
 
 ## Downloading a report
 {: #download-report}
+{: ui}
 
 If you need to keep your results for long periods of time, or provide information to key stakeholders, you can download a report.
 
