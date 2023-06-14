@@ -54,8 +54,6 @@ If you disconnect your instance of Cloud Object Storage or select a new bucket, 
 
 
 
-
-
 ## Configuring data processing
 {: #processing}
 
