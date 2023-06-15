@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-14"
+lastupdated: "2023-06-15"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -21,8 +21,6 @@ The {{site.data.keyword.cloud_notm}} Security Best Practices library is a collec
 
 If you're working with this library, new goals are automatically added to your current scans. If you want more control over when new goals are added, you can create a custom profile that contains all or a subset of the goals that are currently available. For more information, see [Building custom profiles](/docs/security-compliance?topic=security-compliance-custom-profiles).
 {: note}
-
-
 
 
 
