@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-07"
+lastupdated: "2023-06-16"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -82,18 +82,27 @@ To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword
 6. Click **Connect**.
 
 
-## Create an attachment
+## Scan your resources
 {: #gs-attachment}
 {: step}
 
-An attachment is how you target a specific grouping of your resources to evaluate against a specific profile.
+An attachment is how you target a specific grouping of your resources to evaluate against a specific profile. To start scanning your resources, create an attachment.
+
+<regionality>
 
 1. In the {{site.data.keyword.compliance_short}} navigation, click **Dashboard** Then, click **Get started**.
-2. Select the **Profile** that you want to use to evaluate compliance.
-3. Target your attachment by selecting a **Scope** and identifying any resources that you want to **Exclude**. Then, click **Next**.
-4. Optional: Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
-5. Click **Next**.
+
+	Alternatively, you can create an attachment through the **Profiles** page. On the **Attachments** tab of the profile details page, click **Create** and then continue with step 2. Or, you can navigate to the **Attachments** page where a flat list of all of your attachments is shown.
+	{: tip}
+
+2. Provide a name and description for your attachment. Be sure to be as descriptive as possible so that it's easy for other members of your team to understand what is being evaluated. Then, click **Next**.
+3. Select the **Profile** and **Profile version** that you want to use for your evaluation.
+4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
+5. Define a **Scope** to identify the resources that you want to evaluate and those that you want to **Exclude**. Then, click **Next**.
 6. Select the frequency at which you want to evaluate your attachment.
+	
+	Options include every day, every 7 days, and every 30 days. Additionally, you can now pause your scans if you need to.
+
 7. Optional: Configure notifications.
 	1. If you want to receive notifications, toggle **Notify me** to **On**.
 	2. By default, when notifications are enabled, you are alerted when 15% or more of your controls fail in a single scan. You can change this by adjusting the **Threshold** percentage. 
@@ -109,8 +118,7 @@ An attachment is how you target a specific grouping of your resources to evaluat
 		3. Click **Ok**.
 8. Review your choices and click **Create**.
 
-When you create your attachment, a scan is scheduled. When the scan completes your results are available on the **Dashboard** in the {{site.data.keyword.compliance_short}} UI.
-
+When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
 
 ## Next steps
 {: #gs-next}
