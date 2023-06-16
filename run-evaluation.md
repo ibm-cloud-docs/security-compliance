@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-14"
+lastupdated: "2023-06-16"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -43,33 +43,7 @@ You must have also connected a Cloud Object Storage bucket in which to store you
 {: #scan-schedule-ui}
 {: ui}
 
-To create an attachment, you can use the {{site.data.keyword.compliance_short}} UI.
-
-1. In the {{site.data.keyword.compliance_short}} navigation, click **Profiles** and select the profile that you want to evaluate. A profile details page opens.
-2. On the **Attachments** tab, click **Create**.
-3. Target your attachment by selecting a **Scope** and identifying any resources that you want to **Exclude**. Then, click **Next**.
-4. Optional: Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
-5. Click **Next**.
-6. Select the frequency at which you want to evaluate your attachment.
-	
-	Options include every day, every 7 days, and every 30 days. Additionally, you can now pause your scans if you need to.
-
-7. Optional: Configure notifications.
-	1. If you want to receive notifications, toggle **Notify me** to **On**.
-	2. By default, when notifications are enabled, you are alerted when 15% or more of your controls fail in a single scan. You can change this by adjusting the **Threshold** percentage. 
-	
-		For example, if you have a profile with 100 controls and you want to be notified if 5 of them fail, you would select 5% as your threshold.
-	
-	3. Select specific controls that you want to be notified about.
-
-		If there are high priority controls that pertain specifically to your job role, you might want to be notified every time they fail. You can identify up to 15 controls per scan that you can receive individual notifications for. These notifications are sent regardless of whether the threshold identified in the previous step has been met.
-
-		1. Click **Select control**.
-		2. Select the controls that you want to be notified about by checking the box next to the control.
-		3. Click **Ok**.
-8. Review your choices and click **Create**.
-
-When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
+To start scanning your resource, you create an attachment. To create an attachment, you can use the {{site.data.keyword.compliance_short}} UI to complete the following steps.
 
 
 
