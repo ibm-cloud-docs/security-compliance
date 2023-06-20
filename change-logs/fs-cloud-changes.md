@@ -210,12 +210,12 @@ Control SC-28 is renamed to SC-28-0 and control SC-12 is renamed to SC-12-0.
 | `3000105` | `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000106` | `AC-5(c)`  \n  \n `AC-2(i)` and `AC-5(b)` | The goal was added.  \n  \n The goal was removed. |
 | `3000107` | `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2, and SC-7-0` | The goal was added.  \n  \n The goal was removed. |
-| `3000108` | `SC-28-0` and `SC-28(1)`  \n  \n `SC-28` | The goal was added.  \n  \n The Goal was Removed. |
+| `3000108` | `SC-28-0` and `SC-28(1)`  \n  \n `SC-28` | The goal was added.  \n  \n The Goal was removed. |
 | `3000116` | `CP-6(a)`, `CP-6(b)`, and `CP-10`  \n  \n `CP-6-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000117` | `CP-6(a)`, `CP-6(b)`, `CP-6(1)`, `CP-7(a)`, `CP-7(b)`, `CP-7(c)`, `CP-7(1)`, `CP-9(b)`, `CP-9(d)`, `CP-10`, and `SC-6` | The goal was added. |
 | `3000233` | `CP-7(a)`, `CP-7(b)`, `CP-7(c)`, `CP-7(1)`, `CP-10`, and `SC-6`  \n  \n `SC-36` | The goal was added.  \n  \n The goal was removed. |
-| `3000234` | `IA-7`, `SC-12-0`, `SC-12(2)`, and `SC-12(3)`  \n  \n `SC-12` | The goal was added.  \n  \n The Goal was Removed. |
-| `3000235` | `IA-5(g)`, `SC-12-0`, `SC-12(2)`, and `SC-12(3)`  \n  \n `AC-2(1)` and `SC-12` | The goal was added.  \n  \n The Goal was Removed. |
+| `3000234` | `IA-7`, `SC-12-0`, `SC-12(2)`, and `SC-12(3)`  \n  \n `SC-12` | The goal was added.  \n  \n The Goal was removed. |
+| `3000235` | `IA-5(g)`, `SC-12-0`, `SC-12(2)`, and `SC-12(3)`  \n  \n `AC-2(1)` and `SC-12` | The goal was added.  \n  \n The Goal was removed. |
 | `3000283` | `SI-12`  \n  \n `AU-11` | The goal was added.  \n  \n The goal was removed. |
 | `3000306` | `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000307` | `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2 and SC-7-0` | The goal was added.  \n  \n The goal was removed. |
@@ -342,19 +342,19 @@ In addition to small bug fixes and general updates, version 0.3.0 of the {{site.
 
 | Goal ID   | Associated controls | Update |
 |:----------|:--------------------|:-------|
-| `3000013` |  | Goal was Removed from the profile. |
-| `3000014` |  | Goal was Removed from the profile. |
-| `3000025` |  | Goal was Removed from the profile. |
-| `3000039` |  | Goal was Removed from the profile. |
-| `3000047` | `SA-9`, `AC-20`, and `CA-3` </br></br>`SA-9(a)`, `AC-20(a)`, and `CA-3(a)`| Goal was Removed from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control.|
+| `3000013` |  | Goal was removed from the profile. |
+| `3000014` |  | Goal was removed from the profile. |
+| `3000025` |  | Goal was removed from the profile. |
+| `3000039` |  | Goal was removed from the profile. |
+| `3000047` | `SA-9`, `AC-20`, and `CA-3` </br></br>`SA-9(a)`, `AC-20(a)`, and `CA-3(a)`| Goal was removed from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control.|
 | `3000049` | `AC-11(a)` | Goal mapping is updated and it is now associated with the listed control. |
 | `3000050` | `SC-10` | Goal mapping is updated and it is now associated with the listed control. |
 | `3000233` | `SC-36` | Goal mapping is updated and it is now associated with the listed control. |
 | `3000282` |  | Goal logic is updated. |
-| `3000410` |  | Goal was Removed from the profile. |
-| `3000411` |  | Goal was Removed from the profile. |
+| `3000410` |  | Goal was removed from the profile. |
+| `3000411` |  | Goal was removed from the profile. |
 | `3000455` |  | Goal logic is updated. |
-| `3000462` | `SA-3(a)` | Goal was Removed from the listed associated control. |
+| `3000462` | `SA-3(a)` | Goal was removed from the listed associated control. |
 | `3000470` | `AC-17(2)`, `SC-8`, `SC-8(1)`, and `SC-13` | Goal mapping is updated to be added to the listed associated controls. |
 | `3000473` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal mapping is updated to be added to the listed associated controls. |
 | `3000474` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal mapping is updated to be added to the listed associated controls. |
