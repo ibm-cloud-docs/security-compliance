@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-19"
+lastupdated: "2023-06-20"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -21,7 +21,7 @@ In this change log, you can learn about the latest changes, improvements, and up
 ## Profile versioning
 {: #fs-profile-versioning}
 
-When goals or controls are edited, | Removed	| from, or added to a profile in a way that is not compatible with the current version, a new minor version is released. To take advantage of the changes in a new version, update your scans to use the newest profile version. 
+When goals or controls are edited, removed from, or added to a profile in a way that is not compatible with the current version, a new minor version is released. To take advantage of the changes in a new version, update your scans to use the newest profile version. 
 
 This profile is consistently updated and is not an exhaustive list of all the controls that might be required for every organization. Users can validate the available goals and determine where a need to supplement their workloads with other security measures exists.
 {: important}
@@ -36,7 +36,7 @@ The following table shows the service behavior changes for each version date. Sw
 |:---------------|:-------------|
 | Version 1.2.0 | `2023-04-20` |
 | Version 1.1.0 | `2023-03-02` |
-| Version 1.0.0 | `2022-14-21` |
+| Version 1.0.0 | `2022-12-14` |
 | Version 0.6.0 | `2022-09-21` |
 | Version 0.5.0 | `2022-08-11` |
 | Version 0.4.0 | `2022-06-23` |
