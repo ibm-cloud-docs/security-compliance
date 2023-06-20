@@ -18,8 +18,6 @@ content-type: release-note
 
 The {{site.data.keyword.cloud_notm}} Security Best Practices library is a collection of controls and goals that meet {{site.data.keyword.cloud_notm}} and industry best practices. The library is consistently updated and can change at any time, which can cause your compliance score to change without any update to your configuration. When new controls or specifications are edited or removed from the library in a way that is not compatible with the current version, a new version is released.
 
-
-
 ## Profile versioning
 {: #fs-profile-versioning}
 
@@ -41,11 +39,6 @@ The following table shows the service behavior changes for each version date. Sw
 | Version 1.0.0 | `2022-12-14` |
 {: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} Security Best Practices profile" caption-side="top"}
 
-
-
-
-
-
 ## Version 1.2.0
 {: #sec-best-v1.2.0}
 
@@ -59,8 +52,6 @@ The following changes have been made to the {{site.data.keyword.cloud_notm}} Sec
 | Check whether Virtual Private Cloud (VPC) security groups have no inbound rules that specify source IP 0.0.0.0/0 to RDP port | `4.5` | The rule was removed. |	
 | IBMid does not allow changed or reset passwords to be the same as any of the 24 previously used passwords | `1.62` | The rule was removed. |
 {: caption="Table. Rule updates for the {{site.data.keyword.cloud_notm}} Security Best Practices profile version 1.2.0" caption-side="top"}
-
-
 
 
 ## Version 1.1.0
