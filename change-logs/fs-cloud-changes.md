@@ -34,6 +34,7 @@ The following table shows the service behavior changes for each version date. Sw
 
 | Version number | Release date |
 |:---------------|:-------------|
+| Version 1.3.0 | `2023-06-20` |
 | Version 1.2.0 | `2023-04-20` |
 | Version 1.1.0 | `2023-03-02` |
 | Version 1.0.0 | `2022-12-14` |
@@ -49,6 +50,34 @@ The following table shows the service behavior changes for each version date. Sw
 | Version 0.1.0 | `2021-04-05` |
 {: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
+
+
+
+## Version 1.3.0
+{: #fs-cloud-v130}
+
+The following rules were updated in the {{site.data.keyword.cloud_notm}} for Financial Services library and profile as of 19 June 2023.
+
+| Rule | Associated controls | Update |
+|:-----|:--------------------|:-------|
+| Check whether Virtual Private Cloud (VPC) network access control lists don't allow ingress from 0.0.0.0/0 to RDP port | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)`| The rule was removed. |
+| Check whether Virtual Private Cloud (VPC) network access control lists don't allow ingress from 0.0.0.0/0 to SSH port | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`| The rule was removed. |
+| Check whether a security group other than the default for Virtual Private Cloud is attached to all endpoints | `SC-7(b)`, and `SC-7(c)`| The rule was added. |
+| Check whether OpenShift version is up-to-date | `CP-7(a)`| The rule was removed. |
+| Check whether permissions for API key creation are limited and configured in IAM settings for the account owner | `SC-12(0)`| The rule was removed. |
+| Check that Hyper Protect Crypto Services has failover units in at least 2 different regions that are Financial Services Validated | `SI-12(0)`| The rule was removed. |
+| Check whether App ID customer-provided email service is used | `CM-6(a)` | The rule was removed. |
+| Check whether Container Registry image pushes and pulls take place only over private endpoints | `SA-3(a)` and `SA-3(d)`| The rule was removed. |
+| Check whether App ID email verification is enabled for Cloud Directory users | `CM-6(a)`| The rule was removed. |
+| Check whether Container Registry Vulnerability Advisor scans for critical or high vulnerabilities in the system at least every # day(s) | `CM-3(2)(0)`, `CM-4(0)`, `CM-4(1)(0)`, `CM-7(1)(a)`, `RA-5(c)`, `RA-5(d)`, `SA-3(a)`, `SA-3(d)`, `SA-8(0)`, `SA-10(e)`, `SA-15(a)`, `SI-2(b)`, `SI-2(c)` and `SI-2(d)`| The rule was added. |	
+| Check whether Cloud Object Storage bucket resiliency is set to cross region |`CP-6(1)(0)`, `CP-10(0)`, `CP-7(a)`, `CP-7(b)`, `CP-7(c)`, `CP-7(1)(0)`, `CP-9(b)`, `CP-9(d)`, and `SC-6(0)`  \n  \n  `CP-6(a)`, `CP-6(b)` `CP-10(0)`| The rule was added.  \n  \n  The rule was updated. |
+| Check whether any Cloud Object Storage buckets used by Activity Tracker Event Routing are configured as cross-region | `AU-9(2)(0)`, `CP-6(a)`, `CP6(b)`, `CP-6(1)(0)`, `CP-7(a)`, `CP-7(b)`, `CP-7(c)`, `CP-7(1)(0)`, `CP-9(b)`, `CP-9(d)`, `CP-10(0)`, and `SC-6(0)`| The rule was removed. |
+| Check whether any Cloud Object Storage buckets used by Activity Tracker Event Routing resiliency are set to cross region | `AU-9(2)(0)`, `CP-6(a)`, CP6(b), `CP-6(1)(0)`, `CP-7(a)`, `CP-7(b)`, `CP-7(c)`, `CP-7(1)(0)`, `CP-9(b)`, `CP-9(d)`, and `CP-10(0)`,| The rule was added. |
+| Check whether Event Notifications are configured for Secrets manager | `SI-2(a)`, and `SI-5(a)`| The rule was added. |
+| Check whether Event Notifications are configured for each of the supported Services | `SI-2(a)` and `SI-5(a)`| The rule was removed. |
+| Check whether App ID email verification is enabled for Cloud Directory users | `IA-5(a)`| The rule was added. |	
+
+{: caption="Table. Summary of the changes for version 1.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
 
 

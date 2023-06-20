@@ -20,6 +20,45 @@ The {{site.data.keyword.cloud_notm}} Security Best Practices library is a collec
 
 
 
+## Profile versioning
+{: #fs-profile-versioning}
+
+When goals or controls are edited, removed from, or added to a profile in a way that is not compatible with the current version, a new minor version is released. To take advantage of the changes in a new version, update your scans to use the newest profile version. 
+
+This profile is consistently updated and is not an exhaustive list of all the controls that might be required for every organization. Users can validate the available goals and determine where a need to supplement their workloads with other security measures exists.
+{: important}
+
+
+### Active versions
+{: #fs-active-versions}
+
+The following table shows the service behavior changes for each version date. Switching to a later version date activates all changes that are introduced in earlier versions.
+
+| Version number | Release date |
+|:---------------|:-------------|
+| Version 1.2.0 | `2023-06-20` |
+| Version 1.1.0 | `2023-04-17` |
+| Version 1.0.0 | `2022-12-14` |
+{: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} Security Best Practices profile" caption-side="top"}
+
+
+
+
+
+
+## Version 1.2.0
+{: #sec-best-v1.2.0}
+
+The following changes have been made to the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile.
+
+| Rule | Associated controls | Update |
+|:-----|:--------------------|:-------|
+| Check whether Virtual Private Cloud (VPC) network access control lists don't allow ingress from 0.0.0.0/0 to SSH port | `4.43` | The rule was removed. |	
+| Check whether Virtual Private Cloud (VPC) network access control lists don't allow ingress from 0.0.0.0/0 to RDP port | `4.44` | The rule was removed. |	
+| Check whether Virtual Private Cloud (VPC) security groups have no inbound rules that specify source IP 0.0.0.0/0 to SSH port | `4.4` | The rule was removed. |	
+| Check whether Virtual Private Cloud (VPC) security groups have no inbound rules that specify source IP 0.0.0.0/0 to RDP port | `4.5` | The rule was removed. |	
+| IBMid does not allow changed or reset passwords to be the same as any of the 24 previously used passwords | `1.62` | The rule was removed. |
+{: caption="Table. Rule updates for the {{site.data.keyword.cloud_notm}} Security Best Practices profile version 1.2.0" caption-side="top"}
 
 
 
