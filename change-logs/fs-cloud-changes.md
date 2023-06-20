@@ -392,7 +392,7 @@ Version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services pro
 | `3000915` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal is added. |
 {: caption="Summary of the changes for version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
-*This goal is also from version 0.1.4.
+*This goal is also removed from version 0.1.4.
 
 
 ## Version 0.1.4
