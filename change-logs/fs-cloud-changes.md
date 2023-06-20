@@ -76,8 +76,8 @@ The following rules were updated in the {{site.data.keyword.cloud_notm}} for Fin
 | Check whether Secrets Manager arbitrary secrets are rotated at least every # days | `IA-5(g)` | Rule was added |
 | Check whether Secrets Manager user credentials are rotated at least every # days | `IA-5(g)` | Rule was added |
 | Check whether Container Registry Vulnerability Advisor scans for critical or high vulnerabilities in the system at least every # day(s) | `RA-5(b)` and `RA-5(3)(0)` | Rule was added |
-| Check whether a security group other than the default for Virtual Private Cloud is attached to all endpoints | `CM-1` | Rule was | Removed	| |
-| Check whether Container Registry Vulnerability Advisor scans for critical or high vulnerabilities in the system at least every # day(s) | CM-8(3)(a) | Rule was | Removed	| |
+| Check whether a security group other than the default for Virtual Private Cloud is attached to all endpoints | `CM-1` | Rule was removed |
+| Check whether Container Registry Vulnerability Advisor scans for critical or high vulnerabilities in the system at least every # day(s) | `CM-8(3)(a)` | Rule was removed |
 {: caption="Table. Summary of the changes for version 1.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
 
@@ -181,12 +181,12 @@ Control SC-28 is renamed to SC-28-0 and control SC-12 is renamed to SC-12-0.
 | `3000105` | `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000106` | `AC-5(c)`  \n  \n `AC-2(i)` and `AC-5(b)` | The goal was added.  \n  \n The goal was removed. |
 | `3000107` | `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2, and SC-7-0` | The goal was added.  \n  \n The goal was removed. |
-| `3000108` | `SC-28-0` and `SC-28(1)`  \n  \n `SC-28` | The goal was added.  \n  \n The goal is | Removed	|. |
+| `3000108` | `SC-28-0` and `SC-28(1)`  \n  \n `SC-28` | The goal was added.  \n  \n The Goal was Removed. |
 | `3000116` | `CP-6(a)`, `CP-6(b)`, and `CP-10`  \n  \n `CP-6-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000117` | `CP-6(a)`, `CP-6(b)`, `CP-6(1)`, `CP-7(a)`, `CP-7(b)`, `CP-7(c)`, `CP-7(1)`, `CP-9(b)`, `CP-9(d)`, `CP-10`, and `SC-6` | The goal was added. |
 | `3000233` | `CP-7(a)`, `CP-7(b)`, `CP-7(c)`, `CP-7(1)`, `CP-10`, and `SC-6`  \n  \n `SC-36` | The goal was added.  \n  \n The goal was removed. |
-| `3000234` | `IA-7`, `SC-12-0`, `SC-12(2)`, and `SC-12(3)`  \n  \n `SC-12` | The goal was added.  \n  \n The goal is | Removed	|. |
-| `3000235` | `IA-5(g)`, `SC-12-0`, `SC-12(2)`, and `SC-12(3)`  \n  \n `AC-2(1)` and `SC-12` | The goal was added.  \n  \n The goal is | Removed	|. |
+| `3000234` | `IA-7`, `SC-12-0`, `SC-12(2)`, and `SC-12(3)`  \n  \n `SC-12` | The goal was added.  \n  \n The Goal was Removed. |
+| `3000235` | `IA-5(g)`, `SC-12-0`, `SC-12(2)`, and `SC-12(3)`  \n  \n `AC-2(1)` and `SC-12` | The goal was added.  \n  \n The Goal was Removed. |
 | `3000283` | `SI-12`  \n  \n `AU-11` | The goal was added.  \n  \n The goal was removed. |
 | `3000306` | `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2` and `SC-7-0` | The goal was added.  \n  \n The goal was removed. |
 | `3000307` | `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`  \n  \n `CM-2 and SC-7-0` | The goal was added.  \n  \n The goal was removed. |
@@ -313,29 +313,29 @@ In addition to small bug fixes and general updates, version 0.3.0 of the {{site.
 
 | Goal ID   | Associated controls | Update |
 |:----------|:--------------------|:-------|
-| `3000013` |  | Goal is | Removed	| from the profile. |
-| `3000014` |  | Goal is | Removed	| from the profile. |
-| `3000025` |  | Goal is | Removed	| from the profile. |
-| `3000039` |  | Goal is | Removed	| from the profile. |
-| `3000047` | `SA-9`, `AC-20`, and `CA-3` </br></br>`SA-9(a)`, `AC-20(a)`, and `CA-3(a)`| Goal is | Removed	| from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control.|
+| `3000013` |  | Goal was Removed from the profile. |
+| `3000014` |  | Goal was Removed from the profile. |
+| `3000025` |  | Goal was Removed from the profile. |
+| `3000039` |  | Goal was Removed from the profile. |
+| `3000047` | `SA-9`, `AC-20`, and `CA-3` </br></br>`SA-9(a)`, `AC-20(a)`, and `CA-3(a)`| Goal was Removed from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control.|
 | `3000049` | `AC-11(a)` | Goal mapping is updated and it is now associated with the listed control. |
 | `3000050` | `SC-10` | Goal mapping is updated and it is now associated with the listed control. |
 | `3000233` | `SC-36` | Goal mapping is updated and it is now associated with the listed control. |
 | `3000282` |  | Goal logic is updated. |
-| `3000410` |  | Goal is | Removed	| from the profile. |
-| `3000411` |  | Goal is | Removed	| from the profile. |
+| `3000410` |  | Goal was Removed from the profile. |
+| `3000411` |  | Goal was Removed from the profile. |
 | `3000455` |  | Goal logic is updated. |
-| `3000462` | `SA-3(a)` | Goal is | Removed	| from the listed associated control. |
+| `3000462` | `SA-3(a)` | Goal was Removed from the listed associated control. |
 | `3000470` | `AC-17(2)`, `SC-8`, `SC-8(1)`, and `SC-13` | Goal mapping is updated to be added to the listed associated controls. |
 | `3000473` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal mapping is updated to be added to the listed associated controls. |
 | `3000474` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal mapping is updated to be added to the listed associated controls. |
 | `3000475` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal mapping is updated to be added to the listed associated controls. |
 | `3000476` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal mapping is updated to be added to the listed associated controls. |
 | `3000510` | `AC-4`, `CM-2`, `SC-7`, and `SC-7(5)` | Goal logic was updated to include all the locations for Hyper Protect Crypto Services that are supported by IBM Cloud. |
-| `3000603` |  | Goal is | Removed	| from the profile. |
-| `3000711` | `AC-3` and `AC-6-0`</br></br> `AC-8` | Goal is | Removed	| from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control. |
-| `3000712` | `AC-3` and `AC-6-0`</br></br> `AC-8` | Goal is | Removed	| from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control. |
-| `3000907` | `SA-3(a)` | Goal is | Removed	| from the listed associated control. |
+| `3000603` |  | Goal was removed from the profile. |
+| `3000711` | `AC-3` and `AC-6-0`</br></br> `AC-8` | Goal was removed from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control. |
+| `3000712` | `AC-3` and `AC-6-0`</br></br> `AC-8` | Goal was removed from the listed associated controls. </br></br>Goal mapping is updated and it is now associated with the listed control. |
+| `3000907` | `SA-3(a)` | Goal was removed from the listed associated control. |
 {: caption="Table. Summary of the changes for version 0.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
 
@@ -351,7 +351,7 @@ Version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services pro
 | `3000601` | `CM-8(3)(a)`, `RA-5(a)`, `SI-2(2)`, and `SI-2(a)` | Updated messaging. |
 | `3000407` | `SC-8-0`, `SC-8(1)`, `SC-13`, and `SC-23` | Updated goal and fact collection logic. |
 | `3000462` | `CM-2`, `CM-7(a)`, `CM-8(3)(a)`, and `SA-3(a)` | Updated goal and fact collection logic. |
-| `3000029` | `AC-3`, `AC-5(b)`, `AC-6-0`, and `AC-2(i)` | Goal is | Removed	|. |
+| `3000029` | `AC-3`, `AC-5(b)`, `AC-6-0`, and `AC-2(i)` | Goal was removed. |
 | `3000418` | `AC-4`, `CM-2`, `SC-7`, `SC-7(3)`, and `SC-7(5)` | Goal is added. |
 | `3000047` | `SA-4(a)`, `SA-4(b)`, `SA-4(c)`, `SA-9`, `AC-20`, `ESA-3`, `ESA-5`, and `CA-3` | Goal is added. |
 | `3000282` | `AU-4` and `AU-11` | Goal is added. |
@@ -363,7 +363,7 @@ Version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services pro
 | `3000915` | `CP-7(a)`, `CP-7(1)`, `CP-10`, and `SC-6` | Goal is added. |
 {: caption="Summary of the changes for version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
-*This goal is also | Removed	| from version 0.1.4.
+*This goal is also from version 0.1.4.
 
 
 ## Version 0.1.4
@@ -371,7 +371,7 @@ Version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services pro
 
 As of 5 April 2022, version 0.1.4 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls.
 
-Goals that were | Removed	|:
+Goals that were removed:
 
 * Goal ID: `3000104`
 * Goal ID: `3000040`
@@ -394,17 +394,17 @@ Goals that were | Removed	|:
 * Goal ID: `3000012`
 * Goal ID: `3000018`
 
-Goals that were | Removed	| from specific controls:
+Goals that were removed from specific controls:
 
-* Goal ID: `3000015` | Removed	| from the control `AC-2(i)`
-* Goal ID: `3000016` | Removed	| from the control `AC-2(i)`
-* Goal ID: `3000035` | Removed	| from the controls `AC-2(i)` and `SC-2`
-* Goal ID: `3000430` | Removed	| from the controls `SI-4(a)`, `SI-4(b)`, and `SI-4(c)`
-* Goal ID: `3000707` | Removed	| from the controls `AC-2(i)` and `SC-2`
-* Goal ID: `3000708` | Removed	| from the controls `AC-2(i)` and `SC-2`
-* Goal ID: `3000709` | Removed	| from the controls `AC-2(i)` and `SC-2`
-* Goal ID: `3000711` | Removed	| from the controls `AC-2(i)` and `SC-2`
-* Goal ID: `3000712` | Removed	| from the controls `AC-2(i)` and `SC-2`
+* Goal ID: `3000015` removed from the control `AC-2(i)`
+* Goal ID: `3000016` removed from the control `AC-2(i)`
+* Goal ID: `3000035` removed from the controls `AC-2(i)` and `SC-2`
+* Goal ID: `3000430` removed from the controls `SI-4(a)`, `SI-4(b)`, and `SI-4(c)`
+* Goal ID: `3000707` removed from the controls `AC-2(i)` and `SC-2`
+* Goal ID: `3000708` removed from the controls `AC-2(i)` and `SC-2`
+* Goal ID: `3000709` removed from the controls `AC-2(i)` and `SC-2`
+* Goal ID: `3000711` removed from the controls `AC-2(i)` and `SC-2`
+* Goal ID: `3000712` removed from the controls `AC-2(i)` and `SC-2`
 
 Goal mappings that were updated:
 
@@ -442,7 +442,7 @@ Goal mappings that were updated:
 
 As of 27 January 2022, version 0.1.3 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. 
 
-Goals that were | Removed	|:
+Goals that were removed:
 * Goal ID: `3000019`
 * Goal ID: `3000030`
 * Goal ID: `3000031`
@@ -500,7 +500,7 @@ As of 24 June 2021, version 0.1.1 of the {{site.data.keyword.cloud_notm}} for Fi
    * The control ID `SI-4(a)(b)(c)` is changed to `SI-4(a)`, `SI-4(b)` and `SI-4(c)`
 
 
-   Goals that were | Removed	|:
+   Goals that were removed:
 
    * Goal ID: `3000011`
    * Goal ID: `3000204`
@@ -509,10 +509,10 @@ As of 24 June 2021, version 0.1.1 of the {{site.data.keyword.cloud_notm}} for Fi
    * Goal ID: `3000301`
 
 
-   Goals that were | Removed	| from specific controls:
+   Goals that were removed from specific controls:
 
-   * Goal ID: `3000014` | Removed	| from the control `AC-2(1)`
-   * Goal ID: `3000114` | Removed	| from the control `AU-12`
+   * Goal ID: `3000014` removed from the control `AC-2(1)`
+   * Goal ID: `3000114` removed from the control `AU-12`
 
 
    Goal mappings that were updated:
