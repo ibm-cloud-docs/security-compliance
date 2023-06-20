@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-07"
+lastupdated: "2023-06-16"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -41,14 +41,17 @@ You must have also connected a Cloud Object Storage bucket in which to store you
 
 ## Scheduling a recurring scan
 {: #scan-schedule-ui}
+{: ui}
 
-To create an attachment, you can use the {{site.data.keyword.compliance_short}} UI.
+To start scanning your resource, you create an attachment. To create an attachment, you can use the {{site.data.keyword.compliance_short}} UI to complete the following steps.
 
-1. In the {{site.data.keyword.compliance_short}} navigation, click **Profiles** and select the profile that you want to evaluate. A profile details page opens.
-2. On the **Attachments** tab, click **Create**.
-3. Target your attachment by selecting a **Scope** and identifying any resources that you want to **Exclude**. Then, click **Next**.
-4. Optional: Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
-5. Click **Next**.
+
+
+1. In the {{site.data.keyword.compliance_short}} UI, navigate to the **Profiles** page. Select the profile that you want to evaluate and navigate to the **attachments** tab. Then, click **Create**. 
+2. Provide a name and description for your attachment. Be sure to be as descriptive as possible so that it's easy for other members of your team to understand what is being evaluated. Then, click **Next**.
+3. Select the **Profile** and **Profile version** that you want to use for your evaluation.
+4. Define a **Scope** to identify the resources that you want to evaluate and those that you want to **Exclude**. Then, click **Next**.
+5. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
 6. Select the frequency at which you want to evaluate your attachment.
 	
 	Options include every day, every 7 days, and every 30 days. Additionally, you can now pause your scans if you need to.
@@ -70,8 +73,13 @@ To create an attachment, you can use the {{site.data.keyword.compliance_short}} 
 
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
 
+
+
+
+
 ## Running a scan on demand
 {: #scan-ondemand-ui}
+{: ui}
 
 If your attachment exists but you don't want to wait for the next scan to see your posture, you can initiate an on demand scan.
 
@@ -81,5 +89,4 @@ If your attachment exists but you don't want to wait for the next scan to see yo
 3. Click **Run scan**.
 
 After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
-
 

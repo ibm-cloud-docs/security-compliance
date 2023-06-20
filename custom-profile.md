@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-06-14"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -34,6 +34,7 @@ Before you get started, be sure that you have the required level of access to cr
 
 ## Building a profile
 {: #create-profile-ui}
+{: ui}
 
 You can create a profile through the console by using a control library as a guide.
 
@@ -58,6 +59,7 @@ You can create a profile through the console by using a control library as a gui
 	Expand each specification to view the parameter inputs.
 
 7. Click **Create**.
+
 
 
 ## Next steps

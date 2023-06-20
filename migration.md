@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-08"
+lastupdated: "2023-06-12"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -40,15 +40,9 @@ You might see two instances of {{site.data.keyword.compliance_short}} through th
 
 Check out the following table to see the main differences between the architecture that are already available. V1 of the service will not be migrated into the regional service offering and will become unsupported on 1 July 2023.
 
-## How does the functionality differ between flows?
-{: #functionality}
-{: support}
-
-Depending on the evaluation flow that you're working in, your experience with the service differs. Review the following table to see how the functionality that is offered in each flow differs. As more functionality is released in the new architecture, this table will be updated.
-
 |            | Version 1 architecture | Version 2 architecture |
 |------------|-----------|-----------------|
-| Availability | Amazon Web Services, Google Cloud Platform, Microsoft Azure, and On-premises | {{site.data.keyword.cloud_notm}}  \n Note: To evaluate a multi-cloud flow, get started with Workload Protection. |
+| Availability | Amazon Web Services, Google Cloud Platform, Microsoft Azure, and On-premises | {{site.data.keyword.cloud_notm}}  \n Note: To evaluate a multi-cloud flow, get started with [Workload Protection](/docs/workload-protection). |
 | Integrations | Tanium | {{site.data.keyword.cloud_notm}} Workload Protection and OSCO |
 | Enterprise account support | Set up required | Available by default |
 | Results storage | IBM-owned | Customer-owned |
@@ -65,3 +59,4 @@ Depending on the evaluation flow that you're working in, your experience with th
 Components such as credentials, goals, profiles, collectors, scopes, and scans will not be migrated to the new architecture.
 {: note}
 
+git

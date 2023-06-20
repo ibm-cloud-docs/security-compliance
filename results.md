@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-05-30"
+lastupdated: "2023-06-14"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -13,10 +13,10 @@ subcollection: security-compliance
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Viewing results in the dashboard
+# Viewing results 
 {: #results}
 
-With {{site.data.keyword.compliance_full}}, you can view your results in the console.
+With {{site.data.keyword.compliance_full}}, you can view the results of a compliance evaluation in the dashboard or by using the API.
 {: shortdesc}
 
 
@@ -24,8 +24,6 @@ With {{site.data.keyword.compliance_full}}, you can view your results in the con
 {: #before-results}
 
 Before you get started, be sure that you have the required level of access to view results. To view results, you need the [**Administrator** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). You must also have access to the credentials that are needed to access your resource configurations.
-
-
 
 ## Understanding the dashboard
 {: #understand-dashboard}
@@ -46,8 +44,9 @@ Total evaluations
 :   The total number of evaluations that have been run in the past 30 days. An evaluation is the check of one resource against one assessment.
 
 
-## Viewing detailed results
+## Viewing detailed results in the dashboard
 {: #view-detailed-results}
+{: ui}
 
 To view the information of a scan, you can use the {{site.data.keyword.compliance_short}} UI.
 
@@ -69,6 +68,8 @@ A page opens with an **Overview** of your results. To further investigate, you c
 {: row-headers}
 
 
+
+
 ### Understanding statuses
 {: #status}
 
@@ -86,6 +87,7 @@ When you view results in {{site.data.keyword.compliance_short}}, each evaluation
 
 ## Downloading a report
 {: #download-report}
+{: ui}
 
 If you need to keep your results for long periods of time, or provide information to key stakeholders, you can download a report.
 

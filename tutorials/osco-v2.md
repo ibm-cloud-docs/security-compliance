@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-06-07"
+lastupdated: "2023-06-13"
 
 keywords: goals, parameters, customize parameters, customize goals, security and compliance,
 
@@ -22,7 +22,7 @@ completion-time: 20m
 {: toc-services="security-compliance, openshift"}
 {: toc-completion-time="20m"}
 
-By using the OpenShift Compliance Operator (OSCO) through Security and Compliance Center, you can run scans to validate your level of compliance to a grouping of controls, also known as a profile. In this scenario, you configure your cluster to be able to run the OSCO scan. Additionally, you create a custom rule and profile to evaluate your resources. 
+By using the OpenShift Compliance Operator (OSCO) through Security and Compliance Center, you can run scans to validate your level of compliance to a grouping of controls, also known as a profile. In this scenario, you configure your cluster to be able to run the OSCO scan.
 
 ## Before you begin
 {: #osco-before}
@@ -59,7 +59,6 @@ To ensure that the services can talk with each other, create a service-to-servic
 {: #osco-install}
 {: step}
 
-
 Before you can start evaluating your resources, the OSCO must be installed to your cluster. For help with installing it, see [the documentation](https://docs.openshift.com/container-platform/4.8/security/compliance_operator/compliance-operator-installation.html){: external}. When you deploy the OSCO, a bundle of predefined profiles is automatically installed and available for you to scan your resources with. In the next section, you select the profile that you want to use.
 
 
@@ -87,5 +86,4 @@ To scan your resources, you create an attachment between the resource that you w
 {: #osco-next}
 
 When the scan completes, your results become available in the {{site.data.keyword.compliance_short}} dashboard. Be sure to check back in a few hours to see what your results returned.
-
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-07"
+lastupdated: "2023-06-20"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -19,8 +19,25 @@ content-type: release-note
 
 
 
+
+
+
+
+
+## 20 June 2023
+{: #security-compliance-june202023}
+{: release-note}
+
+{{site.data.keyword.cloud_notm}} for Financial Services profile version 1.3.0 
+:   Version 1.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+
+{{site.data.keyword.cloud_notm}} Security Best Practices profile version 1.2.0
+:   Updates to version 1.2.0 of the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile are now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-ibm-sec-best-practices-change-log).
+
+
+
 ## 7 June 2023
-{: #security-compliance-june7023}
+{: #security-compliance-june072023}
 
 OpenShift Compliance Operator (OSCO)
 :   You can now evaluate your OpenShift clusters by using the OSCO integration in the updated architecture. For help getting started or customizing your workflow, see [Evaluate the compliance of your RedHat OpenShift Clusters](/docs/security-compliance?topic=security-compliance-osco-scan).
@@ -59,7 +76,6 @@ Schedule the frequency of your scans
 :   You can now schedule the frequency at which your scans are run in the updated architecture. Options include everyday, every 7 days, and every 30 days. You can also now pause your scans. It is recommended that you continue to scan your environments daily. To get started, see [Scanning {{site.data.keyword.cloud_notm}} resources](/docs/security-compliance?topic=security-compliance-scan-resources).
 
 
-
 ## 1 May 2023
 {: #security-compliance-may012023}
 {: release-note}
@@ -89,8 +105,8 @@ Now available: Toronto location
 {: #security-compliance-april202023}
 {: release-note}
 
-Updates to the {{site.data.keyword.cloud_notm}} for Financial Services library
-:   Version 1.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services library and profile are now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+Updates to the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Version 1.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile are now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 
 
@@ -98,7 +114,7 @@ Updates to the {{site.data.keyword.cloud_notm}} for Financial Services library
 {: #security-compliance-april172023}
 {: release-note}
 
-Updates to the {{site.data.keyword.cloud_notm}} Security Best Practices library
+Updates to the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile
 :   Updates to version 1.1.0 of the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile are now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-ibm-sec-best-practices-change-log).
 
 
