@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-20"
+lastupdated: "2023-06-22"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,6 +18,16 @@ content-type: release-note
 
 
 
+<tagging-rules>
+
+## XX July 2023
+{: #security-compliance-julyxx2023}
+{: release-note}
+ 
+New rules available
+:   The Global search and Tagging platform service is now available for you to create custom rules. Rules can be written to evalaute resources that have been assigned specific tags. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
+
+</tagging-rules>
 
 
 
@@ -33,7 +43,6 @@ content-type: release-note
 
 {{site.data.keyword.cloud_notm}} Security Best Practices profile version 1.2.0
 :   Updates to version 1.2.0 of the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile are now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-ibm-sec-best-practices-change-log).
-
 
 
 ## 7 June 2023
