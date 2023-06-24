@@ -99,7 +99,6 @@ toc:
   - navgroup:
       id: reference
       topics:
-      - topicgroup: 
       - topicgroup:
           label: Available profiles and properties
           topics:
