@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-19"
+lastupdated: "2023-06-26"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -118,7 +118,6 @@ When you create your attachment, a scan is scheduled. When the scan completes, y
 
 
 
-When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
 
 ## Next steps
 {: #gs-next}
