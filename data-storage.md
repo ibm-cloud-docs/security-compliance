@@ -52,22 +52,7 @@ If you disconnect your instance of Cloud Object Storage or select a new bucket, 
 {: important}
 
 
-<regionality>
 
-
-## Configuring data processing
-{: #processing}
-{: ui}
-
-By default, the processing of your data is done in the United States. To update your configuration, you can use the {{site.data.keyword.compliance_short}} UI.
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Settings**.
-3. On the **Processing** tile, click **Edit**.
-4. Select the location that you want to use and check the confirmation box.
-5. Click **Save**.
-
-</regionaluty>
 
 ## Configuring data processing
 {: #processing}
