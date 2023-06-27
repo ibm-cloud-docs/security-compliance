@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-26"
+lastupdated: "2023-06-27"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -51,59 +51,4 @@ To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword
 If you disconnect your instance of Cloud Object Storage or select a new bucket, {{site.data.keyword.compliance_short}} is not able to read any of your existing results data. An evaluation will not complete without a connected Cloud Object Storage bucket.
 {: important}
 
-
-
-
-## Configuring data processing
-{: #processing}
-
-By default, the processing of your data is done in the United States. To update your configuration, you can use the {{site.data.keyword.compliance_short}} UI.
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Settings**.
-3. On the **Processing** tile, click **Edit**.
-4. Select the location that you want to use and check the confirmation box.
-
-   Your location cannot be changed.
-   {: note}
-
-5. Click **Save**.
-
-## [deprecated]{: tag-deprecated} Configuring encryption (collectors)
-{: #data-encryption-configure}
-
-By default, the data that is stored by {{site.data.keyword.compliance_short}} is encrypted at rest by using an IBM-managed key. You can add a level of control to your data at rest by enabling an integration with {{site.data.keyword.keymanagementservicelong_notm}} or {{site.data.keyword.hscrypto}}. [{{site.data.keyword.hscrypto}}](/docs/hs-crypto?topic=hs-crypto-get-started) is a single-tenant key management service that is backed by a FIPS140-2 level 4 certified Hardware Security Model (HSM).
-
-If you choose to work with a key that you manage, you must ensure that valid IAM authorization is assigned between {{site.data.keyword.compliance_short}} and your preferred key management service. To create that authorization, you can use the following steps.
-
-1. Create an instance of [{{site.data.keyword.keymanagementserviceshort}}](/catalog/services/key-protect) or [{{site.data.keyword.hscrypto}}](/catalog/services/hs-crypto).
-2. [Generate or import a root key](/docs/key-protect?topic=key-protect-create-root-keys) to your key management service instance.
-
-   When you use {{site.data.keyword.keymanagementserviceshort}} or {{site.data.keyword.hscrypto}} to create a root key, the service generates cryptographic key material that is rooted in cloud-based HSMs. Be sure that the name of your key does not contain any personal information such as your name or location.
-
-3. Grant service access between your key management service and {{site.data.keyword.compliance_short}}.
-
-   You must be the account owner or an administrator of the key management service instance that you're working with. You must also have at least *Viewer* access for {{site.data.keyword.compliance_short}}.
-
-   1. Go to **Manage > Access IAM > Authorizations**.
-   2. Select {{site.data.keyword.compliance_short}} as the source service.
-
-      If you're creating an authorization for compliance scans, select **{{site.data.keyword.compliance_short}}**.
-
-   3. Select {{site.data.keyword.keymanagementserviceshort}} or {{site.data.keyword.hscrypto}} as the target service.
-   4. Assign the *Reader* role.
-   5. Click **Authorize** to confirm the authorization.
-
-4. Enable the integration in {{site.data.keyword.compliance_short}}.
-
-   After you create an authorization between your key management service and {{site.data.keyword.compliance_short}}, you can integrate it by using {{site.data.keyword.compliance_short}}. To update your encryption settings:
-
-   1. Go to **{{site.data.keyword.compliance_short}} > Settings**.
-   2. In the **Data > Encryption** section, click the **Edit** icon ![Edit icon](../icons/edit-tagging.svg) to manage your encryption settings.
-   3. Select the service instance and root key that you want to use to protect your data.
-   4. Toggle **Compliance scans** to **On** to encrypt your results.
-   5. Click **Close**.
-
-To return to IBM-managed encryption, toggle customer-managed encryption to **Off**.
-{: note}
 

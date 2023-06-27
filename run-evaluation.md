@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-16"
+lastupdated: "2023-06-27"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -18,11 +18,6 @@ subcollection: security-compliance
 
 With {{site.data.keyword.compliance_full}}, you can evaluate your resources on a recurring schedule or you can initiate a scan at any time.
 {: shortdesc}
-
-
-
-If you want to evaluate an environment other than {{site.data.keyword.cloud_notm}}, you must use the collector-based architecture. To get started, see [Managing collectors](/docs/security-compliance?topic=security-compliance-collector).
-{: note}
 
 
 

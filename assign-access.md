@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-22"
+lastupdated: "2023-06-27"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -17,11 +17,6 @@ subcollection: security-compliance
 {: #assign-roles}
 
 As an account owner, you are automatically assigned Administrator platform access to {{site.data.keyword.compliance_short}} so that you can further assign roles and customize access policies for others.
-
-## Assigning access for an account
-{: #assign-access-scc}
-
-
 
 1. [Create an access group](/docs/account?topic=account-groups#create_ag) for the type of users that you want to give access to and add those users to the group. For example, you might have a team of compliance specialists that all need the same level of access.
 2. After you create a group and add users, go to the **Manage > Access (IAM) > Access Groups** page of the console.
@@ -41,12 +36,6 @@ As an account owner, you are automatically assigned Administrator platform acces
 
 6. Click **Add**.
 7. Review your selections and click **Assign**.
-
-
-
-
-## Assigning access for an Enterprise
-{: #assign-access-enterprise}
 
 
 
@@ -74,11 +63,6 @@ You can assign *Administrator* access for the service, or you can create a custo
 4. Review your selections to ensure you've added the correct permissions and click **Create**.
 
 
-
-
-
-If you are working with the collector-based architecture, you must assign additional access for your credentials. For more information, see [Assigning the required permissions](/docs/security-compliance?topic=security-compliance-permissions).
-{: deprecated}
 
 
 

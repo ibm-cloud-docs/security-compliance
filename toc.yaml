@@ -15,13 +15,9 @@ toc:
       topics:
       - topic: getting-started.md
         navtitle: Getting started
-      - topic: migration.md
-        navtitle: Migrating to the new architecture
       - topicgroup:
           label: About
           topics: 
-          - topic: key-concepts.md
-            navtitle: Key concepts
           - topic: overview.md
             navtitle: How it works
           - topic: pricing.md
@@ -33,13 +29,6 @@ toc:
   - navgroup:
       id: tutorial
       topics: 
-      - topicgroup:
-          label: Install and manage a collector
-          topics:
-          - topic: tutorials/collector-vpc.md
-            navtitle: On Virtual Private Cloud
-          - topic: tutorials/collector-ks.md
-            navtitle: On Kubernetes Service
       - tutorials/osco-v2.md
   - navgroup:
       id: howto
