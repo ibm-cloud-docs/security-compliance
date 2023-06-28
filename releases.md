@@ -30,7 +30,7 @@ content-type: release-note
 {: release-note}
 
 Support removed for the collector-based architecture
-:   The collector-based architecture has been removed from the product in preparation for an upcoming architectural change to {{site.data.keyword.compliance_short}} as a regional offering.
+:   The collector-based architecture has been removed from the product in preparation for an upcoming architectural change to a regional offering. [Learn more](/docs/security-compliance?topic=security-compliance-migrate).
 
 </deprecate-week>
 
