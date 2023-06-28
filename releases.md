@@ -23,7 +23,6 @@ content-type: release-note
 
 
 
-
 <deprecate-week>
 
 ## 1 July 2023
@@ -34,6 +33,15 @@ Support removed for the collector-based architecture
 :   The collector-based architecture has been removed from the product in preparation for an upcoming architectural change to {{site.data.keyword.compliance_short}} as a regional offering.
 
 </deprecate-week>
+
+
+## 23 June 2023
+{: #security-compliance-june232023}
+{: release-note}
+ 
+New rules available
+:   The Global Search and Tagging platform service is now available for you to create custom rules. Rules can be written to evalaute resources that have been assigned specific tags. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
+
 
 
 ## 20 June 2023
