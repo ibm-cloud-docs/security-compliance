@@ -74,3 +74,8 @@ You can assign *Administrator* access for the service, or you can create a custo
 
 
 
+If you are working with the collector-based architecture, you must assign additional access for your credentials. For more information, see [Assigning the required permissions](/docs/security-compliance?topic=security-compliance-permissions).
+{: deprecated}
+
+
+

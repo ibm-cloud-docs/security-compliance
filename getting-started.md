@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-27"
+lastupdated: "2023-06-28"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -24,6 +24,11 @@ completion-time: 5m
 
 For highly regulated industries, such as financial services, achieving continuous compliance within a cloud environment is an important first step toward protecting customer and application data. Historically, that process was difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.compliance_full}}, you can integrate daily, automatic compliance checks into your development lifecycle to help minimize that risk.
 {: shortdesc}
+
+
+
+Starting 9 July 2023 Security and Compliance Center will be a provision-able, regional service offering in the {{site.data.keyword.cloud_notm}} catalog. As this change is made, support for the collector-based architecture (v1) that currently resides in the Hybrid Cloud section of the UI will be removed. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-release-notes).
+{: deprecated}
 
 
 
@@ -88,8 +93,8 @@ An attachment is how you target a specific grouping of your resources to evaluat
 1. In the {{site.data.keyword.compliance_short}} navigation, click **Dashboard** Then, click **Get started**.
 2. Provide a name and description for your attachment. Be sure to be as descriptive as possible so that it's easy for other members of your team to understand what is being evaluated. Then, click **Next**.
 3. Select the **Profile** and **Profile version** that you want to use for your evaluation.
-4. Define a **Scope** to identify the resources that you want to evaluate and those that you want to **Exclude**. Then, click **Next**.
-5. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
+4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
+5. Define a **Scope** to identify the resources that you want to evaluate and those that you want to **Exclude**. Then, click **Next**.
 6. Select the frequency at which you want to evaluate your attachment.
 	
 	Options include every day, every 7 days, and every 30 days. Additionally, you can now pause your scans if you need to.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-27"
+lastupdated: "2023-06-28"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -18,6 +18,11 @@ subcollection: security-compliance
 
 With {{site.data.keyword.compliance_full}}, you can evaluate your resources on a recurring schedule or you can initiate a scan at any time.
 {: shortdesc}
+
+
+
+If you want to evaluate an environment other than {{site.data.keyword.cloud_notm}}, you must use the collector-based architecture. To get started, see [Managing collectors](/docs/security-compliance?topic=security-compliance-collector).
+{: note}
 
 
 
@@ -45,8 +50,8 @@ To start scanning your resource, you create an attachment. To create an attachme
 1. In the {{site.data.keyword.compliance_short}} UI, navigate to the **Profiles** page. Select the profile that you want to evaluate and navigate to the **attachments** tab. Then, click **Create**. 
 2. Provide a name and description for your attachment. Be sure to be as descriptive as possible so that it's easy for other members of your team to understand what is being evaluated. Then, click **Next**.
 3. Select the **Profile** and **Profile version** that you want to use for your evaluation.
-4. Define a **Scope** to identify the resources that you want to evaluate and those that you want to **Exclude**. Then, click **Next**.
-5. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
+4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
+5. Define a **Scope** to identify the resources that you want to evaluate and those that you want to **Exclude**. Then, click **Next**.
 6. Select the frequency at which you want to evaluate your attachment.
 	
 	Options include every day, every 7 days, and every 30 days. Additionally, you can now pause your scans if you need to.

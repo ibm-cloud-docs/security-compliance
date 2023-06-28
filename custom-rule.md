@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-26"
+lastupdated: "2023-06-28"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -35,8 +35,44 @@ To build the rule, first you target Cloud Object Storage as the service, by usin
 
 
 
+```json
+"target": {
+		"service_name": "cloud-object-storage",
+		"resource_kind": "bucket",
+		"additional_target_attributes": [
+			{
+				"name": "location",
+				"operator": "string_equals",
+				"value": "us-south"
+			}
+		]
+	}
+```
+{: screen}
+
+
+
 
 In the required config object, you provide the specific conditions that you want to evaluate for. You provide a `property`, `operator`, and `value` for each of the configurations that you want to evaluate. The `property` is a configuration variable that applies to a specific resource and the options available depend on the service and resource type that you want to target. The `value` is the variable that is used during the evaluation of your `property`. An `operator` is how the `property` is compared to the `value`. Sometimes you don't need to provide a `value` - for example, when an `operator` is a boolean.
+
+
+
+```json
+"required_config": {
+   "and": [
+      {
+         "property": "firewall.allowed_ip",
+         "operator": "ips_in_range",
+         "value": [
+            "10.0.0.0/8",
+            "172.16.0.0/12",
+            "192.168.0.0/16"
+         ]
+      }
+   ]
+}
+```
+{: screen}
 
 
 
