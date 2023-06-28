@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-27"
+lastupdated: "2023-06-28"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -23,6 +23,17 @@ content-type: release-note
 
 
 
+
+<deprecate-week>
+
+## 1 July 2023
+{: #security-compliance-july012023}
+{: release-note}
+
+Support removed for the collector-based architecture
+:   The collector-based architecture has been removed from the product in preparation for an upcoming architectural change to {{site.data.keyword.compliance_short}} as a regional offering.
+
+</deprecate-week>
 
 
 ## 20 June 2023
