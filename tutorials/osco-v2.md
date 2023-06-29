@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-06-13"
+lastupdated: "2023-06-28"
 
 keywords: goals, parameters, customize parameters, customize goals, security and compliance,
 
@@ -50,9 +50,11 @@ To ensure that the services can talk with each other, create a service-to-servic
 2. Click **Create**.
 3. If you're working in an enterprise account, select the account which has the cluster with OSCO deployed in it as the **Source** account.
 4. Select **{{site.data.keyword.compliance_short}}** in the **Source** drop-down and choose **All resources** as the scope.
-5. Select **Kubernetes Service** in the **Target** drop-down. Optionally, you can narrow the focus by selecting specfici resources that you want to target.
+5. Select **Kubernetes Service** in the **Target** drop-down. Optionally, you can narrow the focus by selecting specific resources that you want to target.
 6. Select **Platform** access as **Compliance Management** and click **Authorize**.
 
+If you are scanning Satellite resources, you must also [enable an authorization for Satellite](/docs/security-compliance?topic=security-compliance-assign-roles#assign-access-sat).
+{: note}
 
 
 ## Install the OSCO
@@ -68,9 +70,9 @@ Before you can start evaluating your resources, the OSCO must be installed to yo
 
 To scan your resources, you create an attachment between the resource that you want to evaluate and the profile that you want to use to run the evaluation. To create an attachment, you can use the following steps.
 
-1. In **Profiles** section of the UI, select **IBM Cloud Red Hat OpenShift Kubernetes OCP4**. A details page opens.
+1. In **Profiles** section of the UI, select **{{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4**. A details page opens.
 
-   Optionally, you can use the **IBM Cloud Red Hat OpenShift Kubernetes OCP4** profile to create a custom profile with a subset of the controls.
+   Optionally, you can use the **{{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4** profile to create a custom profile with a subset of the controls.
    {: tip}
 
 2. In the **Attachments** tab, click **Create**.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-12"
+lastupdated: "2023-06-28"
 
 keywords: security and compliance, secure development, security strategy
 

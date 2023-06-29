@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-24"
+lastupdated: "2023-06-28"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -22,6 +22,16 @@ content-type: release-note
 
 
 
+
+
+
+
+## 23 June 2023
+{: #security-compliance-june232023}
+{: release-note}
+ 
+New rules available
+:   The Global Search and Tagging platform service is now available for you to create custom rules. Rules can be written to evalaute resources that have been assigned specific tags. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 
 

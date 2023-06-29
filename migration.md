@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-12"
+lastupdated: "2023-06-28"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -59,4 +59,3 @@ Check out the following table to see the main differences between the architectu
 Components such as credentials, goals, profiles, collectors, scopes, and scans will not be migrated to the new architecture.
 {: note}
 
-git

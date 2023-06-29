@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-20"
+lastupdated: "2023-06-29"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -52,7 +52,6 @@ The following table shows the service behavior changes for each version date. Sw
 
 
 
-
 ## Version 1.3.0
 {: #fs-cloud-v130}
 
@@ -78,7 +77,6 @@ The following rules were updated in the {{site.data.keyword.cloud_notm}} for Fin
 | Check whether App ID email verification is enabled for Cloud Directory users | `IA-5(a)`| The rule was added. |	
 
 {: caption="Table. Summary of the changes for version 1.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
-
 
 
 

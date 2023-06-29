@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-22"
+lastupdated: "2023-06-29"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -20,8 +20,6 @@ As an account owner, you are automatically assigned Administrator platform acces
 
 ## Assigning access for an account
 {: #assign-access-scc}
-
-
 
 1. [Create an access group](/docs/account?topic=account-groups#create_ag) for the type of users that you want to give access to and add those users to the group. For example, you might have a team of compliance specialists that all need the same level of access.
 2. After you create a group and add users, go to the **Manage > Access (IAM) > Access groups** page of the console.
@@ -45,10 +43,9 @@ As an account owner, you are automatically assigned Administrator platform acces
 
 
 
+
 ## Assigning access for an Enterprise
 {: #assign-access-enterprise}
-
-
 
 If you are working in an enterprise account, you must also assign permissions for the enterprise service. 
 
@@ -81,4 +78,19 @@ If you are working with the collector-based architecture, you must assign additi
 {: deprecated}
 
 
+
+
+## Assigning access to Satellite
+{: #assign-access-sat}
+
+To evaluate the resources that run on Satellite, you must create a service-to-service authorization between {{site.data.keyword.compliance_short}} and Satellite. To create a new authorization through the IAM UI, you can use the following steps.
+
+1. In the {{site.data.keyword.cloud_notm}} console, go to **Manage > Access (IAM) > Authorizations**.
+2. Click **Create**.
+3. Select **{{site.data.keyword.compliance_short}}** from the **Source service** drop-down.
+4. Leave **All resources** selected.
+5. Select **Satellite** from the **Target service** drop-down.
+6. Leave **All resources** selected.
+7. Check **Viewer** to provide the required access.
+8. Click **Authorize**.
 

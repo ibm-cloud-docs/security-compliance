@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-06-28"
 
 keywords: goals, secure by default, secure, secure platform, default goals, available goals
 
