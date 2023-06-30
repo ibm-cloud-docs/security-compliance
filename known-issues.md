@@ -21,7 +21,6 @@ Review the following known issues that you might encounter while you work with {
  
 | Issue  | Workaround |
 |:-------|:-----------|
-
 | You cannot create a second integration. | Only one integration can be created for each name or URL. If you need to update your integration in some way, delete the integration and create a new one. |
 {: caption="Table 1. Known issues and workarounds" caption-side="top"}
 
