@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-29"
+lastupdated: "2023-06-30"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -44,7 +44,7 @@ The following changes with platform integrations are expected as part of this tr
 * Any Identity and Access Management (IAM) access policies or context-based restrictions that are scoped to “All Account Management Services” will no longer apply to {{site.data.keyword.compliance_short}}. Users who have access to “All Identity and Access Enabled Services” will now have access to {{site.data.keyword.compliance_short}}.
 * If users have access only to products added to a private catalog and not the full IBM Cloud catalog, then {{site.data.keyword.compliance_short}} must be added to their private catalog to enable them to create an instance.
 * If users have a quota on the number of resources for their account that has already been met, instances of the service will not be able to be created.
-* The events related to collector-based evaluations will also be removed. To continue to receive events for your evaluations you must [configure new topics in Event Notifications](/docs/security-compliance?topic=security-compliance-event-notifications). 
+* The events related to collector-based evaluations will also be removed. To continue to receive events for your evaluations you must [ in Event Notifications](/docs/security-compliance?topic=security-compliance-event-notifications). 
 
 ## How does the functionality differ between the architectures?
 {: #arch-function}
