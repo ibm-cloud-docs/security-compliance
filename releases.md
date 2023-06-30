@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-28"
+lastupdated: "2023-06-30"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -22,6 +22,17 @@ content-type: release-note
 
 
 
+
+
+
+## 1 July 2023
+{: #security-compliance-july012023}
+{: release-note}
+
+Support removed for the collector-based architecture
+:   The collector-based architecture has been removed from the product in preparation for an upcoming architectural change to a regional offering. [Learn more](/docs/security-compliance?topic=security-compliance-migrate).
+
+   The events related to collector-based evaluations have also been removed. To continue to receive events for your evaluations you must [configure new topics in Event Notifications](/docs/security-compliance?topic=security-compliance-event-notifications). 
 
 
 
@@ -69,7 +80,7 @@ Reminder: {{site.data.keyword.compliance_short}} will become regional
    * If users have access only to products added to a private catalog and not the full IBM Cloud catalog, then {{site.data.keyword.compliance_short}} must be added to their private catalog to enable them to create an instance.
    * If users have a quota on the number of resources for their account that has already been met, instances of the service will not be able to be created.
 
-   During this update, you are responsible for the migration of your scan configurations to the new architecture. You can start this migration at any time. For more information about the differences and how to get started, see [Migrating to the new architecture](/docs/security-compliance?topic=security-compliance-migrate).
+   During this update, you are responsible for the migration of your scan configurations to the new architecture. You can start this migration at any time.
 
    As you begin your migration, please keep the following dates in mind:
    * 8 June 2023: The location setting in {{site.data.keyword.compliance_short}} will be frozen until the upgrade is complete. The location that is specified in the service is the region in which your new instance will be created. Additional instances can be created starting in July.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-28"
+lastupdated: "2023-06-30"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -88,22 +88,6 @@ You can find the `event_notifications_instance_crn` value in the console by goin
 
 
 
-```sh
-curl -X PATCH 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/settings' \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer <accessToken>' \
-  -d '{
-      "event_notifications": {
-          "source_name": "Security and Compliance Center",
-          "source_description": "Optional description for this source.",
-          "instance_crn": "crn:v1:bluemix:public:event-notifications:us-south:a/<account_id>:<instance_id>::"
-      }'
-```
-{: codeblock}
-{: curl}
-
-
-
 A successful response returns the CRN value of your connected {{site.data.keyword.en_short}} service instance. For more information about the required and optional request parameters, see the [API docs](/apidocs/security-compliance-admin#patchaccountsettings).
 
 
@@ -133,16 +117,6 @@ Before you can send a test {{site.data.keyword.compliance_short}} event, you mus
 {: note}
 
 The following example shows a query that you can use to send a test event from the {{site.data.keyword.compliance_short}} to {{site.data.keyword.en_short}}. When you call the API, replace the `<accountID>` variable and IAM token with the values that are specific to your account.
-{: curl}
-
-
-
-```sh
-curl -X POST 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/test_event' \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer <accessToken>'
-```
-{: codeblock}
 {: curl}
 
 

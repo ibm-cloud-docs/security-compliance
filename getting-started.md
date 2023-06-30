@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-28"
+lastupdated: "2023-06-30"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -24,11 +24,6 @@ completion-time: 5m
 
 For highly regulated industries, such as financial services, achieving continuous compliance within a cloud environment is an important first step toward protecting customer and application data. Historically, that process was difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.compliance_full}}, you can integrate daily, automatic compliance checks into your development lifecycle to help minimize that risk.
 {: shortdesc}
-
-
-
-Starting 9 July 2023 Security and Compliance Center will be a provision-able, regional service offering in the {{site.data.keyword.cloud_notm}} catalog. As this change is made, support for the collector-based architecture (v1) that currently resides in the Hybrid Cloud section of the UI will be removed. For more information, see the [release notes](/docs/security-compliance?topic=security-compliance-release-notes).
-{: deprecated}
 
 
 

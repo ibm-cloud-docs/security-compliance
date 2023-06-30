@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-28"
+lastupdated: "2023-06-30"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -46,9 +46,6 @@ subcollection: security-compliance
 | Attachment | 50 per account |
 | Exclusion | 8 per attachment |
 | Scan | 1 per attachment - at any time |
-| Number of managed collectors | 1 per account |
-| Number of scannable resources | 900 resources per managed-collector |
-| Scannable environments | If you're working with an environment that is not {{site.data.keyword.cloud_notm}}, you must use a customer-managed collector. |
 {: row-headers}
 {: caption="Table 1. {{site.data.keyword.compliance_short}} limits" caption-side="top"}
 
