@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-28"
+lastupdated: "2023-06-30"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -33,13 +33,4 @@ Frequently asked questions for {{site.data.keyword.compliance_full}} might inclu
 {: support}
 
 Yes, you can create rules for services or resources that are not already provisioned in your accounts. When the service or resource is created, it is automatically evaluated according to your rule definition.
-
-
-
-## [deprecated]{: tag-deprecated} Why do I have to create a collector?
-{: #faq-collector}
-{: faq}
-{: support}
-
-In the original {{site.data.keyword.compliance_short}} architecture, a collector is used to gather information about your resource configuration and evaluate it against your defined profile. If you're working with the hybrid cloud flow, you must create a collector to complete the evaluation. For more information about collectors, see [Managing collectors](/docs/security-compliance?topic=security-compliance-collector).
 

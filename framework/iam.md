@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-28"
+lastupdated: "2023-06-30"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -29,11 +29,6 @@ Policies enable access to be granted at different levels. Some options include t
 {: #iam-roles}
 
 After you define the level of access that a user might need, you can assign them a platform access role. Review the following tables that outline which roles are required to perform actions within the {{site.data.keyword.compliance_short}}.
-
-
-
-If you are working with the collector-based architecture, you must assign additional access. For more information, see [Assigning the required permissions](/docs/security-compliance?topic=security-compliance-permissions).
-{: note}
 
 
 
