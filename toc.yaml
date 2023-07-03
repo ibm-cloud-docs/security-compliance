@@ -58,6 +58,7 @@ toc:
       - results.md
       - topicgroup:
           label: Connecting integrations
+          topics:
           - integrations/workloadprotection.md
       - topicgroup:
           label: Enhancing security
