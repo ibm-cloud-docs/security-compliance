@@ -55,7 +55,10 @@ toc:
               - custom-library.md
               - custom-profile.md
               - custom-rule.md
-      - results.md 
+      - results.md
+      - topicgroup:
+          label: Connecting integrations
+          - integrations/workloadprotection.md
       - topicgroup:
           label: Enhancing security
           topics:
