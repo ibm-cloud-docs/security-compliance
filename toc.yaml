@@ -30,7 +30,7 @@ toc:
         navtitle: Release notes
   - navgroup:
       id: tutorial
-      topics: 
+      topics:
       - tutorials/osco-v2.md
   - navgroup:
       id: howto
@@ -55,26 +55,7 @@ toc:
               - custom-library.md
               - custom-profile.md
               - custom-rule.md
-          - topicgroup:
-              label: Scanning hybrid cloud resources
-              topics:
-              - cs-permissions.md
-              - cs-credentials.md
-              - cs-collector.md
-              - cs-profile-custom.md
-              - cs-goals.md
-              - cs-scopes.md
-              - cs-scans.md
-      - topicgroup:
-          label: Understanding results
-          topics:
-          - results.md
-          - cs-posture.md
-          - cs-remediation.md
-      - topicgroup:
-          label: Connecting integrations
-          topics: 
-          - integrations/tanium.md
+      - results.md 
       - topicgroup:
           label: Enhancing security
           topics:
