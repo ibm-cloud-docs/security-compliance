@@ -70,7 +70,7 @@ toc:
           - topic: framework/cbr.md
   - navgroup:
       id: reference
-      topics:
+      topics: 
       - topicgroup:
           label: Available profiles and properties
           topics:
