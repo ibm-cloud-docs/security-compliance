@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-30"
+lastupdated: "2023-07-04"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -43,6 +43,9 @@ Support removed for the collector-based architecture
  
 New rules available
 :   The Global Search and Tagging platform service is now available for you to create custom rules. Rules can be written to evalaute resources that have been assigned specific tags. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
+
+Attachment details available
+:   The create attachment flow has been updated to include details as an input. Profiles that were previously created will now see a name field in the profiles table, but it will be empty. You can add a name at any time by editing your profile.
 
 
 
