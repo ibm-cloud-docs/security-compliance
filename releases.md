@@ -22,6 +22,17 @@ content-type: release-note
 
 
 
+<profile>
+
+## 10 July 2023
+{: #security-compliance-july102023}
+{: release-note}
+
+{{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile version 1.0.0 
+:   Version 1.0.0 of the {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile is now available. This profile introduces new the new assessment format `wp-rule`. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-iks-profile).
+
+</profile>
+
 
 
 
@@ -55,7 +66,6 @@ Attachment details available
 {: release-note}
 
 {{site.data.keyword.cloud_notm}} for Financial Services profile version 1.3.0 
-
 :   Version 1.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 {{site.data.keyword.cloud_notm}} Security Best Practices profile version 1.2.0
@@ -75,7 +85,7 @@ OpenShift Compliance Operator (OSCO)
 
 Reminder: {{site.data.keyword.compliance_short}} will become regional
 
-:   Starting 9 July 2023 {{site.data.keyword.compliance_short}} will be a provisionable, regional service offering in the IBM Cloud catalog. With this change, you will have full control over the region that is used when {{site.data.keyword.compliance_short}} processes your data. To process data in different regions, you can create multiple instances of the service in a single account. 
+:   Starting 8 July 2023 {{site.data.keyword.compliance_short}} will be a provisionable, regional service offering in the IBM Cloud catalog. With this change, you will have full control over the region that is used when {{site.data.keyword.compliance_short}} processes your data. To process data in different regions, you can create multiple instances of the service in a single account. 
 
    [deprecated]{: tag-deprecated} To support this change, support for the collector-based architecture was deprecated. This means that all of the configurations surrounding collectors, goal-based profiles, collector-based scans, goal-based results, and credentials will be removed at the end of support on 1 July 2023.
 
@@ -89,7 +99,7 @@ Reminder: {{site.data.keyword.compliance_short}} will become regional
    As you begin your migration, please keep the following dates in mind:
    * 8 June 2023: The location setting in {{site.data.keyword.compliance_short}} will be frozen until the upgrade is complete. The location that is specified in the service is the region in which your new instance will be created. Additional instances can be created starting in July.
    * 1 July 2023: The collector-based architecture will be removed from {{site.data.keyword.compliance_short}}.
-   * 9 July 2023: A regional instance of {{site.data.keyword.compliance_short}} will be available in your account based on your set location and the global instance will be removed. Additionally, the changes to IAM and context-based restrictions take effect.
+   * 8 July 2023: A regional instance of {{site.data.keyword.compliance_short}} will be available in your account based on your set location and the global instance will be removed. Additionally, the changes to IAM and context-based restrictions take effect.
 
    You might see two instances of {{site.data.keyword.compliance_short}} through the Billing page during the migration period although you can’t see two instances in your account. This is due to the way that the migration is being conducted. You are only billed through one. When the migration is complete, the global instance will be removed from your account.
    {: note} 
