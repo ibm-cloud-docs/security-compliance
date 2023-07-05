@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-14"
+lastupdated: "2023-07-05"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -23,7 +23,7 @@ With {{site.data.keyword.compliance_full}}, you can view the results of a compli
 ## Before you begin
 {: #before-results}
 
-Before you get started, be sure that you have the required level of access to view results. To view results, you need the [**Administrator** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). You must also have access to the credentials that are needed to access your resource configurations.
+Before you get started, be sure that you have the required level of access to view results. To view results, you need the [**Operator** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). You must also have access to the credentials that are needed to access your resource configurations.
 
 ## Understanding the dashboard
 {: #understand-dashboard}
