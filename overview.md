@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-30"
+lastupdated: "2023-07-05"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -64,7 +64,7 @@ Report
 
 Now that you have an understanding of the various entities that exist within {{site.data.keyword.compliance_short}}, how do they work together? The following diagram details the user flows that you might take when you are working with {{site.data.keyword.compliance_short}}. 
 
-![A diagram that shows the relationship between the entities that you work with in the service.](images/scc-user-flow.svg){: caption="Figure 1. Understanding the user flow for {{site.data.keyword.compliance_short}}" caption-side="bottom"}
+![A diagram that shows the relationship between the entities that you work with in the service.](images/terminology-flow.svg){: caption="Figure 1. Understanding the user flow for {{site.data.keyword.compliance_short}}" caption-side="bottom"}
 
 1. As a security or compliance focal, choose a predefined profile that is most suitable for your organization. Optionally you can customize the profile by creating custom rules, adding or removing rules, or building your own profile based on the catalog of controls. 
 2. To start scanning your resources, create an attachment of the profile to the scope of resources you want to scan. You can optionally customize parameters of the controls when you create the attachment.
