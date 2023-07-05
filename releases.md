@@ -48,7 +48,7 @@ New rules available
 :   The Global Search and Tagging platform service is now available for you to create custom rules. Rules can be written to evalaute resources that have been assigned specific tags. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 Attachment details available
-:   The create attachment flow has been updated to include details as an input. Profiles that were previously created will now see a name field in the profiles table, but it will be empty. You can add a name at any time by editing your profile.
+:   The create attachment flow has been updated to include details as an input. Profiles that were previously created will now see a name comprised of the combination of a `scope-type and scope ID` in the profiles table.. You can add a custom name at any time by editing your profile.
 
 
 
