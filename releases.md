@@ -22,16 +22,7 @@ content-type: release-note
 
 
 
-<profile>
 
-## 10 July 2023
-{: #security-compliance-july102023}
-{: release-note}
-
-{{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile version 1.0.0 
-:   Version 1.0.0 of the {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile is now available. This profile introduces new the new assessment format `wp-rule`. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-iks-profile).
-
-</profile>
 
 
 
