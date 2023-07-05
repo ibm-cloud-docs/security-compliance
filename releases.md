@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-04"
+lastupdated: "2023-07-05"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,6 +18,16 @@ content-type: release-note
 
 
 
+<cbr>
+
+## xx July 2023
+{: #security-compliance-julyxx2023}
+{: release-note}
+ 
+New rules available
+:   The context based restrictions platform service is now available for you to create custom rules. Rules can be written to evalaute resources that have been assigned specific tags. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
+
+</cbr>
 
 
 
