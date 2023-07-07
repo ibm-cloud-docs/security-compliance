@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-30"
+lastupdated: "2023-07-07"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -31,7 +31,7 @@ To evaluate your resources, you create an attachment. An attachment is the assoc
 
 Before you get started, be sure that you have the required level of access to create an attachment. To create an attachment, you need the **Editor** platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
 
-You must have also connected a Cloud Object Storage bucket in which to store your results. To connect your bucket, you must have a service-to-service policy in place that enables communication between {{site.data.keyword.compliance_short}} and Cloud Object Storage.
+You must also connect a Cloud Object Storage bucket in which to store your results. To connect your bucket, you must have a service-to-service policy in place that enables communication between {{site.data.keyword.compliance_short}} and Cloud Object Storage.
 
 
 ## Scheduling a recurring scan
@@ -46,7 +46,7 @@ To start scanning your resource, you create an attachment. To create an attachme
 2. Provide a name and description for your attachment. Be sure to be as descriptive as possible so that it's easy for other members of your team to understand what is being evaluated. Then, click **Next**.
 3. Select the **Profile** and **Profile version** that you want to use for your evaluation.
 4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
-5. Define a **Scope** to identify the resources that you want to evaluate and those that you want to **Exclude**. Then, click **Next**.
+5. Define a **Scope** to identify the resources that you want to evaluate and the ones that you want to **Exclude**. Then, click **Next**.
 6. Select the frequency at which you want to evaluate your attachment.
 	
 	Options include every day, every 7 days, and every 30 days. Additionally, you can now pause your scans if you need to.
@@ -55,11 +55,11 @@ To start scanning your resource, you create an attachment. To create an attachme
 	1. If you want to receive notifications, toggle **Notify me** to **On**.
 	2. By default, when notifications are enabled, you are alerted when 15% or more of your controls fail in a single scan. You can change this by adjusting the **Threshold** percentage. 
 	
-		For example, if you have a profile with 100 controls and you want to be notified if 5 of them fail, you would select 5% as your threshold.
+		For example, if you have a profile with 100 controls, and you want to be notified if 5 of them fail, you would select 5% as your threshold.
 	
 	3. Select specific controls that you want to be notified about.
 
-		If there are high priority controls that pertain specifically to your job role, you might want to be notified every time they fail. You can identify up to 15 controls per scan that you can receive individual notifications for. These notifications are sent regardless of whether the threshold identified in the previous step has been met.
+		If there are high priority controls that pertain specifically to your job role, you might want to be notified every time they fail. You can identify up to 15 controls per scan that you can receive individual notifications for. These notifications are sent regardless of whether the threshold that was identified in the previous step was met.
 
 		1. Click **Select control**.
 		2. Select the controls that you want to be notified about by checking the box next to the control.
@@ -76,7 +76,7 @@ When you create your attachment, a scan is scheduled. When the scan completes, y
 {: #scan-ondemand-ui}
 {: ui}
 
-If your attachment exists but you don't want to wait for the next scan to see your posture, you can initiate an on demand scan.
+If your attachment exists, but you don't want to wait for the next scan to see your posture, you can initiate an on-demand scan.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Profile**.
