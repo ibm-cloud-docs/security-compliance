@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-05"
+lastupdated: "2023-07-07"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -69,7 +69,7 @@ Before you can enable notifications for {{site.data.keyword.compliance_short}}, 
 
    A success message is displayed to indicate that {{site.data.keyword.compliance_short}} is now connected to {{site.data.keyword.en_short}}. If you need to disconnect from {{site.data.keyword.en_short}} later, you can use the options menu ![options icon](../../icons/actions-icon-vertical.svg) **> Disconnect** to remove the {{site.data.keyword.compliance_short}} as a source service in the {{site.data.keyword.en_short}} instance.
 
-   If you choose to disconnect {{site.data.keyword.en_short}}, do not delete the IAM authorization between {{site.data.keyword.compliance_short}} and {{site.data.keyword.en_short}}. The {{site.data.keyword.compliance_short}} uses the existing authorization to unregister from {{site.data.keyword.en_short}}. If an {{site.data.keyword.en_short}} instance is deleted, any authorizations that exist between the service and the {{site.data.keyword.compliance_short}} are also deleted by IAM.
+   If you choose to disconnect {{site.data.keyword.en_short}}, do not delete the IAM authorization between {{site.data.keyword.compliance_short}} and {{site.data.keyword.en_short}}. The {{site.data.keyword.compliance_short}} uses the existing authorization to unregister from {{site.data.keyword.en_short}}. If an {{site.data.keyword.en_short}} instance is deleted, any authorizations that exist between the service and {{site.data.keyword.compliance_short}} are also deleted by IAM.
    {: important}
 
 ### Connecting to {{site.data.keyword.en_short}} with the API
@@ -99,10 +99,6 @@ curl -X PATCH 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/set
 ```
 {: codeblock}
 {: curl}
-
-
-
-A successful response returns the CRN value of your connected {{site.data.keyword.en_short}} service instance. For more information about the required and optional request parameters, see the [API docs](/apidocs/security-compliance-admin#patchaccountsettings).
 
 
 
@@ -142,11 +138,6 @@ curl -X POST 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/test
 ```
 {: codeblock}
 {: curl}
-
-
-
-A successful response returns `{"success": true}` to indicate that a test event was forwarded successfully to your connected {{site.data.keyword.en_short}} service instance. For more information, see the [API docs](/apidocs/security-compliance-admin#sendtestevent).
-
 
 
 
