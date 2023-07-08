@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-06-30"
+lastupdated: "2023-07-08"
 
 keywords: integrations, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -31,6 +31,11 @@ With {{site.data.keyword.compliance_short}} you can evaluate {{site.data.keyword
 {: #evaluate-services}
 
 You can evaluate your organization’s current security and compliance posture by validating the configuration of your resources in the following components.
+
+
+
+To evaluate multicloud solutions, connect an instance of {{site.data.keyword.compliance_short}} Workload Protection.
+{: tip}
 
 
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-05"
+lastupdated: "2023-07-08"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -26,6 +26,16 @@ content-type: release-note
 
 
 
+## 8 July 2023
+{: #security-compliance-july082023}
+{: release-note}
+
+{{site.data.keyword.compliance_short}} is now an instance-based, regional offering
+:   You now have full control over the region that is used when {{site.data.keyword.compliance_short}} processes your data. To process data in different regions, you can create multiple instances of the service in a single account. As part of this architecture change, any Identity and Access Management (IAM) access policies or context-based restrictions that are scoped to “All Account Management Services” will no longer apply to {{site.data.keyword.compliance_short}}. Users who have access to “All Identity and Access Enabled Services” will now have access to {{site.data.keyword.compliance_short}}. Additionally, if you are working with private catalogs, {{site.data.keyword.compliance_short}} must be added to the private catalog as an approved service in order for members of your organization to create an instance.
+
+   If users have a quota on the number of resources for their account that has already been met, instances of the service will not be able to be created.
+   {: note}
+
 
 
 ## 1 July 2023
@@ -36,8 +46,6 @@ Support removed for the collector-based architecture
 :   The collector-based architecture has been removed from the product in preparation for an upcoming architectural change to a regional offering. [Learn more](/docs/security-compliance?topic=security-compliance-migrate).
 
    The events related to collector-based evaluations have also been removed. To continue to receive events for your evaluations you must [update your topics in Event Notifications](/docs/security-compliance?topic=security-compliance-event-notifications). 
-
-
 
 
 ## 23 June 2023

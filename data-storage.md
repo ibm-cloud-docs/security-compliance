@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-04"
+lastupdated: "2023-07-08"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -37,6 +37,11 @@ All the traffic between {{site.data.keyword.compliance_short}} and Cloud Object 
 {: ui}
 
 Before you can start evaluating your resources for compliance, you must configure a Cloud Object Storage bucket where the service can forward your results data for long-term storage.
+
+The processing of your data is configured in your instance's location. For example, if you provision a {{site.data.keyword.compliance_short}} instance in the `us-south` region, your data is processed there.
+{: note}
+
+
 
 To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword.compliance_short}} UI.
 
