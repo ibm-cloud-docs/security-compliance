@@ -21,7 +21,6 @@ With {{site.data.keyword.compliance_full}}, you can evaluate the resources that 
 {: shortdesc}
 
 
-
 ## Environments that can be evaluated
 {: #available-environments}
 
@@ -31,13 +30,6 @@ With {{site.data.keyword.compliance_short}} you can evaluate {{site.data.keyword
 {: #evaluate-services}
 
 You can evaluate your organization’s current security and compliance posture by validating the configuration of your resources in the following components.
-
-
-
-To evaluate multicloud solutions, connect an instance of {{site.data.keyword.compliance_short}} Workload Protection.
-{: tip}
-
-
 
 * [{{site.data.keyword.at_short}}](/docs/activity-tracker?topic=activity-tracker-getting-started)*
 * [{{site.data.keyword.appid_short_notm}}](/docs/appid?topic=appid-getting-started)*
