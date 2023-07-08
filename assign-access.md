@@ -29,7 +29,7 @@ As an account owner, you are automatically assigned Administrator platform acces
    
 	| Service | Minimum required permissions |
 	|---------|----------------------|
-	| {{site.data.keyword.compliance_short}} | Administratorm |
+	| {{site.data.keyword.compliance_short}} | Administrator |
 	| Cloud Object Storage | Reader |
 	| Event Notifications | Reader |
 	{: caption="Table. Minimum required permissions" caption-side="top"}
