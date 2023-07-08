@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-05"
+lastupdated: "2023-07-07"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -97,4 +97,3 @@ If you need to keep your results for long periods of time, or provide informatio
 4. Click **Download report**.
 
 A CSV with your evaluation results is downloaded to your local system.
-

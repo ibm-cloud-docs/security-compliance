@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-30"
+lastupdated: "2023-07-08"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -34,6 +34,21 @@ Before you get started, be sure that you have resources in your account to evalu
 
 Running an evaluation does not ensure regulatory compliance. An evaluation provides a point in time statement of your current posture for a specific resource. It is your responsibility to review and interpret the results to ensure that your organization is adhering to the controls that are required for your industry. 
 {: important}
+
+
+
+## Create an instance
+{: #gs-instance}
+{: step}
+
+To get started with {{site.data.keyword.compliance_short}}, you must first create an instance of the service.
+
+1. Go to the [{{site.data.keyword.cloud_notm}} catalog](/catalog) and search for ["{{site.data.keyword.compliance_short}}"](/catalog/services/security-and-compliance-center).
+2. In the service details page, select a location. The selected location is where {{site.data.keyword.compliance_short}} will conduct the evaluation of your resources.
+3. Select a pricing plan. Options include **Standard** or **Trial**.
+4. Configure your resource by providing a name for the instance, specifying a resource group and adding any needed tags.
+5. Acknowledge and agree to the terms and conditions.
+6. Click **Create**.
 
 
 
@@ -86,6 +101,10 @@ An attachment is how you target a specific grouping of your resources to evaluat
 
 
 1. In the {{site.data.keyword.compliance_short}} navigation, click **Dashboard** Then, click **Get started**.
+
+	Alternatively, you can create an attachment through the **Profiles** page. On the **Attachments** tab of the profile details page, click **Create** and then continue with step 2. Or, you can navigate to the **Attachments** page where a flat list of all of your attachments is shown.
+	{: tip}
+
 2. Provide a name and description for your attachment. Be sure to be as descriptive as possible so that it's easy for other members of your team to understand what is being evaluated. Then, click **Next**.
 3. Select the **Profile** and **Profile version** that you want to use for your evaluation.
 4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-30"
+lastupdated: "2023-07-08"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -31,7 +31,7 @@ To evaluate your resources, you create an attachment. An attachment is the assoc
 
 Before you get started, be sure that you have the required level of access to create an attachment. To create an attachment, you need the **Editor** platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
 
-You must have also connected a Cloud Object Storage bucket in which to store your results. To connect your bucket, you must have a service-to-service policy in place that enables communication between {{site.data.keyword.compliance_short}} and Cloud Object Storage.
+You must also connect a Cloud Object Storage bucket in which to store your results. To connect your bucket, you must have a service-to-service policy in place that enables communication between {{site.data.keyword.compliance_short}} and Cloud Object Storage.
 
 
 ## Scheduling a recurring scan
@@ -42,7 +42,11 @@ To start scanning your resource, you create an attachment. To create an attachme
 
 
 
-1. In the {{site.data.keyword.compliance_short}} UI, navigate to the **Profiles** page. Select the profile that you want to evaluate and navigate to the **attachments** tab. Then, click **Create**. 
+1. In the {{site.data.keyword.compliance_short}} UI, navigate to the **Attachments** page and click **Create**. A flat list of all of the attachments in your account is displayed.
+
+	Alternatively, you can create an attachment through the **Profiles** page. On the **Attachments** tab of the profile details page, click **Create** and then continue with step 2.
+	{: tip}
+
 2. Provide a name and description for your attachment. Be sure to be as descriptive as possible so that it's easy for other members of your team to understand what is being evaluated. Then, click **Next**.
 3. Select the **Profile** and **Profile version** that you want to use for your evaluation.
 4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
@@ -59,7 +63,7 @@ To start scanning your resource, you create an attachment. To create an attachme
 	
 	3. Select specific controls that you want to be notified about.
 
-		If there are high priority controls that pertain specifically to your job role, you might want to be notified every time they fail. You can identify up to 15 controls per scan that you can receive individual notifications for. These notifications are sent regardless of whether the threshold identified in the previous step has been met.
+		If there are high priority controls that pertain specifically to your job role, you might want to be notified every time that they fail. You can identify up to 15 controls per scan that you can receive individual notifications for. These notifications are sent regardless of whether the threshold that was identified in the previous step was met.
 
 		1. Click **Select control**.
 		2. Select the controls that you want to be notified about by checking the box next to the control.
@@ -70,13 +74,11 @@ When you create your attachment, a scan is scheduled. When the scan completes, y
 
 
 
-
-
 ## Running a scan on demand
 {: #scan-ondemand-ui}
 {: ui}
 
-If your attachment exists but you don't want to wait for the next scan to see your posture, you can initiate an on demand scan.
+If your attachment exists, but you don't want to wait for the next scan to see your posture, you can initiate an on-demand scan.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Profile**.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-04"
+lastupdated: "2023-07-08"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -25,6 +25,19 @@ content-type: release-note
 
 
 
+
+## 8 July 2023
+{: #security-compliance-july082023}
+{: release-note}
+
+{{site.data.keyword.compliance_short}} is now an instance-based, regional offering
+:   You now have full control over the region that is used when {{site.data.keyword.compliance_short}} processes your data. To process data in different regions, you can create multiple instances of the service in a single account. As part of this architecture change, any Identity and Access Management (IAM) access policies or context-based restrictions that are scoped to “All Account Management Services” will no longer apply to {{site.data.keyword.compliance_short}}. Users who have access to “All Identity and Access Enabled Services” will now have access to {{site.data.keyword.compliance_short}}. Additionally, if you are working with private catalogs, {{site.data.keyword.compliance_short}} must be added to the private catalog as an approved service in order for members of your organization to create an instance.
+
+   If users have a quota on the number of resources for their account that has already been met, instances of the service will not be able to be created.
+   {: note}
+
+
+
 ## 1 July 2023
 {: #security-compliance-july012023}
 {: release-note}
@@ -35,8 +48,6 @@ Support removed for the collector-based architecture
    The events related to collector-based evaluations have also been removed. To continue to receive events for your evaluations you must [update your topics in Event Notifications](/docs/security-compliance?topic=security-compliance-event-notifications). 
 
 
-
-
 ## 23 June 2023
 {: #security-compliance-june232023}
 {: release-note}
@@ -45,7 +56,7 @@ New rules available
 :   The Global Search and Tagging platform service is now available for you to create custom rules. Rules can be written to evalaute resources that have been assigned specific tags. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 Attachment details available
-:   The create attachment flow has been updated to include details as an input. Profiles that were previously created will now see a name field in the profiles table, but it will be empty. You can add a name at any time by editing your profile.
+:   The create attachment flow has been updated to include details as an input. Profiles that were previously created will now see a name comprised of the combination of a `scope-type and scope ID` in the profiles table.. You can add a custom name at any time by editing your profile.
 
 
 
@@ -54,7 +65,6 @@ Attachment details available
 {: release-note}
 
 {{site.data.keyword.cloud_notm}} for Financial Services profile version 1.3.0 
-
 :   Version 1.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 {{site.data.keyword.cloud_notm}} Security Best Practices profile version 1.2.0
@@ -74,7 +84,7 @@ OpenShift Compliance Operator (OSCO)
 
 Reminder: {{site.data.keyword.compliance_short}} will become regional
 
-:   Starting 9 July 2023 {{site.data.keyword.compliance_short}} will be a provisionable, regional service offering in the IBM Cloud catalog. With this change, you will have full control over the region that is used when {{site.data.keyword.compliance_short}} processes your data. To process data in different regions, you can create multiple instances of the service in a single account. 
+:   Starting 8 July 2023 {{site.data.keyword.compliance_short}} will be a provisionable, regional service offering in the IBM Cloud catalog. With this change, you will have full control over the region that is used when {{site.data.keyword.compliance_short}} processes your data. To process data in different regions, you can create multiple instances of the service in a single account. 
 
    [deprecated]{: tag-deprecated} To support this change, support for the collector-based architecture was deprecated. This means that all of the configurations surrounding collectors, goal-based profiles, collector-based scans, goal-based results, and credentials will be removed at the end of support on 1 July 2023.
 
@@ -88,7 +98,7 @@ Reminder: {{site.data.keyword.compliance_short}} will become regional
    As you begin your migration, please keep the following dates in mind:
    * 8 June 2023: The location setting in {{site.data.keyword.compliance_short}} will be frozen until the upgrade is complete. The location that is specified in the service is the region in which your new instance will be created. Additional instances can be created starting in July.
    * 1 July 2023: The collector-based architecture will be removed from {{site.data.keyword.compliance_short}}.
-   * 9 July 2023: A regional instance of {{site.data.keyword.compliance_short}} will be available in your account based on your set location and the global instance will be removed. Additionally, the changes to IAM and context-based restrictions take effect.
+   * 8 July 2023: A regional instance of {{site.data.keyword.compliance_short}} will be available in your account based on your set location and the global instance will be removed. Additionally, the changes to IAM and context-based restrictions take effect.
 
    You might see two instances of {{site.data.keyword.compliance_short}} through the Billing page during the migration period although you can’t see two instances in your account. This is due to the way that the migration is being conducted. You are only billed through one. When the migration is complete, the global instance will be removed from your account.
    {: note} 

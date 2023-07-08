@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-06-30"
+lastupdated: "2023-07-08"
 
 keywords: integrations, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -21,7 +21,6 @@ With {{site.data.keyword.compliance_full}}, you can evaluate the resources that 
 {: shortdesc}
 
 
-
 ## Environments that can be evaluated
 {: #available-environments}
 
@@ -31,8 +30,6 @@ With {{site.data.keyword.compliance_short}} you can evaluate {{site.data.keyword
 {: #evaluate-services}
 
 You can evaluate your organization’s current security and compliance posture by validating the configuration of your resources in the following components.
-
-
 
 * [{{site.data.keyword.at_short}}](/docs/activity-tracker?topic=activity-tracker-getting-started)*
 * [{{site.data.keyword.appid_short_notm}}](/docs/appid?topic=appid-getting-started)*

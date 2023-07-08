@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-05"
+lastupdated: "2023-07-08"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -69,7 +69,7 @@ Before you can enable notifications for {{site.data.keyword.compliance_short}}, 
 
    A success message is displayed to indicate that {{site.data.keyword.compliance_short}} is now connected to {{site.data.keyword.en_short}}. If you need to disconnect from {{site.data.keyword.en_short}} later, you can use the options menu ![options icon](../../icons/actions-icon-vertical.svg) **> Disconnect** to remove the {{site.data.keyword.compliance_short}} as a source service in the {{site.data.keyword.en_short}} instance.
 
-   If you choose to disconnect {{site.data.keyword.en_short}}, do not delete the IAM authorization between {{site.data.keyword.compliance_short}} and {{site.data.keyword.en_short}}. The {{site.data.keyword.compliance_short}} uses the existing authorization to unregister from {{site.data.keyword.en_short}}. If an {{site.data.keyword.en_short}} instance is deleted, any authorizations that exist between the service and the {{site.data.keyword.compliance_short}} are also deleted by IAM.
+   If you choose to disconnect {{site.data.keyword.en_short}}, do not delete the IAM authorization between {{site.data.keyword.compliance_short}} and {{site.data.keyword.en_short}}. The {{site.data.keyword.compliance_short}} uses the existing authorization to unregister from {{site.data.keyword.en_short}}. If an {{site.data.keyword.en_short}} instance is deleted, any authorizations that exist between the service and {{site.data.keyword.compliance_short}} are also deleted by IAM.
    {: important}
 
 ### Connecting to {{site.data.keyword.en_short}} with the API
@@ -83,26 +83,6 @@ The following example shows a query that you can use to register your {{site.dat
 
 You can find the `event_notifications_instance_crn` value in the console by going to the **Resource list** and clicking the {{site.data.keyword.en_short}} instance row.
 {: tip}
-
-
-
-```sh
-curl -X PATCH 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/settings' \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer <accessToken>' \
-  -d '{
-      "event_notifications": {
-          "source_name": "Security and Compliance Center",
-          "source_description": "Optional description for this source.",
-          "instance_crn": "crn:v1:bluemix:public:event-notifications:us-south:a/<account_id>:<instance_id>::"
-      }'
-```
-{: codeblock}
-{: curl}
-
-
-
-A successful response returns the CRN value of your connected {{site.data.keyword.en_short}} service instance. For more information about the required and optional request parameters, see the [API docs](/apidocs/security-compliance-admin#patchaccountsettings).
 
 
 
@@ -132,21 +112,6 @@ Before you can send a test {{site.data.keyword.compliance_short}} event, you mus
 
 The following example shows a query that you can use to send a test event from the {{site.data.keyword.compliance_short}} to {{site.data.keyword.en_short}}. When you call the API, replace the `<accountID>` variable and IAM token with the values that are specific to your account.
 {: curl}
-
-
-
-```sh
-curl -X POST 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/test_event' \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer <accessToken>'
-```
-{: codeblock}
-{: curl}
-
-
-
-A successful response returns `{"success": true}` to indicate that a test event was forwarded successfully to your connected {{site.data.keyword.en_short}} service instance. For more information, see the [API docs](/apidocs/security-compliance-admin#sendtestevent).
-
 
 
 
