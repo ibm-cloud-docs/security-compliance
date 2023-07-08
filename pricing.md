@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-03-31"
+lastupdated: "2023-07-08"
 
 keywords: best practices security and compliance, secure development, security strategy, governance
 
@@ -28,7 +28,7 @@ For the most up-to-date pricing information, you can create a cost estimate by c
 The service offers two pricing plans.
 
 Trial
-:   To try out the service, you can enroll in a Trial period where you have access the full capabilities of the Posture Management component for 30 days at no charge. You can create profiles, set up credentials, and configure your account to evaluate your resources, among other things. The data that is generated is maintained for 180 days before it is automatically deleted. 
+:   To try out the service, you can enroll in a Trial period where you have access the full capabilities of the Posture Management component for 30 days at no charge. You can create profiles, set up credentials, and configure your account to evaluate your resources, among other things.
 
 Standard
 :   With a Standard plan, you are able to access the full capabilities of the service without limitations. However, you are charged per evaluation.

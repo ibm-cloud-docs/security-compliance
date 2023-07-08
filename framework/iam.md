@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-30"
+lastupdated: "2023-07-08"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -30,8 +30,6 @@ Policies enable access to be granted at different levels. Some options include t
 
 After you define the level of access that a user might need, you can assign them a platform access role. Review the following tables that outline which roles are required to perform actions within the {{site.data.keyword.compliance_short}}.
 
-
-
 The following tables list the platform access roles that are required to manage collectors, credentials, scopes, validations, and profiles in your accounts.
 
 | Action                          | Description                      | Minimum required role |
@@ -43,10 +41,6 @@ The following tables list the platform access roles that are required to manage 
 | `compliance.posture-management.attachments-delete` | Delete an attachment. | Editor[^attach-2] |
 | `compliance.posture-management.attachments-read` | View the available attachments in your account. | Viewer[^attach-3] |
 | `compliance.posture-management.attachments-update` | Update an attachment. | Editor[^attach-4] |
-| `compliance.posture-management.collectors-create` | Create a collector. | Editor |
-| `compliance.posture-management.collectors-delete` | Delete a collector. | Editor |
-| `compliance.posture-management.collectors-read` | View collectors. | Viewer |
-| `compliance.posture-management.collectors-update` | Update a collector. | Editor |
 | `compliance.posture-management.control-libraries-create` | Create a control library. | Editor |
 | `compliance.posture-management.control-libraries-delete` | Delete a control library. | Editor |
 | `compliance.posture-management.control-libraries-read` | View the available control libraries in your account. | Viewer |
@@ -59,22 +53,11 @@ The following tables list the platform access roles that are required to manage 
 | `compliance.posture-management.controls-delete` | Delete a control. | Editor |
 | `compliance.posture-management.controls-read` | View the controls that you can add to a profile. | Viewer |
 | `compliance.posture-management.controls-update` | Update an existing control. | Editor |
-| `compliance.posture-management.credentials-create` | Create a credential. | Editor |
-| `compliance.posture-management.credentials-delete` | Delete a credential. | Editor |
-| `compliance.posture-management.credentials-read` | View credentials. | Viewer |
-| `compliance.posture-management.credentials-update` | Update a credential. | Editor |
-| `compliance.posture-management.credentialsmap-create` | Map credentials to a scope. | Editor |
-| `compliance.posture-management.credentialsmap-delete` | Delete a credentials mapping. | Editor |
-| `compliance.posture-management.credentialsmap-read` | View credential mappings. | Viewer |
-| `compliance.posture-management.credentialsmap-update` | Edit an existing credential mapping. | Editor |
 | `compliance.posture-management.dashboard-view` | View hybrid cloud results. | Viewer|
 | `compliance.posture-management.integrations-create` | Create an integration in {{site.data.keyword.compliance_short}}. | Operator |
 | `compliance.posture-management.integrations-delete` | Delete an integration in {{site.data.keyword.compliance_short}}. | Editor |
 | `compliance.posture-management.integrations-read` | View an integration in {{site.data.keyword.compliance_short}}. | Viewer |
 | `compliance.posture-management.integrations-update` | Update an integration in {{site.data.keyword.compliance_short}}. | Operator |
-| `compliance.posture-management.keys-delete` | Enable/Disable BYOK configuration | Editor |
-| `compliance.posture-management.keys-read` | Read BYOK/KYOK configuration | Viewer|
-| `compliance.posture-management.keys-write` | Edit BYOK/KYOK configuration | Editor |
 | `compliance.posture-management.profiles-create` | Create a profile. | Editor |
 | `compliance.posture-management.profiles-delete` | Delete a profile. | Editor |
 | `compliance.posture-management.profiles-read` | View profiles. | Viewer |
@@ -90,17 +73,6 @@ The following tables list the platform access roles that are required to manage 
 | `compliance.posture-management.scopes-delete` | Delete a scope. | Editor |
 | `compliance.posture-management.scopes-read` | View scopes. | Viewer |
 | `compliance.posture-management.scopes-update` | Edit a scope. | Editor |
-| `compliance.posture-management.tags-create` | Create tags. | Operator |
-| `compliance.posture-management.tags-delete` | Delete a tag. | Operator |
-| `compliance.posture-management.tags-read` | View tags. | Viewer |
-| `compliance.posture-management.tags-update` | Update a tag. | Editor |
-| `compliance.posture-management.validations-create` | Run a validation scan. | Editor |
-| `compliance.posture-management.validations-delete` | Delete a validation scan. | Editor |
-| `compliance.posture-management.validations-read` | View a validation scan. | Viewer |
-| `compliance.posture-management.validations-update` | Update a validation scan. | Editor |
-| `compliance.posture-management.values-create` | Add parameters to an existing goal. | Editor |
-| `compliance.posture-management.values-read` | View the parameters that are associated with a goal. | Viewer |
-| `compliance.posture-management.values-update` | Update the parameters of an existing goal. | Editor |
 {: caption="Table 1. IAM user roles and actions" caption-side="top"}
 
 [^attach-1]: To create an attachment within an enterprise, you must also have permissions for the enterprise. You can provide Administrator access to the entire enterprise or create a custom role using the actions found in the following section.
