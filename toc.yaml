@@ -14,18 +14,16 @@ toc:
       id: learn
       topics:
       - topic: getting-started.md
-        navtitle: Getting started<deprecate-week>
-      - topic: migration.md
-        navtitle: Migrating to the new architecture</deprecate-week>
+        navtitle: Getting started
       - topicgroup:
           label: About
           topics: 
           - topic: overview.md
             navtitle: How it works
           - topic: pricing.md
-            navtitle: Pricing<regionality>
+            navtitle: Pricing
           - topic: framework/responsibilities.md
-            navtitle: Your responsibilities</regionality>
+            navtitle: Your responsibilities
       - topic: best-practices.md
         navtitle: Best practices
       - topic: releases.md
@@ -57,11 +55,11 @@ toc:
               - custom-library.md
               - custom-profile.md
               - custom-rule.md
-      - results.md 
+      - results.md
       - topicgroup:
           label: Connecting integrations
           topics:
-          - integrations/workloadprotection.md 
+          - integrations/workloadprotection.md
       - topicgroup:
           label: Enhancing security
           topics:
@@ -88,6 +86,7 @@ toc:
               - change-logs/ibm-sec-practices-changes.md
               - change-logs/ibm-cis-benchmark.md
               - change-logs/osco-benchmark.md
+              - change-logs/iks-benchmark.md
       - topicgroup: 
           label: High availability and disaster recovery
           topics:

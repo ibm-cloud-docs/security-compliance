@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-08"
+lastupdated: "2023-07-11"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -18,8 +18,6 @@ subcollection: security-compliance
 
 With {{site.data.keyword.compliance_full}}, you can evaluate your resources on a recurring schedule or you can initiate a scan at any time.
 {: shortdesc}
-
-
 
 To evaluate your resources, you create an attachment. An attachment is the association between the set of resources that you want to evaluate and a profile that contains the specific controls that you want to evaluate.
 
@@ -39,8 +37,6 @@ You must also connect a Cloud Object Storage bucket in which to store your resul
 {: ui}
 
 To start scanning your resource, you create an attachment. To create an attachment, you can use the {{site.data.keyword.compliance_short}} UI to complete the following steps.
-
-
 
 1. In the {{site.data.keyword.compliance_short}} UI, navigate to the **Attachments** page and click **Create**. A flat list of all of the attachments in your account is displayed.
 
@@ -70,7 +66,7 @@ To start scanning your resource, you create an attachment. To create an attachme
 		3. Click **Ok**.
 8. Review your choices and click **Create**.
 
-When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
+
 
 
 

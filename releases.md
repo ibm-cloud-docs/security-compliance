@@ -48,7 +48,7 @@ content-type: release-note
 {: release-note}
 
 Support removed for the collector-based architecture
-:   The collector-based architecture has been removed from the product in preparation for an upcoming architectural change to a regional offering. [Learn more](/docs/security-compliance?topic=security-compliance-migrate).
+:   The collector-based architecture has been removed from the product in preparation for an upcoming architectural change to a regional offering.
 
    The events related to collector-based evaluations have also been removed. To continue to receive events for your evaluations you must [update your topics in Event Notifications](/docs/security-compliance?topic=security-compliance-event-notifications). 
 
