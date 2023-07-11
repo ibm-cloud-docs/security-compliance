@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-08"
+lastupdated: "2023-07-11"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -84,6 +84,20 @@ The following example shows a query that you can use to register your {{site.dat
 You can find the `event_notifications_instance_crn` value in the console by going to the **Resource list** and clicking the {{site.data.keyword.en_short}} instance row.
 {: tip}
 
+```sh
+curl -X PATCH 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/settings' \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <accessToken>' \
+  -d '{
+      "event_notifications": {
+          "source_name": "Security and Compliance Center",
+          "source_description": "Optional description for this source.",
+          "instance_crn": "crn:v1:bluemix:public:event-notifications:us-south:a/<account_id>:<instance_id>::"
+      }'
+```
+{: codeblock}
+{: curl}
+
 
 
 
@@ -113,7 +127,17 @@ Before you can send a test {{site.data.keyword.compliance_short}} event, you mus
 The following example shows a query that you can use to send a test event from the {{site.data.keyword.compliance_short}} to {{site.data.keyword.en_short}}. When you call the API, replace the `<accountID>` variable and IAM token with the values that are specific to your account.
 {: curl}
 
+<regionality-api-prod>
 
+```sh
+curl -X POST 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/test_event' \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <accessToken>'
+```
+{: codeblock}
+{: curl}
+
+</regionality-api-prod>
 
 
 ## Delivering notifications to select destinations
