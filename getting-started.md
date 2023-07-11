@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-08"
+lastupdated: "2023-07-11"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -26,7 +26,6 @@ For highly regulated industries, such as financial services, achieving continuou
 {: shortdesc}
 
 
-
 ## Before you begin
 {: #before-gs}
 
@@ -34,7 +33,6 @@ Before you get started, be sure that you have resources in your account to evalu
 
 Running an evaluation does not ensure regulatory compliance. An evaluation provides a point in time statement of your current posture for a specific resource. It is your responsibility to review and interpret the results to ensure that your organization is adhering to the controls that are required for your industry. 
 {: important}
-
 
 
 ## Create an instance
@@ -49,8 +47,6 @@ To get started with {{site.data.keyword.compliance_short}}, you must first creat
 4. Configure your resource by providing a name for the instance, specifying a resource group and adding any needed tags.
 5. Acknowledge and agree to the terms and conditions.
 6. Click **Create**.
-
-
 
 
 ## Assign access
@@ -98,8 +94,6 @@ To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword
 
 An attachment is how you target a specific grouping of your resources to evaluate against a specific profile. To start scanning your resources, create an attachment.
 
-
-
 1. In the {{site.data.keyword.compliance_short}} navigation, click **Dashboard** Then, click **Get started**.
 
 	Alternatively, you can create an attachment through the **Profiles** page. On the **Attachments** tab of the profile details page, click **Create** and then continue with step 2. Or, you can navigate to the **Attachments** page where a flat list of all of your attachments is shown.
@@ -129,7 +123,6 @@ An attachment is how you target a specific grouping of your resources to evaluat
 8. Review your choices and click **Create**.
 
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
-
 
 
 

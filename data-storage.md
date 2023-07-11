@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-08"
+lastupdated: "2023-07-11"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -40,7 +40,6 @@ Before you can start evaluating your resources for compliance, you must configur
 
 The processing of your data is configured in your instance's location. For example, if you provision a {{site.data.keyword.compliance_short}} instance in the `us-south` region, your data is processed there.
 {: note}
-
 
 
 To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword.compliance_short}} UI.

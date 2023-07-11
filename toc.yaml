@@ -14,16 +14,18 @@ toc:
       id: learn
       topics:
       - topic: getting-started.md
-        navtitle: Getting started
+        navtitle: Getting started<deprecate-week>
+      - topic: migration.md
+        navtitle: Migrating to the new architecture</deprecate-week>
       - topicgroup:
           label: About
           topics: 
           - topic: overview.md
             navtitle: How it works
           - topic: pricing.md
-            navtitle: Pricing
+            navtitle: Pricing<regionality>
           - topic: framework/responsibilities.md
-            navtitle: Your responsibilities
+            navtitle: Your responsibilities</regionality>
       - topic: best-practices.md
         navtitle: Best practices
       - topic: releases.md
@@ -57,6 +59,10 @@ toc:
               - custom-rule.md
       - results.md 
       - topicgroup:
+          label: Connecting integrations
+          topics:
+          - integrations/workloadprotection.md 
+      - topicgroup:
           label: Enhancing security
           topics:
           - topic: framework/iam.md
@@ -74,7 +80,7 @@ toc:
       - topicgroup:
           label: Available profiles and properties
           topics:
-          - security-checks/available-profiles.md
+          - available-profiles.md
           - topicgroup:
               label: Profile change logs
               topics:

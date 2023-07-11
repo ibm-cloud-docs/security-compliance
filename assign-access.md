@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-08"
+lastupdated: "2023-07-11"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -67,10 +67,6 @@ You can assign *Administrator* access for the service, or you can create a custo
 	* `enterprise.enterprise.retrieve`
 	* `global-search-tagging.resource.read`
 4. Review your selections to ensure you've added the correct permissions and click **Create**.
-
-
-
-
 
 
 ## Assigning access to Satellite

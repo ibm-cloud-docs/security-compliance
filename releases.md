@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-08"
+lastupdated: "2023-07-11"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -24,6 +24,13 @@ content-type: release-note
 
 
 
+## 12 July 2023
+{: #security-compliance-july122023}
+{: release-note}
+
+{{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile version 1.0.0 
+:   Version 1.0.0 of the {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile is now available. This profile introduces the new assessment format `wp-rule`. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-iks-profile).
+
 
 
 ## 8 July 2023
@@ -35,8 +42,6 @@ content-type: release-note
 
    If users have a quota on the number of resources for their account that has already been met, instances of the service will not be able to be created.
    {: note}
-
-
 
 ## 1 July 2023
 {: #security-compliance-july012023}
