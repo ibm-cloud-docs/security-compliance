@@ -124,5 +124,3 @@ To find out if you already have a {{site.data.keyword.sysdigsecure_short}} integ
 1. In the navigation, click **Integrations**.
 1. On the Integrations page, click the **Connected** tab. Any existing {{site.data.keyword.sysdigsecure_short}} integrations are listed.
 1. Click **Dashboard URL** to open your {{site.data.keyword.sysdigsecure_short}} instance.
-
-

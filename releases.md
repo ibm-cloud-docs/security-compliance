@@ -23,7 +23,6 @@ content-type: release-note
 
 
 
-
 ## 12 July 2023
 {: #security-compliance-july122023}
 {: release-note}
@@ -31,6 +30,7 @@ content-type: release-note
 {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile version 1.0.0 
 :   Version 1.0.0 of the {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile is now available. This profile introduces the new assessment format `wp-rule`. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-iks-profile).
 
+To view results by using this profile, you must have a connected instance of Workload Protection. For help getting started, see [Connecting {{site.data.keyword.sysdigsecure_short}}](/docs/security-compliance?topic=security-compliance-setup-workload-protection).
 
 
 ## 8 July 2023

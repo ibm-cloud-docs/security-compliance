@@ -85,8 +85,8 @@ toc:
               - change-logs/fs-cloud-changes.md
               - change-logs/ibm-sec-practices-changes.md
               - change-logs/ibm-cis-benchmark.md
-              - change-logs/osco-benchmark.md
-              - change-logs/iks-benchmark.md
+              - change-logs/osco-benchmark.md<profile>
+              - change-logs/iks-benchmark.md</profile>
       - topicgroup: 
           label: High availability and disaster recovery
           topics:
