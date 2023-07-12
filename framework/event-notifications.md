@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-11"
+lastupdated: "2023-07-12"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -127,7 +127,6 @@ Before you can send a test {{site.data.keyword.compliance_short}} event, you mus
 The following example shows a query that you can use to send a test event from the {{site.data.keyword.compliance_short}} to {{site.data.keyword.en_short}}. When you call the API, replace the `<accountID>` variable and IAM token with the values that are specific to your account.
 {: curl}
 
-<regionality-api-prod>
 
 ```sh
 curl -X POST 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/test_event' \
@@ -137,7 +136,7 @@ curl -X POST 'https://compliance.<domainName>/admin/v1/accounts/<accountID>/test
 {: codeblock}
 {: curl}
 
-</regionality-api-prod>
+
 
 
 ## Delivering notifications to select destinations
