@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-11"
+lastupdated: "2023-07-12"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -65,6 +65,8 @@ To start scanning your resource, you create an attachment. To create an attachme
 		2. Select the controls that you want to be notified about by checking the box next to the control.
 		3. Click **Ok**.
 8. Review your choices and click **Create**.
+
+When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
 
 
 

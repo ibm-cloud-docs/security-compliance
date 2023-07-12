@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-11"
+lastupdated: "2023-07-12"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -13,7 +13,7 @@ content-type: release-note
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Change log: {{site.data.keyword.cloud_notm}} Kubernetes Service
+# Change log: {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark
 {: #iks-profile}
 
 In this change log, you can learn about the latest changes, improvements, and updates for the {{site.data.keyword.cloud_notm}} Kubernetes Service profile. The change log lists changes that were made, ordered by the version number.
@@ -40,12 +40,12 @@ The following table shows the service behavior changes for each version date. Sw
 | Version number | Release date |
 |:---------------|:-------------|
 | Version 1.0.0 | `2023-07-12` |
-{: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} Kubernetes Service profile" caption-side="top"}
+{: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark" caption-side="top"}
 
 
 ## Version 1.0.0
 {: #iks-v100}
 
 Now available
-:   Released today, 12 July 2023, the {{site.data.keyword.cloud_notm}} Kubernetes Service profile is a collection of controls designed to validate the configuration of your Kubernetes Service clusters. This profile introduces the concept of `wp-rule` assessments. These are assessments that are defined by the Workload Protection service and imported into {{site.data.keyword.compliance_short}}.
+:   Released today, 12 July 2023, the {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark is a collection of controls designed to validate the configuration of your Kubernetes Service clusters. This profile introduces the concept of `wp-rule` assessments. These are assessments that are defined by the Workload Protection service and imported into {{site.data.keyword.compliance_short}}.
 
