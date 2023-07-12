@@ -94,14 +94,14 @@ String-based operators are case-sensitive.
 | `strings_allowed`[^strings_allowed] | String list |  All property values are in the condition value list. | Yes |
 | `strings_required`[^strings_required] | String list | All condition values are in the property value list. | Yes |
 | `ips_in_range`[^ips_in_range] | IP list |  All property values, in IPv4 or IPv6 format, are in the condition value list. | Yes |
+| `ips_equals`[^ips_equals] | String | The property value is an exact match to the condition value. | Yes |
+| `ips_not_equals`[^ips_not_equals]| String | The property value is not an exact match to the condition value. | Yes |
 | `num_equals`[^num_equals] | Numeric | The property value numerically matches to the condition value. | Yes |
 | `num_not_equals`[^num_not_equals] | Numeric | The property value does not numerically match the condition value.| Yes |
 | `num_less_than` | Numeric | The property value is numerically less than the condition value.| Yes |
 | `num_less_than_equals` | Numeric | The property value is numerically less than or equal to the condition value. | Yes |
 | `num_greater_than` | Numeric | The property value is numerically greater than the condition value. | Yes |
 | `num_greater_than_equals` | Numeric | The property value is numerically greater than or equal to the condition value. | Yes |
-| `ips_equals`[^ips_equals] | String | The property value is an exact match to the condition value. | Yes |
-| `ips_not_equals`[^ips_not_equals]| String | The property value is not an exact match to the condition value. | Yes |
 | `days_less_than` | Numeric | The property value is less than the condition value. | Yes |
 {: caption="Table 3. Supported operator types" caption-side="top"}
 
