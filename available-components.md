@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-07-08"
+lastupdated: "2023-07-11"
 
 keywords: integrations, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -22,7 +22,7 @@ With {{site.data.keyword.compliance_full}}, you can evaluate the resources that 
 
 
 ## Environments that can be evaluated
-{: #available-environments}
+{: #environments}
 
 With {{site.data.keyword.compliance_short}} you can evaluate {{site.data.keyword.cloud_notm}}. 
 

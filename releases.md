@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-08"
+lastupdated: "2023-07-12"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -23,8 +23,15 @@ content-type: release-note
 
 
 
+## 12 July 2023
+{: #security-compliance-july122023}
+{: release-note}
 
+{{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile version 1.0.0 
+:   Version 1.0.0 of the {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile is now available. This profile introduces the new assessment format `wp-rule`. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-iks-profile). To view results by using this profile, you must have a connected instance of Workload Protection. For help getting started, see [Connecting {{site.data.keyword.sysdigsecure_short}}](/docs/security-compliance?topic=security-compliance-setup-workload-protection).
 
+New rule operators 
+:   You can now use the operators `strings allowed`, `strings_required`, `string_contains`, and `string_not_contains` to create custom rules. For more information about the new operators or help getting started with custom rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 ## 8 July 2023
 {: #security-compliance-july082023}
@@ -36,14 +43,12 @@ content-type: release-note
    If users have a quota on the number of resources for their account that has already been met, instances of the service will not be able to be created.
    {: note}
 
-
-
 ## 1 July 2023
 {: #security-compliance-july012023}
 {: release-note}
 
 Support removed for the collector-based architecture
-:   The collector-based architecture has been removed from the product in preparation for an upcoming architectural change to a regional offering. [Learn more](/docs/security-compliance?topic=security-compliance-migrate).
+:   The collector-based architecture has been removed from the product in preparation for an upcoming architectural change to a regional offering.
 
    The events related to collector-based evaluations have also been removed. To continue to receive events for your evaluations you must [update your topics in Event Notifications](/docs/security-compliance?topic=security-compliance-event-notifications). 
 

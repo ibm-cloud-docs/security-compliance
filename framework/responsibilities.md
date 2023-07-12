@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-08"
+lastupdated: "2023-07-11"
 
 keywords: responsibilities for {{site.data.keyword.compliance_short}}
 
@@ -88,6 +88,5 @@ Disaster recovery includes tasks such as providing dependencies on disaster reco
 {: row-headers}
 {: caption="Table 5. Responsibilites for disaster recovery" caption-side="bottom"}
 {: summary="The rows are read from left to right. The first column describes the task that the customer or IBM might be responsibility for. The second column describes {{site.data.keyword.IBM_notm}} responsibilities for that task. The third column describes your responsibilities as the customer for that task."}
-
 
 
