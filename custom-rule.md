@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-08"
+lastupdated: "2023-07-12"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -88,7 +88,11 @@ String-based operators are case-sensitive.
 | `string_not_equals`[^string_not_equals] | String |  The property value is not an exact match to the condition value. |Yes|
 | `string_match` | String |  The property value matches the condition value by using the [Krauss wildcarding algorithm](https://en.wikipedia.org/wiki/Krauss_wildcard-matching_algorithm){: external}. | Yes |
 | `string_not_match` | String |  The property value does not match the condition value by using [Krauss wildcarding algorithm](https://en.wikipedia.org/wiki/Krauss_wildcard-matching_algorithm){: external}.| Yes |
-| `strings_in_list`[^strings_in_list] | String list |  All property values are in the condition value list. | Yes |
+| `string_contains` | String | The property value contains part of the condition value. | Yes |
+| `string_not_contains` | String | The property value contains part of the condition value. | Yes |
+| [Deprecated]{: tag-deprecated} `strings_in_list`[^strings_in_list] | String list |  All property values are in the condition value list. | Yes |
+| `strings_allowed`[^strings_allowed] | String list |  All property values are in the condition value list. | Yes |
+| `strings_required`[^strings_required] | String list | All condition values are in the property value list. | Yes |
 | `ips_in_range`[^ips_in_range] | IP list |  All property values, in IPv4 or IPv6 format, are in the condition value list. | Yes |
 | `num_equals`[^num_equals] | Numeric | The property value numerically matches to the condition value. | Yes |
 | `num_not_equals`[^num_not_equals] | Numeric | The property value does not numerically match the condition value.| Yes |
@@ -106,6 +110,10 @@ String-based operators are case-sensitive.
 [^string_not_equals]: To include multiple values, use an array. For example, `{"value": ["A", "B," "C"]}`.
 
 [^strings_in_list]: To create a rule with a property that supports the `strings_in_list` operator, include a list of strings for the `value` parameter. For example, `{"value": ["A", "B," "C"]}`.
+
+[^strings_required]: To create a rule with a property that supports the `strings_in_list` operator, include a list of strings for the `value` parameter. For example, `{"value": ["A", "B," "C"]}`.
+
+[^strings_allowed]: To create a rule with a property that supports the `strings_in_list` operator, include a list of strings for the `value` parameter. For example, `{"value": ["A", "B," "C"]}`.
 
 [^ips_in_range]: To create a rule with a property that supports the `ips_in_range` operator, include a list of CIDR or IP addresses for the `value` parameter. For example, `{"value": ["10.168.175.0/24", "2000:db8:ffff:ffff:ffff:ffff:ffff:ffff"]}`.
 
