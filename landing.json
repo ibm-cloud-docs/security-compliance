@@ -1,6 +1,6 @@
 {
     "title": "Security and Compliance Center docs",
-    "lastupdated": "2023-06-01",
+    "lastupdated": "2023-07-12",
     "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
     "section_devtools": {
       "api": "/apidocs/security-compliance/posture",
@@ -33,19 +33,19 @@
       "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
       "tiles": [
         {
-          "date": "29 May 2023",
-          "title": "Reminder: Security and Compliance Center will be regional",
-          "description": "Starting 9 July 2023 Security and Compliance Center will be a provisionable, regional service offering in the IBM Cloud catalog. See the release notes to learn more about what this means for you."
+          "date": "12 July 2023",
+          "title": "Integration with Workload Protection",
+          "description": "Version 1.0.0 of the IBM Cloud Kubernetes Service Benchmark is now available which introduces wp-rules as a concept."
         },
         {
-          "date": "2 May 2023",
-          "title": "Schedule the frequency of your scans",
-          "description": "You can now schedule the frequency of your scans."
+          "date": "8 July 2023",
+          "title": "Security and Compliance Center is now regional",
+          "description": "You now have full control over your data residency."
         },
         {
-          "date": "1 May 2023",
-          "title": "Support for context-based restrictions",
-          "description": "Context-based restrictions can now be used to manage user and service access to Security and Compliance Center."
+          "date": "1 July 2023",
+          "title": "Support for collector-based architecture removed",
+          "description": "The collector-based architecture has been removed from the product."
         }
       ]
     }
