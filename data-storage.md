@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-11"
+lastupdated: "2023-07-13"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -52,7 +52,7 @@ To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword
 6. From the table, select the bucket that you want to use.
 7. Click **Connect**.
 
-If you disconnect your instance of Cloud Object Storage or select a new bucket, {{site.data.keyword.compliance_short}} is not able to read any of your existing results data. An evaluation will not complete without a connected Cloud Object Storage bucket.
+If you disconnect your instance of Cloud Object Storage or select a new bucket, {{site.data.keyword.compliance_short}} is not able to read any of your existing results data. An evaluation can't complete without a connected Cloud Object Storage bucket.
 {: important}
 
 
