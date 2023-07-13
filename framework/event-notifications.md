@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-12"
+lastupdated: "2023-07-13"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -78,7 +78,7 @@ Before you can enable notifications for {{site.data.keyword.compliance_short}}, 
 
 Before you can enable notifications for {{site.data.keyword.compliance_short}}, be sure that you have an [{{site.data.keyword.en_short}} service instance](/catalog/services/event-notifications){: external} that is in the same account. Then, you can connect to {{site.data.keyword.en_short}} programmatically by calling the {{site.data.keyword.compliance_short}} API.
 
-The following example shows a query that you can use to register your {{site.data.keyword.compliance_short}} source details with {{site.data.keyword.en_short}}. When you call the API, replace the ID variables and IAM token with the values that are specific to your account.
+The following example shows a query that you can use to register your {{site.data.keyword.compliance_short}} source details with {{site.data.keyword.en_short}}. 
 {: curl}
 
 You can find the `event_notifications_instance_crn` value in the console by going to the **Resource list** and clicking the {{site.data.keyword.en_short}} instance row.
@@ -124,7 +124,7 @@ After you enable notifications for {{site.data.keyword.compliance_short}}, test 
 Before you can send a test {{site.data.keyword.compliance_short}} event, you must have [topics, destinations, and subscriptions](/docs/event-notifications?topic=event-notifications-en-create-en-topic) created in your {{site.data.keyword.en_short}} instance. Be sure that the **Test configuration** event type (`com.ibm.cloud.compliance.test`) is included as a condition in your {{site.data.keyword.en_short}} topic.
 {: note}
 
-The following example shows a query that you can use to send a test event from the {{site.data.keyword.compliance_short}} to {{site.data.keyword.en_short}}. When you call the API, replace the `<accountID>` variable and IAM token with the values that are specific to your account.
+The following example shows a query that you can use to send a test event from the {{site.data.keyword.compliance_short}} to {{site.data.keyword.en_short}}. 
 {: curl}
 
 
