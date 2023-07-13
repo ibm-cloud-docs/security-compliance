@@ -59,15 +59,15 @@ Register an integration with the {{site.data.keyword.compliance_short}}.
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) > **Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 1. In the navigation, click **Integrations**.
 1. In the **{{site.data.keyword.sysdigsecure_short}}** tile, click **Connect**.
+1. On the Connect your {{site.data.keyword.sysdigsecure_short}} account page, provide a name for your connection.
 1. Set up service-to-service authorization, which allows {{site.data.keyword.compliance_short}} to communicate with {{site.data.keyword.sysdigsecure_short}}.
    1. When you are prompted for service authorization, click **Authorize**.
-   1. For the target service, select {{site.data.keyword.sysdigsecure_short}}. {{site.data.keyword.compliance_short}} is set as the source service. Reader access is automatically selected. Click **Review**.
+   1. For the target service, select {{site.data.keyword.sysdigsecure_short}}. {{site.data.keyword.compliance_short}} is the source service. Reader access is automatically selected. Click **Review**.
    1. On the Review page, ensure that the target service and role are correct, and then click **Assign**.
 
    Alternatively, you can use IAM to create an authorization to allow the {{site.data.keyword.compliance_short}} service instance access to the {{site.data.keyword.sysdigsecure_short}} service instance.
    {: note}
 
-1. On the Connect your {{site.data.keyword.sysdigsecure_short}} account page, provide a name for your connection.
 1. Select the {{site.data.keyword.sysdigsecure_short}} instance, and then click **Connect**.
 
 After the connection is successfully created, click the **Connected** tab. If you want to open the {{site.data.keyword.sysdigsecure_short}} instance dashboard, click **Dashboard URL**.
@@ -79,27 +79,33 @@ To evaluate your resources, you create an attachment. An attachment is the assoc
 
 To create an attachment, complete these steps:
 
-1. In the {{site.data.keyword.compliance_short}} UI, navigate to the **Attachments** page, and click **Create**. A flat list of all of the attachments in your account is displayed.
-
-	Alternatively, you can create an attachment through the **Profiles** page. On the **Attachments** tab of the profile details page, click **Create**, and then continue with the next step.
-	{: tip}
-
+1. In the {{site.data.keyword.compliance_short}} UI, navigate to the **Attachments** page. A list of all of the attachments in your account is displayed.
+1. Click **Create**.
 1. Provide a name and description for your attachment. Be as descriptive as possible so that it's easy for other members of your team to understand what is being evaluated. Then, click **Next**.
-1. Select the **Profile** and **Profile version** that you want to use for your evaluation.
+1. Optional. If you don't already have Cloud Object Storage bucket configured, click **Connect**. You must connect a Cloud Object Storage bucket to store your evaluation results. As a best practice, it is recommended that you use a bucket that is located in the same region in which your data is processed.
 
-1. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
-1. Define a **Scope** to identify the resources that you want to evaluate and the resources that you want to **Exclude**. Then, click **Next**.
-1. Select the frequency at which you want to evaluate your attachment. Options include every day, every 7 days, and every 30 days. Additionally, you can pause your scans if you need to.
 
-Profiles are created from libraries. Predefined profiles are available, but you can create a custom profile that uses only the controls that you want. In other words, create a custom profile if you don’t want to use all the controls in the predefined profile.
-{: tip}
+1. Select the **Profile** and **Profile version** that you want to use for your evaluation, and then click **Next**.
 
-For more information, see [Running an evaluation](/docs/security-compliance?topic=security-compliance-scan-resources).
+   Predefined profiles are available, but you can create a custom profile that uses only the controls that you want. In other words, create a custom profile if you don’t want to use all the controls in the predefined profile. 
+   {: tip}
+
+1. For some profiles, you can customize the underlying evaluations in your scan by editing the default parameters to match your specific use case, and then click **Next**.
+1. Select your {{site.data.keyword.sysdigsecure_short}} instance, and define a **Scope** to identify the resources that you want to evaluate and the resources that you want to **Exclude**. Then, click **Next**.
+   This step is where you enter the resource values that you noted when you created your {{site.data.keyword.sysdigsecure_short}} instance.
+   {: tip}
+
+1. Select the frequency at which you want to evaluate your attachment. Options include every day, every 7 days, and every 30 days. Additionally, you can pause your scans if you need to. Then, click **Next**.
+1. Optional. Indicate whether you want to be notified if evaluations fail during a scan. For more information about setting up the notifications, see [Running an evaluation](/docs/security-compliance?topic=security-compliance-scan-resources).
+1. Review your settings, and ensure that all of the configurations are correct for your targeted scope. Then, click **Create**.
+
+Based on the schedule that you defined in your connection, {{site.data.keyword.sysdigsecure_short}} pulls the data in your account to the {{site.data.keyword.compliance_short}}.
+
+Alternatively, you can create an attachment through the **Profiles** page. On the **Attachments** tab of the profile details page, click **Create**, and then continue with the next step.
+{: note}
 
 ## Viewing the results
 {: #wp-results}
-
-Based on the schedule that you defined in your connection, {{site.data.keyword.sysdigsecure_short}} pulls the data in your account to the {{site.data.keyword.compliance_short}}.
 
 To view the results, go to the {{site.data.keyword.compliance_short}} dashboard.
 
