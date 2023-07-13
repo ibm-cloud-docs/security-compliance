@@ -56,7 +56,7 @@ Create an instance of {{site.data.keyword.sysdigsecure_full_notm}} that is alrea
 
 Register an integration with the {{site.data.keyword.compliance_short}}.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) > **Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 1. In the navigation, click **Integrations**.
 1. In the **{{site.data.keyword.sysdigsecure_short}}** tile, click **Connect**.
 1. Set up service-to-service authorization, which allows {{site.data.keyword.compliance_short}} to communicate with {{site.data.keyword.sysdigsecure_short}}.
@@ -120,13 +120,3 @@ Total evaluations
 :   The total number of evaluations that ran in the past 30 days. An evaluation is the check of one resource against one assessment.
 
 For more information, see [Viewing detailed results in the dashboard](/docs/security-compliance?topic=security-compliance-results&interface=ui#view-detailed-results).
-
-## Finding existing integrations
-{: #wp-existing-integrations}
-
-To find out whether you already have a {{site.data.keyword.sysdigsecure_short}} integration that is registered with the {{site.data.keyword.compliance_short}}, complete these steps:
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
-1. In the navigation, click **Integrations**.
-1. On the Integrations page, click the **Connected** tab. Any existing {{site.data.keyword.sysdigsecure_short}} integrations are listed.
-1. Click **Dashboard URL** to open your {{site.data.keyword.sysdigsecure_short}} instance.
