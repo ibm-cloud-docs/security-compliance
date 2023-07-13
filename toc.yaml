@@ -60,6 +60,7 @@ toc:
           label: Connecting integrations
           topics:
           - integrations/workloadprotection.md
+          - integrations/integrations-find.md
       - topicgroup:
           label: Enhancing security
           topics:
