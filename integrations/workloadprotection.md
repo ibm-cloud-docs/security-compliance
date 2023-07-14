@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-07-13"
+lastupdated: "2023-07-14"
 
 keywords: Centralized security, workload protection, compliance monitoring, compliance, scan, sysdig, multicloud, multi-cloud, azure, amazon, aws
 
@@ -20,7 +20,7 @@ When you integrate an instance of {{site.data.keyword.sysdigsecure_full}} with {
 
 
 
-In your {{site.data.keyword.sysdigsecure_full_notm}} instance, create a connection that contains the compliance data that you want to see in {{site.data.keyword.cloud_notm}} so that you can see both {{site.data.keyword.cloud_notm}} and {{site.data.keyword.sysdigsecure_short}} results in one view.
+In your {{site.data.keyword.sysdigsecure_full_notm}} instance, create a connection that contains the compliance data that you want to see so that you can see both {{site.data.keyword.cloud_notm}} and {{site.data.keyword.sysdigsecure_short}} results in one view.
 
 To learn more about how the integration is configured, check out the following diagram.
 
@@ -28,8 +28,8 @@ To learn more about how the integration is configured, check out the following d
 
 1. Register an {{site.data.keyword.cos_full}} bucket to store results.
 1. Create an instance of {{site.data.keyword.sysdigsecure_short}} from the {{site.data.keyword.cloud_notm}} catalog.
-1. In your {{site.data.keyword.cloud_notm}} account, register your {{site.data.keyword.sysdigsecure_short}} integration with the {{site.data.keyword.compliance_short}}.
-1. Create an attachment between the scope and the profile. A scope is the set of resources that you want to evaluate, and the profile contains the controls that you want to evaluate.
+1. In your {{site.data.keyword.compliance_short}} instance, register your {{site.data.keyword.sysdigsecure_short}} integration.
+1. Create an attachment between the scope and the profile. A scope is the set of resources that you want to evaluate, and the profile contains the controls that you want to evaluate. For AWS and Azure, you specify the filters that you want to get fine-grained results.
 1. Navigate to the dashboard in the {{site.data.keyword.compliance_short}} UI to view your results.
 
 ## Before you begin
@@ -40,14 +40,11 @@ Before you get started, be sure that you have the following prerequisites:
 * An {{site.data.keyword.cloud_notm}} account. For more information, see [Setting up your {{site.data.keyword.cloud_notm}} account](/docs/account?topic=account-account-getting-started).
 * An instance of the {{site.data.keyword.compliance_short}} service. For more information, see [Create an instance](/docs/security-compliance?topic=security-compliance-getting-started#gs-instance).
 * A {{site.data.keyword.cos_short}} bucket to store results. For more information, see [Setting up data storage and processing for {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-storage).
+* An instance of {{site.data.keyword.sysdigsecure_full_notm}}. For more information about creating an instance from the {{site.data.keyword.cloud_notm}} catalog, see [Getting started with {{site.data.keyword.sysdigsecure_short}}](/docs/workload-protection?topic=workload-protection-getting-started).
+
+   
+
 * The required level of access to create and manage integrations in {{site.data.keyword.compliance_short}}. To pull results from {{site.data.keyword.sysdigsecure_short}}, you must have the *administrator* platform role or higher for the {{site.data.keyword.compliance_short}} service. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
-
-
-
-## Creating the {{site.data.keyword.sysdigsecure_short}} instance
-{: #wp-instance-create}
-
-Create an instance of {{site.data.keyword.sysdigsecure_full_notm}} that is already configured to run scans. For more information about creating an instance from the {{site.data.keyword.cloud_notm}} catalog, see [Getting started with {{site.data.keyword.sysdigsecure_short}}](/docs/workload-protection?topic=workload-protection-getting-started).
 
 
 
@@ -94,7 +91,7 @@ To create an attachment, complete these steps:
    {: tip}
 
 1. For some profiles, you can customize the underlying evaluations in your scan by editing the default parameters to match your specific use case, and then click **Next**.
-1. Select your {{site.data.keyword.sysdigsecure_short}} instance, and define a **Scope** to identify the resources that you want to evaluate and the resources that you want to **Exclude**. Then, click **Next**.
+1. Select your {{site.data.keyword.sysdigsecure_short}} instance. If you select an IKS, EKS, or AKS profile, define a **Scope** to identify the resources that you want to evaluate and the resources that you want to **Exclude**. Then, click **Next**.
 
    This step is where you enter the resource values that you noted when you created your {{site.data.keyword.sysdigsecure_short}} instance.
    {: tip}
