@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-07-14"
+lastupdated: "2023-07-15"
 
 keywords: Centralized security, workload protection, compliance monitoring, compliance, scan, sysdig, multicloud, multi-cloud, azure, amazon, aws
 
@@ -18,15 +18,13 @@ subcollection: security-compliance
 When you integrate an instance of {{site.data.keyword.sysdigsecure_full}} with {{site.data.keyword.compliance_short}}, you can run scans that validate your level of compliance to a specific predefined profile. Then, you can view all the results and a history of those results in a single location.
 {: shortdesc}
 
-
-
-In your {{site.data.keyword.sysdigsecure_full_notm}} instance, create a connection that contains the compliance data that you want to see so that you can see both {{site.data.keyword.cloud_notm}} and {{site.data.keyword.sysdigsecure_short}} results in one view.
+You can pull results from multiple environments, including Amazon Web Services and Microsoft Azure, into the {{site.data.keyword.compliance_short}} by connecting an instance of {{site.data.keyword.sysdigsecure_short}} to the service. In your {{site.data.keyword.sysdigsecure_short}} instance, create a connection that contains the compliance data that you want to see so that you can see both {{site.data.keyword.cloud_notm}} and {{site.data.keyword.sysdigsecure_short}} results in one view.
 
 To learn more about how the integration is configured, check out the following diagram.
 
 ![The image shows the sequence of events that a user follows as part of setting up the integration.](../images/workload-protection.svg){: caption="Figure 1. {{site.data.keyword.sysdigsecure_short}} integration flow" caption-side="bottom"}
 
-1. Register an {{site.data.keyword.cos_full}} bucket to store results.
+1. Register an Cloud Object Storage bucket to store results.
 1. Create an instance of {{site.data.keyword.sysdigsecure_short}} from the {{site.data.keyword.cloud_notm}} catalog.
 1. In your {{site.data.keyword.compliance_short}} instance, register your {{site.data.keyword.sysdigsecure_short}} integration.
 1. Create an attachment between the scope and the profile. A scope is the set of resources that you want to evaluate, and the profile contains the controls that you want to evaluate. For AWS and Azure, you specify the filters that you want to get fine-grained results.
@@ -42,10 +40,14 @@ Before you get started, be sure that you have the following prerequisites:
 * A {{site.data.keyword.cos_short}} bucket to store results. For more information, see [Setting up data storage and processing for {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-storage).
 * An instance of {{site.data.keyword.sysdigsecure_full_notm}}. For more information about creating an instance from the {{site.data.keyword.cloud_notm}} catalog, see [Getting started with {{site.data.keyword.sysdigsecure_short}}](/docs/workload-protection?topic=workload-protection-getting-started).
 
-   
+   Be sure to copy the {{site.data.keyword.sysdigsecure_short}} dashboard URL because you need to provide it later. You also need to make note of the values of your resources (for example, cluster name and region) from your {{site.data.keyword.sysdigsecure_short}} instance.
+   {: important}
 
 * The required level of access to create and manage integrations in {{site.data.keyword.compliance_short}}. To pull results from {{site.data.keyword.sysdigsecure_short}}, you must have the *administrator* platform role or higher for the {{site.data.keyword.compliance_short}} service. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
 
+
+For multi-cloud support (if you want to include your AWS or Azure resources in the validation), you must use an Azure or Amazon profile and a {{site.data.keyword.sysdigsecure_short}} instance.
+{: tip}
 
 
 ## Registering the integration
@@ -84,10 +86,9 @@ To create an attachment, complete these steps:
 1. If you don't already have Cloud Object Storage bucket configured, click **Connect**. You must connect a Cloud Object Storage bucket to store your evaluation results. As a best practice, it is recommended that you use a bucket that is located in the same region in which your data is processed.
 1. On the Connect Storage page, select the {{site.data.keyword.cos_short}} instance. Then, select the {{site.data.keyword.cos_short}} bucket, and click **Connect**.
 
-
 1. Select the **Profile** and **Profile version** that you want to use for your evaluation, and then click **Next**.
 
-   Predefined profiles are available, but you can create a custom profile that uses only the controls that you want. In other words, create a custom profile if you don’t want to use all the controls in the predefined profile. 
+   Predefined profiles are available, but you can create a custom profile that uses only the controls that you want. In other words, create a custom profile if you don’t want to use all the controls in the predefined profile. For multi-cloud support, be sure to select a profile that includes the `wp-rule`, which is Azure Kubernetes Service (AKS), Amazon Web Service (AWS), or Amazon Elastic Kubernetes Service (EKS),
    {: tip}
 
 1. For some profiles, you can customize the underlying evaluations in your scan by editing the default parameters to match your specific use case, and then click **Next**.
