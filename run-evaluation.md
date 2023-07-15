@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-12"
+lastupdated: "2023-07-15"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -69,6 +69,70 @@ To start scanning your resource, you create an attachment. To create an attachme
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
 
 
+## Scheduling a recurring scan with the API
+{: #scan-schedule-api}
+{: api}
+
+To create an attachment, you can use the {{site.data.keyword.compliance_short}} API.
+
+```sh
+curl -X POST 
+	--location --header "Authorization: Bearer {iam_token}" 
+	--header "Accept: application/json" 
+	--header "Content-Type: application/json" 
+	--data '{ 
+				"profile_id": "542b1aee-3ad8-49e9-a33c-44b64f117f18", 
+				"attachments": { 
+					"profile_id": "542b1aee-3ad8-49e9-a33c-44b64f117f18", 
+					"account_id": "cg3335893hh1428692d6747cf300yeb5", 
+					"instance_id": "edf9524f-406c-412c-acbb-ee371a5cabda", 
+					"included_scope": { 
+						"scope_id": "cg3335893hh1428692d6747cf300yeb5", 
+						"scope_type": "account" 
+						}, 
+					"exclusions":  [ 
+						"created_by": "IBMid-6620049HI3", 
+						"created_on": "2023-02-09T10:54:59Z", 
+						"updated_by": "IBMid-6620049HI3", 
+						"updated_on": "2023-02-09T10:54:59Z", 
+						"status": "enabled", 
+						"schedule": "daily", 
+						"notifications": { 
+							"enabled": false, 
+							"controls": { 
+								"threshold_limit": 15, 
+								"failed_control_ids":  
+							] 
+						} 
+					}, 
+				"attachment_parameters": [ 
+						{ 
+							"assessment_type": "Automated", 
+							"assessment_id": "rule-a637949b-7e51-46c4-afd4-b96619001bf1", 
+							"parameter_name": "session_invalidation_in_seconds", 
+							"parameter_default_value": "120", 
+							"parameter_display_name": "Sign out due to inactivity in seconds", 
+							"parameter_type": "numeric" 
+						} 
+					], 
+				"last_scan": { 
+					"id": "0fd7e758-3ab3-492b-8b0d-0cd8ef3569d7", 
+					"status": "in_progress", 
+					"time": "2023-06-13T12:08:18Z" 
+					}, 
+				"next_scan_time": "2023-06-13T13:08:18Z",
+				 "name": "account-0d8c3805dfea40aa8ad02265a18eb12b" 
+				}, 
+				"account_id": "130003ea8bfa43c5aacea07a86da3000" 
+			}' 
+	"https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/attachments"
+```
+{: codeblock}
+
+
+A successful response returns an array that lists all the attachments to the specified profile, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-attachment).
+
+
 
 
 
@@ -84,4 +148,26 @@ If your attachment exists, but you don't want to wait for the next scan to see y
 3. Click **Run scan**.
 
 After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
+
+
+
+## Running a scan on demand with the API
+{: #scan-ondemand-api}
+{: api}
+
+If your attachment exists, but you don't want to wait for the next scan to see your posture, you can initiate an on-demand scan.
+
+```sh
+curl -X POST 
+	--location --header "Authorization: Bearer {iam_token}" 
+	--header "Accept: application/json" 
+	--header "Content-Type: application/json" 
+	--data '{
+		"attachment_id":"a34fdceab3d89d91bd4f76d422bf0d26"
+		}' 
+		"https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/scans"
+```
+{: codeblock}
+
+A successful response returns the scan ID, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-scan).
 

@@ -44,6 +44,7 @@ toc:
             navtitle: Storing and processing data
           - topic: framework/event-notifications.md
             navtitle: Enabling event notifications
+          - developer-tools.md
       - topicgroup: 
           label: Evaluating your resources
           topics:
@@ -76,6 +77,13 @@ toc:
   - navgroup:
       id: reference
       topics: 
+      - topicgroup: 
+          label: API & SDK reference
+          topics:
+          - link:
+              label: Security and Compliance Center API
+              href: https://{DomainName}/apidocs/security-compliance/
+          - change-logs/changelog-api.md
       - topicgroup:
           label: Available profiles and properties
           topics:

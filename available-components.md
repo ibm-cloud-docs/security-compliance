@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-07-11"
+lastupdated: "2023-07-15"
 
 keywords: integrations, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -24,7 +24,7 @@ With {{site.data.keyword.compliance_full}}, you can evaluate the resources that 
 ## Environments that can be evaluated
 {: #environments}
 
-With {{site.data.keyword.compliance_short}} you can evaluate {{site.data.keyword.cloud_notm}}. 
+With {{site.data.keyword.compliance_short}} you can evaluate {{site.data.keyword.cloud_notm}}. To start evaluating resources in other environments such as a Amazon Web Services and Microsoft Azure, you must connect an instance of Security and Compliance Center Workload Protection through the integrations panel. For help getting started with multicloud flows, see Available integrations.
 
 ## {{site.data.keyword.cloud_notm}} components that can be evaluated
 {: #evaluate-services}
