@@ -27,6 +27,14 @@ content-type: release-note
 Results from multiple environments are now available
 :   You can now pull results from multiple environments, including Amazon Web Services and Microsoft Azure into {{site.data.keyword.compliance_short}} by connecting an instance of {{site.data.keyword.sysdigsecure_short}} to the service. For help getting started, see [Connecting {{site.data.keyword.sysdigsecure_short}}](/docs/security-compliance?topic=security-compliance-setup-workload-protection).
 
+New profiles are now available
+:   Version 1.0.0 of the the following profiles are now available:
+   * CIS Amazon Elastic Kubernetes Service (EKS) Benchmark
+   * CIS Azure Kubernetes Service (AKS) Benchmark
+   * CIS Amazon Web Services Foundations Benchmark
+   * CIS Microsoft Azure Foundations Benchmark
+
+
 
 
 ## 12 July 2023
