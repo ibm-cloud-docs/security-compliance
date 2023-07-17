@@ -89,6 +89,10 @@ toc:
               - change-logs/ibm-cis-benchmark.md
               - change-logs/osco-benchmark.md
               - change-logs/iks-benchmark.md
+              - change-logs/cis-azure.md
+              - change-logs/cis-azure-ks.md
+              - change-logs/cis-aws.md
+              - change-logs/cis-aws-eks.md
       - topicgroup: 
           label: High availability and disaster recovery
           topics:
