@@ -37,6 +37,10 @@ New profiles are now available
 
 
 
+New API version available
+:   The {{site.data.keyword.compliance_short}} version 3.0.0 is now available. All endpoints have changed to support the new architecture. For more details, review the [API reference](/apidocs/security-compliance#introduction).
+
+
 ## 12 July 2023
 {: #security-compliance-july122023}
 {: release-note}

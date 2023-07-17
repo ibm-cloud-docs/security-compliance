@@ -62,6 +62,49 @@ You can create a profile through the console by using a control library as a gui
 
 
 
+## Building a profile with the API
+{: #create-profile-api}
+{: api}
+
+You can create a profile with the API by using a control library as a guide.
+
+```sh
+curl -X POST 
+	--location --header "Authorization: Bearer {iam_token}" 
+	--header "Accept: application/json" 
+	--header "Content-Type: application/json" 
+	--data '{ 
+				"profile_name": "test_profile1", 
+				"profile_description": "test_description1", 
+				"profile_type": "custom", 
+				"profile_version": "1.0.0", 
+				"version_group_label": "58a5922f-0763-485b-91ef-92cca4125d9d", 
+				"controls": [ 
+					{ 
+						"control_library_id": "e98a56ff-dc24-41d4-9875-1e188e2da6cd", 
+						"control_id": "1fa45e17-9322-4e6c-bbd6-1c51db08e790" 
+						} 
+					], 
+				"default_parameters": [ 
+					{ 
+						"assessment_type": "Automated", 
+						"assessment_id": "rule-a637949b-7e51-46c4-afd4-b96619001bf1", 
+						"parameter_name": "session_invalidation_in_seconds", 
+						"parameter_default_value": "120", 
+						"parameter_display_name": "Sign out due to inactivity in seconds", 
+						"parameter_type": "numeric" 
+					} 
+				] 
+			}'
+		"https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/profiles"
+```
+{: codeblock}
+
+A successful response returns a boolean that confirms that `success` is `true`. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-profile).
+
+
+
+
 
 ## Next steps
 {: #profile-next}
