@@ -44,7 +44,6 @@ toc:
             navtitle: Storing and processing data
           - topic: framework/event-notifications.md
             navtitle: Enabling event notifications
-          - developer-tools.md
       - topicgroup: 
           label: Evaluating your resources
           topics:
