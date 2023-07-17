@@ -1,62 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 858 251" style="enable-background:new 0 0 858 251;" xml:space="preserve">
-<style type="text/css">
-	.st0{display:none;}
-	.st1{display:inline;}
-	.st2{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2,2;}
-	.st3{fill:none;stroke:#DFE3E6;stroke-width:1.0455;stroke-miterlimit:10;}
-	.st4{display:none;fill:#FFB3B8;}
-	.st5{fill:#FFFFFF;stroke:#A56EFF;stroke-width:0.7946;stroke-miterlimit:10;}
-	.st6{fill:#152935;}
-	.st7{font-family:'IBMPlexMono';}
-	.st8{font-size:15px;}
-	.st9{fill:#0DB5B3;}
-	.st10{fill:#4589FF;}
-	.st11{fill:#A56EFF;}
-	.st12{font-size:13.5145px;}
-	.st13{font-family:'IBMPlexSans-Medium';}
-</style>
-<g id="Graphics">
-	<g class="st0">
-		<g class="st1">
-			<line class="st2" x1="128.6" y1="251.1" x2="315" y2="251.1"/>
-			<g>
-				<rect x="127" y="249.4" width="3.3" height="3.3"/>
-			</g>
-		</g>
-	</g>
-	<g class="st0">
-		<g class="st1">
-			<line class="st2" x1="128.6" y1="148.1" x2="315" y2="148.1"/>
-			<g>
-				<rect x="127" y="146.4" width="3.3" height="3.3"/>
-			</g>
-		</g>
-	</g>
-	<path class="st3" d="M275.1,235.6H64.6c-0.5,0-0.9-0.4-0.9-0.9V25c0-0.5,0.4-0.9,0.9-0.9h210.5c0.5,0,0.9,0.4,0.9,0.9v209.7
-		C276,235.2,275.6,235.6,275.1,235.6z"/>
-	<rect x="315.7" y="63.6" class="st4" width="5" height="42"/>
-	<ellipse transform="matrix(0.2298 -0.9732 0.9732 0.2298 25.0316 80.2484)" class="st5" cx="63.2" cy="24.3" rx="13.7" ry="13.7"/>
-	<text transform="matrix(1 0 0 1 87.2871 64.643)"><tspan x="0" y="0" class="st6 st7 st8">    &quot;</tspan><tspan x="45" y="0" class="st9 st7 st8">and</tspan><tspan x="72" y="0" class="st6 st7 st8">&quot;: [</tspan><tspan x="0" y="18" class="st6 st7 st8">      A,</tspan><tspan x="0" y="36" class="st6 st7 st8">      B,</tspan><tspan x="0" y="54" class="st6 st7 st8">      C</tspan><tspan x="0" y="72" class="st6 st7 st8">    ]</tspan><tspan x="0" y="90" class="st6 st7 st8">  }</tspan></text>
-	<path class="st3" d="M535,235.6H324.5c-0.5,0-0.9-0.4-0.9-0.9V25c0-0.5,0.4-0.9,0.9-0.9H535c0.5,0,0.9,0.4,0.9,0.9v209.7
-		C535.9,235.2,535.5,235.6,535,235.6z"/>
-	<text transform="matrix(1 0 0 1 347.1844 46.7057)"><tspan x="0" y="0" class="st6 st7 st8">{</tspan><tspan x="0" y="18" class="st6 st7 st8">    &quot;</tspan><tspan x="45" y="18" class="st10 st7 st8">or</tspan><tspan x="63" y="18" class="st6 st7 st8">&quot;: [</tspan><tspan x="0" y="36" class="st6 st7 st8">      A,</tspan><tspan x="0" y="54" class="st6 st7 st8">      B,</tspan><tspan x="0" y="72" class="st6 st7 st8">      C</tspan><tspan x="0" y="90" class="st6 st7 st8">    ]</tspan><tspan x="0" y="108" class="st6 st7 st8">  }</tspan></text>
-	<path class="st3" d="M795,235.6H584.5c-0.5,0-0.9-0.4-0.9-0.9V25c0-0.5,0.4-0.9,0.9-0.9H795c0.5,0,0.9,0.4,0.9,0.9v209.7
-		C795.9,235.2,795.5,235.6,795,235.6z"/>
-	<text transform="matrix(1 0 0 1 607.1844 46.7057)"><tspan x="0" y="0" class="st6 st7 st8">{</tspan><tspan x="0" y="18" class="st6 st7 st8">    &quot;</tspan><tspan x="45" y="18" class="st10 st7 st8">or</tspan><tspan x="63" y="18" class="st6 st7 st8">&quot;: [</tspan><tspan x="0" y="36" class="st6 st7 st8">      A,</tspan><tspan x="0" y="54" class="st6 st7 st8">      {</tspan><tspan x="0" y="72" class="st6 st7 st8">        &quot;</tspan><tspan x="81" y="72" class="st9 st7 st8">and</tspan><tspan x="108" y="72" class="st6 st7 st8">&quot;: [</tspan><tspan x="0" y="90" class="st6 st7 st8">          B,</tspan><tspan x="0" y="108" class="st6 st7 st8">          C</tspan><tspan x="0" y="126" class="st6 st7 st8">        ]</tspan><tspan x="0" y="144" class="st6 st7 st8">      }</tspan><tspan x="0" y="162" class="st6 st7 st8">    ]</tspan><tspan x="0" y="180" class="st6 st7 st8">  }</tspan></text>
-	
-		<ellipse transform="matrix(0.2311 -0.9729 0.9729 0.2311 225.3344 333.7508)" class="st5" cx="323.8" cy="24.3" rx="13.7" ry="13.7"/>
-	
-		<ellipse transform="matrix(0.6716 -0.7409 0.7409 0.6716 173.5546 442.157)" class="st5" cx="585.5" cy="25.3" rx="13.7" ry="13.7"/>
-	<text transform="matrix(1 0 0 1 59.1602 28.3503)" class="st11 st7 st12">1</text>
-	<text transform="matrix(1 0 0 1 319.7715 28.3503)" class="st11 st7 st12">2</text>
-	<text transform="matrix(1 0 0 1 581.4736 29.3503)" class="st11 st7 st12">3</text>
-	<text transform="matrix(1 0 0 1 87.2917 47.1256)"><tspan x="0" y="0" class="st6 st7 st8">{</tspan><tspan x="0" y="18" class="st6 st7 st8">      </tspan></text>
-</g>
-<g id="Text">
-	<text transform="matrix(1 0 0 1 126.9998 237.879)" class="st0 st13 st8">Conditions</text>
-	<text transform="matrix(1 0 0 1 127.2416 131.3114)" class="st0 st13 st8">Target</text>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Graphics" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 858 214">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #0db5b3;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #152935;
+      }
+
+      .cls-5 {
+        fill: #4589ff;
+      }
+
+      .cls-6 {
+        fill: #fff;
+        stroke: #a56eff;
+        stroke-width: .7946px;
+      }
+
+      .cls-6, .cls-7 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8 {
+        fill: #a56eff;
+        font-size: 13.5145px;
+      }
+
+      .cls-8, .cls-4, .cls-9 {
+        font-family: IBMPlexMono, 'IBM Plex Mono';
+      }
+
+      .cls-4 {
+        font-size: 15px;
+      }
+
+      .cls-7 {
+        fill: none;
+        stroke: #dfe3e6;
+        stroke-width: 1.0455px;
+      }
+
+      .cls-9 {
+        font-size: 13px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-7" x="63.6746" y="17.5411" width="212.3254" height="188.5289" rx=".9206" ry=".9206"/>
+  <circle class="cls-6" cx="63.215" cy="17.7916" r="13.7397" transform="translate(31.3755 75.2278) rotate(-76.7174)"/>
+  <text class="cls-9"><tspan class="cls-3" x="87.2871" y="55.7431" xml:space="preserve">    &quot;</tspan><tspan class="cls-2" x="126.2866" y="55.7431">and</tspan><tspan class="cls-3" x="149.686" y="55.7431">&quot;: [</tspan><tspan class="cls-3"><tspan x="87.2871" y="71.3432" xml:space="preserve">      A,</tspan></tspan><tspan class="cls-3"><tspan x="87.2871" y="86.9428" xml:space="preserve">      B,</tspan></tspan><tspan class="cls-3"><tspan x="87.2871" y="102.5429" xml:space="preserve">      C</tspan></tspan><tspan class="cls-3"><tspan x="87.2871" y="118.143" xml:space="preserve">    ]</tspan></tspan><tspan class="cls-3"><tspan x="87.2871" y="133.7431" xml:space="preserve">  }</tspan></tspan></text>
+  <rect class="cls-7" x="323.6233" y="17.5411" width="212.3254" height="188.5289" rx=".9207" ry=".9207"/>
+  <text class="cls-9" transform="translate(347.1844 40.2057)"><tspan class="cls-3"><tspan x="0" y="0">{</tspan></tspan><tspan class="cls-3" x="0" y="15.6001" xml:space="preserve">    &quot;</tspan><tspan class="cls-5" x="38.9995" y="15.6001">or</tspan><tspan class="cls-3" x="54.5991" y="15.6001">&quot;: [</tspan><tspan class="cls-3"><tspan x="0" y="31.2002" xml:space="preserve">      A,</tspan></tspan><tspan class="cls-3"><tspan x="0" y="46.7998" xml:space="preserve">      B,</tspan></tspan><tspan class="cls-3"><tspan x="0" y="62.3999" xml:space="preserve">      C</tspan></tspan><tspan class="cls-3"><tspan x="0" y="78" xml:space="preserve">    ]</tspan></tspan><tspan class="cls-3"><tspan x="0" y="93.6001" xml:space="preserve">  }</tspan></tspan></text>
+  <rect class="cls-7" x="583.5719" y="17.5411" width="212.3255" height="188.5289" rx=".9206" ry=".9206"/>
+  <text class="cls-9" transform="translate(607.1844 40.2057)"><tspan class="cls-3"><tspan x="0" y="0">{</tspan></tspan><tspan class="cls-3" x="0" y="15.6001" xml:space="preserve">    &quot;</tspan><tspan class="cls-5" x="38.9995" y="15.6001">or</tspan><tspan class="cls-3" x="54.5991" y="15.6001">&quot;: [</tspan><tspan class="cls-3"><tspan x="0" y="31.2002" xml:space="preserve">      A,</tspan></tspan><tspan class="cls-3"><tspan x="0" y="46.7998" xml:space="preserve">      {</tspan></tspan><tspan class="cls-3" x="0" y="62.3999" xml:space="preserve">        &quot;</tspan><tspan class="cls-1" x="70.1987" y="62.3999">and</tspan><tspan class="cls-3" x="93.5986" y="62.3999">&quot;: [</tspan><tspan class="cls-3"><tspan x="0" y="78" xml:space="preserve">          B,</tspan></tspan><tspan class="cls-3"><tspan x="0" y="93.6001" xml:space="preserve">          C</tspan></tspan><tspan class="cls-3"><tspan x="0" y="109.2002" xml:space="preserve">        ]</tspan></tspan><tspan class="cls-3"><tspan x="0" y="124.7998" xml:space="preserve">      }</tspan></tspan><tspan class="cls-3"><tspan x="0" y="140.3999" xml:space="preserve">    ]</tspan></tspan><tspan class="cls-3"><tspan x="0" y="156" xml:space="preserve">  }</tspan></tspan></text>
+  <circle class="cls-6" cx="323.8262" cy="17.7916" r="13.7397" transform="translate(231.6761 328.739) rotate(-76.6374)"/>
+  <circle class="cls-6" cx="583.5282" cy="17.7916" r="13.7397" transform="translate(178.4683 438.2059) rotate(-47.812)"/>
+  <text class="cls-8" transform="translate(59.1602 22.5081)"><tspan x="0" y="0">1</tspan></text>
+  <text class="cls-8" transform="translate(319.7715 22.5892)"><tspan x="0" y="0">2</tspan></text>
+  <text class="cls-8" transform="translate(579.4736 22.5081)"><tspan x="0" y="0">3</tspan></text>
+  <text class="cls-4" transform="translate(87.2917 40.6256)"><tspan x="0" y="0">{</tspan><tspan x="0" y="18" xml:space="preserve">      </tspan></text>
 </svg>

@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-30"
+lastupdated: "2023-07-15"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -20,7 +20,6 @@ As a security officer, auditor, or manager, you can use the {{site.data.keyword.
 
 You must use a paid plan for the {{site.data.keyword.at_short}} service to see events for the {{site.data.keyword.compliance_short}}.
 {: note}
-
 
 
 | Action                                            | Description     |
@@ -49,6 +48,10 @@ You must use a paid plan for the {{site.data.keyword.at_short}} service to see e
 | `compliance.posture-management-reports.create` | Generate a new report. |
 | `compliance.posture-management-reports.read` | View detailed results. |
 | `compliance.posture-management-reports.delete` | Delete results. |
+| `compliance.posture-management.integrations-create` | Create an instance of a provider. |
+| `compliance.posture-management.integrations-read` | List all providers. |
+| `compliance.posture-management.integrations-update` | Remove a provider. |
+| `compliance.posture-management.integrations-delete` | Update an instance of a specific provider. |
 | `compliance.configuration-governance-rules.list` | View the available rules in {{site.data.keyword.compliance_short}}. |
 | `compliance.configuration-governance-rules.create` | Create a new rule. |
 | `compliance.configuration-governance-rules.read` | View the details of a rule. |
@@ -58,5 +61,4 @@ You must use a paid plan for the {{site.data.keyword.at_short}} service to see e
 | `compliance.admin-settings.update` | Update {{site.data.keyword.compliance_short}} settings for your account. |
 | `compliance.admin-test-event.send` | Send a test event to a connected {{site.data.keyword.en_short}} service instance. |
 {: caption="Table 1. List of events that apply to {{site.data.keyword.compliance_short}}" caption-side="top"}
-
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-08"
+lastupdated: "2023-07-14"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -73,6 +73,10 @@ The following tables list the platform access roles that are required to manage 
 | `compliance.posture-management.scopes-delete` | Delete a scope. | Editor |
 | `compliance.posture-management.scopes-read` | View scopes. | Viewer |
 | `compliance.posture-management.scopes-update` | Edit a scope. | Editor |
+| `compliance.configuration-governance.rules-create` | Create a rule. | Editor |
+| `compliance.configuration-governance.rules-read` | View a rule. | Viewer |
+| `compliance.configuration-governance.rules-update` | Update a rule. | Editor |
+| `compliance.configuration-governance.rules-delete` | Delete a rule. | Editor |
 {: caption="Table 1. IAM user roles and actions" caption-side="top"}
 
 [^attach-1]: To create an attachment within an enterprise, you must also have permissions for the enterprise. You can provide Administrator access to the entire enterprise or create a custom role using the actions found in the following section.

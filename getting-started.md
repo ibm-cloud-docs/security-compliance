@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-11"
+lastupdated: "2023-07-15"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -94,20 +94,25 @@ To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword
 
 An attachment is how you target a specific grouping of your resources to evaluate against a specific profile. To start scanning your resources, create an attachment.
 
-1. In the {{site.data.keyword.compliance_short}} navigation, click **Dashboard** Then, click **Get started**.
+1. In the {{site.data.keyword.compliance_short}} UI, navigate to the **Attachments** page and click **Create**. A flat list of all of the attachments in your account is displayed.
 
-	Alternatively, you can create an attachment through the **Profiles** page. On the **Attachments** tab of the profile details page, click **Create** and then continue with step 2. Or, you can navigate to the **Attachments** page where a flat list of all of your attachments is shown.
+	Alternatively, you can create an attachment through the **Profiles** page. On the **Attachments** tab of the profile details page, click **Create** and then continue with step 2.
 	{: tip}
 
 2. Provide a name and description for your attachment. Be sure to be as descriptive as possible so that it's easy for other members of your team to understand what is being evaluated. Then, click **Next**.
 3. Select the **Profile** and **Profile version** that you want to use for your evaluation.
+
+	Predefined profiles are available, but you can create a custom profile that uses only the controls that you want. In other words, create a custom profile if you don’t want to use all the controls in the predefined profile. For multi-cloud support, be sure to select a profile that includes the `wp-rule`, which is Azure Kubernetes Service (AKS), Amazon Web Service (AWS), or Amazon Elastic Kubernetes Service (EKS),
+   {: tip}
+
 4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
-5. Define a **Scope** to identify the resources that you want to evaluate and those that you want to **Exclude**. Then, click **Next**.
-6. Select the frequency at which you want to evaluate your attachment.
+5. Target the resources you want to evaluate by defining a scope. If you are working with {{site.data.keyword.cloud_notm}} resources, you can also specify resources that you want to exlude from your scope. If you are working with resources from other environments, you must [connect an instance of the {{site.data.keyword.sysdigsecure_short}} service](/docs/security-compliance?topic=security-compliance-setup-workload-protection) and provide the reqested information to move forward.
+6. Click **Next**.
+7. Select the frequency at which you want to evaluate your attachment.
 	
 	Options include every day, every 7 days, and every 30 days. Additionally, you can now pause your scans if you need to.
 
-7. Optional: Configure notifications.
+8. Optional: Configure notifications.
 	1. If you want to receive notifications, toggle **Notify me** to **On**.
 	2. By default, when notifications are enabled, you are alerted when 15% or more of your controls fail in a single scan. You can change this by adjusting the **Threshold** percentage. 
 	
@@ -120,7 +125,7 @@ An attachment is how you target a specific grouping of your resources to evaluat
 		1. Click **Select control**.
 		2. Select the controls that you want to be notified about by checking the box next to the control.
 		3. Click **Ok**.
-8. Review your choices and click **Create**.
+9. Review your choices and click **Create**.
 
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
 

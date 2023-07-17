@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-12"
+lastupdated: "2023-07-17"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,8 +18,14 @@ content-type: release-note
 
 
 
+\
 
+## 17 July 2023
+{: #security-compliance-july172023}
+{: release-note}
 
+Results from multiple environments are now available
+:   You can now pull results from multiple environments, including Amazon Web Services and Microsoft Azure into {{site.data.keyword.compliance_short}} by connecting an instance of {{site.data.keyword.sysdigsecure_short}} to the service. For help getting started, see [Connecting {{site.data.keyword.sysdigsecure_short}}](/docs/security-compliance?topic=security-compliance-setup-workload-protection).
 
 
 

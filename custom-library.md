@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-14"
+lastupdated: "2023-07-17"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -54,6 +54,7 @@ You can create a custom library by using the {{site.data.keyword.compliance_shor
 
 	6. When you are finished adding specifications to your control, click **Create**.
 	7. Repeat these steps until you add all your controls.
+
 
 
 

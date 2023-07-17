@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-14"
+lastupdated: "2023-07-17"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -59,6 +59,7 @@ You can create a profile through the console by using a control library as a gui
 	Expand each specification to view the parameter inputs.
 
 7. Click **Create**.
+
 
 
 

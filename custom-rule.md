@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-12"
+lastupdated: "2023-07-17"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -175,6 +175,7 @@ You can either use the rule builder or edit the JSON directly.
 
 6. Click **Next**.
 7. Review your selections and click **Create**.
+
 
 
 
