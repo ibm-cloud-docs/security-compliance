@@ -93,24 +93,3 @@ If your attachment exists, but you don't want to wait for the next scan to see y
 After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
 
 
-
-## Running a scan on demand with the API
-{: #scan-ondemand-api}
-{: api}
-
-If your attachment exists, but you don't want to wait for the next scan to see your posture, you can initiate an on-demand scan.
-
-```sh
-curl -X POST 
-	--location --header "Authorization: Bearer {iam_token}" 
-	--header "Accept: application/json" 
-	--header "Content-Type: application/json" 
-	--data '{
-		"attachment_id":"a34fdceab3d89d91bd4f76d422bf0d26"
-		}' 
-		"https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/scans"
-```
-{: codeblock}
-
-A successful response returns the scan ID, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-scan).
-
