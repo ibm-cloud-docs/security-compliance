@@ -77,13 +77,6 @@ toc:
   - navgroup:
       id: reference
       topics: 
-      - topicgroup: 
-          label: API & SDK reference
-          topics:
-          - link:
-              label: Security and Compliance Center API
-              href: https://{DomainName}/apidocs/security-compliance/
-          - change-logs/changelog-api.md
       - topicgroup:
           label: Available profiles and properties
           topics:

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-15"
+lastupdated: "2023-07-17"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -66,24 +66,6 @@ A page opens with an **Overview** of your results. To further investigate, you c
 | Resources | On the **Resources** tab, you are provided with the results for each specific resource that was evaluated.  \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-resources-tab.svg){: caption="Figure 3. Example results tab results" caption-side="bottom"}  \n In the **JSON** tab, you can see the assessment definition. In the **Parameters** tab, you can see the parameters that are relevant to that resource. In the **Non-compliant properties** tab, you are able to view which properties are non-compliant to begin remediating any issues that are found. In the **Controls** tab, you are able to view which controls that the assessment is associated with. |
 {: caption="Table 1. Understanding detailed results" caption-side="top"}
 {: row-headers}
-
-
-## Viewing detailed results with the API
-{: #view-detailed-results-api}
-{: api}
-
-To get a report summary, you can use the {{site.data.keyword.compliance_short}} API.
-
-```sh
-curl -X GET 
-  --location --header "Authorization: Bearer {iam_token}" 
-  --header "Accept: application/json"
-"https://us-south.compliance.cloud.ibm.com/reports/{report_id}/summary"
-```
-{: codeblock}
-
-
-A successful response returns the detailed report from your scan, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#get-report-summary).
 
 
 

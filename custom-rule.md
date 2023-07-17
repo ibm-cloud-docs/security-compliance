@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-15"
+lastupdated: "2023-07-17"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -176,58 +176,6 @@ You can either use the rule builder or edit the JSON directly.
 6. Click **Next**.
 7. Review your selections and click **Create**.
 
-
-
-## Creating a rule with the API
-{: #create-rules-api}
-{: api}
-
-You can use the {{site.data.keyword.compliance_short}} API to define the configuration rules that you want monitor for your {{site.data.keyword.cloud_notm}} resources. For more information about which services you can configure rules for, see [What can I evaluate?](/docs/security-compliance?topic=security-compliance-scannable-components#evaluate-services).
-
-```sh
-curl -X POST 
-   --location --header "Authorization: Bearer {iam_token}" 
-   --header "Accept: application/json" 
-   --header "Content-Type: application/json" 
-   --data '{ 
-               "account_id": "130003ea8bfa43c5aacea07a86da3000", 
-               "description": "Example rule", 
-               "rule_type": "user_defined", 
-               "import": { 
-                  "parameters": [ 
-                     { 
-                        "name": "hard_quota", 
-                        "display_name": "The Cloud Object Storage bucket quota.", 
-                        "description": "The maximum bytes that are allocated to the Cloud Object Storage bucket.", 
-                        "type": "numeric" 
-                        } 
-                     ] 
-                  }, 
-               "target": { 
-                  "service_name": "cloud-object-storage", 
-                  "resource_kind": "bucket", 
-                  "additional_target_attributes":  ] 
-               }, 
-               "required_config": { 
-                  "description": "The Cloud Object Storage rule.", 
-                  "and": [ 
-                     { 
-                        "property": "hard_quota", 
-                        "operator": "num_equals", 
-                        "value": "{hard_quota}" 
-                        } 
-                     ] 
-                  }, 
-               "labels":  
-            ], 
-            "version": "1.0.0" 
-         }' 
-"https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/rules"
-
-```
-{: codeblock}
-
-A successful response returns the list of rules, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-rule).
 
 
 
