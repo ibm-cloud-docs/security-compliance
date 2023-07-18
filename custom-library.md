@@ -57,6 +57,61 @@ You can create a custom library by using the {{site.data.keyword.compliance_shor
 
 
 
+## Creating a library with the API
+{: #create-custom-library-api}
+{: api}
+
+You can create a custom library by using the {{site.data.keyword.compliance_short}} API.
+
+```sh
+curl -X POST 
+	--location --header "Authorization: Bearer {iam_token}" 
+	--header "Accept: application/json" 
+	--header "Content-Type: application/json" 
+	--data '{ 
+				"id": "60351ac6-2dba-495e-9c98-057601069723", 
+				"account_id": "cg3335893hh1428692d6747cf300yeb5", 
+				"control_library_name": "IBM Cloud for Financial Services", 
+				"control_library_description": "IBM Cloud for Financial Services", 
+				"control_library_type": "predefined", 
+				"version_group_label": "33fc7b80-0fa5-4f16-bbba-1f293f660f0d", 
+				"control_library_version": "1.1.0", 
+				"controls": [ { "control_name": "SC-7", 
+				"control_id": "1fa45e17-9322-4e6c-bbd6-1c51db08e790", 
+				"control_description": "Boundary Protection", 
+				"control_category": "System and Communications Protection", 
+				"control_parent": "", "control_requirement": false, 
+				"control_tags": [ 
+					"1fa45e17-9322-4e6c-bbd6-1c51db08e790" 
+					], 
+				"control_specifications_count": 0, 
+				"control_specifications": [
+					 {
+						"control_specification_id": "5c7d6f88-a92f-4734-9b49-bd22b0900184", 
+						"responsibility": "user", 
+						"component_id": "iam-identity", 
+						"component_name": "IAM Identity Service", 
+						"environment": "ibm-cloud", 
+						"control_specification_description": "IBM cloud", 
+						"assessments_count": 0 
+						} 
+					], 
+				"control_docs": { 
+					"control_docs_id": "sc-7", 
+					"control_docs_type": "ibm-cloud" 
+					} 
+				} 
+			] 
+		}' 
+	"https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/control_libraries"
+```
+{: codeblock}
+
+
+A successful response returns a boolean that confirms that `success` is `true`. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-custom-control-library).
+
+
+
 
 
 ## Next steps

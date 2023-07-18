@@ -56,3 +56,41 @@ If you disconnect your instance of Cloud Object Storage or select a new bucket, 
 {: important}
 
 
+
+## Configuring storage with the API
+{: #cos-storage-api}
+{: api}
+
+Before you can start evaluating your resources for compliance, you must configure a Cloud Object Storage bucket where the service can forward your results data for long-term storage.
+
+The processing of your data is configured in your instance's location. For example, if you provision a {{site.data.keyword.compliance_short}} instance in the `us-south` region, your data is processed there.
+{: note}
+
+To configure the settings of your Cloud Object Storage bucket, you can use the {{site.data.keyword.compliance_short}} API.
+
+```sh
+curl -X PATCH 
+   --location --header "Authorization: Bearer {iam_token}" 
+   --header "Accept: application/json" 
+   --header "Content-Type: application/json-patch+json" 
+   --data '{ 
+               "event_notifications": { 
+                  "instance_crn": "crn:v1:staging:public:event-notifications:us-south:a/130003ea8bfa43c5aacea07a86da3000:1c858449-3537-45b8-9d39-2707115b4cc7::" 
+                  }, 
+               "object_storage": { 
+                  "instance_crn": "crn:v1:staging:public:cloud-object-storage:global:a/130003ea8bfa43c5aacea07a86da3000:1c858449-3537-45b8-9d39-2707115b4cc7::", 
+                  "bucket": "scc-bucket" 
+               } 
+            }' 
+   "https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/settings"
+```
+{: codeblock}
+
+
+If you disconnect your instance of Cloud Object Storage or select a new bucket, {{site.data.keyword.compliance_short}} is not able to read any of your existing results data. An evaluation can't complete without a connected Cloud Object Storage bucket.
+{: important}
+
+
+A successful response returns the {{site.data.keyword.en_short}} and Cloud Object Storage settings, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#update-settings).
+
+
