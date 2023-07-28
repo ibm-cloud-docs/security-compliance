@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-17"
+lastupdated: "2023-07-28"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -33,9 +33,6 @@ New profiles are now available
    * CIS Azure Kubernetes Service (AKS) Benchmark
    * CIS Amazon Web Services Foundations Benchmark
    * CIS Microsoft Azure Foundations Benchmark
-
-
-
 
 New API version available
 :   The {{site.data.keyword.compliance_short}} version 3.0.0 is now available. All endpoints have changed to support the new architecture. For more details, review the [API reference](/apidocs/security-compliance#introduction).

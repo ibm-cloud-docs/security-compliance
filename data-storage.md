@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-17"
+lastupdated: "2023-07-28"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -56,7 +56,6 @@ If you disconnect your instance of Cloud Object Storage or select a new bucket, 
 {: important}
 
 
-
 ## Configuring storage with the API
 {: #cos-storage-api}
 {: api}
@@ -92,5 +91,4 @@ If you disconnect your instance of Cloud Object Storage or select a new bucket, 
 
 
 A successful response returns the {{site.data.keyword.en_short}} and Cloud Object Storage settings, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#update-settings).
-
 
