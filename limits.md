@@ -70,7 +70,7 @@ subcollection: security-compliance
 
 | Attachment entities | Limit |
 |:--------|:-------|
-| Attachements | 50 per account |
+| Attachments | 50 per account |
 | Scans | 1 per attachment at a time |
 | Exclusions | 8 per attachment |
 {: caption="Table 1. {{site.data.keyword.compliance_short}} Limits" caption-side="top"}
