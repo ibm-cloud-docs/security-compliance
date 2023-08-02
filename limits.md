@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-30"
+lastupdated: "2023-08-02"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -20,32 +20,61 @@ subcollection: security-compliance
 {: shortdesc}
 
 
-|  | Limit |
-|----------------|-----------|
-| Custom rules | 500 per enterprise account</br>100 per stand-alone account |
-| Rule description | 256 characters |
-| Rule size | 4096 characters |
-| Target | 1 per rule |
-| Condition | 16 per rule |
-| Property | 24 per condition |
-| Label | 32 per rule |
-| Custom libraries | 10 per enterprise account  \n 5 per stand-alone account |
-| Library name | 64 Characters |
-| Library description | 256 characters |
-| Library size | Less than 1 MB |
-| Profile name | 64 characters |
-| Profile description | 256 Characters |
-| Profile size | Less than 1 MB |
-| Custom profiles | 20 per enterprise account  \n 5 per stand-alone account |
-| Control | 1200 per library  \n 600 per profile |
-| Control name | 64 characters |
-| Control description | 256 characters |
-| Specification | 100 per control per library  \n 400 per control per profile |
-| Specification description | 256 characters |
-| Assessment | 10 per specification per library or profile |
-| Attachment | 50 per account |
-| Exclusion | 8 per attachment |
-| Scan | 1 per attachment - at any time |
-{: row-headers}
-{: caption="Table 1. {{site.data.keyword.compliance_short}} limits" caption-side="top"}
+| Rule entities | Limit |
+|:--------|:---------|
+| Custom rules | 500 per enterprise account  \n 100 per account |
+| Size | 4096 characters |
+| Description | 512 characters |
+| Targets | 1 per rule |
+| Conditions | 16 per rule |
+| Properties | 24 per condition |
+| Labels | 32 per rule |
+{: caption="Table 1. {{site.data.keyword.compliance_short}} Limits" caption-side="top"}
+{: #rule-limits}
+{: tab-title="Rules"}
+{: tab-group="limits"}
+{: class="simple-tab-table"}
 
+| Control library entities | Limit |
+|:--------|:-------|
+| Custom libraries | 50 per account |
+| Size | Less than 1 MB |
+| Version | 128 characters |
+| Library name | 128 characters |
+| Library description | 512 characters |
+| Controls | 1200 per library |
+| Control name | 64 characters |
+| Control description | 1024 characters |
+| Specifications | 100 per control |
+| Specification description | 1024 characters |
+| Assessments | 10 per specification |
+{: caption="Table 1. {{site.data.keyword.compliance_short}} Limits" caption-side="top"}
+{: #library-limits}
+{: tab-title="Control Libraries"}
+{: tab-group="limits"}
+{: class="simple-tab-table"}
+
+| Profile entities | Limit |
+|:--------|:-------|
+| Custom profiles | 50 per account |
+| Size | Less than 1 MB |
+| Version | 128 characters |
+| Controls | 1200 per profile |
+| Specifications | 100 per control |
+| Assessments | 10 per specification |
+{: caption="Table 1. {{site.data.keyword.compliance_short}} Limits" caption-side="top"}
+{: #profile-limits}
+{: tab-title="Profiles"}
+{: tab-group="limits"}
+{: class="simple-tab-table"}
+
+| Attachment entities | Limit |
+|:--------|:-------|
+| Attachements | 50 per account |
+| Scans | 1 per attachment at a time |
+| Exclusions | 8 per attachment |
+{: caption="Table 1. {{site.data.keyword.compliance_short}} Limits" caption-side="top"}
+{: #attachment-limits}
+{: tab-title="Attachments"}
+{: tab-group="limits"}
+{: class="simple-tab-table"}
