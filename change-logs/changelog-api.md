@@ -2,7 +2,7 @@
 
 copyright:
   years: "2023"
-lastupdated: "2023-07-17"
+lastupdated: "2023-07-28"
 
 keywords: change log for {{site.data.keyword.compliance_short}} APIs, API changelog, updates to {{site.data.keyword.compliance_short}} APIs
 
@@ -27,5 +27,4 @@ To learn about general updates and improvements to the {{site.data.keyword.compl
 {: #2023-07-17-api}
 
 Version 3.0.0 was released on 17 July 2023. All endpoints have changed. For more details, review the [API reference](/apidocs/security-compliance#introduction).
-
 

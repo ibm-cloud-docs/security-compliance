@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-17"
+lastupdated: "2023-07-24"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -32,14 +32,15 @@ This profile is consistently updated and is not an exhaustive list of all the co
 {: important}
 
 
-### Active versions
+
+### Version summary
 {: #cis-azure-ks-versions}
 
-The following table shows the service behavior changes for each version date. Switching to a later version date activates all changes that are introduced in earlier versions.
+The following table details the release dates and status of each profile version.
 
-| Version number | Release date |
-|:---------------|:-------------|
-| Version 1.0.0 | `2023-07-14` |
+| Version number | Release date | Status |
+|:---------------|:-------------|:-------|
+| Version 1.0.0 | `2023-07-14` | Active |
 {: caption="Table. Active versions of the CIS Azure Kubernetes Service (AKS) Benchmark" caption-side="top"}
 
 

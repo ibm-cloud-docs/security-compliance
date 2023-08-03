@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-05"
+lastupdated: "2023-07-24"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -27,16 +27,16 @@ This profile is consistently updated and is not an exhaustive list of all the co
 {: important}
 
 
-### Active versions
-{: #fs-active-versions}
+### Version summary
+{: #bp-active-versions}
 
-The following table shows the service behavior changes for each version date. Switching to a later version date activates all changes that are introduced in earlier versions.
+The following table details the release dates and status of each profile version.
 
-| Version number | Release date |
-|:---------------|:-------------|
-| Version 1.2.0 | `2023-06-20` |
-| Version 1.1.0 | `2023-04-17` |
-| Version 1.0.0 | `2022-12-14` |
+| Version number | Release date | Status |
+|:---------------|:-------------|:-------|
+| Version 1.2.0 | `2023-06-20` | Active |
+| Version 1.1.0 | `2023-04-17` | Active |
+| Version 1.0.0 | `2022-12-14` | Active |
 {: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} Security Best Practices profile" caption-side="top"}
 
 ## Version 1.2.0

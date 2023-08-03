@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-14"
+lastupdated: "2023-07-24"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -27,15 +27,14 @@ When specifications or controls are edited, removed from, or added to a profile 
 This profile is consistently updated and is not an exhaustive list of all the controls that might be required for every organization. Be sure to validate the available controls to determine where you might need to supplement your workloads with other security measures.
 {: important}
 
-
-### Active versions
+### Version summary
 {: #cis-active-versions}
 
-The following table shows the service behavior changes for each version date. Switching to a later version date activates all changes that are introduced in earlier versions.
+The following table details the release dates and status of each profile version.
 
-| Version number | Release date |
-|:---------------|:-------------|
-| Version 1.0.0 | `2023-05-17` |
+| Version number | Release date | Status |
+|:---------------|:-------------|:-------|
+| Version 1.0.0 | `2023-05-17` | Active |
 {: caption="Table. Active versions of the CIS IBM Foundations Benchmark profile" caption-side="top"}
 
 

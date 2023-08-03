@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-17"
+lastupdated: "2023-07-28"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -73,7 +73,6 @@ Before you can enable notifications for {{site.data.keyword.compliance_short}}, 
    {: important}
 
 
-
 ### Connecting to {{site.data.keyword.en_short}} with the API
 {: #event-notifications-enable-api}
 {: api}
@@ -110,7 +109,6 @@ A successful response returns the CRN value of your connected {{site.data.keywor
 
 
 
-
 ### Sending a test event to {{site.data.keyword.en_short}} from the UI
 {: #event-notifications-test-ui}
 {: ui}
@@ -124,7 +122,6 @@ Before you can send a test {{site.data.keyword.compliance_short}} event, you mus
 2. In the Event Notifications section, click **Send test event**.
 
    A success message is displayed to indicate that the test event was forwarded successfully to {{site.data.keyword.en_short}}.
-
 
 
 ### Sending a test event to {{site.data.keyword.en_short}} by using the API
@@ -149,7 +146,6 @@ curl -X POST
 {: curl}
 
 A successful response returns `{"success": true}` to indicate that a test event was forwarded successfully to your connected {{site.data.keyword.en_short}} service instance. For more information, see the [API docs](/apidocs/security-compliance#post-test-event).
-
 
 
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-17"
+lastupdated: "2023-07-28"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -74,7 +74,6 @@ To start scanning your resource, you create an attachment. To create an attachme
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
 
 
-
 ## Scheduling a recurring scan with the API
 {: #scan-schedule-api}
 {: api}
@@ -143,7 +142,6 @@ A successful response returns an array that lists all the attachments to the spe
 
 
 
-
 ## Running a scan on demand
 {: #scan-ondemand-ui}
 {: ui}
@@ -156,8 +154,6 @@ If your attachment exists, but you don't want to wait for the next scan to see y
 3. Click **Run scan**.
 
 After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
-
-
 
 ## Running a scan on demand with the API
 {: #scan-ondemand-api}
@@ -178,5 +174,4 @@ curl -X POST
 {: codeblock}
 
 A successful response returns the scan ID, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-scan).
-
 

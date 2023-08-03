@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-08"
+lastupdated: "2023-08-02"
 
 keywords: public isolation for {{site.data.keyword.compliance_short}}, compute isolation for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} architecture, workload isolation in {{site.data.keyword.compliance_short}} 
 
@@ -41,7 +41,7 @@ Check out the following image to see how the service workloads are isolated and 
 
 | Component | Description |
 |:----------|:------------|
-| {{site.data.keyword.cloud_notm}} services | As you interact with {{site.data.keyword.compliance_short}}, you are responsible for the instances of the other services that you chose to interact with through the service. For example, if you create a rule, you are responsible for ensuring that the collector has access to your resource by using an API key. |
+| {{site.data.keyword.cloud_notm}} services | As you interact with {{site.data.keyword.compliance_short}}, you are responsible for the instances of the other services that you chose to interact with through the service. |
 | {{site.data.keyword.at_short}} | As you interact with the service, a log of the events that are generated can be found in your instance of {{site.data.keyword.at_short}}. |
 {: caption="Table 1. Customer-managed components of the {{site.data.keyword.compliance_short}}" caption-side="top"}
 {: #customer-managed}
