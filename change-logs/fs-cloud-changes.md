@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-24"
+lastupdated: "2023-08-09"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -34,11 +34,107 @@ The following table details the release dates and status of each profile version
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
+| Version 1.4.0 | `2023-08-09` | Active |
 | Version 1.3.0 | `2023-06-20` | Active |
 | Version 1.2.0 | `2023-04-20` | Active |
 | Version 1.1.0 | `2023-03-02` | Active |
 | Version 1.0.0 | `2022-12-14` | Active |
 {: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
+
+
+
+## Version 1.4.0
+{: #fs-cloud-v140}
+
+The following rules were updated in the {{site.data.keyword.cloud_notm}} for Financial Services library and profile as of 9 August 2023.
+
+|Rule ID | Rule Description | Associated controls | Update|
+|:-------|:-----------------|:--------------------|:------|
+| `rule-200dc6e7-96f1-49a9-9999-7e4645dc7ea6` | Check whether Application Load Balancer for VPC has public access disabled | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was removed. |
+| `rule-ce6dff83-7280-4d25-a032-e5ff893e2fce` | Check whether Application Load Balancer for VPC has public access disabled | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-11425765-ea68-47e7-b4e0-c443ec0cbd19` | Check whether Event Streams network access is restricted to a specific IP range | `AC-4(0)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was removed. |
+| `rule-3b2768e5-d783-4b0c-a47f-81479af34689` | Check whether Event Streams is accessible only by using private endpoints | `AC-4(0)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was removed. |
+| `rule-762180a3-95e1-462b-a7ca-7995ca0dfb7c` | Check whether Event Streams can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. | 
+| `rule-f6197ee2-31bf-4d73-aacd-316c41a48df3` | Check whether Cloud Object Storage is accessible only by using private endpoints | `AC-4(0)`| The rule was removed. | 
+| `rule-9eb7b514-5c27-43ba-83fc-26d75e0bf695` | Check whether Cloud Object Storage can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-c7e66875-56c6-4150-a7c9-879ff5c23c17` | Check whether Hyper Protect Crypto Services is accessible only through private endpoints | `IA-7(0)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was removed. |
+| `rule-315c8bb3-3eb8-4186-85bc-e66d68ba9dd0` | Check whether Hyper Protect Crypto Services can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `IA-7(0)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-1d0a1c93-b89f-432e-af25-758ae517a7ba` | Check whether App Configuration can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-87b52247-ec12-4e84-b328-d00491301e16` | Check whether Container Registry can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-56c515ef-4d2b-42e2-aa62-df4b37eab801` | Check whether Kubernetes Service can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-94048ffe-f910-4ff2-881f-50df9005c0a2` | Check whether Direct Link can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-0c2d0cef-a217-4eb0-a4ca-813fb2a08a31` | Check whether Event Notifications can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-0051b1c6-bee9-4e04-87e2-300e2c145104` | Check whether IAM access groups can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-0cddf009-8620-47e2-add9-e7609d82a221` | Check whether IAM identities can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-e9a2d69f-757d-4371-8508-419fc13550f1` | Check whether IAM access management services can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-d6b8cc81-b78b-49a5-87a3-34c71a198a71` | Check whether Security and Compliance Center can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-e9bae442-b92e-414d-88a9-d107511f554c` | Check whether Code Engine can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-6252793f-9da5-4a04-9f9d-279b6e2c6907` | Check whether DNS Services can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-3d59273d-8ed1-4767-8112-c3f95ce09c3e` | Check whether Schematics can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-f45487db-513e-4c49-b227-9101fdaf9259` | Check whether Secrets Manager can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-b426a552-33c4-4b8d-8e71-659e06a45024` | Check whether Transit Gateway can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-7601aadc-cce6-4929-b3d2-26c4ba7e05ad` | Check whether User Management can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-9b2822ec-cde3-4367-b3b7-3aabceb7ce13` | Check whether Auto Scale for VPC can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-1399da2c-af02-47a3-bec1-0baa48297619` | Check whether Bare Metal Servers for VPC can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-23aca5fe-3659-4b4d-a965-daad23ce2a01` | Check whether Block Storage for VPC can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-bf187b2f-0d3b-48f2-a5a7-cab0c0788c43` | Check whether Block Storage Snapshots for VPC can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-8f3a6416-3621-4666-a2a7-271704432552` | Check whether Client VPN for VPC can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-4aebb5fe-61df-458c-b534-60fd644ae542` | Check whether Dedicated Host for VPC can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-a3ee571a-b0fe-408f-9c8b-064e44fe99d5` | Check whether VPC floating IPs can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-a4841766-a395-41be-8a64-b51e85168fab` | Check whether Flow Logs for VPC can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-30e49535-38d9-4969-8f78-56cf8be67557` | Check whether Backup for VPC can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-72f16940-fa5b-4719-a7e8-35a1cc721a6a` | Check whether VPC images can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-113e00c2-0503-4a09-8e6c-893ad51b6643` | Check whether VPC placement groups can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-b5a6bedd-16b0-4a21-bb01-04d70d48a752` | Check whether Load Balancer for VPC can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-eaff5bf5-7754-4218-8cb7-ae87ec8fdc7f` | Check whether VPC network access control lists can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-3ead3fb3-9156-4d93-971c-7b782ceb00ae` | Check whether VPC public gateways can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-02ad5735-93ba-4229-9d10-70dd48d0f96c` | Check whether VPC security groups can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-235d040e-ae2b-4832-9c28-b79cc2d6be6c` | Check whether VPC SSH keys can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-f33e4a5e-3297-4ec1-91b6-5f902fe87e75` | Check whether VPC subnets can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-9d963fd1-c56c-45ad-976e-96a45899b576` | Check whether Virtual Private Cloud can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-45e6a74e-74d4-495d-88da-f0cda147d8b4` | Check whether Virtual Private Endpoints for VPC can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-4a8fce3e-5bf4-4b57-8df7-c9f2f374abf3` | Check whether Virtual Servers for VPC can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-2a1b103a-4ef3-416e-822a-abf556f8dbae` | Check whether VPN for VPC can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-7f249933-a745-462c-aa6b-fcde8fbba826` | Check whether there are no wild cards in the private endpoint allow list for Event Streams | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-78c2061b-b8fd-43ca-862f-582ab911c800` | Check whether there are no wild cards in the private endpoint allow list for Cloud Object Storage | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-94242843-07b4-496b-ac86-540aed2f74da` | Check whether there are no wild cards in the private endpoint allow list for Kubernetes Service | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-7ce216fc-90ee-4f61-8f3b-70d00321fe97` | Check whether there are no wild cards in the private endpoint allow list for Hyper Protect Crypto Services | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-466f9d3c-6e3c-4e2a-aa53-d6120018da83` | Check whether there are no wild cards in the private endpoint allow list for App Configuration| `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-08a4e6b2-45f7-456e-a9a9-0010ed2f72a3` | Check whether there are no wild cards in the private endpoint allow list for Container Registry| `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-c0d4d0e2-f014-46fa-9be1-8c03e59b443b` | Check whether there are no wild cards in the private endpoint allow list for Direct Link | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-9090851b-2577-4b2d-b790-d7c97a75681e` | Check whether there are no wild cards in the private endpoint allow list for Event Notifications | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-f88e215f-bb33-4bd8-bd1c-d8a065e9aa70` | Check whether there are no wild cards in the private endpoint allow list for IAM access groups | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-ff00ff6c-61d2-4a94-8de8-b150b4d35aab` | Check whether there are no wild cards in the private endpoint allow list for IAM identities | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-7e7c09f6-fc69-4a9c-9282-5d04c4eef96b` | Check whether there are no wild cards in the private endpoint allow list for IAM access management | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-554328f0-188f-4d1c-a088-f20f77248a32` | Check whether there are no wild cards in the private endpoint allow list for Security and Compliance Center | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-7937a8fd-a7ba-4c03-89ad-09726eb30c59` | Check whether there are no wild cards in the private endpoint allow list for Code Engine | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-bd17ba0b-d749-445f-9f8e-d0aa076bf575` | Check whether there are no wild cards in the private endpoint allow list for DNS Services | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-e1a1fc17-59dc-4e1e-b303-6b5442048f31` | Check whether there are no wild cards in the private endpoint allow list for Schematics | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-a805aeea-8037-4a99-be6e-4537089922a7` | Check whether there are no wild cards in the private endpoint allow list for Secrets Manager | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-83a7de4c-f63c-488b-b4ba-80bf8141cadd` | Check whether there are no wild cards in the private endpoint allow list for Transit Gateway | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-d1a21d53-67fe-4018-a670-f7a5840210ba` | Check whether there are no wild cards in the private endpoint allow list for User Management | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-d271f870-ceee-4c7b-80cd-afa656d91345` | Check whether there are no wild cards in the private endpoint allow list for Auto Scale for VPC | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-0f5956af-a27b-41b4-a0ba-2a5f7c241361` | Check whether there are no wild cards in the private endpoint allow list for Bare Metal Servers for VPC | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-7566b2cb-eb91-43b3-a661-154cf08664dc` | Check whether there are no wild cards in the private endpoint allow list for Block Storage for VPC | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-9d6236c6-6549-4722-b8ed-ef3f998396b2` | Check whether there are no wild cards in the private endpoint allow list for Block Storage Snapshots for VPC | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-38ed88e7-45b5-4c40-919a-5556796cf50e` | Check whether there are no wild cards in the private endpoint allow list for Client VPN for VPC | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-466c09e7-f7d5-47e5-a4b1-d89d0cb7b847` | Check whether there are no wild cards in the private endpoint allow list for Dedicated Host for VPC | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-af947fb3-f91d-4019-949e-ee25a3a441a7` | Check whether there are no wild cards in the private endpoint allow list for VPC floating IPs | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-e3981f0e-89f1-44c2-bf3c-05c280f3c93c` | Check whether there are no wild cards in the private endpoint allow list for Flow Logs for VPC | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-8c0d2fba-9f40-41ca-aad2-d65df81d4390` | Check whether there are no wild cards in the private endpoint allow list for Backup for VPC | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-18717f44-e8ed-4224-9e28-e8a0a2181766` | Check whether there are no wild cards in the private endpoint allow list for VPC images | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-e32c033a-0d2b-4477-8129-01ec758281e3` | Check whether there are no wild cards in the private endpoint allow list for VPC placement groups | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-6fd901b9-879a-4894-bda5-ed40fbe99730` | Check whether there are no wild cards in the private endpoint allow list for Load Balancer for VPC | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-eeba25ca-0084-4b84-9979-ef8477942df7` | Check whether there are no wild cards in the private endpoint allow list for VPC network access control lists | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-134ad94f-186c-410f-a97b-4d739627b881` | Check whether there are no wild cards in the private endpoint allow list for VPC public gateways | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-628cf4f7-1b07-472b-8162-ea95b9335397` | Check whether there are no wild cards in the private endpoint allow list for VPC security groups | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-97595caa-f691-41f3-991f-b06222b9ff8d` | Check whether there are no wild cards in the private endpoint allow list for SSH keys | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-2c129d6e-61b4-43cb-8dc0-81cb553afec3` | Check whether there are no wild cards in the private endpoint allow list for VPC subnets | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-cbfa30f4-f766-468d-a539-b83e3ce8901e` | Check whether there are no wild cards in the private endpoint allow list for Virtual Private Cloud | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-052e91d0-75be-46a8-9b95-dc6e72c78580` | Check whether there are no wild cards in the private endpoint allow list for Virtual Private Endpoints for VPC | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-454c9e3f-1441-4214-acb8-0c74980a1d75` | Check whether there are no wild cards in the private endpoint allow list for Virtual Servers for VPC | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-821f0dd8-8516-45e0-bdde-17c726573d44` | Check whether there are no wild cards in the private endpoint allow list for VPN for VPC | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+{: caption="Table. Summary of the changes for version 1.4.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
 
 
