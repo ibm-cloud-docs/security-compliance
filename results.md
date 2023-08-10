@@ -81,7 +81,7 @@ curl -X GET
 "https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/reports/{report_id}/summary"
 ```
 {: pre}
-{:curl}
+{: curl}
 
 
 
