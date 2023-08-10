@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-28"
+lastupdated: "2023-08-10"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -67,7 +67,7 @@ The processing of your data is configured in your instance's location. For examp
 
 To configure the settings of your Cloud Object Storage bucket, you can use the {{site.data.keyword.compliance_short}} API.
 
-```sh
+```bash
 curl -X PATCH 
    --location --header "Authorization: Bearer {iam_token}" 
    --header "Accept: application/json" 
@@ -83,7 +83,10 @@ curl -X PATCH
             }' 
    "https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/settings"
 ```
-{: codeblock}
+{: pre}
+{: curl}
+
+
 
 
 If you disconnect your instance of Cloud Object Storage or select a new bucket, {{site.data.keyword.compliance_short}} is not able to read any of your existing results data. An evaluation can't complete without a connected Cloud Object Storage bucket.

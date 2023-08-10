@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-28"
+lastupdated: "2023-08-10"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -86,7 +86,7 @@ You can find the `event_notifications_instance_crn` value in the console by goin
 {: tip}
 
 
-```sh
+```bash
 curl -X PATCH 
   --location --header "Authorization: Bearer {IAM_token}" 
   --header "Accept: application/json" 
@@ -102,8 +102,10 @@ curl -X PATCH
           }' "
   https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/settings"
 ```
-{: codeblock}
+{: pre}
 {: curl}
+
+
 
 A successful response returns the CRN value of your connected {{site.data.keyword.en_short}} and Cloud Object Storage service instances. For more information about the required and optional request parameters, see the [API docs](/apidocs/security-compliance#update-settings).
 

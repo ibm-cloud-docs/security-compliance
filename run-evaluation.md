@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-28"
+lastupdated: "2023-08-10"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -80,7 +80,7 @@ When you create your attachment, a scan is scheduled. When the scan completes, y
 
 To create an attachment, you can use the {{site.data.keyword.compliance_short}} API.
 
-```sh
+```bash
 curl -X POST 
 	--location --header "Authorization: Bearer {iam_token}" 
 	--header "Accept: application/json" 
@@ -132,46 +132,19 @@ curl -X POST
 			}' 
 	"https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/attachments"
 ```
-{: codeblock}
+{: pre}
+{: curl}
 
+<sdk-go>
 
-A successful response returns an array that lists all the attachments to the specified profile, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-attachment).
-
-
-
-
-
-
-## Running a scan on demand
-{: #scan-ondemand-ui}
-{: ui}
-
-If your attachment exists, but you don't want to wait for the next scan to see your posture, you can initiate an on-demand scan.
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Profile**.
-3. Click the **Overflow** menu in the row of the profile that you want to evaluate and select **Run scan**.
-3. Click **Run scan**.
-
-After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
-
-## Running a scan on demand with the API
-{: #scan-ondemand-api}
-{: api}
-
-If your attachment exists, but you don't want to wait for the next scan to see your posture, you can initiate an on-demand scan.
-
-```sh
-curl -X POST 
-	--location --header "Authorization: Bearer {iam_token}" 
-	--header "Accept: application/json" 
-	--header "Content-Type: application/json" 
-	--data '{
-		"attachment_id":"a34fdceab3d89d91bd4f76d422bf0d26"
-		}' 
-		"https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/scans"
+```go
+(securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) CreateAttachment(createAttachmentOptions *CreateAttachmentOptions) (result *AttachmentPrototype, response *core.DetailedResponse, err error)
 ```
 {: codeblock}
+{: go}
+
+
+
 
 A successful response returns the scan ID, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-scan).
 
