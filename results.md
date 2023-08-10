@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-28"
+lastupdated: "2023-08-10"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -74,13 +74,15 @@ A page opens with an **Overview** of your results. To further investigate, you c
 
 To get a report summary, you can use the {{site.data.keyword.compliance_short}} API.
 
-```sh
+```bash
 curl -X GET 
   --location --header "Authorization: Bearer {iam_token}" 
   --header "Accept: application/json"
 "https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/reports/{report_id}/summary"
 ```
-{: codeblock}
+{: pre}
+{:curl}
+
 
 
 A successful response returns the detailed report from your scan, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#get-report-summary).

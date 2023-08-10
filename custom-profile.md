@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-28"
+lastupdated: "2023-08-10"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -66,7 +66,7 @@ You can create a profile through the console by using a control library as a gui
 
 You can create a profile with the API by using a control library as a guide.
 
-```sh
+```bash
 curl -X POST 
 	--location --header "Authorization: Bearer {iam_token}" 
 	--header "Accept: application/json" 
@@ -96,7 +96,10 @@ curl -X POST
 			}'
 		"https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/profiles"
 ```
-{: codeblock}
+{: pre}
+{: curl}
+
+
 
 A successful response returns a boolean that confirms that `success` is `true`. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-profile).
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-28"
+lastupdated: "2023-08-10"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -183,7 +183,7 @@ You can either use the rule builder or edit the JSON directly.
 
 You can use the {{site.data.keyword.compliance_short}} API to define the configuration rules that you want monitor for your {{site.data.keyword.cloud_notm}} resources. For more information about which services you can configure rules for, see [What can I evaluate?](/docs/security-compliance?topic=security-compliance-scannable-components#evaluate-services).
 
-```sh
+```bash
 curl -X POST 
    --location --header "Authorization: Bearer {iam_token}" 
    --header "Accept: application/json" 
@@ -224,7 +224,10 @@ curl -X POST
 "https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/rules"
 
 ```
-{: codeblock}
+{: pre}
+{: curl}
+
+
 
 A successful response returns the list of rules, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-rule).
 
