@@ -135,13 +135,46 @@ curl -X POST
 {: pre}
 {: curl}
 
-<sdk-go>
 
-```go
-(securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) CreateAttachment(createAttachmentOptions *CreateAttachmentOptions) (result *AttachmentPrototype, response *core.DetailedResponse, err error)
+
+A successful response returns an array that lists all the attachments to the specified profile, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-attachment).
+
+
+
+
+
+
+## Running a scan on demand
+{: #scan-ondemand-ui}
+{: ui}
+
+If your attachment exists, but you don't want to wait for the next scan to see your posture, you can initiate an on-demand scan.
+
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {{site.data.keyword.compliance_short}}.
+2. In the navigation, click **Profile**.
+3. Click the **Overflow** menu in the row of the profile that you want to evaluate and select **Run scan**.
+3. Click **Run scan**.
+
+After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
+
+## Running a scan on demand with the API
+{: #scan-ondemand-api}
+{: api}
+
+If your attachment exists, but you don't want to wait for the next scan to see your posture, you can initiate an on-demand scan.
+
+```bash
+curl -X POST 
+	--location --header "Authorization: Bearer {iam_token}" 
+	--header "Accept: application/json" 
+	--header "Content-Type: application/json" 
+	--data '{
+		"attachment_id":"a34fdceab3d89d91bd4f76d422bf0d26"
+		}' 
+		"https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/scans"
 ```
-{: codeblock}
-{: go}
+{: pre}
+{: curl}
 
 
 
