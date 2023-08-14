@@ -2,7 +2,7 @@
 
 copyright:
   years: "2023"
-lastupdated: "2023-07-28"
+lastupdated: "2023-08-14"
 
 keywords: change log for {{site.data.keyword.compliance_short}} APIs, API changelog, updates to {{site.data.keyword.compliance_short}} APIs
 
@@ -19,6 +19,7 @@ In this change log, you can learn about the latest changes, improvements, and up
 {: shortdesc}
 
 To learn about general updates and improvements to the {{site.data.keyword.compliance_short}} service, see [Release notes](/docs/security-compliance?topic=security-compliance-release-notes).
+
 
 
 

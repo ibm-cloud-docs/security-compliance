@@ -2,7 +2,7 @@
 
 copyright:
   years: "2023"
-lastupdated: "2023-08-10"
+lastupdated: "2023-08-14"
 
 keywords: security compliance developer tools, integrate with application, API, SDK, CLI
 
@@ -27,7 +27,7 @@ Ready to integrate {{site.data.keyword.compliance_full}} with your existing apps
 ### {{site.data.keyword.compliance_short}} SDKs
 {: #dev-tool-sdks}
 
-{{site.data.keyword.compliance_short}} offers software development kits (SDKs) that you can use to connect with the service in various programming languages. For more information about getting started with the {{site.data.keyword.compliance_short}} Go SDK, check out the following repository on GitHub:
+{{site.data.keyword.compliance_short}} offers software development kits (SDKs) that you can use to connect with the service in various programming languages. For more information about getting started with {{site.data.keyword.compliance_short}} SDKs, check out the following repositories on GitHub:
 
 - [Go SDK](https://github.com/IBM/scc-go-sdk){: external}
 
