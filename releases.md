@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-09"
+lastupdated: "2023-08-15"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -15,6 +15,9 @@ content-type: release-note
 
 # Release notes for {{site.data.keyword.compliance_short}}
 {: #release-notes}
+
+
+
 
 
 

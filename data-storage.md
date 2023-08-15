@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-10"
+lastupdated: "2023-08-15"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -86,7 +86,16 @@ curl -X PATCH
 {: pre}
 {: curl}
 
+sdk-java>
 
+```java
+
+
+```
+{: codeblock}
+{: java}
+
+</sdk-java>
 
 
 If you disconnect your instance of Cloud Object Storage or select a new bucket, {{site.data.keyword.compliance_short}} is not able to read any of your existing results data. An evaluation can't complete without a connected Cloud Object Storage bucket.
