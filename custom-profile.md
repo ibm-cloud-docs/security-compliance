@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-15"
+lastupdated: "2023-08-17"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -99,7 +99,15 @@ curl -X POST
 {: pre}
 {: curl}
 
-sdk-java>
+<sdk-go>
+
+```go
+(securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) CreateProfile(createProfileOptions *CreateProfileOptions) (result *Profile, response *core.DetailedResponse, err error)
+```
+{: codeblock}
+{: go}
+
+</sdk-go>sdk-java>
 
 ```java
 
