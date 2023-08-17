@@ -135,15 +135,7 @@ curl -X POST
 {: pre}
 {: curl}
 
-<sdk-go>
-
-```go
-(securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) CreateAttachment(createAttachmentOptions *CreateAttachmentOptions) (result *AttachmentPrototype, response *core.DetailedResponse, err error)
-```
-{: codeblock}
-{: go}
-
-</sdk-go>sdk-java>
+sdk-java>
 
 ```java
 
@@ -193,15 +185,7 @@ curl -X POST
 {: pre}
 {: curl}
 
-<sdk-go>
-
-```go
-(securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) CreateScan(createScanOptions *CreateScanOptions) (result *Scan, response *core.DetailedResponse, err error)
-```
-{: codeblock}
-{: go}
-
-</sdk-go>sdk-java>
+sdk-java>
 
 ```java
 

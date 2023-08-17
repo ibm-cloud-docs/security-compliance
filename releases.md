@@ -18,15 +18,7 @@ content-type: release-note
 
 
 
-<sdk-go>
-## 14 August 2023
-{: #security-compliance-aug1423}
-{: release-note}
 
-Now available: Go SDK v5.0.0
-:   A new version of the {{site.data.keyword.compliance_short}} [Go SDK](https://github.com/IBM/scc-go-sdk){: external} is now available. You can review the updates in the [API docs](/apidocs/security-compliance#introduction).
-
-</sdk-go>
 
 
 

@@ -83,15 +83,7 @@ curl -X GET
 {: pre}
 {: curl}
 
-<sdk-go>
-
-```go
-(securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) GetReportSummary(getReportSummaryOptions *GetReportSummaryOptions) (result *ReportSummary, response *core.DetailedResponse, err error)
-```
-{: codeblock}
-{: go}
-
-</sdk-go>sdk-java>
+sdk-java>
 
 ```java
 

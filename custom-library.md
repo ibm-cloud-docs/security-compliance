@@ -107,15 +107,7 @@ curl -X POST
 {: pre}
 {: curl}
 
-<sdk-go>
 
-```go
-(securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) CreateCustomControlLibrary(createCustomControlLibraryOptions *CreateCustomControlLibraryOptions) (result *ControlLibrary, response *core.DetailedResponse, err error)
-```
-{: codeblock}
-{: go}
-
-</sdk-go>
 
 
 

@@ -22,12 +22,7 @@ To learn about general updates and improvements to the {{site.data.keyword.compl
 
 
 
-<sdk-go>
 
-## 14 August 2023
-{: #2023-08-14-api}
-
-The {{site.data.keyword.compliance_short}} [Go SDK](https://github.com/IBM/scc-go-sdk){: external} v.5.0.0 is now available. You can review the updates in the [API docs](/apidocs/security-compliance#introduction).</sdk-go>
 
 ## 17 July 2023
 {: #2023-07-17-api}
