@@ -227,16 +227,7 @@ curl -X POST
 {: pre}
 {: curl}
 
-sdk-java>
 
-```java
-
-
-```
-{: codeblock}
-{: java}
-
-</sdk-java>
 
 A successful response returns the list of rules, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-rule).
 

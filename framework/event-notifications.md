@@ -105,16 +105,7 @@ curl -X PATCH
 {: pre}
 {: curl}
 
-sdk-java>
 
-```java
-
-
-```
-{: codeblock}
-{: java}
-
-</sdk-java>
 
 A successful response returns the CRN value of your connected {{site.data.keyword.en_short}} and Cloud Object Storage service instances. For more information about the required and optional request parameters, see the [API docs](/apidocs/security-compliance#update-settings).
 

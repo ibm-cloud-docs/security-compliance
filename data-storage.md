@@ -86,16 +86,7 @@ curl -X PATCH
 {: pre}
 {: curl}
 
-sdk-java>
 
-```java
-
-
-```
-{: codeblock}
-{: java}
-
-</sdk-java>
 
 
 If you disconnect your instance of Cloud Object Storage or select a new bucket, {{site.data.keyword.compliance_short}} is not able to read any of your existing results data. An evaluation can't complete without a connected Cloud Object Storage bucket.

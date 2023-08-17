@@ -135,16 +135,7 @@ curl -X POST
 {: pre}
 {: curl}
 
-sdk-java>
 
-```java
-
-
-```
-{: codeblock}
-{: java}
-
-</sdk-java>
 
 A successful response returns an array that lists all the attachments to the specified profile, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-attachment).
 
@@ -185,16 +176,7 @@ curl -X POST
 {: pre}
 {: curl}
 
-sdk-java>
 
-```java
-
-
-```
-{: codeblock}
-{: java}
-
-</sdk-java>
 
 
 A successful response returns the scan ID, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-scan).

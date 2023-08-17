@@ -83,16 +83,7 @@ curl -X GET
 {: pre}
 {: curl}
 
-sdk-java>
 
-```java
-
-
-```
-{: codeblock}
-{: java}
-
-</sdk-java>
 
 A successful response returns the detailed report from your scan, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#get-report-summary).
 
