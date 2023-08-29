@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-28"
+lastupdated: "2023-08-29"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -67,7 +67,7 @@ The processing of your data is configured in your instance's location. For examp
 
 To configure the settings of your Cloud Object Storage bucket, you can use the {{site.data.keyword.compliance_short}} API.
 
-```sh
+```bash
 curl -X PATCH 
    --location --header "Authorization: Bearer {iam_token}" 
    --header "Accept: application/json" 
@@ -83,7 +83,40 @@ curl -X PATCH
             }' 
    "https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/settings"
 ```
+{: pre}
+{: curl}
+
+
+
+```go
+eventNotificationsModel := &securityandcompliancecenterapiv3.EventNotifications{
+  InstanceCrn: &eventNotificationsCrnForUpdateSettingsLink,
+  SourceDescription: core.StringPtr("This source is used for integration with IBM Cloud Security and Compliance Center."),
+  SourceName: core.StringPtr("compliance"),
+}
+
+objectStorageModel := &securityandcompliancecenterapiv3.ObjectStorage{
+  InstanceCrn: &objectStorageCrnForUpdateSettingsLink,
+  Bucket: &objectStorageBucketForUpdateSettingsLink,
+  BucketLocation: &objectStorageLocationForUpdateSettingsLink,
+}
+
+updateSettingsOptions := securityAndComplianceCenterApiService.NewUpdateSettingsOptions()
+updateSettingsOptions.SetEventNotifications(eventNotificationsModel)
+updateSettingsOptions.SetObjectStorage(objectStorageModel)
+updateSettingsOptions.SetXCorrelationID("1a2b3c4d-5e6f-4a7b-8c9d-e0f1a2b3c4d5")
+
+settings, response, err := securityAndComplianceCenterApiService.UpdateSettings(updateSettingsOptions)
+if err != nil {
+  panic(err)
+}
+b, _ := json.MarshalIndent(settings, "", "  ")
+fmt.Println(string(b))
+```
 {: codeblock}
+{: go}
+
+
 
 
 If you disconnect your instance of Cloud Object Storage or select a new bucket, {{site.data.keyword.compliance_short}} is not able to read any of your existing results data. An evaluation can't complete without a connected Cloud Object Storage bucket.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-28"
+lastupdated: "2023-08-29"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -80,7 +80,7 @@ When you create your attachment, a scan is scheduled. When the scan completes, y
 
 To create an attachment, you can use the {{site.data.keyword.compliance_short}} API.
 
-```sh
+```bash
 curl -X POST 
 	--location --header "Authorization: Bearer {iam_token}" 
 	--header "Accept: application/json" 
@@ -132,7 +132,17 @@ curl -X POST
 			}' 
 	"https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/attachments"
 ```
+{: pre}
+{: curl}
+
+
+
+```go
+(securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) CreateAttachment(createAttachmentOptions *CreateAttachmentOptions) (result *AttachmentPrototype, response *core.DetailedResponse, err error)
+```
 {: codeblock}
+{: go}
+
 
 
 A successful response returns an array that lists all the attachments to the specified profile, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-attachment).
@@ -161,7 +171,7 @@ After your scan completes, your results are available in the {{site.data.keyword
 
 If your attachment exists, but you don't want to wait for the next scan to see your posture, you can initiate an on-demand scan.
 
-```sh
+```bash
 curl -X POST 
 	--location --header "Authorization: Bearer {iam_token}" 
 	--header "Accept: application/json" 
@@ -171,7 +181,19 @@ curl -X POST
 		}' 
 		"https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/scans"
 ```
+{: pre}
+{: curl}
+
+
+
+```go
+(securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) CreateScan(createScanOptions *CreateScanOptions) (result *Scan, response *core.DetailedResponse, err error)
+```
 {: codeblock}
+{: go}
+
+
+
 
 A successful response returns the scan ID, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-scan).
 

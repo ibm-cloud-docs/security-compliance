@@ -2,7 +2,7 @@
 
 copyright:
   years: "2023"
-lastupdated: "2023-07-28"
+lastupdated: "2023-08-29"
 
 keywords: change log for {{site.data.keyword.compliance_short}} APIs, API changelog, updates to {{site.data.keyword.compliance_short}} APIs
 
@@ -22,6 +22,12 @@ To learn about general updates and improvements to the {{site.data.keyword.compl
 
 
 
+
+
+## 29 August 2023
+{: #2023-08-29-api}
+
+The {{site.data.keyword.compliance_short}} [Go SDK](https://github.com/IBM/scc-go-sdk){: external} v.5.0.2 is now available. You can review the updates in the [API docs](/apidocs/security-compliance#introduction).
 
 ## 17 July 2023
 {: #2023-07-17-api}

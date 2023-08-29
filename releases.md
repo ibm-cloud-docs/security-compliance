@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-09"
+lastupdated: "2023-08-29"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -19,6 +19,19 @@ content-type: release-note
 
 
 
+## 29 August 2023
+{: #security-compliance-aug2923}
+{: release-note}
+
+Now available: Go SDK v5.0.2
+:   A new version of the {{site.data.keyword.compliance_short}} [Go SDK](https://github.com/IBM/scc-go-sdk){: external} is now available. You can review the updates in the [API docs](/apidocs/security-compliance#introduction).
+
+
+
+
+
+
+
 
 ## 9 August 2023
 {: #security-compliance-Aug092023}
@@ -29,7 +42,6 @@ New rules available
 
 {{site.data.keyword.cloud_notm}} for Financial Services profile version 1.4.0 
 :   Version 1.4.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
-
 
 
 ## 17 July 2023
