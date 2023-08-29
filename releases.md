@@ -31,6 +31,17 @@ Now available: Go SDK v5.0.2
 
 
 
+<new-rule>
+
+## xx September 2023
+{: #security-compliance-septemberxx2023}
+{: release-note}
+
+New rule available
+:   The {{site.data.keyword.cloud_notm}} Log Analysis service can now be evaluated to determine whether an instance exists in a specific region and whether platform logs are enabled. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
+
+</new-rule>
+
 ## 9 August 2023
 {: #security-compliance-Aug092023}
 {: release-note}
