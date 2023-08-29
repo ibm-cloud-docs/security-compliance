@@ -31,8 +31,6 @@ Now available: Go SDK v5.0.2
 
 
 
-
-
 ## 9 August 2023
 {: #security-compliance-Aug092023}
 {: release-note}
