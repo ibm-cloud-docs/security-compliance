@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-17"
+lastupdated: "2023-08-29"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -104,6 +104,36 @@ curl -X PATCH
 ```
 {: pre}
 {: curl}
+
+
+
+```go
+eventNotificationsModel := &securityandcompliancecenterapiv3.EventNotifications{
+  InstanceCrn: &eventNotificationsCrnForUpdateSettingsLink,
+  SourceDescription: core.StringPtr("This source is used for integration with IBM Cloud Security and Compliance Center."),
+  SourceName: core.StringPtr("compliance"),
+}
+
+objectStorageModel := &securityandcompliancecenterapiv3.ObjectStorage{
+  InstanceCrn: &objectStorageCrnForUpdateSettingsLink,
+  Bucket: &objectStorageBucketForUpdateSettingsLink,
+  BucketLocation: &objectStorageLocationForUpdateSettingsLink,
+}
+
+updateSettingsOptions := securityAndComplianceCenterApiService.NewUpdateSettingsOptions()
+updateSettingsOptions.SetEventNotifications(eventNotificationsModel)
+updateSettingsOptions.SetObjectStorage(objectStorageModel)
+updateSettingsOptions.SetXCorrelationID("1a2b3c4d-5e6f-4a7b-8c9d-e0f1a2b3c4d5")
+
+settings, response, err := securityAndComplianceCenterApiService.UpdateSettings(updateSettingsOptions)
+if err != nil {
+  panic(err)
+}
+b, _ := json.MarshalIndent(settings, "", "  ")
+fmt.Println(string(b))
+```
+{: codeblock} 
+{: go}
 
 
 

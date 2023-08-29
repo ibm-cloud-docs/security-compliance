@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-17"
+lastupdated: "2023-08-29"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -98,6 +98,14 @@ curl -X POST
 ```
 {: pre}
 {: curl}
+
+
+
+```go
+(securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) CreateProfile(createProfileOptions *CreateProfileOptions) (result *Profile, response *core.DetailedResponse, err error)
+```
+{: codeblock}
+{: go}
 
 
 

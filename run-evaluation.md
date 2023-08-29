@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-17"
+lastupdated: "2023-08-29"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -137,6 +137,14 @@ curl -X POST
 
 
 
+```go
+(securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) CreateAttachment(createAttachmentOptions *CreateAttachmentOptions) (result *AttachmentPrototype, response *core.DetailedResponse, err error)
+```
+{: codeblock}
+{: go}
+
+
+
 A successful response returns an array that lists all the attachments to the specified profile, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-attachment).
 
 
@@ -175,6 +183,14 @@ curl -X POST
 ```
 {: pre}
 {: curl}
+
+
+
+```go
+(securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) CreateScan(createScanOptions *CreateScanOptions) (result *Scan, response *core.DetailedResponse, err error)
+```
+{: codeblock}
+{: go}
 
 
 
