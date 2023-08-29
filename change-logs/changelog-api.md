@@ -23,7 +23,6 @@ To learn about general updates and improvements to the {{site.data.keyword.compl
 
 
 
-
 ## 29 August 2023
 {: #2023-08-29-api}
 

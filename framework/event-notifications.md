@@ -106,7 +106,6 @@ curl -X PATCH
 {: curl}
 
 
-
 ```go
 eventNotificationsModel := &securityandcompliancecenterapiv3.EventNotifications{
   InstanceCrn: &eventNotificationsCrnForUpdateSettingsLink,

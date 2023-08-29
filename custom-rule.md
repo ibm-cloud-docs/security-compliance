@@ -228,7 +228,6 @@ curl -X POST
 {: curl}
 
 
-
 ```go
 (securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) CreateRule(createRuleOptions *CreateRuleOptions) (result *Rule, response *core.DetailedResponse, err error)
 ```

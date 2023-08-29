@@ -84,7 +84,6 @@ curl -X GET
 {: curl}
 
 
-
 ```go
 (securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) GetReportSummary(getReportSummaryOptions *GetReportSummaryOptions) (result *ReportSummary, response *core.DetailedResponse, err error)
 ```

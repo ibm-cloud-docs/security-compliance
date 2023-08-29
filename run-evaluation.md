@@ -136,7 +136,6 @@ curl -X POST
 {: curl}
 
 
-
 ```go
 (securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) CreateAttachment(createAttachmentOptions *CreateAttachmentOptions) (result *AttachmentPrototype, response *core.DetailedResponse, err error)
 ```
@@ -183,7 +182,6 @@ curl -X POST
 ```
 {: pre}
 {: curl}
-
 
 
 ```go
