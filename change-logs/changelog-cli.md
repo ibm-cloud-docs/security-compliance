@@ -22,9 +22,3 @@ To learn about general updates and improvements to the {{site.data.keyword.compl
 
 
 
-<regionality-cli>
-
-## XX September 2023
-{: #2023-09-XX-api}
-
-A new version of the {{site.data.keyword.compliance_short}} CLI is now available. You can review the updates in the [CLI reference](/docs/security-compliance/security-compliance-cli).<regionality-cli>
