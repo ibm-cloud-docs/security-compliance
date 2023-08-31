@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-07"
+lastupdated: "2023-08-31"
 
 keywords: scc best practices, enterprise, scc access
 
@@ -33,7 +33,7 @@ In {{site.data.keyword.compliance_short}}, a [profile](/docs/security-compliance
 ### Working with predefined profiles
 {: #bp-predefined}
 
-Predefined profiles are versioned and periodically updated with bug fixes, more checks, or changes to the compliance program. If you are monitoring compliance for a specific program, such as {{site.data.keyword.cloud_notm}} for Financial Services, it is recommended that you work with a predefined profile. This way you can take advantages of new versions of the profile as they become available. [Learn more about versioning](/docs/security-compliance?topic=security-compliance-predefined-profiles#profile-update-levels).
+Predefined profiles are versioned and periodically updated with bug fixes, more checks, or changes to the compliance program. If you are monitoring compliance for a specific program, such as {{site.data.keyword.cloud_notm}} Framework for Financial Services, it is recommended that you work with a predefined profile. This way you can take advantages of new versions of the profile as they become available. [Learn more about versioning](/docs/security-compliance?topic=security-compliance-predefined-profiles#profile-update-levels).
 
 To avoid having to create and maintain a fully customized profile, you can customize a predefined profile by using [parameters](/docs/security-compliance?topic=security-compliance-posture-management). A parameter is the actual value that your resource is evaluated against. Each parameter is assigned a default value that can be edited at the time of attachment. Each attachment can be assigned a different parameter value, which then changes the evaluation that is completed. However, when a new version of a profile is released, you need to ensure that your customizations are made for the new profile version.
 
