@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-31"
+lastupdated: "2023-09-01"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,13 +18,17 @@ content-type: release-note
 
 
 
+
+
+
+
 <deprecate-bp>
 
-## 5 September 2023
-{: #security-compliance-sep0523}
+## 7 September 2023
+{: #security-compliance-sep0723}
 {: release-note}
 
-Profile deprecation: IBM Cloud Security Best Practices
+Profile deprecation: {{site.data.keyword.cloud_notm}} Security Best Practices
 :   As of 5 September 2023, the IBM Cloud Security Best Practices profile is deprecated. If you are currently working with the profile, be sure to keep the following timeline in mind.
 
    * 7 September 2023: Profile officially deprecated. There is no functionality change.
@@ -34,10 +38,6 @@ Profile deprecation: IBM Cloud Security Best Practices
    It is recommended that you move to another profile to ensure continued support. However, if you want to continue working with the controls or assessments that are associated with the IBM Cloud Security Best Practices, you can use the profile to create a custom profile. You must then create a new attachment with your custom profile to initiate scanning. If you're already working with the controls or assessments through a custom profile, you do not need to make any changes. Your scans will continue to run.
 
 </deprecate-bp>
-
-
-
-
 
 
 ## 29 August 2023

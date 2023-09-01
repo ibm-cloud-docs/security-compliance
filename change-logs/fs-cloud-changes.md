@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-31"
+lastupdated: "2023-09-01"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -13,7 +13,7 @@ content-type: release-note
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Change log: {{site.data.keyword.cloud_notm}} Framework for Financial Services profile
+# Change log: IBM Cloud for Financial Services  profile
 {: #fs-change-log}
 
 In this change log, you can learn about the latest changes, improvements, and updates for the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile. The change log lists changes that were made, ordered by the version number.
