@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-24"
+lastupdated: "2023-09-01"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -17,6 +17,9 @@ content-type: release-note
 {: #ibm-sec-best-practices-change-log}
 
 The {{site.data.keyword.cloud_notm}} Security Best Practices library is a collection of controls and goals that meet {{site.data.keyword.cloud_notm}} and industry best practices. The library is consistently updated and can change at any time, which can cause your compliance score to change without any update to your configuration. When new controls or specifications are edited or removed from the library in a way that is not compatible with the current version, a new version is released.
+
+As of 7 September 2023, this profile is deprecated. Please switch to another profile to ensure continued support. If you want to continue working with the associated controls, you can choose to add them to a custom profile and recreate your attachment. [Learn more.](/docs/security-compliance?topic=security-compliance-release-notes#security-compliance-sep0723)
+{; deprecated}
 
 ## Profile versioning
 {: #fs-profile-versioning}
