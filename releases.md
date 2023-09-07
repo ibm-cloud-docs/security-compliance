@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-01"
+lastupdated: "2023-09-07"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -24,18 +24,20 @@ content-type: release-note
 
 <deprecate-bp>
 
-## 7 September 2023
-{: #security-compliance-sep0723}
+## 12 September 2023
+{: #security-compliance-sep1223}
 {: release-note}
 
 Profile deprecation: {{site.data.keyword.cloud_notm}} Security Best Practices
-:   As of 5 September 2023, the IBM Cloud Security Best Practices profile is deprecated. If you are currently working with the profile, be sure to keep the following timeline in mind.
+:   As of 12 September 2023, the IBM Cloud Security Best Practices profile is deprecated. If you are currently working with the profile, be sure to keep the following timeline in mind.
 
-   * 7 September 2023: Profile officially deprecated. There is no functionality change.
-   * 7 October 2023: The creation of new attachments will be blocked starting on this date. Previously created attachments will continue to be scanned.
-   * 6 December 2023: The profile will be removed from the product. If an attachment exists with the profile, the scans will stop.
+   * 12 September 2023: Profile officially deprecated. There is no functionality change.
+   * 12 October 2023: The creation of new attachments will be blocked starting on this date. Previously created attachments will continue to be scanned.
+   * 11 December 2023: The profile will be removed from the product. If an attachment exists with the profile, the scans will stop.
 
-   It is recommended that you move to another profile to ensure continued support. However, if you want to continue working with the controls or assessments that are associated with the IBM Cloud Security Best Practices, you can use the profile to create a custom profile. You must then create a new attachment with your custom profile to initiate scanning. If you're already working with the controls or assessments through a custom profile, you do not need to make any changes. Your scans will continue to run.
+   It is recommended that you move to another profile to ensure continued support. However, if you want to continue working with the controls or assessments that are associated with the IBM Cloud Security Best Practices, you can use the profile to create a custom profile until the 12 October. You must then create a new attachment with your custom profile to initiate scanning. 
+   
+   If you're already working with the controls or assessments through a custom profile, you do not need to make any changes. Your scans will continue to run.
 
 </deprecate-bp>
 
