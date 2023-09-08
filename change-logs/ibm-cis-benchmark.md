@@ -18,6 +18,8 @@ content-type: release-note
 
 In this change log, you can learn about the latest changes, improvements, and updates for the CIS IBM Foundations Benchmark profile. The change log lists changes that were made, ordered by the version number.
 
+The full PDF can be downloaded from [CIS page](https://learn.cisecurity.org/l/799323/2022-11-21/4byblj).
+
 
 ## Profile versioning
 {: #cis-profile-versioning}
