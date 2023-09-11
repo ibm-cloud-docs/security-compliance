@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-29"
+lastupdated: "2023-09-11"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -144,6 +144,130 @@ curl -X POST
 
 
 
+```java
+PropertyItem propertyItemModel = new PropertyItem.Builder()
+  .name("scope_id")
+  .value("cg3335893hh1428692d6747cf300yeb5")
+  .build();
+MultiCloudScope multiCloudScopeModel = new MultiCloudScope.Builder()
+  .environment("ibm-cloud")
+  .xProperties(java.util.Arrays.asList(propertyItemModel))
+  .build();
+FailedControls failedControlsModel = new FailedControls.Builder()
+  .thresholdLimit(Long.valueOf("15"))
+  .failedControlIds(java.util.Arrays.asList())
+  .build();
+AttachmentsNotificationsPrototype attachmentsNotificationsPrototypeModel = new AttachmentsNotificationsPrototype.Builder()
+  .enabled(false)
+  .controls(failedControlsModel)
+  .build();
+AttachmentParameterPrototype attachmentParameterPrototypeModel = new AttachmentParameterPrototype.Builder()
+  .assessmentType("Automated")
+  .assessmentId("rule-a637949b-7e51-46c4-afd4-b96619001bf1")
+  .parameterName("session_invalidation_in_seconds")
+  .parameterValue("120")
+  .parameterDisplayName("Sign out due to inactivity in seconds")
+  .parameterType("numeric")
+  .build();
+AttachmentsPrototype attachmentsPrototypeModel = new AttachmentsPrototype.Builder()
+  .name("account-0d8c3805dfea40aa8ad02265a18eb12b")
+  .description("Test description")
+  .scope(java.util.Arrays.asList(multiCloudScopeModel))
+  .status("enabled")
+  .schedule("every_30_days")
+  .notifications(attachmentsNotificationsPrototypeModel)
+  .attachmentParameters(java.util.Arrays.asList(attachmentParameterPrototypeModel))
+  .build();
+CreateAttachmentOptions createAttachmentOptions = new CreateAttachmentOptions.Builder()
+  .profilesId(profileIdLink)
+  .attachments(java.util.Arrays.asList(attachmentsPrototypeModel))
+  .build();
+
+Response<AttachmentPrototype> response = securityAndComplianceCenterApiService.createAttachment(createAttachmentOptions).execute();
+AttachmentPrototype attachmentPrototype = response.getResult();
+
+System.out.println(attachmentPrototype);
+```
+{: codeblock}
+{: java}
+
+
+
+```node
+// Request models needed by this operation.
+
+// PropertyItem
+const propertyItemModel = {
+  name: 'scope_id',
+  value: 'cg3335893hh1428692d6747cf300yeb5',
+};
+
+// MultiCloudScope
+const multiCloudScopeModel = {
+  environment: 'ibm-cloud',
+  properties: [propertyItemModel],
+};
+
+// FailedControls
+const failedControlsModel = {
+  threshold_limit: 15,
+  failed_control_ids: [],
+};
+
+// AttachmentsNotificationsPrototype
+const attachmentsNotificationsPrototypeModel = {
+  enabled: false,
+  controls: failedControlsModel,
+};
+
+// AttachmentParameterPrototype
+const attachmentParameterPrototypeModel = {
+  assessment_type: 'Automated',
+  assessment_id: 'rule-a637949b-7e51-46c4-afd4-b96619001bf1',
+  parameter_name: 'session_invalidation_in_seconds',
+  parameter_value: '120',
+  parameter_display_name: 'Sign out due to inactivity in seconds',
+  parameter_type: 'numeric',
+};
+
+// AttachmentsPrototype
+const attachmentsPrototypeModel = {
+  name: 'account-0d8c3805dfea40aa8ad02265a18eb12b',
+  description: 'Test description',
+  scope: [multiCloudScopeModel],
+  status: 'enabled',
+  schedule: 'every_30_days',
+  notifications: attachmentsNotificationsPrototypeModel,
+  attachment_parameters: [attachmentParameterPrototypeModel],
+};
+
+const params = {
+  profilesId: profileIdLink,
+  attachments: [attachmentsPrototypeModel],
+};
+
+let res;
+try {
+  res = await securityAndComplianceCenterApiService.createAttachment(params);
+  console.log(JSON.stringify(res.result, null, 2));
+} catch (err) {
+  console.warn(err);
+}
+```
+{: codeblock}
+{: node}
+
+
+
+```python
+
+
+```
+{: codeblock}
+{: python}
+
+
+
 A successful response returns an array that lists all the attachments to the specified profile, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-attachment).
 
 
@@ -189,6 +313,54 @@ curl -X POST
 ```
 {: codeblock}
 {: go}
+
+
+
+```java
+CreateScanOptions createScanOptions = new CreateScanOptions.Builder()
+  .attachmentId(attachmentIdLink)
+  .build();
+
+Response<Scan> response = securityAndComplianceCenterApiService.createScan(createScanOptions).execute();
+Scan scan = response.getResult();
+
+System.out.println(scan);
+```
+{: codeblock}
+{: java}
+
+
+
+```node
+const params = {
+  attachmentId: attachmentIdLink,
+};
+
+let res;
+try {
+  res = await securityAndComplianceCenterApiService.createScan(params);
+  console.log(JSON.stringify(res.result, null, 2));
+} catch (err) {
+  console.warn(err);
+}
+```
+{: codeblock}
+{: node}
+
+
+
+```python
+create_scan(
+        self,
+        attachment_id: str,
+        *,
+        x_correlation_id: str = None,
+        x_request_id: str = None,
+        **kwargs,
+    ) -> DetailedResponse
+```
+{: codeblock}
+{: python}
 
 
 
