@@ -260,8 +260,52 @@ try {
 
 
 ```python
+property_item_model = {
+  'name': 'scope_id',
+  'value': 'cg3335893hh1428692d6747cf300yeb5',
+}
 
+multi_cloud_scope_model = {
+  'environment': 'ibm-cloud',
+  'properties': [property_item_model],
+}
 
+failed_controls_model = {
+  'threshold_limit': 15,
+  'failed_control_ids': [],
+}
+
+attachments_notifications_prototype_model = {
+  'enabled': False,
+  'controls': failed_controls_model,
+}
+
+attachment_parameter_prototype_model = {
+  'assessment_type': 'Automated',
+  'assessment_id': 'rule-a637949b-7e51-46c4-afd4-b96619001bf1',
+  'parameter_name': 'session_invalidation_in_seconds',
+  'parameter_value': '120',
+  'parameter_display_name': 'Sign out due to inactivity in seconds',
+  'parameter_type': 'numeric',
+}
+
+attachments_prototype_model = {
+  'name': 'account-0d8c3805dfea40aa8ad02265a18eb12b',
+  'description': 'Test description',
+  'scope': [multi_cloud_scope_model],
+  'status': 'enabled',
+  'schedule': 'every_30_days',
+  'notifications': attachments_notifications_prototype_model,
+  'attachment_parameters': [attachment_parameter_prototype_model],
+}
+
+response = security_and_compliance_center_api_service.create_attachment(
+  profiles_id=profile_id_link,
+  attachments=[attachments_prototype_model],
+)
+attachment_prototype = response.get_result()
+
+print(json.dumps(attachment_prototype, indent=2))
 ```
 {: codeblock}
 {: python}
