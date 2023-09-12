@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-01"
+lastupdated: "2023-09-12"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -16,7 +16,7 @@ content-type: release-note
 # Change log: IBM Cloud for Financial Services  profile
 {: #fs-change-log}
 
-In this change log, you can learn about the latest changes, improvements, and updates for the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile. The change log lists changes that were made, ordered by the version number.
+In this change log, you can learn about the latest changes, improvements, and updates for the {{site.data.keyword.cloud_notm}} for Financial Services profile. The change log lists changes that were made, ordered by the version number.
 
 ## Profile versioning
 {: #fs-profile-versioning}
@@ -39,14 +39,14 @@ The following table details the release dates and status of each profile version
 | Version 1.2.0 | `2023-04-20` | Active |
 | Version 1.1.0 | `2023-03-02` | Active |
 | Version 1.0.0 | `2022-12-14` | Active |
-{: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile" caption-side="top"}
+{: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
 
 
 ## Version 1.4.0
 {: #fs-cloud-v140}
 
-The following rules were updated in the {{site.data.keyword.cloud_notm}} Framework for Financial Services library and profile as of 9 August 2023.
+The following rules were updated in the {{site.data.keyword.cloud_notm}} for Financial Services library and profile as of 9 August 2023.
 
 |Rule ID | Rule Description | Associated controls | Update|
 |:-------|:-----------------|:--------------------|:------|
@@ -134,14 +134,14 @@ The following rules were updated in the {{site.data.keyword.cloud_notm}} Framewo
 | `rule-052e91d0-75be-46a8-9b95-dc6e72c78580` | Check whether there are no wild cards in the private endpoint allow list for Virtual Private Endpoints for VPC | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
 | `rule-454c9e3f-1441-4214-acb8-0c74980a1d75` | Check whether there are no wild cards in the private endpoint allow list for Virtual Servers for VPC | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
 | `rule-821f0dd8-8516-45e0-bdde-17c726573d44` | Check whether there are no wild cards in the private endpoint allow list for VPN for VPC | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
-{: caption="Table. Summary of the changes for version 1.4.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile" caption-side="top"}
+{: caption="Table. Summary of the changes for version 1.4.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
 
 
 ## Version 1.3.0
 {: #fs-cloud-v130}
 
-The following rules were updated in the {{site.data.keyword.cloud_notm}} Framework for Financial Services library and profile as of 19 June 2023.
+The following rules were updated in the {{site.data.keyword.cloud_notm}} for Financial Services library and profile as of 19 June 2023.
 
 | Rule | Associated controls | Update |
 |:-----|:--------------------|:-------|
@@ -161,14 +161,14 @@ The following rules were updated in the {{site.data.keyword.cloud_notm}} Framewo
 | Check whether Event Notifications are configured for Secrets manager | `SI-2(a)`, and `SI-5(a)`| The rule was added. |
 | Check whether Event Notifications are configured for each of the supported Services | `SI-2(a)` and `SI-5(a)`| The rule was removed. |
 | Check whether App ID email verification is enabled for Cloud Directory users | `IA-5(a)`| The rule was added. |	
-{: caption="Table. Summary of the changes for version 1.3.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile" caption-side="top"}
+{: caption="Table. Summary of the changes for version 1.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
 
 
 ## Version 1.2.0
 {: #fs-cloud-v120}
 
-The following rules were updated in the {{site.data.keyword.cloud_notm}} Framework for Financial Services library and profile as of 20 April 2023.
+The following rules were updated in the {{site.data.keyword.cloud_notm}} for Financial Services library and profile as of 20 April 2023.
 
 | Rule | Associated controls | Update |
 |:----|:---------|:---------|
@@ -190,13 +190,13 @@ The following rules were updated in the {{site.data.keyword.cloud_notm}} Framewo
 | Check whether Container Registry Vulnerability Advisor scans for critical or high vulnerabilities in the system at least every # day(s) | `RA-5(b)` and `RA-5(3)(0)` | Rule was added |
 | Check whether a security group other than the default for Virtual Private Cloud is attached to all endpoints | `CM-1` | Rule was removed |
 | Check whether Container Registry Vulnerability Advisor scans for critical or high vulnerabilities in the system at least every # day(s) | `CM-8(3)(a)` | Rule was removed |
-{: caption="Table. Summary of the changes for version 1.2.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile" caption-side="top"}
+{: caption="Table. Summary of the changes for version 1.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
 
 ## Version 1.1.0
 {: #fs-cloud-v110}
 
-Version 1.1.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile has been updated to include all 565 controls that have been identified as required to ensure that you are compliant with the {{site.data.keyword.cloud_notm}} Framework for Financial Services reference architecture. As part of that update we've introduced the concept of "Manual assessments". When results are returned, you will see a new status: `user_evaluation_required` - this indicates that the control must be evaluated manually by your organization as the control check is either not yet or cannot be automated.
+Version 1.1.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile has been updated to include all 565 controls that have been identified as required to ensure that you are compliant with the {{site.data.keyword.cloud_notm}} for Financial Services reference architecture. As part of that update we've introduced the concept of "Manual assessments". When results are returned, you will see a new status: `user_evaluation_required` - this indicates that the control must be evaluated manually by your organization as the control check is either not yet or cannot be automated.
 
 Additionally, the phrasing of 42 controls was updated for grammar purposes. For example, controls that use the Activity Tracker Event Tracking service were updated to include the correct capitalization.
 
@@ -204,9 +204,9 @@ Additionally, the phrasing of 42 controls was updated for grammar purposes. For 
 ## Version 1.0.0
 {: #fs-cloud-v100}
 
-The format of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile has been updated with the following changes. Review your configuration closely to ensure that the profile still meets your needs.
+The format of the {{site.data.keyword.cloud_notm}} for Financial Services profile has been updated with the following changes. Review your configuration closely to ensure that the profile still meets your needs.
 - The profile is available only on the **Profiles** page of the **Manage** section of the updated infrastructure.
 - The format changed from being goal-based to assessment-based.
 
-Starting with version 1.0.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile, all new versions of the profile that become available will be compatible only with the updated service architecture. To upgrade your profile version, you must move to the new evaluation format. For more information, see [Getting started](/docs/security-compliance?topic=security-compliance-getting-started).
+Starting with version 1.0.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile, all new versions of the profile that become available will be compatible only with the updated service architecture. To upgrade your profile version, you must move to the new evaluation format. For more information, see [Getting started](/docs/security-compliance?topic=security-compliance-getting-started).
 {: important}

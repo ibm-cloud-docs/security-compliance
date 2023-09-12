@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-11"
+lastupdated: "2023-09-12"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -106,108 +106,6 @@ curl -X POST
 ```
 {: codeblock}
 {: go}
-
-
-
-```java
-ProfileControlsPrototype profileControlsPrototypeModel = new ProfileControlsPrototype.Builder()
-  .controlLibraryId(controlLibraryIdLink)
-  .controlId("1fa45e17-9322-4e6c-bbd6-1c51db08e790")
-  .build();
-DefaultParametersPrototype defaultParametersPrototypeModel = new DefaultParametersPrototype.Builder()
-  .assessmentType("Automated")
-  .assessmentId("rule-a637949b-7e51-46c4-afd4-b96619001bf1")
-  .parameterName("session_invalidation_in_seconds")
-  .parameterDefaultValue("120")
-  .parameterDisplayName("Sign out due to inactivity in seconds")
-  .parameterType("numeric")
-  .build();
-CreateProfileOptions createProfileOptions = new CreateProfileOptions.Builder()
-  .profileName("test_profile1")
-  .profileDescription("test_description1")
-  .profileType("custom")
-  .controls(java.util.Arrays.asList(profileControlsPrototypeModel))
-  .defaultParameters(java.util.Arrays.asList(defaultParametersPrototypeModel))
-  .build();
-
-Response<Profile> response = securityAndComplianceCenterApiService.createProfile(createProfileOptions).execute();
-Profile profile = response.getResult();
-
-System.out.println(profile);
-```
-{: codeblock}
-{: java}
-
-
-
-```node
-// Request models needed by this operation.
-
-// ProfileControlsPrototype
-const profileControlsPrototypeModel = {
-  control_library_id: controlLibraryIdLink,
-  control_id: '1fa45e17-9322-4e6c-bbd6-1c51db08e790',
-};
-
-// DefaultParametersPrototype
-const defaultParametersPrototypeModel = {
-  assessment_type: 'Automated',
-  assessment_id: 'rule-a637949b-7e51-46c4-afd4-b96619001bf1',
-  parameter_name: 'session_invalidation_in_seconds',
-  parameter_default_value: '120',
-  parameter_display_name: 'Sign out due to inactivity in seconds',
-  parameter_type: 'numeric',
-};
-
-const params = {
-  profileName: 'test_profile1',
-  profileDescription: 'test_description1',
-  profileType: 'custom',
-  controls: [profileControlsPrototypeModel],
-  defaultParameters: [defaultParametersPrototypeModel],
-};
-
-let res;
-try {
-  res = await securityAndComplianceCenterApiService.createProfile(params);
-  console.log(JSON.stringify(res.result, null, 2));
-} catch (err) {
-  console.warn(err);
-}
-```
-{: codeblock}
-{: node}
-
-
-
-```python
-profile_controls_prototype_model = {
-  'control_library_id': control_library_id_link,
-  'control_id': '1fa45e17-9322-4e6c-bbd6-1c51db08e790',
-}
-
-default_parameters_prototype_model = {
-  'assessment_type': 'Automated',
-  'assessment_id': 'rule-a637949b-7e51-46c4-afd4-b96619001bf1',
-  'parameter_name': 'session_invalidation_in_seconds',
-  'parameter_default_value': '120',
-  'parameter_display_name': 'Sign out due to inactivity in seconds',
-  'parameter_type': 'numeric',
-}
-
-response = security_and_compliance_center_api_service.create_profile(
-  profile_name='test_profile1',
-  profile_description='test_description1',
-  profile_type='custom',
-  controls=[profile_controls_prototype_model],
-  default_parameters=[default_parameters_prototype_model],
-)
-profile = response.get_result()
-
-print(json.dumps(profile, indent=2))
-```
-{: codeblock}
-{: python}
 
 
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-08-31"
+lastupdated: "2023-09-12"
 
 keywords: integrations, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -73,4 +73,4 @@ You can evaluate your organization’s current security and compliance posture b
 	* Security Groups for VPC
 	* VPN for VPC
 
-**The services that are noted with an asterisk can be evaluated by using the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile.*
+**The services that are noted with an asterisk can be evaluated by using the {{site.data.keyword.cloud_notm}} for Financial Services profile.*
