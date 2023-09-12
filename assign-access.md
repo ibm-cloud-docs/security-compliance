@@ -22,7 +22,7 @@ As an account owner, you are automatically assigned Administrator platform acces
 {: #assign-access-scc}
 
 1. [Create an access group](/docs/account?topic=account-groups#create_ag) for the type of users that you want to give access to and add those users to the group. For example, you might have a team of compliance specialists that all need the same level of access.
-2. After you create a group and add users, go to the **Manage > Access (IAM) > Access Groups** page of the console.
+2. After you create a group and add users, go to the **Manage > Access (IAM) > Access groups** page of the console.
 3. Select the name of the group that you want to assign access to.
 4. Click **Access > Assign access**.
 5. Assign the following permissions by selecting a service and reviewing the available roles and actions that are available for each option.
