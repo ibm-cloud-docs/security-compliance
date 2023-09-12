@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-29"
+lastupdated: "2023-09-12"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -49,8 +49,8 @@ You can create a custom library by using the {{site.data.keyword.compliance_shor
 	4. Select a **Component**.
 	5. Select the existing assessments that can help to evaluate your specification, then click **Create**.
 
-		If you don't see an assessment that is specific to your use case, you can create a rule. When the rule is created, it shows in the assessment section.
-		{: tip}
+	If you don't see an assessment that is specific to your use case, you can create a rule. When the rule is created, it shows in the assessment section.
+	{: tip}
 
 	6. When you are finished adding specifications to your control, click **Create**.
 	7. Repeat these steps until you add all your controls.

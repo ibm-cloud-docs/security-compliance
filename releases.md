@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-29"
+lastupdated: "2023-09-12"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -19,18 +19,34 @@ content-type: release-note
 
 
 
+
+
+
+
+
+## 12 September 2023
+{: #security-compliance-sep1223}
+{: release-note}
+
+Profile deprecation: {{site.data.keyword.cloud_notm}} Security Best Practices
+:   As of 12 September 2023, the {{site.data.keyword.cloud_notm}} Security Best Practices profile is deprecated. If you are currently working with the profile, be sure to keep the following timeline in mind.
+
+   * 12 September 2023: Profile officially deprecated. There is no functionality change.
+   * 12 October 2023: The creation of new and editing of existing attachments will be blocked starting on this date. Additionally, the profile will no longer be visible in the Page of the service UI. Previously created attachments will continue to be scanned.
+   * 11 December 2023: The profile will be removed from the product. If an attachment exists with the profile, the scans will stop.
+
+   It is recommended that you move to another profile to ensure continued support. However, if you want to continue working with the controls or assessments that are associated with the {{site.data.keyword.cloud_notm}} Security Best Practices, you can use the profile to create a custom profile until the 12 October. You must then create a new attachment with your custom profile to initiate scanning. 
+   
+   If you're already working with the controls or assessments through a custom profile, you do not need to make any changes. Your scans will continue to run.
+
+
+
 ## 29 August 2023
 {: #security-compliance-aug2923}
 {: release-note}
 
 Now available: Go SDK v5.0.2
 :   A new version of the {{site.data.keyword.compliance_short}} [Go SDK](https://github.com/IBM/scc-go-sdk){: external} is now available. You can review the updates in the [API docs](/apidocs/security-compliance#introduction).
-
-
-
-
-
-
 
 
 ## 9 August 2023
@@ -53,10 +69,10 @@ Results from multiple environments are now available
 
 New profiles are now available
 :   Version 1.0.0 of the the following profiles are now available:
-   * CIS Amazon Elastic Kubernetes Service (EKS) Benchmark
-   * CIS Azure Kubernetes Service (AKS) Benchmark
-   * CIS Amazon Web Services Foundations Benchmark
-   * CIS Microsoft Azure Foundations Benchmark
+   * [CIS Amazon Elastic Kubernetes Service (EKS) Benchmark](/docs/security-compliance?topic=security-compliance-cis-amazon-eks-benchmark)
+   * [CIS Azure Kubernetes Service (AKS) Benchmark](/docs/security-compliance?topic=security-compliance-cis-azure-ks-benchmark)
+   * [CIS Amazon Web Services Foundations Benchmark](/docs/security-compliance?topic=security-compliance-cis-amazon-benchmark)
+   * [CIS Microsoft Azure Foundations Benchmark](/docs/security-compliance?topic=security-compliance-cis-azure-benchmark)
 
 New API version available
 :   The {{site.data.keyword.compliance_short}} version 3.0.0 is now available. All endpoints have changed to support the new architecture. For more details, review the [API reference](/apidocs/security-compliance#introduction).

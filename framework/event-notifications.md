@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-29"
+lastupdated: "2023-09-12"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -106,7 +106,6 @@ curl -X PATCH
 {: curl}
 
 
-
 ```go
 eventNotificationsModel := &securityandcompliancecenterapiv3.EventNotifications{
   InstanceCrn: &eventNotificationsCrnForUpdateSettingsLink,
@@ -178,6 +177,14 @@ curl -X POST
 {: curl}
 
 A successful response returns `{"success": true}` to indicate that a test event was forwarded successfully to your connected {{site.data.keyword.en_short}} service instance. For more information, see the [API docs](/apidocs/security-compliance#post-test-event).
+
+```go
+(securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) PostTestEvent(postTestEventOptions *PostTestEventOptions) (result *TestEvent, response *core.DetailedResponse, err error)
+```
+{: codeblock}
+{: go}
+
+
 
 
 

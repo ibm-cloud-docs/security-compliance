@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-06-07"
+lastupdated: "2023-09-12"
 
 keywords: scc best practices, enterprise, scc access
 
