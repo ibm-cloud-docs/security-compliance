@@ -229,7 +229,6 @@ print(json.dumps(settings, indent=2))
 A successful response returns the CRN value of your connected {{site.data.keyword.en_short}} and Cloud Object Storage service instances. For more information about the required and optional request parameters, see the [API docs](/apidocs/security-compliance#update-settings).
 
 
-
 ### Sending a test event to {{site.data.keyword.en_short}} from the UI
 {: #event-notifications-test-ui}
 {: ui}
