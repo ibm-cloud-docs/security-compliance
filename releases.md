@@ -19,8 +19,11 @@ content-type: release-note
 
 
 
-## 14 September 2023
-{: #security-compliance-sep1423}
+
+
+
+## 15 September 2023
+{: #security-compliance-sep1523}
 {: release-note}
 
 Now available: Java SDK v5.0.0
