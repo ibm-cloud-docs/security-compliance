@@ -266,8 +266,6 @@ curl -X POST
 {: codeblock}
 {: curl}
 
-A successful response returns `{"success": true}` to indicate that a test event was forwarded successfully to your connected {{site.data.keyword.en_short}} service instance. For more information, see the [API docs](/apidocs/security-compliance#post-test-event).
-
 ```go
 (securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) PostTestEvent(postTestEventOptions *PostTestEventOptions) (result *TestEvent, response *core.DetailedResponse, err error)
 ```
@@ -322,6 +320,8 @@ print(json.dumps(test_event, indent=2))
 {: python}
 
 
+
+A successful response returns `{"success": true}` to indicate that a test event was forwarded successfully to your connected {{site.data.keyword.en_short}} service instance. For more information, see the [API docs](/apidocs/security-compliance#post-test-event).
 
 
 
