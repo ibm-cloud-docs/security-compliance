@@ -92,6 +92,52 @@ curl -X GET
 
 
 
+```java
+GetReportSummaryOptions getReportSummaryOptions = new GetReportSummaryOptions.Builder()
+  .reportId(reportIdForReportLink)
+  .build();
+
+Response<ReportSummary> response = securityAndComplianceCenterApiService.getReportSummary(getReportSummaryOptions).execute();
+ReportSummary reportSummary = response.getResult();
+
+System.out.println(reportSummary);
+```
+{: codeblock}
+{: java}
+
+
+
+```node
+const params = {
+  reportId: reportIdForReportLink,
+};
+
+let res;
+try {
+  res = await securityAndComplianceCenterApiService.getReportSummary(params);
+  console.log(JSON.stringify(res.result, null, 2));
+} catch (err) {
+  console.warn(err);
+}
+```
+{: codeblock}
+{: node}
+
+
+
+```python
+response = security_and_compliance_center_api_service.get_report_summary(
+  report_id=report_id_for_report_link,
+)
+report_summary = response.get_result()
+
+print(json.dumps(report_summary, indent=2))
+```
+{: codeblock}
+{: python}
+
+
+
 A successful response returns the detailed report from your scan, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#get-report-summary).<regionality-terr>
 
 ## Viewing detailed results with Terraform
