@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-13"
+lastupdated: "2023-09-14"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -13,7 +13,7 @@ subcollection: security-compliance
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Viewing results 
+# Viewing results
 {: #results}
 
 With {{site.data.keyword.compliance_full}}, you can view the results of a compliance evaluation in the dashboard or by using the API.
@@ -38,7 +38,7 @@ Success rate
 :   The rate at which your configurations pass the evaluation that is conducted. **Note:** The number of evaluations conducted does not always match the number of billable evaluations, as there is no charge for assessments evaluated as unable to perform. Be sure to look for the billable evaluations in each scan result if you need to estimate your cost.
 
 Total controls
-:   The total number of controls that have been evaluated in the past 30 days. 
+:   The total number of controls that have been evaluated in the past 30 days.
 
 Total evaluations
 :   The total number of evaluations that have been run in the past 30 days. An evaluation is the check of one resource against one assessment.
@@ -63,7 +63,7 @@ A page opens with an **Overview** of your results. To further investigate, you c
 |:---|:---------|
 | Overview | On the overview tab, you are provided with a graphical representation of your compliance for your selected scan.  \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-overview-tab.svg){: caption="Figure 2. Example overview tab results" caption-side="bottom"}  \n  **Success rate**: The rate at which your configurations pass the evaluation that is conducted.  \n  **Total controls**: The total number of controls that were evaluated during this scan.  \n  **Drift**: The difference in results for your selected evaluation timeframe. |
 | Controls | On the **Controls** tab, you are provided with an overview of the controls that were evaluated. The controls and their compliance status are listed for the time that the scan was done.
-| Resources | On the **Resources** tab, you are provided with the results for each specific resource that was evaluated.  \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-resources-tab.svg){: caption="Figure 3. Example results tab results" caption-side="bottom"}  \n In the **JSON** tab, you can see the assessment definition. In the **Parameters** tab, you can see the parameters that are relevant to that resource. In the **Non-compliant properties** tab, you are able to view which properties are non-compliant to begin remediating any issues that are found. In the **Controls** tab, you are able to view which controls that the assessment is associated with. |
+| Resources | On the **Resources** tab, you are provided with the results for each specific resource that was evaluated.  \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-resources-tab.svg){: caption="Figure 3. Example results tab results" caption-side="bottom"}  \n In the **JSON** tab, you can see the assessment definition. In the **Parameters** tab, you can see the parameters that are relevant to that resource. In the **Non-compliant properties** tab, you are able to view which properties are non-compliant to begin remediating any issues that are found. In the **Additional details** tab, you can view provider-specific information that can help you understand the scan results better by sharing the reference links. This information is displayed only when the provider provides the relevant details. In the **Controls** tab, you are able to view which controls that the assessment is associated with. |
 {: caption="Table 1. Understanding detailed results" caption-side="top"}
 {: row-headers}
 
@@ -75,8 +75,8 @@ A page opens with an **Overview** of your results. To further investigate, you c
 To get a report summary, you can use the {{site.data.keyword.compliance_short}} API.
 
 ```bash
-curl -X GET 
-  --location --header "Authorization: Bearer {iam_token}" 
+curl -X GET
+  --location --header "Authorization: Bearer {iam_token}"
   --header "Accept: application/json"
 "https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/reports/{report_id}/summary"
 ```
