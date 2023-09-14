@@ -321,7 +321,7 @@ print(json.dumps(test_event, indent=2))
 
 
 
-A successful response returns `{"success": true}` to indicate that a test event was forwarded successfully to your connected {{site.data.keyword.en_short}} service instance. For more information, see the [API docs](/apidocs/security-compliance#post-test-event).
+A successful response returns `{"success": true}` to indicate that a test event was forwarded successfully to your connected {{site.data.keyword.en_short}} service instance . For more information, see the [API docs](/apidocs/security-compliance#post-test-event).
 
 
 
