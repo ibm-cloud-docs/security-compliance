@@ -19,7 +19,6 @@ content-type: release-note
 
 
 
-
 ## 14 September 2023
 {: #security-compliance-sep1423}
 {: release-note}
@@ -32,9 +31,6 @@ Now available: Node SDK v5.0.0
 
 Now available: Python SDK v5.0.0
 :   A new version of the {{site.data.keyword.compliance_short}} [Python SDK](https://github.com/IBM/scc-python-sdk) is now available. You can review the updates in the [API docs](/apidocs/security-compliance#introduction).
-
-
-
 
 
 ## 12 September 2023
