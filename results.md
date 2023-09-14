@@ -138,22 +138,7 @@ print(json.dumps(report_summary, indent=2))
 
 
 
-A successful response returns the detailed report from your scan, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#get-report-summary).<regionality-terr>
-
-## Viewing detailed results with Terraform
-{: #view-detailed-results-terraform}
-{: terraform}
-
-To get a report summary, you can use Terraform.
-
-```terraform
-data "ibm_scc_report_summary" "scc_report_summary" {
-	report_id = "report_id"
-}
-```
-{: pre}
-
-For more information, check out the {{site.data.keyword.compliance_short}} [Terraform reference](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_account_settings){: external}.
+A successful response returns the detailed report from your scan, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#get-report-summary).
 
 ### Understanding statuses
 {: #status}
