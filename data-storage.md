@@ -2,7 +2,8 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-14"
+lastupdated: "2023-09-15"
+
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -22,7 +23,7 @@ When you work with {{site.data.keyword.compliance_full}}, you must configure how
 ## Before you begin
 {: #before-storage}
 
-Before you get started, be sure that you have the required level of access to update the settings for {{site.data.keyword.compliance_short}}. To manage settings, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
+Before you get started, be sure that you have the required level of access to update the settings for {{site.data.keyword.compliance_short}}. To manage settings, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). 
 
 ## Bucket requirements
 {: #scc-bucket}
