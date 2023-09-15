@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-12"
+lastupdated: "2023-09-15"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -22,6 +22,18 @@ content-type: release-note
 
 
 
+## 15 September 2023
+{: #security-compliance-sep1523}
+{: release-note}
+
+Now available: Java SDK v5.0.0
+:   A new version of the {{site.data.keyword.compliance_short}} [Java SDK](https://github.com/IBM/scc-java-sdk){: external} is now available. You can review the updates in the [API docs](/apidocs/security-compliance#introduction).
+
+Now available: Node SDK v5.0.0
+:   A new version of the {{site.data.keyword.compliance_short}} [Node.js SDK](https://github.com/IBM/scc-node-sdk){: external} is now available. You can review the updates in the [API docs](/apidocs/security-compliance#introduction).
+
+Now available: Python SDK v5.0.0
+:   A new version of the {{site.data.keyword.compliance_short}} [Python SDK](https://github.com/IBM/scc-python-sdk) is now available. You can review the updates in the [API docs](/apidocs/security-compliance#introduction).
 
 
 ## 12 September 2023
@@ -35,7 +47,7 @@ Profile deprecation: {{site.data.keyword.cloud_notm}} Security Best Practices
    * 12 October 2023: The creation of new and editing of existing attachments will be blocked starting on this date. Additionally, the profile will no longer be visible in the Profile page of the service UI. Previously created attachments will continue to be scanned.
    * 11 December 2023: The profile will be removed from the product. If an attachment exists with the profile, the scans will stop.
 
-   It is recommended that you move to another profile to ensure continued support. However, if you want to continue working with the controls or assessments that are associated with the {{site.data.keyword.cloud_notm}} Security Best Practices, you can use the profile to create a custom profile until the 12 October. You must then create a new attachment with your custom profile to initiate scanning. 
+   It is recommended that you move to another profile, such as CIS IBM Cloud Foundations Benchmark, to ensure continued support. However, if you want to continue working with the controls or assessments that are associated with the {{site.data.keyword.cloud_notm}} Security Best Practices, you can use the profile to create a custom profile until the 12 October. You must then create a new attachment with your custom profile to initiate scanning. 
    
    If you're already working with the controls or assessments through a custom profile, you do not need to make any changes. Your scans will continue to run.
 
