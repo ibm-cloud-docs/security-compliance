@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-12"
+lastupdated: "2023-09-15"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -22,6 +22,18 @@ content-type: release-note
 
 
 
+## 15 September 2023
+{: #security-compliance-sep1523}
+{: release-note}
+
+Now available: Java SDK v5.0.0
+:   A new version of the {{site.data.keyword.compliance_short}} [Java SDK](https://github.com/IBM/scc-java-sdk){: external} is now available. You can review the updates in the [API docs](/apidocs/security-compliance#introduction).
+
+Now available: Node SDK v5.0.0
+:   A new version of the {{site.data.keyword.compliance_short}} [Node.js SDK](https://github.com/IBM/scc-node-sdk){: external} is now available. You can review the updates in the [API docs](/apidocs/security-compliance#introduction).
+
+Now available: Python SDK v5.0.0
+:   A new version of the {{site.data.keyword.compliance_short}} [Python SDK](https://github.com/IBM/scc-python-sdk) is now available. You can review the updates in the [API docs](/apidocs/security-compliance#introduction).
 
 
 ## 12 September 2023
