@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-12"
+lastupdated: "2023-09-14"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -136,8 +136,97 @@ fmt.Println(string(b))
 
 
 
-A successful response returns the CRN value of your connected {{site.data.keyword.en_short}} and Cloud Object Storage service instances. For more information about the required and optional request parameters, see the [API docs](/apidocs/security-compliance#update-settings).
+```java
+EventNotifications eventNotificationsModel = new EventNotifications.Builder()
+  .instanceCrn(eventNotificationsCrnForUpdateSettingsLink)
+  .sourceDescription("This source is used for integration with IBM Cloud Security and Compliance Center.")
+  .sourceName("compliance")
+  .build();
+ObjectStorage objectStorageModel = new ObjectStorage.Builder()
+  .instanceCrn(objectStorageCrnForUpdateSettingsLink)
+  .bucket(objectStorageBucketForUpdateSettingsLink)
+  .bucketLocation(objectStorageLocationForUpdateSettingsLink)
+  .build();
+UpdateSettingsOptions updateSettingsOptions = new UpdateSettingsOptions.Builder()
+  .eventNotifications(eventNotificationsModel)
+  .objectStorage(objectStorageModel)
+  .xCorrelationId(xCorrelationIdLink)
+  .build();
 
+Response<Settings> response = securityAndComplianceCenterApiService.updateSettings(updateSettingsOptions).execute();
+Settings settings = response.getResult();
+
+System.out.println(settings);
+```
+{: codeblock}
+{: java}
+
+
+
+```node
+// Request models needed by this operation.
+
+// EventNotifications
+const eventNotificationsModel = {
+  instance_crn: eventNotificationsCrnForUpdateSettingsLink,
+  source_description: 'This source is used for integration with IBM Cloud Security and Compliance Center.',
+  source_name: 'compliance',
+};
+
+// ObjectStorage
+const objectStorageModel = {
+  instance_crn: objectStorageCrnForUpdateSettingsLink,
+  bucket: objectStorageBucketForUpdateSettingsLink,
+  bucket_location: objectStorageLocationForUpdateSettingsLink,
+};
+
+const params = {
+  eventNotifications: eventNotificationsModel,
+  objectStorage: objectStorageModel,
+  xCorrelationId: xCorrelationIdLink,
+};
+
+let res;
+try {
+  res = await securityAndComplianceCenterApiService.updateSettings(params);
+  console.log(JSON.stringify(res.result, null, 2));
+} catch (err) {
+  console.warn(err);
+}
+```
+{: codeblock}
+{: node}
+
+
+
+```python
+event_notifications_model = {
+  'instance_crn': event_notifications_crn_for_update_settings_link,
+  'source_description': 'This source is used for integration with IBM Cloud Security and Compliance Center.',
+  'source_name': 'compliance',
+}
+
+object_storage_model = {
+  'instance_crn': object_storage_crn_for_update_settings_link,
+  'bucket': object_storage_bucket_for_update_settings_link,
+  'bucket_location': object_storage_location_for_update_settings_link,
+}
+
+response = security_and_compliance_center_api_service.update_settings(
+  event_notifications=event_notifications_model,
+  object_storage=object_storage_model,
+  x_correlation_id=x_correlation_id_link,
+)
+settings = response.get_result()
+
+print(json.dumps(settings, indent=2))
+```
+{: codeblock}
+{: python}
+
+
+
+A successful response returns the CRN value of your connected {{site.data.keyword.en_short}} and Cloud Object Storage service instances. For more information about the required and optional request parameters, see the [API docs](/apidocs/security-compliance#update-settings).
 
 
 ### Sending a test event to {{site.data.keyword.en_short}} from the UI
@@ -176,8 +265,6 @@ curl -X POST
 {: codeblock}
 {: curl}
 
-A successful response returns `{"success": true}` to indicate that a test event was forwarded successfully to your connected {{site.data.keyword.en_short}} service instance. For more information, see the [API docs](/apidocs/security-compliance#post-test-event).
-
 ```go
 (securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) PostTestEvent(postTestEventOptions *PostTestEventOptions) (result *TestEvent, response *core.DetailedResponse, err error)
 ```
@@ -185,6 +272,55 @@ A successful response returns `{"success": true}` to indicate that a test event 
 {: go}
 
 
+
+```java
+PostTestEventOptions postTestEventOptions = new PostTestEventOptions.Builder()
+  .xCorrelationId(xCorrelationIdLink)
+  .build();
+
+Response<TestEvent> response = securityAndComplianceCenterApiService.postTestEvent(postTestEventOptions).execute();
+TestEvent testEvent = response.getResult();
+
+System.out.println(testEvent);
+```
+{: codeblock}
+{: java}
+
+
+
+```node
+const params = {
+  xCorrelationId: xCorrelationIdLink,
+};
+
+let res;
+try {
+  res = await securityAndComplianceCenterApiService.postTestEvent(params);
+  console.log(JSON.stringify(res.result, null, 2));
+} catch (err) {
+  console.warn(err);
+}
+```
+{: codeblock}
+{: node}
+
+
+
+
+```python
+response = security_and_compliance_center_api_service.post_test_event(
+  x_correlation_id=x_correlation_id_link,
+)
+test_event = response.get_result()
+
+print(json.dumps(test_event, indent=2))
+```
+{: codeblock}
+{: python}
+
+
+
+A successful response returns `{"success": true}` to indicate that a test event was forwarded successfully to your connected {{site.data.keyword.en_short}} service instance . For more information, see the [API docs](/apidocs/security-compliance#post-test-event).
 
 
 
