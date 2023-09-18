@@ -48,7 +48,7 @@ To start scanning your resource, you create an attachment. To create an attachme
 	{: tip}
 
 2. Provide a name and description for your attachment. Be sure to be as descriptive as possible so that it's easy for other members of your team to understand what is being evaluated. Then, click **Next**.
-3. Select the **Profile** <composite-prod> and **Profile version** </composite-prod>that you want to use for your evaluation.
+3. Select the **Profile**  and **Profile version** that you want to use for your evaluation.
 4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case. Then, click **Next**.
 5. Target the resources you want to evaluate by defining a scope. If you are working with {{site.data.keyword.cloud_notm}} resources, you can also specify resources that you want to exclude from your scope. If you are working with resources from other environments, you must [connect an instance of the {{site.data.keyword.sysdigsecure_short}} service](/docs/security-compliance?topic=security-compliance-setup-workload-protection) and provide any reqested information to move forward.
 6. Click **Next**.
