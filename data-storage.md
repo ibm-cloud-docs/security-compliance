@@ -2,8 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-15"
-
+lastupdated: "2023-09-18"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -28,7 +27,7 @@ Before you get started, be sure that you have the required level of access to up
 ## Bucket requirements
 {: #scc-bucket}
 
-The bucket that you use to store your results does not require any particular settings or naming format. But, it is recommended that you use a bucket on the Standard plan and Smart tier.
+The bucket that you use to store your results does not require any particular settings or naming format. However, it is recommended that you use a bucket on the Standard plan and Smart tier.
 
 All the traffic between {{site.data.keyword.compliance_short}} and Cloud Object Storage is done over a private network. The retrieval of data for display purposes in the console does not cost you anything. However, if you choose to download the data directly from Cloud Object Storage after it is stored, you do incur a data transfer cost. See [Cloud Object Storage pricing](/docs/cloud-object-storage/iam?topic=cloud-object-storage-billing) for more information.
 
