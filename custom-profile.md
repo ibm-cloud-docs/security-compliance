@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-14"
+lastupdated: "2023-09-18"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -45,20 +45,18 @@ You can create a profile through the console by using a control library as a gui
 
 3. Click **Next**.
 4. Add controls.
-	1. Click **Add**.
-	2. Select the control library that you want to work from.
-	3. Select the controls that you want to evaluate.
-
-		To see the specifications that are available for each of the controls click the **Eye** icon.
+	1.  Click **Add** to view the available control libararies. 
+	2. Select the library that you want to pull controls from.
+		If you don't see exactly what you're looking for, you can always create a custom control library and it will display in the screen.
 		{: tip}
+	3. Select the controls that you want to evaluate. To view the associated assessments, you can click eye icon.
+	4. When you have all of your controls selected, click **Add**.
+	6. Review your selected controls, and then click **Next**.
+5. Define the parameter values by expanding each row to view the input that is required for each specification. 
 
-	4. When you have all your selections, click **Add**.
-5. Click **Next**.
-6. Define the parameter values.
+	Your selected controls might not have any assessments that require parameter input. If that is the case, a message will tell you to skip to the next step.
 
-	Expand each specification to view the parameter inputs.
-
-7. Click **Create**.
+6. Review your selections, and then click **Create**.
 
 ## Building a profile with the API
 {: #create-profile-api}
