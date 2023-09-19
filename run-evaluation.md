@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-18"
+lastupdated: "2023-09-19"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -351,7 +351,6 @@ curl -X POST
 {: go}
 
 
-
 ```java
 CreateScanOptions createScanOptions = new CreateScanOptions.Builder()
   .attachmentId(attachmentIdLink)
@@ -364,7 +363,6 @@ System.out.println(scan);
 ```
 {: codeblock}
 {: java}
-
 
 
 ```node
@@ -384,7 +382,6 @@ try {
 {: node}
 
 
-
 ```python
 create_scan(
         self,
@@ -397,7 +394,6 @@ create_scan(
 ```
 {: codeblock}
 {: python}
-
 
 
 

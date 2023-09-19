@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-14"
+lastupdated: "2023-09-19"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -348,7 +348,6 @@ try {
 {: node}
 
 
-
 ```python
 profile_controls_prototype_model = {
   'control_library_id': control_library_id_link,
@@ -377,7 +376,6 @@ print(json.dumps(profile, indent=2))
 ```
 {: codeblock}
 {: python}
-
 
 
 A successful response returns the list of rules, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-rule).

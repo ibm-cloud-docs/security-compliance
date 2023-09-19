@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-18"
+lastupdated: "2023-09-19"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -106,7 +106,6 @@ curl -X POST
 ```
 {: codeblock}
 {: go}
-
 
 
 ```java

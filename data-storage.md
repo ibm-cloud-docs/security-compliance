@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-18"
+lastupdated: "2023-09-19"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -117,7 +117,6 @@ fmt.Println(string(b))
 {: go}
 
 
-
 ```java
 EventNotifications eventNotificationsModel = new EventNotifications.Builder()
   .instanceCrn(eventNotificationsCrnForUpdateSettingsLink)
@@ -142,7 +141,6 @@ System.out.println(settings);
 ```
 {: codeblock}
 {: java}
-
 
 
 ```node
@@ -180,7 +178,6 @@ try {
 {: node}
 
 
-
 ```python
 event_notifications_model = {
   'instance_crn': event_notifications_crn_for_update_settings_link,
@@ -205,8 +202,6 @@ print(json.dumps(settings, indent=2))
 ```
 {: codeblock}
 {: python}
-
-
 
 
 If you disconnect your instance of Cloud Object Storage or select a new bucket, {{site.data.keyword.compliance_short}} is not able to read any of your existing results data. An evaluation can't complete without a connected Cloud Object Storage bucket.

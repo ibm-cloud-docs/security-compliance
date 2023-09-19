@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-14"
+lastupdated: "2023-09-19"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -272,7 +272,6 @@ curl -X POST
 {: go}
 
 
-
 ```java
 PostTestEventOptions postTestEventOptions = new PostTestEventOptions.Builder()
   .xCorrelationId(xCorrelationIdLink)
@@ -285,7 +284,6 @@ System.out.println(testEvent);
 ```
 {: codeblock}
 {: java}
-
 
 
 ```node
@@ -306,7 +304,6 @@ try {
 
 
 
-
 ```python
 response = security_and_compliance_center_api_service.post_test_event(
   x_correlation_id=x_correlation_id_link,
@@ -317,7 +314,6 @@ print(json.dumps(test_event, indent=2))
 ```
 {: codeblock}
 {: python}
-
 
 
 A successful response returns `{"success": true}` to indicate that a test event was forwarded successfully to your connected {{site.data.keyword.en_short}} service instance . For more information, see the [API docs](/apidocs/security-compliance#post-test-event).
