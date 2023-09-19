@@ -99,7 +99,8 @@ toc:
               - change-logs/cis-azure.md
               - change-logs/cis-azure-ks.md
               - change-logs/cis-aws.md
-              - change-logs/cis-aws-eks.md
+              - change-logs/cis-aws-eks.md<pci-profile>
+              - change-logs/pci-dss.md</pci-profile>
       - topicgroup: 
           label: High availability and disaster recovery
           topics:
