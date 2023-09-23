@@ -26,13 +26,13 @@ content-type: release-note
 Profile name change
 :   The following {{site.data.keyword.cloud_notm}} profile names have been updated:
 
-   * {{site.data.keyword.cloud_notm}} for Financial Services is now known as {{site.data.keyword.cloud_notm}} Framework for Financial Services for Financial Services
-   * CIS IBM Foundations Benchmark is now known as {{site.data.keyword.cloud_notm}} Foundations Benchmark
+   * {{site.data.keyword.cloud_notm}} for Financial Services is now known as {{site.data.keyword.cloud_notm}} Framework for Financial Services 
+   * CIS IBM Foundations Benchmark is now known as CIS {{site.data.keyword.cloud_notm}} Foundations Benchmark
 
    There is no impact to your scans, just the name of the profile has been changed.
 
-Now available: Version 4 of the PCI DSS profile
-:   Version 4 of the PCI DSS profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-pci-dss).
+Now available: Version 0.4.0 of the PCI DSS profile
+:   Version 0.4.0 of the PCI DSS profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-pci-dss).
 
 Now available: Version 5 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile
 :   Version 5 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
