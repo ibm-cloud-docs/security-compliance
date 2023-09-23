@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-14"
+lastupdated: "2023-09-23"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -27,9 +27,18 @@ To evaluate your resources, you create an attachment. An attachment is the assoc
 ## Before you begin
 {: #before-evaluation}
 
-Before you get started, be sure that you have the required level of access to create an attachment. To create an attachment, you need the **Editor** platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
+Before you get started, be sure that you have the following prerequistes:
 
-You must also connect a Cloud Object Storage bucket in which to store your results. To connect your bucket, you must have a service-to-service policy in place that enables communication between {{site.data.keyword.compliance_short}} and Cloud Object Storage.
+* The required level of access to create an attachment. To create an attachment, you need the **Editor** platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
+* A connected Cloud Object Storage bucket in which to store your results. To connect your bucket, you must have a service-to-service policy in place that enables communication between {{site.data.keyword.compliance_short}} and Cloud Object Storage.
+* A selected profile that you'd like to use in your attachment.
+
+	
+
+	Want to use controls from multiple profiles? Create a custom profile from the existing control libraries and use that profile to create your attachment.
+	{: tip}
+
+	
 
 
 ## Scheduling a recurring scan
@@ -44,19 +53,15 @@ To start scanning your resource, you create an attachment. To create an attachme
 	{: tip}
 
 2. Provide a name and description for your attachment. Be sure to be as descriptive as possible so that it's easy for other members of your team to understand what is being evaluated. Then, click **Next**.
-3. Select the **Profile** and **Profile version** that you want to use for your evaluation.
-
-	Predefined profiles are available, but you can create a custom profile that uses only the controls that you want. In other words, create a custom profile if you don’t want to use all the controls in the predefined profile. For multi-cloud support, be sure to select a profile that includes the `wp-rule`, which is Azure Kubernetes Service (AKS), Amazon Web Service (AWS), or Amazon Elastic Kubernetes Service (EKS),
-   {: tip}
-
-4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
-5. Target the resources you want to evaluate by defining a scope. If you are working with {{site.data.keyword.cloud_notm}} resources, you can also specify resources that you want to exlude from your scope. If you are working with resources from other environments, you must [connect an instance of the {{site.data.keyword.sysdigsecure_short}} service](/docs/security-compliance?topic=security-compliance-setup-workload-protection) and provide the reqested information to move forward.
+3. Select the **Profile**  and **Profile version** that you want to use for your evaluation.
+4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case. Then, click **Next**.
+5. Target the resources you want to evaluate by defining a scope. If you are working with {{site.data.keyword.cloud_notm}} resources, you can also specify resources that you want to exclude from your scope. If you are working with resources from other environments, you must [connect an instance of the {{site.data.keyword.sysdigsecure_short}} service](/docs/security-compliance?topic=security-compliance-setup-workload-protection) and provide any reqested information to move forward.
 6. Click **Next**.
 7. Select the frequency at which you want to evaluate your attachment.
 	
-	Options include every day, every 7 days, and every 30 days. Additionally, you can now pause your scans if you need to.
+	Options include every day, every 7 days, and every 30 days. Additionally, you can pause your scans if you need to.
 
-8. Optional: Configure notifications.
+8. Optional: Configure failure notifications.
 	1. If you want to receive notifications, toggle **Notify me** to **On**.
 	2. By default, when notifications are enabled, you are alerted when 15% or more of your controls fail in a single scan. You can change this by adjusting the **Threshold** percentage. 
 	
@@ -69,16 +74,17 @@ To start scanning your resource, you create an attachment. To create an attachme
 		1. Click **Select control**.
 		2. Select the controls that you want to be notified about by checking the box next to the control.
 		3. Click **Ok**.
+	4. Click **Next**.
 9. Review your choices and click **Create**.
 
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
 
 
-## Scheduling a recurring scan with the API
+## Scheduling a recurring scan with the API and SDKs
 {: #scan-schedule-api}
 {: api}
 
-To create an attachment, you can use the {{site.data.keyword.compliance_short}} API.
+To start evaluating your resources, you can use the {{site.data.keyword.compliance_short}} attachments API or SDKs.
 
 ```bash
 curl -X POST 
@@ -135,14 +141,11 @@ curl -X POST
 {: pre}
 {: curl}
 
-
 ```go
 (securityAndComplianceCenterApi *SecurityAndComplianceCenterApiV3) CreateAttachment(createAttachmentOptions *CreateAttachmentOptions) (result *AttachmentPrototype, response *core.DetailedResponse, err error)
 ```
 {: codeblock}
 {: go}
-
-
 
 ```java
 PropertyItem propertyItemModel = new PropertyItem.Builder()
@@ -190,8 +193,6 @@ System.out.println(attachmentPrototype);
 ```
 {: codeblock}
 {: java}
-
-
 
 ```node
 // Request models needed by this operation.
@@ -257,8 +258,6 @@ try {
 {: codeblock}
 {: node}
 
-
-
 ```python
 property_item_model = {
   'name': 'scope_id',
@@ -310,8 +309,6 @@ print(json.dumps(attachment_prototype, indent=2))
 {: codeblock}
 {: python}
 
-
-
 A successful response returns an array that lists all the attachments to the specified profile, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-attachment).
 
 
@@ -359,7 +356,6 @@ curl -X POST
 {: go}
 
 
-
 ```java
 CreateScanOptions createScanOptions = new CreateScanOptions.Builder()
   .attachmentId(attachmentIdLink)
@@ -372,7 +368,6 @@ System.out.println(scan);
 ```
 {: codeblock}
 {: java}
-
 
 
 ```node
@@ -392,7 +387,6 @@ try {
 {: node}
 
 
-
 ```python
 create_scan(
         self,
@@ -405,7 +399,6 @@ create_scan(
 ```
 {: codeblock}
 {: python}
-
 
 
 

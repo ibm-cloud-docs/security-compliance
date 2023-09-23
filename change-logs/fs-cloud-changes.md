@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-14"
+lastupdated: "2023-09-23"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -13,7 +13,7 @@ content-type: release-note
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Change log: IBM Cloud for Financial Services  profile
+# Change log: IBM Cloud for Financial Services {{site.data.keyword.cloud_notm}} for Financial Services profile
 {: #fs-change-log}
 
 In this change log, you can learn about the latest changes, improvements, and updates for the {{site.data.keyword.cloud_notm}} for Financial Services profile. The change log lists changes that were made, ordered by the version number.
@@ -34,12 +34,42 @@ The following table details the release dates and status of each profile version
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
+| Version 1.5.0 | `2023-09-22` | Active |
 | Version 1.4.0 | `2023-08-09` | Active |
 | Version 1.3.0 | `2023-06-20` | Active |
 | Version 1.2.0 | `2023-04-20` | Active |
 | Version 1.1.0 | `2023-03-02` | Active |
 | Version 1.0.0 | `2022-12-14` | Active |
 {: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
+
+
+
+## Version 1.5.0
+{: #fs-cloud-v150}
+
+The following rules were updated in the {{site.data.keyword.cloud_notm}} for Financial Services library and profile as of 21 August 2023.
+
+| Rule ID | Rule description| Associated controls | Update |
+|:--------|:----------------|:--------------------|:-------|
+| `rule-17b54156-373a-48f9-b340-a7e47acd87b6` | Check whether Virtual Servers for VPC instance doesn't have a floating IP | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was removed. |
+| `rule-7cf9deab-b418-4374-9e10-a13d217166bb` | Check whether virtual servers for VPC instance doesn't have a floating IP | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. | 
+| `rule-c2dd768e-9a49-4d6d-8ac5-8fcfb233a7b0` | Check whether Virtual Private Cloud (VPC) has no subnet with public gateway attached | `AC-4(0)`, `SC-7(a)`, `SC-7(4)(a)(a)`, `SC-7(5)(0)`, and `SC-7(10)(0)` | The rule was removed. | 
+| `rule-c92a1ac3-6f9a-4fb1-9cb8-57d312679020` | Check whether Virtual Private Cloud (VPC) has no subnet with public gateway attached | `AC-4(0)`, `SC-7(a)`, `SC-7(4)(a)(a)`, `SC-7(5)(0)`, and `SC-7(10)(0)` | The rule was added. | 
+| `rule-de84afba-b83a-41d6-8c80-d0b6acafe039` | Check whether OpenShift version is up-to-date | `CM-8(3)(a)`, and `SI-2(2)(0)` | The rule was removed. | 
+| `rule-3617cc3c-f6a5-44a5-806b-e929bbd664ba` | Check whether OpenShift version is up-to-date | `CM-8(3)(a)`, and `SI-2(2)(0)` | The rule was added. | 
+| `rule-8cbd597c-7471-42bd-9c88-36b2696456e9` | Check whether Cloud Object Storage network access is restricted to a specific IP range | `AC-4(0)`,`SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)` | The rule was removed. |
+| `rule-ac203dbc-ff0d-49f7-bf11-c08af429cb86` | Check whether Cloud Object Storage network access is restricted to a specific IP range | `AC-4(0)`,`SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)` | The rule was added. |
+| `rule-0c2d0cef-a217-4eb0-a4ca-813fb2a08a31` | Check whether Event Notifications can be accessed only through a private endpoint |`AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was removed. | 
+| `rule-c9dfee2f-6283-43ce-9337-4eaacaa3313c` | Check whether Event Notifications can be accessed only through a private endpoint |`AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. | 
+| `rule-f45487db-513e-4c49-b227-9101fdaf9259` | Check whether Secrets Manager can be accessed only through a private endpoint | `AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was removed. |
+| `rule-c26980c7-5fae-47b7-ad2a-e96e87cf28fc` |Check whether Secrets Manager can be accessed only through a private endpoint |`AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(4)(a)`, and `SC-7(5)(0)` | The rule was added. |
+| `rule-dd1600d2-2e69-4ada-bca5-9e70b76ccd21` | Check whether App ID avoid password reuse policy is enabled | `CM-7(a)` | The rule was removed. |
+| `rule-315c8bb3-3eb8-4186-85bc-e66d68ba9dd0` | Check whether Hyper Protect Crypto Services can be accessed only through a private endpoint | `IA-7(0)` | The rule was removed. |
+| `rule-24508beb-c00a-4c6b-bd04-d38dd8cb7d71` | Check whether App ID user data is encrypted | `SC-13(0)`, `SC-28(0)`, and `SC-28(1)(0)` | The rule was removed. |
+| `rule-b44ca99d-23fd-49cd-851a-b393f42dc8ba` | Check whether Container Registry image pushes, and pulls take place only over private endpoints | `CM-7(a)`, and `CM-7(b)` | The rule was added. |
+| `rule-bf455a75-0ab7-406f-8321-b8bd10d01c50` | Check that there is an Activity Tracker event route defined in each region to collect location-based events | `AC-2(g)`, `AC-2(4)(0)`, `AC-2(7)(b)`, `AC-6(9)(0)`, `AU-2(a)`, `AU-2(d)`, `AU-3(0)`, `AU-8(a)`, `AU-8(b)`, `AU-8(1)(a)`, `AU-8(1)(b)`, `AU-12(a)`, `AU-12(b)`, `AU-12(c)`, `CA-7(d)`, `SI-4(a)`, `SI-4(b)`, and `SI-4(c)` | The rule was added. |
+{: caption="Table. Summary of the changes for version 1.5.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
+
 
 
 
