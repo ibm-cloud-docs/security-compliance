@@ -35,12 +35,10 @@ Frequently asked questions for {{site.data.keyword.compliance_full}} might inclu
 Yes, you can create rules for services or resources that are not already provisioned in your accounts. When the service or resource is created, it is automatically evaluated according to your rule definition.
 
 
-
 ## Why don't I see additional details for everything?
 {: #faq-evidence}
 {: faq}
 {: support}
 
 When you look at your results in the UI, you see that some results have "Additional details". This is because the results are associated with the Toolchain service. The Toolchain pipeline sends the associated details and evidence along with the results to {{site.data.keyword.compliance_short}}.
-
 

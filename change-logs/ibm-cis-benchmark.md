@@ -35,11 +35,11 @@ The following table details the release dates and status of each profile version
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
 | Version 1.0.0 | `2023-05-17` | Active |
-{: caption="Table. Active versions of the CIS IBM Foundations Benchmark profile" caption-side="top"}
+{: caption="Table. Active versions of the CIS IBM Cloud Foundations Benchmark profile" caption-side="top"}
 
 
 ## Version 1.0.0
 {: #cis-v100}
 
 Now available
-:   Released in the new architecture today, 17 May 2023, the CIS IBM Foundations Benchmark profile is a collection of controls designed to validate the configuration of your {{site.data.keyword.cloud_notm}} resources in accordance with the CIS defined standards.
+:   Released in the new architecture today, 17 May 2023, the CIS IBM Cloud Foundations Benchmark profile is a collection of controls designed to validate the configuration of your {{site.data.keyword.cloud_notm}} resources in accordance with the CIS defined standards.
