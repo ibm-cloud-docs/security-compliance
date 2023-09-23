@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-19"
+lastupdated: "2023-09-23"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -32,6 +32,11 @@ Before you get started, be sure that you have the following prerequistes:
 * The required level of access to create an attachment. To create an attachment, you need the **Editor** platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
 * A connected Cloud Object Storage bucket in which to store your results. To connect your bucket, you must have a service-to-service policy in place that enables communication between {{site.data.keyword.compliance_short}} and Cloud Object Storage.
 * A selected profile that you'd like to use in your attachment.
+
+	
+
+	Want to use controls from multiple profiles? Create a custom profile from the existing control libraries and use that profile to create your attachment.
+	{: tip}
 
 	
 

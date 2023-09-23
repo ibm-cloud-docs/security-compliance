@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-15"
+lastupdated: "2023-09-23"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -19,6 +19,32 @@ content-type: release-note
 
 
 
+
+
+
+## 22 September 2023
+{: #security-compliance-sep212023}
+{: release-note}
+
+Profile name change
+:   The following {{site.data.keyword.cloud_notm}} profile names have been updated:
+
+   * {{site.data.keyword.cloud_notm}} for Financial Services is now known as {{site.data.keyword.cloud_notm}} for Financial Services for Financial Services
+   * CIS IBM Foundations Benchmark is now known as {{site.data.keyword.cloud_notm}} Foundations Benchmark
+
+   There is no impact to your scans, just the name of the profile has been changed.
+
+Now available: Version 4 of the PCI DSS profile
+:   Version 4 of the PCI DSS profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-pci-dss).
+
+Now available: Version 5 of the {{site.data.keyword.cloud_notm}} for Financial Services profile
+:   Version 5 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+
+New rule available
+:   The {{site.data.keyword.cloud_notm}} Log Analysis service can now be evaluated to determine whether an instance exists in a specific region and whether platform logs are enabled. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
+
+Multi-environment profiles
+:   You can now evaluate multiple environments by using the same profile. To get started with the multi-cloud flow, [create a custom profile](/docs/security-compliance?topic=security-compliance-build-custom-profiles) and then [run an evaluation](/docs/security-compliance?topic=security-compliance-run-evaluation).
 
 
 
