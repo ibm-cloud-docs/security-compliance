@@ -35,13 +35,12 @@ The following table details the release dates and status of each profile version
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
-| Version 4.0.0 | `2023-09-22` | Active |
+| Version 0.4.0 | `2023-09-23` | Active |
 {: caption="Table. Active versions of the PCI DSS profile" caption-side="top"}
 
 
-## Version 4.0.0
+## Version 0.4.0
 {: #pci-dss-version4}
 
 Now available
-:   Released today, 22 September 2023, the PCI DSS profile is a collection of controls designed to validate the configuration of your resources.
-
+:   Released today, 23 September 2023, the PCI DSS profile is a collection of controls designed to validate the configuration of your resources.

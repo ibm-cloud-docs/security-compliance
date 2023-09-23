@@ -19,33 +19,29 @@ content-type: release-note
 
 
 
-
-
-
-## 22 September 2023
+## 23 September 2023
 {: #security-compliance-sep212023}
 {: release-note}
 
 Profile name change
 :   The following {{site.data.keyword.cloud_notm}} profile names have been updated:
 
-   * {{site.data.keyword.cloud_notm}} for Financial Services is now known as {{site.data.keyword.cloud_notm}} for Financial Services for Financial Services
-   * CIS IBM Foundations Benchmark is now known as {{site.data.keyword.cloud_notm}} Foundations Benchmark
+   * {{site.data.keyword.cloud_notm}} for Financial Services is now known as {{site.data.keyword.cloud_notm}} Framework for Financial Services 
+   * CIS IBM Foundations Benchmark is now known as CIS {{site.data.keyword.cloud_notm}} Foundations Benchmark
 
    There is no impact to your scans, just the name of the profile has been changed.
 
-Now available: Version 4 of the PCI DSS profile
-:   Version 4 of the PCI DSS profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-pci-dss).
+Now available: Version 0.4.0 of the PCI DSS profile
+:   Version 0.4.0 of the PCI DSS profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-pci-dss).
 
-Now available: Version 5 of the {{site.data.keyword.cloud_notm}} for Financial Services profile
-:   Version 5 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+Now available: Version 5 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile
+:   Version 5 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 New rule available
 :   The {{site.data.keyword.cloud_notm}} Log Analysis service can now be evaluated to determine whether an instance exists in a specific region and whether platform logs are enabled. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 Multi-environment profiles
 :   You can now evaluate multiple environments by using the same profile. To get started with the multi-cloud flow, [create a custom profile](/docs/security-compliance?topic=security-compliance-build-custom-profiles) and then [run an evaluation](/docs/security-compliance?topic=security-compliance-run-evaluation).
-
 
 
 ## 15 September 2023
@@ -94,8 +90,8 @@ Now available: Go SDK v5.0.2
 New rules available
 :   The context based restrictions platform service is now available for you to create custom rules. Additionally, rules surrounding private endpoints are now available. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
-{{site.data.keyword.cloud_notm}} for Financial Services profile version 1.4.0 
-:   Version 1.4.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+{{site.data.keyword.cloud_notm}} Framework for Financial Services profile version 1.4.0 
+:   Version 1.4.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile is now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 
 ## 17 July 2023
@@ -162,8 +158,8 @@ Attachment details available
 {: #security-compliance-june202023}
 {: release-note}
 
-{{site.data.keyword.cloud_notm}} for Financial Services profile version 1.3.0 
-:   Version 1.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+{{site.data.keyword.cloud_notm}} Framework for Financial Services profile version 1.3.0 
+:   Version 1.3.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile is now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 {{site.data.keyword.cloud_notm}} Security Best Practices profile version 1.2.0
 
@@ -239,8 +235,8 @@ Now available: Toronto location
 {: #security-compliance-april202023}
 {: release-note}
 
-Updates to the {{site.data.keyword.cloud_notm}} for Financial Services profile
-:   Version 1.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile are now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+Updates to the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile
+:   Version 1.2.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile are now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 
 
@@ -285,8 +281,8 @@ New version of the {{site.data.keyword.cloud_notm}} Security Best Practices libr
 {: #security-compliance-feb032023}
 {: release-note}
 
-New version of the {{site.data.keyword.cloud_notm}} for Financial Services library
-:   Version 1.1.0 of the {{site.data.keyword.cloud_notm}} for Financial Services library and profile are now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+New version of the {{site.data.keyword.cloud_notm}} Framework for Financial Services library
+:   Version 1.1.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services library and profile are now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 
 
@@ -331,7 +327,7 @@ Updates coming soon!
 {: release-note}
 
 Now available: New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
-:   Version 0.6.0  of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+:   Version 0.6.0  of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} Framework for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 
 
@@ -353,7 +349,7 @@ Removed: Credential passphrase
 {: release-note}
 
 Now available: New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
-:   Version 0.5.0  of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+:   Version 0.5.0  of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} Framework for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 
 ## 9 August 2022
@@ -405,7 +401,7 @@ Now available: New region - WDC
 {: release-note}
 
 Now available: New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
-:   Version 0.4.0  of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+:   Version 0.4.0  of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} Framework for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 
 ## 1 June 2022
@@ -429,7 +425,7 @@ Now available: The {{site.data.keyword.cloud_notm}} Control Library profile
 :    As part of this release the {{site.data.keyword.cloud_notm}} Best Practices Controls 1.0 profile was renamed to the {{site.data.keyword.cloud_notm}} Control Library. The {{site.data.keyword.cloud_notm}} Control Library is a profile that contains all the available controls and goals that are available for {{site.data.keyword.cloud_notm}}. The library cannot be used to scan your resources directly, but you are able to create a custom profile from the library. 
 
 Now available: New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
-:   Version 0.3.0  of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+:   Version 0.3.0  of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} Framework for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 
 ## 13 May 2022
@@ -447,7 +443,7 @@ For the most up-to-date pricing information, you can create a cost estimate by c
 {: #security-compliance-may0522}
 {: release-note}
 
-In addition to small bug fixes and general updates, version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is updated with the following changes as of 4 May 2022.
+In addition to small bug fixes and general updates, version 0.2.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile is updated with the following changes as of 4 May 2022.
 
 | Goal ID   | Associated controls | Update |
 |:----------|:-------------|:------------|
@@ -457,7 +453,7 @@ In addition to small bug fixes and general updates, version 0.2.0 of the {{site.
 | `3000407` | `SC-8-0`, `SC-8(1)`, `SC-13`, and `SC-23` | Updated goal and fact collection logic. |
 | `3000462` | `CM-2`, `CM-7(a)`, `CM-8(3)(a)`, and `SA-3(a)` | Updated goal and fact collection logic. |
 | `3000029`* | `AC-3`, `AC-5(b)`, `AC-6-0`, and `AC-2(i)` | Goal is removed. |
-{: caption="Table. Summary of {{site.data.keyword.cloud_notm}} for Financial Services profile changes for 4 May 2022" caption-side="top"}
+{: caption="Table. Summary of {{site.data.keyword.cloud_notm}} Framework for Financial Services profile changes for 4 May 2022" caption-side="top"}
 
 *This goal is also removed from version 0.1.4.
 
@@ -467,7 +463,7 @@ In addition to small bug fixes and general updates, version 0.2.0 of the {{site.
 {: release-note}
 
 New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
-:   Version 0.1.4 and Version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile are now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+:   Version 0.1.4 and Version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile are now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} Framework for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 
 ## 23 March 2022
@@ -518,7 +514,7 @@ Add parameters during credential mapping
 
 
 Now available: New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
-:   Version 0.1.3 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+:   Version 0.1.3 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} Framework for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 ## 21 January 2022
 {: #security-compliance-jan2122}
@@ -590,7 +586,7 @@ Deprecation of the bookmarks capability
 {: release-note}
 
 New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
-:   Version 0.1.2 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+:   Version 0.1.2 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} Framework for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 
 
@@ -639,7 +635,7 @@ New goals
 
 
 New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
-:   Version 0.1.1 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+:   Version 0.1.1 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} Framework for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 
 ## 22 June 2021
