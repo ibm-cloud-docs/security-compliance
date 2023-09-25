@@ -39,7 +39,7 @@ The following table details the release dates and status of each profile version
 {: caption="Table. Active versions of the PCI DSS profile" caption-side="top"}
 
 
-## Version 0.4.0
+## Version 4.0.0
 {: #pci-dss-version4}
 
 Now available
