@@ -32,7 +32,7 @@ Profile name change
    There is no impact to your scans, just the name of the profile has been changed.
 
 Now available: Version 4 of the PCI DSS profile
-:   Version 4.0.0 of the PCI DSS profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-pci-dss).
+:   Version 4.0.0 of the PCI DSS profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-pci-dss-change-log).
 
 Now available: Version 5 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile
 :   Version 5 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
