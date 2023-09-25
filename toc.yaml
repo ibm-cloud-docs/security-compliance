@@ -101,6 +101,7 @@ toc:
               - change-logs/cis-aws.md
               - change-logs/cis-aws-eks.md
               - change-logs/pci-dss.md
+              - change-logs/nist-800-53.md
       - topicgroup: 
           label: High availability and disaster recovery
           topics:
