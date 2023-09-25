@@ -13,7 +13,7 @@ content-type: release-note
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Change log: PCI DSS
+# Change log: PCI DSS v4.0
 {: #pci-dss-change-log}
 
 In this change log, you can learn about the latest changes, improvements, and updates for the Payment Card Industry Data Security Standard profile. The change log lists changes that were made, ordered by the version number.
