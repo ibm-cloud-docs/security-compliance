@@ -24,7 +24,7 @@ content-type: release-note
 {: release-note}
 
 Profile name change
-:   The following {{site.data.keyword.cloud_notm}} profile names have been updated:
+:   The following profile names have been updated:
 
    * {{site.data.keyword.cloud_notm}} for Financial Services is now known as {{site.data.keyword.cloud_notm}} Framework for Financial Services 
    * CIS IBM Foundations Benchmark is now known as CIS {{site.data.keyword.cloud_notm}} Foundations Benchmark
