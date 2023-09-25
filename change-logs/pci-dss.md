@@ -13,7 +13,7 @@ content-type: release-note
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Change log: PCI DSS
+# Change log: PCI DSS v4.0
 {: #pci-dss-change-log}
 
 In this change log, you can learn about the latest changes, improvements, and updates for the Payment Card Industry Data Security Standard profile. The change log lists changes that were made, ordered by the version number.
@@ -35,12 +35,12 @@ The following table details the release dates and status of each profile version
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
-| Version 4.0.0 | `2023-09-23` | Active |
+| Version 1.0.0 | `2023-09-23` | Active |
 {: caption="Table. Active versions of the PCI DSS profile" caption-side="top"}
 
 
-## Version 4.0.0
+## Version 1.0.0
 {: #pci-dss-version4}
 
 Now available
-:   Released today, 23 September 2023, the PCI DSS profile is a collection of controls designed to validate the configuration of your resources.
+:   Released today, 23 September 2023, the PCI DSS v4.0 profile is a collection of controls designed to validate the configuration of your resources.
