@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-23"
+lastupdated: "2023-09-25"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -35,7 +35,7 @@ The following table details the release dates and status of each profile version
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
-| Version 0.4.0 | `2023-09-23` | Active |
+| Version 4.0.0 | `2023-09-23` | Active |
 {: caption="Table. Active versions of the PCI DSS profile" caption-side="top"}
 
 
