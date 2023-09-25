@@ -37,6 +37,12 @@ PCI DSS v4.0 profile
 Version 5 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile
 :   Version 5 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
+New verison of the IBM Cloud Red Hat OpenShift Kubernetes OCP4 profile
+:   Version 1.1.0 of the IBM Cloud Red Hat OpenShift Kubernetes OCP4 profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-openshift-profile).
+
+NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations) profile
+:   Version 1.0.0 of the NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations) profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-nist-800-53-change-log).
+
 New rule available
 :   The {{site.data.keyword.cloud_notm}} Log Analysis service can now be evaluated to determine whether an instance exists in a specific region and whether platform logs are enabled. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
