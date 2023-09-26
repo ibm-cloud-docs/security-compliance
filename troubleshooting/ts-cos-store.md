@@ -19,10 +19,10 @@ content-type: troubleshoot
 {: troubleshoot} 
 {: support}
 
-You attempted to run a scan, but it failed.
+You attempted to run a scan, but it failed during the storage process.
 {: tsSymptoms}
 
-Scan results are stored within your Cloud Object Storage bucket and it failed during the storing process. There are a few reasons that this might happen:
+Scan results are stored within your Cloud Object Storage bucket and it failed during the storage process. There are a few reasons that this might happen:
 {: tsCauses}
 
 * The Cloud Object Storage bucket that you attempted to use may not be configured properly.
