@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-19"
+lastupdated: "2023-09-28"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -379,6 +379,54 @@ print(json.dumps(profile, indent=2))
 
 
 A successful response returns the list of rules, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-rule).
+
+
+
+## Creating a rule with Terraform
+{: #create-rules-terraform}
+{: terraform}
+
+You can use Terraform to define the configuration rules that you want monitor for your {{site.data.keyword.cloud_notm}} resources. For more information about which services you can configure rules for, see [What can I evaluate?](/docs/security-compliance?topic=security-compliance-scannable-components#evaluate-services).
+
+```hcl
+resource "ibm_scc_rule" "scc_rule_instance" {
+  description = "Example rule"
+  import {
+		parameters {
+			name = "name"
+			display_name = "display_name"
+			description = "description"
+			type = "string"
+		}
+  }
+  required_config {
+		description = "description"
+		and {
+			description = "description"
+			or {
+				description = "description"
+				property = "property"
+				operator = "string_equals"
+				value = "anything as a string"
+			}
+		}
+  }
+  target {
+		service_name = "service_name"
+		service_display_name = "service_display_name"
+		resource_kind = "resource_kind"
+		additional_target_attributes {
+			name = "name"
+			operator = "string_equals"
+			value = "value"
+		}
+  }
+  version = "1.0.0"
+}
+```
+{: pre}
+
+For more information, check out the [Terraform reference](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule){: external}.
 
 
 

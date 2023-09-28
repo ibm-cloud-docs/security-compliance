@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-26"
+lastupdated: "2023-09-28"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -16,6 +16,15 @@ content-type: release-note
 # Release notes for {{site.data.keyword.compliance_short}}
 {: #release-notes}
 
+
+
+
+## 28 September 2023
+{: #security-compliance-sep282023}
+{: release-note}
+
+Now available: Terraform support
+:   If you're already using Terraform with {{site.data.keyword.cloud_notm}}, you can continue to use [Terraform with {{site.data.keyword.compliance_short}}](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule){: external} to read data sources and create resources.
 
 
 

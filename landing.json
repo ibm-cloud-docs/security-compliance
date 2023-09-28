@@ -32,6 +32,11 @@
       "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
       "tiles": [
         {
+          "date": "28 September 2023",
+          "title": "Terraform support now available",
+          "description": "Terraform support is now available. Check the release notes for details."
+        },
+        {
           "date": "23 September 2023",
           "title": "Profile name changes and multi-environment profiles",
           "description": "There are several updates to the service as of today. Be sure to check the release notes."
@@ -40,11 +45,6 @@
           "date": "15 September 2023",
           "title": "New SDK versions",
           "description": "New versions of the Go, Java, Node, and Python SDKS are now available."
-        },
-        {
-          "date": "12 July 2023",
-          "title": "Integration with Workload Protection",
-          "description": "Version 1.0.0 of the IBM Cloud Kubernetes Service Benchmark is now available which introduces wp-rules as a concept."
         }
       ]
     }
