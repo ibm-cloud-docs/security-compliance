@@ -23,7 +23,7 @@ Ready to integrate {{site.data.keyword.compliance_full}} with your existing apps
 
 {{site.data.keyword.compliance_short}} offers APIs that you can use to connect to the service.
 
-{{site.data.keyword.compliance_short}} offers APIs, SDKs, a CLI plug-in, and Terraform support that you can use to connect to the service.
+{{site.data.keyword.compliance_short}} offers APIs, SDKs, and Terraform support that you can use to connect to the service.
 
 
 ### {{site.data.keyword.compliance_short}} SDKs
