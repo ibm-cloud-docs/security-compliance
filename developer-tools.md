@@ -2,7 +2,7 @@
 
 copyright:
   years: "2023"
-lastupdated: "2023-09-19"
+lastupdated: "2023-09-28"
 
 keywords: security compliance developer tools, integrate with application, API, SDK, CLI
 
@@ -22,6 +22,8 @@ Ready to integrate {{site.data.keyword.compliance_full}} with your existing apps
 {: #dev-tool-list}
 
 {{site.data.keyword.compliance_short}} offers APIs that you can use to connect to the service.
+
+{{site.data.keyword.compliance_short}} offers APIs, SDKs, and Terraform support that you can use to connect to the service.
 
 
 ### {{site.data.keyword.compliance_short}} SDKs
@@ -58,4 +60,12 @@ Replace `{base_url}` with your service endpoint URL (`https://us-south.complianc
 
 For more information about using {{site.data.keyword.compliance_short}} APIs, check out the [{{site.data.keyword.compliance_short}} API reference](/apidocs/security-compliance).
 {: note}
+
+
+
+### {{site.data.keyword.compliance_short}} Terraform
+{: #dev-tool-terraform}
+
+Already using Terraform? You can continue to use [Terraform with {{site.data.keyword.compliance_short}}](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule){: external} to read data sources and create resources. 
+
 

@@ -62,6 +62,7 @@ toc:
           topics:
           - integrations/workloadprotection.md
           - integrations/integrations-find.md
+      - terraform-setup.md
       - topicgroup:
           label: Enhancing security
           topics:
@@ -83,7 +84,13 @@ toc:
           - link:
               label: Security and Compliance Center API
               href: https://{DomainName}/apidocs/security-compliance/
-          - change-logs/changelog-api.md                
+          - change-logs/changelog-api.md
+      - topicgroup: 
+          label: Terraform reference
+          topics:
+          - link:
+              label: Security and Compliance Center Terraform
+              href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule                
       - topicgroup:
           label: Available profiles and properties
           topics:

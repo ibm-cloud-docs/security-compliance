@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-23"
+lastupdated: "2023-09-28"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -309,6 +309,24 @@ print(json.dumps(attachment_prototype, indent=2))
 
 A successful response returns an array that lists all the attachments to the specified profile, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-attachment).
 
+
+
+
+## Scheduling a recurring scan with Terraform
+{: #scan-schedule-terraform}
+{: terraform}
+
+To create an attachment, you can use Terraform.
+
+```hcl
+resource "ibm_scc_profile_attachment" "scc_profile_attachment_instance" {
+  profiles_id = ibm_scc_profile.scc_profile_instance.id
+}
+```
+{: pre}
+
+
+When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard. For more information, check out the [Terraform reference](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule_attachment){: external}.
 
 
 

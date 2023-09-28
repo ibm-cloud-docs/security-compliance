@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-19"
+lastupdated: "2023-09-28"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -264,6 +264,61 @@ create_custom_control_library(
 
 
 A successful response returns a boolean that confirms that `success` is `true`. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-custom-control-library).
+
+
+
+## Creating a library with Terraform
+{: #create-custom-library-terraform}
+{: terraform}
+
+You can create a custom library by using Terraform.
+
+```hcl
+resource "ibm_scc_control_library" "scc_control_library_instance" {
+  control_library_description = "My control library's description."
+  control_library_name = "control_library_new"
+  control_library_type = "predefined"
+  controls {
+		control_name = "control_name"
+		control_id = "1fa45e17-9322-4e6c-bbd6-1c51db08e790"
+		control_description = "My control's description."
+		control_category = "control_category"
+		control_parent = "control_parent"
+		control_tags = [ "control_tags" ]
+		control_specifications {
+			control_specification_id = "f3517159-889e-4781-819a-89d89b747c85"
+			responsibility = "user"
+			component_id = "f3517159-889e-4781-819a-89d89b747c85"
+			component_name = "componenet_name"
+			environment = "environment"
+			control_specification_description = "My control specification's description."
+			assessments_count = 1
+			assessments {
+				assessment_id = "assessment_id"
+				assessment_method = "assessment_method"
+				assessment_type = "assessment_type"
+				assessment_description = "My assessment's descriptions."
+				parameter_count = 1
+				parameters {
+					parameter_name = "parameter_name"
+					parameter_display_name = "parameter_display_name"
+					parameter_type = "string"
+				}
+			}
+		}
+		control_docs {
+			control_docs_id = "control_docs_id"
+			control_docs_type = "control_docs_type"
+		}
+		control_requirement = true
+		status = "enabled"
+  }
+  version_group_label = "e0923045-f00d-44de-b49b-6f1f0e8033cc"
+}
+```
+{: pre}
+
+For more information, check out the [Terraform reference](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule){: external}.
 
 
 
