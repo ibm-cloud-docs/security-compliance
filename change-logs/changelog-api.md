@@ -2,7 +2,7 @@
 
 copyright:
   years: "2023"
-lastupdated: "2023-09-19"
+lastupdated: "2023-09-28"
 
 keywords: change log for {{site.data.keyword.compliance_short}} APIs, API changelog, updates to {{site.data.keyword.compliance_short}} APIs
 
@@ -28,7 +28,7 @@ To learn about general updates and improvements to the {{site.data.keyword.compl
 
 The {{site.data.keyword.compliance_short}} [Go SDK](https://github.com/IBM/scc-go-sdk){: external} v.5.0.2 is now available. You can review the updates in the [API docs](/apidocs/security-compliance#introduction).
 
-## 14 September 2023
+## 15 September 2023
 {: #2023-09-14-api}
 
 The {{site.data.keyword.compliance_short}} [Java SDK](https://github.com/IBM/scc-java-sdk){: external} v.5.0.0, [Node SDK](https://github.com/IBM/scc-node-sdk){: external} v.5.0.0, and [Python SDK](https://github.com/IBM/scc-python-sdk) v.5.0.0 are now available. You can review the updates in the [API docs](/apidocs/security-compliance#introduction).

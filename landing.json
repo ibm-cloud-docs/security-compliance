@@ -1,6 +1,6 @@
 {
     "title": "Security and Compliance Center docs",
-    "lastupdated": "2023-09-23",
+    "lastupdated": "2023-09-28",
     "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
     "section_devtools": {
       "api": "/apidocs/security-compliance/"
@@ -37,7 +37,7 @@
           "description": "There are several updates to the service as of today. Be sure to check the release notes."
         },
         {
-          "date": "14 September 2023",
+          "date": "15 September 2023",
           "title": "New SDK versions",
           "description": "New versions of the Go, Java, Node, and Python SDKS are now available."
         },
