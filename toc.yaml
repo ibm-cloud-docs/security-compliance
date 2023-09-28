@@ -96,7 +96,7 @@ toc:
           topics:
           - available-profiles.md
           - topicgroup:
-              label: Change logs: IBM Cloud profiles
+              label: "Change logs: IBM Cloud profiles"
               topics:
               - topic: change-logs/ibm-cis-benchmark.md
                 navtitle: CIS Foundations Benchmark
@@ -109,21 +109,21 @@ toc:
               - topic: change-logs/osco-benchmark.md
                 navtitle: Red Hat OpenShift Kubernetes OCP4
           - topicgroup:
-              label: Change logs: Amazon Web Services profiles
+              label: "Change logs: Amazon Web Services profiles"
               topics:
               - topic: change-logs/cis-aws.md
                 navtitle: CIS Foundations Benchmark
               - topic: change-logs/cis-aws-ks.md
                 navtitle: CIS Kubernetes Service Benchmark
           - topicgroup:
-              label: Change logs: Microsoft Azure profiles
+              label: "Change logs: Microsoft Azure profiles"
               topics:
               - topic: change-logs/cis-azure.md
                 navtitle: CIS Foundations Benchmark
               - topic: change-logs/cis-azure-ks.md
                 navtitle: CIS Kubernetes Service Benchmark
           - topicgroup:
-              label: Change logs: Multi-evironment profiles
+              label: "Change logs: Multi-evironment profiles"
               topics:
               - topic: change-logs/nist-800-53.md
                 navtitle: NIST SP 800-53
