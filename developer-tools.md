@@ -23,7 +23,7 @@ Ready to integrate {{site.data.keyword.compliance_full}} with your existing apps
 
 {{site.data.keyword.compliance_short}} offers APIs that you can use to connect to the service.
 
-{{site.data.keyword.compliance_short}} offers APIs, SDKs, and Terraform support that you can use to connect to the service.
+{{site.data.keyword.compliance_short}} offers APIs, SDKs, a CLI plug-in, and Terraform support that you can use to connect to the service.
 
 
 ### {{site.data.keyword.compliance_short}} SDKs
@@ -62,10 +62,8 @@ For more information about using {{site.data.keyword.compliance_short}} APIs, ch
 {: note}
 
 
-
 ### {{site.data.keyword.compliance_short}} Terraform
 {: #dev-tool-terraform}
 
 Already using Terraform? You can continue to use [Terraform with {{site.data.keyword.compliance_short}}](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule){: external} to read data sources and create resources. 
-
 

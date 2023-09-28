@@ -90,7 +90,7 @@ toc:
           topics:
           - link:
               label: Security and Compliance Center Terraform
-              href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule                
+              href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule               
       - topicgroup:
           label: Available profiles
           topics:

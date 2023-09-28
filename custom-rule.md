@@ -429,7 +429,6 @@ resource "ibm_scc_rule" "scc_rule_instance" {
 For more information, check out the [Terraform reference](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule){: external}.
 
 
-
 ## Next steps
 {: #next-rule}
 
