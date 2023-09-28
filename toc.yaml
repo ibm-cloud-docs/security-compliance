@@ -92,26 +92,46 @@ toc:
               label: Security and Compliance Center Terraform
               href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule                
       - topicgroup:
-          label: Available profiles and properties
+          label: Available profiles
           topics:
           - available-profiles.md
           - topicgroup:
-              label: Profile change logs
+              label: Change logs: IBM Cloud profiles
               topics:
-              - change-logs/fs-cloud-changes.md
-              - change-logs/ibm-sec-practices-changes.md
-              - change-logs/ibm-cis-benchmark.md
-              - change-logs/osco-benchmark.md
-              - change-logs/iks-benchmark.md
-              - change-logs/cis-azure.md
-              - change-logs/cis-azure-ks.md
-              - change-logs/cis-aws.md
-              - change-logs/cis-aws-eks.md
-              - change-logs/pci-dss.md
-              - change-logs/nist-800-53.md
+              - topic: change-logs/ibm-cis-benchmark.md
+                navtitle: CIS Foundations Benchmark
+              - topic: change-logs/ibm-sec-practices-changes.md
+                navtitle: Cloud Security Best Practices
+              - topic: change-logs/fs-cloud-changes.md
+                navtitle: Framework for Financial Services
+              - topic: change-logs/iks-benchmark.md
+                navtitle: Kubernetes Service Benchmark
+              - topic: change-logs/osco-benchmark.md
+                navtitle: Red Hat OpenShift Kubernetes OCP4
+          - topicgroup:
+              label: Change logs: Amazon Web Services profiles
+              topics:
+              - topic: change-logs/cis-aws.md
+                navtitle: CIS Foundations Benchmark
+              - topic: change-logs/cis-aws-ks.md
+                navtitle: CIS Kubernetes Service Benchmark
+          - topicgroup:
+              label: Change logs: Microsoft Azure profiles
+              topics:
+              - topic: change-logs/cis-azure.md
+                navtitle: CIS Foundations Benchmark
+              - topic: change-logs/cis-azure-ks.md
+                navtitle: CIS Kubernetes Service Benchmark
+          - topicgroup:
+              label: Change logs: Multi-evironment profiles
+              topics:
+              - topic: change-logs/nist-800-53.md
+                navtitle: NIST SP 800-53
+              - topic: change-logs/pci-dss.md
+                navtitle: PCI DSS v4.0
       - topicgroup: 
-          label: High availability and disaster recovery
-          topics:
+          label: Service availability
+          topics: 
           - topic: framework/high-availability.md
             navtitle: Understanding high availability
           - topic: framework/disaster-recovery.md
@@ -132,6 +152,7 @@ toc:
           - troubleshooting/contact.md
           - troubleshooting/no-results.md
           - troubleshooting/result-deleted-resource.md
+          - troubleshooting/ts-cos-store.md
           - troubleshooting/ts-notifications.md
           - troubleshooting/ts-results-osco.md
           - troubleshooting/ts-utp-osco.md
