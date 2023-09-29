@@ -92,11 +92,11 @@ toc:
               label: Security and Compliance Center Terraform
               href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule
       - topicgroup:
-          label: Available profiles
+          label: Profile change logs
           topics:
           - available-profiles.md
           - topicgroup:
-              label: "Change logs: IBM Cloud profiles"
+              label: IBM Cloud
               topics:
               - topic: change-logs/ibm-cis-benchmark.md
                 navtitle: CIS Foundations Benchmark
@@ -109,21 +109,21 @@ toc:
               - topic: change-logs/osco-benchmark.md
                 navtitle: Red Hat OpenShift Kubernetes OCP4
           - topicgroup:
-              label: "Change logs: Amazon Web Services profiles"
+              label: Amazon Web Services
               topics:
               - topic: change-logs/cis-aws.md
                 navtitle: CIS Foundations Benchmark
               - topic: change-logs/cis-aws-eks.md
                 navtitle: CIS Kubernetes Service Benchmark
           - topicgroup:
-              label: "Change logs: Microsoft Azure profiles"
+              label: Microsoft Azure
               topics:
               - topic: change-logs/cis-azure.md
                 navtitle: CIS Foundations Benchmark
               - topic: change-logs/cis-azure-ks.md
                 navtitle: CIS Kubernetes Service Benchmark
           - topicgroup:
-              label: "Change logs: Multi-evironment profiles"
+              label: Multi-evironment
               topics:
               - topic: change-logs/nist-800-53.md
                 navtitle: NIST SP 800-53
