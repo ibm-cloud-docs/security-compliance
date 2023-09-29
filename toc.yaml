@@ -113,7 +113,7 @@ toc:
               topics:
               - topic: change-logs/cis-aws.md
                 navtitle: CIS Foundations Benchmark
-              - topic: change-logs/cis-aws-ks.md
+              - topic: change-logs/cis-aws-eks.md
                 navtitle: CIS Kubernetes Service Benchmark
           - topicgroup:
               label: "Change logs: Microsoft Azure profiles"
@@ -131,11 +131,13 @@ toc:
                 navtitle: PCI DSS v4.0
       - topicgroup: 
           label: Service availability
-          topics: 
+          topics:
           - topic: framework/high-availability.md
             navtitle: Understanding high availability
           - topic: framework/disaster-recovery.md
-            navtitle: Understanding disaster recovery
+            navtitle: Understanding disaster recovery<endpoints>
+          - topic: framework/endpoints.md
+            navtitle: Endpoints and URLs</endpoint>
       - topicgroup: 
           label: Related links
           topics:
