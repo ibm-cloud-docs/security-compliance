@@ -45,6 +45,7 @@ toc:
           - topic: framework/event-notifications.md
             navtitle: Enabling event notifications
           - developer-tools.md
+          - terraform-setup.md
       - topicgroup: 
           label: Evaluating your resources
           topics:
@@ -60,9 +61,8 @@ toc:
       - topicgroup:
           label: Connecting integrations
           topics:
+          - integrations/integrations.md
           - integrations/workloadprotection.md
-          - integrations/integrations-find.md
-      - terraform-setup.md
       - topicgroup:
           label: Enhancing security
           topics:
