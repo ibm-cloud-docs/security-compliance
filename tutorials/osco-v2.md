@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-06-28"
+lastupdated: "2023-10-02"
 
 keywords: goals, parameters, customize parameters, customize goals, security and compliance,
 
@@ -27,7 +27,7 @@ By using the OpenShift Compliance Operator (OSCO) through Security and Complianc
 ## Before you begin
 {: #osco-before}
 
-Before you get started with this tutorial, be sure you have the prerequistes:
+Before you get started with this tutorial, be sure you have the prerequisites:
 
 * An {{site.data.keyword.cloud_notm}} account
 * A {{site.data.keyword.openshiftshort}} cluster

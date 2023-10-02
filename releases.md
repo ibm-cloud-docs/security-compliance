@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-28"
+lastupdated: "2023-10-02"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -43,7 +43,7 @@ PCI DSS v4.0 profile
 Version 5 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile
 :   Version 5 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-fs-change-log). This version of the profile has been renamed to {{site.data.keyword.cloud_notm}} Framework for Financial Services.
 
-New verison of the {{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 profile
+New version of the {{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 profile
 :   Version 1.1.0 of the {{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-openshift-profile).
 
 NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations) profile
@@ -159,7 +159,7 @@ Support removed for the collector-based architecture
 {: release-note}
  
 New rules available
-:   The Global Search and Tagging platform service is now available for you to create custom rules. Rules can be written to evalaute resources that have been assigned specific tags. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
+:   The Global Search and Tagging platform service is now available for you to create custom rules. Rules can be written to evaluate resources that have been assigned specific tags. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 Attachment details available
 :   The create attachment flow has been updated to include details as an input. Profiles that were previously created will now see a name comprised of the combination of a `scope-type and scope ID` in the profiles table.. You can add a custom name at any time by editing your profile.
