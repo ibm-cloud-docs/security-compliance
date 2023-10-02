@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-07"
+lastupdated: "2023-10-02"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -16,15 +16,15 @@ content-type: release-note
 # Change log: {{site.data.keyword.cloud_notm}} Security Best Practices
 {: #ibm-sec-best-practices-change-log}
 
-The {{site.data.keyword.cloud_notm}} Security Best Practices library is a collection of controls and goals that meet {{site.data.keyword.cloud_notm}} and industry best practices. The library is consistently updated and can change at any time, which can cause your compliance score to change without any update to your configuration. When new controls or specifications are edited or removed from the library in a way that is not compatible with the current version, a new version is released.
+The {{site.data.keyword.cloud_notm}} Security Best Practices library is a collection of controls and goals that meet {{site.data.keyword.cloud_notm}} and industry best practices. The library is consistently updated and can change at any time, which can cause your compliance score to change without any update to your configuration. A new version is released when new controls or specifications are edited or removed from the library in a way that is not compatible with the current version.
 
-As of 12 September 2023, this profile is deprecated. Please switch to another profile to ensure continued support. [Learn more.](/docs/security-compliance?topic=security-compliance-release-notes#security-compliance-sep0723)
+As of 12 September 2023, this profile is deprecated. Switch to another profile to ensure continued support. [Learn more.](/docs/security-compliance?topic=security-compliance-release-notes#security-compliance-sep0723)
 {: deprecated}
 
 ## Profile versioning
 {: #fs-profile-versioning}
 
-When goals or controls are edited, removed from, or added to a profile in a way that is not compatible with the current version, a new minor version is released. To take advantage of the changes in a new version, update your scans to use the newest profile version. 
+A new minor version is released when goals or controls are edited, removed from, or added to a profile in a way that is not compatible with the current version. To take advantage of the changes in a new version, update your scans to use the newest profile version. 
 
 This profile is consistently updated and is not an exhaustive list of all the controls that might be required for every organization. Users can validate the available goals and determine where a need to supplement their workloads with other security measures exists.
 {: important}
@@ -45,7 +45,7 @@ The following table details the release dates and status of each profile version
 ## Version 1.2.0
 {: #sec-best-v1.2.0}
 
-The following changes have been made to the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile.
+The following changes were made to the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile.
 
 | Rule | Associated controls | Update |
 |:-----|:--------------------|:-------|
@@ -66,7 +66,7 @@ The following changes have been made to the {{site.data.keyword.cloud_notm}} Sec
 {: #v1.1.0-17-april}
 
 
-The following controls and rules have been updated in the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile as of 17 April 2023.
+The following controls and rules were updated in the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile as of 17 April 2023.
 
 | Control ID | Original control text| Updated control text | 
 |:--------------|:--------------|:--------------|
@@ -133,13 +133,13 @@ The following new controls have been added to the {{site.data.keyword.cloud_notm
 | 6.18 | Ensure a Toolchain dynamic scan exists and has passed |
 {: caption="Table. Summary of {{site.data.keyword.cloud_notm}} Security Best Practices profile changes for Version 1.1.0" caption-side="top"}
 
-The Toolchain controls that are listed in the table are configured to check DevSecOps Continuous Delivery (CD) and DevSecOps Continuous Compliance (CC) toolchains only, except for control 6.16, which is relevant to all toolchains. If you run an evaluation on a DevSecOps Continous Integration (CI) toolchain, or on any other toolchain that is not a DevSecOps toolchain, the result is returned as *Unable to perform*.
+The Toolchain controls that are listed in the table are configured to check DevSecOps Continuous Delivery (CD) and DevSecOps Continuous Compliance (CC) toolchains only, except for control 6.16, which is relevant to all toolchains. If you run an evaluation on a DevSecOps Continuous Integration (CI) toolchain, or on any other toolchain that is not a DevSecOps toolchain, the result is returned as *Unable to perform*.
 {: note}
 
 ## Version 1.0.0
 {: #sec-best-v1.0.0}
 
-The format of the {{site.data.keyword.cloud_notm}} Security Best Practices profile has been updated with the following changes. Review your configuration closely to ensure that the profile still meets your needs.
-- The profile is noq available on the **Profiles** page of the **Manage** section of the updated infrastructure.
+The format of the {{site.data.keyword.cloud_notm}} Security Best Practices profile was updated with the following changes. Review your configuration closely to ensure that the profile still meets your needs.
+- The profile is not available on the **Profiles** page of the **Manage** section of the updated infrastructure.
 - The format changed from being goal-based to assessment-based.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-14"
+lastupdated: "2023-10-02"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -65,7 +65,7 @@ The following tables list the platform access roles that are required to manage 
 | `compliance.posture-management.reports-create` | Download a report. | Operator |
 | `compliance.posture-management.reports-list` | View IBM Cloud results. | Operator |
 | `compliance.posture-management.reports-read` | View IBM Cloud results. | Operator |
-| `compliance.posture-management.scans-create` | Creat a scan. | Editor |
+| `compliance.posture-management.scans-create` | Create a scan. | Editor |
 | `compliance.posture-management.scans-delete` | Delete a scan. | Editor |
 | `compliance.posture-management.scans-read` | View scans. | Viewer |
 | `compliance.posture-management.scans-update` | Update scans. | Editor |

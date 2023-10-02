@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-28"
+lastupdated: "2023-10-02"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -53,7 +53,7 @@ You can create a profile through the console by using a control library as a gui
 
 	3. Select the controls that you want to evaluate. To view the associated assessments, you can click eye icon.
 	4. When you have all of your controls selected, click **Add**.
-	5. Optional: If you want to pull controls from another library into your profile, repeat the prevous steps and select another profile.
+	5. Optional: If you want to pull controls from another library into your profile, repeat the previous steps and select another profile.
 	6. Review your selected controls, and then click **Next**.
 5. Define the parameter values by expanding each row to view the input that is required for each specification. 
 

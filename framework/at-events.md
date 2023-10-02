@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-15"
+lastupdated: "2023-10-02"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -37,7 +37,7 @@ You must use a paid plan for the {{site.data.keyword.at_short}} service to see e
 | `compliance.posture-management-profiles-attachments-parameters.list` | View the parameters that are associated with a profile attachement. |
 | `compliance.posture-management-profiles-attachments-parameters.create` | Set a parameter variable for an attachment. |
 | `compliance.posture-management-profiles-attachments-parameters.read` | View the parameter details. |
-| `compliance.posture-management-profiles-attachments-parameters.update` | Update a paramater value for an attachment. |
+| `compliance.posture-management-profiles-attachments-parameters.update` | Update a parameter value for an attachment. |
 | `compliance.posture-management-control-libraries.list` | View the available control libraries in your account. |
 | `compliance.posture-management-control-libraries.create` | Create a new control library. |
 | `compliance.posture-management-control-libraries.read` | View the details of a control library. |
