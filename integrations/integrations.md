@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-09-29"
+lastupdated: "2023-10-02"
 
 keywords: Centralized security, compliance monitoring, compliance, integration
 
@@ -19,11 +19,7 @@ subcollection: security-compliance
 To fully understand your security and compliance landscape across multiple cloud environments, you can integrate other products with {{site.data.keyword.compliance_short}}.
 {: shortdesc}
 
-<data-model>
 
-Depending on the integrations, {{site.data.keyword.compliance_short}} obtains the data surrounding your current compliance posture differently. The data model used might require you to configure the integration in the other product, or it might be automatically pulled after the configuration is in place.
-
-</data-model>
 
 
 ## Available integrations

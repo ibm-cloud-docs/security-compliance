@@ -13,13 +13,12 @@ subcollection: security-compliance
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Running an evaluation for {{site.data.keyword.cloud_notm}}
+# Scanning your resources
 {: #scan-resources}
 
-With {{site.data.keyword.compliance_full}}, you can evaluate your resources on a recurring schedule or you can initiate a scan at any time.
+With {{site.data.keyword.compliance_full}}, you can evaluate your resources on a recurring schedule or you can initiate a scan at any time by creting an attachment. An attachment is the association between the set of resources that you want to evaluate and a profile that contains the specific controls that you want to evaluate.
 {: shortdesc}
 
-To evaluate your resources, you create an attachment. An attachment is the association between the set of resources that you want to evaluate and a profile that contains the specific controls that you want to evaluate.
 
 ![A diagram that shows the relationship between a control, profile, and scope.](images/term-flow.svg){: caption="Figure 1. Understanding entities in {{site.data.keyword.compliance_short}}" caption-side="bottom"}
 
@@ -32,7 +31,6 @@ Before you get started, be sure that you have the following Prerequisites:
 * The required level of access to create an attachment. To create an attachment, you need the **Editor** platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
 * A connected Cloud Object Storage bucket in which to store your results. To connect your bucket, you must have a service-to-service policy in place that enables communication between {{site.data.keyword.compliance_short}} and Cloud Object Storage.
 * A selected profile that you want to use in your attachment.
-
 
 	Want to use controls from multiple profiles? Create a custom profile from the existing control libraries and use that profile to create your attachment.
 	{: tip}
@@ -60,19 +58,20 @@ To start scanning your resource, you create an attachment. To create an attachme
 	Options include every day, every 7 days, and every 30 days. Also, you can pause your scans if you need to.
 
 8. Optional: Configure failure notifications.
-	1. If you want to receive notifications, toggle **Notify me** to **On**.
-	2. By default, when notifications are enabled, you are alerted when 15% or more of your controls fail in a single scan. You can change this by adjusting the **Threshold** percentage. 
-	
-		For example, if you have a profile with 100 controls and you want to be notified if 5 of them fail, you select 5% as your threshold.
-	
-	3. Select specific controls that you want to be notified about.
+   1. If you want to receive notifications, toggle **Notify me** to **On**.
+   2. By default, when notifications are enabled, you are alerted when 15% or more of your controls fail in a single scan. You can change this by adjusting the **Threshold** percentage. 
 
-		If there are high priority controls that pertain to your job role, you might want to be notified every time that they fail. You can identify up to 15 controls per scan that you can receive individual notifications for. These notifications are sent regardless of whether the threshold that was identified in the previous step was met.
+      For example, if you have a profile with 100 controls and you want to be notified if 5 of them fail, you would select 5% as your threshold.
+      {: tip}
+	
+   3. Select specific controls that you want to be notified about.
 
-		1. Click **Select control**.
-		2. Select the controls that you want to be notified about by checking the box next to the control.
-		3. Click **Ok**.
-	4. Click **Next**.
+	   If there are high priority controls that pertain specifically to your job role, you might want to be notified every time that they fail. You can identify up to 15 controls per scan that you can receive individual notifications for. These notifications are sent regardless of whether the threshold that was identified in the previous step was met.
+
+      1. Click **Select control**.
+      2. Select the controls that you want to be notified about by checking the box next to the control.
+      3. Click **Ok**.
+   4. Click **Next**.
 9. Review your choices and click **Create**.
 
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
