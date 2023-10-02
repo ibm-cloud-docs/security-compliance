@@ -321,7 +321,6 @@ resource "ibm_scc_control_library" "scc_control_library_instance" {
 For more information, check out the [Terraform reference](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule){: external}.
 
 
-
 ## Next steps
 {: #library-next}
 
