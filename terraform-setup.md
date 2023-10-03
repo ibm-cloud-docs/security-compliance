@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-09-28"
+lastupdated: "2023-10-03"
 
 keywords: terraform, {{site.data.keyword.compliance_short}}, terraform setup, create instance
 
@@ -45,9 +45,7 @@ Before you can create an authorization by using Terraform, make sure that you co
 
         ```terraform
         "ibm_scc_instance_settings" "scc_instance_settings_tf" {
-            name              = "security-compliance-dallas"
-            location          = "us-south"
-            service           = "security-compliance"
+            instance_id              = "data-source-security-compliance-instance"
         }
         ```
         {: codeblock}
