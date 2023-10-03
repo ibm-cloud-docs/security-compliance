@@ -45,7 +45,7 @@ To start scanning your resource, you create an attachment. To create an attachme
 
 1. In the {{site.data.keyword.compliance_short}} UI, navigate to the **Attachments** page and click **Create**. A flat list of all of the attachments in your account is displayed.
 
-	Alternatively, you can create an attachment through the **Profiles** page. On the **Attachments** tab of the profile details page, click **Create** and then continue with step 2.
+	Alternatively, you can create an attachment through the **Profiles** page. After you select the profile you want to use, on the **Attachments** tab of the profile details page, click **Create**.
 	{: tip}
 
 2. Provide a name and description for your attachment. Be sure to be as descriptive as possible so that it's easy for other members of your team to understand what is being evaluated. Then, click **Next**.
@@ -74,7 +74,7 @@ To start scanning your resource, you create an attachment. To create an attachme
    4. Click **Next**.
 9. Review your choices and click **Create**.
 
-When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
+When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard. If your results are not updated, review the [troubleshooting guide](/docs/security-compliance?topic=security-compliance-ts-cache). 
 
 
 ## Scheduling a recurring scan with the API and SDKs
@@ -339,7 +339,7 @@ If your attachment exists, but you don't want to wait for the next scan to see y
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Profile**.
-3. Click the **Overflow** menu in the row of the profile that you want to evaluate and select **Run scan**.
+3. Click the options menu ![options icon](../../icons/actions-icon-vertical.svg) in the row of the profile that you want to evaluate.
 3. Click **Run scan**.
 
 After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
