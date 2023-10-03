@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-02"
+lastupdated: "2023-10-03"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -34,7 +34,7 @@ You must use a paid plan for the {{site.data.keyword.at_short}} service to see e
 | `compliance.posture-management-profiles-attachments.read` | View the details of an attachment. |
 | `compliance.posture-management-profiles-attachments.update` | Update an attachment. |
 | `compliance.posture-management-profiles-attachments.delete` | Delete an attachment. |
-| `compliance.posture-management-profiles-attachments-parameters.list` | View the parameters that are associated with a profile attachement. |
+| `compliance.posture-management-profiles-attachments-parameters.list` | View the parameters that are associated with a profile attachment. |
 | `compliance.posture-management-profiles-attachments-parameters.create` | Set a parameter variable for an attachment. |
 | `compliance.posture-management-profiles-attachments-parameters.read` | View the parameter details. |
 | `compliance.posture-management-profiles-attachments-parameters.update` | Update a parameter value for an attachment. |

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-24"
+lastupdated: "2023-10-03"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -19,7 +19,7 @@ content-type: release-note
 In this change log, you can learn about the latest changes, improvements, and updates for the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark profile. The change log lists changes that were made, ordered by the version number.
 
 
-To work with this profile, you must connect an instance of [Workload Protection](/docs/security-compliance?topic=security-compliance=setup-workload-protection).
+To work with this profile, you must connect an instance of [Workload Protection](/docs/security-compliance?topic=security-compliance-setup-workload-protection).
 {: note}
 
 
