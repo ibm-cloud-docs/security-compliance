@@ -18,16 +18,7 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
-<osco-profile>
 
-## xx October 2023
-{: #security-compliance-octxx2023}
-{: release-note}
-
-Version 1.2.0 of the IBM Cloud Red Hat OpenShift Kubernetes OCP4 profile.
-:   Version 1.2.0 of the IBM Cloud Red Hat OpenShift Kubernetes profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-openshift-profile).
-
-</osco-profile>
 
 
 ## 28 September 2023
