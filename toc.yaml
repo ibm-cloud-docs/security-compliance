@@ -44,9 +44,10 @@ toc:
             navtitle: Storing and processing data
           - topic: framework/event-notifications.md
             navtitle: Enabling event notifications
-          - developer-tools.md
+          - topic: developer-tools.md
+            navtitle: Integrating with your resources
           - topic: terraform-setup.md
-            navtitle: Configuring Terraform
+            navtitle: Setting up Terraform
       - topicgroup: 
           label: Evaluating your resources
           topics:
