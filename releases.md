@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-02"
+lastupdated: "2023-10-06"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -16,12 +16,25 @@ content-type: release-note
 # Release notes for {{site.data.keyword.compliance_short}}
 {: #release-notes}
 
+The following changes to the service were made available with the associated date.
+
+<osco-profile>
+
+## xx October 2023
+{: #security-compliance-octxx2023}
+{: release-note}
+
+Version 1.2.0 of the IBM Cloud Red Hat OpenShift Kubernetes OCP4 profile.
+:   Version 1.2.0 of the IBM Cloud Red Hat OpenShift Kubernetes profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-openshift-profile).
+
+</osco-profile>
+
 
 ## 28 September 2023
 {: #security-compliance-sep282023}
 {: release-note}
 
-Now available: Terraform support
+Terraform support
 :   If you're already using Terraform with {{site.data.keyword.cloud_notm}}, you can continue to use [Terraform with {{site.data.keyword.compliance_short}}](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule){: external} to read data sources and create resources.
 
 

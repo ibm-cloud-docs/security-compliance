@@ -41,9 +41,9 @@ toc:
           - topic: assign-access.md
             navtitle: Assigning access
           - topic: data-storage.md
-            navtitle: Storing and processing data
+            navtitle: Connecting storage
           - topic: framework/event-notifications.md
-            navtitle: Enabling event notifications
+            navtitle: Enabling notifications
           - topic: developer-tools.md
             navtitle: Integrating with your resources
           - topic: terraform-setup.md
