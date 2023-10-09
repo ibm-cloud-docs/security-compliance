@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-08-22"
+lastupdated: "2023-10-09"
 
 keywords: best practices security and compliance, secure development, security strategy, governance
 
@@ -18,7 +18,7 @@ subcollection: security-compliance
 Pricing for {{site.data.keyword.compliance_full}} is based on the number of evaluations performed. An evaluation is the check of one assessment against one resource.
 
 
-For the most up-to-date pricing information, you can create a cost estimate by clicking **Add to estimate** from either the [provisioning](/security-compliance/catalog) or [plan page](/security-compliance/plan).
+For the most up-to-date pricing information, you can create a cost estimate by clicking **Add to estimate** from either the [provisioning](/catalog/services/security-and-compliance-center) or [plan page](/security-compliance/plan).
 {: important}
 
 
