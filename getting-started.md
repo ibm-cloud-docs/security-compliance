@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-02"
+lastupdated: "2023-10-10"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -16,20 +16,20 @@ completion-time: 5m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Getting started with {{site.data.keyword.compliance_short}}
+# Getting started with {[scc]}
 {: #getting-started}
 {: toc-content-type="tutorial"}
 {: toc-services="security-compliance, cloud-object-storage, event-notifications, iam"}
 {: toc-completion-time="5m"}
 
-For highly regulated industries, such as financial services, achieving continuous compliance within a cloud environment is an important first step toward protecting customer and application data. Historically, that process was difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.compliance_full}}, you can integrate daily, automatic compliance checks into your development lifecycle to help minimize that risk.
+For highly regulated industries, such as financial services, achieving continuous compliance within a cloud environment is an important first step toward protecting customer and application data. Historically, that process was difficult and manual, which placed your organization at risk. But, with {[scc-full]}, you can integrate daily, automatic compliance checks into your development lifecycle to help minimize that risk.
 {: shortdesc}
 
 
 ## Before you begin
 {: #before-gs}
 
-Before you get started, be sure that you have resources in your account to evaluate. You must also have a bucket in the Cloud Object Storage service that can be used to store your results data.
+Before you get started, be sure that you have resources in your account to evaluate. You must also have a bucket in the {[cos]} service that can be used to store your results data.
 
 Running an evaluation does not ensure regulatory compliance. An evaluation provides a point in time statement of your current posture for a specific resource. It is your responsibility to review and interpret the results to ensure that your organization is adhering to the controls that are required for your industry. 
 {: important}
@@ -39,10 +39,10 @@ Running an evaluation does not ensure regulatory compliance. An evaluation provi
 {: #gs-instance}
 {: step}
 
-To get started with {{site.data.keyword.compliance_short}}, you must first create an instance of the service.
+To get started with {[scc]}, you must first create an instance of the service.
 
-1. Go to the [{{site.data.keyword.cloud_notm}} catalog](/catalog) and search for ["{{site.data.keyword.compliance_short}}"](/catalog/services/security-and-compliance-center).
-2. In the service details page, select a location. The selected location is where {{site.data.keyword.compliance_short}} will conduct the evaluation of your resources.
+1. Go to the [{[cloud]} catalog](/catalog) and search for ["{[scc]}"](/catalog/services/security-and-compliance-center).
+2. In the service details page, select a location. The selected location is where {[scc]} will conduct the evaluation of your resources.
 3. Select a pricing plan. Options include **Standard** or **Trial**.
 4. Configure your resource by providing a name for the instance, specifying a resource group and adding any needed tags.
 5. Acknowledge and agree to the terms and conditions.
@@ -62,13 +62,13 @@ If you are working in a larger organization, you might need to start by assignin
 
 | Service | Minimum required permissions |
 |---------|----------------------|
-| {{site.data.keyword.compliance_short}} | Administrator |
+| {[scc]} | Administrator |
 | Cloud Object Storage | Reader |
 | Event Notifications | Reader |
 | Enterprise | Administrator or custom role |
 {: caption="Table. Minimum required permissions" caption-side="top"}
 
-If you are working within an enterprise account and do not want to assign administrator access to your compliance focals, you can create [a custom role](/docs/security-compliance?topic=security-compliance-assign-roles).
+If you are working within an enterprise account and do not want to assign administrator access to your compliance focals, you can create [a custom role]({[link]}-assign-roles).
 {: note}
 
 
@@ -76,14 +76,14 @@ If you are working within an enterprise account and do not want to assign admini
 {: #gs-storage}
 {: step}
 
-Before you can start evaluating your resources for compliance, you must configure a Cloud Object Storage bucket where the service can forward your results data for long-term storage. For more information about bucket requirements, see [Storing and processing data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-storage).
+Before you can start evaluating your resources for compliance, you must configure a {[cos]} bucket where the service can forward your results data for long-term storage. For more information about bucket requirements, see [Storing and processing data in {[scc]}]({[link]}-storage).
 
-To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword.compliance_short}} UI.
+To connect your {[cos]} bucket, you can use the {[scc]} UI.
 
-1. In the {{site.data.keyword.compliance_short}} navigation, click **Settings**.
+1. In the {[scc]} navigation, click **Settings**.
 2. On the **Storage** tile, click **Connect**.
-3. Ensure that the service-to-service policy between Cloud Object Storage and {{site.data.keyword.compliance_short}} is configured. If a policy is already in place, this screen is not shown and you can skip to the next step. 
-4. Select an instance of Cloud Object Storage.
+3. Ensure that the service-to-service policy between {[cos]} and {[scc]} is configured. If a policy is already in place, this screen is not shown and you can skip to the next step. 
+4. Select an instance of {[cos]}.
 5. From the table, select the bucket that you want to use.
 6. Click **Connect**.
 
@@ -94,7 +94,7 @@ To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword
 
 An attachment is how you target a specific grouping of your resources to evaluate against a specific profile. To start scanning your resources, create an attachment.
 
-1. In the {{site.data.keyword.compliance_short}} UI, navigate to the **Attachments** page and click **Create**. A flat list of all of the attachments in your account is displayed.
+1. In the {[scc]} UI, navigate to the **Attachments** page and click **Create**. A flat list of all of the attachments in your account is displayed.
 
 	Alternatively, you can create an attachment through the **Profiles** page. On the **Attachments** tab of the profile details page, click **Create** and then continue with step 2.
 	{: tip}
@@ -106,7 +106,7 @@ An attachment is how you target a specific grouping of your resources to evaluat
    {: tip}
 
 4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
-5. Target the resources you want to evaluate by defining a scope. If you are working with {{site.data.keyword.cloud_notm}} resources, you can also specify resources that you want to exclude from your scope. If you are working with resources from other environments, you must [connect an instance of the {{site.data.keyword.sysdigsecure_short}} service](/docs/security-compliance?topic=security-compliance-setup-workload-protection) and provide the requested information to move forward.
+5. Target the resources you want to evaluate by defining a scope. If you are working with {[cloud]} resources, you can also specify resources that you want to exclude from your scope. If you are working with resources from other environments, you must [connect an instance of the {[scc-wp]} service]({[link]}-setup-workload-protection) and provide the requested information to move forward.
 6. Click **Next**.
 7. Select the frequency at which you want to evaluate your attachment.
 	
@@ -127,13 +127,13 @@ An attachment is how you target a specific grouping of your resources to evaluat
 		3. Click **Ok**.
 9. Review your choices and click **Create**.
 
-When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
+When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {[scc]} dashboard.
 
 
 
 ## Next steps
 {: #gs-next}
 
-While you wait for your scan to complete, learn more about [the way the service works](/docs/security-compliance?topic=security-compliance-posture-management) or try [creating your own rule](/docs/security-compliance?topic=security-compliance-rules-define).
+While you wait for your scan to complete, learn more about [the way the service works]({[link]}-posture-management) or try [creating your own rule]({[link]}-rules-define).
 
 

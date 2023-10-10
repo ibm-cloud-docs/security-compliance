@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-06"
+lastupdated: "2023-10-10"
 
-keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
+keywords: release notes for {[scc]}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
 subcollection: security-compliance
 content-type: release-note
@@ -53,5 +53,5 @@ As of today, 23 September 2023, new controls have been added to the Red Hat Open
 {: #os-v100}
 
 Now available
-:   Released today, 6 June 2023, the Red Hat OpenShift Kubernetes OCP4 profile is a collection of controls designed to validate the configuration of your {{site.data.keyword.cloud_notm}} Red Hat OpenShift clusters.
+:   Released today, 6 June 2023, the Red Hat OpenShift Kubernetes OCP4 profile is a collection of controls designed to validate the configuration of your {[cloud]} Red Hat OpenShift clusters.
 

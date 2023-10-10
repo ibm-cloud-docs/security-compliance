@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-02"
+lastupdated: "2023-10-10"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -16,14 +16,14 @@ subcollection: security-compliance
 # Viewing results
 {: #results}
 
-With {{site.data.keyword.compliance_full}}, you can view the results of a compliance evaluation in the dashboard or by using the API.
+With {[scc-full]}, you can view the results of a compliance evaluation in the dashboard or by using the API.
 {: shortdesc}
 
 
 ## Before you begin
 {: #before-results}
 
-Before you get started, be sure that you have the required level of access to view results. To view results, you need the [**Operator** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). You must also have access to the credentials that are needed to access your resource configurations.
+Before you get started, be sure that you have the required level of access to view results. To view results, you need the [**Operator** platform role or higher]({[link]}-access-management). You must also have access to the credentials that are needed to access your resource configurations.
 
 ## Understanding the dashboard
 {: #understand-dashboard}
@@ -48,12 +48,12 @@ Total evaluations
 {: #view-detailed-results}
 {: ui}
 
-To view the information of a scan, you can use the {{site.data.keyword.compliance_short}} UI.
+To view the information of a scan, you can use the {[scc]} UI.
 
 You can filter results by tag. Tags are defined at the platform level. For help creating tags, see [Working with tags](/docs/account?topic=account-tag).
 {: tip}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access {{site.data.keyword.compliance_short}}.
+1. In the {[cloud]} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access {[scc]}.
 2. Click **Dashboard**.
 3. In the **Detailed results** section, find the row for the specific **Scope** and **Profile** combination that you want to view results for and click **View** in the **Results** column.
 
@@ -72,7 +72,7 @@ A page opens with an **Overview** of your results. To further investigate, you c
 {: #view-detailed-results-api}
 {: api}
 
-To get a report summary, you can use the {{site.data.keyword.compliance_short}} API.
+To get a report summary, you can use the {[scc]} API.
 
 ```bash
 curl -X GET
@@ -146,18 +146,18 @@ data "ibm_scc_report_summary" "scc_report_summary" {
 ```
 {: pre}
 
-For more information, check out the {{site.data.keyword.compliance_short}} [Terraform reference](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule){: external}.
+For more information, check out the {[scc]} [Terraform reference](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule){: external}.
 
 ### Understanding statuses
 {: #status}
 
-When you view results in {{site.data.keyword.compliance_short}}, each evaluation produces a result of `pass`, `fail`, `unable to perform`, or `user_evaluation_required`. Check out the following table to learn more about what each result means.
+When you view results in {[scc]}, each evaluation produces a result of `pass`, `fail`, `unable to perform`, or `user_evaluation_required`. Check out the following table to learn more about what each result means.
 
 | Result | Description |
 |:-------|:------------|
 | Pass | Your resource was compliant with the defined standard. |
 | Fail | Your resource was not compliant with the defined standard. |
-| Unable to perform | The assessment could not be performed. Potential reasons include the resource not existing in your account, a misconfiguration, or an error on behalf of {{site.data.keyword.compliance_short}}. |
+| Unable to perform | The assessment could not be performed. Potential reasons include the resource not existing in your account, a misconfiguration, or an error on behalf of {[scc]}. |
 | User evaluation required | The assessment has not yet been automated. To validate that you are meeting the standard, you must check your resource manually. |
 {: caption="Table 2. Understanding result statuses}
 
@@ -169,7 +169,7 @@ When you view results in {{site.data.keyword.compliance_short}}, each evaluation
 
 If you need to keep your results for long periods of time, or provide information to key stakeholders, you can download a report.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access {{site.data.keyword.compliance_short}}.
+1. In the {[cloud]} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access {[scc]}.
 2. Click **Dashboard**.
 3. Find the row for the specific **Scope** and **Profile** combination that you want to view results for and click the **Results** link. A page with the details of the latest evaluation opens.
 4. Click **Download report**.

@@ -1,24 +1,24 @@
 ---
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-03"
+lastupdated: "2023-10-10"
 
-keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
+keywords: Activity Tracker for {[scc]}, LogDNA for {[scc]}, {[scc]} events, {[scc]} security, audit logs for {[scc]}, viewing {[scc]} events, {[scc]} events
 
 subcollection: security-compliance
 ---
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Auditing events for {{site.data.keyword.compliance_short}}
+# Auditing events for {[scc]}
 {: #at_events}
 
-As a security officer, auditor, or manager, you can use the {{site.data.keyword.at_short}} service to track how users and applications interact with the {{site.data.keyword.compliance_short}} service in {{site.data.keyword.cloud_notm}}.
+As a security officer, auditor, or manager, you can use the {[at]} service to track how users and applications interact with the {[scc]} service in {[cloud]}.
 {: shortdesc}
 
-{{site.data.keyword.at_short}} records user-initiated activities that change the state of a service in {{site.data.keyword.cloud_notm}}. You can use this service to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. In addition, you can be alerted about actions as they happen. The events that are collected comply with the Cloud Auditing Data Federation (CADF) standard. For more information, see the [getting started tutorial for {{site.data.keyword.at_short}}](/docs/activity-tracker?topic=activity-tracker-getting-started#getting-started).
+{[at]} records user-initiated activities that change the state of a service in {[cloud]}. You can use this service to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. In addition, you can be alerted about actions as they happen. The events that are collected comply with the Cloud Auditing Data Federation (CADF) standard. For more information, see the [getting started tutorial for {[at]}](/docs/activity-tracker?topic=activity-tracker-getting-started#getting-started).
 
-You must use a paid plan for the {{site.data.keyword.at_short}} service to see events for the {{site.data.keyword.compliance_short}}.
+You must use a paid plan for the {[at]} service to see events for the {[scc]}.
 {: note}
 
 
@@ -52,13 +52,13 @@ You must use a paid plan for the {{site.data.keyword.at_short}} service to see e
 | `compliance.posture-management.integrations-read` | List all providers. |
 | `compliance.posture-management.integrations-update` | Remove a provider. |
 | `compliance.posture-management.integrations-delete` | Update an instance of a specific provider. |
-| `compliance.configuration-governance-rules.list` | View the available rules in {{site.data.keyword.compliance_short}}. |
+| `compliance.configuration-governance-rules.list` | View the available rules in {[scc]}. |
 | `compliance.configuration-governance-rules.create` | Create a new rule. |
 | `compliance.configuration-governance-rules.read` | View the details of a rule. |
 | `compliance.configuration-governance-rules.update` | Update a rule. |
 | `compliance.configuration-governance-rules.delete` | Delete a rule. |
-| `compliance.admin-settings.list` | View {{site.data.keyword.compliance_short}} settings for your account. |
-| `compliance.admin-settings.update` | Update {{site.data.keyword.compliance_short}} settings for your account. |
-| `compliance.admin-test-event.send` | Send a test event to a connected {{site.data.keyword.en_short}} service instance. |
-{: caption="Table 1. List of events that apply to {{site.data.keyword.compliance_short}}" caption-side="top"}
+| `compliance.admin-settings.list` | View {[scc]} settings for your account. |
+| `compliance.admin-settings.update` | Update {[scc]} settings for your account. |
+| `compliance.admin-test-event.send` | Send a test event to a connected {[en]} service instance. |
+{: caption="Table 1. List of events that apply to {[scc]}" caption-side="top"}
 

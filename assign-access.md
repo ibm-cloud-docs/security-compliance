@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-02"
+lastupdated: "2023-10-10"
 
-keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
+keywords: IAM access for {[scc]}, permissions for {[scc]}, identity and access management for {[scc]}, roles for {[scc]}, actions for {[scc]}, assigning access for {[scc]}
 
 subcollection: security-compliance
 
@@ -13,10 +13,10 @@ subcollection: security-compliance
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Assigning access to {{site.data.keyword.compliance_short}}
+# Assigning access to {[scc]}
 {: #assign-roles}
 
-As an account owner, you are automatically assigned Administrator platform access to {{site.data.keyword.compliance_short}} so that you can further assign roles and customize access policies for others.
+As an account owner, you are automatically assigned Administrator platform access to {[scc]} so that you can further assign roles and customize access policies for others.
 
 ## Assigning access for an account
 {: #assign-access-scc}
@@ -29,12 +29,12 @@ As an account owner, you are automatically assigned Administrator platform acces
    
 	| Service | Minimum required permissions |
 	|---------|----------------------|
-	| {{site.data.keyword.compliance_short}} | Administrator |
+	| {[scc]} | Administrator |
 	| Cloud Object Storage | Reader |
 	| Event Notifications | Reader |
 	{: caption="Table. Minimum required permissions" caption-side="top"}
 
-	To review the full list of which permissions are required for each action and assign more granular access to {{site.data.keyword.compliance_short}}, see [IAM actions for {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-access-management).
+	To review the full list of which permissions are required for each action and assign more granular access to {[scc]}, see [IAM actions for {[scc]}]({[link]}-access-management).
 	{: note}
 
 6. Click **Add**.
@@ -47,11 +47,11 @@ As an account owner, you are automatically assigned Administrator platform acces
 
 If you are working in an enterprise account, you must also assign permissions for the enterprise service. 
 
-You can assign *Administrator* access for the service, or you can create a custom role. When you assign permissions for an enterprise, you can give access to the full enterprise or specific accounts or account groups. To learn more about recommendations for enterprises, see [Best practices for enterprises](/docs/security-compliance?topic=security-compliance-best-practices#bp-enterprise).
+You can assign *Administrator* access for the service, or you can create a custom role. When you assign permissions for an enterprise, you can give access to the full enterprise or specific accounts or account groups. To learn more about recommendations for enterprises, see [Best practices for enterprises]({[link]}-best-practices#bp-enterprise).
 {: tip}
 
 1. In the Console, go to **Manage > Access (IAM) > Roles** and click **Create**.
-2. Give your role a name, programmatic ID, and description. For example, *Compliance focals*, *ComplianceFocals*, and *Permissions required for compliance focals to work with {{site.data.keyword.compliance_short}}*.
+2. Give your role a name, programmatic ID, and description. For example, *Compliance focals*, *ComplianceFocals*, and *Permissions required for compliance focals to work with {[scc]}*.
 3. From the **Service** drop-down, select **Enterprise**, and then add the following actions.
 	* `enterprise.enterprise.attach-config-rules`
 	* `enterprise.enterprise.detach-config-rules`
@@ -72,11 +72,11 @@ You can assign *Administrator* access for the service, or you can create a custo
 ## Assigning access to Satellite
 {: #assign-access-sat}
 
-To evaluate the resources that run on Satellite, you must create a service-to-service authorization between {{site.data.keyword.compliance_short}} and Satellite. To create a new authorization through the IAM UI, you can use the following steps.
+To evaluate the resources that run on Satellite, you must create a service-to-service authorization between {[scc]} and Satellite. To create a new authorization through the IAM UI, you can use the following steps.
 
-1. In the {{site.data.keyword.cloud_notm}} console, go to **Manage > Access (IAM) > Authorizations**.
+1. In the {[cloud]} console, go to **Manage > Access (IAM) > Authorizations**.
 2. Click **Create**.
-3. Select **{{site.data.keyword.compliance_short}}** from the **Source service** drop-down.
+3. Select **{[scc]}** from the **Source service** drop-down.
 4. Leave **All resources** selected.
 5. Select **Satellite** from the **Target service** drop-down.
 6. Leave **All resources** selected.

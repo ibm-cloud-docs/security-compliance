@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-06"
+lastupdated: "2023-10-10"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -31,5 +31,5 @@ To resolve the issue:
 {: tsResolve}
 
 * Verify that your scope contains OpenShift clusters.
-* Ensure that you selected the {{site.data.keyword.cloud_notm}} OpenShift Kubernetes OCP4 profile.
+* Ensure that you selected the {[cloud]} OpenShift Kubernetes OCP4 profile.
 

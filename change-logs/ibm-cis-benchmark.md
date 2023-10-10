@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-09-23"
+lastupdated: "2023-10-10"
 
-keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
+keywords: release notes for {[scc]}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
 subcollection: security-compliance
 content-type: release-note
@@ -42,4 +42,4 @@ The following table details the release dates and status of each profile version
 {: #cis-v100}
 
 Now available
-:   Released in the new architecture today, 17 May 2023, the CIS IBM Cloud Foundations Benchmark profile is a collection of controls designed to validate the configuration of your {{site.data.keyword.cloud_notm}} resources in accordance with the CIS defined standards.
+:   Released in the new architecture today, 17 May 2023, the CIS IBM Cloud Foundations Benchmark profile is a collection of controls designed to validate the configuration of your {[cloud]} resources in accordance with the CIS defined standards.

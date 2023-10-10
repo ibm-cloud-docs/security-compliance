@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-03"
+lastupdated: "2023-10-10"
 
-keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
+keywords: release notes for {[scc]}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
 subcollection: security-compliance
 content-type: release-note
@@ -13,10 +13,10 @@ content-type: release-note
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Change log: {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark
+# Change log: {[cloud]} Kubernetes Service Benchmark
 {: #iks-profile}
 
-In this change log, you can learn about the latest changes, improvements, and updates for the {{site.data.keyword.cloud_notm}} Kubernetes Service profile. The change log lists changes that were made, ordered by the version number.
+In this change log, you can learn about the latest changes, improvements, and updates for the {[cloud]} Kubernetes Service profile. The change log lists changes that were made, ordered by the version number.
 
 
 To work with this profile, you must connect an instance of [Workload Protection](/docs/security-compliance?topic=security-compliance-setup-workload-protection).
@@ -41,12 +41,12 @@ The following table details the release dates and status of each profile version
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
 | Version 1.0.0 | `2023-07-12` | Active |
-{: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark" caption-side="top"}
+{: caption="Table. Active versions of the {[cloud]} Kubernetes Service Benchmark" caption-side="top"}
 
 
 ## Version 1.0.0
 {: #iks-v100}
 
 Now available
-:   Released today, 12 July 2023, the {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark is a collection of controls designed to validate the configuration of your Kubernetes Service clusters. This profile introduces the concept of `wp-rule` assessments. These are assessments that are defined by the Workload Protection service and imported into {{site.data.keyword.compliance_short}}.
+:   Released today, 12 July 2023, the {[cloud]} Kubernetes Service Benchmark is a collection of controls designed to validate the configuration of your Kubernetes Service clusters. This profile introduces the concept of `wp-rule` assessments. These are assessments that are defined by the Workload Protection service and imported into {[scc]}.
 

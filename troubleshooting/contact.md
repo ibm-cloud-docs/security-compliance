@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-07-05"
+lastupdated: "2023-10-10"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -18,7 +18,7 @@ content-type: troubleshoot
 {: #contact-support}
 {: troubleshoot}
 
-If you encounter an issue that you cannot fix while you work with {{site.data.keyword.compliance_short}}, contact the [{{site.data.keyword.cloud_notm}} support team](https://www.ibm.com/cloud/support){: external}.
+If you encounter an issue that you cannot fix while you work with {[scc]}, contact the [{[cloud]} support team](https://www.ibm.com/cloud/support){: external}.
 {: shortdesc}
 
 When you open a support ticket, be sure to provide the following information that is relevant to your case:
