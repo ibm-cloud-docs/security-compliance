@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-06"
+lastupdated: "2023-10-10"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -19,6 +19,16 @@ content-type: release-note
 The following changes to the service were made available with the associated date.
 
 
+
+## 10 October 2023
+{: #security-compliance-oct92023}
+{: release-note}
+
+Version 1.0.0 of the ENS High profile
+:   Version 1.0.0 of the ENS High profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-ens-high-change-log).
+
+Remediation
+:   For a select group of controls, remediation informaiton is now available in the {{site.data.keyword.compliance_short}} UI. To see remediation, navigate to your results, and select the control. A side panel opens with additional information, click the **Non-compliant properties** tab.
 
 
 ## 28 September 2023

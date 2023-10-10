@@ -131,6 +131,8 @@ toc:
                 navtitle: NIST SP 800-53
               - topic: change-logs/pci-dss.md
                 navtitle: PCI DSS v4.0
+              - topic: change-logs/ens-high.md
+                navtitle: ENS High
       - topicgroup: 
           label: Service availability
           topics:
