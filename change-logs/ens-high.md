@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-10"
+lastupdated: "2023-10-11"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -34,6 +34,8 @@ This profile is consistently updated and is not an exhaustive list of all the co
 
 The following table details the release dates and status of each profile version.
 
+
+
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
 | Version 1.0.0 | `2023-10-10` | Active |
@@ -46,3 +48,4 @@ The following table details the release dates and status of each profile version
 Now available
 :   Released today, 10 October 2023, the ENS High profile is a collection of controls designed to validate the configuration of your resources.
 
+</ens>
