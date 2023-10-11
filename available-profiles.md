@@ -31,6 +31,7 @@ At times, {{site.data.keyword.compliance_short}} publishes new versions of {{sit
 * to add new rules and extend the compliance coverage of profiles;
 * to fix defective rules. 
 
+	
 
 ## Available pre-defined profiles
 {: #available-predefined-profiles}
