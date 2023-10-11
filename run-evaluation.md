@@ -32,9 +32,7 @@ Before you get started, be sure that you have the following Prerequisites:
 * A connected Cloud Object Storage bucket in which to store your results. To connect your bucket, you must have a service-to-service policy in place that enables communication between {{site.data.keyword.compliance_short}} and Cloud Object Storage.
 * A selected profile that you want to use in your attachment.
 
-	Want to use controls from multiple profiles? Create a custom profile from the existing control libraries and use that profile to create your attachment.
-	{: tip}
-
+	
 
 
 ## Scheduling a recurring scan
@@ -418,4 +416,5 @@ create_scan(
 
 
 A successful response returns the scan ID, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-scan).
+
 
