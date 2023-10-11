@@ -32,11 +32,12 @@ This profile is consistently updated and is not an exhaustive list of all the co
 {: important}
 
 
-
 ### Version summary
 {: #iks-active-versions}
 
 The following table details the release dates and status of each profile version.
+
+
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
