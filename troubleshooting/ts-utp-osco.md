@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-03"
+lastupdated: "2023-10-06"
 
 keywords: support, help, unable to perform, osco
 
@@ -16,12 +16,12 @@ content-type: troubleshoot
 
 # Why are all of my OSCO results labeled unable to perform?
 {: #ts-osco-utp}
-{: troubleshoot} 
+{: troubleshoot}
 
-You created a connection between the OpenShift Compliance Operator and {{site.data.keyword.compliance_short}} but all of your returned results say `Unable to perform`.
+All of the results related to OpenShift clusters return results that say `Unable to perform`.
 {: tsSymptoms} 
 
-This error can happen when the OSCO is not properly installed or the cluster or worker node are not in a healthy state.
+This error can happen when the OpenShift Compliance Operator is not properly installed or the cluster or worker node are not in a healthy state.
 {: tsCauses}
 
 

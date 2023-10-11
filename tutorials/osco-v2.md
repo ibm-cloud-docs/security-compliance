@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-10-02"
+lastupdated: "2023-10-11"
 
 keywords: goals, parameters, customize parameters, customize goals, security and compliance,
 

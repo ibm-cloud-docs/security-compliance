@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-02"
+lastupdated: "2023-10-11"
 
 keywords: Centralized security, compliance monitoring, compliance, integration
 

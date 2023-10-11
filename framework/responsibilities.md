@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-02"
+lastupdated: "2023-10-11"
 
 keywords: responsibilities for {{site.data.keyword.compliance_short}}
 
