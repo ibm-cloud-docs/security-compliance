@@ -2,9 +2,9 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-10-10"
+lastupdated: "2023-10-11"
 
-keywords: terraform, {[scc]}, terraform setup, create instance
+keywords: terraform, {{site.data.keyword.compliance_short}}, terraform setup, create instance
 
 subcollection: security-compliance
 
@@ -13,22 +13,22 @@ subcollection: security-compliance
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Setting up Terraform for {[scc]}
+# Setting up Terraform for {{site.data.keyword.compliance_short}}
 {: #terraform-setup}
 
-Terraform on {[cloud]} enables predictable and consistent creation of {[cloud]} services, so that you can rapidly build complex, multitier cloud environments that follow Infrastructure as Code (IaC) principles. Similar to using the {[cloud]} CLI or API and SDKs, you can automate the creation, update, and deletion of your {[scc]} instances by using HashiCorp Configuration Language (HCL).
+Terraform on {{site.data.keyword.cloud_notm}} enables predictable and consistent creation of {{site.data.keyword.cloud_notm}} services, so that you can rapidly build complex, multitier cloud environments that follow Infrastructure as Code (IaC) principles. Similar to using the {{site.data.keyword.cloud_notm}} CLI or API and SDKs, you can automate the creation, update, and deletion of your {{site.data.keyword.compliance_short}} instances by using HashiCorp Configuration Language (HCL).
 {: shortdesc}
 
-Looking for a managed Terraform on {[cloud]} solution? Try out [{{site.data.keyword.bplong}}](/docs/schematics?topic=schematics-getting-started). With {{site.data.keyword.bpshort}}, you can use the Terraform scripting language that you are familiar with. But you don't need to worry about setting up and maintaining the Terraform command line and the {[cloud]} Provider plug-in. {{site.data.keyword.bpshort}} also provides pre-defined Terraform templates that you can easily install from the {[cloud]} catalog.
+Looking for a managed Terraform on {{site.data.keyword.cloud_notm}} solution? Try out [{{site.data.keyword.bplong}}](/docs/schematics?topic=schematics-getting-started). With {{site.data.keyword.bpshort}}, you can use the Terraform scripting language that you are familiar with. But you don't need to worry about setting up and maintaining the Terraform command line and the {{site.data.keyword.cloud_notm}} Provider plug-in. {{site.data.keyword.bpshort}} also provides pre-defined Terraform templates that you can easily install from the {{site.data.keyword.cloud_notm}} catalog.
 {: tip}
 
-## Installing Terraform and configuring resources for {[scc]}
+## Installing Terraform and configuring resources for {{site.data.keyword.compliance_short}}
 {: #install-terraform}
 
 Before you can create an authorization by using Terraform, make sure that you completed the following steps:
 
-* Make sure that you have the [required access](/docs/security-compliance?topic=security-compliance-assign-roles) to create and work with {[scc]} resources.
-* Install the Terraform CLI and configure the {[cloud]} Provider plug-in for Terraform. For more information, see the tutorial for [Getting started with Terraform on {[cloud]}](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started). The plug-in abstracts the {{site.data.keyword.cloud_notm}} APIs that are used to complete this task.
+* Make sure that you have the [required access](/docs/security-compliance?topic=security-compliance-assign-roles) to create and work with {{site.data.keyword.compliance_short}} resources.
+* Install the Terraform CLI and configure the {{site.data.keyword.cloud_notm}} Provider plug-in for Terraform. For more information, see the tutorial for [Getting started with Terraform on {{site.data.keyword.cloud_notm}}](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started). The plug-in abstracts the {{site.data.keyword.cloud_notm}} APIs that are used to complete this task.
 * Create a Terraform configuration file that is named `main.tf`. In this file, you define resources by using HashiCorp Configuration Language. For more information, see the [Terraform documentation](https://developer.hashicorp.com/terraform/language){: external}.
 
 
@@ -39,9 +39,9 @@ Before you can create an authorization by using Terraform, make sure that you co
    ```
    {: pre}
 
-2. Create a {[scc]} instance by using the the [UI](/docs/security-compliance?topic=security-compliance-getting-started), API, or CLI.
+2. Create a {{site.data.keyword.compliance_short}} instance by using the the [UI](/docs/security-compliance?topic=security-compliance-getting-started), API, or CLI.
 
-    * Optionally, you can create a data source to retrieve information about an existing {[scc]} instance from {[cloud]}, by running the following command. 
+    * Optionally, you can create a data source to retrieve information about an existing {{site.data.keyword.compliance_short}} instance from {{site.data.keyword.cloud_notm}}, by running the following command. 
 
         ```terraform
         "ibm_scc_instance_settings" "scc_instance_settings_tf" {
@@ -68,7 +68,7 @@ Before you can create an authorization by using Terraform, make sure that you co
     ```
     {: pre}
 
-4. Define local values for your {[scc]} instance to be used when you are creating resources.
+4. Define local values for your {{site.data.keyword.compliance_short}} instance to be used when you are creating resources.
 
     ```terraform
         locals {
@@ -78,12 +78,12 @@ Before you can create an authorization by using Terraform, make sure that you co
     ```
    {: pre}
 
-5. From the {[cloud]} resource list in the UI, select the {[scc]} instance that you created and note the instance ID.
+5. From the {{site.data.keyword.cloud_notm}} resource list in the UI, select the {{site.data.keyword.compliance_short}} instance that you created and note the instance ID.
 6. Verify that the access policy is successfully assigned. For more information, see [Reviewing assigned access in the console](/docs/account?topic=account-assign-access-resources#review-your-access-console).
 
 
 ## What's next?
 {: #terraform-setup-next}
 
-Now that you successfully created your first {[scc]} service instance with Terraform on {[cloud]}, you can review the {[scc]} resources and data sources in the [Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule){: external}. You can also review how to manage your {[scc]} resources by following the Terraform steps that are included in the How to section. For example, you can follow the directions on how to create [custom libraries](/docs/security-compliance?topic=security-compliance-custom-library&interface=api&code=curl) by using Terraform.
+Now that you successfully created your first {{site.data.keyword.compliance_short}} service instance with Terraform on {{site.data.keyword.cloud_notm}}, you can review the {{site.data.keyword.compliance_short}} resources and data sources in the [Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule){: external}. You can also review how to manage your {{site.data.keyword.compliance_short}} resources by following the Terraform steps that are included in the How to section. For example, you can follow the directions on how to create [custom libraries](/docs/security-compliance?topic=security-compliance-custom-library&interface=api&code=curl) by using Terraform.
 

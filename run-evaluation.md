@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-10"
+lastupdated: "2023-10-11"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -16,11 +16,11 @@ subcollection: security-compliance
 # Scanning your resources
 {: #scan-resources}
 
-With {[scc-full]}, you can evaluate your resources on a recurring schedule or you can initiate a scan at any time by creating an attachment. An attachment is the association between the set of resources that you want to evaluate and a profile that contains the specific controls that you want to evaluate.
+With {{site.data.keyword.compliance_full}}, you can evaluate your resources on a recurring schedule or you can initiate a scan at any time by creating an attachment. An attachment is the association between the set of resources that you want to evaluate and a profile that contains the specific controls that you want to evaluate.
 {: shortdesc}
 
 
-![A diagram that shows the relationship between a control, profile, and scope.](images/term-flow.svg){: caption="Figure 1. Understanding entities in {[scc]}" caption-side="bottom"}
+![A diagram that shows the relationship between a control, profile, and scope.](images/term-flow.svg){: caption="Figure 1. Understanding entities in {{site.data.keyword.compliance_short}}" caption-side="bottom"}
 
 
 ## Before you begin
@@ -28,8 +28,8 @@ With {[scc-full]}, you can evaluate your resources on a recurring schedule or yo
 
 Before you get started, be sure that you have the following Prerequisites:
 
-* The required level of access to create an attachment. To create an attachment, you need the **Editor** platform role or higher. For more information, see [Assigning access]({[link]}-access-management).
-* A connected {[cos]} bucket in which to store your results. To connect your bucket, you must have a service-to-service policy in place that enables communication between {[scc]} and {[cos]}.
+* The required level of access to create an attachment. To create an attachment, you need the **Editor** platform role or higher. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
+* A connected Cloud Object Storage bucket in which to store your results. To connect your bucket, you must have a service-to-service policy in place that enables communication between {{site.data.keyword.compliance_short}} and Cloud Object Storage.
 * A selected profile that you want to use in your attachment.
 
 	Want to use controls from multiple profiles? Create a custom profile from the existing control libraries and use that profile to create your attachment.
@@ -41,9 +41,9 @@ Before you get started, be sure that you have the following Prerequisites:
 {: #scan-schedule-ui}
 {: ui}
 
-To start scanning your resource, you create an attachment. To create an attachment, you can use the {[scc]} UI to complete the following steps.
+To start scanning your resource, you create an attachment. To create an attachment, you can use the {{site.data.keyword.compliance_short}} UI to complete the following steps.
 
-1. In the {[scc]} UI, navigate to the **Attachments** page and click **Create**. A flat list of all of the attachments in your account is displayed.
+1. In the {{site.data.keyword.compliance_short}} UI, navigate to the **Attachments** page and click **Create**. A flat list of all of the attachments in your account is displayed.
 
 	Alternatively, you can create an attachment through the **Profiles** page. After you select the profile you want to use, on the **Attachments** tab of the profile details page, click **Create**.
 	{: tip}
@@ -51,7 +51,7 @@ To start scanning your resource, you create an attachment. To create an attachme
 2. Provide a name and description for your attachment. Be sure to be as descriptive as possible so that it's easy for other members of your team to understand what is being evaluated. Then, click **Next**.
 3. Select the **Profile** that you want to use for your evaluation.
 4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case. Then, click **Next**.
-5. Target the resources that you want to evaluate by defining a scope. If you are working with {[cloud]} resources, you can also specify resources that you want to exclude from your scope. If you are working with resources from other environments, you must [connect an instance of the {[scc-wp]} service]({[link]}-setup-workload-protection) and provide any requested information to move forward.
+5. Target the resources that you want to evaluate by defining a scope. If you are working with {{site.data.keyword.cloud_notm}} resources, you can also specify resources that you want to exclude from your scope. If you are working with resources from other environments, you must [connect an instance of the {{site.data.keyword.sysdigsecure_short}} service](/docs/security-compliance?topic=security-compliance-setup-workload-protection) and provide any requested information to move forward.
 6. Click **Next**.
 7. Select the frequency at which you want to evaluate your attachment.
 	
@@ -74,14 +74,14 @@ To start scanning your resource, you create an attachment. To create an attachme
    4. Click **Next**.
 9. Review your choices and click **Create**.
 
-When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {[scc]} dashboard. If your results are not updated, review the [troubleshooting guide](/docs/security-compliance?topic=security-compliance-ts-cache). 
+When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard. If your results are not updated, review the [troubleshooting guide](/docs/security-compliance?topic=security-compliance-ts-cache). 
 
 
 ## Scheduling a recurring scan with the API and SDKs
 {: #scan-schedule-api}
 {: api}
 
-To start evaluating your resources, you can use the {[scc]} attachments API or SDKs.
+To start evaluating your resources, you can use the {{site.data.keyword.compliance_short}} attachments API or SDKs.
 
 ```bash
 curl -X POST 
@@ -325,7 +325,7 @@ resource "ibm_scc_profile_attachment" "scc_profile_attachment_instance" {
 {: pre}
 
 
-When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {[scc]} dashboard. For more information, check out the [Terraform reference](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule_attachment){: external}.
+When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard. For more information, check out the [Terraform reference](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule_attachment){: external}.
 
 
 
@@ -337,12 +337,12 @@ When you create your attachment, a scan is scheduled. When the scan completes, y
 
 If your attachment exists, but you don't want to wait for the next scan to see your posture, you can initiate an on-demand scan.
 
-1. In the {[cloud]} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {[scc]}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Profile**.
 3. Click the options menu ![options icon](../../icons/actions-icon-vertical.svg) in the row of the profile that you want to evaluate.
 3. Click **Run scan**.
 
-After your scan completes, your results are available in the {[scc]} dashboard.
+After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
 
 ## Running a scan on demand with the API
 {: #scan-ondemand-api}

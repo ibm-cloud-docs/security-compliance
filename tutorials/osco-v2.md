@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-10-10"
+lastupdated: "2023-10-11"
 
 keywords: goals, parameters, customize parameters, customize goals, security and compliance,
 
@@ -16,7 +16,7 @@ completion-time: 20m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Evaluate the compliance of your {[os]} clusters 
+# Evaluate the compliance of your {{site.data.keyword.openshiftshort}} clusters 
 {: #osco-scan}
 {: toc-content-type="tutorial"}
 {: toc-services="security-compliance, openshift"}
@@ -29,14 +29,14 @@ By using the OpenShift Compliance Operator (OSCO) through Security and Complianc
 
 Before you get started with this tutorial, be sure you have the prerequisites:
 
-* An {[cloud]} account
-* A {[os]} cluster
+* An {{site.data.keyword.cloud_notm}} account
+* A {{site.data.keyword.openshiftshort}} cluster
 * The required permissions:
 
    | Service | Required role | Reason |
    |:--------|:--------------|:-------|
-   | {[scc]} | Compliance Management | Needed to enable a service-to-service authorization  \n To view this role, you must be assigned the Administrator role for the service |
-   | {[os]} | Manager | Required to install OSCO |
+   | {{site.data.keyword.compliance_short}} | Compliance Management | Needed to enable a service-to-service authorization  \n To view this role, you must be assigned the Administrator role for the service |
+   | {{site.data.keyword.openshiftshort}} | Manager | Required to install OSCO |
    {: caption="Table 1. Required user permissions" caption-side="top"}
 
 
@@ -44,16 +44,16 @@ Before you get started with this tutorial, be sure you have the prerequisites:
 {: #osco-auth}
 {: step}
 
-To ensure that the services can talk with each other, create a service-to-service authorization between {[scc]} and {[iks]}. To create this policy, you must have the Administrator platform role for the {[scc]} service.
+To ensure that the services can talk with each other, create a service-to-service authorization between {{site.data.keyword.compliance_short}} and {{site.data.keyword.containershort}}. To create this policy, you must have the Administrator platform role for the {{site.data.keyword.compliance_short}} service.
 
-1. In the {[cloud]} console, go to **Manage > Access (IAM)** and select **Authorizations**.
+1. In the {{site.data.keyword.cloud_notm}} console, go to **Manage > Access (IAM)** and select **Authorizations**.
 2. Click **Create**.
 3. If you're working in an enterprise account, select the account which has the cluster with OSCO deployed in it as the **Source** account.
-4. Select **{[scc]}** in the **Source** drop-down and choose **All resources** as the scope.
+4. Select **{{site.data.keyword.compliance_short}}** in the **Source** drop-down and choose **All resources** as the scope.
 5. Select **Kubernetes Service** in the **Target** drop-down. Optionally, you can narrow the focus by selecting specific resources that you want to target.
 6. Select **Platform** access as **Compliance Management** and click **Authorize**.
 
-If you are scanning Satellite resources, you must also [enable an authorization for Satellite]({[link]}-assign-roles#assign-access-sat).
+If you are scanning Satellite resources, you must also [enable an authorization for Satellite](/docs/security-compliance?topic=security-compliance-assign-roles#assign-access-sat).
 {: note}
 
 
@@ -70,9 +70,9 @@ Before you can start evaluating your resources, the OSCO must be installed to yo
 
 To scan your resources, you create an attachment between the resource that you want to evaluate and the profile that you want to use to run the evaluation. To create an attachment, you can use the following steps.
 
-1. In **Profiles** section of the UI, select **{[cloud]} Red Hat OpenShift Kubernetes OCP4**. A details page opens.
+1. In **Profiles** section of the UI, select **{{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4**. A details page opens.
 
-   Optionally, you can use the **{[cloud]} Red Hat OpenShift Kubernetes OCP4** profile to create a custom profile with a subset of the controls.
+   Optionally, you can use the **{{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4** profile to create a custom profile with a subset of the controls.
    {: tip}
 
 2. In the **Attachments** tab, click **Create**.
@@ -87,5 +87,5 @@ To scan your resources, you create an attachment between the resource that you w
 ## Next steps
 {: #osco-next}
 
-When the scan completes, your results become available in the {[scc]} dashboard. Be sure to check back in a few hours to see what your results returned.
+When the scan completes, your results become available in the {{site.data.keyword.compliance_short}} dashboard. Be sure to check back in a few hours to see what your results returned.
 

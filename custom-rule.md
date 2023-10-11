@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-10"
+lastupdated: "2023-10-11"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -16,22 +16,22 @@ subcollection: security-compliance
 # Defining custom rules
 {: #rules-define}
 
-With {[scc-full]}, you can create a custom rule in order to target the exact configuration properties that you need to ensure compliance for.
+With {{site.data.keyword.compliance_full}}, you can create a custom rule in order to target the exact configuration properties that you need to ensure compliance for.
 {: shortdesc}
 
 
 ## Before you begin 
 {: #before-custom-rules}
 
-Before you get started, be sure that you have the required level of access to view and manage rules. To create a rule, you need the [**Editor** platform role or higher]({[link]}-access-management). You must also have an instance of {[at]} that exists in the same region where you provision your resources.
+Before you get started, be sure that you have the required level of access to view and manage rules. To create a rule, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). You must also have an instance of {{site.data.keyword.at_short}} that exists in the same region where you provision your resources.
 
 
 ## Formatting rules
 {: #format-rule}
 
-Rules are composed of several different building blocks, including a target, one or more property conditions, and a value. As an example, say you want to create a rule that evaluates whether network access to your {[cos]} buckets in the US South region is restricted to specific IP addresses. 
+Rules are composed of several different building blocks, including a target, one or more property conditions, and a value. As an example, say you want to create a rule that evaluates whether network access to your Cloud Object Storage buckets in the US South region is restricted to specific IP addresses. 
 
-To build the rule, first you target {[cos]} as the service, by using the CRN-qualified name, and then define bucket as the type of resource. To ensure that your rule is configured for only those buckets in US-South, provide an additional attribute. 
+To build the rule, first you target Cloud Object Storage as the service, by using the CRN-qualified name, and then define bucket as the type of resource. To ensure that your rule is configured for only those buckets in US-South, provide an additional attribute. 
 
 ```json
 "target": {
@@ -144,12 +144,12 @@ Most often, rules are more complex than a single property. To create more comple
 {: #create-rules-ui}
 {: ui}
 
-You can use the {[scc]} UI to define the configuration rules that you want monitor for your {[cloud]} resources. For more information about which services you can configure rules for, see [What can I evaluate?]({[link]}-scannable-components#evaluate-services).
+You can use the {{site.data.keyword.compliance_short}} UI to define the configuration rules that you want monitor for your {{site.data.keyword.cloud_notm}} resources. For more information about which services you can configure rules for, see [What can I evaluate?](/docs/security-compliance?topic=security-compliance-scannable-components#evaluate-services).
 
 You can either use the rule builder or edit the JSON directly.
 {: tip}
 
-1. In the {[cloud]} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Controls > Rules**, and click **Create**.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Controls > Rules**, and click **Create**.
 2. Give your rule a meaningful name and description.
 3. Optional: Add one or more labels that you can use to organize and search for similar rules and click **Next**.
 4. Target your resource.
@@ -181,7 +181,7 @@ You can either use the rule builder or edit the JSON directly.
 {: #create-rules-api}
 {: api}
 
-You can use the {[scc]} API to define the configuration rules that you want monitor for your {[cloud]} resources. For more information about which services you can configure rules for, see [What can I evaluate?]({[link]}-scannable-components#evaluate-services).
+You can use the {{site.data.keyword.compliance_short}} API to define the configuration rules that you want monitor for your {{site.data.keyword.cloud_notm}} resources. For more information about which services you can configure rules for, see [What can I evaluate?](/docs/security-compliance?topic=security-compliance-scannable-components#evaluate-services).
 
 ```bash
 curl -X POST 
@@ -386,7 +386,7 @@ A successful response returns the list of rules, along with other metadata. For 
 {: #create-rules-terraform}
 {: terraform}
 
-You can use Terraform to define the configuration rules that you want monitor for your {[cloud]} resources. For more information about which services you can configure rules for, see [What can I evaluate?]({[link]}-scannable-components#evaluate-services).
+You can use Terraform to define the configuration rules that you want monitor for your {{site.data.keyword.cloud_notm}} resources. For more information about which services you can configure rules for, see [What can I evaluate?](/docs/security-compliance?topic=security-compliance-scannable-components#evaluate-services).
 
 ```hcl
 resource "ibm_scc_rule" "scc_rule_instance" {

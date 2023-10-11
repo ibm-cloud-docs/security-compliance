@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-10"
+lastupdated: "2023-10-11"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -16,28 +16,28 @@ subcollection: security-compliance
 # Creating custom control libraries
 {: #custom-library}
 
-With {[scc-full]}, you can create a custom control library that is specific to your organization's needs. You define the controls and specifications before you map previously created assessments.
+With {{site.data.keyword.compliance_full}}, you can create a custom control library that is specific to your organization's needs. You define the controls and specifications before you map previously created assessments.
 {: shortdesc}
 
 ![The diagram shows the layout of a control library. The information is conveyed in the surrounding text.](images/control-library.svg){: caption="Figure 1. Understanding control libraries" caption-side="bottom"}
 
 
-A control library is a grouping of controls that are added to {[scc]}. The service offers several predefined libraries that are designed to help meet compliance for a specific use case. Each control has several specifications and assessments that are mapped to it. A specification is a defined requirement that is specific to a component. When met by an organization, the specification helps to ensure that they are compliant with the control. An assessment, or several, are mapped to each specification with a detailed evaluation that is done to check whether the specification is compliant. For more information, see [Key Concepts]({[link]}-posture-management).
+A control library is a grouping of controls that are added to {{site.data.keyword.compliance_short}}. The service offers several predefined libraries that are designed to help meet compliance for a specific use case. Each control has several specifications and assessments that are mapped to it. A specification is a defined requirement that is specific to a component. When met by an organization, the specification helps to ensure that they are compliant with the control. An assessment, or several, are mapped to each specification with a detailed evaluation that is done to check whether the specification is compliant. For more information, see [Key Concepts](/docs/security-compliance?topic=security-compliance-posture-management).
 
 
 ## Before you begin
 {: #before-custom-library}
 
-Before you get started, be sure that you have the required level of access to create and manage libraries. To manage libraries, you need the [**Editor** platform role or higher]({[link]}-access-management).
+Before you get started, be sure that you have the required level of access to create and manage libraries. To manage libraries, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
 
 ## Creating a library
 {: #create-custom-library-ui}
 {: ui}
 
-You can create a custom library by using the {[scc]} UI.
+You can create a custom library by using the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {[cloud]} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {[scc]}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Controls > Control libraries**. 
 3. Click **Create**. A side panel opens.
 4. Provide a name, description, and version for your library.
@@ -60,7 +60,7 @@ You can create a custom library by using the {[scc]} UI.
 {: #create-custom-library-api}
 {: api}
 
-You can create a custom library by using the {[scc]} API.
+You can create a custom library by using the {{site.data.keyword.compliance_short}} API.
 
 ```bash
 curl -X POST 

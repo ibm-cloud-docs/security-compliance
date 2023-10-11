@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-10"
+lastupdated: "2023-10-11"
 
 keywords: watchtower, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -16,7 +16,7 @@ subcollection: security-compliance
 # FAQs
 {: #faqs}
 
-Frequently asked questions for {[scc-full]} might include questions about managing profiles, defining custom rules, attaching scopes, and evaluating resources for compliance. To find all FAQs for {[cloud]}, see the [FAQ library](/docs/faqs).
+Frequently asked questions for {{site.data.keyword.compliance_full}} might include questions about managing profiles, defining custom rules, attaching scopes, and evaluating resources for compliance. To find all FAQs for {{site.data.keyword.cloud_notm}}, see the [FAQ library](/docs/faqs).
 
 
 ## How do I start monitoring a rule?
@@ -24,7 +24,7 @@ Frequently asked questions for {[scc-full]} might include questions about managi
 {: faq}
 {: support}
 
-{[scc]} supports two types of rules - predefined and custom. Predefined rules are associated with specifications by default and are automatically monitored when you create an attachment to a profile. Custom rules can be monitored after they are associated with a specification by customizing a control library. Then, you select those controls when you create an attachment.
+{{site.data.keyword.compliance_short}} supports two types of rules - predefined and custom. Predefined rules are associated with specifications by default and are automatically monitored when you create an attachment to a profile. Custom rules can be monitored after they are associated with a specification by customizing a control library. Then, you select those controls when you create an attachment.
 
 
 ## Can I create a rule for a service that I didn't provision?
@@ -40,5 +40,5 @@ Yes, you can create rules for services or resources that are not already provisi
 {: faq}
 {: support}
 
-When you look at your results in the UI, you see that some results have "Additional details". This is because the results are associated with the Toolchain service. The Toolchain pipeline sends the associated details and evidence along with the results to {[scc]}.
+When you look at your results in the UI, you see that some results have "Additional details". This is because the results are associated with the Toolchain service. The Toolchain pipeline sends the associated details and evidence along with the results to {{site.data.keyword.compliance_short}}.
 

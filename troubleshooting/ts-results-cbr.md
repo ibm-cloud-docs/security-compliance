@@ -14,14 +14,16 @@ content-type: troubleshoot
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Why aren't my OpenShift clusters being scanned?
-{: #ts-osco-results}
+# I can't view my resources
+{: #ts-results-cbr}
 {: troubleshoot} 
 
-Your clusters are not being scanned.
+You are unablet to view a resource from the UI.
+
+You set a Context-Based Restriction for a service to use private endpoints in order to gain compliance to a profile but are unable to view that resource from the UI.
 {: tsSymptoms} 
 
-There are a few reasons that this might happen:
+There are a few reasons that you 
 {: tsCauses}
 
 * Your scope does not contain any OpenShift clusters.
