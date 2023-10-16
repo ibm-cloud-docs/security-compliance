@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-11"
+lastupdated: "2023-10-16"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -17,6 +17,20 @@ content-type: release-note
 {: #release-notes}
 
 The following changes to the service were made available with the associated date.
+
+
+
+
+## 10 October 2023
+{: #security-compliance-oct162023}
+{: release-note}
+
+Version 1.1.0 of the Workload Protection existing profiles
+:   The following changes have been added:
+
+   * We have mapped assessments to control specification where each control specification is linked to an assessment.
+   * There is no change to the content and the number of assesments.
+   * This release affects currently only two profiles: *IBM Cloud Kubernetes Service Benchmark* and *CIS Microsoft Azure Foundations Benchmark*.
 
 
 
@@ -46,7 +60,7 @@ Terraform support
 Profile name change
 :   The following profile names have been updated:
 
-   * {{site.data.keyword.cloud_notm}} for Financial Services is now known as {{site.data.keyword.cloud_notm}} Framework for Financial Services 
+   * {{site.data.keyword.cloud_notm}} for Financial Services is now known as {{site.data.keyword.cloud_notm}} Framework for Financial Services
    * CIS IBM Foundations Benchmark is now known as CIS {{site.data.keyword.cloud_notm}} Foundations Benchmark
 
    There is no impact to your scans, just the name of the profile has been changed.
@@ -95,8 +109,8 @@ Profile deprecation: {{site.data.keyword.cloud_notm}} Security Best Practices
    * 12 October 2023: The creation of new and editing of existing attachments will be blocked starting on this date. Additionally, the profile will no longer be visible in the Profile page of the service UI. Previously created attachments will continue to be scanned.
    * 11 December 2023: The profile will be removed from the product. If an attachment exists with the profile, the scans will stop.
 
-   It is recommended that you move to another profile, such as CIS IBM Cloud Foundations Benchmark, to ensure continued support. However, if you want to continue working with the controls or assessments that are associated with the {{site.data.keyword.cloud_notm}} Security Best Practices, you can use the profile to create a custom profile until the 12 October. You must then create a new attachment with your custom profile to initiate scanning. 
-   
+   It is recommended that you move to another profile, such as CIS IBM Cloud Foundations Benchmark, to ensure continued support. However, if you want to continue working with the controls or assessments that are associated with the {{site.data.keyword.cloud_notm}} Security Best Practices, you can use the profile to create a custom profile until the 12 October. You must then create a new attachment with your custom profile to initiate scanning.
+
    If you're already working with the controls or assessments through a custom profile, you do not need to make any changes. Your scans will continue to run.
 
 
@@ -112,11 +126,11 @@ Now available: Go SDK v5.0.2
 ## 9 August 2023
 {: #security-compliance-Aug092023}
 {: release-note}
- 
+
 New rules available
 :   The context based restrictions platform service is now available for you to create custom rules. Additionally, rules surrounding private endpoints are now available. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
-{{site.data.keyword.cloud_notm}} for Financial Services profile version 1.4.0 
+{{site.data.keyword.cloud_notm}} for Financial Services profile version 1.4.0
 :   Version 1.4.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 
@@ -142,10 +156,10 @@ New API version available
 {: #security-compliance-july122023}
 {: release-note}
 
-{{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile version 1.0.0 
+{{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile version 1.0.0
 :   Version 1.0.0 of the {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile is now available. This profile introduces the new assessment format `wp-rule`. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-iks-profile). To view results by using this profile, you must have a connected instance of Workload Protection. For help getting started, see [Connecting {{site.data.keyword.sysdigsecure_short}}](/docs/security-compliance?topic=security-compliance-setup-workload-protection).
 
-New rule operators 
+New rule operators
 :   You can now use the operators `strings allowed`, `strings_required`, `string_contains`, and `string_not_contains` to create custom rules. For more information about the new operators or help getting started with custom rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 ## 8 July 2023
@@ -165,13 +179,13 @@ New rule operators
 Support removed for the collector-based architecture
 :   The collector-based architecture has been removed from the product in preparation for an upcoming architectural change to a regional offering.
 
-   The events related to collector-based evaluations have also been removed. To continue to receive events for your evaluations you must [update your topics in Event Notifications](/docs/security-compliance?topic=security-compliance-event-notifications). 
+   The events related to collector-based evaluations have also been removed. To continue to receive events for your evaluations you must [update your topics in Event Notifications](/docs/security-compliance?topic=security-compliance-event-notifications).
 
 
 ## 23 June 2023
 {: #security-compliance-june232023}
 {: release-note}
- 
+
 New rules available
 :   The Global Search and Tagging platform service is now available for you to create custom rules. Rules can be written to evaluate resources that have been assigned specific tags. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
@@ -184,7 +198,7 @@ Attachment details available
 {: #security-compliance-june202023}
 {: release-note}
 
-{{site.data.keyword.cloud_notm}} for Financial Services profile version 1.3.0 
+{{site.data.keyword.cloud_notm}} for Financial Services profile version 1.3.0
 :   Version 1.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 {{site.data.keyword.cloud_notm}} Security Best Practices profile version 1.2.0
@@ -204,7 +218,7 @@ OpenShift Compliance Operator (OSCO)
 
 Reminder: {{site.data.keyword.compliance_short}} will become regional
 
-:   Starting 8 July 2023 {{site.data.keyword.compliance_short}} will be a provisionable, regional service offering in the IBM Cloud catalog. With this change, you will have full control over the region that is used when {{site.data.keyword.compliance_short}} processes your data. To process data in different regions, you can create multiple instances of the service in a single account. 
+:   Starting 8 July 2023 {{site.data.keyword.compliance_short}} will be a provisionable, regional service offering in the IBM Cloud catalog. With this change, you will have full control over the region that is used when {{site.data.keyword.compliance_short}} processes your data. To process data in different regions, you can create multiple instances of the service in a single account.
 
    [deprecated]{: tag-deprecated} To support this change, support for the collector-based architecture was deprecated. This means that all of the configurations surrounding collectors, goal-based profiles, collector-based scans, goal-based results, and credentials will be removed at the end of support on 1 July 2023.
 
@@ -221,7 +235,7 @@ Reminder: {{site.data.keyword.compliance_short}} will become regional
    * 8 July 2023: A regional instance of {{site.data.keyword.compliance_short}} will be available in your account based on your set location and the global instance will be removed. Additionally, the changes to IAM and context-based restrictions take effect.
 
    You might see two instances of {{site.data.keyword.compliance_short}} through the Billing page during the migration period although you can’t see two instances in your account. This is due to the way that the migration is being conducted. You are only billed through one. When the migration is complete, the global instance will be removed from your account.
-   {: note} 
+   {: note}
 
 
 ## 2 May 2023
@@ -316,20 +330,20 @@ New version of the {{site.data.keyword.cloud_notm}} for Financial Services libra
 {: #security-compliance-dec1422}
 {: release-note}
 
-A new and improved experience for {{site.data.keyword.compliance_short}} is now available! 
+A new and improved experience for {{site.data.keyword.compliance_short}} is now available!
 :   We've been working in the background for the past several months to incorporate all of the feedback that we've received and we’re excited to share our new and improved architecture with you. When you work with our new architecture, there are a few changes to terminology and functionality that you’ll need to be aware of.
 
    * **Enterprise support**: Hierarchical management of organizational compliance
 
    * **Simplified setup**: There is no need to create service IDs, write IAM policies, or manage API keys when working with {{site.data.keyword.cloud_notm}}.
 
-   * **More customization**: Create version-able controls, profiles, and assessments through simple declarative rules and then customize evaluation parameters for each attachment. 
+   * **More customization**: Create version-able controls, profiles, and assessments through simple declarative rules and then customize evaluation parameters for each attachment.
 
    * **New profile format**: Moving from a goal-based architecture to an assessment based architecture to provide more transparency into how evaluations are conducted.
 
    * **Customer-owned storage**: Duration and capacity limits for saved monitoring results are removed by allowing you to secure your compliance data in your own Cloud Object Storage bucket
 
-   * **Terminology**: With the introduction of our new architecture, terminology has been re-evaluated and updated to ensure a more cohesive experience of the product. 
+   * **Terminology**: With the introduction of our new architecture, terminology has been re-evaluated and updated to ensure a more cohesive experience of the product.
 
    As previously announced, the Configuration Governance component has been removed as part of this release. This means that any rules that previously existed in your account have been removed and are no longer being enforced.
    {: important}
@@ -342,7 +356,7 @@ A new and improved experience for {{site.data.keyword.compliance_short}} is now 
 Updates coming soon!
 :   A new and improved experience for {{site.data.keyword.compliance_short}} is on its way! We've been working in the background for the past several months to incorporate all the feedback that we've received and we're almost ready to share it with you. To ensure the best experience possible, there are a few changes to the current functionality that you'll need to be aware of. When our new experience is released, you can expect to see:
 
-   **A more seamless integration for {{site.data.keyword.cloud_notm}} resources!** Not only will you no longer be required to configure and deploy a collector to scan resources that run on {{site.data.keyword.cloud_notm}}, but your experience in the UI will now be more consistent throughout the product.  
+   **A more seamless integration for {{site.data.keyword.cloud_notm}} resources!** Not only will you no longer be required to configure and deploy a collector to scan resources that run on {{site.data.keyword.cloud_notm}}, but your experience in the UI will now be more consistent throughout the product.
 
    **The removal of Configuration Governance**. Although rules will continue to exist in the new experience, we are temporarily removing the Configuration Governance component of the service which is currently used for enforcement. While there is no timeline in place for this functionality to return, we will keep you updated.
 
@@ -363,7 +377,7 @@ Now available: New version of the {{site.data.keyword.cloud_notm}} for Financial
 {: release-note}
 
 New properties available for Virtual Private Cloud
-:   {{site.data.keyword.cloud_notm}} Virtual Private Cloud now has additional properties available as part of the Configuration Governance component. You can create guardrails for virtual servers such as restricting the use of floating IPs and service metadata. 
+:   {{site.data.keyword.cloud_notm}} Virtual Private Cloud now has additional properties available as part of the Configuration Governance component. You can create guardrails for virtual servers such as restricting the use of floating IPs and service metadata.
 
 Removed: Credential passphrase
 :   As of today, 1 September 2022, the ability to use a passphrase to manage the security of your credentials is deprecated in favor of Bring Your Own Key (BYOK) functionality. If you did not disable your passphrase and return to IBM-managed, you must recreate all of your credentials to continue to scan your resources. For help enabling BYOK or to learn more about how your credentials are protected, see [Storing and encrypting data in {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-mng-data).
@@ -398,7 +412,7 @@ Change to permission requirements for integrations
    * `compliance.posture-management.integrations-delete`: Delete an integration in {{site.data.keyword.compliance_short}}.
 
    For more information about required permissions, view [Managing IAM access for {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-access-management).
-   
+
 
 ## 2 August 2022
 {: #security-compliance-aug-0222}
@@ -419,7 +433,7 @@ Now available: Profile updates
 {: release-note}
 
 Now available: New region - WDC
-:   {{site.data.keyword.compliance_short}} is now configured to use the Washington DC region as a back up should a disaster scenario occur. 
+:   {{site.data.keyword.compliance_short}} is now configured to use the Washington DC region as a back up should a disaster scenario occur.
 
 
 ## 23 June 2022
@@ -448,7 +462,7 @@ Now available: {{site.data.keyword.cloud_notm}} Security Best Practices Controls
 :    Released today, the {{site.data.keyword.cloud_notm}} Security Best Practices profile is a collection of goals that can help an organization to ensure that they are adhering to best practices as defined by {{site.data.keyword.cloud_notm}} security.
 
 Now available: The {{site.data.keyword.cloud_notm}} Control Library profile
-:    As part of this release the {{site.data.keyword.cloud_notm}} Best Practices Controls 1.0 profile was renamed to the {{site.data.keyword.cloud_notm}} Control Library. The {{site.data.keyword.cloud_notm}} Control Library is a profile that contains all the available controls and goals that are available for {{site.data.keyword.cloud_notm}}. The library cannot be used to scan your resources directly, but you are able to create a custom profile from the library. 
+:    As part of this release the {{site.data.keyword.cloud_notm}} Best Practices Controls 1.0 profile was renamed to the {{site.data.keyword.cloud_notm}} Control Library. The {{site.data.keyword.cloud_notm}} Control Library is a profile that contains all the available controls and goals that are available for {{site.data.keyword.cloud_notm}}. The library cannot be used to scan your resources directly, but you are able to create a custom profile from the library.
 
 Now available: New version of the {{site.data.keyword.cloud_notm}} for Financial Services profile
 :   Version 0.3.0  of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available with new goals and controls. For more information, see the [{{site.data.keyword.cloud_notm}} for Financial Services profile change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
@@ -518,7 +532,7 @@ Quick start: Posture Management
 {: release-note}
 
 Create scope flow updates
-:   The create scope flow is now updated in the GUI to include the scheduling of scans as part of the creation of a scope. To try out the new flow, see [the {{site.data.keyword.compliance_short}} UI](/security-compliance/scopes){: external}. 
+:   The create scope flow is now updated in the GUI to include the scheduling of scans as part of the creation of a scope. To try out the new flow, see [the {{site.data.keyword.compliance_short}} UI](/security-compliance/scopes){: external}.
 
 
 ## 17 February 2022
@@ -691,7 +705,7 @@ Initial Posture Management API support
 :   As part of this release, the Posture Management component of the service provides three external APIs that you can use as part of your security and compliance automation. For more information, see the [Posture Management API docs](/apidocs/security-compliance/posture).
 
 Proxy support for discovery and fact collection
-:   With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans. 
+:   With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans.
 
 New goal mapping
 :   The goal `3000045` is now mapped to CM-2 NIST 800 and were added to an additional profile.
@@ -781,4 +795,3 @@ General availability of the {{site.data.keyword.compliance_short}}
 :   The {{site.data.keyword.compliance_short}} is now generally available on {{site.data.keyword.cloud_notm}}!
 
    In this release, the {{site.data.keyword.compliance_short}} offers support for profiles that you can use to monitor your accounts for compliance and config rules for governing the use of resources across your accounts. For more information, check out the [announcement blog](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-security-and-compliance-center){: external}.
-
