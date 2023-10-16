@@ -25,12 +25,12 @@ The following changes to the service were made available with the associated dat
 {: #security-compliance-oct162023}
 {: release-note}
 
-Version 1.1.0 of the Workload Protection existing profiles
-:   The following changes have been added:
+Version 1.1.0 of the IBM Cloud Kubernetes Service Benchmark
+:   Version 1.1.0 of the IBM Cloud Kubernetes Service Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-iks-profile&interface=ui).
 
-   * We have mapped assessments to control specification where each control specification is linked to an assessment.
-   * There is no change to the content and the number of assesments.
-   * This release affects currently only two profiles: *IBM Cloud Kubernetes Service Benchmark* and *CIS Microsoft Azure Foundations Benchmark*.
+
+Version 1.1.0 of the CIS Microsoft Azure Foundations Benchmark
+:   Version 1.1.0 of the CIS Microsoft Azure Foundations Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliancecis-benchmark-profile).
 
 
 
