@@ -137,11 +137,12 @@ A successful response returns the detailed report from your scan, along with oth
 {: #view-detailed-results-cli}
 {: cli}
 
-To get a report summary, you can use the {{site.data.keyword.compliance_short}} CLI.
+To get a report summary, you can use the {{site.data.keyword.compliance_short}} CLI. For more information, see the [CLI reference](/docs/security-compliance?topic=security-compliance-security-compliance-cli&interface=ui#security-compliance-cli-reports-report-summary-get-command).
 
 ```sh
 ibmcloud security-compliance reports report-summary-get     --report-id=exampleString     --x-correlation-id=exampleString     --x-request-id=exampleString
 ```
+{: pre}
 
 
 ## Viewing detailed results with Terraform

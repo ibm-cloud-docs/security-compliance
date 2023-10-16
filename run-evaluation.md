@@ -76,7 +76,7 @@ When you create your attachment, a scan is scheduled. When the scan completes, y
 
 
 
-## Scheduling a recurring scan with the API and SDKs
+## Scheduling a recurring scan with the API
 {: #scan-schedule-api}
 {: api}
 
