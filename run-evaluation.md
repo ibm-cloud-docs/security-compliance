@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-11"
+lastupdated: "2023-10-16"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -73,6 +73,7 @@ To start scanning your resource, you create an attachment. To create an attachme
 9. Review your choices and click **Create**.
 
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard. If your results are not updated, review the [troubleshooting guide](/docs/security-compliance?topic=security-compliance-ts-cache). 
+
 
 
 ## Scheduling a recurring scan with the API and SDKs
