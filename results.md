@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-16"
+lastupdated: "2023-10-17"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -140,7 +140,10 @@ A successful response returns the detailed report from your scan, along with oth
 To get a report summary, you can use the {{site.data.keyword.compliance_short}} CLI. For more information, see the [CLI reference](/docs/security-compliance?topic=security-compliance-security-compliance-cli&interface=ui#security-compliance-cli-reports-report-summary-get-command).
 
 ```sh
-ibmcloud security-compliance reports report-summary-get     --report-id=exampleString     --x-correlation-id=exampleString     --x-request-id=exampleString
+ibmcloud security-compliance reports report-summary-get     
+--report-id=exampleString     
+--x-correlation-id=exampleString     
+--x-request-id=exampleString
 ```
 {: pre}
 
