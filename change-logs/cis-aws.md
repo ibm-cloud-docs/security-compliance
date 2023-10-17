@@ -42,12 +42,21 @@ The following table details the release dates and status of each profile version
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
-| Version 1.0.0 | `2023-10-17` | Active |
+| Version 1.1.0 | `2023-10-17` | Active |
+| Version 1.0.0 | `2023-07-14` | Active |
 {: caption="Table. Active versions of the CIS Amazon Web Services Foundations Benchmark" caption-side="top"}
 
+## Version 1.1.0
+{: #cis-amazon-v110}
+
+Now available
+
+:   Released today, 17 Oct 2023, we have added the following updates to the CIS Amazon Web Services Foundations Benchmark:
+- We have mapped assessments to control specification where each control specification is linked to an assessment
+- There is no change on the content and the number of assesments
 
 ## Version 1.0.0
 {: #cis-amazon-v100}
 
 Now available
-:   Released today, 17 October 2023, the CIS Amazon Web Services Foundations Benchmark is a collection of controls designed to validate the configuration of your Kubernetes Service clusters. This profile is evaluated by using `wp-rule` assessments. These are assessments that are defined by the Workload Protection service and imported into {{site.data.keyword.compliance_short}}.
+:   Released today, 14 July 2023, the CIS Amazon Web Services Foundations Benchmark is a collection of controls designed to validate the configuration of your Kubernetes Service clusters. This profile is evaluated by using `wp-rule` assessments. These are assessments that are defined by the Workload Protection service and imported into {{site.data.keyword.compliance_short}}.
