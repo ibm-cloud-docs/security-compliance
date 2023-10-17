@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-16"
+lastupdated: "2023-10-17"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -21,7 +21,7 @@ The following changes to the service were made available with the associated dat
 
 
 
-## 10 October 2023
+## 17 October 2023
 {: #security-compliance-oct162023}
 {: release-note}
 
