@@ -42,18 +42,9 @@ The following table details the release dates and status of each profile version
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
-| Version 1.1.0 | `2023-10-17` | Active |
 | Version 1.0.0 | `2023-07-14` | Active |
 {: caption="Table. Active versions of the CIS Amazon Web Services Foundations Benchmark" caption-side="top"}
 
-## Version 1.1.0
-{: #cis-amazon-v110}
-
-Now available
-
-:   Released today, 17 Oct 2023, we have added the following updates to the CIS Amazon Web Services Foundations Benchmark:
-- We have mapped assessments to control specification where each control specification is linked to an assessment
-- There is no change on the content and the number of assesments
 
 ## Version 1.0.0
 {: #cis-amazon-v100}
