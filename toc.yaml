@@ -66,6 +66,10 @@ toc:
           - integrations/integrations.md
           - integrations/workloadprotection.md
       - topicgroup:
+          label: Logging and monitoring
+          topics:
+          - framework/external-logs.md
+      - topicgroup:
           label: Enhancing security
           topics:
           - topic: framework/iam.md
@@ -77,6 +81,8 @@ toc:
           - topic: framework/at-events.md
             navtitle: Auditing events
           - topic: framework/cbr.md
+          - topic: framework/vpe.md
+            navtitle: Using private endpoints
   - navgroup:
       id: reference
       topics:
@@ -161,5 +167,6 @@ toc:
           - troubleshooting/ts-results-osco.md
           - troubleshooting/ts-utp-osco.md
           - troubleshooting/cache.md
+          - troubleshooting/ts-results-cbr.md
       - known-issues.md
       - limits.md

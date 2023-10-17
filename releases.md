@@ -22,7 +22,7 @@ The following changes to the service were made available with the associated dat
 
 
 ## 17 October 2023
-{: #security-compliance-oct162023}
+{: #security-compliance-oct172023}
 {: release-note}
 
 Version 1.1.0 of the IBM Cloud Kubernetes Service Benchmark
@@ -31,6 +31,9 @@ Version 1.1.0 of the IBM Cloud Kubernetes Service Benchmark
 
 Version 1.1.0 of the CIS Microsoft Azure Foundations Benchmark
 :   Version 1.1.0 of the CIS Microsoft Azure Foundations Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliancecis-benchmark-profile).
+
+Logging
+You can view and analyze {{site.data.keyword.compliance_short}} logs by using the {{site.data.keyword.la_full}} service and enabling platform logs in each region where you operate in {{site.data.keyword.cloud_notm}}. For more information, see [Logging for {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-logging).
 
 
 
