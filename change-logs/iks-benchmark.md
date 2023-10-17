@@ -49,7 +49,7 @@ The following table details the release dates and status of each profile version
 {: #iks-v110}
 
 Now available
-: As of 17 October 2023, new assessments have been added to the {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile. These assessments are evaluated by using the Workload Protection service and then imported into {{site.data.keyword.compliance_short}}.
+:   As of 17 October 2023, the control hierarchy in the {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile has changed. Assessments have been remapped so that a single assessment is mapped to a single specification. No new assessments were added.
 
 
 
