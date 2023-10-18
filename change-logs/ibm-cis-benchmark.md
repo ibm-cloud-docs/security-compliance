@@ -32,6 +32,8 @@ This profile is consistently updated and is not an exhaustive list of all the co
 
 The following table details the release dates and status of each profile version.
 
+
+
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
 | Version 1.0.0 | `2023-05-17` | Active |

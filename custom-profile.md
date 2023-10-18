@@ -48,8 +48,7 @@ You can create a profile through the console by using a control library as a gui
 	1.  Click **Add** to view the available control libararies. 
 	2. Select the library that you want to pull controls from.
 	
-		If you don't see exactly what you're looking for, you can always create a custom control library and it will display in the screen.
-		{: tip}
+		
 
 	3. Select the controls that you want to evaluate. To view the associated assessments, you can click eye icon.
 	4. When you have all of your controls selected, click **Add**.

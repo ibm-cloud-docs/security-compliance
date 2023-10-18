@@ -9,7 +9,7 @@ toc:
     product-page: https://ibm.com/cloud/security-and-compliance-center
     path: security-compliance
     label: Security and Compliance Center
-  entries: 
+  entries:
   - navgroup:
       id: learn
       topics:
@@ -17,7 +17,7 @@ toc:
         navtitle: Getting started
       - topicgroup:
           label: About
-          topics: 
+          topics:
           - topic: overview.md
             navtitle: How it works
           - topic: pricing.md
@@ -35,7 +35,7 @@ toc:
   - navgroup:
       id: howto
       topics:
-      - topicgroup: 
+      - topicgroup:
           label: Setting up the service
           topics:
           - topic: assign-access.md
@@ -48,12 +48,12 @@ toc:
             navtitle: Integrating with your resources
           - topic: terraform-setup.md
             navtitle: Setting up Terraform
-      - topicgroup: 
+      - topicgroup:
           label: Evaluating your resources
           topics:
           - available-components.md
           - run-evaluation.md
-          - topicgroup: 
+          - topicgroup:
               label: Customizing your evaluation
               topics:
               - custom-library.md
@@ -66,6 +66,10 @@ toc:
           - integrations/integrations.md
           - integrations/workloadprotection.md
       - topicgroup:
+          label: Logging and monitoring
+          topics:
+          - framework/external-logs.md
+      - topicgroup:
           label: Enhancing security
           topics:
           - topic: framework/iam.md
@@ -77,17 +81,19 @@ toc:
           - topic: framework/at-events.md
             navtitle: Auditing events
           - topic: framework/cbr.md
+          - topic: framework/vpe.md
+            navtitle: Using private endpoints
   - navgroup:
       id: reference
-      topics: 
-      - topicgroup: 
+      topics:
+      - topicgroup:
           label: API & SDK reference
           topics:
           - link:
               label: Security and Compliance Center API
               href: https://{DomainName}/apidocs/security-compliance/
           - change-logs/changelog-api.md
-      - topicgroup: 
+      - topicgroup:
           label: Terraform reference
           topics:
           - link:
@@ -133,14 +139,14 @@ toc:
                 navtitle: PCI DSS v4.0
               - topic: change-logs/ens-high.md
                 navtitle: ENS High
-      - topicgroup: 
+      - topicgroup:
           label: Service availability
           topics:
           - topic: framework/high-availability.md
             navtitle: Understanding high availability
           - topic: framework/disaster-recovery.md
             navtitle: Understanding disaster recovery
-      - topicgroup: 
+      - topicgroup:
           label: Related links
           topics:
             - link:
@@ -149,8 +155,8 @@ toc:
   - navgroup:
       id: help
       topics:
-      - faqs.md 
-      - topicgroup: 
+      - faqs.md
+      - topicgroup:
           label: Troubleshooting
           topics:
           - troubleshooting/contact.md
@@ -161,5 +167,6 @@ toc:
           - troubleshooting/ts-results-osco.md
           - troubleshooting/ts-utp-osco.md
           - troubleshooting/cache.md
+          - troubleshooting/ts-results-cbr.md
       - known-issues.md
       - limits.md

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-03"
+lastupdated: "2023-10-17"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -26,7 +26,7 @@ To work with this profile, you must connect an instance of [Workload Protection]
 ## Profile versioning
 {: #cis-amazon-versioning}
 
-When specifications or controls are edited, removed from, or added to a profile in a way that is not compatible with the current version, a new version is released. To take advantage of the changes in a new version, update your attachments to use the newest profile version. 
+When specifications or controls are edited, removed from, or added to a profile in a way that is not compatible with the current version, a new version is released. To take advantage of the changes in a new version, update your attachments to use the newest profile version.
 
 This profile is consistently updated and is not an exhaustive list of all the controls that might be required for every organization. Be sure to validate the available controls to determine where you might need to supplement your workloads with other security measures.
 {: important}
@@ -37,6 +37,8 @@ This profile is consistently updated and is not an exhaustive list of all the co
 {: #cis-amazon-versions}
 
 The following table details the release dates and status of each profile version.
+
+
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
@@ -49,4 +51,3 @@ The following table details the release dates and status of each profile version
 
 Now available
 :   Released today, 14 July 2023, the CIS Amazon Web Services Foundations Benchmark is a collection of controls designed to validate the configuration of your Kubernetes Service clusters. This profile is evaluated by using `wp-rule` assessments. These are assessments that are defined by the Workload Protection service and imported into {{site.data.keyword.compliance_short}}.
-
