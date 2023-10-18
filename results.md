@@ -133,6 +133,8 @@ print(json.dumps(report_summary, indent=2))
 
 A successful response returns the detailed report from your scan, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#get-report-summary).
 
+
+
 ## Viewing detailed results with Terraform
 {: #view-detailed-results-terraform}
 {: terraform}
