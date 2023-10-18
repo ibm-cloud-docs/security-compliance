@@ -164,7 +164,6 @@ When you view results in {{site.data.keyword.compliance_short}}, each evaluation
 {: caption="Table 2. Understanding result statuses}
 
 
-{: pre}
 
 ## Downloading a report
 {: #download-report}
