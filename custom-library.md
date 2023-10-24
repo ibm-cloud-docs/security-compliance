@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-11"
+lastupdated: "2023-10-24"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -171,7 +171,7 @@ System.out.println(controlLibrary);
 
 
 
-```node
+```bash
 // Request models needed by this operation.
 
 // ParameterInfo

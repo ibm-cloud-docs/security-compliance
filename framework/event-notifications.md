@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-11"
+lastupdated: "2023-10-24"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -163,7 +163,7 @@ System.out.println(settings);
 
 
 
-```node
+```bash
 // Request models needed by this operation.
 
 // EventNotifications
@@ -286,7 +286,7 @@ System.out.println(testEvent);
 {: java}
 
 
-```node
+```bash
 const params = {
   xCorrelationId: xCorrelationIdLink,
 };
