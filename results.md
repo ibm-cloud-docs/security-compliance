@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-18"
+lastupdated: "2023-10-24"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -103,7 +103,7 @@ System.out.println(reportSummary);
 {: codeblock}
 {: java}
 
-```node
+```bash
 const params = {
   reportId: reportIdForReportLink,
 };

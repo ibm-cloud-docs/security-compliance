@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-16"
+lastupdated: "2023-10-24"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -190,7 +190,7 @@ System.out.println(attachmentPrototype);
 {: codeblock}
 {: java}
 
-```node
+```bash
 // Request models needed by this operation.
 
 // PropertyItem
@@ -384,7 +384,7 @@ System.out.println(scan);
 {: java}
 
 
-```node
+```bash
 const params = {
   attachmentId: attachmentIdLink,
 };
