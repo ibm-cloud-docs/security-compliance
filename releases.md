@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-25"
+lastupdated: "2023-10-27"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -19,15 +19,15 @@ content-type: release-note
 The following changes to the service were made available with the associated date.
 
 
+
+
+
 ## 24 October 2023
 {: #security-compliance-oct2423}
 {: release-note}
 
 Remediation
 :   For a select group of controls, remediation informaiton is now available in the {{site.data.keyword.compliance_short}} UI. To see remediation, navigate to your results, and select the control. A side panel opens with additional information, click the **Non-compliant properties** tab.
-
-
-
 
 
 ## 17 October 2023
