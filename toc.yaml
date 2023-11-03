@@ -146,6 +146,8 @@ toc:
             navtitle: Understanding high availability
           - topic: framework/disaster-recovery.md
             navtitle: Understanding disaster recovery
+      - topic: framework/endpoints.md
+        navtitle: Endpoints and URLs
       - topicgroup:
           label: Related links
           topics:
