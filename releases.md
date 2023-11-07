@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-27"
+lastupdated: "2023-11-07"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -19,6 +19,22 @@ content-type: release-note
 The following changes to the service were made available with the associated date.
 
 
+
+
+
+## 7 November 2023
+{: #security-compliance-nov723}
+{: release-note}
+
+New rules available
+:   The DevSecOps Toolchain service can now be evaluated to determine whether all changes to source code have been manually reviewed.
+:   The DevSecOps Toolchain service can now be evaluated to determine whether a toolchain is configured to validate signature provenance of each deployed artifact.
+:   The IBM Log Analysis service can now be evaluated to determine whether log retention is set to a user-defined amount of days.
+:   The Identity and Access Management service can now be evaluated to determine whether a user's contact email is valid.
+:   The Secrets Manager service can now be evaluated to determine whether certificates that are generated through the service are configured to be renewed before they expire.
+:   The Event Notifications service can now be evaluated to determine whether it is configured for {{site.data.keyword.compliance_short}}.
+
+For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 
 
