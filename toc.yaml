@@ -140,7 +140,7 @@ toc:
               - topic: change-logs/ens-high.md
                 navtitle: ENS High
               - topic: change-logs/bsi-c5.md
-                navtitle: BSI C5
+                navtitle: C5:2020
       - topicgroup:
           label: Service availability
           topics:
