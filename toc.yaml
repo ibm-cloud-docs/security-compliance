@@ -1,0 +1,174 @@
+toc:
+  properties:
+    subcollection: security-compliance
+    service-name: compliance
+    category: security
+    audience: platform
+    href: /docs/security-compliance
+    console-page: /security-compliance
+    product-page: https://ibm.com/cloud/security-and-compliance-center
+    path: security-compliance
+    label: Security and Compliance Center
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+      - topic: getting-started.md
+        navtitle: Getting started
+      - topicgroup:
+          label: About
+          topics:
+          - topic: overview.md
+            navtitle: How it works
+          - topic: pricing.md
+            navtitle: Pricing
+          - topic: framework/responsibilities.md
+            navtitle: Your responsibilities
+      - topic: best-practices.md
+        navtitle: Best practices
+      - topic: releases.md
+        navtitle: Release notes
+  - navgroup:
+      id: tutorial
+      topics:
+      - tutorials/osco-v2.md
+  - navgroup:
+      id: howto
+      topics:
+      - topicgroup:
+          label: Setting up the service
+          topics:
+          - topic: assign-access.md
+            navtitle: Assigning access
+          - topic: data-storage.md
+            navtitle: Connecting storage
+          - topic: framework/event-notifications.md
+            navtitle: Enabling notifications
+          - topic: developer-tools.md
+            navtitle: Integrating with your resources
+          - topic: terraform-setup.md
+            navtitle: Setting up Terraform
+      - topicgroup:
+          label: Evaluating your resources
+          topics:
+          - available-components.md
+          - run-evaluation.md
+          - topicgroup:
+              label: Customizing your evaluation
+              topics:
+              - custom-library.md
+              - custom-profile.md
+              - custom-rule.md
+      - results.md
+      - topicgroup:
+          label: Connecting integrations
+          topics:
+          - integrations/integrations.md
+          - integrations/workloadprotection.md
+      - topicgroup:
+          label: Logging and monitoring
+          topics:
+          - framework/external-logs.md
+      - topicgroup:
+          label: Enhancing security
+          topics:
+          - topic: framework/iam.md
+            navtitle: Managing IAM access
+          - topic: framework/data-security.md
+            navtitle: Understanding data encryption
+          - topic: framework/architecture-workload-isolation.md
+            navtitle: Learning about architecture and workload isolation
+          - topic: framework/at-events.md
+            navtitle: Auditing events
+          - topic: framework/cbr.md
+          - topic: framework/vpe.md
+            navtitle: Using private endpoints
+  - navgroup:
+      id: reference
+      topics:
+      - topicgroup:
+          label: API & SDK reference
+          topics:
+          - link:
+              label: Security and Compliance Center API
+              href: https://{DomainName}/apidocs/security-compliance/
+          - change-logs/changelog-api.md
+      - topicgroup:
+          label: Terraform reference
+          topics:
+          - link:
+              label: Security and Compliance Center Terraform
+              href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule
+      - topicgroup:
+          label: Profile change logs
+          topics:
+          - available-profiles.md
+          - topicgroup:
+              label: IBM Cloud
+              topics:
+              - topic: change-logs/ibm-cis-benchmark.md
+                navtitle: CIS Foundations Benchmark
+              - topic: change-logs/ibm-sec-practices-changes.md
+                navtitle: Cloud Security Best Practices
+              - topic: change-logs/fs-cloud-changes.md
+                navtitle: Framework for Financial Services
+              - topic: change-logs/iks-benchmark.md
+                navtitle: Kubernetes Service Benchmark
+              - topic: change-logs/osco-benchmark.md
+                navtitle: Red Hat OpenShift Kubernetes OCP4
+          - topicgroup:
+              label: Amazon Web Services
+              topics:
+              - topic: change-logs/cis-aws.md
+                navtitle: CIS Foundations Benchmark
+              - topic: change-logs/cis-aws-eks.md
+                navtitle: CIS Kubernetes Service Benchmark
+          - topicgroup:
+              label: Microsoft Azure
+              topics:
+              - topic: change-logs/cis-azure.md
+                navtitle: CIS Foundations Benchmark
+              - topic: change-logs/cis-azure-ks.md
+                navtitle: CIS Kubernetes Service Benchmark
+          - topicgroup:
+              label: Multi-evironment
+              topics:
+              - topic: change-logs/nist-800-53.md
+                navtitle: NIST SP 800-53
+              - topic: change-logs/pci-dss.md
+                navtitle: PCI DSS v4.0
+              - topic: change-logs/ens-high.md
+                navtitle: ENS High
+      - topicgroup:
+          label: Service availability
+          topics:
+          - topic: framework/high-availability.md
+            navtitle: Understanding high availability
+          - topic: framework/disaster-recovery.md
+            navtitle: Understanding disaster recovery
+      - topic: framework/endpoints.md
+        navtitle: Endpoints and URLs
+      - topicgroup:
+          label: Related links
+          topics:
+            - link:
+               label: IBM Cloud compliance programs
+               href: https://www.ibm.com/cloud/compliance
+  - navgroup:
+      id: help
+      topics:
+      - faqs.md
+      - topicgroup:
+          label: Troubleshooting
+          topics:
+          - troubleshooting/contact.md
+          - troubleshooting/no-results.md
+          - troubleshooting/result-deleted-resource.md
+          - troubleshooting/ts-cos-store.md
+          - troubleshooting/ts-notifications.md
+          - troubleshooting/ts-results-osco.md
+          - troubleshooting/ts-utp-osco.md
+          - troubleshooting/cache.md
+          - troubleshooting/ts-results-cbr.md
+      - known-issues.md
+      - limits.md
