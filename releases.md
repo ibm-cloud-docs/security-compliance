@@ -20,14 +20,7 @@ The following changes to the service were made available with the associated dat
 
 
 
-<staging>
 
-## 14 November 2023
-{: #security-compliance-nov723}
-{: release-note}
-
-Version 1.0.0 of the BSI C5 profile
-:   Version 1.0.0 of the BSI C5 profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-ens-high-change-log).
 
 ## 7 November 2023
 {: #security-compliance-nov723}
