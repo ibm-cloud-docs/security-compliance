@@ -40,7 +40,7 @@ The following table details the release dates and status of each profile version
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
 | Version 1.0.0 | `2023-11-14` | Active |
-{: caption="Table. Active versions of the ENS High profile" caption-side="top"}
+{: caption="Table. Active versions of the BSI C5 profile" caption-side="top"}
 
 
 ## Version 1.0.0
