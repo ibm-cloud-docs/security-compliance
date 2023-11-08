@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-17"
+lastupdated: "2023-11-08"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -42,8 +42,15 @@ The following table details the release dates and status of each profile version
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
+| Version 1.1.0 | `2023-11-07` | Active |
 | Version 1.0.0 | `2023-07-14` | Active |
 {: caption="Table. Active versions of the CIS Amazon Web Services Foundations Benchmark" caption-side="top"}
+
+## Version 1.1.0
+{: #cis-amazon--v110}
+
+Now available
+:   As of 7 November 2023, the control hierarchy in the CIS Amazon Web Services Foundations Benchmark profile has changed. Assessments have been remapped so that a single assessment is mapped to a single specification. No new assessments were added.
 
 
 ## Version 1.0.0
