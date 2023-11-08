@@ -139,6 +139,8 @@ toc:
                 navtitle: PCI DSS v4.0
               - topic: change-logs/ens-high.md
                 navtitle: ENS High
+              - topic: change-logs/bsi-c5
+                navtitle: C5:2020
       - topicgroup:
           label: Service availability
           topics:
