@@ -49,7 +49,7 @@ The following table details the release dates and status of each profile version
 {: #cis-azure-ks-v110}
 
 Now available
-:   As of 7 November 2023, the control hierarchy in the CIS Amazon Web Services Foundations Benchmark profile has changed. Assessments have been remapped so that a single assessment is mapped to a single specification. No new assessments were added.
+:   As of 7 November 2023, the control hierarchy in the CIS Azure Kubernetes Service (AKS) Benchmark profile has changed. Assessments have been remapped so that a single assessment is mapped to a single specification. No new assessments were added.
 
 
 ## Version 1.0.0
