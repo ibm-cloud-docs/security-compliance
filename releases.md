@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-11-07"
+lastupdated: "2023-11-08"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -36,6 +36,14 @@ New rules available
 
 For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
+Version 1.1.0 of the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark
+:   Version 1.1.0 of the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-iks-profile&interface=ui).
+
+Version 1.1.0 of the CIS Amazon Web Services Foundations Benchmark
+:   Version 1.1.0 of the CIS Amazon Web Services Foundations Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliancecis-benchmark-profile).
+
+Version 1.1.0 of the CIS Azure Kubernetes Service (AKS) Benchmark
+:   Version 1.1.0 of the CIS Azure Kubernetes Service (AKS) Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliancecis-benchmark-profile).
 
 
 ## 24 October 2023
