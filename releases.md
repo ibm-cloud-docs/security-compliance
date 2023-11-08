@@ -37,13 +37,13 @@ New rules available
 For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 Version 1.1.0 of the CIS Amazon Web Services Foundations Benchmark
-:   Version 1.1.0 of the CIS Amazon Web Services Foundations Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliancecis-amazon-benchmark).
+:   Version 1.1.0 of the CIS Amazon Web Services Foundations Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-amazon-benchmark).
 
 Version 1.1.0 of the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark
-:   Version 1.1.0 of the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliancecis-amazon-eks-benchmark).
+:   Version 1.1.0 of the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-amazon-eks-benchmark).
 
 Version 1.1.0 of the CIS Azure Kubernetes Service (AKS) Benchmark
-:   Version 1.1.0 of the CIS Azure Kubernetes Service (AKS) Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliancecis-azure-ks-benchmark).
+:   Version 1.1.0 of the CIS Azure Kubernetes Service (AKS) Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-azure-ks-benchmark).
 
 
 ## 24 October 2023
@@ -63,7 +63,7 @@ Version 1.1.0 of the IBM Cloud Kubernetes Service Benchmark
 
 
 Version 1.1.0 of the CIS Microsoft Azure Foundations Benchmark
-:   Version 1.1.0 of the CIS Microsoft Azure Foundations Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliancecis-benchmark-profile).
+:   Version 1.1.0 of the CIS Microsoft Azure Foundations Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-benchmark-profile).
 
 Logging
 You can view and analyze {{site.data.keyword.compliance_short}} logs by using the {{site.data.keyword.la_full}} service and enabling platform logs in each region where you operate in {{site.data.keyword.cloud_notm}}. For more information, see [Logging for {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-logging).
