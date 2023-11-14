@@ -32,6 +32,7 @@ toc:
       id: tutorial
       topics:
       - tutorials/osco-v2.md
+      - tutorials/tags.md
   - navgroup:
       id: howto
       topics:
