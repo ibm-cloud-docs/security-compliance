@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-24"
+lastupdated: "2023-11-14"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -41,16 +41,18 @@ Before you can start evaluating your resources for compliance, you must configur
 The processing of your data is configured in your instance's location. For example, if you provision a {{site.data.keyword.compliance_short}} instance in the `us-south` region, your data is processed there.
 {: note}
 
-
 To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword.compliance_short}} UI.
 
-2. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {{site.data.keyword.compliance_short}}.
+1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {{site.data.keyword.compliance_short}}.
 2. In the navigation, click **Settings**.
 3. On the **Storage** tile, click **Connect**.
-4. If a service-to-service policy is not already enabled, use the in-context settings to create one. If you already have a policy in place, this screen does not show and you can skip to the next step.
-5. Select an instance of Cloud Object Storage.
-6. From the table, select the bucket that you want to use.
-7. Click **Connect**.
+4. If a service-to-service policy is not enabled between Cloud Object Storage and {{site.data.keyword.compliance_short}}, a notification will display. You must enable a policy before you can continue. If a policy has already been enabled, you will not see the notification and can skip to step 5. To enable a policy, use the following steps.
+	1. Click **Authorize**.
+	2. The **Target Service** is already selected for Cloud Object Storage.
+	3. The **Writer** role that is required is selected by default.
+	4. Click **Review**. Then, click **Assign**.
+5. Select an instance of Cloud Object Storage and the bucket that you want to use.
+6. Click **Connect**.
 
 If you disconnect your instance of Cloud Object Storage or select a new bucket, {{site.data.keyword.compliance_short}} is not able to read any of your existing results data. An evaluation can't complete without a connected Cloud Object Storage bucket.
 {: important}
