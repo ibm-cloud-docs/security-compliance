@@ -29,10 +29,10 @@ The following integrations are available in {{site.data.keyword.compliance_short
 
 | Product | Description | Data model | Getting started |
 |---------|-------------|------------|-----------------|
-| {{site.data.keyword.sysdigsecure_short}} |  | {{site.data.keyword.compliance_short}} pull's results from {{site.data.keyword.sysdigsecure_short}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-setup-workload-protection) |
-| CyberStrong |  | Pull results from {{site.data.keyword.compliance_short}} | [![Note icon](../../icons/note_icon.svg)](https://support.cybersaint.io/hc/en-us/categories/8496076077165-Knowledge-Library) |<internal>
-| Eric Tree | | Fact-based results push to {{site.data.keyword.compliance_short}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance) |
-| Auditree | | Fact-based results push to {{site.data.keyword.compliance_short}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance) |</internal>
+| {{site.data.keyword.sysdigsecure_short}} |  | {{site.data.keyword.compliance_short}} pulls results from {{site.data.keyword.sysdigsecure_short}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-setup-workload-protection) |
+| CyberStrong |  | {{site.data.keyword.compliance_short}} forwards results | [![Note icon](../../icons/note_icon.svg)](https://support.cybersaint.io/hc/en-us/categories/8496076077165-Knowledge-Library) |<internal>
+| Eric Tree | | Eric Tree pushes fact-based results to {{site.data.keyword.compliance_short}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance) |
+| Auditree | | Auditree pushes fact-based results to {{site.data.keyword.compliance_short}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance) |</internal>
 {: caption="Table 1. Available integrations" caption-side="bottom"}
 
 
