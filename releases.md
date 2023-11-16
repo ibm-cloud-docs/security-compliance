@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-11-08"
+lastupdated: "2023-11-16"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -20,7 +20,12 @@ The following changes to the service were made available with the associated dat
 
 
 
+## 16 November 2023
+{: #security-compliance-nov1423}
+{: release-note}
 
+Version 1.0.0 of the C5:2020 profile
+:   Version 1.0.0 of the C5:2020 profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-bsi-c5-change-log).
 
 ## 7 November 2023
 {: #security-compliance-nov723}
