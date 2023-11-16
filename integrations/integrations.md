@@ -21,19 +21,6 @@ To fully understand your security and compliance landscape across multiple cloud
 
 
 
-
-## Available integrations
-{: #integrations-available}
-
-The following integrations are available in {{site.data.keyword.compliance_short}}. 
-
-| Product | Description | Data model | Getting started |
-|---------|-------------|------------|-----------------|
-| {{site.data.keyword.sysdigsecure_short}} |  | {{site.data.keyword.compliance_short}} pulls results from {{site.data.keyword.sysdigsecure_short}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-setup-workload-protection) |
-| CyberStrong |  | {{site.data.keyword.compliance_short}} forwards results | [![Note icon](../../icons/note_icon.svg)](https://support.cybersaint.io/hc/en-us/categories/8496076077165-Knowledge-Library) |
-{: caption="Table 1. Available integrations" caption-side="bottom"}
-
-
 ## Finding existing integrations
 {: #integrations-existing}
 
