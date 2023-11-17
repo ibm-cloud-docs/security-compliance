@@ -39,13 +39,10 @@ Review the following table to determine the API endpoints to use when you connec
 | ------------- | ---------------------------- |
 | Dallas        | **Public:** `https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3`  \n  \n  **Private:** `https://private.us-south.compliance.test.cloud.ibm.com/instances/{instance_id}/v3` | 
 | Frankfurt     | **Public:** `https://eu-de.compliance.cloud.ibm.com/instances/{instance_id}/v3`  \n  \n  **Private:** `https://private.eu-de.compliance.cloud.ibm.com/instances/{instance_id}/v3` |
-| Toronto       |  **Public:** `https://ca-tor.compliance.cloud.ibm.com/instances/{instance_id}/v3`  \n  \n  **Private:** `https://private.ca-tor.compliance.cloud.ibm.com/instances/{instance_id}/v3` |<madrid>
-| Madrid[^internal]        | **Public:** `https://eu-es.compliance.cloud.ibm.com/instances/{instance_id}/v3`  \n  \n  **Private:** `https://private.eu-es.compliance.test.cloud.ibm.com/instances/{instance_id}/v3` |</madrid>
+| Toronto       |  **Public:** `https://ca-tor.compliance.cloud.ibm.com/instances/{instance_id}/v3`  \n  \n  **Private:** `https://private.ca-tor.compliance.cloud.ibm.com/instances/{instance_id}/v3` |
 {: caption="Table 1. Endpoints for interacting with {{site.data.keyword.compliance_short}}" caption-side="top"}
 
-<madrid>
-[^internal]: The Madrid region is available only to IBMers at this time.
-</madrid>
+
 
 ### Viewing your endpoint URLs
 {: #view-endpoint-urls}
