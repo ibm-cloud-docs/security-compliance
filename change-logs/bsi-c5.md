@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023, 2023
-lastupdated: "2023-11-15"
+lastupdated: "2023-11-20"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -46,4 +46,4 @@ The following table details the release dates and status of each profile version
 {: #bsi-c5-version4}
 
 Now available
-:   Released today, 14 November 2023, the C5:2020 profile is a collection of controls designed to validate the configuration of your resources.
+:   Released today, 16 November 2023, the C5:2020 profile is a collection of controls designed to validate the configuration of your resources.
