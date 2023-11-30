@@ -38,7 +38,7 @@ The following table details the release dates and status of each profile version
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
-| Version 1.0.0 | `2023-11-16` | Active |
+| Version 1.0.0 | `2023-12-05` | Active |
 {: caption="Table. Active versions of the SOC 2 profile" caption-side="top"}
 
 
