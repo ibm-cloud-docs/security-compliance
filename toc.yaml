@@ -119,6 +119,8 @@ toc:
                 navtitle: Red Hat OpenShift Kubernetes OCP4
               - topic: change-logs/bsi-c5.md
                 navtitle: C5:2020
+              - topic: change-logs/soc.md
+                navtitle: SOC 2
           - topicgroup:
               label: Amazon Web Services
               topics:
