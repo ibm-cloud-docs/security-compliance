@@ -16,7 +16,7 @@ content-type: release-note
 # Change log: CIS AWS Foundational Security Best Practices
 {: #cis-aws-fs-benchmark}
 
-In this change log, you can learn about the latest changes, improvements, and updates for the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark profile. The change log lists changes that were made, ordered by the version number.
+In this change log, you can learn about the latest changes, improvements, and updates for the CIS AWS Foundational Security Best Practices  profile. The change log lists changes that were made, ordered by the version number.
 
 
 To work with this profile, you must connect an instance of [Workload Protection](/docs/security-compliance?topic=security-compliance-setup-workload-protection).
@@ -33,7 +33,7 @@ This profile is consistently updated and is not an exhaustive list of all the co
 
 
 ### Version summary
-{: #cis-amazon-eks-versions}
+{: #cis-aws-fs-versions}
 
 The following table details the release dates and status of each profile version.
 
@@ -41,20 +41,20 @@ The following table details the release dates and status of each profile version
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
-| Version 1.1.0 | `2023-11-07` | Active |
-| Version 1.0.0 | `2023-07-14` | Active |
-{: caption="Table. Active versions of the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark" caption-side="top"}
+| Version 1.1.0 | `2023-11-21` | Active |
+| Version 1.0.0 | `2023-09-23` | Active |
+{: caption="Table. Active versions of the CIS AWS Foundational Security Best Practices" caption-side="top"}
 
 
 ## Version 1.1.0
-{: #is-amazon-eks-v110}
+{: #cis-aws-fs-v110}
 
 Now available
-:   As of 7 November 2023, the control hierarchy in the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark profile has changed. Assessments have been remapped so that a single assessment is mapped to a single specification. No new assessments were added.
+:   As of 21 November 2023, the control hierarchy in the CIS AWS Foundational Security Best Practices profile has changed. Assessments have been remapped so that a single assessment is mapped to a single specification. No new assessments were added.
 
 
 ## Version 1.0.0
-{: #cis-amazon-eks-v100}
+{: #cis-aws-fs-v100}
 
 Now available
-:   Released today, 14 July 2023, the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark is a collection of controls designed to validate the configuration of your Kubernetes Service clusters. This profile is evaluated by using `wp-rule` assessments. These are assessments that are defined by the Workload Protection service and imported into {{site.data.keyword.compliance_short}}.
+:   Released today, 23 September 2023, the CIS AWS Foundational Security Best Practices is a set of controls that detect when your AWS accounts and resources deviate from security best practices.This profile is evaluated by using `wp-rule` assessments. These are assessments that are defined by the Workload Protection service and imported into {{site.data.keyword.compliance_short}}.
