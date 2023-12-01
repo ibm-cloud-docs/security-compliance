@@ -128,6 +128,8 @@ toc:
                 navtitle: CIS Kubernetes Service Benchmark
               - topic: change-logs/cis-aws-fs.md
                 navtitle: CIS AWS Foundational Security Best Practices
+              - topic: change-logs/cis-aws-waf.md
+                navtitle: CIS AWS Well-Architected Framework
           - topicgroup:
               label: Microsoft Azure
               topics:
