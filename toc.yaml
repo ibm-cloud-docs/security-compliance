@@ -126,6 +126,8 @@ toc:
                 navtitle: CIS Foundations Benchmark
               - topic: change-logs/cis-aws-eks.md
                 navtitle: CIS Kubernetes Service Benchmark
+              - topic: change-logs/cis-aws-fs.md
+                navtitle: CIS AWS Foundational Security Best Practices
           - topicgroup:
               label: Microsoft Azure
               topics:
