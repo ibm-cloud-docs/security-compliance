@@ -117,6 +117,8 @@ toc:
                 navtitle: Kubernetes Service Benchmark
               - topic: change-logs/osco-benchmark.md
                 navtitle: Red Hat OpenShift Kubernetes OCP4
+              - topic: change-logs/bsi-c5.md
+                navtitle: C5:2020
           - topicgroup:
               label: Amazon Web Services
               topics:
@@ -140,8 +142,6 @@ toc:
                 navtitle: PCI DSS v4.0
               - topic: change-logs/ens-high.md
                 navtitle: ENS High
-              - topic: change-logs/bsi-c5.md
-                navtitle: C5:2020
       - topicgroup:
           label: Service availability
           topics:
