@@ -20,7 +20,7 @@ The following changes to the service were made available with the associated dat
 
 
 
-## 5 December 2023
+## 6 December 2023
 
 Version 1.0.0 of the SOC 2
 :   Version 1.0.0 of the SOC 2 is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-soc2-change-log).

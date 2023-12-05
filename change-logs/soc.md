@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023, 2023
-lastupdated: "2023-12-01"
+lastupdated: "2023-12-05"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -38,7 +38,7 @@ The following table details the release dates and status of each profile version
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
-| Version 1.0.0 | `2023-12-05` | Active |
+| Version 1.0.0 | `2023-12-06` | Active |
 {: caption="Table. Active versions of the SOC 2 profile" caption-side="top"}
 
 
@@ -46,4 +46,4 @@ The following table details the release dates and status of each profile version
 {: #soc2-version4}
 
 Now available
-:   Released today, 5 December 2023, the SOC 2 profile is a collection of controls designed to validate the configuration of your resources.
+:   Released today, 6 December 2023, the SOC 2 profile is a collection of controls designed to validate the configuration of your resources.
