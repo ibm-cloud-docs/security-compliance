@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-12-01"
+lastupdated: "2023-12-05"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -23,7 +23,7 @@ The following changes to the service were made available with the associated dat
 ## 5 December 2023
 
 Version 1.0.0 of the SOC 2
-:   Version 1.0.0 of the SOC 2 is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-amazon-benchmark).
+:   Version 1.0.0 of the SOC 2 is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-soc2-change-log).
 
 
 
