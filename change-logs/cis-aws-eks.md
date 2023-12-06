@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-11-08"
+lastupdated: "2023-12-06"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -41,13 +41,31 @@ The following table details the release dates and status of each profile version
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
+| Version 1.2.0 | `2023-12-06` | Active |
 | Version 1.1.0 | `2023-11-07` | Active |
 | Version 1.0.0 | `2023-07-14` | Active |
 {: caption="Table. Active versions of the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark" caption-side="top"}
 
 
+## Version 1.2.0
+{: #cis-amazon-eks-v120}
+
+Now available
+:   As of 6 December 2023, few component-id assesments in the AWS Foundational Security Best Practices profile has changed. The component-id of following assements from `container-eks` to `aws-resource`.
+
+* ECR - Enabled Vulnerability Scanning
+* Fargate - Untrusted Workloads
+* KMS - Enabled Secrets Encryption (EKS)
+* Logging - Enabled Cluster Logging (EKS)
+* Network - Disabled Endpoint Public Access in Existing Clusters (EKS)
+* Network - Enabled Endpoint Private Access in Existing Clusters (EKS)
+* Network - Private Nodes (EKS)
+* Network - TLS Encryption to HTTPS Load Balancers (EKS)
+* RBAC - Enabled with AWS IAM Authenticator for Kubernetes
+
+
 ## Version 1.1.0
-{: #is-amazon-eks-v110}
+{: #cis-amazon-eks-v110}
 
 Now available
 :   As of 7 November 2023, the control hierarchy in the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark profile has changed. Assessments have been remapped so that a single assessment is mapped to a single specification. No new assessments were added.
