@@ -50,8 +50,7 @@ The following table details the release dates and status of each profile version
 {: #aws-waf-v120}
 
 Now available
- As of 6 December 2023, few component-id assesments in the AWS Well-Architected Framework profile have changed.
- The component-id of following assements from `container-eks` to `aws-resource`.
+:   As of 6 December 2023, few component-id assesments in the AWS Well-Architected Framework profile have changed. The component-id of following assements from `container-eks` to `aws-resource`.
 
    * ECR - Enabled Vulnerability Scanning
    * Fargate - Untrusted Workloads

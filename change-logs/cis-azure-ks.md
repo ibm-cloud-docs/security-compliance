@@ -50,9 +50,8 @@ The following table details the release dates and status of each profile version
 {: #cis-azure-ks-v120}
 
 Now available
-:   As of 6 December 2023, few component-id assesments in the AWS Well-Architected Framework profile have changed. The component-id of following assements from `container-eks` to `azure-resource`.
+:   As of 6 December 2023, few component-id assesments in the AWS Well-Architected Framework profile have changed. The component-id of following assements from `container-aks` to `azure-resource`.
 
-:
    - ACI - Untrusted Workloads
    - KMS - Enabled Secrets Encryption (AKS)
    - Logging - Enabled Cluster Logging (AKS)
