@@ -51,7 +51,7 @@ The following table details the release dates and status of each profile version
 {: #cis-amazon-eks-v120}
 
 Now available
- As of 6 December 2023, few component-id assesments in the AWS Well-Architected Framework profile have changed.
+ As of 6 December 2023, few component-id assesments in the CIS Amazon Elastic Kubernetes Service (EKS) Benchmarkprofile have changed.
  The component-id of following assements from `container-eks` to `aws-resource`.
 
    * ECR - Enabled Vulnerability Scanning
