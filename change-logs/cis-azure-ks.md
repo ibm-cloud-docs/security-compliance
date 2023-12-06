@@ -52,15 +52,16 @@ The following table details the release dates and status of each profile version
 Now available
 :   As of 6 December 2023, few component-id assesments in the AWS Well-Architected Framework profile have changed. The component-id of following assements from `container-eks` to `azure-resource`.
 
-- ACI - Untrusted Workloads
-- KMS - Enabled Secrets Encryption (AKS)
-- Logging - Enabled Cluster Logging (AKS)
-- Network - Disabled Endpoint Public Access in Existing Clusters (AKS)
-- Network - Enabled Endpoint Private Access in Existing Clusters (AKS)
-- Network - Private Nodes (AKS)
-- Network - Restricted Pod to Pod Traffic (AKS)
-- RBAC - Enabled Azure RBAC (AKS)
-- RBAC - Enabled with Azure AD
+:
+   - ACI - Untrusted Workloads
+   - KMS - Enabled Secrets Encryption (AKS)
+   - Logging - Enabled Cluster Logging (AKS)
+   - Network - Disabled Endpoint Public Access in Existing Clusters (AKS)
+   - Network - Enabled Endpoint Private Access in Existing Clusters (AKS)
+   - Network - Private Nodes (AKS)
+   - Network - Restricted Pod to Pod Traffic (AKS)
+   - RBAC - Enabled Azure RBAC (AKS)
+   - RBAC - Enabled with Azure AD
 
 
 ## Version 1.1.0
