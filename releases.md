@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-12-05"
+lastupdated: "2023-12-06"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -33,7 +33,7 @@ Version 1.1.0 of the AWS Well-Architected Framework
 :   Version 1.1.0 of the AWS Well-Architected Framework is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-aws-waf-benchmark).
 
 Version 1.1.0 of the NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations)
-:   Version 1.1.0 of the NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations) is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-azure-ks-benchmark).
+:   Version 1.1.0 of the NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations) is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-nist-800-53).
 
 ## 16 November 2023
 {: #security-compliance-nov1423}
