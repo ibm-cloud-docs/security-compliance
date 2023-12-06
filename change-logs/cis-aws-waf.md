@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-12-01"
+lastupdated: "2023-12-06"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -13,10 +13,10 @@ content-type: release-note
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Change log: CIS AWS Well-Architected Framework
-{: #cis-aws-waf-benchmark}
+# Change log: AWS Well-Architected Framework
+{: #aws-waf-benchmark}
 
-In this change log, you can learn about the latest changes, improvements, and updates for the CIS AWS Well-Architected Framework profile. The change log lists changes that were made, ordered by the version number.
+In this change log, you can learn about the latest changes, improvements, and updates for the AWS Well-Architected Framework profile. The change log lists changes that were made, ordered by the version number.
 
 
 To work with this profile, you must connect an instance of [Workload Protection](/docs/security-compliance?topic=security-compliance-setup-workload-protection).
@@ -24,7 +24,7 @@ To work with this profile, you must connect an instance of [Workload Protection]
 
 
 ## Profile versioning
-{: #cis-aws-waf-versioning}
+{: #aws-waf-versioning}
 
 When specifications or controls are edited, removed from, or added to a profile in a way that is not compatible with the current version, a new version is released. To take advantage of the changes in a new version, update your attachments to use the newest profile version.
 
@@ -33,7 +33,7 @@ This profile is consistently updated and is not an exhaustive list of all the co
 
 
 ### Version summary
-{: #cis-aws-waf-versions}
+{: #aws-waf-versions}
 
 The following table details the release dates and status of each profile version.
 
@@ -43,18 +43,24 @@ The following table details the release dates and status of each profile version
 |:---------------|:-------------|:-------|
 | Version 1.1.0 | `2023-11-21` | Active |
 | Version 1.0.0 | `2023-09-23` | Active |
-{: caption="Table. Active versions of the CIS AWS Well-Architected Framework" caption-side="top"}
+{: caption="Table. Active versions of the AWS Well-Architected Framework" caption-side="top"}
+
+## Version 1.2.0
+{: #aws-waf-v120}
+
+Now available
+:   As of 21 November 2023, the control hierarchy in the AWS Well-Architected Framework profile has changed. Assessments have been remapped so that a single assessment is mapped to a single specification. No new assessments were added.
 
 
 ## Version 1.1.0
-{: #cis-aws-waf-v110}
+{: #aws-waf-v110}
 
 Now available
-:   As of 21 November 2023, the control hierarchy in the CIS AWS Well-Architected Framework profile has changed. Assessments have been remapped so that a single assessment is mapped to a single specification. No new assessments were added.
+:   As of 21 November 2023, the control hierarchy in the AWS Well-Architected Framework profile has changed. Assessments have been remapped so that a single assessment is mapped to a single specification. No new assessments were added.
 
 
 ## Version 1.0.0
-{: #cis-aws-waf-v100}
+{: #aws-waf-v100}
 
 Now available
-:   Released today, 23 September 2023, the CIS AWS Well-Architected Framework helps you understand the pros and cons of decisions you make while building systems on AWS. This profile is evaluated by using `wp-rule` assessments. These are assessments that are defined by the Workload Protection service and imported into {{site.data.keyword.compliance_short}}.
+:   Released today, 23 September 2023, the AWS Well-Architected Framework helps you understand the pros and cons of deons you make while building systems on AWS. This profile is evaluated by using `wp-rule` assessments. These are assessments that are defined by the Workload Protection service and imported into {{site.data.keyword.compliance_short}}.
