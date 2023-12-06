@@ -52,17 +52,16 @@ The following table details the release dates and status of each profile version
 Now available
 :   As of 6 December 2023, few component-id assesments in the AWS Foundational Security Best Practices profile have changed. The component-id of following assements from `container-eks` to `aws-resource`.
 
-
-* ECR - Enabled Vulnerability Scanning
-* Fargate - Untrusted Workloads
-* KMS - Enabled Secrets Encryption (EKS)
-* Logging - Enabled Cluster Logging (EKS)
-* Network - Disabled Endpoint Public Access in Existing Clusters (EKS)
-* Network - Enabled Endpoint Private Access in Existing Clusters (EKS)
-* Network - Private Nodes (EKS)
-* Network - TLS Encryption to HTTPS Load Balancers (EKS)
-* RBAC - Enabled with AWS IAM Authenticator for Kubernetes
-
+:
+   * ECR - Enabled Vulnerability Scanning
+   * Fargate - Untrusted Workloads
+   * KMS - Enabled Secrets Encryption (EKS)
+   * Logging - Enabled Cluster Logging (EKS)
+   * Network - Disabled Endpoint Public Access in Existing Clusters (EKS)
+   * Network - Enabled Endpoint Private Access in Existing Clusters (EKS)
+   * Network - Private Nodes (EKS)
+   * Network - TLS Encryption to HTTPS Load Balancers (EKS)
+   * RBAC - Enabled with AWS IAM Authenticator for Kubernetes
 
 ## Version 1.1.0
 {: #aws-fs-v110}
