@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-11-08"
+lastupdated: "2023-12-07"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -39,11 +39,34 @@ The following table details the release dates and status of each profile version
 
 
 
+New attachments cannot be created on deprecated profile versions. Select the most recent version to use for your evaluation.
+{: important}
+
+
+
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
+| Version 1.2.0 | `2023-12-06` | Active |
 | Version 1.1.0 | `2023-11-07` | Active |
 | Version 1.0.0 | `2023-07-14` | Active |
 {: caption="Table. Active versions of the CIS Azure Kubernetes Service (AKS) Benchmark" caption-side="top"}
+
+## Version 1.2.0
+{: #cis-azure-ks-v120}
+
+Now available
+:   As of 6 December 2023, few component-id assesments in the AWS Well-Architected Framework profile have changed. The component-id of following assements from `container-aks` to `azure-resource`.
+
+   - ACI - Untrusted Workloads
+   - KMS - Enabled Secrets Encryption (AKS)
+   - Logging - Enabled Cluster Logging (AKS)
+   - Network - Disabled Endpoint Public Access in Existing Clusters (AKS)
+   - Network - Enabled Endpoint Private Access in Existing Clusters (AKS)
+   - Network - Private Nodes (AKS)
+   - Network - Restricted Pod to Pod Traffic (AKS)
+   - RBAC - Enabled Azure RBAC (AKS)
+   - RBAC - Enabled with Azure AD
+
 
 ## Version 1.1.0
 {: #cis-azure-ks-v110}

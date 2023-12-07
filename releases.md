@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-11-16"
+lastupdated: "2023-12-07"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -19,6 +19,49 @@ content-type: release-note
 The following changes to the service were made available with the associated date.
 
 
+
+
+
+## 6 December 2023
+{: #security-compliance-dec0623}
+{: release-note}
+
+Profile versioning now available
+:   Profile versioning is now available in {{site.data.keyword.compliance_short}}. With profile versioning, you can upgrade to the latest version of a profile as updates are released. For more information about profile versioning, including timelines, see [Managing profile versions](/docs/security-compliance?topic=security-compliance-profile-versioning).
+
+Version 1.0.0 of the SOC 2
+:   Version 1.0.0 of the SOC 2 is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-soc2-change-log).
+
+Version 1.2.0 of the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark
+:   Version 1.2.0 of the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-amazon-eks-benchmark).
+
+Version 1.2.0 of the AWS Foundational Security Best Practices
+:   Version 1.2.0 of the AWS Foundational Security Best Practices is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-aws-fs-benchmark).
+
+Version 1.2.0 of the AWS Well-Architected Framework
+:   Version 1.2.0 of the AWS Well-Architected Framework is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-aws-waf-benchmark).
+
+Version 1.2.0 of the NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations)
+:   Version 1.2.0 of the NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations) is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-nist-800-53).
+
+Version 1.2.0 of the CIS Azure Kubernetes Service (AKS) Benchmark
+:   Version 1.2.0 of the CIS Azure Kubernetes Service (AKS) Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-azure-ks-benchmark).
+
+
+
+
+## 21 November 2023
+{: #security-compliance-nov2123}
+{: release-note}
+
+Version 1.1.0 of the AWS Foundational Security Best Practices
+:   Version 1.1.0 of the AWS Foundational Security Best Practices is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-aws-fs-benchmark).
+
+Version 1.1.0 of the AWS Well-Architected Framework
+:   Version 1.1.0 of the AWS Well-Architected Framework is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-aws-waf-benchmark).
+
+Version 1.1.0 of the NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations)
+:   Version 1.1.0 of the NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations) is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-nist-800-53).
 
 ## 16 November 2023
 {: #security-compliance-nov1423}

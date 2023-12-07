@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-17"
+lastupdated: "2023-12-07"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -35,6 +35,11 @@ This profile is consistently updated and is not an exhaustive list of all the co
 {: #cis-azure-versions}
 
 The following table details the release dates and status of each profile version.
+
+
+
+New attachments cannot be created on deprecated profile versions. Select the most recent version to use for your evaluation.
+{: important}
 
 
 

@@ -54,6 +54,7 @@ toc:
           topics:
           - available-components.md
           - run-evaluation.md
+          - profile-versioning.md
           - topicgroup:
               label: Customizing your evaluation
               topics:
@@ -117,6 +118,10 @@ toc:
                 navtitle: Kubernetes Service Benchmark
               - topic: change-logs/osco-benchmark.md
                 navtitle: Red Hat OpenShift Kubernetes OCP4
+              - topic: change-logs/bsi-c5.md
+                navtitle: C5:2020
+              - topic: change-logs/soc.md
+                navtitle: SOC 2
           - topicgroup:
               label: Amazon Web Services
               topics:
@@ -124,6 +129,10 @@ toc:
                 navtitle: CIS Foundations Benchmark
               - topic: change-logs/cis-aws-eks.md
                 navtitle: CIS Kubernetes Service Benchmark
+              - topic: change-logs/cis-aws-fs.md
+                navtitle: CIS AWS Foundational Security Best Practices
+              - topic: change-logs/cis-aws-waf.md
+                navtitle: CIS AWS Well-Architected Framework
           - topicgroup:
               label: Microsoft Azure
               topics:
@@ -140,8 +149,6 @@ toc:
                 navtitle: PCI DSS v4.0
               - topic: change-logs/ens-high.md
                 navtitle: ENS High
-              - topic: change-logs/bsi-c5.md
-                navtitle: C5:2020
       - topicgroup:
           label: Service availability
           topics:

@@ -13,10 +13,10 @@ content-type: release-note
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Change log: CIS Amazon Elastic Kubernetes Service (EKS) Benchmark
-{: #cis-amazon-eks-benchmark}
+# Change log: AWS Foundational Security Best Practices
+{: #aws-fs-benchmark}
 
-In this change log, you can learn about the latest changes, improvements, and updates for the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark profile. The change log lists changes that were made, ordered by the version number.
+In this change log, you can learn about the latest changes, improvements, and updates for the CIS AWS Foundational Security Best Practices  profile. The change log lists changes that were made, ordered by the version number.
 
 
 To work with this profile, you must connect an instance of [Workload Protection](/docs/security-compliance?topic=security-compliance-setup-workload-protection).
@@ -24,7 +24,7 @@ To work with this profile, you must connect an instance of [Workload Protection]
 
 
 ## Profile versioning
-{: #cis-amazon-eks-versioning}
+{: #aws-fs-versioning}
 
 When specifications or controls are edited, removed from, or added to a profile in a way that is not compatible with the current version, a new version is released. To take advantage of the changes in a new version, update your attachments to use the newest profile version.
 
@@ -33,7 +33,7 @@ This profile is consistently updated and is not an exhaustive list of all the co
 
 
 ### Version summary
-{: #cis-amazon-eks-versions}
+{: #aws-fs-versions}
 
 The following table details the release dates and status of each profile version.
 
@@ -47,16 +47,15 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
 | Version 1.2.0 | `2023-12-06` | Active |
-| Version 1.1.0 | `2023-11-07` | Active |
-| Version 1.0.0 | `2023-07-14` | Active |
-{: caption="Table. Active versions of the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark" caption-side="top"}
-
+| Version 1.1.0 | `2023-11-21` | Active |
+| Version 1.0.0 | `2023-09-23` | Active |
+{: caption="Table. Active versions of the AWS Foundational Security Best Practices" caption-side="top"}
 
 ## Version 1.2.0
-{: #cis-amazon-eks-v120}
+{: #aws-fs-v120}
 
 Now available
- As of 6 December 2023, few component-id assesments in the CIS Amazon Elastic Kubernetes Service (EKS) Benchmarkprofile have changed.
+ As of 6 December 2023, few component-id assesments in the AWS Foundational Security Best Practices profile have changed.
  The component-id of following assements from `container-eks` to `aws-resource`.
 
    * ECR - Enabled Vulnerability Scanning
@@ -70,16 +69,15 @@ Now available
    * RBAC - Enabled with AWS IAM Authenticator for Kubernetes
 
 
-
 ## Version 1.1.0
-{: #cis-amazon-eks-v110}
+{: #aws-fs-v110}
 
 Now available
-:   As of 7 November 2023, the control hierarchy in the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark profile has changed. Assessments have been remapped so that a single assessment is mapped to a single specification. No new assessments were added.
+:   As of 21 November 2023, the control hierarchy in the AWS Foundational Security Best Practices profile has changed. Assessments have been remapped so that a single assessment is mapped to a single specification. No new assessments were added.
 
 
 ## Version 1.0.0
-{: #cis-amazon-eks-v100}
+{: #aws-fs-v100}
 
 Now available
-:   Released today, 14 July 2023, the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark is a collection of controls designed to validate the configuration of your Kubernetes Service clusters. This profile is evaluated by using `wp-rule` assessments. These are assessments that are defined by the Workload Protection service and imported into {{site.data.keyword.compliance_short}}.
+:   Released today, 23 September 2023, the AWS Foundational Security Best Practices is a set of controls that detect when your AWS accounts and resources deviate from security best practices.This profile is evaluated by using `wp-rule` assessments. These are assessments that are defined by the Workload Protection service and imported into {{site.data.keyword.compliance_short}}.
