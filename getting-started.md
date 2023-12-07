@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-11"
+lastupdated: "2023-12-07"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -105,6 +105,11 @@ An attachment is how you target a specific grouping of your resources to evaluat
 	Predefined profiles are available, but you can create a custom profile that uses only the controls that you want. In other words, create a custom profile if you don’t want to use all the controls in the predefined profile. For multi-cloud support, be sure to select a profile that includes the `wp-rule`, which is Azure Kubernetes Service (AKS), Amazon Web Service (AWS), or Amazon Elastic Kubernetes Service (EKS),
    {: tip}
    
+	
+	
+	New attachments cannot be created on deprecated profile versions. Select the most recent version to use for your evaluation.
+	{: important}
+	
 	
 
 4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.

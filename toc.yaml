@@ -54,6 +54,7 @@ toc:
           topics:
           - available-components.md
           - run-evaluation.md
+          - profile-versioning.md
           - topicgroup:
               label: Customizing your evaluation
               topics:

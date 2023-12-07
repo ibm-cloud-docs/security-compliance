@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-11"
+lastupdated: "2023-12-07"
 
 keywords: scc best practices, enterprise, scc access
 
@@ -44,6 +44,11 @@ To avoid having to create and maintain a fully customized profile, you can custo
 If you want total control over your profile - the number of assessments, versioning, or naming, you might want to create a custom profile. With custom profiles, you can mix and match controls from different libraries or only select the assessments that apply to your use case. Or, you can create your own controls.
 
 Although it is possible to add both custom and predefined controls to a profile, it is recommended that you create a separate profile for any controls that you want to add. By keeping predefined and custom controls separate, you are able to update to new versions of the predefined profiles more easily as you won't need to redo your customizations.
+
+
+
+You cannot create custom profiles from deprecated control library versions. To get started, work with the most recent version.
+   {: tip}
 
 
 

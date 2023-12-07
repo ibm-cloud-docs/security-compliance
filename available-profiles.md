@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-12-06"
+lastupdated: "2023-12-07"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, benchmark, controls, goals, security, compliance
 
@@ -31,6 +31,11 @@ At times, {{site.data.keyword.compliance_short}} publishes new versions of {{sit
 * to remove rules that are invalid or are no longer required to meet controls;
 * to add new rules and extend the compliance coverage of profiles;
 * to fix defective rules.
+
+	
+
+	New attachments cannot be created on deprecated profile versions. Select the most recent version to use for your evaluation.
+	{: important}
 
 	
 
