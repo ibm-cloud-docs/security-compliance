@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-12-07"
+lastupdated: "2023-12-08"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -20,6 +20,13 @@ The following changes to the service were made available with the associated dat
 
 
 
+
+## 7 December 2023
+{: #security-compliance-dec0723}
+{: release-note}
+
+Madrid availability
+:   {{site.data.keyword.compliance_short}} is now available in the Madrid (`eu-es`) region. For more information about the availability of the service, see [Regions and endpoints](/docs/security-compliance?topic=security-compliance-endpoints).
 
 
 ## 6 December 2023
