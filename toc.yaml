@@ -122,6 +122,8 @@ toc:
                 navtitle: C5:2020
               - topic: change-logs/soc.md
                 navtitle: SOC 2
+              - topic: change-logs/ismap.md
+                navtitle: ISMAP
           - topicgroup:
               label: Amazon Web Services
               topics:
