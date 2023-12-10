@@ -124,8 +124,6 @@ toc:
                 navtitle: SOC 2
               - topic: change-logs/ismap.md
                 navtitle: ISMAP
-              - topic: change-logs/ai-ict-guardrails.md
-                navtitle: AI ICT Guardrails
           - topicgroup:
               label: Amazon Web Services
               topics:
