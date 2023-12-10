@@ -51,4 +51,4 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 {: #ismap-version4}
 
 Now available
-:   Released today, 23 September 2023, the ISMAP profile is a collection of controls designed to validate the configuration of your resources.
+:   Released today, 11 December 2023, the ISMAP profile is a collection of controls designed to validate the configuration of your resources.
