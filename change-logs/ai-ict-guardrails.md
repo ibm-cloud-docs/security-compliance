@@ -13,14 +13,14 @@ content-type: release-note
 {{site.data.keyword.attribute-definition-list}}
 
 # Change log: AI ICT Guardrails
-{: #ai-ict-guardrails-change-log}
+{: #ai-change-log}
 
 In this change log, you can learn about the latest changes, improvements, and updates for the AI ICT Guardrails profile. The change log lists changes that were made, ordered by the version number.
 
 The AI ICT guardrails provides a predefined list of infrastructure and data controls, required to handle AI and Generative AI(GenAI) workloads. These controls include AI specific elaborations across control categories like Risk and Compliance Management, Unified Infrastructure Security and Performance, Application and Workload Protection, Data Protection, Identity and Access Management, Logging, Monitoring. This list of controls is to be used in conjunction with the security baseline of the organization.
 
 ## Profile versioning
-{: #ai-ict-guardrails-versioning}
+{: #ai-versioning}
 
 When specifications or controls are edited, removed from, or added to a profile in a way that is not compatible with the current version, a new version is released. To take advantage of the changes in a new version, update your attachments to use the newest profile version.
 
@@ -29,7 +29,7 @@ This profile is consistently updated and is not an exhaustive list of all the co
 
 
 ### Version summary
-{: #ai-ict-guardrails-versions}
+{: #ai-versions}
 
 The following table details the release dates and status of each profile version.
 
@@ -43,11 +43,11 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
 | Version 1.0.0 | `2023-12-11` | Active |
-{: caption="Table. Active versions of the SOC 2 profile" caption-side="top"}
+{: caption="Table. Active versions of the AI ICT Guardrails profile" caption-side="top"}
 
 
 ## Version 1.0.0
-{: #ai-ict-guardrails-version4}
+{: #ai-version100}
 
 Now available
 :   Released today, 6 December 2023, the AI ICT Guardrails profile is a collection of controls designed to validate the configuration of your resources.
