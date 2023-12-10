@@ -27,6 +27,8 @@ The following changes to the service were made available with the associated dat
 Version 1.0.0 of the ISMAP profile
 :   Version 1.0.0 of the ISMAP profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-change-log-ismap).
 
+Version 1.0.0 of the AI ICT Guardrails profile
+:   Version 1.0.0 of the AI ICT Guardrails profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-change-log-ismap).
 
 ## 7 December 2023
 {: #security-compliance-dec0723}
