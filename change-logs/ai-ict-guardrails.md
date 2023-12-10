@@ -13,15 +13,14 @@ content-type: release-note
 {{site.data.keyword.attribute-definition-list}}
 
 # Change log: AI ICT Guardrails
-{: #soc2-change-log}
+{: #ai-ict-guardrails-change-log}
 
-In this change log, you can learn about the latest changes, improvements, and updates for the Service Organization Control (SOC 2) profile. The change log lists changes that were made, ordered by the version number.
+In this change log, you can learn about the latest changes, improvements, and updates for the AI ICT Guardrails profile. The change log lists changes that were made, ordered by the version number.
 
-Service Organization Control (SOC) reports are independent, third-party reports issued by assessors certified by the American Institute of Certified Public Accountants (AICPA) addressing the risk associated with an outsourced service. A SOC 2 report evaluates the internal controls that an organization has put in place to protect customer-owned data and provides details about the nature of those internal controls.
-
+The AI ICT guardrails provides a predefined list of infrastructure and data controls, required to handle AI and Generative AI(GenAI) workloads. These controls include AI specific elaborations across control categories like Risk and Compliance Management, Unified Infrastructure Security and Performance, Application and Workload Protection, Data Protection, Identity and Access Management, Logging, Monitoring. This list of controls is to be used in conjunction with the security baseline of the organization.
 
 ## Profile versioning
-{: #soc2-versioning}
+{: #ai-ict-guardrails-versioning}
 
 When specifications or controls are edited, removed from, or added to a profile in a way that is not compatible with the current version, a new version is released. To take advantage of the changes in a new version, update your attachments to use the newest profile version.
 
@@ -30,7 +29,7 @@ This profile is consistently updated and is not an exhaustive list of all the co
 
 
 ### Version summary
-{: #soc2-versions}
+{: #ai-ict-guardrails-versions}
 
 The following table details the release dates and status of each profile version.
 
@@ -43,12 +42,12 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
-| Version 1.0.0 | `2023-12-06` | Active |
+| Version 1.0.0 | `2023-12-11` | Active |
 {: caption="Table. Active versions of the SOC 2 profile" caption-side="top"}
 
 
 ## Version 1.0.0
-{: #soc2-version4}
+{: #ai-ict-guardrails-version4}
 
 Now available
-:   Released today, 6 December 2023, the SOC 2 profile is a collection of controls designed to validate the configuration of your resources.
+:   Released today, 6 December 2023, the AI ICT Guardrails profile is a collection of controls designed to validate the configuration of your resources.
