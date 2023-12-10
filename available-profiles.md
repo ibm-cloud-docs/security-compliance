@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-12-07"
+lastupdated: "2023-12-10"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, benchmark, controls, goals, security, compliance
 
@@ -57,4 +57,5 @@ The following profiles are available for you to use in {{site.data.keyword.compl
 | PCI DSS | Validate the configuration of your {{site.data.keyword.cloud_notm}} resources. | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-pci-dss-change-log) |
 | SOC 2 | Validate  the internal controls configuration of your {{site.data.keyword.cloud_notm}} resources. | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-soc2-change-log) |
 | Red Hat OpenShift Kubernetes OCP4 | Validate the configuration of your {{site.data.keyword.cloud_notm}} Red Hat OpenShift clusters. | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-openshift-profile) |
+| ISMAP | Validate  the security configuration of your {{site.data.keyword.cloud_notm}} resources. | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-ismap-change-log) |
 {: caption="Table 2. {{site.data.keyword.cloud_notm}} predefined profiles" caption-side="top"}
