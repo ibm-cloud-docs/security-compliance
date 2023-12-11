@@ -1,7 +1,8 @@
 ---
+
 copyright:
-  years: 2023, 2023
-lastupdated: "2023-12-11"
+  years: 2020, 2023
+lastupdated: "2023-12-10"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -12,16 +13,15 @@ content-type: release-note
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Change log: C5:2020
-{: #bsi-c5-change-log}
+# Change log: ISMAP
+{: #ismap-change-log}
 
-In this change log, you can learn about the latest changes, improvements, and updates for the Cloud Computing Compliance Controls Catalog (C5:2020) profile. The change log lists changes that were made, ordered by the version number.
+In this change log, you can learn about the latest changes, improvements, and updates for the ISMAP  Information System Security Management and Assessment Program) profile. The change log lists changes that were made, ordered by the version number.
 
-The Cloud Computing Compliance Controls Catalog (C5), created by the German Federal Office for Information Security (Bundesamt für Sicherheit in der Informationstechnik, or BSI) outlines requirements that cloud service providers must meet in order to provide a minimum security level for their services.
-
+The Information System Security Management and Assessment Program (ISMAP) is a Japanese government program to assess the security of public cloud service providers (CSP). ISMAP approves independent third-party auditors who evaluate and register CSPs and their services to ensure they meet specific security requirements set by the Japanese government, enabling agency usage without the added burden and cost of agency-led assessments.
 
 ## Profile versioning
-{: #bsi-c5-versioning}
+{: #ismap-versioning}
 
 When specifications or controls are edited, removed from, or added to a profile in a way that is not compatible with the current version, a new version is released. To take advantage of the changes in a new version, update your attachments to use the newest profile version.
 
@@ -30,7 +30,7 @@ This profile is consistently updated and is not an exhaustive list of all the co
 
 
 ### Version summary
-{: #bsi-c5-versions}
+{: #ismap-versions}
 
 The following table details the release dates and status of each profile version.
 
@@ -43,12 +43,12 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
-| Version 1.0.0 | `2023-11-16` | Active |
-{: caption="Table. Active versions of the C5:2020 profile" caption-side="top"}
+| Version 1.0.0 | `2023-12-11` | Active |
+{: caption="Table. Active versions of the ISMAP profile" caption-side="top"}
 
 
 ## Version 1.0.0
-{: #bsi-c5-version4}
+{: #ismap-version4}
 
 Now available
-:   Released today, 16 November 2023, the C5:2020 profile is a collection of controls designed to validate the configuration of your resources.
+:   Released today, 11 December 2023, the ISMAP profile is a collection of controls designed to validate the configuration of your resources.
