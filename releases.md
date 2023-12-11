@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-12-10"
+lastupdated: "2023-12-11"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -28,7 +28,7 @@ Version 1.0.0 of the ISMAP profile
 :   Version 1.0.0 of the ISMAP profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-change-log-ismap).
 
 Version 1.0.0 of the AI ICT Guardrails profile
-:   Version 1.0.0 of the AI ICT Guardrails profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-change-log-ismap).
+:   Version 1.0.0 of the AI ICT Guardrails profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-ai-ict-change-log).
 
 ## 7 December 2023
 {: #security-compliance-dec0723}
