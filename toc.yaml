@@ -126,6 +126,8 @@ toc:
                 navtitle: ISMAP
               - topic: change-logs/ai-ict-guardrails.md
                 navtitle: AI ICT Guardrails
+              - topic: change-logs/ai-ict.md
+                navtitle: AI ICT Guardrails
           - topicgroup:
               label: Amazon Web Services
               topics:
