@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023, 2023
-lastupdated: "2023-12-10"
+lastupdated: "2023-12-11"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -43,7 +43,7 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
-| Version 1.0.0 | `2023-11-15` | Active |
+| Version 1.0.0 | `2023-11-16` | Active |
 {: caption="Table. Active versions of the C5:2020 profile" caption-side="top"}
 
 
