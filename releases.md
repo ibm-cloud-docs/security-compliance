@@ -20,6 +20,12 @@ The following changes to the service were made available with the associated dat
 
 
 
+## 12 December 2023
+{: #security-compliance-dec1223}
+{: release-note}
+
+The {{site.data.keyword.cloud_notm}} Security Best Practices profile has been removed. The profile was deprecated on September 12, 2023 and was removed according to schedule today.
+
 ## 11 December 2023
 {: #security-compliance-dec1123}
 {: release-note}
