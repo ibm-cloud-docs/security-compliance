@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 775 387.5">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-family: IBMPlexSans-SemiBold, 'IBM Plex Sans';
+        font-weight: 600;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #001d6c;
+      }
+
+      .cls-2, .cls-4 {
+        font-size: 12px;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.005em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.0801em;
+      }
+
+      .cls-9 {
+        letter-spacing: .004em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.0059em;
+      }
+
+      .cls-11 {
+        fill: #eef4fb;
+      }
+
+      .cls-12 {
+        fill: #fff;
+      }
+
+      .cls-13 {
+        letter-spacing: -.0299em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.015em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.006em;
+      }
+
+      .cls-16 {
+        letter-spacing: -.009em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19 {
+        font-family: IBMPlexSans, 'IBM Plex Sans';
+      }
+
+      .cls-20 {
+        stroke-dasharray: 0 0 3.9163 3.9163;
+      }
+
+      .cls-20, .cls-21, .cls-22 {
+        fill: none;
+        stroke: #001d6c;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-23 {
+        letter-spacing: -.0071em;
+      }
+
+      .cls-24 {
+        letter-spacing: -.004em;
+      }
+
+      .cls-21 {
+        stroke-dasharray: 0 0 3.854 3.854;
+      }
+
+      .cls-25 {
+        letter-spacing: -.008em;
+      }
+
+      .cls-26 {
+        letter-spacing: -.0081em;
+      }
+
+      .cls-27 {
+        letter-spacing: .0039em;
+      }
+
+      .cls-28 {
+        letter-spacing: -.0041em;
+      }
+
+      .cls-29 {
+        letter-spacing: -.005em;
+      }
+
+      .cls-30 {
+        letter-spacing: -.013em;
+      }
+
+      .cls-31 {
+        letter-spacing: .005em;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-3" x="43.1284" y="156.9875" width="47.9938" height="47.9938"/>
+    <g>
+      <polygon class="cls-12" points="63.1253 170.3844 61.7253 168.9844 59.1253 171.5844 56.5253 168.9844 55.1253 170.3844 57.7253 172.9844 55.1253 175.5844 56.5253 176.9844 59.1253 174.3844 61.7253 176.9844 63.1253 175.5844 60.5253 172.9844 63.1253 170.3844"/>
+      <g>
+        <polygon class="cls-12" points="74.1253 174.1844 71.5253 171.5844 70.1253 172.9844 74.1253 176.9844 81.1253 169.9844 79.7253 168.5844 74.1253 174.1844"/>
+        <polygon class="cls-12" points="63.1253 186.3844 61.7253 184.9844 59.1253 187.5844 56.5253 184.9844 55.1253 186.3844 57.7253 188.9844 55.1253 191.5844 56.5253 192.9844 59.1253 190.3844 61.7253 192.9844 63.1253 191.5844 60.5253 188.9844 63.1253 186.3844"/>
+        <polygon class="cls-12" points="68.1253 179.9844 68.1253 166.9844 66.1253 166.9844 66.1253 179.9844 53.1253 179.9844 53.1253 181.9844 66.1253 181.9844 66.1253 194.9844 68.1253 194.9844 68.1253 181.9844 81.1253 181.9844 81.1253 179.9844 68.1253 179.9844"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line class="cls-22" x1="67.1252" y1="230.1747" x2="67.1252" y2="232.1747"/>
+    <line class="cls-21" x1="67.1252" y1="236.0286" x2="67.1252" y2="303.4732"/>
+    <line class="cls-22" x1="67.1252" y1="305.4002" x2="67.1252" y2="307.4002"/>
+  </g>
+  <g>
+    <line class="cls-22" x1="67.4614" y1="306.9036" x2="69.4614" y2="306.9036"/>
+    <line class="cls-20" x1="73.3779" y1="306.9036" x2="126.2478" y2="306.9036"/>
+    <line class="cls-22" x1="128.206" y1="306.9036" x2="130.206" y2="306.9036"/>
+    <polygon class="cls-3" points="128.7471 311.8899 137.3823 306.9036 128.7471 301.9173 128.7471 311.8899"/>
+  </g>
+  <rect class="cls-11" x="145.8973" y="264.1201" width="478.8716" height="82.969"/>
+  <rect class="cls-3" x="145.8973" y="264.1201" width="3" height="82.9476"/>
+  <text class="cls-4" transform="translate(197.5524 284.528)"><tspan class="cls-1"><tspan class="cls-13" x="0" y="0">F</tspan><tspan x="6.5645" y="0">o</tspan><tspan class="cls-31" x="13.3203" y="0">r</tspan><tspan class="cls-30" x="18.0957" y="0">w</tspan><tspan x="27.7676" y="0">a</tspan><tspan class="cls-29" x="34.4756" y="0">r</tspan><tspan class="cls-18" x="39.1318" y="0">d</tspan></tspan><tspan class="cls-19"><tspan x="0" y="14.3999">Security and Complian</tspan><tspan class="cls-15" x="120.958" y="14.3999">c</tspan><tspan x="126.9219" y="14.3999">e Cen</tspan><tspan class="cls-24" x="157.1973" y="14.3999">t</tspan><tspan x="161.3613" y="14.3999">er pe</tspan><tspan class="cls-9" x="188.7334" y="14.3999">r</tspan><tspan class="cls-24" x="193.1855" y="14.3999">f</tspan><tspan x="197.0254" y="14.3999">orms the </tspan><tspan class="cls-25" x="247.748" y="14.3999">e</tspan><tspan class="cls-16" x="254.2402" y="14.3999">v</tspan><tspan x="260.0361" y="14.3999">aluation and pushes the </tspan></tspan><tspan class="cls-19"><tspan class="cls-7" x="0" y="28.7998">r</tspan><tspan x="4.3438" y="28.7998">esu</tspan><tspan class="cls-29" x="23.5918" y="28.7998">l</tspan><tspan x="26.7959" y="28.7998">ts </tspan><tspan class="cls-24" x="39.6836" y="28.7998">t</tspan><tspan x="43.8477" y="28.7998">o our in</tspan><tspan class="cls-24" x="83.9873" y="28.7998">t</tspan><tspan x="88.1514" y="28.7998">eg</tspan><tspan class="cls-28" x="101.0752" y="28.7998">r</tspan><tspan x="105.4307" y="28.7998">a</tspan><tspan class="cls-24" x="111.8389" y="28.7998">t</tspan><tspan x="116.0029" y="28.7998">ed busine</tspan><tspan class="cls-10" x="168.4062" y="28.7998">s</tspan><tspan x="174.1787" y="28.7998">s pa</tspan><tspan class="cls-9" x="196.2217" y="28.7998">r</tspan><tspan x="200.6738" y="28.7998">tne</tspan><tspan class="cls-8" x="218.29" y="28.7998">r</tspan><tspan class="cls-17" x="221.7334" y="28.7998">. The </tspan><tspan class="cls-7" x="250.9297" y="28.7998">r</tspan><tspan x="255.2734" y="28.7998">esu</tspan><tspan class="cls-7" x="274.5215" y="28.7998">l</tspan><tspan class="cls-17" x="277.7246" y="28.7998">ts a</tspan><tspan class="cls-29" x="297.0205" y="28.7998">r</tspan><tspan x="301.3652" y="28.7998">e </tspan><tspan class="cls-26" x="310.7852" y="28.7998">a</tspan><tspan class="cls-16" x="317.0967" y="28.7998">v</tspan><tspan x="322.8926" y="28.7998">ailable in the </tspan></tspan><tspan class="cls-19"><tspan x="0" y="43.2002">busine</tspan><tspan class="cls-10" x="36.0234" y="43.2002">s</tspan><tspan x="41.7959" y="43.2002">s pa</tspan><tspan class="cls-27" x="63.8398" y="43.2002">r</tspan><tspan x="68.291" y="43.2002">tners UI.</tspan></tspan></text>
+  <line class="cls-22" x1="67.1253" y1="59.3799" x2="67.1253" y2="157.282"/>
+  <g>
+    <line class="cls-22" x1="67.4614" y1="59.7585" x2="130.206" y2="59.7585"/>
+    <polygon class="cls-3" points="128.7471 64.7449 137.3823 59.7585 128.7471 54.7722 128.7471 64.7449"/>
+  </g>
+  <g>
+    <line class="cls-22" x1="90.865" y1="182.1508" x2="130.206" y2="182.1508"/>
+    <polygon class="cls-3" points="128.7471 187.1372 137.3823 182.1508 128.7471 177.1645 128.7471 187.1372"/>
+  </g>
+  <rect class="cls-11" x="145.8973" y="141.0959" width="478.8716" height="82.969"/>
+  <rect class="cls-3" x="145.8973" y="141.0959" width="3" height="82.9476"/>
+  <text class="cls-4" transform="translate(197.7802 161.5038)"><tspan class="cls-1"><tspan x="0" y="0">Push</tspan></tspan><tspan class="cls-19"><tspan x="0" y="14.3999">A busine</tspan><tspan class="cls-15" x="46.5479" y="14.3999">s</tspan><tspan x="52.3193" y="14.3999">s pa</tspan><tspan class="cls-9" x="74.3633" y="14.3999">r</tspan><tspan x="78.8154" y="14.3999">tner </tspan><tspan class="cls-15" x="103.667" y="14.3999">c</tspan><tspan x="109.6309" y="14.3999">onducts the </tspan><tspan class="cls-25" x="176.3135" y="14.3999">e</tspan><tspan class="cls-16" x="182.8057" y="14.3999">v</tspan><tspan x="188.6016" y="14.3999">aluation and then pushes the </tspan><tspan class="cls-7" x="347.5039" y="14.3999">r</tspan><tspan x="351.8477" y="14.3999">esu</tspan><tspan class="cls-29" x="371.0957" y="14.3999">l</tspan><tspan x="374.2998" y="14.3999">ts</tspan></tspan><tspan class="cls-19"><tspan x="0" y="28.7998" xml:space="preserve"> on their schedul</tspan><tspan class="cls-5" x="89.375" y="28.7998">e</tspan><tspan x="95.7227" y="28.7998">. </tspan><tspan class="cls-14" x="101.8184" y="28.7998">R</tspan><tspan x="109.3184" y="28.7998">esu</tspan><tspan class="cls-29" x="128.5664" y="28.7998">l</tspan><tspan x="131.7705" y="28.7998">ts a</tspan><tspan class="cls-7" x="151.0664" y="28.7998">r</tspan><tspan x="155.4102" y="28.7998">e displ</tspan><tspan class="cls-29" x="190.8574" y="28.7998">ay</tspan><tspan x="203.1338" y="28.7998">ed in Security and Complian</tspan><tspan class="cls-15" x="353.1191" y="28.7998">c</tspan><tspan x="359.083" y="28.7998">e </tspan></tspan><tspan class="cls-19"><tspan x="0" y="43.2002">Cen</tspan><tspan class="cls-24" x="20.8555" y="43.2002">t</tspan><tspan x="25.0195" y="43.2002">e</tspan><tspan class="cls-6" x="31.6074" y="43.2002">r</tspan><tspan x="35.0518" y="43.2002">.</tspan></tspan></text>
+  <rect class="cls-11" x="145.8973" y="17.7567" width="478.8716" height="82.969"/>
+  <rect class="cls-3" x="145.8973" y="17.7567" width="3" height="82.9476"/>
+  <text class="cls-4" transform="translate(197.7796 38.1646)"><tspan class="cls-1"><tspan x="0" y="0">Pu</tspan><tspan class="cls-23" x="14.748" y="0">l</tspan><tspan x="18.1914" y="0">l </tspan></tspan><tspan class="cls-19"><tspan x="0" y="14.3999">A busine</tspan><tspan class="cls-15" x="46.5479" y="14.3999">s</tspan><tspan x="52.3193" y="14.3999">s pa</tspan><tspan class="cls-9" x="74.3633" y="14.3999">r</tspan><tspan x="78.8154" y="14.3999">tner </tspan><tspan class="cls-15" x="103.667" y="14.3999">c</tspan><tspan x="109.6309" y="14.3999">onducts the </tspan><tspan class="cls-25" x="176.3135" y="14.3999">e</tspan><tspan class="cls-16" x="182.8057" y="14.3999">v</tspan><tspan x="188.6016" y="14.3999">aluation. Security and Complian</tspan><tspan class="cls-10" x="359.2988" y="14.3999">c</tspan><tspan x="365.2637" y="14.3999">e Cen</tspan><tspan class="cls-24" x="395.5391" y="14.3999">t</tspan><tspan x="399.7031" y="14.3999">er </tspan></tspan><tspan class="cls-19"><tspan x="0" y="28.7998">pu</tspan><tspan class="cls-29" x="13.7754" y="28.7998">l</tspan><tspan x="16.9795" y="28.7998">ls the </tspan><tspan class="cls-7" x="49.3672" y="28.7998">r</tspan><tspan x="53.7109" y="28.7998">esu</tspan><tspan class="cls-29" x="72.959" y="28.7998">l</tspan><tspan x="76.1631" y="28.7998">ts on </tspan><tspan class="cls-7" x="105.4189" y="28.7998">y</tspan><tspan x="111.3467" y="28.7998">our defined schedul</tspan><tspan class="cls-5" x="217.9893" y="28.7998">e</tspan><tspan x="224.3369" y="28.7998">. </tspan><tspan class="cls-14" x="230.4326" y="28.7998">R</tspan><tspan x="237.9326" y="28.7998">esu</tspan><tspan class="cls-29" x="257.1807" y="28.7998">l</tspan><tspan x="260.3848" y="28.7998">ts a</tspan><tspan class="cls-7" x="279.6807" y="28.7998">r</tspan><tspan x="284.0244" y="28.7998">e displ</tspan><tspan class="cls-29" x="319.4717" y="28.7998">ay</tspan><tspan x="331.748" y="28.7998">ed in Security</tspan></tspan><tspan class="cls-19"><tspan x="0" y="43.2002">and Complian</tspan><tspan class="cls-15" x="74.1113" y="43.2002">c</tspan><tspan x="80.0752" y="43.2002">e Cen</tspan><tspan class="cls-24" x="110.3506" y="43.2002">t</tspan><tspan x="114.5146" y="43.2002">e</tspan><tspan class="cls-8" x="121.1025" y="43.2002">r</tspan><tspan class="cls-17" x="124.5459" y="43.2002">.</tspan></tspan></text>
+  <path class="cls-3" d="M181.3117,284.6759l-22-11c-.3522-.1761-.775-.1292-1.08,.12-.2908,.2437-.4186,.6311-.33,1l2.96,10.77-3,10.74c-.1439,.5332,.1716,1.0821,.7049,1.226,.0961,.026,.1956,.0374,.2951,.034,.1565-.0009,.3107-.0386,.45-.11l22-11c.4915-.2518,.6859-.8544,.434-1.346-.0956-.1866-.2474-.3384-.434-.434Zm-20.9,10l2.21-8.11h9.24v-2h-9.24l-2.21-8.11,18.21,9.11-18.21,9.11Z"/>
+  <g>
+    <circle class="cls-3" cx="169.8415" cy="37.6408" r="2"/>
+    <polygon class="cls-3" points="183.8415 38.6408 183.8415 36.6408 177.6715 36.6408 180.2515 34.0508 178.8415 32.6408 173.8415 37.6408 178.8415 42.6408 180.2515 41.2308 177.6715 38.6408 183.8415 38.6408"/>
+    <polygon class="cls-3" points="168.8415 45.4708 168.8415 51.6408 170.8415 51.6408 170.8415 45.4708 173.4315 48.0508 174.8415 46.6408 169.8415 41.6408 164.8415 46.6408 166.2515 48.0508 168.8415 45.4708"/>
+    <polygon class="cls-3" points="160.8415 32.6408 159.4315 34.0508 162.0115 36.6408 155.8415 36.6408 155.8415 38.6408 162.0115 38.6408 159.4315 41.2308 160.8415 42.6408 165.8415 37.6408 160.8415 32.6408"/>
+    <polygon class="cls-3" points="170.8415 29.8108 170.8415 23.6408 168.8415 23.6408 168.8415 29.8108 166.2515 27.2308 164.8415 28.6408 169.8415 33.6408 174.8415 28.6408 173.4315 27.2308 170.8415 29.8108"/>
+  </g>
+  <g>
+    <circle class="cls-3" cx="169.8415" cy="162.3051" r="2"/>
+    <polygon class="cls-3" points="173.8415 161.3051 173.8415 163.3051 180.0115 163.3051 177.4315 165.8951 178.8415 167.3051 183.8415 162.3051 178.8415 157.3051 177.4315 158.7151 180.0115 161.3051 173.8415 161.3051"/>
+    <polygon class="cls-3" points="170.8415 172.4751 170.8415 166.3051 168.8415 166.3051 168.8415 172.4751 166.2515 169.8951 164.8415 171.3051 169.8415 176.3051 174.8415 171.3051 173.4315 169.8951 170.8415 172.4751"/>
+    <polygon class="cls-3" points="160.8415 167.3051 162.2515 165.8951 159.6715 163.3051 165.8415 163.3051 165.8415 161.3051 159.6715 161.3051 162.2515 158.7151 160.8415 157.3051 155.8415 162.3051 160.8415 167.3051"/>
+    <polygon class="cls-3" points="168.8415 152.1351 168.8415 158.3051 170.8415 158.3051 170.8415 152.1351 173.4315 154.7151 174.8415 153.3051 169.8415 148.3051 164.8415 153.3051 166.2515 154.7151 168.8415 152.1351"/>
+  </g>
+  <text class="cls-2" transform="translate(46.7769 221.1757)"><tspan class="cls-14" x="0" y="0">R</tspan><tspan class="cls-18" x="7.7881" y="0">esu</tspan><tspan class="cls-29" x="27.5273" y="0">l</tspan><tspan class="cls-18" x="30.9961" y="0">ts</tspan></text>
+</svg>
