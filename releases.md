@@ -31,6 +31,9 @@ The following changes to the service were made available with the associated dat
 {{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 (Version 1.1.0) profile has been removed. 
 :   Version 1.1.0 of the {{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 has been removed from the service. 
 
+Version 1.1.0 of Red Hat OpenShift Kubernetes OCP4 profile has been removed. This version of the profile was deprecated on September 12, 2023 and was removed according to schedule today.
+
+
 ## 11 December 2023
 {: #security-compliance-dec1123}
 {: release-note}
