@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-12-07"
+lastupdated: "2023-12-12"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -23,7 +23,7 @@ In this change log, you can learn about the latest changes, improvements, and up
 ## Profile versioning
 {: #os-profile-versioning}
 
-When specifications or controls are edited, removed from, or added to a profile in a way that is not compatible with the current version, a new version is released. To take advantage of the changes in a new version, update your attachments to use the newest profile version. 
+When specifications or controls are edited, removed from, or added to a profile in a way that is not compatible with the current version, a new version is released. To take advantage of the changes in a new version, update your attachments to use the newest profile version.
 
 This profile is consistently updated and is not an exhaustive list of all the controls that might be required for every organization. Be sure to validate the available controls to determine where you might need to supplement your workloads with other security measures.
 {: important}
@@ -44,7 +44,7 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
 | Version 1.2.0  | `2023-10-10` | Active |
-| Version 1.1.0  | `2023-09-23` | Active |
+| [Deprecated]{: tag-deprecated} Version 1.1.0  | `2023-09-23` | Active |
 | Version 1.0.0  | `2023-06-07` | Active |
 {: caption="Table. Active versions of the Red Hat OpenShift Kubernetes OCP4 profile" caption-side="top"}
 
@@ -74,4 +74,3 @@ As of today, 23 September 2023, new controls have been added to the Red Hat Open
 
 Now available
 :   Released today, 6 June 2023, the Red Hat OpenShift Kubernetes OCP4 profile is a collection of controls designed to validate the configuration of your {{site.data.keyword.cloud_notm}} Red Hat OpenShift clusters.
-
