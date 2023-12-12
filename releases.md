@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-12-11"
+lastupdated: "2023-12-12"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -20,11 +20,16 @@ The following changes to the service were made available with the associated dat
 
 
 
+
 ## 12 December 2023
 {: #security-compliance-dec1223}
 {: release-note}
 
-The {{site.data.keyword.cloud_notm}} Security Best Practices profile has been removed. The profile was deprecated on September 12, 2023 and was removed according to schedule today.
+{{site.data.keyword.cloud_notm}} Security Best Practices profile has been removed
+:   The {{site.data.keyword.cloud_notm}} Security Best Practices profile has been removed. The profile was deprecated on September 12, 2023 and was removed according to schedule today.
+
+{{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 (Version 1.1.0) profile has been removed. 
+:   Version 1.1.0 of the {{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 has been removed from the service. 
 
 ## 11 December 2023
 {: #security-compliance-dec1123}
