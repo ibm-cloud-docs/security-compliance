@@ -44,8 +44,8 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 |:---------------|:-------------|:-------|
 | Version 1.2.0  | `2023-10-10` | Active |
 | Version 1.1.0  | `2023-09-23` | Removed |
-| Version 1.0.0  | `2023-06-07` | Active |
-{: caption="Table. Active versions of the Red Hat OpenShift Kubernetes OCP4 profile" caption-side="top"}
+| Version 1.0.0  | `2023-06-07` | Deprecated |
+{: caption="Table. Red Hat OpenShift Kubernetes OCP4 profile versions" caption-side="top"}
 
 ## Version 1.2.0
 {: #os-v120}
