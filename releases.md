@@ -24,6 +24,15 @@ The following changes to the service were made available with the associated dat
 {: #security-compliance-dec1523}
 {: release-note}
 
+Now available: CLI v3
+:   A new version of the {{site.data.keyword.compliance_short}} CLI is now available. You can review the updates in the [CLI reference](/docs/security-compliance?topic=security-compliance-security-compliance-cli).
+
+
+
+## 15 December 2023
+{: #security-compliance-dec1523}
+{: release-note}
+
 Caveonix Security Baselines for VMware profile 
 :   Version 1.0.0 of the Caveonix Security Baselines for VMware profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-soc2-change-log).
 

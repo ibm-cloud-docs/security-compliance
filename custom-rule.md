@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-24"
+lastupdated: "2023-12-15"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -379,6 +379,61 @@ print(json.dumps(profile, indent=2))
 
 
 A successful response returns the list of rules, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-rule).
+
+
+
+## Creating a rule with the CLI
+{: #create-rules-cli}
+{: cli}
+
+You can use the {{site.data.keyword.compliance_short}} CLI to define the configuration rules that you want monitor for your {{site.data.keyword.cloud_notm}} resources. For more information about which services you can configure rules for, see [What can I evaluate?](/docs/security-compliance?topic=security-compliance-scannable-components#evaluate-services). 
+
+```sh
+ibmcloud security-compliance rule create
+--description='Example rule'
+--target='{
+  "service_name": "cloud-object-storage",
+  "service_display_name": "exampleString",
+  "resource_kind": "bucket",
+  "additional_target_attributes": [
+    {
+      "name": "location",
+      "operator": "string_equals",
+      "value": "us-east"
+      }
+    ]
+  }'
+--required-config='{
+  "description": "The Cloud Object Storage rule.",
+  "and": [
+    {
+      "description": "exampleString",
+      "property": "hard_quota",
+      "operator": "num_equals",
+      "value": "${hard_quota}"
+      }
+    ]
+  }'
+--type=user_defined
+--version=1.0.0
+--import='{
+  "parameters": [
+    {
+      "name": "hard_quota",
+      "display_name": "The Cloud Object Storage bucket quota.",
+      "description": "The maximum bytes that are allocated to the Cloud Object Storage bucket.",
+      "type": "numeric"
+      }
+    ]
+  }'
+--labels=foo,bar
+--x-correlation-id=exampleString
+--x-request-id=exampleString
+```
+{: pre}
+
+See the [CLI reference](/docs/security-compliance?topic=security-compliance-security-compliance-cli&interface=cli#security-compliance-cli-rules-create-command) for more information.
+
 
 
 

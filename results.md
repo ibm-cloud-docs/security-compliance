@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-10-24"
+lastupdated: "2023-12-15"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -132,6 +132,23 @@ print(json.dumps(report_summary, indent=2))
 
 
 A successful response returns the detailed report from your scan, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#get-report-summary).
+
+
+
+## Viewing detailed results with the CLI
+{: #view-detailed-results-cli}
+{: cli}
+
+To get a report summary, you can use the {{site.data.keyword.compliance_short}} CLI. For more information, see the [CLI reference](/docs/security-compliance?topic=security-compliance-security-compliance-cli&interface=cli#security-compliance-cli-reports-get-summary-command).
+
+```sh
+ibmcloud security-compliance report summary
+--report-id=exampleString
+--x-correlation-id=exampleString
+--x-request-id=exampleString
+```
+{: pre}
+
 
 
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-12-07"
+lastupdated: "2023-12-15"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -315,6 +315,62 @@ A successful response returns an array that lists all the attachments to the spe
 
 
 
+## Scheduling a recurring scan with the CLI
+{: #scan-schedule-cli}
+{: cli}
+
+To create an attachment, you can use the {{site.data.keyword.compliance_short}} CLI. See the [CLI referencce](/docs/security-compliance?topic=security-compliance-security-compliance-cli&interface=cli#security-compliance-cli-attachments-create-command) for more information.
+
+```sh
+ibmcloud security-compliance attachment create
+--profile-id=exampleString
+--attachments='[
+  {
+    "id": "130003ea8bfa43c5aacea07a86da3000",
+    "name": "account-0d8c3805dfea40aa8ad02265a18eb12b",
+    "description": "Test description",
+    "scope": [
+      {
+        "environment": "ibm-cloud",
+        "properties": [
+          {
+            "name": "scope_id",
+            "value": "cg3335893hh1428692d6747cf300yeb5"
+            }
+          ]
+        }
+      ],
+    "status": "enabled",
+    "schedule": "every_30_days",
+    "notifications": {
+      "enabled": false,
+      "controls": {
+        "threshold_limit": 15,
+        "failed_control_ids": []
+        }
+      },
+    "attachment_parameters": [
+      {
+        "assessment_type": "Automated",
+        "assessment_id": "rule-a637949b-7e51-46c4-afd4-b96619001bf1",
+        "parameter_name": "session_invalidation_in_seconds",
+        "parameter_value": "120",
+        "parameter_display_name": "Sign out due to inactivity in seconds",
+        "parameter_type": "numeric"
+        }
+      ]
+    }
+  ]'
+--x-correlation-id=exampleString
+--x-request-id=exampleString
+```
+{: pre}
+
+
+When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
+
+
+
 ## Scheduling a recurring scan with Terraform
 {: #scan-schedule-terraform}
 {: terraform}
@@ -422,5 +478,23 @@ create_scan(
 
 
 A successful response returns the scan ID, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-scan).
+
+
+
+## Running a scan on demand with the CLI
+{: #scan-ondemand-cli}
+{: cli}
+
+If your attachment exists, but you don't want to wait for the next scan to see your posture, you can initiate an on-demand scan. For more information, see the [CLI reference](/docs/security-compliance?topic=security-compliance-security-compliance-cli&interface=cli#security-compliance-cli-attachments-scan-command).
+
+```sh
+ibmcloud security-compliance attachment scan
+--attachment-id=exampleString
+--x-correlation-id=exampleString
+--x-request-id=exampleString
+```
+{: pre}
+
+After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
 
 
