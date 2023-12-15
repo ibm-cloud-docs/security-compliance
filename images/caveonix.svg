@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 775 387.5">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-6, .cls-7 {
+        font-family: IBMPlexSans-SemiBold, 'IBM Plex Sans';
+        font-weight: 600;
+      }
+
+      .cls-7, .cls-8, .cls-9, .cls-10 {
+        fill: #001d6c;
+      }
+
+      .cls-7, .cls-9, .cls-10 {
+        font-size: 12px;
+      }
+
+      .cls-2 {
+        stroke-dasharray: 0 0 3.7967 3.7967;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #001d6c;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-11 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.005em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.0059em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.0171em;
+      }
+
+      .cls-15 {
+        fill: #eef4fb;
+      }
+
+      .cls-16 {
+        fill: #fff;
+      }
+
+      .cls-17 {
+        letter-spacing: -.009em;
+      }
+
+      .cls-18 {
+        letter-spacing: -.015em;
+      }
+
+      .cls-19 {
+        letter-spacing: -.003em;
+      }
+
+      .cls-20 {
+        letter-spacing: -.006em;
+      }
+
+      .cls-21 {
+        letter-spacing: -.009em;
+      }
+
+      .cls-22 {
+        letter-spacing: -.0069em;
+      }
+
+      .cls-23 {
+        letter-spacing: 0em;
+      }
+
+      .cls-24 {
+        letter-spacing: 0em;
+      }
+
+      .cls-25 {
+        font-family: IBMPlexSans, 'IBM Plex Sans';
+      }
+
+      .cls-3 {
+        stroke-dasharray: 0 0 4.0388 4.0388;
+      }
+
+      .cls-26 {
+        letter-spacing: -.004em;
+      }
+
+      .cls-27 {
+        letter-spacing: -.007em;
+      }
+
+      .cls-28 {
+        letter-spacing: -.008em;
+      }
+
+      .cls-29 {
+        letter-spacing: -.011em;
+      }
+
+      .cls-30 {
+        letter-spacing: -.0151em;
+      }
+
+      .cls-31 {
+        letter-spacing: -.0081em;
+      }
+
+      .cls-5 {
+        stroke-dasharray: 0 0 3.7274 3.7274;
+      }
+
+      .cls-32 {
+        letter-spacing: -.0099em;
+      }
+
+      .cls-33 {
+        letter-spacing: -.0041em;
+      }
+
+      .cls-34 {
+        letter-spacing: -.005em;
+      }
+
+      .cls-35 {
+        letter-spacing: -.017em;
+      }
+
+      .cls-10 {
+        font-family: IBMPlexMono-Text, 'IBM Plex Mono';
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-8" x="28.0943" y="31.1625" width="47.9938" height="47.9938"/>
+    <path class="cls-16" d="M52.0912,47.6594c1.7259,0,3.125,1.3991,3.125,3.125s-1.3991,3.125-3.125,3.125-3.125-1.3991-3.125-3.125c.002-1.7251,1.3999-3.123,3.125-3.125m0-1.25c-2.4162,0-4.375,1.9588-4.375,4.375s1.9588,4.375,4.375,4.375,4.375-1.9588,4.375-4.375-1.9588-4.375-4.375-4.375Z"/>
+    <path class="cls-16" d="M58.3412,63.9094h-1.25v-3.125c-.002-1.725-1.4-3.123-3.125-3.125h-3.75c-1.725,.002-3.123,1.4-3.125,3.125v3.125h-1.25v-3.125c.0028-2.4151,1.9599-4.3722,4.375-4.375h3.75c2.4151,.0028,4.3722,1.9599,4.375,4.375v3.125Z"/>
+    <rect id="_Transparent_Rectangle_" data-name=" Transparent Rectangle " class="cls-1" x="42.0912" y="45.1594" width="20" height="20"/>
+  </g>
+  <g>
+    <rect class="cls-8" x="644.1141" y="303.0825" width="47.9938" height="47.9938"/>
+    <g>
+      <polygon class="cls-16" points="664.111 316.4794 662.711 315.0794 660.111 317.6794 657.511 315.0794 656.111 316.4794 658.711 319.0794 656.111 321.6794 657.511 323.0794 660.111 320.4794 662.711 323.0794 664.111 321.6794 661.511 319.0794 664.111 316.4794"/>
+      <g>
+        <polygon class="cls-16" points="675.111 320.2794 672.511 317.6794 671.111 319.0794 675.111 323.0794 682.111 316.0794 680.711 314.6794 675.111 320.2794"/>
+        <polygon class="cls-16" points="664.111 332.4794 662.711 331.0794 660.111 333.6794 657.511 331.0794 656.111 332.4794 658.711 335.0794 656.111 337.6794 657.511 339.0794 660.111 336.4794 662.711 339.0794 664.111 337.6794 661.511 335.0794 664.111 332.4794"/>
+        <polygon class="cls-16" points="669.111 326.0794 669.111 313.0794 667.111 313.0794 667.111 326.0794 654.111 326.0794 654.111 328.0794 667.111 328.0794 667.111 341.0794 669.111 341.0794 669.111 328.0794 682.111 328.0794 682.111 326.0794 669.111 326.0794"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line class="cls-4" x1="751.1863" y1="151.1393" x2="751.1863" y2="153.1393"/>
+    <line class="cls-3" x1="751.1863" y1="157.178" x2="751.1863" y2="324.7864"/>
+    <line class="cls-4" x1="751.1863" y1="326.8058" x2="751.1863" y2="328.8058"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="705.9182" y1="328.3044" x2="707.9182" y2="328.3044"/>
+    <line class="cls-2" x1="711.7151" y1="328.3044" x2="747.7837" y2="328.3044"/>
+    <line class="cls-4" x1="749.6821" y1="328.3044" x2="751.6821" y2="328.3044"/>
+    <polygon class="cls-8" points="707.3772 333.2908 698.7419 328.3044 707.3772 323.3181 707.3772 333.2908"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="49.7891" y1="327.2298" x2="132.4985" y2="327.2298"/>
+    <polygon class="cls-8" points="131.0395 332.2161 139.6748 327.2298 131.0395 322.2435 131.0395 332.2161"/>
+  </g>
+  <line class="cls-4" x1="50.2626" y1="327.7203" x2="50.2625" y2="130.3651"/>
+  <g>
+    <circle class="cls-16" cx="750.77" cy="230.2993" r="9.3584"/>
+    <path class="cls-8" d="M750.7697,221.4408c4.8845,0,8.8584,3.9738,8.8584,8.8583s-3.9739,8.8584-8.8584,8.8584-8.8584-3.9739-8.8584-8.8584,3.9739-8.8583,8.8584-8.8583m0-1c-5.4446,0-9.8584,4.4137-9.8584,9.8583s4.4138,9.8584,9.8584,9.8584,9.8584-4.4138,9.8584-9.8584-4.4136-9.8583-9.8584-9.8583h0Z"/>
+  </g>
+  <text class="cls-10" transform="translate(747.3624 234.4872)"><tspan x="0" y="0">3</tspan></text>
+  <g>
+    <line class="cls-4" x1="721.5745" y1="151.5353" x2="723.5745" y2="151.5353"/>
+    <line class="cls-5" x1="727.3017" y1="151.5353" x2="747.8025" y2="151.5353"/>
+    <line class="cls-4" x1="749.6663" y1="151.5353" x2="751.6663" y2="151.5353"/>
+  </g>
+  <g>
+    <circle class="cls-16" cx="50.0747" cy="158.096" r="9.3584"/>
+    <path class="cls-8" d="M50.0742,149.238c4.8845,0,8.8584,3.9739,8.8584,8.8584s-3.9739,8.8584-8.8584,8.8584-8.8584-3.9739-8.8584-8.8584,3.9739-8.8584,8.8584-8.8584m0-1c-5.4446,0-9.8584,4.4138-9.8584,9.8584s4.4138,9.8584,9.8584,9.8584,9.8584-4.4138,9.8584-9.8584-4.4136-9.8584-9.8584-9.8584h0Z"/>
+  </g>
+  <text class="cls-10" transform="translate(46.4263 162.2843)"><tspan x="0" y="0">2</tspan></text>
+  <g>
+    <line class="cls-4" x1="76.0925" y1="53.209" x2="132.4985" y2="53.209"/>
+    <polygon class="cls-8" points="131.0395 58.1953 139.6748 53.209 131.0395 48.2227 131.0395 58.1953"/>
+  </g>
+  <g>
+    <circle class="cls-16" cx="105.7435" cy="53.3943" r="9.3584"/>
+    <path class="cls-8" d="M105.7435,44.5363c4.8845,0,8.8584,3.9739,8.8584,8.8584s-3.9739,8.8584-8.8584,8.8584-8.8584-3.9739-8.8584-8.8584,3.9739-8.8584,8.8584-8.8584m0-1c-5.4446,0-9.8584,4.4138-9.8584,9.8584s4.4138,9.8584,9.8584,9.8584,9.8584-4.4138,9.8584-9.8584-4.4138-9.8584-9.8584-9.8584h0Z"/>
+  </g>
+  <text class="cls-10" transform="translate(102.0953 57.5826)"><tspan x="0" y="0">1</tspan></text>
+  <text class="cls-7" transform="translate(21.7709 94.8062)"><tspan x="0" y="0">Security or</tspan><tspan class="cls-12" x="-3.2939" y="14.3999">c</tspan><tspan x="2.8018" y="14.3999">omplian</tspan><tspan class="cls-12" x="48.0176" y="14.3999">c</tspan><tspan class="cls-24" x="54.1133" y="14.3999">e </tspan><tspan class="cls-26" x="16.5244" y="28.7998">f</tspan><tspan x="20.6768" y="28.7998">ocal</tspan></text>
+  <rect class="cls-15" x="147.0344" y="303.2193" width="416.9953" height="52.8159"/>
+  <rect class="cls-8" x="147.0344" y="303.2193" width="3" height="52.8159"/>
+  <text class="cls-9" transform="translate(196.8086 323.6273)"><tspan class="cls-6"><tspan x="0" y="0">Confi</tspan><tspan class="cls-26" x="29.0039" y="0">g</tspan><tspan x="35.4961" y="0">u</tspan><tspan class="cls-34" x="42.5518" y="0">r</tspan><tspan class="cls-24" x="47.208" y="0">e C</tspan><tspan class="cls-17" x="64.4395" y="0">a</tspan><tspan class="cls-31" x="71.04" y="0">v</tspan><tspan x="77.2314" y="0">eonix</tspan></tspan><tspan class="cls-25"><tspan class="cls-32" x="0" y="14.3999">P</tspan><tspan class="cls-12" x="7.1523" y="14.3999">r</tspan><tspan class="cls-28" x="11.4961" y="14.3999">o</tspan><tspan class="cls-24" x="18.1201" y="14.3999">vide C</tspan><tspan class="cls-31" x="50.8555" y="14.3999">av</tspan><tspan x="62.9756" y="14.3999">eonix a</tspan><tspan class="cls-20" x="101.4229" y="14.3999">cc</tspan><tspan x="113.3506" y="14.3999">e</tspan><tspan class="cls-13" x="119.9385" y="14.3999">s</tspan><tspan x="125.7109" y="14.3999">s </tspan><tspan class="cls-26" x="134.3867" y="14.3999">t</tspan><tspan x="138.5508" y="14.3999">o Security and Complian</tspan><tspan class="cls-20" x="269.0605" y="14.3999">c</tspan><tspan x="275.0244" y="14.3999">e Cen</tspan><tspan class="cls-26" x="305.2998" y="14.3999">t</tspan><tspan x="309.4639" y="14.3999">e</tspan><tspan class="cls-11" x="316.0518" y="14.3999">r</tspan><tspan x="319.4961" y="14.3999">.</tspan></tspan></text>
+  <rect class="cls-15" x="145.7761" y="31.7633" width="579.0801" height="249.157"/>
+  <rect class="cls-8" x="145.7761" y="32.5911" width="3" height="52.8159"/>
+  <text class="cls-9" transform="translate(195.5507 55.4233)"><tspan class="cls-6"><tspan x="0" y="0">Confi</tspan><tspan class="cls-26" x="29.0039" y="0">g</tspan><tspan x="35.4961" y="0">u</tspan><tspan class="cls-34" x="42.5518" y="0">r</tspan><tspan class="cls-24" x="47.208" y="0">e Security and Complian</tspan><tspan class="cls-34" x="182.3252" y="0">c</tspan><tspan class="cls-24" x="188.4219" y="0">e Cen</tspan><tspan class="cls-33" x="219.4053" y="0">t</tspan><tspan x="223.8447" y="0">er</tspan></tspan><tspan class="cls-25"><tspan x="0" y="14.3999">Ma</tspan><tspan class="cls-14" x="16.1523" y="14.3999">k</tspan><tspan x="22.2715" y="14.3999">e Security and Complian</tspan><tspan class="cls-20" x="152.6504" y="14.3999">c</tspan><tspan x="158.6143" y="14.3999">e Cen</tspan><tspan class="cls-26" x="188.8896" y="14.3999">t</tspan><tspan x="193.0537" y="14.3999">er </tspan><tspan class="cls-19" x="206.877" y="14.3999">a</tspan><tspan class="cls-17" x="213.249" y="14.3999">w</tspan><tspan x="222.3574" y="14.3999">a</tspan><tspan class="cls-12" x="228.7656" y="14.3999">r</tspan><tspan x="233.1094" y="14.3999">e that C</tspan><tspan class="cls-31" x="274.4609" y="14.3999">av</tspan><tspan class="cls-23" x="286.5801" y="14.3999">eonix is </tspan><tspan class="cls-13" x="330.2959" y="14.3999">g</tspan><tspan x="336.5605" y="14.3999">oing </tspan><tspan class="cls-26" x="362.2637" y="14.3999">t</tspan><tspan x="366.4277" y="14.3999">o push </tspan><tspan class="cls-34" x="405.2471" y="14.3999">r</tspan><tspan x="409.5918" y="14.3999">esu</tspan><tspan class="cls-34" x="428.8389" y="14.3999">l</tspan><tspan x="432.043" y="14.3999">t</tspan><tspan class="cls-34" x="436.2549" y="14.3999">s</tspan><tspan x="442.0391" y="14.3999">.</tspan></tspan></text>
+  <rect class="cls-16" x="208.8108" y="90.5662" width="498.3734" height="52.8159"/>
+  <g>
+    <path class="cls-8" d="M248.4325,123.0527h-2v2h2v6h-24v-6h10v-2h-10c-1.104,.0013-1.9987,.896-2,2v6c.0013,1.104,.896,1.9987,2,2h24c1.104-.0013,1.9987-.896,2-2v-6c-.0013-1.104-.896-1.9987-2-2Z"/>
+    <circle class="cls-8" cx="227.4325" cy="128.0527" r="1"/>
+    <path class="cls-8" d="M250.4325,111.0527h-8v6h-6v8h8v-6h6v-8Zm-8,12h-4v-4h4v4Zm6-6h-4v-4h4v4Z"/>
+    <path class="cls-8" d="M238.4325,113.0527h-8v-8h8v8Zm-6-2h4v-4h-4v4Z"/>
+  </g>
+  <text class="cls-9" transform="translate(265.7279 113.5727)"><tspan class="cls-6"><tspan class="cls-26" x="0" y="0">St</tspan><tspan x="11.7236" y="0">o</tspan><tspan class="cls-29" x="18.4795" y="0">r</tspan><tspan x="23.0635" y="0">a</tspan><tspan class="cls-20" x="29.7715" y="0">g</tspan><tspan x="36.2393" y="0">e</tspan></tspan><tspan class="cls-25"><tspan class="cls-18" x="0" y="14.3999">R</tspan><tspan x="7.5" y="14.3999">egi</tspan><tspan class="cls-27" x="23.4238" y="14.3999">s</tspan><tspan class="cls-26" x="29.1836" y="14.3999">t</tspan><tspan x="33.3477" y="14.3999">er a Cloud Object S</tspan><tspan class="cls-26" x="135.5508" y="14.3999">t</tspan><tspan x="139.7148" y="14.3999">o</tspan><tspan class="cls-33" x="146.4346" y="14.3999">r</tspan><tspan x="150.79" y="14.3999">a</tspan><tspan class="cls-20" x="157.1982" y="14.3999">g</tspan><tspan x="163.4619" y="14.3999">e buc</tspan><tspan class="cls-35" x="192.6934" y="14.3999">k</tspan><tspan x="198.8135" y="14.3999">et </tspan><tspan class="cls-26" x="212.4453" y="14.3999">t</tspan><tspan x="216.6094" y="14.3999">o </tspan><tspan class="cls-22" x="226.1611" y="14.3999">s</tspan><tspan class="cls-26" x="231.9219" y="14.3999">t</tspan><tspan x="236.0859" y="14.3999">o</tspan><tspan class="cls-12" x="242.8057" y="14.3999">r</tspan><tspan x="247.1494" y="14.3999">e </tspan><tspan class="cls-12" x="256.5693" y="14.3999">r</tspan><tspan x="260.9131" y="14.3999">esu</tspan><tspan class="cls-34" x="280.1611" y="14.3999">l</tspan><tspan x="283.3652" y="14.3999">t</tspan><tspan class="cls-34" x="287.5771" y="14.3999">s</tspan><tspan x="293.3613" y="14.3999">.</tspan></tspan></text>
+  <rect class="cls-16" x="208.8108" y="151.8678" width="498.3734" height="52.8159"/>
+  <rect class="cls-16" x="208.8108" y="213.1694" width="498.3734" height="52.8159"/>
+  <text class="cls-9" transform="translate(265.5606 175.2954)"><tspan class="cls-6"><tspan x="0" y="0">In</tspan><tspan class="cls-26" x="12.1318" y="0">t</tspan><tspan class="cls-24" x="16.5723" y="0">eg</tspan><tspan class="cls-29" x="29.8076" y="0">r</tspan><tspan class="cls-26" x="34.3916" y="0">a</tspan><tspan x="41.0518" y="0">tion</tspan></tspan><tspan class="cls-25"><tspan x="0" y="14.3999">C</tspan><tspan class="cls-12" x="7.4521" y="14.3999">r</tspan><tspan x="11.7959" y="14.3999">ea</tspan><tspan class="cls-26" x="24.792" y="14.3999">t</tspan><tspan x="28.9561" y="14.3999">e the </tspan><tspan class="cls-20" x="58.8232" y="14.3999">c</tspan><tspan x="64.7871" y="14.3999">onnection bet</tspan><tspan class="cls-34" x="139.1025" y="14.3999">w</tspan><tspan x="148.2588" y="14.3999">een C</tspan><tspan class="cls-31" x="178.5342" y="14.3999">av</tspan><tspan x="190.6543" y="14.3999">eonix and Security and Complian</tspan><tspan class="cls-20" x="366.667" y="14.3999">c</tspan><tspan class="cls-23" x="372.6309" y="14.3999">e Cen</tspan><tspan class="cls-26" x="402.9072" y="14.3999">t</tspan><tspan x="407.0713" y="14.3999">er</tspan></tspan></text>
+  <g>
+    <path class="cls-8" d="M242.4325,241.8522h-12c-1.1046,0-2-.8954-2-2v-3h2v3h12v-3h2v3c0,1.1046-.8954,2-2,2Z"/>
+    <rect class="cls-8" x="222.4325" y="232.8522" width="28" height="2"/>
+    <path class="cls-8" d="M244.4325,230.8522h-2v-3h-12v3h-2v-3c0-1.1046,.8954-2,2-2h12c1.1046,0,2,.8954,2,2v3Z"/>
+    <polygon class="cls-8" points="250.4325 227.8523 248.4325 227.8523 248.4325 221.8523 242.4325 221.8523 242.4325 219.8523 250.4325 219.8523 250.4325 227.8523"/>
+    <polygon class="cls-8" points="224.4325 227.8523 222.4325 227.8523 222.4325 219.8523 230.4325 219.8523 230.4325 221.8523 224.4325 221.8523 224.4325 227.8523"/>
+    <polygon class="cls-8" points="230.4325 247.8523 222.4325 247.8523 222.4325 239.8523 224.4325 239.8523 224.4325 245.8523 230.4325 245.8523 230.4325 247.8523"/>
+    <polygon class="cls-8" points="250.4325 247.8523 242.4325 247.8523 242.4325 245.8523 248.4325 245.8523 248.4325 239.8523 250.4325 239.8523 250.4325 247.8523"/>
+  </g>
+  <text class="cls-9" transform="translate(265.9915 228.732)"><tspan class="cls-6"><tspan class="cls-30" x="0" y="0">A</tspan><tspan class="cls-20" x="7.8838" y="0">t</tspan><tspan x="12.2998" y="0">tachment</tspan></tspan><tspan class="cls-25"><tspan x="0" y="14.3999">Vi</tspan><tspan class="cls-34" x="10.3076" y="14.3999">e</tspan><tspan x="16.8359" y="14.3999">w </tspan><tspan class="cls-12" x="28.8838" y="14.3999">y</tspan><tspan class="cls-23" x="34.8115" y="14.3999">our </tspan><tspan class="cls-12" x="55.584" y="14.3999">r</tspan><tspan x="59.9277" y="14.3999">esu</tspan><tspan class="cls-12" x="79.1758" y="14.3999">l</tspan><tspan class="cls-23" x="82.3789" y="14.3999">ts </tspan><tspan class="cls-12" x="95.2676" y="14.3999">b</tspan><tspan x="102.167" y="14.3999">y selecting the C</tspan><tspan class="cls-31" x="190.4023" y="14.3999">av</tspan><tspan class="cls-23" x="202.5215" y="14.3999">eonix p</tspan><tspan class="cls-12" x="241.5215" y="14.3999">r</tspan><tspan class="cls-13" x="245.8652" y="14.3999">o</tspan><tspan x="252.5137" y="14.3999">file when </tspan><tspan class="cls-12" x="304.2686" y="14.3999">y</tspan><tspan class="cls-23" x="310.1963" y="14.3999">ou c</tspan><tspan class="cls-12" x="332.6006" y="14.3999">r</tspan><tspan x="336.9443" y="14.3999">ea</tspan><tspan class="cls-26" x="349.9404" y="14.3999">t</tspan><tspan x="354.1045" y="14.3999">e an </tspan></tspan><tspan class="cls-25"><tspan x="0" y="28.7998">a</tspan><tspan class="cls-21" x="6.4082" y="28.7998">t</tspan><tspan x="10.5117" y="28.7998">tachment. </tspan></tspan></text>
+  <g>
+    <path class="cls-8" d="M173.4831,333.3934c-3.3137,0-6-2.6863-6-6s2.6863-6,6-6,6,2.6863,6,6c.0353,3.2784-2.5937,5.9647-5.8721,6-.0426,.0005-.0853,.0005-.1279,0Zm0-10c-2.1601-.049-3.951,1.6624-4,3.8226-.0013,.0591-.0013,.1183,0,.1774-.049,2.1601,1.6624,3.951,3.8226,4,.0591,.0013,.1183,.0013,.1774,0,2.1601,.049,3.951-1.6624,4-3.8226,.0013-.0591,.0013-.1183,0-.1774,.049-2.1601-1.6624-3.951-3.8226-4-.0591-.0013-.1183-.0013-.1774,0Z"/>
+    <path class="cls-8" d="M186.7878,322.4374l-2.3606-4.0878c-.476-.8263-1.4697-1.201-2.3728-.8946l-2.4341,.8233c-.4195-.2825-.8578-.5359-1.312-.7583l-.5037-2.5186c-.1869-.9351-1.0079-1.6081-1.9615-1.608h-4.72c-.9536-.0001-1.7746,.6729-1.9615,1.608l-.5037,2.5186c-.4592,.22-.9025,.4718-1.3267,.7534l-2.4194-.8184c-.9031-.3064-1.8968,.0683-2.3728,.8946l-2.3606,4.0878c-.4765,.8258-.3041,1.873,.4119,2.5025l1.9309,1.6968c-.0171,.2514-.0381,.5014-.0381,.7567,0,.2578,.01,.5127,.0278,.7656l-1.9206,1.688c-.716,.6295-.8884,1.6767-.4119,2.5025l2.3606,4.0879c.476,.8263,1.4697,1.201,2.3728,.8946l2.4341-.8233c.4193,.2827,.8577,.5361,1.312,.7583l.5037,2.5186c.187,.935,1.008,1.608,1.9615,1.6078h4.36v-2h-4.36l-.71-3.5508c-.9821-.3647-1.8937-.8963-2.6948-1.5713l-3.4474,1.1661-2.36-4.0878,2.7253-2.3951c-.1864-1.0341-.1888-2.093-.007-3.1279l-2.7186-2.3892,2.3611-4.0878,3.4267,1.1591c.8067-.6756,1.7252-1.205,2.7141-1.5644l.7106-3.5509h4.72l.71,3.5508c.982,.3647,1.8937,.8963,2.6948,1.5713l3.4468-1.166,2.36,4.0878-2.7978,2.4522,1.3185,1.5039,2.8-2.4536c.7162-.6293,.8887-1.6766,.4124-2.5024Z"/>
+    <polygon class="cls-8" points="180.4831 337.5734 177.8931 334.9834 176.4831 336.3934 180.4831 340.3934 187.4831 333.3934 186.0731 331.9834 180.4831 337.5734"/>
+  </g>
+  <rect id="_Transparent_Rectangle_-2" data-name=" Transparent Rectangle " class="cls-1" x="51.7354" y="211.9695" width="32" height="32"/>
+  <g>
+    <path id="_Path_" data-name="&amp;lt;Path&amp;gt;" class="cls-8" d="M186.4385,61.1825v5.5c0,1.5-.9,2.8-2.3,3.5l-1.7,.8-1.7-.8c-1.4-.6-2.3-2-2.3-3.5v-5.5h8m2-2h-12v7.5c0,2.2,1.3,4.3,3.4,5.3l2.6,1.2,2.6-1.2c2.1-1,3.4-3,3.4-5.3v-7.5h0Z"/>
+    <path class="cls-8" d="M172.4385,68.1825h-8.5c-4.1,0-7.5-3.4-7.5-7.5,0-3.7,2.7-6.7,6.2-7.4,.9-4.7,5-8.1,9.8-8.1,5.5,0,10,4.5,10,10h-2c0-4.4-3.6-8-8-8-4.1,0-7.5,3.1-8,7.1v.9h-.9c-2.9,.2-5.1,2.6-5.1,5.5,0,3,2.5,5.5,5.5,5.5h8.5v2Z"/>
+  </g>
+  <path class="cls-8" d="M250.4186,179.7464l-6-11c-.1759-.3215-.5135-.521-.88-.52h-14c-.3665-.001-.7041,.1985-.88,.52l-6,11c-.1786,.3094-.1786,.6906,0,1l6,11c.1862,.3061,.5219,.4892,.88,.48h14c.3665,.001,.7041-.1985,.88-.52l6-11c.1636-.2991,.1636-.6609,0-.96Zm-6.95-8.52l4.39,8h-9.5l5.11-8Zm-6.93,7.14l-5.18-8.14h10.36l-5.18,8.14Zm-6.93-7.14l5.11,8h-9.5l4.39-8Zm-4.39,10h9.5l-5.11,8-4.39-8Zm11.32,.86l5.18,8.14h-10.36l5.18-8.14Zm6.93,7.14l-5.11-8h9.5l-4.39,8Z"/>
+  <rect id="_Transparent_Rectangle_-3" data-name=" Transparent Rectangle " class="cls-1" x="64.7107" y="238.4901" width="32" height="32"/>
+</svg>

@@ -1,6 +1,6 @@
 {
     "title": "Security and Compliance Center docs",
-    "lastupdated": "2023-10-04",
+    "lastupdated": "2023-12-15",
     "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
     "section_devtools": {
       "api": "/apidocs/security-compliance/",
@@ -33,19 +33,19 @@
       "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
       "tiles": [
         {
-          "date": "28 September 2023",
-          "title": "Terraform support now available",
+          "date": "15 December 2023",
+          "title": "",
           "description": "Terraform support is now available. Check the release notes for details."
         },
         {
-          "date": "23 September 2023",
-          "title": "Profile name changes and multi-environment profiles",
-          "description": "There are several updates to the service as of today. Be sure to check the release notes."
+          "date": "12 December 2023",
+          "title": "Removal of profiles",
+          "description": "The IBM Cloud Security Best Practices and IBM Cloud Red Hat OpenShift OCP4 (version 1.1.0) profiles have been removed."
         },
         {
-          "date": "15 September 2023",
-          "title": "New SDK versions",
-          "description": "New versions of the Go, Java, Node, and Python SDKS are now available."
+          "date": "11 December 2023",
+          "title": "New profiles",
+          "description": "New versions of the ISMAP profile and AI ICT Guardrails profile are now available."
         }
       ]
     }

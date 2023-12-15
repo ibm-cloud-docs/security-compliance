@@ -66,6 +66,7 @@ toc:
           label: Connecting integrations
           topics:
           - integrations/integrations.md
+          - integrations/caveonix.md
           - integrations/workloadprotection.md
       - topicgroup:
           label: Logging and monitoring
@@ -124,6 +125,8 @@ toc:
                 navtitle: ISMAP
               - topic: change-logs/ai-ict.md
                 navtitle: AI ICT Guardrails
+              - topic: change-logs/caveonix-vmware.md
+                navtitle: Caveonix Security Baselines for VMware
           - topicgroup:
               label: Amazon Web Services
               topics:
