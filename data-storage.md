@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-11-14"
+lastupdated: "2023-12-15"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -211,4 +211,39 @@ If you disconnect your instance of Cloud Object Storage or select a new bucket, 
 
 
 A successful response returns the {{site.data.keyword.en_short}} and Cloud Object Storage settings, along with other metadata. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#update-settings).
+
+
+
+## Configuring storage with the CLI
+{: #cos-storage-cli}
+{: cli}
+
+Before you can start evaluating your resources for compliance, you must configure a Cloud Object Storage bucket where the service can forward your results data for long-term storage.
+
+To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword.compliance_short}} CLI. For more information, see the [CLI reference](/docs/security-compliance?topic=security-compliance-security-compliance-cli&interface=ui#security-compliance-cli-settings-update-command).
+
+```sh
+ibmcloud security-compliance setting update
+--event-notifications='{
+  "instance_crn": "crn:v1:staging:public:event-notifications:us-south:a/ff88f007f9ff4622aac4fbc0eda36255:7199ae60-a214-4dd8-9bf7-ce571de49d01::",
+  "updated_on": "2019-01-01T12:00:00.000Z",
+  "source_id": "crn:v1:staging:public:event-notifications:us-south:a/ff88f007f9ff4622aac4fbc0eda36255:b8b07245-0bbe-4478-b11c-0dce523105fd::",
+  "source_description": "This source is used for integration with IBM Cloud Security and Compliance Center.",
+  "source_name": "compliance"
+  }'
+--object-storage='{
+  "instance_crn": "crn:v1:staging:public:cloud-object-storage:global:a/ff88f007f9ff4622aac4fbc0eda36255:7199ae60-a214-4dd8-9bf7-ce571de49d01::",
+  "bucket": "px-scan-results",
+  "bucket_location": "us-south",
+  "bucket_endpoint": "exampleString",
+  "updated_on": "2019-01-01T12:00:00.000Z"
+  }'
+--x-correlation-id=1a2b3c4d-5e6f-4a7b-8c9d-e0f1a2b3c4d5
+--x-request-id=exampleString
+```
+{: pre}
+
+
+If you disconnect your instance of Cloud Object Storage or select a new bucket, {{site.data.keyword.compliance_short}} is not able to read any of your existing results data. An evaluation can't complete without a connected Cloud Object Storage bucket.
+{: important}
 

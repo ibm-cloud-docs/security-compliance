@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-12-07"
+lastupdated: "2023-12-15"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -216,6 +216,40 @@ print(json.dumps(profile, indent=2))
 
 
 A successful response returns a boolean that confirms that `success` is `true`. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-profile).
+
+
+
+## Building a profile with the CLI
+{: #create-profile-cli}
+{: cli}
+
+You can create a profile with the CLI by using a control library as a guide. For more information, see the [CLI reference](/docs/security-compliance?topic=security-compliance-security-compliance-cli&interface=cli#security-compliance-cli-profiles-create-command).
+
+```sh
+ibmcloud security-compliance profile create
+--profile-name=test_profile1
+--profile-description=test_description1
+--profile-type=custom
+--controls='[
+	{
+		"control_library_id": "e98a56ff-dc24-41d4-9875-1e188e2da6cd",
+		"control_id": "1fa45e17-9322-4e6c-bbd6-1c51db08e790"
+		}
+	]'
+--default-parameters='[
+	{
+		"assessment_type": "Automated",
+		"assessment_id": "rule-a637949b-7e51-46c4-afd4-b96619001bf1",
+		"parameter_name": "session_invalidation_in_seconds",
+		"parameter_default_value": "120",
+		"parameter_display_name": "Sign out due to inactivity in seconds",
+		"parameter_type": "numeric"
+		}
+	]'
+--x-correlation-id=exampleString
+--x-request-id=exampleString
+```
+{: pre}
 
 
 
