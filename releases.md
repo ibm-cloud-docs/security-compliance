@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2023
-lastupdated: "2023-12-12"
+lastupdated: "2023-12-15"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -19,6 +19,13 @@ content-type: release-note
 The following changes to the service were made available with the associated date.
 
 
+
+## 15 December 2023
+{: #security-compliance-dec1523}
+{: release-note}
+
+Caveonix Security Baselines for VMware profile 
+:   Version 1.0.0 of the SOC 2 is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-soc2-change-log).
 
 
 ## 12 December 2023

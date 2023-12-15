@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-12-11"
+lastupdated: "2023-12-15"
 
 keywords: Centralized security, compliance monitoring, compliance, integration
 
@@ -43,6 +43,7 @@ The following integrations are available in {{site.data.keyword.compliance_short
 |---------|-------------|------------|-----------------|
 | {{site.data.keyword.sysdigsecure_short}} |  | {{site.data.keyword.compliance_short}} pulls results from {{site.data.keyword.sysdigsecure_short}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-setup-workload-protection) |
 | Toolchain | | The Toolchain service pushes results to {{site.data.keyword.compliance_short}} and {{site.data.keyword.compliance_short}} pulls results from Toolchain depending on the configuration. | [![Note icon](../../icons/note_icon.svg)](/docs/devsecops?topic=devsecops-cd-devsecops-scc-toolchains) |
+| Caveonix | | Caveonix pushes results to {{site.data.keyword.compliance_short}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-setup-caveonix) |
 | CyberStrong |  | {{site.data.keyword.compliance_short}} forwards results | [![Note icon](../../icons/note_icon.svg)](https://support.cybersaint.io/hc/en-us/categories/8496076077165-Knowledge-Library) |
 {: caption="Table 1. Available integrations" caption-side="bottom"}
 
