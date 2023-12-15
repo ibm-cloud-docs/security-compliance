@@ -47,4 +47,4 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 {: #cavenoix-vmware-v100}
 
 Now available
-:   Released today, 14 July 2023, the Caveonix Security Baselines for VMware is a collection of controls designed to validate the compliance of VMware infrastructure components that run on {{site.data.keyword.cloud_notm}}.
+:   Released today, 15 December 2023, the Caveonix Security Baselines for VMware is a collection of controls designed to validate the compliance of VMware infrastructure components that run on {{site.data.keyword.cloud_notm}}.
