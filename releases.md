@@ -25,7 +25,7 @@ The following changes to the service were made available with the associated dat
 {: release-note}
 
 Caveonix Security Baselines for VMware profile 
-:   Version 1.0.0 of the SOC 2 is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-soc2-change-log).
+:   Version 1.0.0 of the Caveonix Security Baselines for VMware profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-soc2-change-log).
 
 
 ## 12 December 2023
