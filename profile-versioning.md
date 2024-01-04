@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-12-07"
+  years: 2024
+lastupdated: "2024-01-04"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, profile versioning, benchmark, controls, goals, security, compliance
 
@@ -58,5 +58,4 @@ You can upgrade your attachment to use the new profile version anytime during th
 
 You cannot attach new attachments to a deprecated profile version, or [build a custom profile](/docs/security-compliance?topic=security-compliance-build-custom-profiles#create-profile-ui) by pulling the controls from the library of a deprecated profile version.
 {: tip}
-
 

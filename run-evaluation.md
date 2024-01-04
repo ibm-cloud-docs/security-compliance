@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-12-15"
+  years: 2020, 2024
+lastupdated: "2024-01-04"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -32,13 +32,8 @@ Before you get started, be sure that you have the following Prerequisites:
 * A connected Cloud Object Storage bucket in which to store your results. To connect your bucket, you must have a service-to-service policy in place that enables communication between {{site.data.keyword.compliance_short}} and Cloud Object Storage.
 * A selected profile that you want to use in your attachment.
 
-	
-
 	Want to use controls from multiple profiles? Create a custom profile from the existing control libraries and use that profile to create your attachment. Because you cannot create custom profiles from deprecated control library versions, work with the most recent version.
 	{: tip}
-
-	
-
 
 ## Scheduling a recurring scan
 {: #scan-schedule-ui}
