@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-12-15"
+  years: 2024
+lastupdated: "2024-01-10"
 
 keywords: Centralized security, compliance monitoring, compliance, integration
 
@@ -26,8 +26,6 @@ To fully understand your security and compliance landscape across multiple cloud
 
 Depending on the integration, {{site.data.keyword.compliance_short}} obtains the data surrounding your current compliance posture differently. The data model used might require you to configure the integration in the other product, or it might be automatically pulled after the configuration is in place. Check out the following image to learn more about the potential ways that you results data is gathered and forwarded. 
 
-
-Note: This version of the image can go external starting after review.
 
 ![The image shows the sequence of events that a user follows as part of setting up the integration.](../images/data-model.svg){: caption="Figure 1. Data model options" caption-side="bottom"}
 

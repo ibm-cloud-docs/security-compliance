@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-12-15"
+  years: 2024
+lastupdated: "2024-01-10"
 
 keywords: Centralized security, workload protection, compliance monitoring, compliance, scan, sysdig, multicloud, multi-cloud, azure, amazon, aws
 
@@ -35,7 +35,7 @@ Before you get started, be sure that you have the following prerequisites:
 * An {{site.data.keyword.cloud_notm}} account. For more information, see [Setting up your {{site.data.keyword.cloud_notm}} account](/docs/account?topic=account-account-getting-started).
 * An instance of the {{site.data.keyword.compliance_short}} service. For more information, see [Create an instance](/docs/security-compliance?topic=security-compliance-getting-started).
 * A Cloud Object Storage bucket to store results. For more information, see [Setting up data storage and processing for {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-storage).
-* The required level of access to create and manage integrations in {{site.data.keyword.compliance_short}}. To pull results from Workload Protection, you must have the administrator platform role or higher for the {{site.data.keyword.compliance_short}} service. For more information, see [Assigning access]([[link]}-access-management).
+* The required level of access to create and manage integrations in {{site.data.keyword.compliance_short}}. To pull results from Workload Protection, you must have the administrator platform role or higher for the {{site.data.keyword.compliance_short}} service. For more information, see [Assigning access](/docs/security-compliance?topic=security-compliance-access-management).
 * A Caveonix account.
 * You must have version 5.0 of Caveonix Cloud deployed with an organization created.
 * VMware asset repositories.
