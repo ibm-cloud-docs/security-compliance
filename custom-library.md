@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-12-15"
+  years: 2020, 2024
+lastupdated: "2024-01-12"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -264,7 +264,6 @@ create_custom_control_library(
 
 
 A successful response returns a boolean that confirms that `success` is `true`. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-custom-control-library).
-
 
 
 ## Creating a library with the CLI
