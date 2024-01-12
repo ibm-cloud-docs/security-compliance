@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-12-15"
+  years: 2020, 2024
+lastupdated: "2024-01-12"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -433,7 +433,6 @@ ibmcloud security-compliance rule create
 {: pre}
 
 See the [CLI reference](/docs/security-compliance?topic=security-compliance-security-compliance-cli&interface=cli#security-compliance-cli-rules-create-command) for more information.
-
 
 
 

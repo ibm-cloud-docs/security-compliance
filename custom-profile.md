@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-01-04"
+lastupdated: "2024-01-12"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -212,7 +212,6 @@ print(json.dumps(profile, indent=2))
 
 
 A successful response returns a boolean that confirms that `success` is `true`. For more information about the required and optional request parameters, check out the [API docs](/apidocs/security-compliance#create-profile).
-
 
 
 ## Building a profile with the CLI
