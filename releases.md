@@ -18,25 +18,15 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
-## 23 January 2024
-{: #security-compliance-jan2324}
+
+
+## 17 January 2024
+{: #security-compliance-jan1724}
 {: release-note}
 
-New rules available
-:   IBM Log Analysis can be evaluated to determine whether an instance exists in a required region and is configured to receive platform logs.
-:   Databases for EDB can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   Database for EDB can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-:   Databases for MySql can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   Databases for MySql can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-:   IBM Log Analysis can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   IBM Log Analysis can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-:   IBM Cloud Activity Tracker can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:  IBM Cloud Activity Tracker can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   IBM Cloud Monitoring can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:  IBM Cloud Monitoring can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-:   Messages for Rabbitmq can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+Updated rule
+:   The rule logic for `Check whether Kubernetes Service version is up-to-date` has been changed. In a previous version of the evaluation, the logic compared the recommended version. Now, the logic compares the recommended version and supported versions. The rule ID is `rule-e0686900-c022-4434-b04f-f7032bea1050`.`
 
-For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 
 ## 15 December 2023
