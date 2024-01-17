@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-12-22"
+  years: 2020, 2024
+lastupdated: "2024-01-17"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,11 +18,22 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
+
+
+## 17 January 2024
+{: #security-compliance-jan1724}
+{: release-note}
+
+Updated rule
+:   The rule logic for `Check whether Kubernetes Service version is up-to-date` has been changed. In a previous version of the evaluation, the logic compared the recommended version. Now, the logic compares the recommended version and supported versions. The rule ID is `rule-e0686900-c022-4434-b04f-f7032bea1050`.`
+
+
+
 ## 15 December 2023
 {: #security-compliance-dec1523}
 {: release-note}
 
-Caveonix Security Baselines for VMware profile 
+Caveonix Security Baselines for VMware profile
 :   Version 1.0.0 of the Caveonix Security Baselines for VMware profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-soc2-change-log).
 
 Command Line Interface
@@ -36,8 +47,8 @@ Command Line Interface
 {{site.data.keyword.cloud_notm}} Security Best Practices profile has been removed
 :   The {{site.data.keyword.cloud_notm}} Security Best Practices profile has been removed. The profile was deprecated on September 12, 2023 and was removed according to schedule today.
 
-{{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 (Version 1.1.0) profile has been removed. 
-:   Version 1.1.0 of the {{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 has been removed from the service. 
+{{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 (Version 1.1.0) profile has been removed.
+:   Version 1.1.0 of the {{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 has been removed from the service.
 
 ## 11 December 2023
 {: #security-compliance-dec1123}
