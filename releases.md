@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-12-22"
+  years: 2020, 2024
+lastupdated: "2024-01-17"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,11 +18,26 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
+## 23 January 2024
+{: #security-compliance-jan2324}
+{: release-note}
+
+New rules available
+:   IBM Log Analysis can be evaluated to determine whether an instance exists in a required region and is configured to receive platform logs.
+:   Databases for EDB can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
+:   Database for EDB can be evaluated to determine there are no wild cards in the private endpoint allow list(Context-based restrictions or service).
+:   Databases for MySql can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service)
+:   The Secrets Manager service can now be evaluated to determine whether certificates that are generated through the service are configured to be renewed before they expire.
+:   The Event Notifications service can now be evaluated to determine whether it is configured for {{site.data.keyword.compliance_short}}.
+
+For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
+
+
 ## 15 December 2023
 {: #security-compliance-dec1523}
 {: release-note}
 
-Caveonix Security Baselines for VMware profile 
+Caveonix Security Baselines for VMware profile
 :   Version 1.0.0 of the Caveonix Security Baselines for VMware profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-soc2-change-log).
 
 Command Line Interface
@@ -36,8 +51,8 @@ Command Line Interface
 {{site.data.keyword.cloud_notm}} Security Best Practices profile has been removed
 :   The {{site.data.keyword.cloud_notm}} Security Best Practices profile has been removed. The profile was deprecated on September 12, 2023 and was removed according to schedule today.
 
-{{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 (Version 1.1.0) profile has been removed. 
-:   Version 1.1.0 of the {{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 has been removed from the service. 
+{{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 (Version 1.1.0) profile has been removed.
+:   Version 1.1.0 of the {{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 has been removed from the service.
 
 ## 11 December 2023
 {: #security-compliance-dec1123}
