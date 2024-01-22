@@ -34,7 +34,7 @@ New rules available
 :   IBM Cloud Activity Tracker can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
 :   IBM Cloud Activity Tracker can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
 :   IBM Cloud Monitoring can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:  IBM Cloud Monitoring can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+:   IBM Cloud Monitoring can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
 :   Messages for Rabbitmq can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
 :   Messages for Rabbitmq can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
 
