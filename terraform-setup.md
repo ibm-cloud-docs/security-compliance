@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-11"
+  years: 2024
+lastupdated: "2024-01-23"
 
 keywords: terraform, {{site.data.keyword.compliance_short}}, terraform setup, create instance
 
@@ -39,7 +39,27 @@ Before you can create an authorization by using Terraform, make sure that you co
    ```
    {: pre}
 
-2. Create a {{site.data.keyword.compliance_short}} instance by using the the [UI](/docs/security-compliance?topic=security-compliance-getting-started), API, or CLI.
+2. Create a {{site.data.keyword.compliance_short}} instance by using the `ibm_resource_instance` resource argument in your `main.tf` file.
+
+    * The {{site.data.keyword.compliance_short}} instance in the following example is named `security-compliance-south` and is created with the standard plan in the `us-south` region. The `user@ibm.com` is assigned the Administrator role in the IAM access policy. For other supported regions, see [Regions and endpoints](/docs/security-compliance?topic=security-compliance-endpoints). Plan options include `trial` and `standard`.
+
+        ```terraform
+        data "ibm_resource_group" "group" {
+        name = "security-compliance-south"
+        }
+
+        resource "ibm_resource_instance" "scc_instance" {
+        name              = "security-compliance-south"
+        service           = "compliance"
+        plan              = "security-compliance-center-standard-plan"
+        location          = "us-south"
+        resource_group_id = data.ibm_resource_group.group.id
+        tags              = ["tag1", "tag2"]
+        }
+        ```
+        {: codeblock}
+
+        To view a complete list of the supported attributes, see [`ibm_scc_instance`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_instance){: external}.
 
     * Optionally, you can create a data source to retrieve information about an existing {{site.data.keyword.compliance_short}} instance from {{site.data.keyword.cloud_notm}}, by running the following command. 
 
@@ -52,7 +72,25 @@ Before you can create an authorization by using Terraform, make sure that you co
 
    For a complete list of the supported attributes, see [`ibm_resource_instance`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/data-sources/resource_instance){: external}.
 
-3. Provision the resources from the `main.tf` file. For more information, see [Provisioning Infrastructure with Terraform](https://developer.hashicorp.com/terraform/cli/run){: external}.
+3. Manage the settings of your {{site.data.keyword.compliance_short}} instance, such as to configure Event Notifications and Cloud Object Storage, by using the `ibm_scc_instance_settings` resource argument in your `main.tf` file.
+
+    ```terraform
+    resource "ibm_scc_instance_settings" "scc_instance_settings_instance" {
+    instance_id = "00000000-1111-2222-3333-444444444444"
+    event_notifications {
+            instance_crn = "<event_notifications_crn>"
+    }
+    object_storage {
+            instance_crn = "<cloud_object_storage_crn>"
+            bucket = "<cloud_object_storage_bucket>"
+    }
+    }
+    ```
+    {: codeblock}
+
+   For a complete list of the supported attributes, see [`ibm_scc_instance_settings`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_instance_settings){: external}. 
+
+4. Provision the resources from the `main.tf` file. For more information, see [Provisioning Infrastructure with Terraform](https://developer.hashicorp.com/terraform/cli/run){: external}.
 
    1. Run `terraform plan` to generate a Terraform execution plan to preview the proposed actions.
 
@@ -68,7 +106,7 @@ Before you can create an authorization by using Terraform, make sure that you co
     ```
     {: pre}
 
-4. Define local values for your {{site.data.keyword.compliance_short}} instance to be used when you are creating resources.
+5. Define local values for your {{site.data.keyword.compliance_short}} instance to be used when you are creating resources.
 
     ```terraform
         locals {
@@ -78,8 +116,8 @@ Before you can create an authorization by using Terraform, make sure that you co
     ```
    {: pre}
 
-5. From the {{site.data.keyword.cloud_notm}} resource list in the UI, select the {{site.data.keyword.compliance_short}} instance that you created and note the instance ID.
-6. Verify that the access policy is successfully assigned. For more information, see [Reviewing assigned access in the console](/docs/account?topic=account-assign-access-resources#review-your-access-console).
+6. From the {{site.data.keyword.cloud_notm}} resource list in the UI, select the {{site.data.keyword.compliance_short}} instance that you created and note the instance ID.
+7. Verify that the access policy is successfully assigned. For more information, see [Reviewing assigned access in the console](/docs/account?topic=account-assign-access-resources#review-your-access-console).
 
 
 ## What's next?
