@@ -72,7 +72,7 @@ Before you can create an authorization by using Terraform, make sure that you co
 
    For a complete list of the supported attributes, see [`ibm_resource_instance`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/data-sources/resource_instance){: external}.
 
-3. Manage the settings of your {{site.data.keyword.compliance_short}} instance, such as to configure Event Notifications and Cloud Object Storage, by using the `ibm_scc_instance_settings` resource argument in your `main.tf` file.
+3. Manage the settings of your {{site.data.keyword.compliance_short}} instance, such as to configure {{site.data.keyword.en_short}} and Cloud Object Storage, by using the `ibm_scc_instance_settings` resource argument in your `main.tf` file.
 
     ```terraform
     resource "ibm_scc_instance_settings" "scc_instance_settings_instance" {
