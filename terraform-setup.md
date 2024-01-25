@@ -86,7 +86,36 @@ Before you can create an authorization by using Terraform, make sure that you co
     ```
     {: codeblock}
 
-   For a complete list of the supported attributes, see [`ibm_scc_instance_settings`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_instance_settings){: external}. 
+   For a complete list of the supported attributes, see [`ibm_scc_instance_settings`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_instance_settings){: external}.
+   
+    You must establish an authorization between the Security and Compliance Center instance and a Cloud Object Storage bucket. To add an authorization, add the following example to your `main.tf` file.
+
+    ```terraform
+    data "ibm_iam_account_settings" "iam-account" {}
+
+    resource "ibm_iam_authorization_policy" "compliance-center_cos-s2s-access" {
+    source_service_name         = "compliance"
+    source_resource_instance_id = ibm_resource_instance.scc_instance.guid
+    roles                       = ["Writer"]
+
+    resource_attributes {
+        name     = "serviceName"
+        operator = "stringEquals"
+        value    = "cloud-object-storage"
+    }
+
+    resource_attributes {
+        name     = "accountId"
+        operator = "stringEquals"
+        value    = data.ibm_iam_account_settings.iam-account.account_id
+    }
+
+    depends_on = [
+        ibm_resource_instance.scc_instance
+    ]
+    }   
+    ```
+    {: codeblock}
 
 4. Provision the resources from the `main.tf` file. For more information, see [Provisioning Infrastructure with Terraform](https://developer.hashicorp.com/terraform/cli/run){: external}.
 
@@ -107,10 +136,9 @@ Before you can create an authorization by using Terraform, make sure that you co
 5. Define local values for your {{site.data.keyword.compliance_short}} instance to be used when you are creating resources.
 
     ```terraform
-        locals {
-            instance_id = data.ibm_resource_instance.scc_resource_instance.guid
-            region = data.ibm_resource_instance.scc_resource_instance.location
-        }
+    locals {
+        instance_id = resource.ibm_resource_instance.scc_resource_instance.guid
+    }
     ```
    {: pre}
 
@@ -121,5 +149,7 @@ Before you can create an authorization by using Terraform, make sure that you co
 ## What's next?
 {: #terraform-setup-next}
 
-Now that you successfully created your first {{site.data.keyword.compliance_short}} service instance with Terraform on {{site.data.keyword.cloud_notm}}, you can review the {{site.data.keyword.compliance_short}} resources and data sources in the [Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule){: external}. You can also review how to manage your {{site.data.keyword.compliance_short}} resources by following the Terraform steps that are included in the How to section. For example, you can follow the directions on how to create [custom libraries](/docs/security-compliance?topic=security-compliance-custom-library&interface=api&code=curl) by using Terraform.
+Now that you successfully created your first {{site.data.keyword.compliance_short}} service instance with Terraform on {{site.data.keyword.cloud_notm}}, you can scan your resources on demand or on a recurring schedule by creating an attachment. For more information about attachments, see [Scanning your resources](/docs/security-compliance?topic=security-compliance-scan-resources&interface=terraform).
+
+You can also review how to manage your {{site.data.keyword.compliance_short}} resources by following the Terraform steps that are included in the How to section. For example, you can follow the directions on how to create [custom libraries](/docs/security-compliance?topic=security-compliance-custom-library&interface=api&code=curl) by using Terraform.
 
