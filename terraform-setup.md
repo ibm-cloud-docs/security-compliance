@@ -72,7 +72,7 @@ Before you can create an authorization by using Terraform, make sure that you co
 
    For a complete list of the supported attributes, see [`ibm_resource_instance`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/data-sources/resource_instance){: external}.
 
-3. Before you can manage the settings of your {{site.data.keyword.compliance_short}} instance, you must establish an authorization between the Security and Compliance Center instance and a Cloud Object Storage bucket. To add an authorization, add the following example to your `main.tf` file.
+3. Before you can manage the settings of your {{site.data.keyword.compliance_short}} instance, you must establish an authorization between the {{site.data.keyword.compliance_short}} instance and a Cloud Object Storage bucket. If you choose to receive notifications, you must also create an authorization between {{site.data.keyword.compliance_short}} and {{site.data.keyword.en_short}}. To add an authorization, add the following example to your `main.tf` file.
 
     ```terraform
     data "ibm_iam_account_settings" "iam-account" {}
