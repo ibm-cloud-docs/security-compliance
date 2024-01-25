@@ -22,6 +22,8 @@ Terraform on {{site.data.keyword.cloud_notm}} enables predictable and consistent
 Looking for a managed Terraform on {{site.data.keyword.cloud_notm}} solution? Try out [{{site.data.keyword.bplong}}](/docs/schematics?topic=schematics-getting-started). With {{site.data.keyword.bpshort}}, you can use the Terraform scripting language that you are familiar with. But you don't need to worry about setting up and maintaining the Terraform command line and the {{site.data.keyword.cloud_notm}} Provider plug-in. {{site.data.keyword.bpshort}} also provides pre-defined Terraform templates that you can easily install from the {{site.data.keyword.cloud_notm}} catalog.
 {: tip}
 
+
+
 ## Installing Terraform and configuring resources for {{site.data.keyword.compliance_short}}
 {: #install-terraform}
 
@@ -70,25 +72,7 @@ Before you can create an authorization by using Terraform, make sure that you co
 
    For a complete list of the supported attributes, see [`ibm_resource_instance`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/data-sources/resource_instance){: external}.
 
-3. Manage the settings of your {{site.data.keyword.compliance_short}} instance, such as to configure {{site.data.keyword.en_short}} and Cloud Object Storage, by using the `ibm_scc_instance_settings` resource argument in your `main.tf` file.
-
-    ```terraform
-    resource "ibm_scc_instance_settings" "scc_instance_settings_instance" {
-    instance_id = "00000000-1111-2222-3333-444444444444"
-    event_notifications {
-            instance_crn = "<event_notifications_crn>"
-    }
-    object_storage {
-            instance_crn = "<cloud_object_storage_crn>"
-            bucket = "<cloud_object_storage_bucket>"
-    }
-    }
-    ```
-    {: codeblock}
-
-   For a complete list of the supported attributes, see [`ibm_scc_instance_settings`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_instance_settings){: external}.
-   
-    You must establish an authorization between the Security and Compliance Center instance and a Cloud Object Storage bucket. To add an authorization, add the following example to your `main.tf` file.
+3. Before you can manage the settings of your {{site.data.keyword.compliance_short}} instance, you must establish an authorization between the Security and Compliance Center instance and a Cloud Object Storage bucket. To add an authorization, add the following example to your `main.tf` file.
 
     ```terraform
     data "ibm_iam_account_settings" "iam-account" {}
@@ -117,7 +101,35 @@ Before you can create an authorization by using Terraform, make sure that you co
     ```
     {: codeblock}
 
-4. Provision the resources from the `main.tf` file. For more information, see [Provisioning Infrastructure with Terraform](https://developer.hashicorp.com/terraform/cli/run){: external}.
+4. Manage the settings of your {{site.data.keyword.compliance_short}} instance, such as to configure {{site.data.keyword.en_short}} and Cloud Object Storage, by using the `ibm_scc_instance_settings` resource argument in your `main.tf` file.
+
+    ```terraform
+    resource "ibm_scc_instance_settings" "scc_instance_settings_instance" {
+        instance_id = ibm_resource_instance.scc_instance.guid
+        event_notifications {
+            instance_crn = "<event_notifications_crn>"
+        }
+        object_storage {
+                instance_crn = "<cloud_object_storage_crn>"
+                bucket = "<cloud_object_storage_bucket>"
+        }
+    }
+    ```
+    {: codeblock}
+
+    If you don't plan to configure {{site.data.keyword.en_short}}, you must keep the `event_notifications` parameter and remove the `instance_crn` field as shown in the following snippet: 
+
+    ```terraform
+    event_notifications {
+
+    }
+    ```
+    {: pre}
+
+
+   For a complete list of the supported attributes, see [`ibm_scc_instance_settings`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_instance_settings){: external}.
+
+5. Provision the resources from the `main.tf` file. For more information, see [Provisioning Infrastructure with Terraform](https://developer.hashicorp.com/terraform/cli/run){: external}.
 
    1. Run `terraform plan` to generate a Terraform execution plan to preview the proposed actions.
 
@@ -133,7 +145,7 @@ Before you can create an authorization by using Terraform, make sure that you co
     ```
     {: pre}
 
-5. Define local values for your {{site.data.keyword.compliance_short}} instance to be used when you are creating resources.
+6. Define local values for your {{site.data.keyword.compliance_short}} instance to be used when you are creating resources.
 
     ```terraform
     locals {
@@ -142,8 +154,8 @@ Before you can create an authorization by using Terraform, make sure that you co
     ```
    {: pre}
 
-6. From the {{site.data.keyword.cloud_notm}} resource list in the UI, select the {{site.data.keyword.compliance_short}} instance that you created and note the instance ID.
-7. Verify that the access policy is successfully assigned. For more information, see [Reviewing assigned access in the console](/docs/account?topic=account-assign-access-resources#review-your-access-console).
+7. From the {{site.data.keyword.cloud_notm}} resource list in the UI, select the {{site.data.keyword.compliance_short}} instance that you created and note the instance ID.
+8. Verify that the access policy is successfully assigned. For more information, see [Reviewing assigned access in the console](/docs/account?topic=account-assign-access-resources#review-your-access-console).
 
 
 ## What's next?
