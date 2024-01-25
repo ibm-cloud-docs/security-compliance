@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-23"
+lastupdated: "2024-01-25"
 
 keywords: terraform, {{site.data.keyword.compliance_short}}, terraform setup, create instance
 
@@ -41,32 +41,30 @@ Before you can create an authorization by using Terraform, make sure that you co
 
 2. Create a {{site.data.keyword.compliance_short}} instance by using the `ibm_resource_instance` resource argument in your `main.tf` file.
 
-    * The {{site.data.keyword.compliance_short}} instance in the following example is named `security-compliance-south` and is created with the standard plan in the `us-south` region. The `user@ibm.com` is assigned the Administrator role in the IAM access policy. For other supported regions, see [Regions and endpoints](/docs/security-compliance?topic=security-compliance-endpoints). Plan options include `trial` and `standard`.
+    * The {{site.data.keyword.compliance_short}} instance in the following example is named `security-compliance-us-south` and is created with the standard plan in the `us-south` region. The `user@ibm.com` is assigned the Administrator role in the IAM access policy. For other supported regions, see [Regions and endpoints](/docs/security-compliance?topic=security-compliance-endpoints). Plan options include `security-compliance-center-trial-plan` and `security-compliance-center-standard-plan`.
 
         ```terraform
         data "ibm_resource_group" "group" {
-        name = "security-compliance-south"
+        name = "Default"
         }
 
         resource "ibm_resource_instance" "scc_instance" {
-        name              = "security-compliance-south"
+        name              = "security-compliance-us-south"
         service           = "compliance"
         plan              = "security-compliance-center-standard-plan"
         location          = "us-south"
         resource_group_id = data.ibm_resource_group.group.id
-        tags              = ["tag1", "tag2"]
         }
         ```
         {: codeblock}
 
         To view a complete list of the supported attributes, see [`ibm_scc_instance`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_instance){: external}.
 
-    * Optionally, you can create a data source to retrieve information about an existing {{site.data.keyword.compliance_short}} instance from {{site.data.keyword.cloud_notm}}, by running the following command. 
+    * Optionally, you can create a data source to retrieve information about an existing {{site.data.keyword.compliance_short}} instance from {{site.data.keyword.cloud_notm}} by running the following command with the example from step 2 in your `main.tf` file. 
 
         ```terraform
-        "ibm_scc_instance_settings" "scc_instance_settings_tf" {
-            instance_id              = "data-source-security-compliance-instance"
-        }
+        terraform import ibm_resource_instance.scc_instance <scc_instance_crn>
+        
         ```
         {: codeblock}
 
