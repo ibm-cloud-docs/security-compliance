@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-01-12"
+lastupdated: "2024-01-25"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -331,7 +331,6 @@ ibmcloud security-compliance control-library create
 --x-request-id=exampleString
 ```
 {: pre}
-
 
 
 ## Creating a library with Terraform

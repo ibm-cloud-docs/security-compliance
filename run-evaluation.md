@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-01-04"
+lastupdated: "2024-01-25"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -372,16 +372,95 @@ When you create your attachment, a scan is scheduled. When the scan completes, y
 
 To create an attachment, you can use Terraform.
 
-```hcl
-resource "ibm_scc_profile_attachment" "scc_profile_attachment_instance" {
-  profiles_id = ibm_scc_profile.scc_profile_instance.id
+```terraform
+resource "ibm_scc_profile_attachment" "scc-profile-attachment-instance" {
+  instance_id = ibm_resource_instance.scc_instance.guid
+  name        = "scc-ibm-cis-benchmark-attachment"
+  description = "The IBM Cloud CIS Benchmark Evaluation"
+  profile_id  = <scc_ibm_cloud_cis_profile_id>
+  # The following are values for <scc_ibm_cloud_cis_profile_id>:
+  #
+  # ca-tor: d8ac6f16-a55c-471c-89a1-abc61d90b620
+  # eu-es: 98d4e0cc-236a-4de6-b31b-13c6b6cdda8a
+  # us-south: 1c13d739-e09e-4bf4-8715-dd82e4498041
+  # eu-de: a0bd1ee2-1ed3-407e-a2f4-ce7a1a38f54d
+
+
+  schedule = "every_7_days"
+  status   = "enabled"
+
+  scope {
+    environment = "ibm-cloud"
+    properties {
+      name  = "scope_id"
+      value = data.ibm_iam_account_settings.iam-account.account_id
+    }
+
+    properties {
+      name  = "scope_type"
+      value = "account"
+    }
+  }
+
+  attachment_parameters {
+    parameter_value        = jsonencode(["1.2", "1.3"])
+    assessment_id          = "rule-e16fcfea-fe21-4d30-a721-423611481fea"
+    assessment_type        = "automated"
+    parameter_display_name = "IBM Cloud Internet Services TLS version"
+    parameter_name         = "tls_version"
+    parameter_type         = "string_list"
+  }
+
+  attachment_parameters {
+    parameter_value        = "22"
+    assessment_id          = "rule-f9137be8-2490-4afb-8cd5-a201cb167eb2"
+    assessment_type        = "automated"
+    parameter_display_name = "Network ACL rule for allowed IPs to SSH port"
+    parameter_name         = "ssh_port"
+    parameter_type         = "numeric"
+  }
+
+  attachment_parameters {
+    parameter_value        = "3389"
+    assessment_id          = "rule-9653d2c7-6290-4128-a5a3-65487ba40370"
+    assessment_type        = "automated"
+    parameter_display_name = "Security group rule RDP allow port number"
+    parameter_name         = "rdp_port"
+    parameter_type         = "numeric"
+  }
+
+  attachment_parameters {
+    parameter_value        = "22"
+    assessment_id          = "rule-7c5f6385-67e4-4edf-bec8-c722558b2dec"
+    assessment_type        = "automated"
+    parameter_display_name = "Security group rule SSH allow port number"
+    parameter_name         = "ssh_port"
+    parameter_type         = "numeric"
+  }
+
+  attachment_parameters {
+    parameter_value        = "3389"
+    assessment_id          = "rule-f1e80ee7-88d5-4bf2-b42f-c863bb24601c"
+    assessment_type        = "automated"
+    parameter_display_name = "Disallowed IPs for ingress to RDP port"
+    parameter_name         = "rdp_port"
+    parameter_type         = "numeric"
+  }
+
+  notifications {
+    enabled = false
+
+    controls {
+      failed_control_ids = []
+      threshold_limit    = 10
+    }
+  }
 }
 ```
-{: pre}
+{: codeblock}
 
 
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard. For more information, check out the [Terraform reference](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule_attachment){: external}.
-
 
 
 
