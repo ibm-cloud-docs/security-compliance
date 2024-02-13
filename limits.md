@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-08-02"
+  years: 2020, 2024
+lastupdated: "2024-02-13"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -72,7 +72,7 @@ subcollection: security-compliance
 |:--------|:-------|
 | Attachments | 50 per account |
 | Scans | 1 per attachment at a time |
-| Exclusions | 8 per attachment |
+| Exclusions | 1000 per attachment |
 {: caption="Table 1. {{site.data.keyword.compliance_short}} Limits" caption-side="top"}
 {: #attachment-limits}
 {: tab-title="Attachments"}
