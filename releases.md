@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-02-13"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,6 +18,19 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
+## 13 February 2024
+{: #security-compliance-feb1324}
+{: release-note}
+
+New rules available
+
+:   App ID can be enabled with customer-managed encryption and Bring Your Own Key (BYOK).
+:   Schematics can be enabled with customer-managed encryption and Bring Your Own Key (BYOK).
+:   Event Streams can be enabled with customer-managed encryption and Keep Your Own Key (KYOK)
+:   IBM Cloud Activity Tracker can be evaluated to determine whether an instance is available across all provisioned resource regions.
+:   Red Hat OpenShift clusters can be evaluated to determine whether they have a specified number of worker nodes across multiple zones.
+
+For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 ## 23 January 2024
 {: #security-compliance-jan2324}
@@ -26,7 +39,7 @@ The following changes to the service were made available with the associated dat
 New rules available
 
 :   Databases for EDB can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   Database for EDB can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+:   Databases for EDB can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
 :   Databases for MySql can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
 :   Databases for MySql can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
 :   IBM Log Analysis can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
