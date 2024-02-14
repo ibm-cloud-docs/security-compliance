@@ -1,7 +1,7 @@
 ---
 copyright:
-	years: 2020, 2023
-lastupdated: "2023-10-17"
+	years: 2020, 2024
+lastupdated: "2024-02-14"
 
 keywords: LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} logging, {{site.data.keyword.compliance_short}} external logs
 
