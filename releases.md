@@ -34,7 +34,7 @@ New rules available
    * IBM Cloud Activity Tracker can be evaluated to determine whether an instance is available across all provisioned resource regions.
    * Red Hat OpenShift clusters can be evaluated to determine whether they have a specified number of worker nodes across multiple zones.
 
-For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
+   For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 ## 23 January 2024
 {: #security-compliance-jan2324}
@@ -64,7 +64,7 @@ Updated rules
    * IBM Log Analysis can be evaluated to determine whether an instance exists in a required region and is configured to receive platform logs.
    * Container Registry can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
 
-For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
+   For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 
 ## 17 January 2024
@@ -141,8 +141,6 @@ Version 1.2.0 of the CIS Azure Kubernetes Service (AKS) Benchmark
 :   Version 1.2.0 of the CIS Azure Kubernetes Service (AKS) Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-azure-ks-benchmark).
 
 
-
-
 ## 21 November 2023
 {: #security-compliance-nov2123}
 {: release-note}
@@ -168,14 +166,17 @@ Version 1.0.0 of the C5:2020 profile
 {: release-note}
 
 New rules available
-:   The DevSecOps Toolchain service can now be evaluated to determine whether all changes to source code have been manually reviewed.
-:   The DevSecOps Toolchain service can now be evaluated to determine whether a toolchain is configured to validate signature provenance of each deployed artifact.
-:   The IBM Log Analysis service can now be evaluated to determine whether log retention is set to a user-defined amount of days.
-:   The Identity and Access Management service can now be evaluated to determine whether a user's contact email is valid.
-:   The Secrets Manager service can now be evaluated to determine whether certificates that are generated through the service are configured to be renewed before they expire.
-:   The Event Notifications service can now be evaluated to determine whether it is configured for {{site.data.keyword.compliance_short}}.
 
-For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
+:   The following rules are now available:
+
+   * The DevSecOps Toolchain service can now be evaluated to determine whether all changes to source code have been manually reviewed.
+   * The DevSecOps Toolchain service can now be evaluated to determine whether a toolchain is configured to validate signature provenance of each deployed artifact.
+   * The IBM Log Analysis service can now be evaluated to determine whether log retention is set to a user-defined amount of days.
+   * The Identity and Access Management service can now be evaluated to determine whether a user's contact email is valid.
+   * The Secrets Manager service can now be evaluated to determine whether certificates that are generated through the service are configured to be renewed before they expire.
+   * The Event Notifications service can now be evaluated to determine whether it is configured for {{site.data.keyword.compliance_short}}.
+
+   For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 Version 1.1.0 of the CIS Amazon Web Services Foundations Benchmark
 :   Version 1.1.0 of the CIS Amazon Web Services Foundations Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-amazon-benchmark).
