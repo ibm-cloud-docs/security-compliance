@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-14"
+lastupdated: "2024-02-16"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -26,11 +26,13 @@ The following changes to the service were made available with the associated dat
 
 New rules available
 
-:   App ID can be enabled with customer-managed encryption and Bring Your Own Key (BYOK).
-:   Schematics can be enabled with customer-managed encryption and Bring Your Own Key (BYOK).
-:   Event Streams can be enabled with customer-managed encryption and Keep Your Own Key (KYOK)
-:   IBM Cloud Activity Tracker can be evaluated to determine whether an instance is available across all provisioned resource regions.
-:   Red Hat OpenShift clusters can be evaluated to determine whether they have a specified number of worker nodes across multiple zones.
+:   The following rules are now available:
+
+   * App ID can be enabled with customer-managed encryption and Bring Your Own Key (BYOK).
+   * Schematics can be enabled with customer-managed encryption and Bring Your Own Key (BYOK).
+   * Event Streams can be enabled with customer-managed encryption and Keep Your Own Key (KYOK)
+   * IBM Cloud Activity Tracker can be evaluated to determine whether an instance is available across all provisioned resource regions.
+   * Red Hat OpenShift clusters can be evaluated to determine whether they have a specified number of worker nodes across multiple zones.
 
 For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
@@ -40,22 +42,27 @@ For more information about rules, see [Defining custom rules](/docs/security-com
 
 New rules available
 
-:   Databases for EDB can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   Databases for EDB can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-:   Databases for MySql can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   Databases for MySql can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-:   IBM Log Analysis can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   IBM Log Analysis can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-:   IBM Cloud Activity Tracker can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   IBM Cloud Activity Tracker can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-:   IBM Cloud Monitoring can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   IBM Cloud Monitoring can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-:   Messages for Rabbitmq can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   Messages for Rabbitmq can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+:   The following rules are now available:
 
-Updated rule
-:  IBM Log Analysis can be evaluated to determine whether an instance exists in a required region and is configured to receive platform logs.
-:  Container Registry can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+   * Databases for EDB can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
+   * Databases for EDB can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+   * Databases for MySql can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
+   * Databases for MySql can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+   * IBM Log Analysis can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
+   * IBM Log Analysis can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+   * IBM Cloud Activity Tracker can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
+   * IBM Cloud Activity Tracker can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+   * IBM Cloud Monitoring can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
+   * IBM Cloud Monitoring can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+   * Messages for Rabbitmq can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
+   * Messages for Rabbitmq can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+
+Updated rules
+
+:   The following rules are updated:
+
+   * IBM Log Analysis can be evaluated to determine whether an instance exists in a required region and is configured to receive platform logs.
+   * Container Registry can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
 
 For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
