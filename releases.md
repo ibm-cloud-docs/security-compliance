@@ -72,7 +72,7 @@ For more information about rules, see [Defining custom rules](/docs/security-com
 {: release-note}
 
 Updated rule
-:   The rule logic for `Check whether Kubernetes Service version is up-to-date` has been changed. In a previous version of the evaluation, the logic compared the recommended version. Now, the logic compares the recommended version and supported versions. The rule ID is `rule-e0686900-c022-4434-b04f-f7032bea1050`.`
+:   The rule logic for `Check whether Kubernetes Service version is up-to-date` has changed. In a previous version of the evaluation, the logic compared the recommended version. Now, the logic compares the recommended version and supported versions. The rule ID is `rule-e0686900-c022-4434-b04f-f7032bea1050`.
 
 
 
