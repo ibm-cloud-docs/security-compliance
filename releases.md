@@ -18,6 +18,8 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
+
+
 ## 20 February 2024
 {: #security-compliance-feb2024}
 {: release-note}
@@ -32,7 +34,7 @@ New rules available
    * Bare Metal Servers for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
    * Dedicated Host for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
    * Virtual Private Endpoints (VPE) for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * VPC floating IP addresses can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses
+   * VPC floating IP addresses can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
    * Flow Logs for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
    * VPC images can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
    * Auto Scale for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
@@ -61,7 +63,7 @@ New rules available
 
    * App ID can be enabled with customer-managed encryption and Bring Your Own Key (BYOK).
    * Schematics can be enabled with customer-managed encryption and Bring Your Own Key (BYOK).
-   * Event Streams can be enabled with customer-managed encryption and Keep Your Own Key (KYOK)
+   * Event Streams can be enabled with customer-managed encryption and Keep Your Own Key (KYOK).
    * IBM Cloud Activity Tracker can be evaluated to determine whether an instance is available across all provisioned resource regions.
    * Red Hat OpenShift clusters can be evaluated to determine whether they have a specified number of worker nodes across multiple zones.
 
