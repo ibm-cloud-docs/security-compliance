@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-16"
+lastupdated: "2024-02-20"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,7 +18,38 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
+## 20 February 2024
+{: #security-compliance-feb2024}
+{: release-note}
 
+New rules available
+
+:   The following rules are now available:
+
+   * Cloud Object Storage can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Virtual Private Cloud (VPC) can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Backup for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Bare Metal Servers for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Dedicated Host for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Virtual Private Endpoints (VPE) for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC floating IP addresses can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses
+   * Flow Logs for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC images can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Auto Scale for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Virtual Private Servers for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC SSH keys can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Load Balancer for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC network access control lists can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC placement groups can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC public gateways can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC security groups can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Block Storage Snapshots for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC subnets can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Block Storage for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Client VPN for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPN for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+
+   For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).  
 
 ## 13 February 2024
 {: #security-compliance-feb1324}
