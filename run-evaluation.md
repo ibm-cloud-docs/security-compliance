@@ -21,7 +21,6 @@ With {{site.data.keyword.compliance_full}}, you can evaluate your resources on a
 
 
 
-
 ![A diagram that shows the relationship between a control, profile, and scope.](images/term-flow.svg){: caption="Figure 1. Understanding entities in {{site.data.keyword.compliance_short}}" caption-side="bottom"}
 
 
