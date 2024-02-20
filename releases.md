@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-14"
+lastupdated: "2024-02-20"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,7 +18,38 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
+## 20 February 2024
+{: #security-compliance-feb2024}
+{: release-note}
 
+New rules available
+
+:   The following rules are now available:
+
+   * Cloud Object Storage can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Virtual Private Cloud (VPC) can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Backup for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Bare Metal Servers for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Dedicated Host for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Virtual Private Endpoints (VPE) for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC floating IP addresses can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses
+   * Flow Logs for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC images can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Auto Scale for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Virtual Private Servers for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC SSH keys can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Load Balancer for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC network access control lists can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC placement groups can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC public gateways can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC security groups can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Block Storage Snapshots for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPC subnets can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Block Storage for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Client VPN for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * VPN for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+
+   For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).  
 
 ## 13 February 2024
 {: #security-compliance-feb1324}
@@ -26,13 +57,15 @@ The following changes to the service were made available with the associated dat
 
 New rules available
 
-:   App ID can be enabled with customer-managed encryption and Bring Your Own Key (BYOK).
-:   Schematics can be enabled with customer-managed encryption and Bring Your Own Key (BYOK).
-:   Event Streams can be enabled with customer-managed encryption and Keep Your Own Key (KYOK)
-:   IBM Cloud Activity Tracker can be evaluated to determine whether an instance is available across all provisioned resource regions.
-:   Red Hat OpenShift clusters can be evaluated to determine whether they have a specified number of worker nodes across multiple zones.
+:   The following rules are now available:
 
-For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
+   * App ID can be enabled with customer-managed encryption and Bring Your Own Key (BYOK).
+   * Schematics can be enabled with customer-managed encryption and Bring Your Own Key (BYOK).
+   * Event Streams can be enabled with customer-managed encryption and Keep Your Own Key (KYOK)
+   * IBM Cloud Activity Tracker can be evaluated to determine whether an instance is available across all provisioned resource regions.
+   * Red Hat OpenShift clusters can be evaluated to determine whether they have a specified number of worker nodes across multiple zones.
+
+   For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 ## 23 January 2024
 {: #security-compliance-jan2324}
@@ -40,24 +73,29 @@ For more information about rules, see [Defining custom rules](/docs/security-com
 
 New rules available
 
-:   Databases for EDB can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   Databases for EDB can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-:   Databases for MySql can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   Databases for MySql can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-:   IBM Log Analysis can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   IBM Log Analysis can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-:   IBM Cloud Activity Tracker can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   IBM Cloud Activity Tracker can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-:   IBM Cloud Monitoring can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   IBM Cloud Monitoring can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-:   Messages for Rabbitmq can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-:   Messages for Rabbitmq can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+:   The following rules are now available:
 
-Updated rule
-:  IBM Log Analysis can be evaluated to determine whether an instance exists in a required region and is configured to receive platform logs.
-:  Container Registry can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+   * Databases for EDB can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
+   * Databases for EDB can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+   * Databases for MySql can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
+   * Databases for MySql can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+   * IBM Log Analysis can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
+   * IBM Log Analysis can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+   * IBM Cloud Activity Tracker can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
+   * IBM Cloud Activity Tracker can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+   * IBM Cloud Monitoring can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
+   * IBM Cloud Monitoring can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+   * Messages for Rabbitmq can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
+   * Messages for Rabbitmq can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
 
-For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
+Updated rules
+
+:   The following rules are updated:
+
+   * IBM Log Analysis can be evaluated to determine whether an instance exists in a required region and is configured to receive platform logs.
+   * Container Registry can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+
+   For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 
 ## 17 January 2024
@@ -65,7 +103,7 @@ For more information about rules, see [Defining custom rules](/docs/security-com
 {: release-note}
 
 Updated rule
-:   The rule logic for `Check whether Kubernetes Service version is up-to-date` has been changed. In a previous version of the evaluation, the logic compared the recommended version. Now, the logic compares the recommended version and supported versions. The rule ID is `rule-e0686900-c022-4434-b04f-f7032bea1050`.`
+:   The rule logic for `Check whether Kubernetes Service version is up-to-date` has changed. In a previous version of the evaluation, the logic compared the recommended version. Now, the logic compares the recommended version and supported versions. The rule ID is `rule-e0686900-c022-4434-b04f-f7032bea1050`.
 
 
 
@@ -134,8 +172,6 @@ Version 1.2.0 of the CIS Azure Kubernetes Service (AKS) Benchmark
 :   Version 1.2.0 of the CIS Azure Kubernetes Service (AKS) Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-azure-ks-benchmark).
 
 
-
-
 ## 21 November 2023
 {: #security-compliance-nov2123}
 {: release-note}
@@ -161,14 +197,17 @@ Version 1.0.0 of the C5:2020 profile
 {: release-note}
 
 New rules available
-:   The DevSecOps Toolchain service can now be evaluated to determine whether all changes to source code have been manually reviewed.
-:   The DevSecOps Toolchain service can now be evaluated to determine whether a toolchain is configured to validate signature provenance of each deployed artifact.
-:   The IBM Log Analysis service can now be evaluated to determine whether log retention is set to a user-defined amount of days.
-:   The Identity and Access Management service can now be evaluated to determine whether a user's contact email is valid.
-:   The Secrets Manager service can now be evaluated to determine whether certificates that are generated through the service are configured to be renewed before they expire.
-:   The Event Notifications service can now be evaluated to determine whether it is configured for {{site.data.keyword.compliance_short}}.
 
-For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
+:   The following rules are now available:
+
+   * The DevSecOps Toolchain service can now be evaluated to determine whether all changes to source code have been manually reviewed.
+   * The DevSecOps Toolchain service can now be evaluated to determine whether a toolchain is configured to validate signature provenance of each deployed artifact.
+   * The IBM Log Analysis service can now be evaluated to determine whether log retention is set to a user-defined amount of days.
+   * The Identity and Access Management service can now be evaluated to determine whether a user's contact email is valid.
+   * The Secrets Manager service can now be evaluated to determine whether certificates that are generated through the service are configured to be renewed before they expire.
+   * The Event Notifications service can now be evaluated to determine whether it is configured for {{site.data.keyword.compliance_short}}.
+
+   For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 Version 1.1.0 of the CIS Amazon Web Services Foundations Benchmark
 :   Version 1.1.0 of the CIS Amazon Web Services Foundations Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-amazon-benchmark).
