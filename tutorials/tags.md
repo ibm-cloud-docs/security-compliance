@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2023
-lastupdated: "2023-11-14"
+  years: 2021, 2024
+lastupdated: "2024-02-22"
 
 keywords: customize rules, parameters, customize parameters, customize goals, security and compliance, tags
 
@@ -44,7 +44,7 @@ Before you get started with this tutorial, be sure you have the prerequisites:
 
 Services that support resource tags have additional configuration properties such as `user_tags`, `service_tags` and `access_tags`. You can create custom rules by using one or more of these properties.
 
-1. In the {{site.data.keyword.cloud_notm}} console, go to **Resource list** and select the **Security and Compliance Center** instance that you want to work with or go to **Global Hamburger menu > Security and Compliance**.
+1. In the {{site.data.keyword.cloud_notm}} console, go to **Resource list** and select the **Security and Compliance Center** instance that you want to work with or go to **Global menu > Security and Compliance**.
 2. In the navigation of the {{site.data.keyword.compliance_short}} UI, click **Controls > Rules**.
 3. Click **Create**.
 4. Enter a Description. For example: `Check if Event Notifications instances have production tags`
