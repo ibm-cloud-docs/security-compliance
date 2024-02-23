@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-20"
+lastupdated: "2024-02-23"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -162,13 +162,13 @@ Version 1.2.0 of the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark
 :   Version 1.2.0 of the CIS Amazon Elastic Kubernetes Service (EKS) Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-amazon-eks-benchmark).
 
 Version 1.2.0 of the AWS Foundational Security Best Practices
-:   Version 1.2.0 of the AWS Foundational Security Best Practices is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-aws-fs-benchmark).
+:   Version 1.2.0 of the AWS Foundational Security Best Practices is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-aws-fs-benchmark).
 
 Version 1.2.0 of the AWS Well-Architected Framework
-:   Version 1.2.0 of the AWS Well-Architected Framework is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-aws-waf-benchmark).
+:   Version 1.2.0 of the AWS Well-Architected Framework is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-aws-waf-benchmark).
 
 Version 1.2.0 of the NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations)
-:   Version 1.2.0 of the NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations) is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-nist-800-53).
+:   Version 1.2.0 of the NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations) is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-nist-800-53-change-log).
 
 Version 1.2.0 of the CIS Azure Kubernetes Service (AKS) Benchmark
 :   Version 1.2.0 of the CIS Azure Kubernetes Service (AKS) Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-azure-ks-benchmark).
@@ -179,13 +179,13 @@ Version 1.2.0 of the CIS Azure Kubernetes Service (AKS) Benchmark
 {: release-note}
 
 Version 1.1.0 of the AWS Foundational Security Best Practices
-:   Version 1.1.0 of the AWS Foundational Security Best Practices is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-aws-fs-benchmark).
+:   Version 1.1.0 of the AWS Foundational Security Best Practices is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-aws-fs-benchmark).
 
 Version 1.1.0 of the AWS Well-Architected Framework
-:   Version 1.1.0 of the AWS Well-Architected Framework is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-aws-waf-benchmark).
+:   Version 1.1.0 of the AWS Well-Architected Framework is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-aws-waf-benchmark).
 
 Version 1.1.0 of the NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations)
-:   Version 1.1.0 of the NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations) is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-nist-800-53).
+:   Version 1.1.0 of the NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations) is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-nist-800-53-change-log).
 
 ## 16 November 2023
 {: #security-compliance-nov1423}
@@ -292,7 +292,7 @@ New rule available
 :   The {{site.data.keyword.cloud_notm}} Log Analysis service can now be evaluated to determine whether an instance exists in a specific region and whether platform logs are enabled. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 Multi-environment profiles
-:   You can now evaluate multiple environments by using the same profile. To get started with the multi-cloud flow, [create a custom profile](/docs/security-compliance?topic=security-compliance-build-custom-profiles) and then [run an evaluation](/docs/security-compliance?topic=security-compliance-run-evaluation).
+:   You can now evaluate multiple environments by using the same profile. To get started with the multi-cloud flow, [create a custom profile](/docs/security-compliance?topic=security-compliance-build-custom-profiles) and then [run an evaluation](/docs/security-compliance?topic=security-compliance-scan-resources).
 
 
 ## 15 September 2023
@@ -790,7 +790,7 @@ New service available in Configuration Governance
 {{site.data.keyword.en_short}} integration
 :   You can now integrate with [{{site.data.keyword.en_full_notm}}](/catalog/services/event-notifications){: external} so that you can view and manage all your {{site.data.keyword.compliance_short}} alerts in a single location. With a fast alert time, you're able to immediately start an investigation into any reported issue and fix the vulnerability before it becomes a larger problem in your application.
 
-   To connect the {{site.data.keyword.compliance_short}} with the {{site.data.keyword.en_short}} service, see [Enabling event notifications](/docs/security-compliance?topic=security-compliance-event-notifications). For more information, check out the [announcement blog](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-security-and-compliance-center-is-now-integrated-with-event-notifications){: external}.
+   To connect the {{site.data.keyword.compliance_short}} with the {{site.data.keyword.en_short}} service, see [Enabling event notifications](/docs/security-compliance?topic=security-compliance-event-notifications). For more information, check out the [announcement blog](https://www.ibm.com/blog/announcement/ibm-cloud-security-and-compliance-center-is-now-integrated-with-event-notifications/){: external}.
 
 Deprecation of the alerts capability
 :   As of 13 December 2021, alerts are deprecated in favor of [{{site.data.keyword.en_short}}](/docs/security-compliance?topic=security-compliance-event-notifications). The ability to create alerts within the {{site.data.keyword.compliance_short}} is no longer supported. You can continue to view, enable, disable, or delete your existing alerts until 15 March 2021. After this date, any existing alerts will be deleted, and the feature will be removed from the UI.
@@ -870,8 +870,8 @@ New Posture Management API endpoints
 Consolidated SDK package
 :   To make it easier to programmatically access the API from your code, {{site.data.keyword.compliance_short}} SDK packages are now available. The SDKs implement best practices for using the API and reduces the amount of code that you need to write. For more information, see the documentation for the following APIs:
 
-* [Admin](/apidocs/security-compliance-admin){: external}
-* [Configuration Governance](/apidocs/security-compliance-config){: external}
+* [Admin](/apidocs/security-compliance/admin){: external}
+* [Configuration Governance](/apidocs/security-compliance/config){: external}
 * [Posture Management](/apidocs/security-compliance/posture){: external}
 
 
@@ -894,7 +894,7 @@ New version of the {{site.data.keyword.cloud_notm}} for Financial Services profi
 {: release-note}
 
 Tanium integration
-:   Now, you can configure [Tanium Comply](https://docs.tanium.com/comply/comply/index.html){: external} to forward your compliance data. With Tanium Comply, you can evaluate your organizations endpoints for potential vulnerabilities and misconfigurations against industry security standards, vulnerability definitions, and custom compliance checks. When you integrate Tanium with the {{site.data.keyword.compliance_short}}, you can view all your compliance data in one location in the same format.
+:   Now, you can configure [Tanium Comply](https://help.tanium.com/bundle/ug_comply_cloud/page/comply/index.html){: external} to forward your compliance data. With Tanium Comply, you can evaluate your organizations endpoints for potential vulnerabilities and misconfigurations against industry security standards, vulnerability definitions, and custom compliance checks. When you integrate Tanium with the {{site.data.keyword.compliance_short}}, you can view all your compliance data in one location in the same format.
 
 
 ## 14 June 2021
@@ -945,7 +945,7 @@ Manage the location in which your data is stored
 Customize default values for your resources
 :   Looking for more options to help you govern {{site.data.keyword.cloud_notm}} resources? With {{site.data.keyword.compliance_short}}, you can now create templates that define your preferred property values for target resources in your selected {{site.data.keyword.cloud_notm}} accounts. After you create a template and attach it to a scope, your customized defaults override the default values that are provided by IBM.
 
-   To get started with templates, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Govern resources > Configure > Templates**, or check out the [API reference](/apidocs/security-compliance-config) to learn more about creating templates programmatically.
+   To get started with templates, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Govern resources > Configure > Templates**, or check out the [API reference](/apidocs/security-compliance/config) to learn more about creating templates programmatically.
 
    For more information, see [What is Configuration Governance?](/docs/security-compliance?topic=security-compliance-rules-define)
 
@@ -1005,4 +1005,4 @@ Updated Settings page
 General availability of the {{site.data.keyword.compliance_short}}
 :   The {{site.data.keyword.compliance_short}} is now generally available on {{site.data.keyword.cloud_notm}}!
 
-   In this release, the {{site.data.keyword.compliance_short}} offers support for profiles that you can use to monitor your accounts for compliance and config rules for governing the use of resources across your accounts. For more information, check out the [announcement blog](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-security-and-compliance-center){: external}.
+   In this release, the {{site.data.keyword.compliance_short}} offers support for profiles that you can use to monitor your accounts for compliance and config rules for governing the use of resources across your accounts. For more information, check out the [announcement blog](https://www.ibm.com/blog/announcement/ibm-cloud-security-and-compliance-center/){: external}.
