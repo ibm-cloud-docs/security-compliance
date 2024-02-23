@@ -25,9 +25,9 @@
     ],
     "section_learn": {
       "developer": "https://developer.ibm.com/depmodels/cloud/",
-      "architecture": "https://www.ibm.com/cloud/architecture",
+      "architecture": "https://www.ibm.com/architectures/hybrid",
       "training": "https://www.ibm.com/training/cloud",
-      "community": "https://community.ibm.com/community/user/publiccloud/home"
+      "community": "https://community.ibm.com/community/user/cloud/home"
     },
     "section_updates": {
       "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
