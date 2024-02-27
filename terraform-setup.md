@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-25"
+lastupdated: "2024-02-27"
 
 keywords: terraform, {{site.data.keyword.compliance_short}}, terraform setup, create instance
 
@@ -155,7 +155,7 @@ Before you can create an authorization by using Terraform, make sure that you co
    {: pre}
 
 7. From the {{site.data.keyword.cloud_notm}} resource list in the UI, select the {{site.data.keyword.compliance_short}} instance that you created and note the instance ID.
-8. Verify that the access policy is successfully assigned. For more information, see [Reviewing assigned access in the console](/docs/account?topic=account-assign-access-resources#review-your-access-console).
+8. Verify that the access policy is successfully assigned. For more information, see [Reviewing assigned access in the console](/docs/account?topic=account-assign-access-resources&interface=ui#review-your-access-console).
 
 
 ## What's next?

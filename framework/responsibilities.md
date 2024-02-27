@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-10-11"
+  years: 2020, 2024
+lastupdated: "2024-02-27"
 
 keywords: responsibilities for {{site.data.keyword.compliance_short}}
 
@@ -69,7 +69,7 @@ Security and regulation compliance includes tasks such as security controls impl
 
 |  | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
 |----------|-----------------------|--------|
-| Meet security and compliance objectives | Provide a secure service that complies with key standards. For more information about data security, see [How do I know that my data is safe](/docs/overview/terms-of-use?topic=overview-security)?  | Ensure that you are properly securing your workloads and data so that you are meeting the regulatory standards for your organization. For more information about bucket requirements for results storage, see [Storing and processing data](/docs/security-compliance?topic=security-compliance-storage). |
+| Meet security and compliance objectives | Provide a secure service that complies with key standards. For more information about data security, see [How do I know that my data is safe](/docs/overview?topic=overview-security)?  | Ensure that you are properly securing your workloads and data so that you are meeting the regulatory standards for your organization. For more information about bucket requirements for results storage, see [Storing and processing data](/docs/security-compliance?topic=security-compliance-storage). |
 {: row-headers}
 {: caption="Table 4. Responsibilities for security and regulation compliance" caption-side="bottom"}
 {: summary="The rows are read from left to right. The first column describes the task that the customer or IBM might be responsibility for. The second column describes {{site.data.keyword.IBM_notm}} responsibilities for that task. The third column describes your responsibilities as the customer for that task."}
