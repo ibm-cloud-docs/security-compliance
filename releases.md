@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-23"
+lastupdated: "2024-02-27"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,7 +18,22 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
+## 27 February 2024
+{: #security-compliance-feb2724}
+{: release-note}
 
+New rules available
+
+:   The following rules are now available:
+
+   * App ID can be enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK).
+   * Schematics can be enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK).
+   * Block Storage for VPC can be enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK).
+   * Cloud Object Storage can be enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK).
+   * Red Hat OpenShift cluster can be enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK).
+   * Kubernetes Service Cluster can be enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK).
+
+   For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 ## 20 February 2024
 {: #security-compliance-feb2024}
