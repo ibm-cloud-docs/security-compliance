@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-10-11"
+  years: 2020, 2024
+lastupdated: "2024-02-27"
 
 keywords: cbr in {{site.data.keyword.compliance_short}}, context-based restrictions for {{site.data.keyword.compliance_short}}, 
 
@@ -46,7 +46,7 @@ After you create a rule, it might take up to 10 minutes for the rule to take eff
 Context-based restrictions are available only for the updated architecture. 
 {: note}
 
-Context-based restrictions protect only the actions associated with the [{{site.data.keyword.compliance_short}} API](/apidocs/security-compliance/posture-v2.0). Actions that are associated with the following platform APIs are not protected by context-based restrictions. Reference the API docs for the specific action IDs.
+Context-based restrictions protect only the actions associated with the [{{site.data.keyword.compliance_short}} API](/apidocs/security-compliance). Actions that are associated with the following platform APIs are not protected by context-based restrictions. Reference the API docs for the specific action IDs.
 
 - [Resource Instance APIs](/apidocs/resource-controller/resource-controller#list-resource-instances)
 - [Resource Keys APIs](/apidocs/resource-controller/resource-controller#list-resource-keys)

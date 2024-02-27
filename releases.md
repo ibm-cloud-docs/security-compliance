@@ -429,7 +429,7 @@ Attachment details available
 
 {{site.data.keyword.cloud_notm}} Security Best Practices profile version 1.2.0
 
-:   Updates to version 1.2.0 of the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile are now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-ibm-sec-best-practices-change-log).
+:   Updates to version 1.2.0 of the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile are now available. For more information, see the Change log.
 
 
 ## 7 June 2023
@@ -880,14 +880,14 @@ New goals
 {: release-note}
 
 New Posture Management API endpoints
-:   With this release, 9 new API endpoints for the Posture Management API are available. To get started, see the [Posture Management API documentation](/apidocs/security-compliance/posture){: external}.
+:   With this release, 9 new API endpoints for the Posture Management API are available. To get started, see the Posture Management API documentation.
 
 Consolidated SDK package
 :   To make it easier to programmatically access the API from your code, {{site.data.keyword.compliance_short}} SDK packages are now available. The SDKs implement best practices for using the API and reduces the amount of code that you need to write. For more information, see the documentation for the following APIs:
 
-* [Admin](/apidocs/security-compliance/admin){: external}
-* [Configuration Governance](/apidocs/security-compliance/config){: external}
-* [Posture Management](/apidocs/security-compliance/posture){: external}
+* Admin
+* Configuration Governance
+* Posture Management
 
 
 New goals
@@ -928,7 +928,7 @@ New goals
 {: #security-compliance-april0521}
 
 Initial Posture Management API support
-:   As part of this release, the Posture Management component of the service provides three external APIs that you can use as part of your security and compliance automation. For more information, see the [Posture Management API docs](/apidocs/security-compliance/posture).
+:   As part of this release, the Posture Management component of the service provides three external APIs that you can use as part of your security and compliance automation. For more information, see the Posture Management API docs.
 
 Proxy support for discovery and fact collection
 :   With this release, you can configure your collector to use a proxy to access the public endpoints to enhance the security of your scans.
@@ -960,7 +960,7 @@ Manage the location in which your data is stored
 Customize default values for your resources
 :   Looking for more options to help you govern {{site.data.keyword.cloud_notm}} resources? With {{site.data.keyword.compliance_short}}, you can now create templates that define your preferred property values for target resources in your selected {{site.data.keyword.cloud_notm}} accounts. After you create a template and attach it to a scope, your customized defaults override the default values that are provided by IBM.
 
-   To get started with templates, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Govern resources > Configure > Templates**, or check out the [API reference](/apidocs/security-compliance/config) to learn more about creating templates programmatically.
+   To get started with templates, you can go to the **Menu icon** ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Govern resources > Configure > Templates**, or check out the API reference to learn more about creating templates programmatically.
 
    For more information, see [What is Configuration Governance?](/docs/security-compliance?topic=security-compliance-rules-define)
 

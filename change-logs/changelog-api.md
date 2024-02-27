@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: "2023"
-lastupdated: "2023-09-28"
+  years: "2024"
+lastupdated: "2024-02-27"
 
 keywords: change log for {{site.data.keyword.compliance_short}} APIs, API changelog, updates to {{site.data.keyword.compliance_short}} APIs
 
@@ -15,7 +15,7 @@ subcollection: security-compliance
 # {{site.data.keyword.compliance_short}} API change log
 {: #api-change-log}
 
-In this change log, you can learn about the latest changes, improvements, and updates for the [{{site.data.keyword.compliance_full}} API](/apidocs/security-compliance/security-compliance-api). The change log lists changes that have been made, ordered by the date they were released. Changes to existing API versions are designed to be compatible with existing client applications.
+In this change log, you can learn about the latest changes, improvements, and updates for the [{{site.data.keyword.compliance_full}} API](/apidocs/security-compliance). The change log lists changes that have been made, ordered by the date they were released. Changes to existing API versions are designed to be compatible with existing client applications.
 {: shortdesc}
 
 To learn about general updates and improvements to the {{site.data.keyword.compliance_short}} service, see [Release notes](/docs/security-compliance?topic=security-compliance-release-notes).
