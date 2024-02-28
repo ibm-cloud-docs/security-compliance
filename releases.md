@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-27"
+lastupdated: "2024-02-28"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -511,7 +511,7 @@ Updates to the {{site.data.keyword.cloud_notm}} for Financial Services profile
 {: release-note}
 
 Updates to the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile
-:   Updates to version 1.1.0 of the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile are now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-ibm-sec-best-practices-change-log).
+:   Updates to version 1.1.0 of the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile are now available. For more information, see the change log.
 
 
 ## 10 April 2023
@@ -540,7 +540,7 @@ If you already have notifications configured they were migrated to the new forma
 {: release-note}
 
 New version of the {{site.data.keyword.cloud_notm}} Security Best Practices library
-:   Version 1.1.0 of the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile are now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-ibm-sec-best-practices-change-log).
+:   Version 1.1.0 of the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile are now available. For more information, see the Change log.
 
 
 ## 3 February 2023
@@ -651,7 +651,7 @@ Deprecated: Credential passphrase
 {: release-note}
 
 Now available: Profile updates
-:   Goal updates are now available {{site.data.keyword.cloud_notm}} Security Best Practices Profiles. For more information see the [{{site.data.keyword.cloud_notm}} Security Best Practices change log](/docs/security-compliance?topic=security-compliance-ibm-sec-best-practices-change-log).
+:   Goal updates are now available {{site.data.keyword.cloud_notm}} Security Best Practices Profiles. For more information see the {{site.data.keyword.cloud_notm}} Security Best Practices change log.
 
 
 ## 12 July 2022
