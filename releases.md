@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-28"
+lastupdated: "2024-03-01"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -17,6 +17,8 @@ content-type: release-note
 {: #release-notes}
 
 The following changes to the service were made available with the associated date.
+
+
 
 ## 27 February 2024
 {: #security-compliance-feb2724}
