@@ -94,7 +94,7 @@ toc:
           topics:
           - link:
               label: Security and Compliance Center API
-              href: https://{DomainName}/apidocs/security-compliance/
+              href: https://{DomainName}/apidocs/security-compliance
           - change-logs/changelog-api.md
       - topicgroup:
           label: CLI reference

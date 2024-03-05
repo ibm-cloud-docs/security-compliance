@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-14"
+lastupdated: "2024-02-27"
 
 keywords: LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} logging, {{site.data.keyword.compliance_short}} external logs
 
@@ -36,9 +36,9 @@ Platform logs are logs that are exposed by logging-enabled services and the plat
 
 	To enable platform logs, see:
 
-	- [Configuring platform logs through the Observability dashboard](/docs/log-analysis?topic=log-analysis-config_svc_logs#config_svc_logs_ui)
+	- [Configuring platform logs through the Observability dashboard](/docs/log-analysis?topic=log-analysis-config_svc_logs&interface=ui#config_svc_logs_ui)
 
-	- [Configuring platform logs from the command line](/docs/log-analysis?topic=log-analysis-config_svc_logs#platform_logs_enabling_cli)
+	- [Configuring platform logs from the command line](/docs/log-analysis?topic=log-analysis-config_svc_logs&interface=cli#platform_logs_enabling_cli)
 
 For more information about platform logs, see [Configuring IBM Cloud platform logs](/docs/log-analysis?topic=log-analysis-config_svc_logs).
 

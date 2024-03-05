@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-10"
+lastupdated: "2024-02-27"
 
 keywords: integrations, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -32,7 +32,7 @@ With {{site.data.keyword.compliance_short}} you can evaluate {{site.data.keyword
 You can evaluate your organization’s current security and compliance posture by validating the configuration of your resources in the following components.
 
 * [{{site.data.keyword.at_short}}](/docs/activity-tracker?topic=activity-tracker-getting-started)
-* [App Configuration](docs/app-configuration?topic=app-configuration-getting-started)
+* [App Configuration](/docs/app-configuration?topic=app-configuration-getting-started)
 * [{{site.data.keyword.appid_short_notm}}](/docs/appid?topic=appid-getting-started)*
 * [Cloud Internet Services (CIS)](/docs/cis?topic=cis-getting-started)
 * [{{site.data.keyword.cloud_notm}} Platform](/docs/overview?topic=overview-whatis-platform)

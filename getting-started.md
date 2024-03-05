@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-21"
+lastupdated: "2024-03-01"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -41,7 +41,7 @@ Running an evaluation does not ensure regulatory compliance. An evaluation provi
 
 To get started with {{site.data.keyword.compliance_short}}, you must first create an instance of the service.
 
-1. Go to the [{{site.data.keyword.cloud_notm}} catalog](/catalog) and search for ["{{site.data.keyword.compliance_short}}"](/catalog/services/security-and-compliance-center).
+1. Go to the [{{site.data.keyword.cloud_notm}} catalog](/catalog) and search for *[{{site.data.keyword.compliance_short}}](/catalog/services/security-and-compliance-center)*.
 2. In the service details page, select a location. The selected location is where {{site.data.keyword.compliance_short}} will conduct the evaluation of your resources.
 3. Select a pricing plan. Options include **Standard** or **Trial**.
 4. Configure your resource by providing a name for the instance, specifying a resource group and adding any needed tags.
@@ -55,7 +55,7 @@ To get started with {{site.data.keyword.compliance_short}}, you must first creat
 
 If you are working in a larger organization, you might need to start by assigning access to those on your team who will be managing compliance. 
 
-1. [Create an access group](/docs/account?topic=account-groups#create_ag) and add your compliance focals.
+1. [Create an access group](/docs/account?topic=account-groups&interface=ui#create_ag) and add your compliance focals.
 2. In the Console, go to **Manage > Access (IAM) > Access groups** and click select the group that you want to assign access to. A new page opens with the details of the group.
 3. Click **Access > Assign access**.
 4. Assign the following permissions by selecting a service and reviewing the available roles and actions that are available for each option.
@@ -116,18 +116,18 @@ An attachment is how you target a specific grouping of your resources to evaluat
 	Options include every day, every 7 days, and every 30 days. Additionally, you can now pause your scans if you need to.
 
 8. Optional: Configure notifications.
-	1. If you want to receive notifications, toggle **Notify me** to **On**.
-	2. By default, when notifications are enabled, you are alerted when 15% or more of your controls fail in a single scan. You can change this by adjusting the **Threshold** percentage. 
-	
-		For example, if you have a profile with 100 controls and you want to be notified if 5 of them fail, you would select 5% as your threshold.
-	
-	3. Select specific controls that you want to be notified about.
+   1. If you want to receive notifications, toggle **Notify me** to **On**.
+   2. By default, when notifications are enabled, you are alerted when 15% or more of your controls fail in a single scan. You can change this by adjusting the **Threshold** percentage.
 
-		If there are high priority controls that pertain specifically to your job role, you might want to be notified every time they fail. You can identify up to 15 controls per scan that you can receive individual notifications for. These notifications are sent regardless of whether the threshold identified in the previous step has been met.
+      For example, if you have a profile with 100 controls and you want to be notified if 5 of them fail, you would select 5% as your threshold.
+	
+   3. Select specific controls that you want to be notified about.
 
-		1. Click **Select control**.
-		2. Select the controls that you want to be notified about by checking the box next to the control.
-		3. Click **Ok**.
+      If there are high priority controls that pertain specifically to your job role, you might want to be notified every time they fail. You can identify up to 15 controls per scan that you can receive individual notifications for. These notifications are sent regardless of whether the threshold identified in the previous step has been met.
+
+      1. Click **Select control**.
+      2. Select the controls that you want to be notified about by checking the box next to the control.
+      3. Click **Ok**.
 9. Review your choices and click **Create**.
 
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
