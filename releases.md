@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-01"
+lastupdated: "2024-03-08"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -430,7 +430,6 @@ Attachment details available
 :   Version 1.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 {{site.data.keyword.cloud_notm}} Security Best Practices profile version 1.2.0
-
 :   Updates to version 1.2.0 of the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile are now available. For more information, see the Change log.
 
 
@@ -445,7 +444,6 @@ OpenShift Compliance Operator (OSCO)
 {: #security-compliance-may292023}
 
 Reminder: {{site.data.keyword.compliance_short}} will become regional
-
 :   Starting 8 July 2023 {{site.data.keyword.compliance_short}} will be a provisionable, regional service offering in the IBM Cloud catalog. With this change, you will have full control over the region that is used when {{site.data.keyword.compliance_short}} processes your data. To process data in different regions, you can create multiple instances of the service in a single account.
 
    [deprecated]{: tag-deprecated} To support this change, support for the collector-based architecture was deprecated. This means that all of the configurations surrounding collectors, goal-based profiles, collector-based scans, goal-based results, and credentials will be removed at the end of support on 1 July 2023.
