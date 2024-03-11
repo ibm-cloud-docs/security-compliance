@@ -20,61 +20,7 @@ The following changes to the service were made available with the associated dat
 
 
 
-## 12 March 2024
-{: #security-compliance-march1224}
-{: release-note}
 
-{{site.data.keyword.cloud_notm}} Framework for Financial Services profile version 1.6.0
-:   Version 1.6.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile is now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
-
-New rules available
-
-:   The following rules are now available:
-
-   * App Configuration can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Code Engine can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Security and Compliance Center can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Container Registry can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Kubernetes Service can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Databases for ElasticSearch can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Databases for EDB can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Databases for etcd can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Databases for MongoDB can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Databases for MySql can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Databases for PostgreSQL can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Databases for Redis can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Direct Link can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * DNS Services can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Event Notifications can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Hyper Protect Crypto Services can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * IAM access management can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * IAM access groups can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * IAM identities can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Key Protect can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * IBM Log Analysis can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * IBM Cloud Activity Tracker can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Event Streams can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Messages for RabbitMQ can be accessed only through a private endpoint (context-based restrictions and service) and allowed IP addresses.
-   * Schematics can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Secrets Manager can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * IBM Cloud Monitoring can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Transit Gateway can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * User Management can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-
-Updated rules
-
-:   The following rules are updated:
-
-   * Code Engine can be accessed only through a private endpoint (context-based restrictions or service).
-   * Code Engine private endpoint allowlist doesn't contain wild cards (context-based restrictions or service).
-
-   For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
-
-OSPAR profile
-:   Version 1.0.0 of the Outsourced Service Provider’s Audit Report (OSPAR) profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-ospar-change-log).
-
-
-</staging>
 
 ## 27 February 2024
 {: #security-compliance-feb2724}
