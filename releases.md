@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-08"
+lastupdated: "2024-03-11"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -17,6 +17,21 @@ content-type: release-note
 {: #release-notes}
 
 The following changes to the service were made available with the associated date.
+
+<staging>
+
+## 19 March 2024
+{: #security-compliance-march1924}
+{: release-note}
+
+New rules available
+
+:   The following rules are now available:
+
+   * At least one instance of {{site.data.keyword.at_full_notm}} exists in the region where the Watson Machine Learning Service is available.
+   * Endpoints that are exposed by the {{site.data.keyword.watson}} machine learning instance are accessible only through TLS 1.2 or higher.
+   * {{site.data.keyword.watson}} machine learning service instances are accessed only through private endpoints.
+   * {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) establishes minimum and maximum lifetime restrictions and reuse conditions for authenticators that are used in {{site.data.keyword.watson}} machine learning services, such as API keys and Service IDs.
 
 
 
