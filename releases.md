@@ -43,9 +43,13 @@ New rules available
 {: #security-compliance-feb2024}
 {: release-note}
 
-New rules available
+New rules and rule changes are available
+:   The following rules have been added or updated. They are not currently mapped to any profile, including the IBM Cloud Framework for Financial Services profile. Users can now override the default value and specify an allowed IP or IP range as a parameter. 
 
-:   The following rules are now available:
+   When a context-based restriction is set regarding private endpoints, your users will not be able to access a service unless an allowed IP address is set through your account settings.
+   {: note}
+
+: The following rules have been added
 
    * Cloud Object Storage can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
    * Virtual Private Cloud (VPC) can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
