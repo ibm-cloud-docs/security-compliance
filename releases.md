@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-01"
+lastupdated: "2024-03-12"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -19,6 +19,64 @@ content-type: release-note
 The following changes to the service were made available with the associated date.
 
 
+
+
+
+
+## 12 March 2024
+{: #security-compliance-march1224}
+{: release-note}
+
+{{site.data.keyword.cloud_notm}} Framework for Financial Services profile version 1.6.0
+:   Version 1.6.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile is now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
+
+New rules and rule changes are available
+:   The following rules have been added or updated. They are not currently mapped to any profile, including the IBM Cloud Framework for Financial Services profile. Users can now override the default value and specify an allowed IP or IP range as a parameter. 
+
+   When a context-based restriction is set regarding private endpoints, your users will not be able to access a service unless an allowed IP address is set through your account settings.
+   {: note}
+
+:   The following rules are now available. 
+
+   * App Configuration can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Code Engine can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Security and Compliance Center can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Container Registry can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Kubernetes Service can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Databases for ElasticSearch can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Databases for EDB can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Databases for etcd can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Databases for MongoDB can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Databases for MySql can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Databases for PostgreSQL can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Databases for Redis can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Direct Link can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * DNS Services can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Event Notifications can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Hyper Protect Crypto Services can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * IAM access management can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * IAM access groups can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * IAM identities can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Key Protect can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * IBM Log Analysis can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * IBM Cloud Activity Tracker can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Event Streams can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Messages for RabbitMQ can be accessed only through a private endpoint (context-based restrictions and service) and allowed IP addresses.
+   * Schematics can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Secrets Manager can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * IBM Cloud Monitoring can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Transit Gateway can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * User Management can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+
+:   The following rules are updated:
+
+   * Code Engine can be accessed only through a private endpoint (context-based restrictions or service).
+   * Code Engine private endpoint allowlist doesn't contain wild cards (context-based restrictions or service).
+
+   For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
+
+OSPAR profile
+:   Version 1.0.0 of the Outsourced Service Provider’s Audit Report (OSPAR) profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see the [Change log](/docs/security-compliance?topic=security-compliance-ospar-change-log).
 
 ## 27 February 2024
 {: #security-compliance-feb2724}
@@ -41,9 +99,13 @@ New rules available
 {: #security-compliance-feb2024}
 {: release-note}
 
-New rules available
+New rules and rule changes are available
+:   The following rules have been added or updated. They are not currently mapped to any profile, including the IBM Cloud Framework for Financial Services profile. Users can now override the default value and specify an allowed IP or IP range as a parameter. 
 
-:   The following rules are now available:
+   When a context-based restriction is set regarding private endpoints, your users will not be able to access a service unless an allowed IP address is set through your account settings.
+   {: note}
+
+: The following rules have been added
 
    * Cloud Object Storage can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
    * Virtual Private Cloud (VPC) can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
@@ -430,7 +492,6 @@ Attachment details available
 :   Version 1.3.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 {{site.data.keyword.cloud_notm}} Security Best Practices profile version 1.2.0
-
 :   Updates to version 1.2.0 of the {{site.data.keyword.cloud_notm}} Security Best Practices library and profile are now available. For more information, see the Change log.
 
 
@@ -445,7 +506,6 @@ OpenShift Compliance Operator (OSCO)
 {: #security-compliance-may292023}
 
 Reminder: {{site.data.keyword.compliance_short}} will become regional
-
 :   Starting 8 July 2023 {{site.data.keyword.compliance_short}} will be a provisionable, regional service offering in the IBM Cloud catalog. With this change, you will have full control over the region that is used when {{site.data.keyword.compliance_short}} processes your data. To process data in different regions, you can create multiple instances of the service in a single account.
 
    [deprecated]{: tag-deprecated} To support this change, support for the collector-based architecture was deprecated. This means that all of the configurations surrounding collectors, goal-based profiles, collector-based scans, goal-based results, and credentials will be removed at the end of support on 1 July 2023.

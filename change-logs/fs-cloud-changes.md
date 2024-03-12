@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-01-04"
+lastupdated: "2024-03-05"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -36,7 +36,7 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 {: important}
 
 | Version number | Release date | Status |
-|:---------------|:-------------|:-------|
+|:---------------|:-------------|:-------| 
 | Version 1.5.0 | `2023-09-23` | Active |
 | Version 1.4.0 | `2023-08-09` | Active |
 | Version 1.3.0 | `2023-06-20` | Active |
@@ -44,6 +44,8 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 | Version 1.1.0 | `2023-03-02` | Active |
 | Version 1.0.0 | `2022-12-14` | Active |
 {: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile" caption-side="top"}
+
+
 
 
 
