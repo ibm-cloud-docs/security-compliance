@@ -133,6 +133,8 @@ toc:
                 navtitle: AI ICT Guardrails
               - topic: change-logs/caveonix-vmware.md
                 navtitle: Caveonix Security Baselines for VMware
+              - topic: change-logs/ospar.md
+                navtitle: OSPAR
           - topicgroup:
               label: Amazon Web Services
               topics:

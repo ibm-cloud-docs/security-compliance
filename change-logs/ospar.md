@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023, 2024
-lastupdated: "2024-03-08"
+lastupdated: "2024-03-12"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -43,7 +43,7 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 
 
 ## Version 1.0.0
-{: #ospar-version4}
+{: #ospar-version-1.0.0}
 
 Now available
 :   Released today, 12 March 2024, the OSPAR profile is a collection of controls designed to validate the configuration of your resources.
