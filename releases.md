@@ -74,7 +74,7 @@ New rules and rule changes are available
    For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 OSPAR profile
-:   Version 1.0.0 of the Outsourced Service Provider’s Audit Report (OSPAR) profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log]({[link]-ospar-change-log).
+:   Version 1.0.0 of the Outsourced Service Provider’s Audit Report (OSPAR) profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-ospar-change-log).
 
 ## 27 February 2024
 {: #security-compliance-feb2724}
