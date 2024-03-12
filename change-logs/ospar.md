@@ -38,7 +38,7 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
-| Version 1.0.0 | `2024-3-12` | Active |
+| Version 1.0.0 | `2024-3-13` | Active |
 {: caption="Table. Active versions of the OSPAR profile" caption-side="top"}
 
 
@@ -46,4 +46,4 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 {: #ospar-version-1.0.0}
 
 Now available
-:   Released today, 12 March 2024, the OSPAR profile is a collection of controls designed to validate the configuration of your resources.
+:   Released today, 13 March 2024, the OSPAR profile is a collection of controls designed to validate the configuration of your resources.
