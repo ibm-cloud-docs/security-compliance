@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-05"
+lastupdated: "2024-03-13"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -36,7 +36,8 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 {: important}
 
 | Version number | Release date | Status |
-|:---------------|:-------------|:-------| 
+|:---------------|:-------------|:-------|
+| Version 1.6.0 | `2024-03-12` | Active | 
 | Version 1.5.0 | `2023-09-23` | Active |
 | Version 1.4.0 | `2023-08-09` | Active |
 | Version 1.3.0 | `2023-06-20` | Active |
@@ -45,9 +46,32 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 | Version 1.0.0 | `2022-12-14` | Active |
 {: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile" caption-side="top"}
 
+## Version 1.6.0
+{: #fs-cloud-v160}
 
+The following rules were updated in the {{site.data.keyword.cloud_notm}} Framework for Financial Services library and profile as of 12 March 2024.
 
-
+| Rule ID | Rule description| Associated controls | Update |
+|:--------|:----------------|:--------------------|:-------|
+| `rule-613c6100-b99c-4adc-8978-fab5e30523aa`	| Check whether Event Notifications is configured to work with Security and Compliance Center |	`SI-2 (a)` and `SI-5 (a)` |	The rule was added. |
+| `rule-3826cfe4-c2bd-4c61-b462-acc46c6a251e`	| Check whether DevSecOps Toolchain verifies all changes to source code have been manually reviewed |	`CM-2(1)(a)`, `CM-2(1)(b)`, `CM-2(1)(c)`, `CM-3(2)(0)`, `CM-3(b)`, `CM-3(d)`, `CM-3(f)`, `CM-3(g)`, `CM-4(0)`, `CM-4(1)(0)`, `CM-5(0)`, `CM-6(1)(0)`, `CM-6(c)`, `CM-6(d)`, `CM-7(1)(a)`, `CM-9(a)`, `CM-9(b)`, `CM-9(c)`, `CM-9(d)`, `SA-10(a)`, `SA-10(b)`, `SA-10(c)`, `SA-10(d)`, `SA-10(e)`, `SA-15(a)`, `SA-3(a)`, `SA-3(d)`, `SA-4(3)(0)`, `SA-8(0)`, `SI-2(2)(0)`, `SI-2(a)`, `SI-2(d)`, and `SI-7(0)`	| The rule was added. |
+| `rule-59261292-1723-4234-9fa9-48df0088cde1`	| Check whether DevSecOps Toolchain validates signature provenance of each deployed artifact| `CM-3(2)(0)`, `CM-4(0)`, `SA-10(1)(0)`, `SA-10(b)`, `SA-10(c)`, `SA-15(a)`, `SA-3(a)`, `SA-3(d)`, `SA-8(0)`, `SI-2(2)(0)`, `SI-2(a)`, `SI-2(d)`, and `SI-7(0)`	| The rule was added. |
+| `rule-ba79b984-ec18-4fc1-965d-82cf701eb94f` |	Check whether an instance of IBM Log Analysis exists in each required region and is configured to receive platform logs	| `AC-4(0)`	| The rule was added. | 
+| `rule-153b7f10-d8a8-43a2-8696-731de7790f06`	| Check whether virtual servers for VPC is provisioned from customer-defined list of images |	`CM-8(3)(a)` | The rule was removed. |
+| `rule-709caded-75d6-4481-b9cd-de20851a9b19`	| Check whether virtual servers for VPC is provisioned from customer-defined list of images |	`CM-8(3)(a)`| The rule was added. |
+|	`rule-ea8660d1-c322-4adb-8dc2-e0b77b6dc9fb`	| Check whether a security group other than the default for Virtual Private Cloud is attached to all endpoints	| `AC-4(0)`, `SC-7(a)`, `SC-7(b)`, `SC-7(c)`, and `SC-7(5)(0)`	| The rule was removed. |
+| `rule-a1fff3f6-6428-4ad4-9be2-2171ce09fb8f` |	Check whether a security group other than the default for Virtual Private Cloud is attached to all endpoints	| `AC-4(0)`, `SC-7(a)`, `SC-7(b)`, `SC-7(c)`, and `SC-7(5)(0)`|	The rule was added. |
+|	`rule-ac203dbc-ff0d-49f7-bf11-c08af429cb86`	| Check whether Cloud Object Storage network access is restricted to a specific IP range |	`AC-4(0)`, `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`	| The rule was removed. |
+| `rule-3027fd86-72c5-4c81-8ccd-ff556a922ec1`	| Check whether Cloud Object Storage network access is restricted to a specific IP range |	`AC-4(0)`, `SC-7(a)`, `SC-7(b)`, and `SC-7(4)(a)`	| The rule was added. |
+| `rule-3617cc3c-f6a5-44a5-806b-e929bbd664ba`	| Check whether OpenShift version is up-to-date |	`CM-8(3)(a)` and `SI-2(2)(0)`	| The rule was removed. |
+| `rule-de84afba-b83a-41d6-8c80-d0b6acafe039`	| Check whether OpenShift version is up-to-date |	`CM-8(3)(a)` and `SI-2(2)(0)`	| The rule was added. |
+|	`rule-79ed2fa6-e8b3-4fc4-8ea1-36055d527cd9`	| Check whether Event Streams is enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK) | `SC-13`, `SC-28(0)`, and `SC-28(1)(0)`	| The rule was removed. |
+| `rule-b9fec237-3867-4679-9f98-c1a3c8f2d249`	| Check whether Event Streams is enabled with customer-managed encryption and Keep Your Own Key (KYOK) |	`SC-13`, `SC-28(0)`, and `SC-28(1)(0)`	| The rule was added. |
+| `rule-255105cf-70f0-4494-a8c9-466ca6e558fb`	| Check whether Hyper Protect DBaaS for MongoDB is enabled with customer-managed encryption and Keep Your Own Key (KYOK) |	`SC-13(0)`, `SC-28(0)`, and `SC-28(1)(0)`	| The rule was removed. |
+|	`rule-9328227a-2750-4b5a-919f-a6342f1ed97d`	| Check whether Hyper Protect DBaaS for PostgreSQL is enabled with customer-managed encryption and Keep Your Own Key (KYOK) |	`SC-13(0)`, `SC-28(0)`, and `SC-28(1)(0)`	| The rule was removed. |
+|	`rule-184933d2-6819-4c07-ae05-3e46f1888e88`	| Check whether an OpenShift cluster has worker nodes across multiple zones |	`CP-7(a)`, `CP-7(b)`, `CP-7(c)`, `CP-7(1)(0)`, `CP-10(0)`, and `SC-6(0)` |	The rule was removed. |
+| `rule-88f25dca-0e62-43c1-939e-f6637d23847f`	| Check whether a Red Hat OpenShift cluster has at least # worker nodes across multiple zones	| `CP-7(a)`, `CP-7(b)`, `CP-7(c)`, `CP-7(1)(0)`, `CP-10(0)`, and `SC-6(0)`	| The rule was added. |
+{: caption="Table. Summary of the changes for version 1.6.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
 ## Version 1.5.0
 {: #fs-cloud-v150}
