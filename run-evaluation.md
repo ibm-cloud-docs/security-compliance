@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-20"
+lastupdated: "2024-03-15"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -42,7 +42,7 @@ Before you get started, be sure that you have the following Prerequisites:
 
 To start scanning your resource, you create an attachment. To create an attachment, you can use the {{site.data.keyword.compliance_short}} UI to complete the following steps.
 
-1. In the {{site.data.keyword.compliance_short}} UI, navigate to the **Attachments** page and click **Create**. A flat list of all of the attachments in your account is displayed.
+1. In the {{site.data.keyword.compliance_short}} UI, navigate to the **Attachments** page and click **Create**.
 
 	Alternatively, you can create an attachment through the **Profiles** page. After you select the profile you want to use, on the **Attachments** tab of the profile details page, click **Create**.
 	{: tip}
@@ -50,7 +50,9 @@ To start scanning your resource, you create an attachment. To create an attachme
 2. Provide a name and description for your attachment. Be sure to be as descriptive as possible so that it's easy for other members of your team to understand what is being evaluated. Then, click **Next**.
 3. Select the **Profile** that you want to use for your evaluation.
 4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case. Then, click **Next**.
-5. Target the resources that you want to evaluate by defining a scope. If you are working with {{site.data.keyword.cloud_notm}} resources, you can also specify resources that you want to exclude from your scope. If you are working with resources from other environments, you must [connect an instance of the {{site.data.keyword.sysdigsecure_short}} service](/docs/security-compliance?topic=security-compliance-setup-workload-protection) and provide any requested information to move forward.
+5. Target the resources that you want to evaluate by defining a scope.
+
+   If you are working with {{site.data.keyword.cloud_notm}} resources, you can also specify resources that you want to exclude from your scope. If you are working with resources from other environments, you must [connect an instance of the {{site.data.keyword.sysdigsecure_short}} service](/docs/security-compliance?topic=security-compliance-setup-workload-protection) and provide any requested information to move forward.
 6. Click **Next**.
 7. Select the frequency at which you want to evaluate your attachment.
 	
