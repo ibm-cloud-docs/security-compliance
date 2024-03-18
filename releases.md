@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-14"
+lastupdated: "2024-03-18"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -31,7 +31,7 @@ The following changes to the service were made available with the associated dat
 :   Version 1.6.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile is now available. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
 New rules and rule changes are available
-:   The following rules have been added or updated. They are not currently mapped to any profile, including the IBM Cloud Framework for Financial Services profile. Users can now override the default value and specify an allowed IP or IP range as a parameter. 
+:   The following rules have been added or updated. They are not currently mapped to any profile, including the IBM Cloud Framework for Financial Services profile. Users can now override the default value and specify an allowed IP or IP range as a parameter. Rules related to context-based restrictions only evaluate for public and private configurations. If you have configured direct endpoints, it will not evaluated by the following rules.
 
    When a context-based restriction is set regarding private endpoints, your users will not be able to access a service through the UI unless an allowed IP address is set through your account settings.
    {: note}
@@ -100,7 +100,7 @@ New rules available
 {: release-note}
 
 New rules and rule changes are available
-:   The following rules have been added or updated. They are not currently mapped to any profile, including the IBM Cloud Framework for Financial Services profile. Users can now override the default value and specify an allowed IP or IP range as a parameter. 
+:   The following rules have been added or updated. They are not currently mapped to any profile, including the IBM Cloud Framework for Financial Services profile. Users can now override the default value and specify an allowed IP or IP range as a parameter. Rules related to context-based restrictions only evaluate for public and private configurations. If you have configured direct endpoints, it will not evaluated by the following rules.
 
    When a context-based restriction is set regarding private endpoints, your users will not be able to access a service through the UI unless an allowed IP address is set through your account settings.
    {: note}
