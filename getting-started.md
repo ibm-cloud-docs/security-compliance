@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-15"
+lastupdated: "2024-03-19"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -109,7 +109,7 @@ An attachment is how you target a specific grouping of your resources to evaluat
 	{: important}
 
 4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case.
-5. Target the resources that you want to evaluate by defining a scope. 
+5. Target the resources that you want to evaluate by defining a scope within a single enterprise account. Or, define a scope across each of the target accounts in an {{site.data.keyword.cloud_notm}} environment that are outside of an enterprise. A flat list of the attachments in your account or across target accounts is displayed. For more information about evaluating resources in other accounts, see [Scanning resources across accounts](/docs/security-compliance?topic=security-compliance-scan-resources-cross-account).
 
    If you are working with {{site.data.keyword.cloud_notm}} resources, you can also specify resources that you want to exclude from your scope. If you are working with resources from other environments, you must [connect an instance of the {{site.data.keyword.sysdigsecure_short}} service](/docs/security-compliance?topic=security-compliance-setup-workload-protection) and provide the requested information to move forward.
 6. Click **Next**.

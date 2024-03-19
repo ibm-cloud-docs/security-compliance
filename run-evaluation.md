@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-15"
+lastupdated: "2024-03-19"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -19,7 +19,8 @@ subcollection: security-compliance
 With {{site.data.keyword.compliance_full}}, you can evaluate your resources on a recurring schedule or you can initiate a scan at any time by creating an attachment. An attachment is the association between the set of resources that you want to evaluate and a profile that contains the specific controls that you want to evaluate.
 {: shortdesc}
 
-
+To scan resources across multiple accounts for {{site.data.keyword.cloud_notm}} resources, register these accounts as targets. Then, use the trusted profile to grant these accounts access to the main {{site.data.keyword.compliance_short}} instance.
+{: tip}
 
 ![A diagram that shows the relationship between a control, profile, and scope.](images/term-flow.svg){: caption="Figure 1. Understanding entities in {{site.data.keyword.compliance_short}}" caption-side="bottom"}
 
@@ -36,6 +37,8 @@ Before you get started, be sure that you have the following Prerequisites:
 	Want to use controls from multiple profiles? Create a custom profile from the existing control libraries and use that profile to create your attachment. Because you cannot create custom profiles from deprecated control library versions, work with the most recent version.
 	{: tip}
 
+* If you are scanning resources across accounts, a trusted profile with access policies (and assigned roles) set for the target account. For more information, see [Scanning resources across accounts](/docs/security-compliance?topic=security-compliance-scan-resources-cross-account).
+
 ## Scheduling a recurring scan
 {: #scan-schedule-ui}
 {: ui}
@@ -50,7 +53,7 @@ To start scanning your resource, you create an attachment. To create an attachme
 2. Provide a name and description for your attachment. Be sure to be as descriptive as possible so that it's easy for other members of your team to understand what is being evaluated. Then, click **Next**.
 3. Select the **Profile** that you want to use for your evaluation.
 4. Customize the underlying evaluations in your scan by editing the default parameters to match your specific use case. Then, click **Next**.
-5. Target the resources that you want to evaluate by defining a scope.
+5. Target the resources that you want to evaluate by defining a scope within a single enterprise account. Or, define a scope across each of the target accounts in an {{site.data.keyword.cloud_notm}} environment that are outside of an enterprise. A flat list of the attachments in your account or across target accounts is displayed. For more information about evaluating resources in other accounts, see [Scanning resources across accounts](/docs/security-compliance?topic=security-compliance-scan-resources-cross-account).
 
    If you are working with {{site.data.keyword.cloud_notm}} resources, you can also specify resources that you want to exclude from your scope. If you are working with resources from other environments, you must [connect an instance of the {{site.data.keyword.sysdigsecure_short}} service](/docs/security-compliance?topic=security-compliance-setup-workload-protection) and provide any requested information to move forward.
 6. Click **Next**.

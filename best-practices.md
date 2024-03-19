@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-27"
+lastupdated: "2024-03-19"
 
 keywords: scc best practices, enterprise, scc access
 
@@ -73,5 +73,15 @@ Attachment C
 :   The target scope of Attachment C is a child account. This attachment was created in the account, outside of the context of the enterprise. As you can see, Attachment A is monitoring the resources in the same account, but because Attachment C is created at the account level, resource groups are able to be seen and excluded.
 
 To view the results of an evaluation, you look in the account where the attachment was created. If you use the previous image as an example, attachment A and B's results would exist within the enterprise account, and the enterprise account is charged for the evaluation. However, attachment C's results would exist within the child account.
+
+
+## Defining scopes in accounts outside of an enterprise
+{: #bp-non-enterprise}
+
+When you work with {{site.data.keyword.compliance_short}} outside of the enterprise account structure, your set up options for scopes are different. Because you can scan and evaluate your resources across accounts, you must use the cross-account access policy to access resources in other accounts.
+
+You can select a single {{site.data.keyword.compliance_short}} instance in your main account to monitor a list of other target accounts (and their resources) and environments. This {{site.data.keyword.compliance_short}} instance in your main account must have access to scan resources in multiple target accounts for {{site.data.keyword.cloud_notm}} resources. You can define multiple scopes for each target account in an attachment.
+
+You can create multiple attachments that distribute accounts across multiple attachments. For example, you can select 1 to 200 accounts in a single attachment scope. Then, you can select 201 to 400 accounts in the next attachment scope.
 
 
