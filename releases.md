@@ -18,10 +18,18 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
-   
 
 
+## 19 March 2024
+{: #security-compliance-march1924}
+{: release-note}
 
+Scanning resources in other accounts is now available
+
+:   You can now scan resources in other {{site.data.keyword.cloud_notm}} accounts that are either part of an enterprise or outside of an enterprise. You can enable scanning across other accounts by adding these accounts to your attachment as target accounts. For more information about scanning resources in other {{site.data.keyword.cloud_notm}} accounts, see [Scanning resources across accounts](/docs/security-compliance?topic=security-compliance-scan-resources-cross-account).
+
+   You can take advantage of an automation script that can help you to automatically register to scan resources across accounts. For more information, check out the [script in GitHub](https://github.com/IBM/security-compliance-automation){: external}.
+   {: note}
 
 ## 13 March 2024
 {: #security-compliance-march1224}
