@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-20"
+lastupdated: "2024-03-22"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -26,10 +26,10 @@ New rules available
 
 :   The following rules are now available:
 
-   * At least one instance of {{site.data.keyword.at_full_notm}} exists in the region where the Watson machine learning service is available.
-   * Endpoints that are exposed by the {{site.data.keyword.watson}} machine learning instance are accessible only through TLS 1.2 or higher.
-   * {{site.data.keyword.watson}} machine learning service instances are accessed only through private endpoints.
-   * {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) establishes minimum and maximum lifetime restrictions and reuse conditions for authenticators that are used in {{site.data.keyword.watson}} machine learning services, such as API keys and Service IDs.
+   * Check whether there is at least one {{site.data.keyword.at_full_notm}} instance in the region where Watson Machine Learning Service is available
+   * Check whether all endpoints exposed by {{site.data.keyword.watson}} Machine Learning instance are accessible only through TLS 1.2 or higher
+   * Check whether all {{site.data.keyword.watson}} Machine Learning Service instance are accessed only through a private endpoints
+   * Check whether {{site.data.keyword.cloud_notm}} IAM establishes minimum and maximum lifetime restrictions and reuse conditions for authenticators used in {{site.data.keyword.watson}} Machine Learning services, such as API keys and Service IDs
 
 ## 19 March 2024
 {: #security-compliance-march1924}
@@ -55,42 +55,42 @@ New rules and rule changes are available
    When a context-based restriction is set regarding private endpoints, your users will not be able to access a service through the UI unless an allowed IP address is set through your account settings.
    {: note}
 
-:   The following rules are now available. 
+:   The following rules are now available:
 
-   * App Configuration can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Code Engine can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Security and Compliance Center can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Container Registry can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Kubernetes Service can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Databases for ElasticSearch can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Databases for EDB can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Databases for etcd can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Databases for MongoDB can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Databases for MySql can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Databases for PostgreSQL can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Databases for Redis can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Direct Link can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * DNS Services can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Event Notifications can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Hyper Protect Crypto Services can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * IAM access management can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * IAM access groups can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * IAM identities can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Key Protect can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * IBM Log Analysis can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * IBM Cloud Activity Tracker can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Event Streams can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Messages for RabbitMQ can be accessed only through a private endpoint (context-based restrictions and service) and allowed IP addresses.
-   * Schematics can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Secrets Manager can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * IBM Cloud Monitoring can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Transit Gateway can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * User Management can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Check whether App Configuration can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Code Engine can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Security and Compliance Center can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Container Registry can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Kubernetes Service can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Databases for ElasticSearch can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Databases for EDB can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Databases for etcd can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Databases for MongoDB can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Databases for MySql can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Databases for PostgreSQL can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Databases for Redis can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Direct Link can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether DNS Services can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Event Notifications can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Hyper Protect Crypto Services can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether IAM access management can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether IAM access groups can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether IAM identities can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Key Protect can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether IBM Log Analysis can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether IBM Cloud Activity Tracker can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Event Streams can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Messages for RabbitMQ can be accessed only through a private endpoint (Context-based restrictions and service) and allowed IPs
+   * Check whether Schematics can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Secrets Manager can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether IBM Cloud Monitoring can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Transit Gateway can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether User Management can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
 
 :   The following rules are updated:
 
-   * Code Engine can be accessed only through a private endpoint (context-based restrictions or service).
-   * Code Engine private endpoint allowlist doesn't contain wild cards (context-based restrictions or service).
+   * Check whether Code Engine can be accessed only through a private endpoint (Context-based restrictions or service)
+   * Check whether there are no wild cards in the private endpoint allow list for Code Engine (Context-based restrictions or service)
 
    For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
@@ -105,12 +105,12 @@ New rules available
 
 :   The following rules are now available:
 
-   * App ID can be enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK).
-   * Schematics can be enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK).
-   * Block Storage for VPC can be enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK).
-   * Cloud Object Storage can be enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK).
-   * Red Hat OpenShift cluster can be enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK).
-   * Kubernetes Service Cluster can be enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK).
+   * Check whether App ID is enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Schematics is enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Block Storage for VPC is enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Cloud Object Storage is enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Red Hat OpenShift cluster is enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Kubernetes Service Cluster is enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
 
    For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
@@ -124,30 +124,30 @@ New rules and rule changes are available
    When a context-based restriction is set regarding private endpoints, your users will not be able to access a service through the UI unless an allowed IP address is set through your account settings.
    {: note}
 
-: The following rules have been added
+: The following rules have been added:
 
-   * Cloud Object Storage can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Virtual Private Cloud (VPC) can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Backup for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Bare Metal Servers for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Dedicated Host for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Virtual Private Endpoints (VPE) for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * VPC floating IP addresses can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Flow Logs for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * VPC images can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Auto Scale for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Virtual Private Servers for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * VPC SSH keys can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Load Balancer for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * VPC network access control lists can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * VPC placement groups can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * VPC public gateways can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * VPC security groups can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Block Storage Snapshots for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * VPC subnets can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Block Storage for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * Client VPN for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
-   * VPN for VPC can be accessed only through a private endpoint (context-based restrictions or service) and allowed IP addresses.
+   * Check whether Cloud Object Storage can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Virtual Private Cloud can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Backup for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Bare Metal Servers for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Dedicated Host for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs 
+   * Check whether Virtual Private Endpoints for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether VPC floating IPs can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Flow Logs for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether VPC images can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Auto scale for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Virtual Servers for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether VPC SSH keys can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Load Balancer for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether VPC network access control lists can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether VPC placement groups can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether VPC public gateways can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether VPC security groups can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Block Storage Snapshots for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether VPC subnets can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Block Storage for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether Client VPN for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether VPN for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
 
    For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).  
 
@@ -159,11 +159,11 @@ New rules available
 
 :   The following rules are now available:
 
-   * App ID can be enabled with customer-managed encryption and Bring Your Own Key (BYOK).
-   * Schematics can be enabled with customer-managed encryption and Bring Your Own Key (BYOK).
-   * Event Streams can be enabled with customer-managed encryption and Keep Your Own Key (KYOK).
-   * IBM Cloud Activity Tracker can be evaluated to determine whether an instance is available across all provisioned resource regions.
-   * Red Hat OpenShift clusters can be evaluated to determine whether they have a specified number of worker nodes across multiple zones.
+   * Check whether App ID is enabled with customer-managed encryption and Bring Your Own Key (BYOK)
+   * Check whether Schematics is enabled with customer-managed encryption and Bring Your Own Key (BYOK)
+   * Check whether Event Streams is enabled with customer-managed encryption and Keep Your Own Key (KYOK)
+   * Check whether an IBM Cloud Activity Tracker instance is present across all provisioned regions
+   * Check whether a Red Hat OpenShift cluster has at least # worker nodes across multiple zones
 
    For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
@@ -175,25 +175,25 @@ New rules available
 
 :   The following rules are now available:
 
-   * Databases for EDB can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-   * Databases for EDB can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-   * Databases for MySql can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-   * Databases for MySql can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-   * IBM Log Analysis can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-   * IBM Log Analysis can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-   * IBM Cloud Activity Tracker can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-   * IBM Cloud Activity Tracker can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-   * IBM Cloud Monitoring can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-   * IBM Cloud Monitoring can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
-   * Messages for Rabbitmq can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service).
-   * Messages for Rabbitmq can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+   * Check whether Databases for EDB can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service)
+   * Check whether Databases for EDB can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service)
+   * Check whether Databases for MySql can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service)
+   * Check whether Databases for MySql can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service)
+   * Check whether IBM Log Analysis can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service)
+   * Check whether IBM Log Analysis can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service)
+   * Check whether IBM Cloud Activity Tracker can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service)
+   * Check whether IBM Cloud Activity Tracker can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service)
+   * Check whether IBM Cloud Monitoring can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service)
+   * Check whether IBM Cloud Monitoring can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service)
+   * Check whether Messages for Rabbitmq can be evaluated to determine whether it can be accessed only through a private endpoint (Context-based restrictions or service)
+   * Check whether Messages for Rabbitmq can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service)
 
 Updated rules
 
 :   The following rules are updated:
 
-   * IBM Log Analysis can be evaluated to determine whether an instance exists in a required region and is configured to receive platform logs.
-   * Container Registry can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service).
+   * Check whether IBM Log Analysis can be evaluated to determine whether an instance exists in a required region and is configured to receive platform logs
+   * Check whether Container Registry can be evaluated to determine there are no wild cards in the private endpoint allow list (Context-based restrictions or service)
 
    For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
@@ -300,12 +300,12 @@ New rules available
 
 :   The following rules are now available:
 
-   * The DevSecOps Toolchain service can now be evaluated to determine whether all changes to source code have been manually reviewed.
-   * The DevSecOps Toolchain service can now be evaluated to determine whether a toolchain is configured to validate signature provenance of each deployed artifact.
-   * The IBM Log Analysis service can now be evaluated to determine whether log retention is set to a user-defined amount of days.
-   * The Identity and Access Management service can now be evaluated to determine whether a user's contact email is valid.
-   * The Secrets Manager service can now be evaluated to determine whether certificates that are generated through the service are configured to be renewed before they expire.
-   * The Event Notifications service can now be evaluated to determine whether it is configured for {{site.data.keyword.compliance_short}}.
+   * Check whether DevSecOps Toolchain verifies all changes to source code have been manually reviewed
+   * Check whether DevSecOps Toolchain validates signature provenance of each deployed artifact
+   * Check whether an instance of IBM Log Analysis exists in each required region and is configured to receive platform logs
+   * Check whether the Identity and Access Management service can now be evaluated to determine whether a user's contact email is valid
+   * Check whether Secrets Manager can now be evaluated to determine whether certificates that are generated through the service are configured to be renewed before they expire
+   * Check whether Event Notifications is configured to work with Security and Compliance Center
 
    For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
@@ -339,7 +339,7 @@ Version 1.1.0 of the CIS Microsoft Azure Foundations Benchmark
 :   Version 1.1.0 of the CIS Microsoft Azure Foundations Benchmark is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-benchmark-profile).
 
 Logging
-You can view and analyze {{site.data.keyword.compliance_short}} logs by using the {{site.data.keyword.la_full}} service and enabling platform logs in each region where you operate in {{site.data.keyword.cloud_notm}}. For more information, see [Logging for {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-logging).
+:   You can view and analyze {{site.data.keyword.compliance_short}} logs by using the {{site.data.keyword.la_full}} service and enabling platform logs in each region where you operate in {{site.data.keyword.cloud_notm}}. For more information, see [Logging for {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-logging).
 
 
 
