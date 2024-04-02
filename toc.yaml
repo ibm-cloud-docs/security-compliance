@@ -100,7 +100,7 @@ toc:
       - topicgroup:
           label: CLI reference
           topics:
-          - include: ../security-compliance-cli-plugin/security-compliance-cli.md
+          - topic: security-compliance-cli.md
             navtitle: Security and Compliance Center CLI Reference
           - change-logs/changelog-cli.md
       - topicgroup:
