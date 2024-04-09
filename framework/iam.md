@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-10-02"
+  years: 2020, 2024
+lastupdated: "2024-04-09"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -23,6 +23,7 @@ Policies enable access to be granted at different levels. Some options include t
 * Access to manage profiles and controls
 * Access to view security and compliance posture and results
 * Access to manage event notifications
+
 
 
 ## Roles and permissions
@@ -86,6 +87,10 @@ The following tables list the platform access roles that are required to manage 
 [^attach-3]: To create an attachment within an enterprise, you must also have permissions for the enterprise. You can provide Administrator access to the entire enterprise or create a custom role using the actions found in the following section.
 
 [^attach-4]: To create an attachment within an enterprise, you must also have permissions for the enterprise. You can provide Administrator access to the entire enterprise or create a custom role using the actions found in the following section.
+
+
+
+
 
 
 ## Required roles and permissions for enterprises

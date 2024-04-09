@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-22"
+lastupdated: "2024-04-09"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,12 +18,16 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
+
+
+
+
+
 ## 20 March 2024
 {: #security-compliance-march2024}
 {: release-note}
 
 New rules available
-
 :   The following rules are now available:
 
    * Check whether there is at least one {{site.data.keyword.at_full_notm}} instance in the region where Watson Machine Learning Service is available
