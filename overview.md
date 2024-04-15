@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-10-11"
+  years: 2020, 2024
+lastupdated: "2024-04-15"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -15,7 +15,8 @@ subcollection: security-compliance
 # How does {{site.data.keyword.compliance_short}} work?
 {: #posture-management}
 
-When you work with {{site.data.keyword.compliance_full}}, you interact with several different entities and can take multiple user paths through the service. Learn more about each entity by reviewing the following definitions and user flows.
+With {{site.data.keyword.compliance_full}}, you can evaluate for and view the current compliance posture of your deployed resources through a unified dashboard. Each resources is evaluated to determine its compliance to a specific control that you select. To learn more about each entity that you encounter with the service, review the terminology and how it works.
+
 
 ## Terminology
 {: #terms}

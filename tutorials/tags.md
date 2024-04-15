@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-02-22"
+lastupdated: "2024-04-15"
 
 keywords: customize rules, parameters, customize parameters, customize goals, security and compliance, tags
 
@@ -16,7 +16,7 @@ completion-time: 15m
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Evaluate resources based on {{site.data.keyword.cloud_notm}} tag
+# Evaluate resources based on {{site.data.keyword.cloud_notm}} tags
 {: #tutorial-tags}
 {: toc-content-type="tutorial"}
 {: toc-services="security-compliance"}
