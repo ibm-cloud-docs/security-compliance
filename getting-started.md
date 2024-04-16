@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-19"
+lastupdated: "2024-04-16"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -53,7 +53,7 @@ To get started with {{site.data.keyword.compliance_short}}, you must first creat
 {: #gs-access}
 {: step}
 
-If you are working in a larger organization, you might need to start by assigning access to those on your team who will be managing compliance. 
+After you have an instance of the service, the next step is to assign access to those on your team who manage compliance.  
 
 1. [Create an access group](/docs/account?topic=account-groups&interface=ui#create_ag) and add your compliance focals.
 2. In the Console, go to **Manage > Access (IAM) > Access groups** and click select the group that you want to assign access to. A new page opens with the details of the group.
