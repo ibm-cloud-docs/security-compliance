@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-04-15"
+lastupdated: "2024-04-18"
 
 keywords: supported controls, controls available, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -33,7 +33,6 @@ Frequently asked questions for {{site.data.keyword.compliance_full}} might inclu
 {: support}
 
 Yes, you can create rules for services or resources that are not already provisioned in your accounts. When the service or resource is created, it is automatically evaluated according to your rule definition.
-
 
 ## Why don't I see additional details for everything?
 {: #faq-evidence}
