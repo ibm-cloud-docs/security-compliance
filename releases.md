@@ -20,6 +20,71 @@ The following changes to the service were made available with the associated dat
 
 
 
+## TBD April 2024
+{: #security-compliance-AprilTBD24}
+{: release-note}
+
+Updates to IAM actions and roles
+:   Last year, {{site.data.keyword.compliance_short}} underwent a transition from a global service to a regional service. As part of completing that migration, the IAM actions for {{site.data.keyword.compliance_short}} will be updated. Now, rather than the {{site.data.keyword.compliance_short}} actions being mapped to *Platform* roles, each action is mapped to a *Service* role. Additionally, unused or stale actions will be removed from the IAM definition. For more information about the new mappings and role requirements, see [Managing IAM access for {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-access-management).
+
+   As you determine the impact of this change to your organization, keep the following dates in mind:
+
+   * **DATE**: Starting on this date, the action to role mapping for Security and Compliance Center will be updated to include the new *Service* roles and you will be able to see the change in the IAM UI. The *Platform* roles will continue to function. During this time period, you must evaluate and reassign permissions as needed for the members of your organization.
+
+   * **DATE**: On this date, the action to role mapping will be updated to remove the *Platform* roles that are associated with specific {{site.data.keyword.compliance_short}} actions and the unused actions will be removed from the IAM definition. If you have not completed the evaluation and reassigned access to the *Service* roles prior to this date, users in your account might lose the access that is required to perform their tasks in {{site.data.keyword.compliance_short}}.
+
+   To evaluate which roles are currently assigned in your account, you can use the IAM UI. To get to the IAM UI, go to the {{site.data.keyword.cloud_notm}} console and click **Manage (IAM)**. Then select the user, trusted profile, or access group that you want to validate.
+
+   The following roles are no longer used and will be removed as part of the migration.
+
+   * `compliance.configuration-governance.results-create`
+   * `compliance.configuration-governance.results-delete`
+   * `compliance.configuration-governance.results-read`
+   * `compliance.configuration-governance.results-update`
+   * `compliance.configuration-governance.attachments-update`
+   * `compliance.configuration-governance.templates-create`
+   * `compliance.configuration-governance.templates-delete`
+   * `compliance.configuration-governance.templates-read`
+   * `compliance.configuration-governance.templates-update`
+   * `compliance.posture-management.collectors-create`
+   * `compliance.posture-management.collectors-delete`
+   * `compliance.posture-management.collectors-read`
+   * `compliance.posture-management.collectors-update`
+   * `compliance.posture-management.credentials-create`
+   * `compliance.posture-management.credentials-delete`
+   * `compliance.posture-management.credentials-read`
+   * `compliance.posture-management.credentials-update`
+   * `compliance.posture-management.credentialsmap-create`
+   * `compliance.posture-management.credentialsmap-delete`
+   * `compliance.posture-management.credentialsmap-read`
+   * `compliance.posture-management.credentialsmap-update`
+   * `compliance.posture-management.keys-delete`
+   * `compliance.posture-management.keys-read`
+   * `compliance.posture-management.keys-write`
+   * `compliance.posture-management.scopes-create`
+   * `compliance.posture-management.scopes-delete`
+   * `compliance.posture-management.scopes-read`
+   * `compliance.posture-management.scopes-update`
+   * `compliance.posture-management.tags-create`
+   * `compliance.posture-management.tags-delete`
+   * `compliance.posture-management.tags-read`
+   * `compliance.posture-management.tags-update`
+   * `compliance.posture-management.tenants-create`
+   * `compliance.posture-management.tenants-delete`
+   * `compliance.posture-management.tenants-read`
+   * `compliance.posture-management.tenants-update`
+   * `compliance.posture-management.validations-create`
+   * `compliance.posture-management.validations-delete`
+   * `compliance.posture-management.validations-read`
+   * `compliance.posture-management.validations-update`
+   * `compliance.posture-management.values-create`
+   * `compliance.posture-management.values-read`
+   * `compliance.posture-management.values-update`
+   * `compliance.posture-management.events-view`
+   * `compliance.posture-management.events-create`
+
+</iam-change>
+
 
 
 ## 20 March 2024
