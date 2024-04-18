@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-04-16"
+lastupdated: "2024-04-18"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -17,7 +17,6 @@ content-type: release-note
 {: #release-notes}
 
 The following changes to the service were made available with the associated date.
-
 
 
 
