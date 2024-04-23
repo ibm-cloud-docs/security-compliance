@@ -1,6 +1,6 @@
 {
     "title": "Security and Compliance Center docs",
-    "lastupdated": "2024-04-18",
+    "lastupdated": "2024-04-23",
     "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
     "section_devtools": {
       "api": "/apidocs/security-compliance",
@@ -33,20 +33,20 @@
       "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
       "tiles": [
         {
-          "date": "15 December 2023",
-          "title": "",
-          "description": "Terraform support is now available. Check the release notes for details."
+          "date": "23 April 2024",
+          "title": "New rules",
+          "description": "Additional rules that have not yet been mapped to a profile are now available."
         },
         {
-          "date": "12 December 2023",
-          "title": "Removal of profiles",
-          "description": "The IBM Cloud Security Best Practices and IBM Cloud Red Hat OpenShift OCP4 (version 1.1.0) profiles have been removed."
+          "date": "20 March 2024",
+          "title": "New rules",
+          "description": "Four additional rules that have not yet been mapped to a profile are now available."
         },
         {
-          "date": "11 December 2023",
-          "title": "New profiles",
-          "description": "New versions of the ISMAP profile and AI ICT Guardrails profile are now available."
-        },
+          "date": "19 March 2024",
+          "title": "Cross-account scanning",
+          "description": "You can now scan resources in other accounts."
+        }
       ]
     }
   }

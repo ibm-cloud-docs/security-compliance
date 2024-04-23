@@ -2,7 +2,7 @@
 
 copyright:
   years: "2024"
-lastupdated: "2024-04-15"
+lastupdated: "2024-04-23"
 
 keywords: security compliance developer tools, integrate with application, API, SDK, CLI
 
@@ -44,8 +44,7 @@ Review the following table to determine the API endpoints to use when you connec
 | Madrid       | **Public:** `https://eu-es.compliance.cloud.ibm.com/instances/{instance_id}/v3`  \n  \n  **Private:** `https://private.eu-es.compliance.cloud.ibm.com/instances/{instance_id}/v3` |
 {: caption="Table 1. Endpoints for interacting with {{site.data.keyword.compliance_short}}" caption-side="top"}
 
-Some services require public endpoints in order for the evaluation to be complete. Using only private endpoints is not possible in {{site.data.keyword.compliance_short}}.
-{: important}
+
 
 
 ### Viewing your endpoint URLs
