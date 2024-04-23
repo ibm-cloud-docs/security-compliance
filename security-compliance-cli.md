@@ -580,7 +580,7 @@ ibmcloud security-compliance setting update \
 ### `ibmcloud security-compliance setting post-test-event`
 {: #security-compliance-cli-settings-post-test-event-command}
 
-Send a test event to your Event Notifications instance to ensure that the events that are generated  by Security and Compliance Center are being forwarded to Event Notifications. For more information, see [Enabling event notifications](/docs/security-compliance?topic=security-compliance-event-notifications#event-notifications-test-api).
+Send a test event to your Event Notifications instance to ensure that the events that are generated  by Security and Compliance Center are being forwarded to Event Notifications. For more information, see [Enabling event notifications](/docs/security-compliance?topic=security-compliance-event-notifications&interface=api#event-notifications-test-api).
 
 ```sh
 ibmcloud security-compliance setting post-test-event [--x-correlation-id X-CORRELATION-ID] [--x-request-id X-REQUEST-ID]

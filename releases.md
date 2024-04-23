@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-22"
+lastupdated: "2024-04-23"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,12 +18,27 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
+
+
+## 23 April 2024
+{: #security-compliance-april2324}
+{: release-note}
+
+Updated rules
+:   The following rules were updated:
+
+   * Check whether Cloud Object Storage bucket resiliency is set to cross region or regional
+   * Check whether Virtual Private Cloud (VPC) security groups have no inbound rules that specify source IP 0.0.0.0/0 to SSH port
+   * Check whether Virtual Private Cloud (VPC) security groups have no inbound rules that specify source IP 0.0.0.0/0 to RDP port
+   * Check whether Virtual Private Cloud (VPC) network access control lists don't allow ingress from wildcard IP addresses to SSH port
+   * Check whether Virtual Private Cloud (VPC) network access control lists don't allow ingress from 0.0.0.0/0 to RDP port
+
+
 ## 20 March 2024
 {: #security-compliance-march2024}
 {: release-note}
 
 New rules available
-
 :   The following rules are now available:
 
    * Check whether there is at least one {{site.data.keyword.at_full_notm}} instance in the region where Watson Machine Learning Service is available
@@ -790,7 +805,7 @@ For the most up-to-date pricing information, you can create a cost estimate by c
 {: #security-compliance-may0522}
 {: release-note}
 
-In addition to small bug fixes and general updates, version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is updated with the following changes as of 4 May 2022.
+In addition to bug fixes and general updates, version 0.2.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile is updated with the following changes as of 4 May 2022.
 
 | Goal ID   | Associated controls | Update |
 |:----------|:-------------|:------------|
@@ -884,7 +899,7 @@ New service available in Configuration Governance
 {: release-note}
 
 {{site.data.keyword.en_short}} integration
-:   You can now integrate with [{{site.data.keyword.en_full_notm}}](/catalog/services/event-notifications){: external} so that you can view and manage all your {{site.data.keyword.compliance_short}} alerts in a single location. With a fast alert time, you're able to immediately start an investigation into any reported issue and fix the vulnerability before it becomes a larger problem in your application.
+:   You can now integrate with [{{site.data.keyword.en_full_notm}}](/catalog/services/event-notifications){: external} so that you can view and manage all your {{site.data.keyword.compliance_short}} alerts in a single location. With a fast alert time, you're able to immediately start an investigation into any reported issue and fix the vulnerability before it becomes a problem in your application.
 
    To connect the {{site.data.keyword.compliance_short}} with the {{site.data.keyword.en_short}} service, see [Enabling event notifications](/docs/security-compliance?topic=security-compliance-event-notifications). For more information, check out the [announcement blog](https://www.ibm.com/blog/announcement/ibm-cloud-security-and-compliance-center-is-now-integrated-with-event-notifications/){: external}.
 
@@ -1018,7 +1033,7 @@ New goal mapping
 :   The goal `3000045` is now mapped to CM-2 NIST 800 and were added to an additional profile.
 
 {{site.data.keyword.cloud_notm}} for Financial Services profile
-:   Released today, the {{site.data.keyword.cloud_notm}} for Financial Services profile is a collection of curated goals. These goals can help organizations make a large jump on the path to meeting the NIST 800-53 security controls that are required for financial institutions. By validating your resources against the {{site.data.keyword.cloud_notm}} for Financial Services profile, you can be more confident that your {{site.data.keyword.cloud_notm}} resources are following best practices for security and compliance.
+:   Released today, the {{site.data.keyword.cloud_notm}} for Financial Services profile is a collection of curated goals. These goals can help organizations on the path to meeting the NIST 800-53 security controls that are required for financial institutions. By validating your resources against the {{site.data.keyword.cloud_notm}} for Financial Services profile, you can be more confident that your {{site.data.keyword.cloud_notm}} resources are following best practices for security and compliance.
 
    *Important*: The {{site.data.keyword.cloud_notm}} for Financial Services profile are constantly expanding and is not an exhaustive list of all the controls that might be required for every organization. Users can validate the available goals and determine where a need to supplement their workloads with other security measures exists.
 

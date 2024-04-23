@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: "2023"
-lastupdated: "2023-12-08"
+  years: "2024"
+lastupdated: "2024-04-23"
 
 keywords: security compliance developer tools, integrate with application, API, SDK, CLI
 
@@ -43,6 +43,8 @@ Review the following table to determine the API endpoints to use when you connec
 | Toronto       |  **Public:** `https://ca-tor.compliance.cloud.ibm.com/instances/{instance_id}/v3`  \n  \n  **Private:** `https://private.ca-tor.compliance.cloud.ibm.com/instances/{instance_id}/v3` |
 | Madrid       | **Public:** `https://eu-es.compliance.cloud.ibm.com/instances/{instance_id}/v3`  \n  \n  **Private:** `https://private.eu-es.compliance.cloud.ibm.com/instances/{instance_id}/v3` |
 {: caption="Table 1. Endpoints for interacting with {{site.data.keyword.compliance_short}}" caption-side="top"}
+
+
 
 
 ### Viewing your endpoint URLs
