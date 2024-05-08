@@ -39,8 +39,6 @@ New rules available
 
 
 
-
-
 ## 23 April 2024
 {: #security-compliance-april2324}
 {: release-note}
