@@ -32,7 +32,12 @@
     "section_updates": {
       "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
       "tiles": [
-        {
+      {
+        "date": "08 May 2024",
+        "title": "New rules",
+        "description": "Nine additional rules that have not yet been mapped to a profile are now available."
+      },  
+      {
           "date": "23 April 2024",
           "title": "New rules",
           "description": "Additional rules that have not yet been mapped to a profile are now available."

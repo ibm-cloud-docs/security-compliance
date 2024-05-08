@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2023, 2024
-lastupdated: "2024-01-04"
+lastupdated: "2024-05-08"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -38,9 +38,19 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
-| Version 1.0.0 | `2023-12-11` | Active |
+| Version 1.0.0 | `2023-12-11` | Active |<guardrails-v2>
+| Version 2.0.0 | `2024-05-14` | Active |</guardrails-v2>
 {: caption="Table. Active versions of the AI ICT Guardrails profile" caption-side="top"}
 
+<guardrails-v2>
+
+## Version 2.0.0
+{: #ai-ict-version2}
+
+Now available
+:   Released today, 14 May 2024, the AI ICT Guardrails profile is a collection of controls designed to validate the configuration of your resources.
+
+</guardrails-v2>
 
 ## Version 1.0.0
 {: #ai-ict-version4}
