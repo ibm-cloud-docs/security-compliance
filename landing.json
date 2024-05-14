@@ -33,6 +33,11 @@
       "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
       "tiles": [
       {
+        "date": "14 May 2024",
+        "title": "New rules",
+        "description": "Four additional rules that have not yet been mapped to a profile are now available."
+      },
+      {
         "date": "08 May 2024",
         "title": "New rules",
         "description": "Nine additional rules that have not yet been mapped to a profile are now available."
@@ -51,11 +56,6 @@
           "date": "19 March 2024",
           "title": "Cross-account scanning",
           "description": "You can now scan resources in other accounts."
-        }
-        {
-          "date": "14 May 2024",
-          "title": "New rules",
-          "description": "Four additional rules that have not yet been mapped to a profile are now available."
         }
       ]
     }
