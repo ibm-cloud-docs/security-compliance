@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-03-27"
+lastupdated: "2024-05-14"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, benchmark, controls, goals, security, compliance
 
@@ -43,6 +43,7 @@ The following profiles are available for you to use in {{site.data.keyword.compl
 | Profile  | Description | Environment | Release notes |
 |:---------|:------------|:------------|:--------------|
 | AI ICT Guardrails | Ensure that your resource configurations meet the baseline requirements surrounding AI and generative AI workloads. | {{site.data.keyword.cloud_notm}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-ai-ict-change-log) |
+| AI Security Guardrails | Ensure that the configuration of your full stack (AI Applications, Models and Data layers) meet the baseline requirements surrounding AI and generative AI workloads. | {{site.data.keyword.cloud_notm}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-ai-security-change-log) |
 | Amazon Web Services CIS Foundations Benchmark* | Validate that your resource configurations meet the baseline requirements that are identified by the Center for Internet Security. | Amazon Web Services | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-cis-amazon-benchmark) |
 | Amazon Web Services CIS Kubernetes Service Benchmark* | Validate that your Kubernetes Service resource configurations meet the baseline requirements that are identified by the Center for Internet Security. | Amazon Web Services | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-cis-amazon-eks-benchmark) |
 | Caveonix Security Baselines for VMWare* | Validate that your VMWare resource configurations that run on {{site.data.keyword.cloud_notm}} meet the baselines requirements that have been identified by Caveonix. | {{site.data.keyword.cloud_notm}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-caveonix-vmware) |

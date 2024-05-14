@@ -1,6 +1,6 @@
 {
     "title": "Security and Compliance Center docs",
-    "lastupdated": "2024-05-08",
+    "lastupdated": "2024-05-14",
     "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
     "section_devtools": {
       "api": "/apidocs/security-compliance",
@@ -51,6 +51,16 @@
           "date": "19 March 2024",
           "title": "Cross-account scanning",
           "description": "You can now scan resources in other accounts."
+        }
+        {
+          "date": "14 May 2024",
+          "title": "New profile: AI Security Guardrails",
+          "description": "The AI Security Guardrails 2.0.0 profile is now available."
+        },
+        {
+          "date": "14 May 2024",
+          "title": "New rules",
+          "description": "Four additional rules that have not yet been mapped to a profile are now available."
         }
       ]
     }

@@ -132,6 +132,8 @@ toc:
                 navtitle: ISMAP
               - topic: change-logs/ai-ict.md
                 navtitle: AI ICT Guardrails
+              - topic: change-logs/ai-security.md
+                navtitle: AI Security Guardrails
               - topic: change-logs/caveonix-vmware.md
                 navtitle: Caveonix Security Baselines for VMware
               - topic: change-logs/ospar.md
