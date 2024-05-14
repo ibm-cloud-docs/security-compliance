@@ -39,18 +39,7 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
 | Version 1.0.0 | `2023-12-11` | Active |
-| Version 2.0.0 | `2024-05-14` | Active |
 {: caption="Table. Active versions of the AI ICT Guardrails profile" caption-side="top"}
-
-
-
-## Version 2.0.0
-{: #ai-ict-version2}
-
-Now available
-:   As of 14 May 2024, the AI ICT Guardrails profile is a collection of controls designed to validate the configuration of your resources.
-
-
 
 ## Version 1.0.0
 {: #ai-ict-version4}
