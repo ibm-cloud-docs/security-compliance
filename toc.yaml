@@ -120,8 +120,6 @@ toc:
                 navtitle: CIS Foundations Benchmark
               - topic: change-logs/fs-cloud-changes.md
                 navtitle: Framework for Financial Services
-              - topic: change-logs/fs-moderate-framework.md
-                navtitle: Moderate Framework for Financial Services
               - topic: change-logs/iks-benchmark.md
                 navtitle: Kubernetes Service Benchmark
               - topic: change-logs/osco-benchmark.md

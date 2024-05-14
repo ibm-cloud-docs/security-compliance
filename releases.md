@@ -37,11 +37,6 @@ New profile: AI Security Guardrails
 
 
 
-New profile: IBM Cloud Moderate Framework for Financial Services
-:   Version 1.0.0 of the IBM Cloud Moderate Framework for Financial Services profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-moderate-fs-change-log).
-
-
-
 
 
 ## 7 May 2024
