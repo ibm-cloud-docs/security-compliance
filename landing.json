@@ -54,11 +54,6 @@
         }
         {
           "date": "14 May 2024",
-          "title": "New profile: AI Security Guardrails",
-          "description": "The AI Security Guardrails 2.0.0 profile is now available."
-        },
-        {
-          "date": "14 May 2024",
           "title": "New rules",
           "description": "Four additional rules that have not yet been mapped to a profile are now available."
         }
