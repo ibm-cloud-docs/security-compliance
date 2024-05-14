@@ -30,14 +30,7 @@ New rules available
    * Check whether Security and Compliance Center Workload Protection can be accessed only through a private endpoint (Context-based restrictions or service)
    * Check whether there are no wild cards in the private endpoint allow list for Security and Compliance Center Workload Protection (Context-based restrictions or service)
    * Check whether Security and Compliance Center Workload Protection can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
-   * Check whether no owner account API key exists<guardrails-v2>
-
-New profile: AI Security Guardrails 
-:   Version 2.0.0 of the AI Security Guardrails profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-ai-security-change-log).
-
-<guardrails-v2>
-
-
+   * Check whether no owner account API key exists
 
 ## 7 May 2024
 {: #security-compliance-May0724}
