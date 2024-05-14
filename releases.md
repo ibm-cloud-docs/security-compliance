@@ -18,14 +18,31 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
-<guardrails-v2>
+
+
+## 14 May 2024
+{: #security-compliance-May1424}
+{: release-note}
+
+New rules available
+:   The following rules are now available:
+
+   * Check whether Security and Compliance Center Workload Protection can be accessed only through a private endpoint (Context-based restrictions or service)
+   * Check whether there are no wild cards in the private endpoint allow list for Security and Compliance Center Workload Protection (Context-based restrictions or service)
+   * Check whether Security and Compliance Center Workload Protection can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
+   * Check whether no owner account API key exists
 
 New profile: AI Security Guardrails 
 :   Version 2.0.0 of the AI Security Guardrails profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-ai-security-change-log).
 
-<guardrails-v2>
 
-</new-rule-train-6>
+
+New profile: IBM Cloud Moderate Framework for Financial Services
+:   Version 1.0.0 of the IBM Cloud Moderate Framework for Financial Services profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-moderate-fs-change-log).
+
+
+
+
 
 ## 7 May 2024
 {: #security-compliance-May0724}

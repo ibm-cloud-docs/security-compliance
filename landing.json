@@ -52,6 +52,21 @@
           "title": "Cross-account scanning",
           "description": "You can now scan resources in other accounts."
         }
+        {
+          "date": "14 May 2024",
+          "title": "New profile: AI Security Guardrails",
+          "description": "The AI Security Guardrails 2.0.0 profile is now available."
+        },
+        {
+          "date": "14 May 2024",
+          "title": "New profile: IBM Cloud Moderate Framework for Financial Services",
+          "description": "The IBM Cloud Moderate Framework for Financial Services 1.0.0 profile is now available."
+        },
+        {
+          "date": "14 May 2024",
+          "title": "New rules",
+          "description": "Four additional rules that have not yet been mapped to a profile are now available."
+        }
       ]
     }
   }
