@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-05-08"
+lastupdated: "2024-05-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,7 +18,14 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
+<guardrails-v2>
 
+New profile: AI Security Guardrails 
+:   Version 2.0.0 of the AI Security Guardrails profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-ai-security-change-log).
+
+<guardrails-v2>
+
+</new-rule-train-6>
 
 ## 7 May 2024
 {: #security-compliance-May0724}
