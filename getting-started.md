@@ -142,4 +142,3 @@ When you create your attachment, a scan is scheduled. When the scan completes, y
 While you wait for your scan to complete, learn more about [the way the service works](/docs/security-compliance?topic=security-compliance-posture-management) or try [creating your own rule](/docs/security-compliance?topic=security-compliance-rules-define).
 
 
-
