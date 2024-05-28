@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-04-10"
+lastupdated: "2024-05-28"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -25,59 +25,57 @@ Policies enable access to be granted at different levels. Some options include t
 * Access to manage event notifications
 
 
-
 ## Roles and permissions
 {: #iam-roles}
 
-After you define the level of access that a user might need, you can assign them a platform access role. Review the following tables that outline which roles are required to perform actions within the {{site.data.keyword.compliance_short}}.
+After you define the level of access that a user might need, you can assign them an access role. To understand which role should be assigned, review the following table to see which {{site.data.keyword.compliance_short}} actions can be completed by each role.
 
-The following tables list the platform access roles that are required to manage collectors, credentials, scopes, validations, and profiles in your accounts.
+Last year, {{site.data.keyword.compliance_short}} transitioned from a global service to a regional service. As part of completing that migration, new IAM actions for {{site.data.keyword.compliance_short}} that are mapped to *Service roles* will be available on 7 June 2024. For more information about what this change means for you, see the [release notes](/docs/security-compliance?topic=security-compliance-release-notes).
+{: important}
 
-| Action                          | Description                      | Minimum required role |
-| :------------------------------ | :------------------------------- | :---------------- |
-| `compliance.admin.settings-read`|	View {{site.data.keyword.compliance_short}} settings for your account.  | Viewer |
-| `compliance.admin.settings-update` | Update {{site.data.keyword.compliance_short}} settings for your account. | Administrator |
-| `compliance.admin.test-event-send` | Send a test event to a connected {{site.data.keyword.en_short}} service instance. | Administrator |
-| `compliance.posture-management.attachments-create` | Create an attachment. | Editor[^attach-1] |
-| `compliance.posture-management.attachments-delete` | Delete an attachment. | Editor[^attach-2] |
-| `compliance.posture-management.attachments-read` | View the available attachments in your account. | Viewer[^attach-3] |
-| `compliance.posture-management.attachments-update` | Update an attachment. | Editor[^attach-4] |
-| `compliance.posture-management.control-libraries-create` | Create a control library. | Editor |
-| `compliance.posture-management.control-libraries-delete` | Delete a control library. | Editor |
-| `compliance.posture-management.control-libraries-read` | View the available control libraries in your account. | Viewer |
-| `compliance.posture-management.control-libraries-update` | Update a control library. | Editor |
-| `compliance.posture-management.control-library-create` | Create a control library. | Editor |
-| `compliance.posture-management.control-library-delete` | Delete a control library. | Editor |
-| `compliance.posture-management.control-library-read` | View the details of a control library.| Viewer |
-| `compliance.posture-management.control-library-update` | Update a control library. | Editor |
-| `compliance.posture-management.controls-create` | Add a control to a profile. | Editor |
-| `compliance.posture-management.controls-delete` | Delete a control. | Editor |
-| `compliance.posture-management.controls-read` | View the controls that you can add to a profile. | Viewer |
-| `compliance.posture-management.controls-update` | Update an existing control. | Editor |
-| `compliance.posture-management.dashboard-view` | View hybrid cloud results. | Viewer|
-| `compliance.posture-management.integrations-create` | Create an integration in {{site.data.keyword.compliance_short}}. | Operator |
-| `compliance.posture-management.integrations-delete` | Delete an integration in {{site.data.keyword.compliance_short}}. | Editor |
-| `compliance.posture-management.integrations-read` | View an integration in {{site.data.keyword.compliance_short}}. | Viewer |
-| `compliance.posture-management.integrations-update` | Update an integration in {{site.data.keyword.compliance_short}}. | Operator |
-| `compliance.posture-management.profiles-create` | Create a profile. | Editor |
-| `compliance.posture-management.profiles-delete` | Delete a profile. | Editor |
-| `compliance.posture-management.profiles-read` | View profiles. | Viewer |
-| `compliance.posture-management.profiles-update` | Update a profile. | Editor |
-| `compliance.posture-management.reports-create` | Download a report. | Operator |
-| `compliance.posture-management.reports-list` | View IBM Cloud results. | Operator |
-| `compliance.posture-management.reports-read` | View IBM Cloud results. | Operator |
-| `compliance.posture-management.scans-create` | Create a scan. | Editor |
-| `compliance.posture-management.scans-delete` | Delete a scan. | Editor |
-| `compliance.posture-management.scans-read` | View scans. | Viewer |
-| `compliance.posture-management.scans-update` | Update scans. | Editor |
-| `compliance.posture-management.scopes-create` | Create a scope. | Editor |
-| `compliance.posture-management.scopes-delete` | Delete a scope. | Editor |
-| `compliance.posture-management.scopes-read` | View scopes. | Viewer |
-| `compliance.posture-management.scopes-update` | Edit a scope. | Editor |
-| `compliance.configuration-governance.rules-create` | Create a rule. | Editor |
-| `compliance.configuration-governance.rules-read` | View a rule. | Viewer |
-| `compliance.configuration-governance.rules-update` | Update a rule. | Editor |
-| `compliance.configuration-governance.rules-delete` | Delete a rule. | Editor |
+
+| Existing action    | Description | Existing minimum required role | New minimum required role |
+|:-------------------|:------------|:-------------------------------|:--------------------------|
+| `compliance.admin.settings-read`   | View {{site.data.keyword.compliance_short}} settings for your account. | Viewer  | Reader |
+| `compliance.admin.settings-update` | Update {{site.data.keyword.compliance_short}} settings for your account. | Administrator | Manager |
+| `compliance.admin.test-event-send` | Send a test event to a connected {{site.data.keyword.en_short}} service instance. | Administrator | Manager |
+| `compliance.configuration-governance.rules-create` | Create a rule. | Editor | Writer |
+| `compliance.configuration-governance.rules-read` | View a rule. | Viewer | Reader |
+| `compliance.configuration-governance.rules-update` | Update a rule. | Editor | Writer |
+| `compliance.configuration-governance.rules-delete` | Delete a rule. | Editor | Writer |
+| `compliance.posture-management.attachments-create` | Create an attachment. | Editor[^attach-1] | Writer[^attach-5] |
+| `compliance.posture-management.attachments-read` | View the available attachments in your account. | Viewer[^attach-2] | Reader[^attach-6] |
+| `compliance.posture-management.attachments-update` | Update an attachment. | Editor[^attach-3] | Writer[^attach-7] |
+| `compliance.posture-management.attachments-upgrade` | Upgrade your attachment to use the latest version of a profile. | Editor | Writer |
+| `compliance.posture-management.attachments-delete` | Delete an attachment. | Editor[^attach-4] | Writer[^attach-8] |
+| `compliance.posture-management.control-libraries-create` | Create a control library. | Editor | Writer |
+| `compliance.posture-management.control-libraries-read` | View the available control libraries in your account. | Viewer | Reader |
+| `compliance.posture-management.control-libraries-update` | Update a control library. | Editor | Writer |
+| `compliance.posture-management.control-libraries-delete` | Delete a control library. | Editor | Writer |
+| `compliance.posture-management.controls-create` | Add a control to a profile. | Editor | Writer |
+| `compliance.posture-management.controls-read` | View the controls that you can add to a profile. | Viewer | Reader |
+| `compliance.posture-management.controls-update` | Update an existing control. | Editor | Writer |
+| `compliance.posture-management.controls-delete` | Delete a control. | Editor | Writer |
+| `compliance.posture-management.dashboard-view` | Access the {{site.data.keyword.compliance_short}} dashboard to view results. | Viewer | Reader |
+| `compliance.posture-management.integrations-create` | Create an integration in {{site.data.keyword.compliance_short}}. | Operator | Writer |
+| `compliance.posture-management.integrations-read` | View an integration in {{site.data.keyword.compliance_short}}. | Viewer | Reader |
+| `compliance.posture-management.integrations-update` | Update an integration in {{site.data.keyword.compliance_short}}. | Operator | Writer |
+| `compliance.posture-management.integrations-delete` | Delete an integration in {{site.data.keyword.compliance_short}}. | Editor | Writer |
+| `compliance.posture-management.profiles-compare` | Compare two versions of the same profile to see how they differ. | Editor | Writer |
+| `compliance.posture-management.profiles-create` | Create a profile. | Editor | Writer |
+| `compliance.posture-management.profiles-read` | View profiles. | Viewer | Reader |
+| `compliance.posture-management.profiles-update` | Update a profile. | Editor | Writer |
+| `compliance.posture-management.profiles-delete` | Delete a profile. | Editor | Writer |
+| `compliance.posture-management.reports-create` | Read results and reports. | Operator | Reader |
+| `compliance.posture-management.scans-create` | Create a scan. | Administrator | Manager |
+| `compliance.posture-management.scopes-create` | Create a scope. | Editor | Writer |
+| `compliance.posture-management.scopes-read` | View scopes. | Viewer | Reader |
+| `compliance.posture-management.scopes-update` | Edit a scope. | Editor | Writer |
+| `compliance.posture-management.scopes-delete` | Delete a scope. | Editor | Writer |
+| `compliance.targets.create` | Create a target. | Editor | Writer |
+| `compliance.targets.read` | View targets. | Viewer | Reader |
+| `compliance.targets.update` | Update a target. | Editor | Writer |
+| `compliance.targets.delete` | Delete a target. | Editor | Writer |
 {: caption="Table 1. IAM user roles and actions" caption-side="top"}
 
 [^attach-1]: To create an attachment within an enterprise, you must also have permissions for the enterprise. You can provide Administrator access to the entire enterprise or create a custom role using the actions found in the following section.
@@ -88,8 +86,13 @@ The following tables list the platform access roles that are required to manage 
 
 [^attach-4]: To create an attachment within an enterprise, you must also have permissions for the enterprise. You can provide Administrator access to the entire enterprise or create a custom role using the actions found in the following section.
 
+[^attach-5]: To create an attachment within an enterprise, you must also have permissions for the enterprise. You can provide Administrator access to the entire enterprise or create a custom role using the actions found in the following section.
 
+[^attach-6]: To create an attachment within an enterprise, you must also have permissions for the enterprise. You can provide Administrator access to the entire enterprise or create a custom role using the actions found in the following section.
 
+[^attach-7]: To create an attachment within an enterprise, you must also have permissions for the enterprise. You can provide Administrator access to the entire enterprise or create a custom role using the actions found in the following section.
+
+[^attach-8]: To create an attachment within an enterprise, you must also have permissions for the enterprise. You can provide Administrator access to the entire enterprise or create a custom role using the actions found in the following section.
 
 
 

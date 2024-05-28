@@ -1,67 +1,52 @@
 {
-    "title": "Security and Compliance Center docs",
-    "lastupdated": "2024-05-28",
-    "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
-    "section_devtools": {
-      "api": "/apidocs/security-compliance",
-      "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule"
+  "title": "Security and Compliance Center docs",
+  "lastupdated": "2024-05-28",
+  "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
+  "section_devtools": {
+    "api": "/apidocs/security-compliance",
+    "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule"
+  },
+  "section_recommended": [
+    {
+      "title": "How does Security and Compliance Center work?",
+      "description": "Learn more about the key terms and concepts you need to understand to work with the service.",
+      "href": "/docs/security-compliance?topic=security-compliance-posture-management"
     },
-    "section_recommended": [
-      {
-        "title": "How does Security and Compliance Center work?",
-        "description": "Learn more about the key terms and concepts you need to understand to work with the service.",
-        "href": "/docs/security-compliance?topic=security-compliance-posture-management"
-      },
-      {
-        "title": "Defining custom rules",
-        "description": "A rule is used to define the guardrails for how resources can be configured in your account.",
-        "href": "/docs/security-compliance?topic=security-compliance-rules-define"
-      },
-      {
-        "title": "Viewing results",
-        "description": "Learn about how to view your results.",
-        "href": "/docs/security-compliance?topic=security-compliance-results"
-      }
-    ],
-    "section_learn": {
-      "developer": "https://developer.ibm.com/depmodels/cloud/",
-      "architecture": "https://www.ibm.com/architectures/hybrid",
-      "training": "https://www.ibm.com/training/cloud",
-      "community": "https://community.ibm.com/community/user/cloud/home"
+    {
+      "title": "Defining custom rules",
+      "description": "A rule is used to define the guardrails for how resources can be configured in your account.",
+      "href": "/docs/security-compliance?topic=security-compliance-rules-define"
     },
-    "section_updates": {
-      "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
-      "tiles": [
+    {
+      "title": "Viewing results",
+      "description": "Learn about how to view your results.",
+      "href": "/docs/security-compliance?topic=security-compliance-results"
+    }
+  ],
+  "section_learn": {
+    "developer": "https://developer.ibm.com/depmodels/cloud/",
+    "architecture": "https://www.ibm.com/architectures/hybrid",
+    "training": "https://www.ibm.com/training/cloud",
+    "community": "https://community.ibm.com/community/user/cloud/home"
+  },
+  "section_updates": {
+    "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
+    "tiles": [
       {
         "date": "28 May 2024",
-        "title": "New rules",
-        "description": "Thirty additional rules that have not yet been mapped to a profile are now available."
+        "title": "IAM action and role updates",
+        "description": "The IAM action to role mappings will be updated."
       },
       {
         "date": "14 May 2024",
         "title": "New rules",
-        "description": "Four additional rules that have not yet been mapped to a profile are now available."
+        "description": "30 additional rules that have not yet been mapped to a profile are now available."
       },
       {
-        "date": "08 May 2024",
+        "date": "8 May 2024",
         "title": "New rules",
-        "description": "Nine additional rules that have not yet been mapped to a profile are now available."
-      },  
-      {
-          "date": "23 April 2024",
-          "title": "New rules",
-          "description": "Additional rules that have not yet been mapped to a profile are now available."
-        },
-        {
-          "date": "20 March 2024",
-          "title": "New rules",
-          "description": "Four additional rules that have not yet been mapped to a profile are now available."
-        },
-        {
-          "date": "19 March 2024",
-          "title": "Cross-account scanning",
-          "description": "You can now scan resources in other accounts."
-        }
-      ]
-    }
+        "description": "4 additional rules that have not yet been mapped to a profile are now available."
+      }
+    ]
   }
+}

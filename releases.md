@@ -18,11 +18,66 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
-
-
 ## 28 May 2024
 {: #security-compliance-May2824}
 {: release-note}
+
+Updates to IAM roles for {{site.data.keyword.compliance_short}}
+:   Last year, {{site.data.keyword.compliance_short}} started the migration from a global service to a regional service. Starting 7 June 2024, the next phase of the migration, which is focused on updating IAM roles, will begin. Currently, actions for the {{site.data.keyword.compliance_short}} service are mapped to platform-based roles. Now that the service has moved to a regional model, the actions for the product will be mapped to the service roles. As an administrator of an account, it is your responsibility to assign access and ensure that each user is assigned the minimum role to perform the actions required for their position. If your account actively uses {{site.data.keyword.compliance_short}} you must review the permissions assigned to those that work with the service to ensure that they have the appropriate service level role.To evaluate which roles are currently assigned in your account, you can use the IAM UI. To get to the IAM UI, go to the IBM Cloud console, and click **Manage (IAM)** and select the user, trusted profile, or access group that you want to validate. For more information about the new mappings and role requirements, see [Managing IAM access for {{site.data.keyword.compliance_short}}](/docs/security-compliance?topic=security-compliance-access-management).
+
+   As you determine the impact of this change to your organization, please keep the following dates in mind.
+
+   * **7 June 2024**: Starting on this date, the action to role mapping for {{site.data.keyword.compliance_short}} will be updated to include the service level roles and the change will be visible in the IAM UI. The platform roles will continue to function. During this time period, you must evaluate and reassign permissions as needed for the members of your organization.
+
+   * **28 May 2025**: On this date, the action to role mapping will be updated to remove the platform roles that are associated with specific {{site.data.keyword.compliance_short}} actions. Actions that are no longer used by the service will also be removed on this date. If you have not completed the evaluation and assigned access to the service roles prior to this date, users might lose the access that is required to perform their tasks in {{site.data.keyword.compliance_short}}.
+
+   Additionally, the following unused or stale actions will be removed from the IAM definition as part of the migration.
+
+   * `compliance.configuration-governance.results-create`
+   * `compliance.configuration-governance.results-delete`
+   * `compliance.configuration-governance.results-read`
+   * `compliance.configuration-governance.results-update`
+   * `compliance.configuration-governance.attachments-update`
+   * `compliance.configuration-governance.templates-create`
+   * `compliance.configuration-governance.templates-delete`
+   * `compliance.configuration-governance.templates-read`
+   * `compliance.configuration-governance.templates-update`
+   * `compliance.posture-management.collectors-create`
+   * `compliance.posture-management.collectors-delete`
+   * `compliance.posture-management.collectors-read`
+   * `compliance.posture-management.collectors-update`
+   * `compliance.posture-management.credentials-create`
+   * `compliance.posture-management.credentials-delete`
+   * `compliance.posture-management.credentials-read`
+   * `compliance.posture-management.credentials-update`
+   * `compliance.posture-management.credentialsmap-create`
+   * `compliance.posture-management.credentialsmap-delete`
+   * `compliance.posture-management.credentialsmap-read`
+   * `compliance.posture-management.credentialsmap-update`
+   * `compliance.posture-management.keys-delete`
+   * `compliance.posture-management.keys-read`
+   * `compliance.posture-management.keys-write`
+   * `compliance.posture-management.scopes-create`
+   * `compliance.posture-management.scopes-delete`
+   * `compliance.posture-management.scopes-read`
+   * `compliance.posture-management.scopes-update`
+   * `compliance.posture-management.tags-create`
+   * `compliance.posture-management.tags-delete`
+   * `compliance.posture-management.tags-read`
+   * `compliance.posture-management.tags-update`
+   * `compliance.posture-management.tenants-create`
+   * `compliance.posture-management.tenants-delete`
+   * `compliance.posture-management.tenants-read`
+   * `compliance.posture-management.tenants-update`
+   * `compliance.posture-management.validations-create`
+   * `compliance.posture-management.validations-delete`
+   * `compliance.posture-management.validations-read`
+   * `compliance.posture-management.validations-update`
+   * `compliance.posture-management.values-create`
+   * `compliance.posture-management.values-read`
+   * `compliance.posture-management.values-update`
+   * `compliance.posture-management.events-view`
+   * `compliance.posture-management.events-create`
 
 New rules available
 :   The following rules are now available:
@@ -59,7 +114,6 @@ New rules available
    * Check whether Databases for Redis backups are enabled with customer-managed encryption
 
 
-
 ## 14 May 2024
 {: #security-compliance-May1424}
 {: release-note}
@@ -88,7 +142,6 @@ New rules available
    * Check whether IAM users contact number is valid
    * Check that Activity Tracker hosted Event Search is configured to collect global events generated by IBM Cloud services
    * Check that there is an Activity Tracker hosted event search defined in each region to collect location-based events
-
 
 
 ## 23 April 2024
