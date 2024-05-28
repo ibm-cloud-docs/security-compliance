@@ -21,7 +21,7 @@ The following changes to the service were made available with the associated dat
 
 
 ## 28 May 2024
-{: #security-compliance-May2124}
+{: #security-compliance-May2824}
 {: release-note}
 
 New rules available
