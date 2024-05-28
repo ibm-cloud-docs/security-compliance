@@ -38,14 +38,14 @@
         "description": "The IAM action to role mappings will be updated."
       },
       {
-        "date": "23 April 2024",
+        "date": "14 May 2024",
         "title": "New rules",
-        "description": "Additional rules that have not yet been mapped to a profile are now available."
+        "description": "30 additional rules that have not yet been mapped to a profile are now available."
       },
       {
-        "date": "20 March 2024",
+        "date": "8 May 2024",
         "title": "New rules",
-        "description": "Four additional rules that have not yet been mapped to a profile are now available."
+        "description": "4 additional rules that have not yet been mapped to a profile are now available."
       }
     ]
   }
