@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-04"
+lastupdated: "2024-05-23"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, profile versioning, benchmark, controls, goals, security, compliance
 
@@ -56,6 +56,6 @@ You can upgrade your attachment to use the new profile version anytime during th
 3. Validate the default parameter values and update any values, as required.
 4. The attachment is migrated to the latest version of the profile. This operation cannot be undone.
 
-You cannot attach new attachments to a deprecated profile version, or [build a custom profile](/docs/security-compliance?topic=security-compliance-build-custom-profiles#create-profile-ui) by pulling the controls from the library of a deprecated profile version.
+You can't create a new attachment to a deprecated profile version through the {{site.data.keyword.compliance_short}} UI. However, you can do so using the [API](/apidocs/security-compliance?code=curl#create-attachment) until the deprecated profile version expires.
 {: tip}
 

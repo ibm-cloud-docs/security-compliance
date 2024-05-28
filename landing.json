@@ -1,6 +1,6 @@
 {
     "title": "Security and Compliance Center docs",
-    "lastupdated": "2024-05-14",
+    "lastupdated": "2024-05-28",
     "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
     "section_devtools": {
       "api": "/apidocs/security-compliance",
@@ -33,6 +33,16 @@
       "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
       "tiles": [
       {
+        "date": "28 May 2024",
+        "title": "New rules",
+        "description": "Thirty additional rules that have not yet been mapped to a profile are now available."
+      },
+      {
+        "date": "14 May 2024",
+        "title": "New rules",
+        "description": "Four additional rules that have not yet been mapped to a profile are now available."
+      },
+      {
         "date": "08 May 2024",
         "title": "New rules",
         "description": "Nine additional rules that have not yet been mapped to a profile are now available."
@@ -51,11 +61,6 @@
           "date": "19 March 2024",
           "title": "Cross-account scanning",
           "description": "You can now scan resources in other accounts."
-        }
-        {
-          "date": "14 May 2024",
-          "title": "New rules",
-          "description": "Four additional rules that have not yet been mapped to a profile are now available."
         }
       ]
     }
