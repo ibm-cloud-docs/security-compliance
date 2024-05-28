@@ -79,6 +79,39 @@ Updates to IAM roles for {{site.data.keyword.compliance_short}}
    * `compliance.posture-management.events-view`
    * `compliance.posture-management.events-create`
 
+New rules available
+:   The following rules are now available:
+
+   * Check whether Cloud Object Storage buckets attached to IBM watsonx project can be accessed only through a private endpoint (Context-based restrictions or service) and allowed Ips
+   * Check whether resiliency is set to cross region or regional in Cloud Object Storage buckets attached to IBM watsonx projects
+   * Check whether network access is restricted to a specific IP range in Cloud Object Storage buckets attached to IBM watsonx projects
+   * Check whether Cloud Object Storage buckets attached to IBM watsonx projects are enabled with encryptions
+   * Check whether Cloud Object Storage buckets attached to IBM watsonx projects are enabled with IBM Activity Tracker
+   * Check whether Cloud Object Storage buckets attached to IBM watsonx projects are enabled with IBM Cloud Monitoring
+   * Check whether Cloud Object Storage buckets attached to IBM watsonx projects are accessible only through TLS 1.2 or higher
+   * Check whether Cloud Object Storage Storage buckets attached to IBM watsonx projects are enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Cloud Object Storage buckets are enabled with IBM Activity Tracker
+   * Check whether Cloud Object Storage buckets are enabled with IBM Cloud Monitoring
+   * Check whether Databases for Elasticsearch is enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Databases for MongoDB is enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Databases for PostgreSQL is enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Databases for MySql is enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Databases for Redis is enabled with customer-managed encryption and either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether IAM users are attached to at least one access group, exempt account owned
+   * Check whether Cloud Object Storage buckets are encrypted with customer-managed keys
+   * Check whether Cloud Object Storage buckets are deployed to allowed locations
+   * Check whether Databases for Elasticsearch is enabled with customer-managed encryption
+   * Check whether Databases for Elasticsearch backups are enabled with customer-managed encryption
+   * Check whether Databases for etcd backups are enabled with customer-managed encryption
+   * Check whether Databases for etcd is enabled with customer-managed encryption
+   * Check whether Hyper Protect Crypto Services is provisioned in allowed region
+   * Check whether Activity Tracker is provisioned in allowed region
+   * Check whether Databases for MongoDB is enabled with customer-managed encryption
+   * Check whether Databases for MongDB backups are enabled with customer-managed encryption
+   * Check whether Databases for PostgreSQL is enabled with customer-managed encryption
+   * Check whether Databases for PostgreSQL backups are enabled with customer-managed encryption
+   * Check whether Databases for Redis is enabled with customer-managed encryption
+   * Check whether Databases for Redis backups are enabled with customer-managed encryption
 
 ## 23 April 2024
 {: #security-compliance-april2324}
