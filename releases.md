@@ -18,6 +18,9 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
+
+
+
 ## 4 June 2024
 {: #security-compliance-Jun0424}
 {: release-note}
@@ -30,11 +33,6 @@ New rules available
    * Check whether Databases for MySql is accessible only through TLS 1.2 or higher
    * Check whether Databases for MySql is accessible only through private endpoints
    * Check whether Databases for MySql is enabled with encryption
-
-
-
-
-
 
 ## 28 May 2024
 {: #security-compliance-May2824}
