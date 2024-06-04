@@ -34,18 +34,18 @@
     "tiles": [
       {
         "date": "4 June 2024",
-        "title": "New rules",
+        "title": "New profile",
         "description": "Five additional rules that have not yet been mapped to a profile are now available."
-      },
-      {
-        "date": "28 May 2024",
-        "title": "IAM action and role updates",
-        "description": "The IAM action to role mappings will be updated."
       },
       {
         "date": "14 May 2024",
         "title": "New rules",
         "description": "30 additional rules that have not yet been mapped to a profile are now available."
+      },
+      {
+        "date": "28 May 2024",
+        "title": "IAM action and role updates",
+        "description": "The IAM action to role mappings will be updated."
       }
     ]
   }
