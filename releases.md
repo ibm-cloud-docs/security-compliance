@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-05-28"
+lastupdated: "2024-06-04"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -17,6 +17,24 @@ content-type: release-note
 {: #release-notes}
 
 The following changes to the service were made available with the associated date.
+
+## 4 June 2024
+{: #security-compliance-Jun0424}
+{: release-note}
+
+New rules available
+:   The following rules are now available:
+
+   * Check whether VPN for VPC has an "establish mode" configuration that is different from 'peer_only'
+   * Check whether no public access is granted to buckets attached to IBM watsonx projects via the IAM public access group
+   * Check whether Databases for MySql is accessible only through TLS 1.2 or higher
+   * Check whether Databases for MySql is accessible only through private endpoints
+   * Check whether Databases for MySql is enabled with encryption
+
+
+
+
+
 
 ## 28 May 2024
 {: #security-compliance-May2824}
