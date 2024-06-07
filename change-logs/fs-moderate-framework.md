@@ -58,7 +58,7 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
-| Version 1.0.0 | `2024-06-05` | Active |
+| Version 1.0.0 | `2024-06-06` | Active |
 {: caption="Table. Active versions of the IBM Cloud Framework for Financial Services (Moderate) profile" caption-side="top"}
 
 
@@ -66,5 +66,5 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 {: #moderate-fs-version1}
 
 Now available
-:   As of 5 June 2024, the IBM Cloud Framework for Financial Services (Moderate) profile is a collection of controls that is designed to validate the configuration of your resources.
+:   As of 6 June 2024, the IBM Cloud Framework for Financial Services (Moderate) profile is a collection of controls that is designed to validate the configuration of your resources.
 

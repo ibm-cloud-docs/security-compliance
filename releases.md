@@ -21,8 +21,8 @@ The following changes to the service were made available with the associated dat
 
 
 
-## 5 June 2024
-{: #security-compliance-Jun0524}
+## 6 June 2024
+{: #security-compliance-Jun0624}
 {: release-note}
 
 {{site.data.keyword.cloud_notm}} Framework for Financial Services (Moderate)
