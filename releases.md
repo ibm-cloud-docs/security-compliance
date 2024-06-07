@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-06-04"
+lastupdated: "2024-06-07"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,6 +18,20 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
+
+
+
+## 6 June 2024
+{: #security-compliance-Jun0624}
+{: release-note}
+
+{{site.data.keyword.cloud_notm}} Framework for Financial Services (Moderate)
+:   Version 1.0.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services (Moderate) profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see the [Change log](/docs/security-compliance?topic=security-compliance-moderate-fs-change-log).
+
+   **Disclaimer**: IBM Cloud Framework for Financial Services (Moderate) {{site.data.keyword.compliance_short}} profile should be used if you choose IBM® Key Protect for IBM Cloud® and/or IBM Cloud Activity Tracker Hosted Event Search as your data/log management solution, as per your information and data classification requirements. For further details on the differences between IBM® Key Protect for IBM Cloud® and IBM Cloud® Hyper Protect Crypto Services, read [Data encryption at rest in IBM Cloud](/docs/framework-financial-services?topic=framework-financial-services-shared-encryption-at-rest#shared-encryption-at-rest-ibm-cloud) for a comparison of functionality. Additionally, for more information on auditing and monitoring of workload and data, read [Audit logging of IBM Cloud events](/docs/framework-financial-services?topic=framework-financial-services-shared-logging-audit).
+
+
+
 ## 4 June 2024
 {: #security-compliance-Jun0424}
 {: release-note}
@@ -30,11 +44,6 @@ New rules available
    * Check whether Databases for MySql is accessible only through TLS 1.2 or higher
    * Check whether Databases for MySql is accessible only through private endpoints
    * Check whether Databases for MySql is enabled with encryption
-
-
-
-
-
 
 ## 28 May 2024
 {: #security-compliance-May2824}
