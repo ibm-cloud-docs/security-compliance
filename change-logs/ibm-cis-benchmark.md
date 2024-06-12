@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-01-04"
+lastupdated: "2024-06-12"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -39,6 +39,7 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 |:---------------|:-------------|:-------|
 | Version 1.0.0 | `2023-05-17` | Active |
 {: caption="Table. Active versions of the CIS IBM Cloud Foundations Benchmark profile" caption-side="top"}
+
 
 
 ## Version 1.0.0
