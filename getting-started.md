@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-05-28"
+lastupdated: "2024-06-18"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -140,5 +140,6 @@ When you create your attachment, a scan is scheduled. When the scan completes, y
 {: #gs-next}
 
 While you wait for your scan to complete, learn more about [the way the service works](/docs/security-compliance?topic=security-compliance-posture-management) or try [creating your own rule](/docs/security-compliance?topic=security-compliance-rules-define).
+
 
 

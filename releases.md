@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-06-07"
+lastupdated: "2024-06-25"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,6 +18,36 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
+
+
+## 25 June 2024
+{: #security-compliance-Jun2524}
+{: release-note}
+
+CIS {{site.data.keyword.cloud_notm}} Foundations Benchmark profile version 1.1.0
+:   Version 1.1.0 of the CIS {{site.data.keyword.cloud_notm}} Foundations Benchmark profile is now available in {{site.data.keyword.compliance_short}}. The following major changes are included. 
+
+   Control ID:3.1 was updated to remove the existing rule from the control and to map 2 new rules. If the control fails, follow the remediation steps that are documented in the remediation section of these rules.
+
+   For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-cis-benchmark-profile).
+
+New rules available
+:   The following rules are now available:
+
+   * Check whether Code engine instances are provisioned in authorized(specified) regions only
+   * Check whether Schematics is enabled with customer-managed encryption using either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Databases for Elasticsearch is enabled with customer-managed encryption using either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Databases for MongoDB is enabled with customer-managed encryption using either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether App ID is enabled with customer-managed encryption using either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Cloud Object Storage is enabled with customer-managed encryption using either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Block Storage for VPC is enabled with customer-managed encryption using either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Databases for PostgreSQL is enabled with customer-managed encryption using either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Databases for MySql is enabled with customer-managed encryption using either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Event Streams is enabled with customer-managed encryption using either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Kubernetes Service Cluster is enabled with customer-managed encryption using either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Red Hat OpenShift cluster is enabled with customer-managed encryption using either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether Databases for Redis is enabled with customer-managed encryption using either Bring Your Own Key (BYOK) or Keep Your Own Key (KYOK)
+   * Check whether IBM Cloud Kubernetes Service Ingress has TLS 1.2 enabled for all inbound traffic
 
 
 

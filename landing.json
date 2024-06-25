@@ -1,6 +1,6 @@
 {
   "title": "Security and Compliance Center docs",
-  "lastupdated": "2024-06-07",
+  "lastupdated": "2024-06-25",
   "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
   "section_devtools": {
     "api": "/apidocs/security-compliance",
@@ -33,19 +33,19 @@
     "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
     "tiles": [
       {
+        "date": "25 June 2024",
+        "title": "New profile version",
+        "description": "Version 1.1.0 of the CIS IBM Cloud Foundations Benchmark profile is now available."
+      },
+      {
+        "date": "25 June 2024",
+        "title": "New rules",
+        "description": "14 additional rules that have not yet been mapped to a profile are now available."
+      },
+      {
         "date": "6 June 2024",
         "title": "New profile",
         "description": "The IBM Cloud Framework for Financial Services (Moderate) profile is now available."
-      },
-      {
-        "date": "4 June 2024",
-        "title": "New rules",
-        "description": "Five additional rules that have not yet been mapped to a profile are now available."
-      },
-      {
-        "date": "28 May 2024",
-        "title": "IAM action and role updates",
-        "description": "The IAM action to role mappings will be updated."
       }
     ]
   }

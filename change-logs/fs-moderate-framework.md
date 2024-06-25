@@ -1,7 +1,7 @@
 ---
 copyright:
   years: "2024"
-lastupdated: "2024-06-07"
+lastupdated: "2024-06-10"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements, ai security
 
@@ -67,4 +67,3 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 
 Now available
 :   As of 6 June 2024, the IBM Cloud Framework for Financial Services (Moderate) profile is a collection of controls that is designed to validate the configuration of your resources.
-
