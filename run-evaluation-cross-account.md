@@ -32,7 +32,7 @@ Before you get started, make sure that you [create a trusted profile](/docs/acco
 * All Account Management services (`Viewer`, `Service Configuration Reader`)
 * Kubernetes Service (`Reader`, `Viewer`, `Administrator`, `Service Configuration Reader`)
 
-   This access policy is required to run the OpenShift Compliance Operator (OSCO) scan when an attachment is created.
+   This access policy is required to run the Red Hat OpenShift Compliance Operator (OSCO) scan when an attachment is created.
    {: important}
 
 * All Identity and Access enabled services (`Reader`, `Viewer`, `Service Configuration Reader`)
