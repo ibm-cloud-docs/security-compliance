@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-19"
+lastupdated: "2024-06-27"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -21,6 +21,8 @@ With {{site.data.keyword.compliance_full}}, you can scan resources in other {{si
 
 You can take advantage of an automation script that can help you to automatically register to scan resources across accounts. For more information, check out the [script in GitHub](https://github.com/IBM/security-compliance-automation){: external}.
 {: tip}
+
+
 
 ## Before you begin
 {: #before-evaluation-cross-account}

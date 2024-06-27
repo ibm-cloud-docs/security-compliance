@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-19"
+lastupdated: "2024-06-27"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -21,6 +21,8 @@ With {{site.data.keyword.compliance_full}}, you can evaluate your resources on a
 
 To scan resources across multiple accounts for {{site.data.keyword.cloud_notm}} resources, register these accounts as targets. Then, use the trusted profile to grant these accounts access to the main {{site.data.keyword.compliance_short}} instance.
 {: tip}
+
+
 
 ![A diagram that shows the relationship between a control, profile, and scope.](images/term-flow.svg){: caption="Figure 1. Understanding entities in {{site.data.keyword.compliance_short}}" caption-side="bottom"}
 
