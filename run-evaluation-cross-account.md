@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-06-27"
+lastupdated: "2024-07-08"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -38,6 +38,8 @@ Before you get started, make sure that you [create a trusted profile](/docs/acco
 * All Identity and Access enabled services (`Reader`, `Viewer`, `Service Configuration Reader`)
 
 The trusted profile must also contain the {{site.data.keyword.compliance_short}} instance Cloud Resource Name (CRN) for the monitoring account in the {{site.data.keyword.cloud_notm}} services. You can find the CRN in the **Settings** > **Service instance** section of the {{site.data.keyword.compliance_short}} UI.
+
+
 
 ## Adding target accounts for scanning
 {: #add-target-account}
