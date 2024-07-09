@@ -55,6 +55,7 @@ toc:
           - available-components.md
           - run-evaluation.md
           - run-evaluation-cross-account.md
+          - run-evaluation-saas.md
           - profile-versioning.md
           - topicgroup:
               label: Customizing your evaluation
@@ -134,6 +135,8 @@ toc:
                 navtitle: ISMAP
               - topic: change-logs/ai-ict.md
                 navtitle: AI ICT Guardrails
+              - topic: change-logs/ai-security.md
+                navtitle: AI Security Guardrails 2.0
               - topic: change-logs/caveonix-vmware.md
                 navtitle: Caveonix Security Baselines for VMware
               - topic: change-logs/ospar.md
