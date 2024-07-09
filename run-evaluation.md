@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-06-27"
+lastupdated: "2024-07-09"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -21,6 +21,10 @@ With {{site.data.keyword.compliance_full}}, you can evaluate your resources on a
 
 To scan resources across multiple accounts for {{site.data.keyword.cloud_notm}} resources, register these accounts as targets. Then, use the trusted profile to grant these accounts access to the main {{site.data.keyword.compliance_short}} instance.
 {: tip}
+
+
+
+If you want to scan your Watson Machine Learning resources across multiple {{site.data.keyword.cloud_notm}} accounts, for more information, see [Scanning Watson Machine Learning resources](/docs/security-compliance?topic=security-compliance-scan-watson-machine-learning).
 
 
 

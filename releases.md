@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-06-25"
+lastupdated: "2024-07-09"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -17,6 +17,25 @@ content-type: release-note
 {: #release-notes}
 
 The following changes to the service were made available with the associated date.
+
+
+
+## 9 July 2024
+{: #security-compliance-Jul0924}
+{: release-note}
+
+AI Security Guardrails 2.0 profile
+:   Version 1.0.0 of the AI Security Guardrails 2.0 profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-ai-security-change-log).
+
+Scanning Watson Machine Learning resources is now available with {{site.data.keyword.compliance_short}}
+:   You can now scan your Watson Machine Learning resources against the AI Security Guardrails 2.0 profile. You can enable access for {{site.data.keyword.compliance_short}} to scan your Watson Machine Learning resources by assigning customer credentials (API keys) that are stored in {{site.data.keyword.secrets-manager_short}}. For more information, see [Scanning Watson Machine Learning resources](/docs/security-compliance?topic=security-compliance-scan-watson-machine-learning). 
+
+
+Using trusting profiles to scan your main account 
+:   As of 9 July 2024, when you are enabling scanning of resources across   accounts, if you add your main account as a target, you have to use trusted profiles to run the scans. If you change the trusted profile, the scan results are impacted. 
+
+   To change the trusted profile and avoid issues with your scan results, you must delete the target and all the attachments that are on the account first. Then, you can create a new target with the updated trusted profile. No action is required at this time. 
+
 
 
 

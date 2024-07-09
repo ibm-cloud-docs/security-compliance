@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-07-08"
+lastupdated: "2024-07-09"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -22,6 +22,10 @@ With {{site.data.keyword.compliance_full}}, you can scan resources in other {{si
 You can take advantage of an automation script that can help you to automatically register to scan resources across accounts. For more information, check out the [script in GitHub](https://github.com/IBM/security-compliance-automation){: external}.
 {: tip}
 
+ 
+
+If you want to scan your Watson Machine Learning resources across multiple {{site.data.keyword.cloud_notm}} accounts, see [Scanning Watson Machine Learning resources](/docs/security-compliance?topic=security-compliance-scan-watson-machine-learning) for more information. 
+
 
 
 ## Before you begin
@@ -38,6 +42,10 @@ Before you get started, make sure that you [create a trusted profile](/docs/acco
 * All Identity and Access enabled services (`Reader`, `Viewer`, `Service Configuration Reader`)
 
 The trusted profile must also contain the {{site.data.keyword.compliance_short}} instance Cloud Resource Name (CRN) for the monitoring account in the {{site.data.keyword.cloud_notm}} services. You can find the CRN in the **Settings** > **Service instance** section of the {{site.data.keyword.compliance_short}} UI.
+
+
+When you are enabling scanning of resources across accounts, if you add your main account as a target, you must use trusted profiles to run the scans. If you change the trusted profile, the scan results are impacted. To change the trusted profile and avoid issues with your scan results, you must delete the target and all the attachments that are on the account first. Then, you can create a new target with the updated trusted profile. 
+{: note}
 
 
 
