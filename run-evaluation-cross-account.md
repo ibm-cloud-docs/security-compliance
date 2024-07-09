@@ -24,7 +24,7 @@ You can take advantage of an automation script that can help you to automaticall
 
  
 
-If you want to scan your Watson Machine Learning resources across multiple {{site.data.keyword.cloud_notm}} accounts, see [Scanning Watson Machine Learning resources](/docs/security-compliance?topic=security-compliance-scan-watson-machine-learning) for more information. 
+If you want to scan your Watson Machine Learning resources with {{site.data.keyword.compliance_short}}, see [Scanning Watson Machine Learning resources](/docs/security-compliance?topic=security-compliance-scan-watson-machine-learning) for more information. 
 
 
 
