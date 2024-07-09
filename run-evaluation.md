@@ -24,7 +24,7 @@ To scan resources across multiple accounts for {{site.data.keyword.cloud_notm}} 
 
 
 
-If you want to scan your Watson Machine Learning resources across multiple {{site.data.keyword.cloud_notm}} accounts, for more information, see [Scanning Watson Machine Learning resources](/docs/security-compliance?topic=security-compliance-scan-watson-machine-learning).
+If you want to scan your Watson Machine Learning resources with {{site.data.keyword.compliance_short}}, see [Scanning Watson Machine Learning resources](/docs/security-compliance?topic=security-compliance-scan-watson-machine-learning) for more information. 
 
 
 
@@ -44,6 +44,7 @@ Before you get started, be sure that you have the following Prerequisites:
 	{: tip}
 
 * If you are scanning resources across accounts, a trusted profile with access policies (and assigned roles) set for the target account. For more information, see [Scanning resources across accounts](/docs/security-compliance?topic=security-compliance-scan-resources-cross-account).
+
 
 ## Scheduling a recurring scan
 {: #scan-schedule-ui}
