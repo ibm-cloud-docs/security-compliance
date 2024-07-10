@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-07-09"
+lastupdated: "2024-07-10"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -35,7 +35,6 @@ Using trusting profiles to scan your main account
 :   As of 9 July 2024, when you are enabling scanning of resources across accounts, if you add your main account as a target, you have to use trusted profiles to run the scans. If you change the trusted profile, the scan results are impacted. 
 
    To change the trusted profile and avoid issues with your scan results, you must delete the target and all the attachments that are on the account first. Then, you can create a new target with the updated trusted profile. No action is required at this time. 
-
 
 
 
