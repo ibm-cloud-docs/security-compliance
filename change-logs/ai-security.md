@@ -1,7 +1,7 @@
 ---
 copyright:
   years: "2024"
-lastupdated: "2024-07-09"
+lastupdated: "2024-07-10"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements, ai security
 
@@ -47,4 +47,3 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 
 Now available
 :   As of 9 July 2024, the AI Security Guardrails 2.0 profile is a collection of controls that is designed to validate the configuration of your resources.
-

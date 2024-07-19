@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-07-09"
+lastupdated: "2024-07-10"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -23,10 +23,7 @@ To scan resources across multiple accounts for {{site.data.keyword.cloud_notm}} 
 {: tip}
 
 
-
 If you want to scan your Watson Machine Learning resources with {{site.data.keyword.compliance_short}}, see [Scanning Watson Machine Learning resources](/docs/security-compliance?topic=security-compliance-scan-watson-machine-learning) for more information. 
-
-
 
 ![A diagram that shows the relationship between a control, profile, and scope.](images/term-flow.svg){: caption="Figure 1. Understanding entities in {{site.data.keyword.compliance_short}}" caption-side="bottom"}
 

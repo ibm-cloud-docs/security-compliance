@@ -2,7 +2,7 @@
 
 copyright:
   years: "2024"
-lastupdated: "2024-07-09"
+lastupdated: "2024-07-10"
 
 keywords: watson machine learning, ai profiles, ai, artificial intelligence, cross-account scanning, secrets-manager, credentials
 
@@ -86,4 +86,3 @@ Complete the following steps to set up cross-account scanning of Watson Machine 
 {: scan-watson-attachment}
 
 After you assign the credentials, you can start create an attachment against the AI Security Guardrails 2.0 profile to [schedule a recurring scan](/docs/security-compliance?topic=security-compliance-scan-resources&interface=ui#scan-schedule-ui) of your Watson Machine Learning resources. 
-
