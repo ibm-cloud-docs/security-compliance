@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-06-30"
+  years: 2020, 2024
+lastupdated: "2024-08-07"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -16,7 +16,7 @@ subcollection: security-compliance
 # Known issues
 {: #known-issues}
 
-Review the following known issues that you might encounter while you work with {{site.data.keyword.compliance_full}}.
+When you work with {{site.data.keyword.compliance_full}}, you might encounter the following issues that have already been identified. Be sure to review the work around.
 {: shortdesc}
  
 | Issue  | Workaround |

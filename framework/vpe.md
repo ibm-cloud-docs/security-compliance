@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-10-17"
+  years: 2020, 2024
+lastupdated: "2024-08-07"
 
 keywords: isolation for {{site.data.keyword.compliance_short}}, service endpoints for {{site.data.keyword.compliance_short}}, private network for {{site.data.keyword.compliance_short}}, network isolation in {{site.data.keyword.compliance_short}}, non-public routes for {{site.data.keyword.compliance_short}}, private connection for {{site.data.keyword.compliance_short}}, private endpoints 
 
@@ -15,7 +15,7 @@ subcollection: security-compliance
 # Using private endpoints to connect to {{site.data.keyword.compliance_short}}
 {: #private-endpoints}
 
-You can use private routes to {{site.data.keyword.cloud_notm}} service endpoints to ensure that you have enhanced control and security over your data when you use {{site.data.keyword.compliance_full}}. Private routes are not accessible or reachable over the internet. By using the {{site.data.keyword.cloud_notm}} private service endpoints, you can protect your data from threats from the public network, and logically extend your private network.
+With {{site.data.keyword.compliance_full}}, you can use private routes, that are not accessible or reachable over the internet, to enhance the control and security that you have over your data. By using the {{site.data.keyword.cloud_notm}} private service endpoints, you can protect your data from threats from the public network, and logically extend your private network.
 
 ## Before you begin
 {: #before-vpe}
