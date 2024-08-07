@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-12-15"
+  years: 2020, 2024
+lastupdated: "2024-08-07"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -382,7 +382,7 @@ ibmcloud security-compliance settings post-test-event
 
 After you enable notifications for {{site.data.keyword.compliance_short}}, create topics and subscriptions in {{site.data.keyword.en_short}} so alerts can be forwarded and delivered to your selected destinations.
 
-For a complete list of supported destinations, see the [{{site.data.keyword.en_short}} documentation](/docs/event-notifications?topic=event-notifications-en-destination).
+For a complete list of supported destinations, see the [{{site.data.keyword.en_short}} documentation](/docs/event-notifications?topic=event-notifications-en-create-en-destination).
 {: tip}
 
 ### Email notifications
