@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-10-11"
+  years: 2020, 2024
+lastupdated: "2024-08-07"
 
 keywords: public isolation for {{site.data.keyword.compliance_short}}, compute isolation for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} architecture, workload isolation in {{site.data.keyword.compliance_short}} 
 
@@ -16,7 +16,7 @@ subcollection: security-compliance
 # Learning about {{site.data.keyword.compliance_short}} architecture and workload isolation
 {: #compute-isolation}
 
-Review the following architecture for {{site.data.keyword.compliance_full}}, and learn more about different isolation levels, so that you can choose the solution that best meets the requirements of the workloads that you want to run in the cloud.
+Review the following architecture for {{site.data.keyword.compliance_full}} and learn more about different isolation levels, so that you can choose the solution that best meets the requirements of the workloads that you want to run in the cloud.
 {: shortdesc}
 
 
@@ -54,5 +54,5 @@ Check out the following image to see how the service workloads are isolated and 
 ## {{site.data.keyword.compliance_short}} workload isolation
 {: #workload-isolation}
 
-Each regional deployment of the {{site.data.keyword.compliance_short}} serves multiple tenants and can be accessed through public endpoints. By default, all data at rest is encrypted by IBM keys. Data in transit is encrypted by using TLS. Your data is isolated from other customer's data but does share physical resources such as CPU, memory, and I/O devices. 
+Each regional deployment of the {{site.data.keyword.compliance_short}} serves multiple tenants and can be accessed through public endpoints. By default, all data at rest is encrypted by IBM keys. Data in transit is encrypted by using TLS. Your data is isolated from other customers' data, but it does share physical resources such as CPU, memory, and I/O devices. 
 

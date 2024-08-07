@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-10-09"
+  years: 2020, 2024
+lastupdated: "2024-08-07"
 
 keywords: best practices security and compliance, secure development, security strategy, governance
 
@@ -18,7 +18,7 @@ subcollection: security-compliance
 Pricing for {{site.data.keyword.compliance_full}} is based on the number of evaluations performed. An evaluation is the check of one assessment against one resource.
 
 
-For the most up-to-date pricing information, you can create a cost estimate by clicking **Add to estimate** from either the [provisioning](/catalog/services/security-and-compliance-center) or [plan page](/security-compliance/plan).
+For the most up-to-date pricing information, you can create a cost estimate by clicking **Add to estimate** from either the [provisioning](/catalog/services/security-and-compliance-center) or [plan](/security-compliance/plan) pages.
 {: important}
 
 
@@ -28,7 +28,7 @@ For the most up-to-date pricing information, you can create a cost estimate by c
 The service offers two pricing plans.
 
 Trial
-:   To try out the service, you can enroll in a Trial period where you have access the full capabilities of the service for 30 days at no charge. You can create profiles, set up credentials, and configure your account to evaluate your resources, among other things. Each account can have 1 instance of the trial service for the lifetime of the account.
+:   To test the service, you can enroll in a Trial period where you have access the full capabilities of the service for 30 days at no charge. You can create profiles, set up credentials, and configure your account to evaluate your resources, among other things. Each account can have 1 instance of the trial service for the lifetime of the account.
 
 Standard
 :   With a Standard plan, you are able to access the full capabilities of the service without limitations. However, you are charged per evaluation.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-04-16"
+lastupdated: "2024-08-07"
 
 keywords: cbr in {{site.data.keyword.compliance_short}}, context-based restrictions for {{site.data.keyword.compliance_short}}, 
 
@@ -15,7 +15,7 @@ subcollection: security-compliance
 # Protecting {{site.data.keyword.compliance_short}} resources with context-based restrictions
 {: #cbr}
 
-Context-based restrictions give account owners and administrators the ability to define and enforce access restrictions for {{site.data.keyword.cloud_notm}} resources based on the context of access requests. Access to {{site.data.keyword.compliance_short}} resources can be controlled with context-based restrictions and identity and access management (IAM) policies. 
+Context-based restrictions give account owners and administrators the ability to define and enforce access restrictions for {{site.data.keyword.cloud_notm}} resources based on the context of access requests. Access to {{site.data.keyword.compliance_short}} resources can be controlled with both context-based restrictions and identity and access management (IAM) policies. 
 {: shortdesc}
 
 These restrictions work with traditional IAM policies, which are based on identity, to provide an additional layer of protection. Unlike IAM policies, context-based restrictions don't assign access. Context-based restrictions check that an access request comes from an allowed context that you configure. Since both IAM access and context-based restrictions enforce access, context-based restrictions offer protection even in the face of compromised or mismanaged credentials. For more information, see [What are context-based restrictions](/docs/account?topic=account-context-restrictions-whatis).
