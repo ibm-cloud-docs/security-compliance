@@ -2,7 +2,7 @@
 
 copyright:
   years: "2024"
-lastupdated: "2024-08-08"
+lastupdated: "2024-08-09"
 
 keywords: watson machine learning, ai profiles, ai, artificial intelligence, cross-account scanning, secrets-manager, credentials
 
@@ -26,7 +26,7 @@ You can scan your Watson Machine Learning resources against the [AI Security Gua
 To scan Watson Machine Learning resources in an account with {{site.data.keyword.compliance_short}}, you must use an IAM API key that you store in {{site.data.keyword.secrets-manager_short}} as an IAM credentials or arbitrary secret. After you create a target, as a credential to the target, you must add the API key of an IAM service ID that is part of the project.
 
 ## Before you begin 
-{: #scan-watson-machine-learning-prerequisites} 
+{: #scan-saas-prerequisites} 
 
 Before you can scan Watson Machine Learning resources, you must connect your instances of {{site.data.keyword.compliance_short}} and {{site.data.keyword.secrets-manager_short}}. Complete the following tasks before you begin. 
 
@@ -87,6 +87,6 @@ Complete the following steps to set up cross-account scanning of Watson Machine 
 
 
 ## Next steps
-{: scan-watson-attachment}
+{: scan-saas-attachment}
 
 After you assign the credentials, you can start create an attachment against the AI Security Guardrails 2.0 profile to [schedule a recurring scan](/docs/security-compliance?topic=security-compliance-scan-resources&interface=ui#scan-schedule-ui) of your Watson Machine Learning resources. 
