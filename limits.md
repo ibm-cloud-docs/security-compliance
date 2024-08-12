@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-05"
+lastupdated: "2024-08-12"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -78,3 +78,6 @@ subcollection: security-compliance
 {: tab-title="Attachments"}
 {: tab-group="limits"}
 {: class="simple-tab-table"}
+
+
+
