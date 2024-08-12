@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-06-18"
+lastupdated: "2024-08-12"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -24,6 +24,7 @@ completion-time: 5m
 
 For highly regulated industries, such as financial services, achieving continuous compliance within a cloud environment is an important first step toward protecting customer and application data. Historically, that process was difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.compliance_full}}, you can integrate daily, automatic compliance checks into your development lifecycle to help minimize that risk.
 {: shortdesc}
+
 
 
 ## Before you begin
@@ -135,11 +136,12 @@ An attachment is how you target a specific grouping of your resources to evaluat
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
 
 
-
 ## Next steps
 {: #gs-next}
 
 While you wait for your scan to complete, learn more about [the way the service works](/docs/security-compliance?topic=security-compliance-posture-management) or try [creating your own rule](/docs/security-compliance?topic=security-compliance-rules-define).
+
+
 
 
 
