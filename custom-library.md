@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-01-25"
+lastupdated: "2024-08-12"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -391,5 +391,3 @@ For more information, check out the [Terraform reference](https://registry.terra
 {: #library-next}
 
 After your library is added to the service, you can use it to create a profile. From your library details, click **Actions > Create profile** to start evaluating your resources.
-
-

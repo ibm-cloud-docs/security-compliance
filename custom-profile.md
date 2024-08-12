@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-01-12"
+lastupdated: "2024-08-12"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -315,4 +315,3 @@ For more information, check out the [Terraform reference](https://registry.terra
 {: #profile-next}
 
 Now that you have a profile, start evaluating your resources by creating an attachment. From the profile details page, click the overflow menu for the profile that you want to evaluate. Then, click **Attach**.
-

@@ -62,7 +62,7 @@ toc:
               topics:
               - custom-library.md
               - custom-profile.md
-              - custom-rule.md
+              - custom-rule.md  
       - results.md
       - topicgroup:
           label: Connecting integrations

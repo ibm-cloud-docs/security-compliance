@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-12-15"
+  years: 2020, 2024
+lastupdated: "2024-08-12"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -16,14 +16,22 @@ subcollection: security-compliance
 # Viewing results
 {: #results}
 
-With {{site.data.keyword.compliance_full}}, you can view the results of a compliance evaluation in the dashboard or by using the API.
+With {{site.data.keyword.compliance_full}}, you can view the results of a compliance evaluation in the dashboard or by using the API. 
 {: shortdesc}
+
+
 
 
 ## Before you begin
 {: #before-results}
 
-Before you get started, be sure that you have the required level of access to view results. To view results, you need the [**Operator** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). You must also have access to the credentials that are needed to access your resource configurations.
+Before you get started, be sure that you have the following prerequistes.
+
+* The required level of access to view results. 
+
+   * To view results for an entire scope in your account, you must have the [**Reader** service role or higher](/docs/security-compliance?topic=security-compliance-access-management).
+   * If you are evaluating resources that require additional credentials, you must also have access to those credentials.
+
 
 ## Understanding the dashboard
 {: #understand-dashboard}
@@ -43,15 +51,26 @@ Total controls
 Total evaluations
 :   The total number of evaluations that have been run in the past 30 days. An evaluation is the check of one resource against one assessment.
 
+## Understanding statuses
+{: #status}
 
-## Viewing detailed results in the dashboard
+When you view results in {{site.data.keyword.compliance_short}}, each evaluation produces a result of `pass`, `fail`, `unable to perform`, or `user_evaluation_required`. Check out the following table to learn more about what each result means.
+
+| Result | Description |
+|:-------|:------------|
+| Pass | Your resource was compliant with the defined standard. |
+| Fail | Your resource was not compliant with the defined standard. |
+| Unable to perform | The assessment could not be performed. Potential reasons include the resource not existing in your account, a misconfiguration, or an error on behalf of {{site.data.keyword.compliance_short}}. |
+| User evaluation required | The assessment has not yet been automated. To validate that you are meeting the standard, you must check your resource manually. |
+{: caption="Table 2. Understanding result statuses}
+
+
+
+## Viewing results with the UI
 {: #view-detailed-results}
 {: ui}
 
 To view the information of a scan, you can use the {{site.data.keyword.compliance_short}} UI.
-
-You can filter results by tag. Tags are defined at the platform level. For help creating tags, see [Working with tags](/docs/account?topic=account-tag).
-{: tip}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access {{site.data.keyword.compliance_short}}.
 2. Click **Dashboard**.
@@ -68,7 +87,7 @@ A page opens with an **Overview** of your results. To further investigate, you c
 {: row-headers}
 
 
-## Viewing detailed results with the API
+## Viewing results with the API
 {: #view-detailed-results-api}
 {: api}
 
@@ -135,7 +154,7 @@ A successful response returns the detailed report from your scan, along with oth
 
 
 
-## Viewing detailed results with the CLI
+## Viewing results with the CLI
 {: #view-detailed-results-cli}
 {: cli}
 
@@ -152,7 +171,7 @@ ibmcloud security-compliance report summary
 
 
 
-## Viewing detailed results with Terraform
+## Viewing results with Terraform
 {: #view-detailed-results-terraform}
 {: terraform}
 
@@ -167,18 +186,6 @@ data "ibm_scc_report_summary" "scc_report_summary" {
 
 For more information, check out the {{site.data.keyword.compliance_short}} [Terraform reference](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule){: external}.
 
-### Understanding statuses
-{: #status}
-
-When you view results in {{site.data.keyword.compliance_short}}, each evaluation produces a result of `pass`, `fail`, `unable to perform`, or `user_evaluation_required`. Check out the following table to learn more about what each result means.
-
-| Result | Description |
-|:-------|:------------|
-| Pass | Your resource was compliant with the defined standard. |
-| Fail | Your resource was not compliant with the defined standard. |
-| Unable to perform | The assessment could not be performed. Potential reasons include the resource not existing in your account, a misconfiguration, or an error on behalf of {{site.data.keyword.compliance_short}}. |
-| User evaluation required | The assessment has not yet been automated. To validate that you are meeting the standard, you must check your resource manually. |
-{: caption="Table 2. Understanding result statuses}
 
 
 

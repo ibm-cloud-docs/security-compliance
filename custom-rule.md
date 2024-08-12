@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-01-12"
+lastupdated: "2024-08-12"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -487,4 +487,3 @@ For more information, check out the [Terraform reference](https://registry.terra
 {: #next-rule}
 
 Now that you created a rule, add it to a library by associating it with a specification. Then, start monitoring by attaching it to a scope.
-
