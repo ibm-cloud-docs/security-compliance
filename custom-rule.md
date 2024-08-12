@@ -487,3 +487,4 @@ For more information, check out the [Terraform reference](https://registry.terra
 {: #next-rule}
 
 Now that you created a rule, add it to a library by associating it with a specification. Then, start monitoring by attaching it to a scope.
+

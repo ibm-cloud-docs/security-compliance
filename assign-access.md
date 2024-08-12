@@ -51,7 +51,7 @@ You can assign *Administrator* access for the service, or you can create a custo
 {: tip}
 
 1. In the Console, go to **Manage > Access (IAM) > Roles** and click **Create**.
-2. Give your role a name, programmatic ID, and description. For example, *Compliance focals*, *ComplianceFocals*, and *Permissions required for compliance focals to work with {{site.data.keyword.compliance_short}}*.
+2. Give your role a name, programmatic ID, and description. For example, *Compliance focal*, *ComplianceFocal*, and *Permissions that are required for compliance focal to work with {{site.data.keyword.compliance_short}}*.
 3. From the **Service** drop-down, select **Enterprise**, and then add the following actions.
 	* `enterprise.enterprise.attach-config-rules`
 	* `enterprise.enterprise.detach-config-rules`

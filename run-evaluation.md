@@ -580,3 +580,5 @@ ibmcloud security-compliance attachment scan
 {: pre}
 
 After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
+
+

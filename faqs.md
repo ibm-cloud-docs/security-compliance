@@ -39,7 +39,7 @@ Yes, you can create rules for services or resources that are not already provisi
 {: faq}
 {: support}
 
-When you look at your results in the UI, you see that some results have "Additional details". This is because the results are associated with the Toolchain service. The Toolchain pipeline sends the associated details and evidence along with the results to {{site.data.keyword.compliance_short}}.
+The results that have "Additional details" are associated with the Toolchain service. The Toolchain pipeline sends the associated details and evidence along with the results to {{site.data.keyword.compliance_short}}.
 
 
 ## Which controls are supported by {{site.data.keyword.compliance_short}}?

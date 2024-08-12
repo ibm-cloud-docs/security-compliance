@@ -31,12 +31,12 @@ Running an evaluation does not ensure regulatory compliance. An evaluation provi
 ## Before you begin
 {: #before-gs}
 
-Before you get started, be sure that you have the following prerequistes.
+Before you get started, be sure that you have the following prerequisites.
 
 * An instance of {{site.data.keyword.compliance_short}}.
 * An instance of Cloud Object Storage that contains a bucket that can be used to store your results data.
 * Resources in your account that you want to evaluate.
-* The required access to create and manage resources within {{site.data.keyword.compliance_short}}. To create and manage entities within {{site.data.keyword.compliance_short}} you must have [the **Writer** service role or higher](/docs/security-compliance?topic=security-compliance-access-management). 
+* The required access to create and manage resources within {{site.data.keyword.compliance_short}}. To create and manage entities within {scc}, you must have [the **Writer** service role or higher](/docs/security-compliance?topic=security-compliance-access-management). 
 
 
 ## Configure storage
@@ -58,7 +58,7 @@ To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword
 {: #gs-scope}
 {: step}
 
-A scope is the grouping of resources that you want to evaluate. For help creating a scope, see [Targeting your resources](/docs/security-compliance?topic=security-compliance-scopes).
+A scope is the grouping of resources that you want to evaluate. For help with creating a scope, see [Targeting your resources](/docs/security-compliance?topic=security-compliance-scopes).
 
 ## Optional: Review available profiles
 {: #gs-profile}
@@ -70,7 +70,7 @@ Before you start configuring your attachment, you can review the available profi
 {: #gs-attachment}
 {: step}
 
-To evaluate your resources, you must create an attachment. An attachment pairs the resources that you grouped together as a scope with the profile that you want to evaluate them against.
+To evaluate your resources, you must create an attachment. An attachment pairs the resources that you grouped as a scope with the profile that you want to evaluate them against.
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Attachments**, and click **Create**.
 2. Provide a name and description for your attachment. Then, click **Next**.
@@ -91,7 +91,7 @@ To evaluate your resources, you must create an attachment. An attachment pairs t
 6. Define your scan settings.
 
    1. Select the **Frequency** at which you want your evaluation to be conducted.
-   2. Configure notifications regarding failures that are identified.
+   2. Configure notifications for failures that are identified.
    3. Click **Next**.
 
 7. Review your selections. If everything looks correct, click **Create**.

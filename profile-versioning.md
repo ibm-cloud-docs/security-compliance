@@ -58,3 +58,4 @@ You can upgrade your attachment to use the new profile version anytime during th
 
 You can't create a new attachment to a deprecated profile version through the {{site.data.keyword.compliance_short}} UI. However, you can do so using the [API](/apidocs/security-compliance?code=curl#create-attachment) until the deprecated profile version expires.
 {: tip}
+

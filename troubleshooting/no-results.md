@@ -26,7 +26,7 @@ You've created a profile or a rule but don't see any results.
 You can't find the results for your new profile or rule in your account. 
 {: tsSymptoms}
 
-You might not be able to view results for the following reasons:
+You might not be able to view the results for the following reasons:
 {: tsCauses}
 
 * Your rule isn't associated with a specification or profile.

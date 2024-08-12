@@ -25,12 +25,12 @@ With {{site.data.keyword.compliance_full}}, you can view the results of a compli
 ## Before you begin
 {: #before-results}
 
-Before you get started, be sure that you have the following prerequistes.
+Before you get started, be sure that you have the following prerequisites.
 
 * The required level of access to view results. 
 
    * To view results for an entire scope in your account, you must have the [**Reader** service role or higher](/docs/security-compliance?topic=security-compliance-access-management).
-   * If you are evaluating resources that require additional credentials, you must also have access to those credentials.
+   * If you are evaluating resources that require more credentials, you must also have access to those credentials.
 
 
 ## Understanding the dashboard
@@ -40,10 +40,10 @@ As you evaluate your resources, the results are returned via the service UI in g
 
 ![A visual representation of the service dashboard. The concepts are fully explained in the surrounding text.](images/dashboard.svg){: caption="Figure 2. Example dashboard" caption-side="bottom"}
 
-When you visit the dashboard, there are three graphical representations of data that has been aggregated from your scans. You see the:
+When you visit the dashboard, there are three graphical representations of data that have been aggregated from your scans. You see the:
 
 Success rate
-:   The rate at which your configurations pass the evaluation that is conducted. **Note:** The number of evaluations conducted does not always match the number of billable evaluations, as there is no charge for assessments evaluated as unable to perform. Be sure to look for the billable evaluations in each scan result if you need to estimate your cost.
+:   The rate at which your configurations pass the evaluation that is conducted. **Note:** The number of evaluations that are conducted does not always match the number of billable evaluations, as there is no charge for assessments that are evaluated as unable to perform. Be sure to look for the billable evaluations in each scan result if you need to estimate your cost.
 
 Total controls
 :   The total number of controls that have been evaluated in the past 30 days.
@@ -82,7 +82,7 @@ A page opens with an **Overview** of your results. To further investigate, you c
 |:---|:---------|
 | Overview | On the overview tab, you are provided with a graphical representation of your compliance for your selected scan.   \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-overview-tab.svg){: caption="Figure 2. Example overview tab results" caption-side="bottom"}  \n   \n **Success rate**: The rate at which your configurations pass the evaluation that is conducted.  \n   \n **Total controls**: The total number of controls that were evaluated during this scan.  \n   \n **Drift**: The difference in results for your selected evaluation timeframe. |
 | Controls | On the **Controls** tab, you are provided with an overview of the controls that were evaluated. The controls and their compliance status are listed for the time that the scan was done.
-| Resources | On the **Resources** tab, you are provided with the results for each specific resource that was evaluated.  \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-resources-tab.svg){: caption="Figure 3. Example results tab results" caption-side="bottom"}</br></br>In the **JSON** tab, you can see the assessment definition. <ul><li>In the **Parameters** tab, you can see the parameters that are relevant to that resource. </li><li>In the **Non-compliant properties** tab, you are able to view which properties are non-compliant to begin remediating any issues that are found.</li><li> In the **Controls** tab, you are able to view which controls that the assessment is associated with.</li></li>In the **Additional details** tab, you can view the additional information that a specific provider might send with the evaluation results. This information might include, additional information, relevant links, or evidence.</li></ul> |
+| Resources | On the **Resources** tab, you are provided with the results for each specific resource that was evaluated.  \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-resources-tab.svg){: caption="Figure 3. Example results tab results" caption-side="bottom"}</br></br>In the **JSON** tab, you can see the assessment definition. <ul><li>In the **Parameters** tab, you can see the parameters that are relevant to that resource. </li><li>In the **Noncompliant properties** tab, you are able to view which properties are noncompliant to begin remediating any issues that are found.</li><li> In the **Controls** tab, you are able to view which controls that the assessment is associated with.</li></li>In the **Additional details** tab, you can view the additional information that a specific provider might send with the evaluation results. This information might include, additional information, relevant links, or evidence.</li></ul> |
 {: caption="Table 1. Understanding detailed results" caption-side="top"}
 {: row-headers}
 
