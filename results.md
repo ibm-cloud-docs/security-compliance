@@ -19,6 +19,8 @@ subcollection: security-compliance
 With {{site.data.keyword.compliance_full}}, you can view the results of a compliance evaluation in the dashboard or by using the API. 
 {: shortdesc}
 
+If you have access to a subscope but not the overarching scope, you will only see the results for the resources that you have access to view.
+{: tip}
 
 
 
@@ -29,7 +31,8 @@ Before you get started, be sure that you have the following prerequisites.
 
 * The required level of access to view results. 
 
-   * To view results for an entire scope in your account, you must have the [**Reader** service role or higher](/docs/security-compliance?topic=security-compliance-access-management).
+   * To view results for an entire scope in your account, you must have the [**Reader** service role or higher](/docs/security-compliance?topic=security-compliance-access-management).<subscope>
+   * To view results for a subscope, you must have the [**Reader** service role or higher](/docs/security-compliance?topic=security-compliance-access-management) to {{site.data.keyword.compliance_short}} and for the resource that is being evaluated.</subscope>
    * If you are evaluating resources that require more credentials, you must also have access to those credentials.
 
 
