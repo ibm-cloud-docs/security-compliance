@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-04-18"
+lastupdated: "2024-08-12"
 
 keywords: supported controls, controls available, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -48,4 +48,6 @@ When you look at your results in the UI, you see that some results have "Additio
 {: support}
 
 {{site.data.keyword.compliance_short}} supports various controls that are designed to help organizations manage and maintain the security and compliance of their systems and data. To view a list of available profiles, see [Available predefined profiles](/docs/security-compliance?topic=security-compliance-predefined-profiles). To view all of the controls that are supported by the product, go to the {{site.data.keyword.compliance_short}} UI in the {{site.data.keyword.cloud_notm}} console.
+
+
 
