@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-02-27"
+lastupdated: "2024-08-12"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -67,6 +67,9 @@ You can assign *Administrator* access for the service, or you can create a custo
 	* `enterprise.enterprise.retrieve`
 	* `global-search-tagging.resource.read`
 4. Review your selections to ensure that you added the correct permissions and click **Create**.
+5. Assign that role to the user or group that needs access to {{site.data.keyword.compliance_short}}.
+
+
 
 
 ## Assigning access to Satellite
@@ -82,4 +85,6 @@ To evaluate the resources that run on Satellite, you must create a service-to-se
 6. Leave **All resources** selected.
 7. Check **Viewer** to provide the required access.
 8. Click **Authorize**.
+
+
 

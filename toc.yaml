@@ -192,6 +192,7 @@ toc:
           topics:
           - troubleshooting/contact.md
           - troubleshooting/no-results.md
+          - troubleshooting/no-results-scope.md
           - troubleshooting/result-deleted-resource.md
           - troubleshooting/ts-cos-store.md
           - troubleshooting/ts-notifications.md
