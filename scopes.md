@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-12"
+lastupdated: "2024-08-13"
 
 keywords: scope, subscope, view results access, 
 
@@ -82,26 +82,46 @@ When you create a scope, the account that you added as a target is shown as an o
 ### Including SaaS services in your scope
 {: #saas-scope}
 
-Some resources require more access in order for {{site.data.keyword.compliance_short}} to view all of the configurations associated with it. To evaluate SaaS services, you must add the account in which it resides as a target account. Then, provide an IAM API key that has the required permissions for {{site.data.keyword.compliance_short}} to be able to perform the evaluation.
+Some resources require more access in order for {{site.data.keyword.compliance_short}} to view all of the configurations associated with it. To evaluate SaaS services, you must add the account in which they reside as a target account. Then, provide an IAM API key that has the required permissions for {{site.data.keyword.compliance_short}} to be able to perform the evaluation.
 
-Currently, only Watson Machine Learning services require these steps. Additionally, the [AI Security Guardrails 2.0](/docs/security-compliance?topic=security-compliance-ai-security-change-log&interface=ui) profile is the only profile that is currently configured to evaluate SaaS products.
+Currently, only Watson Machine Learning services require these steps. Additionally, the [AI Security Guardrails 2.0](/docs/security-compliance?topic=security-compliance-ai-security-change-log&interface=ui) profile is the only profile that's configured for SaaS products.
 {: important}
 
-1. Set up Secrets Manager.
+1. If you don't already have one, create an instance of [{{site.data.keyword.secrets-manager_short}}](/docs/secrets-manager?topic=secrets-manager-create-instance).
 
-   1. If you don't already have one, create an instance of [{{site.data.keyword.secrets-manager_short}}](/docs/secrets-manager?topic=secrets-manager-create-instance).
-   2. Create a service ID that has the required permissions to view your resource.
-   3. Create an API key. 
+2. In the IAM UI, make the following configurations.
 
-1. Create a [trusted profile](/docs/account?topic=account-create-trusted-profile) that provides the following access.
+   1. Go to **Manage** > **Access (IAM)** > **Service IDs** and create a [service ID]((/docs/account?topic=account-serviceids&interface=ui#create_serviceid)) with the **Viewer** Role on your SaaS service.
+   2. From the service ID, create an [API key](/docs/account?topic=account-serviceidapikeys&interface=ui#create_service_key).
+   3. Go to **Manage** > **Access (IAM)** > **Authorizations** and create an authorization between {{site.data.keyword.compliance_short}} and {{site.data.keyword.secrets-manager_short}} with the following values.
 
-   | Service | Role | 
-   |:--------|:-----|
-   | All Account Management services | `Viewer`   \n `Service Configuration Reader`|
-   | All Identity and Access enabled services | `Reader`   \n `Viewer`   \n `Service Configuration Reader` |
-   {: caption="Table 1. Required permissions for your trusted profile" caption-side="top"}
+      * **Source**: The account ID of the account that contains the {{site.data.keyword.compliance_short}} instance that you want to use to evaluate.
+      * **Service**: {{site.data.keyword.compliance_short}}.
+      * **Resources**: The API key that you created in Step 2.
+      * **Target**: {{site.data.keyword.secrets-manager_short}}.
+      * **Resources**: The instance ID.
+      * **Role**: *SecretsReader*.
 
-2. Add a target account.
+   4. Create a [trusted profile](/docs/account?topic=account-create-trusted-profile) that provides the following access.
+
+      | Service | Role | 
+      |:--------|:-----|
+      | All Account Management services | `Viewer`   \n `Service Configuration Reader`|
+      | All Identity and Access enabled services | `Reader`   \n `Viewer`   \n `Service Configuration Reader` |
+      {: caption="Table 1. Required permissions for your trusted profile" caption-side="top"}
+
+      SG: Potentially add?   * Kubernetes Service (`Reader`, `Viewer`, `Administrator`, `Service Configuration Reader`)
+      This access policy is required to run the Red Hat OpenShift Compliance Operator (OSCO) scan when an attachment is created.
+      {: important}
+
+3. In your instance of {{site.data.keyword.secrets-manager_short}}, create an [arbitrary](/docs/secrets-manager?topic=secrets-manager-arbitrary-secrets) or [IAM credentials](/docs/secrets-manager?topic=secrets-manager-iam-credentials) secret to store the API key that you previously created. 
+
+   If you are using an arbitrary secret, save the API key as the secret value. If you choose to use an IAM credentials secret, use the service ID that is associated with the API key that you created.
+
+   The secret must remain unlocked for {{site.data.keyword.compliance_short}} to be able to access and read it.
+   {: important}
+
+4. Create a Target.
 
    1. From the {{site.data.keyword.compliance_short}} navigation, click **Settings**.
    2. In the **Targets** section, click **Add**.
@@ -110,7 +130,24 @@ Currently, only Watson Machine Learning services require these steps. Additional
    5. Specify the ID of the trusted profile that you created in step 1.
    6. Click **Add**.
 
-3. Add an API 
+4. Assign credentials for your target account.
+
+   1. In the **Settings > Targets** section, expand the row of your target account. 
+   2. Click **Assign credentials**.
+   3. On the **Select credentials** tab, make the following selections. Then, click **Next**.
+
+      1. Select the instance of {{site.data.keyword.secrets-manager_short}} that you want to work with.
+      2. Select the secret group that the secret is part of.
+      3. Select the type of secret that you created.
+      4. Select your secret.
+
+      Alternatively, you can use the **Locate by CRN** tab to find your secret.
+      {: tip}
+
+   4. Select the services that you want to evaluate and click **Add** icon (**+**) to add them. Then, click **Assign**.
+
+By completing these steps, you've added the required credentials and your SaaS services will be an option when you [create a scope](/docs/security-compliance?topic=security-compliance-scopes). To start evaluating your resources, you must [create an attachment](/docs/security-compliance?topic=security-compliance-attachments).
+
 
 
 ## Creating a scope for resources that do not run on {{site.data.keyword.cloud_notm}}

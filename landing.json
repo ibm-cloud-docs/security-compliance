@@ -1,6 +1,6 @@
 {
   "title": "Security and Compliance Center docs",
-  "lastupdated": "2024-08-12",
+  "lastupdated": "2024-08-13",
   "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
   "section_devtools": {
     "api": "/apidocs/security-compliance",
@@ -32,21 +32,7 @@
   "section_updates": {
     "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
     "tiles": [
-      {
-        "date": "9 July 2024",
-        "title": "New profile",
-        "description": "Version 1.0.0 of the AI Security Guardrails 2.0 profile is now available."
-      },
-      {
-        "date": "9 July 2024",
-        "title": "Scanning Watson Machine Learning resources",
-        "description": "You can now scan your Watson Machine Learning resources against the AI Security Guardrails 2.0 profile."
-      },
-      {
-        "date": "6 June 2024",
-        "title": "New profile",
-        "description": "The IBM Cloud Framework for Financial Services (Moderate) profile is now available."
-      }
+
     ]
   }
 }
