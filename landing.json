@@ -30,9 +30,6 @@
     "community": "https://community.ibm.com/community/user/cloud/home"
   },
   "section_updates": {
-    "view_more": "/docs/security-compliance?topic=security-compliance-release-notes",
-    "tiles": [
-
-    ]
+    "view_more": "/docs/security-compliance?topic=security-compliance-release-notes"
   }
 }
