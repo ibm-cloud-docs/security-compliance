@@ -58,7 +58,7 @@ toc:
           - run-evaluation-saas.md
           - profile-versioning.md
           - topicgroup:
-              label: customizing your evaluation
+              label: Customizing your evaluation
               topics:
               - custom-library.md
               - custom-profile.md
