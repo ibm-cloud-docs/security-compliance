@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-08-12"
+lastupdated: "2024-08-13"
 
 keywords: integrations, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -58,6 +58,3 @@ You can evaluate your organization’s current security and compliance posture b
 * [Toolchain](/docs/ContinuousDelivery?topic=ContinuousDelivery-getting-started)
 * [Transit Gateway](/docs/transit-gateway?topic=transit-gateway-getting-started)
 * [Virtual Private Cloud (VPC)](/docs/vpc?topic=vpc-getting-started)
-
-
-

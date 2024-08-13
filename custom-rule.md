@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-12"
+lastupdated: "2024-08-13"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -23,7 +23,7 @@ With {{site.data.keyword.compliance_full}}, you can create a custom rule in orde
 ## Before you begin 
 {: #before-custom-rules}
 
-Before you get started, be sure that you have the required level of access to view and manage rules. To create a rule, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management). You must also have an instance of {{site.data.keyword.at_short}} that exists in the same region where you provision your resources.
+Before you get started, be sure that you have the required level of access to view and manage rules. To create a rule, you need the [**Writer** service role or higher](/docs/security-compliance?topic=security-compliance-access-management). You must also have an instance of {{site.data.keyword.at_short}} that exists in the same region where you provision your resources.
 
 
 ## Formatting rules
@@ -487,4 +487,3 @@ For more information, check out the [Terraform reference](https://registry.terra
 {: #next-rule}
 
 Now that you created a rule, add it to a library by associating it with a specification. Then, start monitoring by attaching it to a scope.
-

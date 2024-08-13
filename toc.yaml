@@ -53,19 +53,16 @@ toc:
           label: Evaluating your resources
           topics:
           - available-components.md
+          - run-evaluation.md
+          - run-evaluation-cross-account.md
+          - run-evaluation-saas.md
+          - profile-versioning.md
           - topicgroup:
-              label: Scanning for compliance
-              topics:
-              - scopes.md
-              - subscopes.md
-              - attachments.md
-          - topicgroup:
-              label: Customizing your evaluation
+              label: customizing your evaluation
               topics:
               - custom-library.md
               - custom-profile.md
               - custom-rule.md
-          - profile-versioning.md
       - results.md
       - topicgroup:
           label: Connecting integrations

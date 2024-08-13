@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-12"
+lastupdated: "2024-08-13"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -68,24 +68,6 @@ You can assign *Administrator* access for the service, or you can create a custo
 	* `global-search-tagging.resource.read`
 4. Review your selections to ensure that you added the correct permissions and click **Create**.
 5. Assign that role to the user or group that needs access to {{site.data.keyword.compliance_short}}.
-
-
-## Assigning access to a scope or subscope
-{: #assign-access-scopes}
-
-To allow for certain users of your account to view results without having access to the rest of your {{site.data.keyword.compliance_short}} instance, you must assign the following policies for the scope or subscope that you want to provide access to.
-
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Scopes**, and open the scope details panel.
-2. Copy the scope or subscope ID.
-3. From the global header, select **Manage** > **Access (IAM)** > **Users**.
-4. Select the user that you want to provide access to.
-5. Click **Access** > **Assign access**.
-6. Select **{{site.data.keyword.compliance_short}}** and click **Next**.
-7. Select **Specific resources**. Then, select either **Scope ID** or **Subscope ID**.
-8. Input your ID as the **Value** before you click **Next**.
-9. For permissions, select **Reader** and **InstanceViewer**. Then, click **Next**.
-10. Click **Add**. Review your selections in the side panel.
-11. Click **Assign**.
 
 
 

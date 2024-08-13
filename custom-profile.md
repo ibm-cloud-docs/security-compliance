@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-12"
+lastupdated: "2024-08-13"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -29,7 +29,7 @@ A profile is a grouping of controls that can be evaluated for compliance. In {{s
 ## Before you begin
 {: #before-profiles}
 
-Before you get started, be sure that you have the required level of access to create and manage profiles. To manage profiles, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
+Before you get started, be sure that you have the required level of access to create and manage profiles. To manage profiles, you need the [**Writer** service role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
 
 ## Building a profile
@@ -315,4 +315,3 @@ For more information, check out the [Terraform reference](https://registry.terra
 {: #profile-next}
 
 Now that you have a profile, start evaluating your resources by creating an attachment. From the profile details page, click the overflow menu for the profile that you want to evaluate. Then, click **Attach**.
-

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-12"
+lastupdated: "2024-08-13"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -28,7 +28,7 @@ A control library is a grouping of controls that are added to {{site.data.keywor
 ## Before you begin
 {: #before-custom-library}
 
-Before you get started, be sure that you have the required level of access to create and manage libraries. To manage libraries, you need the [**Editor** platform role or higher](/docs/security-compliance?topic=security-compliance-access-management).
+Before you get started, be sure that you have the required level of access to create and manage libraries. To manage libraries, you need the [**Writer** service role or higher](/docs/security-compliance?topic=security-compliance-access-management).
 
 
 ## Creating a library
@@ -391,5 +391,3 @@ For more information, check out the [Terraform reference](https://registry.terra
 {: #library-next}
 
 After your library is added to the service, you can use it to create a profile. From your library details, click **Actions > Create profile** to start evaluating your resources.
-
-
