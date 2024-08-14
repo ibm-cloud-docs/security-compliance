@@ -22,7 +22,6 @@ The following changes to the service were made available with the associated dat
 
 
 
-
 ## 9 July 2024
 {: #security-compliance-Jul0924}
 {: release-note}
