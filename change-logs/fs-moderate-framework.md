@@ -1,7 +1,7 @@
 ---
 copyright:
   years: "2024"
-lastupdated: "2024-08-15"
+lastupdated: "2024-08-16"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements, ai security
 
@@ -12,7 +12,7 @@ content-type: release-note
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Change log: IBM Cloud Framework for Financial Services (Moderate)
+# Change log: {{site.data.keyword.cloud_notm}} Framework for Financial Services (Moderate) 
 {: #moderate-fs-change-log}
 
 In this change log, you can learn about the latest changes, improvements, and updates for the Service Organization Control (IBM Cloud Framework for Financial Services (Moderate)) profile. The change log lists changes that were made, ordered by the version number.
