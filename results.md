@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-13"
+lastupdated: "2024-08-19"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -72,6 +72,9 @@ When you view results in {{site.data.keyword.compliance_short}}, each evaluation
 {: ui}
 
 To view the information of a scan, you can use the {{site.data.keyword.compliance_short}} UI.
+
+If you edit your scope after it is already part of an attachment, any following scan results are listed as a new entry in the detailed results for your attachment. This means that you might see two entries with the same name.
+{: note}
 
 1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access {{site.data.keyword.compliance_short}}.
 2. Click **Dashboard**.
