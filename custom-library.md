@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-19"
+lastupdated: "2024-08-20"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 

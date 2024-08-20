@@ -2,7 +2,7 @@
 
 copyright:
   years: "2024"
-lastupdated: "2024-08-19"
+lastupdated: "2024-08-20"
 
 keywords: watson machine learning, ai profiles, ai, artificial intelligence, cross-account scanning, secrets-manager, credentials
 
