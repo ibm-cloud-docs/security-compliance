@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-08-20"
+lastupdated: "2024-08-21"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, profile versioning, benchmark, controls, goals, security, compliance
 
