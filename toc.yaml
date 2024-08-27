@@ -141,6 +141,8 @@ toc:
                 navtitle: Caveonix Security Baselines for VMware
               - topic: change-logs/ospar.md
                 navtitle: OSPAR
+              - topic: change-logs/iso-iec.md
+                navtitle: ISO/IEC 27001:2022
           - topicgroup:
               label: Amazon Web Services
               topics:

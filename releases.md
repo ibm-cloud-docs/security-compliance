@@ -20,6 +20,13 @@ The following changes to the service were made available with the associated dat
 
 
 
+## 27 August 2024
+{: #security-compliance-aug2724}
+{: release-note}
+
+ISO/IEC 27001:2022 profile
+:   Version 1.0.0 of the ISO/IEC 27001:2022 profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-iso-iec-change-log).
+
 New version of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile
 :   Version 1.7.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-fs-change-log).
 
