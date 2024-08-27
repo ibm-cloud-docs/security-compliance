@@ -138,8 +138,6 @@ The following rules were updated in the {{site.data.keyword.cloud_notm}} for Fin
 {: caption="Table. Summary of the changes for version 1.1.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services (Moderate)" caption-side="top"}	
 
 
-
-
 ## Version 1.0.0
 {: #moderate-fs-version1}
 

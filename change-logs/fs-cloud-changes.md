@@ -48,7 +48,6 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 {: caption="Table. Active versions of the {{site.data.keyword.cloud_notm}} Framework for Financial Services profile" caption-side="top"}
 
 
-
 ## Version 1.7.0
 {: #fs-cloud-v170}
 
@@ -138,7 +137,6 @@ The following rules were updated in the {{site.data.keyword.cloud_notm}} Framewo
 | `rule-8226d451-d6a7-46a7-8313-f8c091d6e33f`	| Check whether IBM Cloud Kubernetes Service Ingress has TLS 1.2 enabled for all inbound traffic | `SC-11SC-13`, `SC-23`, `CM-7(b)`, `SC-7(4)(C)`, `SC-8` `SC-8(1)`	|  The rule was added. |
 | `rule-ba79b984-ec18-4fc1-965d-82cf701eb94f`	| Check whether an instance of IBM Log Analysis exists in each required region and is configured to receive platform logs	| `AC-4` | The rule was	removed. |
 {: caption="Table. Summary of the changes for version 1.7.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
-
 
 
 ## Version 1.6.0

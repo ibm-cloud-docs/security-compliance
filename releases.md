@@ -19,7 +19,6 @@ content-type: release-note
 The following changes to the service were made available with the associated date.
 
 
-
 ## 27 August 2024
 {: #security-compliance-aug2724}
 {: release-note}
