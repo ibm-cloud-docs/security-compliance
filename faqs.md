@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-04-18"
+lastupdated: "2024-08-13"
 
 keywords: supported controls, controls available, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -39,7 +39,7 @@ Yes, you can create rules for services or resources that are not already provisi
 {: faq}
 {: support}
 
-When you look at your results in the UI, you see that some results have "Additional details". This is because the results are associated with the Toolchain service. The Toolchain pipeline sends the associated details and evidence along with the results to {{site.data.keyword.compliance_short}}.
+The results that have "Additional details" are associated with the Toolchain service. The Toolchain pipeline sends the associated details and evidence along with the results to {{site.data.keyword.compliance_short}}.
 
 
 ## Which controls are supported by {{site.data.keyword.compliance_short}}?
@@ -48,4 +48,6 @@ When you look at your results in the UI, you see that some results have "Additio
 {: support}
 
 {{site.data.keyword.compliance_short}} supports various controls that are designed to help organizations manage and maintain the security and compliance of their systems and data. To view a list of available profiles, see [Available predefined profiles](/docs/security-compliance?topic=security-compliance-predefined-profiles). To view all of the controls that are supported by the product, go to the {{site.data.keyword.compliance_short}} UI in the {{site.data.keyword.cloud_notm}} console.
+
+
 

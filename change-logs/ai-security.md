@@ -1,7 +1,7 @@
 ---
 copyright:
   years: "2024"
-lastupdated: "2024-07-10"
+lastupdated: "2024-08-19"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements, ai security
 
@@ -40,6 +40,7 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 |:---------------|:-------------|:-------|
 | Version 1.0.0 | `2024-07-09` | Active |
 {: caption="Table. Active versions of the AI Security Guardrails 2.0 profile" caption-side="top"}
+
 
 
 ## Version 1.0.0

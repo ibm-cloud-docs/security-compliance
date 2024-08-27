@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-03-31"
+  years: 2020, 2024
+lastupdated: "2024-08-12"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -14,7 +14,7 @@ content-type: troubleshoot
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Why don't I see any results?
+# Why can't I see results for my custom rule or profile?
 {: #ts-results}
 {: troubleshoot}
 {: support}
@@ -26,7 +26,7 @@ You've created a profile or a rule but don't see any results.
 You can't find the results for your new profile or rule in your account. 
 {: tsSymptoms}
 
-You might not be able to view results for the following reasons:
+You might not be able to view the results for the following reasons:
 {: tsCauses}
 
 * Your rule isn't associated with a specification or profile.

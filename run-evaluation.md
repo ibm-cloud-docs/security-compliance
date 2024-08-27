@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-07-10"
+lastupdated: "2024-08-21"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -580,5 +580,3 @@ ibmcloud security-compliance attachment scan
 {: pre}
 
 After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
-
-

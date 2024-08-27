@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-23"
+lastupdated: "2024-08-21"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, profile versioning, benchmark, controls, goals, security, compliance
 
@@ -42,6 +42,13 @@ When the deprecated version of the profile expires:
 You can still view the results for your attachments through the Security and Compliance dashboard, or by pulling them from your Cloud Object Storage bucket. But, you cannot see your attachment in the list of attachments in the UI.
 {: tip}
 
+## Before you begin
+{: #before-profile-verisons}
+
+Before you get started, be sure that you have the required level of access to upgrade your attachment's profile. To manage the lifecycle of a profile, you need the [**Writer** service role or higher](/docs/security-compliance?topic=security-compliance-access-management).
+
+
+
 ## Upgrading an attachment to a new profile version
 {: #upgrade-profile-versions}
 
@@ -58,4 +65,3 @@ You can upgrade your attachment to use the new profile version anytime during th
 
 You can't create a new attachment to a deprecated profile version through the {{site.data.keyword.compliance_short}} UI. However, you can do so using the [API](/apidocs/security-compliance?code=curl#create-attachment) until the deprecated profile version expires.
 {: tip}
-
