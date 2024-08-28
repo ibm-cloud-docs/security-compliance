@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-27"
+lastupdated: "2024-08-28"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -17,6 +17,8 @@ content-type: release-note
 {: #release-notes}
 
 The following changes to the service were made available with the associated date.
+
+
 
 
 ## 27 August 2024
@@ -88,8 +90,6 @@ Updated rules
    * Check whether there are no wild cards in the private and public endpoints allow list for Messages for Rabbitmq (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Security and Compliance Center Workload Protection(Context-based restrictions or service)
    * Check whether Cloud Object Storage can be accessed only through a private endpoint or direct endpoint(Context-based restrictions or service) and allowed IPs
-
-
 
 
 
