@@ -139,7 +139,6 @@ The following rules were updated in the {{site.data.keyword.cloud_notm}} for Fin
 
 
 
-
 ## Version 1.0.0
 {: #moderate-fs-version1}
 
