@@ -1,7 +1,7 @@
 ---
 copyright:
   years: "2024"
-lastupdated: "2024-08-27"
+lastupdated: "2024-09-10"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements, ai security
 
@@ -136,7 +136,6 @@ The following rules were updated in the {{site.data.keyword.cloud_notm}} for Fin
 | `rule-2f84317e-83b3-451d-bb95-9bd4ba953bdf`	| Check that there is an Activity Tracker hosted event search defined in each region to collect location-based events	| `AC-2(4)`, `AC-2(7)(b)`, `AC-2(g)`, `AC-6(9)`, `AU-12(a)`, `AU-12(b)`, `AU-12(c)`, `AU-2(a)`, `AU-2(d)`, `AU-3`, `AU-8(1)(a)`, `AU-8(1)(b)`, `AU-8(a)`, `AU-8(b)`, `CA-7(d)`, `SI-4(a)`, `SI-4(b)`, `SI-4`, and `SI-4(c)` | The rule was	added. |
 | `rule-ba79b984-ec18-4fc1-965d-82cf701eb94f`	| Check whether an instance of IBM Log Analysis exists in each required region and is configured to receive platform logs	| `AC-4` | The rule was	removed. |
 {: caption="Table. Summary of the changes for version 1.1.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services (Moderate)" caption-side="top"}	
-
 
 
 ## Version 1.0.0

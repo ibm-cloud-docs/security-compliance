@@ -1,7 +1,7 @@
 ---
 copyright:
   years: "2024"
-lastupdated: "2024-08-19"
+lastupdated: "2024-09-10"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements, ai security
 
@@ -38,8 +38,25 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
+| Version 1.1.0 | `2024-09-10` | Active |
 | Version 1.0.0 | `2024-07-09` | Active |
 {: caption="Table. Active versions of the AI Security Guardrails 2.0 profile" caption-side="top"}
+
+
+
+## Version 1.1.0
+{: #ai-sec-v110}
+
+The following rules were updated in the AI Security Guardrails 2.0 profile as of 10 September 2024.
+
+| Rule ID | Rule description| Associated controls | Update |
+|:--------|:----------------|:--------------------|:-------|
+| `rule-8cbd597c-7471-42bd-9c88-36b2696456e9`	| Check whether Cloud Object Storage network access is restricted to a specific IP range |	`Mod 4.1` |	The rule was removed. |
+| `rule-3027fd86-72c5-4c81-8ccd-ff556a922ec1`	| Check whether Cloud Object Storage network access is restricted to a specific IP range |	`Mod 4.1` |	The rule was added. |
+| `rule-92c541f6-5c40-47e1-935d-228ec688dc1c`	| Check whether account has at least one VPN or Direct Link configured	| `Mod 4.1`	| The rule was removed. |
+| `rule-a3b44c6a-1911-4d88-beea-58e56522a7ef` | Check whether account has at least # instances of VPN or Direct Link configured | `Mod 4.1` | The rule was added. |
+| `rule-c0f15737-b451-44d0-a0b6-649013a155bc`	| Check whether there are at least # instances of Direct Link in an account |	`ISR 1.3`	| The rule was removed. |
+{: caption="Table. Summary of the changes for version 1.1.0 of the AI Security Guardrails 2.0 profile" caption-side="top"}
 
 
 
