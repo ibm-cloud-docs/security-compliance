@@ -18,6 +18,12 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
+## 10 September 2024
+{: #security-compliance-sep1024}
+{: release-note}
+
+New version of the AI Security Guardrails 2.0 profile
+:   Version 1.1.0 of the AI Security Guardrails 2.0 profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-ai-security-change-log).
 
 
 New rules available
@@ -26,8 +32,6 @@ New rules available
    * Check whether App ID email dispatchers are using HTTPS only
    * Check whether App ID webhooks are using HTTPS only
    * Check whether App ID is enabled with customer-managed encryption and Keep Your Own Key (KYOK)
-
-
 
 Updated rules
 :   The following rules were updated. Most of these rules are mapped to following profiles.
@@ -95,8 +99,6 @@ Updated rules
    * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Security and Compliance Center Workload Protection(Context-based restrictions or service)
    * Check whether Virtual Private Cloud (VPC) has no public gateways attached
    * Check whether Virtual Private Cloud (VPC) has no public gateways attached at the time of provisioning
-
-
 
 
 ## 27 August 2024
