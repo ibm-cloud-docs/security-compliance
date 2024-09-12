@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-09-10"
+lastupdated: "2024-09-12"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -33,72 +33,6 @@ New rules available
    * Check whether App ID webhooks are using HTTPS only
    * Check whether App ID is enabled with customer-managed encryption and Keep Your Own Key (KYOK)
 
-Updated rules
-:   The following rules were updated. Most of these rules are mapped to following profiles.
-
-   - IBM Cloud Framework for Financial Services(1.5.0),
-   - IBM Cloud Framework for Financial Services(1.6.0),
-   - IBM Cloud Framework for Financial Services (Moderate)(1.0.0).
-   - IBM Cloud Framework for Financial Services(1.7.0)
-   - IBM Cloud Framework for Financial Services (Moderate)(1.1.0)
-   - ISO/IEC 27001:2022
-
-   A new parameter was added to these rules with the description `Maximum length of netmask bit that is considered as wide flow`. For example, if `8` is considered as wide flow and is updated as the parameter value, then `cbr` configurations can't have any netmask bit from `0` to `8`. If `9` is configured through the `cbr` IP list, then this rule is compliant.`256` is set as the default value but you can update it based on your organization's requirements.
-
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list Flow Logs for VPC (Context-based restrictions or service)
-	* Check whether there are no wild cards and wideflows in the private and public endpoints allow list for App Configuration (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Auto Scale for VPC (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Backup for VPC (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Bare Metal Servers for VPC (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Block Storage for VPC (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Block Storage Snapshots for VPC (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Client VPN for VPC (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Cloud Object Storage (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Code Engine (Context-based restrictions or service)	
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Container Registry (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Dedicated Host for VPC (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Direct Link (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for DNS Services (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Event Notifications (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Event Streams (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Hyper Protect Crypto Services (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for IAM access groups (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for IAM access management (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for IAM identities (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Kubernetes Service (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Load Balancer for VPC (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Schematics (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Secrets Manager (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Security and Compliance Center (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Transit Gateway (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for User Management (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Virtual Private Cloud (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Virtual Private Endpoints for VPC (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Virtual Servers for VPC (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC floating IPs (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC images (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC network access control lists (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC placement groups (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC public gateways (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC security groups (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC SSH key (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC subnets (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPN for VPC (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for IBM Cloud Activity Tracker (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for IBM Cloud Monitoring (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for IBM Log Analysis (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Databases for EDB (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Databases for ElasticSearch (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Databases for etcd (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Databases for Mongodb (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Databases for MySql (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Databases for PostgreSQL (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Databases for Redis (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Key Protect (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Messages for Rabbitmq (Context-based restrictions or service)
-   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Security and Compliance Center Workload Protection(Context-based restrictions or service)
-   * Check whether Virtual Private Cloud (VPC) has no public gateways attached
-   * Check whether Virtual Private Cloud (VPC) has no public gateways attached at the time of provisioning
 
 
 ## 27 August 2024
