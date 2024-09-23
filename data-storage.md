@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-13"
+lastupdated: "2024-09-23"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -43,8 +43,8 @@ The processing of your data is configured in your instance's location. For examp
 
 To connect your Cloud Object Storage bucket, you can use the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Settings**.
+1. In the {{site.data.keyword.cloud_notm}} console, go to the **Resource list** page and select your instance of {{site.data.keyword.compliance_short}}.
+2. In your instance of {{site.data.keyword.compliance_short}}, go to the **Settings** page.
 3. On the **Storage** tile, click **Connect**.
 4. If a service-to-service policy is not enabled between Cloud Object Storage and {{site.data.keyword.compliance_short}}, a notification will display. You must enable a policy before you can continue. If a policy has already been enabled, you will not see the notification and can skip to step 5. To enable a policy, use the following steps.
 	1. Click **Authorize**.

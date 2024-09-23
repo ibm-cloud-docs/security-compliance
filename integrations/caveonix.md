@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-10"
+lastupdated: "2024-09-23"
 
 keywords: Centralized security, workload protection, compliance monitoring, compliance, scan, sysdig, multicloud, multi-cloud, azure, amazon, aws
 
@@ -75,10 +75,10 @@ Now that you have a key, you're ready to start the connection flow in {{site.dat
 
 To create a connection with Caveonix with {{site.data.keyword.compliance_short}}, you need to register Caveonix as an integration through the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
-1. In the navigation, click **Integrations**.
-1. In the **Caveonix** tile, click **Connect**. A side panel opens.
-1. Provide a **Name** for your connection and click **Connect**.
+1. In the {{site.data.keyword.cloud_notm}} console, go to the **Resource list** page and select your instance of {{site.data.keyword.compliance_short}}.
+2. In your instance of {{site.data.keyword.compliance_short}}, go to the **Integrations** page.
+3. In the **Caveonix** tile, click **Connect**. A side panel opens.
+4. Provide a **Name** for your connection and click **Connect**.
 
 ## Creating an attachment
 {: #caveonix-attachment}
@@ -112,5 +112,3 @@ You must log in to Caveonix to view the Caveonix documentation. If you run into 
 {: #caveonix-results}
 
 To view the results of your scan, go to the dashboard in the UI of the {{site.data.keyword.compliance_short}} instance that you are working with. For more information about the details in your results, see [Viewing results](/docs/security-compliance?topic=security-compliance-results).
-
-

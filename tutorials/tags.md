@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-04-15"
+lastupdated: "2024-09-23"
 
 keywords: customize rules, parameters, customize parameters, customize goals, security and compliance, tags
 
@@ -44,15 +44,14 @@ Before you get started with this tutorial, be sure you have the prerequisites:
 
 Services that support resource tags have additional configuration properties such as `user_tags`, `service_tags` and `access_tags`. You can create custom rules by using one or more of these properties.
 
-1. In the {{site.data.keyword.cloud_notm}} console, go to **Resource list** and select the **Security and Compliance Center** instance that you want to work with or go to **Global menu > Security and Compliance**.
-2. In the navigation of the {{site.data.keyword.compliance_short}} UI, click **Controls > Rules**.
-3. Click **Create**.
-4. Enter a Description. For example: `Check if Event Notifications instances have production tags`
-5. Select **Event Notifications** as the service in the **Target your resource** section
+1. In the {{site.data.keyword.cloud_notm}} console, go to the **Resource list** page and select your instance of {{site.data.keyword.compliance_short}}.
+2. In your instance of {{site.data.keyword.compliance_short}}, go to the **Controls** > **Rules** page and click **Create**.
+3. Enter a Description. For example: `Check if Event Notifications instances have production tags`
+4. Select **Event Notifications** as the service in the **Target your resource** section
 
    ![A visual representation of how to select the target service.](../images/target-your-resource.png){: caption="Figure 1. Example of setting the target resource" caption-side="bottom"}
 
-6. In the **Configure your properties** section, make the following selections.
+5. In the **Configure your properties** section, make the following selections.
    1. Select **user_tags** as the property.
    2. Select **strings_required** as the operator.
    3. Enter **env:prod** as the value.
@@ -60,12 +59,12 @@ Services that support resource tags have additional configuration properties suc
 
       ![A visual representation of how to select configure the resource properties.](../images/configure-properties.png){: caption="Figure 2. Example of configuring resource properties" caption-side="bottom"}
 
-7. Review the JSON of your rule to ensure that it is correct.
+6. Review the JSON of your rule to ensure that it is correct.
 
    ![A visual representation of JSON.](../images/add-to-rule.png){: caption="Figure 3. Example of the rule JSON" caption-side="bottom"}
 
-8. Click **Next**.
-9. Review the full rule definition and click **Create**.
+7. Click **Next**.
+8. Review the full rule definition and click **Create**.
 
 Now you have a custom rule to check if Event Notifications resources have `env:prod` tag.
 

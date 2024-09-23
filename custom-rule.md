@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-21"
+lastupdated: "2024-09-23"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -149,17 +149,18 @@ You can use the {{site.data.keyword.compliance_short}} UI to define the configur
 You can either use the rule builder or edit the JSON directly.
 {: tip}
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Controls > Rules**, and click **Create**.
-2. Give your rule a meaningful name and description.
-3. Optional: Add one or more labels that you can use to organize and search for similar rules and click **Next**.
-4. Target your resource.
+1. In the {{site.data.keyword.cloud_notm}} console, go to the **Resource list** page and select your instance of {{site.data.keyword.compliance_short}}.
+2. In your instance of {{site.data.keyword.compliance_short}}, go to the **Rules** page and click **Create**.
+3. Give your rule a meaningful name and description.
+4. Optional: Add one or more labels that you can use to organize and search for similar rules and click **Next**.
+5. Target your resource.
    1. From the **Target service** drop-down, select a service. For example, *Cloud Object Storage*.
    2. From the **Resource type** drop-down, select the type of resource that you want to create a rule for. For example, *Bucket*.
    3. Optional: Add additional target attributes to further qualify the resources that you want to target.
 
       For example, to target all of your Cloud Object Storage buckets in the US South location, you would make the following selections: **Attribute**: `Location`, **Value**: `string_equals`, and enter `us_south` for **Value**.
    4. Click **Add to rule**.
-5. Configure your properties. 
+6. Configure your properties. 
 
 	To add additional properties to your rule, repeat this step. You can select up to 5 different conditions and 16 properties to create your rule. 
 
@@ -169,12 +170,12 @@ You can either use the rule builder or edit the JSON directly.
       * **Or**: When you select *Or* as your condition, only part of your rule must evaluate to true for it to be compliant.
    2. Define the rule by specifying a **Property**, **Operator**, and **Value**.
 
-		To see all the properties that are available for the service that you selected, you can click **Available Properties** in the **Definition** step.
+      To see all the properties that are available for the service that you selected, you can click **Available Properties** in the **Definition** step.
 
    3. Click **Add to rule**.
 
-6. Click **Next**.
-7. Review your selections and click **Create**.
+7. Click **Next**.
+8. Review your selections and click **Create**.
 
 
 ## Creating a rule with the API

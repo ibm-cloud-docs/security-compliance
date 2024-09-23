@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-21"
+lastupdated: "2024-09-23"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -481,8 +481,8 @@ When you create your attachment, a scan is scheduled. When the scan completes, y
 
 If your attachment exists, but you don't want to wait for the next scan to see your posture, you can initiate an on-demand scan.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Profile**.
+1. In the {{site.data.keyword.cloud_notm}} console, go to the **Resource list** page and select your instance of {{site.data.keyword.compliance_short}}.
+2. In your instance of {{site.data.keyword.compliance_short}}, go to the **Profiles** page.
 3. Click the options menu ![options icon](../../icons/actions-icon-vertical.svg) in the row of the profile that you want to evaluate.
 3. Click **Run scan**.
 
