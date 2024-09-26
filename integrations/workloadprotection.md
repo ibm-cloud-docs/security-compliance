@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-10-11"
+  years: 2024
+lastupdated: "2024-09-23"
 
 keywords: Centralized security, workload protection, compliance monitoring, compliance, scan, sysdig, multicloud, multi-cloud, azure, amazon, aws
 
@@ -55,8 +55,8 @@ You must select a profile that targets another environment. For example, Azure K
 
 Register an integration with the {{site.data.keyword.compliance_short}}.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) > **Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
-1. In the navigation, click **Integrations**.
+1. In the {{site.data.keyword.cloud_notm}} console, go to the **Resource list** page and select your instance of {{site.data.keyword.compliance_short}}.
+1. In your instance of {{site.data.keyword.compliance_short}}, go to the **Integrations** page.
 1. In the **{{site.data.keyword.sysdigsecure_short}}** tile, click **Connect**.
 1. On the **Connect your {{site.data.keyword.sysdigsecure_short}}** account panel, provide a name for your connection.
 1. Set up service-to-service authorization, which allows {{site.data.keyword.compliance_short}} to communicate with {{site.data.keyword.sysdigsecure_short}}.
@@ -100,4 +100,3 @@ Based on the schedule that you defined in your connection, {{site.data.keyword.s
 {: #wp-results}
 
 To view the results of your scan, go to the dashboard in the UI of the {{site.data.keyword.compliance_short}} instance that you are working with. For more information about the details in your results, see [Viewing results](/docs/security-compliance?topic=security-compliance-results).
-

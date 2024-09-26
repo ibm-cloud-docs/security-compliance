@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-21"
+lastupdated: "2024-09-23"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -37,8 +37,8 @@ Before you get started, be sure that you have the required level of access to cr
 
 You can create a custom library by using the {{site.data.keyword.compliance_short}} UI.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance** to access the {{site.data.keyword.compliance_short}}.
-2. In the navigation, click **Controls > Control libraries**. 
+1. In the {{site.data.keyword.cloud_notm}} console, go to the **Resource list** page and select your instance of {{site.data.keyword.compliance_short}}.
+2. In your instance of {{site.data.keyword.compliance_short}}, click **Controls > Control libraries**. 
 3. Click **Create**. A side panel opens.
 4. Provide a name, description, and version for your library.
 5. Click **Create**. Your library opens in a new page but is empty.
@@ -168,8 +168,6 @@ System.out.println(controlLibrary);
 ```
 {: codeblock}
 {: java}
-
-
 
 ```bash
 // Request models needed by this operation.

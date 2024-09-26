@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-13"
+lastupdated: "2024-09-23"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -50,7 +50,7 @@ If you are working in an enterprise account, you must also assign permissions fo
 You can assign *Administrator* access for the service, or you can create a custom role. When you assign permissions for an enterprise, you can give access to the full enterprise or specific accounts or account groups. To learn more about recommendations for enterprises, see [Best practices for enterprises](/docs/security-compliance?topic=security-compliance-best-practices#bp-enterprise).
 {: tip}
 
-1. In the Console, go to **Manage > Access (IAM) > Roles** and click **Create**.
+1. In the console, go to **Manage > Access (IAM) > Roles** and click **Create**.
 2. Give your role a name, programmatic ID, and description. For example, *Compliance focal*, *ComplianceFocal*, and *Permissions that are required for compliance focal to work with {{site.data.keyword.compliance_short}}*.
 3. From the **Service** drop-down, select **Enterprise**, and then add the following actions.
 	* `enterprise.enterprise.attach-config-rules`
@@ -84,6 +84,3 @@ To evaluate the resources that run on Satellite, you must create a service-to-se
 6. Leave **All resources** selected.
 7. Check **Viewer** to provide the required access.
 8. Click **Authorize**.
-
-
-

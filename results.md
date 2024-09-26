@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-27"
+lastupdated: "2024-09-23"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -75,8 +75,8 @@ To view the information of a scan, you can use the {{site.data.keyword.complianc
 
 
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access {{site.data.keyword.compliance_short}}.
-2. Click **Dashboard**.
+1. In the {{site.data.keyword.cloud_notm}} console, go to the **Resource list** page and select your instance of {{site.data.keyword.compliance_short}}.
+2. In your instance of {{site.data.keyword.compliance_short}}, go to the **Dashboard**.
 3. In the **Detailed results** section, find the row for the specific **Scope** and **Profile** combination that you want to view results for and click **View** in the **Results** column.
 
 A page opens with an **Overview** of your results. To further investigate, you can view the results by **Control** or by **Resource**. Check out the following table to see what information is available in each tab.
@@ -198,8 +198,8 @@ For more information, check out the {{site.data.keyword.compliance_short}} [Terr
 
 If you need to keep your results for long periods of time, or provide information to key stakeholders, you can download a report.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and compliance** to access {{site.data.keyword.compliance_short}}.
-2. Click **Dashboard**.
+1. In the {{site.data.keyword.cloud_notm}} console, go to the **Resource list** page and select your instance of {{site.data.keyword.compliance_short}}.
+2. In your instance of {{site.data.keyword.compliance_short}}, go to the **Dashboard**.
 3. Find the row for the specific **Scope** and **Profile** combination that you want to view results for and click the **Results** link. A page with the details of the latest evaluation opens.
 4. Click **Download report**.
 

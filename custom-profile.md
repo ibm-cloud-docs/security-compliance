@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-21"
+lastupdated: "2024-09-23"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -38,28 +38,29 @@ Before you get started, be sure that you have the required level of access to cr
 
 You can create a profile through the console by using a control library as a guide.
 
-1. In the {{site.data.keyword.cloud_notm}} console, click the **Menu** icon ![Menu icon](../icons/icon_hamburger.svg) **> Security and Compliance > Profiles**, and click **Create**.
-2. Provide your profile details, including a **Name**, **Version**, and optionally a **Description**.
+1. In the {{site.data.keyword.cloud_notm}} console, go to the **Resource list** page and select your instance of {{site.data.keyword.compliance_short}}.
+2. In your instance of {{site.data.keyword.compliance_short}}, go to the **Profiles** page and click **Create**.
+3. Provide your profile details, including a **Name**, **Version**, and optionally a **Description**.
 
 	The version of your profile must be specified in SemVer format. For example, `1.0.2` or `2.1.3-alpha`.
 
-3. Click **Next**.
-4. Add controls.
+4. Click **Next**.
+5. Add controls.
 	1.  Click **Add** to view the available control libararies. 
 	2. Select the library that you want to pull controls from.
 		
-		Because you cannot create custom profiles from deprecated control library versions, work with the most recent version. If you don't see exactly what you're looking for, you can always create a custom control library and it will display in the screen.
-		{: tip}
+      Because you cannot create custom profiles from deprecated control library versions, work with the most recent version. If you don't see exactly what you're looking for, you can always create a custom control library and it will display in the screen.
+      {: tip}
 
 	3. Select the controls that you want to evaluate. To view the associated assessments, you can click eye icon.
 	4. When you have all of your controls selected, click **Add**.
 	5. Optional: If you want to pull controls from another library into your profile, repeat the previous steps and select another profile.
 	6. Review your selected controls, and then click **Next**.
-5. Define the parameter values by expanding each row to view the input that is required for each specification. 
+6. Define the parameter values by expanding each row to view the input that is required for each specification. 
 
 	Your selected controls might not have any assessments that require parameter input. If that is the case, a message will tell you to skip to the next step.
 
-6. Review your selections, and then click **Create**.
+7. Review your selections, and then click **Create**.
 
 ## Building a profile with the API
 {: #create-profile-api}

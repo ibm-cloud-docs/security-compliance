@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-07"
+lastupdated: "2024-09-23"
 
 keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
 
@@ -50,8 +50,8 @@ Before you can enable notifications for {{site.data.keyword.compliance_short}}, 
 
 ![The image shows the {{site.data.keyword.en_short}} screen in the Security and Compliance Center UI.](../images/event-notifications.svg){: caption="Figure 1. Connecting to {{site.data.keyword.en_short}}" caption-side="bottom"}
 
-1. In the console, click the **Menu** icon ![Menu icon](../../icons/icon_hamburger.svg) **> Security and Compliance**.
-2. In the {{site.data.keyword.compliance_short}} navigation, click **Settings**.
+1. In the {{site.data.keyword.cloud_notm}} console, go to the **Resource list** page and select your instance of {{site.data.keyword.compliance_short}}.
+2. In your instance of {{site.data.keyword.compliance_short}}, go to the **Settings** page.
 3. In the {{site.data.keyword.en_short}} section, and click **Connect**.
 4. In the side panel, review the source details for the connection. Optionally, provide a description.
 5. Select the resource group and {{site.data.keyword.en_short}} service instance that you want to connect.
@@ -439,5 +439,3 @@ Review the following table for more information about event notification propert
 | `start_time` | The date and time the scan started. |
 | `end_time` | The date and time the scan completed. |
 {: caption="Table 2. Properties in an event notification payload" caption-side="bottom"}
-
-
