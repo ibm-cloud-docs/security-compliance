@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-09-26"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -19,6 +19,89 @@ content-type: release-note
 The following changes to the service were made available with the associated date.
 
 
+
+
+
+## 17 September 2024
+{: #security-compliance-sep1724}
+{: release-note}
+
+Rules changes are avaialable
+:   The following rules are updated. Most of these rules are mapped to following profiles.
+
+   - IBM Cloud Framework for Financial Services(1.5.0),
+   - IBM Cloud Framework for Financial Services(1.6.0),
+   - IBM Cloud Framework for Financial Services (Moderate)(1.0.0).
+   - IBM Cloud Framework for Financial Services(1.7.0)
+   - IBM Cloud Framework for Financial Services (Moderate)(1.1.0)
+   - ISO/IEC 27001:2022
+
+   A new input parameter was added to the following set of rules to check if all CBR-allowed IP CIDRs that are configured allow access to too many IP addresses to prvent allowing access to unforeseen IP addresses. You can then block any inadvertent changes to the netmask bit portion of CIDR.
+
+   With this input parameter (`netmask_bits_length`), you can specify the netmask bit length that applies to your network setup. If any CBR rules have the allowed IP CIDR netmask bit length set to less than or equal to `netmask_bits_length`, then the rule is considered noncompliant.
+
+   For example, if the parameter `netmask_bits_length` is set to `8`, then all netmask bit lengths that are in the IP CIDRs that are allowed by CBR rule must be greater than 8 (9 thru 32).
+
+   This rule, in all pre-defined profiles, has 256 as the default value to allow all configured netmask bit lengths. You can set this parameter to the value that you need.
+
+   The following rules are updated:
+
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list Flow Logs for VPC (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for App Configuration (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Auto Scale for VPC (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Backup for VPC (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Bare Metal Servers for VPC (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Block Storage for VPC (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Block Storage Snapshots for VPC (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Client VPN for VPC (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Cloud Object Storage (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Code Engine (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Container Registry (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Dedicated Host for VPC (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Direct Link (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for DNS Services (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Event Notifications (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Event Streams (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Hyper Protect Crypto Services (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for IAM access groups (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for IAM access management (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for IAM identities (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Kubernetes Service (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Load Balancer for VPC (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Schematics (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Secrets Manager (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Security and Compliance Center (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Transit Gateway (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for User Management (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Virtual Private Cloud (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Virtual Private Endpoints for VPC (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Virtual Servers for VPC (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC floating IPs (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC images (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC network access control lists (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC placement groups (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC public gateways (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC security groups (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC SSH key (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPC subnets (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for VPN for VPC (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for IBM Cloud Activity Tracker (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for IBM Cloud Monitoring (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for IBM Log Analysis (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Databases for EDB (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Databases for ElasticSearch (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Databases for etcd (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Databases for Mongodb (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Databases for MySql (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Databases for PostgreSQL (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Databases for Redis (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Key Protect (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Messages for Rabbitmq (Context-based restrictions or service)
+   * Check whether there are no wild cards and wideflows in the private and public endpoints allow list for Security and Compliance Center Workload Protection(Context-based restrictions or service)
+   * Check whether Virtual Private Cloud (VPC) has no public gateways attached
+   * Check whether Virtual Private Cloud (VPC) has no public gateways attached at the time of provisioning
+   * Check whether Cloud Object Storage buckets attached to IBM watsonx projects are enabled with IBM Cloud Monitoring
+   * Check whether Cloud Object Storage buckets attached to IBM watsonx projects are enabled with IBM Activity Tracker
 
 
 
