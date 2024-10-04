@@ -24,6 +24,7 @@ The following changes to the service were made available with the associated dat
 
 
 
+
 ## 17 September 2024
 {: #security-compliance-sep1724}
 {: release-note}
@@ -104,7 +105,6 @@ Rules changes are avaialable
    * Check whether Virtual Private Cloud (VPC) has no public gateways attached at the time of provisioning
    * Check whether Cloud Object Storage buckets attached to IBM watsonx projects are enabled with IBM Cloud Monitoring
    * Check whether Cloud Object Storage buckets attached to IBM watsonx projects are enabled with IBM Activity Tracker
-
 
 
 ## 10 September 2024
@@ -193,7 +193,6 @@ Updated rules
    * Check whether there are no wild cards in the private and public endpoints allow list for Messages for Rabbitmq (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Security and Compliance Center Workload Protection(Context-based restrictions or service)
    * Check whether Cloud Object Storage can be accessed only through a private endpoint or direct endpoint(Context-based restrictions or service) and allowed IPs
-
 
 
 ## 9 July 2024
