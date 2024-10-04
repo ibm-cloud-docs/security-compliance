@@ -29,7 +29,7 @@ The following changes to the service were made available with the associated dat
 {: #security-compliance-sep1724}
 {: release-note}
 
-Rules changes are avaialable
+Rules changes are available
 :   The following rules are updated. Most of these rules are mapped to following profiles.
 
    - IBM Cloud Framework for Financial Services(1.5.0),
