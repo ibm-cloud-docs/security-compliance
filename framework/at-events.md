@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-10-11"
+  years: 2020, 2024
+lastupdated: "2024-10-07"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -9,6 +9,9 @@ subcollection: security-compliance
 ---
 
 {{site.data.keyword.attribute-definition-list}}
+
+
+
 
 # Auditing events for {{site.data.keyword.compliance_short}}
 {: #at_events}
@@ -61,4 +64,3 @@ You must use a paid plan for the {{site.data.keyword.at_short}} service to see e
 | `compliance.admin-settings.update` | Update {{site.data.keyword.compliance_short}} settings for your account. |
 | `compliance.admin-test-event.send` | Send a test event to a connected {{site.data.keyword.en_short}} service instance. |
 {: caption="Table 1. List of events that apply to {{site.data.keyword.compliance_short}}" caption-side="top"}
-

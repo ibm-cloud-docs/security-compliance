@@ -53,10 +53,12 @@ toc:
           label: Evaluating your resources
           topics:
           - available-components.md
-          - run-evaluation.md
-          - run-evaluation-cross-account.md
-          - run-evaluation-saas.md
-          - profile-versioning.md
+          - topicgroup:
+              label: Scanning for compliance
+              topics:
+              - scopes.md
+              - subscopes.md
+              - attachments.md
           - topicgroup:
               label: Customizing your evaluation
               topics:
@@ -71,8 +73,10 @@ toc:
           - integrations/caveonix.md
           - integrations/workloadprotection.md
       - topicgroup:
-          label: Logging and monitoring
+          label: Observability
           topics:
+          - topic: framework/at-events.md
+            navtitle: Activity tracking events
           - framework/external-logs.md
       - topicgroup:
           label: Enhancing security
@@ -83,8 +87,6 @@ toc:
             navtitle: Understanding data encryption
           - topic: framework/architecture-workload-isolation.md
             navtitle: Learning about architecture and workload isolation
-          - topic: framework/at-events.md
-            navtitle: Auditing events
           - topic: framework/cbr.md
           - topic: framework/vpe.md
             navtitle: Using private endpoints
@@ -194,6 +196,8 @@ toc:
           topics:
           - troubleshooting/contact.md
           - troubleshooting/no-results.md
+          - troubleshooting/no-results-scope.md
+          - troubleshooting/multiple-results.md
           - troubleshooting/result-deleted-resource.md
           - troubleshooting/ts-cos-store.md
           - troubleshooting/ts-notifications.md

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-04"
+lastupdated: "2024-10-07"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -21,6 +21,15 @@ The following changes to the service were made available with the associated dat
 
 
 
+
+
+
+## 7 October 2024
+{: #security-compliance-Oct0724}
+{: release-note}
+
+Subscopes
+:   You can now segment a scope to ensure that only those users who need to have access to certain resource information have it. For more information see, [Segmenting your scope](/docs/security-compliance?topic=security-compliance-subscopes).
 
 
 
