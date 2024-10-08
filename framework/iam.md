@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-13"
+lastupdated: "2024-10-07"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -72,6 +72,10 @@ Last year, {{site.data.keyword.compliance_short}} transitioned from a global ser
 | `compliance.posture-management.scopes-read` | View scopes. | Viewer | Reader |
 | `compliance.posture-management.scopes-update` | Edit a scope. | Editor | Writer |
 | `compliance.posture-management.scopes-delete` | Delete a scope. | Editor | Writer |
+| `compliance.posture-management.subscopes-create` | Create a subscope. | Editor | Writer |
+| `compliance.posture-management.subscopes-read` | View subscopes. | Viewer | Reader |
+| `compliance.posture-management.subscopes-update` | Edit a subscope. | Editor | Writer |
+| `compliance.posture-management.subscopes-delete` | Delete a subscope. | Editor | Writer |
 | `compliance.targets.create` | Create a target. | Editor | Writer |
 | `compliance.targets.read` | View targets. | Viewer | Reader |
 | `compliance.targets.update` | Update a target. | Editor | Writer |
@@ -114,4 +118,3 @@ If you are working within an enterprise account and want to configure scans for 
 * `enterprise.account-group.retrieve`
 * `enterprise.enterprise.retrieve`
 * `global-search-tagging.resource.read`
-

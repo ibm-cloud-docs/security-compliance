@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-09-26"
+lastupdated: "2024-10-07"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -22,11 +22,23 @@ The following changes to the service were made available with the associated dat
 
 
 
+
+
+## 7 October 2024
+{: #security-compliance-Oct0724}
+{: release-note}
+
+Subscopes
+:   You can now segment a scope to ensure that only those users who need to have access to certain resource information have it. For more information see, [Segmenting your scope](/docs/security-compliance?topic=security-compliance-subscopes).
+
+
+
+
 ## 17 September 2024
 {: #security-compliance-sep1724}
 {: release-note}
 
-Rules changes are avaialable
+Rules changes are available
 :   The following rules are updated. Most of these rules are mapped to following profiles.
 
    - IBM Cloud Framework for Financial Services(1.5.0),
@@ -102,7 +114,6 @@ Rules changes are avaialable
    * Check whether Virtual Private Cloud (VPC) has no public gateways attached at the time of provisioning
    * Check whether Cloud Object Storage buckets attached to IBM watsonx projects are enabled with IBM Cloud Monitoring
    * Check whether Cloud Object Storage buckets attached to IBM watsonx projects are enabled with IBM Activity Tracker
-
 
 
 ## 10 September 2024
@@ -191,7 +202,6 @@ Updated rules
    * Check whether there are no wild cards in the private and public endpoints allow list for Messages for Rabbitmq (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Security and Compliance Center Workload Protection(Context-based restrictions or service)
    * Check whether Cloud Object Storage can be accessed only through a private endpoint or direct endpoint(Context-based restrictions or service) and allowed IPs
-
 
 
 ## 9 July 2024

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-10-07"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -21,6 +21,11 @@ With {{site.data.keyword.compliance_full}}, you can view the results of a compli
 
 
 
+If you have access to a subscope but not the overarching scope, you will only see the results for the resources that you have [access to view](/docs/security-compliance?topic=security-compliance-assign-roles).
+{: tip}
+
+
+
 
 
 ## Before you begin
@@ -31,6 +36,7 @@ Before you get started, be sure that you have the following prerequisites.
 * The required level of access to view results. 
 
    * To view results for an entire scope in your account, you must have the [**Reader** service role or higher](/docs/security-compliance?topic=security-compliance-access-management).
+   * To view results for a subscope, you must have the [**Reader** service role or higher](/docs/security-compliance?topic=security-compliance-access-management) to {{site.data.keyword.compliance_short}} and for the resource that is being evaluated.
    * If you are evaluating resources that require more credentials, you must also have access to those credentials.
 
 
@@ -72,6 +78,11 @@ When you view results in {{site.data.keyword.compliance_short}}, each evaluation
 {: ui}
 
 To view the information of a scan, you can use the {{site.data.keyword.compliance_short}} UI.
+
+
+
+If you edit your scope after it is already part of an attachment, any following scan results are listed as a new entry in the detailed results for your attachment. This means that you might see two entries with the same name.
+{: note}
 
 
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-13"
+lastupdated: "2024-10-07"
 
 keywords: supported controls, controls available, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -51,3 +51,8 @@ The results that have "Additional details" are associated with the Toolchain ser
 
 
 
+## Is there a difference between exclusions when it comes to subscopes and scopes?
+{: #faq-exclusions}
+{: faq}
+
+As a user, you can define exclusions at both the scope and subscope level. Exclusions at the scope level exclude the resource from an evaluation. The resource is not part of the scope and is not being evaluated, or charged by {{site.data.keyword.compliance_short}}. Exclusions at the subscope level are more like a filter. The excluded resource still exists in your scope and is being evaluated. But, the results are not visible at the subscope level. 

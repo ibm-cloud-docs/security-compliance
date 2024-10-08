@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-10-07"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -68,6 +68,40 @@ You can assign *Administrator* access for the service, or you can create a custo
 	* `global-search-tagging.resource.read`
 4. Review your selections to ensure that you added the correct permissions and click **Create**.
 5. Assign that role to the user or group that needs access to {{site.data.keyword.compliance_short}}.
+
+
+
+## Assigning access to a scope or subscope
+{: #assign-access-scopes}
+
+To allow for certain users of your account to view results without having access to the rest of your {{site.data.keyword.compliance_short}} instance, you must assign the following policies for the scope or subscope that you want to provide access to.
+
+1. Get your scope or subscope ID from the {{site.data.keyword.compliance_short}} UI.
+2. Navigate to the IAM UI.
+	1. Click **Manage** > **Access (IAM)** > **Users**, and select the user that you want to provide access to.
+
+		Be sure to start from the **Access groups** tab if you're working with a group.
+		{: tip}
+	
+	2. Click **Access** > **Assign access**.
+
+3. Give your user or access group permission to view {{site.data.keyword.compliance_short}} instances.
+
+	1. Select **{{site.data.keyword.compliance_short}}** and then click **Next**.
+	2. For resources, select **All** or provide the ID for a specific instance of the service.
+	3. For permissions, select **InstanceViewer**.
+	4. Click **Add**.
+
+4. Give your user or access group permission to read results for a specific scope or subscope.
+
+	1. Select **{{site.data.keyword.compliance_short}}**, and then click **Next**.
+	2. Select **Specific resources**. Then, select either **Scope ID** or **Subscope ID**.
+	3. Input the ID that you copied in step 1 as the **Value**. Then, click **Next**.
+	4. For permissions, select **Reader**. Then, click **Next**.
+	5. Click **Add**. 
+
+5. Review your selections in the side panel.
+6. Click **Assign**.
 
 
 

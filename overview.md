@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-08-13"
+lastupdated: "2024-10-07"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -51,6 +51,9 @@ Parameter
 Scope
 :   The group of resources that you want to evaluate. In the new API-based architecture, a scope can be an Enterprise, Account group, Account, or Resource group.
 
+Subscope
+:   A segment of a scope. Subscopes are used to ensure that the members of your teams who review results only have access to the information regarding the instances that they have access to.
+
 Attachment
 :   The connection between a profile and scope that defines the way that {{site.data.keyword.compliance_short}} conducts an evaluation. An attachment is formed by selecting the grouping of resources that you want to evaluate and a profile. Then, you specify the parameters that you want to evaluate for. Attachments are evaluated once per day or can be initiated as needed.
 
@@ -71,4 +74,3 @@ Now that you have an understanding of the various entities that exist within {{s
 3. After the attachment is created, your resources are evaluated one time per day by {{site.data.keyword.compliance_short}}.
 4. As results are returned, they are forwarded to a Cloud Object Storage bucket that you own.
 5. Results are shown in the {{site.data.keyword.compliance_short}} dashboard. 
-
