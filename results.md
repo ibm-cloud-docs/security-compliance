@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-07"
+lastupdated: "2024-10-08"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -95,11 +95,10 @@ A page opens with an **Overview** of your results. To further investigate, you c
 | | Description |
 |:---|:---------|
 | Overview | On the overview tab, you are provided with a graphical representation of your compliance for your selected scan.   \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-overview-tab.svg){: caption="Figure 2. Example overview tab results" caption-side="bottom"}  \n   \n **Success rate**: The rate at which your configurations pass the evaluation that is conducted.  \n   \n **Total controls**: The total number of controls that were evaluated during this scan.  \n   \n **Drift**: The difference in results for your selected evaluation timeframe. |
-| Controls | On the **Controls** tab, you are provided with an overview of the controls that were evaluated. The controls and their compliance status are listed for the time that the scan was done.
-| Resources | On the **Resources** tab, you are provided with the results for each specific resource that was evaluated.  \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-resources-tab.svg){: caption="Figure 3. Example results tab results" caption-side="bottom"}</br></br>In the **JSON** tab, you can see the assessment definition. <ul><li>In the **Parameters** tab, you can see the parameters that are relevant to that resource. </li><li>In the **Noncompliant properties** tab, you are able to view which properties are noncompliant to begin remediating any issues that are found.</li><li> In the **Controls** tab, you are able to view which controls that the assessment is associated with.</li></li>In the **Additional details** tab, you can view the additional information that a specific provider might send with the evaluation results. This information might include, additional information, relevant links, or evidence.</li></ul> |
+| Controls | On the **Controls** tab, you are provided with an overview of the controls that were evaluated. The controls and their compliance status are listed for the time that the scan was done. <annotation>\n ![A visual representation of control annotation per control on  evaluation report.] (images/results-controls-tab.svg){: caption="Figure 3. Example control tab results" caption-side="bottom"} <br/> click on view history link to view audit history \n (images/results-controls-annotation-history-tab.svg){: caption="Figure 4. Example annotation history" caption-side="bottom"}</annotations>|
+| Resources | On the **Resources** tab, you are provided with the results for each specific resource that was evaluated.  \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-resources-tab.svg){: caption="Figure 5. Example results tab results" caption-side="bottom"}</br></br>In the **JSON** tab, you can see the assessment definition. <ul><li>In the **Parameters** tab, you can see the parameters that are relevant to that resource. </li><li>In the **Noncompliant properties** tab, you are able to view which properties are noncompliant to begin remediating any issues that are found.</li><li> In the **Controls** tab, you are able to view which controls that the assessment is associated with.</li></li>In the **Additional details** tab, you can view the additional information that a specific provider might send with the evaluation results. This information might include, additional information, relevant links, or evidence.</li></ul> |
 {: caption="Table 1. Understanding detailed results" caption-side="top"}
 {: row-headers}
-
 
 ## Viewing results with the API
 {: #view-detailed-results-api}

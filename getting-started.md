@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-07"
+lastupdated: "2024-10-08"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -90,13 +90,15 @@ To evaluate your resources, you must create an attachment. An attachment pairs t
    The scopes that are available in this view are filtered only to those scopes that contain resources that can be evaluated against your selected profile. If you aren't seeing the scope that you created, select a different profile or adjust the resources included in your scope.
    {: tip}
 
-6. Define your scan settings.
+<annotations>6. In the annotation section, add custom annotations to individual controls. These annotations are for reference only and do not affect the evaluation process. Then, click **Next**.  </annotations>
+
+7. Define your scan settings.
 
    1. Select the **Frequency** at which you want your evaluation to be conducted.
    2. Configure notifications for failures that are identified.
    3. Click **Next**.
 
-7. Review your selections. If everything looks correct, click **Create**.
+8. Review your selections. If everything looks correct, click **Create**.
 
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
 
