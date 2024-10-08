@@ -24,16 +24,12 @@ The following changes to the service were made available with the associated dat
 <annotations>Control annotations
 :   You can now add annotations to controls to include important details or notes related to the controls in a profile. The annotations are visible in the results and are added as part of the creating an attachment flow. Additionally, the audit history for annotations can be used to track any changes or updates made to them over time. To get started with annotations, [create an attachment](/docs/security-compliance?topic=security-compliance-attachments). </annotations>
 
-
-
 ## 7 October 2024
 {: #security-compliance-Oct0724}
 {: release-note}
 
 Subscopes
 :   You can now segment a scope to ensure that only those users who need to have access to certain resource information have it. For more information see, [Segmenting your scope](/docs/security-compliance?topic=security-compliance-subscopes).
-
-
 
 
 ## 17 September 2024

@@ -19,13 +19,8 @@ subcollection: security-compliance
 With {{site.data.keyword.compliance_full}}, you can view the results of a compliance evaluation in the dashboard or by using the API. 
 {: shortdesc}
 
-
-
 If you have access to a subscope but not the overarching scope, you will only see the results for the resources that you have [access to view](/docs/security-compliance?topic=security-compliance-assign-roles).
 {: tip}
-
-
-
 
 
 ## Before you begin
@@ -79,11 +74,8 @@ When you view results in {{site.data.keyword.compliance_short}}, each evaluation
 
 To view the information of a scan, you can use the {{site.data.keyword.compliance_short}} UI.
 
-
-
 If you edit your scope after it is already part of an attachment, any following scan results are listed as a new entry in the detailed results for your attachment. This means that you might see two entries with the same name.
 {: note}
-
 
 
 1. In the {{site.data.keyword.cloud_notm}} console, go to the **Resource list** page and select your instance of {{site.data.keyword.compliance_short}}.

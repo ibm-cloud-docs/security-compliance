@@ -33,6 +33,8 @@ toc:
       topics:
       - tutorials/osco-v2.md
       - tutorials/tags.md
+      - topic: tutorials/scan-watson.md
+        navtitle: Evaluate Watson Machine Learning resources
   - navgroup:
       id: howto
       topics:

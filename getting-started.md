@@ -26,7 +26,6 @@ For highly regulated industries, such as financial services, achieving continuou
 {: shortdesc}
 
 
-
 Running an evaluation does not ensure regulatory compliance. An evaluation provides a point in time statement of your current posture for a specific resource. It is your responsibility to review and interpret the results to ensure that your organization is adhering to the controls that are required for your industry. 
 {: important}
 
