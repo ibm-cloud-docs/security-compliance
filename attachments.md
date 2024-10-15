@@ -49,7 +49,7 @@ To create an attachment, you can use the {{site.data.keyword.compliance_short}} 
 6. Select the scope that you want to target. Then, click **Next**.
 
    The scopes that are available in this view are filtered only to those scopes that contain resources that can be evaluated against your selected profile. If you aren't seeing the scope that you created, select a different profile or adjust the resources included in your scope.
-   {: tip} 
+   {: tip}
 
 7. In the annotation section, add custom annotations to individual controls. These annotations are for reference only and do not affect the evaluation process. Then, click **Next**.
 

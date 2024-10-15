@@ -20,8 +20,6 @@ The following changes to the service were made available with the associated dat
 
 
 
-
-
 ## 15 October 2024
 {: #security-compliance-oct1524}
 {: release-note}
@@ -33,7 +31,6 @@ Rules changes are available
 
 Control annotations
 :   You can now add annotations to controls to include important details or notes related to the controls in a profile. The annotations are visible in the results and are added as part of the creating an attachment flow. Additionally, the audit history for annotations can be used to track any changes or updates made to them over time. To get started with annotations, [create an attachment](/docs/security-compliance?topic=security-compliance-attachments). 
-
 
 
 ## 7 October 2024
