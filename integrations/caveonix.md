@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-10-15"
 
 keywords: Centralized security, workload protection, compliance monitoring, compliance, scan, sysdig, multicloud, multi-cloud, azure, amazon, aws
 
@@ -20,7 +20,7 @@ You can configure Caveonix Cloud Platform to send results to {{site.data.keyword
 
 To learn more about how the integration is configured, check out the following diagram.
 
-![The image shows the sequence of events that a user follows as part of setting up the integration.](../images/caveonix.svg){: caption="Figure 1. Caveonix integration flow" caption-side="bottom"}
+![The image shows the sequence of events that a user follows as part of setting up the integration.](../images/caveonix.svg){: caption="Caveonix integration flow" caption-side="bottom"}
 
 1. Configure {{site.data.keyword.compliance_short}} by creating an instance, connecting a Cloud Object Storage bucket to store results, and registering Caveonix as an integration. Then, create an attachment to start seeing results.
 2. Configure Caveonix to send results to {{site.data.keyword.compliance_short}}.

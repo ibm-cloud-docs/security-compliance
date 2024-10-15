@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-10-15"
 
 keywords: customize rules, parameters, customize parameters, customize goals, security and compliance, tags
 
@@ -49,7 +49,7 @@ Services that support resource tags have additional configuration properties suc
 3. Enter a Description. For example: `Check if Event Notifications instances have production tags`
 4. Select **Event Notifications** as the service in the **Target your resource** section
 
-   ![A visual representation of how to select the target service.](../images/target-your-resource.png){: caption="Figure 1. Example of setting the target resource" caption-side="bottom"}
+   ![A visual representation of how to select the target service.](../images/target-your-resource.png){: caption="Example of setting the target resource" caption-side="bottom"}
 
 5. In the **Configure your properties** section, make the following selections.
    1. Select **user_tags** as the property.
@@ -57,18 +57,18 @@ Services that support resource tags have additional configuration properties suc
    3. Enter **env:prod** as the value.
    4. Click **Add to rule**.
 
-      ![A visual representation of how to select configure the resource properties.](../images/configure-properties.png){: caption="Figure 2. Example of configuring resource properties" caption-side="bottom"}
+      ![A visual representation of how to select configure the resource properties.](../images/configure-properties.png){: caption="Example of configuring resource properties" caption-side="bottom"}
 
 6. Review the JSON of your rule to ensure that it is correct.
 
-   ![A visual representation of JSON.](../images/add-to-rule.png){: caption="Figure 3. Example of the rule JSON" caption-side="bottom"}
+   ![A visual representation of JSON.](../images/add-to-rule.png){: caption="Example of the rule JSON" caption-side="bottom"}
 
 7. Click **Next**.
 8. Review the full rule definition and click **Create**.
 
 Now you have a custom rule to check if Event Notifications resources have `env:prod` tag.
 
-![A visual representation of Custom rule.](../images/custom-rule.png){: caption="Figure 4. Example of custom rule" caption-side="bottom"}
+![A visual representation of Custom rule.](../images/custom-rule.png){: caption="Example of custom rule" caption-side="bottom"}
 
 
 ## Create a custom control library
@@ -84,7 +84,7 @@ For {{site.data.keyword.compliance_short}} to use the control that you created, 
    1. Click **Create** in the **Group by control** section.
    2. Provide the details of your control.
 
-   ![A visual representation of Custom control.](../images/create-control.png){: caption="Figure 5. Example of custom control" caption-side="bottom"}
+   ![A visual representation of Custom control.](../images/create-control.png){: caption="Example of custom control" caption-side="bottom"}
 
    3. Add specifications to your control.
       1. Click **Add**.
@@ -93,11 +93,11 @@ For {{site.data.keyword.compliance_short}} to use the control that you created, 
       4. Select the rule that you created in the first step.
       5. Click **Create**.
 
-         ![A visual representation of Custom control.](../images/control-specification.png){: caption="Figure 6. Example of control specification" caption-side="bottom"}
+         ![A visual representation of Custom control.](../images/control-specification.png){: caption="Example of control specification" caption-side="bottom"}
 
 5. Click **Create**.
 
-![A visual representation of Custom control.](../images/create-control-2.png){: caption="Figure 7. Example of custom control" caption-side="bottom"}
+![A visual representation of Custom control.](../images/create-control-2.png){: caption="Example of custom control" caption-side="bottom"}
 
 Your control library has a single control in this example. You can always add additional controls as needed. 
 
@@ -120,7 +120,7 @@ To start evaluating your resources against your rule, you must add it to a profi
    2. Select the **Custom** tab to view your custom control library.
    3. Select the control library that you created in the previous step.
 
-      ![A visual representation of selecting a Custom control.](../images/select-cl.png){: caption="Figure 8. Example of selecting a custom control" caption-side="bottom"}
+      ![A visual representation of selecting a Custom control.](../images/select-cl.png){: caption="Example of selecting a custom control" caption-side="bottom"}
     
    4. Select the control that you previously created.
    5. Click **Next**.
@@ -129,7 +129,7 @@ To start evaluating your resources against your rule, you must add it to a profi
 
 Now your custom rule is available within a profile to start evaluating your resources.
 
-![A visual representation of a custom profile.](../images/custom-profile.png){: caption="Figure 9. Example of a custom profile" caption-side="bottom"}
+![A visual representation of a custom profile.](../images/custom-profile.png){: caption="Example of a custom profile" caption-side="bottom"}
 
 ## Evaluate your resources
 {: #tutorial-tag-scan-resources}
@@ -150,11 +150,11 @@ In {{site.data.keyword.compliance_short}}, evaluating your resources is done thr
 6. If you want to go with the default scan settings (Scan running daily) then click on **Next** else modify the settings
 7. Review and click on **Create**
 
-   ![A visual representation of an attachment.](../images/attachment.png){: caption="Figure 10. Example of an attachment" caption-side="bottom"}
+   ![A visual representation of an attachment.](../images/attachment.png){: caption="Example of an attachment" caption-side="bottom"}
 
 ## Next steps
 {: #tutorial-tag-create-next}
 
 When the scan completes, your results become available in the {{site.data.keyword.compliance_short}} dashboard. Review the results to see the resources that are not compliant.
 
-![A visual representation of a the result.](../images/tag-result.png){: caption="Figure 11. Example of the result" caption-side="bottom"}
+![A visual representation of a the result.](../images/tag-result.png){: caption="Example of the result" caption-side="bottom"}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-07"
+lastupdated: "2024-10-15"
 
 keywords: scope, subscope, view results access, 
 
@@ -64,7 +64,7 @@ To scan resources in another {{site.data.keyword.cloud_notm}}, you can use the {
    | All Account Management services | `Viewer`   \n `Service Configuration Reader`|
    | Kubernetes Service | `Reader`   \n `Viewer`   \n `Administrator`   \n `Service Configuration Reader` |
    | All Identity and Access enabled services | `Reader`   \n `Viewer`   \n `Service Configuration Reader` |
-   {: caption="Table 1. Required permissions for your trusted profile" caption-side="top"}
+   {: caption="Required permissions for your trusted profile" caption-side="top"}
    
    The Kubernetes Service access policy is required to run the Red Hat OpenShift Compliance Operator (OSCO) scan when an attachment is created.
    {: note}
@@ -110,7 +110,7 @@ Currently, only Watson Machine Learning services require these steps. Additional
       | All Account Management services | `Viewer`   \n `Service Configuration Reader`|
       | Kubernetes Service | `Reader`   \n `Viewer`   \n `Administrator`   \n `Service Configuration Reader` |
       | All Identity and Access enabled services | `Reader`   \n `Viewer`   \n `Service Configuration Reader` |
-      {: caption="Table 2. Required permissions for your trusted profile" caption-side="top"}
+      {: caption="Required permissions for your trusted profile" caption-side="top"}
 
 3. In your instance of {{site.data.keyword.secrets-manager_short}}, create an [arbitrary](/docs/secrets-manager?topic=secrets-manager-arbitrary-secrets) or [IAM credentials](/docs/secrets-manager?topic=secrets-manager-iam-credentials) secret to store the API key that you previously created. 
 
@@ -171,4 +171,3 @@ You can create a scope that contains resouces in other environments by using the
 5. Review your selections and click **Create**.
 
 Next, [create an attachment](/docs/security-compliance?topic=security-compliance-attachments) to start evaluating your resources. 
-

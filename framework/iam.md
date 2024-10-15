@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-07"
+lastupdated: "2024-10-15"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -80,7 +80,7 @@ Last year, {{site.data.keyword.compliance_short}} transitioned from a global ser
 | `compliance.targets.read` | View targets. | Viewer | Reader |
 | `compliance.targets.update` | Update a target. | Editor | Writer |
 | `compliance.targets.delete` | Delete a target. | Editor | Writer |
-{: caption="Table 1. IAM user roles and actions" caption-side="top"}
+{: caption="IAM user roles and actions" caption-side="top"}
 
 [^attach-1]: To create an attachment within an enterprise, you must also have permissions for the enterprise. You can provide Administrator access to the entire enterprise or create a custom role using the actions found in the following section.
 

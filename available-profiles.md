@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-07-09"
+lastupdated: "2024-10-15"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, benchmark, controls, goals, security, compliance
 
@@ -62,6 +62,6 @@ The following profiles are available for you to use in {{site.data.keyword.compl
 | NIST SP 800-53 | Validate that your resource configurations meet the baselines requirements that are identified by the National Institute of Standards and Technology | Multi-environment | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-nist-800-53-change-log) |
 | PCI | Validate that your resource configurations meet the baseline requirements that are identified by the Payment Card Industry Data Security Standard. | Multi-environment | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-pci-dss-change-log) |
 | SOC 2 | Validate that your resource configurations meet the baselines requirements that are identified in the Service Organization Control reports issued by the American Institute of Certified Public Accountants. | {{site.data.keyword.cloud_notm}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-soc2-change-log) |
-{: caption="Table 2. Available predefined profiles" caption-side="top"}
+{: caption="Available predefined profiles" caption-side="top"}
 
 **Integration required*

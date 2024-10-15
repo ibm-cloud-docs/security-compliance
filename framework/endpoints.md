@@ -2,7 +2,7 @@
 
 copyright:
   years: "2024"
-lastupdated: "2024-04-23"
+lastupdated: "2024-10-15"
 
 keywords: security compliance developer tools, integrate with application, API, SDK, CLI
 
@@ -42,7 +42,7 @@ Review the following table to determine the API endpoints to use when you connec
 | Frankfurt     | **Public:** `https://eu-de.compliance.cloud.ibm.com/instances/{instance_id}/v3`  \n  \n  **Private:** `https://private.eu-de.compliance.cloud.ibm.com/instances/{instance_id}/v3` |
 | Toronto       |  **Public:** `https://ca-tor.compliance.cloud.ibm.com/instances/{instance_id}/v3`  \n  \n  **Private:** `https://private.ca-tor.compliance.cloud.ibm.com/instances/{instance_id}/v3` |
 | Madrid       | **Public:** `https://eu-es.compliance.cloud.ibm.com/instances/{instance_id}/v3`  \n  \n  **Private:** `https://private.eu-es.compliance.cloud.ibm.com/instances/{instance_id}/v3` |
-{: caption="Table 1. Endpoints for interacting with {{site.data.keyword.compliance_short}}" caption-side="top"}
+{: caption="Endpoints for interacting with {{site.data.keyword.compliance_short}}" caption-side="top"}
 
 
 
@@ -69,9 +69,6 @@ Replace the variables in the example request according to the following table.
 | `region` | The region abbreviation that represents the geographic area where your {{site.data.keyword.compliance_short}} is located. For example, `us-south` or `eu-de`. |
 | `url_encoded_instance_CRN` | The Cloud Resource Name (CRN) that uniquely identifies your {{site.data.keyword.compliance_short}} service instance. The value must be URL encoded. |
 | `IAM_token` | Your {{site.data.keyword.cloud_notm}} IAM access token. |
-{: caption="Table 3. Required parameters for retrieving service endpoints with the API" caption-side="top"}
+{: caption="Required parameters for retrieving service endpoints with the API" caption-side="top"}
 
 A successful request returns the endpoint URLs that are associated with the region and service instance CRN that you specify. 
-
-
-

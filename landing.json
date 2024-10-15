@@ -1,6 +1,6 @@
 {
   "title": "Security and Compliance Center docs",
-  "lastupdated": "2024-10-08",
+  "lastupdated": "2024-10-15",
   "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
   "section_devtools": {
     "api": "/apidocs/security-compliance",

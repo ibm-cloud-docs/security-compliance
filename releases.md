@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-08"
+lastupdated: "2024-10-15"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -21,8 +21,20 @@ The following changes to the service were made available with the associated dat
 
 
 
-<annotations>Control annotations
-:   You can now add annotations to controls to include important details or notes related to the controls in a profile. The annotations are visible in the results and are added as part of the creating an attachment flow. Additionally, the audit history for annotations can be used to track any changes or updates made to them over time. To get started with annotations, [create an attachment](/docs/security-compliance?topic=security-compliance-attachments). </annotations>
+
+## 15 October 2024
+{: #security-compliance-oct1524}
+{: release-note}
+
+Rules changes are available
+:   The following rule was updated.
+
+   * Check whether Virtual Private Cloud (VPC) has no rules in the default security group. Rule ID: `rule-96527f89-1867-4581-b923-1400e04661e0`
+
+Control annotations
+:   You can now add annotations to controls to include important details or notes related to the controls in a profile. The annotations are visible in the results and are added as part of the creating an attachment flow. Additionally, the audit history for annotations can be used to track any changes or updates made to them over time. To get started with annotations, [create an attachment](/docs/security-compliance?topic=security-compliance-attachments). 
+
+
 
 ## 7 October 2024
 {: #security-compliance-Oct0724}

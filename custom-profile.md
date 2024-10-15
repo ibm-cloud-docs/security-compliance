@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-10-15"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -20,7 +20,7 @@ With {{site.data.keyword.compliance_full}}, you can take advantage of predefined
 {: shortdesc}
 
 
-![The diagram shows the layout of a profile. The information is conveyed in the surrounding text.](images/profile.svg){: caption="Figure 1. Understanding profiles" caption-side="bottom"}
+![The diagram shows the layout of a profile. The information is conveyed in the surrounding text.](images/profile.svg){: caption="Understanding profiles" caption-side="bottom"}
 
 
 A profile is a grouping of controls that can be evaluated for compliance. In {{site.data.keyword.compliance_short}}, you can work with predefined profiles, or you can create a profile by selecting controls that have already been added to a control library. Controls already have specifications and assessments that are associated with them, but you can choose to create your own. To learn more about each entity, see [Key Concepts](/docs/security-compliance?topic=security-compliance-posture-management).

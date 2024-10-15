@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-10-15"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -103,7 +103,7 @@ String-based operators are case-sensitive.
 | `num_greater_than` | Numeric | The property value is numerically greater than the condition value. | Yes |
 | `num_greater_than_equals` | Numeric | The property value is numerically greater than or equal to the condition value. | Yes |
 | `days_less_than` | Numeric | The property value is less than the condition value. | Yes |
-{: caption="Table 3. Supported operator types" caption-side="top"}
+{: caption="Supported operator types" caption-side="top"}
 
 [^string_equals]: To include multiple values, use an array. For example, `{"value": ["A", "B," "C"]}`.
 
@@ -135,7 +135,7 @@ Most often, rules are more complex than a single property. To create more comple
 2. If any of the three options are true.
 3. If A is true or if B and C are both true.
 
-![The diagram shows the correlation between multiple conditions. The information is conveyed in the surrounding text.](images/config-rules-property.svg){: caption="Figure 1. The ways in which properties can relate to each other." caption-side="bottom"}
+![The diagram shows the correlation between multiple conditions. The information is conveyed in the surrounding text.](images/config-rules-property.svg){: caption="The ways in which properties can relate to each other." caption-side="bottom"}
 
 
 

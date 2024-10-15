@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-07"
+lastupdated: "2024-10-15"
 
 keywords: security and compliance, secure development, security strategy
 
@@ -27,14 +27,14 @@ Control
 Control library
 :   A collection of predefined or custom controls. Control libraries show all the controls in your accounts that are available to be evaluated. A library is helpful for organizing and versioning of your controls. A library is structured as follows. 
 
-	![The diagram shows the layout of a control library. The information is conveyed in the surrounding text.](images/control-library.svg){: caption="Figure 1. Understanding control libraries" caption-side="bottom"}
+	![The diagram shows the layout of a control library. The information is conveyed in the surrounding text.](images/control-library.svg){: caption="Understanding control libraries" caption-side="bottom"}
 
 Profile
 :   A group of controls that are related to a specific compliance objective.
 
 	Although very similar in structure to a control library, a profile can be attached to a set of resources and be evaluated. When you create the attachment, you can set the parameters that define the way that the evaluation is done.
 
-	![The diagram shows the layout of a profile. The information is conveyed in the surrounding text.](images/kc-profile.svg){: caption="Figure 2. Understanding profiles in the new architecture" caption-side="bottom"}
+	![The diagram shows the layout of a profile. The information is conveyed in the surrounding text.](images/kc-profile.svg){: caption="Understanding profiles in the new architecture" caption-side="bottom"}
 
 Specification
 :   A statement that defines the specific security and privacy requirements that a control must meet. For example, `Check whether App ID Cloud Directory users aren't able to update their own accounts`.
@@ -67,7 +67,7 @@ Report
 
 Now that you have an understanding of the various entities that exist within {{site.data.keyword.compliance_short}}, how do they work together? The following diagram details the user flows that you might take when you are working with {{site.data.keyword.compliance_short}}. 
 
-![A diagram that shows the relationship between the entities that you work with in the service.](images/terminology-flow.svg){: caption="Figure 1. Understanding the user flow for {{site.data.keyword.compliance_short}}" caption-side="bottom"}
+![A diagram that shows the relationship between the entities that you work with in the service.](images/terminology-flow.svg){: caption="Understanding the user flow for {{site.data.keyword.compliance_short}}" caption-side="bottom"}
 
 1. As a security or compliance focal, choose a predefined profile that is most suitable for your organization. Optionally you can customize the profile by creating custom rules, adding or removing rules, or building your own profile based on the catalog of controls. 
 2. To start scanning your resources, create an attachment of the profile to the scope of resources you want to scan. You can optionally customize parameters of the controls when you create the attachment.
