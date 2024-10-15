@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-10-07"
+lastupdated: "2024-10-15"
 
 keywords: best practices, security and compliance, governance, profile, predefined profiles, profile versioning, benchmark, controls, goals, security, compliance
 
@@ -21,7 +21,7 @@ With profile versioning, you can upgrade to the latest version of an {{site.data
 As of 1 April 2024, profile versions that were created more than 90 days ago will be deprecated if a newer version of the profile is available. After 365 days elapse, a deprecated profile version is removed and all attachments that use this version are removed from your {{site.data.keyword.compliance_short}} instance.
 {: important}
 
-![The diagram shows a graphical view of the versioning timeline. The information is conveyed in the surrounding text.](images/versioning.svg){: caption="Figure 1. Profile versioning timeline" caption-side="bottom"}
+![The diagram shows a graphical view of the versioning timeline. The information is conveyed in the surrounding text.](images/versioning.svg){: caption="Profile versioning timeline" caption-side="bottom"}
 
 For example, if version 1.0.0 of a profile is released in January 2025 and then version 1.1.0 is released in April 2025, version 1.1.0 becomes the latest version of the profile. Because 90 days have elapsed since version 1.0.0 was released, this profile version is immediately deprecated when version 1.1.0 is released. Version 1.0.0 will be removed in April 2026, 365 days after deprecation.
 
@@ -65,4 +65,3 @@ You can upgrade your attachment to use the new profile version anytime during th
 
 You can't create a new attachment to a deprecated profile version through the {{site.data.keyword.compliance_short}} UI. However, you can do so using the [API](/apidocs/security-compliance?code=curl#create-attachment) until the deprecated profile version expires.
 {: tip}
-

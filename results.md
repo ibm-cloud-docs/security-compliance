@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-07"
+lastupdated: "2024-10-15"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -19,13 +19,8 @@ subcollection: security-compliance
 With {{site.data.keyword.compliance_full}}, you can view the results of a compliance evaluation in the dashboard or by using the API. 
 {: shortdesc}
 
-
-
 If you have access to a subscope but not the overarching scope, you will only see the results for the resources that you have [access to view](/docs/security-compliance?topic=security-compliance-assign-roles).
 {: tip}
-
-
-
 
 
 ## Before you begin
@@ -45,7 +40,7 @@ Before you get started, be sure that you have the following prerequisites.
 
 As you evaluate your resources, the results are returned via the service UI in graphical and detailed formats.
 
-![A visual representation of the service dashboard. The concepts are fully explained in the surrounding text.](images/dashboard.svg){: caption="Figure 2. Example dashboard" caption-side="bottom"}
+![A visual representation of the service dashboard. The concepts are fully explained in the surrounding text.](images/dashboard.svg){: caption="Example dashboard" caption-side="bottom"}
 
 When you visit the dashboard, there are three graphical representations of data that have been aggregated from your scans. You see the:
 
@@ -69,7 +64,7 @@ When you view results in {{site.data.keyword.compliance_short}}, each evaluation
 | Fail | Your resource was not compliant with the defined standard. |
 | Unable to perform | The assessment could not be performed. Potential reasons include the resource not existing in your account, a misconfiguration, or an error on behalf of {{site.data.keyword.compliance_short}}. |
 | User evaluation required | The assessment has not yet been automated. To validate that you are meeting the standard, you must check your resource manually. |
-{: caption="Table 2. Understanding result statuses}
+{: caption="Understanding result statuses}
 
 
 
@@ -79,11 +74,8 @@ When you view results in {{site.data.keyword.compliance_short}}, each evaluation
 
 To view the information of a scan, you can use the {{site.data.keyword.compliance_short}} UI.
 
-
-
 If you edit your scope after it is already part of an attachment, any following scan results are listed as a new entry in the detailed results for your attachment. This means that you might see two entries with the same name.
 {: note}
-
 
 
 1. In the {{site.data.keyword.cloud_notm}} console, go to the **Resource list** page and select your instance of {{site.data.keyword.compliance_short}}.
@@ -94,12 +86,11 @@ A page opens with an **Overview** of your results. To further investigate, you c
 
 | | Description |
 |:---|:---------|
-| Overview | On the overview tab, you are provided with a graphical representation of your compliance for your selected scan.   \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-overview-tab.svg){: caption="Figure 2. Example overview tab results" caption-side="bottom"}  \n   \n **Success rate**: The rate at which your configurations pass the evaluation that is conducted.  \n   \n **Total controls**: The total number of controls that were evaluated during this scan.  \n   \n **Drift**: The difference in results for your selected evaluation timeframe. |
-| Controls | On the **Controls** tab, you are provided with an overview of the controls that were evaluated. The controls and their compliance status are listed for the time that the scan was done.
-| Resources | On the **Resources** tab, you are provided with the results for each specific resource that was evaluated.  \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-resources-tab.svg){: caption="Figure 3. Example results tab results" caption-side="bottom"}</br></br>In the **JSON** tab, you can see the assessment definition. <ul><li>In the **Parameters** tab, you can see the parameters that are relevant to that resource. </li><li>In the **Noncompliant properties** tab, you are able to view which properties are noncompliant to begin remediating any issues that are found.</li><li> In the **Controls** tab, you are able to view which controls that the assessment is associated with.</li></li>In the **Additional details** tab, you can view the additional information that a specific provider might send with the evaluation results. This information might include, additional information, relevant links, or evidence.</li></ul> |
-{: caption="Table 1. Understanding detailed results" caption-side="top"}
+| Overview | On the overview tab, you are provided with a graphical representation of your compliance for your selected scan.   \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-overview-tab.svg){: caption="Example overview tab results" caption-side="bottom"}  \n   \n **Success rate**: The rate at which your configurations pass the evaluation that is conducted.  \n   \n **Total controls**: The total number of controls that were evaluated during this scan.  \n   \n **Drift**: The difference in results for your selected evaluation timeframe. |
+| Controls | On the **Controls** tab, you are provided with an overview of the controls that were evaluated. The controls and their compliance status are listed for the time that the scan was done. You can also view annotations from this screen.  \n Click **View history** to see your audit history. |
+| Resources | On the **Resources** tab, you are provided with the results for each specific resource that was evaluated.  \n ![A visual representation of detailed results that are returned when an evaluation is run.](images/results-resources-tab.svg){: caption="Example results tab results" caption-side="bottom"}</br></br>In the **JSON** tab, you can see the assessment definition. <ul><li>In the **Parameters** tab, you can see the parameters that are relevant to that resource. </li><li>In the **Noncompliant properties** tab, you are able to view which properties are noncompliant to begin remediating any issues that are found.</li><li> In the **Controls** tab, you are able to view which controls that the assessment is associated with.</li></li>In the **Additional details** tab, you can view the additional information that a specific provider might send with the evaluation results. This information might include, additional information, relevant links, or evidence.</li></ul> |
+{: caption="Understanding detailed results" caption-side="top"}
 {: row-headers}
-
 
 ## Viewing results with the API
 {: #view-detailed-results-api}

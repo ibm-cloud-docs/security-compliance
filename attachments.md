@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-07"
+lastupdated: "2024-10-15"
 
 keywords: attachment, scan resources, scc, run evaluation
 
@@ -51,13 +51,21 @@ To create an attachment, you can use the {{site.data.keyword.compliance_short}} 
    The scopes that are available in this view are filtered only to those scopes that contain resources that can be evaluated against your selected profile. If you aren't seeing the scope that you created, select a different profile or adjust the resources included in your scope.
    {: tip}
 
-7. Define your scan settings.
+7. In the annotation section, add custom annotations to individual controls. These annotations are for reference only and do not affect the evaluation process. Then, click **Next**.
+
+   An annotation is a note that a user can add to a control. While these can be anything, typically they are used to highlight how your organization manages, mitigates, or remediates a control. For example, if you are looking at Control ID A.10.11 - Encryption of data, you might add the following test procedures as an annotation.
+
+   * Verify that encryption is enabled on all storage volumes containing sensitive data by inspecting system configurations.
+   * Review a sample of transmission logs to ensure data in transit is being encrypted using TLS 1.2 or higher.
+   * Conduct a key management audit to confirm that keys are being stored securely and are rotated as required.
+
+8. Define your scan settings.
 
    1. Select the **Frequency** at which you want your evaluation to be conducted.
    2. Configure notifications regarding failures that are identified.
    3. Click **Next**.
 
-8. Review your selections. If everything looks correct, click **Create**.
+9. Review your selections. If everything looks correct, click **Create**.
 
 
 When you create your attachment, a scan is scheduled. When the scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
@@ -73,4 +81,3 @@ If you already have an attachment that is being evaluated on a schedule, but you
 3. From the overflow menu on row of the attachment that you want to scan, select **Run scan**.
 
 After your scan completes, your results are available in the {{site.data.keyword.compliance_short}} dashboard.
-

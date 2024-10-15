@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-03-19"
+lastupdated: "2024-10-15"
 
 keywords: scc best practices, enterprise, scc access
 
@@ -61,7 +61,7 @@ A scope defines which resources in your accounts are evaluated. It is defined wh
 
 Check out the following diagram to see how three attachments can co-exist within an enterprise.
 
-![The image shows how two attachments are applied across an enterprise. One rule moves down the hierarchy. Another rule is attached only to a specific account, so its properties are applied only to the resources that it contains.](images/access-model.svg){: caption="Figure 1. Attachment hierarchy" caption-side="bottom"}
+![The image shows how two attachments are applied across an enterprise. One rule moves down the hierarchy. Another rule is attached only to a specific account, so its properties are applied only to the resources that it contains.](images/access-model.svg){: caption="Attachment hierarchy" caption-side="bottom"}
 
 Attachment A
 :   In Attachment A, the target scope is the full enterprise. As you can see, all account groups and accounts that exist within the enterprise are evaluated. That is, unless they have been purposefully excluded. 
@@ -83,5 +83,3 @@ When you work with {{site.data.keyword.compliance_short}} outside of the enterpr
 You can select a single {{site.data.keyword.compliance_short}} instance in your main account to monitor a list of other target accounts (and their resources) and environments. This {{site.data.keyword.compliance_short}} instance in your main account must have access to scan resources in multiple target accounts for {{site.data.keyword.cloud_notm}} resources. You can define multiple scopes for each target account in an attachment.
 
 You can create multiple attachments that distribute accounts across multiple attachments. For example, you can select 1 to 200 accounts in a single attachment scope. Then, you can select 201 to 400 accounts in the next attachment scope.
-
-

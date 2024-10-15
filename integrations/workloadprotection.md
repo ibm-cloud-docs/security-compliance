@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-09-23"
+lastupdated: "2024-10-15"
 
 keywords: Centralized security, workload protection, compliance monitoring, compliance, scan, sysdig, multicloud, multi-cloud, azure, amazon, aws
 
@@ -22,7 +22,7 @@ You can pull results from multiple environments, including Amazon Web Services a
 
 To learn more about how the integration is configured, check out the following diagram.
 
-![The image shows the sequence of events that a user follows as part of setting up the integration.](../images/workload-protection.svg){: caption="Figure 1. {{site.data.keyword.sysdigsecure_short}} integration flow" caption-side="bottom"}
+![The image shows the sequence of events that a user follows as part of setting up the integration.](../images/workload-protection.svg){: caption="{{site.data.keyword.sysdigsecure_short}} integration flow" caption-side="bottom"}
 
 1. Register an Cloud Object Storage bucket to store results.
 1. Create an instance of {{site.data.keyword.sysdigsecure_short}} from the {{site.data.keyword.cloud_notm}} catalog.

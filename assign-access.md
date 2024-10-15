@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-07"
+lastupdated: "2024-10-08"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -70,7 +70,6 @@ You can assign *Administrator* access for the service, or you can create a custo
 5. Assign that role to the user or group that needs access to {{site.data.keyword.compliance_short}}.
 
 
-
 ## Assigning access to a scope or subscope
 {: #assign-access-scopes}
 
@@ -102,8 +101,6 @@ To allow for certain users of your account to view results without having access
 
 5. Review your selections in the side panel.
 6. Click **Assign**.
-
-
 
 ## Assigning access to Satellite
 {: #assign-access-sat}

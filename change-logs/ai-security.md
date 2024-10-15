@@ -1,7 +1,7 @@
 ---
 copyright:
   years: "2024"
-lastupdated: "2024-09-10"
+lastupdated: "2024-10-08"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements, ai security
 
@@ -57,7 +57,6 @@ The following rules were updated in the AI Security Guardrails 2.0 profile as of
 | `rule-a3b44c6a-1911-4d88-beea-58e56522a7ef` | Check whether account has at least # instances of VPN or Direct Link configured | `Mod 4.1` | The rule was added. |
 | `rule-c0f15737-b451-44d0-a0b6-649013a155bc`	| Check whether there are at least # instances of Direct Link in an account |	`ISR 1.3`	| The rule was removed. |
 {: caption="Table. Summary of the changes for version 1.1.0 of the AI Security Guardrails 2.0 profile" caption-side="top"}
-
 
 
 ## Version 1.0.0

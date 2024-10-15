@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-01-03"
+lastupdated: "2024-10-15"
 
 keywords: HA for {{site.data.keyword.compliance_short}}, DR for {{site.data.keyword.compliance_short}}, high availability for {{site.data.keyword.compliance_short}}, disaster recovery for {{site.data.keyword.compliance_short}}, failover for {{site.data.keyword.compliance_short}}, BC for {{site.data.keyword.compliance_short}}, business continuity for {{site.data.keyword.compliance_short}}, disaster recovery for {{site.data.keyword.compliance_short}}
 
@@ -43,7 +43,7 @@ For more information about configuring Cloud Object Storage, including how to ma
 | --------------------------- | ------------ |
 | RPO | 12 hours |
 | RTO | 4 hours |
-{: caption="Table 1. RPO and RTO for {{site.data.keyword.compliance_short}}" caption-side="bottom"}
+{: caption="RPO and RTO for {{site.data.keyword.compliance_short}}" caption-side="bottom"}
 
 If you require continuous scans while the primary region is unavailable, you can provision a new instance of {{site.data.keyword.compliance_short}} by using a new Cloud Object Storage bucket. However, you cannot access previous scan result data until the regional service is restored.
 {: tip}

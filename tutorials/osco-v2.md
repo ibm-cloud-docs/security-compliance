@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2023
-lastupdated: "2023-10-11"
+  years: 2021, 2024
+lastupdated: "2024-10-15"
 
 keywords: goals, parameters, customize parameters, customize goals, security and compliance,
 
@@ -37,7 +37,7 @@ Before you get started with this tutorial, be sure you have the prerequisites:
    |:--------|:--------------|:-------|
    | {{site.data.keyword.compliance_short}} | Compliance Management | Needed to enable a service-to-service authorization  \n To view this role, you must be assigned the Administrator role for the service |
    | {{site.data.keyword.openshiftshort}} | Manager | Required to install OSCO |
-   {: caption="Table 1. Required user permissions" caption-side="top"}
+   {: caption="Required user permissions" caption-side="top"}
 
 
 ## Enable an authorization
@@ -88,4 +88,3 @@ To scan your resources, you create an attachment between the resource that you w
 {: #osco-next}
 
 When the scan completes, your results become available in the {{site.data.keyword.compliance_short}} dashboard. Be sure to check back in a few hours to see what your results returned.
-

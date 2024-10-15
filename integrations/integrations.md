@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-10"
+lastupdated: "2024-10-15"
 
 keywords: Centralized security, compliance monitoring, compliance, integration
 
@@ -26,7 +26,7 @@ To fully understand your security and compliance landscape across multiple cloud
 
 Depending on the integration, {{site.data.keyword.compliance_short}} obtains the data about your current compliance posture differently. You might be required to configure the integration in another product or it might be automatically pulled after the configuration is established. Check out the following image to learn more about the different patterns that are used in the service. 
 
-![The image shows the sequence of events that a user follows as part of setting up the integration.](../images/data-model.svg){: caption="Figure 1. Data model options" caption-side="bottom"}
+![The image shows the sequence of events that a user follows as part of setting up the integration.](../images/data-model.svg){: caption="Data model options" caption-side="bottom"}
 
 
 
@@ -42,7 +42,7 @@ The following integrations are available in {{site.data.keyword.compliance_short
 | Toolchain |The Toolchain service pushes results to {{site.data.keyword.compliance_short}} and {{site.data.keyword.compliance_short}} pulls results from Toolchain depending on the configuration. | [![Note icon](../../icons/note_icon.svg)](/docs/devsecops?topic=devsecops-cd-devsecops-scc-toolchains) |
 | Caveonix | Caveonix pushes results to {{site.data.keyword.compliance_short}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-setup-caveonix) |
 | CyberStrong | {{site.data.keyword.compliance_short}} forwards results | [![Note icon](../../icons/note_icon.svg)](https://support.cybersaint.io/hc/en-us/categories/8496076077165-Knowledge-Library) |
-{: caption="Table 1. Available integrations" caption-side="bottom"}
+{: caption="Available integrations" caption-side="bottom"}
 
 
 
@@ -50,5 +50,3 @@ The following integrations are available in {{site.data.keyword.compliance_short
 {: #integrations-existing}
 
 After you create integrations between {{site.data.keyword.compliance_short}} and another product, you can easily find all existing integrations. To find a particular integration that is already registered with {{site.data.keyword.compliance_short}}, navigate to the **Integrations** page in the {{site.data.keyword.compliance_short}} UI. 
-
-
