@@ -1,33 +1,52 @@
 {
-  "title": "Security and Compliance Center docs",
-  "lastupdated": "2024-10-15",
-  "introduction": "With IBM Cloud Security and Compliance Center, you can embed security checks into your every day workflows to help monitor for security and compliance.",
-  "section_devtools": {
-    "api": "/apidocs/security-compliance",
-    "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule"
+  "version": 2,
+  "title": "Security and Compliance Center",
+  "introduction": "Embed checks into your every day workflows to help monitor for security and compliance.",
+  "product_page": "https://www.ibm.com/products/security-and-compliance-center",
+  "console_page": "/security-compliance",
+  "section_topics": {
+    "links": [
+      {
+        "title": "How it works",
+        "href": "/docs/security-compliance?topic=security-compliance-posture-management"
+      },
+      {
+        "title": "Your responsibilities",
+        "href": "/docs/security-compliance?topic=security-compliance-responsibilities"
+      },
+      {
+        "title": "Creating a scope",
+        "href": "/docs/security-compliance?topic=security-compliance-scopes"
+      },
+      {
+        "title": "Creating an attachment",
+        "href": "/docs/security-compliance?topic=security-compliance-attachments"
+      },
+      {
+        "title": "Viewing results",
+        "href": "/docs/security-compliance?topic=security-compliance-results"
+      }
+    ]
   },
-  "section_recommended": [
+  "section_highlights": [
     {
-      "title": "How does Security and Compliance Center work?",
-      "description": "Learn more about the key terms and concepts you need to understand to work with the service.",
-      "href": "/docs/security-compliance?topic=security-compliance-posture-management"
+      "title": "Cost of a data breach report",
+      "description": "Learn more about how data breaches impacted business in 2024",
+      "href": "https://www.ibm.com/reports/data-breach",
+      "type": "blog"
     },
     {
-      "title": "Defining custom rules",
-      "description": "A rule is used to define the guardrails for how resources can be configured in your account.",
-      "href": "/docs/security-compliance?topic=security-compliance-rules-define"
-    },
-    {
-      "title": "Viewing results",
-      "description": "Learn about how to view your results.",
-      "href": "/docs/security-compliance?topic=security-compliance-results"
+      "title": "IBM Cloud compliance programs",
+      "description": "Learn more about IBM's compliance standards.",
+      "href": "https://www.ibm.com/cloud/compliance",
+      "type": "blog",
+      "recommended": true
     }
   ],
-  "section_learn": {
-    "developer": "https://developer.ibm.com/depmodels/cloud/",
-    "architecture": "https://www.ibm.com/architectures/hybrid",
-    "training": "https://www.ibm.com/training/cloud",
-    "community": "https://community.ibm.com/community/user/cloud/home"
+  "section_devtools": {
+    "api": "/apidocs/security-compliance",
+    "cli": "/docs/security-compliance?topic=security-compliance-security-compliance-cli",
+    "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_rule"
   },
   "section_updates": {
     "view_more": "/docs/security-compliance?topic=security-compliance-release-notes"
