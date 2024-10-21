@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-15"
+lastupdated: "2024-10-21"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -18,6 +18,73 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
+
+
+## 29 September 2024
+{: #security-compliance-oct2924}
+{: release-note}
+
+Subscopes
+:   You can now segment a scope to ensure that only those users who need to have access to certain resource information have it. For more information see, [Segmenting your scope](/docs/security-compliance?topic=security-compliance-subscopes).
+
+The list of rules given below are updated in this release.
+With these changes, these rules will be compliant based on the following conditions.
+
+   * Private end point is selected on at least one context of CBR rule
+   * If `public_endpoints_mfa_enabled`input parameter is set to ON, if public end points are selected, then MFA is mandatory. Allowed IP list on public endpoints also should not be empty.
+   * If `public_endpoints_mfa_enabled` input parameter is set to OFF, if public end points are selected, then MFA settings check is ignored, but Allowed IP list on public end points should not be empty.
+   * Any allowed IP list for private endpoints and public endpoints on the CBR rule should also match SCC rule allowed IP list.
+
+:   Most of these rules are mapped to following profiles.
+
+   - IBM Cloud Framework for Financial Services(1.7.0)
+   - IBM Cloud Framework for Financial Services (Moderate)(1.1.0)
+   - ISO/IEC 27001:2022
+   - AI Security Guardrails 2.0 (1.1.0)
+
+:   The following rules are updated:
+
+   1. Check whether there are no wild cards and wideflows in the private and public endpoints allow list Flow Logs for VPC (Context-based restrictions or service)
+   2. Check whether Code Engine can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   3. Check whether Security and Compliance Center can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   4. Check whether Container Registry can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   5. Check whether Direct Link can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   6. Check whether DNS Services can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   7. Check whether Event Notifications can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   8. Check whether Hyper Protect Crypto Services can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   9. Check whether IAM access management can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   10. Check whether IAM access groups can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   11. Check whether Key Protect can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   12. Check whether IBM Log Analysis can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   13. Check whether IBM Cloud Activity Tracker can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   14. Check whether Event Streams can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   15. Check whether Schematics can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   16. Check whether Secrets Manager can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   17. Check whether IBM Cloud Monitoring can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   18. Check whether Transit Gateway can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   19. Check whether User Management can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   20. Check whether Cloud Object Storage can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   21. Check whether Virtual Private Cloud can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   22. Check whether Backup for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   23. Check whether Bare Metal Servers for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   24. Check whether Dedicated Host for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   25. Check whether Virtual Private Endpoints for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   26. Check whether VPC floating IPs can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   27. Check whether Flow Logs for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   28. Check whether VPC images can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   29. Check whether Auto scale for VPC can be accessed only through a private endpoint (Context-based restrictions or service)  and allowed IPs with MFA enabled or not
+   30. Check whether Virtual Servers for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   31. Check whether VPC SSH keys can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   32. Check whether Load Balancer for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   33. Check whether VPC network access control lists can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   34. Check whether VPC placement groups can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   35. Check whether VPC public gateways can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   36. Check whether VPC security groups can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   37. Check whether Block Storage Snapshots for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   38. Check whether VPC subnets can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   39. Check whether Block Storage for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   40. Check whether Client VPN for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
+   41. Check whether VPN for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not
 
 
 ## 15 October 2024
