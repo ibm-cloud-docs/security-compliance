@@ -148,6 +148,8 @@ toc:
                 navtitle: OSPAR
               - topic: change-logs/iso-iec.md
                 navtitle: ISO/IEC 27001:2022
+              - topic: change-logs/itsg.md
+                navtitle: ITSG
           - topicgroup:
               label: Amazon Web Services
               topics:
