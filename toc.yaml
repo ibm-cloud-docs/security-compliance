@@ -80,7 +80,8 @@ toc:
           topics:
           - topic: framework/at-events.md
             navtitle: Activity tracking events
-          - framework/external-logs.md
+          - topic: framework/logging.md
+            navtitle: Log routing
       - topicgroup:
           label: Enhancing security
           topics:
