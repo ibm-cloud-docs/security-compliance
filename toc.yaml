@@ -187,6 +187,8 @@ toc:
             navtitle: Understanding disaster recovery
       - topic: framework/endpoints.md
         navtitle: Endpoints and URLs
+      - topic: data-portability.md
+        navtitle: Data Portability
       - topicgroup:
           label: Related links
           topics:
