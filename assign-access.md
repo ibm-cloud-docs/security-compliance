@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-08"
+lastupdated: "2024-11-14"
 
 keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
 
@@ -79,8 +79,8 @@ To allow for certain users of your account to view results without having access
 2. Navigate to the IAM UI.
 	1. Click **Manage** > **Access (IAM)** > **Users**, and select the user that you want to provide access to.
 
-		Be sure to start from the **Access groups** tab if you're working with a group.
-		{: tip}
+	   Be sure to start from the **Access groups** tab if you're working with a group.
+	   {: tip}
 	
 	2. Click **Access** > **Assign access**.
 

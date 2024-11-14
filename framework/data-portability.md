@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-11-08"
+lastupdated: "2024-11-14"
 
 keywords: {{site.data.keyword.compliance_short}}, data portability
 
@@ -42,10 +42,10 @@ Use the [list attachments](/apidocs/security-compliance#list-attachments-account
 {: #data-portability-data-formats}
 
 {{site.data.keyword.compliance_short}} supports the following data format and schema of the exported data and configuration:
-* Format: JSON
+* Format: JSON 
 * Schema: [List attachments API response](/apidocs/security-compliance#list-attachments-account-response)
 
 ## Data ownership
 {: #data-portability-ownership}
 
-All exported data is classified as customer content. Apply the full customer ownership and licensing rights, as stated in the [IBM Cloud Service Agreement](https://www.ibm.com/terms/?id=Z126-6304_WS).
+All exported data is classified as customer content. Apply the full customer ownership and licensing rights, as stated in the [IBM Cloud Service Agreement](https://www.ibm.com/support/customer/csol/terms/?id=Z126-6304_WS&cc=us&lc=en).

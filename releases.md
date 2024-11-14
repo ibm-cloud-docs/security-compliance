@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-29"
+lastupdated: "2024-11-14"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -286,7 +286,7 @@ AI Security Guardrails 2.0 profile
 :   Version 1.0.0 of the AI Security Guardrails 2.0 profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-ai-security-change-log).
 
 Scanning Watson Machine Learning resources is now available with {{site.data.keyword.compliance_short}}
-:   You can now scan your Watson Machine Learning resources against the AI Security Guardrails 2.0 profile. You can enable access for {{site.data.keyword.compliance_short}} to scan your Watson Machine Learning resources by assigning customer credentials (API keys) that are stored in {{site.data.keyword.secrets-manager_short}}. For more information, see [Scanning Watson Machine Learning resources](/docs/security-compliance?topic=security-compliance-scan-watson-machine-learning). 
+:   You can now scan your Watson Machine Learning resources against the AI Security Guardrails 2.0 profile. You can enable access for {{site.data.keyword.compliance_short}} to scan your Watson Machine Learning resources by assigning customer credentials (API keys) that are stored in {{site.data.keyword.secrets-manager_short}}. For more information, see Scanning Watson Machine Learning resources. 
 
 
 Using trusted profiles to scan your main account 
@@ -509,7 +509,7 @@ New rules available
 
 Scanning resources in other accounts is now available
 
-:   You can now scan resources in other {{site.data.keyword.cloud_notm}} accounts that are either part of an enterprise or outside of an enterprise. You can enable scanning across other accounts by adding these accounts to your attachment as target accounts. For more information about scanning resources in other {{site.data.keyword.cloud_notm}} accounts, see [Scanning resources across accounts](/docs/security-compliance?topic=security-compliance-scan-resources-cross-account).
+:   You can now scan resources in other {{site.data.keyword.cloud_notm}} accounts that are either part of an enterprise or outside of an enterprise. You can enable scanning across other accounts by adding these accounts to your attachment as target accounts. For more information about scanning resources in other {{site.data.keyword.cloud_notm}} accounts, see [Scanning resources across accounts](/docs/security-compliance?topic=security-compliance-scopes).
 
    You can take advantage of an automation script that can help you to automatically register to scan resources across accounts. For more information, check out the [script in GitHub](https://github.com/IBM/security-compliance-automation){: external}.
    {: note}
@@ -862,7 +862,7 @@ New rule available
 :   The {{site.data.keyword.cloud_notm}} Log Analysis service can now be evaluated to determine whether an instance exists in a specific region and whether platform logs are enabled. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 Multi-environment profiles
-:   You can now evaluate multiple environments by using the same profile. To get started with the multi-cloud flow, [create a custom profile](/docs/security-compliance?topic=security-compliance-build-custom-profiles) and then [run an evaluation](/docs/security-compliance?topic=security-compliance-scan-resources).
+:   You can now evaluate multiple environments by using the same profile. To get started with the multi-cloud flow, [create a custom profile](/docs/security-compliance?topic=security-compliance-build-custom-profiles) and then [run an evaluation](/docs/security-compliance?topic=security-compliance-/docs/security-compliance?topic=security-complianceources).
 
 
 ## 15 September 2023
@@ -1022,7 +1022,7 @@ Reminder: {{site.data.keyword.compliance_short}} will become regional
 {: release-note}
 
 Schedule the frequency of your scans
-:   You can now schedule the frequency at which your scans are run in the updated architecture. Options include everyday, every 7 days, and every 30 days. You can also now pause your scans. It is recommended that you continue to scan your environments daily. To get started, see [Scanning {{site.data.keyword.cloud_notm}} resources](/docs/security-compliance?topic=security-compliance-scan-resources).
+:   You can now schedule the frequency at which your scans are run in the updated architecture. Options include everyday, every 7 days, and every 30 days. You can also now pause your scans. It is recommended that you continue to scan your environments daily. To get started, see [Scanning {{site.data.keyword.cloud_notm}} resources](/docs/security-compliance?topic=security-compliance-/docs/security-compliance?topic=security-complianceources).
 
 
 ## 1 May 2023

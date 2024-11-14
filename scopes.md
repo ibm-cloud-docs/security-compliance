@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-10-15"
+lastupdated: "2024-11-14"
 
 keywords: scope, subscope, view results access, 
 
@@ -92,7 +92,7 @@ Currently, only Watson Machine Learning services require these steps. Additional
 
 2. In the IAM UI, make the following configurations.
 
-   1. Go to **Manage** > **Access (IAM)** > **Service IDs** and create a [service ID]((/docs/account?topic=account-serviceids&interface=ui#create_serviceid)) with the **Viewer** Role on your SaaS service.
+   1. Go to **Manage** > **Access (IAM)** > **Service IDs** and create a [service ID](/docs/account?topic=account-serviceids&interface=ui#create_serviceid) with the **Viewer** Role on your SaaS service.
    2. From the service ID, create an [API key](/docs/account?topic=account-serviceidapikeys&interface=ui#create_service_key).
    3. Go to **Manage** > **Access (IAM)** > **Authorizations** and create an authorization between {{site.data.keyword.compliance_short}} and {{site.data.keyword.secrets-manager_short}} with the following values.
 
