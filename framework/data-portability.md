@@ -4,7 +4,7 @@ copyright:
   years: 2020, 2024
 lastupdated: "2024-11-20"
 
-keywords: {{site.data.keyword.compliance_short}}, data portability
+keywords: Security and Compliance Center, data portability
 
 subcollection: security-compliance
 
@@ -41,6 +41,8 @@ For more information about your responsibilities, see [Shared responsibilities f
 * [Settings](/apidocs/security-compliance#get-settings) provides a structured way to retrieve and export all relevant settings associated with an instance.
 
 ### Export result data
+{: #data-portability-result-data}
+
 Scan results are stored in the IBM Cloud Object Storage bucket you have configured in your instance settings. For detailed information about exporting your results, see [IBM Cloud Object Storage data export procedures](/cloud-object-storage?topic=cloud-object-storage-data-portability).
 
 ## Exported data formats
@@ -63,4 +65,4 @@ Settings
 ## Data ownership
 {: #data-portability-ownership}
 
-All exported data is classified as customer content. Apply the full customer ownership and licensing rights, as stated in the [IBM Cloud Service Agreement](https://www.ibm.com/support/customer/csol/terms/?id=Z126-6304_WS&cc=us&lc=en).
+All exported data is classified as customer content. Apply the full customer ownership and licensing rights, as stated in the [{{site.data.keyword.cloud_notm}} Service Agreement](https://www.ibm.com/support/customer/csol/terms/?id=Z126-6304_WS&cc=us&lc=en).
