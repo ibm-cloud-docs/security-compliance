@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2024-11-14"
+lastupdated: "2024-11-20"
 
 keywords: {{site.data.keyword.compliance_short}}, data portability
 
@@ -34,16 +34,31 @@ For more information about your responsibilities, see [Shared responsibilities f
 ## Data export procedures
 {: #data-portability-procedures}
 
-{{site.data.keyword.compliance_short}} provides mechanisms to export settings and configurations that are used to process your content.
+{{site.data.keyword.compliance_short}} provides mechanisms to export settings and configurations that are used to process your content. The [{{site.data.keyword.compliance_short}} API](/apidocs/security-compliance) documents the commands to interact with your data.
 
-Use the [list attachments](/apidocs/security-compliance#list-attachments-account) API endpoint to export configuration details. This API provides a structured way to retrieve and export all relevant attachment configurations associated with an instance.
+* [List attachments](/apidocs/security-compliance#list-attachments-account) provides a structured way to retrieve and export all relevant attachment configurations associated with an instance.
+* [List rules](/apidocs/security-compliance#list-rules) with the `type=user_defined` query parameter provides a structured way to retrieve and export all relevant custom rule configurations associated with an instance.
+* [Settings](/apidocs/security-compliance#get-settings) provides a structured way to retrieve and export all relevant settings associated with an instance.
+
+### Export result data
+Scan results are stored in the IBM Cloud Object Storage bucket you have configured in your instance settings. For detailed information about exporting your results, see [IBM Cloud Object Storage data export procedures](/cloud-object-storage?topic=cloud-object-storage-data-portability).
 
 ## Exported data formats
 {: #data-portability-data-formats}
 
-{{site.data.keyword.compliance_short}} supports the following data format and schema of the exported data and configuration:
-* Format: JSON 
+{{site.data.keyword.compliance_short}} supports the following data format and schema of the exported data and configurations.
+
+Attachment configurations
+* Format: JSON
 * Schema: [List attachments API response](/apidocs/security-compliance#list-attachments-account-response)
+
+Custom rule configurations
+* Format: JSON
+* Schema: [List rules API response](/apidocs/security-compliance#list-rules-response)
+
+Settings
+* Format: JSON
+* Schema: [Settings API response](/apidocs/security-compliance#get-settings-response)
 
 ## Data ownership
 {: #data-portability-ownership}
