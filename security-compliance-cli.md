@@ -980,7 +980,7 @@ ibmcloud security-compliance profile --help
 ### `ibmcloud security-compliance profile attachments`
 {: #security-compliance-cli-attachments-list-command}
 
-View all of the attachments that are linked to a specific profile.  An attachment is the association between the set of resources that you want to evaluate  and a profile that contains the specific controls that you want to use. For more information, see [Running an evaluation for IBM Cloud](/docs/security-compliance?topic=security-compliance-scan-resources).
+View all of the attachments that are linked to a specific profile.  An attachment is the association between the set of resources that you want to evaluate  and a profile that contains the specific controls that you want to use. For more information, see [Creating an attachment](/docs/security-compliance?topic=security-compliance-attachments).
 Note: If the `--all-pages` option is not set, the command will only retrieve a single page of the collection.
 
 ```sh
@@ -1795,7 +1795,7 @@ ibmcloud security-compliance attachment --help
 ### `ibmcloud security-compliance attachment create`
 {: #security-compliance-cli-attachments-create-command}
 
-Create an attachment to link to a profile to schedule evaluations  of your resources on a recurring schedule, or on-demand. For more information, see [Running an evaluation for IBM Cloud](/docs/security-compliance?topic=security-compliance-scan-resources).
+Create an attachment to link to a profile to schedule evaluations  of your resources on a recurring schedule, or on-demand. For more information, see [Creating an attachment](/docs/security-compliance?topic=security-compliance-attachments).
 
 ```sh
 ibmcloud security-compliance attachment create --profile-id PROFILE-ID --attachments ATTACHMENTS [--x-correlation-id X-CORRELATION-ID] [--x-request-id X-REQUEST-ID]
@@ -1842,7 +1842,7 @@ ibmcloud security-compliance attachment create \
 ### `ibmcloud security-compliance attachment delete`
 {: #security-compliance-cli-attachments-delete-command}
 
-Delete an attachment. Alternatively, if you think that you might need  this configuration in the future, you can pause an attachment to stop being charged. For more information, see [Running an evaluation for IBM Cloud](/docs/security-compliance?topic=security-compliance-scan-resources).
+Delete an attachment. Alternatively, if you think that you might need  this configuration in the future, you can pause an attachment to stop being charged. For more information, see [Creating an attachment](/docs/security-compliance?topic=security-compliance-attachments).
 
 ```sh
 ibmcloud security-compliance attachment delete --attachment-id ATTACHMENT-ID --profile-id PROFILE-ID [--x-correlation-id X-CORRELATION-ID] [--x-request-id X-REQUEST-ID]
@@ -1887,11 +1887,12 @@ ibmcloud security-compliance attachment delete \
 ### `ibmcloud security-compliance attachment get`
 {: #security-compliance-cli-attachments-get-command}
 
-View the details of an attachment a profile by providing the attachment ID.  You can find this value in the Security and Compliance Center UI. For more information, see [Running an evaluation for IBM Cloud](/docs/security-compliance?topic=security-compliance-scan-resources).
+View the details of an attachment a profile by providing the attachment ID.  You can find this value in the Security and Compliance Center UI. For more information, see [Creating an attachment](/docs/security-compliance?topic=security-compliance-attachments).
 
 ```sh
 ibmcloud security-compliance attachment get --attachment-id ATTACHMENT-ID --profile-id PROFILE-ID [--x-correlation-id X-CORRELATION-ID] [--x-request-id X-REQUEST-ID]
 ```
+{: codeblock}
 
 
 #### Command options
@@ -1932,11 +1933,12 @@ ibmcloud security-compliance attachment get \
 ### `ibmcloud security-compliance attachment update`
 {: #security-compliance-cli-attachments-update-command}
 
-Update an attachment that is linked to a profile to evaluate your resources  on a recurring schedule, or on-demand. For more information, see [Running an evaluation for IBM Cloud](/docs/security-compliance?topic=security-compliance-scan-resources).
+Update an attachment that is linked to a profile to evaluate your resources  on a recurring schedule, or on-demand. For more information, see [Creating an attachment](/docs/security-compliance?topic=security-compliance-attachments).
 
 ```sh
 ibmcloud security-compliance attachment update --attachment-id ATTACHMENT-ID --profile-id PROFILE-ID [--id ID] [--account-id ACCOUNT-ID] [--instance-id INSTANCE-ID] [--scope SCOPE] [--created-on CREATED-ON] [--created-by CREATED-BY] [--updated-on UPDATED-ON] [--updated-by UPDATED-BY] [--status STATUS] [--schedule SCHEDULE] [--notifications NOTIFICATIONS] [--attachment-parameters ATTACHMENT-PARAMETERS] [--last-scan LAST-SCAN] [--next-scan-time NEXT-SCAN-TIME] [--name NAME] [--description DESCRIPTION] [--x-correlation-id X-CORRELATION-ID] [--x-request-id X-REQUEST-ID]
 ```
+{: codeblock}
 
 
 #### Command options
@@ -2160,7 +2162,7 @@ ibmcloud security-compliance attachment scan \
 ### `ibmcloud security-compliance attachment list`
 {: #security-compliance-cli-attachments-list-all-command}
 
-View all of the attachments that are linked to an account. An attachment is the association between the set of resources that you want to evaluate  and a profile that contains the specific controls that you want to use. For more information, see [Running an evaluation for IBM Cloud](/docs/security-compliance?topic=security-compliance-scan-resources).
+View all of the attachments that are linked to an account. An attachment is the association between the set of resources that you want to evaluate  and a profile that contains the specific controls that you want to use. For more information, see [Creating an attachment](/docs/security-compliance?topic=security-compliance-attachments).
 Note: If the `--all-pages` option is not set, the command will only retrieve a single page of the collection.
 
 ```sh
@@ -3071,5 +3073,3 @@ The following example shows the format of the Target object.
 }
 ```
 {: codeblock}
-
-

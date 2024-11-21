@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-10-15"
+lastupdated: "2024-11-14"
 
 keywords: Centralized security, workload protection, compliance monitoring, compliance, scan, sysdig, multicloud, multi-cloud, azure, amazon, aws
 
@@ -85,7 +85,7 @@ To create a connection with Caveonix with {{site.data.keyword.compliance_short}}
 
 To evaluate your resources, you create an attachment. An attachment is the association between the set of resources that you want to evaluate and a profile that contains the specific controls that you want to evaluate. When you create an attachment you must select the **Caveonix** related profile to enable the connection correctly.
 
-To help creating an attachment, see [Scanning your resources](/docs/security-compliance?topic=security-compliance-scan-resources).
+To help creating an attachment, see [Creating an attachment](/docs/security-compliance?topic=security-compliance-attachments).
 
 Be sure to copy your attachment ID as you will need it in the next step.
 {: tip}

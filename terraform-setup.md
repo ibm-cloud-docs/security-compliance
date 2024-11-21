@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-02-27"
+lastupdated: "2024-11-14"
 
 keywords: terraform, {{site.data.keyword.compliance_short}}, terraform setup, create instance
 
@@ -161,7 +161,6 @@ Before you can create an authorization by using Terraform, make sure that you co
 ## What's next?
 {: #terraform-setup-next}
 
-Now that you successfully created your first {{site.data.keyword.compliance_short}} service instance with Terraform on {{site.data.keyword.cloud_notm}}, you can scan your resources on a recurring schedule by creating an attachment. For more information about attachments, see [Scanning your resources](/docs/security-compliance?topic=security-compliance-scan-resources&interface=terraform).
+Now that you successfully created your first {{site.data.keyword.compliance_short}} service instance with Terraform on {{site.data.keyword.cloud_notm}}, you can scan your resources on a recurring schedule by creating an attachment. For more information about attachments, see [Creating an attachment](/docs/security-compliance?topic=security-compliance-attachments).
 
 You can also review how to manage your {{site.data.keyword.compliance_short}} resources by following the Terraform steps that are included in the How to section. For example, you can follow the directions on how to create [custom libraries](/docs/security-compliance?topic=security-compliance-custom-library&interface=api&code=curl) by using Terraform.
-
