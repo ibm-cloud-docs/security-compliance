@@ -189,6 +189,8 @@ toc:
         navtitle: Endpoints and URLs
       - topic: framework/data-portability.md
         navtitle: Data Portability
+      - topic: framework/service-dependency.md
+        navtitle: Service dependency map
       - topicgroup:
           label: Related links
           topics:
