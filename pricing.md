@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-08-07"
+  years: 2020, 2025
+lastupdated: "2025-01-16"
 
 keywords: best practices security and compliance, secure development, security strategy, governance
 
@@ -28,7 +28,7 @@ For the most up-to-date pricing information, you can create a cost estimate by c
 The service offers two pricing plans.
 
 Trial
-:   To test the service, you can enroll in a Trial period where you have access the full capabilities of the service for 30 days at no charge. You can create profiles, set up credentials, and configure your account to evaluate your resources, among other things. Each account can have 1 instance of the trial service for the lifetime of the account.
+:   To test the service, you can enroll in a Trial period where you have access to the full capabilities of the service for 30 days at no charge. You can create profiles, set up credentials, and configure your account to evaluate your resources, among other things. Each account can have 1 instance of the trial service for the lifetime of the account.
 
 Standard
 :   With a Standard plan, you are able to access the full capabilities of the service without limitations. However, you are charged per evaluation.
@@ -43,4 +43,3 @@ You are charged if an evaluation produces a result of pass or fail. You are not 
 {: #pricing-stop}
 
 You are charged when an evaluation takes place. If you no longer want to be charged for a specific evaluation, stop the scan or scans that you do not want to be charged for from running by deleting your attachment. This does not remove your historical results, but it does stop future scans from being run.
-
