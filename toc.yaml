@@ -200,7 +200,8 @@ toc:
   - navgroup:
       id: help
       topics:
-      - faqs.md
+      - topic: faqs.md
+        navtitle: FAQ
       - topicgroup:
           label: Troubleshooting
           topics:
