@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-12-03"
+  years: 2020, 2025
+lastupdated: "2025-01-29"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -864,7 +864,7 @@ New rule available
 :   The {{site.data.keyword.cloud_notm}} Log Analysis service can now be evaluated to determine whether an instance exists in a specific region and whether platform logs are enabled. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 Multi-environment profiles
-:   You can now evaluate multiple environments by using the same profile. To get started with the multi-cloud flow, [create a custom profile](/docs/security-compliance?topic=security-compliance-build-custom-profiles) and then [run an evaluation](/docs/security-compliance?topic=security-compliance-/docs/security-compliance?topic=security-complianceources).
+:   You can now evaluate multiple environments by using the same profile. To get started with the multi-cloud flow, [create a custom profile](/docs/security-compliance?topic=security-compliance-build-custom-profiles) and then [run an evaluation](/docs/security-compliance?topic=security-compliance-osco-resources).
 
 
 ## 15 September 2023
