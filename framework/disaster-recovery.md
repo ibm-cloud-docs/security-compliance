@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-10-15"
+  years: 2020, 2025
+lastupdated: "2025-01-29"
 
 keywords: HA for {{site.data.keyword.compliance_short}}, DR for {{site.data.keyword.compliance_short}}, high availability for {{site.data.keyword.compliance_short}}, disaster recovery for {{site.data.keyword.compliance_short}}, failover for {{site.data.keyword.compliance_short}}, BC for {{site.data.keyword.compliance_short}}, business continuity for {{site.data.keyword.compliance_short}}, disaster recovery for {{site.data.keyword.compliance_short}}
 
@@ -18,7 +18,7 @@ subcollection: security-compliance
 
 [Disaster recovery](#x2113280){: term} involves a set of policies, tools, and procedures for returning a system, an application, or an entire data center to full operation after a catastrophic interruption. It includes procedures for copying and storing an installed system's essential data in a secure location, and for recovering that data to restore normalcy of operation. {: shortdesc}
 
-In case of failure, a failover design is established to keep your resources running without needing you to act. See [How {{site.data.keyword.cloud_notm}} ensures high availability and disaster recovery](/docs/overview?topic=overview-zero-downtime#zero-downtime) to learn more about the high availability and disaster recovery standards in {{site.data.keyword.cloud_notm}}. You can also learn more about [Service Level Agreements](/docs/overview?topic=overview-slas).
+In case of failure, a failover design is established to keep your resources running without needing you to act. See [How {{site.data.keyword.cloud_notm}} ensures high availability and disaster recovery](/docs/resiliency?topic=resiliency-ha-redundancy) to learn more about the high availability and disaster recovery standards in {{site.data.keyword.cloud_notm}}. You can also learn more about [Service Level Agreements](/docs/overview?topic=overview-slas).
 
 ## Responsibilities
 {: #bc-dr-responsibilities}

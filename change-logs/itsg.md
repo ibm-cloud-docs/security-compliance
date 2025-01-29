@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: "2024"
-lastupdated: "2024-10-29"
+  years: "2025"
+lastupdated: "2025-01-29"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements, Information Technology Security Guidance, 
 
@@ -20,7 +20,7 @@ In this change log, you can learn about the latest changes, improvements, and up
 An ITSG compliance profile is a collection of pre-selected security controls from the Information Technology Security Guidance (ITSG) 33 catalog that are tailored to a specific business environment. The ITSG 33 is a document published by the Canadian Centre for Cybersecurity (CCCS) that covers IT security risk management.
 
 ## Profile versioning
-{: #iso-iec-versioning}
+{: #itsg-iec-versioning}
 
 When specifications or controls are edited, removed from, or added to a profile in a way that is not compatible with the current version, a new version is released. To take advantage of the changes in a new version, update your attachments to use the newest profile version.
 
@@ -43,7 +43,7 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 
 
 ## Version 1.0.0
-{: #iso-iec-version1}
+{: #itsg-iec-version1}
 
 Now available
 :   As of 29 October 2024, the Information Technology Security Guidance (ITSG) profile is available.
