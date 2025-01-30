@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-01-29"
+lastupdated: "2025-01-30"
 
 keywords: Security and Compliance Center, data portability
 
@@ -52,15 +52,15 @@ Scan results are stored in the IBM Cloud Object Storage bucket you have configur
 
 Attachment configurations
 * Format: JSON
-* Schema: [List attachments API response](/apidocs/security-compliance#list-instance-attachments-response)
+* Schema: [List attachments API response](/apidocs/security-compliance?code=go#list-attachments-response)
 
 Custom rule configurations
 * Format: JSON
-* Schema: [List rules API response](/apidocs/security-compliance#list-rules-response)
+* Schema: [List rules API response](/apidocs/security-compliance?code=go#get-rule-response)
 
 Settings
 * Format: JSON
-* Schema: [Settings API response](/apidocs/security-compliance#get-settings-response)
+* Schema: [Settings API response](/apidocs/security-compliance?code=go#get-settings-response)
 
 ## Data ownership
 {: #data-portability-ownership}

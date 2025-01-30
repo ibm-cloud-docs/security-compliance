@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-01-29"
+lastupdated: "2025-01-30"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -864,8 +864,7 @@ New rule available
 :   The {{site.data.keyword.cloud_notm}} Log Analysis service can now be evaluated to determine whether an instance exists in a specific region and whether platform logs are enabled. For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 Multi-environment profiles
-:   You can now evaluate multiple environments by using the same profile. To get started with the multi-cloud flow, [create a custom profile](/docs/security-compliance?topic=security-compliance-build-custom-profiles) and then [run an evaluation](/docs/security-compliance?topic=security-compliance-osco-resources).
-
+:   You can now evaluate multiple environments by using the same profile. To get started with the multi-cloud flow, [create a custom profile](/docs/security-compliance?topic=security-compliance-build-custom-profiles) and then [run an evaluation](/docs/security-compliance?topic=security-compliance-tutorial-tags&interface=ui#tutorial-tag-scan-resources).
 
 ## 15 September 2023
 {: #security-compliance-sep1523}
@@ -1024,7 +1023,7 @@ Reminder: {{site.data.keyword.compliance_short}} will become regional
 {: release-note}
 
 Schedule the frequency of your scans
-:   You can now schedule the frequency at which your scans are run in the updated architecture. Options include everyday, every 7 days, and every 30 days. You can also now pause your scans. It is recommended that you continue to scan your environments daily. To get started, see [Scanning {{site.data.keyword.cloud_notm}} resources](/docs/security-compliance?topic=security-compliance-/docs/security-compliance?topic=security-complianceources).
+:   You can now schedule the frequency at which your scans are run in the updated architecture. Options include everyday, every 7 days, and every 30 days. You can also now pause your scans. It is recommended that you continue to scan your environments daily. To get started, see [Scanning {{site.data.keyword.cloud_notm}} resources](/docs/security-compliance?topic=security-compliance-tutorial-tags&interface=ui#tutorial-tag-scan-resources).
 
 
 ## 1 May 2023
