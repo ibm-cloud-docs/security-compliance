@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2025
-lastupdated: "2025-01-29"
+lastupdated: "2025-02-20"
 
 keywords:
 
@@ -58,7 +58,9 @@ The following table provides the dependency listing of this service following a 
 {: #critical-deps}
 {: summary="Use the buttons for the dependency level to change the context of the table. This table has row and column headers. The row headers details about the dependency. The column headers identify the dependency. To understand the details about each dependency, navigate to the row to find the dependency that you need more information about interested in."}
 
-|Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency|
+
+
+|Dependencies|Dependency impacts|Customer provided|Control or data plane|Location of dependency| 
 |:---|:---|:---|:---|:---|
 | IBM Cloud Secrets Manager | Availability, Change management, Disaster recovery, Security compliance | No | Both |  Same region  |
 | Amplitude | Availability | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
@@ -68,8 +70,7 @@ The following table provides the dependency listing of this service following a 
 | IBM Cloud Business Support Services | Availability | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | IBM Cloud CLI  | Availability | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
 | IBM Cloud Global Search and Tagging | Availability | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| IBM Cloud Global Resource Catalog | Availability, Change management | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  |
-| IBM Log Analysis and IBM Cloud Activity Tracker | Access management, Availability, Operations, Security compliance | No | Both |  Same region  |
+| IBM Cloud Global Resource Catalog | Availability, Change management | No | Both |  [Global](https://cloud.ibm.com/docs/resiliency?topic=resiliency-ha-redundancy#global-platform)  | 
 {: row-headers}
 {: caption="IBM Cloud Security and Compliance Center service dependency information - Significant dependencies" caption-side="top"}
 {: tab-title="Significant dependencies"}

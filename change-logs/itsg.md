@@ -1,7 +1,7 @@
 ---
 copyright:
   years: "2025"
-lastupdated: "2025-01-29"
+lastupdated: "2025-02-20"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements, Information Technology Security Guidance, 
 
@@ -37,9 +37,10 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 {: important}
 
 | Version number | Release date | Status |
-|:---------------|:-------------|:-------|
+|:---------------|:-------------|:-------| 
 | Version 1.0.0 | `2024-10-29` | Active |
 {: caption="Active versions of the Information Technology Security Guidance (ITSG) profile" caption-side="top"}
+
 
 
 ## Version 1.0.0

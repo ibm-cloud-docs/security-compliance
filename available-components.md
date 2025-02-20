@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-08-21"
+  years: 2025
+lastupdated: "2025-02-20"
 
 keywords: integrations, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -31,7 +31,7 @@ With {{site.data.keyword.compliance_short}} you can evaluate {{site.data.keyword
 
 You can evaluate your organization’s current security and compliance posture by validating the configuration of your resources in the following components.
 
-* [{{site.data.keyword.at_short}}](/docs/activity-tracker?topic=activity-tracker-getting-started)
+
 * [App Configuration](/docs/app-configuration?topic=app-configuration-getting-started)
 * [{{site.data.keyword.appid_short_notm}}](/docs/appid?topic=appid-getting-started)*
 * [Cloud Internet Services (CIS)](/docs/cis?topic=cis-getting-started)
@@ -50,7 +50,6 @@ You can evaluate your organization’s current security and compliance posture b
 * [Hyper Protect DBaaS for MongoDB](/docs/hyper-protect-dbaas-for-mongodb)
 * [Hyper Protect DBaaS for PostgreSQL](/docs/hyper-protect-dbaas-for-postgresql)
 * [{{site.data.keyword.containershort}}](/docs/containers?topic=containers-security)
-* [Log Analysis](/docs/log-analysis?topic=log-analysis-adoption#adoption_acc_settings)
 * [{{site.data.keyword.openshiftlong}}](/docs/openshift?topic=openshift-security)
 * [{{site.data.keyword.satelliteshort}}](/docs/satellite?topic=satellite-getting-started)
 * [Schematics](/docs/schematics?topic=schematics-access)
