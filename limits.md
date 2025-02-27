@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-10-15"
+  years: 2020, 2025
+lastupdated: "2025-02-27"
 
 keywords: known limitations, rules, limits, configuration, ibm remediation, ssh key
 
@@ -32,7 +32,7 @@ subcollection: security-compliance
 
 | Scope entities | Limit |
 |:--------|:-------|
-| Scopes | 1000 per instance   /n 300 per attachment |
+| Scopes | 1000 per instance  /n 300 per attachment |
 | Subscopes | 300 per scope |
 {: caption="{{site.data.keyword.compliance_short}} Limits" caption-side="top"}
 {: #scope-limits}
