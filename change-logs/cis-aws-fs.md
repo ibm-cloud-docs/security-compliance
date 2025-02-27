@@ -51,7 +51,7 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 {: #aws-fs-v120}
 
 Now available
- As of 6 December 2023, few component-id assesments in the AWS Foundational Security Best Practices profile have changed.
+ As of 6 December 2023, few component-id assessments in the AWS Foundational Security Best Practices profile have changed.
  The component-id of following assements from `container-eks` to `aws-resource`.
 
    * ECR - Enabled Vulnerability Scanning
