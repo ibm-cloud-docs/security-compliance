@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-10-10"
+  years: 2020, 2025
+lastupdated: "2025-03-03"
 
 keywords: cloud object storage, unable to store, failed to store
 
@@ -22,7 +22,7 @@ content-type: troubleshoot
 You attempted to run a scan, but it failed during the storage process.
 {: tsSymptoms}
 
-Scan results are stored within your Cloud Object Storage bucket and it failed during the storage process. There are a few reasons that this might happen:
+Scan results are stored within your Cloud Object Storage bucket and it failed during the storage process. Few reasons for the failure include:
 {: tsCauses}
 
 * You might not have granted the correct authorization to allow {{site.data.keyword.compliance_short}} to access to your Cloud Object Storage service.
@@ -34,10 +34,10 @@ Scan results are stored within your Cloud Object Storage bucket and it failed du
 To resolve the issue:
 {: tsResolve}
 
-In order to view your IBM Cloud accounts current Cloud Object Storage configuration please visit your accounts [resource list](https://cloud.ibm.com/resources) and open the dropdown menu for **Storage** and select your instance.
+In order to view your IBM Cloud accounts current Cloud Object Storage configuration, visit your accounts [resource list](https://cloud.ibm.com/resources) and open the dropdown menu for **Storage** and select your instance.
 
-* Verify you have configured a service-to-service authorization by navigating to **[Manage > IAM > Authorizations](https://cloud.ibm.com/iam/authorizations)**. If your Cloud Object Storage service authorization is not listed, click **Create** and grant `Writer` service access between **{{site.data.keyword.compliance_short}}** and **Cloud Object Storage**.
+* Verify that you have configured a service-to-service authorization by navigating to **[Manage > IAM > Authorizations](https://cloud.ibm.com/iam/authorizations)**. If your Cloud Object Storage service authorization is not listed, click **Create** and grant `Writer` service access between **{{site.data.keyword.compliance_short}}** and **Cloud Object Storage**.
 * Verify that you have correctly configured your Cloud Object Storage bucket by selecting your Cloud Object Storage instance and confirming your bucket is setup properly.
 * Verify your authorization to the Cloud Object Storage bucket by selecting the buckets **Permissions** tab and validating your access.
 * Verify that you have not exceeded the maximum amount of storage you are allotted within your Cloud Object Storage instance. More information about your current storage usage can be found under the **Instance usage** tab. More information on setting a storage [quota](https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-quota) on your bucket.
-* Verify that if you are a Lite plan customer that your service has not been deactivated. Lite plan services are deleted after 30 days of inactivity. More information about your current plan can be found under the **Plan** tab.
+* If you are a Lite plan customer, verify that your service is not deactivated. Lite plan services are deleted after 30 days of inactivity. More information about your current plan can be found under the **Plan** tab.

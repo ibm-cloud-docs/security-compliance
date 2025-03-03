@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-03-31"
+  years: 2020, 2025
+lastupdated: "2025-03-03"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -14,7 +14,7 @@ content-type: troubleshoot
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Why do I still see results if I've deleted a resource?
+# Why do I still see results if I have deleted a resource?
 {: #result-deleted-resource}
 {: troubleshoot}
 {: support}
@@ -31,4 +31,3 @@ Results are a point in time statement of your compliance with a specific group o
 
 If you don't want to view results for a specific resource, you can remove the scans from your storage.
 {: tsResolve}
-

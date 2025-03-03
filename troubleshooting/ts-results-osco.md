@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-10-11"
+  years: 2020, 2025
+lastupdated: "2025-03-03"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -14,22 +14,21 @@ content-type: troubleshoot
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Why aren't my OpenShift clusters being scanned?
+# Why aren't my Red Hat OpenShift clusters being scanned?
 {: #ts-osco-results}
 {: troubleshoot} 
 
 Your clusters are not being scanned.
 {: tsSymptoms} 
 
-There are a few reasons that this might happen:
+A few reasons for your clusters not being scanned include:
 {: tsCauses}
 
-* Your scope does not contain any OpenShift clusters.
+* Your scope does not contain any Red Hat OpenShift clusters.
 * You're not using the correct profile. 
 
 To resolve the issue:
 {: tsResolve}
 
-* Verify that your scope contains OpenShift clusters.
-* Ensure that you selected the {{site.data.keyword.cloud_notm}} OpenShift Kubernetes OCP4 profile.
-
+* Verify that your scope contains Red Hat OpenShift clusters.
+* Ensure that you selected the {{site.data.keyword.cloud_notm}} Red Hat OpenShift Kubernetes OCP4 profile.
