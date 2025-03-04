@@ -23,8 +23,8 @@ completion-time: 5m
 {: toc-completion-time="5m"}
 
 
-IBM Cloud Security Posture Management (CSPM) is now available in Security and Compliance Center Workload Protection. You can centralize and streamline your security operations by consolidating all hybrid multi-cloud scanning results into a single, unified dashboard.
-{: preview}
+IBM Cloud security posture management (CSPM) is now available in Security and Compliance Center Workload Protection. You can centralize and streamline your security operations by consolidating all hybrid multi-cloud scanning results into a single, unified dashboard.
+{: tip}
 
 For highly regulated industries, such as financial services, achieving continuous compliance within a cloud environment is an important first step toward protecting customer and application data. Historically, that process was difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.compliance_full}}, you can integrate daily, automatic compliance checks into your development lifecycle to help minimize that risk.
 {: shortdesc}
