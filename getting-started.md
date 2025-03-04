@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-10-15"
+  years: 2020, 2025
+lastupdated: "2025-03-04"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -21,6 +21,10 @@ completion-time: 5m
 {: toc-content-type="tutorial"}
 {: toc-services="security-compliance, cloud-object-storage, event-notifications, iam"}
 {: toc-completion-time="5m"}
+
+
+IBM Cloud Security Posture Management (CSPM) is now available in Security and Compliance Center Workload Protection. You can centralize and streamline your security operations by consolidating all hybrid multi-cloud scanning results into a single, unified dashboard.
+{: preview}
 
 For highly regulated industries, such as financial services, achieving continuous compliance within a cloud environment is an important first step toward protecting customer and application data. Historically, that process was difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.compliance_full}}, you can integrate daily, automatic compliance checks into your development lifecycle to help minimize that risk.
 {: shortdesc}
