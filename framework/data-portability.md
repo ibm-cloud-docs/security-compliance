@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-11-20"
+  years: 2020, 2025
+lastupdated: "2025-01-30"
 
 keywords: Security and Compliance Center, data portability
 
@@ -36,7 +36,7 @@ For more information about your responsibilities, see [Shared responsibilities f
 
 {{site.data.keyword.compliance_short}} provides mechanisms to export settings and configurations that are used to process your content. The [{{site.data.keyword.compliance_short}} API](/apidocs/security-compliance) documents the commands to interact with your data.
 
-* [List attachments](/apidocs/security-compliance#list-attachments-account) provides a structured way to retrieve and export all relevant attachment configurations associated with an instance.
+* [List attachments](/apidocs/security-compliance#list-instance-attachments) provides a structured way to retrieve and export all relevant attachment configurations associated with an instance.
 * [List rules](/apidocs/security-compliance#list-rules) with the `type=user_defined` query parameter provides a structured way to retrieve and export all relevant custom rule configurations associated with an instance.
 * [Settings](/apidocs/security-compliance#get-settings) provides a structured way to retrieve and export all relevant settings associated with an instance.
 
@@ -52,15 +52,15 @@ Scan results are stored in the IBM Cloud Object Storage bucket you have configur
 
 Attachment configurations
 * Format: JSON
-* Schema: [List attachments API response](/apidocs/security-compliance#list-attachments-account-response)
+* Schema: [List attachments API response](/apidocs/security-compliance?code=go#list-attachments-response)
 
 Custom rule configurations
 * Format: JSON
-* Schema: [List rules API response](/apidocs/security-compliance#list-rules-response)
+* Schema: [List rules API response](/apidocs/security-compliance?code=go#get-rule-response)
 
 Settings
 * Format: JSON
-* Schema: [Settings API response](/apidocs/security-compliance#get-settings-response)
+* Schema: [Settings API response](/apidocs/security-compliance?code=go#get-settings-response)
 
 ## Data ownership
 {: #data-portability-ownership}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-10-17"
+  years: 2020, 2025
+lastupdated: "2025-03-03"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -21,14 +21,14 @@ content-type: troubleshoot
 You're unable to access a resource from the console.
 
 
-When a resource has been flagged as noncompliant, you attempt to go fix it. When you click on the resource from the resource list page in the console, you receive an error message that says `Access denied`.
+When a resource is flagged as noncompliant, you attempt to go fix it. When you click the resource from the resource list page in the console, you receive an error message that says `Access denied`.
 {: tsSymptoms} 
 
-There are a few reasons that you might receive this error.
+A few reasons that you might receive this error include:
 {: tsCauses}
 
 * You do not have the proper access to view the resource.
-* Your account has a Context-based restriction that specifies that the service or resource can only be accessed through private endpoints. 
+* Your account has a Context-based restriction that specifies that the service or resource can be accessed only through private endpoints. 
 
 To resolve the issue:
 {: tsResolve}

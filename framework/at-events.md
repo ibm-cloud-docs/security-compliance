@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-11-01"
+  years: 2020, 2025
+lastupdated: "2025-01-29"
 
 keywords: Activity Tracker for {{site.data.keyword.compliance_short}}, LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} security, audit logs for {{site.data.keyword.compliance_short}}, viewing {{site.data.keyword.compliance_short}} events, {{site.data.keyword.compliance_short}} events
 
@@ -36,7 +36,7 @@ As of 28 March 2024, the {{site.data.keyword.at_full_notm}} service is deprecate
 |---------------------|-------------------------|-------------------|----------------------|
 | [Yes]{: tag-green} | [No]{: tag-red} | [Yes]{: tag-green} | [No]{: tag-red} |
 {: caption="Regions where activity tracking events are sent in Americas locations" caption-side="top"}
-{: #atracker-table-1}
+{: #atracker-table-11}
 {: tab-title="Americas"}
 {: tab-group="atracker"}
 {: class="simple-tab-table"}
@@ -46,7 +46,7 @@ As of 28 March 2024, the {{site.data.keyword.at_full_notm}} service is deprecate
 |---------------------|------------------|------------------|--------------------|
 | [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} |
 {: caption="Regions where activity tracking events are sent in Asia Pacific locations" caption-side="top"}
-{: #atracker-table-2}
+{: #atracker-table-12}
 {: tab-title="Asia Pacific"}
 {: tab-group="atracker"}
 {: class="simple-tab-table"}
@@ -56,7 +56,7 @@ As of 28 March 2024, the {{site.data.keyword.at_full_notm}} service is deprecate
 |---------------------------------------------------------------|---------------------|------------------|
 | [Yes]{: tag-green} | [No]{: tag-red} | [Yes]{: tag-green} |
 {: caption="Regions where activity tracking events are sent in Europe locations" caption-side="top"}
-{: #atracker-table-3}
+{: #atracker-table-13}
 {: tab-title="Europe"}
 {: tab-group="atracker"}
 {: class="simple-tab-table"}
@@ -72,7 +72,7 @@ As of 28 March 2024, the {{site.data.keyword.at_full_notm}} service is deprecate
 |---------------------|-------------------------|-------------------|----------------------|
 | [Yes]{: tag-green} | [No]{: tag-red} | [Yes]{: tag-green} | [No]{: tag-red} |
 {: caption="Regions where activity tracking events are sent in Americas locations" caption-side="top"}
-{: #atracker-table-1}
+{: #atracker-table-21}
 {: tab-title="Americas"}
 {: tab-group="atracker"}
 {: class="simple-tab-table"}
@@ -82,7 +82,7 @@ As of 28 March 2024, the {{site.data.keyword.at_full_notm}} service is deprecate
 |---------------------|------------------|------------------|--------------------|
 | [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} | [No]{: tag-red} |
 {: caption="Regions where activity tracking events are sent in Asia Pacific locations" caption-side="top"}
-{: #atracker-table-2}
+{: #atracker-table-22}
 {: tab-title="Asia Pacific"}
 {: tab-group="atracker"}
 {: class="simple-tab-table"}
@@ -92,7 +92,7 @@ As of 28 March 2024, the {{site.data.keyword.at_full_notm}} service is deprecate
 |---------------------------------------------------------------|---------------------|------------------|
 | [Yes]{: tag-green} | [No]{: tag-red} | [Yes]{: tag-green} |
 {: caption="Regions where activity tracking events are sent in Europe locations" caption-side="top"}
-{: #atracker-table-3}
+{: #atracker-table-23}
 {: tab-title="Europe"}
 {: tab-group="atracker"}
 {: class="simple-tab-table"}

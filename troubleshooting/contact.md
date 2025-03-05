@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-10-11"
+  years: 2020, 2025
+lastupdated: "2025-03-03"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -26,5 +26,4 @@ When you open a support ticket, be sure to provide the following information tha
 * The ID of the entity that you have a question about - Attachment, Profile, Specification, or Rule.
 * The scope.
 * A detailed description of the issue.
-* Any other information that can help process your ticket quickly.
-
+* Any other information that can help to process your ticket quickly.

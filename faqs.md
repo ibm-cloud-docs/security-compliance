@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-10-07"
+  years: 2020, 2025
+lastupdated: "2025-01-28"
 
 keywords: supported controls, controls available, supported environments, rule, profile, compliance issue, predefined rules, user-defined rules
 
@@ -13,7 +13,7 @@ subcollection: security-compliance
 {{site.data.keyword.attribute-definition-list}}
 
 
-# FAQs
+# FAQ for {{site.data.keyword.compliance_short}}
 {: #faqs}
 
 Frequently asked questions for {{site.data.keyword.compliance_full}} might include questions about managing profiles, defining custom rules, attaching scopes, and evaluating resources for compliance. To find all FAQs for {{site.data.keyword.cloud_notm}}, see the [FAQ library](/docs/faqs).

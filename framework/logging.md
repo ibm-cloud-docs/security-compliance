@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-11-14"
+  years: 2020, 2025
+lastupdated: "2025-01-29"
 
 keywords: LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} logging, {{site.data.keyword.compliance_short}} external logs
 
@@ -126,7 +126,7 @@ To configure your {{site.data.keyword.cloud_notm}} instance, you must turn on th
 {: #log-viewing}
 
 ### Launching {{site.data.keyword.logs_full_notm}} from the Observability page
-{: #log-launch-standalone}
+{: #logs-launch-standalone}
 
 For more information about launching the {{site.data.keyword.logs_full_notm}} UI, see [Launching the UI in the {{site.data.keyword.logs_full_notm}} documentation.](/docs/cloud-logs?topic=cloud-logs-instance-launch)
 

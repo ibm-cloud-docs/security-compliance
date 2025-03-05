@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-12-12"
+  years: 2020, 2025
+lastupdated: "2025-02-20"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
 
@@ -50,7 +50,7 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 ## Version 1.2.0
 {: #os-v120}
 
-As of today, 10 October 2023, controls have been removed from the Red Hat OpenShift Kubernetes OCP4 profile.
+As of today, 10 October 2023, controls are removed from the Red Hat OpenShift Kubernetes OCP4 profile.
 
 | Parent control | Removed sub controls |
 |:---------------|:---------------------|
@@ -65,11 +65,11 @@ As of today, 10 October 2023, controls have been removed from the Red Hat OpenSh
 ## Version 1.1.0
 {: #os-v110}
 
-[Deprecated]{: tag-deprecated} As of today, 23 September 2023, new controls have been added to the Red Hat OpenShift Kubernetes OCP4 profile.
+[Deprecated]{: tag-deprecated} As of today, 23 September 2023, new controls are added to the Red Hat OpenShift Kubernetes OCP4 profile.
 
 
 ## Version 1.0.0
 {: #os-v100}
 
 Now available
-:   Released today, 6 June 2023, the Red Hat OpenShift Kubernetes OCP4 profile is a collection of controls designed to validate the configuration of your {{site.data.keyword.cloud_notm}} Red Hat OpenShift clusters.
+:   Released today, 6 June 2023, the Red Hat OpenShift Kubernetes OCP4 profile is a collection of controls that are designed to validate the configuration of your {{site.data.keyword.cloud_notm}} Red Hat OpenShift clusters.
