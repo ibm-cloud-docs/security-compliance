@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-08-07"
+  years: 2020, 2025
+lastupdated: "2025-04-01"
 
 keywords: cbr in {{site.data.keyword.compliance_short}}, context-based restrictions for {{site.data.keyword.compliance_short}}, 
 
@@ -50,8 +50,7 @@ Context-based restrictions protect only the actions associated with the [{{site.
 
 - [Resource Instance APIs](/apidocs/resource-controller/resource-controller#list-resource-instances)
 - [Resource Keys APIs](/apidocs/resource-controller/resource-controller#list-resource-keys)
-- [Resource Bindings APIs](/apidocs/resource-controller/resource-controller#list-resource-bindings)
-- [Resource Aliases APIs](/apidocs/resource-controller/resource-controller#list-resource-aliases)
+- [Resource Reclamations APIs](/apidocs/resource-controller/resource-controller?code=go#list-reclamations)
 - [IAM Policy APIs](/apidocs/iam-policy-management#list-policies)
 - [Global Search APIs](/apidocs/search)
 - [Global Tagging Attach](/apidocs/tagging#attach-tag) and [Detach](/apidocs/tagging#detach-tag) APIs
@@ -60,7 +59,7 @@ Context-based restrictions protect only the actions associated with the [{{site.
 
 
 ## Creating network zones
-{: network-zone}
+{: #network-zone}
 
 A network zone represents an allowlist of IP addresses where an access request is created. It defines a set of one or more network locations with the following attributes:
 - IP addresses, which include individual addresses, ranges, or subnets.
