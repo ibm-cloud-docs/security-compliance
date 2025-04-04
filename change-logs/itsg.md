@@ -38,7 +38,7 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------|
-| Version 1.1.0 | `2025-03-31` | Active |
+| Version 1.1.0 | `2025-04-03` | Active |
 | Version 1.0.0 | `2024-10-29` | Active |
 {: caption="Active versions of the Information Technology Security Guidance (ITSG) profile" caption-side="top"}
 

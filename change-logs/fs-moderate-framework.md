@@ -38,7 +38,7 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 
 | Version number | Release date | Status |
 |:---------------|:-------------|:-------| 
-| Version 1.2.0 | `2025-03-31` | Active | 
+| Version 1.2.0 | `2025-04-03` | Active | 
 | Version 1.1.0 | `2024-08-27` | Active |
 | Version 1.0.0 | `2024-06-06` | Active |
 {: caption="Table. Active versions of the IBM Cloud Framework for Financial Services (Moderate) profile" caption-side="top"}
