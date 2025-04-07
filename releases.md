@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-04-04"
+lastupdated: "2025-04-07"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -1391,7 +1391,7 @@ New service available in Configuration Governance
 {{site.data.keyword.en_short}} integration
 :   You can now integrate with [{{site.data.keyword.en_full_notm}}](/catalog/services/event-notifications){: external} so that you can view and manage all your {{site.data.keyword.compliance_short}} alerts in a single location. With a fast alert time, you're able to immediately start an investigation into any reported issue and fix the vulnerability before it becomes a problem in your application.
 
-   To connect the {{site.data.keyword.compliance_short}} with the {{site.data.keyword.en_short}} service, see [Enabling event notifications](/docs/security-compliance?topic=security-compliance-event-notifications). For more information, check out the [announcement blog](https://www.ibm.com/blog/announcement/ibm-cloud-security-and-compliance-center-is-now-integrated-with-event-notifications/){: external}.
+   To connect the {{site.data.keyword.compliance_short}} with the {{site.data.keyword.en_short}} service, see [Enabling event notifications](/docs/security-compliance?topic=security-compliance-event-notifications).
 
 Deprecation of the alerts capability
 :   As of 13 December 2021, alerts are deprecated in favor of [{{site.data.keyword.en_short}}](/docs/security-compliance?topic=security-compliance-event-notifications). The ability to create alerts within the {{site.data.keyword.compliance_short}} is no longer supported. You can continue to view, enable, disable, or delete your existing alerts until 15 March 2021. After this date, any existing alerts will be deleted, and the feature will be removed from the UI.
@@ -1601,4 +1601,4 @@ Updated Settings page
 General availability of the {{site.data.keyword.compliance_short}}
 :   The {{site.data.keyword.compliance_short}} is now generally available on {{site.data.keyword.cloud_notm}}!
 
-   In this release, the {{site.data.keyword.compliance_short}} offers support for profiles that you can use to monitor your accounts for compliance and config rules for governing the use of resources across your accounts. For more information, check out the [announcement blog](https://www.ibm.com/blog/announcement/ibm-cloud-security-and-compliance-center/){: external}.
+   In this release, the {{site.data.keyword.compliance_short}} offers support for profiles that you can use to monitor your accounts for compliance and config rules for governing the use of resources across your accounts.
