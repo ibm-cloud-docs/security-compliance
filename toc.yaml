@@ -67,8 +67,7 @@ toc:
               - custom-library.md
               - custom-profile.md
               - custom-rule.md
-              - profile-versioning.md
-      - results.md
+              - profile-versioning.md 
       - topicgroup:
           label: Connecting integrations
           topics:

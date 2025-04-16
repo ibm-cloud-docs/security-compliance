@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-04-14"
+lastupdated: "2025-04-16"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -17,6 +17,8 @@ content-type: release-note
 {: #release-notes}
 
 The following changes to the service were made available with the associated date.
+
+
 
 
 
@@ -45,8 +47,6 @@ Rules changes are available
    These rules are removed from the following profiles.
    - {{site.data.keyword.cloud_notm}} Framework for Financial Services (Moderate)(1.2.0). For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-moderate-fs-change-log).
    - Information Technology Security Guidance (ITSG -33 1.1.0). For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-itsg-change-log).
-
-
 
 
 
