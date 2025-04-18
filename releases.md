@@ -18,16 +18,8 @@ content-type: release-note
 
 The following changes to the service were made available with the associated date.
 
-## 18 April 2025
-{: #security-compliance-apr1525}
-{: release-note}
-
-Rule changes are available
-:   The following rule is updated
-   Check whether {{site.data.keyword.cloudant}} is enabled with encryption. Rule ID: `rule-de62d315-278f-4943-a9b5-1293ec242a64`. This is a default rule that ensures all IBM Cloudant instances are encrypted at the disk level.
-
 ## 3 April 2025
-{: #security-compliance-apr0325}
+{: #security-compliance-marxx25}
 {: release-note}
 
 Service deprecation
@@ -51,6 +43,13 @@ Rules changes are available
    These rules are removed from the following profiles.
    - {{site.data.keyword.cloud_notm}} Framework for Financial Services (Moderate)(1.2.0). For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-moderate-fs-change-log).
    - Information Technology Security Guidance (ITSG -33 1.1.0). For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-itsg-change-log).
+
+
+
+
+
+
+
 
 
 ## 29 October 2024
