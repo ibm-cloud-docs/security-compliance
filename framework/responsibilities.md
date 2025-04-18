@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-12-03"
+  years: 2020, 2025
+lastupdated: "2025-04-09"
 
 keywords: responsibilities for {{site.data.keyword.compliance_short}}
 
@@ -31,7 +31,7 @@ Incident and operations management includes tasks such as monitoring, event mana
 |  | {{site.data.keyword.IBM_notm}} Responsibilities | Your Responsibilities |
 |----------|-----------------------|--------|
 | Ensuring high availability | Operate {{site.data.keyword.compliance_short}} in accordance with {{site.data.keyword.cloud_notm}} Public Service Level Agreements (SLAs). | Follow high availability best practices for Cloud Object Storage, including using cross regional or global buckets as needed |
-| Monitor the system | Provide integration with select third-party partnership technologies, such as {{site.data.keyword.cloud_notm}} Activity Tracker. | Use the provided tools to review instance logs and activities. |
+| Monitor the system | Provide integration with select third-party partnership technologies, such as IBM Cloud Logs. | Use the provided tools to review instance logs and activities. |
 | Incident management | Provide notifications for planned maintenance, security bulletins, or unplanned outages.  | Set preferences to receive emails about platform notifications, and monitor the {{site.data.keyword.cloud_notm}} status page for general announcements. |
 {: row-headers}
 {: caption="Responsibilities for incident and operations" caption-side="bottom"}
