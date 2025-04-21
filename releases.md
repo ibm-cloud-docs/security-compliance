@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-04-16"
+lastupdated: "2025-04-21"
 
 keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
 
@@ -20,10 +20,17 @@ The following changes to the service were made available with the associated dat
 
 
 
+## 18 April 2025
+{: #security-compliance-apr1525}
+{: release-note}
 
+Rules changes are available
+
+:   The following rule is updated.
+    Check whether {{site.data.keyword.cloudant}} is enabled with encryption. Rule ID: `rule-de62d315-278f-4943-a9b5-1293ec242a64`. This is a default rule that ensures all IBM Cloudant instances are encrypted at the disk level.
 
 ## 3 April 2025
-{: #security-compliance-marxx25}
+{: #security-compliance-apr0325}
 {: release-note}
 
 Service deprecation
