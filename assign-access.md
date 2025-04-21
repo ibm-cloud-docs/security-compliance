@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-11-14"
+  years: 2020, 2025
+lastupdated: "2025-04-21"
 
-keywords: IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}
+keywords: "IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}"
 
 subcollection: security-compliance
 
@@ -26,7 +26,7 @@ As an account owner, you are automatically assigned Administrator platform acces
 3. Select the name of the group that you want to assign access to.
 4. Click **Access > Assign access**.
 5. Assign the following permissions by selecting a service and reviewing the available roles and actions that are available for each option.
-   
+
 	| Service | Minimum required permissions |
 	|---------|----------------------|
 	| {{site.data.keyword.compliance_short}} | Administrator |
@@ -45,7 +45,7 @@ As an account owner, you are automatically assigned Administrator platform acces
 ## Assigning access for an Enterprise
 {: #assign-access-enterprise}
 
-If you are working in an enterprise account, you must also assign permissions for the enterprise service. 
+If you are working in an enterprise account, you must also assign permissions for the enterprise service.
 
 You can assign *Administrator* access for the service, or you can create a custom role. When you assign permissions for an enterprise, you can give access to the full enterprise or specific accounts or account groups. To learn more about recommendations for enterprises, see [Best practices for enterprises](/docs/security-compliance?topic=security-compliance-best-practices#bp-enterprise).
 {: tip}
@@ -81,7 +81,7 @@ To allow for certain users of your account to view results without having access
 
 	   Be sure to start from the **Access groups** tab if you're working with a group.
 	   {: tip}
-	
+
 	2. Click **Access** > **Assign access**.
 
 3. Give your user or access group permission to view {{site.data.keyword.compliance_short}} instances.
@@ -97,7 +97,7 @@ To allow for certain users of your account to view results without having access
 	2. Select **Specific resources**. Then, select either **Scope ID** or **Subscope ID**.
 	3. Input the ID that you copied in step 1 as the **Value**. Then, click **Next**.
 	4. For permissions, select **Reader**. Then, click **Next**.
-	5. Click **Add**. 
+	5. Click **Add**.
 
 5. Review your selections in the side panel.
 6. Click **Assign**.

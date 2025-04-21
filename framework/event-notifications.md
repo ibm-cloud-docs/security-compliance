@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-10-15"
+  years: 2020, 2025
+lastupdated: "2025-04-21"
 
-keywords: event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}
+keywords: "event notifications for {{site.data.keyword.compliance_short}}, event notifications integration for {{site.data.keyword.compliance_short}}, alerts for {{site.data.keyword.compliance_short}}"
 
 subcollection: security-compliance
 
@@ -79,7 +79,7 @@ Before you can enable notifications for {{site.data.keyword.compliance_short}}, 
 
 Before you can enable notifications for {{site.data.keyword.compliance_short}}, be sure that you have an [{{site.data.keyword.en_short}} service instance](/catalog/services/event-notifications){: external} that is in the same account. Then, you can connect to {{site.data.keyword.en_short}} programmatically by calling the {{site.data.keyword.compliance_short}} API.
 
-The following example shows a query that you can use to register your {{site.data.keyword.compliance_short}} source details with {{site.data.keyword.en_short}}. 
+The following example shows a query that you can use to register your {{site.data.keyword.compliance_short}} source details with {{site.data.keyword.en_short}}.
 {: curl}
 
 You can find the `event_notifications_instance_crn` value in the console by going to the **Resource list** and clicking the {{site.data.keyword.en_short}} instance row.
@@ -87,18 +87,18 @@ You can find the `event_notifications_instance_crn` value in the console by goin
 
 
 ```bash
-curl -X PATCH 
-  --location --header "Authorization: Bearer {IAM_token}" 
-  --header "Accept: application/json" 
-  --header "Content-Type: application/json-patch+json" 
-  --data '{ 
-            "event_notifications": { 
-              "instance_crn": "crn:v1:staging:public:event-notifications:us-south:a/130003ea8bfa43c5aacea07a86da3000:1c858449-3537-45b8-9d39-2707115b4cc7::" 
-              }, 
-            "object_storage": { 
-              "instance_crn": "crn:v1:staging:public:cloud-object-storage:global:a/130003ea8bfa43c5aacea07a86da3000:1c858449-3537-45b8-9d39-2707115b4cc7::", 
-              "bucket": "scc-bucket" 
-            } 
+curl -X PATCH
+  --location --header "Authorization: Bearer {IAM_token}"
+  --header "Accept: application/json"
+  --header "Content-Type: application/json-patch+json"
+  --data '{
+            "event_notifications": {
+              "instance_crn": "crn:v1:staging:public:event-notifications:us-south:a/130003ea8bfa43c5aacea07a86da3000:1c858449-3537-45b8-9d39-2707115b4cc7::"
+              },
+            "object_storage": {
+              "instance_crn": "crn:v1:staging:public:cloud-object-storage:global:a/130003ea8bfa43c5aacea07a86da3000:1c858449-3537-45b8-9d39-2707115b4cc7::",
+              "bucket": "scc-bucket"
+            }
           }' "
   https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/settings"
 ```
@@ -131,7 +131,7 @@ if err != nil {
 b, _ := json.MarshalIndent(settings, "", "  ")
 fmt.Println(string(b))
 ```
-{: codeblock} 
+{: codeblock}
 {: go}
 
 
@@ -238,22 +238,22 @@ Before you can enable notifications for {{site.data.keyword.compliance_short}}, 
 The following example shows a command that you can use to register your {{site.data.keyword.compliance_short}} source details with {{site.data.keyword.en_short}}. When you use the CLI, replace the ID variables and IAM token with the values that are specific to your account. For more information, see the [CLI reference](/docs/security-compliance?topic=security-compliance-security-compliance-cli&interface=ui#security-compliance-cli-settings-update-command).
 
 ```sh
-ibmcloud security-compliance settings update     
+ibmcloud security-compliance settings update
   --event-notifications='{
-    "instance_crn": "crn:v1:staging:public:event-notifications:us-south:a/ff88f007f9ff4622aac4fbc0eda36255:7199ae60-a214-4dd8-9bf7-ce571de49d01::", 
-    "updated_on": "2019-01-01T12:00:00.000Z", 
-    "source_id": "crn:v1:staging:public:event-notifications:us-south:a/ff88f007f9ff4622aac4fbc0eda36255:b8b07245-0bbe-4478-b11c-0dce523105fd::", 
-    "source_description": "This source is used for integration with IBM Cloud Security and Compliance Center.", 
+    "instance_crn": "crn:v1:staging:public:event-notifications:us-south:a/ff88f007f9ff4622aac4fbc0eda36255:7199ae60-a214-4dd8-9bf7-ce571de49d01::",
+    "updated_on": "2019-01-01T12:00:00.000Z",
+    "source_id": "crn:v1:staging:public:event-notifications:us-south:a/ff88f007f9ff4622aac4fbc0eda36255:b8b07245-0bbe-4478-b11c-0dce523105fd::",
+    "source_description": "This source is used for integration with IBM Cloud Security and Compliance Center.",
     "source_name": "compliance"
-    }'     
+    }'
   --object-storage='{
-    "instance_crn": "crn:v1:staging:public:cloud-object-storage:global:a/ff88f007f9ff4622aac4fbc0eda36255:7199ae60-a214-4dd8-9bf7-ce571de49d01::", 
-    "bucket": "px-scan-results", 
-    "bucket_location": "us-south", 
-    "bucket_endpoint": "exampleString", 
+    "instance_crn": "crn:v1:staging:public:cloud-object-storage:global:a/ff88f007f9ff4622aac4fbc0eda36255:7199ae60-a214-4dd8-9bf7-ce571de49d01::",
+    "bucket": "px-scan-results",
+    "bucket_location": "us-south",
+    "bucket_endpoint": "exampleString",
     "updated_on": "2019-01-01T12:00:00.000Z"
-    }'     
-  --x-correlation-id=1a2b3c4d-5e6f-4a7b-8c9d-e0f1a2b3c4d5     
+    }'
+  --x-correlation-id=1a2b3c4d-5e6f-4a7b-8c9d-e0f1a2b3c4d5
   --x-request-id=exampleString
 ```
 {: pre}
@@ -288,12 +288,12 @@ After you enable notifications for {{site.data.keyword.compliance_short}}, test 
 Before you can send a test {{site.data.keyword.compliance_short}} event, you must have [topics, destinations, and subscriptions](/docs/event-notifications?topic=event-notifications-en-create-en-topic) created in your {{site.data.keyword.en_short}} instance. Be sure that the **Test configuration** event type (`com.ibm.cloud.compliance.test`) is included as a condition in your {{site.data.keyword.en_short}} topic.
 {: note}
 
-The following example shows a query that you can use to send a test event from the {{site.data.keyword.compliance_short}} to {{site.data.keyword.en_short}}. 
+The following example shows a query that you can use to send a test event from the {{site.data.keyword.compliance_short}} to {{site.data.keyword.en_short}}.
 {: curl}
 
 ```sh
-curl -X POST 
-  --location --header "Authorization: Bearer {iam_token}" 
+curl -X POST
+  --location --header "Authorization: Bearer {iam_token}"
   --header "Accept: application/json"
   "https://us-south.compliance.cloud.ibm.com/instances/{instance_id}/v3/test_event"
 ```
@@ -368,8 +368,8 @@ The following example shows a query that you can use to send a test event from t
 
 
 ```sh
-ibmcloud security-compliance settings post-test-event     
---x-correlation-id=1a2b3c4d-5e6f-4a7b-8c9d-e0f1a2b3c4d5     
+ibmcloud security-compliance settings post-test-event
+--x-correlation-id=1a2b3c4d-5e6f-4a7b-8c9d-e0f1a2b3c4d5
 --x-request-id=exampleString
 ```
 {: pre}

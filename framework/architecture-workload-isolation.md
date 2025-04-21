@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-10-15"
+  years: 2020, 2025
+lastupdated: "2025-04-21"
 
-keywords: public isolation for {{site.data.keyword.compliance_short}}, compute isolation for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} architecture, workload isolation in {{site.data.keyword.compliance_short}} 
+keywords: "public isolation for {{site.data.keyword.compliance_short}}, compute isolation for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} architecture, workload isolation in {{site.data.keyword.compliance_short}} "
 
 subcollection: security-compliance
 
@@ -23,7 +23,7 @@ Review the following architecture for {{site.data.keyword.compliance_full}} and 
 ## {{site.data.keyword.compliance_short}} architecture
 {: #architecture}
 
-{{site.data.keyword.compliance_short}} is a multi-tenant, regional service that is fully integrated with the {{site.data.keyword.cloud_notm}} platform. The IBM-managed components of the {{site.data.keyword.compliance_short}} are organized to provide compute isolation between workloads. 
+{{site.data.keyword.compliance_short}} is a multi-tenant, regional service that is fully integrated with the {{site.data.keyword.cloud_notm}} platform. The IBM-managed components of the {{site.data.keyword.compliance_short}} are organized to provide compute isolation between workloads.
 
 Check out the following image to see how the service workloads are isolated and managed.
 
@@ -54,4 +54,4 @@ Check out the following image to see how the service workloads are isolated and 
 ## {{site.data.keyword.compliance_short}} workload isolation
 {: #workload-isolation}
 
-Each regional deployment of the {{site.data.keyword.compliance_short}} serves multiple tenants and can be accessed through public endpoints. By default, all data at rest is encrypted by IBM keys. Data in transit is encrypted by using TLS. Your data is isolated from other customers' data, but it does share physical resources such as CPU, memory, and I/O devices. 
+Each regional deployment of the {{site.data.keyword.compliance_short}} serves multiple tenants and can be accessed through public endpoints. By default, all data at rest is encrypted by IBM keys. Data in transit is encrypted by using TLS. Your data is isolated from other customers' data, but it does share physical resources such as CPU, memory, and I/O devices.

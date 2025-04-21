@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-01-04"
+  years: 2020, 2025
+lastupdated: "2025-04-21"
 
-keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements
+keywords: "release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements"
 
 subcollection: security-compliance
 content-type: release-note
@@ -48,5 +48,3 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 
 Now available
 :   Released today, 10 October 2023, the ENS High profile is a collection of controls designed to validate the configuration of your resources.
-
-

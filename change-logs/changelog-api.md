@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: "2024"
-lastupdated: "2024-02-27"
+  years: "2025"
+lastupdated: "2025-04-21"
 
-keywords: change log for {{site.data.keyword.compliance_short}} APIs, API changelog, updates to {{site.data.keyword.compliance_short}} APIs
+keywords: "change log for {{site.data.keyword.compliance_short}} APIs, API changelog, updates to {{site.data.keyword.compliance_short}} APIs"
 
 subcollection: security-compliance
 
@@ -37,4 +37,3 @@ The {{site.data.keyword.compliance_short}} [Java SDK](https://github.com/IBM/scc
 {: #2023-07-17-api}
 
 Version 3.0.0 was released on 17 July 2023. All endpoints have changed. For more details, review the [API reference](/apidocs/security-compliance#introduction).
-

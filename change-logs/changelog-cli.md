@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: "2023"
-lastupdated: "2023-12-15"
+  years: "2025"
+lastupdated: "2025-04-21"
 
-keywords: change log for {{site.data.keyword.compliance_short}} CLI, API changelog, updates to {{site.data.keyword.compliance_short}} command line interface, security compliance cli 
+keywords: "change log for {{site.data.keyword.compliance_short}} CLI, API changelog, updates to {{site.data.keyword.compliance_short}} command line interface, security compliance cli "
 
 subcollection: security-compliance
 

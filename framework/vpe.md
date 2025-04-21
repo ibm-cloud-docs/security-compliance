@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-08-07"
+  years: 2020, 2025
+lastupdated: "2025-04-21"
 
-keywords: isolation for {{site.data.keyword.compliance_short}}, service endpoints for {{site.data.keyword.compliance_short}}, private network for {{site.data.keyword.compliance_short}}, network isolation in {{site.data.keyword.compliance_short}}, non-public routes for {{site.data.keyword.compliance_short}}, private connection for {{site.data.keyword.compliance_short}}, private endpoints 
+keywords: "isolation for {{site.data.keyword.compliance_short}}, service endpoints for {{site.data.keyword.compliance_short}}, private network for {{site.data.keyword.compliance_short}}, network isolation in {{site.data.keyword.compliance_short}}, non-public routes for {{site.data.keyword.compliance_short}}, private connection for {{site.data.keyword.compliance_short}}, private endpoints "
 
 subcollection: security-compliance
 
@@ -32,5 +32,3 @@ You must set up {{site.data.keyword.compliance_short}} instances to accept API r
 {: #view-endpoints}
 
 The service endpoint URLs are different for private and public network connections. You can find your service endpoint URLs in the **Endpoints** page of the {{site.data.keyword.compliance_short}} UI. For more information about your service endpoint URLs, [see Regions and endpoints](/docs/security-compliance?topic=security-compliance-endpoints).
-
-

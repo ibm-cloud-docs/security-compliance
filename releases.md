@@ -4,7 +4,7 @@ copyright:
   years: 2020, 2025
 lastupdated: "2025-04-21"
 
-keywords: release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements
+keywords: "release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements"
 
 subcollection: security-compliance
 content-type: release-note
@@ -138,7 +138,7 @@ Rules changes are available
    * Check whether Virtual Private Cloud (VPC) has no rules in the default security group. Rule ID: `rule-96527f89-1867-4581-b923-1400e04661e0`
 
 Control annotations
-:   You can now add annotations to controls to include important details or notes related to the controls in a profile. The annotations are visible in the results and are added as part of the creating an attachment flow. Additionally, the audit history for annotations can be used to track any changes or updates made to them over time. To get started with annotations, [create an attachment](/docs/security-compliance?topic=security-compliance-attachments). 
+:   You can now add annotations to controls to include important details or notes related to the controls in a profile. The annotations are visible in the results and are added as part of the creating an attachment flow. Additionally, the audit history for annotations can be used to track any changes or updates made to them over time. To get started with annotations, [create an attachment](/docs/security-compliance?topic=security-compliance-attachments).
 
 
 ## 7 October 2024
@@ -266,35 +266,35 @@ Updated rules
 
    * Check whether there are no wild cards in the private and public endpoints allow list Flow Logs for VPC (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for App Configuration (Context-based restrictions or service)
-   * Check whether there are no wild cards in the private and public endpoints allow list for Auto Scale for VPC (Context-based restrictions or service)	
-   * Check whether there are no wild cards in the private and public endpoints allow list for Backup for VPC (Context-based restrictions or service)	
+   * Check whether there are no wild cards in the private and public endpoints allow list for Auto Scale for VPC (Context-based restrictions or service)
+   * Check whether there are no wild cards in the private and public endpoints allow list for Backup for VPC (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Bare Metal Servers for VPC (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Block Storage for VPC (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Block Storage Snapshots for VPC (Context-based restrictions or service)
-   * Check whether there are no wild cards in the private and public endpoints allow list for Client VPN for VPC (Context-based restrictions or service)	
+   * Check whether there are no wild cards in the private and public endpoints allow list for Client VPN for VPC (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Cloud Object Storage (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Code Engine (Context-based restrictions or service)
-   * Check whether there are no wild cards in the private and public endpoints allow list for Container Registry (Context-based restrictions or service)	
+   * Check whether there are no wild cards in the private and public endpoints allow list for Container Registry (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Dedicated Host for VPC (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Direct Link (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for DNS Services (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Event Notifications (Context-based restrictions or service)
-   * Check whether there are no wild cards in the private and public endpoints allow list for Event Streams (Context-based restrictions or service)	
+   * Check whether there are no wild cards in the private and public endpoints allow list for Event Streams (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Hyper Protect Crypto Services (Context-based restrictions or service)
-   * Check whether there are no wild cards in the private and public endpoints allow list for IAM access groups (Context-based restrictions or service)	
+   * Check whether there are no wild cards in the private and public endpoints allow list for IAM access groups (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for IAM access management (Context-based restrictions or service)
-   * Check whether there are no wild cards in the private and public endpoints allow list for IAM identities (Context-based restrictions or service)	
-   * Check whether there are no wild cards in the private and public endpoints allow list for Kubernetes Service (Context-based restrictions or service)	
+   * Check whether there are no wild cards in the private and public endpoints allow list for IAM identities (Context-based restrictions or service)
+   * Check whether there are no wild cards in the private and public endpoints allow list for Kubernetes Service (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Load Balancer for VPC (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Schematics (Context-based restrictions or service)
-   * Check whether there are no wild cards in the private and public endpoints allow list for Secrets Manager (Context-based restrictions or service)	
+   * Check whether there are no wild cards in the private and public endpoints allow list for Secrets Manager (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Security and Compliance Center (Context-based restrictions or service)
-   * Check whether there are no wild cards in the private and public endpoints allow list for Transit Gateway (Context-based restrictions or service)	
-   * Check whether there are no wild cards in the private and public endpoints allow list for User Management (Context-based restrictions or service)	
+   * Check whether there are no wild cards in the private and public endpoints allow list for Transit Gateway (Context-based restrictions or service)
+   * Check whether there are no wild cards in the private and public endpoints allow list for User Management (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Virtual Private Cloud (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Virtual Private Endpoints for VPC (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Virtual Servers for VPC (Context-based restrictions or service)
-   * Check whether there are no wild cards in the private and public endpoints allow list for VPC floating IPs (Context-based restrictions or service)	
+   * Check whether there are no wild cards in the private and public endpoints allow list for VPC floating IPs (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for VPC images (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for VPC network access control lists (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for VPC placement groups (Context-based restrictions or service)
@@ -305,10 +305,10 @@ Updated rules
    * Check whether there are no wild cards in the private and public endpoints allow list for VPN for VPC (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for IBM Cloud Activity Tracker (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for IBM Cloud Monitoring (Context-based restrictions or service)
-   * Check whether there are no wild cards in the private and public endpoints allow list for IBM Log Analysis (Context-based restrictions or service)	
-   * Check whether there are no wild cards in the private and public endpoints allow list for Databases for EDB (Context-based restrictions or service)	
+   * Check whether there are no wild cards in the private and public endpoints allow list for IBM Log Analysis (Context-based restrictions or service)
+   * Check whether there are no wild cards in the private and public endpoints allow list for Databases for EDB (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Databases for ElasticSearch (Context-based restrictions or service)
-   * Check whether there are no wild cards in the private and public endpoints allow list for Databases for etcd (Context-based restrictions or service)	
+   * Check whether there are no wild cards in the private and public endpoints allow list for Databases for etcd (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Databases for Mongodb (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Databases for MySql (Context-based restrictions or service)
    * Check whether there are no wild cards in the private and public endpoints allow list for Databases for PostgreSQL (Context-based restrictions or service)
@@ -327,13 +327,13 @@ AI Security Guardrails 2.0 profile
 :   Version 1.0.0 of the AI Security Guardrails 2.0 profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see [the change log](/docs/security-compliance?topic=security-compliance-ai-security-change-log).
 
 Scanning Watson Machine Learning resources is now available with {{site.data.keyword.compliance_short}}
-:   You can now scan your Watson Machine Learning resources against the AI Security Guardrails 2.0 profile. You can enable access for {{site.data.keyword.compliance_short}} to scan your Watson Machine Learning resources by assigning customer credentials (API keys) that are stored in {{site.data.keyword.secrets-manager_short}}. For more information, see Scanning Watson Machine Learning resources. 
+:   You can now scan your Watson Machine Learning resources against the AI Security Guardrails 2.0 profile. You can enable access for {{site.data.keyword.compliance_short}} to scan your Watson Machine Learning resources by assigning customer credentials (API keys) that are stored in {{site.data.keyword.secrets-manager_short}}. For more information, see Scanning Watson Machine Learning resources.
 
 
-Using trusted profiles to scan your main account 
-:   As of 9 July 2024, when you are enabling scanning of resources across accounts, if you add your main account as a target, you have to use trusted profiles to run the scans. If you change the trusted profile, the scan results are impacted. 
+Using trusted profiles to scan your main account
+:   As of 9 July 2024, when you are enabling scanning of resources across accounts, if you add your main account as a target, you have to use trusted profiles to run the scans. If you change the trusted profile, the scan results are impacted.
 
-   To change the trusted profile and avoid issues with your scan results, you must delete the target and all the attachments that are on the account first. Then, you can create a new target with the updated trusted profile. No action is required at this time. 
+   To change the trusted profile and avoid issues with your scan results, you must delete the target and all the attachments that are on the account first. Then, you can create a new target with the updated trusted profile. No action is required at this time.
 
 
 
@@ -342,7 +342,7 @@ Using trusted profiles to scan your main account
 {: release-note}
 
 CIS {{site.data.keyword.cloud_notm}} Foundations Benchmark profile version 1.1.0
-:   Version 1.1.0 of the CIS {{site.data.keyword.cloud_notm}} Foundations Benchmark profile is now available in {{site.data.keyword.compliance_short}}. The following major changes are included. 
+:   Version 1.1.0 of the CIS {{site.data.keyword.cloud_notm}} Foundations Benchmark profile is now available in {{site.data.keyword.compliance_short}}. The following major changes are included.
 
    Control ID:3.1 was updated to remove the existing rule from the control and to map 2 new rules. If the control fails, follow the remediation steps that are documented in the remediation section of these rules.
 
@@ -643,7 +643,7 @@ New rules and rule changes are available
    * Check whether Virtual Private Cloud can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
    * Check whether Backup for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
    * Check whether Bare Metal Servers for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
-   * Check whether Dedicated Host for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs 
+   * Check whether Dedicated Host for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
    * Check whether Virtual Private Endpoints for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
    * Check whether VPC floating IPs can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
    * Check whether Flow Logs for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
@@ -662,7 +662,7 @@ New rules and rule changes are available
    * Check whether Client VPN for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
    * Check whether VPN for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs
 
-   For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).  
+   For more information about rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
 
 ## 13 February 2024
 {: #security-compliance-feb1324}

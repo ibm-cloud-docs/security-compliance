@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020, 2023
-lastupdated: "2023-12-15"
+  years: 2020, 2025
+lastupdated: "2025-04-21"
 
-keywords: release notes for {{site.data.keyword.compliance_short}}, caveonix, profile changes, enhancements, fixes, improvements
+keywords: "release notes for {{site.data.keyword.compliance_short}}, caveonix, profile changes, enhancements, fixes, improvements"
 
 subcollection: security-compliance
 content-type: release-note
