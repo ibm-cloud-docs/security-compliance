@@ -1,9 +1,9 @@
 ---
 copyright:
-  years: "2024"
-lastupdated: "2024-10-08"
+  years: "2025"
+lastupdated: "2025-04-21"
 
-keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements, ai security
+keywords: "release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements, ai security"
 
 subcollection: security-compliance
 content-type: release-note

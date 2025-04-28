@@ -1,9 +1,9 @@
 ---
 copyright:
   years: 2020, 2025
-lastupdated: "2025-01-29"
+lastupdated: "2025-04-21"
 
-keywords: LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} logging, {{site.data.keyword.compliance_short}} external logs
+keywords: "LogDNA for {{site.data.keyword.compliance_short}}, {{site.data.keyword.compliance_short}} logging, {{site.data.keyword.compliance_short}} external logs"
 
 subcollection: security-compliance
 ---
@@ -116,7 +116,7 @@ The {{site.data.keyword.compliance_short}} service generates platform logs relat
 ## Enabling logging
 {: #log-enable}
 
-Platform logs are logs that are exposed by logging-enabled services and the platform in {{site.data.keyword.cloud_notm}}. Platform logs are regional. You can monitor logs from enabled services on {{site.data.keyword.cloud_notm}} in the region where the service is available. While you can configure multiple {{site.data.keyword.cloud_notm}} Logs service in a location, only one instance of the logging service can be configured to receive logs from enabled services in that {{site.data.keyword.cloud_notm}} location. 
+Platform logs are logs that are exposed by logging-enabled services and the platform in {{site.data.keyword.cloud_notm}}. Platform logs are regional. You can monitor logs from enabled services on {{site.data.keyword.cloud_notm}} in the region where the service is available. While you can configure multiple {{site.data.keyword.cloud_notm}} Logs service in a location, only one instance of the logging service can be configured to receive logs from enabled services in that {{site.data.keyword.cloud_notm}} location.
 
 To configure your {{site.data.keyword.cloud_notm}} instance, you must turn on the platform logs configuration setting. You must also have the platform role of editor or higher for the {{site.data.keyword.cloud_notm}} Log service in your account. For more information about platform logs, see [Configuring {{site.data.keyword.cloud_notm}} platform logs](/docs/logs-router?topic=logs-router-target-cloud-logs).
 

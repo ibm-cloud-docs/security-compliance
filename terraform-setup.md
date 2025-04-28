@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-11-14"
+  years: 2025
+lastupdated: "2025-04-21"
 
-keywords: terraform, {{site.data.keyword.compliance_short}}, terraform setup, create instance
+keywords: "terraform, {{site.data.keyword.compliance_short}}, terraform setup, create instance"
 
 subcollection: security-compliance
 
@@ -62,11 +62,11 @@ Before you can create an authorization by using Terraform, make sure that you co
 
         To view a complete list of the supported attributes, see [`ibm_scc_instance`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/scc_instance){: external}.
 
-    * Optionally, you can create a data source to retrieve information about an existing {{site.data.keyword.compliance_short}} instance from {{site.data.keyword.cloud_notm}} by running the following command with the example from step 2 in your `main.tf` file. 
+    * Optionally, you can create a data source to retrieve information about an existing {{site.data.keyword.compliance_short}} instance from {{site.data.keyword.cloud_notm}} by running the following command with the example from step 2 in your `main.tf` file.
 
         ```terraform
         terraform import ibm_resource_instance.scc_instance <scc_instance_crn>
-        
+
         ```
         {: codeblock}
 
@@ -97,7 +97,7 @@ Before you can create an authorization by using Terraform, make sure that you co
     depends_on = [
         ibm_resource_instance.scc_instance
     ]
-    }   
+    }
     ```
     {: codeblock}
 
@@ -117,7 +117,7 @@ Before you can create an authorization by using Terraform, make sure that you co
     ```
     {: codeblock}
 
-    If you don't plan to configure {{site.data.keyword.en_short}}, you must keep the `event_notifications` parameter and remove the `instance_crn` field as shown in the following snippet: 
+    If you don't plan to configure {{site.data.keyword.en_short}}, you must keep the `event_notifications` parameter and remove the `instance_crn` field as shown in the following snippet:
 
     ```terraform
     event_notifications {

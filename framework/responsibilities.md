@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-04-09"
+lastupdated: "2025-04-21"
 
-keywords: responsibilities for {{site.data.keyword.compliance_short}}
+keywords: "responsibilities for {{site.data.keyword.compliance_short}}"
 
 subcollection: security-compliance
 
@@ -22,7 +22,7 @@ Learn about the management responsibilities and terms and conditions that you ha
 
 Review the following sections for the specific responsibilities for you and for {{site.data.keyword.IBM_notm}} when you use {{site.data.keyword.compliance_short}}. For the overall terms of use, see [{{site.data.keyword.cloud_notm}} Terms and Notices](/docs/overview?topic=overview-terms).
 
-  
+
 ## Incident and operations management
 {: #incident-and-ops}
 

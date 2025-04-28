@@ -1,9 +1,9 @@
 ---
 copyright:
-  years: "2024"
-lastupdated: "2024-08-27"
+  years: "2025"
+lastupdated: "2025-04-21"
 
-keywords: release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements, International Organization for Standardization, iso, International Electrotechnical Commission, iec, Information Security Management System, 
+keywords: "release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements, International Organization for Standardization, iso, International Electrotechnical Commission, iec, Information Security Management System, "
 
 subcollection: security-compliance
 content-type: release-note
@@ -48,5 +48,3 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 
 Now available
 :   As of 27 August 2024, the ISO/IEC 27001:2022 profile is a collection of controls that is designed to validate the configuration of your resources.
-
-
