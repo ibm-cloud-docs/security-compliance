@@ -68,6 +68,7 @@ toc:
               - custom-profile.md
               - custom-rule.md
               - profile-versioning.md 
+          - results.md 
       - topicgroup:
           label: Connecting integrations
           topics:
