@@ -358,10 +358,6 @@ New rules available
 {{site.data.keyword.cloud_notm}} Framework for Financial Services (Moderate)
 :   Version 1.0.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services (Moderate) profile is now available in {{site.data.keyword.compliance_short}}. For more information about the profile, see the [Change log](/docs/security-compliance?topic=security-compliance-moderate-fs-change-log).
 
-   **Disclaimer**: IBM Cloud Framework for Financial Services (Moderate) {{site.data.keyword.compliance_short}} profile should be used if you choose IBM® Key Protect for IBM Cloud® as your data/log management solution, as per your information and data classification requirements. For further details on the differences between IBM® Key Protect for IBM Cloud® and IBM Cloud® Hyper Protect Crypto Services, read [Data encryption at rest in IBM Cloud](/docs/framework-financial-services?topic=framework-financial-services-shared-encryption-at-rest#shared-encryption-at-rest-ibm-cloud) for a comparison of functionality. Additionally, for more information on auditing and monitoring of workload and data, read [Audit logging of IBM Cloud events](/docs/framework-financial-services?topic=framework-financial-services-shared-logging-audit).
-
-
-
 ## 4 June 2024
 {: #security-compliance-Jun0424}
 {: release-note}
