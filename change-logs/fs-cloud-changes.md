@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-04-21"
+lastupdated: "2025-05-09"
 
 keywords: "release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements"
 
@@ -125,7 +125,7 @@ The following rules were updated in the {{site.data.keyword.cloud_notm}} Framewo
 | `rule-fdabbd31-1b00-4a84-aca2-6c57e8404b9e`	| Check whether VPC placement groups can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs | `AC-4`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)` | The rule was added. |
 | `rule-3ead3fb3-9156-4d93-971c-7b782ceb00ae`	| Check whether VPC public gateways can be accessed only through a private endpoint (Context-based restrictions or service) | `AC-4`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)` |  The rule was	removed. |
 | `rule-7758e8eb-c4d8-42a8-869f-30e3c189f6fa`	| Check whether VPC public gateways can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs | `AC-4`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)` | The rule was added. |
-| `rule-02ad5735-93ba-4229-9d10-70dd48d0f96c	`| Check whether VPC security groups can be accessed only through a private endpoint (Context-based restrictions or service)	| `AC-4`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)` | The rule was removed. |
+| `rule-02ad5735-93ba-4229-9d10-70dd48d0f96c`| Check whether VPC security groups can be accessed only through a private endpoint (Context-based restrictions or service)	| `AC-4`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)` | The rule was removed. |
 | `rule-2b0fc034-063b-47a7-86e9-5a96c8ca9f23`	| Check whether VPC security groups can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs | `AC-4`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)` | The rule was added. |
 | `rule-235d040e-ae2b-4832-9c28-b79cc2d6be6c`	| Check whether VPC SSH keys can be accessed only through a private endpoint (Context-based restrictions or service) | `AC-4`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)` | The rule was removed. |
 | `rule-b96fdad1-c2d5-4399-861f-49adecfd3485`	| Check whether VPC SSH keys can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs | `AC-4`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)` | The rule was added. |
@@ -135,7 +135,6 @@ The following rules were updated in the {{site.data.keyword.cloud_notm}} Framewo
 | `rule-a4cc268c-9c97-4dbb-b02f-bf74d5a5aa93`	| Check whether VPN for VPC can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs | `AC-4`, `CM-7(a)`, `CM-7(b)`, `SC-7(a)`, `SC-7(b)`, `SC-7(4)(a)`, and `SC-7(5)` | The rule was added. |
 | `rule-3898fc92-305f-41c2-9464-c26ca71d639e`	| Check whether VPN for VPC has an **establish mode** configuration that is different from **peer_only** | `SC-13` | The rule was	added. |
 | `rule-8226d451-d6a7-46a7-8313-f8c091d6e33f`	| Check whether IBM Cloud Kubernetes Service Ingress has TLS 1.2 enabled for all inbound traffic | `SC-11SC-13`, `SC-23`, `CM-7(b)`, `SC-7(4)(C)`, `SC-8` `SC-8(1)`	|  The rule was added. |
-| `rule-ba79b984-ec18-4fc1-965d-82cf701eb94f`	| Check whether an instance of IBM Log Analysis exists in each required region and is configured to receive platform logs	| `AC-4` | The rule was	removed. |
 {: caption="Table. Summary of the changes for version 1.7.0 of the {{site.data.keyword.cloud_notm}} for Financial Services profile" caption-side="top"}
 
 
@@ -149,7 +148,6 @@ The following rules were updated in the {{site.data.keyword.cloud_notm}} Framewo
 | `rule-613c6100-b99c-4adc-8978-fab5e30523aa`	| Check whether Event Notifications is configured to work with Security and Compliance Center |	`SI-2 (a)` and `SI-5 (a)` |	The rule was added. |
 | `rule-3826cfe4-c2bd-4c61-b462-acc46c6a251e`	| Check whether DevSecOps Toolchain verifies all changes to source code have been manually reviewed |	`CM-2(1)(a)`, `CM-2(1)(b)`, `CM-2(1)(c)`, `CM-3(2)(0)`, `CM-3(b)`, `CM-3(d)`, `CM-3(f)`, `CM-3(g)`, `CM-4(0)`, `CM-4(1)(0)`, `CM-5(0)`, `CM-6(1)(0)`, `CM-6(c)`, `CM-6(d)`, `CM-7(1)(a)`, `CM-9(a)`, `CM-9(b)`, `CM-9(c)`, `CM-9(d)`, `SA-10(a)`, `SA-10(b)`, `SA-10(c)`, `SA-10(d)`, `SA-10(e)`, `SA-15(a)`, `SA-3(a)`, `SA-3(d)`, `SA-4(3)(0)`, `SA-8(0)`, `SI-2(2)(0)`, `SI-2(a)`, `SI-2(d)`, and `SI-7(0)`	| The rule was added. |
 | `rule-59261292-1723-4234-9fa9-48df0088cde1`	| Check whether DevSecOps Toolchain validates signature provenance of each deployed artifact| `CM-3(2)(0)`, `CM-4(0)`, `SA-10(1)(0)`, `SA-10(b)`, `SA-10(c)`, `SA-15(a)`, `SA-3(a)`, `SA-3(d)`, `SA-8(0)`, `SI-2(2)(0)`, `SI-2(a)`, `SI-2(d)`, and `SI-7(0)`	| The rule was added. |
-| `rule-ba79b984-ec18-4fc1-965d-82cf701eb94f` |	Check whether an instance of IBM Log Analysis exists in each required region and is configured to receive platform logs	| `AC-4(0)`	| The rule was added. |
 | `rule-153b7f10-d8a8-43a2-8696-731de7790f06`	| Check whether virtual servers for VPC is provisioned from customer-defined list of images |	`CM-8(3)(a)` | The rule was removed. |
 | `rule-709caded-75d6-4481-b9cd-de20851a9b19`	| Check whether virtual servers for VPC is provisioned from customer-defined list of images |	`CM-8(3)(a)`| The rule was added. |
 |	`rule-ea8660d1-c322-4adb-8dc2-e0b77b6dc9fb`	| Check whether a security group other than the default for Virtual Private Cloud is attached to all endpoints	| `AC-4(0)`, `SC-7(a)`, `SC-7(b)`, `SC-7(c)`, and `SC-7(5)(0)`	| The rule was removed. |
