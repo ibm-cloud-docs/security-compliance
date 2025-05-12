@@ -1,7 +1,7 @@
 ---
 copyright:
   years: "2025"
-lastupdated: "2025-04-21"
+lastupdated: "2025-05-12"
 
 keywords: "release notes for {{site.data.keyword.compliance_short}}, ibm security best practices, profile changes, enhancements, fixes, improvements, Information Technology Security Guidance, "
 
@@ -47,14 +47,7 @@ New attachments cannot be created on deprecated profile versions. Select the mos
 ## Version 1.1.0
 {: #itsg-iec-version110}
 
-The following rules were updated in the {{site.data.keyword.cloud_notm}} for Information Technology Security Guidance (ITSG) as of 31 March 2025.
-
-| Rule ID | Rule description| Associated controls | Update |
-|:--------|:----------------|:--------------------|:-------|
-| `rule-3d16d1a3-1b73-47d1-b862-407e8c0a4039`	| Check whether Activity Tracker is provisioned in allowed region |	`SI-12(0)` | The rule is removed. |
-| `rule-2aa7888e-ed67-40f3-9bff-8a70fddb4671`	| Check whether IBM Log Analysis can be accessed only through a private endpoint (Context-based restrictions or service) and allowed IPs with MFA enabled or not |	`AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(4)(a)`, `SC-7(5)(0)`, `SC-7(a)`, and `SC-7(b)` | The rule is removed. |
-| `rule-14808a2d-ab9b-4333-8275-f12559620cbb`	| Check whether there are no wild cards and wide flows in the private and public endpoints allow list for IBM Log Analysis (Context-based restrictions or service) |	`AC-4(0)`, `CM-7(a)`, `CM-7(b)`, `SC-7(4)(a)`, `SC-7(5)(0)`, `SC-7(a)`, and `SC-7(b)` | The rule is removed. |
-{: caption="Table. Summary of the changes for version 1.1.0 of the {{site.data.keyword.cloud_notm}} Framework for Financial Services (Moderate)" caption-side="top"}
+Few rules were removed in the {{site.data.keyword.cloud_notm}} for Information Technology Security Guidance (ITSG) as of 31 March 2025.
 
 
 ## Version 1.0.0
