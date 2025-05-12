@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-04-21"
+lastupdated: "2025-05-12"
 
 keywords: "cbr in {{site.data.keyword.compliance_short}}, context-based restrictions for {{site.data.keyword.compliance_short}}, "
 
@@ -23,7 +23,7 @@ These restrictions work with traditional IAM policies, which are based on identi
 A user must have the Administrator role on the {{site.data.keyword.compliance_short}} service to create, update, or delete rules. A user must also have either the Editor or Administrator role on the Context-based restrictions service to create, update, or delete network zones. A user with the Viewer role on the Context-based restrictions service can add only network zones to a rule.
 {: note}
 
-Any {{site.data.keyword.cloudaccesstraillong_notm}} or audit log events generated come from the context-based restrictions service, not {{site.data.keyword.compliance_short}}. For more information, see [Monitoring context-based restrictions](/docs/account?topic=account-cbr-monitor).
+Any audit log events generated come from the context-based restrictions service, not {{site.data.keyword.compliance_short}}. For more information, see [Monitoring context-based restrictions](/docs/account?topic=account-cbr-monitor).
 
 To begin protecting your {{site.data.keyword.compliance_short}} resources with context-based restrictions, see the tutorial for [Leveraging context-based restrictions to secure your resources](/docs/account?topic=account-context-restrictions-tutorial).
 
