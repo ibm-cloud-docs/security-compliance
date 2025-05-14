@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-10-15"
+  years: 2020, 2025
+lastupdated: "2025-05-14"
 
 keywords: scc best practices, enterprise, scc access
 
@@ -15,8 +15,12 @@ subcollection: security-compliance
 # Best practices for working with {{site.data.keyword.compliance_short}}
 {: #best-practices}
 
+
+
 As you start working with {{site.data.keyword.compliance_short}}, there are a few best practices that you can follow to have the best experience meeting your goal of continuous compliance and being audit ready.
 {: shortdesc}
+
+
 
 
 ## Providing the correct access to the correct people
