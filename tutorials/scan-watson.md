@@ -24,7 +24,7 @@ completion-time: 20m
 {: toc-completion-time="30m"}
 
 
-As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the updated experience of {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
+As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the updated experience of {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
 {: important}
 
 As the focal in charge of setting up the compliance posture in an environment that contains your SaaS services, such as Watson Machine Learning, you can use {{site.data.keyword.compliance_full}}. This tutorial walks you through scanning your Watson Machine Learning resources against the [AI Security Guardrails 2.0](/docs/security-compliance?topic=security-compliance-ai-security-change-log&interface=ui) profile.

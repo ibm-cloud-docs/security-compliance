@@ -16,7 +16,7 @@ content-type: release-note
 {: #soc2-change-log}
 
 
-As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the updated experience of {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
+As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the updated experience of {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
 {: important}
 
 In this change log, you can learn about the latest changes, improvements, and updates for the Service Organization Control (SOC 2) profile. The change log lists changes that were made, ordered by the version number.

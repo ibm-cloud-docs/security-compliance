@@ -26,7 +26,7 @@ The following changes to the service were made available with the associated dat
 
 Service announcement
 
-:   Starting on 16 June 2025, users will no longer be able to create new instances of the service. All of the cloud security posture management capabilities have been transitioned to {{site.data.keyword.sysdigsecure_full}} and are already available for you to get started. If you are a new user, you’re encouraged to get started in {{site.data.keyword.sysdigsecure_full}} to minimize the need for transition. Existing users will continue to receive support during a transition period, but all feature development will be targeted to {{site.data.keyword.sysdigsecure_full}}. For more information about the timeline, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition).
+:   Starting on 16 June 2025, users will no longer be able to create new instances of the service. All of the cloud security posture management capabilities have been transitioned to {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}} and are already available for you to get started. If you are a new user, you’re encouraged to get started in {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}} to minimize the need for transition. Existing users will continue to receive support during a transition period, but all feature development will be targeted to {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}. For more information about the timeline, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition).
 
 
 
@@ -933,7 +933,7 @@ New rules available
 {: release-note}
 
 Results from multiple environments are now available
-:   You can now pull results from multiple environments, including Amazon Web Services and Microsoft Azure into {{site.data.keyword.compliance_short}} by connecting an instance of {{site.data.keyword.sysdigsecure_full}} to the service. For help getting started, see [Connecting {{site.data.keyword.sysdigsecure_full}}](/docs/security-compliance?topic=security-compliance-setup-workload-protection).
+:   You can now pull results from multiple environments, including Amazon Web Services and Microsoft Azure into {{site.data.keyword.compliance_short}} by connecting an instance of {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}} to the service. For help getting started, see [Connecting {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}](/docs/security-compliance?topic=security-compliance-setup-workload-protection).
 
 New profiles are now available
 :   Version 1.0.0 of the the following profiles are now available:
@@ -951,7 +951,7 @@ New API version available
 {: release-note}
 
 {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile version 1.0.0
-:   Version 1.0.0 of the {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile is now available. This profile introduces the new assessment format `wp-rule`. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-iks-profile). To view results by using this profile, you must have a connected instance of Workload Protection. For help getting started, see [Connecting {{site.data.keyword.sysdigsecure_full}}](/docs/security-compliance?topic=security-compliance-setup-workload-protection).
+:   Version 1.0.0 of the {{site.data.keyword.cloud_notm}} Kubernetes Service Benchmark profile is now available. This profile introduces the new assessment format `wp-rule`. For more information, see the [Change log](/docs/security-compliance?topic=security-compliance-iks-profile). To view results by using this profile, you must have a connected instance of Workload Protection. For help getting started, see [Connecting {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}](/docs/security-compliance?topic=security-compliance-setup-workload-protection).
 
 New rule operators
 :   You can now use the operators `strings allowed`, `strings_required`, `string_contains`, and `string_not_contains` to create custom rules. For more information about the new operators or help getting started with custom rules, see [Defining custom rules](/docs/security-compliance?topic=security-compliance-rules-define).
