@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-03-03"
+lastupdated: "2025-05-16"
 
 keywords: cloud object storage, unable to store, failed to store
 
@@ -18,6 +18,13 @@ content-type: troubleshoot
 {: #cos-unable-store}
 {: troubleshoot} 
 {: support}
+
+
+
+As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
+{: important}
+
+
 
 You attempted to run a scan, but it failed during the storage process.
 {: tsSymptoms}

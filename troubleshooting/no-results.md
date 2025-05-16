@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-08-12"
+  years: 2020, 2025
+lastupdated: "2025-05-16"
 
 keywords: support, help, stack overflow, slack, no results, scan error
 
@@ -18,6 +18,13 @@ content-type: troubleshoot
 {: #ts-results}
 {: troubleshoot}
 {: support}
+
+
+
+As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
+{: important}
+
+
 
 You've created a profile or a rule but don't see any results.
 {: shortdesc}
@@ -39,4 +46,3 @@ Depending on the reason, you might try one or more of the following options to r
 * Verify that the attachment is created.
 * Wait for the scan to run.
 * Wait 24 hours for the next scan to run, or open a support ticket.
-

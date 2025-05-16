@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-09-23"
+  years: 2020, 2025
+lastupdated: "2025-05-16"
 
 keywords: custom profiles, user-defined, controls, goals, security, compliance
 
@@ -15,6 +15,13 @@ subcollection: security-compliance
 
 # Setting up data storage and processing for {{site.data.keyword.compliance_short}}
 {: #storage}
+
+
+
+As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
+{: important}
+
+
 
 When you work with {{site.data.keyword.compliance_full}}, you must configure how you want your data to be handled. For more detailed information about the types of data that can be used with the service, see [Understanding data encryption](/docs/security-compliance?topic=security-compliance-mng-data).
 {: shortdesc}

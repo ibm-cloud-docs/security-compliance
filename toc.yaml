@@ -12,7 +12,8 @@ toc:
   entries:
   - navgroup:
       id: learn
-      topics:
+      topics: 
+      - transition.md
       - topic: getting-started.md
         navtitle: Getting started
       - topicgroup:
@@ -68,7 +69,7 @@ toc:
               - custom-profile.md
               - custom-rule.md
               - profile-versioning.md 
-          - results.md 
+          - results.md
       - topicgroup:
           label: Connecting integrations
           topics:

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-03-04"
+lastupdated: "2025-05-16"
 
 keywords: getting started with the security and compliance center, get started, security, compliance
 
@@ -23,15 +23,17 @@ completion-time: 5m
 {: toc-completion-time="5m"}
 
 
-IBM Cloud security posture management (CSPM) is now available in Security and Compliance Center Workload Protection. You can centralize and streamline your security operations by consolidating all hybrid multi-cloud scanning results into a single, unified dashboard.
-{: tip}
+
+As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
+{: important}
+
+
 
 For highly regulated industries, such as financial services, achieving continuous compliance within a cloud environment is an important first step toward protecting customer and application data. Historically, that process was difficult and manual, which placed your organization at risk. But, with {{site.data.keyword.compliance_full}}, you can integrate daily, automatic compliance checks into your development lifecycle to help minimize that risk.
 {: shortdesc}
 
 
-Running an evaluation does not ensure regulatory compliance. An evaluation provides a point in time statement of your current posture for a specific resource. It is your responsibility to review and interpret the results to ensure that your organization is adhering to the controls that are required for your industry. 
-{: important}
+Running an evaluation does not ensure regulatory compliance. An evaluation provides a point in time statement of your current posture for a specific resource. It is your responsibility to review and interpret the results to ensure that your organization is adhering to the controls that are required for your industry.
 
 ## Before you begin
 {: #before-gs}

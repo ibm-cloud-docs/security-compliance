@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-10-07"
+  years: 2020, 2025
+lastupdated: "2025-05-16"
 
 keywords: scope, subscope, view results access, 
 
@@ -15,6 +15,13 @@ subcollection: security-compliance
 
 # Segmenting your scope
 {: #subscopes}
+
+
+
+As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
+{: important}
+
+
 
 To run an evaluation by using {{site.data.keyword.compliance_full}}, you must target the specific resources that you want to scan by creating a scope. After your scope is created, you can segment your scope into subscopes that can be used to limit access to scan results. To learn more about scopes and best practices, see [Best practices](/docs/security-compliance?topic=security-compliance-best-practices).
 {: shortdesc}
@@ -46,4 +53,3 @@ You can create a subscope by using the {{site.data.keyword.compliance_short}} UI
 
 
 Next, you can [create an attachment](/docs/security-compliance?topic=security-compliance-attachments) to start evaluating your resources. Or, you can [provide access](/docs/security-compliance?topic=security-compliance-access-management) to the users in your account that need to work with the subscope that you created.
-

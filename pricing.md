@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-01-16"
+lastupdated: "2025-05-16"
 
 keywords: best practices security and compliance, secure development, security strategy, governance
 
@@ -14,6 +14,13 @@ subcollection: security-compliance
 
 # How does {{site.data.keyword.compliance_short}} calculate pricing?
 {: #scc-pricing}
+
+
+
+As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
+{: important}
+
+
 
 Pricing for {{site.data.keyword.compliance_full}} is based on the number of evaluations performed. An evaluation is the check of one assessment against one resource.
 
