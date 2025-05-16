@@ -16,10 +16,8 @@ subcollection: security-compliance
 {: #integrate-with-resources}
 
 
-
 As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
 {: important}
-
 
 
 Ready to integrate {{site.data.keyword.compliance_full}} with your existing apps or services? Try out the supported developer tools.

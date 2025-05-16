@@ -24,7 +24,6 @@ As of 16 June 2025, you cannot create new instances in this version of this prod
 {: important}
 
 
-
 You enabled event notifications for the {{site.data.keyword.compliance_short}}, but your alerts aren't being forwarded to the connected {{site.data.keyword.en_short}} service instance in your account.
 {: shortdesc}
 

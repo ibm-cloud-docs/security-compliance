@@ -22,7 +22,6 @@ As of 16 June 2025, you cannot create new instances in this version of this prod
 {: important}
 
 
-
 In this change log, you can learn about the latest changes, improvements, and updates for the CIS AWS Foundational Security Best Practices  profile. The change log lists changes that were made, ordered by the version number.
 
 

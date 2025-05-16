@@ -16,10 +16,8 @@ subcollection: security-compliance
 {: #mng-data}
 
 
-
 As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
 {: important}
-
 
 
 When you work with {{site.data.keyword.compliance_full}}, you must ensure that you understand how your data is securely managed by knowing which data is stored or encrypted, and how you can delete any stored data.
