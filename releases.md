@@ -44,8 +44,8 @@ Rules changes are available
 {: #security-compliance-apr0325}
 {: release-note}
 
-Service deprecation
-:   With the deprecation of few services, you cannot create any new rules or control libraries that refer to these deprecated services. Also, the control libraries do not allow you to add the rules associated with these services. Any existing rules, control libraries, or profiles that are associated with these services are no longer evaluated.
+Changes to Observability Service
+:   With the deprecation and subsequent replacement of the Observability services, you cannot create any new rules or control libraries that refer to these deprecated services. Also, the control libraries do not allow you to add the rules associated with these services. Any existing rules, control libraries, or profiles that are associated with these services are no longer evaluated.
 
 Rules changes are available
 
