@@ -1,4 +1,4 @@
----
+<transition>---
 
 copyright:
   years: 2020, 2025
@@ -46,3 +46,5 @@ Current users can continue to use existing instances of the service during the t
 When you're ready to complete your transition to {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}, you can start deleting your service instances and the associated data that is stored in your Cloud Object Storage bucket.
 
 For more details about data security in {{site.data.keyword.compliance_short}}, see [Securing your data](/docs/security-compliance?topic=security-compliance-mng-data).
+
+</transition>

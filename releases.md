@@ -26,7 +26,7 @@ The following changes to the service were made available with the associated dat
 
 Service announcement
 
-:   Starting on 16 June 2025, users will no longer be able to create new instances of the service. All of the cloud security posture management capabilities have been transitioned to {{site.data.keyword.sysdigsecure_full}} and are already available for you to get started. If you are a new user, you’re encouraged to get started in {{site.data.keyword.sysdigsecure_full}} to minimize the need for transition. Existing users will continue to receive support during a transition period, but all feature development will be targeted to {{site.data.keyword.sysdigsecure_full}}. For more information about the timeline, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition).
+:   Starting on 16 June 2025, users will no longer be able to create new instances of the service. All of the cloud security posture management capabilities have been transitioned to {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}} and are already available for you to get started. If you are a new user, you’re encouraged to get started in {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}} to minimize the need for transition. Existing users will continue to receive support during a transition period, but all feature development will be targeted to {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}. For more information about the timeline, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition).
 
 
 
@@ -44,8 +44,8 @@ Rules changes are available
 {: #security-compliance-apr0325}
 {: release-note}
 
-Service deprecation
-:   With the deprecation of few services, you cannot create any new rules or control libraries that refer to these deprecated services. Also, the control libraries do not allow you to add the rules associated with these services. Any existing rules, control libraries, or profiles that are associated with these services are no longer evaluated.
+Changes to Observability Service
+:   With the deprecation and subsequent replacement of the Observability services, you cannot create any new rules or control libraries that refer to these deprecated services. Also, the control libraries do not allow you to add the rules associated with these services. Any existing rules, control libraries, or profiles that are associated with these services are no longer evaluated.
 
 Rules changes are available
 

@@ -15,11 +15,8 @@ subcollection: security-compliance
 # Connecting Caveonix Cloud Platform
 {: #setup-caveonix}
 
-
-
-As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
+As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the updated experience of {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
 {: important}
-
 
 
 You can configure Caveonix Cloud Platform to send results to {{site.data.keyword.compliance_short}} so that you can view all of your results in one place. Caveonix can transmit infrastructure findings that are found when a copmliance scan is run that evaluates VMware environments. For more information about using VMware solutions with {{site.data.keyword.cloud_notm}}, see [Caveonix RiskForesight on {{site.data.keyword.cloud_notm}} Overview](/docs/vmwaresolutions?topic=vmwaresolutions-caveonix_considerations).
