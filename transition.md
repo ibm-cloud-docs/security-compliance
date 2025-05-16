@@ -16,7 +16,7 @@ subcollection: security-compliance
 # {{site.data.keyword.compliance_short}} transition
 {: #scc-transition}
 
-All of the cloud security posture management (CSPM) functionality in {{site.data.keyword.compliance_short}} is now available in {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}. If you are a new user, get started directly in {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}} where you can monitor the day-to-day compliance of your resources in one place. Check out [the blog announcement](https://community.ibm.com/community/user/blogs/janet-van/2025/05/16/superior-cspm-and-full-stack-cnapp){: external} to learn more the added benefits of working with {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}.
+All of the cloud security posture management (CSPM) functionality in {{site.data.keyword.compliance_short}} is now available in {{site.data.keyword.sysdigsecure_full}}. If you are a new user, get started directly in {{site.data.keyword.sysdigsecure_full}} where you can monitor the day-to-day compliance of your resources in one place. Check out [the blog announcement](https://community.ibm.com/community/user/blogs/janet-van/2025/05/16/superior-cspm-and-full-stack-cnapp){: external} to learn more the added benefits of working with {{site.data.keyword.sysdigsecure_full}}.
 {: shortdesc}
 
 
@@ -35,7 +35,7 @@ All of the cloud security posture management (CSPM) functionality in {{site.data
 ## Next steps for current users
 {: #deprecation-next-steps}
 
-Current users can continue to use existing instances of the service during the transition. However, we recommend that you transition to the updated experience in {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}} as soon as possible to avoid any disruption. As part of your transition, be sure to disable any running scans and delete any unused instances of the service. For help getting started, see [Getting started with {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}](/docs/workload-protection?topic=workload-protection-getting-started).
+Current users can continue to use existing instances of the service during the transition. However, we recommend that you transition to the updated experience in {{site.data.keyword.sysdigsecure_full}} as soon as possible to avoid any disruption. As part of your transition, be sure to disable any running scans and delete any unused instances of the service. For help getting started, see [Getting started with {{site.data.keyword.sysdigsecure_full}}](/docs/workload-protection?topic=workload-protection-getting-started).
 
 
 
@@ -43,7 +43,7 @@ Current users can continue to use existing instances of the service during the t
 ### Deleting {{site.data.keyword.compliance_short}} instances and data
 {: #security-compliance-delete}
 
-When you're ready to complete your transition to {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}, you can start deleting your service instances and the associated data that is stored in your Cloud Object Storage bucket.
+When you're ready to complete your transition to {{site.data.keyword.sysdigsecure_full}}, you can start deleting your service instances and the associated data that is stored in your Cloud Object Storage bucket.
 
 For more details about data security in {{site.data.keyword.compliance_short}}, see [Securing your data](/docs/security-compliance?topic=security-compliance-mng-data).
 

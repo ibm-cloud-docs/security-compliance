@@ -41,7 +41,7 @@ The following integrations are available in {{site.data.keyword.compliance_short
 
 | Product | Data model | Getting started |
 |---------|------------|-----------------|
-| {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}} |{{site.data.keyword.compliance_short}} pulls results from {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-setup-workload-protection) |
+| {{site.data.keyword.sysdigsecure_full}} |{{site.data.keyword.compliance_short}} pulls results from {{site.data.keyword.sysdigsecure_full}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-setup-workload-protection) |
 | Toolchain |The Toolchain service pushes results to {{site.data.keyword.compliance_short}} and {{site.data.keyword.compliance_short}} pulls results from Toolchain depending on the configuration. | [![Note icon](../../icons/note_icon.svg)](/docs/devsecops?topic=devsecops-cd-devsecops-scc-toolchains) |
 | Caveonix | Caveonix pushes results to {{site.data.keyword.compliance_short}} | [![Note icon](../../icons/note_icon.svg)](/docs/security-compliance?topic=security-compliance-setup-caveonix) |
 | CyberStrong | {{site.data.keyword.compliance_short}} forwards results | [![Note icon](../../icons/note_icon.svg)](https://support.cybersaint.io/hc/en-us/categories/8496076077165-Knowledge-Library) |  
