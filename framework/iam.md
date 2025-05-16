@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-04-21"
+lastupdated: "2025-05-16"
 
 keywords: "IAM access for {{site.data.keyword.compliance_short}}, permissions for {{site.data.keyword.compliance_short}}, identity and access management for {{site.data.keyword.compliance_short}}, roles for {{site.data.keyword.compliance_short}}, actions for {{site.data.keyword.compliance_short}}, assigning access for {{site.data.keyword.compliance_short}}"
 
@@ -15,6 +15,13 @@ subcollection: security-compliance
 
 # Managing IAM access for {{site.data.keyword.compliance_short}}
 {: #access-management}
+
+
+
+As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
+{: important}
+
+
 
 Access to the {{site.data.keyword.compliance_full}} is controlled by {{site.data.keyword.iamshort}} (IAM). Every user that accesses the {{site.data.keyword.compliance_short}} in your account must be assigned an access policy, with a defined IAM role. The policy determines which actions that a user can perform within the context of the {{site.data.keyword.compliance_short}}.
 

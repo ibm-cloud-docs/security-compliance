@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2025
-lastupdated: "2025-05-15"
+lastupdated: "2025-05-16"
 
 keywords: "release notes for {{site.data.keyword.compliance_short}}, what's new, enhancements, fixes, improvements"
 
@@ -17,6 +17,16 @@ content-type: release-note
 {: #release-notes}
 
 The following changes to the service were made available with the associated date.
+
+
+
+
+
+## 16 May 2025
+{: #security-compliance-may1625}
+{: release-note}
+
+Starting on 16 June 2025, users will no longer be able to create new instances of the service. All of the cloud security posture management capabilities have been transitioned to {{site.data.keyword.sysdigsecure_full}} and are already available for you to get started. If you are a new user, you’re encouraged to get started in {{site.data.keyword.sysdigsecure_full}} to minimize the need for transition. Existing users will continue to receive support during a transition period, but all feature development will be targeted to {{site.data.keyword.sysdigsecure_full}}. For more information about the timeline, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-documentation).
 
 
 

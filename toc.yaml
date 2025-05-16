@@ -13,6 +13,7 @@ toc:
   - navgroup:
       id: learn
       topics: 
+      - transition.md
       - topic: getting-started.md
         navtitle: Getting started
       - topicgroup:

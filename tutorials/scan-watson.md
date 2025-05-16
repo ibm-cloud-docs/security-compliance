@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: "2024"
-lastupdated: "2024-10-08"
+  years: "2025"
+lastupdated: "2025-05-16"
 
 keywords: watson machine learning, ai profiles, ai, artificial intelligence, scanning, secrets-manager, credentials
 
@@ -22,6 +22,13 @@ completion-time: 20m
 {: toc-content-type="tutorial"}
 {: toc-services="security-compliance, secrets-manager, account"}
 {: toc-completion-time="30m"}
+
+
+
+As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
+{: important}
+
+
 
 As the focal in charge of setting up the compliance posture in an environment that contains your SaaS services, such as Watson Machine Learning, you can use {{site.data.keyword.compliance_full}}. This tutorial walks you through scanning your Watson Machine Learning resources against the [AI Security Guardrails 2.0](/docs/security-compliance?topic=security-compliance-ai-security-change-log&interface=ui) profile.
 {: shortdesc} 
@@ -144,4 +151,3 @@ After you assign the credentials, you're free to start scanning your Watson Mach
 {: scan-watson-attachment-next}
 
 Now that you finished evaluating your Watson Machine Learning resources against the AI Security Guardrails 2.0 profile, you can [view detailed results in the dashboard](/docs/security-compliance?topic=security-compliance-results&interface=ui#view-detailed-results) and download a report. 
-

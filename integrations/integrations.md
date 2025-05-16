@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025
-lastupdated: "2025-05-15"
+lastupdated: "2025-05-16"
 
 keywords: Centralized security, compliance monitoring, compliance, integration
 
@@ -15,6 +15,13 @@ subcollection: security-compliance
 
 # Understanding integrations
 {: #integrations}
+
+
+
+As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
+{: important}
+
+
 
 To fully understand your security and compliance landscape across multiple cloud environments, you can integrate other products with {{site.data.keyword.compliance_short}}.
 {: shortdesc}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-10-07"
+  years: 2020, 2025
+lastupdated: "2025-05-16"
 
 keywords: support, help, stack overflow, slack, double results, same name, scope, attachment
 
@@ -19,6 +19,13 @@ content-type: troubleshoot
 {: troubleshoot}
 {: support}
 
+
+
+As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
+{: important}
+
+
+
 You see the same attachment listed twice in your detailed results.
 {: shortdesc}
 
@@ -32,4 +39,3 @@ Entries might have the same name if your scope has been edited after it was adde
 
 You can avoid this by not editing your scope after it has been added to an attachment.
 {: tsResolve}
-

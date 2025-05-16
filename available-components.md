@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2025
-lastupdated: "2025-04-04"
+  years: 2020, 2025
+lastupdated: "2025-05-16"
 
 keywords: integrations, integrated services, integrations for rules, rules and goals, cloud services, Business Partners
 
@@ -16,6 +16,13 @@ content-type: release-note
 
 # What can I evaluate?
 {: #scannable-components}
+
+
+
+As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
+{: important}
+
+
 
 With {{site.data.keyword.compliance_full}}, you can evaluate the resources that run on {{site.data.keyword.cloud_notm}} and other cloud providers for compliance. The environments that can be evaluated differ depending on how the configuration information is obtained. 
 {: shortdesc}

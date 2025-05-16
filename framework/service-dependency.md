@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2025
-lastupdated: "2025-02-20"
+lastupdated: "2025-05-16"
 
 keywords:
 
@@ -17,6 +17,13 @@ subcollection: security-compliance
 
 # Service dependency map for IBM Cloud Security and Compliance Center
 {: #service-dependencies}
+
+
+
+As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
+{: important}
+
+
 
 If a service depends on other {{site.data.keyword.cloud_notm}} services, there can be impacts if any of the dependent services are having issues. The dependency severity indicates the impact to the service when the dependency is down.
 {: shortdesc}
