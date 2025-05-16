@@ -17,10 +17,8 @@ subcollection: security-compliance
 {: #subscopes}
 
 
-
 As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
 {: important}
-
 
 
 To run an evaluation by using {{site.data.keyword.compliance_full}}, you must target the specific resources that you want to scan by creating a scope. After your scope is created, you can segment your scope into subscopes that can be used to limit access to scan results. To learn more about scopes and best practices, see [Best practices](/docs/security-compliance?topic=security-compliance-best-practices).

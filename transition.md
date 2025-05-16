@@ -16,7 +16,7 @@ subcollection: security-compliance
 # {{site.data.keyword.compliance_short}} transition
 {: #scc-transition}
 
-All of the cloud security posture management (CSPM) functionality in {{site.data.keyword.compliance_short}} is now available in {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}. If you are a new user, get started directly in {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}} where you can monitor the day-to-day compliance of your resources in one place. Check out the blog announcement to learn more the added benefits of working with {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}.
+All of the cloud security posture management (CSPM) functionality in {{site.data.keyword.compliance_short}} is now available in {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}. If you are a new user, get started directly in {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}} where you can monitor the day-to-day compliance of your resources in one place. Check out [the blog announcement](https://community.ibm.com/community/user/blogs/janet-van/2025/05/16/superior-cspm-and-full-stack-cnapp){: external} to learn more the added benefits of working with {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}.
 {: shortdesc}
 
 
@@ -46,4 +46,3 @@ Current users can continue to use existing instances of the service during the t
 When you're ready to complete your transition to {{site.data.keyword.compliance_short}} {{site.data.keyword.sysdigsecure_short}}, you can start deleting your service instances and the associated data that is stored in your Cloud Object Storage bucket.
 
 For more details about data security in {{site.data.keyword.compliance_short}}, see [Securing your data](/docs/security-compliance?topic=security-compliance-mng-data).
-

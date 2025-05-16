@@ -17,10 +17,8 @@ subcollection: security-compliance
 {: #scopes}
 
 
-
 As of 16 June 2025, you cannot create new instances in this version of this product. All of the functionality is now available in the replacement service {{site.data.keyword.sysdigsecure_full}}. For more information, see [the transition documentation](/docs/security-compliance?topic=security-compliance-scc-transition). 
 {: important}
-
 
 
 To run an evaluation by using {{site.data.keyword.compliance_full}}, you must target the specific resources that you want to scan by creating a scope. To learn more about subscopes and how they work, see [How does {{site.data.keyword.compliance_short}} work](/docs/security-compliance?topic=security-compliance-posture-management).
